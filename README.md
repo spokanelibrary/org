@@ -1,7 +1,9 @@
 org
 ===
 
-spokanelibrary.org wordpress theme
+a wordpress theme for spokanelibrary.org
+
+based on roots: http://roots.io/
 
 building org
 ---
