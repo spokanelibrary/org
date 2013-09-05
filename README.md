@@ -3,7 +3,7 @@ org
 
 a wordpress theme for spokanelibrary.org
 
-based on roots: http://roots.io/
+based on roots: http://roots.io/https://github.com/spokanelibrary/org.git
 
 building org
 ---
