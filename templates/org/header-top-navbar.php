@@ -1,6 +1,5 @@
+<div id="spl-common-navbar">
 <header class="banner navbar navbar-static-top" role="navigation">
-<div class="container">
-<div class="navbar-header">
   <ul class="nav navbar-nav nav-justified">
     <li>
       <a href="<?php echo home_url(); ?>/">
@@ -39,6 +38,5 @@
       </a>
     </li>
   </ul>
-</div>
-</div>
 </header><!-- /.navbar -->
+</div>
