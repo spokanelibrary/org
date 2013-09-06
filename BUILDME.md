@@ -6,3 +6,13 @@ building org
 * remove node_modules on update?
 
 * update style.css, add a screenshot
+
+
+mod org
+---
+
+lib/org - includable mods
+
+
+* init.php
+-  add nav menus
