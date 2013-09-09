@@ -9,6 +9,7 @@ my git-fu is not strong enough to track this upstream.
 * add/replace top-level files
 * add all /org directories
 * manually add changes to individual files
+* nuke tmp sometime before the next manual merge/rebase
 
 the org chart
 ===
@@ -27,12 +28,9 @@ a list of files touched in org. attempt to group all changes under /org director
 		* variables.less ?
 	* app.less
 
-
-
 * /lib
 	* /org - includable mods
 	* custom.php (custom init.php, etc)
-
 
 * /templates
 	* /org
