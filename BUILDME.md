@@ -9,14 +9,13 @@ building org
 the org chart
 ===
 
-.gitignore
+*.gitignore
+*BUILDME.md
+*README.md
+*screenshot.png
+*style.css (project description)
 
-BUILDME.md
-README.md
-screenshot.png
-style.css (project description)
-
-/assets
+*/assets
 	/less
 		org
 		bootstrap/variables
@@ -24,7 +23,7 @@ style.css (project description)
 
 
 
-lib
+*lib
 	/org - includable mods
 	init.php (nav menus)
 	custom.php
@@ -32,6 +31,6 @@ lib
 
 
 
-templates
+*templates
 	/org
 	header-top-navbar
