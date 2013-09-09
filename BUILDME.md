@@ -16,11 +16,11 @@ the org chart
 * style.css (project description)
 
 * /assets
-		/less
-			/org
-			/bootstrap
-				variables.less
-			app.less
+		- /less
+			- /org
+			- /bootstrap
+					variables.less
+			- app.less
 
 
 
