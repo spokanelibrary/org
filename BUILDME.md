@@ -1,13 +1,13 @@
 building org
 ===
-my git-fu is not strong enough to track this upstream.
+my git-fu is not strong enough to properly track this upstream.
 
 * copy org to a tmp dir
 * remove everything except .git
 * npm install (grunt watch during dev)
-* copy in up-to-date roots (exluding .git)
-* add/replace top-level files
-* add all /org directories
+* copy over up-to-date roots (exluding .git)
+* add/replace top-level /org files
+* add all /org subdirectories
 * manually add changes to individual files
 * nuke tmp sometime before the next manual merge/rebase
 
