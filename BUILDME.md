@@ -11,6 +11,10 @@ my git-fu is not strong enough to properly track this upstream.
 * manually add changes to individual files
 * nuke tmp sometime before the next manual merge/rebase
 
+todo
+===
+* add /org .css to grunt watch
+
 the org chart
 ===
 a list of files touched in org. attempt to group all changes under /org directory.
