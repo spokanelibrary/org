@@ -16,7 +16,7 @@ the org chart
 * style.css (project description)
 
 * /assets
-			/less
+			* /less
 					/org
 		/bootstrap
 					variables.less
