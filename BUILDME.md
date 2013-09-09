@@ -1,6 +1,6 @@
 building org
 ===
-my git-fu is not strong enough to track this upstream
+my git-fu is not strong enough to track this upstream.
 
 * copy org to a tmp dir
 * remove everything except .git
@@ -12,7 +12,7 @@ my git-fu is not strong enough to track this upstream
 
 the org chart
 ===
-a list of files touched in org. attempt to group all changes under /org directory
+a list of files touched in org. attempt to group all changes under /org directory.
 
 * .gitignore
 * BUILDME.md
