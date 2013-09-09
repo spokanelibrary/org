@@ -3,17 +3,35 @@ building org
 
 * start with current roots theme
 * npm install (grunt watch during dev)
-* remove node_modules on update?
-* update style.css, add a screenshot
+* remove node_modules & gruntfile.js on update?
 
 
-mod org
+the org chart
 ===
 
-lib/org - includable mods
+.gitignore
 
-* init.php (nav menus)
+BUILDME.md
+README.md
+screenshot.png
+style.css (project description)
 
-templates/org
+/assets
+	/less
+		org
+		bootstrap/variables
+		app.less
 
-* header-top-navbar
+
+
+lib
+	/org - includable mods
+	init.php (nav menus)
+	custom.php
+	scripts.php
+
+
+
+templates
+	/org
+	header-top-navbar
