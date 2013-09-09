@@ -32,6 +32,9 @@ a list of files touched in org. attempt to group all changes under /org director
 	* /bootstrap
 		* variables.less ?
 	* app.less
+	* /js
+		* /vendor
+			* respond.min.js
 
 * /lib
 	* /org - includable mods
