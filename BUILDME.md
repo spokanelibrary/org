@@ -1,18 +1,13 @@
 building org
 ===
+my git-fu is not strong enough to track this upstream
 
-* start with current roots theme
+* remove everything except .git
 * npm install (grunt watch during dev)
-* remove node_modules & gruntfile.js on update?
-
-updating org
-===
-*remove everything except /.git
-*npm install (grunt watch during dev)
-*copy in up-to-date roots
-*add/replace top-level files
-*add all /org directories
-*manually add changes to individual files
+* copy in up-to-date roots (exluding .git)
+* add/replace top-level files
+* add all /org directories
+* manually add changes to individual files
 
 the org chart
 ===
