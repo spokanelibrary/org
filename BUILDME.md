@@ -30,7 +30,7 @@ a list of files touched in org. attempt to group all changes under /org director
 	* /less
 		* /org
 	* /bootstrap
-		* variables.less ?
+		* variables.less
 	* app.less
 	* /js
 		* /vendor
