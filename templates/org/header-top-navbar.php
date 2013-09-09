@@ -1,4 +1,4 @@
-<div id="spl-common-navbar">
+<div id="">
 <header class="banner navbar navbar-custom navbar-static-top" role="navigation">
   <ul class="nav navbar-nav nav-justified">
     <li>
