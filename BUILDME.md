@@ -17,7 +17,7 @@ the org chart
 
 * /assets
 	* /less
-			* /org
+		* /org
 	* /bootstrap
 		*variables.less
 	* app.less
