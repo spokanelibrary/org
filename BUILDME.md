@@ -18,9 +18,9 @@ a list of files we touch in org. in general we attempt to group all changes unde
 
 * /assets
 	* /less
-					* /org
+		* /org
 	* /bootstrap
-					* variables.less
+		* variables.less
 	* app.less
 
 
