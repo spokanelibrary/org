@@ -1,4 +1,4 @@
-<header class="banner navbar navbar-custom navbar-static-top" role="navigation">
+<header class="banner navbar navbar-common navbar-static-top" role="navigation">
   <ul class="nav navbar-nav nav-justified">
     <li>
       <a href="<?php echo home_url(); ?>/">

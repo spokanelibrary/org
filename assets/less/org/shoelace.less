@@ -2,27 +2,27 @@
    SHOELACE
    ========================================================================== */
 
-// Custom navbar
+// Common navbar
 
-.navbar-custom {
-  background-color: @navbar-custom-bg;
-  border-color: @navbar-custom-border;
+.navbar-common {
+  background-color: @navbar-common-bg;
+  border-color: @navbar-common-border;
 
-  border-bottom: 1px solid @navbar-custom-border;
+  border-bottom: 1px solid @navbar-common-border;
   margin:0; padding:0;
   min-height: 40px; height:40px;
 
   .navbar-brand {
-    color: @navbar-custom-brand-color;
+    color: @navbar-common-brand-color;
     &:hover,
     &:focus {
-      color: @navbar-custom-brand-hover-color;
-      background-color: @navbar-custom-brand-hover-bg;
+      color: @navbar-common-brand-hover-color;
+      background-color: @navbar-common-brand-hover-bg;
     }
   }
 
   .navbar-text {
-    color: @navbar-custom-color;
+    color: @navbar-common-color;
   }
 
   .navbar-nav {
@@ -51,51 +51,51 @@
         text-align: center;
         border-radius: 0;
         border-right: 1px solid rgba(0,0,0,.1);
-        border-left: 1px solid rgba(red(@navbar-custom-border)
-                                  , green(@navbar-custom-border)
-                                  , blue(@navbar-custom-border), .1);
+        border-left: 1px solid rgba(red(@navbar-common-border)
+                                  , green(@navbar-common-border)
+                                  , blue(@navbar-common-border), .1);
 
-      color: @navbar-custom-link-color;
+      color: @navbar-common-link-color;
 
       &:hover,
       &:focus {
-        color: @navbar-custom-link-hover-color;
-        background-color: @navbar-custom-link-hover-bg;
+        color: @navbar-common-link-hover-color;
+        background-color: @navbar-common-link-hover-bg;
       }
     }
     > .active > a {
       &,
       &:hover,
       &:focus {
-        color: @navbar-custom-link-active-color;
-        background-color: @navbar-custom-link-active-bg;
+        color: @navbar-common-link-active-color;
+        background-color: @navbar-common-link-active-bg;
       }
     }
     > .disabled > a {
       &,
       &:hover,
       &:focus {
-        color: @navbar-custom-link-disabled-color;
-        background-color: @navbar-custom-link-disabled-bg;
+        color: @navbar-common-link-disabled-color;
+        background-color: @navbar-common-link-disabled-bg;
       }
     }
   }
 
   // Darken the responsive nav toggle
   .navbar-toggle {
-    border-color: @navbar-custom-toggle-border-color;
+    border-color: @navbar-common-toggle-border-color;
     &:hover,
     &:focus {
-      background-color: @navbar-custom-toggle-hover-bg;
+      background-color: @navbar-common-toggle-hover-bg;
     }
     .icon-bar {
-      background-color: @navbar-custom-toggle-icon-bar-bg;
+      background-color: @navbar-common-toggle-icon-bar-bg;
     }
   }
 
   .navbar-collapse,
   .navbar-form {
-    border-color: darken(@navbar-custom-bg, 7%);
+    border-color: darken(@navbar-common-bg, 7%);
   }
 
   // Dropdowns
@@ -104,57 +104,57 @@
       &,
       &:hover,
       &:focus {
-        background-color: @navbar-custom-link-active-bg;
-        color: @navbar-custom-link-active-color;
+        background-color: @navbar-common-link-active-bg;
+        color: @navbar-common-link-active-color;
       }
     }
     > .dropdown > a:hover .caret {
-      border-top-color: @navbar-custom-link-hover-color;
-      border-bottom-color: @navbar-custom-link-hover-color;
+      border-top-color: @navbar-common-link-hover-color;
+      border-bottom-color: @navbar-common-link-hover-color;
     }
     > .dropdown > a .caret {
-      border-top-color: @navbar-custom-link-color;
-      border-bottom-color: @navbar-custom-link-color;
+      border-top-color: @navbar-common-link-color;
+      border-bottom-color: @navbar-common-link-color;
     }
     > .open > a {
       &,
       &:hover,
       &:focus {
         .caret {
-          border-top-color: @navbar-custom-link-active-color;
-          border-bottom-color: @navbar-custom-link-active-color;
+          border-top-color: @navbar-common-link-active-color;
+          border-bottom-color: @navbar-common-link-active-color;
         }
       }
     }
 
     @media (max-width: @screen-xs-max) {
-      // Dropdowns get custom display
+      // Dropdowns get common display
       .open .dropdown-menu {
         > .dropdown-header {
-          border-color: @navbar-custom-border;
+          border-color: @navbar-common-border;
         }
         > li > a {
-          color: @navbar-custom-link-color;
+          color: @navbar-common-link-color;
           &:hover,
           &:focus {
-            color: @navbar-custom-link-hover-color;
-            background-color: @navbar-custom-link-hover-bg;
+            color: @navbar-common-link-hover-color;
+            background-color: @navbar-common-link-hover-bg;
           }
         }
         > .active > a {
           &,
           &:hover,
           &:focus {
-            color: @navbar-custom-link-active-color;
-            background-color: @navbar-custom-link-active-bg;
+            color: @navbar-common-link-active-color;
+            background-color: @navbar-common-link-active-bg;
           }
         }
         > .disabled > a {
           &,
           &:hover,
           &:focus {
-            color: @navbar-custom-link-disabled-color;
-            background-color: @navbar-custom-link-disabled-bg;
+            color: @navbar-common-link-disabled-color;
+            background-color: @navbar-common-link-disabled-bg;
           }
         }
       }
@@ -162,36 +162,11 @@
   }
 
   .navbar-link {
-    color: @navbar-custom-link-color;
+    color: @navbar-common-link-color;
     &:hover {
-      color: @navbar-custom-link-hover-color;
+      color: @navbar-common-link-hover-color;
     }
   }
 
 }
 
-/* Common Navbar */
-
-.navbar-custom {
-  
-}
-
-.navbar-custom .nav {
-  
-}
-.navbar-custom .nav li {
-  
-}
-.navbar-custom .nav li a {
-
-}
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:active {
-  
-}
-.navbar-custom .nav li:first-child a {
-  /*border-left: 0;*/
-}
-.navbar-custom .nav li:last-child a {
-  /*border-right: 0;*/
-}
