@@ -20,7 +20,7 @@ a list of files we touch in org. in general we attempt to group all changes unde
 	* /less
 			* /org
 	* /bootstrap
-			*variables.less
+			* variables.less
 	* app.less
 
 
