@@ -26,6 +26,17 @@
   }
 
   .navbar-nav {
+
+    margin: 0;
+    display: table;
+    width: 100%;
+
+    > li {
+      display: table-cell;
+      width: auto;
+      float: none;
+    }
+
     > li > a {
       color: @navbar-custom-link-color;
 
@@ -149,14 +160,10 @@
 }
 
 .navbar-custom .nav {
-  margin: 0;
-  display: table;
-  width: 100%;
+  
 }
 .navbar-custom .nav li {
-  display: table-cell;
-  width: auto;
-  float: none;
+  
 }
 .navbar-custom .nav li a {
   padding: 12px 0 8px 0;
