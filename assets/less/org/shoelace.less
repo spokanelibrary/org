@@ -8,6 +8,10 @@
   background-color: @navbar-custom-bg;
   border-color: @navbar-custom-border;
 
+  border-bottom: 1px solid @navbar-custom-border;
+  margin:0; padding:0;
+  min-height: 40px; height:40px;
+
   .navbar-brand {
     color: @navbar-custom-brand-color;
     &:hover,
@@ -141,10 +145,7 @@
 /* Common Navbar */
 
 .navbar-custom {
-  border-bottom: 1px solid @navbar-custom-border;
-  /*border-bottom: 1px solid rgb(150,200,100);*/
-  margin:0; padding:0;
-  min-height: 40px; height:40px;
+  
 }
 
 .navbar-custom .nav {
