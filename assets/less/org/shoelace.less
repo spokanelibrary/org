@@ -38,6 +38,16 @@
     }
 
     > li > a {
+        padding: 12px 0 8px 0;
+        //color: #fff;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 0;
+        border-right: 1px solid rgba(0,0,0,.1);
+        border-left: 1px solid rgba(red(@navbar-custom-border)
+                                  , green(@navbar-custom-border)
+                                  , blue(@navbar-custom-border), .1);
+
       color: @navbar-custom-link-color;
 
       &:hover,
@@ -166,18 +176,7 @@
   
 }
 .navbar-custom .nav li a {
-  padding: 12px 0 8px 0;
-  color: #fff;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 0;
-  /*
-  border-left: 1px solid rgba(150,200,100,.75);
-  */
-  border-right: 1px solid rgba(0,0,0,.1);
-  border-left: 1px solid rgba(red(@navbar-custom-border)
-                            , green(@navbar-custom-border)
-                            , blue(@navbar-custom-border), .1);
+
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:active {
