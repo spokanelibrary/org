@@ -8,7 +8,7 @@ building org
 
 the org chart
 ===
-a list of files we touch in org. in general we attempt to group all changes under an org directory.
+a list of files touched in org. attempt to group all changes under /org directory
 
 * .gitignore
 * BUILDME.md
