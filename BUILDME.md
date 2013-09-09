@@ -8,7 +8,7 @@ building org
 
 the org chart
 ===
-aist of files we touch in org:
+a list of files we touch in org:
 
 * .gitignore
 * BUILDME.md
@@ -37,4 +37,3 @@ aist of files we touch in org:
 	* /org
 	* header-top-navbar.php
 
-	
