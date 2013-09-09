@@ -8,7 +8,7 @@ building org
 
 the org chart
 ===
-a list of files we touch in org:
+a list of files we touch in org. in general we attempt to group all changes under an org directory.
 
 * .gitignore
 * BUILDME.md
@@ -25,7 +25,7 @@ a list of files we touch in org:
 
 
 
-* lib
+* /lib
 	* /org - includable mods
 	* init.php (nav menus)
 	* custom.php
@@ -33,7 +33,7 @@ a list of files we touch in org:
 
 
 
-* templates
+* /templates
 	* /org
 	* header-top-navbar.php
 
