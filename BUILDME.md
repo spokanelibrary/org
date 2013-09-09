@@ -8,7 +8,7 @@ building org
 
 the org chart
 ===
-List of roots files we touch in org
+aist of files we touch in org:
 
 * .gitignore
 * BUILDME.md
@@ -26,13 +26,15 @@ List of roots files we touch in org
 
 
 * lib
-	/org - includable mods
-	init.php (nav menus)
-	custom.php
-	scripts.php
+	* /org - includable mods
+	* init.php (nav menus)
+	* custom.php
+	* scripts.php
 
 
 
 * templates
-	/org
-	header-top-navbar
+	* /org
+	* header-top-navbar.php
+
+	
