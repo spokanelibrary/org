@@ -1,4 +1,5 @@
 <?php
+
 	add_action( 'wp_head', create_function( '',  
 	   'echo \'<!--[if lt IE 9]><script src="'.get_template_directory_uri() . '/assets/js/vendor/respond.min.js"></script><![endif]-->\';'
 	) );
@@ -10,4 +11,5 @@
     'connect_navigation' => __('Connect Navigation', 'org'),
   ));
   */
+
 ?>

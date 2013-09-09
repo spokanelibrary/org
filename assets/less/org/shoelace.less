@@ -2,6 +2,66 @@
    SHOELACE
    ========================================================================== */
 
+/* Masthead */
+
+.navbar-inverse .navbar-toggle {
+  background: #0065a1;
+  margin-top: 8px;
+}
+
+#spl-masthead {
+  /*background-color: #fff;*/
+  background-color: #0065a1;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0;
+}
+#spl-masthead input,
+#spl-masthead button {
+  opacity:.9;
+}
+#spl-masthead .container {
+  position: relative; /* for profile, etc */
+  background: transparent url('../img/SPL-Pano.jpg') no-repeat 180px -45px;
+}
+#spl-logo {
+  /*margin:0; padding:0;*/
+  width: 170px; height: 85px;
+  /*background: transparent url('../img/SPL-Logo-beta.png') no-repeat center center;*/
+  background: transparent url('../img/SPL-Logo-inverse.png') no-repeat center center;
+}
+
+@media (min-width: 992px) {  
+   .navbar-collapse {
+      padding-left:0;
+   }
+}
+
+@media (max-width: 992px) {   
+
+  #spl-masthead .container {
+    background-color: inherit;
+    background-image: none;
+  }
+
+  #spl-logo-mobile .logotype {
+    display:block;
+    /*width: 240px;*/
+    margin-left: 50px; 
+    padding-top: 15px
+  }
+  #spl-logo-mobile {
+    color: #fff;
+    /*color: rgb(0,85,135);*/
+    margin:0; padding:0;
+    margin-left: 10px;
+    width: auto; height: 50px; 
+    background: transparent url('../img/spl-touch-inverse.png') no-repeat left center;
+    /*background: transparent url('../img/spl-touch.png') no-repeat left center; */
+  }
+}
+
+
+
 // Common navbar
 
 .navbar-common {

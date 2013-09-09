@@ -38,3 +38,13 @@
     </li>
   </ul>
 </header><!-- /.navbar -->
+
+<header id="spl-masthead" class="banner navbar navbar-static-top navbar-inverse visible-md visible-lg" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+    <a class="navbar-brand" id="spl-logo" href="<?php echo home_url(); ?>/">
+      <span class="text-hide"><?php bloginfo('name'); ?></span>
+    </a>
+    </div>
+  </div>
+</header>
