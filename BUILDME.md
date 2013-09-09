@@ -2,6 +2,7 @@ building org
 ===
 my git-fu is not strong enough to track this upstream
 
+* copy org to a tmp dir
 * remove everything except .git
 * npm install (grunt watch during dev)
 * copy in up-to-date roots (exluding .git)
@@ -23,17 +24,14 @@ a list of files touched in org. attempt to group all changes under /org director
 	* /less
 		* /org
 	* /bootstrap
-		* variables.less
+		* variables.less ?
 	* app.less
 
 
 
 * /lib
 	* /org - includable mods
-	* init.php (nav menus)
-	* custom.php
-	* scripts.php
-
+	* custom.php (custom init.php, etc)
 
 
 * /templates
