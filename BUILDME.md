@@ -5,6 +5,14 @@ building org
 * npm install (grunt watch during dev)
 * remove node_modules & gruntfile.js on update?
 
+updating org
+===
+*remove everything except /.git
+*npm install (grunt watch during dev)
+*copy in up-to-date roots
+*add/replace top-level files
+*add all /org directories
+*manually add changes to individual files
 
 the org chart
 ===
