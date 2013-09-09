@@ -175,7 +175,9 @@
   border-left: 1px solid rgba(150,200,100,.75);
   */
   border-right: 1px solid rgba(0,0,0,.1);
-  border-left: 1px solid @navbar-custom-border;
+  border-left: 1px solid rgba(red(@navbar-custom-border)
+                            , green(@navbar-custom-border)
+                            , blue(@navbar-custom-border), .1);
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:active {
