@@ -40,6 +40,7 @@ a list of files touched in org. attempt to group all changes under /org director
 
 * /templates
 	* /org
+	* footer.php
 	* header-top-navbar.php
 
 todo
