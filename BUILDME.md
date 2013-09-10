@@ -28,6 +28,7 @@ a list of files touched in org. attempt to group all changes under /org director
 		* /org
 	* /bootstrap
 		* variables.less
+		* carousel.less
 	* app.less
 	* /js
 		* /vendor
