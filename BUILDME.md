@@ -33,12 +33,14 @@ a list of files touched in org. attempt to group all changes under /org director
 	* /js
 		* /vendor
 			* respond.min.js
+			* helper.js
+			* handlebars.js
 
 * /lib
-	* /org - includable mods
+	* /org
 	* config.php (sidebars, template overrides, etc)
 	* custom.php (custom init.php, etc)
-	* scripts.php
+	* scripts.php ?
 
 * /templates
 	* /org
@@ -48,4 +50,5 @@ a list of files touched in org. attempt to group all changes under /org director
 todo
 ===
 
-custom button (inverse)
+* custom button (inverse)
+* get serious about app icons
