@@ -18,32 +18,34 @@ a list of files touched in org. attempt to group all changes under /org director
 
 * .gitignore
 * Gruntfile.js (watch ,'assets/less/org/*.less')
-* BUILDME.md
+* BUILDME.md (add)
 * README.md
 * screenshot.png
 * style.css (project description)
 
 * /assets
 	* /less
-		* /org
+		* /org (add)
 	* /bootstrap
 		* variables.less
 		* carousel.less (just kill gradients)
-	* app.less
+	* /css
+		* app.less
 	* /js
+		* _main.js
 		* /vendor
-			* respond.min.js
-			* helper.js
-			* handlebars.js
+			* respond.min.js (add)
+			* helper.js (add)
+			* handlebars.js (add)
 
 * /lib
-	* /org
+	* /org (add)
 	* config.php (sidebars, template overrides, etc)
 	* custom.php (custom init.php, etc)
 	* scripts.php ?
 
 * /templates
-	* /org
+	* /org (add)
 	* footer.php
 	* header-top-navbar.php
 
