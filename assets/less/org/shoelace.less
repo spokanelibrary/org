@@ -2,6 +2,37 @@
    SHOELACE
    ========================================================================== */
 
+
+/* Let the page breath */
+
+.wrap {
+  margin-bottom: 20px;
+}
+
+/* Tighten up headers */
+
+.page-header { margin:0 0 10px 0; padding:0; border-bottom:none; }
+.page-header h1 { margin:0; padding:0; color:rgb(0,85,135); font-family: Georgia, serif; font-weight:normal; }
+
+@media (max-width:767px) {
+  .page-header h1 {
+    font-size: 26px;
+  }
+}
+
+/* Simplify sidebars */
+.sidebar h3 {
+  color: #666;
+  margin-top: 10px;
+  border-bottom: 1px dotted #ccc;
+}
+.sidebar div>ul {
+  padding-left: 10px;
+}
+.sidebar div>ul>li {
+  list-style: none;
+}
+
 /* Masthead */
 
 .navbar-inverse .navbar-toggle {
