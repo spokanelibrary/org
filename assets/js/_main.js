@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  MBP.hideUrlBarOnLoad();
+  
 
 } );
 
@@ -12,6 +12,7 @@ var ExampleSite = {
   common: {
     init: function() {
       // JS here
+      MBP.hideUrlBarOnLoad();
     },
     finalize: function() { }
   },
