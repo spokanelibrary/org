@@ -70,7 +70,8 @@ module.exports = function(grunt) {
         files: [
           '<%= jshint.all %>'
         ],
-        tasks: ['jshint', 'uglify', 'version']
+        //tasks: ['jshint', 'uglify', 'version']
+        tasks: ['uglify', 'version']
       },
       livereload: {
         // Browser live reloading
