@@ -122,6 +122,78 @@
 }
 
 
+/* Side notes for calling out things
+-------------------------------------------------- */
+
+/* Base styles (regardless of theme) */
+.panel-callout {
+  /*width: 280px;*/
+  /*margin: 20px 0;*/
+  /*padding: 15px 30px 15px 15px;*/
+  padding: 15px;
+  border-left-width: 5px;
+  /*border-left: 5px solid #eee;*/
+}
+
+.panel-callout h4 {
+  margin-top: 0;
+}
+.panel-callout p:last-child {
+  margin-bottom: 0;
+}
+.panel-callout code,
+.panel-callout .highlight {
+  background-color: #fff;
+}
+
+/* Themes for different contexts */
+.panel-callout-default {
+  background-color: #f5f5f5;
+  /*border-color: #ddd;*/
+}
+.panel-callout-inverse,
+.panel-callout-inverse a,
+.panel-callout-inverse a small {
+  color: #fff;
+}
+.panel-callout-inverse ul.nav-pills a:hover {
+  color: #005587;
+}
+.panel-callout-primary,
+.panel-callout-primary hr {
+  background-color: #0065a1;
+  border-color: #005587;
+}
+.panel-callout-danger {
+  background-color: #fcf2f2;
+  /*border-color: #dFb5b4;*/
+}
+.panel-callout-warning {
+  background-color: #fefbed;
+  /*border-color: #f1e7bc;*/
+}
+.panel-callout-info {
+  background-color: #f0f7fd;
+  /*border-color: #d0e3f0;*/
+}
+.panel-callout-success {
+  background-color: #dff0d8;
+  /*border-color: #d6e9c6;*/
+}
+
+/* Panel customizations */
+
+.panel-transparent {
+   background: transparent !important;
+}
+
+.panel-condensed .panel-heading,
+.panel-condensed .panel-body,
+.panel-condensed .panel-footer {
+   padding: 6px;
+}
+
+
 /* ==========================================================================
    CUSTOM BOOTSTRAP ELEMENTS (see custom.less for variable definitions)
    ========================================================================== */
