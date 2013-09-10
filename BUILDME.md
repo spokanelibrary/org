@@ -36,7 +36,9 @@ a list of files touched in org. attempt to group all changes under /org director
 
 * /lib
 	* /org - includable mods
+	* config.php (sidebars, template overrides, etc)
 	* custom.php (custom init.php, etc)
+	* scripts.php
 
 * /templates
 	* /org
