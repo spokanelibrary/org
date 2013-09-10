@@ -1,4 +1,5 @@
 <?php include('org/header-top-navbar.php'); ?>
+<!--
 <header class="banner navbar navbar-inverse navbar-static-top" role="banner">
   <div class="container">
     <div class="navbar-header">
@@ -8,9 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <!--
       <a class="navbar-brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
-      -->
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
@@ -22,3 +21,4 @@
     </nav>
   </div>
 </header>
+-->

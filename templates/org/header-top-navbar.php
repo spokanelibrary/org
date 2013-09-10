@@ -39,7 +39,7 @@
   </ul>
 </header><!-- /.navbar -->
 
-<header id="spl-masthead" class="banner navbar navbar-static-top navbar-inverse visible-md visible-lg" role="banner">
+<header id="spl-masthead" class="banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
     <div class="navbar-header">
     <a class="navbar-brand" id="spl-logo" href="<?php echo home_url(); ?>/">
