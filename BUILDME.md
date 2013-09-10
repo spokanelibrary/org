@@ -52,5 +52,6 @@ a list of files touched in org. attempt to group all changes under /org director
 todo
 ===
 
+* move custom functions to widgets
 * custom button (inverse)
 * get serious about app icons
