@@ -14,7 +14,7 @@ my git-fu is not strong enough to properly track this upstream.
 
 the org chart
 ===
-a list of files touched in org. attempt to group all changes under /org directory.
+a list of files touched in org. attempt to group all changes under /org directories.
 
 * .gitignore
 * Gruntfile.js (watch ,'assets/less/org/*.less')
