@@ -57,3 +57,4 @@ todo
 * move custom functions to widgets
 * get serious about app icons
 * h5bp .htaccess
+* hi-dpi logos
