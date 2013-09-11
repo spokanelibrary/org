@@ -1,38 +1,24 @@
-$(document).ready(function() {
-
-  MBP.hideUrlBarOnLoad();
-
-
-} );
 
 // Modified http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/
 // Only fires on body class (working off strictly WordPress body_class)
 
-var ExampleSite = {
+var ORG = {
   // All pages
   common: {
     init: function() {
-      // JS here
+      MBP.hideUrlBarOnLoad();
     },
     finalize: function() { }
-  },
-  // Home page
-  home: {
+  }
+, home: {
     init: function() {
-      // JS here
-    }
-  },
-  // About page
-  about: {
-    init: function() {
-      // JS here
     }
   }
 };
 
 var UTIL = {
   fire: function(func, funcname, args) {
-    var namespace = ExampleSite;
+    var namespace = ORG;
     funcname = (funcname === undefined) ? 'init' : funcname;
     if (func !== '' && namespace[func] && typeof namespace[func][funcname] === 'function') {
       namespace[func][funcname](args);

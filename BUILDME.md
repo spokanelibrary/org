@@ -33,6 +33,7 @@ a list of files touched in org. attempt to group all changes under /org director
 		* app.less
 	* /js
 		* _main.js
+		* /org (add)
 		* /vendor
 			* respond.min.js (add)
 			* helper.js (add)
@@ -52,6 +53,6 @@ a list of files touched in org. attempt to group all changes under /org director
 todo
 ===
 
+* build use more less in app.less
 * move custom functions to widgets
-* custom button (inverse)
 * get serious about app icons
