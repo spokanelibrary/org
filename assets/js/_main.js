@@ -38,7 +38,7 @@ var ORG = {
   }
 , home: {
     init: function() {
-      console.log(config);
+      //console.log(config);
     }
   }
 };
