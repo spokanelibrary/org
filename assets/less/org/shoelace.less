@@ -171,9 +171,21 @@
   }  
 }
 
+/* Panel customizations */
 
+.panel-transparent {
+   background: transparent !important;
+}
 
-/* Side notes for calling out things
+.panel-condensed {
+  .panel-heading,
+  .panel-body,
+  .panel-footer {
+    padding: 6px;
+  }
+}
+
+/* Callout Panels
 -------------------------------------------------- */
 
 /* Base styles (regardless of theme) */
@@ -184,18 +196,21 @@
   padding: 15px;
   border-left-width: 5px;
   /*border-left: 5px solid #eee;*/
+
+  h4 {
+    margin-top: 0;  
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  code,
+  .highlight {
+    background-color: #fff;
+  }
 }
 
-.panel-callout h4 {
-  margin-top: 0;
-}
-.panel-callout p:last-child {
-  margin-bottom: 0;
-}
-.panel-callout code,
-.panel-callout .highlight {
-  background-color: #fff;
-}
 
 /* Themes for different contexts */
 .panel-callout-default {
@@ -230,18 +245,6 @@
 .panel-callout-success {
   background-color: #dff0d8;
   /*border-color: #d6e9c6;*/
-}
-
-/* Panel customizations */
-
-.panel-transparent {
-   background: transparent !important;
-}
-
-.panel-condensed .panel-heading,
-.panel-condensed .panel-body,
-.panel-condensed .panel-footer {
-   padding: 6px;
 }
 
 
