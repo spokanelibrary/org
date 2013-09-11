@@ -127,6 +127,20 @@
   }
 }
 
+.btn-warning {
+  #gradient.vertical(@btn-warning-bg; lighten(@btn-warning-bg, 10%); 0%; 50%);
+  &:hover {
+    background: @btn-warning-bg;
+  }
+}
+
+.btn-danger {
+  #gradient.vertical(@btn-danger-bg; lighten(@btn-danger-bg, 10%); 0%; 50%);
+  &:hover {
+    background: @btn-danger-bg;
+  }
+}
+
 /* Carousel Customizations */
 
 .carousel {  
