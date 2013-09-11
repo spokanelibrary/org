@@ -56,19 +56,21 @@
 
 .navbar-masthead {
   background-color: @brand-primary-accent;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid @gray-light;
   margin-bottom: 0;
+
+  input,
+  button {
+    opacity:.9;
+  }
+
+  .container {
+    position: relative; /* for profile, etc */
+    background: transparent @masthead-path no-repeat 180px -45px;
+  }
+
 }
 
-
-#spl-masthead input,
-#spl-masthead button {
-  opacity:.9;
-}
-#spl-masthead .container {
-  position: relative; /* for profile, etc */
-  background: transparent @masthead-path no-repeat 180px -45px;
-}
 #spl-logo {
   /*margin:0; padding:0;*/
   width: 170px; height: 85px;
