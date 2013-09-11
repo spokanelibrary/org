@@ -106,6 +106,13 @@
 
 /* Button Customizations */
 
+.btn-default {
+  #gradient.vertical(@btn-default-bg; darken(@btn-default-bg, 10%); 0%; 50%);
+  &:hover {
+    background: @btn-default-bg;
+  }
+}
+
 .btn-primary {
   #gradient.vertical(@btn-primary-bg; lighten(@btn-primary-bg, 10%); 0%; 50%);
   &:hover {
