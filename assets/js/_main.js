@@ -12,6 +12,7 @@ var ORG = {
   }
 , home: {
     init: function() {
+      console.log('home page');
     }
   }
 };
