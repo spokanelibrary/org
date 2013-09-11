@@ -141,6 +141,20 @@
   }
 }
 
+.btn-info {
+  #gradient.vertical(@btn-info-bg; lighten(@btn-info-bg, 10%); 0%; 50%);
+  &:hover {
+    background: @btn-info-bg;
+  }
+}
+
+.btn-inverse {
+  #gradient.vertical(@btn-inverse-bg; lighten(@btn-inverse-bg, 10%); 0%; 50%);
+  &:hover {
+    background: @btn-inverse-bg;
+  }
+}
+
 /* Carousel Customizations */
 
 .carousel {  
