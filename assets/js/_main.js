@@ -12,7 +12,7 @@ var ORG = {
   }
 , home: {
     init: function() {
-      console.log('home page');
+      console.log('home page'); 
     }
   }
 };
