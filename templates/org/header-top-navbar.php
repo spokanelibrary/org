@@ -49,7 +49,7 @@
   </div>
 </header><!-- /.navbar -->
 
-<header id="spl-primary-navbar" class="navbar-primary banner navbar navbar-inverse navbar-static-top" role="banner">
+<header class="navbar-primary banner navbar navbar-inverse navbar-static-top" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -58,7 +58,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand hidden-md hidden-lg" id="spl-logo-mobile" href="<?php echo home_url(); ?>/">
+      <a class="navbar-brand hidden-md hidden-lg" href="<?php echo home_url(); ?>/">
         <span class="logotype"><?php bloginfo('name'); ?></span>
       </a>
     </div>
