@@ -39,12 +39,12 @@
   </ul>
 </header><!-- /.navbar -->
 
-<header id="spl-masthead" class="banner navbar navbar-masthead navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
+<header class="banner navbar navbar-masthead navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
     <div class="navbar-header">
-    <a class="navbar-brand" id="spl-logo" href="<?php echo home_url(); ?>/">
-      <span class="text-hide"><?php bloginfo('name'); ?></span>
-    </a>
+      <a class="navbar-brand" href="<?php echo home_url(); ?>/">
+        <span class="text-hide"><?php bloginfo('name'); ?></span>
+      </a>
     </div>
   </div>
 </header>
