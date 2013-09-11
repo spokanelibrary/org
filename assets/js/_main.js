@@ -7,14 +7,46 @@ var ORG = {
   common: {
     init: function() {
       MBP.hideUrlBarOnLoad();
+
+      // Ajax defaults
+      $.ajaxSetup({
+         type: 'POST'
+        ,dataType: 'json'
+        ,dataType: 'jsonp'
+        ,jsonp: 'callback'
+        /*
+        ,complete: function(obj) {
+          console.log( $.parseJSON(obj.responseText) );
+        }
+        */
+      });
+
+      // Global configuration
+      var config = { 
+            api: { endpoint: 'http://api.spokanelibrary.org/v2/'
+                 }
+      }
+
+
     },
-    finalize: function() { }
+    finalize: function() {
+      $('body').tooltip({
+        selector: 'a[rel=tooltip]'
+      });
+    }
   }
 , home: {
     init: function() {
+      console.log(config);
     }
   }
 };
+
+
+
+
+
+
 
 var UTIL = {
   fire: function(func, funcname, args) {
