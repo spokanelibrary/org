@@ -214,13 +214,17 @@
 
 .btn-inverse {
   .button-variant(@btn-inverse-color; @btn-inverse-bg; @btn-inverse-border);
+  
+  #gradient.vertical(@btn-inverse-bg; lighten(@btn-inverse-bg, 10%); 0%; 30%);
+  &:hover {
+    background: lighten(@btn-inverse-bg, 10%);
+  }
 }
-
 
 /* Button Customizations */
 
 .btn-default {
-  #gradient.vertical(@btn-default-bg; darken(@btn-default-bg, 5%); 0%; 50%);
+  #gradient.vertical(@btn-default-bg; darken(@btn-default-bg, 5%); 0%; 30%);
   &:hover {
     background: @btn-default-bg;
   }
@@ -261,12 +265,6 @@
   }
 }
 
-.btn-inverse {
-  #gradient.vertical(@btn-inverse-bg; lighten(@btn-inverse-bg, 10%); 0%; 50%);
-  &:hover {
-    background: lighten(@btn-inverse-bg, 10%);
-  }
-}
 
 /* Callout Panels
 -------------------------------------------------- */
