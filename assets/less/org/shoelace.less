@@ -21,6 +21,7 @@
     color: @brand-primary; 
     font-family: @font-family-serif; 
   }
+
 }
 
 
@@ -32,17 +33,24 @@
 
 /* Simplify sidebars */
 
-.sidebar h3 {
-  color: #666;
-  margin-top: 10px;
-  border-bottom: 1px dotted #ccc;
+.sidebar {
+  
+  h3 {
+    color: #666;
+    margin-top: 10px;
+    border-bottom: 1px dotted #ccc;
+  }
+
+  div>ul {
+    padding-left: 10px;
+
+    li {
+      list-style: none;
+    }
+  }
+
 }
-.sidebar div>ul {
-  padding-left: 10px;
-}
-.sidebar div>ul>li {
-  list-style: none;
-}
+
 
 /* Masthead */
 
