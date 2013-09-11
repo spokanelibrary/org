@@ -2,19 +2,25 @@
 // Variables
 // --------------------------------------------------
 
+// Define private values
 
-@splBlue: 					rgb(0,85,135);
-@splBlueLight: 					rgb(0,100,160);
+@splBlue: 											rgb(0,85,135);
+@splBlueLight: 									rgb(0,100,160);
 
-@splGreen:    		  rgb(100,150,75);
-@splGreenLight:    		  rgb(125,175,100);
-@splGreenAccent:    		  rgb(150,200,100);
+@splGreen:    		  						rgb(100,150,75);
+@splGreenLight:    		  				rgb(125,175,100);
+@splGreenAccent:    		  			rgb(150,200,100);
 
-@logo-path:											'';
-@logo-path-inverse:							'';
+@logo-path:											url('../img/SPL-Logo.png');
+@logo-path-inverse:							url('../img/SPL-Logo-inverse.png');
 
-@logo-path-touch:								'';
-@logo-path-touch-path:					'';
+@logo-path-touch:								url('../img/spl-touch.png');
+@logo-path-touch-inverse:				url('../img/spl-touch-inverse.png');
+
+@masthead-path:									url('../img/SPL-Pano.jpg');
+@masthead-path-inverse:					url('../img/SPL-Pano-Inverse.jpg');
+
+// Define public values
 
 @brand-primary: 								@splBlue;
 @brand-primary-accent: 					@splBlueLight;
@@ -23,6 +29,7 @@
 @brand-secondary: 							@splGreen;
 @brand-secondary-accent: 				@splGreenLight;
 @brand-secondary-accent-light: 	@splGreenAccent;
+
 
 //
 // Buttons
@@ -41,14 +48,14 @@
 //
 // Reset inverted navbar basics
 @navbar-common-color:                      @gray-light;
-@navbar-common-bg:                         @splGreenLight;
-@navbar-common-border:                     @splGreenAccent;
+@navbar-common-bg:                         @brand-secondary-accent;
+@navbar-common-border:                     @brand-secondary-accent-light;
 //@navbar-common-border:                     darken(@navbar-common-bg, 10%);
 
 // Inverted navbar links
 @navbar-common-link-color:                 #fff;
 @navbar-common-link-hover-color:           #ececec;
-@navbar-common-link-hover-bg:              @splGreen;
+@navbar-common-link-hover-bg:              @brand-secondary;
 @navbar-common-link-active-color:          @navbar-common-link-hover-color;
 //@navbar-common-link-active-bg:             darken(@navbar-common-bg, 10%);
 @navbar-common-link-active-bg:             darken(@navbar-common-bg, 10%);
