@@ -79,7 +79,7 @@
 }
 
 /* allow menu to flush left when no .navbar-brand is present */
-@media (min-width: 992px) {  
+@media (max-width: @grid-float-breakpoint) {
    .navbar-collapse {
       padding-left:0;
    }
@@ -89,21 +89,20 @@
   margin-bottom:10px;
 
   .navbar-brand {
-    color: #fff;
+    /*color: #fff;*/
     /*color: rgb(0,85,135);*/
     margin:0; padding:0;
     margin-left: 10px;
     width: auto; height: 50px; 
     background: transparent @logo-path-touch-inverse no-repeat left center;
-    /*background: transparent url('../img/spl-touch.png') no-repeat left center; */
 
+    .logotype {
       display:block;
       /*width: 240px;*/
       margin-left: 50px; 
       padding-top: 15px
-
+    }
   }
-
 }
 
 @media (max-width: 992px) {   
