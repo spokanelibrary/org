@@ -111,7 +111,7 @@
 /* Carousel Customizations */
 
 .carousel {  
-  border:0 solid rgb(0,85,135); 
+  border: 1px solid @brand-primary; 
 
   .carousel-indicators { 
     top: 0; 
@@ -138,40 +138,39 @@
     font-size: 30px;
     height: 40px;
   }
+
+  .carousel-control.left,
+  .carousel-control.right {
+    background-image: none;
+  }
+
+  .carousel-caption {
+    position: relative;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0;
+    color: @gray-darker; 
+    text-shadow: none;
+    /*background: transparent;*/
+    padding: 0 !important;
+    /*padding-bottom: 20px !important;*/
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: left;
+    border-bottom: 1px dotted @gray;
+  }
+
+  .carousel-inner {
+    a {}
+
+    small {}
+
+    img { 
+      /*border: 1px solid rgb(0,85,135);*/ /*border-left-width: 5px;*/
+    }
+  }  
 }
 
-
-
-.carousel-control.left,
-.carousel-control.right {
-  background-image: none;
-}
-
-.carousel-caption {
-  position: relative;
-  left: 0 !important;
-  right: 0 !important;
-  bottom: 0;
-  color:#222; text-shadow: none;
-  /*background: transparent;*/
-  padding: 0 !important;
-  /*padding-bottom: 20px !important;*/
-  margin: 0;
-  margin-bottom: 10px;
-  text-align: left;
-  border-bottom: 1px dotted #ccc;
-}
-
-.carousel-inner a { /*color:#ececec;*/ /*text-decoration: underline;*/ }
-
-.carousel-inner small { /*color:#fff;*/ /*color:#666;*/ }
-
-.carousel-inner img { 
-  /*
-  border: 1px solid rgb(0,85,135); 
-  border-left-width: 5px;
-  */
-}
 
 
 /* Side notes for calling out things
