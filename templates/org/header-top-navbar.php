@@ -1,4 +1,5 @@
 <header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
+<div class="navbar-header">
   <ul class="nav navbar-nav">
     <li>
       <a href="<?php echo home_url(); ?>/">
@@ -37,6 +38,7 @@
       </a>
     </li>
   </ul>
+</div>
 </header><!-- /.navbar -->
 
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
