@@ -1,4 +1,4 @@
-<header class="banner navbar navbar-common navbar-static-top" role="navigation">
+<header class="navbar-common banner navbar navbar-static-top" role="navigation">
   <ul class="nav navbar-nav nav-justified">
     <li>
       <a href="<?php echo home_url(); ?>/">
@@ -39,7 +39,7 @@
   </ul>
 </header><!-- /.navbar -->
 
-<header class="banner navbar navbar-masthead navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
+<header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="<?php echo home_url(); ?>/">
@@ -47,9 +47,9 @@
       </a>
     </div>
   </div>
-</header>
+</header><!-- /.navbar -->
 
-<header id="spl-primary-navbar" class="banner navbar navbar-inverse navbar-static-top" role="banner">
+<header class="navbar-primary banner navbar navbar-inverse navbar-static-top" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -62,7 +62,6 @@
         <span class="logotype"><?php bloginfo('name'); ?></span>
       </a>
     </div>
-
     <nav class="collapse navbar-collapse" role="navigation">
       <?php
         if (has_nav_menu('primary_navigation')) :
@@ -71,5 +70,5 @@
       ?>
     </nav>
   </div>
-</header>
+</header><!-- /.navbar -->
 
