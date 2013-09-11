@@ -56,3 +56,4 @@ todo
 * build use more less in app.less
 * move custom functions to widgets
 * get serious about app icons
+* h5bp .htaccess
