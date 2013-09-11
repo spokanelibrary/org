@@ -58,7 +58,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand hidden-md hidden-lg" href="<?php echo home_url(); ?>/">
+      <a class="navbar-brand hidden-md hidden-lg" id="spl-logo-mobile" href="<?php echo home_url(); ?>/">
         <span class="logotype"><?php bloginfo('name'); ?></span>
       </a>
     </div>
