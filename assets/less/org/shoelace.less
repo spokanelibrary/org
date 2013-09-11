@@ -67,15 +67,20 @@
   .container {
     position: relative; /* for profile, etc */
     background: transparent @masthead-path no-repeat 180px -45px;
+  
+    .navbar-header {
+      .navbar-brand {
+        /*margin:0; padding:0;*/
+        width: 170px; height: 85px;
+        /*background: transparent url('../img/SPL-Logo-beta.png') no-repeat center center;*/
+        background: transparent @logo-path-inverse no-repeat center center;
+      }
+    }
   }
-
 }
 
 #spl-logo {
-  /*margin:0; padding:0;*/
-  width: 170px; height: 85px;
-  /*background: transparent url('../img/SPL-Logo-beta.png') no-repeat center center;*/
-  background: transparent @logo-path-inverse no-repeat center center;
+  
 }
 
 @media (min-width: 992px) {  
