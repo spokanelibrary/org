@@ -1,3 +1,8 @@
+// Global configuration
+var config = { 
+      api: { endpoint: 'http://api.spokanelibrary.org/v2/'
+           }
+}
 
 // Modified http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/
 // Only fires on body class (working off strictly WordPress body_class)
@@ -21,11 +26,7 @@ var ORG = {
         */
       });
 
-      // Global configuration
-      var config = { 
-            api: { endpoint: 'http://api.spokanelibrary.org/v2/'
-                 }
-      }
+      
 
 
     },
