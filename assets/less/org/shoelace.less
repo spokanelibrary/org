@@ -59,11 +59,6 @@
   border-bottom: 1px solid darken(@gray-lighter, 10%);
   margin-bottom: 0;
 
-  input,
-  button {
-    opacity:.9;
-  }
-
   .container {
     position: relative; /* for profile, etc */
     background: transparent @masthead-path no-repeat 180px -45px;
@@ -78,40 +73,35 @@
   }
 }
 
-/* allow menu to flush left when no .navbar-brand is present */
-@media (max-width: @grid-float-breakpoint) {
-   .navbar-collapse {
-      padding-left:0;
-   }
-}
-
 .navbar-primary {
   margin-bottom:10px;
 
-  .navbar-brand {
-    /*color: #fff;*/
-    /*color: rgb(0,85,135);*/
-    margin:0; padding:0;
-    margin-left: 10px;
-    width: auto; height: 50px; 
-    background: transparent @logo-path-touch-inverse no-repeat left center;
+  .container {
+    /* allow menu to flush left when no .navbar-brand is present */
+    @media (min-width: @grid-float-breakpoint) {
+       .navbar-collapse {
+          padding-left:0;
+       }
+    }
 
-    .logotype {
-      display:block;
-      /*width: 240px;*/
-      margin-left: 50px; 
-      padding-top: 15px
+    .navbar-header{
+      .navbar-brand {
+        /*color: #fff;*/
+        /*color: rgb(0,85,135);*/
+        margin:0; padding:0;
+        margin-left: 10px;
+        width: auto; height: 50px; 
+        background: transparent @logo-path-touch-inverse no-repeat left center;
+
+        .logotype {
+          display:block;
+          /*width: 240px;*/
+          margin-left: 50px; 
+          padding-top: 15px
+        }
+      }
     }
   }
-}
-
-@media (max-width: 992px) {   
-
-  #spl-masthead .container {
-    background-color: inherit;
-    background-image: none;
-  }
-
 }
 
 /* Carousel Customizations */
