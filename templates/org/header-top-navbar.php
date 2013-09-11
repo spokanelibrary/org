@@ -1,5 +1,6 @@
 <header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
-  <ul class="nav navbar-nav">
+  <div class="navbar-header">
+  <ul class="nav navbar-nav nav-justified">
     <li>
       <a href="<?php echo home_url(); ?>/">
         <span class="visible-xs"><i class="glyphicon glyphicon-home"></i></span>
@@ -37,6 +38,7 @@
       </a>
     </li>
   </ul>
+  </div>
 </header><!-- /.navbar -->
 
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
