@@ -107,9 +107,9 @@
 /* Button Customizations */
 
 .btn-primary {
-  #gradient.vertical(@brand-primary; @brand-primary-accent; 0%; 50%);
+  #gradient.vertical(@btn-primary-bg; lighten(@btn-primary-bg, 25%); 0%; 50%);
   &:hover {
-    background: @brand-primary;
+    background: @btn-primary-bg;
   }
 }
 
