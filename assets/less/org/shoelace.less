@@ -368,15 +368,20 @@ body {
   }
 
   .nav-justified {
-    //margin: 0;
-    //display: table;
-    //table-layout: fixed;
-    //width: 100%;
+    @media (min-width: @grid-float-breakpoint) {
+      margin: 0;
+      display: table;
+      table-layout: fixed;
+      width: 100%;
 
-
+      >li {
+        display: table-cell;
+        width: auto;
+      }
+    }
+    
     > li {
-      //display: table-cell;
-      //width: auto;
+      
       float: none;
     }
 
