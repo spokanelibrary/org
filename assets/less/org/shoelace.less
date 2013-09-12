@@ -5,7 +5,11 @@
 /* Fixed Navbar */
 
 body {
-  padding-top:30px; 
+  @media (max-width: @screen-tablet) {
+    padding-top: 40px;
+  }
+
+  padding-top: 30px; 
 }
 
 /* Let the page breath */
@@ -349,7 +353,7 @@ body {
   @media (max-width: @screen-tablet) {
     min-height: 40px; height:40px;
   }
-  
+
   background-color: @navbar-common-bg;
   border-color: @navbar-common-border;
 
