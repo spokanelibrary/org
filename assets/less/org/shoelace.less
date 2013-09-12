@@ -346,6 +346,10 @@ body {
 // --------------------------------------------------
 
 .navbar-common {
+  @media (max-width: @screen-tablet) {
+    min-height: 40px; height:40px;
+  }
+  
   background-color: @navbar-common-bg;
   border-color: @navbar-common-border;
 
@@ -353,10 +357,6 @@ body {
   margin:0; padding:0;
   min-height: 30px; height:30px;
   
-  @media (max-width: @screen-tablet) {
-    min-height: 40px; height:40px;
-  }
-
   .navbar-brand {
     color: @navbar-common-brand-color;
     &:hover,
@@ -394,7 +394,10 @@ body {
     }
 
     > li > a {
-      //padding: 12px 0 8px 0;
+      @media (max-width: @screen-tablet) {
+        padding: 12px 0 8px 0;
+      }
+
       padding: 4px 0;
       font-weight: bold;
       text-align: center;
