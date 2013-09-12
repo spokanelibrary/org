@@ -1,5 +1,5 @@
 <header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
-  <ul class="nav navbar-nav nav-justified">
+  <ul class="nav nav-justified">
     <li>
       <a href="<?php echo home_url(); ?>/">
         <span class="visible-xs"><i class="glyphicon glyphicon-home"></i></span>
