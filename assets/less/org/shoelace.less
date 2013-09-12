@@ -378,7 +378,6 @@ body {
       display: table-cell;
       width: auto;
       float: none;
-      border: 1px solid blue;
     }
 
     > li:first-child > a {
@@ -390,15 +389,16 @@ body {
     }
 
     > li > a {
-        //padding: 12px 0 8px 0;
-        padding: 4px 0;
-        font-weight: bold;
-        text-align: center;
-        border-radius: 0;
-        border-right: 1px solid rgba(0,0,0,.1);
-        border-left: 1px solid rgba(red(@navbar-common-border)
-                                  , green(@navbar-common-border)
-                                  , blue(@navbar-common-border), .75);
+      //padding: 12px 0 8px 0;
+      padding: 4px 0;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 0;
+      border: 1px solid blue;
+      border-right: 1px solid rgba(0,0,0,.1);
+      border-left: 1px solid rgba(red(@navbar-common-border)
+                                , green(@navbar-common-border)
+                                , blue(@navbar-common-border), .75);
         
       color: @navbar-common-link-color;
 
