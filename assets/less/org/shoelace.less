@@ -346,12 +346,15 @@ body {
 // --------------------------------------------------
 
 .navbar-common {
+  @media (max-width: @screen-tablet) {
+    min-height: 40px; height:40px;
+  }
+
   background-color: @navbar-common-bg;
   border-color: @navbar-common-border;
 
   border-bottom: 1px solid @navbar-common-border;
   margin:0; padding:0;
-  //min-height: 40px; height:40px;
   min-height: 30px; height:30px;
 
   .navbar-brand {
