@@ -13,6 +13,10 @@ var ORG = {
     init: function() {
       MBP.hideUrlBarOnLoad();
 
+      $('body').on('click', '.tab-trigger', function(e) {
+        var toggle = $($(this).attr('href')).tab('show');
+      });
+
       // Ajax defaults
       $.ajaxSetup({
          type: 'POST'
