@@ -14,7 +14,8 @@ var ORG = {
       MBP.hideUrlBarOnLoad();
 
       $('body').on('click', '.tab-trigger', function(e) {
-        $(this).tab('show');
+        $('.nav-tabs a.activei').tab('show');
+
         /*
         var toggle = $(this).attr('href');
         toggle.tab('show');
