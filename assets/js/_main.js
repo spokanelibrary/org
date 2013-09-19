@@ -15,10 +15,10 @@ var ORG = {
 
 
       $('body').on('click', '.tab-trigger', function(e) {
-        var toggle = $(this).data('nav-tab');
+        var toggle = $(this).attr('href');
         $('a[href='+toggle+']').tab('show');
 
-        toggle.tab('show');
+        // toggle.tab('show');
         console.log(toggle);
       });
       
