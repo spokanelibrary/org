@@ -15,7 +15,7 @@ var ORG = {
 
 
       // trigger tabs from alternate links
-      $('body').on('click', $('[data-toggle="tab"]'), function(e) {
+      $('body').on('click', '[data-toggle="tab"]', function(e) {
         var toggle = $(this).attr('href');
         $('a[href='+toggle+']').tab('show');
 
