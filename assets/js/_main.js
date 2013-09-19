@@ -14,7 +14,8 @@ var ORG = {
       MBP.hideUrlBarOnLoad();
 
       $('body').on('click', '.tab-trigger', function(e) {
-        var toggle = $($(this).attr('href')).tab('show');
+        var toggle = $(this).attr('href');
+        console.log(toggle);
       });
 
       // Ajax defaults
