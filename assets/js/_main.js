@@ -14,13 +14,12 @@ var ORG = {
       MBP.hideUrlBarOnLoad();
 
       $('body').on('click', '.tab-trigger', function(e) {
-        $('.nav-tabs a.activei').tab('show');
 
-        /*
-        var toggle = $(this).attr('href');
+        
+        var toggle = $(this).data('nav-tab');
         toggle.tab('show');
         console.log(toggle);
-        */
+      
       });
 
       // Ajax defaults
