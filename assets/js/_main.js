@@ -15,6 +15,7 @@ var ORG = {
 
       $('body').on('click', '.tab-trigger', function(e) {
         var toggle = $(this).attr('href');
+        toggle.tab('show');
         console.log(toggle);
       });
 
