@@ -13,13 +13,15 @@ var ORG = {
     init: function() {
       MBP.hideUrlBarOnLoad();
 
-      /*
+
       $('body').on('click', '.tab-trigger', function(e) {
         var toggle = $(this).data('nav-tab');
+        $('a[href='+toggle+']').tab('show');
+
         toggle.tab('show');
         console.log(toggle);
       });
-      */
+      
 
       // Ajax defaults
       $.ajaxSetup({
