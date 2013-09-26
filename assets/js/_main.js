@@ -51,7 +51,7 @@ var ORG = {
 
 , account: {
     init: function() {
-      console.log('my account');
+      //console.log('my account');
     }
   }
 };
