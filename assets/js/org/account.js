@@ -12,9 +12,12 @@ var org = {
 	,init: function() {
 		_self = this;
 
-		$('.nav-tabs a').click(function (e) {
+		$('[data-toggle="tab"]').click(function(e) {
+		//$('.nav-tabs a').click(function (e) {
     	// No e.preventDefault() here
     	//$(this).tab('show');
+
+
 
     	window.location.hash = $(this).attr('href');
 
