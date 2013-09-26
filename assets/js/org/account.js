@@ -12,17 +12,9 @@ var org = {
 	,init: function() {
 		_self = this;
 
-		$('[data-toggle="tab"]').click(function(e) {
-		//$('.nav-tabs a').click(function (e) {
-    	// No e.preventDefault() here
-    	//$(this).tab('show');
-
-
-
-    	window.location.hash = $(this).attr('href');
-
-    	//console.log( $(this).attr('href') );
-
+		// apply hashchange on tab event
+		$('body').on('click', '[data-toggle="tab"]', function(e) {
+			window.location.hash = $(this).attr('href');
 		});
 
 		this.initMyAccount();
