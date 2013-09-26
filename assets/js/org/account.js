@@ -13,7 +13,7 @@ var org = {
 		this.initMyAccount();
 	} // init()
 
-, initMyAcount: function() {
+, initMyAccount: function() {
     
 		console.log('this is my account');
 
