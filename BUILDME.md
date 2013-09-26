@@ -17,7 +17,7 @@ the org chart
 a list of files touched in org. attempt to group all changes under /org directories.
 
 * .gitignore
-* Gruntfile.js (watch ,'assets/less/org/*.less')
+* Gruntfile.js (watch ,'assets/less/org/*.less' ,'assets/js/org/*.js')
 * BUILDME.md (add)
 * README.md
 * screenshot.png

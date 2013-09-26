@@ -51,7 +51,16 @@ var ORG = {
 
 , account: {
     init: function() {
-      //console.log('my account');
+      
+      Modernizr.load([
+        {
+          load: './org/account.js',
+          complete: function () {
+            org.init();
+          }
+        }
+      ]);
+
     }
   }
 };
