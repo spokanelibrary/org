@@ -1,5 +1,7 @@
+// account.js
 
 var org = {
+
 	// added on script load
 	config: {}
 
@@ -15,6 +17,9 @@ var org = {
 
 , initMyAccount: function() {
 		//console.log('initMyAccount()');
+		this.user = $('#spl-account-summary').data('account');
+
+		console.log(this.user);
 
   } // initMyAccount();
 
