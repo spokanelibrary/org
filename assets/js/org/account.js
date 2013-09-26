@@ -14,7 +14,10 @@ var org = {
 
 		$('.nav-tabs a').click(function (e) {
     	// No e.preventDefault() here
-    	$(this).tab('show');
+    	//$(this).tab('show');
+
+    	console.log( $(this).attr('href') );
+
 		});
 
 		this.initMyAccount();
