@@ -19,11 +19,14 @@ var org = {
 		this.user = $('#spl-account-summary').data('account');
 		//console.log(this.user);
 
+		/*
+		// this is the input field
 		$('body').on('click', '#spl-update-email', function(e) {
 			e.preventDefault();
 
 			console.log( $(this).val() );
 		});
+		*/
 
 		
   } // initMyAccount();
