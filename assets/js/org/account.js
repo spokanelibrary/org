@@ -19,9 +19,9 @@ var org = {
 		this.user = $('#spl-account-summary').data('account');
 		//console.log(this.user);
 
-		$('body').on('click', 'spl-update-email', function(e) {
+		$('body').on('click', '#spl-update-email', function(e) {
 			e.preventDefault();
-			
+
 			console.log( $(this).val() );
 		});
 
