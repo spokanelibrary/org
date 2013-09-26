@@ -12,6 +12,11 @@ var org = {
 	,init: function() {
 		_self = this;
 
+		$('.nav-tabs a').click(function (e) {
+    	// No e.preventDefault() here
+    	$(this).tab('show');
+		});
+
 		this.initMyAccount();
 	} // init()
 
