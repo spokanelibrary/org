@@ -20,6 +20,8 @@ var org = {
 		//console.log(this.user);
 
 		$('body').on('click', 'spl-update-email', function(e) {
+			e.preventDefault();
+			
 			console.log( $(this).val() );
 		});
 
