@@ -13,8 +13,8 @@ var org = {
 		_self = this;
 
 		// apply hashchange on tab event
-		$('body').on('click', '[data-toggle="tab"]', function(e) {
-		//$('[data-toggle="tab"]').click(function(e) {
+		//$('body').on('click', '[data-toggle="tab"]', function(e) {
+		$('[data-toggle="tab"]').click(function(e) {
 			window.location.hash = $(this).attr('href');
 		});
 
