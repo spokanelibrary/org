@@ -56,7 +56,9 @@ var ORG = {
         {
           load: '../assets/js/org/account.js',
           complete: function () {
-            org.init();
+            if ( org ) { 
+              org.init();
+            } 
           }
         }
       ]);
