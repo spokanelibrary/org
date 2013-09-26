@@ -16,7 +16,9 @@ var org = {
     	// No e.preventDefault() here
     	//$(this).tab('show');
 
-    	console.log( $(this).attr('href') );
+    	window.location.hash = $(this).attr('href');
+
+    	//console.log( $(this).attr('href') );
 
 		});
 
