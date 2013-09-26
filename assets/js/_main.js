@@ -54,7 +54,7 @@ var ORG = {
       
       Modernizr.load([
         {
-          load: '../js/org/account.js',
+          load: '../assets/js/org/account.js',
           complete: function () {
             org.init();
           }
