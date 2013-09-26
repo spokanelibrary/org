@@ -19,6 +19,10 @@ var org = {
 		//console.log('initMyAccount()');
 		this.user = $('#spl-account-summary').data('account');
 
+		$('body').on('click', 'spl-update-email', function(e) {
+			console.log( $(this).val(); );
+		});
+
 		console.log(this.user);
 
   } // initMyAccount();
