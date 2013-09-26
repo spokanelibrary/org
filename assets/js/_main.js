@@ -48,6 +48,12 @@ var ORG = {
       //console.log(config);
     }
   }
+
+, account: {
+    init: function() {
+      console.log('my account');
+    }
+  }
 };
 
 
