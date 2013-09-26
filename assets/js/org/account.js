@@ -14,8 +14,7 @@ var org = {
 	} // init()
 
 , initMyAccount: function() {
-    
-		console.log('this is my account');
+		//console.log('initMyAccount()');
 
   } // initMyAccount();
 
