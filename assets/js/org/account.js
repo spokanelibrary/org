@@ -51,7 +51,7 @@ var org = {
 		var $selectAll = $('.spl-field-cko-select-all');
 
 		$selectAll.on('change', function(e) {
-			if ( $(this).checked ) {
+			if ( $(this).is(':checked') ) {
 				console.log( 'select all of the things' );
 			} else {
 				console.log( 'deselect all of the things' );
