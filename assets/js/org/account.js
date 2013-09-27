@@ -97,7 +97,7 @@ var org = {
     				}
 	  })
 	  .done(function(obj) {  
-	  	//console.log(obj);
+	  	console.log(obj);
 
 	  	// pass form processing through
 			$hidden.val(obj);
