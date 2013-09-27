@@ -49,13 +49,15 @@ var org = {
 		var $form = $('#spl-form-cko');
 
 		var $selectAll = $('.spl-field-cko-select-all');
+		var $selectItem = $('.spl-field-cko-select-item');
 
 		$selectAll.on('change', function(e) {
 			if ( $(this).is(':checked') ) {
-				console.log( 'select all of the things' );
-				$selectAll.prop("checked", true);
+				$selectAll.prop('checked', true);
+				$selectItem.prop('checked', true);
 			} else {
-				console.log( 'deselect all of the things' );
+				$selectAll.prop('checked', false);
+				$selectItem.prop('checked', false);
 			}
 		});
 
