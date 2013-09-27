@@ -90,7 +90,7 @@ var org = {
 
 		$submit.button('loading');
 		$.ajax({ 
-	    url: this.config.endpoint.hzws+'trace' //'renew' //'trace'
+	    url: this.config.endpoint.hzws+'renew' //'renew' //'trace'
     , data: { params: { token: this.user.sessionToken
     									,	barcodes: barcodes
     									}
@@ -100,7 +100,7 @@ var org = {
 	  	//console.log(obj);
 
 	  	// pass form processing through
-			$hidden.val($.toJSON(obj));
+			$hidden.val(JSON.stringify(obj));
 	  	//console.log( $hidden.val() );
 
 	  	$submit.button('reset');
