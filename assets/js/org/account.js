@@ -67,7 +67,6 @@ var org = {
 			e.preventDefault();
 
 			var barcodes = new Array;
-
 			$('.spl-field-cko-select-item:checked').each(function() {
 				barcodes.push( $(this).data('barcode') );
 			});
@@ -78,24 +77,25 @@ var org = {
 				alert('Please select item(s) to renew.');
 			}
 			
-			//console.log( 'submitting rewals to: ' + _self.config.endpoint.hzws );
 		});
 
 	} // initCko()
 
 , ckoRenew: function(barcodes) {
 		$.ajax({ 
-		    url: this.config.endpoint.hzws+'renew'
-	    , data: { params: { token: this.user.sessionToken }
-	    				}
-		  })
-		  .done(function(obj) {  
-		  	console.log(obj);
-		  })
-		  .fail(function() {
-		  })
-		  .always(function() {
-		  });
+	    url: this.config.endpoint.hzws+'renew'
+    , data: { params: { token: this.user.sessionToken
+    									,	barcodes: barcodes
+    									}
+    				}
+	  })
+	  .done(function(obj) {  
+	  	console.log(obj);
+	  })
+	  .fail(function() {
+	  })
+	  .always(function() {
+	  });
 
 	} // ckoRenew()
 
