@@ -48,8 +48,9 @@ var org = {
 , initProfile: function() {
 		var $form = $('#spl-form-profile-email');
 
+		$form.validate();
 		
-		if ( $form.validate() ) {
+		if ( $form.valid() ) {
 			$form.on('submit', function(e) {
 				e.preventDefault();
 
