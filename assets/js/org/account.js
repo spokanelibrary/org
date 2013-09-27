@@ -46,6 +46,13 @@ var org = {
 	} // initTabs() 
 
 , initProfile: function() {
+		initProfileEmail();
+		initProfilePin();
+		
+	} // initProfile()
+
+, initProfileEmail: function() {
+		// it turns out hzws has no methods for updating email
 		var $form = $('#spl-form-profile-email');
 		var $email = $('#spl-profile-email');
 		var $submit = $('#spl-form-profile-email-submit');
@@ -55,14 +62,16 @@ var org = {
 		$form.on('submit', function(e) {
 			e.preventDefault();
 			if ( $form.valid() ) {
+				/*
 				console.log( _self.user.borrower );
+				console.log( _self.user.sessionToken );
 				console.log( $email.val() );
 				$submit.button('loading');
+				*/
 			}
 		});
-	
 
-	} // initProfile()
+	} // initProfileEmail()
 
 
 };
