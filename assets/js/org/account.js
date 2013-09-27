@@ -85,7 +85,7 @@ var org = {
 
 , ckoRenew: function(barcodes) {
 		var $form = $('#spl-form-cko');
-		var $subit = $('.spl-submit-cko');
+		var $submit = $('.spl-submit-cko');
 
 		$submit.button('loading');
 		$.ajax({ 
