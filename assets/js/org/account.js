@@ -81,7 +81,7 @@ var org = {
 
 	$form.validate({
 		rules: {
-			pinConfirm: {
+			pin_confirm: {
 	      equalTo: "#spl-field-profile-pin-new"
 	    }
   	}
