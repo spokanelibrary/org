@@ -89,7 +89,7 @@ var org = {
 
 		$submit.button('loading');
 		$.ajax({ 
-	    url: this.config.endpoint.hzws+'trace' //'renew'
+	    url: this.config.endpoint.hzws+'renew' //'renew' //'trace'
     , data: { params: { token: this.user.sessionToken
     									,	barcodes: barcodes
     									}
@@ -98,8 +98,8 @@ var org = {
 	  .done(function(obj) {  
 	  	console.log(obj);
 	  	$submit.button('reset');
-	  	$form.data('process', 'http');
-	  	$form.submit();
+	  	//$form.data('process', 'http');
+	  	//$form.submit();
 	  })
 	  .fail(function() {
 	  })
