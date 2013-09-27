@@ -83,7 +83,7 @@ var org = {
 
 	} // initCko()
 
-, ckoRenew(barcodes) {
+, ckoRenew: function(barcodes) {
 		$.ajax({ 
 		    url: this.config.endpoint.hzws+'renew'
 	    , data: { params: { token: this.user.sessionToken }
