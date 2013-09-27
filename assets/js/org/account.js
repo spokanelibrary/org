@@ -53,6 +53,7 @@ var org = {
 		$selectAll.on('change', function(e) {
 			if ( $(this).is(':checked') ) {
 				console.log( 'select all of the things' );
+				$selectAll.prop('checked', true);
 			} else {
 				console.log( 'deselect all of the things' );
 			}
