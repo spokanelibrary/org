@@ -49,6 +49,8 @@ var org = {
 		var $form = $('#spl-form-profile-email');
 
 		$form.validate();
+
+		console.log( $form.valid() );
 		
 		if ( $form.valid() ) {
 			$form.on('submit', function(e) {
