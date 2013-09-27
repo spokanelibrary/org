@@ -50,7 +50,7 @@ var org = {
 		var $email = $('#spl-profile-email');
 
 		$form.validate();
-		/*
+		
 		$form.on('submit', function(e) {
 			e.preventDefault();
 			//if ( $form.valid() ) {
@@ -58,7 +58,7 @@ var org = {
 				//console.log($email.val());
 			//}
 		});
-	*/
+	
 
 	} // initProfile()
 
