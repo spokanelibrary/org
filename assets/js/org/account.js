@@ -49,6 +49,8 @@ var org = {
 		$('#spl-form-profile-email').validate();
 
 		$('#spl-form-profile-email').on('submit', function(e) {
+			e.preventDefault();
+			
 			console.log('profile form');
 		});
 
