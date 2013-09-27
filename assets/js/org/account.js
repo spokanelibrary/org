@@ -51,8 +51,9 @@ var org = {
 		$('#spl-form-profile-email').on('submit', function(e) {
 			e.preventDefault();
 
-			$('#spl-form-profile-email-submit').button('saving...');
-			console.log('profile form');
+			var email = $('#spl-form-profile-email').val();
+			console.log(this.user.borrower);
+			console.log(email);
 		});
 
 		/*
