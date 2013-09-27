@@ -48,6 +48,7 @@ var org = {
 , initProfile: function() {
 		var $form = $('#spl-form-profile-email');
 		var $email = $('#spl-profile-email');
+		var $submit = $('#spl-form-profile-email-submit');
 
 		$form.validate();
 		
@@ -56,6 +57,7 @@ var org = {
 			if ( $form.valid() ) {
 				console.log( _self.user.borrower );
 				console.log( $email.val() );
+				$submit.button('loading');
 			}
 		});
 	
