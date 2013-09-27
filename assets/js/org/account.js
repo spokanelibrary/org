@@ -48,6 +48,9 @@ var org = {
 , initProfile: function() {
 		$('#spl-form-profile-email').validate();
 
+		$('#spl-form-profile-email').on('submit', function(e) {
+			console.log('profile form');
+		});
 
 		/*
 		// this is the input field
