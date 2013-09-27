@@ -12,6 +12,8 @@ var org = {
 	,init: function() {
 		_self = this;
 
+		console.log(window.location.hash);
+
 		// apply hashchange on tab event
 		//$('body').on('click', '[data-toggle="tab"]', function(e) {
 		$('[data-toggle="tab"]').click(function(e) {
