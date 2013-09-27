@@ -64,17 +64,19 @@ var org = {
 		});
 
 		$form.on('submit', function(e) {
-			e.preventDefault();
+			if ( 'ajax' == $(this).data('process') ) {
+				e.preventDefault();
 
-			var barcodes = new Array;
-			$('.spl-field-cko-select-item:checked').each(function() {
-				barcodes.push( $(this).data('barcode') );
-			});
+				var barcodes = new Array;
+				$('.spl-field-cko-select-item:checked').each(function() {
+					barcodes.push( $(this).data('barcode') );
+				});
 
-			if ( barcodes.length > 0 ) {
-				_self.ckoRenew(barcodes);
-			} else {
-				alert('Please select item(s) to renew.');
+				if ( barcodes.length > 0 ) {
+					_self.ckoRenew(barcodes);
+				} else {
+					alert('Please select item(s) to renew.');
+				}
 			}
 			
 		});
@@ -82,9 +84,10 @@ var org = {
 	} // initCko()
 
 , ckoRenew: function(barcodes) {
-		var $btn = $('.spl-submit-cko');
+		var $form = $('#spl-form-cko');
+		var $subit = $('.spl-submit-cko');
 
-		$btn.button('loading');
+		$submit.button('loading');
 		$.ajax({ 
 	    url: this.config.endpoint.hzws+'trace' //'renew'
     , data: { params: { token: this.user.sessionToken
@@ -94,7 +97,9 @@ var org = {
 	  })
 	  .done(function(obj) {  
 	  	console.log(obj);
-	  	$btn.button('reset');
+	  	$submit.button('reset');
+	  	$form.data('process', 'http');
+	  	$form.submit();
 	  })
 	  .fail(function() {
 	  })
