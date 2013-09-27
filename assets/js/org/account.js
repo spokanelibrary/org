@@ -103,9 +103,9 @@ var org = {
 			$hidden.val(JSON.stringify(obj));
 	  	//console.log( $hidden.val() );
 
-	  	$submit.button('reset');
-	  	$form.data('process', 'http');
-	  	$form.submit();
+	  	//$submit.button('reset');
+	  	$form.data('process', 'http').submit();
+	  	//$form.submit();
 	  })
 	  .fail(function() {
 	  })
