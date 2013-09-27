@@ -50,7 +50,8 @@ var org = {
 
 		$('#spl-form-profile-email').on('submit', function(e) {
 			e.preventDefault();
-			
+
+			$('#spl-form-profile-email-submit').button('loading');
 			console.log('profile form');
 		});
 
