@@ -48,14 +48,17 @@ var org = {
 , initProfile: function() {
 		var $form = $('#spl-form-profile-email');
 
-		$form.validate();
-		$form.on('submit', function(e) {
-			e.preventDefault();
+		var valid = $form.validate();
+		
+		if ( valid ) {
+			$form.on('submit', function(e) {
+				e.preventDefault();
 
-			var email = $('#spl-profile-email').val();
-			console.log(_self.user.borrower);
-			console.log(email);
-		});
+				var email = $('#spl-profile-email').val();
+				console.log(_self.user.borrower);
+				console.log(email);
+			});
+		}
 
 		/*
 		// this is the input field
