@@ -63,6 +63,11 @@ var org = {
 
 		$form.on('submit', function(e) {
 			e.preventDefault();
+
+
+			$.each( $('.spl-field-cko-select-item:checked') ) {
+				console.log( $(this).data('barcode') );
+			}
 			
 			console.log( 'submitting cko form' );
 		});
