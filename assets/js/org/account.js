@@ -100,7 +100,7 @@ var org = {
 	  	console.log(obj);
 
 	  	// pass form processing through
-			$hidden.val(obj);
+			$hidden.val(JSON.stringify(obj));
 	  	console.log( $hidden.val() );
 
 	  	$submit.button('reset');
