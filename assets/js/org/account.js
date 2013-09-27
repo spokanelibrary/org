@@ -67,7 +67,7 @@ var org = {
 			var barcodes = new Array;
 
 			$('.spl-field-cko-select-item:checked').each(function() {
-				barcodes[$(this).data('barcode')] = $(this).data('barcode');
+				barcodes.push( $(this).data('barcode') );
 				//console.log( $(this).data('barcode') );
 			});
 			
