@@ -101,7 +101,7 @@ var org = {
 
 	  	// pass form processing through
 			$hidden.val(obj);
-	  	//console.log( $hidden.val() );
+	  	console.log( $hidden.val() );
 
 	  	$submit.button('reset');
 	  	//$form.data('process', 'http');
