@@ -46,12 +46,12 @@ var org = {
 	} // initTabs() 
 
 , initProfile: function() {
-		$('#spl-form-profile-email').validate();
+		var $form = $('#spl-form-profile-email');
 
-		$('#spl-form-profile-email').on('submit', function(e) {
+		$form.validate().on('submit', function(e) {
 			e.preventDefault();
 
-			var email = $('#spl-form-profile-email').val();
+			var email = $('#spl-profile-email').val();
 			console.log(_self.user.borrower);
 			console.log(email);
 		});
