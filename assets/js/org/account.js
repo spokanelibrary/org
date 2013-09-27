@@ -65,9 +65,9 @@ var org = {
 			e.preventDefault();
 
 
-			$.each( $('.spl-field-cko-select-item:checked') ) {
+			$('.spl-field-cko-select-item:checked').each(function() {
 				console.log( $(this).data('barcode') );
-			}
+			});
 			
 			console.log( 'submitting cko form' );
 		});
