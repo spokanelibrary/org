@@ -40,7 +40,8 @@ var org = {
 , initTabs: function() {
 		if ( window.location.hash ) {
 			var hash = window.location.hash;
-			$(hash).tab('show');
+			$('a[href="'+hash+'"]').tab('show')
+
 		}
 
 		// apply hashchange on tab event
