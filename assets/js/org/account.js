@@ -14,26 +14,20 @@ var org = {
 
 		// setup variables
 		this.user = $('#spl-account-summary').data('account');
+		//console.log(this.user);
 
-		// init
+		// init ui
 		this.initMyAccount();
+
 	} // init()
 
 , initMyAccount: function() {
 		
 		this.initTabs();
 
-		//console.log(this.user);
+		this.initProfile();
 
-		/*
-		// this is the input field
-		$('body').on('click', '#spl-update-email', function(e) {
-			e.preventDefault();
-
-			console.log( $(this).val() );
-		});
-		*/
-
+		
 		
   } // initMyAccount()
 
@@ -50,6 +44,22 @@ var org = {
 		});
 
 	} // initTabs() 
+
+, initProfile: function() {
+		$('#spl-form-profile-email').validate();
+
+
+		/*
+		// this is the input field
+		$('body').on('click', '#spl-update-email', function(e) {
+			e.preventDefault();
+
+			console.log( $(this).val() );
+		});
+		*/
+
+
+}
 
 
 };
