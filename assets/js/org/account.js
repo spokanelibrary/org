@@ -46,9 +46,9 @@ var org = {
 	} // initTabs() 
 
 , initProfile: function() {
-		initProfileEmail();
-		initProfilePin();
-		
+		this.initProfileEmail();
+		this.initProfilePin();
+
 	} // initProfile()
 
 , initProfileEmail: function() {
@@ -73,5 +73,9 @@ var org = {
 
 	} // initProfileEmail()
 
+, initProfilePin: function() {
+	// note: we will need a new session token here?
+
+} // initProfilePin()
 
 };
