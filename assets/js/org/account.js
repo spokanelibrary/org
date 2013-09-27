@@ -73,15 +73,31 @@ var org = {
 			});
 
 			if ( barcodes.length > 0 ) {
-				console.log(barcodes);
+				_self.ckoRenew(barcodes);
 			} else {
-				console.log('no barcodes selected!');
+				alert('Please select item(s) to renew.');
 			}
 			
-			console.log( 'submitting cko form to: ' + _self.config.endpoint.hzws );
+			//console.log( 'submitting rewals to: ' + _self.config.endpoint.hzws );
 		});
 
 	} // initCko()
+
+, ckoRenew(barcodes) {
+		$.ajax({ 
+		    url: this.config.endpoint.hzws+'renew'
+	    , data: { params: { token: this.user.sessionToken }
+	    				}
+		  })
+		  .done(function(obj) {  
+		  	console.log(obj);
+		  })
+		  .fail(function() {
+		  })
+		  .always(function() {
+		  });
+
+	} // ckoRenew()
 
 , initProfile: function() {
 		this.initProfileEmail();
