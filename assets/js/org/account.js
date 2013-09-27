@@ -79,9 +79,11 @@ var org = {
 
 	var $submit = $('#spl-submit-profile-pin');
 
+	var confirm = 'spl-field-profile-pin-confirm';
+	
 	$form.validate({
 		rules: {
-			spl-field-profile-pin-confirm: {
+			confirm: {
 	      equalTo: "#spl-field-profile-pin-new"
 	    }
   	}
