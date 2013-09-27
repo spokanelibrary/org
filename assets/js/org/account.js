@@ -68,10 +68,14 @@ var org = {
 
 			$('.spl-field-cko-select-item:checked').each(function() {
 				barcodes.push( $(this).data('barcode') );
-				//console.log( $(this).data('barcode') );
 			});
+
+			if ( barcodes.length > 0 ) {
+				console.log(barcodes);
+			} else {
+				console.log('no barcodes selected!');
+			}
 			
-			console.log(barcodes);
 			console.log( 'submitting cko form' );
 		});
 
