@@ -86,7 +86,7 @@ var org = {
 
 		$btn.button('loading');
 		$.ajax({ 
-	    url: this.config.endpoint.hzws+'renew'
+	    url: this.config.endpoint.hzws+'trace' //'renew'
     , data: { params: { token: this.user.sessionToken
     									,	barcodes: barcodes
     									}
