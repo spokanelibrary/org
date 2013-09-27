@@ -82,6 +82,8 @@ var org = {
 	} // initCko()
 
 , ckoRenew: function(barcodes) {
+		var $btn = $('.spl-submit-cko');
+		$btn.btn('loading');
 		$.ajax({ 
 	    url: this.config.endpoint.hzws+'renew'
     , data: { params: { token: this.user.sessionToken
@@ -91,6 +93,7 @@ var org = {
 	  })
 	  .done(function(obj) {  
 	  	console.log(obj);
+	  	$btn.btn('reset');
 	  })
 	  .fail(function() {
 	  })
