@@ -52,7 +52,7 @@ var org = {
 			e.preventDefault();
 
 			var email = $('#spl-form-profile-email').val();
-			console.log(this.user.borrower);
+			console.log(_self.user.borrower);
 			console.log(email);
 		});
 
