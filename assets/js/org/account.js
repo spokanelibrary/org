@@ -25,9 +25,9 @@ var org = {
 		
 		this.initTabs();
 
-		this.initProfile();
+		this.initCko();
 
-		
+		this.initProfile();
 		
   } // initMyAccount()
 
@@ -45,6 +45,27 @@ var org = {
 
 	} // initTabs() 
 
+, initCko: function() {
+		var $form = $('#spl-form-cko');
+
+		var $selectAll = $('.spl-field-cko-select-all');
+
+		$selectAll.on('change', function(e) {
+			if ( $(this).checked ) {
+				console.log( 'select all of the things' );
+			} else {
+				console.log( 'deselect all of the things' );
+			}
+		});
+
+		$form.on('submit', function(e) {
+			e.preventDefault();
+			
+			console.log( 'cko form' );
+		});
+
+	} // initCko()
+
 , initProfile: function() {
 		this.initProfileEmail();
 		this.initProfilePin();
@@ -52,7 +73,8 @@ var org = {
 	} // initProfile()
 
 , initProfileEmail: function() {
-		// it turns out hzws has no methods for updating email
+		// it turns out hzws has no methods for updating email 
+		// will need addres ord? or maybe just select on old address?
 		var $form = $('#spl-form-profile-email');
 		var $email = $('#spl-field-profile-email');
 		var $submit = $('#spl-submit-profile-email');
@@ -74,7 +96,7 @@ var org = {
 	} // initProfileEmail()
 
 , initProfilePin: function() {
-	// note: we will need a new session token here?
+	// note: we will need a new session token here (loginUserResetMyPin)
 	var $form = $('#spl-form-profile-pin');
 
 	var $submit = $('#spl-submit-profile-pin');
