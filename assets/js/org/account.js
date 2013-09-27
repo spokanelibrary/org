@@ -64,11 +64,14 @@ var org = {
 		$form.on('submit', function(e) {
 			e.preventDefault();
 
+			var barcodes = new Array;
 
 			$('.spl-field-cko-select-item:checked').each(function() {
-				console.log( $(this).data('barcode') );
+				barcodes[] = $(this).data('barcode');
+				//console.log( $(this).data('barcode') );
 			});
 			
+			console.log(barcodes);
 			console.log( 'submitting cko form' );
 		});
 
