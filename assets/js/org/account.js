@@ -94,7 +94,7 @@ var org = {
 	  })
 	  .done(function(obj) {  
 	  	console.log(obj);
-	  	$btn.btn('reset');
+	  	$btn.button('reset');
 	  })
 	  .fail(function() {
 	  })
