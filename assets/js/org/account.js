@@ -86,6 +86,7 @@ var org = {
 , ckoRenew: function(barcodes) {
 		var $form = $('#spl-form-cko');
 		var $submit = $('.spl-submit-cko');
+		var $hidden = $('#spl-field-cko-renewal');
 
 		$submit.button('loading');
 		$.ajax({ 
@@ -97,9 +98,13 @@ var org = {
 	  })
 	  .done(function(obj) {  
 	  	console.log(obj);
+
+	  	$hidden.val(obj);
+	  	// pass form processing through
+
 	  	$submit.button('reset');
-	  	//$form.data('process', 'http');
-	  	//$form.submit();
+	  	$form.data('process', 'http');
+	  	$form.submit();
 	  })
 	  .fail(function() {
 	  })
