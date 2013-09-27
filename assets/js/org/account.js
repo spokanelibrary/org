@@ -51,7 +51,7 @@ var org = {
 		$('#spl-form-profile-email').on('submit', function(e) {
 			e.preventDefault();
 
-			$('#spl-form-profile-email-submit').button('loading');
+			$('#spl-form-profile-email-submit').button('saving...');
 			console.log('profile form');
 		});
 
