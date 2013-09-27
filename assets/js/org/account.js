@@ -3,7 +3,9 @@
 var org = {
 
 	// added on script load
-	config: {}
+	config: {
+						endpoint: { hzws: 'http://api.spokanelibrary.org/v2/hzws/' }
+					 }
 
 	// added on authentication
 	,user: {}
@@ -76,7 +78,7 @@ var org = {
 				console.log('no barcodes selected!');
 			}
 			
-			console.log( 'submitting cko form' );
+			console.log( 'submitting cko form to: ' + _self.config.endpoint.hzws );
 		});
 
 	} // initCko()
