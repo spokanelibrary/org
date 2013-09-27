@@ -104,8 +104,8 @@ var org = {
 	  	//console.log( $hidden.val() );
 
 	  	$submit.button('reset');
-	  	$form.data('process', 'http');
-	  	$form.submit();
+	  	//$form.data('process', 'http');
+	  	//$form.submit();
 	  })
 	  .fail(function() {
 	  })
