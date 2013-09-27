@@ -97,14 +97,15 @@ var org = {
     				}
 	  })
 	  .done(function(obj) {  
-	  	console.log(obj);
+	  	//console.log(obj);
 
-	  	$hidden.val(obj);
 	  	// pass form processing through
+			$hidden.val(obj);
+	  	console.log( $hidden.val() );
 
 	  	$submit.button('reset');
-	  	$form.data('process', 'http');
-	  	$form.submit();
+	  	//$form.data('process', 'http');
+	  	//$form.submit();
 	  })
 	  .fail(function() {
 	  })
