@@ -47,32 +47,19 @@ var org = {
 
 , initProfile: function() {
 		var $form = $('#spl-form-profile-email');
+		var $email = $('#spl-profile-email');
 
 		$form.validate();
-
-		console.log( $form.valid() );
 		
-		if ( $form.valid() ) {
-			$form.on('submit', function(e) {
-				e.preventDefault();
-
-				var email = $('#spl-profile-email').val();
-				console.log(_self.user.borrower);
-				console.log(email);
-			});
-		}
-
-		/*
-		// this is the input field
-		$('body').on('click', '#spl-update-email', function(e) {
+		$form.on('submit', function(e) {
 			e.preventDefault();
-
-			console.log( $(this).val() );
+			if ( $form.valid() ) {
+				console.log(_self.user.borrower);
+				console.log($email.val());
+			}
 		});
-		*/
 
-
-}
+	} // initProfile()
 
 
 };
