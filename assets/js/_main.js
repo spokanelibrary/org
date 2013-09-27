@@ -20,7 +20,7 @@ var ORG = {
       });
       
 
-      // Ajax defaults
+      // Ajax defaults[
       $.ajaxSetup({
          type: 'POST'
         ,dataType: 'json'
@@ -54,7 +54,7 @@ var ORG = {
       
       Modernizr.load([
         {
-          load: '../assets/js/org/account.js',
+          load: ['../assets/js/org/account.js', '../assets/js/vendor/jquery.validate.js'],
           complete: function () {
             if ( org ) { 
               org.init();
