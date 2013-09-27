@@ -37,7 +37,7 @@ var org = {
 		
   } // initMyAccount()
 
-, initTabs() {
+, initTabs: function() {
 		if ( window.location.hash ) {
 			var hash = window.location.hash;
 			$(hash).tab('show');
