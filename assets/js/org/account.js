@@ -12,19 +12,17 @@ var org = {
 	,init: function() {
 		_self = this;
 
-		console.log(window.location.hash);
+		// setup variables
+		this.user = $('#spl-account-summary').data('account');
 
-		// apply hashchange on tab event
-		//$('body').on('click', '[data-toggle="tab"]', function(e) {
-		$('[data-toggle="tab"]').click(function(e) {
-			window.location.hash = $(this).attr('href');
-		});
-
+		// init
 		this.initMyAccount();
 	} // init()
 
 , initMyAccount: function() {
-		this.user = $('#spl-account-summary').data('account');
+		
+		this.initTabs();
+
 		//console.log(this.user);
 
 		/*
@@ -37,7 +35,21 @@ var org = {
 		*/
 
 		
-  } // initMyAccount();
+  } // initMyAccount()
+
+, initTabs() {
+		if ( window.location.hash ) {
+			var hash = window.location.hash;
+			$(hash).tab('show');
+		}
+
+		// apply hashchange on tab event
+		//$('body').on('click', '[data-toggle="tab"]', function(e) {
+		$('[data-toggle="tab"]').click(function(e) {
+			window.location.hash = $(this).attr('href');
+		});
+
+	} // initTabs() 
 
 
 };
