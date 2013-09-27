@@ -38,10 +38,9 @@ var org = {
   } // initMyAccount()
 
 , initTabs: function() {
+		// apply hash onload
 		if ( window.location.hash ) {
-			var hash = window.location.hash;
-			$('a[href="'+hash+'"]').tab('show')
-
+			$('a[href="'+window.location.hash+'"]').tab('show')
 		}
 
 		// apply hashchange on tab event
