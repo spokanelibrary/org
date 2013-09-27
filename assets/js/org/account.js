@@ -50,14 +50,15 @@ var org = {
 		var $email = $('#spl-profile-email');
 
 		$form.validate();
-		
+		/*
 		$form.on('submit', function(e) {
 			e.preventDefault();
-			if ( $form.valid() ) {
-				console.log(_self.user.borrower);
-				console.log($email.val());
-			}
+			//if ( $form.valid() ) {
+				//console.log(_self.user.borrower);
+				//console.log($email.val());
+			//}
 		});
+	*/
 
 	} // initProfile()
 
