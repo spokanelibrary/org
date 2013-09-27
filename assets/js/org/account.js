@@ -64,7 +64,7 @@ var org = {
 		$form.on('submit', function(e) {
 			e.preventDefault();
 			
-			console.log( 'cko form' );
+			console.log( 'submitting cko form' );
 		});
 
 	} // initCko()
