@@ -79,13 +79,13 @@ var org = {
 
 	var $submit = $('#spl-submit-profile-pin');
 
-	$form.validate(
+	$form.validate({
 		rules: {
 			spl-field-profile-pin-confirm: {
 	      equalTo: "#spl-field-profile-pin-new"
 	    }
   	}
-	);
+	});
 		
 		$form.on('submit', function(e) {
 			e.preventDefault();
