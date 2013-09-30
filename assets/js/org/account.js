@@ -164,7 +164,7 @@ var org = {
 				break;
 		}
 		
-		if ( null != typeOf(endpoint) ) {
+		if ( null != typeof(endpoint) ) {
 			console.log(endpoint);
 		}
 
