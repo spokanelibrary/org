@@ -109,10 +109,15 @@ var org = {
 	} // ckoRenew()
 
 , initHolds: function() {
-		var $form = $('#spl-form-holds');
+		this.initHoldsPending();
 
-		var $selectAll = $('.spl-field-holds-select-all');
-		var $selectItem = $('.spl-field-holds-select-item');
+	} // initHolds()
+
+, initHoldsPending: function() {
+		var $form = $('#spl-form-holds-pending');
+
+		var $selectAll = $('.spl-field-holds-pending-select-all');
+		var $selectItem = $('.spl-field-holds-pending-select-item');
 
 		$selectAll.on('change', function(e) {
 			if ( $(this).is(':checked') ) {
@@ -123,8 +128,7 @@ var org = {
 				$selectItem.prop('checked', false);
 			}
 		});
-
-	} // initHolds()
+	} // initHoldsPending()
 
 , initProfile: function() {
 		this.initProfileEmail();
