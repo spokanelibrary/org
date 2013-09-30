@@ -147,11 +147,13 @@ var org = {
 
 		var $date = $('.spl-field-holds-pending-date');
 
+		/*
 		$date.on('change', function(e) {
 			if ( $(this).val() ) {
 				$suspend.prop('disabled', false);
 			}
 		});
+		*/
 
 		$submit.button('loading'); //$submit.button('reset');
 
