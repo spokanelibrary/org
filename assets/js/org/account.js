@@ -156,11 +156,12 @@ var org = {
 				endpoint = 'cancelHolds';
 				break;
 			case 'pickup':
-				endpoint = 'pickupHolds';
+				endpoint = 'changePickupLocations';
+				data.params.newLocation = 'hy';
 				break;
 			case 'suspend':
 				endpoint = 'suspendHolds';
-				data.params.resume = 'resume date';
+				data.params.resumeDate = 'resume date';
 				break;
 			default:
 				endpoint = null;
