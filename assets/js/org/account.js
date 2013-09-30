@@ -125,7 +125,7 @@ var org = {
 					holdkeys.push( $(this).data('holdkey') );
 				});
 				
-				if ( titlekeys.length > 0 ) {
+				if ( holdkeys.length > 0 ) {
 					_self.holdsPendingUpdate($(this).data('action'), holdkeys);
 					$(this).data('action', '');
 				} else {
