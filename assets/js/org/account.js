@@ -115,7 +115,7 @@ var org = {
 				$suspend.attr('disabled', false);
 			}
 		});
-		$date.datepicker({startDate: new Date('today') });
+		$date.datepicker({startDate: new Date() });
 		
 		var $form = $('#spl-form-holds-pending');
 
