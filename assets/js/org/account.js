@@ -29,6 +29,8 @@ var org = {
 
 		this.initCko();
 
+		this.initHolds();
+
 		this.initProfile();
 		
   } // initMyAccount()
@@ -111,7 +113,7 @@ var org = {
 , initHolds: function() {
 		this.initHoldsPending();
 
-		console.log('holds pending');
+		//console.log('holds pending');
 	} // initHolds()
 
 , initHoldsPending: function() {
