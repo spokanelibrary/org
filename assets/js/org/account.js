@@ -147,7 +147,7 @@ var org = {
 
 		var $date = $('.spl-field-holds-pending-date');
 
-		$.datepicker({autoclose:true})
+		$date.datepicker({autoclose:true});
 
 		/*
 		$date.on('change', function(e) {
