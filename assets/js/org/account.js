@@ -150,7 +150,7 @@ var org = {
 		var $date = $('.spl-field-holds-pending-date');
 
 
-		$date.on('change', function(e) {
+		$date.on('input', function(e) {
 			console.log( $(this).val() );
 			//if ( $(this).val() ) {
 				//$suspend.attr('disabled', false);
