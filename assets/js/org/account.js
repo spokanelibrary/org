@@ -107,12 +107,14 @@ var org = {
 	} // initHolds()
 
 , initHoldsPending: function() {
+		
+		var $suspend = $('.spl-field-holds-pending-suspend');
 		var $date = $('.spl-field-holds-pending-date');
 		$date.on('change', function(e) {
-			console.log( $(this).val() );
-			//if ( $(this).val() ) {
-				//$suspend.attr('disabled', false);
-			//}
+			//console.log( $(this).val() );
+			if ( $(this).val() ) {
+				$suspend.attr('disabled', false);
+			}
 		});
 		
 		var $form = $('#spl-form-holds-pending');
@@ -152,7 +154,7 @@ var org = {
 		var $submit = $('.spl-field-holds-pending-control');
 		var $hidden = $('#spl-field-holds-pending-update');
 
-		var $suspend = $('.spl-field-holds-pending-suspend');
+		
 
 		var $date = $('.spl-field-holds-pending-date');
 
