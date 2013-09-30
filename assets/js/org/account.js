@@ -109,9 +109,9 @@ var org = {
 , initHoldsPending: function() {
 		var $date = $('.spl-field-holds-pending-date');
 
-		$date.datepicker({autoclose:true});
+		//$date.datepicker({autoclose:true});
 
-		
+
 		var $form = $('#spl-form-holds-pending');
 
 		this.toggleCheckboxGroup('.spl-field-holds-pending-select-all'
