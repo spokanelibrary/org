@@ -88,7 +88,7 @@ var org = {
 		var $submit = $('.spl-submit-cko');
 		var $hidden = $('#spl-field-cko-renewal');
 
-		$submit.button('loading');
+		$submit.button('loading'); //$submit.button('reset');
 		$.ajax({ 
 	    url: this.config.endpoint.hzws+'renew' //'renew' //'trace'
     , data: { params: { token: this.user.sessionToken
@@ -97,15 +97,9 @@ var org = {
     				}
 	  })
 	  .done(function(obj) {  
-	  	//console.log(obj);
-
-	  	// pass form processing through
+	  	// pass results through
 			$hidden.val(JSON.stringify(obj));
-	  	//console.log( $hidden.val() );
-
-	  	//$submit.button('reset');
-	  	$form.data('process', 'http').submit();
-	  	//$form.submit();
+			$form.data('process', 'http').submit();
 	  })
 	  .fail(function() {
 	  })
@@ -113,6 +107,24 @@ var org = {
 	  });
 
 	} // ckoRenew()
+
+, initHolds: function() {
+		var $form = $('#spl-form-holds');
+
+		var $selectAll = $('.spl-field-holds-select-all');
+		var $selectItem = $('.spl-field-holds-select-item');
+
+		$selectAll.on('change', function(e) {
+			if ( $(this).is(':checked') ) {
+				$selectAll.prop('checked', true);
+				$selectItem.prop('checked', true);
+			} else {
+				$selectAll.prop('checked', false);
+				$selectItem.prop('checked', false);
+			}
+		});
+
+	} // initHolds()
 
 , initProfile: function() {
 		this.initProfileEmail();
