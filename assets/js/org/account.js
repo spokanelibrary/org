@@ -112,6 +112,10 @@ var org = {
 		this.toggleCheckboxGroup('.spl-field-holds-pending-select-all'
 														,'.spl-field-holds-pending-select-item');
 
+		$('.spl-field-holds-pending-cancel').click(function(e) {
+			$form.data('action', 'cancel').submit();
+		});
+
 		$form.on('submit', function(e) {
 			if ( 'ajax' == $(this).data('process') ) {
 				e.preventDefault();
@@ -120,12 +124,12 @@ var org = {
 				$('.spl-field-holds-pending-select-item:checked').each(function() {
 					titlekeys.push( $(this).data('titlekey') );
 				});
-				console.log(titlekeys);
+				console.log($(this).data('action'));
 				/*
 				if ( barcodes.length > 0 ) {
 					_self.ckoRenew(barcodes);
 				} else {
-					alert('Please select item(s) to renew.');
+					alert('Please select hold(s).');
 				}
 				*/
 			}
