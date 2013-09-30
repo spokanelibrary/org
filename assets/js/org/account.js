@@ -111,11 +111,11 @@ var org = {
 		var $suspend = $('.spl-field-holds-pending-suspend');
 		var $date = $('.spl-field-holds-pending-date');
 		$date.on('change', function(e) {
-			//console.log( $(this).val() );
 			if ( $(this).val() ) {
 				$suspend.attr('disabled', false);
 			}
 		});
+		$date.datepicker({startView:'2013-09-29'});
 		
 		var $form = $('#spl-form-holds-pending');
 
