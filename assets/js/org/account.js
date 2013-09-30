@@ -145,6 +145,10 @@ var org = {
 
 		$submit.button('loading'); //$submit.button('reset');
 
+		var data = { params: {token: this.user.sessionToken
+	    									,	titleKeys: titlekeys
+	    									}
+	    				}
 		var endpoint;
 		switch ( action ) {
 			case 'cancel':
@@ -155,6 +159,7 @@ var org = {
 				break;
 			case 'suspend':
 				endpoint = 'suspendHolds';
+				data.params.resume = 'resume date';
 				break;
 			default:
 				endpoint = null;
@@ -162,30 +167,22 @@ var org = {
 		}
 		
 		if ( null != typeof(endpoint) ) {
-			console.log(endpoint);
+			$.ajax({ 
+		    url: this.config.endpoint.hzws+endpoint
+	    , data: data
+		  })
+		  .done(function(obj) {  
+		  	// pass results through
+				$hidden.val(JSON.stringify(obj));
+				console.log(obj);
+				$submit.button('reset');
+				//$form.data('process', 'http').submit();
+		  })
+		  .fail(function() {
+		  })
+		  .always(function() {
+		  });
 		}
-
-		
-		$.ajax({ 
-	    url: this.config.endpoint.hzws+endpoint
-    , data: { params: { token: this.user.sessionToken
-    									,	titleKeys: titlekeys
-    									}
-    				}
-	  })
-	  .done(function(obj) {  
-	  	// pass results through
-			$hidden.val(JSON.stringify(obj));
-			console.log(obj);
-			$submit.button('reset');
-			//$form.data('process', 'http').submit();
-	  })
-	  .fail(function() {
-	  })
-	  .always(function() {
-	  });
-		
-		
 
 	} // holdsPendingUpdate()
 
