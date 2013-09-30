@@ -115,11 +115,6 @@ var org = {
 		$('.spl-field-holds-pending-control').click(function(e) {
 			$form.data('action', $(this).data('action')).submit();
 		});
-		/*
-		$('.spl-field-holds-pending-cancel').click(function(e) {
-			$form.data('action', $(this).data('action')).submit();
-		});
-*/
 
 		$form.on('submit', function(e) {
 			if ( 'ajax' == $(this).data('process') ) {
@@ -131,22 +126,8 @@ var org = {
 				});
 				
 				if ( titlekeys.length > 0 ) {
-					switch ( $(this).data('action') ) {
-						case 'cancel':
-							console.log('cancelling selected holds');
-							//_self.ckoRenew(barcodes);
-							break;
-						case 'pickup':
-							console.log('changing pickup location');
-							break;
-						case 'suspend':
-							console.log('suspending holds');
-							break;
-						default:
-							break;
-					}
+					this.holdsPendingUpdate($(this).data('action'), titlekeys);
 					$(this).data('action', '');
-					
 				} else {
 					alert('Please select hold(s).');
 				}
@@ -156,6 +137,12 @@ var org = {
 		});
 		
 	} // initHoldsPending()
+
+, holdsPendingUpdate: function(action, titlekeys) {
+		console.log(action);
+		console.log(titlekeys);
+
+	} // holdsPendingUpdate()
 
 , initProfile: function() {
 		this.initProfileEmail();
