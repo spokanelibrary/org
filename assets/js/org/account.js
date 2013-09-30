@@ -124,14 +124,28 @@ var org = {
 				$('.spl-field-holds-pending-select-item:checked').each(function() {
 					titlekeys.push( $(this).data('titlekey') );
 				});
-				console.log($(this).data('action'));
-				/*
-				if ( barcodes.length > 0 ) {
-					_self.ckoRenew(barcodes);
+				
+				if ( titlekeys.length > 0 ) {
+					switch ( $(this).data('action') ) {
+						case 'cancel':
+							console.log('cancelling selected holds');
+							//_self.ckoRenew(barcodes);
+							break;
+						case 'pickup':
+
+							break;
+						case 'suspend':
+
+							break;
+						default:
+							break;
+					}
+					$(this).data('action', '');
+					
 				} else {
 					alert('Please select hold(s).');
 				}
-				*/
+				
 			}
 			
 		});
