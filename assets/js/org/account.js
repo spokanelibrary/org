@@ -151,8 +151,9 @@ var org = {
 
 
 		$date.on('change', function(e) {
+			console.log( $(this).val() );
 			//if ( $(this).val() ) {
-				$suspend.attr('disabled', false);
+				//$suspend.attr('disabled', false);
 			//}
 		});
 
