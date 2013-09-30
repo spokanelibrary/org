@@ -38,6 +38,8 @@ a list of files touched in org. attempt to group all changes under /org director
 			* respond.min.js (add)
 			* helper.js (add)
 			* handlebars.js (add)
+			* jquery.validate.js (add)
+			* bootstrap-datepicker.js (add)
 
 * /lib
 	* /org (add)
