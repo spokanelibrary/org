@@ -144,15 +144,35 @@ var org = {
 
 		var $form = $('#spl-form-holds-pending');
 		var $submit = $('.spl-field-holds-pending-control');
-		//var $hidden = $('#spl-field-cko-renewal');
+		var $hidden = $('#spl-field-holds-pending-update');
 
 		$submit.button('loading'); //$submit.button('reset');
+
+		var endpoint;
+		switch ( action ) {
+			case 'cancel':
+				endpoint = 'cancel';
+				break;
+			case 'pickup':
+				endpoint = 'pickup';
+				break;
+			case 'suspend':
+				endpoidnt = 'suspend';
+				break;
+			default:
+				endpoint = null;
+				break;
+		}
 		
+		if ( null != typeOf(endpoint) ) {
+			console.log(endpoint);
+		}
+
 		/*
 		$.ajax({ 
 	    url: this.config.endpoint.hzws+'renew' //'renew' //'trace'
     , data: { params: { token: this.user.sessionToken
-    									,	barcodes: barcodes
+    									,	titleKeys: titlekeys
     									}
     				}
 	  })
@@ -166,6 +186,7 @@ var org = {
 	  .always(function() {
 	  });
 		*/
+		
 
 	} // holdsPendingUpdate()
 
