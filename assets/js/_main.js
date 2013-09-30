@@ -54,7 +54,9 @@ var ORG = {
       
       Modernizr.load([
         {
-          load: ['../assets/js/org/account.js', '../assets/js/vendor/jquery.validate.js'],
+          load: ['../assets/js/org/account.js'
+                ,'../assets/js/vendor/jquery.validate.js'
+                ,'../assets/js/vendor/bootstrap-datepicker.js' ],
           complete: function () {
             if ( org ) { 
               org.init();

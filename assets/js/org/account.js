@@ -161,7 +161,7 @@ var org = {
 				break;
 			case 'suspend':
 				endpoint = 'suspendHolds';
-				data.params.resumeDate = 'resume date';
+				data.params.suspendEndDate = '2013-11-01';
 				break;
 			default:
 				endpoint = null;
