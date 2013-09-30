@@ -115,7 +115,6 @@ var org = {
 			//}
 		});
 		
-		asd
 		var $form = $('#spl-form-holds-pending');
 
 		this.toggleCheckboxGroup('.spl-field-holds-pending-select-all'
