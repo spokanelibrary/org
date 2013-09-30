@@ -108,11 +108,19 @@ var org = {
 
 , initHoldsPending: function() {
 		var $date = $('.spl-field-holds-pending-date');
-
+		$date.on('input', function(e) {
+			console.log( $(this).val() );
+			//if ( $(this).val() ) {
+				//$suspend.attr('disabled', false);
+			//}
+		});
+		
+		
 		var $form = $('#spl-form-holds-pending');
 
 		this.toggleCheckboxGroup('.spl-field-holds-pending-select-all'
 														,'.spl-field-holds-pending-select-item');
+
 
 		$('.spl-field-holds-pending-control').click(function(e) {
 			$form.data('action', $(this).data('action')).submit();
@@ -148,14 +156,6 @@ var org = {
 		var $suspend = $('.spl-field-holds-pending-suspend');
 
 		var $date = $('.spl-field-holds-pending-date');
-
-
-		$date.on('focus', function(e) {
-			console.log( $(this).val() );
-			//if ( $(this).val() ) {
-				//$suspend.attr('disabled', false);
-			//}
-		});
 
 		$submit.button('loading'); //$submit.button('reset');
 
