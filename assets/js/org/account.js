@@ -143,6 +143,16 @@ var org = {
 		var $submit = $('.spl-field-holds-pending-control');
 		var $hidden = $('#spl-field-holds-pending-update');
 
+		var $suspend = $('.spl-field-holds-pending-suspend');
+
+		var $date = $('.spl-field-holds-pending-date');
+
+		$date.on('change', function(e) {
+			if ( $(this).val() ) {
+				$suspend.prop('disabled', false);
+			}
+		});
+
 		$submit.button('loading'); //$submit.button('reset');
 
 		var data = { params: {token: this.user.sessionToken
@@ -161,7 +171,7 @@ var org = {
 				break;
 			case 'suspend':
 				endpoint = 'suspendHolds';
-				data.params.suspendEndDate = $('.spl-field-holds-pending-date').val();
+				data.params.suspendEndDate = $date.val();
 				break;
 			default:
 				endpoint = null;
