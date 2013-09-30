@@ -55,20 +55,7 @@ var org = {
 		this.toggleCheckboxGroup('.spl-field-cko-select-all'
 														,'.spl-field-cko-select-item');
 
-		/*
-		var $selectAll = $('.spl-field-cko-select-all');
-		var $selectItem = $('.spl-field-cko-select-item');
-
-		$selectAll.on('change', function(e) {
-			if ( $(this).is(':checked') ) {
-				$selectAll.prop('checked', true);
-				$selectItem.prop('checked', true);
-			} else {
-				$selectAll.prop('checked', false);
-				$selectItem.prop('checked', false);
-			}
-		});
-		*/
+		
 		$form.on('submit', function(e) {
 			if ( 'ajax' == $(this).data('process') ) {
 				e.preventDefault();
@@ -124,6 +111,26 @@ var org = {
 
 		this.toggleCheckboxGroup('.spl-field-holds-pending-select-all'
 														,'.spl-field-holds-pending-select-item');
+
+		$form.on('submit', function(e) {
+			if ( 'ajax' == $(this).data('process') ) {
+				e.preventDefault();
+
+				var titlekeys = new Array;
+				$('.spl-field-holds-pending-select-item:checked').each(function() {
+					titlekeys.push( $(this).data('titlekey') );
+				});
+				console.log(titlekeys);
+				/*
+				if ( barcodes.length > 0 ) {
+					_self.ckoRenew(barcodes);
+				} else {
+					alert('Please select item(s) to renew.');
+				}
+				*/
+			}
+			
+		});
 		
 	} // initHoldsPending()
 
