@@ -126,7 +126,7 @@ var org = {
 				});
 				
 				if ( titlekeys.length > 0 ) {
-					this.holdsPendingUpdate($(this).data('action'), titlekeys);
+					_self.holdsPendingUpdate($(this).data('action'), titlekeys);
 					$(this).data('action', '');
 				} else {
 					alert('Please select hold(s).');
