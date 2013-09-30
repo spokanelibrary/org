@@ -139,9 +139,6 @@ var org = {
 	} // initHoldsPending()
 
 , holdsPendingUpdate: function(action, titlekeys) {
-		console.log(action);
-		console.log(titlekeys);
-
 		var $form = $('#spl-form-holds-pending');
 		var $submit = $('.spl-field-holds-pending-control');
 		var $hidden = $('#spl-field-holds-pending-update');
@@ -151,13 +148,13 @@ var org = {
 		var endpoint;
 		switch ( action ) {
 			case 'cancel':
-				endpoint = 'cancel';
+				endpoint = 'cancelHolds';
 				break;
 			case 'pickup':
-				endpoint = 'pickup';
+				endpoint = 'pickupHolds';
 				break;
 			case 'suspend':
-				endpoidnt = 'suspend';
+				endpoint = 'suspendHolds';
 				break;
 			default:
 				endpoint = null;
@@ -168,9 +165,9 @@ var org = {
 			console.log(endpoint);
 		}
 
-		/*
+		
 		$.ajax({ 
-	    url: this.config.endpoint.hzws+'renew' //'renew' //'trace'
+	    url: this.config.endpoint.hzws+endpoint
     , data: { params: { token: this.user.sessionToken
     									,	titleKeys: titlekeys
     									}
@@ -179,13 +176,14 @@ var org = {
 	  .done(function(obj) {  
 	  	// pass results through
 			$hidden.val(JSON.stringify(obj));
-			$form.data('process', 'http').submit();
+			console.log(obj);
+			//$form.data('process', 'http').submit();
 	  })
 	  .fail(function() {
 	  })
 	  .always(function() {
 	  });
-		*/
+		
 		
 
 	} // holdsPendingUpdate()
