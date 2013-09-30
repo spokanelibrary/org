@@ -107,6 +107,11 @@ var org = {
 	} // initHolds()
 
 , initHoldsPending: function() {
+		var $date = $('.spl-field-holds-pending-date');
+
+		$date.datepicker({autoclose:true});
+
+		
 		var $form = $('#spl-form-holds-pending');
 
 		this.toggleCheckboxGroup('.spl-field-holds-pending-select-all'
@@ -147,7 +152,6 @@ var org = {
 
 		var $date = $('.spl-field-holds-pending-date');
 
-		$date.datepicker({autoclose:true});
 
 		/*
 		$date.on('change', function(e) {
