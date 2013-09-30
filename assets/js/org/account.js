@@ -113,15 +113,16 @@ var org = {
 , initHolds: function() {
 		this.initHoldsPending();
 
-		//console.log('holds pending');
 	} // initHolds()
 
 , initHoldsPending: function() {
 		var $form = $('#spl-form-holds-pending');
 
-		var $selectAll = $('.spl-field-holds-pending-select-all');
-		var $selectItem = $('.spl-field-holds-pending-select-item');
+		//var $selectAll = $('.spl-field-holds-pending-select-all');
+		//var $selectItem = $('.spl-field-holds-pending-select-item');
 
+		this.toggleCheckboxGroup('.spl-field-holds-pending-select-all', '.spl-field-holds-pending-select-item');
+		/*
 		$selectAll.on('change', function(e) {
 			if ( $(this).is(':checked') ) {
 				$selectAll.prop('checked', true);
@@ -131,6 +132,7 @@ var org = {
 				$selectItem.prop('checked', false);
 			}
 		});
+		*/
 	} // initHoldsPending()
 
 , initProfile: function() {
@@ -189,5 +191,20 @@ var org = {
 		});
 
 } // initProfilePin()
+
+, toggleCheckboxGroup: function(all, item) {
+		var $selectAll = $(all);
+		var $selectItem = $(item);
+
+		$selectAll.on('change', function(e) {
+			if ( $(this).is(':checked') ) {
+				$selectAll.prop('checked', true);
+				$selectItem.prop('checked', true);
+			} else {
+				$selectAll.prop('checked', false);
+				$selectItem.prop('checked', false);
+			}
+		});
+	}
 
 };
