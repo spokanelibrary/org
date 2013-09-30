@@ -161,7 +161,7 @@ var org = {
 				break;
 			case 'suspend':
 				endpoint = 'suspendHolds';
-				data.params.suspendEndDate = '2013-11-01';
+				data.params.suspendEndDate = $('.spl-field-holds-pending-date').val();
 				break;
 			default:
 				endpoint = null;
