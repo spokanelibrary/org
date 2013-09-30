@@ -138,10 +138,10 @@ var org = {
 							//_self.ckoRenew(barcodes);
 							break;
 						case 'pickup':
-
+							console.log('changing pickup location');
 							break;
 						case 'suspend':
-
+							console.log('suspending holds');
 							break;
 						default:
 							break;
