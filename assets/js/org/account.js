@@ -152,7 +152,7 @@ var org = {
 
 		$date.on('change', function(e) {
 			//if ( $(this).val() ) {
-				$suspend.prop('disabled', false);
+				$suspend.attr('disabled', false);
 			//}
 		});
 
