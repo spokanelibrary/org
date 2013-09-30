@@ -112,9 +112,15 @@ var org = {
 		this.toggleCheckboxGroup('.spl-field-holds-pending-select-all'
 														,'.spl-field-holds-pending-select-item');
 
-		$('.spl-field-holds-pending-cancel').click(function(e) {
-			$form.data('action', 'cancel').submit();
+		$('.spl-field-holds-pending-control').click(function(e) {
+			e.preventDefault();
+			$form.data('action', $(this).data('action')).submit();
 		});
+		/*
+		$('.spl-field-holds-pending-cancel').click(function(e) {
+			$form.data('action', $(this).data('action')).submit();
+		});
+*/
 
 		$form.on('submit', function(e) {
 			if ( 'ajax' == $(this).data('process') ) {
