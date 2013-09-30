@@ -52,6 +52,10 @@ var org = {
 , initCko: function() {
 		var $form = $('#spl-form-cko');
 
+		this.toggleCheckboxGroup('.spl-field-cko-select-all'
+														,'.spl-field-cko-select-item');
+
+		/*
 		var $selectAll = $('.spl-field-cko-select-all');
 		var $selectItem = $('.spl-field-cko-select-item');
 
@@ -64,7 +68,7 @@ var org = {
 				$selectItem.prop('checked', false);
 			}
 		});
-
+		*/
 		$form.on('submit', function(e) {
 			if ( 'ajax' == $(this).data('process') ) {
 				e.preventDefault();
@@ -118,21 +122,9 @@ var org = {
 , initHoldsPending: function() {
 		var $form = $('#spl-form-holds-pending');
 
-		//var $selectAll = $('.spl-field-holds-pending-select-all');
-		//var $selectItem = $('.spl-field-holds-pending-select-item');
-
-		this.toggleCheckboxGroup('.spl-field-holds-pending-select-all', '.spl-field-holds-pending-select-item');
-		/*
-		$selectAll.on('change', function(e) {
-			if ( $(this).is(':checked') ) {
-				$selectAll.prop('checked', true);
-				$selectItem.prop('checked', true);
-			} else {
-				$selectAll.prop('checked', false);
-				$selectItem.prop('checked', false);
-			}
-		});
-		*/
+		this.toggleCheckboxGroup('.spl-field-holds-pending-select-all'
+														,'.spl-field-holds-pending-select-item');
+		
 	} // initHoldsPending()
 
 , initProfile: function() {
