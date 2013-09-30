@@ -120,13 +120,13 @@ var org = {
 			if ( 'ajax' == $(this).data('process') ) {
 				e.preventDefault();
 
-				var titlekeys = new Array;
+				var holdkeys = new Array;
 				$('.spl-field-holds-pending-select-item:checked').each(function() {
-					titlekeys.push( $(this).data('titlekey') );
+					holdkeys.push( $(this).data('holdkey') );
 				});
 				
 				if ( titlekeys.length > 0 ) {
-					_self.holdsPendingUpdate($(this).data('action'), titlekeys);
+					_self.holdsPendingUpdate($(this).data('action'), holdkeys);
 					$(this).data('action', '');
 				} else {
 					alert('Please select hold(s).');
@@ -138,7 +138,7 @@ var org = {
 		
 	} // initHoldsPending()
 
-, holdsPendingUpdate: function(action, titlekeys) {
+, holdsPendingUpdate: function(action, holdkeys) {
 		var $form = $('#spl-form-holds-pending');
 		var $submit = $('.spl-field-holds-pending-control');
 		var $hidden = $('#spl-field-holds-pending-update');
@@ -146,9 +146,10 @@ var org = {
 		$submit.button('loading'); //$submit.button('reset');
 
 		var data = { params: {token: this.user.sessionToken
-	    									,	titleKeys: titlekeys
+	    									,	holdKeys: holdkeys
 	    									}
-	    				}
+	    					}
+
 		var endpoint;
 		switch ( action ) {
 			case 'cancel':
