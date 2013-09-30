@@ -142,6 +142,31 @@ var org = {
 		console.log(action);
 		console.log(titlekeys);
 
+		var $form = $('#spl-form-holds-pending');
+		var $submit = $('.spl-field-holds-pending-control');
+		//var $hidden = $('#spl-field-cko-renewal');
+
+		$submit.button('loading'); //$submit.button('reset');
+		
+		/*
+		$.ajax({ 
+	    url: this.config.endpoint.hzws+'renew' //'renew' //'trace'
+    , data: { params: { token: this.user.sessionToken
+    									,	barcodes: barcodes
+    									}
+    				}
+	  })
+	  .done(function(obj) {  
+	  	// pass results through
+			$hidden.val(JSON.stringify(obj));
+			$form.data('process', 'http').submit();
+	  })
+	  .fail(function() {
+	  })
+	  .always(function() {
+	  });
+		*/
+
 	} // holdsPendingUpdate()
 
 , initProfile: function() {
