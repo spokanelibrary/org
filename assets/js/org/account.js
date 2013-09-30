@@ -108,14 +108,14 @@ var org = {
 
 , initHoldsPending: function() {
 		var $date = $('.spl-field-holds-pending-date');
-		$date.on('input', function(e) {
+		$date.on('change', function(e) {
 			console.log( $(this).val() );
 			//if ( $(this).val() ) {
 				//$suspend.attr('disabled', false);
 			//}
 		});
 		
-		
+		asd
 		var $form = $('#spl-form-holds-pending');
 
 		this.toggleCheckboxGroup('.spl-field-holds-pending-select-all'
