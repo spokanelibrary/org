@@ -108,18 +108,7 @@ var org = {
 
 , initHoldsPending: function() {
 		
-		var $suspend = $('.spl-field-holds-pending-suspend');
-		var $date = $('.spl-field-holds-pending-date');
-		$date.on('change', function(e) {
-			console.log( $(this).val() );
-			if ( $(this).val().length > 0 ) {
-				$suspend.attr('disabled', false);
-			} else {
-				$suspend.attr('disabled', true);
-			}
-		});
-		// disallow dates in the past
-		$date.datepicker({startDate: new Date() });
+		this.initHoldsPendingSuspend();
 		
 		var $form = $('#spl-form-holds-pending');
 
@@ -152,6 +141,21 @@ var org = {
 		});
 		
 	} // initHoldsPending()
+
+, initHoldsPendingSuspend: function() {
+		var $suspend = $('.spl-field-holds-pending-suspend');
+		var $date = $('.spl-field-holds-pending-date');
+		$date.on('change', function(e) {
+			if ( $(this).val().length > 0 ) {
+				$suspend.attr('disabled', false);
+			} else {
+				$suspend.attr('disabled', true);
+			}
+		});
+		// disallow dates in the past
+		$date.datepicker({startDate: new Date() });
+
+} // initHoldsPendingSuspend()
 
 , holdsPendingUpdate: function(action, holdkeys) {
 		var $form = $('#spl-form-holds-pending');
