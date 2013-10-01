@@ -175,18 +175,18 @@ var org = {
 		var endpoint;
 		switch ( action ) {
 			case 'cancel':
-				endpoint = 'cancelHolds';
+				endpoint = 'cancel-holds';
 				break;
 			case 'pickup':
-				endpoint = 'changePickupLocations';
+				endpoint = 'change-pickup-locations';
 				data.params.newLocation = $location.val();
 				break;
 			case 'suspend':
-				endpoint = 'suspendHolds';
+				endpoint = 'suspend-holds';
 				data.params.suspendEndDate = $date.val();
 				break;
 			case 'resume':
-				endpoint = 'resumeHolds';
+				endpoint = 'resume-holds';
 				break;
 			default:
 				endpoint = null;
