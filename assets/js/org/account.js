@@ -167,7 +167,7 @@ var org = {
 		
 		$submit.button('loading'); //$submit.button('reset');
 
-		var data = { params: {token: this.user.sessionToken
+		var data = { params: {sessionToken: this.user.sessionToken
 	    									,	holdKeys: holdkeys
 	    									}
 	    					}
@@ -178,7 +178,7 @@ var org = {
 				endpoint = 'cancel-holds';
 				break;
 			case 'pickup':
-				endpoint = 'change-pickup-locations';
+				endpoint = 'pickup';
 				data.params.newLocation = $location.val();
 				break;
 			case 'suspend':
