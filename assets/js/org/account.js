@@ -102,6 +102,7 @@ var org = {
 	} // ckoRenew()
 
 , initHolds: function() {
+		//this.initHoldsReady();
 		this.initHoldsPending();
 
 	} // initHolds()
@@ -133,7 +134,7 @@ var org = {
 					_self.holdsPendingUpdate($(this).data('action'), holdkeys);
 					$(this).data('action', '');
 				} else {
-					alert('Please select hold(s).');
+					alert('Please select hold requests(s).');
 				}
 				
 			}
@@ -213,6 +214,51 @@ var org = {
 		}
 
 	} // holdsPendingUpdate()
+
+, initLists: function() {
+		this.initListCreate();
+
+	} // initLists()
+
+, initListCreate: function() {
+
+		var $form = $('#spl-form-list-create');
+
+		var $label = $('#spl-field-list-create-label');
+
+		/*
+		$('.spl-field-holds-pending-control').click(function(e) {
+			$form.data('action', $(this).data('action')).submit();
+		});
+*/
+
+		$form.on('submit', function(e) {
+			if ( 'ajax' == $(this).data('process') ) {
+				e.preventDefault();
+
+				console.log($label.val());
+
+				/*
+				var holdkeys = new Array;
+				$('.spl-field-holds-pending-select-item:checked').each(function() {
+					holdkeys.push( $(this).data('holdkey') );
+				});
+				
+				if ( holdkeys.length > 0 ) {
+					_self.holdsPendingUpdate($(this).data('action'), holdkeys);
+					$(this).data('action', '');
+				} else {
+					alert('Please select hold requests(s).');
+				}
+				*/
+
+
+				
+			}
+			
+		});
+
+	} //initListCreate
 
 , initProfile: function() {
 		this.initProfileEmail();
