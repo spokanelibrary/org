@@ -230,7 +230,7 @@ var org = {
 		$('.spl-field-holds-pending-control').click(function(e) {
 			$form.data('action', $(this).data('action')).submit();
 		});
-*/
+		*/
 
 		$form.on('submit', function(e) {
 			if ( 'ajax' == $(this).data('process') ) {
