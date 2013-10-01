@@ -241,27 +241,21 @@ var org = {
 
 				console.log($label.val());
 
-				/*
-				var holdkeys = new Array;
-				$('.spl-field-holds-pending-select-item:checked').each(function() {
-					holdkeys.push( $(this).data('holdkey') );
-				});
-				
-				if ( holdkeys.length > 0 ) {
-					_self.holdsPendingUpdate($(this).data('action'), holdkeys);
-					$(this).data('action', '');
+				var label = $label.val();
+				if ( label.length > 0 ) {
+					_self.createList(label);
 				} else {
-					alert('Please select hold requests(s).');
+					alert('Please add a List Name');
 				}
-				*/
-
-
-				
 			}
 			
 		});
 
 	} //initListCreate
+
+, createList: function(label) {
+		console.log(label);
+} //createList()
 
 , initProfile: function() {
 		this.initProfileEmail();
