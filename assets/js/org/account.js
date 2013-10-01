@@ -173,6 +173,7 @@ var org = {
 	    					}
 
 		var endpoint;
+		
 		switch ( action ) {
 			case 'cancel':
 				endpoint = 'cancel-holds';
