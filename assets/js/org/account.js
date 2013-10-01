@@ -176,7 +176,7 @@ var org = {
 
 		switch ( action ) {
 			case 'cancel':
-				endpoint = 'cancel-holds';
+				endpoint = 'cancel';
 				break;
 			case 'pickup':
 				endpoint = 'pickup';
