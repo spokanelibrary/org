@@ -185,6 +185,9 @@ var org = {
 				endpoint = 'suspendHolds';
 				data.params.suspendEndDate = $date.val();
 				break;
+			case 'resume':
+				endpoint = 'resumeHolds';
+				break;
 			default:
 				endpoint = null;
 				break;
