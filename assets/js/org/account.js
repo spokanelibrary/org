@@ -111,6 +111,7 @@ var org = {
 		var $suspend = $('.spl-field-holds-pending-suspend');
 		var $date = $('.spl-field-holds-pending-date');
 		$date.on('change', function(e) {
+			console.log( $(this).val() );
 			if ( $(this).val().length > 0 ) {
 				$suspend.attr('disabled', false);
 			}
