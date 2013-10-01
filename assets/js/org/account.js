@@ -180,7 +180,7 @@ var org = {
 				break;
 			case 'pickup':
 				endpoint = 'changePickupLocations';
-				data.params.newLocation = 'hy';
+				data.params.newLocation = $('.spl-field-holds-pending-pickup').val();
 				break;
 			case 'suspend':
 				endpoint = 'suspendHolds';
