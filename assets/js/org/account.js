@@ -221,7 +221,7 @@ var org = {
 	} // initLists()
 
 , initListCreate: function() {
-
+		console.log('initListCreate');
 		var $form = $('#spl-form-list-create');
 
 		var $label = $('#spl-field-list-create-label');
@@ -233,6 +233,7 @@ var org = {
 		*/
 
 		$form.on('submit', function(e) {
+			e.preventDefault();
 			if ( 'ajax' == $(this).data('process') ) {
 				e.preventDefault();
 
