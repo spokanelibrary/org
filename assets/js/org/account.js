@@ -245,8 +245,6 @@ var org = {
 	} //initListCreate
 
 , createList: function(label) {
-		console.log(label);
-
 		var $form = $('#spl-form-list-create');
 		var $submit = $('spl-submit-list-create');
 		var $hidden = $('#spl-field-list-create');
