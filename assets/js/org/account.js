@@ -223,23 +223,14 @@ var org = {
 	} // initLists()
 
 , initListCreate: function() {
-
 		var $form = $('#spl-form-list-create');
 
 		var $label = $('#spl-field-list-create-label');
-
-		/*
-		$('.spl-field-holds-pending-control').click(function(e) {
-			$form.data('action', $(this).data('action')).submit();
-		});
-		*/
 
 		$form.on('submit', function(e) {
 			e.preventDefault();
 			if ( 'ajax' == $(this).data('process') ) {
 				e.preventDefault();
-
-				console.log($label.val());
 
 				var label = $label.val();
 				if ( label.length > 0 ) {
@@ -255,6 +246,32 @@ var org = {
 
 , createList: function(label) {
 		console.log(label);
+
+		var $form = $('#spl-form-list-create');
+		var $submit = $('spl-submit-list-create');
+		var $hidden = $('#spl-field-list-create');
+
+		$submit.button('loading'); //$submit.button('reset');
+		$.ajax({ 
+	    url: this.config.endpoint.hzws+'list'
+    , data: { params: { sessionToken: this.user.sessionToken
+    									,	description: label
+    									}
+    				}
+	  })
+	  .done(function(obj) {  
+	  	// pass results through
+			$hidden.val(JSON.stringify(obj));
+			console.log(obj);
+			$submit.button('reset');
+			//$form.data('process', 'http').submit();
+	  })
+	  .fail(function() {
+	  })
+	  .always(function() {
+	  });
+
+
 } //createList()
 
 , initProfile: function() {
