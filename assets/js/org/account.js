@@ -162,10 +162,9 @@ var org = {
 		var $submit = $('.spl-field-holds-pending-control');
 		var $hidden = $('#spl-field-holds-pending-update');
 
-		
-
+		var $location = $('.spl-field-holds-pending-location');
 		var $date = $('.spl-field-holds-pending-date');
-
+		
 		$submit.button('loading'); //$submit.button('reset');
 
 		var data = { params: {token: this.user.sessionToken
@@ -180,8 +179,7 @@ var org = {
 				break;
 			case 'pickup':
 				endpoint = 'changePickupLocations';
-				data.params.newLocation = $('.spl-field-holds-pending-pickup').val();
-				console.log( data.params );
+				data.params.newLocation = $location.val();
 				break;
 			case 'suspend':
 				endpoint = 'suspendHolds';
