@@ -173,7 +173,7 @@ var org = {
 	    					}
 
 		var endpoint;
-		
+
 		switch ( action ) {
 			case 'cancel':
 				endpoint = 'cancel-holds';
@@ -183,11 +183,11 @@ var org = {
 				data.params.newLocation = $location.val();
 				break;
 			case 'suspend':
-				endpoint = 'suspend-holds';
+				endpoint = 'suspend';
 				data.params.suspendEndDate = $date.val();
 				break;
 			case 'resume':
-				endpoint = 'resume-holds';
+				endpoint = 'resume';
 				break;
 			default:
 				endpoint = null;
