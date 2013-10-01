@@ -182,6 +182,7 @@ var org = {
 				endpoint = 'changePickupLocations';
 				data.params.newLocation = $('.spl-field-holds-pending-pickup').val();
 				console.log( data.params );
+				
 				break;
 			case 'suspend':
 				endpoint = 'suspendHolds';
