@@ -114,6 +114,8 @@ var org = {
 			console.log( $(this).val() );
 			if ( $(this).val().length > 0 ) {
 				$suspend.attr('disabled', false);
+			} else {
+				$suspend.attr('disabled', true);
 			}
 		});
 		// disallow dates in the past
