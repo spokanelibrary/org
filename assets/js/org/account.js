@@ -31,6 +31,8 @@ var org = {
 
 		this.initHolds();
 
+		this.initLists();
+
 		this.initProfile();
 		
   } // initMyAccount()
@@ -221,7 +223,7 @@ var org = {
 	} // initLists()
 
 , initListCreate: function() {
-		console.log('initListCreate');
+
 		var $form = $('#spl-form-list-create');
 
 		var $label = $('#spl-field-list-create-label');
