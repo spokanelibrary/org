@@ -23,13 +23,27 @@ var org = {
 
 	} // init()
 
+, loadBib: function(bib) {
+		$.ajax({ 
+        url: _self.config.endpoint + 'lookup'
+        ,data: { bib: bib }
+      })
+      .done(function(obj) {
+        console.log(bib);
+      })
+      .fail(function() { 
+      })
+      .always(function() {  
+      });
+	} // loadBib()
+
 , initCatalog: function() {
 
 
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
       e.preventDefault();
       //console.log( $(this).data('bib') );
-      this.loadBib( $(this).data('bib') );
+      _self.loadBib( $(this).data('bib') );
       //loadSyndeticsData($(this).data('isbn'));
       //$(this).hide();
       //$('#syndetics-summary-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
