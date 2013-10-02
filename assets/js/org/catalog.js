@@ -126,6 +126,6 @@ var org = {
         .always(function() {  
         });
       } 
-	}
+	};
 
 };
