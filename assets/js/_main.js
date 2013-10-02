@@ -1,6 +1,7 @@
 // Global configuration
 var config = { 
       api: { endpoint: 'http://api.spokanelibrary.org/v2/'
+            ,novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery'
            }
 }
 
@@ -48,7 +49,34 @@ var ORG = {
       //console.log(config);
     }
   }
+, search : {
+    init: function() {
+      var isbn =  '0375857184';
+      $.ajax( { 
+          url: config.api.novelistApi
+          ,crossDomain: true
+          ,data: { profile: 's8427805.main.novsel'
+                  ,password: 'dGJyMOPY8UivprQA'
+                  ,version: '2.1'
+                  ,ISBN: isbn
+                  ,ClientIdentifier: isbn
+                  }
+        } )
+        .done(function(novelist) {
+          // store data locally
+          //item.novelist = novelist;
+          //parseNovelistData(item.novelist);
+          console.log(novelist);
+        })
+        .fail(function() {
+          //parseNovelistData(null);
+        })
+        .always(function() {  
+        });
 
+
+    }
+}
 , account: {
     init: function() {
       
