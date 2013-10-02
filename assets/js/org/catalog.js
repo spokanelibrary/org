@@ -77,8 +77,9 @@ var org = {
         ,dataType: 'html'
         ,data: $form.serialize() 
       })
-      .done(function(data) {
+      .done(function() {
         console.log('done');
+        $('#spl-login-modal').modal('hide');
       })
       .fail(function() { 
       })
