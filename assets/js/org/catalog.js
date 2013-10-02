@@ -70,7 +70,7 @@ var org = {
 , initLoginModal: function() {
 		$('body').on('submit', '#spl-login-modal form', function(e) {
 			e.preventDefault();
-			
+			console.log('sending');
 			$.post( "/account", $(this).serialize() ).done(function() {
 				//console.log(obj);
 				console.log('test');
