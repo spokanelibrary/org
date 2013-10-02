@@ -70,7 +70,7 @@ var org = {
 , initLoginModal: function() {
 		$('body').on('submit', '#spl-login-modal form', function(e) {
 			e.preventDefault();
-			console.log('sending');
+			console.log('logging in');
 			$form = $(this);
 			$.ajax({ 
         url: '/account'
@@ -78,8 +78,22 @@ var org = {
         ,data: $form.serialize() 
       })
       .done(function() {
-        console.log('done');
-        $('#spl-login-modal').modal('hide');
+        console.log('retrieving session data');
+        $.ajax({ 
+		      url: '/session'
+		        ,data: { }
+		      })
+		      .done(function(obj) {
+		        console.log(obj);
+		        $('#spl-login-modal').modal('hide');
+		      })
+		      .fail(function() { 
+		      })
+		      .always(function() {  
+		      });
+        
+
+
       })
       .fail(function() { 
       })
