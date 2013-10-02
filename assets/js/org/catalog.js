@@ -25,18 +25,10 @@ var org = {
 
 , initCatalog: function() {
 
-
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
       e.preventDefault();
-      //console.log( $(this).data('bib') );
       _self.loadBib( $(this).data('bib') );
-      //loadSyndeticsData($(this).data('isbn'));
-      //$(this).hide();
-      //$('#syndetics-summary-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
     });
-
-
-
 
 		$('body').on('click', '.syndetics-summary-trigger', function(e) {
       e.preventDefault();
@@ -45,29 +37,6 @@ var org = {
       $(this).hide();
       $('#syndetics-summary-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
     });
-
-
-    function parseSyndeticsData(data, isbn) {
-      console.log(data);
-      //$('#syndetics-summary-'+isbn).html('We have a summary');
-      $summary = $('#syndetics-summary-'+isbn);
-      tmpl = Handlebars.compile( $("#syndetics-summary-tmpl").html() );
-      $summary.html( tmpl({syndetics:data}) );
-
-      /*
-      $summary = $('#syndetics-summary');
-      tmpl = Handlebars.compile( $("#summary-tmpl").html() );
-      $summary.html( tmpl(data) );
-      
-      $review = $('#syndetics-review');
-      tmpl = Handlebars.compile( $("#review-tmpl").html() );
-      $review.html( tmpl(data) );  
-      
-      $author = $('#syndetics-author');
-      tmpl = Handlebars.compile( $("#author-tmpl").html() );
-      $author.html( tmpl(data) );  
-      */
-    };
 
     /*
     var isbn =  '0375857184';
@@ -103,14 +72,37 @@ var org = {
         ,data: { isbn: isbn }
       })
       .done(function(data) {
-        parseSyndeticsData(data, isbn);
+        _self.parseSyndeticsData(data, isbn);
       })
       .fail(function() { 
       })
       .always(function() {  
       });
     } 
-}
+	}
+
+, parseSyndeticsData: function(data, isbn) {
+		console.log(data);
+    //$('#syndetics-summary-'+isbn).html('We have a summary');
+    $summary = $('#syndetics-summary-'+isbn);
+    tmpl = Handlebars.compile( $("#syndetics-summary-tmpl").html() );
+    $summary.html( tmpl({syndetics:data}) );
+
+    /*
+    $summary = $('#syndetics-summary');
+    tmpl = Handlebars.compile( $("#summary-tmpl").html() );
+    $summary.html( tmpl(data) );
+    
+    $review = $('#syndetics-review');
+    tmpl = Handlebars.compile( $("#review-tmpl").html() );
+    $review.html( tmpl(data) );  
+    
+    $author = $('#syndetics-author');
+    tmpl = Handlebars.compile( $("#author-tmpl").html() );
+    $author.html( tmpl(data) );  
+    */
+
+	}
 
   // this doesn't really load anything we don't already have
 , loadBib: function(bib) {
