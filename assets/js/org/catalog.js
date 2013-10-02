@@ -25,6 +25,8 @@ var org = {
 
 , initCatalog: function() {
 
+		this.initLoginModal();
+
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
       e.preventDefault();
       _self.loadBib( $(this).data('bib') );
@@ -64,6 +66,14 @@ var org = {
     */
 		
   } // initCatalog()
+
+, initLoginModal() {
+		$('body').on('form', '.spl-login-modal', function(e) {
+			e.preventDefault();
+			console.log('log in');
+		});
+
+	}
 
 , loadSyndeticsData: function(isbn) {
 		if ( isbn ) {
