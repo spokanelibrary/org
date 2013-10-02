@@ -24,9 +24,12 @@ var org = {
 	} // init()
 
 , loadBib: function(bib) {
+
 		$.ajax({ 
         url: _self.config.endpoint.hzws + 'lookup'
-        ,data: { bib: bib }
+        ,data: { 
+        				params { bib: bib }
+        			}
       })
       .done(function(obj) {
         console.log(obj);
