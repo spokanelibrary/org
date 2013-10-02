@@ -67,7 +67,7 @@ var org = {
 		
   } // initCatalog()
 
-, initLoginModal() {
+, initLoginModal: function() {
 		$('body').on('form', '.spl-login-modal', function(e) {
 			e.preventDefault();
 			console.log('log in');
