@@ -72,7 +72,8 @@ var org = {
 			e.preventDefault();
 			
 			$.post( "/account", $(this).serialize() ).done(function(obj) {
-				console.log(obj);
+				//console.log(obj);
+				console.log('test');
 				$('#spl-login-modal').modal('hide');
 			});
 
