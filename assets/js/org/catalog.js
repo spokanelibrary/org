@@ -71,11 +71,26 @@ var org = {
 		$('body').on('submit', '#spl-login-modal form', function(e) {
 			e.preventDefault();
 			console.log('sending');
+			$form = $(this);
+			$.ajax({ 
+        url: '/account'
+        ,data: { $form.serialize() }
+      })
+      .done(function(data) {
+        console.log('done');
+      })
+      .fail(function() { 
+      })
+      .always(function() {  
+      });
+
+			/*
 			$.post( "/account", $(this).serialize() ).done(function() {
 				//console.log(obj);
 				console.log('test');
 				$('#spl-login-modal').modal('hide');
 			});
+			*/
 
 
 		});
