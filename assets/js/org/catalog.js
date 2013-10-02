@@ -28,7 +28,7 @@ var org = {
 		$.ajax({ 
         url: _self.config.endpoint.hzws + 'lookup'
         ,data: { 
-        				params { bib: bib }
+        				params: { bib: bib }
         			}
       })
       .done(function(obj) {
