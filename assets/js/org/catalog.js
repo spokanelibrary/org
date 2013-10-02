@@ -74,7 +74,7 @@ var org = {
 			$form = $(this);
 			$.ajax({ 
         url: '/account'
-        ,data: { $form.serialize() }
+        ,data: $form.serialize() 
       })
       .done(function(data) {
         console.log('done');
