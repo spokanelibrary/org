@@ -113,19 +113,6 @@ var org = {
 		
   } // initCatalog()
 
-, loadBib: function(bib) {
-		$.ajax({ 
-          url: _self.config.endpoint + 'lookup'
-          ,data: { bib: bib }
-        })
-        .done(function(obj) {
-          console.log(bib);
-        })
-        .fail(function() { 
-        })
-        .always(function() {  
-        });
-      } 
-	};
+
 
 };
