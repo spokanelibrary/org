@@ -80,7 +80,8 @@ var org = {
       .done(function() {
         console.log('retrieving session data');
         $.ajax({ 
-		      url: '/session'
+		      	url: '/session'
+		      	,dataType: 'json'
 		        ,data: { }
 		      })
 		      .done(function(obj) {
