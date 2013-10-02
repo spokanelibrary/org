@@ -69,6 +69,9 @@ var org = {
 
 , initLoginModal: function() {
 		$('body').on('submit', '#spl-login-modal form', function(e) {
+			
+			console.log($.ajax.dataType);
+
 			e.preventDefault();
 			console.log('logging in');
 			$form = $(this);
@@ -81,7 +84,7 @@ var org = {
         console.log('retrieving session data');
         $.ajax({ 
 		      	url: '/session'
-		      	,dataType: 'json'
+		      	,dataType: 'jsonp'
 		        ,data: { }
 		      })
 		      .done(function(obj) {
