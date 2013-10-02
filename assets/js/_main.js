@@ -53,6 +53,17 @@ var ORG = {
 
     init: function() {
 
+      Modernizr.load([
+        {
+          load: ['../assets/js/org/catalog.js' ],
+          complete: function () {
+            if ( org ) { 
+              org.init();
+            } 
+          }
+        }
+      ]);
+
       $('body').on('click', '.syndetics-summary-trigger', function(e) {
         e.preventDefault();
         //console.log( $(this).data('isbn') );
