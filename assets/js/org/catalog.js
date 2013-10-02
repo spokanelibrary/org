@@ -29,7 +29,7 @@ var org = {
         ,data: { bib: bib }
       })
       .done(function(obj) {
-        console.log(bib);
+        console.log(obj);
       })
       .fail(function() { 
       })
