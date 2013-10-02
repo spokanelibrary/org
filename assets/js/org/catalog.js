@@ -71,7 +71,7 @@ var org = {
 		$('body').on('submit', '#spl-login-modal form', function(e) {
 			e.preventDefault();
 			
-			$.post( "/account", $(this).serialize() ).done(function(obj) {
+			$.post( "/account", $(this).serialize() ).done(function() {
 				//console.log(obj);
 				console.log('test');
 				$('#spl-login-modal').modal('hide');
