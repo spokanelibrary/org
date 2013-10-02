@@ -23,23 +23,6 @@ var org = {
 
 	} // init()
 
-, loadBib: function(bib) {
-
-		$.ajax({ 
-        url: _self.config.endpoint.hzws + 'lookup'
-        ,data: { 
-        				params: { bib: bib }
-        			}
-      })
-      .done(function(obj) {
-        console.log(obj);
-      })
-      .fail(function() { 
-      })
-      .always(function() {  
-      });
-	} // loadBib()
-
 , initCatalog: function() {
 
 
@@ -58,28 +41,11 @@ var org = {
 		$('body').on('click', '.syndetics-summary-trigger', function(e) {
       e.preventDefault();
       //console.log( $(this).data('isbn') );
-      loadSyndeticsData($(this).data('isbn'));
+      _self.loadSyndeticsData($(this).data('isbn'));
       $(this).hide();
       $('#syndetics-summary-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
     });
 
-    function loadSyndeticsData(isbn){
-      
-      if ( isbn ) {
-        $.ajax({ 
-          url: 'http://beta.spokanelibrary.org/checkin/api/syndetics.php'
-          ,data: { isbn: isbn }
-        })
-        .done(function(data) {
-          parseSyndeticsData(data, isbn);
-        })
-        .fail(function() { 
-        })
-        .always(function() {  
-        });
-      } 
-      
-    };
 
     function parseSyndeticsData(data, isbn) {
       console.log(data);
@@ -130,6 +96,38 @@ var org = {
 		
   } // initCatalog()
 
+, loadSyndeticsData: function(isbn) {
+		if ( isbn ) {
+      $.ajax({ 
+        url: 'http://beta.spokanelibrary.org/checkin/api/syndetics.php'
+        ,data: { isbn: isbn }
+      })
+      .done(function(data) {
+        parseSyndeticsData(data, isbn);
+      })
+      .fail(function() { 
+      })
+      .always(function() {  
+      });
+    } 
+}
 
+  // this doesn't really load anything we don't already have
+, loadBib: function(bib) {
+
+		$.ajax({ 
+        url: _self.config.endpoint.hzws + 'lookup'
+        ,data: { 
+        				params: { bib: bib }
+        			}
+      })
+      .done(function(obj) {
+        console.log(obj);
+      })
+      .fail(function() { 
+      })
+      .always(function() {  
+      });
+	} // loadBib()
 
 };
