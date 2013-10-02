@@ -25,7 +25,7 @@ var org = {
 
 , loadBib: function(bib) {
 		$.ajax({ 
-        url: _self.config.endpoint + 'lookup'
+        url: _self.config.endpoint.hzws + 'lookup'
         ,data: { bib: bib }
       })
       .done(function(obj) {
