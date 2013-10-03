@@ -71,13 +71,14 @@ var org = {
 
 , initRequestBib: function() {
 		$trigger = $('.spl-request-bib');
+		$bib = $trigger.data('bib');
 
 		$('body').on('click', $trigger, function(e) {
 			e.preventDefault();
 
 			console.log('request bib');
 		});
-}
+} // initRequestBib()
 
 , initLoginModal: function() {
 		$('body').on('submit', '#spl-login-modal form', function(e) {
