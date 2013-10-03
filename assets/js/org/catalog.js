@@ -93,11 +93,9 @@ var org = {
 			if ( _self.user.sessionToken ) {
 				console.log( _self.user.sessionToken );
 				console.log(bib);
+			} else {
+				$('#spl-login-modal').modal('show');
 			}
-
-			
-			//console.log( _self.user );
-			//$('#spl-login-modal').modal('hide');
 
 		});
 		
