@@ -123,8 +123,10 @@ var org = {
 		        ,data: { }
 		      })
 		      .done(function(obj) {
-		        console.log(obj);
+		        $('#spl-account-summary').data('account', obj);
+		        _self.setUser();
 		        $('#spl-login-modal').modal('hide');
+		        console.log(_self.user);  
 		      })
 		      .fail(function() { 
 		      })
