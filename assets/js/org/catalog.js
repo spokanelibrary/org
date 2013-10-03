@@ -24,6 +24,8 @@ var org = {
 	} // init()
 
 , setUser: function () {
+		// ToDo: might need to change this to a class
+		// if it will be instantiaed multiple times
 		var user = $('#spl-account-summary').data('account');
 		if ( null != typeof(user) ) {
 			this.user = user;
@@ -84,15 +86,18 @@ var org = {
 		var trigger = '.spl-request-bib';
 		var $trigger = $(trigger);
 		var bib = $trigger.data('bib');
-		var user = $('body').data('user');
-
+		
 		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
 
-			console.log(bib);
+			if ( _self.user.sessionToken ) {
+				console.log( _self.user.sessionToken );
+				console.log(bib);
+			}
 
-			console.log( _self.user );
-
+			
+			//console.log( _self.user );
+			//$('#spl-login-modal').modal('hide');
 
 		});
 		
