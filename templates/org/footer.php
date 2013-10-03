@@ -172,7 +172,6 @@
       </div><!-- /.col -->
     </div><!-- /.row -->
 
-    modal footer
     <?php echo do_shortcode('[spl_widget login-form modal]'); ?>
 
   </footer>
