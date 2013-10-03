@@ -70,13 +70,13 @@ var org = {
   } // initCatalog()
 
 , initRequestBib: function() {
-		$trigger = $('.spl-request-bib');
-		$bib = $trigger.data('bib');
+		var $trigger = $('.spl-request-bib');
+		var bib = $trigger.data('bib');
 
 		$('body').on('click', $trigger, function(e) {
 			e.preventDefault();
 
-			console.log('request bib');
+			console.log(bib);
 		});
 } // initRequestBib()
 
