@@ -81,6 +81,7 @@ var org = {
         ,data: $form.serialize() 
       })
       .done(function() {
+
         console.log('retrieving session data');
         $.ajax({ 
 		      	url: '/session'
@@ -95,8 +96,6 @@ var org = {
 		      })
 		      .always(function() {  
 		      });
-        
-
 
       })
       .fail(function() { 
