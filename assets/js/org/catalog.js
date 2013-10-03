@@ -15,13 +15,22 @@ var org = {
 		_self = this;
 
 		// setup variables
-		this.user = $('#spl-account-summary').data('account');
+		this.setUser();
 		//console.log(this.user);
 
 		// init ui
 		this.initCatalog();
 
 	} // init()
+
+, setUser: function () {
+		var user = $('#spl-account-summary').data('account');
+		if ( object = typeof(user) ) {
+			this.user = user;
+		} else {
+			this.user = null;
+		}
+}
 
 , initCatalog: function() {
 
@@ -81,7 +90,8 @@ var org = {
 			e.preventDefault();
 
 			console.log(bib);
-			console.log( $('#spl-account-summary').data('account') );
+
+			console.log( _self.user );
 
 
 		});
