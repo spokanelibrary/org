@@ -69,7 +69,7 @@ var org = {
 		
   } // initCatalog()
 
-, initRequestBib() {
+, initRequestBib: function() {
 		$trigger = $('.spl-request-bib');
 
 		$('body').on('click', $trigger, function(e) {
