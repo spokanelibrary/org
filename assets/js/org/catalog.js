@@ -70,15 +70,18 @@ var org = {
   } // initCatalog()
 
 , initRequestBib: function() {
+		/*
 		var $trigger = $('.spl-request-bib');
 		var bib = $trigger.data('bib');
+		var user = $('body').data('user');
 
 		$('body').on('click', $trigger, function(e) {
 			e.preventDefault();
 
 			console.log(bib);
 		});
-} // initRequestBib()
+		*/
+	} // initRequestBib()
 
 , initLoginModal: function() {
 		$('body').on('submit', '#spl-login-modal form', function(e) {
