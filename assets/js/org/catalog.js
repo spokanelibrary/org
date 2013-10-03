@@ -28,7 +28,7 @@ var org = {
 		if ( object = typeof(user) ) {
 			this.user = user;
 		} else {
-			this.user = null;
+			this.user = 'test';
 		}
 }
 
