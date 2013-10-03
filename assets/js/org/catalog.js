@@ -25,6 +25,8 @@ var org = {
 
 , initCatalog: function() {
 
+		this.initRequestBib();
+
 		this.initLoginModal();
 
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
@@ -66,6 +68,16 @@ var org = {
     */
 		
   } // initCatalog()
+
+, initRequestBib() {
+		$trigger = $('.spl-request-bib');
+
+		$('body').on('click', $trigger, function(e) {
+			e.preventDefault();
+
+			console.log('request bib');
+		});
+}
 
 , initLoginModal: function() {
 		$('body').on('submit', '#spl-login-modal form', function(e) {
