@@ -118,7 +118,7 @@ var org = {
 
         console.log('retrieving session data');
         $.ajax({ 
-		      	url: '/session/'
+		      	url: '/session'
 		      	,dataType: 'jsonp'
 		        ,data: { }
 		      })
