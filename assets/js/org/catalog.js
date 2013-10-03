@@ -118,16 +118,16 @@ var org = {
 
         console.log('retrieving session data');
         $.ajax({ 
-		      	url: '/session'
+		      	url: '/session/'
 		      	,dataType: 'jsonp'
 		        ,data: { }
 		      })
 		      .done(function(obj) {
-		      	var user = $.parseJSON(obj.responseText);
-		        $('#spl-account-summary').data('account', user);
-		        _self.setUser();
-		        $('#spl-login-modal').modal('hide');
-		        console.log(_self.user);  
+		      	//var user = $.parseJSON(obj.responseText); // need to do this right on the server
+		        //$('#spl-account-summary').data('account', obj);
+		        //_self.setUser();
+		        //$('#spl-login-modal').modal('hide');
+		        console.log(obj);  
 		      })
 		      .fail(function() { 
 		      })
