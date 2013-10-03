@@ -25,10 +25,10 @@ var org = {
 
 , setUser: function () {
 		var user = $('#spl-account-summary').data('account');
-		if ( user.length > 0) {
+		if ( null != typeof(user) && user.length > 0) {
 			this.user = user;
 		} else {
-			this.user = 'test';
+			this.user = null;
 		}
 }
 
