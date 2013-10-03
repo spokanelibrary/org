@@ -25,7 +25,7 @@ var org = {
 
 , setUser: function () {
 		var user = $('#spl-account-summary').data('account');
-		if ( null != typeof(user) && user.length > 0) {
+		if ( null != typeof(user) ) {
 			this.user = user;
 		} else {
 			this.user = null;
