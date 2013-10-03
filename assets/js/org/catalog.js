@@ -73,17 +73,17 @@ var org = {
 		
 		console.log( $('#spl-account-summary').data('account') );
 
-		/*
-		var $trigger = $('.spl-request-bib');
+		var trigger = '.spl-request-bib';
+		var $trigger = $(trigger);
 		var bib = $trigger.data('bib');
 		var user = $('body').data('user');
 
-		$('body').on('click', $trigger, function(e) {
+		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
 
 			console.log(bib);
 		});
-		*/
+		
 	} // initRequestBib()
 
 , initLoginModal: function() {
