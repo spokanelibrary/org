@@ -104,7 +104,7 @@ var org = {
 , initLoginModal: function() {
 		$('body').on('submit', '#spl-login-modal form', function(e) {
 			
-			console.log($.ajax.dataType);
+			//console.log($.ajax.dataType);
 
 			e.preventDefault();
 			console.log('logging in');
@@ -123,7 +123,8 @@ var org = {
 		        ,data: { }
 		      })
 		      .done(function(obj) {
-		        $('#spl-account-summary').data('account', obj);
+		      	var user = $.parseJSON(obj.responseText);
+		        $('#spl-account-summary').data('account', user);
 		        _self.setUser();
 		        $('#spl-login-modal').modal('hide');
 		        console.log(_self.user);  
