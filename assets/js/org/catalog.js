@@ -71,7 +71,6 @@ var org = {
 
 , initRequestBib: function() {
 		
-		console.log( $('#spl-account-summary').data('account') );
 
 		var trigger = '.spl-request-bib';
 		var $trigger = $(trigger);
@@ -82,6 +81,9 @@ var org = {
 			e.preventDefault();
 
 			console.log(bib);
+			console.log( $('#spl-account-summary').data('account') );
+
+
 		});
 		
 	} // initRequestBib()
