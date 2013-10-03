@@ -70,6 +70,9 @@ var org = {
   } // initCatalog()
 
 , initRequestBib: function() {
+		
+		console.log( $('#spl-account-summary').data('account') );
+
 		/*
 		var $trigger = $('.spl-request-bib');
 		var bib = $trigger.data('bib');
