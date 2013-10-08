@@ -95,7 +95,8 @@ var org = {
 			if ( _self.user.sessionToken ) {
 				console.log( _self.user.sessionToken );
 				console.log(bib);
-				$(this).button('Hold Placed!');
+				$(this).button('complete');
+				//$(this).button('Hold Placed!');
 			} else {
 				$('#spl-login-modal').modal('show');
 			}
