@@ -101,10 +101,7 @@ var org = {
 				$(this).button('error');
 
 				// workaround https://github.com/twbs/bootstrap/issues/10890
-				setTimeout(function () {
-          $(this).prop('disabled', true).addClass('disabled');
-          console.log('testing');
-        }, 1000)
+				$this.button('toggle');
 
 				
 
