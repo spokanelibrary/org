@@ -90,6 +90,8 @@ var org = {
 		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
 
+			$(this).button('loading');
+
 			if ( _self.user.sessionToken ) {
 				console.log( _self.user.sessionToken );
 				console.log(bib);
@@ -100,6 +102,8 @@ var org = {
 		});
 		
 	} // initRequestBib()
+
+
 
 , initLoginModal: function() {
 		$('body').on('submit', '#spl-login-modal form', function(e) {
