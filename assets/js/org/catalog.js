@@ -101,7 +101,7 @@ var org = {
 				$(this).button('error');
 
 				// workaround https://github.com/twbs/bootstrap/issues/10890
-				$this.button('toggle');
+				$(this).button('toggle');
 
 				
 
