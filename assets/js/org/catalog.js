@@ -99,7 +99,13 @@ var org = {
 				
 				//.addClass('btn-danger').addClass('disabled');
 				$(this).button('error');
-				$(this).attr('disabled', true);
+
+				// workaround https://github.com/twbs/bootstrap/issues/10890
+				setTimeout(function () {
+          $(this).attr('disabled', true);
+        }, 0)
+        
+				
 
 			} else {
 				$('#spl-login-modal').modal('show');
