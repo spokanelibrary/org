@@ -100,8 +100,8 @@ var org = {
 				//.addClass('btn-danger').addClass('disabled');
 				$(this).button('error');
 
-				$(this).addClass('disabled').setAttribute('disabled', 'disabled');
-
+				$(this).addClass('disabled');
+				$(this).setAttribute('disabled', 'disabled')
 				
 
 			} else {
