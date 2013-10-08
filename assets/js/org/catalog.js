@@ -99,7 +99,7 @@ var org = {
 				
 				//.addClass('btn-danger').addClass('disabled');
 				$(this).button('error');
-				$(this).addClass('disabled').prop('disabled',true);
+				$(this).prop('disabled',true).addClass('disabled');
 
 
 			} else {
