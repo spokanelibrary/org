@@ -90,7 +90,7 @@ var org = {
 		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
 
-			//$(this).button('loading');
+			$(this).button('loading');
 
 			if ( _self.user.sessionToken ) {
 				console.log( _self.user.sessionToken );
