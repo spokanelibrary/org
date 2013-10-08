@@ -98,6 +98,7 @@ var org = {
 				$(this).button('complete');
 				$(this).button('error');
 				$(this).addClass('btn-danger');
+				$(this).addClass('disabled');
 			} else {
 				$('#spl-login-modal').modal('show');
 			}
