@@ -97,7 +97,7 @@ var org = {
 				console.log(bib);
 				//$(this).button('complete');
 				$(this).button('error');
-				$(this).addClass('btn-danger').prop('disabled', true);
+				$(this).addClass('btn-danger btn-disabled').prop('disabled', true);
 			} else {
 				$('#spl-login-modal').modal('show');
 			}
