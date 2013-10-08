@@ -103,8 +103,8 @@ var org = {
 				// workaround https://github.com/twbs/bootstrap/issues/10890
 				setTimeout(function () {
           $(this).attr('disabled', true);
-        }, 0)
-        
+        }, 100)
+
 				
 
 			} else {
