@@ -102,8 +102,8 @@ var org = {
 
 				// workaround https://github.com/twbs/bootstrap/issues/10890
 				setTimeout(function () {
-          $(this).attr('disabled', true);
-        }, 100)
+          $(this).prop('disabled', true).addClass('disabled');
+        }, 1000)
 
 				
 
