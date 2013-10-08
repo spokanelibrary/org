@@ -98,8 +98,8 @@ var org = {
 				//$(this).button('complete');
 				
 				//.addClass('btn-danger').addClass('disabled');
-				$(this).button('error');
-				$(this).prop('disabled',true).addClass('disabled');
+				//$(this).button('error');
+				$(this).addClass('disabled');
 
 
 			} else {
