@@ -99,7 +99,7 @@ var org = {
 				
 				//.addClass('btn-danger').addClass('disabled');
 				$(this).button('error');
-				$(this).addProp('disabled').prop('disabled', true);
+				$(this).attr('disabled', true);
 
 			} else {
 				$('#spl-login-modal').modal('show');
