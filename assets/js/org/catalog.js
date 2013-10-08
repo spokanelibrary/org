@@ -90,13 +90,14 @@ var org = {
 		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
 
-			$(this).button('loading');
+			//$(this).button('loading');
 
 			if ( _self.user.sessionToken ) {
 				console.log( _self.user.sessionToken );
 				console.log(bib);
 				//$(this).button('complete');
-				$(this).button('error').addClass('btn-danger').addClass('disabled');
+				//$(this).button('error').addClass('btn-danger').addClass('disabled');
+				$(this).addClass(disabled);
 			} else {
 				$('#spl-login-modal').modal('show');
 			}
