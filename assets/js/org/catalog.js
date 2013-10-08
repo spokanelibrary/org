@@ -101,7 +101,7 @@ var org = {
 				$(this).button('error');
 
 				$(this).addClass('disabled');
-				$(this).setAttribute('disabled', 'disabled')
+				$('.spl-request-bib').setAttribute('disabled', 'disabled');
 				
 
 			} else {
