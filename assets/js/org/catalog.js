@@ -91,17 +91,18 @@ var org = {
 			e.preventDefault();
 
 			//$(this).button('loading');
+			$(this).addClass('disabled').text('Saving');
 
 			if ( _self.user.sessionToken ) {
 				console.log( _self.user.sessionToken );
 				console.log(bib);
 				//$(this).button('complete');
 				
-				//.addClass('btn-danger').addClass('disabled');
-				$(this).button('error');
+				$(this).addClass('btn-danger').addClass('disabled');
+				//$(this).button('error');
 
-				$(this).addClass('disabled');
-				$('.spl-request-bib').setAttribute('disabled', 'disabled');
+				// can't use data-text states https://github.com/twbs/bootstrap/issues/10890
+
 				
 
 			} else {
