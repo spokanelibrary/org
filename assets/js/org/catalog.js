@@ -96,6 +96,7 @@ var org = {
 				console.log( _self.user.sessionToken );
 				console.log(bib);
 				//$(this).button('complete');
+				$(this).button('reset');
 				$(this).button('error');
 				//.addClass('btn-danger').addClass('disabled');
 				$(this).addClass('disabled');
