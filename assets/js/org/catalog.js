@@ -96,7 +96,8 @@ var org = {
 				console.log( _self.user.sessionToken );
 				console.log(bib);
 				$(this).button('complete');
-				$(this).button('error').addClass('disabled btn-error');
+				$(this).button('error');
+				$(this).addClass('disabled');
 			} else {
 				$('#spl-login-modal').modal('show');
 			}
