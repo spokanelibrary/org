@@ -100,8 +100,7 @@ var org = {
 				//.addClass('btn-danger').addClass('disabled');
 				$(this).button('error');
 
-				// workaround https://github.com/twbs/bootstrap/issues/10890
-				$(this).addClass('disabled').attr('disabled', 'disabled');
+				$(this).addClass('disabled').setAttribute('disabled', 'disabled');
 
 				
 
