@@ -90,7 +90,7 @@ var org = {
 			e.preventDefault();
 			if ( _self.user.sessionToken ) {
 
-				_self.btnRequestBib( $(this) );
+				_self.btnRequest( $(this) );
 				
 			} else {
 				$('#spl-login-modal').modal('show');
@@ -101,29 +101,39 @@ var org = {
 	} // initRequestBib()
 
 , btnRequestBib: function($btn) {
+
 		var bib = $btn.data('bib');
+		var item = $btn.data('item');
+
+		params: { sessionToken: _self.user.sessionToken
+						, pickupLocation: _self.user.locationID
+						}
+
+		if ( bib ) {
+			params.titleKey = bib;
+		} 
+
+		if ( item ) {
+			params.itemKey = item;
+		}
 
 		// bummer, can't use data-text states for now
 		// https://github.com/twbs/bootstrap/issues/10890
 
-		//$(this).button('loading');
+		//$btn.button('loading');
 		$btn.addClass('disabled').text($btn.data('loading-text'));
 	
 		$.ajax({ 
 	    url: _self.config.endpoint.hzws+'hold'
-    , data: { params: { sessionToken: _self.user.sessionToken
-    									,	titleKey: bib
-    									, pickupLocation: _self.user.locationID
-    									}
-    				}
+    , data: params
 	  })
 	  .done(function(obj) {  
 	  	if ( !obj.empty ) {
 	  		console.log(obj);
-	  		//$(this).button('complete');
+	  		//$btn.button('complete');
 				$btn.text($btn.data('complete-text'));
 	  	} else {
-	  		//$(this).button('error');
+	  		//$btn.button('error');
 	  		$btn.addClass('btn-danger').text($btn.data('error-text'));
 	  	}
 	  	
