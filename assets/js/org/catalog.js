@@ -116,9 +116,7 @@ var org = {
 		if ( item ) {
 			params.itemKey = item;
 		}
-
-		console.log(params);
-
+		
 		// bummer, can't use data-text states for no
 		// https://github.com/twbs/bootstrap/issues/10890
 
@@ -127,7 +125,7 @@ var org = {
 	
 		$.ajax({ 
 	    url: _self.config.endpoint.hzws+'hold'
-    , data: params
+    , data: { params: params }
 	  })
 	  .done(function(obj) {  
 	  	console.log(obj);
