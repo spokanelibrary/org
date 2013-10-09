@@ -100,7 +100,7 @@ var org = {
 		
 	} // initRequestBib()
 
-, btnRequestBib: function($btn) {
+, btnRequest: function($btn) {
 
 		var bib = $btn.data('bib');
 		var item = $btn.data('item');
