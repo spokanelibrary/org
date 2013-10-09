@@ -95,7 +95,7 @@ var org = {
 			// https://github.com/twbs/bootstrap/issues/10890
 
 			//$(this).button('loading');
-			$(this).addClass('disabled').text('Saving');
+			$(this).addClass('disabled').text($(this).data('loading-text'));
 
 			if ( _self.user.sessionToken ) {
 				console.log( _self.user.sessionToken );
