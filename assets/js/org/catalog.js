@@ -90,6 +90,9 @@ var org = {
 		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
 
+			// bummer, can't use data-text states for now
+			// https://github.com/twbs/bootstrap/issues/10890
+
 			//$(this).button('loading');
 			$(this).addClass('disabled').text('Saving');
 
@@ -97,11 +100,30 @@ var org = {
 				console.log( _self.user.sessionToken );
 				console.log(bib);
 				//$(this).button('complete');
-				
 				$(this).addClass('btn-danger').addClass('disabled');
 				//$(this).button('error');
 
-				// can't use data-text states https://github.com/twbs/bootstrap/issues/10890
+
+
+
+				$.ajax({ 
+			    url: this.config.endpoint.hzws+'hold'
+		    , data: { params: { sessionToken: this.user.sessionToken
+		    									,	titleKey: bib
+		    									}
+		    				}
+			  })
+			  .done(function(obj) {  
+			  	console.log(obj);
+			  	// pass results through
+					$hidden.val(JSON.stringify(obj));
+					//$form.data('process', 'http').submit();
+			  })
+			  .fail(function() {
+			  })
+			  .always(function() {
+			  });
+				
 
 				
 
