@@ -108,7 +108,7 @@ var org = {
 
 				$.ajax({ 
 			    url: this.config.endpoint.hzws+'hold'
-		    , data: { params: { sessionToken: this.user.sessionToken
+		    , data: { params: { sessionToken: _self.user.sessionToken
 		    									,	titleKey: bib
 		    									}
 		    				}
@@ -134,7 +134,6 @@ var org = {
 		});
 		
 	} // initRequestBib()
-
 
 
 , initLoginModal: function() {
