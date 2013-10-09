@@ -128,8 +128,8 @@ var org = {
     , data: params
 	  })
 	  .done(function(obj) {  
+	  	console.log(obj);
 	  	if ( !obj.empty ) {
-	  		console.log(obj);
 	  		//$btn.button('complete');
 				$btn.text($btn.data('complete-text'));
 	  	} else {
