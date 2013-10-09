@@ -89,13 +89,14 @@ var org = {
 		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
 
-			var bib = $(this).data('bib');
+			var $btn = $(this);
+			var bib = $btn.data('bib');
 
 			// bummer, can't use data-text states for now
 			// https://github.com/twbs/bootstrap/issues/10890
 
 			//$(this).button('loading');
-			$(this).addClass('disabled').text($(this).data('loading-text'));
+			$btn.addClass('disabled').text($btn.data('loading-text'));
 
 			if ( _self.user.sessionToken ) {
 				
@@ -111,10 +112,10 @@ var org = {
 			  	if ( !obj.empty ) {
 			  		console.log(obj);
 			  		//$(this).button('complete');
-						$(this).text($(this).data('complete-text'));
+						$btn.text($btn.data('complete-text'));
 			  	} else {
 			  		//$(this).button('error');
-			  		$(this).addClass('btn-danger').text($(this).data('error-text'));
+			  		$btn.addClass('btn-danger').text($btn.data('error-text'));
 			  	}
 			  	
 			  	// pass results through
