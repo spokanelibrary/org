@@ -98,15 +98,7 @@ var org = {
 			$(this).addClass('disabled').text($(this).data('loading-text'));
 
 			if ( _self.user.sessionToken ) {
-				console.log( _self.user.sessionToken );
-				console.log(bib);
-				//$(this).button('complete');
-				$(this).addClass('btn-danger').addClass('disabled');
-				//$(this).button('error');
-
-
-
-
+				
 				$.ajax({ 
 			    url: _self.config.endpoint.hzws+'hold'
 		    , data: { params: { sessionToken: _self.user.sessionToken
@@ -116,7 +108,15 @@ var org = {
 		    				}
 			  })
 			  .done(function(obj) {  
-			  	console.log(obj);
+			  	if ( !obj.empty ) {
+			  		console.log(obj);
+			  		//$(this).button('complete');
+						$(this).text($(this).data('complete-text'));
+			  	} else {
+			  		//$(this).button('error');
+			  		$(this).addClass('btn-danger').text($(this).data('error-text'));
+			  	}
+			  	
 			  	// pass results through
 					//$hidden.val(JSON.stringify(obj));
 					//$form.data('process', 'http').submit();
@@ -126,9 +126,6 @@ var org = {
 			  .always(function() {
 			  });
 				
-
-				
-
 			} else {
 				$('#spl-login-modal').modal('show');
 			}
