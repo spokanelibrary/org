@@ -107,7 +107,7 @@ var org = {
 
 
 				$.ajax({ 
-			    url: this.config.endpoint.hzws+'hold'
+			    url: _self.config.endpoint.hzws+'hold'
 		    , data: { params: { sessionToken: _self.user.sessionToken
 		    									,	titleKey: bib
 		    									}
