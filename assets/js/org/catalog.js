@@ -117,6 +117,8 @@ var org = {
 			params.itemKey = item;
 		}
 
+		console.log(params);
+
 		// bummer, can't use data-text states for no
 		// https://github.com/twbs/bootstrap/issues/10890
 
