@@ -105,9 +105,9 @@ var org = {
 		var bib = $btn.data('bib');
 		var item = $btn.data('item');
 
-		params: { sessionToken: _self.user.sessionToken
-						, pickupLocation: _self.user.locationID
-						}
+		var params = { sessionToken: _self.user.sessionToken
+									, pickupLocation: _self.user.locationID
+									}
 
 		if ( bib ) {
 			params.titleKey = bib;
@@ -117,7 +117,7 @@ var org = {
 			params.itemKey = item;
 		}
 
-		// bummer, can't use data-text states for now
+		// bummer, can't use data-text states for no
 		// https://github.com/twbs/bootstrap/issues/10890
 
 		//$btn.button('loading');
