@@ -81,10 +81,8 @@ var org = {
   } // initCatalog()
 
 , initRequestBib: function() {
-		
-
+	
 		var trigger = '.spl-request-bib';
-		var $trigger = $(trigger);
 		
 		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
@@ -99,6 +97,24 @@ var org = {
 		});
 		
 	} // initRequestBib()
+
+, initRequestItem: function() {
+
+		var trigger = '.spl-request-item';
+		
+		$('body').on('click', trigger, function(e) {
+			e.preventDefault();
+			if ( _self.user.sessionToken ) {
+
+				_self.btnRequest( $(this) );
+				
+			} else {
+				$('#spl-login-modal').modal('show');
+			}
+
+		});
+		
+	} // initRequestItem()
 
 , btnRequest: function($btn) {
 
@@ -116,7 +132,7 @@ var org = {
 		if ( item ) {
 			params.itemKey = item;
 		}
-		
+
 		// bummer, can't use data-text states for no
 		// https://github.com/twbs/bootstrap/issues/10890
 
