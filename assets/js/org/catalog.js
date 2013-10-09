@@ -37,6 +37,7 @@ var org = {
 , initCatalog: function() {
 
 		this.initRequestBib();
+		this.initRequestItem();
 
 		this.initLoginModal();
 
