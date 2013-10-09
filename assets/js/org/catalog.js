@@ -79,6 +79,17 @@ var org = {
       });
     */
 		
+		$('.spl-catalog-index-option').on('click', function(e) {
+			e.preventDefault();
+
+			var icon = '<small class="glyphicon glyphicon-search text-muted"></small>';
+			$('.spl-catalog-index').val( $(this).data('value') );
+			$('.spl-catalog-search').html( icon + ' ' + $(this).html() );
+			//$('.spl-catalog-index-select li').removeClass('active');
+			//$(this).closest('li').addClass('active');
+
+		});
+			
   } // initCatalog()
 
 , initRequestBib: function() {
