@@ -88,8 +88,9 @@ var org = {
 		
 		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
+			if ( _self.user.sessionToken ) {
 
-			_self.btnRequestBib( $(this) );
+				_self.btnRequestBib( $(this) );
 				
 			} else {
 				$('#spl-login-modal').modal('show');
@@ -107,35 +108,33 @@ var org = {
 
 		//$(this).button('loading');
 		$btn.addClass('disabled').text($btn.data('loading-text'));
-
-		if ( _self.user.sessionToken ) {
-			
-			$.ajax({ 
-		    url: _self.config.endpoint.hzws+'hold'
-	    , data: { params: { sessionToken: _self.user.sessionToken
-	    									,	titleKey: bib
-	    									, pickupLocation: _self.user.locationID
-	    									}
-	    				}
-		  })
-		  .done(function(obj) {  
-		  	if ( !obj.empty ) {
-		  		console.log(obj);
-		  		//$(this).button('complete');
-					$btn.text($btn.data('complete-text'));
-		  	} else {
-		  		//$(this).button('error');
-		  		$btn.addClass('btn-danger').text($btn.data('error-text'));
-		  	}
-		  	
-		  	// pass results through
-				//$hidden.val(JSON.stringify(obj));
-				//$form.data('process', 'http').submit();
-		  })
-		  .fail(function() {
-		  })
-		  .always(function() {
-		  });
+	
+		$.ajax({ 
+	    url: _self.config.endpoint.hzws+'hold'
+    , data: { params: { sessionToken: _self.user.sessionToken
+    									,	titleKey: bib
+    									, pickupLocation: _self.user.locationID
+    									}
+    				}
+	  })
+	  .done(function(obj) {  
+	  	if ( !obj.empty ) {
+	  		console.log(obj);
+	  		//$(this).button('complete');
+				$btn.text($btn.data('complete-text'));
+	  	} else {
+	  		//$(this).button('error');
+	  		$btn.addClass('btn-danger').text($btn.data('error-text'));
+	  	}
+	  	
+	  	// pass results through
+			//$hidden.val(JSON.stringify(obj));
+			//$form.data('process', 'http').submit();
+	  })
+	  .fail(function() {
+	  })
+	  .always(function() {
+	  });
 }
 
 , initLoginModal: function() {
