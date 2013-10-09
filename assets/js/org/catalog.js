@@ -110,13 +110,14 @@ var org = {
 			    url: _self.config.endpoint.hzws+'hold'
 		    , data: { params: { sessionToken: _self.user.sessionToken
 		    									,	titleKey: bib
+		    									, pickupLocation: 'dt'
 		    									}
 		    				}
 			  })
 			  .done(function(obj) {  
 			  	console.log(obj);
 			  	// pass results through
-					$hidden.val(JSON.stringify(obj));
+					//$hidden.val(JSON.stringify(obj));
 					//$form.data('process', 'http').submit();
 			  })
 			  .fail(function() {
