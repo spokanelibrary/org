@@ -85,10 +85,11 @@ var org = {
 
 		var trigger = '.spl-request-bib';
 		var $trigger = $(trigger);
-		var bib = $trigger.data('bib');
 		
 		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
+
+			var bib = $(this).data('bib');
 
 			// bummer, can't use data-text states for now
 			// https://github.com/twbs/bootstrap/issues/10890
@@ -110,7 +111,7 @@ var org = {
 			    url: _self.config.endpoint.hzws+'hold'
 		    , data: { params: { sessionToken: _self.user.sessionToken
 		    									,	titleKey: bib
-		    									, pickupLocation: 'dt'
+		    									, pickupLocation: _self.user.locationID
 		    									}
 		    				}
 			  })
