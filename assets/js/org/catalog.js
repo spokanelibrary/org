@@ -79,6 +79,7 @@ var org = {
       });
     */
 		
+		// search index toggle
 		$('.spl-catalog-index-option').on('click', function(e) {
 			e.preventDefault();
 
@@ -89,7 +90,7 @@ var org = {
 			//$(this).closest('li').addClass('active');
 
 		});
-			
+
   } // initCatalog()
 
 , initRequestBib: function() {
@@ -200,7 +201,7 @@ var org = {
 		      })
 		      .done(function(obj) {
 		      	//var user = $.parseJSON(obj.responseText); // need to do this right on the server
-		        //$('#spl-account-summary').data('account', obj);
+		        $('#spl-account-summary').data('account', obj);
 		        //_self.setUser();
 		        //$('#spl-login-modal').modal('hide');
 		        console.log(obj);  
