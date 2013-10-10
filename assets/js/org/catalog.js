@@ -41,9 +41,10 @@ var org = {
 
 		this.initLoginModal();
 
-		console.log( $('#spl-search-results').data('results') );
+		
 
-		if ( $('#spl-search-results').data('results') ) {
+		if ( true == $('#spl-search-results').data('results') ) {
+			console.log( $('#spl-search-results').data('results') );
 			$('#spl-results-tab').tab('show');
 		}
 
