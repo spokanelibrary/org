@@ -201,10 +201,11 @@ var org = {
 		      })
 		      .done(function(obj) {
 		      	//var user = $.parseJSON(obj.responseText); // need to do this right on the server
-		        //$('#spl-account-summary').data('account', obj);
-		        //_self.setUser();
+		        $('#spl-account-summary').data('account', obj);
+		        _self.setUser();
 		        $('#spl-login-modal').modal('hide');
-		        console.log(obj);  
+		        //console.log(obj);
+		        console.log(_self.user);  
 		      })
 		      .fail(function() { 
 		      })
