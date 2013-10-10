@@ -192,8 +192,7 @@ var org = {
         ,data: $form.serialize() 
       })
       .done(function() {
-
-        console.log('retrieving session data');
+        //console.log('retrieving session data');
         $.ajax({ 
 		      	url: '/session/'
 		      	,dataType: 'jsonp'
@@ -205,7 +204,7 @@ var org = {
 		        _self.setUser();
 		        $('#spl-login-modal').modal('hide');
 		        //console.log(obj);
-		        console.log(_self.user);  
+		        //console.log(_self.user);  
 		      })
 		      .fail(function() { 
 		      })
