@@ -41,6 +41,10 @@ var org = {
 
 		this.initLoginModal();
 
+		if ( $('#spl-search-results').data('results') ) {
+			$('#spl-results-tab').tab('show');
+		}
+
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
       e.preventDefault();
       _self.loadBib( $(this).data('bib') );
@@ -181,10 +185,8 @@ var org = {
 , initLoginModal: function() {
 		$('body').on('submit', '#spl-login-modal form', function(e) {
 			
-			//console.log($.ajax.dataType);
-
 			e.preventDefault();
-			console.log('logging in');
+			//console.log('logging in');
 			$form = $(this);
 			$.ajax({ 
         url: '/account'
@@ -194,16 +196,14 @@ var org = {
       .done(function() {
         //console.log('retrieving session data');
         $.ajax({ 
-		      	url: '/session/'
+		      	url: '/session/' // json-only session data api todo: standardize this
 		      	,dataType: 'jsonp'
 		        ,data: { }
 		      })
 		      .done(function(obj) {
-		      	//var user = $.parseJSON(obj.responseText); // need to do this right on the server
 		        $('#spl-account-summary').data('account', obj);
 		        _self.setUser();
 		        $('#spl-login-modal').modal('hide');
-		        //console.log(obj);
 		        //console.log(_self.user);  
 		      })
 		      .fail(function() { 
