@@ -60,7 +60,7 @@ var org = {
       _self.loadBib( $(this).data('bib') );
     });
 
-		$('body').on('click', '.spl-related-reading', function(e) {
+		$('body').on('click', '.spl-related-reading-trigger', function(e) {
       e.preventDefault();
       console.log( $(this).data('isbn') );
 
