@@ -190,6 +190,11 @@ var org = {
 }
 
 , initLoginModal: function() {
+
+		$('#spl-login-modal').on('show.bs.modal', function () {
+  		$('.spl-login-modal-response').addClass('hide');
+		});
+
 		$('body').on('submit', '#spl-login-modal form', function(e) {
 			
 			e.preventDefault();
@@ -212,7 +217,7 @@ var org = {
 		        _self.setUser();
 		        //$('#spl-login-modal').modal('hide');
 		        
-		        $('.spl-login-modal-response').addClass('hide');
+		        
 		        if ( _self.user && _self.user.sessionToken ) {
 		        	$('.spl-login-modal-success').removeClass('hide');
 		        } else {
