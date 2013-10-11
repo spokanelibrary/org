@@ -295,7 +295,7 @@ var org = {
 , parseSyndeticsData: function(data, isbn) {
 		console.log(data);
     //$('#syndetics-summary-'+isbn).html('We have a summary');
-    $summary = $('#spl-related-reading-'+isbn);
+    $summary = $('#spl-related-summary-'+isbn);
     tmpl = Handlebars.compile( $("#syndetics-summary-tmpl").html() );
     $summary.html( tmpl({syndetics:data}) );
 
