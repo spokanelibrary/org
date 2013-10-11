@@ -252,7 +252,7 @@ var org = {
 , loadNoveListData: function(isbn) {
 	if (isbn) {
 		$.ajax( { 
-        url: config.endpoint.novelist
+        url: _self.config.endpoint.novelist
         ,crossDomain: true
         ,data: { profile: 's8427805.main.novsel'
                 ,password: 'dGJyMOPY8UivprQA'
@@ -279,7 +279,7 @@ var org = {
 , loadSyndeticsData: function(isbn) {
 		if ( isbn ) {
       $.ajax({ 
-        url: config.endpoint.syndetics
+        url: _self.config.endpoint.syndetics
         ,data: { isbn: isbn }
       })
       .done(function(data) {
