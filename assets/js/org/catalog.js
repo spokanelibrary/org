@@ -67,7 +67,8 @@ var org = {
       _self.loadSyndeticsData($(this).data('isbn'));
       _self.loadNoveListData($(this).data('isbn'));
       $(this).hide();
-      $('#spl-related-reading-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
+      $('#spl-related-reading-'+$(this).data('isbn')).fadeIn();
+      //$('#spl-related-reading-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
     });
 
 
