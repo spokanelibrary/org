@@ -41,7 +41,7 @@ var org = {
 
 		this.initLoginModal();
 
-		
+		// toggle advanced search display
 		if ( true == $('#spl-search-results').data('results') ) {
 			if ( $('.visible-md').is(':visible') ) {
 				$('#spl-catalog-search-advanced').addClass('in');
@@ -49,6 +49,8 @@ var org = {
 				$('#spl-catalog-search-advanced-toggle').addClass('in');
 			}
 		}
+
+
 
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
       e.preventDefault();
@@ -208,7 +210,15 @@ var org = {
 		      .done(function(obj) {
 		        $('#spl-account-summary').data('account', obj);
 		        _self.setUser();
-		        $('#spl-login-modal').modal('hide');
+		        //$('#spl-login-modal').modal('hide');
+		        
+		        $('.spl-login-modal-response').addClass('hide');
+		        if ( _self.user.sessionToken ) {
+		        	$('.spl-login-modal-success').removeClass('hide');
+		        } else {
+		        	$('.spl-login-modal-error').removeClass('hide');
+		        }
+
 		        //console.log(_self.user);  
 		      })
 		      .fail(function() { 
