@@ -70,6 +70,14 @@ var org = {
       //$('#spl-related-reading-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
     });
 
+		$('.spl-related-reading').on('show.bs.collapse', function () {
+  			console.log('show me');
+		});
+
+    $('.spl-related-reading').on('hidden.bs.collapse', function () {
+  			console.log('hide me');
+		});
+
 		
 		// search index toggle
 		$('.spl-catalog-index-option').on('click', function(e) {
