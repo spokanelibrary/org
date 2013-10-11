@@ -213,7 +213,7 @@ var org = {
 		        //$('#spl-login-modal').modal('hide');
 		        
 		        $('.spl-login-modal-response').addClass('hide');
-		        if ( _self.user.sessionToken ) {
+		        if ( _self.user && _self.user.sessionToken ) {
 		        	$('.spl-login-modal-success').removeClass('hide');
 		        } else {
 		        	$('.spl-login-modal-error').removeClass('hide');
