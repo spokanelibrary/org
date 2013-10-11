@@ -4,7 +4,9 @@ var org = {
 
 	// added on script load
 	config: {
-						endpoint: { hzws: 'http://api.spokanelibrary.org/v2/hzws/' }
+						endpoint: { hzws: 'http://api.spokanelibrary.org/v2/hzws/'
+											, novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery' 
+											}
 					 }
 
 	// added on authentication
@@ -61,9 +63,12 @@ var org = {
       e.preventDefault();
       //console.log( $(this).data('isbn') );
       _self.loadSyndeticsData($(this).data('isbn'));
+      _self.loadNoveListData($(this).data('isbn'));
       $(this).hide();
       $('#syndetics-summary-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
     });
+
+
 
     /*
     var isbn =  '0375857184';
@@ -215,10 +220,10 @@ var org = {
 		        ,data: { }
 		      })
 		      .done(function(obj) {
+
 		        $('#spl-account-summary').data('account', obj);
 		        _self.setUser();
 		        //$('#spl-login-modal').modal('hide');
-		        
 		        $('.spl-login-modal-response').addClass('hide');
 		        if ( _self.user && _self.user.sessionToken ) {
 		        	$('.spl-login-modal-success').removeClass('hide');
@@ -226,7 +231,6 @@ var org = {
 		        	$('.spl-login-modal-error').removeClass('hide');
 		        }
 
-		        //console.log(_self.user);  
 		      })
 		      .fail(function() { 
 		      })
@@ -239,18 +243,36 @@ var org = {
       .always(function() {  
       });
 
-			/*
-			$.post( "/account", $(this).serialize() ).done(function() {
-				//console.log(obj);
-				console.log('test');
-				$('#spl-login-modal').modal('hide');
-			});
-			*/
-
-
-		});
+		}); // submit
 
 	}
+
+, loadNoveListData: function(isbn) {
+	if (isbn) {
+		$.ajax( { 
+        url: config.api.novelistApi
+        ,crossDomain: true
+        ,data: { profile: 's8427805.main.novsel'
+                ,password: 'dGJyMOPY8UivprQA'
+                ,version: '2.1'
+                ,ISBN: isbn
+                ,ClientIdentifier: isbn
+                }
+      } )
+      .done(function(data) {
+      	console.log(data);
+        // store data locally
+        //item.novelist = novelist;
+        //parseNovelistData(item.novelist);
+        //console.log(novelist);
+      })
+      .fail(function() {
+        //parseNovelistData(null);
+      })
+      .always(function() {  
+      });
+  }
+}
 
 , loadSyndeticsData: function(isbn) {
 		if ( isbn ) {
