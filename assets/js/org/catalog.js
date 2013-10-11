@@ -63,8 +63,7 @@ var org = {
 		$('body').on('click', '.spl-related-reading-trigger', function(e) {
       e.preventDefault();
       
-      _self.loadSyndeticsData($(this).data('isbn'));
-      _self.loadNoveListData($(this).data('isbn'));
+      
       //$(this).hide();
       //$('#spl-related-reading-'+$(this).data('isbn')).fadeIn();
       //$('#spl-related-reading-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
@@ -72,6 +71,8 @@ var org = {
 
 		$('.spl-related-reading').on('show.bs.collapse', function () {
   			console.log('show me');
+  			_self.loadSyndeticsData($(this).data('isbn'));
+	      _self.loadNoveListData($(this).data('isbn'));
 		});
 
     $('.spl-related-reading').on('hidden.bs.collapse', function () {
