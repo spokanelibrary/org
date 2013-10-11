@@ -62,8 +62,7 @@ var org = {
 
 		$('body').on('click', '.spl-related-reading-trigger', function(e) {
       e.preventDefault();
-      console.log( $(this).data('isbn') );
-
+      
       _self.loadSyndeticsData($(this).data('isbn'));
       _self.loadNoveListData($(this).data('isbn'));
       $(this).hide();
@@ -71,32 +70,6 @@ var org = {
       //$('#spl-related-reading-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
     });
 
-
-
-    /*
-    var isbn =  '0375857184';
-    $.ajax( { 
-        url: config.api.novelistApi
-        ,crossDomain: true
-        ,data: { profile: 's8427805.main.novsel'
-                ,password: 'dGJyMOPY8UivprQA'
-                ,version: '2.1'
-                ,ISBN: isbn
-                ,ClientIdentifier: isbn
-                }
-      } )
-      .done(function(novelist) {
-        // store data locally
-        //item.novelist = novelist;
-        //parseNovelistData(item.novelist);
-        //console.log(novelist);
-      })
-      .fail(function() {
-        //parseNovelistData(null);
-      })
-      .always(function() {  
-      });
-    */
 		
 		// search index toggle
 		$('.spl-catalog-index-option').on('click', function(e) {
