@@ -207,6 +207,8 @@ var org = {
       })
       .done(function() {
         //console.log('retrieving session data');
+        // it would be better to authenticate against a json interface
+        // so we don't have to do this double request
         $.ajax({ 
 		      	url: '/session/' // json-only session data api todo: standardize this
 		      	,dataType: 'jsonp'
@@ -217,7 +219,7 @@ var org = {
 		        _self.setUser();
 		        //$('#spl-login-modal').modal('hide');
 		        
-		        
+		        $('.spl-login-modal-response').addClass('hide');
 		        if ( _self.user && _self.user.sessionToken ) {
 		        	$('.spl-login-modal-success').removeClass('hide');
 		        } else {
