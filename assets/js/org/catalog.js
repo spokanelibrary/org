@@ -110,7 +110,7 @@ var org = {
 		
 		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
-			if ( _self.user.sessionToken ) {
+			if ( _self.user && _self.user.sessionToken ) {
 
 				_self.btnRequest( $(this) );
 				
