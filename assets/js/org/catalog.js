@@ -42,15 +42,10 @@ var org = {
 		this.initLoginModal();
 
 		
-		/*
 		if ( true == $('#spl-search-results').data('results') ) {
-			console.log( $('#spl-search-results').data('results') );
-			$('#spl-results-tab').tab('show');
-		}
-		*/
-		if ( $('.visible-md').is(':visible') ) {
-			$('#spl-catalog-search-advanced').addClass('in');
-			console.log('toggle');
+			if ( $('.visible-md').is(':visible') ) {
+				$('#spl-catalog-search-advanced').addClass('in');
+			}
 		}
 
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
