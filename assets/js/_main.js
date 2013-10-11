@@ -1,7 +1,7 @@
 // Global configuration
 var config = { 
-      api: { endpoint: 'http://api.spokanelibrary.org/v2/'
-            ,novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery'
+      api: {// endpoint: 'http://api.spokanelibrary.org/v2/'
+            //,novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery'
            }
 }
 

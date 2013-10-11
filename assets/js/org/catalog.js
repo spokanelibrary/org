@@ -62,7 +62,8 @@ var org = {
 
 		$('body').on('click', '.syndetics-summary-trigger', function(e) {
       e.preventDefault();
-      //console.log( $(this).data('isbn') );
+      console.log( $(this).data('isbn') );
+
       _self.loadSyndeticsData($(this).data('isbn'));
       //_self.loadNoveListData($(this).data('isbn'));
       $(this).hide();
@@ -251,7 +252,7 @@ var org = {
 , loadNoveListData: function(isbn) {
 	if (isbn) {
 		$.ajax( { 
-        url: config.api.novelist
+        url: config.endpoint.novelist
         ,crossDomain: true
         ,data: { profile: 's8427805.main.novsel'
                 ,password: 'dGJyMOPY8UivprQA'
@@ -278,7 +279,7 @@ var org = {
 , loadSyndeticsData: function(isbn) {
 		if ( isbn ) {
       $.ajax({ 
-        url: config.api.syndetics
+        url: config.endpoint.syndetics
         ,data: { isbn: isbn }
       })
       .done(function(data) {
