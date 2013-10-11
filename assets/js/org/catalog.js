@@ -45,6 +45,8 @@ var org = {
 		if ( true == $('#spl-search-results').data('results') ) {
 			if ( $('.visible-md').is(':visible') ) {
 				$('#spl-catalog-search-advanced').addClass('in');
+			} else {
+				$('#spl-catalog-search-advanced-toggle').addClass('in');
 			}
 		}
 
