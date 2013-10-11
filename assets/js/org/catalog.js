@@ -49,7 +49,8 @@ var org = {
 		}
 		*/
 		if ( $('.visible-md').is(':visible') ) {
-			$('#pl-catalog-search-advanced').addClass('in');
+			$('#spl-catalog-search-advanced').addClass('in');
+			console.log('toggle');
 		}
 
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
