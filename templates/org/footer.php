@@ -176,4 +176,9 @@
 
   </footer>
 
+  <span class="visible-xs"></span>
+  <span class="visible-sm"></span>
+  <span class="visible-md"></span>
+  <span class="visible-lg"></span>
+
 </div>

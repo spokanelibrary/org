@@ -11,6 +11,7 @@ my git-fu is not strong enough to properly track this upstream.
 * manually add changes to individual files
 * nuke tmp sometime before the next manual merge/rebase
 
+* ensure php_flag magic_quotes_gpc Off 
 
 the org chart
 ===
