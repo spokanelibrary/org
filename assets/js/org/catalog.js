@@ -5,7 +5,8 @@ var org = {
 	// added on script load
 	config: {
 						endpoint: { hzws: 'http://api.spokanelibrary.org/v2/hzws/'
-											, novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery' 
+											, novelist: 'http://novselect.ebscohost.com/Data/ContentByQuery' 
+											, syndetics: 'http://beta.spokanelibrary.org/checkin/api/syndetics.php'
 											}
 					 }
 
@@ -250,7 +251,7 @@ var org = {
 , loadNoveListData: function(isbn) {
 	if (isbn) {
 		$.ajax( { 
-        url: config.api.novelistApi
+        url: config.api.novelist
         ,crossDomain: true
         ,data: { profile: 's8427805.main.novsel'
                 ,password: 'dGJyMOPY8UivprQA'
@@ -277,7 +278,7 @@ var org = {
 , loadSyndeticsData: function(isbn) {
 		if ( isbn ) {
       $.ajax({ 
-        url: 'http://beta.spokanelibrary.org/checkin/api/syndetics.php'
+        url: config.api.syndetics
         ,data: { isbn: isbn }
       })
       .done(function(data) {
