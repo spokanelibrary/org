@@ -60,14 +60,14 @@ var org = {
       _self.loadBib( $(this).data('bib') );
     });
 
-		$('body').on('click', '.syndetics-summary-trigger', function(e) {
+		$('body').on('click', '.spl-related-reading', function(e) {
       e.preventDefault();
       console.log( $(this).data('isbn') );
 
       _self.loadSyndeticsData($(this).data('isbn'));
       _self.loadNoveListData($(this).data('isbn'));
       $(this).hide();
-      $('#syndetics-summary-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
+      $('#spl-related-reading-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
     });
 
 
@@ -295,7 +295,7 @@ var org = {
 , parseSyndeticsData: function(data, isbn) {
 		console.log(data);
     //$('#syndetics-summary-'+isbn).html('We have a summary');
-    $summary = $('#syndetics-summary-'+isbn);
+    $summary = $('#spl-related-reading-'+isbn);
     tmpl = Handlebars.compile( $("#syndetics-summary-tmpl").html() );
     $summary.html( tmpl({syndetics:data}) );
 
