@@ -263,11 +263,7 @@ var org = {
                 }
       } )
       .done(function(data) {
-      	console.log(data);
-        // store data locally
-        //item.novelist = novelist;
-        //parseNovelistData(item.novelist);
-        //console.log(novelist);
+				_self.parseNovelistData(data, isbn);
       })
       .fail(function() {
         //parseNovelistData(null);
@@ -275,6 +271,18 @@ var org = {
       .always(function() {  
       });
   }
+}
+
+,	parseNovelistData: function(data, isbn) {
+		console.log(data);
+
+    $titles = $('#spl-related-titles-'+isbn);
+    tmpl = Handlebars.compile( $("#related-titles-tmpl").html() );
+    $titles.html( tmpl({novelist:data}) );
+
+    $authors = $('#spl-related-authors-'+isbn);
+    tmpl = Handlebars.compile( $("#related-authors-tmpl").html() );
+    $authors.html( tmpl({novelist:data}) );
 }
 
 , loadSyndeticsData: function(isbn) {
