@@ -63,7 +63,7 @@ var org = {
 		$('body').on('click', '.syndetics-summary-trigger', function(e) {
       e.preventDefault();
       //console.log( $(this).data('isbn') );
-      //_self.loadSyndeticsData($(this).data('isbn'));
+      _self.loadSyndeticsData($(this).data('isbn'));
       //_self.loadNoveListData($(this).data('isbn'));
       $(this).hide();
       $('#syndetics-summary-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
