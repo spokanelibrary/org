@@ -60,23 +60,16 @@ var org = {
       _self.loadBib( $(this).data('bib') );
     });
 
-		$('body').on('click', '.spl-related-reading-trigger', function(e) {
-      e.preventDefault();
-      
-      
-      //$(this).hide();
-      //$('#spl-related-reading-'+$(this).data('isbn')).fadeIn();
-      //$('#spl-related-reading-'+$(this).data('isbn')).hide().html('Loading Summary&hellip;').fadeIn();
-    });
-
 		$('.spl-related-reading').on('show.bs.collapse', function () {
-  			console.log('show me');
-  			_self.loadSyndeticsData($(this).data('isbn'));
-	      _self.loadNoveListData($(this).data('isbn'));
+  			var isbn = $(this).data('isbn');
+  			$('#spl-related-reading-trigger-'+isbn).hide();
+  			_self.loadSyndeticsData(isbn);
+	      _self.loadNoveListData(isbn);
 		});
 
     $('.spl-related-reading').on('hidden.bs.collapse', function () {
-  			console.log('hide me');
+  			var isbn = $(this).data('isbn');
+  			$('#spl-related-reading-trigger-'+isbn).show();
 		});
 
 		
