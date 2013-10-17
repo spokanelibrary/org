@@ -229,7 +229,8 @@ var org = {
 
 		$remove.on('click', function(e) {
 			e.preventDefault();
-
+			$remove.button('loading');
+		
 			var list =  $(this).data('list');
 			if ( list ) {
 				_self.removeList(list);
@@ -240,7 +241,8 @@ var org = {
 	}
 
 , removeList: function(list) {
-		console.log( list );
+		//console.log( list );
+		$form = $('#spl-form-list-remove-'+list);
 		//$submit.button('loading'); //$submit.button('reset');
 		$.ajax({ 
 	    url: this.config.endpoint.hzws+'remove'
@@ -255,6 +257,7 @@ var org = {
 			console.log(obj);
 			//$submit.button('reset');
 			//$form.data('process', 'http').submit();
+			$form.submit();
 	  })
 	  .fail(function() {
 	  })
