@@ -258,7 +258,7 @@ var org = {
 
 , initLists: function() {
 		
-		this.toggleCheckboxGroup('.spl-field-cko-select-all'
+		this.toggleCheckboxGroup('.spl-field-list-select-all'
 														,'.spl-field-list-select-item');
 		
 		this.initListCreate();
