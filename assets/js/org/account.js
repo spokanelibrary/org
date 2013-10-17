@@ -219,12 +219,20 @@ var org = {
 
 , initLists: function() {
 		this.initListCreate();
-		this.initListDelete();
+		this.initListRemove();
 
 	} // initLists()
 
-, initListDelete: function() {
+, initListRemove: function() {
 
+		var $remove = $('.spl-field-list-remove-control');
+
+		$remove.on('click', function(e) {
+			e.preventDefault();
+
+			console.log( $this.data('list') );
+
+		});
 
 	}
 
@@ -234,19 +242,15 @@ var org = {
 		var $label = $('#spl-field-list-create-label');
 
 		$form.on('submit', function(e) {
-			//e.preventDefault();
-			//console.log('submitting new list');
+			
 			if ( 'ajax' == $(this).data('process') ) {
 				e.preventDefault();
-				console.log('process: ajax');
 				var label = $label.val();
 				if ( label.length > 0 ) {
 					_self.createList(label);
 				} else {
 					alert('Please add a List Name');
 				}
-			} else {
-				console.log('process: '+$form.data('process'));	
 			}
 			
 		});
