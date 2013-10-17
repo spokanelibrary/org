@@ -111,11 +111,11 @@ var org = {
 
 , initHoldsReady: function() {
 
-		var $submit = $('.spl-submit-cancel-hold-ready');
+		var $cancel = $('.spl-field-cancel-hold-ready');
 		
-		$submit.on('click', function(e) {
+		$cancel.on('click', function(e) {
 			console.log( $(this).data(holdkey) );
-		};
+		});
 }
 
 , cancelHold: function(holdKey) {
