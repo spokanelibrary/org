@@ -234,7 +234,9 @@ var org = {
 		
 			var from =  $(this).data('list');
 			if ( from ) {
-				console.log(from);
+				var $to = $('#spl-field-list-move-to-'+from);
+				console.log( from );
+				console.log( $to.val() );
 				//_self.moveList(list);
 			}
 
