@@ -114,11 +114,16 @@ var org = {
 		var $cancel = $('.spl-field-cancel-hold-ready');
 		
 		$cancel.on('click', function(e) {
-			console.log( $(this).data('holdkey') );
+			var holdkey = $(this).data('holdkey');
+			if ( holdkey ) {
+				$cancel.button('loading');
+				_self.cancelHold(holdkey);
+			}
 		});
 }
 
 , cancelHold: function(holdKey) {
+		console.log( holdKey );
 		var $form = $('#spl-form-holds-pending');
 
 }
