@@ -234,15 +234,15 @@ var org = {
 			
 			var from =  $(this).data('list');
 			
-			var movekeys = new Array;
+			var titlekeys = new Array;
 			$('.spl-field-list-select-item:checked', '#spl-form-list-control-'+from).each(function() {
-				movekeys.push( $(this).data('holdkey') );
+				titlekeys.push( $(this).data('titlekey') );
 			});
 			
-			if ( movekeys.length > 0 ) {
+			if ( titlekeys.length > 0 ) {
 				//_self.holdsPendingUpdate($(this).data('action'), holdkeys);
 				//$(this).data('action', '');
-				console.log(movekeys);
+				console.log(titlekeys);
 			} else {
 				alert('Please select list item(s).');
 			}
