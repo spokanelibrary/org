@@ -232,7 +232,7 @@ var org = {
 			console.log('submitting new list');
 			if ( 'ajax' == $(this).data('process') ) {
 				e.preventDefault();
-
+				console.log('process: ajax');
 				var label = $label.val();
 				if ( label.length > 0 ) {
 					_self.createList(label);
