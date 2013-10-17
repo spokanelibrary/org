@@ -245,6 +245,8 @@ var org = {
 				} else {
 					alert('Please add a List Name');
 				}
+			} else {
+				console.log('process: '+$form.data('process'));	
 			}
 			
 		});
