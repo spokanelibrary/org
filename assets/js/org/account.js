@@ -231,18 +231,33 @@ var org = {
 		$move.on('click', function(e) {
 			e.preventDefault();
 			//$move.button('loading');
-		
+			
 			var from =  $(this).data('list');
+			
+			var movekeys = new Array;
+			$('.spl-field-list-select-item:checked', '#spl-form-list-control-'+from).each(function() {
+				movekeys.push( $(this).data('holdkey') );
+			});
+			
+			if ( movekeys.length > 0 ) {
+				//_self.holdsPendingUpdate($(this).data('action'), holdkeys);
+				//$(this).data('action', '');
+				console.log(movekeys);
+			} else {
+				alert('Please select list item(s).');
+			}
+
 			if ( from ) {
 				var $to = $('#spl-field-list-move-to-'+from);
 				var to = $to.val();
-				_self.moveList(from, to);
+				//_self.moveList(from, to);
 			}
 
 		});
 } // initListMove()
 
 , moveList: function(from, to) {
+
 
 		$form = $('#spl-form-list-control-'+from);
 		//$submit.button('loading'); //$submit.button('reset');
