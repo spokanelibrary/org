@@ -264,7 +264,7 @@ var org = {
     , data: { params: { sessionToken: this.user.sessionToken
     									,	listKeyFrom: from
     									, listKeyTo: to
-    									, titleKeys: titlekeys
+    									, titleKeys: titleKeys
     									}
     				}
 	  })
