@@ -114,7 +114,7 @@ var org = {
 		var $cancel = $('.spl-field-cancel-hold-ready');
 		
 		$cancel.on('click', function(e) {
-			console.log( $(this).data(holdkey) );
+			console.log( $(this).data('holdkey') );
 		});
 }
 
