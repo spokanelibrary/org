@@ -257,6 +257,10 @@ var org = {
 	} // holdsPendingUpdate()
 
 , initLists: function() {
+		
+		this.toggleCheckboxGroup('.spl-field-cko-select-all'
+														,'.spl-field-list-select-item');
+		
 		this.initListCreate();
 		this.initListRemove();
 		this.initListMove();
@@ -284,7 +288,7 @@ var org = {
 					//$(this).data('action', '');
 					var $to = $('#spl-field-list-move-to-'+from);
 					var to = $to.val();
-					_self.moveList(from, to, titlekeys);
+					_self.moveListItems(from, to, titlekeys);
 				} else {
 					alert('Please select list item(s).');
 				}
@@ -293,7 +297,7 @@ var org = {
 		});
 } // initListMove()
 
-, moveList: function(from, to, titleKeys) {
+, moveListItems: function(from, to, titleKeys) {
 
 
 		$form = $('#spl-form-list-control-'+from);
