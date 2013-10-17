@@ -255,7 +255,7 @@ var org = {
 
 , createList: function(label) {
 		var $form = $('#spl-form-list-create');
-		var $submit = $('spl-submit-list-create');
+		var $submit = $('.spl-submit-list-create');
 		var $hidden = $('#spl-field-list-create');
 
 		$submit.button('loading'); //$submit.button('reset');
