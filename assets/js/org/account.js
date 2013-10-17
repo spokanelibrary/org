@@ -233,30 +233,28 @@ var org = {
 			//$move.button('loading');
 			
 			var from =  $(this).data('list');
-			
-			var titlekeys = new Array;
-			$('.spl-field-list-select-item:checked', '#spl-form-list-control-'+from).each(function() {
-				titlekeys.push( $(this).data('titlekey') );
-			});
-			
-			if ( titlekeys.length > 0 ) {
-				//_self.holdsPendingUpdate($(this).data('action'), holdkeys);
-				//$(this).data('action', '');
-				console.log(titlekeys);
-			} else {
-				alert('Please select list item(s).');
-			}
-
 			if ( from ) {
-				var $to = $('#spl-field-list-move-to-'+from);
-				var to = $to.val();
-				//_self.moveList(from, to);
+			
+				var titlekeys = new Array;
+				$('.spl-field-list-select-item:checked', '#spl-form-list-control-'+from).each(function() {
+					titlekeys.push( $(this).data('titlekey') );
+				});
+				
+				if ( titlekeys.length > 0 ) {
+					//_self.holdsPendingUpdate($(this).data('action'), holdkeys);
+					//$(this).data('action', '');
+					var $to = $('#spl-field-list-move-to-'+from);
+					var to = $to.val();
+					_self.moveList(from, to, titlekeys);
+				} else {
+					alert('Please select list item(s).');
+				}
 			}
 
 		});
 } // initListMove()
 
-, moveList: function(from, to) {
+, moveList: function(from, to, titleKeys) {
 
 
 		$form = $('#spl-form-list-control-'+from);
@@ -266,6 +264,7 @@ var org = {
     , data: { params: { sessionToken: this.user.sessionToken
     									,	listKeyFrom: from
     									, listKeyTo: to
+    									, titleKeys: titlekeys
     									}
     				}
 	  })
