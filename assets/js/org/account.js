@@ -123,8 +123,28 @@ var org = {
 }
 
 , cancelHold: function(holdKey) {
-		console.log( holdKey );
+		//console.log( holdKey );
 		var $form = $('#spl-form-holds-pending');
+
+		$.ajax({ 
+	    url: this.config.endpoint.hzws+'cancel'
+    , data: { params: { sessionToken: this.user.sessionToken
+    									,	holdKey: holdKey
+    									}
+    				}
+	  })
+	  .done(function(obj) {  
+	  	// pass results through
+			//$hidden.val(JSON.stringify(obj));
+			//console.log(obj);
+			//$submit.button('reset');
+			//$form.data('process', 'http').submit();
+			$form.submit();
+	  })
+	  .fail(function() {
+	  })
+	  .always(function() {
+	  });
 
 }
 
