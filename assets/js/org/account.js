@@ -235,13 +235,40 @@ var org = {
 			var from =  $(this).data('list');
 			if ( from ) {
 				var $to = $('#spl-field-list-move-to-'+from);
-				console.log( from );
-				console.log( $to.val() );
-				//_self.moveList(list);
+				var to = $to.val();
+				_self.moveList(from, to);
 			}
 
 		});
-}
+} // initListMove()
+
+, moveList: function(from, to) {
+
+		$form = $('#spl-form-list-control-'+list);
+		//$submit.button('loading'); //$submit.button('reset');
+		$.ajax({ 
+	    url: this.config.endpoint.hzws+'move'
+    , data: { params: { sessionToken: this.user.sessionToken
+    									,	listKeyFrom: from
+    									, listKeyTo: to
+    									}
+    				}
+	  })
+	  .done(function(obj) {  
+	  	// pass results through
+			//$hidden.val(JSON.stringify(obj));
+			console.log(obj);
+			//$submit.button('reset');
+			//$form.data('process', 'http').submit();
+			//$form.submit();
+	  })
+	  .fail(function() {
+	  })
+	  .always(function() {
+	  });
+
+
+} // moveList()
 
 , initListRemove: function() {
 
@@ -258,11 +285,11 @@ var org = {
 
 		});
 
-	}
+	} // initListRemove()
 
 , removeList: function(list) {
 		//console.log( list );
-		$form = $('#spl-form-list-remove-'+list);
+		$form = $('#spl-form-list-control-'+list);
 		//$submit.button('loading'); //$submit.button('reset');
 		$.ajax({ 
 	    url: this.config.endpoint.hzws+'remove'
@@ -283,7 +310,8 @@ var org = {
 	  })
 	  .always(function() {
 	  });
-}
+
+} // removeList()
 
 , initListCreate: function() {
 		var $form = $('#spl-form-list-create');
