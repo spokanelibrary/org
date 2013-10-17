@@ -230,11 +230,18 @@ var org = {
 		$remove.on('click', function(e) {
 			e.preventDefault();
 
-			console.log( $(this).data('list') );
+			var list =  $(this).data('list');
+			if ( list ) {
+				_self.listRemove(list);
+			}
 
 		});
 
 	}
+
+, removeList: function(list) {
+		console.log( list );
+}
 
 , initListCreate: function() {
 		var $form = $('#spl-form-list-create');
