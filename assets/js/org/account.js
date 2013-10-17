@@ -232,7 +232,7 @@ var org = {
 
 			var list =  $(this).data('list');
 			if ( list ) {
-				_self.listRemove(list);
+				_self.removeList(list);
 			}
 
 		});
@@ -241,6 +241,25 @@ var org = {
 
 , removeList: function(list) {
 		console.log( list );
+		//$submit.button('loading'); //$submit.button('reset');
+		$.ajax({ 
+	    url: this.config.endpoint.hzws+'remove'
+    , data: { params: { sessionToken: this.user.sessionToken
+    									,	listKey: list
+    									}
+    				}
+	  })
+	  .done(function(obj) {  
+	  	// pass results through
+			//$hidden.val(JSON.stringify(obj));
+			console.log(obj);
+			//$submit.button('reset');
+			//$form.data('process', 'http').submit();
+	  })
+	  .fail(function() {
+	  })
+	  .always(function() {
+	  });
 }
 
 , initListCreate: function() {
