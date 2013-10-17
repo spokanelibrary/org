@@ -104,10 +104,14 @@ var org = {
 	} // ckoRenew()
 
 , initHolds: function() {
-		//this.initHoldsReady();
+		this.initHoldsReady();
 		this.initHoldsPending();
 
 	} // initHolds()
+
+, initHoldsReady: function() {
+		console.log( 'init holds ready' );
+}
 
 , initHoldsPending: function() {
 		
