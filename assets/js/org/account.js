@@ -244,7 +244,7 @@ var org = {
 
 , moveList: function(from, to) {
 
-		$form = $('#spl-form-list-control-'+list);
+		$form = $('#spl-form-list-control-'+from);
 		//$submit.button('loading'); //$submit.button('reset');
 		$.ajax({ 
 	    url: this.config.endpoint.hzws+'move'
