@@ -110,7 +110,17 @@ var org = {
 	} // initHolds()
 
 , initHoldsReady: function() {
-		console.log( 'init holds ready' );
+
+		var $submit = $('.spl-submit-cancel-hold-ready');
+		
+		$submit.on('click', function(e) {
+			console.log( $(this).data(holdkey) );
+		};
+}
+
+, cancelHold: function(holdKey) {
+		var $form = $('#spl-form-holds-pending');
+
 }
 
 , initHoldsPending: function() {
