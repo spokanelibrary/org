@@ -234,8 +234,8 @@ var org = {
 		var $label = $('#spl-field-list-create-label');
 
 		$form.on('submit', function(e) {
-			e.preventDefault();
-			console.log('submitting new list');
+			//e.preventDefault();
+			//console.log('submitting new list');
 			if ( 'ajax' == $(this).data('process') ) {
 				e.preventDefault();
 				console.log('process: ajax');
