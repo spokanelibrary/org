@@ -124,7 +124,7 @@ var org = {
 
 , cancelHold: function(holdKey) {
 		//console.log( holdKey );
-		var $form = $('#spl-form-holds-pending');
+		var $form = $('#spl-form-holds-ready');
 
 		$.ajax({ 
 	    url: this.config.endpoint.hzws+'cancel'
