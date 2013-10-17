@@ -219,8 +219,14 @@ var org = {
 
 , initLists: function() {
 		this.initListCreate();
+		this.initListDelete();
 
 	} // initLists()
+
+, initListDelete: function() {
+
+
+	}
 
 , initListCreate: function() {
 		var $form = $('#spl-form-list-create');
@@ -261,8 +267,8 @@ var org = {
 	  .done(function(obj) {  
 	  	// pass results through
 			$hidden.val(JSON.stringify(obj));
-			console.log(obj);
-			$submit.button('reset');
+			//console.log(obj);
+			//$submit.button('reset');
 			$form.data('process', 'http').submit();
 	  })
 	  .fail(function() {
