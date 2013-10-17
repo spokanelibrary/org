@@ -220,8 +220,26 @@ var org = {
 , initLists: function() {
 		this.initListCreate();
 		this.initListRemove();
+		this.initListMove();
+
 
 	} // initLists()
+
+, initListMove: function() {
+		var $move = $('.spl-field-list-move-control');
+
+		$move.on('click', function(e) {
+			e.preventDefault();
+			$move.button('loading');
+		
+			var from =  $(this).data('list');
+			if ( from ) {
+				console.log(from);
+				//_self.moveList(list);
+			}
+
+		});
+}
 
 , initListRemove: function() {
 
