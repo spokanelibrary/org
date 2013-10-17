@@ -230,7 +230,7 @@ var org = {
 		$remove.on('click', function(e) {
 			e.preventDefault();
 
-			console.log( $this.data('list') );
+			console.log( $(this).data('list') );
 
 		});
 
