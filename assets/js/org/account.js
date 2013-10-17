@@ -230,7 +230,7 @@ var org = {
 
 		$move.on('click', function(e) {
 			e.preventDefault();
-			$move.button('loading');
+			//$move.button('loading');
 		
 			var from =  $(this).data('list');
 			if ( from ) {
