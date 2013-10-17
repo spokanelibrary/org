@@ -229,6 +229,7 @@ var org = {
 
 		$form.on('submit', function(e) {
 			e.preventDefault();
+			console.log('submitting new list');
 			if ( 'ajax' == $(this).data('process') ) {
 				e.preventDefault();
 
