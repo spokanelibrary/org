@@ -341,7 +341,6 @@ var org = {
 					endpoint = 'rename';
 					data.params.listDescription = $rename.val();
 				} else {
-					alert('Please enter a name for this list.');
 					return;
 				}
 				break;
