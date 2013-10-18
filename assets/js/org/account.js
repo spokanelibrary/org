@@ -314,7 +314,7 @@ var org = {
 		var $move = $('.spl-field-list-move', $form);
 		var $rename = $('.spl-field-list-rename', $form);
 		
-		$submit.button('loading');
+		//$submit.button('loading');
 
 		var data = { params: {sessionToken: this.user.sessionToken
 	    									,	titleKeys: titlekeys
