@@ -272,11 +272,12 @@ var org = {
 
 			console.log( '.spl-field-list-select-all, #'+$(this).attr('id') );
 
-			/*
-			_self.toggleCheckboxGroup('.spl-field-list-select-all, #'+$(this).attr('id')
-															,'.spl-field-list-select-item, #'+$(this).attr('id')
+			
+			_self.toggleCheckboxGroup('.spl-field-list-select-all'
+															,'.spl-field-list-select-item'
+															,'#'+$(this).attr('id')
 															);
-			*/
+			
 		});
 
 } // initListToggle
@@ -489,9 +490,16 @@ var org = {
 
 } // initProfilePin()
 
-, toggleCheckboxGroup: function(all, item) {
-		var $selectAll = $(all);
-		var $selectItem = $(item);
+, toggleCheckboxGroup: function(all, item, scope) {
+		var $selectAll;
+		var $selectItem;
+		if ( scope ) {
+			$selectAll = $(all, scope);
+			$selectItem = $(item, scope);
+		} else {
+			$selectAll = $(all);
+			$selectItem = $(item);
+		}
 
 		$selectAll.on('change', function(e) {
 			if ( $(this).is(':checked') ) {
