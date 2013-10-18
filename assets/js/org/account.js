@@ -259,12 +259,22 @@ var org = {
 , initLists: function() {
 		
 		this.initListToggle();
-		this.initListCreate();
-		this.initListRemove();
-		this.initListMove();
+		this.initListControl();
+		//this.initListCreate();
+		//this.initListRemove();
+		//this.initListMove();
 
 
 	} // initLists()
+
+, initListControl: function() {
+
+		$('.spl-field-list-control').click(function(e) {
+			console.log( $(this).data('action') );
+			//$form.data('action', $(this).data('action')).submit();
+		});
+
+	} // initListControl
 
 , initListToggle: function() {
 
@@ -280,7 +290,7 @@ var org = {
 			
 		});
 
-} // initListToggle
+	} // initListToggle
 
 , initListMove: function() {
 		var $move = $('.spl-field-list-move-control');
