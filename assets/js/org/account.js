@@ -273,8 +273,14 @@ var org = {
 			var list = $(this).data('list');
 			var action = $(this).data('action');
 
+			var titlekeys = new Array;
+				$('.spl-field-list-select-item:checked', '#spl-form-list-control-'+list).each(function() {
+					titlekeys.push( $(this).data('titlekey') );
+				});
+
 			console.log( list );
 			console.log( action );
+			console.log( titlekeys );
 			//$form.data('action', $(this).data('action')).submit();
 		});
 
