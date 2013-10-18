@@ -370,9 +370,9 @@ var org = {
 		  .done(function(obj) {  
 		  	// pass results through
 				//$hidden.val(JSON.stringify(obj));
-				//console.log(obj);
-				//$submit.button('reset');
-				$form.data('process', 'http').submit();
+				console.log(obj);
+				$submit.button('reset');
+				//$form.data('process', 'http').submit();
 		  })
 		  .fail(function() {
 		  })
