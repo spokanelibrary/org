@@ -314,6 +314,7 @@ var org = {
 		//var $rename = $('.spl-field-list-rename', $form);
 		var $rename = $('#spl-field-list-rename-'+list);
 		
+		// quick required cheat
 		$rename.on('focus', function() {
 			$submit.removeClass('disabled');
 		});
