@@ -258,15 +258,26 @@ var org = {
 
 , initLists: function() {
 		
-		this.toggleCheckboxGroup('.spl-field-list-select-all'
-														,'.spl-field-list-select-item');
-		
+		this.initListToggle();
 		this.initListCreate();
 		this.initListRemove();
 		this.initListMove();
 
 
 	} // initLists()
+
+, initListToggle: function() {
+
+		/*
+		this.toggleCheckboxGroup('.spl-field-list-select-all'
+														,'.spl-field-list-select-item');
+		*/
+
+		$('.spl-list-panel').on('show.bs.collapse', function() {
+			console.log( $(this).attr('id') );
+		});
+
+} // initListToggle
 
 , initListMove: function() {
 		var $move = $('.spl-field-list-move-control');
