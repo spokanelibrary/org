@@ -281,7 +281,8 @@ var org = {
 				titlekeys.push( $(this).data('titlekey') );
 			});
 
-			$form.submit();
+			console.log( $form.data('process') );
+			//$form.submit();
 			
 			$form.on('submit', function(e) {
 				
@@ -289,7 +290,7 @@ var org = {
 					e.preventDefault();
 					
 					if ( titlekeys.length > 0 ) {
-						//_self.updateList(list, action, titlekeys);
+						_self.updateList(list, action, titlekeys);
 					} else {
 						alert('Please select title(s).');
 					}	
