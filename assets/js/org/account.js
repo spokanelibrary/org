@@ -280,12 +280,7 @@ var org = {
 			$('.spl-field-list-select-item:checked', form).each(function() {
 				titlekeys.push( $(this).data('titlekey') );
 			});
-			/*
-			console.log( $form.data('process') );
-			console.log( list );
-			console.log( action );
-			console.log( titlekeys );
-			*/
+
 			$form.on('submit', function(e) {
 				if ( 'ajax' == $(this).data('process') ) {
 					e.preventDefault();
@@ -299,8 +294,6 @@ var org = {
 				alert('Please select title(s).');
 			}	
 
-			
-
 		});
 
 	} // initListControl
@@ -311,6 +304,66 @@ var org = {
 		console.log( list );
 		console.log( action );
 		console.log( titlekeys );
+
+
+		//var $form = $('#spl-form-holds-pending');
+		var $submit = $('.spl-field-list-control');
+		//var $hidden = $('#spl-field-holds-pending-update');
+
+		//var $location = $('.spl-field-holds-pending-location');
+		//var $date = $('.spl-field-holds-pending-date');
+		
+		$submit.button('loading');
+
+		/*
+		var data = { params: {sessionToken: this.user.sessionToken
+	    									,	holdKeys: holdkeys
+	    									}
+	    					}
+
+		var endpoint;
+
+		switch ( action ) {
+			case 'cancel':
+				endpoint = 'cancel';
+				break;
+			case 'pickup':
+				endpoint = 'pickup';
+				data.params.newLocation = $location.val();
+				break;
+			case 'suspend':
+				endpoint = 'suspend';
+				data.params.suspendEndDate = $date.val();
+				break;
+			case 'resume':
+				endpoint = 'resume';
+				break;
+			default:
+				endpoint = null;
+				break;
+		}
+		
+		if ( null != typeof(endpoint) ) {
+			$.ajax({ 
+		    url: this.config.endpoint.hzws+endpoint
+	    , data: data
+		  })
+		  .done(function(obj) {  
+		  	// pass results through
+				$hidden.val(JSON.stringify(obj));
+				//console.log(obj);
+				//$submit.button('reset');
+				$form.data('process', 'http').submit();
+		  })
+		  .fail(function() {
+		  })
+		  .always(function() {
+		  });
+		}
+		*/
+
+
+
 
 } // updateList
 
