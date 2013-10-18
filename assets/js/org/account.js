@@ -268,13 +268,12 @@ var org = {
 
 , initListToggle: function() {
 
-		/*
-		this.toggleCheckboxGroup('.spl-field-list-select-all'
-														,'.spl-field-list-select-item');
-		*/
-
 		$('.spl-list-panel').on('show.bs.collapse', function() {
-			console.log( $(this).attr('id') );
+
+			this.toggleCheckboxGroup('.spl-field-list-select-all, #'+$(this).attr('id')
+															,'.spl-field-list-select-item, #'+$(this).attr('id')
+															);
+
 		});
 
 } // initListToggle
