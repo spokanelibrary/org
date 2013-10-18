@@ -258,16 +258,19 @@ var org = {
 
 , initLists: function() {
 		
-		this.initListToggle();
 		this.initListControl();
 		this.initListCreate();
-		//this.initListRemove();
-		//this.initListMove();
-
 
 	} // initLists()
 
 , initListControl: function() {
+
+		this.initListToggle();
+
+		$('.spl-field-list-control').click(function(e) {
+			var list = $(this).data('list');
+			$('#spl-form-list-control-'+list).data('action', $(this).data('action')).submit();
+		});
 
 		$('.spl-form-list-control').on('submit', function(e) {
 			if ( 'ajax' == $(this).data('process') ) {
@@ -285,12 +288,17 @@ var org = {
 			}
 		});
 		
-		$('.spl-field-list-control').click(function(e) {
-			var list = $(this).data('list');
-			$('#spl-form-list-control-'+list).data('action', $(this).data('action')).submit();
+	} // initListControl
+
+, initListToggle: function() {
+		$('.spl-list-panel').on('show.bs.collapse', function() {
+			_self.toggleCheckboxGroup('.spl-field-list-select-all'
+															,'.spl-field-list-select-item'
+															,'#'+$(this).attr('id')
+															);			
 		});
 
-	} // initListControl
+	} // initListToggle
 
 , updateList: function(list, action, titlekeys) {
 		/*
@@ -342,7 +350,6 @@ var org = {
 			case 'request':
 				endpoint = 'request';
 				data.params.pickupLocation = this.user.locationID;
-				console.log(data);
 				break;
 			case 'delete':
 				endpoint = 'delete';
@@ -372,9 +379,9 @@ var org = {
 		  .done(function(obj) {  
 		  	// pass results through
 				//$hidden.val(JSON.stringify(obj));
-				console.log(obj);
-				$submit.button('reset');
-				//$form.data('process', 'http').submit();
+				//console.log(obj);
+				//$submit.button('reset');
+				$form.data('process', 'http').submit();
 		  })
 		  .fail(function() {
 		  })
@@ -383,120 +390,8 @@ var org = {
 		}
 		
 
+	} // updateList
 
-} // updateList
-
-, initListToggle: function() {
-		$('.spl-list-panel').on('show.bs.collapse', function() {
-			_self.toggleCheckboxGroup('.spl-field-list-select-all'
-															,'.spl-field-list-select-item'
-															,'#'+$(this).attr('id')
-															);			
-		});
-
-	} // initListToggle
-
-, initListMove: function() {
-		var $move = $('.spl-field-list-move-control');
-
-		$move.on('click', function(e) {
-			e.preventDefault();
-			//$move.button('loading');
-			
-			var from =  $(this).data('list');
-			if ( from ) {
-			
-				var titlekeys = new Array;
-				$('.spl-field-list-select-item:checked', '#spl-form-list-control-'+from).each(function() {
-					titlekeys.push( $(this).data('titlekey') );
-				});
-				
-				if ( titlekeys.length > 0 ) {
-					//_self.holdsPendingUpdate($(this).data('action'), holdkeys);
-					//$(this).data('action', '');
-					var $to = $('#spl-field-list-move-to-'+from);
-					var to = $to.val();
-					_self.moveListItems(from, to, titlekeys);
-				} else {
-					alert('Please select list item(s).');
-				}
-			}
-
-		});
-} // initListMove()
-
-, moveListItems: function(from, to, titleKeys) {
-
-
-		$form = $('#spl-form-list-control-'+from);
-		//$submit.button('loading'); //$submit.button('reset');
-		$.ajax({ 
-	    url: this.config.endpoint.hzws+'move'
-    , data: { params: { sessionToken: this.user.sessionToken
-    									,	listKeyFrom: from
-    									, listKeyTo: to
-    									, titleKeys: titleKeys
-    									}
-    				}
-	  })
-	  .done(function(obj) {  
-	  	// pass results through
-			//$hidden.val(JSON.stringify(obj));
-			console.log(obj);
-			//$submit.button('reset');
-			//$form.data('process', 'http').submit();
-			//$form.submit();
-	  })
-	  .fail(function() {
-	  })
-	  .always(function() {
-	  });
-
-
-} // moveList()
-
-, initListRemove: function() {
-
-		var $remove = $('.spl-field-list-remove-control');
-
-		$remove.on('click', function(e) {
-			e.preventDefault();
-			$remove.button('loading');
-		
-			var list =  $(this).data('list');
-			if ( list ) {
-				_self.removeList(list);
-			}
-
-		});
-
-	} // initListRemove()
-
-, removeList: function(list) {
-		//console.log( list );
-		$form = $('#spl-form-list-control-'+list);
-		//$submit.button('loading'); //$submit.button('reset');
-		$.ajax({ 
-	    url: this.config.endpoint.hzws+'remove'
-    , data: { params: { sessionToken: this.user.sessionToken
-    									,	listKey: list
-    									}
-    				}
-	  })
-	  .done(function(obj) {  
-	  	// pass results through
-			//$hidden.val(JSON.stringify(obj));
-			console.log(obj);
-			//$submit.button('reset');
-			//$form.data('process', 'http').submit();
-			$form.submit();
-	  })
-	  .fail(function() {
-	  })
-	  .always(function() {
-	  });
-
-} // removeList()
 
 , initListCreate: function() {
 		var $form = $('#spl-form-list-create');
