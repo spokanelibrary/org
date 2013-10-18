@@ -281,12 +281,6 @@ var org = {
 				titlekeys.push( $(this).data('titlekey') );
 			});
 
-
-			console.log( list );
-			console.log( action );
-			console.log( titlekeys );
-			
-
 			$form.submit();
 			
 			$form.on('submit', function(e) {
@@ -298,22 +292,24 @@ var org = {
 						//_self.updateList(list, action, titlekeys);
 					} else {
 						alert('Please select title(s).');
-					}
-					
+					}	
 				}
-
 
 			});
 
+		});
+
 	} // initListControl
 
-/*
+
 , updateList: function(list, action, titlekeys) {
 
-
+		console.log( list );
+		console.log( action );
+		console.log( titlekeys );
 
 } // updateList
-*/
+
 , initListToggle: function() {
 
 		$('.spl-list-panel').on('show.bs.collapse', function() {
