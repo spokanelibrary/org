@@ -319,14 +319,13 @@ var org = {
 			case 'request':
 			case 'delete':
 			case 'move': 
-				console.log(titlekeys);
-				if ( titlekeys.length > 0 ) {
+				if ( !titlekeys.length > 0 ) {
 					alert('Please select title(s).');
 					return;
 				}
 				break;
 			case 'rename':
-				if ( $rename.val().length > 0 ) {
+				if ( !$rename.val().length > 0 ) {
 					return;
 				}
 				break;
@@ -335,11 +334,6 @@ var org = {
 			default:
 				break;
 		}
-
-		console.log( list );
-		console.log( action );
-		console.log( titlekeys );
-		return;
 
 		$submit.button('loading');
 
