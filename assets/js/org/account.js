@@ -295,7 +295,7 @@ var org = {
 					e.preventDefault();
 					
 					if ( titlekeys.length > 0 ) {
-						_self.updateList(list, action, titlekeys);
+						//_self.updateList(list, action, titlekeys);
 					} else {
 						alert('Please select title(s).');
 					}
@@ -307,12 +307,13 @@ var org = {
 
 	} // initListControl
 
+/*
 , updateList: function(list, action, titlekeys) {
 
 
 
 } // updateList
-
+*/
 , initListToggle: function() {
 
 		$('.spl-list-panel').on('show.bs.collapse', function() {
