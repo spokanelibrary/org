@@ -316,7 +316,8 @@ var org = {
 		
 		// quick required cheat
 		$rename.on('focus', function() {
-			$submit.removeClass('disabled');
+			console.log( 'enable focus' );
+			//$submit.removeClass('disabled');
 		});
 
 		$submit.button('loading');
