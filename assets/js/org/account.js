@@ -319,6 +319,7 @@ var org = {
 			case 'request':
 			case 'delete':
 			case 'move': 
+				console.log(titlekeys);
 				if ( titlekeys.length > 0 ) {
 					alert('Please select title(s).');
 					return;
@@ -339,7 +340,7 @@ var org = {
 		console.log( action );
 		console.log( titlekeys );
 		return;
-		
+
 		$submit.button('loading');
 
 		var endpoint;
