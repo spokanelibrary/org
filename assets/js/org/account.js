@@ -307,7 +307,7 @@ var org = {
 				titlekeys.push( $(this).data('titlekey') );
 			});
 			*/
-
+			console.log(list);
 			$form.data('action', $(this).data('action')).submit();
 
 		});
