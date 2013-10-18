@@ -269,30 +269,45 @@ var org = {
 
 , initListControl: function() {
 
+		$('.spl-form-list-control').on('submit', function(e) {
+			if ( 'ajax' == $(this).data('process') ) {
+				e.preventDefault();
+
+				var list = $(this).data('list');
+				var titlekeys = new Array;
+				$('.spl-field-list-select-item:checked', $(this)).each(function() {
+					titlekeys.push( $(this).data('titlekey') );
+				});
+
+				/*
+				if ( titlekeys.length > 0 || !$(this).hasClass('spl-field-list-item-control') ) {
+					$form.submit();
+				} else {
+					alert('Please select title(s).');
+				}	
+				*/
+
+				_self.updateList(list, action, titlekeys);
+				$(this).data('action', '');					
+			}
+		});
+
+		
 		$('.spl-field-list-control').click(function(e) {
 			var list = $(this).data('list');
-			var action = $(this).data('action');
+			//var action = $(this).data('action');
 
 			var form = '#spl-form-list-control-'+list;
 			var $form = $(form);
 
+			/*
 			var titlekeys = new Array;
 			$('.spl-field-list-select-item:checked', form).each(function() {
 				titlekeys.push( $(this).data('titlekey') );
 			});
+			*/
 
-			$form.on('submit', function(e) {
-				if ( 'ajax' == $(this).data('process') ) {
-					e.preventDefault();
-					_self.updateList(list, action, titlekeys);					
-				}
-			});
-
-			if ( titlekeys.length > 0 || !$(this).hasClass('spl-field-list-item-control') ) {
-				$form.submit();
-			} else {
-				alert('Please select title(s).');
-			}	
+			$form.data('action', $(this).data('action')).submit();
 
 		});
 
