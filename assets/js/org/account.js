@@ -320,7 +320,7 @@ var org = {
 			case 'request':
 			case 'delete':
 			case 'move': 
-				if ( titlekeys.length > 0 )
+				if ( titlekeys.length > 0 ) {
 					alert('Please select title(s).');
 					return;
 				}
