@@ -314,7 +314,7 @@ var org = {
 		var $move = $('.spl-field-list-move', $form);
 		var $rename = $('.spl-field-list-rename', $form);
 		
-		//$submit.button('loading');
+		$submit.button('loading');
 
 		
 		var data = { params: {sessionToken: this.user.sessionToken
@@ -362,9 +362,9 @@ var org = {
 		  .done(function(obj) {  
 		  	// pass results through
 				//$hidden.val(JSON.stringify(obj));
-				console.log(obj);
+				//console.log(obj);
 				//$submit.button('reset');
-				//$form.data('process', 'http').submit();
+				$form.data('process', 'http').submit();
 		  })
 		  .fail(function() {
 		  })
