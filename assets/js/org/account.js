@@ -290,6 +290,7 @@ var org = {
 			$form.submit();
 			
 			$form.on('submit', function(e) {
+				
 				if ( 'ajax' == $(this).data('process') ) {
 					e.preventDefault();
 					
@@ -302,7 +303,7 @@ var org = {
 				}
 
 
-		});
+			});
 
 	} // initListControl
 
