@@ -316,7 +316,6 @@ var org = {
 		
 		$submit.button('loading');
 
-		
 		var data = { params: {sessionToken: this.user.sessionToken
 	    									,	titleKeys: titlekeys
 	    									, listKey: list
@@ -327,10 +326,10 @@ var org = {
 		
 		switch ( action ) {
 			case 'request':
-				//endpoint = 'request';
+				endpoint = 'request';
 				break;
 			case 'delete':
-				//endpoint = 'delete';
+				endpoint = 'delete';
 				break;
 			case 'move':
 				endpoint = 'move';
@@ -338,11 +337,12 @@ var org = {
 				data.params.listKeyTo = $move.val();
 				break;
 			case 'rename':
-				//endpoint = 'rename';
-				//data.params.listDescription = $rename.val();
+				endpoint = 'rename';
+				data.params.listDescription = $rename.val();
 				break;
 			case 'remove':
 				endpoint = 'remove';
+				break;
 			default:
 				endpoint = null;
 				break;
