@@ -288,7 +288,7 @@ var org = {
 				}
 			});
 
-			if ( titlekeys.length > 0 ) {
+			if ( titlekeys.length > 0 || !$(this).hasClass('spl-field-list-item-control') ) {
 				$form.submit();
 			} else {
 				alert('Please select title(s).');
