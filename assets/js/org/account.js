@@ -348,10 +348,11 @@ var org = {
 				break;
 		}
 
-		/*
+		
 		console.log( endpoint );
 		console.log( data.params );
-		*/
+		
+		return;
 
 		
 		if ( null != typeof(endpoint) ) {
