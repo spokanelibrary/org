@@ -280,25 +280,26 @@ var org = {
 			$('.spl-field-list-select-item:checked', form).each(function() {
 				titlekeys.push( $(this).data('titlekey') );
 			});
-
+			/*
 			console.log( $form.data('process') );
-			
+			console.log( list );
+			console.log( action );
+			console.log( titlekeys );
+			*/
 			$form.on('submit', function(e) {
-				
 				if ( 'ajax' == $(this).data('process') ) {
 					e.preventDefault();
-					
-					if ( titlekeys.length > 0 ) {
-						_self.updateList(list, action, titlekeys);
-					} else {
-						alert('Please select title(s).');
-					}	
-					
+					_self.updateList(list, action, titlekeys);					
 				}
-
 			});
 
-			$form.submit();
+			if ( titlekeys.length > 0 ) {
+				$form.submit();
+			} else {
+				alert('Please select title(s).');
+			}	
+
+			
 
 		});
 
