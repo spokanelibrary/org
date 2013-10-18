@@ -293,11 +293,11 @@ var org = {
 	} // initListControl
 
 , updateList: function(list, action, titlekeys) {
-		/*
+		
 		console.log( list );
 		console.log( action );
 		console.log( titlekeys );
-		*/
+		return;
 
 		var form = '#spl-form-list-control-'+list;
 		var $form = $(form);
@@ -308,8 +308,6 @@ var org = {
 		//var $rename = $('.spl-field-list-rename', $form);
 		var $rename = $('#spl-field-list-rename-'+list);
 		
-		$submit.button('loading');
-
 		var data = { params: {sessionToken: this.user.sessionToken
 	    									,	titleKeys: titlekeys
 	    									, listKey: list
@@ -327,7 +325,6 @@ var org = {
 				break;
 			case 'rename':
 				if ( $rename.val().length > 0 ) {
-					$submit.button('reset');
 					return;
 				}
 				break;
@@ -336,6 +333,8 @@ var org = {
 			default:
 				break;
 		}
+
+		$submit.button('loading');
 
 		var endpoint;
 		switch ( action ) {
