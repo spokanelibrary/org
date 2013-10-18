@@ -279,23 +279,11 @@ var org = {
 				$('.spl-field-list-select-item:checked', $(this)).each(function() {
 					titlekeys.push( $(this).data('titlekey') );
 				});
-
-				/*
-				if ( titlekeys.length > 0 || !$(this).hasClass('spl-field-list-item-control') ) {
-					$form.submit();
-				} else {
-					alert('Please select title(s).');
-				}	
-				*/
-				console.log( list );
-				console.log( action );
-				console.log( titlekeys );
-
-				//_self.updateList(list, action, titlekeys);
+				
+				_self.updateList(list, action, titlekeys);
 				$(this).data('action', '');					
 			}
 		});
-
 		
 		$('.spl-field-list-control').click(function(e) {
 			var list = $(this).data('list');
@@ -328,8 +316,28 @@ var org = {
 	    									}
 	    					}
 
+		switch ( action ) {
+			case 'request':
+			case 'delete':
+			case 'move': 
+				if ( titlekeys.length > 0 )
+					alert('Please select title(s).');
+					return;
+				}
+				break;
+			case 'rename':
+				if ( $rename.val().length > 0 ) {
+					$submit.button('reset');
+					return;
+				}
+				break;
+			case 'remove':
+				break;
+			default:
+				break;
+		}
+
 		var endpoint;
-		
 		switch ( action ) {
 			case 'request':
 				endpoint = 'request';
@@ -343,13 +351,8 @@ var org = {
 				data.params.listKeyTo = $move.val();
 				break;
 			case 'rename':
-				if ( $rename.val().length > 0 ) {
 					endpoint = 'rename';
 					data.params.listDescription = $rename.val();
-				} else {
-					$submit.button('reset');
-					return;
-				}
 				break;
 			case 'remove':
 				endpoint = 'remove';
