@@ -282,7 +282,6 @@ var org = {
 			});
 
 			console.log( $form.data('process') );
-			//$form.submit();
 			
 			$form.on('submit', function(e) {
 				
@@ -294,9 +293,12 @@ var org = {
 					} else {
 						alert('Please select title(s).');
 					}	
+					
 				}
 
 			});
+
+			$form.submit();
 
 		});
 
