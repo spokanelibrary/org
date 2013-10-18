@@ -269,6 +269,8 @@ var org = {
 
 , initListControl: function() {
 
+		this.initListRename();
+
 		$('.spl-field-list-control').click(function(e) {
 			var list = $(this).data('list');
 			var action = $(this).data('action');
@@ -298,7 +300,6 @@ var org = {
 
 	} // initListControl
 
-
 , updateList: function(list, action, titlekeys) {
 		/*
 		console.log( list );
@@ -314,7 +315,13 @@ var org = {
 		var $move = $('.spl-field-list-move', $form);
 		//var $rename = $('.spl-field-list-rename', $form);
 		var $rename = $('#spl-field-list-rename-'+list);
-		//$submit.button('loading');
+		
+		$rename.on('focus', function() {
+			$submit.removeClass('disabled');
+		});
+
+		$submit.button('loading');
+
 
 		var data = { params: {sessionToken: this.user.sessionToken
 	    									,	titleKeys: titlekeys
@@ -341,6 +348,7 @@ var org = {
 					endpoint = 'rename';
 					data.params.listDescription = $rename.val();
 				} else {
+					$submit.button('reset');
 					return;
 				}
 				break;
