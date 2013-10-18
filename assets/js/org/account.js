@@ -337,8 +337,12 @@ var org = {
 				data.params.listKeyTo = $move.val();
 				break;
 			case 'rename':
-				endpoint = 'rename';
-				data.params.listDescription = $rename.val();
+				if ( $rename.val().length > 0 ) {
+					endpoint = 'rename';
+					data.params.listDescription = $rename.val();
+				} else {
+					alert('Please enter a name for this list.');
+				}
 				break;
 			case 'remove':
 				endpoint = 'remove';
