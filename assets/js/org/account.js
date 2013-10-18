@@ -315,10 +315,10 @@ var org = {
 		var $rename = $('#spl-field-list-rename-'+list);
 		
 		// quick required cheat
-		$rename.on('focus', function() {
-			console.log( 'enable focus' );
+		//$rename.on('focus', function() {
+			console.log( $rename.val() );
 			//$submit.removeClass('disabled');
-		});
+		//});
 
 		$submit.button('loading');
 
