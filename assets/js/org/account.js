@@ -274,6 +274,7 @@ var org = {
 				e.preventDefault();
 
 				var list = $(this).data('list');
+				var action = $(this).data('action');
 				var titlekeys = new Array;
 				$('.spl-field-list-select-item:checked', $(this)).each(function() {
 					titlekeys.push( $(this).data('titlekey') );
