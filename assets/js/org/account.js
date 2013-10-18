@@ -269,8 +269,6 @@ var org = {
 
 , initListControl: function() {
 
-		this.initListRename();
-
 		$('.spl-field-list-control').click(function(e) {
 			var list = $(this).data('list');
 			var action = $(this).data('action');
