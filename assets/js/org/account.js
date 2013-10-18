@@ -341,7 +341,7 @@ var org = {
 		switch ( action ) {
 			case 'request':
 				endpoint = 'request';
-				data.params.pickupLocation = this.user.LocationID;
+				data.params.pickupLocation = this.user.locationID;
 				console.log(data);
 				break;
 			case 'delete':
