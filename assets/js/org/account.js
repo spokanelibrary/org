@@ -300,19 +300,20 @@ var org = {
 
 
 , updateList: function(list, action, titlekeys) {
-
+		/*
 		console.log( list );
 		console.log( action );
 		console.log( titlekeys );
-
+		*/
+		
 		var form = '#spl-form-list-control-'+list;
 		var $form = $(form);
 		var $submit = $('.spl-field-list-control');
 		//var $hidden = $('#spl-field-list-control-update');
 
 		var $move = $('.spl-field-list-move', $form);
-		//var $date = $('.spl-field-holds-pending-date');
-		console.log( $move.val() );
+		var $rename = $('.spl-field-list-rename', $form);
+		
 		//$submit.button('loading');
 
 		
@@ -322,7 +323,7 @@ var org = {
 	    					}
 
 		var endpoint;
-		/*
+		
 		switch ( action ) {
 			case 'request':
 				endpoint = 'request';
@@ -333,10 +334,12 @@ var org = {
 				break;
 			case 'move':
 				endpoint = 'move';
-				//data.params.suspendEndDate = $date.val();
+				data.params.listKeyFrom = list;
+				data.params.listKeyTo = $move.val();
 				break;
 			case 'rename':
 				endpoint = 'rename';
+				data.params.listDescription = $rename.val();
 				break;
 			case 'remove':
 				endpoint = 'remove';
@@ -344,8 +347,11 @@ var org = {
 				endpoint = null;
 				break;
 		}
+
+		console.log( endpoint );
+		console.log( data.params );
 		
-		
+		/*
 		if ( null != typeof(endpoint) ) {
 			$.ajax({ 
 		    url: this.config.endpoint.hzws+endpoint
