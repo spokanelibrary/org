@@ -305,7 +305,7 @@ var org = {
 		console.log( action );
 		console.log( titlekeys );
 		*/
-		
+
 		var form = '#spl-form-list-control-'+list;
 		var $form = $(form);
 		var $submit = $('.spl-field-list-control');
@@ -319,6 +319,7 @@ var org = {
 		
 		var data = { params: {sessionToken: this.user.sessionToken
 	    									,	titleKeys: titlekeys
+	    									, listKey: list
 	    									}
 	    					}
 
@@ -326,11 +327,10 @@ var org = {
 		
 		switch ( action ) {
 			case 'request':
-				endpoint = 'request';
+				//endpoint = 'request';
 				break;
 			case 'delete':
-				endpoint = 'delete';
-				//data.params.newLocation = $location.val();
+				//endpoint = 'delete';
 				break;
 			case 'move':
 				endpoint = 'move';
@@ -338,8 +338,8 @@ var org = {
 				data.params.listKeyTo = $move.val();
 				break;
 			case 'rename':
-				endpoint = 'rename';
-				data.params.listDescription = $rename.val();
+				//endpoint = 'rename';
+				//data.params.listDescription = $rename.val();
 				break;
 			case 'remove':
 				endpoint = 'remove';
@@ -348,10 +348,12 @@ var org = {
 				break;
 		}
 
+		/*
 		console.log( endpoint );
 		console.log( data.params );
+		*/
+
 		
-		/*
 		if ( null != typeof(endpoint) ) {
 			$.ajax({ 
 		    url: this.config.endpoint.hzws+endpoint
@@ -359,19 +361,17 @@ var org = {
 		  })
 		  .done(function(obj) {  
 		  	// pass results through
-				$hidden.val(JSON.stringify(obj));
-				//console.log(obj);
+				//$hidden.val(JSON.stringify(obj));
+				console.log(obj);
 				//$submit.button('reset');
-				$form.data('process', 'http').submit();
+				//$form.data('process', 'http').submit();
 		  })
 		  .fail(function() {
 		  })
 		  .always(function() {
 		  });
 		}
-		*/
-
-
+		
 
 
 } // updateList
