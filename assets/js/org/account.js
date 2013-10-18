@@ -305,43 +305,46 @@ var org = {
 		console.log( action );
 		console.log( titlekeys );
 
-
-		//var $form = $('#spl-form-holds-pending');
+		var form = '#spl-form-list-control-'+list;
+		var $form = $(form);
 		var $submit = $('.spl-field-list-control');
-		//var $hidden = $('#spl-field-holds-pending-update');
+		//var $hidden = $('#spl-field-list-control-update');
 
-		//var $location = $('.spl-field-holds-pending-location');
+		var $move = $('.spl-field-list-move', $form);
 		//var $date = $('.spl-field-holds-pending-date');
-		
-		$submit.button('loading');
+		console.log( $move.val() );
+		//$submit.button('loading');
 
-		/*
+		
 		var data = { params: {sessionToken: this.user.sessionToken
-	    									,	holdKeys: holdkeys
+	    									,	titleKeys: titlekeys
 	    									}
 	    					}
 
 		var endpoint;
-
+		/*
 		switch ( action ) {
-			case 'cancel':
-				endpoint = 'cancel';
+			case 'request':
+				endpoint = 'request';
 				break;
-			case 'pickup':
-				endpoint = 'pickup';
-				data.params.newLocation = $location.val();
+			case 'delete':
+				endpoint = 'delete';
+				//data.params.newLocation = $location.val();
 				break;
-			case 'suspend':
-				endpoint = 'suspend';
-				data.params.suspendEndDate = $date.val();
+			case 'move':
+				endpoint = 'move';
+				//data.params.suspendEndDate = $date.val();
 				break;
-			case 'resume':
-				endpoint = 'resume';
+			case 'rename':
+				endpoint = 'rename';
 				break;
+			case 'remove':
+				endpoint = 'remove';
 			default:
 				endpoint = null;
 				break;
 		}
+		
 		
 		if ( null != typeof(endpoint) ) {
 			$.ajax({ 
@@ -368,17 +371,11 @@ var org = {
 } // updateList
 
 , initListToggle: function() {
-
 		$('.spl-list-panel').on('show.bs.collapse', function() {
-
-			console.log( '.spl-field-list-select-all, #'+$(this).attr('id') );
-
-			
 			_self.toggleCheckboxGroup('.spl-field-list-select-all'
 															,'.spl-field-list-select-item'
 															,'#'+$(this).attr('id')
-															);
-			
+															);			
 		});
 
 	} // initListToggle
