@@ -293,11 +293,12 @@ var org = {
 	} // initListControl
 
 , updateList: function(list, action, titlekeys) {
-		
+		/*
 		console.log( list );
 		console.log( action );
 		console.log( titlekeys );
 		return;
+		*/
 
 		var form = '#spl-form-list-control-'+list;
 		var $form = $(form);
@@ -334,6 +335,11 @@ var org = {
 				break;
 		}
 
+		console.log( list );
+		console.log( action );
+		console.log( titlekeys );
+		return;
+		
 		$submit.button('loading');
 
 		var endpoint;
