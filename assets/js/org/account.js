@@ -270,10 +270,13 @@ var org = {
 
 		$('.spl-list-panel').on('show.bs.collapse', function() {
 
+			console.log( '.spl-field-list-select-all, #'+$(this).attr('id') );
+
+			/*
 			_self.toggleCheckboxGroup('.spl-field-list-select-all, #'+$(this).attr('id')
 															,'.spl-field-list-select-item, #'+$(this).attr('id')
 															);
-
+			*/
 		});
 
 } // initListToggle
