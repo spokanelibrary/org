@@ -287,8 +287,11 @@ var org = {
 					alert('Please select title(s).');
 				}	
 				*/
+				console.log( list );
+				console.log( action );
+				console.log( titlekeys );
 
-				_self.updateList(list, action, titlekeys);
+				//_self.updateList(list, action, titlekeys);
 				$(this).data('action', '');					
 			}
 		});
@@ -296,21 +299,7 @@ var org = {
 		
 		$('.spl-field-list-control').click(function(e) {
 			var list = $(this).data('list');
-			//var action = $(this).data('action');
-
-			var form = '#spl-form-list-control-'+list;
-			var $form = $(form);
-
-			/*
-			var titlekeys = new Array;
-			$('.spl-field-list-select-item:checked', form).each(function() {
-				titlekeys.push( $(this).data('titlekey') );
-			});
-			*/
-			console.log( list );
-			console.log( $(this).data('action') );
-			$form.data('action', $(this).data('action')).submit();
-
+			$('#spl-form-list-control-'+list).data('action', $(this).data('action')).submit();
 		});
 
 	} // initListControl
