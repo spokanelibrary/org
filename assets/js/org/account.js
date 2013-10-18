@@ -314,12 +314,6 @@ var org = {
 		//var $rename = $('.spl-field-list-rename', $form);
 		var $rename = $('#spl-field-list-rename-'+list);
 		
-		// quick required cheat
-		//$rename.on('focus', function() {
-			console.log( $rename.val() );
-			//$submit.removeClass('disabled');
-		//});
-
 		$submit.button('loading');
 
 
