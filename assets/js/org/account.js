@@ -260,7 +260,7 @@ var org = {
 		
 		this.initListToggle();
 		this.initListControl();
-		//this.initListCreate();
+		this.initListCreate();
 		//this.initListRemove();
 		//this.initListMove();
 
@@ -270,7 +270,11 @@ var org = {
 , initListControl: function() {
 
 		$('.spl-field-list-control').click(function(e) {
-			console.log( $(this).data('action') );
+			var list = $(this).data('list');
+			var action = $(this).data('action');
+
+			console.log( list );
+			console.log( action );
 			//$form.data('action', $(this).data('action')).submit();
 		});
 
