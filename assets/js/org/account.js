@@ -312,8 +312,8 @@ var org = {
 		//var $hidden = $('#spl-field-list-control-update');
 
 		var $move = $('.spl-field-list-move', $form);
-		var $rename = $('.spl-field-list-rename', $form);
-		
+		//var $rename = $('.spl-field-list-rename', $form);
+		var $rename = $('#spl-field-list-rename-'+list);
 		//$submit.button('loading');
 
 		var data = { params: {sessionToken: this.user.sessionToken
