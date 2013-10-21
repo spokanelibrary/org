@@ -49,7 +49,7 @@ var org = {
 			window.location.hash = $(this).attr('href');
 		});
 		
-		$('[data-toggle="tab-select"]').change(function(e) {
+		$('[data-toggle="tab"]').change(function(e) {
 			console.log( $(this).val() );
 			//window.location.hash = $(this).attr('href');
 			window.location.hash = $(this).val();
