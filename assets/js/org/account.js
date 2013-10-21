@@ -474,7 +474,7 @@ var org = {
 , initProfilePin: function() {
 	// note: we will need a new session token here? (loginUserResetMyPin)
 	var $form = $('#spl-form-profile-pin');
-	var $pin = $('#spl-field-profile-pin');
+	var $pin = $('#spl-field-profile-pin-new');
 	var $submit = $('#spl-submit-profile-pin');
 
 	$form.validate({
