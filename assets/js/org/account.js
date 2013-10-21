@@ -508,11 +508,12 @@ var org = {
 		  .done(function(obj) {  
 		  	// pass results through
 				//$hidden.val(JSON.stringify(obj));
-				//console.log(obj);
 				if ( true == obj ) {
-					//$submit.button('reset');
 					$form.data('process', 'http').submit();
-		  	}
+		  	} else {
+		  		$submit.button('reset');
+					console.log(obj);
+				}
 		  })
 		  .fail(function() {
 		  })
