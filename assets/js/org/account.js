@@ -494,6 +494,31 @@ var org = {
 				console.log( $email.val() );
 				$submit.button('loading');
 				*/
+
+
+				$submit.button('loading');
+				/*
+				$.ajax({ 
+			    url: this.config.endpoint.hzws+'list'
+		    , data: { params: { sessionToken: this.user.sessionToken
+		    									,	description: label
+		    									}
+		    				}
+			  })
+			  .done(function(obj) {  
+			  	// pass results through
+					//$hidden.val(JSON.stringify(obj));
+					//console.log(obj);
+					//$submit.button('reset');
+					$form.data('process', 'http').submit();
+			  })
+			  .fail(function() {
+			  })
+			  .always(function() {
+			  });
+				*/
+
+
 			}
 		});
 
