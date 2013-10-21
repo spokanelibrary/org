@@ -472,65 +472,69 @@ var org = {
 	} // initProfileEmail()
 
 , initProfilePin: function() {
-	// note: we will need a new session token here? (loginUserResetMyPin)
-	var $form = $('#spl-form-profile-pin');
-	var $old = $('#spl-field-profile-pin-old');
-	var $pin = $('#spl-field-profile-pin-new');
-	var $submit = $('#spl-submit-profile-pin');
+		// note: we will need a new session token here? (loginUserResetMyPin)
+		var $form = $('#spl-form-profile-pin');
+		var $old = $('#spl-field-profile-pin-old');
+		var $pin = $('#spl-field-profile-pin-new');
+		var $submit = $('#spl-submit-profile-pin');
 
-	$form.validate({
-		rules: {
-			pinConfirm: {
-	      equalTo: "#spl-field-profile-pin-new"
-	    }
-  	}
-	});
+		$form.validate({
+			rules: {
+				pinConfirm: {
+		      equalTo: "#spl-field-profile-pin-new"
+		    }
+	  	}
+		});
 		
-	$form.on('submit', function(e) {
-		e.preventDefault();
-		if ( $form.valid() ) {
+		$form.on('submit', function(e) {
 			
-			//console.log( _self.user.borrower );
-			//console.log( _self.user.sessionToken );
-			//console.log( $pin.val() );
-			
-			console.log( $old.val() );
-			console.log( $pin.val() );
-
-			
-			//$submit.button('loading');
-			$.ajax({ 
-		    url: _self.config.endpoint.hzws+'change'
-	    , data: { params: { sessionToken: _self.user.sessionToken
-	    									,	currentPin: $old.val()
-	    									, newPin: $pin.val()
-	    									}
-	    				}
-		  })
-		  .done(function(obj) {  
-		  	// pass results through
-				//$hidden.val(JSON.stringify(obj));
-				console.log(obj);
-				/*
-				if ( true == obj ) {
-					$form.data('process', 'http').submit();
-		  	} else {
-		  		$submit.button('reset');
-					console.log(obj);
+			if ( 'ajax' == $(this).data('process') ) {
+				e.preventDefault();
+				if ( $form.valid() ) {
+					_self.changePIN( $pin.val(), $old.val() );
 				}
-				*/
-		  })
-		  .fail(function() {
-		  })
-		  .always(function() {
-		  });
+			}
 			
+		});
 
 
-		}
-	});
+	} // initProfilePin()
 
-} // initProfilePin()
+, changePIN: function(pin, current) {
+
+		//console.log( _self.user.borrower );
+		//console.log( _self.user.sessionToken );
+		//console.log( $pin.val() );
+		
+		$submit.button('loading'); 
+		$.ajax({ 
+	    url: this.config.endpoint.hzws+'change'
+    , data: { params: { sessionToken: this.user.sessionToken
+    									,	currentPin: current
+    									, newPin: pin
+    									}
+    				}
+	  })
+	  .done(function(obj) {  
+	  	// pass results through
+			//$hidden.val(JSON.stringify(obj));
+			console.log(obj);
+			
+			if ( true == obj ) {
+				$form.data('process', 'http').submit();
+	  	} else {
+	  		$submit.button('reset');
+				console.log(obj);
+			}
+			
+	  })
+	  .fail(function() {
+	  })
+	  .always(function() {
+	  });
+		
+
+	}
 
 , toggleCheckboxGroup: function(all, item, scope) {
 		var $selectAll;
