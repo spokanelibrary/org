@@ -472,9 +472,9 @@ var org = {
 	} // initProfileEmail()
 
 , initProfilePin: function() {
-	// note: we will need a new session token here (loginUserResetMyPin)
+	// note: we will need a new session token here? (loginUserResetMyPin)
 	var $form = $('#spl-form-profile-pin');
-
+	var $pin = $('#spl-field-profile-pin');
 	var $submit = $('#spl-submit-profile-pin');
 
 	$form.validate({
@@ -492,7 +492,7 @@ var org = {
 			
 			console.log( _self.user.borrower );
 			console.log( _self.user.sessionToken );
-			//console.log( $email.val() );
+			console.log( $pin.val() );
 			$submit.button('loading');
 			
 			/*
