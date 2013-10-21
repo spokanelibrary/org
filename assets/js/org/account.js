@@ -502,10 +502,9 @@ var org = {
 
 , changePIN: function(pin, current) {
 
-		//console.log( _self.user.borrower );
-		//console.log( _self.user.sessionToken );
-		//console.log( $pin.val() );
-		
+		var $form = $('#spl-form-profile-pin');
+		var $submit = $('#spl-submit-profile-pin');
+
 		$submit.button('loading'); 
 		$.ajax({ 
 	    url: this.config.endpoint.hzws+'change'
