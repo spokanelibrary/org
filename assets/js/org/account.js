@@ -458,14 +458,17 @@ var org = {
 		$form.validate();
 		
 		$form.on('submit', function(e) {
-			e.preventDefault();
 			if ( $form.valid() ) {
-				/*
-				console.log( _self.user.borrower );
-				console.log( _self.user.sessionToken );
-				console.log( $email.val() );
-				$submit.button('loading');
-				*/
+				if ( 'ajax' == $(this).data('process') ) {
+					e.preventDefault();			
+					
+					console.log( _self.user.borrower );
+					console.log( _self.user.sessionToken );
+					console.log( $email.val() );
+					//$submit.button('loading');
+					
+					//_self.changePIN( $pin.val(), $old.val() );
+				}
 			}
 		});
 
@@ -487,16 +490,14 @@ var org = {
 		});
 		
 		$form.on('submit', function(e) {
-			
-			if ( 'ajax' == $(this).data('process') ) {
-				e.preventDefault();
-				if ( $form.valid() ) {
+			if ( $form.valid() ) {
+				if ( 'ajax' == $(this).data('process') ) {
+				e.preventDefault();			
 					_self.changePIN( $pin.val(), $old.val() );
 				}
 			}
 			
 		});
-
 
 	} // initProfilePin()
 
@@ -523,7 +524,7 @@ var org = {
 				$form.data('process', 'http').submit();
 	  	} else {
 	  		$submit.button('reset');
-				console.log(obj);
+				//console.log(obj);
 			}
 			
 	  })
