@@ -46,7 +46,7 @@ var org = {
 		// apply hashchange on tab event
 		//$('body').on('click', '[data-toggle="tab"]', function(e) {
 		$('[data-toggle="tab"]').click(function(e) {
-			$(this).removeClass('active');
+			$('a', '.spl-select-tab').removeClass('active');
 			window.location.hash = $(this).attr('href');
 		});
 
