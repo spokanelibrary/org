@@ -48,6 +48,12 @@ var org = {
 		$('[data-toggle="tab"]').click(function(e) {
 			window.location.hash = $(this).attr('href');
 		});
+		
+		$('[data-toggle="tab-select"]').change(function(e) {
+			console.log( $(this).val() );
+			//window.location.hash = $(this).attr('href');
+		});
+
 
 	} // initTabs() 
 
