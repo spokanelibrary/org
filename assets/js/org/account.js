@@ -46,15 +46,9 @@ var org = {
 		// apply hashchange on tab event
 		//$('body').on('click', '[data-toggle="tab"]', function(e) {
 		$('[data-toggle="tab"]').click(function(e) {
+			$(this).removeClass('active');
 			window.location.hash = $(this).attr('href');
 		});
-		
-		$('[data-toggle="tab"]').change(function(e) {
-			console.log( $(this).val() );
-			//window.location.hash = $(this).attr('href');
-			window.location.hash = $(this).val();
-		});
-
 
 	} // initTabs() 
 
