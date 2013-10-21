@@ -497,7 +497,7 @@ var org = {
 			console.log( $old.val() );
 			console.log( $pin.val() );
 
-			/*
+			
 			//$submit.button('loading');
 			$.ajax({ 
 		    url: _self.config.endpoint.hzws+'change'
@@ -510,18 +510,21 @@ var org = {
 		  .done(function(obj) {  
 		  	// pass results through
 				//$hidden.val(JSON.stringify(obj));
+				console.log(obj);
+				/*
 				if ( true == obj ) {
 					$form.data('process', 'http').submit();
 		  	} else {
 		  		$submit.button('reset');
 					console.log(obj);
 				}
+				*/
 		  })
 		  .fail(function() {
 		  })
 		  .always(function() {
 		  });
-			*/
+			
 
 
 		}
