@@ -52,6 +52,7 @@ var org = {
 		$('[data-toggle="tab-select"]').change(function(e) {
 			console.log( $(this).val() );
 			//window.location.hash = $(this).attr('href');
+			window.location.hash = $(this).val();
 		});
 
 
