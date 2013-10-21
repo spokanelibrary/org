@@ -485,42 +485,40 @@ var org = {
   	}
 	});
 		
-		$form.on('submit', function(e) {
-			e.preventDefault();
-			if ( $form.valid() ) {
-				/*
-				console.log( _self.user.borrower );
-				console.log( _self.user.sessionToken );
-				console.log( $email.val() );
-				$submit.button('loading');
-				*/
+	$form.on('submit', function(e) {
+		e.preventDefault();
+		console.log('validating');
+		if ( $form.valid() ) {
+			
+			console.log( _self.user.borrower );
+			console.log( _self.user.sessionToken );
+			//console.log( $email.val() );
+			$submit.button('loading');
+			
+			/*
+			$.ajax({ 
+		    url: this.config.endpoint.hzws+'list'
+	    , data: { params: { sessionToken: this.user.sessionToken
+	    									,	description: label
+	    									}
+	    				}
+		  })
+		  .done(function(obj) {  
+		  	// pass results through
+				//$hidden.val(JSON.stringify(obj));
+				//console.log(obj);
+				//$submit.button('reset');
+				$form.data('process', 'http').submit();
+		  })
+		  .fail(function() {
+		  })
+		  .always(function() {
+		  });
+			*/
 
 
-				$submit.button('loading');
-				/*
-				$.ajax({ 
-			    url: this.config.endpoint.hzws+'list'
-		    , data: { params: { sessionToken: this.user.sessionToken
-		    									,	description: label
-		    									}
-		    				}
-			  })
-			  .done(function(obj) {  
-			  	// pass results through
-					//$hidden.val(JSON.stringify(obj));
-					//console.log(obj);
-					//$submit.button('reset');
-					$form.data('process', 'http').submit();
-			  })
-			  .fail(function() {
-			  })
-			  .always(function() {
-			  });
-				*/
-
-
-			}
-		});
+		}
+	});
 
 } // initProfilePin()
 
