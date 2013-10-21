@@ -499,7 +499,7 @@ var org = {
 			
 			$.ajax({ 
 		    url: this.config.endpoint.hzws+'change'
-	    , data: { params: { sessionToken: this.user.sessionToken
+	    , data: { params: { sessionToken: _self.user.sessionToken
 	    									,	currentPin: $old.val()
 	    									, newPin: $pin.val()
 	    									}
