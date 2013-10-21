@@ -488,15 +488,17 @@ var org = {
 		
 	$form.on('submit', function(e) {
 		e.preventDefault();
-		console.log('validating');
 		if ( $form.valid() ) {
 			
 			//console.log( _self.user.borrower );
 			//console.log( _self.user.sessionToken );
 			//console.log( $pin.val() );
-			$submit.button('loading');
 			
-			
+			console.log( $old.val() );
+			console.log( $pin.val() );
+
+			/*
+			//$submit.button('loading');
 			$.ajax({ 
 		    url: _self.config.endpoint.hzws+'change'
 	    , data: { params: { sessionToken: _self.user.sessionToken
@@ -519,7 +521,7 @@ var org = {
 		  })
 		  .always(function() {
 		  });
-			
+			*/
 
 
 		}
