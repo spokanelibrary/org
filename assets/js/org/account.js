@@ -474,6 +474,7 @@ var org = {
 , initProfilePin: function() {
 	// note: we will need a new session token here? (loginUserResetMyPin)
 	var $form = $('#spl-form-profile-pin');
+	var $old = $('#spl-field-profile-pin-old');
 	var $pin = $('#spl-field-profile-pin-new');
 	var $submit = $('#spl-submit-profile-pin');
 
@@ -490,25 +491,26 @@ var org = {
 		console.log('validating');
 		if ( $form.valid() ) {
 			
-			console.log( _self.user.borrower );
-			console.log( _self.user.sessionToken );
-			console.log( $pin.val() );
+			//console.log( _self.user.borrower );
+			//console.log( _self.user.sessionToken );
+			//console.log( $pin.val() );
 			$submit.button('loading');
 			
-			/*
+			
 			$.ajax({ 
-		    url: this.config.endpoint.hzws+'list'
+		    url: this.config.endpoint.hzws+'change'
 	    , data: { params: { sessionToken: this.user.sessionToken
-	    									,	description: label
+	    									,	currentPin: $old.val()
+	    									, newPin: $pin.val()
 	    									}
 	    				}
 		  })
 		  .done(function(obj) {  
 		  	// pass results through
 				//$hidden.val(JSON.stringify(obj));
-				//console.log(obj);
-				//$submit.button('reset');
-				$form.data('process', 'http').submit();
+				console.log(obj);
+				$submit.button('reset');
+				//$form.data('process', 'http').submit();
 		  })
 		  .fail(function() {
 		  })
