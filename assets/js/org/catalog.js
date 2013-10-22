@@ -97,7 +97,7 @@ var org = {
 			if ( _self.user && _self.user.sessionToken ) {
 
 				//_self.btnRequest( $(this) );
-				console.log( self.user );
+				console.log( _self.user );
 			} else {
 				//$('#spl-login-modal').modal('show');
 			}
