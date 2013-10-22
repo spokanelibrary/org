@@ -34,6 +34,16 @@ var ORG = {
         */
       });
 
+      Modernizr.load([
+        {
+          load: ['../assets/js/org/catalog.js' ],
+          complete: function () {
+            if ( org ) { 
+              org.init();
+            } 
+          }
+        }
+      ]);
       
 
 
@@ -50,7 +60,7 @@ var ORG = {
     }
   }
 , search : {
-
+    /*
     init: function() {
 
       Modernizr.load([
@@ -65,6 +75,7 @@ var ORG = {
       ]);
 
     }
+    */
 
 }
 , account: {
