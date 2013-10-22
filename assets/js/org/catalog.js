@@ -99,7 +99,7 @@ var org = {
 				//_self.btnRequest( $(this) );
 				console.log( _self.user );
 			} else {
-				//$('#spl-login-modal').modal('show');
+				$('#spl-login-modal').modal('show');
 			}
 
 		});
