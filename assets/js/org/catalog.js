@@ -39,6 +39,7 @@ var org = {
 
 , initCatalog: function() {
 
+		this.initListBib();
 		this.initRequestBib();
 		this.initRequestItem();
 
@@ -86,6 +87,24 @@ var org = {
 		});
 
   } // initCatalog()
+
+, initListBib: function() {
+
+	var trigger = '.spl-list-bib';
+
+	$('body').on('click', trigger, function(e) {
+			e.preventDefault();
+			if ( _self.user && _self.user.sessionToken ) {
+
+				//_self.btnRequest( $(this) );
+				console.log( self.user );
+			} else {
+				//$('#spl-login-modal').modal('show');
+			}
+
+		});
+
+} // initRequestBib()
 
 , initRequestBib: function() {
 	
