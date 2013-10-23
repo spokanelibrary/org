@@ -55,6 +55,8 @@ var org = {
 		}
 
 
+		$('.spl-list-about').popover();
+
 
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
       e.preventDefault();
