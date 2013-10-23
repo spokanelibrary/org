@@ -176,6 +176,7 @@ var org = {
 	  	if ( !obj.empty ) {
 	  		//$btn.button('complete');
 				$btn.text($btn.data('complete-text'));
+				// ToDo: show note about 24hr timing.
 	  	} else {
 	  		//$btn.button('error');
 	  		$btn.addClass('btn-danger').text($btn.data('error-text'));
