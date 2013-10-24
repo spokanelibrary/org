@@ -91,8 +91,12 @@ var org = {
 			e.preventDefault();
 			if ( _self.user && _self.user.sessionToken ) {
 
-				//_self.btnRequest( $(this) );
-				console.log( _self.user );
+				if ( null == typeof(_self.user.myLists) ) {
+					console.log( 'you have no lists' );
+				} else {
+					//_self.btnRequest( $(this) );
+					console.log( _self.user );
+				}
 			} else {
 				$('#spl-login-modal').modal('show');
 			}
