@@ -46,6 +46,11 @@ var org = {
 			}
 		}
 
+		var popover = {
+										title: 'About Saved Lists'
+									, placement: 'top' 
+									, content: 'Saved Lists are a great way to remember titles you have finished, or would like to checkout in the future. <br /> Some more and <a href="./account">and a link</a>.';
+									}
 		$('.spl-list-about').popover();
 		$('body').on('click', '.spl-list-about', function(e) {
       e.preventDefault();
@@ -264,13 +269,8 @@ var org = {
 		      })
 		      .done(function(obj) {
 
-		        //$('#spl-account-summary').data('account', obj);
-		        //console.log(obj);
-		        //$('#spl-account-summary').text(obj);
-		        //_self.setUser();
 		        _self.user = obj;
-		        console.log( _self.user );
-
+		        
 		        //$('#spl-login-modal').modal('hide');
 		        $('.spl-login-modal-response').addClass('hide');
 		        if ( _self.user && _self.user.sessionToken ) {
