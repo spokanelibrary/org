@@ -107,7 +107,7 @@ var org = {
 , btnList: function($btn) {
 		var bib = $btn.data('bib');
 		if ( 1 <= _self.user.myLists.length ) {
-			var list = this.user.myLists[0].listKey);
+			var list = this.user.myLists[0].listKey;
 		}
 
 		if ( bib && list ) {
