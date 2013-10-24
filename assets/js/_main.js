@@ -11,7 +11,7 @@ var config = {
 var ORG = {
   setUser: function () {
     var $account = $('#spl-account-summary');
-    if ( $account ) {
+    if ( $account.length > 0 ) {
       var user = JSON.parse($account.text());
     }
 
