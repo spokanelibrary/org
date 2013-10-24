@@ -51,7 +51,7 @@ var org = {
 									, trigger: 'manual'
 									, title: 'About Saved Lists'
 									, placement: 'top' 
-									, content: '<p>Saved Lists are a great way to remember titles you have finished, or would like to checkout in the future.</p> <p>You can manage your lists on the <a href="/account">My Account</a> page.</p> <p class="text-right"><a href="#" class="spl-list-about-close" data-toggle="popover"><strong>close</strong></a></p>'
+									, content: '<p>Saved Lists are a great way to remember titles you have finished, or would like to checkout in the future.</p> <p>You can manage your lists on the <a href="/account">My Account</a> page.</p>'
 									}
 		$('.spl-list-about').popover(popover).click(function(e) {
                     $(this).popover('show');
