@@ -56,10 +56,12 @@ var org = {
 
 		$('body').on('click', '.spl-list-about', function(e) {
       e.preventDefault();
-    });
-    $('body').on('click', '.spl-list-about-close', function(e) {
-      e.preventDefault();
+
+      $('.spl-list-about-close', $(this).on('click', function(e) {
+      	e.preventDefault();
       $('.spl-list-about').popover('close');
+      });
+
     });
 
 
