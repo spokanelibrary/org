@@ -46,6 +46,7 @@ var org = {
 			}
 		}
 
+		/*
 		var popover = {
 										html: true
 									, trigger: 'manual'
@@ -60,8 +61,8 @@ var org = {
                         $('.spl-list-about').popover('hide');
                     });
                     e.preventDefault();
-                });;
-
+                });
+		*/
 
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
       e.preventDefault();
