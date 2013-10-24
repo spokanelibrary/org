@@ -18,8 +18,9 @@ var org = {
 		_self = this;
 
 		// setup variables
-		this.setUser();
+		//this.setUser();
 		//console.log(this.user);
+		//this.user = ORG.user;
 
 		// init ui
 		this.initCatalog();
@@ -231,6 +232,7 @@ var org = {
 		        //$('#spl-account-summary').data('account', obj);
 		        $('#spl-account-summary').text(obj);
 		        _self.setUser();
+
 		        //$('#spl-login-modal').modal('hide');
 		        $('.spl-login-modal-response').addClass('hide');
 		        if ( _self.user && _self.user.sessionToken ) {

@@ -11,7 +11,6 @@ var config = {
 var ORG = {
   setUser: function () {
     var user = JSON.parse($('#spl-account-summary').text());
-    //console.log(user);
     if ( null != typeof(user) ) {
       this.user = user;
     } else {
@@ -22,7 +21,6 @@ var ORG = {
 , common: {
     init: function() {
       MBP.hideUrlBarOnLoad();
-
 
       // trigger tabs from alternate links
       $('body').on('click', '[data-toggle="tab"]', function(e) {

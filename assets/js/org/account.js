@@ -16,14 +16,21 @@ var org = {
 
 		// setup variables
 		//this.user = $('#spl-account-summary').data('account');
-		console.log( _self );
-		this.user = JSON.parse($('#spl-account-summary').text());
+		//console.log( _self );
+		//this.user = JSON.parse($('#spl-account-summary').text());
 		//console.log(this.user);
+		//this.user = ORG.user;
+		this.setUser();
 
 		// init ui
 		this.initMyAccount();
 
 	} // init()
+
+, setUser: function() {
+		ORG.setUser();
+		this.user = ORG.user;
+}
 
 , initMyAccount: function() {
 		
