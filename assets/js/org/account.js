@@ -15,7 +15,8 @@ var org = {
 		_self = this;
 
 		// setup variables
-		this.user = $('#spl-account-summary').data('account');
+		//this.user = $('#spl-account-summary').data('account');
+		this.user = $('#spl-account-summary').text();
 		//console.log(this.user);
 
 		// init ui
