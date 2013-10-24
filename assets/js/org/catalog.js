@@ -265,9 +265,11 @@ var org = {
 		      .done(function(obj) {
 
 		        //$('#spl-account-summary').data('account', obj);
-		        console.log(obj);
-		        $('#spl-account-summary').text(obj);
-		        _self.setUser();
+		        //console.log(obj);
+		        //$('#spl-account-summary').text(obj);
+		        //_self.setUser();
+		        _self.user = obj;
+		        console.log( _self.user );
 
 		        //$('#spl-login-modal').modal('hide');
 		        $('.spl-login-modal-response').addClass('hide');
