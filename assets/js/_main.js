@@ -9,8 +9,9 @@ var config = {
 // Only fires on body class (working off strictly WordPress body_class)
 
 var ORG = {
+  sean: {test:true}
   // All pages
-  common: {
+  ,common: {
     init: function() {
       MBP.hideUrlBarOnLoad();
 

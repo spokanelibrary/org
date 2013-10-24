@@ -224,7 +224,8 @@ var org = {
 		      })
 		      .done(function(obj) {
 
-		        $('#spl-account-summary').data('account', obj);
+		        //$('#spl-account-summary').data('account', obj);
+		        $('#spl-account-summary').text(obj);
 		        _self.setUser();
 		        //$('#spl-login-modal').modal('hide');
 		        $('.spl-login-modal-response').addClass('hide');
