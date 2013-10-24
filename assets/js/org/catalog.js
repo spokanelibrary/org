@@ -59,17 +59,9 @@ var org = {
     });
     $('body').on('click', '.spl-list-about-close', function(e) {
       e.preventDefault();
+      $('.spl-list-about').popover('close');
     });
-    $(':not(#anything)').on('click', function (e) {
-		    $('.spl-list-about').each(function () {
-		        //the 'is' for buttons that trigger popups
-		        //the 'has' for icons and other elements within a button that triggers a popup
-		        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-		            $(this).popover('hide');
-		            return;
-		        }
-		    });
-		});
+
 
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
       e.preventDefault();
