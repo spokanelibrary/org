@@ -58,8 +58,7 @@ var org = {
     });
     $('body').on('click', '.spl-list-about-close', function(e) {
       e.preventDefault();
-
-      $('.popover').popover('close');
+      $('.spl-list-about').popover('close');
     });
 
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
