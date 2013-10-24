@@ -91,7 +91,8 @@ var org = {
 			e.preventDefault();
 			if ( _self.user && _self.user.sessionToken ) {
 
-				if ( 1 <= _self.user.myLists ) {
+				console.log();
+				if ( 1 <= _self.user.myLists.length ) {
 					//_self.btnRequest( $(this) );
 					console.log( _self.user );
 				} else {
