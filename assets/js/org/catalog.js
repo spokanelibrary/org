@@ -327,7 +327,7 @@ var org = {
 }
 
 ,	parseNovelistData: function(data, isbn) {
-		console.log(data);
+		//console.log(data);
 
     $titles = $('#spl-related-titles-'+isbn);
     tmpl = Handlebars.compile( $("#related-titles-tmpl").html() );
@@ -355,7 +355,7 @@ var org = {
 	}
 
 , parseSyndeticsData: function(data, isbn) {
-		console.log(data);
+		//console.log(data);
     //$('#syndetics-summary-'+isbn).html('We have a summary');
     $summary = $('#spl-related-summary-'+isbn);
     tmpl = Handlebars.compile( $("#syndetics-summary-tmpl").html() );
