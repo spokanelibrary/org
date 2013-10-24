@@ -91,10 +91,11 @@ var org = {
 			e.preventDefault();
 			if ( _self.user && _self.user.sessionToken ) {
 
-				console.log();
 				if ( 1 <= _self.user.myLists.length ) {
 					//_self.btnRequest( $(this) );
+					console.log(_self.user.myLists[0].listKey);
 					console.log( _self.user );
+
 				} else {
 					console.log( 'you have no lists' );
 				}
