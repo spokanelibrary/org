@@ -85,19 +85,16 @@ var org = {
 
 , initListBib: function() {
 
-	var trigger = '.spl-list-bib';
+		var trigger = '.spl-list-bib';
 
-	$('body').on('click', trigger, function(e) {
+		$('body').on('click', trigger, function(e) {
 			e.preventDefault();
+
 			if ( _self.user && _self.user.sessionToken ) {
-
 				if ( 1 <= _self.user.myLists.length ) {
-					//_self.btnRequest( $(this) );
-					console.log(_self.user.myLists[0].listKey);
-					console.log( _self.user );
-
+					_self.btnList( $(this) );
 				} else {
-					console.log( 'you have no lists' );
+					// no lists
 				}
 			} else {
 				$('#spl-login-modal').modal('show');
@@ -105,7 +102,19 @@ var org = {
 
 		});
 
-} // initRequestBib()
+} // initListBib()
+
+, btnList: function($btn) {
+		var bib = $btn.data('bib');
+		if ( 1 <= _self.user.myLists.length ) {
+			var list = this.user.myLists[0].listKey);
+		}
+
+		if ( bib && list ) {
+			console.log( bib );
+			console.log( list );
+		}
+}
 
 , initRequestBib: function() {
 	
@@ -160,7 +169,7 @@ var org = {
 			params.itemKey = item;
 		}
 
-		console.log(params);
+		//console.log(params);
 
 		// bummer, can't use data-text states for no
 		// https://github.com/twbs/bootstrap/issues/10890
