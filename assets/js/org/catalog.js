@@ -111,8 +111,43 @@ var org = {
 		}
 
 		if ( bib && list ) {
-			console.log( bib );
-			console.log( list );
+			var params = { sessionToken: _self.user.sessionToken
+										,titleKey: bib
+										,listKey: list
+									}
+
+			//console.log(params);
+
+			// bummer, can't use data-text states for no
+			// https://github.com/twbs/bootstrap/issues/10890
+
+			//$btn.button('loading');
+			$btn.addClass('disabled').text($btn.data('loading-text'));
+		
+			$.ajax({ 
+		    url: _self.config.endpoint.hzws+'add'
+	    , data: { params: params }
+		  })
+		  .done(function(obj) {  
+		  	console.log(obj);
+		  	if ( !obj.empty ) {
+		  		//$btn.button('complete');
+					$btn.text($btn.data('complete-text'));
+					// ToDo: show some kind of note?
+		  	} else {
+		  		//$btn.button('error');
+		  		$btn.addClass('btn-danger').text($btn.data('error-text'));
+		  	}
+		  	
+		  	// pass results through
+				//$hidden.val(JSON.stringify(obj));
+				//$form.data('process', 'http').submit();
+		  })
+		  .fail(function() {
+		  })
+		  .always(function() {
+		  });
+
 		}
 }
 
