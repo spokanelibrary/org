@@ -259,12 +259,13 @@ var org = {
         // so we don't have to do this double request
         $.ajax({ 
 		      	url: '/session/' // json-only session data api todo: standardize this
-		      	,dataType: 'jsonp'
+		      	,dataType: 'json'
 		        ,data: { }
 		      })
 		      .done(function(obj) {
 
 		        //$('#spl-account-summary').data('account', obj);
+		        console.log(obj);
 		        $('#spl-account-summary').text(obj);
 		        _self.setUser();
 
