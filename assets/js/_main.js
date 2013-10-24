@@ -10,7 +10,11 @@ var config = {
 
 var ORG = {
   setUser: function () {
-    var user = JSON.parse($('#spl-account-summary').text());
+    var $account = $('#spl-account-summary');
+    if ( $account ) {
+      var user = JSON.parse($account.text());
+    }
+
     if ( null != typeof(user) ) {
       this.user = user;
     } else {
