@@ -16,6 +16,7 @@ var org = {
 
 		// setup variables
 		//this.user = $('#spl-account-summary').data('account');
+		console.log( ORG );
 		this.user = JSON.parse($('#spl-account-summary').text());
 		//console.log(this.user);
 
