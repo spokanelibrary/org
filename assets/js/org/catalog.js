@@ -57,7 +57,7 @@ var org = {
                     $(this).popover('show');
                     $('.popover-title').prepend('<button type="button" class="close">&times;</button>');
                     $('.close').click(function(e){
-                        $('.btn-danger').popover('hide');
+                        $('.spl-list-about').popover('hide');
                     });
                     e.preventDefault();
                 });;
