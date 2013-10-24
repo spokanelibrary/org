@@ -50,7 +50,7 @@ var org = {
 										html: true
 									, title: 'About Saved Lists'
 									, placement: 'top' 
-									, content: 'Saved Lists are a great way to remember titles you have finished, or would like to checkout in the future. <br /> Some more and <a href="./account">and a link</a>.'
+									, content: '<p>Saved Lists are a great way to remember titles you have finished, or would like to checkout in the future.</p> <p>You can manage your lists on the <a href="/account">My Account</a> page.</p> <a href="#" data-toggle="popover"><span class="">&times;</span></a>'
 									}
 		$('.spl-list-about').popover(popover);
 		$('body').on('click', '.spl-list-about', function(e) {
