@@ -47,7 +47,8 @@ var org = {
 		}
 
 		var popover = {
-										title: 'About Saved Lists'
+										html: true
+									, title: 'About Saved Lists'
 									, placement: 'top' 
 									, content: 'Saved Lists are a great way to remember titles you have finished, or would like to checkout in the future. <br /> Some more and <a href="./account">and a link</a>.';
 									}
