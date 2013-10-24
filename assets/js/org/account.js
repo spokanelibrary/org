@@ -14,12 +14,6 @@ var org = {
 	,init: function() {
 		_self = this;
 
-		// setup variables
-		//this.user = $('#spl-account-summary').data('account');
-		//console.log( _self );
-		//this.user = JSON.parse($('#spl-account-summary').text());
-		//console.log(this.user);
-		//this.user = ORG.user;
 		this.setUser();
 
 		// init ui
