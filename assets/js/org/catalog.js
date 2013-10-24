@@ -18,7 +18,7 @@ var org = {
 		_self = this;
 
 		// setup variables
-		//this.setUser();
+		this.setUser();
 		//console.log(this.user);
 		//this.user = ORG.user;
 
