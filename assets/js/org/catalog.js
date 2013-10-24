@@ -30,7 +30,7 @@ var org = {
 		// ToDo: might need to change this to a class
 		// if it will be instantiaed multiple times
 		//var user = $('#spl-account-summary').data('account');
-		var user = $('#spl-account-summary').text();
+		var user = JSON.parse($('#spl-account-summary').text());
 		console.log(user);
 		if ( null != typeof(user) ) {
 			this.user = user;
