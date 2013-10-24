@@ -27,7 +27,7 @@ var org = {
 	} // init()
 
 , setUser: function () {
-		ORG.setUser;
+		ORG.setUser();
 		this.user = ORG.user;
 		/*
 		// ToDo: might need to change this to a class
