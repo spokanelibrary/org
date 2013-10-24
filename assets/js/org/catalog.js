@@ -129,7 +129,7 @@ var org = {
 	    , data: { params: params }
 		  })
 		  .done(function(obj) {  
-		  	console.log(obj);
+		  	//console.log(obj);
 		  	if ( !obj.empty ) {
 		  		//$btn.button('complete');
 					$btn.text($btn.data('complete-text'));
