@@ -48,22 +48,19 @@ var org = {
 
 		var popover = {
 										html: true
+									, trigger: 'manual'
 									, title: 'About Saved Lists'
 									, placement: 'top' 
 									, content: '<p>Saved Lists are a great way to remember titles you have finished, or would like to checkout in the future.</p> <p>You can manage your lists on the <a href="/account">My Account</a> page.</p> <p class="text-right"><a href="#" class="spl-list-about-close" data-toggle="popover"><strong>close</strong></a></p>'
 									}
-		$('.spl-list-about').popover(popover);
-
-		$('body').on('click', '.spl-list-about', function(e) {
-      e.preventDefault();
-      var $btn = $(this);
-      $('.spl-list-about-close', $(this)).on('click', function(e) {
-      	e.preventDefault();
-
-     		 $btn.popover('close');
-      });
-
-    });
+		$('.spl-list-about').popover(popover).click(function(e) {
+                    $(this).popover('show');
+                    $('.popover-title').append('<button type="button" class="close">&times;</button>');
+                    $('.close').click(function(e){
+                        $('.btn-danger').popover('hide');
+                    });
+                    e.preventDefault();
+                });;
 
 
 		$('body').on('click', '.hzws-bib-trigger', function(e) {
