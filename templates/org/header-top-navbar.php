@@ -45,10 +45,10 @@
       <a class="navbar-brand" href="<?php echo home_url(); ?>/">
         <span class="text-hide"><?php bloginfo('name'); ?></span>
       </a>
-      <div class="pull-right">
+    </div>
+    <div class="pull-right">
         This is my profile
       </div>
-    </div>
   </div>
 </header><!-- /.navbar -->
 
