@@ -52,7 +52,7 @@
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       {{#if user.sessionToken}}
       <div class="pull-right" id="spl-account-profile">
-        <div class="well well-sm" style="margin: 6px 0 0 0; background-color: rgb(125,175,100); opacity:.9;">
+        <div class="well well-sm" style="margin: 6px 0 0 0; background-color: #f0ad4e; opacity:.9;">
             <i class="glyphicon glyphicon-user text-success"></i>
             <a href="/account/"><strong>{{user.firstName}}</strong> <small>My Account</small></a>
             <span class="text-muted">&nbsp;&nbsp;</span>
