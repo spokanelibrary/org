@@ -54,8 +54,8 @@
         <div class="panel-body">
           <i class="glyphicon glyphicon-user text-muted"></i>
           <a href="/account/"><strong>{{user.firstName}}</strong></a>
-          <br />
-          <a href="/account/?logout"><small>Logout</small></a>
+          |
+          <a href="/account/?logout" class="text-warning"><small>Logout</small></a>
         </div>
       </div>
     </script>
