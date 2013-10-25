@@ -9,11 +9,14 @@ var config = {
 // Only fires on body class (working off strictly WordPress body_class)
 
 var ORG = {
-  setUser: function () {
-    var $account = $('#spl-account-summary');
-
-    if ( $account && $account.text().length > 0 ) {
-      var user = JSON.parse($account.text());
+  setUser: function (user) {
+    if ( user && user.sessionToken ) {
+      this.user = user;
+    } else{
+      var $account = $('#spl-account-summary');
+      if ( $account && $account.text().length > 0 ) {
+        var user = JSON.parse($account.text());
+      }
     }
 
     if ( null != typeof(user) && undefined != typeof(user) ) {

@@ -21,9 +21,9 @@ var org = {
 
 	} // init()
 
-, setUser: function() {
+, setUser: function(user) {
 		if ( !ORG.user ) {
-			ORG.setUser();
+			ORG.setUser(user);
 		}
 		this.user = ORG.user;
 }

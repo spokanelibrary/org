@@ -27,9 +27,9 @@ var org = {
 
 	} // init()
 
-, setUser: function () {
+, setUser: function (user) {
 		if ( !ORG.user ) {
-			ORG.setUser();
+			ORG.setUser(user);
 		}
 		this.user = ORG.user;
 }
@@ -287,8 +287,7 @@ var org = {
 		      .done(function(obj) {
 
 		        //_self.user = obj;
-		        $('#spl-account-summary').text(obj);
-		        _self.setUser();
+		        _self.setUser(obj);
 
 		        //console.log( _self.user );
 		        //console.log( _self.login.callbackTrigger );
