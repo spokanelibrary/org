@@ -284,10 +284,13 @@ var org = {
 
 		        _self.user = obj;
 		        
-
+		        console.log( _self.user );
+		        console.log( _self.login.callbackTrigger );
+		        /*
 		        if ( _self.login.callbackFunction && _self.login.callbackTrigger ) {
 		        	_self.login.callbackFunction(_self.login.callbackTrigger);
 		        }
+		        */
 
 		        //$('#spl-login-modal').modal('hide');
 		        $('.spl-login-modal-response').addClass('hide');
