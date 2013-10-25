@@ -110,6 +110,8 @@ var org = {
 					// no lists
 				}
 			} else {
+				_self.login.callbackFunction = _self.btnList;
+				_self.login.callbackTrigger = $(this);
 				$('#spl-login-modal').modal('show');
 			}
 
@@ -142,8 +144,8 @@ var org = {
 	    , data: { params: params }
 		  })
 		  .done(function(obj) {  
-		  	//console.log(obj);
-		  	if ( !obj.empty ) {
+		  	console.log(obj);
+		  	if ( !obj.empty && !obj.error ) {
 		  		//$btn.button('complete');
 					$btn.text($btn.data('complete-text'));
 					// ToDo: show some kind of note?
@@ -231,7 +233,7 @@ var org = {
 	  })
 	  .done(function(obj) {  
 	  	console.log(obj);
-	  	if ( !obj.empty ) {
+	  	if ( !obj.empty && !obj.error ) {
 	  		//$btn.button('complete');
 				$btn.text($btn.data('complete-text'));
 				// ToDo: show note about 24hr timing.
@@ -279,6 +281,11 @@ var org = {
 
 		        _self.user = obj;
 		        
+
+		        if ( _self.login.callbackFunction && _self.login.callbackTrigger ) {
+		        	_self.login.callbackFunction(_self.login.callbackTrigger);
+		        }
+
 		        //$('#spl-login-modal').modal('hide');
 		        $('.spl-login-modal-response').addClass('hide');
 		        if ( _self.user && _self.user.sessionToken ) {
