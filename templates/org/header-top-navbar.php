@@ -45,6 +45,9 @@
       <a class="navbar-brand" href="<?php echo home_url(); ?>/">
         <span class="text-hide"><?php bloginfo('name'); ?></span>
       </a>
+      <div>
+        This is my profile
+      </div>
     </div>
   </div>
 </header><!-- /.navbar -->
@@ -61,11 +64,6 @@
       <a class="navbar-brand hidden-md hidden-lg" href="<?php echo home_url(); ?>/">
         <span class="logotype"><?php bloginfo('name'); ?></span>
       </a>
-
-      <div>
-        This is my profile
-      </div>
-
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <?php
