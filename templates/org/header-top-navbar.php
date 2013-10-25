@@ -59,8 +59,8 @@
             <a href="/account/?logout" class="text-danger"><small>Logout</small></a>
           </p>
           <p>
-          {{if user.holdRequests}}
-            {{if user.holdRequests.ready}}
+          {{#if user.holdRequests}}
+            {{#if user.holdRequests.ready}}
             Holds ready <span class="badge">{{user.holdRequests.ready}}</span>
             {{/if}}
           {{/if}}
