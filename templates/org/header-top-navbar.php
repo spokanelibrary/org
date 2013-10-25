@@ -58,7 +58,7 @@
             <span class="text-muted">&middot;</span>
             <span class="pull-right">
               <i class="glyphicon glyphicon-log-out text-danger"></i>
-              <a href="/account/?logout" class="text-danger">Logout</a>
+              <a href="/account/?logout" class="text-danger"><strong>Logout</strong></a>
             </span>
           <br />
         
