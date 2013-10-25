@@ -50,8 +50,8 @@
     <div id="spl-account-profile"></div>
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
-      <div class="panel panel-primary panel-callout panel-callout-primary pull-right" id="spl-account-profile" style="margin-top: 10px; opacity:.9;">
-        <div class="">
+      <div class="panel panel-primary panel-condensed pull-right" id="spl-account-profile" style="margin-top: 10px; opacity:.95;">
+        <div class="panel-body">
         Hi {{user.firstName}}
         </div>
       </div>
