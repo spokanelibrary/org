@@ -61,12 +61,13 @@
           <p class="text-muted">
           {{#if user.holdRequests}}
             {{#if user.holdRequests.ready}}
-            Ready to pickup <span class="badge">{{user.holdRequests.ready}}</span>
+            <a href="/account#holds">Ready to pickup</a> <span class="badge">{{user.holdRequests.ready}}</span>
             {{/if}}
           {{/if}}
+          &nbsp;
           {{#if user.itemsOut}}
             {{#if user.itemsOut.overdue}}
-            Overdue <span class="badge">{{user.itemsOut.overdue}}</span>
+            <a href="/account#cko">Overdue</a> <span class="badge">{{user.itemsOut.overdue}}</span>
             {{/if}}
           {{/if}}
           </p>
