@@ -125,7 +125,7 @@ var org = {
 , btnList: function($btn) {
 		var bib = $btn.data('bib');
 		if ( 1 <= _self.user.myLists.length ) {
-			var list = this.user.myLists[0].listKey;
+			var list = _self.user.myLists[0].listKey;
 		}
 
 		if ( bib && list ) {
@@ -284,13 +284,13 @@ var org = {
 
 		        _self.user = obj;
 		        
-		        console.log( _self.user );
-		        console.log( _self.login.callbackTrigger );
-		        /*
-		        if ( _self.login.callbackFunction && _self.login.callbackTrigger ) {
+		        //console.log( _self.user );
+		        //console.log( _self.login.callbackTrigger );
+		        
+		        if ( _self.user && _self.login.callbackFunction && _self.login.callbackTrigger ) {
 		        	_self.login.callbackFunction(_self.login.callbackTrigger);
 		        }
-		        */
+		        
 
 		        //$('#spl-login-modal').modal('hide');
 		        $('.spl-login-modal-response').addClass('hide');
