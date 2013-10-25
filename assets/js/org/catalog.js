@@ -180,7 +180,7 @@ var org = {
 				_self.btnRequest( $(this) );
 				
 			} else {
-				_self.login.callbackFunction = _self.btnReqest;
+				_self.login.callbackFunction = _self.btnRequest;
 				_self.login.callbackTrigger = $(this);
 				$('#spl-login-modal').modal('show');
 			}
