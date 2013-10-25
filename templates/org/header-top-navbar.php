@@ -55,7 +55,7 @@
         <div class="well well-sm" style="margin: 6px 0 0 0; background-color: rgb(125,175,100); opacity:.9;">
             <i class="glyphicon glyphicon-user text-success"></i>
             <a href="/account/"><strong>{{user.firstName}}</strong> <small>My Account</small></a>
-            <span class="text-muted">&middot;</span>
+            <span class="text-muted">&nbsp;&nbsp;</span>
             <span class="pull-right">
               <i class="glyphicon glyphicon-log-out text-danger"></i>
               <a href="/account/?logout" class="text-danger"><strong>Logout</strong></a>
