@@ -53,8 +53,8 @@
       {{#if user.sessionToken}}
       <div class="pull-right" id="spl-account-profile">
         <div class="well well-sm" style="margin: 6px 0 0 0;  opacity:.9;">
-            <i class="glyphicon glyphicon-user text-success"></i>
-            <strong style="color:#fff;">{{user.firstName}}</strong>
+            <i class="glyphicon glyphicon-user text-muted"></i>
+            <strong class="text-muted">{{user.firstName}}</strong>
             <a href="/account/"><small><strong>My Account</strong></small></a>
             <span class="text-muted">&nbsp;&nbsp;</span>
             <span class="pull-right">
