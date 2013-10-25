@@ -61,7 +61,10 @@
           <p class="text-muted">
           {{#if user.holdRequests}}
             {{#if user.holdRequests.ready}}
-            <a href="/account#holds">Ready to pickup</a> <span class="badge">{{user.holdRequests.ready}}</span>
+            <a href="/account#holds" class="btn btn-small btn-default">
+              Ready to pickup
+              <span class="badge">{{user.holdRequests.ready}}</span>
+            </a>
             {{/if}}
           {{/if}}
           &nbsp;
