@@ -56,10 +56,8 @@
             <i class="glyphicon glyphicon-user text-success"></i>
             <a href="/account/"><strong>{{user.firstName}}</strong> <small>My Account</small></a>
             <span class="text-muted">&middot;</span>
-            <a href="/account/?logout" class="text-danger pull-right"><small>
-              <i class="glyphicon glyphicon-log-out"></i>
-              Logout
-              </small></a>
+            <i class="glyphicon glyphicon-log-out text-danger"></i>
+            <a href="/account/?logout" class="text-danger pull-right">Logout</a>
           <br />
         
           {{#if user.holdRequests}}
