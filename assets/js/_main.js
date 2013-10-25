@@ -3,6 +3,9 @@ var config = {
       api: {// endpoint: 'http://api.spokanelibrary.org/v2/'
             //,novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery'
            }
+    , path: {
+              absolute: 'http://beta.spokanelibrary.org/'
+    }
 }
 
 // Modified http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/
@@ -57,7 +60,7 @@ var ORG = {
 
       Modernizr.load([
         {
-          load: ['../assets/js/org/catalog.js' ],
+          load: [config.path.absolute+'/assets/js/org/catalog.js' ],
           complete: function () {
             if ( org ) { 
               org.init();
