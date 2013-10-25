@@ -65,7 +65,7 @@
         
           {{#if user.holdRequests}}
             {{#if user.holdRequests.ready}}
-            <a href="/account#holds" class="btn btn-sm btn-inverse">
+            <a href="/account#holds" class="btn btn-sm btn-default">
               Ready to pickup
               <small class="badge">{{user.holdRequests.ready}}</small>
             </a>
@@ -74,7 +74,7 @@
           &nbsp;
           {{#if user.itemsOut}}
             {{#if user.itemsOut.overdue}}
-            <a href="/account#cko" class="btn btn-sm btn-success">
+            <a href="/account#cko" class="btn btn-sm btn-default">
               Overdue 
               <small class="badge">{{user.itemsOut.overdue}}</small>
             </a>
