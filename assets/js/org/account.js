@@ -14,7 +14,7 @@ var org = {
 	,init: function() {
 		_self = this;
 
-		//this.setUser();
+		this.setUser();
 
 		// init ui
 		this.initMyAccount();
@@ -466,9 +466,11 @@ var org = {
 				if ( 'ajax' == $(this).data('process') ) {
 					e.preventDefault();			
 					
+					/*
 					console.log( _self.user.borrower );
 					console.log( _self.user.sessionToken );
 					console.log( $email.val() );
+					*/
 					//$submit.button('loading');
 					
 					//_self.changePIN( $pin.val(), $old.val() );
