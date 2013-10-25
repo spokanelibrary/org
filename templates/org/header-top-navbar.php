@@ -58,10 +58,15 @@
             <span class="text-muted">&middot;</span>
             <a href="/account/?logout" class="text-danger"><small>Logout</small></a>
           </p>
-          <p>
+          <p class="text-muted">
           {{#if user.holdRequests}}
             {{#if user.holdRequests.ready}}
-            Holds ready <span class="badge">{{user.holdRequests.ready}}</span>
+            Ready to pickup <span class="badge">{{user.holdRequests.ready}}</span>
+            {{/if}}
+          {{/if}}
+          {{#if user.itemsOut}}
+            {{#if user.itemsOut.overdue}}
+            Overdue <span class="badge">{{user.itemsOut.overdue}}</span>
             {{/if}}
           {{/if}}
           </p>
