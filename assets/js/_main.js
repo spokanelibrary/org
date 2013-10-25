@@ -21,7 +21,7 @@ var ORG = {
 
     if ( null != typeof(user) && undefined != typeof(user) ) {
       this.user = user;
-      console.log( this.user );
+      //console.log( this.user );
 
       $profile = $('#spl-account-profile');
       tmpl = Handlebars.compile( $('#spl-account-profile-tmpl').html() );
