@@ -286,8 +286,10 @@ var org = {
 		      })
 		      .done(function(obj) {
 
-		        _self.user = obj;
-		        
+		        //_self.user = obj;
+		        $('#spl-account-summary').text(obj);
+		        _self.setUser();
+
 		        //console.log( _self.user );
 		        //console.log( _self.login.callbackTrigger );
 		        
