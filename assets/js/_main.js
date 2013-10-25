@@ -16,7 +16,7 @@ var ORG = {
       var user = JSON.parse($account.text());
     }
 
-    if ( null != typeof(user) ) {
+    if ( null != typeof(user) && undefined != typeof(user) ) {
       this.user = user;
       console.log( this.user );
 
