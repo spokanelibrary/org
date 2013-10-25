@@ -46,12 +46,12 @@
         <span class="text-hide"><?php bloginfo('name'); ?></span>
       </a>
     </div>
-    
+
     <div id="spl-account-profile"></div>
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       <div class="well well-sm pull-right" id="spl-account-profile" style="margin-top: 10px; opacity:.9;">
-        This is my profile
+        {{user.firstName}}
       </div>
     </script>
 
