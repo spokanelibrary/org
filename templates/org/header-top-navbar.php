@@ -50,7 +50,7 @@
     <div id="spl-account-profile"></div>
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
-      <div class="panel panel-default panel-condensed pull-right" id="spl-account-profile" style="margin-top: 10px; opacity:.95;">
+      <div class="panel panel-default panel-condensed pull-right" id="spl-account-profile" style="margin: 0px; opacity:.95;">
         <div class="panel-body">
           <p>
             <i class="glyphicon glyphicon-user text-muted"></i>
