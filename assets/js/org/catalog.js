@@ -11,10 +11,13 @@ var org = {
 					 }
 
 	// added on authentication
-	,user: {}
+,	user: {}
+
+	// callback
+,	login: {}
 
 	// called on script load
-	,init: function() {
+, init: function() {
 		_self = this;
 
 		this.setUser();
