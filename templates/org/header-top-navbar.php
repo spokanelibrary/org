@@ -52,16 +52,15 @@
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       <div class="panel panel-default panel-condensed pull-right" id="spl-account-profile" style="margin: 0px; opacity:.95;">
         <div class="panel-body">
-          <p>
             <i class="glyphicon glyphicon-user text-muted"></i>
             <a href="/account/"><strong>{{user.firstName}}</strong> <small>My Account</small></a>
             <span class="text-muted">&middot;</span>
             <a href="/account/?logout" class="text-danger"><small>Logout</small></a>
-          </p>
+          <br />
         
           {{#if user.holdRequests}}
             {{#if user.holdRequests.ready}}
-            <a href="/account#holds" class="btn btn-xs btn-default">
+            <a href="/account#holds" class="btn btn-sm btn-default">
               Ready to pickup
               <small class="badge">{{user.holdRequests.ready}}</small>
             </a>
@@ -70,9 +69,9 @@
           &nbsp;
           {{#if user.itemsOut}}
             {{#if user.itemsOut.overdue}}
-            <a href="/account#cko" class="btn btn-xs btn-default">
+            <a href="/account#cko" class="btn btn-sm btn-default">
               Overdue 
-              <span class="badge">{{user.itemsOut.overdue}}</span>
+              <small class="badge">{{user.itemsOut.overdue}}</small>
             </a>
             {{/if}}
           {{/if}}
