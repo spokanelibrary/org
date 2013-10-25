@@ -52,9 +52,9 @@
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       <div class="panel panel-primary panel-condensed pull-right" id="spl-account-profile" style="margin-top: 10px; opacity:.95;">
         <div class="panel-body">
+        <i class="glyphicon glyphicon-user text-muted"></i>
         <a href="/account/">
           <strong>
-            <i class="glyphicon glyphicon-user"></i>
             {{user.firstName}}
           </strong>
         </a>
