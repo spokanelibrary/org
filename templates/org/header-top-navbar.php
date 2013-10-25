@@ -46,7 +46,7 @@
         <span class="text-hide"><?php bloginfo('name'); ?></span>
       </a>
     </div>
-    <div class="alert alert-primary pull-right">
+    <div class="well well-sm pull-right">
         This is my profile
       </div>
   </div>
