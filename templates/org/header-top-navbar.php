@@ -50,7 +50,7 @@
     <div id="spl-account-profile"></div>
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
-      <div class="pull-right" id="spl-account-profile" style="margin: 0px; opacity:.8;">
+      <div class="pull-right" id="spl-account-profile" style="margin: 0px; opacity:.7;">
         <div class="well well-sm">
             <i class="glyphicon glyphicon-user text-muted"></i>
             <a href="/account/"><strong>{{user.firstName}}</strong> <small>My Account</small></a>
