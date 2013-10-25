@@ -51,7 +51,9 @@
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       <div class="panel panel-primary pull-right" id="spl-account-profile" style="margin-top: 10px; opacity:.9;">
-        {{user.firstName}}
+        <div class="panel-body">
+        Hi {{user.firstName}}
+        </div>
       </div>
     </script>
 
