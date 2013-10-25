@@ -14,7 +14,7 @@ var org = {
 	,init: function() {
 		_self = this;
 
-		this.setUser();
+		//this.setUser();
 
 		// init ui
 		this.initMyAccount();
