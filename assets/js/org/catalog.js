@@ -13,7 +13,7 @@ var org = {
 	// added on authentication
 ,	user: {}
 
-	// callback
+	// login callback - clear this out when yer done!
 ,	login: {}
 
 	// called on script load

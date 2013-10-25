@@ -69,6 +69,7 @@ function roots_display_sidebar() {
     , 'template-callout.php'
     , 'template-application.php'
     , 'template-one-column.php'
+    , 'template-no-header.php'
     )
   );
 
