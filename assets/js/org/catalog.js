@@ -180,6 +180,8 @@ var org = {
 				_self.btnRequest( $(this) );
 				
 			} else {
+				_self.login.callbackFunction = _self.btnReqest;
+				_self.login.callbackTrigger = $(this);
 				$('#spl-login-modal').modal('show');
 			}
 
@@ -295,6 +297,7 @@ var org = {
 		        if ( _self.user && _self.user.sessionToken ) {
 		        	if ( _self.login.callbackFunction && _self.login.callbackTrigger ) {
 		        		_self.login.callbackFunction(_self.login.callbackTrigger);
+		        		_self.login = {};
 		        	}
 		        	$('#spl-login-modal').modal('hide');
 		        	//$('.spl-login-modal-success').removeClass('hide');
