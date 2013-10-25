@@ -50,11 +50,11 @@
     <div id="spl-account-profile"></div>
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
-      <div class="panel panel-primary panel-condensed pull-right" id="spl-account-profile" style="margin-top: 10px; opacity:.95;">
+      <div class="panel panel-default panel-condensed pull-right" id="spl-account-profile" style="margin-top: 10px; opacity:.95;">
         <div class="panel-body">
           <i class="glyphicon glyphicon-user text-muted"></i>
-          <a href="/account/"><strong>{{user.firstName}}</strong> (My Account)</a>
-          &middot;
+          <a href="/account/"><strong>{{user.firstName}}</strong> <small>My Account</small></a>
+          <span class="text-muted">&middot;</span>
           <a href="/account/?logout" class="text-danger"><small>Logout</small></a>
         </div>
       </div>
