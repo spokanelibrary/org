@@ -63,7 +63,7 @@
             {{#if user.holdRequests.ready}}
             <a href="/account#holds" class="btn btn-xs btn-default">
               Ready to pickup
-              <span class="badge">{{user.holdRequests.ready}}</span>
+              <small class="badge">{{user.holdRequests.ready}}</small>
             </a>
             {{/if}}
           {{/if}}
