@@ -74,7 +74,7 @@
           &nbsp;
           {{#if user.itemsOut}}
             {{#if user.itemsOut.overdue}}
-            <a href="/account#cko" class="btn btn-sm btn-default">
+            <a href="/account#cko" class="btn btn-sm btn-success">
               Overdue 
               <small class="badge">{{user.itemsOut.overdue}}</small>
             </a>
