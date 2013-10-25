@@ -4,7 +4,7 @@ var config = {
             //,novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery'
            }
     , path: {
-              absolute: 'http://beta.spokanelibrary.org/'
+              absolute: 'http://beta.spokanelibrary.org'
     }
 }
 
@@ -107,9 +107,9 @@ var ORG = {
       
       Modernizr.load([
         {
-          load: ['../assets/js/org/account.js'
-                ,'../assets/js/vendor/jquery.validate.js'
-                ,'../assets/js/vendor/bootstrap-datepicker.js' ],
+          load: [config.path.absolute+'/assets/js/org/account.js'
+                ,config.path.absolute+'/assets/js/vendor/jquery.validate.js'
+                ,config.path.absolute+'/assets/js/vendor/bootstrap-datepicker.js' ],
           complete: function () {
             if ( org ) { 
               org.init();
