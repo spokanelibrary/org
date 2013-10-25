@@ -287,15 +287,17 @@ var org = {
 		        //console.log( _self.user );
 		        //console.log( _self.login.callbackTrigger );
 		        
-		        if ( _self.user && _self.login.callbackFunction && _self.login.callbackTrigger ) {
-		        	_self.login.callbackFunction(_self.login.callbackTrigger);
-		        }
+		        
 		        
 
 		        //$('#spl-login-modal').modal('hide');
 		        $('.spl-login-modal-response').addClass('hide');
 		        if ( _self.user && _self.user.sessionToken ) {
-		        	$('.spl-login-modal-success').removeClass('hide');
+		        	if ( _self.login.callbackFunction && _self.login.callbackTrigger ) {
+		        		_self.login.callbackFunction(_self.login.callbackTrigger);
+		        	}
+		        	$('#spl-login-modal').modal('hide');
+		        	//$('.spl-login-modal-success').removeClass('hide');
 		        } else {
 		        	$('.spl-login-modal-error').removeClass('hide');
 		        }
