@@ -50,7 +50,7 @@
     <div id="spl-account-profile"></div>
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
-      <div class="well well-sm pull-right" id="spl-account-profile" style="margin-top: 10px; opacity:.9;">
+      <div class="panel panel-primary pull-right" id="spl-account-profile" style="margin-top: 10px; opacity:.9;">
         {{user.firstName}}
       </div>
     </script>
