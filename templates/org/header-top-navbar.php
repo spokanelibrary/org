@@ -52,14 +52,10 @@
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       <div class="panel panel-primary panel-condensed pull-right" id="spl-account-profile" style="margin-top: 10px; opacity:.95;">
         <div class="panel-body">
-        <i class="glyphicon glyphicon-user text-muted"></i>
-        <a href="/account/">
-          <strong>
-            {{user.firstName}}
-          </strong>
-        </a>
-        <br />
-        <a href="/account/?logout">Logout</a>
+          <i class="glyphicon glyphicon-user text-muted"></i>
+          <a href="/account/"><strong>{{user.firstName}}</strong></a>
+          <br />
+          <a href="/account/?logout"><small>Logout</small></a>
         </div>
       </div>
     </script>
