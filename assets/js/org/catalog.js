@@ -7,7 +7,7 @@ var org = {
 						endpoint: { hzws: 'http://api.spokanelibrary.org/v2/hzws/'
 											, novelist: 'http://novselect.ebscohost.com/Data/ContentByQuery' 
 											//, syndetics: 'http://beta.spokanelibrary.org/checkin/api/syndetics.php'
-											, syndetics: 'http://api.spokanelibrary.org/v2/syndetics/'
+											, syndetics: 'http://api.spokanelibrary.org/v2/syndetics/lookup'
 											}
 					 }
 
