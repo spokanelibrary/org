@@ -6,7 +6,8 @@ var org = {
 	config: {
 						endpoint: { hzws: 'http://api.spokanelibrary.org/v2/hzws/'
 											, novelist: 'http://novselect.ebscohost.com/Data/ContentByQuery' 
-											, syndetics: 'http://beta.spokanelibrary.org/checkin/api/syndetics.php'
+											//, syndetics: 'http://beta.spokanelibrary.org/checkin/api/syndetics.php'
+											, syndetics: 'http://api.spokanelibrary.org/v2/syndetics/'
 											}
 					 }
 
@@ -363,7 +364,7 @@ var org = {
 		if ( isbn ) {
       $.ajax({ 
         url: _self.config.endpoint.syndetics
-        ,data: { isbn: isbn }
+        ,data: { params : {isbn: isbn} }
       })
       .done(function(data) {
         _self.parseSyndeticsData(data, isbn);

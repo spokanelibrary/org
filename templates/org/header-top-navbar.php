@@ -61,7 +61,7 @@
               <i class="glyphicon glyphicon-log-out text-danger"></i>
               <a href="/account/?logout" class="text-danger"><small><strong>Logout</strong></small></a>
             </span>
-          <br />
+            <br />
         
           {{#if user.holdRequests}}
             {{#if user.holdRequests.ready}}
