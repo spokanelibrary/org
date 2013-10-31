@@ -79,7 +79,7 @@ var org = {
   			var isbn = $(this).data('isbn');
   			$('#spl-related-reading-trigger-'+isbn).hide();
   			_self.loadSyndeticsData(isbn);
-	      _self.loadNoveListData(isbn);
+	      //_self.loadNoveListData(isbn);
 		});
 
     $('.spl-related-reading').on('hidden.bs.collapse', function () {
