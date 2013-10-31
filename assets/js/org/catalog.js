@@ -77,7 +77,7 @@ var org = {
 
 		$('.spl-related-reading').on('show.bs.collapse', function () {
   			var isbn = $(this).data('isbn');
-  			$('#spl-related-reading-trigger-'+isbn).hide();
+  			//$('#spl-related-reading-trigger-'+isbn).hide();
   			_self.loadSyndeticsData(isbn);
 	      //_self.loadNoveListData(isbn);
 		});
