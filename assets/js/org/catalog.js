@@ -52,6 +52,10 @@ var org = {
 			}
 		}
 
+		if ( $('#spl-title-page').data('isbn') ) {
+			_self.loadSyndeticsData(isbn);
+		}
+
 		/*
 		var popover = {
 										html: true
