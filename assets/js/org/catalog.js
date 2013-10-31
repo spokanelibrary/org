@@ -53,7 +53,9 @@ var org = {
 		}
 
 		if ( $('#spl-title-page').data('isbn') ) {
-			_self.loadSyndeticsData($('#spl-title-page').data('isbn'));
+			var isbn = $('#spl-title-page').data('isbn');
+			_self.loadSyndeticsData(isbn);
+			_self.loadNoveListData(isbn);
 		}
 
 		/*
@@ -387,7 +389,7 @@ var org = {
     //$('#syndetics-summary-'+isbn).html('We have a summary');
     $summary = $('#spl-related-summary-'+isbn);
     tmpl = Handlebars.compile( $("#syndetics-summary-tmpl").html() );
-    $summary.html( tmpl({syndetics:data}) ).collapse('show');
+    $summary.html( tmpl({syndetics:data}) );
 
     /*
     $summary = $('#syndetics-summary');
