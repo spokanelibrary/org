@@ -53,6 +53,7 @@ var org = {
 		}
 
 		if ( $('#spl-title-page').data('isbn') ) {
+			console.log($('#spl-title-page').data('isbn'));
 			_self.loadSyndeticsData(isbn);
 		}
 
