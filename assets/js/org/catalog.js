@@ -387,7 +387,7 @@ var org = {
     //$('#syndetics-summary-'+isbn).html('We have a summary');
     $summary = $('#spl-related-summary-'+isbn);
     tmpl = Handlebars.compile( $("#syndetics-summary-tmpl").html() );
-    $summary.html( tmpl({syndetics:data}) ).show();
+    $summary.html( tmpl({syndetics:data}) ).collapse('show');
 
     /*
     $summary = $('#syndetics-summary');
