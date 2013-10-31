@@ -82,10 +82,12 @@ var org = {
 	      //_self.loadNoveListData(isbn);
 		});
 
+		/*
     $('.spl-related-reading').on('hidden.bs.collapse', function () {
   			var isbn = $(this).data('isbn');
   			$('#spl-related-reading-trigger-'+isbn).show();
 		});
+		*/
 
 		
 		// search index toggle
