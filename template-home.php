@@ -120,7 +120,7 @@ Template Name: - Home Page
         <div class="panel panel-default panel-callout panel-callout-default panel-transparent">
           <h4 class="text-muted">
             <span class="glyphicon glyphicon-time"></span>
-            <a class="text-muted" href="#"><small class="">SPL is Currently &rarr;</small></a>
+            <a class="text-muted" href="#"><small class="">The Library is &rarr;</small></a>
           </h4>
           <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
         </div>      
