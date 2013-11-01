@@ -30,6 +30,12 @@ var ORG = {
       tmpl = Handlebars.compile( $('#spl-account-profile-tmpl').html() );
       $profile.html( tmpl({user:this.user}) );
 
+
+      if ( $('#spl-catalog-profile-widget').data('show') ) {
+        console.log('catalog profile');
+      }
+
+
     } else {
       this.user = null;
     }
