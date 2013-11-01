@@ -438,7 +438,7 @@ var org = {
 	}
 
 , parseOverDriveData: function(data, bib) {
-		console.log(data);
+		//console.log(data);
 		
     $summary = $('#spl-overdrive');
     tmpl = Handlebars.compile( $("#spl-overdrive-tmpl").html() );
