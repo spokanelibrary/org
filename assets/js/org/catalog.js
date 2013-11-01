@@ -172,7 +172,7 @@ var org = {
 	    , data: { params: params }
 		  })
 		  .done(function(obj) {  
-		  	console.log(obj);
+		  	//console.log(obj);
 		  	if ( !obj.empty && !obj.error ) {
 		  		//$btn.button('complete');
 					$btn.text($btn.data('complete-text'));
@@ -262,7 +262,7 @@ var org = {
     , data: { params: params }
 	  })
 	  .done(function(obj) {  
-	  	console.log(obj);
+	  	//console.log(obj);
 	  	if ( !obj.empty && !obj.error ) {
 	  		//$btn.button('complete');
 				$btn.text($btn.data('complete-text'));
@@ -456,7 +456,7 @@ var org = {
         			}
       })
       .done(function(obj) {
-        console.log(obj);
+        //console.log(obj);
       })
       .fail(function() { 
       })
