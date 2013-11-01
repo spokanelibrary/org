@@ -439,11 +439,11 @@ var org = {
 
 , parseOverDriveData: function(data, bib) {
 		console.log(data);
-		/*
+		
     $summary = $('#spl-overdrive');
     tmpl = Handlebars.compile( $("#spl-overdrive-tmpl").html() );
     $summary.html( tmpl({overdrive:data}) );
-		*/
+		
 	}
 
   // this doesn't really load anything we don't already have
