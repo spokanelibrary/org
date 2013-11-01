@@ -52,10 +52,17 @@ var org = {
 			}
 		}
 
+		// autoload summary/novelist
 		if ( $('#spl-title-page').data('isbn') ) {
 			var isbn = $('#spl-title-page').data('isbn');
 			_self.loadSyndeticsData(isbn);
 			_self.loadNoveListData(isbn);
+		}
+
+		// autoload overdrive
+		if ( $('#spl-overdrive').data('bib') ) {
+			var bib = $('#spl-overdrive').data('bib');
+			console.log('OverDrive: ' + bib);
 		}
 
 		/*
