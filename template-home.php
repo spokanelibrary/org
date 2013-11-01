@@ -11,7 +11,7 @@ Template Name: - Home Page
     <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
   </div><!-- /.col -->
   <div class="col-md-6 visible-md visible-lg">
-    <?php echo do_shortcode('[spl_widget login-form session]'); ?>
+    <?php echo do_shortcode('[spl_widget login-form]'); ?>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
