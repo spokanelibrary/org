@@ -428,14 +428,22 @@ var org = {
         ,data: { params : {bib: bib} }
       })
       .done(function(data) {
-        console.log(data);
-        //_self.parseSyndeticsData(data, isbn);
+        _self.parseOverDriveData(data, bib);
       })
       .fail(function() { 
       })
       .always(function() {  
       });
     } 
+	}
+
+, parseOverDriveData: function(data, bib) {
+		console.log(data);
+		/*
+    $summary = $('#spl-overdrive');
+    tmpl = Handlebars.compile( $("#spl-overdrive-tmpl").html() );
+    $summary.html( tmpl({overdrive:data}) );
+		*/
 	}
 
   // this doesn't really load anything we don't already have
