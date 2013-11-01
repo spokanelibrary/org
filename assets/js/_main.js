@@ -36,9 +36,9 @@ var ORG = {
         
         $widget = $('#spl-catalog-profile-widget');
         
-        tmpl = Handlebars.compile( $('#spl-catalog-profile-widget-tmpl').html() );
+        profileWidget = Handlebars.compile( $('#spl-catalog-profile-widget-tmpl').html() );
         
-        $widget.html( tmpl({user:this.user}) );
+        $widget.html( tmpl({profileWidget:this.user}) );
         
       }
 
