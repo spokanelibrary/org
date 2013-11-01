@@ -33,13 +33,14 @@ var ORG = {
 
       if ( $('#spl-catalog-profile-widget').data('show') ) {
         console.log(this.user);
-        /*
+        
         $widget = $('#spl-catalog-profile-widget');
         
-        tmpl = Handlebars.compile( $('#spl-catalog-profile-widget-tmpl').html() );
+        tmplProfile = Handlebars.compile( $('#spl-catalog-profile-widget-tmpl').html() );
         
-        $widget.html( tmpl({user:_self.user}) );
-        */
+        
+        $widget.html( tmplProfile({user:_self.user}) );
+        
       }
 
 
