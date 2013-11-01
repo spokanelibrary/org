@@ -8,6 +8,7 @@ var org = {
 											, novelist: 'http://novselect.ebscohost.com/Data/ContentByQuery' 
 											//, syndetics: 'http://beta.spokanelibrary.org/checkin/api/syndetics.php'
 											, syndetics: 'http://api.spokanelibrary.org/v2/syndetics/lookup'
+											, overdrive: 'http://api.spokanelibrary.org/v2/overdrive/lookup'
 											}
 					 }
 
@@ -111,16 +112,16 @@ var org = {
 		// autoload summary/novelist
 		if ( $('#spl-title-page').data('isbn') ) {
 			var isbn = $('#spl-title-page').data('isbn');
-			_self.loadSyndeticsData(isbn);
-			_self.loadNoveListData(isbn);
+			this.loadSyndeticsData(isbn);
+			this.loadNoveListData(isbn);
 		}
 
 		// autoload overdrive
 		if ( $('#spl-overdrive').data('bib') ) {
 			var bib = $('#spl-overdrive').data('bib');
-			console.log('OverDrive: ' + bib);
+			this.loadOverDriveData(bib);
 		}
-		
+
 	}
 
 , initListBib: function() {
@@ -418,6 +419,23 @@ var org = {
     $author.html( tmpl(data) );  
     */
 
+	}
+
+, loadOverDriveData: function(bib) {
+		if ( bib ) {
+      $.ajax({ 
+        url: _self.config.endpoint.overdrive
+        ,data: { params : {bib: bib} }
+      })
+      .done(function(data) {
+        console.log(data);
+        //_self.parseSyndeticsData(data, isbn);
+      })
+      .fail(function() { 
+      })
+      .always(function() {  
+      });
+    } 
 	}
 
   // this doesn't really load anything we don't already have
