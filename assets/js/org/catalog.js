@@ -41,6 +41,8 @@ var org = {
 		this.initRequestBib();
 		this.initRequestItem();
 
+		this.initAutoLoad();
+
 		this.initLoginModal();
 
 		// toggle advanced search display
@@ -50,19 +52,6 @@ var org = {
 			} else {
 				$('#spl-catalog-search-advanced-toggle').addClass('in');
 			}
-		}
-
-		// autoload summary/novelist
-		if ( $('#spl-title-page').data('isbn') ) {
-			var isbn = $('#spl-title-page').data('isbn');
-			_self.loadSyndeticsData(isbn);
-			_self.loadNoveListData(isbn);
-		}
-
-		// autoload overdrive
-		if ( $('#spl-overdrive').data('bib') ) {
-			var bib = $('#spl-overdrive').data('bib');
-			console.log('OverDrive: ' + bib);
 		}
 
 		/*
@@ -116,6 +105,23 @@ var org = {
 		});
 
   } // initCatalog()
+
+, initAutoLoad: function() {
+
+		// autoload summary/novelist
+		if ( $('#spl-title-page').data('isbn') ) {
+			var isbn = $('#spl-title-page').data('isbn');
+			_self.loadSyndeticsData(isbn);
+			_self.loadNoveListData(isbn);
+		}
+
+		// autoload overdrive
+		if ( $('#spl-overdrive').data('bib') ) {
+			var bib = $('#spl-overdrive').data('bib');
+			console.log('OverDrive: ' + bib);
+		}
+		
+	}
 
 , initListBib: function() {
 
