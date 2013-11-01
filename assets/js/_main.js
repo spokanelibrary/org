@@ -25,20 +25,15 @@ var ORG = {
     if ( null != typeof(user) && undefined != typeof(user) ) {
       this.user = user;
       //console.log( this.user );
-
       $profile = $('#spl-account-profile');
       tmpl = Handlebars.compile( $('#spl-account-profile-tmpl').html() );
       $profile.html( tmpl({user:this.user}) );
 
-
       if ( $('#spl-catalog-profile-widget').data('show') ) {
         //console.log(this.user);
-        
         $widget = $('#spl-catalog-profile-widget');
-        
         tmpl = Handlebars.compile( $('#spl-catalog-profile-widget-tmpl').html() );
-        
-        $widget.html( tmpl({user:_self.user}) );
+        $widget.html( tmpl({user:this.user}) );
         
       }
 
