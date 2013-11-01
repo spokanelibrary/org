@@ -32,7 +32,9 @@ var ORG = {
 
 
       if ( $('#spl-catalog-profile-widget').data('show') ) {
-        console.log('catalog profile');
+        $widget = $('#spl-catalog-profile-widget');
+        tmpl = Handlebars.compile( $('#spl-catalog-profile-widget-tmpl').html() );
+        $widget.html( tmpl({user:this.user}) );
       }
 
 
