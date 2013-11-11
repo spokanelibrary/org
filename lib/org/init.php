@@ -220,11 +220,12 @@ function spl_secondary_metaboxes( $meta_boxes ) {
 add_filter( 'cmb_meta_boxes', 'spl_secondary_metaboxes' );
 
 // Initialize the metabox class
+/*
 add_action( 'init', 'be_initialize_cmb_meta_boxes', 9999 );
 function be_initialize_cmb_meta_boxes() {
   if ( !class_exists( 'cmb_Meta_Box' ) ) {
     require_once( get_template_directory() . '/templates/metabox/init.php' );
   }
 }
-
+*/
 ?>
