@@ -16,6 +16,7 @@
   */
 
 add_post_type_support( 'page', 'excerpt' );
+update_option('image_default_link_type', 'none' );
 
 function spl_tutorial($params) {  
     global $post;  
