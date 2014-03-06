@@ -26,12 +26,13 @@ a list of files touched in org. attempt to group all changes under /org director
 
 * /assets
 	* /less
+		* app.less
 		* /org (add)
 	* /bootstrap
 		* variables.less
 		* carousel.less (just kill gradients)
 	* /css
-		* app.less
+		
 	* /js
 		* _main.js
 		* /org (add)

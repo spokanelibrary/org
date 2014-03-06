@@ -1,0 +1,80 @@
+//
+// Variables
+// --------------------------------------------------
+
+// Define private values
+
+@splBlue: 											rgb(0,85,135);
+@splBlueLight: 									rgb(0,100,160);
+
+@splGreen:    		  						rgb(100,150,75);
+@splGreenLight:    		  				rgb(125,175,100);
+@splGreenAccent:    		  			rgb(150,200,100);
+
+@logo-path:											url('../img/SPL-Logo.png');
+@logo-path-inverse:							url('../img/SPL-Logo-inverse.png');
+
+@logo-path-touch:								url('../img/spl-touch.png');
+@logo-path-touch-inverse:				url('../img/spl-touch-inverse.png');
+
+@masthead-path:									url('../img/SPL-Pano.jpg');
+@masthead-path-inverse:					url('../img/SPL-Pano-Inverse.jpg');
+
+// Define public values
+
+@brand-primary: 								@splBlue;
+@brand-primary-accent: 					@splBlueLight;
+@brand-primary-accent-light: 		lighten(@splBlueLight, 10%);
+
+@brand-secondary: 							@splGreen;
+@brand-secondary-accent: 				@splGreenLight;
+@brand-secondary-accent-light: 	@splGreenAccent;
+
+
+//
+// Buttons
+// --------------------------------------------------
+
+@btn-inverse-color:              #fff;
+@btn-inverse-bg:                 #474949;
+@btn-inverse-border:             @btn-inverse-bg;
+
+//
+// Navbars
+// --------------------------------------------------
+
+
+// Common navbar
+//
+// Reset common navbar basics
+@navbar-common-color:                      @gray-light;
+@navbar-common-bg:                         @brand-secondary-accent;
+@navbar-common-border:                     @brand-secondary-accent-light;
+//@navbar-common-border:                     darken(@navbar-common-bg, 10%);
+
+// Common navbar links
+@navbar-common-link-color:                 #fff;
+@navbar-common-link-hover-color:           #ececec;
+@navbar-common-link-hover-bg:              @brand-secondary;
+@navbar-common-link-active-color:          @navbar-common-link-hover-color;
+//@navbar-common-link-active-bg:             darken(@navbar-common-bg, 10%);
+@navbar-common-link-active-bg:             darken(@navbar-common-bg, 10%);
+@navbar-common-link-disabled-color:        #444;
+@navbar-common-link-disabled-bg:           transparent;
+
+// Common navbar brand label
+@navbar-common-brand-color:                @navbar-common-link-color;
+@navbar-common-brand-hover-color:          #fff;
+@navbar-common-brand-hover-bg:             transparent;
+
+// Common navbar search
+// Normal navbar needs no special styles or vars
+@navbar-common-search-bg:                  lighten(@navbar-common-bg, 25%);
+@navbar-common-search-bg-focus:            #fff;
+@navbar-common-search-border:              @navbar-common-bg;
+@navbar-common-search-placeholder-color:   #ccc;
+
+// Common navbar toggle
+@navbar-common-toggle-hover-bg:            #333;
+@navbar-common-toggle-icon-bar-bg:         #fff;
+@navbar-common-toggle-border-color:        #333;
