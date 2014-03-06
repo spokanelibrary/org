@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: roots\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Philipp Meier <phimei@gmx.ch>\n"
+"Last-Translator: \n"
 "Language-Team: roots\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,162 +14,158 @@ msgstr ""
 
 #: 404.php:4
 msgid "Sorry, but the page you were trying to view does not exist."
-msgstr ""
-"Es tut uns leid aber die Seite die du angucken wolltest existiert nicht."
+msgstr "Prepáčte, ale stránka ktorý hľadáte neexituje."
 
 #: 404.php:7
 msgid "It looks like this was the result of either:"
-msgstr "Es sieht aus als sei dies das Ergebnis von entweder:"
+msgstr "Vyzerá to, že toto bol výsledok jedného z:"
 
 #: 404.php:9
 msgid "a mistyped address"
-msgstr "einer fehlerhaft eingegebenen Adresse"
+msgstr "zle zapísaná adresa"
 
 #: 404.php:10
 msgid "an out-of-date link"
-msgstr "einem veralteten Link"
+msgstr "starý nefunkčný link"
 
 #: base.php:4
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Du benutzt einen <strong>veralteten</strong> Browser. Bitte <a href=\"http://"
-"browsehappy.com/\">aktualisiere deinen Browser</a> um deine Erfahrung zu "
-"verbessern."
+"Používate <strong>zastaralý</strong> prehliadač. Prosím <a href=\"http://"
+"browsehappy.com/\">aktualizujte Váš internetový prehliadač</a> pretože "
+"niektoré funkcie tejto stránky nemusia fungovať správne."
 
 #: index.php:5
 msgid "Sorry, no results were found."
-msgstr "Es tut uns leid aber es wurden keine Ergebnisse gefunden."
+msgstr "Prepáčte, ale nenájdené žiadne výsledky."
 
 #: index.php:17
 msgid "&larr; Older posts"
-msgstr "&larr; Ältere Artikel"
+msgstr "&larr; Starčie príspevky"
 
 #: index.php:18
 msgid "Newer posts &rarr;"
-msgstr "Neuere Artikel &rarr;"
+msgstr "Novšie príspevky &rarr;"
 
 #: lib/activation.php:28 lib/activation.php:29
 msgid "Theme Activation"
-msgstr "Theme Aktivierung"
+msgstr "Aktivácia témy"
 
 #: lib/activation.php:51
 msgid "%s Theme Activation"
-msgstr "%s Theme Aktivierung"
+msgstr "%s Aktivácia témy"
 
 #: lib/activation.php:62 lib/activation.php:64
 msgid "Create static front page?"
-msgstr "Statische Startseite anlegen?"
+msgstr "Vytvoriť statickú homepage?"
 
 #: lib/activation.php:66 lib/activation.php:79 lib/activation.php:92
 #: lib/activation.php:105 lib/activation.php:118
 msgid "Yes"
-msgstr "Ja"
+msgstr "Áno"
 
 #: lib/activation.php:67 lib/activation.php:80 lib/activation.php:93
 #: lib/activation.php:106 lib/activation.php:119
 msgid "No"
-msgstr "Nein"
+msgstr "Nie"
 
 #: lib/activation.php:70
 msgid "Create a page called Home and set it to be the static front page"
-msgstr ""
-"Erstelle eine Home genannte Seite und mache sie zur statischen Startseite"
+msgstr "Vytvorte stránku s názvom Home a nastavte ju ako statickú front page"
 
 #: lib/activation.php:75
 msgid "Change permalink structure?"
-msgstr "Permalinkstruktur ändern?"
+msgstr "Zmeniť štruktúru linkov?"
 
 #: lib/activation.php:77
 msgid "Update permalink structure?"
-msgstr "Permalinkstruktur aktualisieren?"
+msgstr "Aktualizovať štruktúru linkov?"
 
 #: lib/activation.php:83
 msgid "Change permalink structure to /&#37;postname&#37;/"
-msgstr "Ändere die Permalinkstruktur zu /&#37;postname&#37;/"
+msgstr "Zmeniť štruktúru linkov na /&#37;postname&#37;/"
 
 #: lib/activation.php:88
 msgid "Change uploads folder?"
-msgstr "Ordner für hochgeladene Dateien ändern?"
+msgstr "Zmeniť priečinok pre upload?"
 
 #: lib/activation.php:90
 msgid "Update uploads folder?"
-msgstr "Ordner für hochgeladene Dateien aktualisieren?"
+msgstr "Aktualizovať  priečinok pre upload?"
 
 #: lib/activation.php:96
 msgid "Change uploads folder to /media/ instead of /wp-content/uploads/"
-msgstr ""
-"Ändere Ordner für hochgeladene Dateien von /wp-content/uploads/ zu /media/"
+msgstr "Zmeniť priečinok pre upload z /wp-content/uploads/ na /media/"
 
 #: lib/activation.php:101 lib/activation.php:103
 msgid "Create navigation menu?"
-msgstr "Navigationsmenü anlegen?"
+msgstr "Vytvoriť navigačné menu?"
 
 #: lib/activation.php:109
 msgid "Create the Primary Navigation menu and set the location"
-msgstr "Lege das primäre Navigationsmenü an und lege den Ort fest"
+msgstr "Vytvoriť primárne navigačné menu a nastaviť ho?"
 
 #: lib/activation.php:114 lib/activation.php:116
 msgid "Add pages to menu?"
-msgstr "Seiten zum Menü hinzufügen?"
+msgstr "Pridať stránky do hlavného menu?"
 
 #: lib/activation.php:122
 msgid "Add all current published pages to the Primary Navigation"
-msgstr ""
-"Füge alle derzeit veröffentlichten Seiten zur primären Navigation hinzu"
+msgstr "Nastaviť všetky publikované stránky do hlavného menu?"
 
 #: lib/cleanup.php:210
 msgid "Continued"
-msgstr "Weiterlesen"
+msgstr "Pokračovať"
 
 #: lib/init.php:11
 msgid "Primary Navigation"
-msgstr "Primäre Navigation"
+msgstr "Primárna navigácia"
 
 #: lib/titles.php:10
 msgid "Latest Posts"
-msgstr "Neuste Artikel"
+msgstr "Posledné príspevky"
 
 #: lib/titles.php:19
 msgid "Daily Archives: %s"
-msgstr "Tägliche Archive: %s"
+msgstr "Denné archívy: %s"
 
 #: lib/titles.php:21
 msgid "Monthly Archives: %s"
-msgstr "Monatliche Archive: %s"
+msgstr "Mesačné archívy: %s"
 
 #: lib/titles.php:23
 msgid "Yearly Archives: %s"
-msgstr "Jährliche Archive: %s"
+msgstr "Ročné archívy: %s"
 
 #: lib/titles.php:26
 msgid "Author Archives: %s"
-msgstr "Autorarchive: %s"
+msgstr "Archívy podľa autorov: %s"
 
 #: lib/titles.php:31
 msgid "Search Results for %s"
-msgstr "Suchergebnisse für %s"
+msgstr "Vyhľadať výsledy pre %s"
 
 #: lib/titles.php:33
 msgid "Not Found"
-msgstr "Nicht gefunden"
+msgstr "Nenájdené"
 
 #: lib/widgets.php:8
 msgid "Primary"
-msgstr "Primär"
+msgstr "Primárne"
 
 #: lib/widgets.php:17
 msgid "Footer"
-msgstr "Fußzeile"
+msgstr "Zápätie"
 
 #: lib/widgets.php:45
 msgid "Use this widget to add a vCard"
-msgstr "Benutze dieses Widget um eine vCard hinzuzufügen"
+msgstr "Použiť widget pre pridanie vCard"
 
 #: lib/widgets.php:47
 msgid "Roots: vCard"
-msgstr "Roots: vCard"
+msgstr "Koreň: vCard"
 
 #: lib/widgets.php:74
 msgid "vCard"
@@ -181,91 +177,91 @@ msgstr "%1$s"
 
 #: templates/comment.php:5
 msgid "(Edit)"
-msgstr "(Bearbeiten)"
+msgstr "(Editovať)"
 
 #: templates/comment.php:9
 msgid "Your comment is awaiting moderation."
-msgstr "Dein Kommentar wartet auf Moderation."
+msgstr "Váš komentár čaká na schválenie."
 
 #: templates/comments.php:8
 msgid "One Response to &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
-msgstr[0] "Eine Reaktion auf &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s Reaktionen auf &ldquo;%2$s&rdquo;"
+msgstr[0] "Jedna odpoveň pre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s odpovedí pre &ldquo;%2$s&rdquo;"
 
 #: templates/comments.php:18
 msgid "&larr; Older comments"
-msgstr "&larr; Ältere Kommentare"
+msgstr "&larr; Staršie komentáre"
 
 #: templates/comments.php:21
 msgid "Newer comments &rarr;"
-msgstr "Neuere Kommentare &rarr;"
+msgstr "Novšie komentáre &rarr;"
 
 #: templates/comments.php:29 templates/comments.php:38
 msgid "Comments are closed."
-msgstr "Kommentare sind geschlossen."
+msgstr "Komentovanie sú uzavreté."
 
 #: templates/comments.php:45
 msgid "Leave a Reply"
-msgstr "Hinterlasse eine Antwort"
+msgstr "Zanechajte odpoveď"
 
 #: templates/comments.php:45
 msgid "Leave a Reply to %s"
-msgstr "Hinterlasse eine Antwort auf %s"
+msgstr "Zanechajte odpoveď pre %s"
 
 #: templates/comments.php:48
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
-"Du musst <a href=\"%s\">angemeldet</a> sein, um einen Kommentar zu erstellen."
+"Musíte byť <a href=\"%s\">prihlásený</a>, aby ste mohli pridávať komentáre."
 
 #: templates/comments.php:53
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
-msgstr "Angemeldet als <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Prihlásený ako <a href=\"%s/wp-admin/profile.php\">%s</a>."
 
 #: templates/comments.php:54
 msgid "Log out of this account"
-msgstr "Melde dich von diesem Benutzerkonto ab."
+msgstr "Odhlásiť sa z účtu"
 
 #: templates/comments.php:54
 msgid "Log out &raquo;"
-msgstr "Abmelden  &raquo;"
+msgstr "Odhlásiť sa  &raquo;"
 
 #: templates/comments.php:57
 msgid "Name"
-msgstr "Name"
+msgstr "Meno"
 
 #: templates/comments.php:57 templates/comments.php:59
 msgid " (required)"
-msgstr "(benötigt)"
+msgstr "(povinné)"
 
 #: templates/comments.php:59
 msgid "Email (will not be published)"
-msgstr "E-Mail (wird nicht veröffentlicht)"
+msgstr "Email (nebude zverejnený)"
 
 #: templates/comments.php:61
 msgid "Website"
-msgstr "Webseite"
+msgstr "Webstránka"
 
 #: templates/comments.php:64
 msgid "Comment"
-msgstr "Kommentar"
+msgstr "Komentár"
 
 #: templates/comments.php:66
 msgid "Submit Comment"
-msgstr "Kommentar abschicken"
+msgstr "Odoslať komentár"
 
 #: templates/content-single.php:11
 msgid "Pages:"
-msgstr "Seiten:"
+msgstr "Stránky:"
 
 #: templates/entry-meta.php:2
 msgid "By"
-msgstr "Von"
+msgstr "Podľa"
 
 #: templates/searchform.php:2
 msgid "Search for:"
-msgstr "Suche nach:"
+msgstr "Vyhľadávať:"
 
 #: templates/searchform.php:3 templates/searchform.php:4
 msgid "Search"
-msgstr "Suche"
+msgstr "Hľadať"

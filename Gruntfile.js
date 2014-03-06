@@ -9,20 +9,23 @@ module.exports = function(grunt) {
       all: [
         'Gruntfile.js',
         'assets/js/*.js',
-        'assets/js/plugins/*.js',
         '!assets/js/scripts.min.js'
       ]
     },
-    recess: {
+    less: {
       dist: {
-        options: {
-          compile: true,
-          compress: true
-        },
         files: {
           'assets/css/main.min.css': [
             'assets/less/app.less'
           ]
+        },
+        options: {
+          compress: true,
+          // LESS source map
+          // To enable, set sourceMap to true and update sourceMapRootpath based on your install
+          sourceMap: false,
+          sourceMapFilename: 'assets/css/main.min.css.map',
+          sourceMapRootpath: '/app/themes/roots/'
         }
       }
     },
@@ -45,6 +48,11 @@ module.exports = function(grunt) {
             'assets/js/plugins/*.js',
             'assets/js/_*.js'
           ]
+        },
+        options: {
+          // JS source map: to enable, uncomment the lines below and update sourceMappingURL based on your install
+          // sourceMap: 'assets/js/scripts.min.js.map',
+          // sourceMappingURL: '/app/themes/roots/assets/js/scripts.min.js.map'
         }
       }
     },
@@ -61,18 +69,15 @@ module.exports = function(grunt) {
       less: {
         files: [
           'assets/less/*.less',
-          'assets/less/bootstrap/*.less',
-          'assets/less/org/*.less',
-          'assets/js/org/*.js'
+          'assets/less/bootstrap/*.less'
         ],
-        tasks: ['recess', 'version']
+        tasks: ['less', 'version']
       },
       js: {
         files: [
           '<%= jshint.all %>'
         ],
-        //tasks: ['jshint', 'uglify', 'version'] (this can be fixed in .jshint w/ a predef)
-        tasks: ['uglify', 'version']
+        tasks: ['jshint', 'uglify', 'version']
       },
       livereload: {
         // Browser live reloading
@@ -101,13 +106,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-recess');
+  grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-wp-version');
 
   // Register tasks
   grunt.registerTask('default', [
     'clean',
-    'recess',
+    'less',
     'uglify',
     'version'
   ]);
