@@ -9,7 +9,7 @@
   </div>
 </footer>
 
-<?php include('org/footer.php'); ?>
+<?php //include('org/footer.php'); ?>
 
 <!--[if (gte IE 6)&(lte IE 8)]>
   <script src="/assets/js/vendor/respond.min.js"></script>
