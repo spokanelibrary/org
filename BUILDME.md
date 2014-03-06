@@ -29,7 +29,7 @@ a list of files touched in org. attempt to group all changes under /org director
 		* app.less
 		* /org (add)
 	* /bootstrap
-		* variables.less - update brand colors
+		* variables.less - many changes, look for commented values
 		* carousel.less (just kill gradients)
 	* /css
 		
