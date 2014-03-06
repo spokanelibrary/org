@@ -7,6 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <?php wp_head(); ?>
-
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url(get_feed_link()); ?>">
 </head>
