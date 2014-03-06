@@ -1,63 +1,183 @@
-/* ========================================================================
- * DOM-based Routing
- * Based on http://goo.gl/EUTi53 by Paul Irish
- *
- * Only fires on body classes that match. If a body class contains a dash,
- * replace the dash with an underscore when adding it to the object below.
- *
- * .noConflict()
- * The routing is enclosed within an anonymous function so that you can 
- * always reference jQuery with $, even when in .noConflict() mode.
- *
- * Google CDN, Latest jQuery
- * To use the default WordPress version of jQuery, go to lib/config.php and
- * remove or comment out: add_theme_support('jquery-cdn');
- * ======================================================================== */
+// Global configuration
+var config = { 
+      api: {// endpoint: 'http://api.spokanelibrary.org/v2/'
+            //,novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery'
+           }
+    , path: {
+              absolute: 'http://beta.spokanelibrary.org'
+    }
+}
 
-(function($) {
+// Modified http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/
+// Only fires on body class (working off strictly WordPress body_class)
 
-// Use this variable to set up the common and page specific functions. If you 
-// rename this variable, you will also need to rename the namespace below.
-var Roots = {
+var ORG = {
+  setUser: function (user) {
+    if ( user && user.sessionToken ) {
+      this.user = user;
+    } else{
+      var $account = $('#spl-account-summary');
+      if ( $account && $account.text().length > 0 ) {
+        var user = JSON.parse($account.text());
+      }
+    }
+
+    if ( null != typeof(user) && undefined != typeof(user) ) {
+      this.user = user;
+      //console.log( this.user );
+      $profile = $('#spl-account-profile');
+      tmpl = Handlebars.compile( $('#spl-account-profile-tmpl').html() );
+      $profile.html( tmpl({user:this.user}) );
+
+      if ( $('#spl-catalog-profile-widget').data('show') ) {
+        //console.log(this.user);
+        $widget = $('#spl-catalog-profile-widget');
+        tmpl = Handlebars.compile( $('#spl-catalog-profile-widget-tmpl').html() );
+        $widget.html( tmpl({user:this.user}) );
+        
+      }
+
+
+    } else {
+      this.user = null;
+    }
+  }
   // All pages
-  common: {
+, common: {
     init: function() {
-      // JavaScript to be fired on all pages
+      MBP.hideUrlBarOnLoad();
+
+      // trigger tabs from alternate links
+      $('body').on('click', '[data-toggle="tab"]', function(e) {
+        $('a[href='+$(this).attr('href')+']').tab('show');
+      });
+      
+
+      // Ajax defaults[
+      $.ajaxSetup({
+         type: 'POST'
+        ,dataType: 'json'
+        ,dataType: 'jsonp'
+        ,jsonp: 'callback'
+        /*
+        ,complete: function(obj) {
+          console.log( $.parseJSON(obj.responseText) );
+        }
+        */
+      });
+
+      Modernizr.load([
+        {
+          load: [config.path.absolute+'/assets/js/org/catalog.js' ],
+          complete: function () {
+            if ( org ) { 
+              org.init();
+            } 
+          }
+        }
+      ]);
+      
+
+
+    },
+    finalize: function() {
+      $('body').tooltip({
+        selector: 'a[rel=tooltip]'
+      });
     }
-  },
-  // Home page
-  home: {
+  }
+, home: {
     init: function() {
-      // JavaScript to be fired on the home page
+      //console.log(config);
     }
-  },
-  // About us page, note the change from about-us to about_us.
-  about_us: {
+  }
+, search : {
+    /*
     init: function() {
-      // JavaScript to be fired on the about us page
+
+      Modernizr.load([
+        {
+          load: ['../assets/js/org/catalog.js' ],
+          complete: function () {
+            if ( org ) { 
+              org.init();
+            } 
+          }
+        }
+      ]);
+
+    }
+    */
+
+}
+, account: {
+    init: function() {
+      
+      Modernizr.load([
+        {
+          load: [config.path.absolute+'/assets/js/org/account.js'
+                ,config.path.absolute+'/assets/js/vendor/jquery.validate.js'
+                ,config.path.absolute+'/assets/js/vendor/bootstrap-datepicker.js' ],
+          complete: function () {
+            if ( org ) { 
+              org.init();
+            } 
+          }
+        }
+      ]);
+
     }
   }
 };
 
-// The routing fires all common scripts, followed by the page specific scripts.
-// Add additional events for more control over timing e.g. a finalize event
+
+
+
+
+
+
 var UTIL = {
   fire: function(func, funcname, args) {
-    var namespace = Roots;
+    var namespace = ORG;
     funcname = (funcname === undefined) ? 'init' : funcname;
     if (func !== '' && namespace[func] && typeof namespace[func][funcname] === 'function') {
       namespace[func][funcname](args);
     }
   },
   loadEvents: function() {
+
     UTIL.fire('common');
 
     $.each(document.body.className.replace(/-/g, '_').split(/\s+/),function(i,classnm) {
       UTIL.fire(classnm);
     });
+
+    UTIL.fire('common', 'finalize');
   }
 };
 
-$(document).ready(UTIL.loadEvents);
+// https://github.com/h5bp/html5-boilerplate/blob/master/js/plugins.js
+// Avoid `console` errors in browsers that lack a console.
+(function() {
+    var method;
+    var noop = function () {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
 
-})(jQuery); // Fully reference jQuery after this point.
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
+
+$(document).ready(UTIL.loadEvents);
