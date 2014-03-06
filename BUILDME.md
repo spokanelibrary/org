@@ -25,6 +25,7 @@ a list of files touched in org. attempt to group all changes under /org director
 * style.css (project description)
 
 * /assets
+	* /img - everything, including .gitignore
 	* /less
 		* app.less
 		* /org (add)
