@@ -55,6 +55,8 @@ a list of files touched in org. attempt to group all changes under /org director
 	* footer.php
 	* header-top-navbar.php
 
+* template-*.php
+
 todo
 ===
 edit lib files
