@@ -4,7 +4,7 @@ var config = {
             //,novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery'
            }
     , path: {
-              absolute: 'http://beta.spokanelibrary.org'
+              absolute: 'http://dev.spokanelibrary.org'
     }
 }
 
