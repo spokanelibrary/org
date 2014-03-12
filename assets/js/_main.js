@@ -68,7 +68,7 @@ var ORG = {
 
       Modernizr.load([
         {
-          load: [config.path.absolute+'/assets/js/org/catalog.js?v=1' ],
+          load: [config.path.absolute+'/assets/js/org/catalog.js' ],
           complete: function () {
             if ( org ) { 
               org.init();
