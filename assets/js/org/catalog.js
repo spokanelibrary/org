@@ -304,6 +304,7 @@ var org = {
         // so we don't have to do this double request
         $.ajax({ 
 		      	url: '/user/session/' // json-only session data api todo: standardize this
+		      	
 		      	,dataType: 'json'
 		        ,data: { }
 		      })
