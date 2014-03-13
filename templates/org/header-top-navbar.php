@@ -32,7 +32,7 @@
       </a>
     </li>
     <li>
-      <a href="/download/">
+      <a href="/digital/">
         <span class="visible-xs"><i class="glyphicon glyphicon-download-alt"></i></span>
         <span class="hidden-xs"><i class="text-success glyphicon glyphicon-download-alt"></i> Download</span>
       </a>
