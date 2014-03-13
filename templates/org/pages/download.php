@@ -1,4 +1,20 @@
 <div class="row">
+	<div class="col-md-9">
+		<p>
+			This content is provided by third-party vendors. 
+			In most cases you will need to create an account, and you may need to download software to access these materials. 
+			We have provided detailed instructions at the links below to help you get started.
+		</p>
+		<p>
+			Feel free to contact us with questions. We’ll do our best to help.
+		</p>
+	</div><!-- /.col -->
+	<div class="col-md-3">
+		Looking for more?
+	</div><!-- /.col -->
+</div><!-- /.row -->
+
+<div class="row">
 	<!-- music -->
 	<div class="col-md-9 col-lg-6">
 		<div class="panel panel-primary">
