@@ -12,7 +12,7 @@
 				<div class="media">
 				  <a class="pull-left btn btn-lg btn-success" href="#">
 				  	<span class="media-object">
-				  		<i class="glyphicon glyphicon-music"></i>
+				  		<img alt="" src="/assets/img/png/spl-app-icons-music.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
@@ -50,7 +50,7 @@
 				<div class="media">
 				  <a class="pull-left btn btn-lg btn-success" href="#">
 				  	<span class="media-object">
-				  		<i class="glyphicon glyphicon-file"></i>
+				  		<img alt="" src="/assets/img/png/spl-app-icons-magazine.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
