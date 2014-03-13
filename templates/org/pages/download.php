@@ -1,4 +1,5 @@
 <div class="row">
+	<!-- music -->
 	<div class="col-sm-9">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
@@ -13,18 +14,16 @@
 				  	<span class="media-object">
 				  		<i class="glyphicon glyphicon-music"></i>
 				  	</span>
-
-				  	
-				  </a>
+					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
 				    	<a href="#"><em>Freegal:</em> Music Downloads</a> <small>(.mp3)</small>
 				    </h4>
 				    <p>
-				    <strong>Download 5 free songs every week</strong> – yours to keep! 
+				    	<strong>Download 5 free songs every week</strong> – yours to keep! 
 				  	</p>
 				  	<p>
-						With over 3 million tracks from 11,000 record labels spanning more than 100 genres of music, we think everyone can find a reason (or 5) to like this service. 
+							With over 3 million tracks from 11,000 record labels spanning more than 100 genres of music, we think everyone can find a reason (or 5) to like this service. 
  						</p>
 				    <p>
 				    	<h4>
@@ -37,22 +36,45 @@
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
+	<!-- /music -->
+	<!-- magazines -->
 	<div class="col-sm-9">
-			<div class="media">
-		  <a class="pull-left" href="#">
-		    <img class="media-object" src="/assets/img/png/spl-app-icons-magazine.png" alt="Download Magazines">
-		  </a>
-		  <div class="media-body">
-		    <h4 class="media-heading">
-		    	<a href="#"><em>Zinio:</em> Magazine Downloads</a>
-		    </h4>
-		    <p>
-		    	this is some info
-		    </p>
-		  </div>
-		</div><!-- /.media -->
-		<hr>
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h4>
+					<i class="glyphicon glyphicon-cloud-download"></i> 
+					Magazines
+				</h4>
+			</div><!-- /.panel-heading -->
+			<div class="panel-body">
+				<div class="media">
+				  <a class="pull-left btn btn-lg btn-success" href="#">
+				  	<span class="media-object">
+				  		<i class="glyphicon glyphicon-music"></i>
+				  	</span>
+					</a>
+				  <div class="media-body">
+				    <h4 class="media-heading">
+				    	<a href="#"><em>Zinio:</em> Magazine Downloads</a>
+				    </h4>
+				    <p>
+				    	Download current magazines from the Library's digital collection using your desktop or mobile device. 
+				  	</p>
+				  	<p>
+							There are no limits or expiration dates. Apps are available for most platforms. 
+ 						</p>
+				    <p>
+				    	<h4>
+				    		<a href="#">Learn more</a> 
+				    		<small>&rarr;</small>
+				    	</h4>
+				    </p>
+				  </div>
+				</div><!-- /.media -->
+			</div><!-- /.panel-body -->
+		</div><!-- /.panel -->
 	</div><!-- /.col -->
+	<!-- /magazines -->
 </div><!-- /.row -->
 
 
