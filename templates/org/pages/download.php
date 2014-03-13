@@ -48,7 +48,7 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
-				  <a class="pull-left btn btn-lg btn-success" href="#">
+				  <a class="pull-left btn btn-success" href="#">
 				  	<span class="media-object">
 				  		<img alt="" style="width: 50px; height: 50px;" src="/assets/img/png/spl-app-icons-magazine.png">
 				  	</span>
