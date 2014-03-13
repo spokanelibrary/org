@@ -11,8 +11,12 @@
 		    <p>
 		    	this is some info
 		    </p>
+		    <p>
+		    	<h4>Learn more <small>&rarr;</small></h4>
+		    </p>
 		  </div>
 		</div><!-- /.media -->
+		<hr>
 	</div><!-- /.col -->
 	<div class="col-sm-9">
 			<div class="media">
@@ -28,6 +32,7 @@
 		    </p>
 		  </div>
 		</div><!-- /.media -->
+		<hr>
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
