@@ -92,6 +92,43 @@
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
+	<!-- ebooks -->
+	<div class="col-md-9 col-lg-6">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h4>
+					<i class="glyphicon glyphicon-cloud-download"></i> 
+					eBooks
+				</h4>
+			</div><!-- /.panel-heading -->
+			<div class="panel-body">
+				<div class="media">
+				  <a class="pull-left btn btn-success" href="#">
+				  	<span class="media-object">
+				  		<img alt="" style="width: 50px; height: 50px;" src="/assets/img/png/spl-app-icons-ebook.png">
+				  	</span>
+					</a>
+				  <div class="media-body">
+				    <h4 class="media-heading">
+				    	<a href="#"><em>OverDrive:</em> eBook Downloads</a>
+				    </h4>
+				    <p>
+				    	Download current magazines from the Library's digital collection using your desktop or mobile device. 
+				  	</p>
+				  	<p>
+							There are no limits or expiration dates. Apps are available for most platforms. 
+ 						</p>
+				    <p>
+				    	<h4>
+				    		<a href="#">Learn more</a> 
+				    		<small>&rarr;</small>
+				    	</h4>
+				    </p>
+				  </div>
+				</div><!-- /.media -->
+			</div><!-- /.panel-body -->
+		</div><!-- /.panel -->
+	</div><!-- /.col -->
 </div><!-- /.row -->
 
 
