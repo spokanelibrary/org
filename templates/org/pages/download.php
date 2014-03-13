@@ -1,6 +1,6 @@
 <div class="row">
 	<!-- music -->
-	<div class="col-sm-6">
+	<div class="col-md-9 col-lg-6">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
@@ -38,7 +38,7 @@
 	</div><!-- /.col -->
 	<!-- /music -->
 	<!-- magazines -->
-	<div class="col-sm-6">
+	<div class="col-md-9 col-lg-6">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
