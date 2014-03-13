@@ -9,10 +9,12 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
-				  <a class="pull-left" href="#">
-				  	<span class="media-object label label-success" style="font-size:30pt; line-height:60pt;">
+				  <a class="pull-left btn btn-success" href="#">
+				  	<span class="media-object">
 				  		<i class="glyphicon glyphicon-music"></i>
 				  	</span>
+
+				  	
 				  </a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
