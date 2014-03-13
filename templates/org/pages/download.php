@@ -11,8 +11,11 @@
 				    	<a href="#"><em>Freegal:</em> Music Downloads</a> <small>(.mp3)</small>
 				    </h4>
 				    <p>
-				    	this is some info
-				    </p>
+				    <strong>Download 5 free songs every week</strong> – yours to keep! 
+				  	</p>
+				  	<p>
+						With over 3 million tracks from 11,000 record labels spanning more than 100 genres of music, we think everyone can find a reason (or 5) to like this service. 
+ 						</p>
 				    <p>
 				    	<h4>
 				    		<a href="#">Learn more</a> 
