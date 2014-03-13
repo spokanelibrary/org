@@ -13,14 +13,21 @@
 		</p>
 	</div><!-- /.col -->
 	<div class="col-md-3">
-		Looking for more?
+		<div class="panel panel-warning" style="border-width-left:5px;">
+			<div class="panel-heading">
+				<h5>Looking for more?</h5>
+			</div><!-- /.panel-heading -->
+			<div class="panel-body">
+				stuff
+			</div><!-- /.panel-body -->
+		</div><!-- /.panel -->
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
 <div class="row">
 	<!-- music -->
 	<div class="col-md-9 col-lg-6">
-		<div class="panel panel-primary">
+		<div class="panel panel-primary" style="border-width-left:5px;">
 			<div class="panel-heading">
 				<h4>
 					<i class="glyphicon glyphicon-cloud-download"></i> 
@@ -57,7 +64,7 @@
 	</div><!-- /.col -->
 	<!-- magazines -->
 	<div class="col-md-9 col-lg-6">
-		<div class="panel panel-primary">
+		<div class="panel panel-primary" style="border-width-left:5px;">
 			<div class="panel-heading">
 				<h4>
 					<i class="glyphicon glyphicon-cloud-download"></i> 
@@ -94,7 +101,7 @@
 	</div><!-- /.col -->
 	<!-- ebooks -->
 	<div class="col-md-9 col-lg-6">
-		<div class="panel panel-primary">
+		<div class="panel panel-primary" style="border-width-left:5px;">
 			<div class="panel-heading">
 				<h4>
 					<i class="glyphicon glyphicon-cloud-download"></i> 
@@ -132,7 +139,7 @@
 	</div><!-- /.col -->
 	<!-- audiobooks -->
 	<div class="col-md-9 col-lg-6">
-		<div class="panel panel-primary">
+		<div class="panel panel-primary" style="border-width-left:5px;">
 			<div class="panel-heading">
 				<h4>
 					<i class="glyphicon glyphicon-cloud-download"></i> 
@@ -170,20 +177,3 @@
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
-
-<h3>
-			<i class="glyphicon glyphicon-globe"></i> Online Resources
-		</h3>
-
-
-<a href="#"><img style="" alt="" src="/assets/img/png/spl-app-icons-music.png" /></a>
-<a href="#">Music (.mp3)</a>
-
-<a href="#"><img style="width: 50px; height: 50px;" alt="" src="/assets/img/png/spl-app-icons-magazine.png" /></a>
-<a href="#">Magazines</a>
-
-<a href="#"><img style="width: 50px; height: 50px;" alt="" src="/assets/img/png/spl-app-icons-ebook.png" /></a>
-<a href="#">eBooks</a>
-
-<a href="#"><img style="width: 50px; height: 50px;" alt="" src="/assets/img/png/spl-app-icons-audio.png" /></a>
-<a href="#">Audio Books</a>
