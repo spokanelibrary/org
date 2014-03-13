@@ -1,27 +1,14 @@
-<div class="row">
-	<div class="col-sm-6">
-		<div class="panel panel-primary">
-			<div class="panel-heading">
-				<h4>
-					<i class="glyphicon glyphicon-cloud-download"></i> Downloadable Material
-				</h4>
-			</div><!-- /.panel-heading -->
-			<div class="panel-body">
-			</div><!-- /.panel-body -->
-		</div><!-- /.panel -->
-	</div><!-- /.col -->
-	<div class="col-sm-6">
-		<div class="panel panel-primary">
-			<div class="panel-heading">
-				<h4>
-					<i class="glyphicon glyphicon-globe"></i> Research &amp; Learning
-				</h4>
-			</div><!-- /.panel-heading -->
-			<div class="panel-body">
-			</div><!-- /.panel-body -->
-		</div><!-- /.panel -->
-	</div><!-- /.col -->
-</div><!-- /.row -->
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="/assets/img/png/spl-app-icons-music.png" alt="Download Music">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Music (.mp3)</h4>
+    <p>
+    	this is some info
+    </p>
+  </div>
+</div>
 
 
 
