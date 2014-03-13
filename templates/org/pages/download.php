@@ -9,7 +9,7 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
-				  <a class="pull-left btn btn-large btn-success" href="#">
+				  <a class="pull-left btn btn-lg btn-success" href="#">
 				  	<span class="media-object">
 				  		<i class="glyphicon glyphicon-music"></i>
 				  	</span>
