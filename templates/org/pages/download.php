@@ -50,7 +50,7 @@
 				<div class="media">
 				  <a class="pull-left btn btn-lg btn-success" href="#">
 				  	<span class="media-object">
-				  		<i class="glyphicon glyphicon-music"></i>
+				  		<i class="glyphicon glyphicon-file"></i>
 				  	</span>
 					</a>
 				  <div class="media-body">
