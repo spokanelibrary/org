@@ -10,7 +10,9 @@
 			<div class="panel-body">
 				<div class="media">
 				  <a class="pull-left" href="#">
-				  	<h1 class="lead"><span class="media-object label label-success" ><i class="glyphicon glyphicon-music"></i></span></h1>
+				  	<span class="media-object label label-success" style="font-size:40pt; line-height:60pt;">
+				  		<i class="glyphicon glyphicon-music"></i>
+				  	</span>
 				  </a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
