@@ -3,7 +3,9 @@
     <img class="media-object" src="/assets/img/png/spl-app-icons-music.png" alt="Download Music">
   </a>
   <div class="media-body">
-    <h4 class="media-heading">Music (.mp3)</h4>
+    <h4 class="media-heading">
+    	<a href="#">Music</a> <small>(.mp3)</small>
+    </h4>
     <p>
     	this is some info
     </p>
