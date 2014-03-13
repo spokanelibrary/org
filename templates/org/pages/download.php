@@ -1,25 +1,28 @@
 <div class="row">
 	<div class="col-sm-9">
-		<div class="media">
-		  <a class="pull-left" href="#">
-		    <img class="media-object" src="/assets/img/png/spl-app-icons-music.png" alt="Download Music">
-		  </a>
-		  <div class="media-body">
-		    <h4 class="media-heading">
-		    	<a href="#"><em>Freegal:</em> Music Downloads</a> <small>(.mp3)</small>
-		    </h4>
-		    <p>
-		    	this is some info
-		    </p>
-		    <p>
-		    	<h4>
-		    		<a href="#">Learn more</a> 
-		    		<small>&rarr;</small>
-		    	</h4>
-		    </p>
-		  </div>
-		</div><!-- /.media -->
-		<hr>
+		<div class="panel panel-primary">
+			<div class="panel-body">
+				<div class="media">
+				  <a class="pull-left" href="#">
+				    <img class="media-object" src="/assets/img/png/spl-app-icons-music.png" alt="Download Music">
+				  </a>
+				  <div class="media-body">
+				    <h4 class="media-heading">
+				    	<a href="#"><em>Freegal:</em> Music Downloads</a> <small>(.mp3)</small>
+				    </h4>
+				    <p>
+				    	this is some info
+				    </p>
+				    <p>
+				    	<h4>
+				    		<a href="#">Learn more</a> 
+				    		<small>&rarr;</small>
+				    	</h4>
+				    </p>
+				  </div>
+				</div><!-- /.media -->
+			</div><!-- /.panel-body -->
+		</div><!-- /.panel -->
 	</div><!-- /.col -->
 	<div class="col-sm-9">
 			<div class="media">
