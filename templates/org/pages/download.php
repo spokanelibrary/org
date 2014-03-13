@@ -6,7 +6,10 @@
 			We have provided detailed instructions at the links below to help you get started.
 		</p>
 		<p>
-			Feel free to contact us with questions. We’ll do our best to help.
+			<strong>
+				Feel free to contact us with questions. 
+				We’ll do our best to help.
+			</strong>
 		</p>
 	</div><!-- /.col -->
 	<div class="col-md-3">
@@ -52,7 +55,6 @@
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
-	<!-- /music -->
 	<!-- magazines -->
 	<div class="col-md-9 col-lg-6">
 		<div class="panel panel-primary">
@@ -90,7 +92,6 @@
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
-	<!-- /magazines -->
 </div><!-- /.row -->
 
 
