@@ -113,10 +113,11 @@
 				    	<a href="#"><em>OverDrive:</em> eBook Downloads</a>
 				    </h4>
 				    <p>
-				    	Download current magazines from the Library's digital collection using your desktop or mobile device. 
+				    	We have several options for online and downloadable books you can read on your computer, smart phone, tablet, or dedicated eBook reader. 
 				  	</p>
 				  	<p>
-							There are no limits or expiration dates. Apps are available for most platforms. 
+							eBook formats vary by publisher. 
+							When possible, we attempt to provide titles in PDF or ePUB as well as AZW (Kindle) formats. 
  						</p>
 				    <p>
 				    	<h4>
