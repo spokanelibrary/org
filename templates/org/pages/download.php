@@ -12,7 +12,10 @@
 		    	this is some info
 		    </p>
 		    <p>
-		    	<h4>Learn more <small>&rarr;</small></h4>
+		    	<h4>
+		    		<a href="#">Learn more</a> 
+		    		<small>&rarr;</small>
+		    	</h4>
 		    </p>
 		  </div>
 		</div><!-- /.media -->
