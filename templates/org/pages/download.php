@@ -3,7 +3,7 @@
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
-					<i class="glyphicon glyphicon-music"></i> 
+					<i class="glyphicon glyphicon-cloud-download"></i> 
 					Music
 				</h4>
 			</div><!-- /.panel-heading -->
@@ -11,7 +11,6 @@
 				<div class="media">
 				  <a class="pull-left" href="#">
 				  	<span class="media-object label label-success" style="font-size:30pt; line-height:60pt;"><i class="glyphicon glyphicon-music"></i></span>
-				    <!-- <img class="media-object" src="/assets/img/png/spl-app-icons-music.png" alt="Download Music"> -->
 				  </a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
