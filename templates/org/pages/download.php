@@ -1,6 +1,11 @@
 <div class="row">
 	<div class="col-sm-9">
 		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h4>
+					<a href="#"><em>Freegal:</em> Music Downloads</a>
+				</h4>
+			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
 				  <a class="pull-left" href="#">
