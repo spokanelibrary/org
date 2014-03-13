@@ -10,7 +10,7 @@
 			<div class="panel-body">
 				<div class="media">
 				  <a class="pull-left" href="#">
-				  	<h1><span class="label label-success"><i class="glyphicon glyphicon-music"></i></span></h1>
+				  	<span class="label label-success xxl"><i class="glyphicon glyphicon-music"></i></span>
 				    <img class="media-object" src="/assets/img/png/spl-app-icons-music.png" alt="Download Music">
 				  </a>
 				  <div class="media-body">
