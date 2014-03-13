@@ -3,7 +3,8 @@
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
-					<em>Freegal:</em> Music Downloads
+					<i class="glyphicon glyphicon-music"></i> 
+					Music
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
