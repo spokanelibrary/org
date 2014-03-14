@@ -35,12 +35,12 @@
               Send us an email
             </legend>
             <div class="form-group">
-              <label for="spl-form-query-type" class="col-sm-3 control-label">A question about</label>
-              <div class="col-sm-9">
+              <label for="spl-form-query-type" class="col-sm-4 control-label">A question about</label>
+              <div class="col-sm-8">
                 <select class="form-control required" id="spl-form-query-type" name="spl-form[query-type]">
-                  <option value="library">Using the Library</option>
+                  <option value="library">Using the library</option>
                   <option value="account">My Account</option>
-                  <option value="website">The Library website</option>
+                  <option value="website">The library website</option>
                   <option value="other">Something else</option>
                 </select>
                 <span class="help-block">
@@ -49,8 +49,8 @@
               </div>
             </div>
             <div class="form-group">
-              <label for="spl-form-contact-method" class="col-sm-3 control-label">Contact method</label>
-              <div class="col-sm-9">
+              <label for="spl-form-contact-method" class="col-sm-4 control-label">Contact method</label>
+              <div class="col-sm-8">
                 <select class="form-control required" id="spl-form-contact-method" name="spl-form[contact-method]">
                   <option value="email" selected>Email</option>
                   <option value="phone">Telephone</option>
@@ -62,17 +62,17 @@
               </div>
             </div>
             <div class="form-group">
-              <label for="spl-form-message" class="col-sm-3 control-label">Your message</label>
-              <div class="col-sm-9">
+              <label for="spl-form-message" class="col-sm-4 control-label">Your message</label>
+              <div class="col-sm-8">
                 <textarea rows="6" class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
               </div>
             </div>
 
             <div class="form-group spl-login" data-callback-method="loadUserFormFields">
-              <label class="col-sm-3 control-label text-warning">
+              <label class="col-sm-4 control-label text-warning">
                 Optional
               </label>
-              <div class="col-sm-9">
+              <div class="col-sm-8">
                 <p class="form-control-static">
                   <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#spl-login-modal">
                     <i class="glyphicon glyphicon-user"></i>
@@ -84,13 +84,13 @@
             </div>
 
             <div class="form-group">
-              <label for="spl-form-name" class="col-sm-3 control-label">Your name</label>
-              <div class="col-sm-9">
+              <label for="spl-form-name" class="col-sm-4 control-label">Your name</label>
+              <div class="col-sm-8">
                 <input type="text" class="form-control required" id="spl-form-name" name="spl-form[name]" placeholder="">
               </div>
             </div>
             <div class="form-group">
-              <div class="col-sm-offset-3 col-sm-6">
+              <div class="col-sm-offset-4 col-sm-4">
                 <button type="submit" class="btn btn-block btn-success">
                   <small class="glyphicon glyphicon-check"></small>
                   Send Now &rarr;
