@@ -8,9 +8,7 @@
       </a>
     </p>
     <p class="lead">
-      <a title="How do I?" href="/how">
-      Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
-      </a>
+      Find answers to many <a title="How do I?" href="/how"><strong>Frequently Asked Questions</strong></a> &rarr;
     </p>
     <!-- 
     <p>
