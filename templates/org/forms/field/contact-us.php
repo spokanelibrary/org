@@ -3,10 +3,10 @@
   <div class="col-md-8">
     
     <div class="panel panel-primary">
-      <div class="panel-body">
+      <div class="panel-body text-center">
         <a href="/ask">
           <i class="glyphicon glyphicon-exclamation-sign"></i>
-          For research questions <strong>please ask a librarian</strong> &rarr;
+          For research questions, <strong>please ask a librarian</strong> &rarr;
         </a>
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
