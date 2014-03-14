@@ -1,10 +1,20 @@
 <div class="row">
 
   <div class="col-md-8">
-    <a class="btn btn-lg btn-primary" href="../ask">
-      <i class="glyphicon glyphicon-exclamation-sign"></i>
-      For research questions <strong>please ask a librarian</strong> &rarr;
-    </a>
+    <p>
+      <a class="btn btn-lg btn-block btn-primary" href="../ask">
+        <small class="glyphicon glyphicon-exclamation-sign"></small>
+        For research questions <strong>please ask a librarian</strong> &rarr;
+      </a>
+    </p>
+    <!-- 
+    <p>
+    <button class="btn btn-link btn-lg" data-toggle="modal" data-target="#spl-login-modal">
+      Launch demo modal
+    </button>
+    </p>
+    -->
+
   </div><!-- /.row -->
 
   <div class="col-md-4">
