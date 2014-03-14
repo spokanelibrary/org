@@ -70,7 +70,7 @@
                 <p class="form-control-static">
                   Login and we'll fill out the rest for you.
                   <br>
-                  <button type="button" class="btn btn-inverse" data-toggle="modal" data-target="#spl-login-modal">
+                  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#spl-login-modal">
                     <i class="glyphicon glyphicon-user"></i>
                     Login &rarr;
                   </button>
@@ -105,7 +105,7 @@
         <h4>Spokane Public Library</h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">
-        <p>      
+        <p>     
           <blockquote>
           906 West Main Street 
           <br />
