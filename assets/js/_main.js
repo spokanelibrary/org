@@ -23,6 +23,8 @@ var ORG = {
       }
     }
 
+    console.log(user);
+
     if ( null == typeof(user) || undefined == typeof(user) ) {
       this.user = null;
     } else {
