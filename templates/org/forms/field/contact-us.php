@@ -1,9 +1,9 @@
 <div class="row">
 
-  <div class="col-md-9">
+  <div class="col-md-8">
     nine
   </div><!-- /.row -->
-  <div class="col-md-3">
+  <div class="col-md-4">
     three
   </div><!-- /.row -->
 
