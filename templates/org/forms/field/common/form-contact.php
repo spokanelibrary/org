@@ -9,12 +9,12 @@
   <div class="col-sm-8">
     <!-- Nav tabs -->
 		<ul class="nav nav-tabs">
-		  <li class="active"><a href="#coms" data-toggle="tab">Email &amp; Phone</a></li>
-		  <li><a href="#mail" data-toggle="tab">Mailing Address</a></li>
+		  <li class="active"><a href="#telcom" data-toggle="tab">Email &amp; Phone</a></li>
+		  <li><a href="#mail" data-toggle="tab"><span class="hidden-xs">Mailing</span> Address</a></li>
 		</ul>
 		<!-- Tab panes -->
 		<div class="tab-content">
-		  <div class="tab-pane active" id="coms">...</div>
+		  <div class="tab-pane active" id="telcom">...</div>
 		  <div class="tab-pane" id="mail">...</div>
 		</div>
   </div>

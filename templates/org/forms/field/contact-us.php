@@ -7,7 +7,7 @@
         <p class="lead text-center" style="margin-bottom:0;">
         <a href="/ask">
           <i class="glyphicon glyphicon-exclamation-sign"></i>
-          For research questions, <strong>please ask a librarian</strong> &rarr;
+          For research questions, please <strong>ask a librarian</strong> &rarr;
         </a>
         </p>
       </div><!-- /.panel-body -->
