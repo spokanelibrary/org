@@ -77,36 +77,11 @@
                 <textarea rows="6" class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
               </div>
             </div>
-
-            <div class="form-group spl-login" data-callback-method="loadUserFormFields">
-              <label class="col-sm-4 control-label text-warning">
-                Optional
-              </label>
-              <div class="col-sm-8">
-                <p class="form-control-static">
-                  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#spl-login-modal">
-                    <i class="glyphicon glyphicon-user"></i>
-                    Login
-                  </button>
-                  <span class="help-block">Login and we'll fill out the rest of this for you.</span>
-                </p>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label for="spl-form-name" class="col-sm-4 control-label">Your name</label>
-              <div class="col-sm-8">
-                <input type="text" class="form-control required" id="spl-form-name" name="spl-form[name]" placeholder="">
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-sm-offset-4 col-sm-4">
-                <button type="submit" class="btn btn-block btn-success">
-                  <small class="glyphicon glyphicon-check"></small>
-                  Send Now &rarr;
-                </button>
-              </div>
-            </div>
+            
+            <?php include 'common/form-login.php'; ?>
+            <?php include 'common/form-contact.php'; ?>
+            <?php include 'common/form-submit.php'; ?>
+            
           </fieldset>
         </form>
       </div><!-- /.panel-body -->
