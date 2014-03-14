@@ -3,7 +3,7 @@
   <div class="col-md-8">
     
     <p>
-      <a class="btn btn-lg btn-block btn-primary" style="white-space: normal;" href="/ask">
+      <a class="btn btn-block btn-primary" style="white-space: normal;" href="/ask">
         <i class="glyphicon glyphicon-exclamation-sign"></i>
         For research questions <strong>please ask a librarian</strong> &rarr;
       </a>
