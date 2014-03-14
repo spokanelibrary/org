@@ -1,18 +1,19 @@
 <div class="row">
 
   <div class="col-md-8">
+    <p class="lead">
+      <a title="How do I?" href="/how">
+      <small class="glyphicon glyphicon-question-sign"></small>
+      Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
+      </a>
+    </p>
     <p>
       <a class="btn btn-lg btn-block btn-primary" style="white-space: normal;" href="/ask">
         <i class="glyphicon glyphicon-exclamation-sign"></i>
         For research questions <strong>please ask a librarian</strong> &rarr;
       </a>
     </p>
-    <p class="lead text-center">
-      <a title="How do I?" href="/how">
-      <small class="glyphicon glyphicon-question-sign"></small>
-      Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
-      </a>
-    </p>
+    
     <!-- 
     <p>
     <button class="btn btn-link btn-lg" data-toggle="modal" data-target="#spl-login-modal">
