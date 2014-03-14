@@ -51,6 +51,7 @@ var ORG = {
   }
 
 , loadUserFormFields: function(user) {
+    $('.spl-login').hide();
     console.log(user);  
 }  
   // All pages
