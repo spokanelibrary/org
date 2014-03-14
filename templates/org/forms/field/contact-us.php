@@ -36,7 +36,7 @@
             </legend>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                <button class="btn btn-info">
+                <button class="btn btn-sm btn-info">
                   <i class="glyphicon glyphicon-info-sign"></i>
                 </button>
                 A question about
