@@ -102,10 +102,10 @@
       </a>
     </p>
     <hr>
-    <h3 class="text-muted">
-      <small class="glyphicon glyphicon-question-sign"></small>
+    <h4 class="text-muted">
+      <i class="glyphicon glyphicon-question-sign"></i>
       Asked &amp; answered:
-    </h3>
+    </h44>
     <a class="btn btn-block btn-primary" title="How do I?" href="/how">
       Frequently Asked Questions &rarr;
     </a>
