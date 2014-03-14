@@ -36,9 +36,7 @@
         <h4>
         <abbr title="Phone">Ph.</abbr> 509.444.5300
         </h4>
-        <p class="lead">
-          <a href="/branch">Branch Locations &amp; Hours</a>
-        </p>
+        <a class="btn btn-default" href="/branch">Branch Locations &amp; Hours</a>
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
     
