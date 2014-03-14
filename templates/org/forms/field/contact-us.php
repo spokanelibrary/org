@@ -42,7 +42,7 @@
                 A question about
               </label>
               <div class="col-sm-8">
-                <select class="form-control required" id="spl-form-query-type" name="spl-form[query-type]">
+                <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
                   <option value="library">Using the library</option>
                   <option value="account">My Account</option>
                   <option value="website">The library website</option>
@@ -61,7 +61,7 @@
                 Contact method
               </label>
               <div class="col-sm-8">
-                <select class="form-control required" id="spl-form-contact-method" name="spl-form[contact-method]">
+                <select class="form-control" id="spl-form-contact-method" name="spl-form[contact-method]">
                   <option value="email" selected>Email</option>
                   <option value="phone">Telephone</option>
                   <option value="postal">Postal Mail</option>
@@ -74,7 +74,7 @@
             <div class="form-group">
               <label for="spl-form-message" class="col-sm-4 control-label">Your message</label>
               <div class="col-sm-8">
-                <textarea rows="6" class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
+                <textarea rows="6" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
               </div>
             </div>
             
