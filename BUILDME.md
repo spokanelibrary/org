@@ -57,6 +57,8 @@ a list of files touched in org. attempt to group all changes under /org director
 
 * template-*.php
 
+* gruntfile.js - maybe want to remove linting
+
 todo
 ===
 edit lib files

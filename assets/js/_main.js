@@ -4,7 +4,8 @@ var config = {
             //,novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery'
            }
     , path: {
-              absolute: 'http://dev.spokanelibrary.org'
+              absolute: 'http://dev.spokanelibrary.org' // ToDo: this has to go
+
     }
 }
 
@@ -52,6 +53,9 @@ var ORG = {
         $('a[href='+$(this).attr('href')+']').tab('show');
       });
       
+      $('body').on('.spl-login', 'click', function(e) {
+        $('#spl-login-modal').modal('show');
+      });
 
       // Ajax defaults[
       $.ajaxSetup({
