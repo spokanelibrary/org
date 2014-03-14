@@ -67,14 +67,21 @@ var ORG = {
             && 'undefined' != typeof(user.address.line1) ) {
           street = user.address.line1;
         }
-        console.log(street);
         if ( null != typeof(user.address.line2) 
             && 'undefined' != typeof(user.address.line2) ) {
           street += "\n";
           street += user.address.line2;
         }
-        console.log(street);
         $('#spl-form-street').val(street);
+      
+        if ( user.address.cityState ) {
+          $('#spl-form-city-st').val(user.address.cityState);
+        }
+
+        if ( user.address.postalCode ) {
+          $('#spl-form-zip').val(user.address.postalCode);
+        }
+
       }
 
        
