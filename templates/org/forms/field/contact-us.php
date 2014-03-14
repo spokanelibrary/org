@@ -1,3 +1,15 @@
+<div class="row">
+
+  <div class="col-md-9">
+    nine
+  </div><!-- /.row -->
+  <div class="col-md-3">
+    three
+  </div><!-- /.row -->
+
+</div><!-- /.row -->
+
+
 <div class="alert alert-info">
   <button type="button" class="close" data-dismiss="alert">×</button>
   <h5>
