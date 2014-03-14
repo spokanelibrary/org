@@ -7,9 +7,9 @@
         For research questions <strong>please ask a librarian</strong> &rarr;
       </a>
     </p>
-    <p>
-      <a class="btn btn-link" title="How do I?" href="/how">
-        Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
+    <p class="lead">
+      <a class="" title="How do I?" href="/how">
+      Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
       </a>
     </p>
     <!-- 
