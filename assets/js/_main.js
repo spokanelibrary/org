@@ -121,6 +121,23 @@ var ORG = {
     */
 
 }
+, contact : {
+    
+    init: function() {
+
+      Modernizr.load([
+        {
+          load: [config.path.absolute+'/assets/js/vendor/jquery.validate.js'],
+          complete: function () {
+            if ( org ) { 
+              org.init();
+            } 
+          }
+        }
+      ]);
+
+    }
+}
 , account: {
     init: function() {
       
