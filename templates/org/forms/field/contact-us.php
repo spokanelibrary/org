@@ -3,11 +3,13 @@
   <div class="col-md-8">
     
     <div class="panel panel-primary">
-      <div class="panel-body text-center">
+      <div class="panel-body">
+        <p class="lead text-center">
         <a href="/ask">
           <i class="glyphicon glyphicon-exclamation-sign"></i>
           For research questions, <strong>please ask a librarian</strong> &rarr;
         </a>
+        </p>
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
     
