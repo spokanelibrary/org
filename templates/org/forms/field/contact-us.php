@@ -73,41 +73,12 @@
     <h4>
     <abbr title="Phone">Ph.</abbr> 509.444.5300
     </h4>
-    <a class="btn btn-block btn-default" href="/branch">
-      <small class="glyphicon glyphicon-flag"></small>
-      Branch Locations &amp; Hours &rarr;
-    </a>
+    <p>
+      <a class="btn btn-block btn-default" href="/branch">
+        <small class="glyphicon glyphicon-flag"></small>
+        Branch Locations &amp; Hours &rarr;
+      </a>
+    </p>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
-
-
-<form class="form-horizontal well spl-form" style="background:transparent;" method="post" id="spl-form-contact" autocomplete="off">
-
-  <?php include 'common/crass-response.php'; ?>
-  
-  <input type="hidden" id="spl-form-id" name="spl-form[id]" value="contact" />
-  
-  <input type="hidden" 
-        id="spl-form-ip" 
-        name="spl-form[ip]" 
-        value="<?php echo $_SERVER['REMOTE_ADDR']; ?>"
-        />
-
-  <fieldset>
-    <div class="spl-form-legend">
-      <legend>
-        Send an Email
-      </legend>
-    </div>
-  </fieldset>
-  
-  <?php //include 'common/user-login-optional.php'; ?>
-  
-  <?php //include 'contact/contact-inquiry.php'; ?>
-  
-  <?php //include 'common/contact-info.php'; ?>
-  
-  <?php //include 'contact/submit-contact.php'; ?>
-  
-</form>
