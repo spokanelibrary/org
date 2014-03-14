@@ -38,10 +38,10 @@ var ORG = {
         
       }
 
-      // autorun callback on login success
+      // autorun callback on user login
       if ( $('.spl-login').data('callback') ) {
         console.log('success!');
-        consile.log(this.user)
+        console.log(this.user)
       }
 
 
