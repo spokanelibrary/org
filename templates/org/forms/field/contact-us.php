@@ -11,7 +11,13 @@
 
   <div class="col-md-4">
     Spokane Public Library
-    <br />
+    <p>      
+      <blockquote>
+      906 West Main Street 
+      <br />
+      Spokane, WA 99201
+      </blockquote>
+    </p>
     <abbr title="Phone">Ph.</abbr> 509.444.5300
     <br />
     <a href="/branch">Branch Locations &amp; Hours</a>
