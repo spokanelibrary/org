@@ -33,9 +33,12 @@
           Spokane, WA 99201
           </blockquote>
         </p>
+        <h4>
         <abbr title="Phone">Ph.</abbr> 509.444.5300
-        <br />
-        <a href="/branch">Branch Locations &amp; Hours</a>
+        </h4>
+        <p class="lead">
+          <a href="/branch">Branch Locations &amp; Hours</a>
+        </p>
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
     
