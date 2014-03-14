@@ -48,7 +48,7 @@
                   <option value="website">The library website</option>
                   <option value="other">Something else</option>
                 </select>
-                <span class="help-block collapse in" id="spl-explain-query-type">
+                <span class="help-block collapse" id="spl-explain-query-type">
                   We use this information to route your inquiry.
                 </span>
               </div>
