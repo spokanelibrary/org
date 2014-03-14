@@ -46,7 +46,7 @@
             <div class="form-group">
               <div class="col-sm-offset-3 col-sm-6">
                 <button type="submit" class="btn btn-block btn-success">
-                  <small class="glyphicon glyphicon-ok"></small>
+                  <small class="glyphicon glyphicon-check"></small>
                   Send Now &rarr;
                 </button>
               </div>
