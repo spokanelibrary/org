@@ -53,10 +53,12 @@ var ORG = {
         $('a[href='+$(this).attr('href')+']').tab('show');
       });
       
+      /*
       $('body').on('.spl-login', 'click', function(e) {
         $('#spl-login-modal').modal('show');
       });
-
+      */
+      
       // Ajax defaults[
       $.ajaxSetup({
          type: 'POST'
