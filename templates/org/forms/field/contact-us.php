@@ -42,13 +42,24 @@
               Send an Email
             </legend>
             <div class="form-group">
-              <label for="spl-contact-message" class="col-sm-3 control-label">Your Message</label>
+              <label for="spl-form-query-type" class="col-sm-3 control-label">A question about</label>
+              <div class="col-sm-9">
+                <select class="form-control required" id="spl-form-query-type" name="spl-form[query-type]" placeholder="">
+                  <option value="library">Using the Library</option>
+                  <option value="account">My Account</option>
+                  <option value="website">The website</option>
+                  <option value="other">Something else</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="spl-form-message" class="col-sm-3 control-label">Your Message</label>
               <div class="col-sm-9">
                 <textarea rows="6" class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
               </div>
             </div>
             <div class="form-group">
-              <label for="spl-contact-name" class="col-sm-3 control-label">Your Name</label>
+              <label for="spl-form-name" class="col-sm-3 control-label">Your Name</label>
               <div class="col-sm-9">
                 <input type="text" class="form-control required" id="spl-form-name" name="spl-form[name]" placeholder="">
               </div>
