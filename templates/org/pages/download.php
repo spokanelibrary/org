@@ -164,7 +164,12 @@
 				</h5>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
-				Visit the Digital Branch for online research and educational tools.
+				<p>
+					Visit the Digital Branch for online research and educational tools.
+				</p>
+				<p>
+					<a class="btn btn-block btn-primary" href="#">Learn More &amp;</a>
+				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
