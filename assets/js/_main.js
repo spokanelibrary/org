@@ -38,6 +38,12 @@ var ORG = {
         
       }
 
+      // autorun callback on login success
+      if ( $('.spl-log').data('callback') ) {
+        console.log('success!');
+        consile.log(this.user)
+      }
+
 
     } else {
       this.user = null;
@@ -52,12 +58,6 @@ var ORG = {
       $('body').on('click', '[data-toggle="tab"]', function(e) {
         $('a[href='+$(this).attr('href')+']').tab('show');
       });
-      
-      /*
-      $('body').on('.spl-login', 'click', function(e) {
-        $('#spl-login-modal').modal('show');
-      });
-      */
       
       // Ajax defaults[
       $.ajaxSetup({
