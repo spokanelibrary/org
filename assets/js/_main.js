@@ -55,10 +55,16 @@ var ORG = {
     console.log(user);  
     if ( $('.spl-form') ) {
       
+      
+
       $('#spl-form-name').val(user.firstName +' - '+user.name);
       
+      if ( user.phone ) {
+        $('#spl-form-phone').val(user.phone);
+      }
+
       if ( user.address ) {
-        if ( user.email ) {
+        if ( user.address.email ) {
           $('#spl-form-email').val(user.address.email);
         }
 
