@@ -2,7 +2,8 @@
 
   <div class="col-md-8">
     <a class="btn btn-primary" href="../ask">
-      For research questions please ask a librarian
+      <i class="glyphicon glyphicon-warning"></i>
+      For research questions please <em>ask a librarian</em> &rarr;
     </a>
   </div><!-- /.row -->
 
