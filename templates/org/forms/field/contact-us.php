@@ -103,12 +103,10 @@
     </p>
     <hr>
     <p class="lead">
-      <a title="How do I?" href="/how">
       <small class="glyphicon glyphicon-question-sign"></small>
       Asked &amp; answered:
-      </a>
     </p>
-    <a title="How do I?" href="/how">
+    <a class="btn btn-block btn-primary" title="How do I?" href="/how">
       <strong>Frequently Asked Questions</strong> &rarr;
     </a>
   </div><!-- /.col -->
