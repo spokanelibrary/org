@@ -1,9 +1,9 @@
 <div class="row">
 
   <div class="col-md-8">
-    <a class="btn btn-primary" href="../ask">
+    <a class="btn btn-lg btn-primary" href="../ask">
       <i class="glyphicon glyphicon-exclamation-sign"></i>
-      <em>Note:</em> For research questions please ask a librarian &rarr;
+      For research questions <strong>please ask a librarian</strong> &rarr;
     </a>
   </div><!-- /.row -->
 
