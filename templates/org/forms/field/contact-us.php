@@ -2,10 +2,13 @@
 
   <div class="col-md-8">
     <p>
-      <a class="btn btn-lg btn-block btn-primary" href="../ask">
+      <a class="btn btn-lg btn-block btn-primary" href="/ask">
         <small class="glyphicon glyphicon-exclamation-sign"></small>
         For research questions <strong>please ask a librarian</strong> &rarr;
       </a>
+    </p>
+    <p>
+      Answers to many <strong>Frequently Asked Questions</strong> can be found on our <a title="How do I?" href="/how">How do I...?</a> page.
     </p>
     <!-- 
     <p>
