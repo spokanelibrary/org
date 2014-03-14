@@ -44,18 +44,14 @@ var ORG = {
       // autorun callback on user login
       if ( $('.spl-login').data('callback-method') ) {
         var callbackMethod = $('.spl-login').data('callback-method');
-
         this[callbackMethod](user);
-        //console.log('autorun: ' + callbackMethod);
-        //console.log(this.user)
       }
-
 
     }
   }
 
 , loadUserFormFields: function(user) {
-    console.log('my form fields');  
+    console.log(user);  
 }  
   // All pages
 , common: {
