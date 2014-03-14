@@ -38,7 +38,7 @@
  						</p>
 				    <p>
 				    	<h4>
-				    		<a href="#">Learn more</a> 
+				    		<a class="btn btn-default" href="#">Learn more</a> 
 				    		<small>&rarr;</small>
 				    	</h4>
 				    </p>
