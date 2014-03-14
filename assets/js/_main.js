@@ -54,8 +54,26 @@ var ORG = {
     $('.spl-login').hide();
     console.log(user);  
     if ( $('.spl-form') ) {
-      //$form = $('.spl-form');
+      
       $('#spl-form-name').val(user.firstName +' - '+user.name);
+      
+      if ( user.address ) {
+        if ( user.email ) {
+          $('#spl-form-email').val(user.address.email);
+        }
+        var street = '';
+        if ( null != typeof(user.address.line1) 
+            && 'undefined' != typeof(user.address.line1) ) {
+          street = user.address.line1;
+        }
+        if ( null != typeof(user.address.line2) 
+            && 'undefined' != typeof(user.address.line2) ) {
+          street += '\n';
+          street += user.address.line2;
+        }
+      }
+
+       
     }
 
 }  
