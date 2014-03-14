@@ -42,15 +42,15 @@
               Send an Email
             </legend>
             <div class="form-group">
-              <label for="inputEmail3" class="col-sm-3 control-label">Your Name</label>
+              <label for="spl-contact-message" class="col-sm-3 control-label">Your Message</label>
               <div class="col-sm-9">
-                <input type="text" class="form-control" id="spl-contact-name" placeholder="">
+                <textarea class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
               </div>
             </div>
             <div class="form-group">
               <label for="spl-contact-name" class="col-sm-3 control-label">Your Name</label>
               <div class="col-sm-9">
-                <input type="text" class="form-control required" id="spl-contact-name" name="spl-form[name]" placeholder="">
+                <input type="text" class="form-control required" id="spl-form-name" name="spl-form[name]" placeholder="">
               </div>
             </div>
             <div class="form-group">
