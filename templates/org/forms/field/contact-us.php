@@ -102,7 +102,7 @@
       </a>
     </p>
     <hr>
-    <h3 class="lead text-muted">
+    <h3 class="text-muted">
       <small class="glyphicon glyphicon-question-sign"></small>
       Asked &amp; answered:
     </h3>
