@@ -102,10 +102,8 @@
         Branch Locations &amp; Hours &rarr;
       </a>
     </p>
+    <hr>
     <p class="lead">
-      Did you know&hellip;
-    </p>
-    <p>
       <a title="How do I?" href="/how">
       <small class="glyphicon glyphicon-question-sign"></small>
       Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
