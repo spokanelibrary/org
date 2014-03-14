@@ -35,10 +35,10 @@
               Send us an email
             </legend>
             <div class="form-group">
+              <button type="button" class="btn btn-sm btn-info" data-toggle="collapse" href="spl-explain-query-type">
+                <i class="glyphicon glyphicon-info-sign"></i>
+              </button>
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                <button type="button" class="btn btn-sm btn-info" data-toggle="collapse" href="spl-explain-query-type">
-                  <i class="glyphicon glyphicon-info-sign"></i>
-                </button>
                 A question about
               </label>
               <div class="col-sm-8">
