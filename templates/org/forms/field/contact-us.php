@@ -44,11 +44,21 @@
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-3 control-label">A question about</label>
               <div class="col-sm-9">
-                <select class="form-control required" id="spl-form-query-type" name="spl-form[query-type]" placeholder="">
+                <select class="form-control required" id="spl-form-query-type" name="spl-form[query-type]">
                   <option value="library">Using the Library</option>
                   <option value="account">My Account</option>
-                  <option value="website">The website</option>
+                  <option value="website">The Library website</option>
                   <option value="other">Something else</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="spl-form-contact-method" class="col-sm-3 control-label">Contact method</label>
+              <div class="col-sm-9">
+                <select class="form-control required" id="spl-form-contact-method" name="spl-form[contact-method]">
+                  <option value="email" selected>Email</option>
+                  <option value="phone">Telephone</option>
+                  <option value="postal">Postal Mail</option>
                 </select>
               </div>
             </div>
