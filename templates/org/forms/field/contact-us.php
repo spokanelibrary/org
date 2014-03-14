@@ -1,16 +1,13 @@
 <div class="row">
 
   <div class="col-md-8">
-    <div class="alert alert-info">
-      <h5>
-        <em>Note:</em>
-        For research questions please <a class="btn btn-primary" href="../ask">ask a librarian</a>.
-      </h5>
-    </div><!-- /.alert -->
+    <a class="btn btn-primary" href="../ask">
+      For research questions please ask a librarian
+    </a>
   </div><!-- /.row -->
 
   <div class="col-md-4">
-    <h3>Spokane Public Library</h3>
+    <h4>Spokane Public Library</h4>
     <p>      
       <blockquote>
       906 West Main Street 
