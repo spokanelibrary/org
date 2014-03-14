@@ -45,14 +45,14 @@
                   <option value="website">The library website</option>
                   <option value="other">Something else</option>
                 </select>
-                <span class="help-block collapse" id="spl-explain-query-type">
+                <span class="help-block collapse in" id="spl-explain-query-type">
                   We use this information to route your inquiry.
                 </span>
               </div>
               <div class="col-sm-2">
-                <a class="btn btn-sm btn-info" data-toggle="toggle" data-target="#spl-explain-query-type">
+                <button type="button" class="btn btn-sm btn-info" data-toggle="collapse" data-target="#spl-explain-query-type">
                   <i class="glyphicon glyphicon-info-sign"></i>
-                </a>
+                </button>
               </div>
             </div>
             <div class="form-group">
