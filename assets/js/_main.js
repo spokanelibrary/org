@@ -23,7 +23,10 @@ var ORG = {
       }
     }
 
-    if ( null != typeof(user) && undefined != typeof(user) ) {
+    if ( null == typeof(user) || undefined == typeof(user) ) {
+      this.user = null;
+    } else {
+
       this.user = user;
       //console.log( this.user );
       $profile = $('#spl-account-profile');
@@ -45,8 +48,6 @@ var ORG = {
       //}
 
 
-    } else {
-      this.user = null;
     }
   }
   // All pages
