@@ -8,7 +8,8 @@
       </a>
     </p>
     <p class="lead">
-      <a class="" title="How do I?" href="/how">
+      <a title="How do I?" href="/how">
+      <small class="glyphicon glyphicon-question-sign"></small>
       Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
       </a>
     </p>
