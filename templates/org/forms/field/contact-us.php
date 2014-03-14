@@ -7,8 +7,10 @@
         For research questions <strong>please ask a librarian</strong> &rarr;
       </a>
     </p>
-    <p class="lead">
-      Find answers to many <a title="How do I?" href="/how"><strong>Frequently Asked Questions</strong></a> &rarr;
+    <p>
+      <a class="btn btn-link" title="How do I?" href="/how">
+        Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
+      </a>
     </p>
     <!-- 
     <p>
@@ -59,26 +61,22 @@
   </div><!-- /.row -->
 
   <div class="col-md-4">
-    
-        <h4>Spokane Public Library</h4>
-      
-        <p>      
-          <blockquote>
-          906 West Main Street 
-          <br />
-          Spokane, WA 99201
-          </blockquote>
-        </p>
-        <h4>
-        <abbr title="Phone">Ph.</abbr> 509.444.5300
-        </h4>
-        <a class="btn btn-block btn-default" href="/branch">
-          <small class="glyphicon glyphicon-flag"></small>
-          Branch Locations &amp; Hours &rarr;</a>
-      
-    
-    
-  </div><!-- /.row -->
+    <h4>Spokane Public Library</h4>
+    <p>      
+      <blockquote>
+      906 West Main Street 
+      <br />
+      Spokane, WA 99201
+      </blockquote>
+    </p>
+    <h4>
+    <abbr title="Phone">Ph.</abbr> 509.444.5300
+    </h4>
+    <a class="btn btn-block btn-default" href="/branch">
+      <small class="glyphicon glyphicon-flag"></small>
+      Branch Locations &amp; Hours &rarr;
+    </a>
+  </div><!-- /.col -->
 
 </div><!-- /.row -->
 
