@@ -4,7 +4,7 @@
     <div class="alert alert-info">
       <h5>
         <em>Note:</em>
-        For research questions please <a href="../ask">ask a librarian</a>.
+        For research questions please <a class="btn btn-primary" href="../ask">ask a librarian</a>.
       </h5>
     </div><!-- /.alert -->
   </div><!-- /.row -->
@@ -14,7 +14,7 @@
     <br />
     <abbr title="Phone">Ph.</abbr> 509.444.5300
     <br />
-    <a href="http://www.spokanelibrary.org/branches">Branch Locations &amp; Hours</a>
+    <a href="/branch">Branch Locations &amp; Hours</a>
   </div><!-- /.row -->
 
 </div><!-- /.row -->
