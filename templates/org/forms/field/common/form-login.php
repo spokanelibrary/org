@@ -4,7 +4,7 @@
   </label>
   <div class="col-sm-8">
     <p class="form-control-static">
-      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#spl-login-modal">
+      <button type="button" class="btn btn-block btn-warning" data-toggle="modal" data-target="#spl-login-modal">
         <i class="glyphicon glyphicon-user"></i>
         Login to My Account
       </button>
