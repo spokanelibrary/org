@@ -35,7 +35,12 @@
               Send us an email
             </legend>
             <div class="form-group">
-              <label for="spl-form-query-type" class="col-sm-4 control-label">A question about</label>
+              <label for="spl-form-query-type" class="col-sm-4 control-label">
+                <button class="btn btn-info">
+                  <i class="glyphicon glyphicon-info-sign"></i>
+                </button>
+                A question about
+              </label>
               <div class="col-sm-8">
                 <select class="form-control required" id="spl-form-query-type" name="spl-form[query-type]">
                   <option value="library">Using the library</option>
