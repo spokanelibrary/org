@@ -3,8 +3,12 @@
   <div class="col-md-8">
     nine
   </div><!-- /.row -->
+  
   <div class="col-md-4">
-    three
+    <h5>
+    <em>Note:</em>
+    For research questions please <a href="../ask">ask a librarian</a>.
+    </h5>
   </div><!-- /.row -->
 
 </div><!-- /.row -->
