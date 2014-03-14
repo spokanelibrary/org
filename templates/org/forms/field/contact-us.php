@@ -33,7 +33,7 @@
 
           <fieldset>
             <legend class="text-muted">
-              <i class="glyphicon glyphicon-envelope"></i>
+              <small class="glyphicon glyphicon-envelope"></small>
               Send an Email
             </legend>
 
@@ -45,6 +45,7 @@
             </div>
             <div class="form-group">
               <div class="col-sm-offset-3 col-sm-6">
+                <small class="glyphicon glyphicon-ok"></small>
                 <button type="submit" class="btn btn-block btn-success">Send Now &rarr;</button>
               </div>
             </div>
