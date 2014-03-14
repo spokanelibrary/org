@@ -1,4 +1,4 @@
-<div class="form-group spl-login" data-callback-method="loadUserFormFields">
+<div class="form-group spl-login collapse" data-callback-method="loadUserFormFields">
   <label class="col-sm-4 control-label text-warning">
     Optional
   </label>
