@@ -39,7 +39,7 @@ var ORG = {
       }
 
       // autorun callback on login success
-      if ( $('.spl-log').data('callback') ) {
+      if ( $('.spl-login').data('callback') ) {
         console.log('success!');
         consile.log(this.user)
       }
