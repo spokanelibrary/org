@@ -146,7 +146,7 @@
     <div class="row">
       <div class="col-md-12">
         <span class="pull-right">
-          <img alt="City of Spokane logo" src="http://www.spokanelibrary.org/new/img/city-spokane-logo.png">
+          <img alt="City of Spokane logo" src="/assets/img/png/city-spokane-logo.png">
         </span>
 
         <p>
