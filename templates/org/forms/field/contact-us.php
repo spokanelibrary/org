@@ -14,12 +14,6 @@
     </div><!-- /.panel -->
     
     <?php //echo do_shortcode('[spl_widget login-form label]'); ?>
-     
-    <p>
-    <button class="btn btn-link spl-login" data-callback-method="loadUserFormFields" data-toggle="modal" data-target="#spl-login-modal">
-      Login
-    </button>
-    </p>
     
     <div class="panel panel-default">
       <div class="panel-body">
@@ -62,13 +56,25 @@
               </div>
             </div>
             <div class="form-group">
-              <label for="spl-form-message" class="col-sm-3 control-label">Your Message</label>
+              <label for="spl-form-message" class="col-sm-3 control-label">Your message</label>
               <div class="col-sm-9">
                 <textarea rows="6" class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
               </div>
             </div>
+
             <div class="form-group">
-              <label for="spl-form-name" class="col-sm-3 control-label">Your Name</label>
+              <div class="col-sm-offset-3 col-sm-9">
+                <div class="spl-login" data-callback-method="loadUserFormFields">
+                  You can login.
+                  <button class="btn btn-link" data-toggle="modal" data-target="#spl-login-modal">
+                    Login
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="spl-form-name" class="col-sm-3 control-label">Your name</label>
               <div class="col-sm-9">
                 <input type="text" class="form-control required" id="spl-form-name" name="spl-form[name]" placeholder="">
               </div>
