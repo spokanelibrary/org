@@ -1,14 +1,20 @@
 <div class="row">
 
   <div class="col-md-8">
-    nine
+    <div class="alert alert-info">
+      <h5>
+        <em>Note:</em>
+        For research questions please <a href="../ask">ask a librarian</a>.
+      </h5>
+    </div><!-- /.alert -->
   </div><!-- /.row -->
-  
+
   <div class="col-md-4">
-    <h5>
-    <em>Note:</em>
-    For research questions please <a href="../ask">ask a librarian</a>.
-    </h5>
+    Spokane Public Library
+    <br />
+    <abbr title="Phone">Ph.</abbr> 509.444.5300
+    <br />
+    <a href="http://www.spokanelibrary.org/branches">Branch Locations &amp; Hours</a>
   </div><!-- /.row -->
 
 </div><!-- /.row -->
