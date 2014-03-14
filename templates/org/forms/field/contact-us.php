@@ -1,12 +1,7 @@
 <div class="row">
 
   <div class="col-md-8">
-    <p class="lead">
-      <a title="How do I?" href="/how">
-      <small class="glyphicon glyphicon-question-sign"></small>
-      Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
-      </a>
-    </p>
+    
     <p>
       <a class="btn btn-lg btn-block btn-primary" style="white-space: normal;" href="/ask">
         <i class="glyphicon glyphicon-exclamation-sign"></i>
@@ -102,9 +97,18 @@
     <abbr title="Phone">Ph.</abbr> 509.444.5300
     </h4>
     <p>
-      <a class="btn btn-block btn-default" href="/branch">
+      <a class="" href="/branch">
         <small class="glyphicon glyphicon-flag"></small>
         Branch Locations &amp; Hours &rarr;
+      </a>
+    </p>
+    <p class="lead">
+      Did you know&hellip;
+    </p>
+    <p>
+      <a title="How do I?" href="/how">
+      <small class="glyphicon glyphicon-question-sign"></small>
+      Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
       </a>
     </p>
   </div><!-- /.col -->
