@@ -71,7 +71,7 @@
         <h4>
         <abbr title="Phone">Ph.</abbr> 509.444.5300
         </h4>
-        <a class="btn btn-block btn-default" href="/branch">
+        <a class="btn btn-block btn-warning" href="/branch">
           <small class="glyphicon glyphicon-flag"></small>
           Branch Locations &amp; Hours &rarr;</a>
       </div><!-- /.panel-body -->
