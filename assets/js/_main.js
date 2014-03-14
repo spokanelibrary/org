@@ -39,10 +39,10 @@ var ORG = {
       }
 
       // autorun callback on user login
-      if ( $('.spl-login').data('callback') ) {
+      //if ( $('.spl-login').data('callback') ) {
         console.log('success!');
         console.log(this.user)
-      }
+      //}
 
 
     } else {
