@@ -38,7 +38,7 @@
               <label for="spl-form-query-type" class="col-sm-3 control-label">
                 A question about
               </label>
-              <div class="col-sm-8">
+              <div class="col-sm-7">
                 <select class="form-control required" id="spl-form-query-type" name="spl-form[query-type]">
                   <option value="library">Using the library</option>
                   <option value="account">My Account</option>
@@ -49,10 +49,10 @@
                   We use this information to route your inquiry.
                 </span>
               </div>
-              <div class="col-sm-1">
-                <button type="button" class="btn btn-sm btn-info" data-toggle="collapse" href="spl-explain-query-type">
+              <div class="col-sm-2">
+                <a class="btn btn-sm btn-info" data-toggle="collapse" href="spl-explain-query-type">
                   <i class="glyphicon glyphicon-info-sign"></i>
-                </button>
+                </a>
               </div>
             </div>
             <div class="form-group">
