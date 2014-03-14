@@ -55,7 +55,7 @@ var ORG = {
     console.log(user);  
     if ( $('.spl-form') ) {
       //$form = $('.spl-form');
-      $('#spl-form-name').val(user.firstName +' ['+user.name+']');
+      $('#spl-form-name').val(user.firstName +' - '+user.name);
     }
 
 }  
