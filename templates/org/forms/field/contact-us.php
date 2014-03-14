@@ -2,8 +2,8 @@
 
   <div class="col-md-8">
     <a class="btn btn-primary" href="../ask">
-      <i class="glyphicon glyphicon-warning"></i>
-      For research questions please <em>ask a librarian</em> &rarr;
+      <i class="glyphicon glyphicon-exclamation-sign"></i>
+      <em>Note:</em> For research questions please ask a librarian &rarr;
     </a>
   </div><!-- /.row -->
 
