@@ -70,7 +70,7 @@
                 <p class="form-control-static">
                   Login and we'll fill out the rest for you.
                   <br>
-                  <button class="btn btn-inverse" data-toggle="modal" data-target="#spl-login-modal">
+                  <button type="button" class="btn btn-inverse" data-toggle="modal" data-target="#spl-login-modal">
                     <i class="glyphicon glyphicon-user"></i>
                     Login &rarr;
                   </button>
