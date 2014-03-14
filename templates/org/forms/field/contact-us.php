@@ -50,7 +50,7 @@
                 </span>
               </div>
               <div class="col-sm-2">
-                <a class="btn btn-sm btn-info" data-toggle="toggle" href="spl-explain-query-type">
+                <a class="btn btn-sm btn-info" data-toggle="toggle" href="#spl-explain-query-type">
                   <i class="glyphicon glyphicon-info-sign"></i>
                 </a>
               </div>
