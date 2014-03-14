@@ -14,14 +14,14 @@
       </a>
     </p>
     
-    <?php echo do_shortcode('[spl_widget login-form label]'); ?>
-    <!-- 
+    <?php //echo do_shortcode('[spl_widget login-form label]'); ?>
+     
     <p>
-    <button class="btn btn-link btn-lg" data-toggle="modal" data-target="#spl-login-modal">
-      Launch demo modal
+    <button class="btn btn-link" data-toggle="modal" data-target="#spl-login-modal">
+      Login
     </button>
     </p>
-    -->
+    
     <div class="panel panel-default">
       <div class="panel-body">
         <form class="form-horizontal" id="spl-form-contact" method="post" role="form">
