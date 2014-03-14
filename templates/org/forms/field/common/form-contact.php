@@ -9,7 +9,7 @@
   <div class="col-sm-8">
     <input type="text" class="form-control required" id="spl-form-barcode" name="spl-form[barcode]" placeholder="">
   	<span class="help-block">
-  		14 digits, beginning with 27413. Spaces and dashes are not necessary.
+  		14 digits, beginning with 27413.
   	</span>
   </div>
 </div>
