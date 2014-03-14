@@ -100,7 +100,11 @@
   </div><!-- /.row -->
 
   <div class="col-md-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
     <h4>Spokane Public Library</h4>
+      </div><!-- /.panel-heading -->
+    <div class="panel-body">
     <p>      
       <blockquote>
       906 West Main Street 
@@ -126,6 +130,8 @@
         Frequently Asked Questions &rarr;
       </a>
     </p>
+    </div><!-- /.panel-body -->
+    </div><!-- /.panel -->
   </div><!-- /.col -->
 
 </div><!-- /.row -->
