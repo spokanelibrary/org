@@ -35,10 +35,7 @@
               Send us an email
             </legend>
             <div class="form-group">
-              <button type="button" class="btn btn-sm btn-info" data-toggle="collapse" href="spl-explain-query-type">
-                <i class="glyphicon glyphicon-info-sign"></i>
-              </button>
-              <label for="spl-form-query-type" class="col-sm-4 control-label">
+              <label for="spl-form-query-type" class="col-sm-3 control-label">
                 A question about
               </label>
               <div class="col-sm-8">
@@ -51,6 +48,11 @@
                 <span class="help-block hide" id="spl-explain-query-type">
                   We use this information to route your inquiry.
                 </span>
+              </div>
+              <div class="col-sm-1">
+                <button type="button" class="btn btn-sm btn-info" data-toggle="collapse" href="spl-explain-query-type">
+                  <i class="glyphicon glyphicon-info-sign"></i>
+                </button>
               </div>
             </div>
             <div class="form-group">
