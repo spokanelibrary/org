@@ -21,7 +21,7 @@
   </div><!-- /.row -->
 
   <div class="col-md-4">
-    <div class="panel">
+    <div class="panel panel-default">
       <div class="panel-heading">
         <h4>Spokane Public Library</h4>
       </div><!-- /.panel-heading -->
