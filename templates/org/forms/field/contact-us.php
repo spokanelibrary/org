@@ -3,7 +3,7 @@
   <div class="col-md-8">
     
     <p>
-      <a class="btn btn-block btn-primary" style="white-space: normal;" href="/ask">
+      <a class="btn btn-lg btn-block btn-primary" style="white-space: normal;" href="/ask">
         <i class="glyphicon glyphicon-exclamation-sign"></i>
         For research questions <strong>please ask a librarian</strong> &rarr;
       </a>
@@ -102,12 +102,12 @@
       </a>
     </p>
     <hr>
-    <p class="lead">
+    <h3 class="lead text-muted">
       <small class="glyphicon glyphicon-question-sign"></small>
       Asked &amp; answered:
-    </p>
+    </h3>
     <a class="btn btn-block btn-primary" title="How do I?" href="/how">
-      <strong>Frequently Asked Questions</strong> &rarr;
+      Frequently Asked Questions &rarr;
     </a>
   </div><!-- /.col -->
 
