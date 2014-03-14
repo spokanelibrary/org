@@ -168,7 +168,7 @@
 					Visit the Digital Branch for online research and educational tools.
 				</p>
 				<p>
-					<a class="btn btn-block btn-primary" href="#">Learn More &amp;</a>
+					<a class="btn btn-block btn-primary" href="#">Learn More &rarr;</a>
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
