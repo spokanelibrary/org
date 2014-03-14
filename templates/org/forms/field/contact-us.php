@@ -63,15 +63,16 @@
             </div>
 
             <div class="form-group spl-login" data-callback-method="loadUserFormFields">
-              <label class="col-sm-3 control-label">
+              <label class="col-sm-3 control-label text-warning">
                 Optional
               </label>
               <div class="col-sm-9">
                 <p class="form-control-static">
-                  Login using your library barcode and pin. We'll fill out the rest for you.
+                  Login and we'll fill out the rest for you.
                   <br>
                   <button class="btn btn-inverse" data-toggle="modal" data-target="#spl-login-modal">
-                    Login
+                    <i class="glyphicon glyphicon-user"></i>
+                    Login &rarr;
                   </button>
                 </p>
               </div>
