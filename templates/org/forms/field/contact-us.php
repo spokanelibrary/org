@@ -8,7 +8,9 @@
       </a>
     </p>
     <p class="lead">
-      Find answers to many <strong>Frequently Asked Questions</strong> on our <a title="How do I?" href="/how">How do I...?</a> page.
+      <a title="How do I?" href="/how">
+      Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
+      </a>
     </p>
     <!-- 
     <p>
@@ -56,7 +58,7 @@
   </div><!-- /.row -->
 
   <div class="col-md-4">
-    <div class="panel panel-warning">
+    <div class="panel panel-default">
       <div class="panel-heading">
         <h4>Spokane Public Library</h4>
       </div><!-- /.panel-heading -->
@@ -71,7 +73,7 @@
         <h4>
         <abbr title="Phone">Ph.</abbr> 509.444.5300
         </h4>
-        <a class="btn btn-block btn-warning" href="/branch">
+        <a class="btn btn-block btn-default" href="/branch">
           <small class="glyphicon glyphicon-flag"></small>
           Branch Locations &amp; Hours &rarr;</a>
       </div><!-- /.panel-body -->
