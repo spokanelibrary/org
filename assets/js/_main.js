@@ -23,8 +23,6 @@ var ORG = {
       }
     }
 
-    console.log(user);
-
     if ( null == typeof(user) || 'undefined' == typeof(user) ) {
       this.user = null;
     } else {
@@ -44,10 +42,12 @@ var ORG = {
       }
 
       // autorun callback on user login
-      //if ( $('.spl-login').data('callback') ) {
-        console.log('success!');
+      if ( $('.spl-login').data('callback-method') ) {
+        var callbackMethod = $('.spl-login').data('callback-method');
+        
+        console.log('autorun: ' + callbackMethod);
         console.log(this.user)
-      //}
+      }
 
 
     }

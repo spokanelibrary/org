@@ -17,7 +17,7 @@
     <?php //echo do_shortcode('[spl_widget login-form label]'); ?>
      
     <p>
-    <button class="btn btn-link spl-login" data-callback="my_callback" data-toggle="modal" data-target="#spl-login-modal">
+    <button class="btn btn-link spl-login" data-callback-method="my_callback" data-toggle="modal" data-target="#spl-login-modal">
       Login
     </button>
     </p>
