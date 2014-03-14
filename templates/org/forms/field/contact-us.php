@@ -36,7 +36,7 @@
             </legend>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                <button class="btn btn-sm btn-info">
+                <button type="button" class="btn btn-sm btn-info" data-toggle="collapse" href="spl-explain-query-type">
                   <i class="glyphicon glyphicon-info-sign"></i>
                 </button>
                 A question about
@@ -48,7 +48,7 @@
                   <option value="website">The library website</option>
                   <option value="other">Something else</option>
                 </select>
-                <span class="help-block">
+                <span class="help-block hide" id="spl-explain-query-type">
                   We use this information to route your inquiry.
                 </span>
               </div>
