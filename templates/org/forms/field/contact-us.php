@@ -35,10 +35,13 @@
               Send us an email
             </legend>
             <div class="form-group">
-              <label for="spl-form-query-type" class="col-sm-3 control-label">
+              <button type="button" class="btn btn-sm btn-info" data-toggle="collapse" data-target="#spl-explain-query-type">
+                  <i class="glyphicon glyphicon-info-sign"></i>
+                </button>
+              <label for="spl-form-query-type" class="col-sm-4 control-label">
                 A question about
               </label>
-              <div class="col-sm-7">
+              <div class="col-sm-6">
                 <select class="form-control required" id="spl-form-query-type" name="spl-form[query-type]">
                   <option value="library">Using the library</option>
                   <option value="account">My Account</option>
@@ -50,9 +53,7 @@
                 </span>
               </div>
               <div class="col-sm-2">
-                <button type="button" class="btn btn-sm btn-info" data-toggle="collapse" data-target="#spl-explain-query-type">
-                  <i class="glyphicon glyphicon-info-sign"></i>
-                </button>
+                
               </div>
             </div>
             <div class="form-group">
