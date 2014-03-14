@@ -45,7 +45,7 @@ var ORG = {
       if ( $('.spl-login').data('callback-method') ) {
         var callbackMethod = $('.spl-login').data('callback-method');
 
-        this.loadUserFormFields(user);
+        this[callbackMethod](user);
         //console.log('autorun: ' + callbackMethod);
         //console.log(this.user)
       }
