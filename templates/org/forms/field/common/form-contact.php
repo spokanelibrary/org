@@ -14,8 +14,13 @@
 		</ul>
 		<!-- Tab panes -->
 		<div class="tab-content">
-		  <div class="tab-pane active" id="telcom">...</div>
-		  <div class="tab-pane" id="mail">...</div>
+		  <div class="tab-pane active" id="telcom">
+		  	<label for="spl-form-email" class="control-label">Email address</label>
+		  	<input type="text" class="form-control required" id="spl-form-email" name="spl-form[email]" placeholder="">
+		  </div>
+		  <div class="tab-pane" id="mail">
+		  
+		  </div>
 		</div>
   </div>
 </div>
