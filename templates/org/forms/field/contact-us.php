@@ -7,7 +7,7 @@
         For research questions <strong>please ask a librarian</strong> &rarr;
       </a>
     </p>
-    <p>
+    <p class="lead">
       Answers to many <strong>Frequently Asked Questions</strong> can be found on our <a title="How do I?" href="/how">How do I...?</a> page.
     </p>
     <!-- 
@@ -21,61 +21,29 @@
   </div><!-- /.row -->
 
   <div class="col-md-4">
-    <h4>Spokane Public Library</h4>
-    <p>      
-      <blockquote>
-      906 West Main Street 
-      <br />
-      Spokane, WA 99201
-      </blockquote>
-    </p>
-    <abbr title="Phone">Ph.</abbr> 509.444.5300
-    <br />
-    <a href="/branch">Branch Locations &amp; Hours</a>
+    <div class="panel">
+      <div class="panel-heading">
+        <h4>Spokane Public Library</h4>
+      </div><!-- /.panel-heading -->
+      <div class="panel-body">
+        <p>      
+          <blockquote>
+          906 West Main Street 
+          <br />
+          Spokane, WA 99201
+          </blockquote>
+        </p>
+        <abbr title="Phone">Ph.</abbr> 509.444.5300
+        <br />
+        <a href="/branch">Branch Locations &amp; Hours</a>
+      </div><!-- /.panel-body -->
+    </div><!-- /.panel -->
+    
+    
   </div><!-- /.row -->
 
 </div><!-- /.row -->
 
-
-<div class="alert alert-info">
-  <button type="button" class="close" data-dismiss="alert">×</button>
-  <h5>
-  <em>Note:</em>
-  For research questions please <a href="../ask">ask a librarian</a>.
-  </h5>
-  <div class="row-fluid">
-    
-    <div class="span4">    
-      Spokane Public Library
-      <br />
-      <abbr title="Phone">Ph.</abbr> 509.444.5300
-      <br />
-      <a href="http://www.spokanelibrary.org/branches">Branch Locations &amp; Hours</a>
-    </div><!-- /.span4 -->
-    
-    <div class="span3">
-      <p>      
-        <blockquote>
-        906 West Main Street 
-        <br />
-        Spokane, WA 99201
-        </blockquote>
-      </p>
-    </div><!-- /.span3 -->
-    
-    <div class="span5">
-      <p>
-        <blockquote>
-        <!-- <strong>TIP!</strong> -->
-        <span>
-          Answers to many <strong>Frequently Asked Questions</strong> can be found on our <a title="How do I?" href="http://www.spokanelibrary.org/index.php?page=howdoi">How do I...?</a> page.
-        </span>
-        </blockquote>
-      </p>
-    </div><!-- /.span5 -->
-    
-  </div><!-- /.row-fluid -->
-</div><!-- /.alert -->
 
 <form class="form-horizontal well spl-form" style="background:transparent;" method="post" id="spl-form-contact" autocomplete="off">
 
