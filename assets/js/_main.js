@@ -25,11 +25,13 @@ var ORG = {
 
     if ( null == typeof(user) || 'undefined' == typeof(user) ) {
       this.user = null;
+
+      // if login autocallback is configured,
+      // show the login form
       if ( $('.spl-login').data('callback-method') ) {
         $('.spl-login').collapse('show');
       }
     } else {
-
       this.user = user;
       //console.log( this.user );
       $profile = $('#spl-account-profile');
@@ -67,6 +69,10 @@ var ORG = {
       }
       $('#spl-form-name').val(name);
       
+      if ( user.borrowerBarcode ) {
+        $('#spl-form-barcode').val(user.borrowerBarcode);
+      }
+
       if ( user.phone ) {
         $('#spl-form-phone').val(user.phone);
       }

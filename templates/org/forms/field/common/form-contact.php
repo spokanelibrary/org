@@ -5,6 +5,12 @@
   </div>
 </div>
 <div class="form-group">
+  <label for="spl-form-barcode" class="col-sm-4 control-label">Library Card #</label>
+  <div class="col-sm-8">
+    <input type="text" class="form-control required" id="spl-form-barcode" name="spl-form[barcode]" placeholder="">
+  </div>
+</div>
+<div class="form-group">
   <label class="col-sm-4 control-label text-muted">Contact Information</label>
   <div class="col-sm-8">
     <!-- Nav tabs -->
