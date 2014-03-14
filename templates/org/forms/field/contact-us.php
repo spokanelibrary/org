@@ -62,9 +62,9 @@
               </div>
             </div>
 
-            <div class="form-group">
+            <div class="form-group spl-login" data-callback-method="loadUserFormFields">
               <div class="col-sm-offset-3 col-sm-9">
-                <div class="spl-login" data-callback-method="loadUserFormFields">
+                <div>
                   You can login.
                   <button class="btn btn-link" data-toggle="modal" data-target="#spl-login-modal">
                     Login
