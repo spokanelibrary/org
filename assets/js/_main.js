@@ -25,6 +25,9 @@ var ORG = {
 
     if ( null == typeof(user) || 'undefined' == typeof(user) ) {
       this.user = null;
+      if ( $('.spl-login').data('callback-method') ) {
+        $('.spl-login').collapse('show');
+      }
     } else {
 
       this.user = user;
