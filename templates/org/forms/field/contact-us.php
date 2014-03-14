@@ -98,7 +98,6 @@
     </h4>
     <p>
       <a class="" href="/branch">
-        <small class="glyphicon glyphicon-flag"></small>
         Branch Locations &amp; Hours &rarr;
       </a>
     </p>
@@ -106,9 +105,12 @@
     <p class="lead">
       <a title="How do I?" href="/how">
       <small class="glyphicon glyphicon-question-sign"></small>
-      Find answers to many <strong>Frequently Asked Questions</strong> &rarr;
+      Asked &amp; answered:
       </a>
     </p>
+    <a title="How do I?" href="/how">
+      <strong>Frequently Asked Questions</strong> &rarr;
+    </a>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
