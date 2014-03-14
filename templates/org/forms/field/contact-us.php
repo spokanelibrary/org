@@ -14,7 +14,7 @@
       </a>
     </p>
     
-    <?php do_widget('spl-login') ?>
+    <?php echo do_shortcode('[spl_widget login-form label]'); ?>
     <!-- 
     <p>
     <button class="btn btn-link btn-lg" data-toggle="modal" data-target="#spl-login-modal">
