@@ -8,7 +8,7 @@
         <i class="glyphicon glyphicon-user"></i>
         Login to My Account
       </button>
-      <span class="help-block">Login and we'll fill out the rest of this for you.</span>
+      <span class="help-block">Login and we'll fill out the rest of this information for you.</span>
     </p>
   </div>
 </div>

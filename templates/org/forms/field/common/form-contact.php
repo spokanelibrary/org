@@ -21,7 +21,12 @@
 		  	<input type="text" class="form-control" id="spl-form-phone" name="spl-form[phone]" placeholder="">
 		  </div>
 		  <div class="tab-pane" id="mail">
-		  
+		  	<label for="spl-form-street" class="control-label">Street (P.O. Box, etc.)</label>
+		  	<textarea rows="3" class="form-control" id="spl-form-city-st" name="spl-form[street]"></textarea>
+		  	<label for="spl-form-city-st" class="control-label">City, ST</label>
+		  	<input type="text" class="form-control" id="spl-form-city-st" name="spl-form[city-st]" placeholder="">
+		  	<label for="spl-form-zip" class="control-label">Zip code</label>
+		  	<input type="text" class="form-control" id="spl-form-zip" name="spl-form[zip]" placeholder="">
 		  </div>
 		</div>
   </div>
