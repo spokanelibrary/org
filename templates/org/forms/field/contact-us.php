@@ -10,7 +10,7 @@
   </div><!-- /.row -->
 
   <div class="col-md-4">
-    Spokane Public Library
+    <h3>Spokane Public Library</h3>
     <p>      
       <blockquote>
       906 West Main Street 
