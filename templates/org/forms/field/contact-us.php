@@ -105,10 +105,12 @@
     <h4 class="text-muted">
       <i class="glyphicon glyphicon-question-sign"></i>
       Asked &amp; answered:
-    </h44>
-    <a class="btn btn-block btn-primary" title="How do I?" href="/how">
-      Frequently Asked Questions &rarr;
-    </a>
+    </h4>
+    <p>
+      <a class="btn btn-block btn-primary" title="How do I?" href="/how">
+        Frequently Asked Questions &rarr;
+      </a>
+    </p>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
