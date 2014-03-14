@@ -4,7 +4,7 @@
     
     <div class="panel panel-primary">
       <div class="panel-body">
-        <p class="lead text-center">
+        <p class="text-center">
         <a href="/ask">
           <i class="glyphicon glyphicon-exclamation-sign"></i>
           For research questions, <strong>please ask a librarian</strong> &rarr;
