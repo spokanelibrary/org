@@ -17,7 +17,7 @@
     
     <div class="panel panel-default">
       <div class="panel-body">
-        <form class="form-horizontal" id="spl-form-contact" method="post" role="form">
+        <form class="form-horizontal spl-form" id="spl-form-contact" method="post" role="form">
           
           <?php include 'common/crass-response.php'; ?>
       

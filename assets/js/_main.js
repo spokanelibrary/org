@@ -53,6 +53,11 @@ var ORG = {
 , loadUserFormFields: function(user) {
     $('.spl-login').hide();
     console.log(user);  
+    if ( $('.spl-form') ) {
+      //$form = $('.spl-form');
+      $('#spl-form-name').val(user.firstName +' ['+user.name+']');
+    }
+
 }  
   // All pages
 , common: {
