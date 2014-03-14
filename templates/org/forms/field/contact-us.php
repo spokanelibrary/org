@@ -59,11 +59,9 @@
   </div><!-- /.row -->
 
   <div class="col-md-4">
-    <div class="panel panel-default">
-      <div class="panel-heading">
+    
         <h4>Spokane Public Library</h4>
-      </div><!-- /.panel-heading -->
-      <div class="panel-body">
+      
         <p>      
           <blockquote>
           906 West Main Street 
@@ -77,8 +75,7 @@
         <a class="btn btn-block btn-default" href="/branch">
           <small class="glyphicon glyphicon-flag"></small>
           Branch Locations &amp; Hours &rarr;</a>
-      </div><!-- /.panel-body -->
-    </div><!-- /.panel -->
+      
     
     
   </div><!-- /.row -->
