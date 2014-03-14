@@ -45,8 +45,10 @@
             </div>
             <div class="form-group">
               <div class="col-sm-offset-3 col-sm-6">
-                <small class="glyphicon glyphicon-ok"></small>
-                <button type="submit" class="btn btn-block btn-success">Send Now &rarr;</button>
+                <button type="submit" class="btn btn-block btn-success">
+                  <small class="glyphicon glyphicon-ok"></small>
+                  Send Now &rarr;
+                </button>
               </div>
             </div>
           </fieldset>
