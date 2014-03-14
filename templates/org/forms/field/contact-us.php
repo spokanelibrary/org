@@ -32,7 +32,7 @@
           <fieldset>
             <legend class="text-muted">
               <small class="glyphicon glyphicon-envelope"></small>
-              Send an Email
+              Send us an email
             </legend>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-3 control-label">A question about</label>
@@ -43,6 +43,9 @@
                   <option value="website">The Library website</option>
                   <option value="other">Something else</option>
                 </select>
+                <span class="help-block">
+                  We use this information to route your inquiry.
+                </span>
               </div>
             </div>
             <div class="form-group">
@@ -53,6 +56,9 @@
                   <option value="phone">Telephone</option>
                   <option value="postal">Postal Mail</option>
                 </select>
+                <span class="help-block">
+                  We prefer to respond using email; let us know what works for you. 
+                </span>
               </div>
             </div>
             <div class="form-group">
@@ -72,7 +78,7 @@
                     <i class="glyphicon glyphicon-user"></i>
                     Login
                   </button>
-                  <span class="help-block">Login and we'll fill out the rest for you.</span>
+                  <span class="help-block">Login and we'll fill out the rest of this for you.</span>
                 </p>
               </div>
             </div>
