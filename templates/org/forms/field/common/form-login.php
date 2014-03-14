@@ -6,7 +6,7 @@
     <p class="form-control-static">
       <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#spl-login-modal">
         <i class="glyphicon glyphicon-user"></i>
-        Login
+        Login to My Account
       </button>
       <span class="help-block">Login and we'll fill out the rest of this for you.</span>
     </p>
