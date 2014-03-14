@@ -19,17 +19,21 @@
     -->
 
     <form class="form-horizontal" role="form">
-      <div class="form-group">
-        <label for="inputEmail3" class="col-sm-3 control-label">Your Message</label>
-        <div class="col-sm-9">
-          <input type="email" class="form-control" id="spl-contact-message" placeholder="">
+      <fieldset>
+        <legend>Send an Email</legend>
+
+        <div class="form-group">
+          <label for="inputEmail3" class="col-sm-3 control-label">Your Name</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="spl-contact-name" placeholder="">
+          </div>
         </div>
-      </div>
-      <div class="form-group">
-        <div class="col-sm-offset-3 col-sm-9">
-          <button type="submit" class="btn btn-default">Send Now &rarr;</button>
+        <div class="form-group">
+          <div class="col-sm-offset-3 col-sm-6">
+            <button type="submit" class="btn btn-success">Send Now &rarr;</button>
+          </div>
         </div>
-      </div>
+      </fieldset>
     </form>
 
 
