@@ -14,6 +14,7 @@
       </a>
     </p>
     
+    <?php do_widget('spl-login') ?>
     <!-- 
     <p>
     <button class="btn btn-link btn-lg" data-toggle="modal" data-target="#spl-login-modal">
