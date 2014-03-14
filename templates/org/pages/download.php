@@ -82,7 +82,6 @@
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 
-		<div class="col-md-9 col-lg-6">
 		<div class="panel panel-primary" style="border-width-left:5px;">
 			<div class="panel-heading">
 				<h4>
@@ -154,7 +153,7 @@
 				</div><!-- /.media -->
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
-		
+
 	</div><!-- /.col -->
 	<div class="col-md-3">
 		<div class="panel panel-warning" style="border-width-left:5px;">
