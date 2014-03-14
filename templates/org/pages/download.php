@@ -7,7 +7,7 @@
 		</p>
 		<p>
 			<strong>
-				Feel free to contact us with questions. 
+				Feel free to <a href="#">contact us</a> with questions. 
 				We’ll do our best to help.
 			</strong>
 		</p>
@@ -38,7 +38,7 @@
  						</p>
 				    <p>
 				    	<h4>
-				    		<a class="btn btn-default" href="#">Learn more</a> 
+				    		<a href="#">Learn more</a> 
 				    		<small>&rarr;</small>
 				    	</h4>
 				    </p>
