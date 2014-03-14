@@ -103,11 +103,11 @@
     </p>
     <hr>
     <h4 class="text-muted">
-      <i class="glyphicon glyphicon-question-sign"></i>
-      Asked &amp; answered:
+      Asked &amp; answered
     </h4>
     <p>
       <a class="btn btn-block btn-primary" title="How do I?" href="/how">
+        <i class="glyphicon glyphicon-question-sign"></i>
         Frequently Asked Questions &rarr;
       </a>
     </p>
