@@ -72,7 +72,7 @@
                     <i class="glyphicon glyphicon-user"></i>
                     Login
                   </button>
-                  Login and we'll fill out the rest for you.
+                  <span class="help-block">Login and we'll fill out the rest for you.</span>
                 </p>
               </div>
             </div>
