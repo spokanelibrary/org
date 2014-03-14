@@ -44,7 +44,7 @@
             <div class="form-group">
               <label for="spl-contact-message" class="col-sm-3 control-label">Your Message</label>
               <div class="col-sm-9">
-                <textarea class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
+                <textarea rows="6" class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
               </div>
             </div>
             <div class="form-group">
