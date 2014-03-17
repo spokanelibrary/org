@@ -3,7 +3,7 @@
     
     <div class="row">
       <div class="col-sm-6">
-        <div class="panel panel-primary">
+        <div class="panel panel-default">
           <div class="panel-body">
             <a class="" href="#" title="">
               <h4>
@@ -11,11 +11,14 @@
                 Send us an email &rarr;
               </h4>
             </a>
+            <p>
+              This is a descriptoion.
+            </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
       <div class="col-sm-6">
-        <div class="panel panel-primary">
+        <div class="panel panel-default">
           <div class="panel-body">
             <a class="" href="#" title="">
               <h4>
@@ -23,6 +26,9 @@
                 Ask a research question &rarr;
               </h4>
             </a>
+            <p>
+              This is a descriptoion.
+            </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
