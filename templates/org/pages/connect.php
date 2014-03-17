@@ -120,8 +120,7 @@
       Instagram
     </p>
 
-
-    <?php include('common/contact.php'); ?>
+    <?php echo do_shortcode('[spl_widget custom-page page=contact-info]'); ?>
 
   </div><!-- /.col -->
 
