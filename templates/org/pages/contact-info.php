@@ -17,8 +17,9 @@
       <a class="" href="/branch">
         Branch Locations &amp; Hours &rarr;
       </a>
-    </p>
-    <hr>
+    </p>    
+  </div><!-- /.panel-body -->
+  <div class="panel-footer">
     <p class="text-center">
       <a class=""
         href="http://facebook.com/spokanelibrary" 
@@ -28,5 +29,5 @@
         href="http://twitter.com/spokanelibrary" 
         title=""><img src="/assets/img/icons/16px/twitter.png"> <strong>Twitter</strong></a>
     </p>
-  </div><!-- /.panel-body -->
+  </div><!-- /.panel-footer -->
 </div><!-- /.panel -->
