@@ -22,9 +22,11 @@
   </div><!-- /.col -->
 
   <div class="col-sm-4">
+    <div class="panel panel-primary">
     <a class="" href="#" title="">
       <h4><i class="glyphicon glyphicon-envelope text-muted"></i> Ask a research question</h4>
     </a>
+    </div><!-- /.panel -->
   </div><!-- /.col -->
 
   <div class="col-sm-4">
