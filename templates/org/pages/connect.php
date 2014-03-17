@@ -1,8 +1,8 @@
 <div class="row">
 
   <div class="col-sm-4">
-    <div class="panel panel-primary panel-transparent">
-      <div class="panel-heading">
+    <div class="panel panel-primary">
+      <div class="panel-heading panel-transparent">
         <h4>
           <i class="glyphicon glyphicon-envelope text-muted"></i>
           <a href="#" title="">Send an email</a>
