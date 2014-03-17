@@ -8,7 +8,7 @@
             <h4>
               <i class="glyphicon glyphicon-envelope text-muted"></i> 
               <a class="" 
-                href="#" 
+                href="/contact/" 
                 title="">Send us an email</a>
               <span class="text-muted">&rarr;</span>
             </h4>
