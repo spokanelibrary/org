@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-sm-8 col-md-9">
+  <div class="col-sm-9 col-md-8">
     
     <div class="row">
       <div class="col-sm-6">
@@ -38,7 +38,7 @@
 
   </div><!-- /.col -->
   
-  <div class="col-sm-4 col-md-3">
+  <div class="col-sm-3 col-md-4">
     Follow us on Facebook &amp; Twitter
   </div><!-- /.col -->
 
