@@ -20,13 +20,12 @@
     </p>
     <hr>
     <h4 class="text-muted">
-      Asked &amp; answered
+      Let's Socialize
     </h4>
-    <p>
-      <a class="btn btn-block btn-primary" title="How do I?" href="/how">
-        <i class="glyphicon glyphicon-question-sign"></i>
-        Frequently Asked Questions &rarr;
-      </a>
-    </p>
+    <ul class="nav nav-pills">
+      <li><a href="#" title="">Facebook</li>
+      <li><a href="#" title="">Twitter</li>
+      <li><a href="#" title="">Instagram</li>
+    </ul>
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
