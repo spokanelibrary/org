@@ -50,7 +50,8 @@
             <div class="form-group">
               <div class="col-sm-offset-4 col-sm-8">
                 <div class="alert alert-warning">
-                  out of town
+                  <h5>For our out-of-town customers</h5>
+                  <span class="help-block">Spokane Public Library will research Spokane topics for out-of-town customers. For general questions, please contact your local library.</span>
                 </div>
               </div>
             </div>
