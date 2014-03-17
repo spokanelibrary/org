@@ -47,18 +47,6 @@
             <?php include 'common/form-contact.php'; ?>
             <?php include 'common/form-submit.php'; ?>
 
-            <div class="form-group">
-              <div class="col-sm-offset-4 col-sm-8">
-                <div class="alert alert-warning">
-                  <h5>
-                    <i class="glyphicon glyphicon-exclamation-sign"></i>
-                    For our out-of-town customers
-                  </h5>
-                  <span class="help-block">Spokane Public Library will research Spokane topics for out-of-town customers. For general questions, please contact your local library.</span>
-                </div>
-              </div>
-            </div>
-
           </fieldset>
         </form>
       </div><!-- /.panel-body -->
@@ -84,7 +72,7 @@
     <div class="panel panel-warning">
       <div class="panel-heading">
         <h4>
-          <i class="glyphicon glyphicon-phone-alt"></i>
+          <i class="glyphicon exclamation-sign"></i>
           Out of town?
         </h4>
       </div><!-- /.panel-heading -->
