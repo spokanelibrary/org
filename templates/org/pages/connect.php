@@ -4,13 +4,14 @@
     <div class="row">
       <div class="col-sm-6">
         <div class="panel panel-default">
-          <div class="panel-body">
-            <a class="" href="#" title="">
-              <h4>
-                <i class="glyphicon glyphicon-envelope text-muted"></i> 
-                Send us an email &rarr;
-              </h4>
-            </a>
+          <div class="panel-body">            
+            <h4>
+              <i class="glyphicon glyphicon-envelope text-muted"></i> 
+              <a class="" 
+                href="#" 
+                title="">Send us an email</a>
+              <span class="text-muted">&rarr;</span>
+            </h4>
             <p>
               This is a descriptoion.
             </p>
@@ -20,12 +21,13 @@
       <div class="col-sm-6">
         <div class="panel panel-default">
           <div class="panel-body">
-            <a class="" href="#" title="">
-              <h4>
-                <i class="glyphicon glyphicon-envelope text-muted"></i> 
-                Ask a research question &rarr;
-              </h4>
-            </a>
+            <h4>
+              <i class="glyphicon glyphicon-envelope text-muted"></i> 
+              <a class="" 
+                href="#" 
+                title="">Ask a research question</a>
+              <span class="text-muted">&rarr;</span>
+            </h4>
             <p>
               This is a descriptoion.
             </p>
