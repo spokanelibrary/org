@@ -46,7 +46,15 @@
             <?php include 'common/form-login.php'; ?>
             <?php include 'common/form-contact.php'; ?>
             <?php include 'common/form-submit.php'; ?>
-            
+
+            <div class="form-group">
+              <div class="col-sm-8">
+                <div class="alert alert-warning">
+                  out of town
+                </div>
+              </div>
+            </div>
+
           </fieldset>
         </form>
       </div><!-- /.panel-body -->
@@ -56,18 +64,21 @@
 
   <div class="col-md-4">
     <div class="panel panel-primary">
-  <div class="panel-heading">
-    <h4>
-      <i class="glyphicon glyphicon-phone-alt"></i>
-      Phone it in
-    </h4>
-  </div><!-- /.panel-heading -->
-  <div class="panel-body">
-    <p>     
-      You can also reach us on the <em>Telephone Reference Line:</em> <strong>509.444.5336</strong> during Downtown Library hours.
-    </p>    
-  </div><!-- /.panel-body -->
-</div><!-- /.panel -->
+      <div class="panel-heading">
+        <h4>
+          <i class="glyphicon glyphicon-phone-alt"></i>
+          Phone it in
+        </h4>
+      </div><!-- /.panel-heading -->
+      <div class="panel-body">
+        <p>     
+          You can also reach us on the <em>Telephone Reference Line:</em> <strong>509.444.5336</strong> during Downtown Library hours.
+        </p>    
+      </div><!-- /.panel-body -->
+    </div><!-- /.panel -->
+
+    <h4>Obituaries &amp; birth announcements</h4>
+
   </div><!-- /.col -->
 
 </div><!-- /.row -->
