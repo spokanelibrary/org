@@ -19,8 +19,7 @@
       </a>
     </p>    
   </div><!-- /.panel-body -->
-  <div class="panel-footer">
-    <p class="text-center">
+  <div class="panel-footer text-center">
       <a class=""
         href="http://facebook.com/spokanelibrary" 
         title=""><img src="/assets/img/icons/16px/facebook.png"> <strong>Facebook</strong></a>
@@ -28,6 +27,5 @@
       <a class="text-info" 
         href="http://twitter.com/spokanelibrary" 
         title=""><img src="/assets/img/icons/16px/twitter.png"> <strong>Twitter</strong></a>
-    </p>
   </div><!-- /.panel-footer -->
 </div><!-- /.panel -->
