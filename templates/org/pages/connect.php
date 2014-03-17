@@ -22,7 +22,9 @@
   </div><!-- /.col -->
 
   <div class="col-sm-4">
-    Ask a research question
+    <a class="btn btn-block btn-primary" href="#" title="">
+      <h4><i class="glyphicon glyphicon-envelope"></i> Ask a research question</h4>
+    </a>
   </div><!-- /.col -->
 
   <div class="col-sm-4">
