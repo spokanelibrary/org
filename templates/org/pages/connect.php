@@ -1,4 +1,13 @@
 <div class="row">
+  <div class="col-sm-8 col-md-9">
+    Stuff
+  </div><!-- /.col -->
+</div><!-- /.row -->
+  <div class="col-sm-4 col-md-3">
+    Follow us on Facebook &amp; Twitter
+  </div><!-- /.col -->
+<div class="row">
+
 
   <div class="col-sm-4">
     <div class="panel panel-primary">
