@@ -24,9 +24,9 @@
 		<!-- Tab panes -->
 		<div class="tab-content">
 		  <div class="tab-pane active" id="telcom">
-		  	<label for="spl-form-email" class="control-label">Email address</label>
+		  	<label for="spl-form-email" class="control-label">My email address</label>
 		  	<input type="text" class="form-control" id="spl-form-email" name="spl-form[email]" placeholder="">
-		  	<label for="spl-form-phone" class="control-label">Phone number</label>
+		  	<label for="spl-form-phone" class="control-label">My phone number</label>
 		  	<input type="text" class="form-control" id="spl-form-phone" name="spl-form[phone]" placeholder="">
 		  </div>
 		  <div class="tab-pane" id="mail">
