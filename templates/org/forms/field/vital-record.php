@@ -46,6 +46,7 @@
     <div class="panel panel-warning">
       <div class="panel-heading">
         <h4>
+          <i class="glyphicon glyphicon-exclamation-sign"></i>
           Please note
         </h4>
       </div><!-- /.panel-heading -->
