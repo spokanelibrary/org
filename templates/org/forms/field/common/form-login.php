@@ -1,5 +1,5 @@
 <div class="form-group spl-login collapse" data-callback-method="loadUserFormFields">
-  <label class="col-sm-4 control-label text-warning">
+  <label class="col-sm-4 control-label text-muted">
     Optional
   </label>
   <div class="col-sm-8">
