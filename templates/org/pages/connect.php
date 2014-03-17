@@ -76,7 +76,7 @@
         <div class="panel panel-default">
           <div class="panel-body">            
             <h4>
-              <i class="glyphicon glyphicon-barcode text-muted"></i> 
+              <i class="glyphicon glyphicon-book text-muted"></i> 
               <a class="" 
                 href="#" 
                 title="">Request a title</a>
@@ -92,10 +92,10 @@
         <div class="panel panel-default">
           <div class="panel-body">
             <h4>
-              <i class="glyphicon glyphicon-search text-muted"></i> 
+              <i class="glyphicon glyphicon-info-sign text-muted"></i> 
               <a class="" 
                 href="#" 
-                title="">Something else</a>
+                title="">Frequently Asked Question</a>
               <span class="text-muted">&rarr;</span>
             </h4>
             <p>
@@ -122,5 +122,4 @@
   </div><!-- /.col -->
 
 </div><!-- /.row -->
-ss
 
