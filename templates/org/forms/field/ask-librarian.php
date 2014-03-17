@@ -55,13 +55,16 @@
   </div><!-- /.row -->
 
   <div class="col-md-4">
-    <div class="panel panel-default">
+    <div class="panel panel-primary">
   <div class="panel-heading">
-    <h4>Phone it in</h4>
+    <h4>
+      <i class="glyphicon glyphicon-phone"></i>
+      Phone it in
+    </h4>
   </div><!-- /.panel-heading -->
   <div class="panel-body">
     <p>     
-      You can reach us on the Telephone Reference Line: 509.444.5336 during Downtown Library hours.
+      You can reach us on the Telephone Reference Line: <strong>509.444.5336</strong> during Downtown Library hours.
     </p>    
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
