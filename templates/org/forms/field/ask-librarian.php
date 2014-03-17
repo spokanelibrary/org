@@ -48,7 +48,7 @@
             <?php include 'common/form-submit.php'; ?>
 
             <div class="form-group">
-              <div class="col-sm-8">
+              <div class="col-offset-sm-4 col-sm-8">
                 <div class="alert alert-warning">
                   out of town
                 </div>
