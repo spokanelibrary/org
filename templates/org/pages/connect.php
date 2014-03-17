@@ -101,8 +101,6 @@
       <div class="col-sm-6">
         <div class="panel panel-default">
           <div class="panel-heading">
-          </div><!-- /.panel-heading -->
-          <div class="panel-body">
             <h4>
               <i class="glyphicon glyphicon-info-sign text-muted"></i> 
               <a class="" 
@@ -110,6 +108,8 @@
                 title="">Frequently asked</a>
               <span class="text-muted">&rarr;</span>
             </h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">
             <p>
               This is a description.
             </p>
