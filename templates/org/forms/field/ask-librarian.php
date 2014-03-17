@@ -78,7 +78,10 @@
       </div><!-- /.panel-heading -->
       <div class="panel-body">
         <p>     
-          Spokane Public Library will research Spokane topics for out-of-town customers. For general questions, please contact your local library.
+          Spokane Public Library will research Spokane topics for out-of-town customers. 
+        </p>
+        <p>
+          For general questions, please contact your local library.
         </p>    
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
