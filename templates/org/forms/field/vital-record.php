@@ -55,32 +55,19 @@
   </div><!-- /.row -->
 
   <div class="col-md-4">
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h4>
-          <i class="glyphicon glyphicon-phone-alt"></i>
-          Phone it in
-        </h4>
-      </div><!-- /.panel-heading -->
-      <div class="panel-body">
-        <p>     
-          You can also reach us on the <em>Telephone Reference Line:</em> <strong>509.444.5336</strong> during Downtown Library hours.
-        </p>    
-      </div><!-- /.panel-body -->
-    </div><!-- /.panel -->
 
     <div class="panel panel-warning">
       <div class="panel-heading">
         <h4>
-          From out of town?
+          Please note
         </h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">
         <p>     
-          Spokane Public Library will be gladly research Spokane topics for out-of-town customers. 
+          This form is for obituary and birth announcement requests for <strong>out-of-town customers only</strong>. 
         </p>
         <p>
-          For general research questions, please contact your local library.
+          If you live in the Spokane area, you are expected to come in to do your research. We'll be glad to help!
         </p>    
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
