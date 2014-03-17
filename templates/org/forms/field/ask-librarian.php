@@ -64,7 +64,7 @@
   </div><!-- /.panel-heading -->
   <div class="panel-body">
     <p>     
-      You can reach us on the <em>Telephone Reference Line:</em> <strong>509.444.5336</strong> during Downtown Library hours.
+      You can also reach us on the <em>Telephone Reference Line:</em> <strong>509.444.5336</strong> during Downtown Library hours.
     </p>    
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
