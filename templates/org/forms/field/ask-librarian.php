@@ -35,9 +35,9 @@
               Request research assistance
             </legend>
             <div class="form-group">
-              <label for="spl-form-question" class="col-sm-4 control-label">My question</label>
+              <label for="spl-form-question" class="col-sm-4 control-label">I am researching</label>
               <div class="col-sm-8">
-                <label class="text-muted form-control-static">Please be as specific as possible.</label>
+                <label class="text-muted form-control-static">Please be as specific as possible with your question.</label>
                 <textarea rows="6" class="form-control required" id="spl-form-question" name="spl-form[question]"></textarea>
               </div>
             </div>
