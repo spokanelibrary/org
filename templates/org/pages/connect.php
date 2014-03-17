@@ -74,7 +74,13 @@
   </div><!-- /.col -->
   
   <div class="col-md-3">
-    Follow us on Facebook &amp; Twitter
+    <h3 class="text-muted">Let's Socialize</h3>
+    <p>
+      Facebook
+    </p>
+    <p>
+      Twitter
+    </p>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
