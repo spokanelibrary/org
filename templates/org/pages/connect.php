@@ -1,34 +1,39 @@
 <div class="row">
   <div class="col-sm-8 col-md-9">
-    <div class="col-sm-6">
-      <div class="panel panel-primary">
-        <div class="panel-body">
-          <a class="" href="#" title="">
-            <h4>
-              <i class="glyphicon glyphicon-envelope text-muted"></i> 
-              Send us an email &rarr;
-            </h4>
-          </a>
-        </div><!-- /.panel-body -->
-      </div><!-- /.panel -->
-    </div><!-- /.col -->
+    
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-primary">
+          <div class="panel-body">
+            <a class="" href="#" title="">
+              <h4>
+                <i class="glyphicon glyphicon-envelope text-muted"></i> 
+                Send us an email &rarr;
+              </h4>
+            </a>
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+      <div class="col-sm-6">
+        <div class="panel panel-primary">
+          <div class="panel-body">
+            <a class="" href="#" title="">
+              <h4>
+                <i class="glyphicon glyphicon-envelope text-muted"></i> 
+                Ask a research question &rarr;
+              </h4>
+            </a>
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+
   </div><!-- /.col -->
-  <div class="col-sm-6">
-      <div class="panel panel-primary">
-        <div class="panel-body">
-          <a class="" href="#" title="">
-            <h4>
-              <i class="glyphicon glyphicon-envelope text-muted"></i> 
-              Ask a research question &rarr;
-            </h4>
-          </a>
-        </div><!-- /.panel-body -->
-      </div><!-- /.panel -->
-    </div><!-- /.col -->
-  </div><!-- /.col -->
+  
   <div class="col-sm-4 col-md-3">
     Follow us on Facebook &amp; Twitter
   </div><!-- /.col -->
+
 </div><!-- /.row -->
 
 
