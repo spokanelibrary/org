@@ -4,7 +4,23 @@
       <div class="panel panel-primary">
         <div class="panel-body">
           <a class="" href="#" title="">
-            <h4><i class="glyphicon glyphicon-envelope text-muted"></i> Ask a research question</h4>
+            <h4>
+              <i class="glyphicon glyphicon-envelope text-muted"></i> 
+              Send us an email &rarr;
+            </h4>
+          </a>
+        </div><!-- /.panel-body -->
+      </div><!-- /.panel -->
+    </div><!-- /.col -->
+  </div><!-- /.col -->
+  <div class="col-sm-6">
+      <div class="panel panel-primary">
+        <div class="panel-body">
+          <a class="" href="#" title="">
+            <h4>
+              <i class="glyphicon glyphicon-envelope text-muted"></i> 
+              Ask a research question &rarr;
+            </h4>
           </a>
         </div><!-- /.panel-body -->
       </div><!-- /.panel -->
