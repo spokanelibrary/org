@@ -2,18 +2,18 @@
 
   <div class="col-sm-4">
     <div class="panel panel-primary">
-      <div class="panel-heading panel-transparent">
-        <h4>
+      <div class="panel-heading">
+        <a class="btn btn-block btn-primary" href="#" title="">
           <i class="glyphicon glyphicon-envelope text-muted"></i>
-          <a href="#" title="">Send an email</a>
-        </h4>
+          Send an email
+        </a>
       </div><!-- /.panel-heading -->
       <div class="panel-body">
         <p>
           Info.
         </p>
       </div><!-- /.panel -->
-      <div class="panel-footer panel-transparent">
+      <div class="panel-footer">
         <div class="text-right">
           <a href="#" title="">More &rarr;</a>
         </div>
