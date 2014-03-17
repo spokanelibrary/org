@@ -5,9 +5,9 @@
     <div class="panel panel-primary">
       <div class="panel-body">
         <p class="lead text-center" style="margin-bottom:0;">
-        <a href="/ask">
+        <a href="/contact/">
           <i class="glyphicon glyphicon-exclamation-sign"></i>
-          For research questions, please <strong>ask a librarian</strong> &rarr;
+          For general inquiries, please <strong>contact us</strong> &rarr;
         </a>
         </p>
       </div><!-- /.panel-body -->
@@ -91,15 +91,6 @@
 
   <div class="col-md-4">
     <?php echo do_shortcode('[spl_widget custom-page page=contact-info]'); ?>
-    <h4 class="text-muted">
-      Asked &amp; answered
-    </h4>
-    <p>
-      <a class="btn btn-block btn-primary" title="How do I?" href="/how">
-        <i class="glyphicon glyphicon-question-sign"></i>
-        Frequently Asked Questions &rarr;
-      </a>
-    </p>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
