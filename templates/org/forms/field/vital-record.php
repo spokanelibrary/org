@@ -19,11 +19,11 @@
           <fieldset>
             <legend class="text-muted">
               <small class="glyphicon glyphicon-search"></small>
-              Search for obituaries or birth announcements
+              Search for obituaries or birth notices
             </legend>
 
             <div class="form-group">
-              <label class="col-sm-4 control-label text-muted">Request Type</label>
+              <label class="col-sm-4 control-label text-muted">I am looking for a</label>
               <div class="col-sm-8">
                 <div class="radio">
                   <label>
