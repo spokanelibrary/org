@@ -44,7 +44,7 @@
               <i class="glyphicon glyphicon-barcode text-muted"></i> 
               <a class="" 
                 href="#" 
-                title="">Get a library card</a>
+                title="">Your library card</a>
               <span class="text-muted">&rarr;</span>
             </h4>
             <p>
@@ -119,6 +119,10 @@
     <p>
       Instagram
     </p>
+
+
+    <?php include('common/contact.php'); ?>
+
   </div><!-- /.col -->
 
 </div><!-- /.row -->
