@@ -11,7 +11,7 @@
       </blockquote>
     </p>
     <h4>
-    <abbr title="Phone">Ph.</abbr> 509.444.5300
+      <abbr title="Phone">Ph.</abbr> 509.444.5300
     </h4>
     <p>
       <a class="" href="/branch">

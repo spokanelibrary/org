@@ -54,7 +54,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <p>
-              This is a description.
+              Not yet implemented.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
@@ -93,7 +93,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <p>
-              This is a description.
+              Not yet implemented.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
@@ -111,7 +111,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              This is a description.
+              Not yet implemented.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
