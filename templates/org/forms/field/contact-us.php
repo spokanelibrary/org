@@ -39,7 +39,7 @@
                 <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-query-type">
                   <i class="glyphicon glyphicon-info-sign"></i>
                 </button>
-                A question about
+                My question is about
               </label>
               <div class="col-sm-8">
                 <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
@@ -72,7 +72,7 @@
               </div>
             </div>
             <div class="form-group">
-              <label for="spl-form-message" class="col-sm-4 control-label">Your message</label>
+              <label for="spl-form-message" class="col-sm-4 control-label">My message</label>
               <div class="col-sm-8">
                 <textarea rows="6" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
               </div>

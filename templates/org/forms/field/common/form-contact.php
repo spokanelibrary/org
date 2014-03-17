@@ -1,11 +1,11 @@
 <div class="form-group">
-  <label for="spl-form-name" class="col-sm-4 control-label">Your name</label>
+  <label for="spl-form-name" class="col-sm-4 control-label">My name</label>
   <div class="col-sm-8">
     <input type="text" class="form-control required" id="spl-form-name" name="spl-form[name]" placeholder="">
   </div>
 </div>
 <div class="form-group">
-  <label for="spl-form-barcode" class="col-sm-4 control-label">Your Library Card #</label>
+  <label for="spl-form-barcode" class="col-sm-4 control-label">My Library Card #</label>
   <div class="col-sm-8">
     <input type="text" class="form-control required" id="spl-form-barcode" name="spl-form[barcode]" placeholder="">
   	<span class="help-block">

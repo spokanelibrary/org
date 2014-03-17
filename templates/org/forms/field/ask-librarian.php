@@ -32,14 +32,14 @@
           <fieldset>
             <legend class="text-muted">
               <small class="glyphicon glyphicon-question-sign"></small>
-              You research question
+              Request research assistance
             </legend>
             <div class="form-group">
               <label for="spl-form-contact-method" class="col-sm-4 control-label">
                 <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-contact-method">
                   <i class="glyphicon glyphicon-info-sign"></i>
                 </button>
-                Contact method
+                Contact me via
               </label>
               <div class="col-sm-8">
                 <select class="form-control" id="spl-form-contact-method" name="spl-form[contact-method]">
@@ -53,7 +53,7 @@
               </div>
             </div>
             <div class="form-group">
-              <label for="spl-form-question" class="col-sm-4 control-label">Your question</label>
+              <label for="spl-form-question" class="col-sm-4 control-label">My question</label>
               <div class="col-sm-8">
                 <span class="help-block">Please be as specific as possible.</span>
                 <textarea rows="6" class="form-control required" id="spl-form-question" name="spl-form[question]"></textarea>
