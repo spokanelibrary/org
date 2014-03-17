@@ -13,7 +13,7 @@
               <span class="text-muted">&rarr;</span>
             </h4>
             <p>
-              This is a descriptoion.
+              This is a description.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
@@ -22,14 +22,14 @@
         <div class="panel panel-default">
           <div class="panel-body">
             <h4>
-              <i class="glyphicon glyphicon-envelope text-muted"></i> 
+              <i class="glyphicon glyphicon-question-sign text-muted"></i> 
               <a class="" 
                 href="#" 
                 title="">Ask a research question</a>
               <span class="text-muted">&rarr;</span>
             </h4>
             <p>
-              This is a descriptoion.
+              This is a description.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
@@ -41,14 +41,14 @@
         <div class="panel panel-default">
           <div class="panel-body">            
             <h4>
-              <i class="glyphicon glyphicon-envelope text-muted"></i> 
+              <i class="glyphicon glyphicon-barcode text-muted"></i> 
               <a class="" 
                 href="#" 
                 title="">Get a library card</a>
               <span class="text-muted">&rarr;</span>
             </h4>
             <p>
-              This is a descriptoion.
+              This is a description.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
@@ -57,14 +57,14 @@
         <div class="panel panel-default">
           <div class="panel-body">
             <h4>
-              <i class="glyphicon glyphicon-envelope text-muted"></i> 
+              <i class="glyphicon glyphicon-search text-muted"></i> 
               <a class="" 
                 href="#" 
                 title="">Research vital records</a>
               <span class="text-muted">&rarr;</span>
             </h4>
             <p>
-              This is a descriptoion. Obituary &amp; birth announcements
+              This is a description. Obituary &amp; birth announcements
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
