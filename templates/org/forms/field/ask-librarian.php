@@ -48,7 +48,7 @@
                   <option value="postal">Postal Mail</option>
                 </select>
                 <span class="help-block collapse" id="spl-explain-contact-method">
-                  How should we reply? We prefer using email. 
+                  How should we reply? We prefer to use email. 
                 </span>
               </div>
             </div>
