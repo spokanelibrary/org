@@ -6,7 +6,7 @@
         <div class="panel panel-default">
           <div class="panel-body">            
             <h4>
-              <i class="glyphicon glyphicon-envelope text-muted"></i> 
+              <small class="glyphicon glyphicon-envelope text-muted"></small> 
               <a class="" 
                 href="/contact/" 
                 title="">Send us an email</a>
