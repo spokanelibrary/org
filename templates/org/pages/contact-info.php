@@ -19,13 +19,10 @@
       </a>
     </p>
     <hr>
-    <h4 class="text-muted">
-      Let's Socialize
-    </h4>
-    <ul class="nav nav-pills">
-      <li><a href="#" title="">Facebook</li>
-      <li><a href="#" title="">Twitter</li>
-      <li><a href="#" title="">Instagram</li>
-    </ul>
+    <p>
+      <a href="#" title="">Facebook</a>
+      <a href="#" title="">Twitter</a>
+      <a href="#" title="">Instagram</a>
+    </p>
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
