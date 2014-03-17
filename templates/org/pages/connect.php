@@ -14,7 +14,9 @@
         </p>
       </div><!-- /.panel -->
       <div class="panel-footer">
-        <a href="#" title="">More &rarr;</a>
+        <span class="pull-right">
+          <a href="#" title="">More &rarr;</a>
+        </span>
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
   </div><!-- /.col -->
