@@ -2,19 +2,6 @@
 
   <div class="col-md-8">
     
-    <div class="panel panel-primary">
-      <div class="panel-body">
-        <p class="lead text-center" style="margin-bottom:0;">
-        <a href="/contact/">
-          <i class="glyphicon glyphicon-exclamation-sign"></i>
-          For general inquiries, please <strong>contact us</strong> &rarr;
-        </a>
-        </p>
-      </div><!-- /.panel-body -->
-    </div><!-- /.panel -->
-    
-    <?php //echo do_shortcode('[spl_widget login-form label]'); ?>
-    
     <div class="panel panel-default">
       <div class="panel-body">
         <form class="form-horizontal spl-form" id="spl-form-contact" method="post" role="form">
