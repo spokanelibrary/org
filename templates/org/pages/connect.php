@@ -74,7 +74,7 @@
   </div><!-- /.col -->
   
   <div class="col-md-3">
-    <h3 class="text-muted">Let's Socialize</h3>
+    <h4 class="text-muted">Let's Socialize</h4>
     <p>
       Facebook
     </p>
