@@ -58,7 +58,7 @@
     <div class="panel panel-primary">
   <div class="panel-heading">
     <h4>
-      <i class="glyphicon glyphicon-phone"></i>
+      <i class="glyphicon glyphicon-phone-alt"></i>
       Phone it in
     </h4>
   </div><!-- /.panel-heading -->
