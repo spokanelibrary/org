@@ -42,10 +42,10 @@
               </div>
             </div>
             
-            <?php include 'common/form-contact-method.php'; ?>
-            <?php //include 'common/form-login.php'; ?>
-            <?php include 'common/form-contact.php'; ?>
-            <?php include 'common/form-submit.php'; ?>
+            <?php include 'common/field-contact-method.php'; ?>
+            <?php //include 'common/field-login.php'; ?>
+            <?php include 'common/field-contact.php'; ?>
+            <?php include 'common/field-submit.php'; ?>
 
           </fieldset>
         </form>
