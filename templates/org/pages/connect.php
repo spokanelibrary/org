@@ -3,8 +3,15 @@
   <div class="col-sm-4">
     <div class="panel panel-default">
       <div class="panel-heading">
-        Send an email
+        <h4>
+          <a href="#">Send an email</a>
+        </h4>
       </div><!-- /.panel-heading -->
+      <div class="panel-body">
+        <p>
+          Info.
+        </p>
+      </div><!-- /.panel -->
     </div><!-- /.panel -->
   </div><!-- /.col -->
 
@@ -16,12 +23,15 @@
     Get a library card
   </div><!-- /.col -->
 
+</div><!-- /.row -->
+<div class="row">
+
   <div class="col-sm-4">
     Request a title
   </div><!-- /.col -->
 
   <div class="col-sm-4">
-    Research obituaties &amp; birth announcements
+    Obituaties &amp; birth announcements
   </div><!-- /.col -->
 
   <div class="col-sm-4">
