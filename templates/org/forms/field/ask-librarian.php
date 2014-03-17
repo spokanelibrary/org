@@ -35,25 +35,6 @@
               Send us an email
             </legend>
             <div class="form-group">
-              <label for="spl-form-query-type" class="col-sm-4 control-label">
-                <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-query-type">
-                  <i class="glyphicon glyphicon-info-sign"></i>
-                </button>
-                A question about
-              </label>
-              <div class="col-sm-8">
-                <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
-                  <option value="library">Using the library</option>
-                  <option value="account">My Account</option>
-                  <option value="website">The library website</option>
-                  <option value="other">Something else</option>
-                </select>
-                <span class="help-block collapse" id="spl-explain-query-type">
-                  We use this information to route your inquiry.
-                </span>
-              </div>
-            </div>
-            <div class="form-group">
               <label for="spl-form-contact-method" class="col-sm-4 control-label">
                 <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-contact-method">
                   <i class="glyphicon glyphicon-info-sign"></i>
