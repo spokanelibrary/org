@@ -31,7 +31,7 @@
                     <strong>Obituary</strong> &ndash;
                     Most obituaries are classified ads; not everyone who dies has one. 
                     Death notices are more common and are sometimes submitted by funeral homes. 
-                    Be sure to search our Obituary Search first to see if you can find exact publication information.
+                    Be sure to search our <a href="http://old.spokanelibrary.org/obituaries/">Obituary Search</a> first to see if you can find exact publication information.
                   </label>
                 </div>
                 <div class="radio">
@@ -50,6 +50,17 @@
               <div class="col-sm-8">
                 <label class="text-muted form-control-static">Please be as specific as possible with your question.</label>
                 <textarea rows="6" class="form-control required" id="spl-form-question" name="spl-form[question]"></textarea>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="spl-form-question" class="col-sm-4 control-label">Names &amp; Dates </label>
+              <div class="col-sm-8">
+
+                One1
+                One2
+                One3
+                
               </div>
             </div>
             
