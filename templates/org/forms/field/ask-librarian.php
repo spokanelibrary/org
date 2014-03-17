@@ -53,9 +53,10 @@
               </div>
             </div>
             <div class="form-group">
-              <label for="spl-form-message" class="col-sm-4 control-label">Your message</label>
+              <label for="spl-form-question" class="col-sm-4 control-label">Your question</label>
+              <label for="spl-form-question" class="col-sm-4 control-label">Your question</label>
               <div class="col-sm-8">
-                <textarea rows="6" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
+                <textarea rows="6" class="form-control required" id="spl-form-question" name="spl-form[question]"></textarea>
               </div>
             </div>
             
