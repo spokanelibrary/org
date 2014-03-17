@@ -33,7 +33,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              Please use this form to request research assistance.
+              Please use this form to request research assistance from a staff librarian. We'd be glad to help!
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
