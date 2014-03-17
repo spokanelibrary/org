@@ -109,16 +109,6 @@
   </div><!-- /.col -->
   
   <div class="col-md-4">
-    <h4 class="text-muted">Let's Socialize</h4>
-    <p>
-      Facebook
-    </p>
-    <p>
-      Twitter
-    </p>
-    <p>
-      Instagram
-    </p>
 
     <?php echo do_shortcode('[spl_widget custom-page page=contact-info]'); ?>
 
