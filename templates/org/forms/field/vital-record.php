@@ -21,6 +21,18 @@
               <small class="glyphicon glyphicon-search"></small>
               Search for obituaries or birth announcements
             </legend>
+
+            <div class="form-group">
+              <label class="col-sm-4 control-label text-muted">Request Type</label>
+              <div class="col-sm-8">
+
+                <input type="radio" class="form-control" id="spl-form-announcement-obit" name="spl-form[announcement]">
+
+                <input type="radio" class="form-control" id="spl-form-announcement-birth" name="spl-form[announcement]">
+
+              </div>
+            </div>            
+
             <div class="form-group">
               <label for="spl-form-question" class="col-sm-4 control-label">I am trying to find</label>
               <div class="col-sm-8">
