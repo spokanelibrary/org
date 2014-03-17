@@ -1,8 +1,15 @@
 <div class="row">
   <div class="col-sm-8 col-md-9">
-    Stuff
+    <div class="col-sm-6">
+      <div class="panel panel-primary">
+        <div class="panel-body">
+          <a class="" href="#" title="">
+            <h4><i class="glyphicon glyphicon-envelope text-muted"></i> Ask a research question</h4>
+          </a>
+        </div><!-- /.panel-body -->
+      </div><!-- /.panel -->
+    </div><!-- /.col -->
   </div><!-- /.col -->
-</div><!-- /.row -->
   <div class="col-sm-4 col-md-3">
     Follow us on Facebook &amp; Twitter
   </div><!-- /.col -->
