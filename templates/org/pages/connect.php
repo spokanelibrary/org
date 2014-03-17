@@ -22,7 +22,7 @@
       </div><!-- /.col -->
       <div class="col-sm-6">
         <div class="panel panel-default">
-          <div class="panel-heading">
+          <div class="panel-heading panel-transparent">
             <h4>
               <i class="glyphicon glyphicon-question-sign text-muted"></i> 
               <a class="" 
@@ -43,7 +43,7 @@
     <div class="row">
       <div class="col-sm-6">
         <div class="panel panel-default">
-          <div class="panel-heading">
+          <div class="panel-heading panel-transparent">
             <h4>
               <i class="glyphicon glyphicon-barcode text-muted"></i> 
               <a class="" 
@@ -61,7 +61,7 @@
       </div><!-- /.col -->
       <div class="col-sm-6">
         <div class="panel panel-default">
-          <div class="panel-heading">
+          <div class="panel-heading panel-transparent">
             <h4>
               <i class="glyphicon glyphicon-search text-muted"></i> 
               <a class="" 
@@ -82,7 +82,7 @@
     <div class="row">
       <div class="col-sm-6">
         <div class="panel panel-default">
-          <div class="panel-heading">
+          <div class="panel-heading panel-transparent">
             <h4>
               <i class="glyphicon glyphicon-book text-muted"></i> 
               <a class="" 
@@ -100,7 +100,7 @@
       </div><!-- /.col -->
       <div class="col-sm-6">
         <div class="panel panel-default">
-          <div class="panel-heading">
+          <div class="panel-heading panel-transparent">
             <h4>
               <i class="glyphicon glyphicon-info-sign text-muted"></i> 
               <a class="" 
