@@ -38,7 +38,7 @@
       </a>
     </li>
     <li>
-      <a href="/contact/">
+      <a href="/connect/">
         <span class="visible-xs"><i class="glyphicon glyphicon-envelope"></i></span>
         <span class="hidden-xs"><i class="text-success glyphicon glyphicon-envelope"></i> Contact Us</span>
       </a>
