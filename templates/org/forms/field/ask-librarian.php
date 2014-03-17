@@ -72,16 +72,15 @@
     <div class="panel panel-warning">
       <div class="panel-heading">
         <h4>
-          <i class="glyphicon glyphicon-exclamation-sign"></i>
-          Out of town?
+          From out of town?
         </h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">
         <p>     
-          Spokane Public Library will research Spokane topics for out-of-town customers. 
+          Spokane Public Library will gladly research Spokane topics for out-of-town customers. 
         </p>
         <p>
-          For general questions, please contact your local library.
+          For general research questions, please contact your local library.
         </p>    
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
