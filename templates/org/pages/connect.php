@@ -4,8 +4,8 @@
     <div class="panel panel-primary">
       <div class="panel-heading">
         <a class="btn btn-block btn-primary" href="#" title="">
-          <i class="glyphicon glyphicon-envelope text-muted"></i>
-          Send an email
+          <i class="glyphicon glyphicon-envelope"></i>
+          <h4>Send an email</h4>
         </a>
       </div><!-- /.panel-heading -->
       <div class="panel-body">
