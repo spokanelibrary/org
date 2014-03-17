@@ -20,6 +20,7 @@
     </p>    
   </div><!-- /.panel-body -->
   <div class="panel-footer">
+    <h4 style="text-muted">Follow Us</h4>
     <p class="text-center">
       <a class=""
         href="http://facebook.com/spokanelibrary" 
