@@ -23,7 +23,7 @@
 
   <div class="col-sm-4">
     <a class="" href="#" title="">
-      <h4><i class="glyphicon glyphicon-envelope"></i> Ask a research question</h4>
+      <h4><i class="glyphicon glyphicon-envelope text-muted"></i> Ask a research question</h4>
     </a>
   </div><!-- /.col -->
 
