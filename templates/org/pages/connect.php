@@ -71,6 +71,41 @@
       </div><!-- /.col -->
     </div><!-- /.row -->
 
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-body">            
+            <h4>
+              <i class="glyphicon glyphicon-barcode text-muted"></i> 
+              <a class="" 
+                href="#" 
+                title="">Request a title</a>
+              <span class="text-muted">&rarr;</span>
+            </h4>
+            <p>
+              This is a description.
+            </p>
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h4>
+              <i class="glyphicon glyphicon-search text-muted"></i> 
+              <a class="" 
+                href="#" 
+                title="">Something else</a>
+              <span class="text-muted">&rarr;</span>
+            </h4>
+            <p>
+              This is a description.
+            </p>
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+
   </div><!-- /.col -->
   
   <div class="col-md-3">
@@ -81,30 +116,11 @@
     <p>
       Twitter
     </p>
+    <p>
+      Instagram
+    </p>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
+ss
 
-
-
-
-  <div class="col-sm-4">
-    Get a library card
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
-<div class="row">
-
-  <div class="col-sm-4">
-    Request a title
-  </div><!-- /.col -->
-
-  <div class="col-sm-4">
-    Obituaties &amp; birth announcements
-  </div><!-- /.col -->
-
-  <div class="col-sm-4">
-    Follow us on Facebook &amp; Twitter
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
