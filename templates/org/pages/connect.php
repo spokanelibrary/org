@@ -95,7 +95,7 @@
               <i class="glyphicon glyphicon-info-sign text-muted"></i> 
               <a class="" 
                 href="#" 
-                title="">Frequently asked questions</a>
+                title="">Frequently asked</a>
               <span class="text-muted">&rarr;</span>
             </h4>
             <p>
