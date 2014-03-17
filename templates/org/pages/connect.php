@@ -6,7 +6,7 @@
         <div class="panel panel-default">
           <div class="panel-body">            
             <h4>
-              <small class="glyphicon glyphicon-envelope text-muted"></small> 
+              <i class="glyphicon glyphicon-envelope text-muted"></i> 
               <a class="" 
                 href="/contact/" 
                 title="">Send us an email</a>
@@ -24,7 +24,7 @@
             <h4>
               <i class="glyphicon glyphicon-question-sign text-muted"></i> 
               <a class="" 
-                href="#" 
+                href="/ask/" 
                 title="">Ask a research question</a>
               <span class="text-muted">&rarr;</span>
             </h4>
@@ -43,7 +43,7 @@
             <h4>
               <i class="glyphicon glyphicon-barcode text-muted"></i> 
               <a class="" 
-                href="#" 
+                href="/card/" 
                 title="">Your library card</a>
               <span class="text-muted">&rarr;</span>
             </h4>
@@ -59,7 +59,7 @@
             <h4>
               <i class="glyphicon glyphicon-search text-muted"></i> 
               <a class="" 
-                href="#" 
+                href="/vital/" 
                 title="">Research vital records</a>
               <span class="text-muted">&rarr;</span>
             </h4>
@@ -78,7 +78,7 @@
             <h4>
               <i class="glyphicon glyphicon-book text-muted"></i> 
               <a class="" 
-                href="#" 
+                href="/request/" 
                 title="">Request a title</a>
               <span class="text-muted">&rarr;</span>
             </h4>
@@ -94,7 +94,7 @@
             <h4>
               <i class="glyphicon glyphicon-info-sign text-muted"></i> 
               <a class="" 
-                href="#" 
+                href="/faq/" 
                 title="">Frequently asked</a>
               <span class="text-muted">&rarr;</span>
             </h4>

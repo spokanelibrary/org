@@ -20,8 +20,8 @@
     </p>
     <hr>
     <p class="text-center">
-      <a href="#" title="">Facebook</a>
-      <a href="#" title="">Twitter</a>
+      <a href="http://facebook.com/spokanelibrary" title="">Facebook</a>
+      <a href="http://twitter.com/spokanelibrary" title="">Twitter</a>
       <a href="#" title="">Instagram</a>
     </p>
   </div><!-- /.panel-body -->
