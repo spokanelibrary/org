@@ -27,7 +27,7 @@
               <i class="glyphicon glyphicon-question-sign text-muted"></i> 
               <a class="" 
                 href="/ask/" 
-                title="">Ask a research question</a>
+                title="">Ask a librarian</a>
               <span class="text-muted">&rarr;</span>
             </h4>
           </div><!-- /.panel-heading -->
