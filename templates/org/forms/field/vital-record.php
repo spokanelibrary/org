@@ -25,18 +25,18 @@
             <div class="form-group">
               <label class="col-sm-4 control-label text-muted">Request Type</label>
               <div class="col-sm-8">
-
                 <div class="radio">
                   <label>
-                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                    Option one is this and that&mdash;be sure to include why it's great
+                    <input type="radio" id="spl-form-announcement-obit" name="spl-form[announcement]" value="obit" checked>
+                    <strong>Obituaries</strong>
                   </label>
                 </div>
-
-                <input type="radio" class="" id="spl-form-announcement-obit" name="spl-form[announcement]">
-
-                <input type="radio" class="" id="spl-form-announcement-birth" name="spl-form[announcement]">
-
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="spl-form-announcement-birth" name="spl-form[announcement]" value="birth">
+                    <strong>Birth Notices</strong>
+                  </label>
+                </div>
               </div>
             </div>            
 
