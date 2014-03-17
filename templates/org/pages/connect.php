@@ -6,7 +6,7 @@
   <div class="col-sm-4 col-md-3">
     Follow us on Facebook &amp; Twitter
   </div><!-- /.col -->
-<div class="row">
+</div><!-- /.row -->
 
 
   <div class="col-sm-4">
