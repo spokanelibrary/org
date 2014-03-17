@@ -22,7 +22,7 @@
               Search for obituaries or birth announcements
             </legend>
             <div class="form-group">
-              <label for="spl-form-question" class="col-sm-4 control-label">My research question</label>
+              <label for="spl-form-question" class="col-sm-4 control-label">I am trying to find</label>
               <div class="col-sm-8">
                 <label class="text-muted form-control-static">Please be as specific as possible with your question.</label>
                 <textarea rows="6" class="form-control required" id="spl-form-question" name="spl-form[question]"></textarea>
@@ -58,7 +58,7 @@
           This form is for obituary and birth announcement requests for <strong>out-of-town customers only</strong>. 
         </p>
         <p>
-          If you live in the Spokane area, you are expected to come in to do your research. We'll be glad to help!
+          If you live in the Spokane area, we ask that you come in to do your research. We'll be glad to help!
         </p>    
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
