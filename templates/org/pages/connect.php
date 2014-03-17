@@ -60,11 +60,11 @@
               <i class="glyphicon glyphicon-envelope text-muted"></i> 
               <a class="" 
                 href="#" 
-                title="">Obituary &amp; birth announcements</a>
+                title="">Research vital records</a>
               <span class="text-muted">&rarr;</span>
             </h4>
             <p>
-              This is a descriptoion.
+              This is a descriptoion. Obituary &amp; birth announcements
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
