@@ -81,7 +81,19 @@
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
-    <h4>Obituaries &amp; birth announcements</h4>
+    <div class="panel panel-warning">
+      <div class="panel-heading">
+        <h4>
+          <i class="glyphicon glyphicon-phone-alt"></i>
+          Out of town?
+        </h4>
+      </div><!-- /.panel-heading -->
+      <div class="panel-body">
+        <p>     
+          Spokane Public Library will research Spokane topics for out-of-town customers. For general questions, please contact your local library.
+        </p>    
+      </div><!-- /.panel-body -->
+    </div><!-- /.panel -->
 
   </div><!-- /.col -->
 
