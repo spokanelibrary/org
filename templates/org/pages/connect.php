@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-md-9">
+  <div class="col-md-8">
     
     <div class="row">
       <div class="col-sm-6">
@@ -108,7 +108,7 @@
 
   </div><!-- /.col -->
   
-  <div class="col-md-3">
+  <div class="col-md-4">
     <h4 class="text-muted">Let's Socialize</h4>
     <p>
       Facebook
