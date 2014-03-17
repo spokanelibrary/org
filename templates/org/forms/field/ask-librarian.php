@@ -72,7 +72,7 @@
     <div class="panel panel-warning">
       <div class="panel-heading">
         <h4>
-          <i class="glyphicon exclamation-sign"></i>
+          <i class="glyphicon glyphicon-exclamation-sign"></i>
           Out of town?
         </h4>
       </div><!-- /.panel-heading -->
