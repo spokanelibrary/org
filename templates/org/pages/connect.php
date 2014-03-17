@@ -12,7 +12,7 @@
         <p>
           Info.
         </p>
-      </div><!-- /.panel -->
+      </div><!-- /.panel-body -->
       <div class="panel-footer">
         <div class="text-right">
           <a href="#" title="">More &rarr;</a>
@@ -23,9 +23,11 @@
 
   <div class="col-sm-4">
     <div class="panel panel-primary">
+      <div class="panel-body">
     <a class="" href="#" title="">
       <h4><i class="glyphicon glyphicon-envelope text-muted"></i> Ask a research question</h4>
     </a>
+      </div><!-- /.panel-body -->
     </div><!-- /.panel -->
   </div><!-- /.col -->
 
