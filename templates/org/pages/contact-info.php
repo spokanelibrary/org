@@ -20,10 +20,11 @@
     </p>
     <hr>
     <p class="text-center">
-      <a class="pull-left"
+      <a class=""
         href="http://facebook.com/spokanelibrary" 
         title=""><img src="/assets/img/icons/16px/facebook.png"> <strong>Facebook</strong></a>
-      <a class="pull-right text-info" 
+      &nbsp;&nbsp;
+      <a class="text-info" 
         href="http://twitter.com/spokanelibrary" 
         title=""><img src="/assets/img/icons/16px/twitter.png"> <strong>Twitter</strong></a>
     </p>
