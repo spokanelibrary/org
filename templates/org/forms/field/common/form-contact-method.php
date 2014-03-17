@@ -9,7 +9,7 @@
       <option value="postal">Postal Mail</option>
     </select>
     <span class="help-block">
-      How should we reply? We prefer to use email. 
+      We prefer to use email. Let us know what works for you.
     </span>
   </div>
 </div>
