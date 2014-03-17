@@ -15,7 +15,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <p>
-              This is a description.
+              Contact us with questions about your account or general inquiries about the library.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
@@ -33,7 +33,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              This is a description.
+              Please use this form to request research assistance.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
