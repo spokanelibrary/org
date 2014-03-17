@@ -54,8 +54,8 @@
             </div>
             <div class="form-group">
               <label for="spl-form-question" class="col-sm-4 control-label">Your question</label>
-              <label for="spl-form-question" class="col-sm-4 control-label">Your question</label>
               <div class="col-sm-8">
+                <span class="help-block">Help block</span>
                 <textarea rows="6" class="form-control required" id="spl-form-question" name="spl-form[question]"></textarea>
               </div>
             </div>
