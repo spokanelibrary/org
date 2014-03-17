@@ -47,10 +47,13 @@
       <div class="panel-heading">
         <h4>
           <i class="glyphicon glyphicon-exclamation-sign"></i>
-          Please note
+          Spokane residents
         </h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">
+        <p>
+          <strong>Please note:</strong>
+        </p>
         <p>     
           This form is for obituary and birth announcement requests for <strong>out-of-town customers only</strong>. 
         </p>
