@@ -19,7 +19,7 @@
       </a>
     </p>    
   </div><!-- /.panel-body -->
-  <div class="panel-footer text-center">
+  <div class="panel-footer panel-transparent text-center">
       <a class=""
         href="http://facebook.com/spokanelibrary" 
         title=""><img src="/assets/img/icons/16px/facebook.png"> <strong>Facebook</strong></a>

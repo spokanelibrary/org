@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-sm-6">
         <div class="panel panel-default">
-          <div class="panel-heading">
+          <div class="panel-heading panel-transparent">
             <h4>
               <i class="glyphicon glyphicon-envelope text-muted"></i> 
               <a class="" 
