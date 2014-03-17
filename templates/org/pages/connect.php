@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-sm-6">
         <div class="panel panel-default">
-          <div class="panel-body">            
+          <div class="panel-heading">
             <h4>
               <i class="glyphicon glyphicon-envelope text-muted"></i> 
               <a class="" 
@@ -12,6 +12,8 @@
                 title="">Send us an email</a>
               <span class="text-muted">&rarr;</span>
             </h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">            
             <p>
               This is a description.
             </p>
