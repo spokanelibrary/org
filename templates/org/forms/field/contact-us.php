@@ -91,6 +91,16 @@
 
   <div class="col-md-4">
     <?php echo do_shortcode('[spl_widget custom-page page=contact-info]'); ?>
+    <p>
+      <a class="btn btn-block btn-primary" title="How do I?" href="/how">
+        <i class="glyphicon glyphicon-question-sign"></i>
+        Frequently Asked Questions &rarr;
+      </a>
+    </p>
+
+
+
+
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4>Spokane Public Library</h4>
