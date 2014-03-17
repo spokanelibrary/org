@@ -19,7 +19,7 @@
       </a>
     </p>
     <hr>
-    <p>
+    <p class="text-center">
       <a href="#" title="">Facebook</a>
       <a href="#" title="">Twitter</a>
       <a href="#" title="">Instagram</a>
