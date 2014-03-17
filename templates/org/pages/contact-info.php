@@ -1,15 +1,6 @@
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4>Spokane Public Library</h4>
-    <p class="text-center">
-      <a class=""
-        href="http://facebook.com/spokanelibrary" 
-        title=""><img src="/assets/img/icons/16px/facebook.png"> <strong>Facebook</strong></a>
-      &nbsp;&nbsp;
-      <a class="text-info" 
-        href="http://twitter.com/spokanelibrary" 
-        title=""><img src="/assets/img/icons/16px/twitter.png"> <strong>Twitter</strong></a>
-    </p>
   </div><!-- /.panel-heading -->
   <div class="panel-body">
     <p>     
