@@ -31,8 +31,8 @@
 
           <fieldset>
             <legend class="text-muted">
-              <small class="glyphicon glyphicon-envelope"></small>
-              Send us an email
+              <small class="glyphicon glyphicon-question-sign"></small>
+              You research question
             </legend>
             <div class="form-group">
               <label for="spl-form-contact-method" class="col-sm-4 control-label">
@@ -48,14 +48,14 @@
                   <option value="postal">Postal Mail</option>
                 </select>
                 <span class="help-block collapse" id="spl-explain-contact-method">
-                  We prefer to respond using email; let us know what works for you. 
+                  How should we respond? We prefer using email when possible. 
                 </span>
               </div>
             </div>
             <div class="form-group">
               <label for="spl-form-question" class="col-sm-4 control-label">Your question</label>
               <div class="col-sm-8">
-                <span class="help-block">Help block</span>
+                <span class="help-block">Please be as specific as possible.</span>
                 <textarea rows="6" class="form-control required" id="spl-form-question" name="spl-form[question]"></textarea>
               </div>
             </div>
@@ -72,7 +72,7 @@
   </div><!-- /.row -->
 
   <div class="col-md-4">
-    <?php echo do_shortcode('[spl_widget custom-page page=contact-info]'); ?>
+    Did you know?
   </div><!-- /.col -->
 
 </div><!-- /.row -->
