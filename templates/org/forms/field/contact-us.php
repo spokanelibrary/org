@@ -53,24 +53,7 @@
                 </span>
               </div>
             </div>
-            <div class="form-group">
-              <label for="spl-form-contact-method" class="col-sm-4 control-label">
-                <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-contact-method">
-                  <i class="glyphicon glyphicon-info-sign"></i>
-                </button>
-                Contact method
-              </label>
-              <div class="col-sm-8">
-                <select class="form-control" id="spl-form-contact-method" name="spl-form[contact-method]">
-                  <option value="email" selected>Email</option>
-                  <option value="phone">Telephone</option>
-                  <option value="postal">Postal Mail</option>
-                </select>
-                <span class="help-block collapse" id="spl-explain-contact-method">
-                  We prefer to respond using email; let us know what works for you. 
-                </span>
-              </div>
-            </div>
+            
             <div class="form-group">
               <label for="spl-form-message" class="col-sm-4 control-label">My message</label>
               <div class="col-sm-8">
@@ -78,6 +61,7 @@
               </div>
             </div>
             
+            <?php include 'common/form-contact-method.php'; ?>
             <?php include 'common/form-login.php'; ?>
             <?php include 'common/form-contact.php'; ?>
             <?php include 'common/form-submit.php'; ?>
