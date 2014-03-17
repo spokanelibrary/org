@@ -4,7 +4,8 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4>
-          <a href="#">Send an email</a>
+          <i class="glyphicon glyphicon-envelope text-muted"></i>
+          <a href="#" title="">Send an email</a>
         </h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">
@@ -12,6 +13,9 @@
           Info.
         </p>
       </div><!-- /.panel -->
+      <div class="panel-footer">
+        <a href="#" title="">More &rarr;</a>
+      </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
   </div><!-- /.col -->
 
