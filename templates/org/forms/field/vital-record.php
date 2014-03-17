@@ -26,9 +26,9 @@
               <label class="col-sm-4 control-label text-muted">Request Type</label>
               <div class="col-sm-8">
 
-                <input type="radio" class="form-control" id="spl-form-announcement-obit" name="spl-form[announcement]">
+                <input type="radio" class="" id="spl-form-announcement-obit" name="spl-form[announcement]">
 
-                <input type="radio" class="form-control" id="spl-form-announcement-birth" name="spl-form[announcement]">
+                <input type="radio" class="" id="spl-form-announcement-birth" name="spl-form[announcement]">
 
               </div>
             </div>            
