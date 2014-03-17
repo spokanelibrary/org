@@ -29,12 +29,17 @@
                   <label>
                     <input type="radio" id="spl-form-announcement-obit" name="spl-form[announcement]" value="obit" checked>
                     <strong>Obituaries</strong>
+                    Most obituaries are classified ads; not everyone who dies has one. 
+                    Death notices are more common and are sometimes submitted by funeral homes. 
+                    Be sure to search our Obituary Search first to see if you can find exact publication information.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
                     <input type="radio" id="spl-form-announcement-birth" name="spl-form[announcement]" value="birth">
                     <strong>Birth Notices</strong>
+                    Birth Notices are submitted by hospitals, but only when the child is released. 
+                    A newborn with health problems may not appear in the newspaper right away.
                   </label>
                 </div>
               </div>
