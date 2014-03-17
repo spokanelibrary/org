@@ -13,7 +13,7 @@
           Info.
         </p>
       </div><!-- /.panel -->
-      <div class="panel-footer">
+      <div class="panel-footer panel-transparent">
         <div class="text-right">
           <a href="#" title="">More &rarr;</a>
         </div>
