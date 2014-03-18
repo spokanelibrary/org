@@ -43,27 +43,24 @@
                   </label>
                 </div>
               </div>
-            </div>            
-
-            <div class="form-group">
-              <label for="spl-form-question" class="col-sm-4 control-label">I am trying to find</label>
-              <div class="col-sm-8">
-                <label class="text-muted form-control-static">Please be as specific as possible with your question.</label>
-                <textarea rows="6" class="form-control required" id="spl-form-question" name="spl-form[question]"></textarea>
-              </div>
-            </div>
+            </div>     
 
             <div class="form-group">
               <label for="spl-form-question" class="col-sm-4 control-label">Names &amp; Dates </label>
               <div class="col-sm-8">
-
-                One1
-                One2
-                One3
+                <p class="form-control-static">Please be as specific as possible with your question.</p>
                 
               </div>
+            </div>   
+
+            <div class="form-group">
+              <label for="spl-form-question" class="col-sm-4 control-label">I am trying to find</label>
+              <div class="col-sm-8">
+                <p class="form-control-static">Please be as specific as possible with your question.</p>
+                <textarea rows="6" class="form-control required" id="spl-form-question" name="spl-form[question]"></textarea>
+              </div>
             </div>
-            
+
             <?php include 'common/field-contact-method.php'; ?>
             <?php //include 'common/field-login.php'; ?>
             <?php include 'common/field-contact-no-card.php'; ?>
