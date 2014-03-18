@@ -11,6 +11,7 @@
         echo $renew->html;
       } else {
         echo 'ok, here we go';
+        '<pre>'.print_r($renew).'</pre>';
       }
     ?>
        
