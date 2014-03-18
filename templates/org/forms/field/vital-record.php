@@ -46,9 +46,17 @@
             </div>     
 
             <div class="form-group">
-              <label for="spl-form-question" class="col-sm-4 control-label">Names &amp; dates to search </label>
+              <label for="spl-form-question" class="col-sm-4 control-label">Names to search </label>
               <div class="col-sm-8">
-                <p class="form-control-static">Please be as specific as possible with your question.</p>
+                <p class="form-control-static">Enter up to <strong>3</strong> you'd like to find.</p>
+                
+              </div>
+            </div> 
+
+            <div class="form-group">
+              <label for="spl-form-question" class="col-sm-4 control-label">Dates to search </label>
+              <div class="col-sm-8">
+                <p class="form-control-static">Enter up to <strong>3</strong> event or publication dates.</p>
                 
               </div>
             </div>   
