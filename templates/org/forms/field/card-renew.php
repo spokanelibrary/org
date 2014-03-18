@@ -8,11 +8,12 @@
     <?php if ( !empty($renew->html) ) : ?>
     <?php echo $renew->html; ?>
     <?php else : ?>
+    <p>
       ok, here we go
-    <?php echo '<pre>'.print_r($renew).'</pre>'; ?>
+    </p>
+    <?php //echo '<pre>'.print_r($renew, true).'</pre>'; ?>
     <?php endif; ?>
-    ?>
-       
+    
     
     <div class="panel panel-default">
       <div class="panel-body">
