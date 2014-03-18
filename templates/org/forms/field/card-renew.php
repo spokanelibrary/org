@@ -21,13 +21,15 @@
 
           <fieldset>
             <legend class="text-muted">
-              <small class="glyphicon glyphicon-envelope"></small>
+              <small class="glyphicon glyphicon-barcode"></small>
               Renew your card
             </legend>
             
             
+            <?php print_r($_SESSION['spl']); ?>
+
             <?php //include 'common/field-contact-method.php'; ?>
-            <?php include 'common/field-login.php'; ?>
+            <?php //include 'common/field-login.php'; ?>
             <?php //include 'common/field-contact.php'; ?>
             <?php //include 'common/field-submit.php'; ?>
             
