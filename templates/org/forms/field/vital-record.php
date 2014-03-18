@@ -23,7 +23,7 @@
             </legend>
 
             <div class="form-group">
-              <label class="col-sm-4 control-label text-muted">I am looking for a</label>
+              <label class="col-sm-4 control-label">I am looking for a</label>
               <div class="col-sm-8">
                 <div class="radio">
                   <label>
