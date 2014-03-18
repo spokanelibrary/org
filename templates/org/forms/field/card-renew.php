@@ -2,14 +2,10 @@
 
   <div class="col-md-8">
 
-    <?php echo do_shortcode('[spl_widget login-form label post=renew intro=Please]'); ?>
+    <?php echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]'); ?>
 
-    <?php //echo do_shortcode('[spl_widget card-renewal]'); ?>
-
-
-            
-    <div class="spl-login" data-callback-method="loadUserFormFields">
-              
+    <?php echo do_shortcode('[spl_widget card-renewal]'); ?>
+       
     
     <div class="panel panel-default">
       <div class="panel-body">
@@ -44,9 +40,6 @@
         </form>
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
-
-    </div>
-            
 
   </div><!-- /.row -->
 
