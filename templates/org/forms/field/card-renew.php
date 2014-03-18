@@ -3,7 +3,7 @@
   <div class="col-md-8">
 
     
-    <?php echo do_shortcode('[spl_widget login-form label page=renew]'); ?>
+    <?php echo do_shortcode('[spl_widget login-form label post=renew]'); ?>
     
     <div class="panel panel-default">
       <div class="panel-body">
