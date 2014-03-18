@@ -46,26 +46,34 @@
             </div>     
 
             <div class="form-group">
-              <label for="spl-form-question" class="col-sm-4 control-label">Name(s) to search </label>
+              <label for="" class="col-sm-4 control-label">Name(s) to search </label>
               <div class="col-sm-8">
                 <p class="form-control-static">Enter up to <strong>3</strong> names you'd like us to search.</p>
                 <p>
                   <input type="text" id="spl-form-announcement-name-1" name="spl-form[announcement-name][1]" class="form-control required" placeholder="">
                 </p>
                 <p>
-                  <input type="text" id="spl-form-announcement-name-2" name="spl-form[announcement-name][2]" class="form-control" placeholder="Name...">
+                  <input type="text" id="spl-form-announcement-name-2" name="spl-form[announcement-name][2]" class="form-control" placeholder="">
                 </p>
                 <p>
-                  <input type="text" id="spl-form-announcement-name-3" name="spl-form[announcement-name][3]" class="form-control" placeholder="Name...">
+                  <input type="text" id="spl-form-announcement-name-3" name="spl-form[announcement-name][3]" class="form-control" placeholder="">
                 </p>
               </div>
             </div> 
 
             <div class="form-group">
-              <label for="spl-form-question" class="col-sm-4 control-label">Date(s) to search </label>
+              <label for="" class="col-sm-4 control-label">Date(s) to search </label>
               <div class="col-sm-8">
                 <p class="form-control-static">Enter up to <strong>3</strong> event or publication dates.</p>
-                
+                <p>
+                  <input type="text" id="spl-form-announcement-date-1" name="spl-form[announcement-date][1]" class="form-control required" placeholder="">
+                </p>
+                <p>
+                  <input type="text" id="spl-form-announcement-date-2" name="spl-form[announcement-date][2]" class="form-control" placeholder="">
+                </p>
+                <p>
+                  <input type="text" id="spl-form-announcement-date-3" name="spl-form[announcement-date][3]" class="form-control" placeholder="">
+                </p>
               </div>
             </div>   
 
