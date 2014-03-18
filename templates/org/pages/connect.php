@@ -72,7 +72,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              Request an obituary or birth notice search.
+              Out-of-town users may request an obituary or birth notice search.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
