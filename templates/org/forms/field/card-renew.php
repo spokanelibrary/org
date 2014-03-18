@@ -3,8 +3,6 @@
   <div class="col-md-8">
 
     
-    <?php echo do_shortcode('[spl_widget login-form label post=renew]'); ?>
-    
     <div class="panel panel-default">
       <div class="panel-body">
         <form class="form-horizontal spl-form" id="spl-form-renew" method="post" role="form">
@@ -25,6 +23,10 @@
               Renew your card
             </legend>
             
+            <div class="form-group spl-login collapse in" data-callback-method="loadUserFormFields">
+              <?php echo do_shortcode('[spl_widget login-form label post=renew]'); ?>
+            
+            </div>
             
             <?php //echo '<pre>'.print_r($_SESSION['spl'], true).'</pre>'; ?>
 
