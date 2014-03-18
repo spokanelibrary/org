@@ -46,15 +46,23 @@
             </div>     
 
             <div class="form-group">
-              <label for="spl-form-question" class="col-sm-4 control-label">Names to search </label>
+              <label for="spl-form-question" class="col-sm-4 control-label">Name(s) to search </label>
               <div class="col-sm-8">
-                <p class="form-control-static">Enter up to <strong>3</strong> you'd like to find.</p>
-                
+                <p class="form-control-static">Enter up to <strong>3</strong> names you'd like us to search.</p>
+                <p>
+                  <input type="text" id="spl-form-announcement-name-1" name="spl-form[announcement-name][1]" class="required" placeholder="">
+                </p>
+                <p>
+                  <input type="text" id="spl-form-announcement-name-2" name="spl-form[announcement-name][2]" class="" placeholder="Name...">
+                </p>
+                <p>
+                  <input type="text" id="spl-form-announcement-name-3" name="spl-form[announcement-name][3]" class="" placeholder="Name...">
+                </p>
               </div>
             </div> 
 
             <div class="form-group">
-              <label for="spl-form-question" class="col-sm-4 control-label">Dates to search </label>
+              <label for="spl-form-question" class="col-sm-4 control-label">Date(s) to search </label>
               <div class="col-sm-8">
                 <p class="form-control-static">Enter up to <strong>3</strong> event or publication dates.</p>
                 
