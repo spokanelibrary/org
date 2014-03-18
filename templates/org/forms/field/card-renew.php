@@ -11,7 +11,7 @@
     <p>
       ok, here we go
     </p>
-    <?php echo '<pre>'.print_r($renew, true).'</pre>'; ?>
+    <?php echo print_r($renew, true); ?>
     <?php endif; ?>
     
     
