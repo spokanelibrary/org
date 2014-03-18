@@ -26,7 +26,7 @@
             </legend>
             
             
-            <?php echo '<pre>'.print_r($_SESSION['spl'], true).'</pre>'; ?>
+            <?php //echo '<pre>'.print_r($_SESSION['spl'], true).'</pre>'; ?>
 
             <?php //include 'common/field-contact-method.php'; ?>
             <?php //include 'common/field-login.php'; ?>
