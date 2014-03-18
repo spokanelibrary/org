@@ -72,7 +72,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              This is a description. Obituary &amp; birth announcements
+              Request an obituary or birth notice search.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
