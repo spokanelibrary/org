@@ -7,7 +7,7 @@
     <?php $renew = do_shortcode('[spl_widget card-renew]'); ?>
     <?php if ( !empty($renew->html) ) : ?>
     <?php echo $renew->html; ?>
-    <?php else : ?>
+    <?php elseif (isset($renew) && empty($renew->html) ) : ?>
     <p>
       ok, here we go
     </p>
