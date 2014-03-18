@@ -2,7 +2,7 @@
 
   <div class="col-md-8">
 
-    <?php echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]'); ?>
+    <?php echo do_shortcode('[spl_widget login-form label post=renew intro=Please login to get started.]'); ?>
 
     <?php echo do_shortcode('[spl_widget card-renewal]'); ?>
 
