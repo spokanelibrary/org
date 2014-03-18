@@ -50,13 +50,13 @@
               <div class="col-sm-8">
                 <p class="form-control-static">Enter up to <strong>3</strong> names you'd like us to search.</p>
                 <p>
-                  <input type="text" id="spl-form-announcement-name-1" name="spl-form[announcement-name][1]" class="required" placeholder="">
+                  <input type="text" id="spl-form-announcement-name-1" name="spl-form[announcement-name][1]" class="form-control required" placeholder="">
                 </p>
                 <p>
-                  <input type="text" id="spl-form-announcement-name-2" name="spl-form[announcement-name][2]" class="" placeholder="Name...">
+                  <input type="text" id="spl-form-announcement-name-2" name="spl-form[announcement-name][2]" class="form-control" placeholder="Name...">
                 </p>
                 <p>
-                  <input type="text" id="spl-form-announcement-name-3" name="spl-form[announcement-name][3]" class="" placeholder="Name...">
+                  <input type="text" id="spl-form-announcement-name-3" name="spl-form[announcement-name][3]" class="form-control" placeholder="Name...">
                 </p>
               </div>
             </div> 
