@@ -46,7 +46,7 @@
             </div>     
 
             <div class="form-group">
-              <label for="spl-form-question" class="col-sm-4 control-label">Names &amp; Dates </label>
+              <label for="spl-form-question" class="col-sm-4 control-label">Names &amp; dates to search </label>
               <div class="col-sm-8">
                 <p class="form-control-static">Please be as specific as possible with your question.</p>
                 
