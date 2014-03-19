@@ -34,7 +34,7 @@
             </legend>
             
             <p>
-              Please take a moment to review your contact information.
+              Please take a moment to review your contact information and update any inaccuracies.
             </p>
 
             <input type="hidden" name="spl-form[previous][name]" value="<?php echo $renew->borrower->name; ?>" />
