@@ -6,17 +6,13 @@
 
     <?php $renew =  json_decode(do_shortcode('[spl_widget card-renew]')); ?>
     
-    <?php if ( isset($renew->login) ) : ?>
-    <?php echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]'); ?>
-    <?php elseif (isset($renew->status) && empty($renew->html) ) :
-      echo 'show some info';
-    endif; 
+    <?php //if ( isset($renew->login) ) : ?>
+    <?php //echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]'); ?>
+    <?php //elseif (isset($renew->status) && empty($renew->html) ) :
+      //echo 'show some info';
+    //endif; 
     ?>
-    <?php //if ( !empty($renew->html) ) : ?>
-    <?php //echo $renew->html; ?>
-    <?php //elseif (isset($renew->status) && empty($renew->html) ) : ?>
-    <?php //echo print_r($renew, true); ?>
-    <?php //endif; ?>
+
     
     
     <div class="panel panel-default">
