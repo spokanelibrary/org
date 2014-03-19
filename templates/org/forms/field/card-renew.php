@@ -32,12 +32,12 @@
             </legend>
             
 
-            <input type="hidden" name="spl-form[previous][name]" value="{{name}}" />
-            <input type="hidden" name="spl-form[previous][email]" value="{{email}}" />
-            <input type="hidden" name="spl-form[previous][phone]" value="{{phone}}" />
-            <input type="hidden" name="spl-form[previous][street]" value="{{street}}" />
-            <input type="hidden" name="spl-form[previous][city-st]" value="{{city_st}}" />
-            <input type="hidden" name="spl-form[previous][zip]" value="{{zip}}" />
+            <input type="hidden" name="spl-form[previous][name]" value="<?php echo $renew->borrower->name; ?>" />
+            <input type="hidden" name="spl-form[previous][email]" value="<?php echo $renew->borrower->email; ?>" />
+            <input type="hidden" name="spl-form[previous][phone]" value="<?php echo $renew->borrower->phone; ?>" />
+            <input type="hidden" name="spl-form[previous][street]" value="<?php echo $renew->borrower->street; ?>" />
+            <input type="hidden" name="spl-form[previous][city-st]" value="<?php echo $renew->borrower->city_st; ?>" />
+            <input type="hidden" name="spl-form[previous][zip]" value="<?php echo $renew->borrower->zip; ?>" />
 
             <input type="hidden" name="spl-form[borrower]" value="{{borrower}}" />
             <input type="hidden" name="spl-form[time]" value="{{time}}" />
@@ -88,15 +88,22 @@
               </div>
             </div>
 
+            <div class="form-group">
+              <div class="col-sm-offset-4 col-sm-4">
+                <button type="submit" class="btn btn-block btn-success">
+                  <small class="glyphicon glyphicon-check"></small>
+                  Renew my library card now &rarr;
+                </button>
+              </div>
+            </div>
 
-            <pre>
-            <?php print_r($renew->borrower); ?>
-            </pre>
-
+            
+            <?php //print_r('<pre>'.$renew->borrower.'</pre>'); ?>
+            
             <?php //include 'common/field-contact-method.php'; ?>
             <?php //include 'common/field-login.php'; ?>
             <?php //include 'common/field-contact.php'; ?>
-            <?php include 'common/field-submit.php'; ?>
+            <?php //include 'common/field-submit.php'; ?>
             
           </fieldset>
         </form>
