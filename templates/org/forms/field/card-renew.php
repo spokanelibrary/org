@@ -4,7 +4,7 @@
 
     <?php echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]'); ?>
 
-    <?php $renew =  //json_decode(do_shortcode('[spl_widget card-renew]')); ?>
+    <?php //$renew =  json_decode(do_shortcode('[spl_widget card-renew]')); ?>
     
     <?php
       echo '<pre>';
