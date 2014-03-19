@@ -12,19 +12,23 @@
           print_r($renew->borrower);
           break;
         case 'problem':
+          echo '<div class="alert alert-warning">';
           echo $renew->borrower->status_msg;
+          echo '</div>';
           break;
         case 'bad':
+          echo '<div class="alert alert-danger">';
           echo $renew->borrower->status_msg;
+          echo '</div>';
         default:
+          echo '<div class="alert alert-danger">';
           echo 'An unknown error occurred. Please call our Circulation Desk at 509-444-5333 or <a href="http://www.spokanelibrary.org/contact">contact us</a> for assistance.';
+          echo '</div>';
           break;
       }
     } 
     ?>
     
-
-        
     <div class="panel panel-default">
       <div class="panel-body">
         <form class="form-horizontal spl-form" id="spl-form-renew" method="post" role="form">
