@@ -31,9 +31,31 @@
               Renew your card
             </legend>
             
+
+            <input type="hidden" name="spl-form[previous][name]" value="{{name}}" />
+            <input type="hidden" name="spl-form[previous][email]" value="{{email}}" />
+            <input type="hidden" name="spl-form[previous][phone]" value="{{phone}}" />
+            <input type="hidden" name="spl-form[previous][street]" value="{{ba1}}
+            {{ba2}}
+            {{ba3}}
+            {{ba4}}" />
+            <input type="hidden" name="spl-form[previous][city-st]" value="{{city_st}}" />
+            <input type="hidden" name="spl-form[previous][zip]" value="{{zip}}" />
+
+            <input type="hidden" name="spl-form[borrower]" value="{{borrower}}" />
+            <input type="hidden" name="spl-form[time]" value="{{time}}" />
+
             <pre>
             <?php print_r($renew->borrower); ?>
             </pre>
+
+            <div class="form-group">
+              <label for="spl-form-name" class="col-sm-4 control-label">My name</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control required" id="spl-form-name" name="spl-form[contact][name]" value="<?php echo $renew->name; ?>" placeholder="">
+              </div>
+            </div>
+
 
             <?php //include 'common/field-contact-method.php'; ?>
             <?php //include 'common/field-login.php'; ?>
