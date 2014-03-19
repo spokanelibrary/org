@@ -2,37 +2,16 @@
 
   <div class="col-md-8">
 
-    <?php 
-    $renew =  json_decode(do_shortcode('[spl_widget card-renew]'));
-    if ( isset($renew->login) )  {
-      echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]');
-    } else {
-      switch ( $renew->borrower->status ) {
-        case 'ok':
-    ?>
+  <?php 
+  $renew =  json_decode(do_shortcode('[spl_widget card-renew]'));
+  if ( isset($renew->login) )  {
+    echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]');
+  } else {
+    switch ( $renew->borrower->status ) {
+      case 'ok':
+      print_r($renew->borrower);
+  ?>
 
-          print_r($renew->borrower);
-          
-    <?php
-          break;
-        case 'problem':
-          echo '<div class="alert alert-warning">';
-          echo $renew->borrower->status_msg;
-          echo '</div>';
-          break;
-        case 'bad':
-          echo '<div class="alert alert-danger">';
-          echo $renew->borrower->status_msg;
-          echo '</div>';
-        default:
-          echo '<div class="alert alert-danger">';
-          echo 'An unknown error occurred. Please call our Circulation Desk at 509-444-5333 or <a href="http://www.spokanelibrary.org/contact">contact us</a> for assistance.';
-          echo '</div>';
-          break;
-      }
-    } 
-    ?>
-    
     <div class="panel panel-default">
       <div class="panel-body">
         <form class="form-horizontal spl-form" id="spl-form-renew" method="post" role="form">
@@ -66,7 +45,27 @@
         </form>
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
-
+        
+  <?php
+        break;
+      case 'problem':
+        echo '<div class="alert alert-warning">';
+        echo $renew->borrower->status_msg;
+        echo '</div>';
+        break;
+      case 'bad':
+        echo '<div class="alert alert-danger">';
+        echo $renew->borrower->status_msg;
+        echo '</div>';
+      default:
+        echo '<div class="alert alert-danger">';
+        echo 'An unknown error occurred. Please call our Circulation Desk at 509-444-5333 or <a href="http://www.spokanelibrary.org/contact">contact us</a> for assistance.';
+        echo '</div>';
+        break;
+    }
+  } 
+  ?>
+    
   </div><!-- /.row -->
 
   <div class="col-md-4">
