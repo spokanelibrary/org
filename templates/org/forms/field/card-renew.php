@@ -2,16 +2,14 @@
 
   <div class="col-md-8">
 
-    <?php //echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]'); ?>
+    <?php $renew =  json_decode(do_shortcode('[spl_widget card-renew]')); ?>
 
-    <?php
-    $renew =  json_decode(do_shortcode('[spl_widget card-renew]'));
-    if ( isset($renew->login) ) {
-      echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]');
-    } else {
-
-    }
-    ?>
+    <?php if ( isset($renew->login) ) : ?>
+    <?php  echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]'); ?>
+    <?php else : ?>
+    Other Stuff
+    <?php endif; ?>
+    
 
         
     <div class="panel panel-default">
