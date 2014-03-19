@@ -28,7 +28,7 @@
           <fieldset>
             <legend class="text-muted">
               <small class="glyphicon glyphicon-barcode"></small>
-              Renew your card
+              <?php echo $renew->borrower->barcode; ?>
             </legend>
             
 
