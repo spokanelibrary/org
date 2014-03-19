@@ -9,7 +9,11 @@
     } else {
       switch ( $renew->borrower->status ) {
         case 'ok':
+    ?>
+
           print_r($renew->borrower);
+          
+    <?php
           break;
         case 'problem':
           echo '<div class="alert alert-warning">';
