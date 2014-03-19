@@ -118,6 +118,11 @@
       </div><!-- /.col -->
     </div><!-- /.row -->
 
+    <p>
+      <strong>Non-discoverable Connect pages to port:</strong>
+      Welcome, Wireless, Receipt, IT Academy
+    </p>
+
   </div><!-- /.col -->
   
   <div class="col-md-4">
