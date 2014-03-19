@@ -6,8 +6,11 @@
   $renew =  json_decode(do_shortcode('[spl_widget card-renew]'));
   if ( isset($renew->login) )  {
     echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]');
-  } elseif ( isset($renew->response) ) {
+  } elseif ( isset($renew->process) ) {
+    echo '<pre>';
     print_r($renew->response);
+    print_r($renew->$_GLOBALS['crass_response']);
+    echo '</pre>';
   } else {
     switch ( $renew->borrower->status ) {
       case 'ok':
