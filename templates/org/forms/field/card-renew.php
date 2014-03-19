@@ -9,7 +9,6 @@
   } else {
     switch ( $renew->borrower->status ) {
       case 'ok':
-      print_r($renew->borrower);
   ?>
 
     <div class="panel panel-default">
@@ -32,7 +31,9 @@
               Renew your card
             </legend>
             
-           
+            <pre>
+            <?php print_r($renew->borrower); ?>
+            </pre>
             
             <?php //echo '<pre>'.print_r($_SESSION['spl'], true).'</pre>'; ?>
 
