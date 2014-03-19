@@ -73,12 +73,7 @@
             <div class="form-group">
               <label for="spl-form-street" class="col-sm-4 control-label">Street address</label>
               <div class="col-sm-8">
-                <textarea rows="3" class="form-control required" id="spl-form-street" name="spl-form[contact][street]">
-<?php echo $renew->borrower->ba1; ?>
-<?php echo $renew->borrower->ba2; ?>
-<?php echo $renew->borrower->ba3; ?>
-<?php echo $renew->borrower->ba4; ?>
-                </textarea>
+                <textarea rows="3" class="form-control required" id="spl-form-street" name="spl-form[contact][street]"><?php echo $renew->borrower->ba1.PHP_EOL.$renew->borrower->ba2.PHP_EOL.$renew->borrower->ba3.PHP_EOL.$renew->borrower->ba4.PHP_EOL; ?></textarea>
               </div>
             </div>
 
