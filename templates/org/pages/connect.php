@@ -54,7 +54,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <p>
-              Not yet implemented.
+              Learn about library cards or renew your existing card.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
