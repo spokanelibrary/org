@@ -7,10 +7,7 @@
   if ( isset($renew->login) )  {
     echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]');
   } elseif ( isset($renew->process) ) {
-    echo '<pre>';
-    print_r($renew->response);
-    print_r($renew->$_GLOBALS['crass_response']);
-    echo '</pre>';
+    // processing should get routed to card-renew-response
   } else {
     switch ( $renew->borrower->status ) {
       case 'ok':
@@ -36,6 +33,9 @@
               <?php echo $renew->borrower->barcode; ?>
             </legend>
             
+            <p>
+              Please take a moment to review your contact information.
+            </p>
 
             <input type="hidden" name="spl-form[previous][name]" value="<?php echo $renew->borrower->name; ?>" />
             <input type="hidden" name="spl-form[previous][email]" value="<?php echo $renew->borrower->email; ?>" />
