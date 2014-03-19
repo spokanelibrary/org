@@ -7,25 +7,19 @@
     if ( isset($renew->login) )  {
       echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]');
     } else {
-      echo 'borrower';
-    /*
-    switch ( $renew->borrower->status ) {
+      switch ( $renew->borrower->status ) {
         case 'ok':
-          $html .= null;
-          //$html = $this->getRenewalForm($renew);
-          $stage->renew = $renew;
+          print_r($renew->borrower);
           break;
         case 'problem':
-          $html .= $this->getStatusMessage($renew->status_msg);
+          echo $renew->borrower->status_msg;
           break;
         case 'bad':
-          $html .= $this->getStatusMessage($renew->status_msg, 'danger');
+          echo $renew->borrower->status_msg;
         default:
-          $msg = 'An unknown error occurred. Please call our Circulation Desk at 509-444-5333 or <a href="http://www.spokanelibrary.org/contact">contact us</a> for assistance.';
-          $html .= $this->getStatusMessage($msg, 'danger');
+          echo 'An unknown error occurred. Please call our Circulation Desk at 509-444-5333 or <a href="http://www.spokanelibrary.org/contact">contact us</a> for assistance.';
           break;
       }
-    */
     } 
     ?>
     
