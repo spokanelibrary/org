@@ -49,12 +49,15 @@
             <div class="form-group">
               <label for="spl-form-name" class="col-sm-4 control-label">My name</label>
               <div class="col-sm-8">
+                <p class="form-control-static">
+                  lorem ipsum
+                </p>
                 <input type="text" class="form-control required" id="spl-form-name" name="spl-form[contact][name]" value="<?php echo $renew->borrower->name; ?>" placeholder="">
               </div>
             </div>
 
             <div class="form-group">
-              <label for="spl-form-name" class="col-sm-4 control-label">My email</label>
+              <label for="spl-form-name" class="col-sm-4 control-label">My email address</label>
               <div class="col-sm-8">
                 <input type="text" class="form-control required" id="spl-form-email" name="spl-form[contact][email]" value="<?php echo $renew->borrower->email; ?>" placeholder="">
               </div>
