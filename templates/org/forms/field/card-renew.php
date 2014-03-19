@@ -2,13 +2,32 @@
 
   <div class="col-md-8">
 
-    <?php $renew =  json_decode(do_shortcode('[spl_widget card-renew]')); ?>
-
-    <?php if ( isset($renew->login) ) : ?>
-    <?php  echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]'); ?>
-    <?php else : ?>
-    Other Stuff
-    <?php endif; ?>
+    <?php 
+    $renew =  json_decode(do_shortcode('[spl_widget card-renew]'));
+    if ( isset($renew->login) )  {
+      echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]');
+    else :
+      echo 'borrower';
+    /*
+    switch ( $renew->borrower->status ) {
+        case 'ok':
+          $html .= null;
+          //$html = $this->getRenewalForm($renew);
+          $stage->renew = $renew;
+          break;
+        case 'problem':
+          $html .= $this->getStatusMessage($renew->status_msg);
+          break;
+        case 'bad':
+          $html .= $this->getStatusMessage($renew->status_msg, 'danger');
+        default:
+          $msg = 'An unknown error occurred. Please call our Circulation Desk at 509-444-5333 or <a href="http://www.spokanelibrary.org/contact">contact us</a> for assistance.';
+          $html .= $this->getStatusMessage($msg, 'danger');
+          break;
+      }
+    */
+    endif; 
+    ?>
     
 
         
