@@ -41,8 +41,8 @@
             <input type="hidden" name="spl-form[previous][city-st]" value="<?php echo $renew->borrower->city_st; ?>" />
             <input type="hidden" name="spl-form[previous][zip]" value="<?php echo $renew->borrower->zip; ?>" />
 
-            <input type="hidden" name="spl-form[borrower]" value="{{borrower}}" />
-            <input type="hidden" name="spl-form[time]" value="{{time}}" />
+            <input type="hidden" name="spl-form[borrower]" value="<?php echo $renew->borrower->borrower; ?>" />
+            <input type="hidden" name="spl-form[time]" value="<?php echo $renew->borrower->time; ?>" />
 
 
             <div class="form-group">
