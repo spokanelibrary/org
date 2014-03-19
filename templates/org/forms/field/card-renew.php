@@ -5,14 +5,18 @@
     <?php //echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]'); ?>
 
     <?php $renew = do_shortcode('[spl_widget card-renew]'); ?>
-    <?php if ( !empty($renew->html) ) : ?>
-    <?php echo $renew->html; ?>
-    <?php elseif (isset($renew->status) && empty($renew->html) ) : ?>
+    <?php 
+      echo print_r($renew, true);
+    ?>
+
+    <?php //if ( !empty($renew->html) ) : ?>
+    <?php //echo $renew->html; ?>
+    <?php //elseif (isset($renew->status) && empty($renew->html) ) : ?>
     <p>
       ok, here we go
     </p>
-    <?php echo print_r($renew, true); ?>
-    <?php endif; ?>
+    <?php //echo print_r($renew, true); ?>
+    <?php //endif; ?>
     
     
     <div class="panel panel-default">
