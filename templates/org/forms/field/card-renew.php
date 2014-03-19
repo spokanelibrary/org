@@ -5,12 +5,16 @@
     <?php //echo do_shortcode('[spl_widget login-form label post=renew intro="Please login to get started."]'); ?>
 
     <?php $renew =  json_decode(do_shortcode('[spl_widget card-renew]')); ?>
+    <pre>
     <?php
+      echo 'request:';
       echo print_r($_REQUEST['spl-login'], true);
+      echo 'session:';
       echo print_r($_SESSION['spl']['auth'], true); 
+      echo 'object:';
       echo print_r($renew, true);
     ?>
-
+    </pre>
     <?php //if ( !empty($renew->html) ) : ?>
     <?php //echo $renew->html; ?>
     <?php //elseif (isset($renew->status) && empty($renew->html) ) : ?>
