@@ -7,7 +7,7 @@
     <?php $renew =  json_decode(do_shortcode('[spl_widget card-renew]')); ?>
     <?php
       echo print_r($_REQUEST['spl-login']);
-      echo print_r($_SESSION['spl']); 
+      echo print_r($_SESSION['spl']['auth']); 
       echo print_r($renew, true);
     ?>
 
