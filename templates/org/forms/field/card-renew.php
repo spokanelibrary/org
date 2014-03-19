@@ -45,9 +45,6 @@
             <input type="hidden" name="spl-form[borrower]" value="{{borrower}}" />
             <input type="hidden" name="spl-form[time]" value="{{time}}" />
 
-            <pre>
-            <?php print_r($renew->borrower); ?>
-            </pre>
 
             <div class="form-group">
               <label for="spl-form-name" class="col-sm-4 control-label">My name</label>
@@ -56,6 +53,18 @@
               </div>
             </div>
 
+            <div class="form-group">
+              <label for="spl-form-name" class="col-sm-4 control-label">My email</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control required" id="spl-form-email" name="spl-form[contact][email]" value="<?php echo $renew->email; ?>" placeholder="">
+              </div>
+            </div>
+
+
+
+            <pre>
+            <?php print_r($renew->borrower); ?>
+            </pre>
 
             <?php //include 'common/field-contact-method.php'; ?>
             <?php //include 'common/field-login.php'; ?>
