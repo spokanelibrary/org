@@ -35,10 +35,7 @@
             <input type="hidden" name="spl-form[previous][name]" value="{{name}}" />
             <input type="hidden" name="spl-form[previous][email]" value="{{email}}" />
             <input type="hidden" name="spl-form[previous][phone]" value="{{phone}}" />
-            <input type="hidden" name="spl-form[previous][street]" value="{{ba1}}
-            {{ba2}}
-            {{ba3}}
-            {{ba4}}" />
+            <input type="hidden" name="spl-form[previous][street]" value="{{street}}" />
             <input type="hidden" name="spl-form[previous][city-st]" value="{{city_st}}" />
             <input type="hidden" name="spl-form[previous][zip]" value="{{zip}}" />
 
@@ -53,6 +50,7 @@
                   Our system stores names LAST FIRST MIDDLE.
                 </p>
                 <input type="text" class="form-control required" id="spl-form-name" name="spl-form[contact][name]" value="<?php echo $renew->borrower->name; ?>" placeholder="">
+                <span class="help-block">Our system stores names LAST FIRST MIDDLE.</span>
               </div>
             </div>
 
