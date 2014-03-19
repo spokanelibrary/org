@@ -70,6 +70,18 @@
               </div>
             </div>
 
+            <div class="form-group">
+              <label for="spl-form-street" class="col-sm-4 control-label">Street address</label>
+              <div class="col-sm-8">
+                <textarea rows="3" class="form-control required" id="spl-form-street" name="spl-form[contact][street]">
+                <?php echo $renew->borrower->ba1; ?>
+                <?php echo $renew->borrower->ba2; ?>
+                <?php echo $renew->borrower->ba3; ?>
+                <?php echo $renew->borrower->ba4; ?>
+                </textarea>
+              </div>
+            </div>
+
 
 
             <pre>
