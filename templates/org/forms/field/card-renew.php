@@ -46,11 +46,10 @@
             <div class="form-group">
               <label for="spl-form-name" class="col-sm-4 control-label">My name</label>
               <div class="col-sm-8">
-                <p class="form-control-static">
+                <p class="form-control-static text-muted">
                   Our system stores names LAST FIRST MIDDLE.
                 </p>
                 <input type="text" class="form-control required" id="spl-form-name" name="spl-form[contact][name]" value="<?php echo $renew->borrower->name; ?>" placeholder="">
-                <span class="help-block">Our system stores names LAST FIRST MIDDLE.</span>
               </div>
             </div>
 
