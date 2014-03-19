@@ -34,13 +34,11 @@
             <pre>
             <?php print_r($renew->borrower); ?>
             </pre>
-            
-            <?php //echo '<pre>'.print_r($_SESSION['spl'], true).'</pre>'; ?>
 
             <?php //include 'common/field-contact-method.php'; ?>
             <?php //include 'common/field-login.php'; ?>
             <?php //include 'common/field-contact.php'; ?>
-            <?php //include 'common/field-submit.php'; ?>
+            <?php include 'common/field-submit.php'; ?>
             
           </fieldset>
         </form>
