@@ -4,7 +4,7 @@
     
     <?php echo do_shortcode('[spl_widget login-form label intro="Please login to get started"]'); ?>
     
-    <?php echo get_query_var('bib') ?>
+    <?php //echo get_query_var('bib') ?>
 
     <?php //echo do_shortcode('[spl_widget auth-user]');
 
