@@ -8,7 +8,7 @@
   <div class="row">
     <div class="col-sm-4">
       <label class="btn btn-block btn-primary">
-      <input type="radio"> Option 1
+      <input type="radio" name="myoption"> Option 1
       </label>
       <!--
       <button type="button" 
@@ -17,7 +17,7 @@
     </div><!-- /.col -->
     <div class="col-sm-4">
       <label class="btn btn-block btn-primary">
-      <input type="radio"> Option 2
+      <input type="radio" name="myoption"> Option 2
       </label>
       <!--
       <button type="button" 
