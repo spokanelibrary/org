@@ -3,7 +3,7 @@
   <div class="col-sm-4">
     <button type="button" 
             class="btn btn-block btn-default navbar-btn" 
-            data-toggle="button">Book</button>
+            data-toggle="">Book</button>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
@@ -11,35 +11,17 @@
   <div class="col-sm-4">
     <button type="button" 
             class="btn btn-block btn-default navbar-btn" 
-            data-toggle="button">Book on CD</button>
+            data-toggle="">Book on CD</button>
   </div><!-- /.col -->
   <div class="col-sm-4">
     <button type="button" 
             class="btn btn-block btn-default navbar-btn" 
-            data-toggle="button">eBook</button>
+            data-toggle="">eBook</button>
   </div><!-- /.col -->
   <div class="col-sm-4">
     <button type="button" 
             class="btn btn-block btn-default navbar-btn" 
-            data-toggle="button">Audio Book <small>(download)</small></button>
-  </div><!-- /.col -->
-</div><!-- /.row -->
-
-<div class="row">
-  <div class="col-sm-4">
-    <button type="button" 
-            class="btn btn-block btn-default navbar-btn" 
-            data-toggle="button">Music CD</button>
-  </div><!-- /.col -->
-  <div class="col-sm-4">
-    <button type="button" 
-            class="btn btn-block btn-default navbar-btn" 
-            data-toggle="button">DVD</button>
-  </div><!-- /.col -->
-  <div class="col-sm-4">
-    <button type="button" 
-            class="btn btn-block btn-default navbar-btn" 
-            data-toggle="button">Other <small>(tell us)</small></button>
+            data-toggle="">Audio Book <small>(download)</small></button>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
@@ -47,17 +29,35 @@
   <div class="col-sm-4">
     <button type="button" 
             class="btn btn-block btn-default navbar-btn" 
-            data-toggle="button">Genealogy <small>(research copies)</small></button>
+            data-toggle="">Music CD</button>
   </div><!-- /.col -->
   <div class="col-sm-4">
     <button type="button" 
             class="btn btn-block btn-default navbar-btn" 
-            data-toggle="button">Newspaper <small>(microfilm)</small></button>
+            data-toggle="">DVD</button>
   </div><!-- /.col -->
   <div class="col-sm-4">
     <button type="button" 
             class="btn btn-block btn-default navbar-btn" 
-            data-toggle="button">Magazine <small>or</small> Journal</button>
+            data-toggle="">Other <small>(tell us)</small></button>
+  </div><!-- /.col -->
+</div><!-- /.row -->
+
+<div class="row">
+  <div class="col-sm-4">
+    <button type="button" 
+            class="btn btn-block btn-default navbar-btn" 
+            data-toggle="">Genealogy <small>(research copies)</small></button>
+  </div><!-- /.col -->
+  <div class="col-sm-4">
+    <button type="button" 
+            class="btn btn-block btn-default navbar-btn" 
+            data-toggle="">Newspaper <small>(microfilm)</small></button>
+  </div><!-- /.col -->
+  <div class="col-sm-4">
+    <button type="button" 
+            class="btn btn-block btn-default navbar-btn" 
+            data-toggle="">Magazine <small>or</small> Journal</button>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
