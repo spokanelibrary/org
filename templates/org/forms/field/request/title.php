@@ -2,7 +2,7 @@
 <div class="row">
 
   <div class="col-sm-3">
-    <button type="button" class="btn btn-block btn-default" data-toggle="button">Book</button>
+    <button type="button" class="btn btn-block btn-default" >Book</button>
   </div><!-- /.col -->
 
   <div class="col-sm-3">
