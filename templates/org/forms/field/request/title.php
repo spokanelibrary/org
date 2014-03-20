@@ -8,6 +8,7 @@
   <label class="btn btn-primary">
     <input type="radio" name="options" id="option2"> Book on CD
   </label>
+  <br>
   <label class="btn btn-primary">
     <input type="radio" name="options" id="option3"> eBook
   </label>
