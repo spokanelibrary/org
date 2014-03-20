@@ -8,8 +8,7 @@
   <div class="row">
     <div class="col-sm-4">
       <label class="btn btn-block btn-primary">
-      <input type="radio" name="myoption"> Option 1
-      </label>
+        <input type="radio" name="myoption">Book</label>
       <!--
       <button type="button" 
               class="btn btn-block btn-default navbar-btn" 
