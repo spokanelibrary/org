@@ -16,7 +16,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
       <div class="row">
-        <div class="col-sm-8-offset-4">
+        <div class="col-sm-8 col-sm-offset-4">
           <button type="button" 
                   class="btn btn-block btn-default navbar-btn" 
                   data-toggle="button">Book</button>
