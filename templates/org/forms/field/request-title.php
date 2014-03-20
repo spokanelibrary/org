@@ -25,7 +25,7 @@
           <fieldset>
             <legend class="text-muted">
               <small class="glyphicon glyphicon-barcode"></small>
-              <?php print_r($_SESSION['spl']['user']); ?>
+              <?php print_r($_SESSION['spl']['user']->borrowerBorcode); ?>
             </legend>
 
             <p>
