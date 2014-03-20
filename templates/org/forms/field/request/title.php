@@ -17,19 +17,25 @@
 
   <div class="row">
     <div class="col-sm-4">
-      <label class="btn btn-block btn-primary">
-        <input type="radio" name="spl-form[material]" value="cd-audio-book"> Book on CD
-      </label>
+      <p>
+        <label class="btn btn-block btn-primary">
+          <input type="radio" name="spl-form[material]" value="cd-audio-book"> Book on CD
+        </label>
+      </p>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <label class="btn btn-block btn-primary">
-        <input type="radio" name="spl-form[material]" value="ebook"> eBook
-      </label>
+      <p>
+        <label class="btn btn-block btn-primary">
+          <input type="radio" name="spl-form[material]" value="ebook"> eBook
+        </label>
+      </p>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <label class="btn btn-block btn-primary">
-        <input type="radio" name="spl-form[material]" value="dl-audio-book"> Audio Book <small>(download)</small>
-      </label>
+      <p>
+        <label class="btn btn-block btn-primary">
+          <input type="radio" name="spl-form[material]" value="dl-audio-book"> Audio Book <small>(download)</small>
+        </label>
+      </p>
     </div><!-- /.col -->
   </div><!-- /.row -->
 
