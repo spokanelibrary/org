@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <p>
+      <p class="clearfix">
       <a class="navbar-brand" href="#">I'm looking for a &rarr;</a>
       </p>
     </div>
