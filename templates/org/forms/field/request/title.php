@@ -1,13 +1,24 @@
+
 <div class="btn-group btn-group-justified" data-toggle="buttons">
+
+  <div class="col-sm-3">
   <label class="btn btn-primary">
     <input type="checkbox"> Option 1
   </label>
+  </div><!-- /.col -->
+
+  <div class="col-sm-3">
   <label class="btn btn-primary">
     <input type="checkbox"> Option 2
   </label>
+  </div><!-- /.col -->
+
+  <div class="col-sm-3">
   <label class="btn btn-primary">
     <input type="checkbox"> Option 3
   </label>
+  </div><!-- /.col -->
+
 </div>
 
 
