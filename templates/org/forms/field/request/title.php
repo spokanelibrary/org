@@ -16,25 +16,28 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
       <div class="row">
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-12">
           <button type="button" 
                   class="btn btn-block btn-default navbar-btn" 
                   data-toggle="button">Book</button>
         </div><!-- /.col -->
+      </div><!-- /.row -->
 
-        <div class="col-sm-6 col-md-3">
+      <div class="row">
+
+        <div class="col-sm-4">
           <button type="button" 
                   class="btn btn-block btn-default navbar-btn" 
                   data-toggle="button">Book on CD</button>
         </div><!-- /.col -->
 
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-4">
           <button type="button" 
                   class="btn btn-block btn-default navbar-btn" 
                   data-toggle="button">eBook</button>
         </div><!-- /.col -->
 
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-4">
           <button type="button" 
                   class="btn btn-block btn-default navbar-btn" 
                   data-toggle="button">Audio Book <small>(download)</small></button>
