@@ -69,21 +69,21 @@
     </div><!-- /.col -->
     <div class="col-sm-4">
       <p>
-        <label class="btn btn-block btn-primary">
+        <label class="btn btn-block btn-default">
           <input type="radio" name="spl-form[material]" value="genealogy"> Genealogy <small>(research copies)</small>
         </label>
       </p>
     </div><!-- /.col -->
     <div class="col-sm-4">
       <p>
-        <label class="btn btn-block btn-primary">
+        <label class="btn btn-block btn-default">
           <input type="radio" name="spl-form[material]" value="page-copy"> Newspaper <small>(microfilm)</small>
         </label>
       </p>
     </div><!-- /.col -->
     <div class="col-sm-4">
       <p>
-        <label class="btn btn-block btn-primary">
+        <label class="btn btn-block btn-default">
           <input type="radio" name="spl-form[material]" value="periodical"> Magazine <small>or</small> Journal
         </label>
       </p>
