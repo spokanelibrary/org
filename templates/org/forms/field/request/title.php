@@ -7,7 +7,7 @@
 <div class="btn-group btn-group-justified" data-toggle="buttons">
   <div class="row">
     <div class="col-sm-4">
-      <label class="btn btn-primary">
+      <label class="btn btn-primary btn-justified">
       <input type="checkbox"> Option 1
       </label>
       <!--
