@@ -1,3 +1,4 @@
+<div class="btn-group" data-toggle="buttons">
 <div class="row">
 
   <div class="col-sm-3">
@@ -8,37 +9,17 @@
     <button type="button" class="btn btn-block btn-default" data-toggle="button">Book on CD</button>
   </div><!-- /.col -->
 
+  <div class="col-sm-3">
+    <button type="button" class="btn btn-block btn-default" data-toggle="button">eBook</button>
+  </div><!-- /.col -->
+
+  <div class="col-sm-3">
+    <button type="button" class="btn btn-block btn-default" data-toggle="button">Audio Book <small>(download)</small></button>
+  </div><!-- /.col -->
+
 </div><!-- /.row -->
-
-<div class="btn-group" data-toggle="buttons">
-  <div class="row">
-  
-    <div class="col-sm-3">
-      <label class="btn btn-block btn-primary">
-        <input type="radio" name="options" id="option1"> Book
-      </label>
-    </div>
-    
-    <div class="col-sm-3">
-      <label class="btn btn-block btn-primary">
-        <input type="radio" name="options" id="option2"> Book on CD
-      </label>
-    </div>
-
-    <div class="col-sm-3">
-      <label class="btn btn-block btn-primary">
-        <input type="radio" name="options" id="option3"> eBook
-      </label>
-    </div>
-
-    <div class="col-sm-3">
-      <label class="btn btn-block btn-primary">
-        <input type="radio" name="options" id="option3"> Audio Book
-      </label>
-    </div>
-
-  </div>
 </div>
+
 
 
 <!--        
