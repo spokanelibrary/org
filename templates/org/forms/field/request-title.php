@@ -28,6 +28,8 @@
               <?php print_r($_SESSION['spl']['user']); ?>
             </legend>
 
+            <?php echo $_SESSION['spl']['user']; ?>
+
             <p>
               We'll have some contact info here.
             </p>
