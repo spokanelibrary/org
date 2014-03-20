@@ -15,6 +15,15 @@
               class="btn btn-block btn-default navbar-btn" 
               data-toggle="">Book</button>-->
     </div><!-- /.col -->
+    <div class="col-sm-4">
+      <label class="btn btn-block btn-primary">
+      <input type="radio"> Option 2
+      </label>
+      <!--
+      <button type="button" 
+              class="btn btn-block btn-default navbar-btn" 
+              data-toggle="">Book</button>-->
+    </div><!-- /.col -->
   </div><!-- /.row -->
 
   <div class="row">
