@@ -4,6 +4,8 @@
     
     <?php echo do_shortcode('[spl_widget login-form label intro="Please login to get started"]'); ?>
     
+    <?php print_r($_REQUEST) ?>
+
     <div class="panel panel-default">
       <div class="panel-body">
         <form class="form-horizontal spl-form" id="spl-form-request" method="post" role="form">
