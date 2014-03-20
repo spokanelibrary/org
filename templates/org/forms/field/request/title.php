@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-inverse" role="navigation">
+<nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -56,6 +56,24 @@
           <button type="button" 
                   class="btn btn-block btn-default navbar-btn" 
                   data-toggle="button">Other <small>(tell us)</small></button>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+
+      <div class="row">
+        <div class="col-sm-4">
+          <button type="button" 
+                  class="btn btn-block btn-default navbar-btn" 
+                  data-toggle="button">Genealogy <small>(research copies)</small></button>
+        </div><!-- /.col -->
+        <div class="col-sm-4">
+          <button type="button" 
+                  class="btn btn-block btn-default navbar-btn" 
+                  data-toggle="button">Newspaper <small>(microfilm)</small></button>
+        </div><!-- /.col -->
+        <div class="col-sm-4">
+          <button type="button" 
+                  class="btn btn-block btn-default navbar-btn" 
+                  data-toggle="button">Magazine <small>or</small> Journal</button>
         </div><!-- /.col -->
       </div><!-- /.row -->
 
