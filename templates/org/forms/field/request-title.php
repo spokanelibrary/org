@@ -25,7 +25,7 @@
           <fieldset>
             <legend class="text-muted">
               <small class="glyphicon glyphicon-barcode"></small>
-              <?php echo $_SESSION['spl']['user']['barcode']; ?>
+              
             </legend>
 
             <?php include 'request/title.php'; ?>
