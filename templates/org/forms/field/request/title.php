@@ -15,19 +15,19 @@
 
   <div class="row">
     <div class="col-sm-4">
-      <button type="button" 
-              class="btn btn-block btn-default navbar-btn" 
-              data-toggle="">Book on CD</button>
+      <label class="btn btn-block btn-success">
+        <input type="radio" name="spl-form[material]" value="cd-audio-book"> Book on CD
+      </label>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <button type="button" 
-              class="btn btn-block btn-default navbar-btn" 
-              data-toggle="">eBook</button>
+      <label class="btn btn-block btn-success">
+        <input type="radio" name="spl-form[material]" value="ebook"> eBook
+      </label>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <button type="button" 
-              class="btn btn-block btn-default navbar-btn" 
-              data-toggle="">Audio Book <small>(download)</small></button>
+      <label class="btn btn-block btn-success">
+        <input type="radio" name="spl-form[material]" value="dl-audio-book"> Audio Book <small>(download)</small>
+      </label>
     </div><!-- /.col -->
   </div><!-- /.row -->
 
