@@ -18,25 +18,25 @@
       <div class="row">
         <div class="col-sm-3">
           <button type="button" 
-                  class="btn btn-block btn-default" 
+                  class="btn btn-block btn-default navbar-btn" 
                   data-toggle="button">Book</button>
         </div><!-- /.col -->
 
         <div class="col-sm-3">
           <button type="button" 
-                  class="btn btn-block btn-default" 
+                  class="btn btn-block btn-default navbar-btn" 
                   data-toggle="button">Book on CD</button>
         </div><!-- /.col -->
 
         <div class="col-sm-3">
           <button type="button" 
-                  class="btn btn-block btn-default" 
+                  class="btn btn-block btn-default navbar-btn" 
                   data-toggle="button">eBook</button>
         </div><!-- /.col -->
 
         <div class="col-sm-3">
           <button type="button" 
-                  class="btn btn-block btn-default" 
+                  class="btn btn-block btn-default navbar-btn" 
                   data-toggle="button">Audio Book <small>(download)</small></button>
         </div><!-- /.col -->
       </div><!-- /.row -->
@@ -47,35 +47,6 @@
 
 
 
-
-
-<div class="row">
-
-  <div class="col-sm-3">
-    <button type="button" 
-            class="btn btn-block btn-default" 
-            data-toggle="button">Book</button>
-  </div><!-- /.col -->
-
-  <div class="col-sm-3">
-    <button type="button" 
-            class="btn btn-block btn-default" 
-            data-toggle="button">Book on CD</button>
-  </div><!-- /.col -->
-
-  <div class="col-sm-3">
-    <button type="button" 
-            class="btn btn-block btn-default" 
-            data-toggle="button">eBook</button>
-  </div><!-- /.col -->
-
-  <div class="col-sm-3">
-    <button type="button" 
-            class="btn btn-block btn-default" 
-            data-toggle="button">Audio Book <small>(download)</small></button>
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
 
 
 
