@@ -13,35 +13,33 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse">
       
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-3">
+          <button type="button" 
+                  class="btn btn-block btn-default" 
+                  data-toggle="button">Book</button>
+        </div><!-- /.col -->
 
-          <button type="button" class="btn btn-default navbar-btn">Sign in</button>
-          <button type="button" class="btn btn-default navbar-btn">Sign in</button>
-    
-          <ul class="nav navbar-nav">
-            <li class=""><a class="btn" href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link</a></li>
-          </ul>
+        <div class="col-sm-3">
+          <button type="button" 
+                  class="btn btn-block btn-default" 
+                  data-toggle="button">Book on CD</button>
+        </div><!-- /.col -->
 
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link</a></li>
-          </ul>
-        </div>
-      </div>
+        <div class="col-sm-3">
+          <button type="button" 
+                  class="btn btn-block btn-default" 
+                  data-toggle="button">eBook</button>
+        </div><!-- /.col -->
+
+        <div class="col-sm-3">
+          <button type="button" 
+                  class="btn btn-block btn-default" 
+                  data-toggle="button">Audio Book <small>(download)</small></button>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
 
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
