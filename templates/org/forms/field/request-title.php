@@ -22,7 +22,7 @@
 
           <fieldset>
             <legend class="text-muted">
-              <small class="glyphicon glyphicon-envelope"></small>
+              <small class="glyphicon glyphicon-tag"></small>
               Suggest a new title or make an ILL request
             </legend>
 
