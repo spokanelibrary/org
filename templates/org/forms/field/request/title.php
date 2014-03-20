@@ -1,4 +1,8 @@
         
+<button type="button" class="btn btn-primary" data-toggle="button">Single toggle</button>
+
+<button type="button" class="btn btn-primary" data-toggle="button">Single toggle</button>
+
 
 <div class="btn-group" data-toggle="buttons">
   <div class="row">
