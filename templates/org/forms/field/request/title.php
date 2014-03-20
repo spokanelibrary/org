@@ -4,7 +4,7 @@
     I'm looking for a&hellip;
   </legend>
 
-<div class="btn-group btn-group-justified">
+<div class="btn-group btn-group-justified" data-toggle="buttons">
   <div class="row">
     <div class="col-sm-4">
       <button type="button" 
