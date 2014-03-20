@@ -1,6 +1,6 @@
 <div class="row">
 
-  <div class="col-md-8">
+  <div class="col-md-12">
     
     <?php echo do_shortcode('[spl_widget login-form label intro="Please login to get started"]'); ?>
     
@@ -42,10 +42,6 @@
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
-  </div><!-- /.col -->
-
-  <div class="col-md-4">
-    <?php echo do_shortcode('[spl_widget custom-page page=contact-info]'); ?>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
