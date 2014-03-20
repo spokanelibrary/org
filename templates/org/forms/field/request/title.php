@@ -1,3 +1,16 @@
+<div class="btn-group btn-group-justified" data-toggle="buttons">
+  <label class="btn btn-primary">
+    <input type="checkbox"> Option 1
+  </label>
+  <label class="btn btn-primary">
+    <input type="checkbox"> Option 2
+  </label>
+  <label class="btn btn-primary">
+    <input type="checkbox"> Option 3
+  </label>
+</div>
+
+
 <div class="row">
 
   <div class="col-sm-3">
