@@ -68,19 +68,25 @@
     <h4 class="text-center">Research Request <small>Interlibrary Loan only</small></h4>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <button type="button" 
-              class="btn btn-block btn-default navbar-btn" 
-              data-toggle="">Genealogy <small>(research copies)</small></button>
+      <p>
+        <label class="btn btn-block btn-primary">
+          <input type="radio" name="spl-form[material]" value="genealogy"> Genealogy <small>(research copies)</small>
+        </label>
+      </p>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <button type="button" 
-              class="btn btn-block btn-default navbar-btn" 
-              data-toggle="">Newspaper <small>(microfilm)</small></button>
+      <p>
+        <label class="btn btn-block btn-primary">
+          <input type="radio" name="spl-form[material]" value="page-copy"> Newspaper <small>(microfilm)</small>
+        </label>
+      </p>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <button type="button" 
-              class="btn btn-block btn-default navbar-btn" 
-              data-toggle="">Magazine <small>or</small> Journal</button>
+      <p>
+        <label class="btn btn-block btn-primary">
+          <input type="radio" name="spl-form[material]" value="periodical"> Magazine <small>or</small> Journal
+        </label>
+      </p>
     </div><!-- /.col -->
   </div><!-- /.row -->
 
