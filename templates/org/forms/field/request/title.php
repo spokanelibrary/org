@@ -41,19 +41,25 @@
 
   <div class="row">
     <div class="col-sm-4">
-      <button type="button" 
-              class="btn btn-block btn-default navbar-btn" 
-              data-toggle="">Music CD</button>
+      <p>
+        <label class="btn btn-block btn-primary">
+          <input type="radio" name="spl-form[material]" value="cd"> Music CD
+        </label>
+      </p>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <button type="button" 
-              class="btn btn-block btn-default navbar-btn" 
-              data-toggle="">DVD</button>
+      <p>
+        <label class="btn btn-block btn-primary">
+          <input type="radio" name="spl-form[material]" value="dvd"> DVD
+        </label>
+      </p>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <button type="button" 
-              class="btn btn-block btn-default navbar-btn" 
-              data-toggle="">Other <small>(tell us)</small></button>
+      <p>
+        <label class="btn btn-block btn-primary">
+          <input type="radio" name="spl-form[material]" value="other"> Other <small>(tell us)</small>
+        </label>
+      </p>
     </div><!-- /.col -->
   </div><!-- /.row -->
 
