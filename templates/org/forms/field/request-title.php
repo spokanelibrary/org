@@ -28,6 +28,9 @@
               
             </legend>
 
+            <?php include 'common/field-contact.php'; ?>
+
+          </fieldset>
             <?php include 'request/title.php'; ?>
             
             <?php //include 'common/field-contact-method.php'; ?>
@@ -35,7 +38,7 @@
             <?php //include 'common/field-contact.php'; ?>
             <?php //include 'common/field-submit.php'; ?>
             
-          </fieldset>
+          
         </form>
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
