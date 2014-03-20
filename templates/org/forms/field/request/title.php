@@ -17,9 +17,12 @@
       
       <div class="row">
         <div class="col-sm-12">
+
+          <button type="button" class="btn btn-default navbar-btn">Sign in</button>
+          <button type="button" class="btn btn-default navbar-btn">Sign in</button>
     
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Link</a></li>
+            <li class=""><a class="btn" href="#">Link</a></li>
             <li><a href="#">Link</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
