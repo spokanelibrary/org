@@ -9,14 +9,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      <p>
       <a class="navbar-brand" href="#">I'm looking for a &rarr;</a>
+      </p>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <br>
+      
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-4">
           <button type="button" 
                   class="btn btn-block btn-default navbar-btn" 
                   data-toggle="button">Book</button>
