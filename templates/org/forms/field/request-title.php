@@ -6,9 +6,8 @@
     
     <?php echo get_query_var('bib') ?>
 
-    <?php echo do_shortcode('[spl_widget auth-user]'); ?>
-
-
+    <?php if (true == do_shortcode('[spl_widget auth-user]') ) : ?>
+    
     <div class="panel panel-default">
       <div class="panel-body">
         <form class="form-horizontal spl-form" id="spl-form-request" method="post" role="form">
@@ -29,13 +28,7 @@
               Suggest a new title or make an ILL request
             </legend>
 
-            
-            <div class="form-group">
-              <label for="spl-form-message" class="col-sm-2 control-label">My message</label>
-              <div class="col-sm-10">
-                <textarea rows="6" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
-              </div>
-            </div>
+            <?php include 'request/title.php'; ?>
             
             <?php //include 'common/field-contact-method.php'; ?>
             <?php //include 'common/field-login.php'; ?>
@@ -46,6 +39,8 @@
         </form>
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
+
+    <?php endif; ?>
 
   </div><!-- /.col -->
 
