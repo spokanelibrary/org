@@ -1,8 +1,14 @@
-        
-<button type="button" class="btn btn-primary" data-toggle="button">Single toggle</button>
+<div class="row">
 
-<button type="button" class="btn btn-primary" data-toggle="button">Single toggle</button>
+  <div class="col-sm-3">
+    <button type="button" class="btn btn-block btn-default" data-toggle="button">Book</button>
+  </div><!-- /.col -->
 
+  <div class="col-sm-3">
+    <button type="button" class="btn btn-block btn-default" data-toggle="button">Book on CD</button>
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
 
 <div class="btn-group" data-toggle="buttons">
   <div class="row">
