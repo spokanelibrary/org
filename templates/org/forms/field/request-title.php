@@ -25,10 +25,13 @@
           <fieldset>
             <legend class="text-muted">
               <small class="glyphicon glyphicon-barcode"></small>
-              
+              <?php print_r($_SESSION['spl']['user']); ?>
             </legend>
 
-            <?php include 'common/field-contact.php'; ?>
+            <p>
+              We'll have some contact info here.
+            </p>
+            <?php //include 'common/field-contact.php'; ?>
 
           </fieldset>
             <?php include 'request/title.php'; ?>
