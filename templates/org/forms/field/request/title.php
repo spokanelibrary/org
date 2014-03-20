@@ -7,9 +7,13 @@
 <div class="btn-group btn-group-justified" data-toggle="buttons">
   <div class="row">
     <div class="col-sm-4">
+      <label class="btn btn-primary">
+      <input type="checkbox"> Option 1
+      </label>
+      <!--
       <button type="button" 
               class="btn btn-block btn-default navbar-btn" 
-              data-toggle="">Book</button>
+              data-toggle="">Book</button>-->
     </div><!-- /.col -->
   </div><!-- /.row -->
 
