@@ -6,7 +6,7 @@
   </div><!-- /.col -->
 
   <div class="col-sm-3">
-    <button type="button" class="btn btn-block btn-default" data-toggle="button">Book on CD</button>
+    <button type="button" class="btn btn-block btn-default">Book on CD</button>
   </div><!-- /.col -->
 
   <div class="col-sm-3">
