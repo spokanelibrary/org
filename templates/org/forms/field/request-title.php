@@ -6,7 +6,7 @@
     
     <?php echo get_query_var('bib') ?>
 
-    <?php if ( !empty(do_shortcode('[spl_widget auth-user]')) ) : ?>
+    <?php if ( true == do_shortcode('[spl_widget auth-user]') ) : ?>
     
     <div class="panel panel-default">
       <div class="panel-body">
@@ -25,7 +25,7 @@
           <fieldset>
             <legend class="text-muted">
               <small class="glyphicon glyphicon-barcode"></small>
-              
+              <?php echo $_SESSION['spl']['user']['barcode']; ?>
             </legend>
 
             <?php include 'request/title.php'; ?>
