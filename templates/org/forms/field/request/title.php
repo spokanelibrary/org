@@ -1,4 +1,4 @@
-<div class="btn-group" data-toggle="buttons">
+<div class="" data-toggle="buttons">
 <div class="row">
 
   <div class="col-sm-3">
@@ -18,7 +18,6 @@
   </div><!-- /.col -->
 
 </div><!-- /.row -->
-</div>
 
 
 
