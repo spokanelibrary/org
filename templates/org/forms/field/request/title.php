@@ -22,7 +22,7 @@
         <li><a href="#">Link</a></li>
       </ul>
 
-      <br>
+      <hr>
 
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Link</a></li>
