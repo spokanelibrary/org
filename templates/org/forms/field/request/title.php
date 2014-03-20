@@ -4,6 +4,7 @@
     I'm looking for a&hellip;
   </legend>
 
+<div class="btn-group btn-group-justified">
   <div class="row">
     <div class="col-sm-4">
       <button type="button" 
@@ -50,7 +51,7 @@
 
   <div class="row">
     <div class="col-sm-12">
-    <h4 class="text-center">Research Requests <small>Interlibrary Loan only</small></h4>
+    <h4 class="text-center">Research Request <small>Interlibrary Loan only</small></h4>
     </div><!-- /.col -->
     <div class="col-sm-4">
       <button type="button" 
@@ -69,6 +70,7 @@
     </div><!-- /.col -->
   </div><!-- /.row -->
 
+</div>
 </fieldset>
 
 
