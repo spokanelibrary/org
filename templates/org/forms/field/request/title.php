@@ -7,8 +7,9 @@
 <div class="btn-group btn-group-justified" data-toggle="buttons">
   <div class="row">
     <div class="col-sm-4">
-      <label class="btn btn-block btn-primary">
-        <input type="radio" name="myoption">Book</label>
+      <label class="btn btn-block btn-primary navbar-btn">
+        <input type="radio" name="spl-form[material]" value="book"> Book
+      </label>
       <!--
       <button type="button" 
               class="btn btn-block btn-default navbar-btn" 
