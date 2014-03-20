@@ -7,7 +7,7 @@
 <div class="btn-group btn-group-justified" data-toggle="buttons">
   <div class="row">
     <div class="col-sm-4">
-      <label class="btn btn-block btn-success">
+      <label class="btn btn-block btn-primary">
         <input type="radio" name="spl-form[material]" value="book"> Book
       </label>
     </div><!-- /.col -->
@@ -15,17 +15,17 @@
 
   <div class="row">
     <div class="col-sm-4">
-      <label class="btn btn-block btn-success">
+      <label class="btn btn-block btn-primary">
         <input type="radio" name="spl-form[material]" value="cd-audio-book"> Book on CD
       </label>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <label class="btn btn-block btn-success">
+      <label class="btn btn-block btn-primary">
         <input type="radio" name="spl-form[material]" value="ebook"> eBook
       </label>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <label class="btn btn-block btn-success">
+      <label class="btn btn-block btn-primary">
         <input type="radio" name="spl-form[material]" value="dl-audio-book"> Audio Book <small>(download)</small>
       </label>
     </div><!-- /.col -->
