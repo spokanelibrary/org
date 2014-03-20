@@ -6,7 +6,7 @@
     
     <?php echo get_query_var('bib') ?>
 
-    
+    <?php echo do_shortcode('[spl_widget auth-user]'); ?>
 
 
     <div class="panel panel-default">
