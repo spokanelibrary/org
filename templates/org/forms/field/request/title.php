@@ -7,8 +7,8 @@
 <div class="btn-group btn-group-justified" data-toggle="buttons">
   <div class="row">
     <div class="col-sm-4">
-      <label class="btn btn-primary btn-justified">
-      <input type="checkbox"> Option 1
+      <label class="btn btn-block btn-primary btn-justified">
+      <input type="radio"> Option 1
       </label>
       <!--
       <button type="button" 
