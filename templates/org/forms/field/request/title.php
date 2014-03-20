@@ -41,6 +41,32 @@
         </div><!-- /.col -->
       </div><!-- /.row -->
 
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <button type="button" 
+                  class="btn btn-block btn-default navbar-btn" 
+                  data-toggle="button"></button>
+        </div><!-- /.col -->
+
+        <div class="col-sm-6 col-md-3">
+          <button type="button" 
+                  class="btn btn-block btn-default navbar-btn" 
+                  data-toggle="button">Music CD</button>
+        </div><!-- /.col -->
+
+        <div class="col-sm-6 col-md-3">
+          <button type="button" 
+                  class="btn btn-block btn-default navbar-btn" 
+                  data-toggle="button">DVD</button>
+        </div><!-- /.col -->
+
+        <div class="col-sm-6 col-md-3">
+          <button type="button" 
+                  class="btn btn-block btn-default navbar-btn" 
+                  data-toggle="button">Other <small>(tell us)</small></button>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
