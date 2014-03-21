@@ -192,6 +192,23 @@ var ORG = {
 
     }
 }
+, request : {
+    
+    init: function() {
+
+      Modernizr.load([
+        {
+          load: [config.path.absolute+'/assets/js/org/request.js'],
+          complete: function () {
+            if ( org ) { 
+              org.init();
+            } 
+          }
+        }
+      ]);
+
+    }
+}
 , account: {
     init: function() {
       

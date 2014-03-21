@@ -7,7 +7,7 @@
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h4 class="panel-title">
-            Book
+            I'm looking for a:
           </h4>
         </div><!-- /.panel-heading -->   
         <div class="panel-body">
