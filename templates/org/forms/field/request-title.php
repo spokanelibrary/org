@@ -29,8 +29,15 @@
               <small class="glyphicon glyphicon-barcode"></small>
               <?php echo $_SESSION['spl']['user']->borrowerBarcode; ?>
             </legend>
-
-            <div class="col-md-4">
+          </fieldset>
+            <?php include 'request/title.php'; ?>
+            
+            <?php //include 'common/field-contact-method.php'; ?>
+            <?php //include 'common/field-login.php'; ?>
+            <?php //include 'common/field-contact.php'; ?>
+            <?php //include 'common/field-submit.php'; ?>
+            
+          <div class="col-md-4">
             <?php include 'common/field-contact-location.php'; ?>
             </div>
             <div class="col-md-8">
@@ -48,16 +55,6 @@
                 <?php include 'common/shared/field-contact-info.php'; ?>
               </div>
             </div>
-            
-          </fieldset>
-            <?php include 'request/title.php'; ?>
-            
-            <?php //include 'common/field-contact-method.php'; ?>
-            <?php //include 'common/field-login.php'; ?>
-            <?php //include 'common/field-contact.php'; ?>
-            <?php //include 'common/field-submit.php'; ?>
-            
-          
         </form>
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
