@@ -182,7 +182,7 @@
             I have a link to this title
             <span class="caret"></span>
           </button>
-          <div id="spl-form-request-link" class="collapse" style="margin-bottom:none;">
+          <div id="spl-form-request-link" class="collapse" style="padding-bottom:none;">
             <p class="form-control-static">
               You can just send us a link with detailed information about this title (for example, on Amazon).
             </p>
