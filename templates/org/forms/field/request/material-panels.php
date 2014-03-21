@@ -163,11 +163,11 @@
       My Request
 
 
-      <div id="spl-form-request-submit-item" class="collapse">
+      <div id="spl-form-request-submit-item" class="">
         physical
       </div>
 
-      <div id="spl-form-request-submit-download" class="collapse">
+      <div id="spl-form-request-submit-download" class="hide">
         download
       </div>
 
