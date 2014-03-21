@@ -12,7 +12,7 @@
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
-    <div id="spl-form-panel-book" class="panel panel-default panel-collapse collapse" data-parent="#spl-form-request-panels">
+    <div id="spl-form-panel-cd-audio-book" class="panel panel-default panel-collapse collapse" data-parent="#spl-form-request-panels">
       <div class="panel-heading">
         <h4 class="panel-title">
           Book on CD
