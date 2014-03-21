@@ -113,7 +113,7 @@
         <p>
           <label class="btn btn-block btn-default" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-request">
+                  data-target="#spl-form-panel-page-copy">
             <input class="sr-only" type="radio" name="spl-form[material]" value="page-copy"> Newspaper <small>(microfilm)</small>
           </label>
         </p>
