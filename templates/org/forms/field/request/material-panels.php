@@ -1,8 +1,7 @@
 
 <div class="panel-group" id="spl-form-request-panels">
 
-  <div id="spl-form-panel-book" class="panel-collapse collapse" data-parent="#spl-form-request-panels">
-    <div class="panel panel-default">
+    <div id="spl-form-panel-book" class="panel panel-default panel-collapse collapse" data-parent="#spl-form-request-panels">
       <div class="panel-heading">
         <h4 class="panel-title">
           Book
@@ -12,10 +11,8 @@
         Book form.
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
-  </div><!-- /.collapse -->
 
-  <div id="spl-form-panel-cd-audio-book" class="panel-collapse collapse" data-parent="#spl-form-request-panels">
-    <div class="panel panel-default">
+    <div id="spl-form-panel-book" class="panel panel-default panel-collapse collapse" data-parent="#spl-form-request-panels">
       <div class="panel-heading">
         <h4 class="panel-title">
           Book on CD
@@ -25,7 +22,6 @@
         Book on CD form.
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
-  </div><!-- /.collapse -->
 
 </div><!-- /.panel-group -->
 
