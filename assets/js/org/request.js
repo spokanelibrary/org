@@ -39,7 +39,7 @@ var org = {
 
 		$('body').on('show.bs.collapse', '#spl-form-request-panel-choose', function() {
 			console.log('hide panels');
-			$('.panel-collapse, #spl-form-request-panels').collapse('hide');
+			$('.panel-collapse','#spl-form-request-panels').collapse('hide');
 		});
 
 
