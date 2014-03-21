@@ -163,7 +163,7 @@
       My Request
 
 
-      <div id="spl-form-request-submit-item" class="collapse">
+      <div id="spl-form-request-submit-item" class="collapse in">
         physical
       </div>
 
