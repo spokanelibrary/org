@@ -171,7 +171,7 @@
       <div class="form-group">
         <label for="spl-form-author" class="col-sm-4 col-md-3 control-label">Author or Artist</label>
         <div class="col-sm-8 col-md-9">
-          <input type="text" class="form-control" id="spl-form-autor" name="spl-form[author]">
+          <input type="text" class="form-control" id="spl-form-author" name="spl-form[author]">
         </div>
       </div>
       <!-- url -->
@@ -182,7 +182,7 @@
             I have a link to this title
             <span class="caret"></span>
           </button>
-          <div id="spl-form-request-link" class="collapse" style="padding-bottom:none;">
+          <div id="spl-form-request-link" class="collapse">
             <p class="form-control-static">
               You can just send us a link with detailed information about this title (for example, on Amazon).
             </p>
@@ -219,7 +219,15 @@
           <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
         </div>
       </div>
-
+      <!-- publisher -->
+      <div class="col-sm-6">
+      <div class="form-group">
+        <label for="spl-form-publisher" class="col-sm-4 col-md-3 control-label">Publisher</label>
+        <div class="col-sm-8 col-md-9">
+          <input type="text" class="form-control" id="spl-form-publisher" name="spl-form[publisher]">
+        </div>
+      </div>
+      </div>
 
 
 
