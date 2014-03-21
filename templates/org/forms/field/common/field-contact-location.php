@@ -14,5 +14,6 @@
         <option value="none">
           No thanks (do not place a hold)</option>
       </select>
+      <span class="help-block">Where should we hold this item?</span>
   </div>
 </div>
