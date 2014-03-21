@@ -34,6 +34,7 @@
             <?php include 'common/field-contact-location.php'; ?>
             </div>
             <div class="col-md-8">
+              <label>My name</label>
               <p>
                 <button type="button" class="btn btn-block btn-success" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
                   <i class="glyphicon glyphicon-edit"></i>
