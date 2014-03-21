@@ -219,17 +219,7 @@
           <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
         </div>
       </div>
-      <!-- publisher -->
-      <!--
-      <div class="col-sm-6">
-      <div class="form-group">
-        <label for="spl-form-publisher" class="col-sm-4 col-md-3 control-label">Publisher</label>
-        <div class="col-sm-8 col-md-9">
-          <input type="text" class="form-control" id="spl-form-publisher" name="spl-form[publisher]">
-        </div>
-      </div>
-      </div>
-      -->
+      <!-- publisher/pubdate-->
       <div class="row">
         <div class="col-sm-6">
           <label for="spl-form-publisher" class="control-label">Publisher</label>
@@ -240,9 +230,21 @@
           <input type="text" class="form-control" id="spl-form-pubdate" name="spl-form[pubdate]">
         </div>
       </div>
+      <!-- isbn/oclc-->
+      <div class="row">
+        <div class="col-sm-6">
+          <label for="spl-form-isbn" class="control-label">ISBN / ISSN</label>
+          <input type="text" class="form-control" id="spl-form-isbn" name="spl-form[isbn]">
+        </div>
+        <div class="col-sm-6">
+          <label for="spl-form-oclc" class="control-label">OCLC #</label>
+          <input type="text" class="form-control" id="spl-form-oclc" name="spl-form[oclc]">
+        </div>
+      </div>
 
 
-
+      <br>
+      <br>
 
 
       <div id="spl-form-request-submit-item" class="">
