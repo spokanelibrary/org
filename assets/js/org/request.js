@@ -45,22 +45,13 @@ var org = {
 		
 		// show generic request form when requested
 		$('body').on('show.bs.collapse', '.spl-form-request-generic', function() {
-			/*
+			
 			if ( $(this).hasClass('spl-form-request-download') ) {
 				$('#spl-form-request-submit-item').hide();
 				$('#spl-form-request-submit-download').show();
 			} else {
 				$('#spl-form-request-submit-item').show();
 				$('#spl-form-request-submit-download').hide();
-			}
-			*/
-
-			if ( $(this).hasClass('spl-form-request-download') ) {
-				$('#spl-form-request-submit-item').collapse('hide');
-				$('#spl-form-request-submit-download').collaspe('show');
-			} else {
-				$('#spl-form-request-submit-item').collapse('show');
-				$('#spl-form-request-submit-download').collapse('hide');
 			}
 
 			$('#spl-form-panel-request').collapse('show');
