@@ -1,5 +1,5 @@
 <!-- ToDo: hide this for cda requests -->
-
+<div class="collapse in" id="spl-form-request-panel-choose">
 <fieldset>
   <legend class="text-muted">
     <i class="glyphicon glyphicon-search"></i>
@@ -13,7 +13,8 @@
         <p>
           <label class="btn btn-block btn-primary" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-book">
+                  data-target="#spl-form-panel-book"
+                  data-target="#spl-form-request-panel-choose">
             <input class="sr-only" type="radio" name="spl-form[material]" value="book"> 
             <i class="glyphicon glyphicon-book"></i>
             Book
@@ -116,4 +117,4 @@
   </div><!-- /.btn-group -->
 
 </fieldset>
-
+</div>
