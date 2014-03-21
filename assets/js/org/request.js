@@ -39,9 +39,10 @@ var org = {
 		
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
 			
-			if ( $(this).hasClass('spl-form-panel-request') ) {
-				console.log('generic panel');
-			}
+			//if ( $(this).hasClass('spl-form-panel-request') ) {
+				//console.log('generic panel');
+			//}
+			console.log($(this));
 
 			//$('#spl-form-request-panel-choose').collapse('hide');
 			
