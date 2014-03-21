@@ -44,17 +44,20 @@ var org = {
 		});
 		*/
 
+		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
+			$('#spl-form-request-panel-choose').collapse('hide');			
+		});
+
+		/*
 		$('body').on('hide.bs.collapse', '#spl-form-request-panels', function() {
 			//$('#spl-form-panel-request').collapse('hide');
 			$('#spl-form-request-panel-choose').collapse('show');
 		});
-		
+		*/
 		/*
 		
 
-		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
-			$('#spl-form-request-panel-choose').collapse('hide');			
-		});
+		
 
 
 
