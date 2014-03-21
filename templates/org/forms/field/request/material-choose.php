@@ -1,11 +1,11 @@
 <!-- ToDo: hide this for cda requests -->
-<div class="collapse in" id="spl-form-request-panel-choose">
 <fieldset>
   <legend class="text-muted">
     <i class="glyphicon glyphicon-search"></i>
     I'm looking for a&hellip;
   </legend>
 
+  <div class="collapse in" id="spl-form-request-panel-choose">
   <div class="btn-group btn-group-justified" data-toggle="buttons">
     
     <div class="row">
@@ -131,5 +131,6 @@
 
   </div><!-- /.btn-group -->
 
+  </div>
 </fieldset>
-</div>
+
