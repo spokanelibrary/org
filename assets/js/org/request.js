@@ -45,6 +45,7 @@ var org = {
 		
 		// show generic request form when requested
 		$('body').on('show.bs.collapse', '.spl-form-request-generic', function() {
+			/*
 			if ( $(this).hasClass('spl-form-request-download') ) {
 				$('#spl-form-request-submit-item').hide();
 				$('#spl-form-request-submit-download').show();
@@ -52,9 +53,16 @@ var org = {
 				$('#spl-form-request-submit-item').show();
 				$('#spl-form-request-submit-download').hide();
 			}
-			//$('#spl-form-request-submit-download').hide();
-			
-			//$('#spl-form-request-submit-item').show();
+			*/
+
+			if ( $(this).hasClass('spl-form-request-download') ) {
+				$('#spl-form-request-submit-item').collapse('hide');
+				$('#spl-form-request-submit-download').collaspe('show');
+			} else {
+				$('#spl-form-request-submit-item').collapse('show');
+				$('#spl-form-request-submit-download').collapse('hide');
+			}
+
 			$('#spl-form-panel-request').collapse('show');
 
 		});
@@ -63,14 +71,7 @@ var org = {
 		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function() {
 			$('#spl-form-panel-request').collapse('hide');
 		});
-	
-		/*
-		// swap generic submits for download
-		$('body').on('shown.bs.collapse', '.spl-form-request-download', function() {
-			$('#spl-form-request-submit-item').hide();
-			$('#spl-form-request-submit-download').fadeIn();
-		});
-		*/
+
 
   } // initRequestItem()
 
