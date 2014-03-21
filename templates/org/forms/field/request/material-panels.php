@@ -179,7 +179,7 @@
         <label for="spl-form-url" class="col-sm-4 col-md-3 control-label">Link on the web</label>
         <div class="col-sm-8 col-md-9">
           <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-link">
-            I have a link to this item
+            I have a link to this title
             <span class="caret"></span>
           </button>
           <div id="spl-form-request-link" class="collapse">
@@ -209,7 +209,16 @@
           </div>
         </div>
       </div>
-
+      <!-- message -->
+      <div class="form-group">
+        <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comment or question</label>
+        <div class="col-sm-8 col-md-9">
+          <p class="form-control-static">
+            How did you hear about this title?
+          </p>
+          <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
+        </div>
+      </div>
 
 
 
