@@ -177,7 +177,7 @@
               <span class="caret"></span>
             </button>
           </p>
-          <div id="spl-form-request-search" class="collapse">
+          <div id="spl-form-request-link" class="collapse">
             <input type="text" class="form-control" id="spl-form-url" name="spl-form[url]">
             <span class="help-block">
               You can just send us a link with detailed information about this title (for example, on Amazon).
