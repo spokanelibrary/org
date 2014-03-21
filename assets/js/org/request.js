@@ -30,6 +30,8 @@ var org = {
 
 , initRequestItem: function() {
 
+		console.log(this.user);
+
 		/*
 		$('body').on('change', 'input:radio[name = "spl-form[material]"]', function() {
 			var materialTypeDescription = $(this).parent().text();
