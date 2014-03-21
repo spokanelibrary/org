@@ -81,18 +81,15 @@
 
     <div class="panel-collapse collapse spl-form-request-specific"
           id="spl-form-panel-request-genealogy">
-      <button type="button" 
-              class="btn btn-block btn-default"
-              data-toggle="collapse"
-              data-target="#spl-form-request-panel-choose">
-              Genealogy <small>(research copies)</small>
-              </button>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            Gen request
-          </h4>
-        </div><!-- /.panel-heading -->  
+      <p>
+        <button type="button" 
+                class="btn btn-block btn-default"
+                data-toggle="collapse"
+                data-target="#spl-form-request-panel-choose">
+                Genealogy <small>(research copies)</small>
+                </button>
+      </p>
+      <div class="panel panel-default"> 
         <div class="panel-body">
           My Request
         </div><!-- /.panel-body -->
