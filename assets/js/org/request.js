@@ -42,7 +42,7 @@ var org = {
 			//if ( $(this).hasClass('spl-form-panel-request') ) {
 				//console.log('generic panel');
 			//}
-			//console.log($(this));
+			console.log($(this));
 
 			//$('#spl-form-request-panel-choose').collapse('hide');
 			
