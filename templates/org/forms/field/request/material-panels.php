@@ -161,7 +161,6 @@
   <div class="panel panel-primary">
     <div class="panel-body">
 
-      <div class="row">
         <div class="form-group">
           <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
           <div class="col-sm-8 col-md-9">
@@ -176,7 +175,6 @@
               </div>
             </div>
           </div>
-        </div>
       </div>
 
       <div id="spl-form-request-submit-item" class="">
