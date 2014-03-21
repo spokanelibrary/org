@@ -44,6 +44,7 @@ var org = {
 		});
 		*/
 
+		// hide material type selectors on choose
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
 			$('#spl-form-request-panel-choose').collapse('hide');			
 		});
