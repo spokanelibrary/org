@@ -42,6 +42,10 @@ var org = {
 			$('#spl-form-request-panel-choose').collapse('hide');		
 		});
 
+		$('body').on('hide.bs.collapse', '#spl-form-request-panels', function() {
+			$('#spl-form-panel-request').collapse('hide');		
+		});
+
 		$('body').on('show.bs.collapse', '.spl-form-request-material', function() {
 			$('#spl-form-panel-request').collapse('show');
 		});
