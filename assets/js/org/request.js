@@ -37,31 +37,20 @@ var org = {
 		});
 		*/
 		
-		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
-			
-			//if ( $(this).hasClass('spl-form-panel-request') ) {
-				//console.log('generic panel');
-			//}
-			//console.log($(this));
+		$('body').on('hide.bs.collapse', '#spl-form-request-panels', function() {
+			$('#spl-form-panel-request').collapse('hide');
+			('#spl-form-request-panel-choose').collapse('show');
+		});
 
+		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
+		
 			$('#spl-form-request-panel-choose').collapse('hide');
 			
-			//var materialType = $('input:radio[name = "spl-form[material]"]:checked' , '#spl-form-request-panel-choose').val()
-
-			//console.log(materialType);
-			$('#spl-form-panel-request').collapse('hide');
 		});
 
-		/*
-		$('body').on('hide.bs.collapse', '.spl-form-request-material', function() {
-			$('#spl-form-panel-request').collapse('hide');
-			//console.log('hide generic panel');
-		});
-		*/
 
 		$('body').on('shown.bs.collapse', '.spl-form-request-material', function() {
 			$('#spl-form-panel-request').collapse('show');
-			//console.log('show generic panel');
 		});
 
   } // initRequestItem()
