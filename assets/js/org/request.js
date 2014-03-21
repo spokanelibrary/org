@@ -56,6 +56,12 @@ var org = {
 			$('#spl-form-panel-request').collapse('hide');
 		});
 		
+		$('body').on('shown.bs.collapse', '.spl-form-request-download', function() {
+			$('#spl-form-request-submit-download').collapse('show');
+		});
+		
+
+
   } // initRequestItem()
 
 

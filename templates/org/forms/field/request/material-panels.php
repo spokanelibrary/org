@@ -27,7 +27,7 @@
       </p>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-generic"
+    <div class="panel-collapse collapse spl-form-request-generic spl-form-request-download"
           id="spl-form-panel-request-ebook">
       <p>
         <button type="button" 
@@ -40,7 +40,7 @@
       </p>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-generic"
+    <div class="panel-collapse collapse spl-form-request-generic spl-form-request-download"
           id="spl-form-panel-request-dl-audio-book">
       <p>
         <button type="button" 
@@ -161,6 +161,16 @@
   <div class="panel panel-primary">
     <div class="panel-body">
       My Request
+
+
+      <div id="spl-form-request-submit-item" class="collapse">
+        physical
+      </div>
+
+      <div id="spl-form-request-submit-download" class="collapse">
+        download
+      </div>
+
     </div><!-- /.panel-body -->
   </div><!-- /.panel -->
 </div><!-- /.collapse -->
