@@ -61,15 +61,11 @@ var org = {
 			$('#spl-form-panel-request').collapse('hide');
 		});
 	
-
+		// swap generic submits for download
 		$('body').on('shown.bs.collapse', '.spl-form-request-download', function() {
 			$('#spl-form-request-submit-item').hide();
-			$('#spl-form-request-submit-download').fadeIn();
+			$('#spl-form-request-submit-download').collapse('show');
 		});
-
-
-		
-
 
   } // initRequestItem()
 
