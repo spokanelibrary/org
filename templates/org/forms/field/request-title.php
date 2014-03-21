@@ -30,10 +30,10 @@
               <?php echo $_SESSION['spl']['user']->borrowerBarcode; ?>
             </legend>
 
-            <div class="col-sm-4 col-md-3">
+            <div class="col-md-4">
             <?php include 'common/field-contact-location.php'; ?>
             </div>
-            <div class="col-sm-8 col-md-9">
+            <div class="col-md-8">
               <label>Requested by: <?php echo $_SESSION['spl']['user']->name; ?></label>
               <p>
                 <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
