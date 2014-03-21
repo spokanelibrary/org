@@ -1,7 +1,7 @@
 
 <div class="panel-group" id="spl-form-request-panels">
 
-  <div id="spl-form-panel-book" class="panel-collapse collapse" data-parent="#spl-form-request-panels">
+  <div id="spl-form-panel-book" class="panel-collapse collapse">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -14,7 +14,7 @@
     </div><!-- /.panel -->
   </div><!-- /.collapse -->
 
-  <div id="spl-form-panel-cd-audio-book" class="panel-collapse collapse" data-parent="#spl-form-request-panels">
+  <div id="spl-form-panel-cd-audio-book" class="panel-collapse collapse">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
