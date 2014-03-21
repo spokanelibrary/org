@@ -42,7 +42,9 @@
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input class="sr-only" type="radio" name="spl-form[material]" value="dl-audio-book"> Audio Book <small>(download)</small>
+            <input class="sr-only" type="radio" name="spl-form[material]" value="dl-audio-book"> 
+            <small class="glyphicon glyphicon-headphones"></small>
+            Audio Book <small>(download)</small>
           </label>
         </p>
       </div><!-- /.col -->
@@ -52,7 +54,9 @@
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input class="sr-only" type="radio" name="spl-form[material]" value="cd"> Music CD
+            <input class="sr-only" type="radio" name="spl-form[material]" value="cd"> 
+            <small class="glyphicon glyphicon-music"></small> 
+            Music CD
           </label>
         </p>
       </div><!-- /.col -->
