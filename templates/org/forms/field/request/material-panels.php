@@ -3,79 +3,93 @@
 
     <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-book">
-      <button type="button" 
-              class="btn btn-block btn-primary"
-              data-toggle="collapse"
-              data-target="#spl-form-request-panel-choose">
-              <i class="glyphicon glyphicon-book"></i> 
-              Book
-              </button>
+      <p>
+        <button type="button" 
+                class="btn btn-block btn-primary"
+                data-toggle="collapse"
+                data-target="#spl-form-request-panel-choose">
+                <i class="glyphicon glyphicon-book"></i> 
+                Book
+                </button>
+      </p>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-cd-audio-book">
-      <button type="button" 
-              class="btn btn-block btn-primary"
-              data-toggle="collapse"
-              data-target="#spl-form-request-panel-choose">
-              <i class="glyphicon glyphicon-volume-up"></i>
-              Book on CD
-              </button>
+      <p>
+        <button type="button" 
+                class="btn btn-block btn-primary"
+                data-toggle="collapse"
+                data-target="#spl-form-request-panel-choose">
+                <i class="glyphicon glyphicon-volume-up"></i>
+                Book on CD
+                </button>
+      </p>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-ebook">
-      <button type="button" 
-              class="btn btn-block btn-primary"
-              data-toggle="collapse"
-              data-target="#spl-form-request-panel-choose">
-              <i class="glyphicon glyphicon-phone"></i>
-              ebook
-              </button>
+      <p>
+        <button type="button" 
+                class="btn btn-block btn-primary"
+                data-toggle="collapse"
+                data-target="#spl-form-request-panel-choose">
+                <i class="glyphicon glyphicon-phone"></i>
+                ebook
+                </button>
+      </p>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-dl-audio-book">
-      <button type="button" 
-              class="btn btn-block btn-primary"
-              data-toggle="collapse"
-              data-target="#spl-form-request-panel-choose">
-              <i class="glyphicon glyphicon-headphones"></i>
-              Audio Book <small>(download)</small>
-              </button>
+      <p>
+        <button type="button" 
+                class="btn btn-block btn-primary"
+                data-toggle="collapse"
+                data-target="#spl-form-request-panel-choose">
+                <i class="glyphicon glyphicon-headphones"></i>
+                Audio Book <small>(download)</small>
+                </button>
+      </p>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-cd">
-      <button type="button" 
-              class="btn btn-block btn-primary"
-              data-toggle="collapse"
-              data-target="#spl-form-request-panel-choose">
-              <i class="glyphicon glyphicon-music"></i> 
-              Music CD
-              </button>
+      <p>
+        <button type="button" 
+                class="btn btn-block btn-primary"
+                data-toggle="collapse"
+                data-target="#spl-form-request-panel-choose">
+                <i class="glyphicon glyphicon-music"></i> 
+                Music CD
+                </button>
+      </p>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-dvd">
-      <button type="button" 
-              class="btn btn-block btn-primary"
-              data-toggle="collapse"
-              data-target="#spl-form-request-panel-choose">
-              <i class="glyphicon glyphicon-film"></i> 
-              DVD
-              </button>
+      <p>
+        <button type="button" 
+                class="btn btn-block btn-primary"
+                data-toggle="collapse"
+                data-target="#spl-form-request-panel-choose">
+                <i class="glyphicon glyphicon-film"></i> 
+                DVD
+                </button>
+      </p>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-other">
-      <button type="button" 
-              class="btn btn-block btn-primary"
-              data-toggle="collapse"
-              data-target="#spl-form-request-panel-choose">
-              <i class="glyphicon glyphicon-pencil"></i> 
-              Other <small>(specify)</small>
-              </button>
+      <p>
+        <button type="button" 
+                class="btn btn-block btn-primary"
+                data-toggle="collapse"
+                data-target="#spl-form-request-panel-choose">
+                <i class="glyphicon glyphicon-pencil"></i> 
+                Other <small>(specify)</small>
+                </button>
+      </p>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-specific"
