@@ -43,7 +43,7 @@ var org = {
 			//$('#spl-form-panel-request').collapse('hide');
 			$('#spl-form-panel-request').collapse('show');
 
-			$('#spl-form-request-submit-item').collapse('show');
+			$('#spl-form-request-submit-item').collapse('hide');
 			$('#spl-form-request-submit-download').collapse('hide')
 		});
 
@@ -59,11 +59,15 @@ var org = {
 			$('#spl-form-panel-request').collapse('hide');
 		});
 		
-		
+		$('body').on('shown.bs.collapse', '.spl-form-request-item', function() {
+			$('#spl-form-request-submit-item').collapse('show');
+		});
+
 		$('body').on('shown.bs.collapse', '.spl-form-request-download', function() {
-			$('#spl-form-request-submit-item').collapse('hide');
 			$('#spl-form-request-submit-download').collapse('show');
 		});
+
+
 		
 
 
