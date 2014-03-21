@@ -37,7 +37,7 @@ var org = {
 		});
 		*/
 
-		$('body').on('show.bs.collapse', '#spl-form-panel-request', function() {
+		$('body').on('show.bs.collapse', '#spl-form-request-panel-choose', function() {
 			$('#spl-form-request-panels').collapse('hide');
 		});
 
