@@ -52,12 +52,14 @@ var org = {
 
 		});
 
-		$('body').on('show.bs.collapse', '.spl-form-request-material', function() {
-			console.log('show generic panel');
+		$('body').on('hide.bs.collapse', '.spl-form-request-material', function() {
+			$('#spl-form-panel-request').collapse('hide');
+			//console.log('hide generic panel');
 		});
 
-		$('body').on('hide.bs.collapse', '.spl-form-request-material', function() {
-			console.log('hide generic panel');
+		$('body').on('show.bs.collapse', '.spl-form-request-material', function() {
+			$('#spl-form-panel-request').collapse('show');
+			//console.log('show generic panel');
 		});
 
   } // initRequestItem()
