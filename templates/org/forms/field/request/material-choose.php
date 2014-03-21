@@ -11,7 +11,7 @@
     <div class="row">
       <div class="col-sm-4">
         <p>
-          <label class="btn btn-block btn-primary" data-toggle="show" 
+          <label class="btn btn-block btn-primary" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
                   data-target="#spl-form-panel-request">
             <input class="sr-only" type="radio" name="spl-form[material]" value="book"> 
@@ -25,7 +25,7 @@
     <div class="row">
       <div class="col-sm-4">
         <p>
-          <label class="btn btn-block btn-primary" data-toggle="show" 
+          <label class="btn btn-block btn-primary" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
                   data-target="#spl-form-panel-request">
             <input class="sr-only" type="radio" name="spl-form[material]" value="cd-audio-book"> 
@@ -36,7 +36,7 @@
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
-          <label class="btn btn-block btn-primary" data-toggle="show" 
+          <label class="btn btn-block btn-primary" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
                   data-target="#spl-form-panel-request">
             <input class="sr-only" type="radio" name="spl-form[material]" value="ebook"> 
