@@ -38,7 +38,7 @@ var org = {
 		*/
 
 		// hide material type selectors and generic request form on select
-		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
+		$('body').on('shown.bs.collapse', '#spl-form-request-panels', function() {
 			$('#spl-form-request-panel-choose').collapse('hide');		
 			//$('#spl-form-panel-request').collapse('hide');
 			$('#spl-form-panel-request').collapse('show');
@@ -55,12 +55,12 @@ var org = {
 		*/
 
 		// hide generic request form when not requested
-		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function() {
+		$('body').on('show.bs.collapse', '.spl-form-request-specific', function() {
 			$('#spl-form-panel-request').collapse('hide');
 		});
 	
 
-		$('body').on('shown.bs.collapse', '.spl-form-request-download', function() {
+		$('body').on('show.bs.collapse', '.spl-form-request-download', function() {
 			$('#spl-form-request-submit-item').collapse('hide');
 			$('#spl-form-request-submit-download').collapse('show');
 		});
