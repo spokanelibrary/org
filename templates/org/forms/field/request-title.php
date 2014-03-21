@@ -34,7 +34,7 @@
             pickup location
             </div>
             <div class="col-md-8">
-              <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
+              <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
               Edit contact info
               <span class="caret"></span>
               </button>
