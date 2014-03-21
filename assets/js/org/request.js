@@ -31,7 +31,7 @@ var org = {
 , initRequestItem: function() {
 		
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
-			console.log('panel shown');
+			$('#spl-form-request-panel-choose').collapse('hide');
 		});
 
   } // initMyAccount()
