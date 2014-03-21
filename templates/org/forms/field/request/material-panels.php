@@ -162,7 +162,7 @@
     <div class="panel-body">
       <!-- title -->
       <div class="form-group">
-        <label for="spl-form-title" class="col-sm-4 col-md-3 control-label"><span class="text-danger">*</span> Requested title</label>
+        <label for="spl-form-title" class="col-sm-4 col-md-3 control-label"><span class="text-danger">*</span> Requested Title</label>
         <div class="col-sm-8 col-md-9">
           <input type="text" class="form-control required" id="spl-form-title" name="spl-form[title]" title="Don't forget to tell us the title you are looking for!">
         </div>
@@ -176,17 +176,17 @@
       </div>
       <!-- url -->
       <div class="form-group">
-        <label for="spl-form-url" class="col-sm-4 col-md-3 control-label">Link on the web</label>
+        <label for="spl-form-url" class="col-sm-4 col-md-3 control-label">Link on the Web</label>
         <div class="col-sm-8 col-md-9">
           <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-link">
             I have a link to this title
             <span class="caret"></span>
           </button>
           <div id="spl-form-request-link" class="collapse">
-            <input type="text" class="form-control" id="spl-form-url" name="spl-form[url]">
-            <span class="help-block">
+            <p class="form-control-static">
               You can just send us a link with detailed information about this title (for example, on Amazon).
-            </span>
+            </p>
+            <input type="text" class="form-control" id="spl-form-url" name="spl-form[url]">
             <span class="help-block">
               <b>Note:</b> The page you link to must contain enough information for us to clearly identify the item you are requesting. 
               Otherwise we may not be able to process your request. 
@@ -211,7 +211,7 @@
       </div>
       <!-- message -->
       <div class="form-group">
-        <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comment or question</label>
+        <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comment or Question</label>
         <div class="col-sm-8 col-md-9">
           <p class="form-control-static">
             How did you hear about this title?
