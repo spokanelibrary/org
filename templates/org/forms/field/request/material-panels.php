@@ -160,7 +160,12 @@
       id="spl-form-panel-request"> 
   <div class="panel panel-primary">
     <div class="panel-body">
-      My Request
+      <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#spl-form-request-search">
+        Search for this title
+      </button>
+      <div id="spl-form-request-search" class="collapse">
+        Search for this
+      </div>
 
 
       <div id="spl-form-request-submit-item" class="">
