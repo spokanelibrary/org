@@ -49,7 +49,7 @@ var org = {
 		$('body').on('shown.bs.collapse', '.spl-form-request-generic', function() {
 			$('#spl-form-panel-request').collapse('show');
 		});
-*/
+		*/
 
 		// hide generic request form when not requested
 		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function() {

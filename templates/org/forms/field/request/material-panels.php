@@ -87,6 +87,19 @@
               data-target="#spl-form-request-panel-choose">
               Genealogy <small>(research copies)</small>
               </button>
+      <div class="panel-collapse collapse"> 
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                Gen request
+              </h4>
+            </div><!-- /.panel-heading -->  
+            <div class="panel-body">
+              My Request
+            </div><!-- /.panel-body -->
+          </div><!-- /.panel -->
+        </div><!-- /.collapse -->
+    </div><!-- /.collapse -->
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-specific"
@@ -97,6 +110,19 @@
               data-target="#spl-form-request-panel-choose">
               Newspaper <small>(microfilm)</small>
               </button>
+      <div class="panel-collapse collapse"> 
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                News request
+              </h4>
+            </div><!-- /.panel-heading -->  
+            <div class="panel-body">
+              My Request
+            </div><!-- /.panel-body -->
+          </div><!-- /.panel -->
+        </div><!-- /.collapse -->
+    </div><!-- /.collapse -->
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-specific"
@@ -107,6 +133,18 @@
               data-target="#spl-form-request-panel-choose">
               Magazine <small>or</small> Journal
               </button>
+      <div class="panel-collapse collapse"> 
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                Mag request
+              </h4>
+            </div><!-- /.panel-heading -->  
+            <div class="panel-body">
+              My Request
+            </div><!-- /.panel-body -->
+          </div><!-- /.panel -->
+        </div><!-- /.collapse -->
     </div><!-- /.collapse -->
 
   </div><!-- /.panel - required here for bs3 -->
@@ -114,7 +152,7 @@
 
 <div class="panel-collapse collapse"
           id="spl-form-panel-request"> 
-  <div class="panel panel-default">
+  <div class="panel panel-primary">
     <div class="panel-heading">
       <h4 class="panel-title">
         Standard request
