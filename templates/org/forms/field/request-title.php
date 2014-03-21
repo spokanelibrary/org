@@ -31,7 +31,7 @@
             </legend>
 
             <div class="col-md-8">
-            <?php include 'common/shared/field-contact.php'; ?>
+            <?php include 'common/shared/field-contact-name.php'; ?>
             </div>
             <div class="col-md-4">
             pickup location
