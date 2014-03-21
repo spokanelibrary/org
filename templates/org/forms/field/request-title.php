@@ -10,7 +10,7 @@
     
     <div class="panel panel-default">
       <div class="panel-body">
-        <form class="form-horizontal spl-form" id="spl-form-request" method="post" role="form">
+        <form class="form-horizontal spl-form spl-login" id="spl-form-request" data-callback-method="loadUserFormFields" method="post" role="form">
           
           <?php include 'common/crass-response.php'; ?>
       
@@ -31,7 +31,7 @@
             <p>
               We'll have some contact info here.
             </p>
-            
+
             <?php include 'common/field-contact.php'; ?>
 
           </fieldset>
