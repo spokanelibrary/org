@@ -22,21 +22,21 @@
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input type="radio" name="spl-form[material]" value="cd-audio-book"> Book on CD
+            <input class="sr-only" type="radio" name="spl-form[material]" value="cd-audio-book"> Book on CD
           </label>
         </p>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input type="radio" name="spl-form[material]" value="ebook"> eBook
+            <input class="sr-only" type="radio" name="spl-form[material]" value="ebook"> eBook
           </label>
         </p>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input type="radio" name="spl-form[material]" value="dl-audio-book"> Audio Book <small>(download)</small>
+            <input class="sr-only" type="radio" name="spl-form[material]" value="dl-audio-book"> Audio Book <small>(download)</small>
           </label>
         </p>
       </div><!-- /.col -->
@@ -46,21 +46,21 @@
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input type="radio" name="spl-form[material]" value="cd"> Music CD
+            <input class="sr-only" type="radio" name="spl-form[material]" value="cd"> Music CD
           </label>
         </p>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input type="radio" name="spl-form[material]" value="dvd"> DVD
+            <input class="sr-only" type="radio" name="spl-form[material]" value="dvd"> DVD
           </label>
         </p>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input type="radio" name="spl-form[material]" value="other"> Other <small>(tell us)</small>
+            <input class="sr-only" type="radio" name="spl-form[material]" value="other"> Other <small>(tell us)</small>
           </label>
         </p>
       </div><!-- /.col -->
@@ -75,21 +75,21 @@
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-default">
-            <input type="radio" name="spl-form[material]" value="genealogy"> Genealogy <small>(research copies)</small>
+            <input class="sr-only" type="radio" name="spl-form[material]" value="genealogy"> Genealogy <small>(research copies)</small>
           </label>
         </p>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-default">
-            <input type="radio" name="spl-form[material]" value="page-copy"> Newspaper <small>(microfilm)</small>
+            <input class="sr-only" type="radio" name="spl-form[material]" value="page-copy"> Newspaper <small>(microfilm)</small>
           </label>
         </p>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-default">
-            <input type="radio" name="spl-form[material]" value="periodical"> Magazine <small>or</small> Journal
+            <input class="sr-only" type="radio" name="spl-form[material]" value="periodical"> Magazine <small>or</small> Journal
           </label>
         </p>
       </div><!-- /.col -->
