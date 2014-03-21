@@ -102,7 +102,7 @@
 
     <div class="panel-collapse collapse"
           id="spl-form-panel-request-genealogy">
-      <div class="panel panel-primary">
+      <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             Genealogy
@@ -116,7 +116,7 @@
 
     <div class="panel-collapse collapse"
           id="spl-form-panel-request-page-copy">
-      <div class="panel panel-primary">
+      <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             Newspaper
@@ -130,7 +130,7 @@
 
     <div class="panel-collapse collapse"
           id="spl-form-panel-request-periodical">
-      <div class="panel panel-primary">
+      <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             Magazine
