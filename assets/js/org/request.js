@@ -40,7 +40,7 @@ var org = {
 		// hide material type selectors and generic request form on select
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
 			$('#spl-form-request-panel-choose').collapse('hide');		
-			$('#spl-form-panel-request').collapse('hide');
+			//$('#spl-form-panel-request').collapse('hide');
 			$('#spl-form-panel-request').collapse('show');
 		});
 
