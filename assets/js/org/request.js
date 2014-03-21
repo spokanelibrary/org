@@ -56,7 +56,7 @@ var org = {
 			console.log('show generic panel');
 		});
 
-		$('body').on('show.bs.hide', '.spl-form-request-material', function() {
+		$('body').on('hide.bs.collapse', '.spl-form-request-material', function() {
 			console.log('hide generic panel');
 		});
 
