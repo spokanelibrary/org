@@ -42,7 +42,7 @@ var org = {
 			//if ( $(this).hasClass('spl-form-panel-request') ) {
 				//console.log('generic panel');
 			//}
-			console.log($(this));
+			//console.log($(this));
 
 			//$('#spl-form-request-panel-choose').collapse('hide');
 			
@@ -52,7 +52,9 @@ var org = {
 
 		});
 
-		
+		$('body').on('show.bs.collapse', '.spl-form-request-panel', function() {
+			console.log('generic panel');
+		}
 
   } // initMyAccount()
 
