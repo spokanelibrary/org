@@ -1,6 +1,6 @@
 <div class="form-group">
-  <label for="spl-form-pickup" class="col-sm-4 control-label">Pickup location</label>
-  <div class="col-sm-8">
+  <label for="spl-form-pickup" class="col-sm-12 control-label">Pickup location</label>
+  <div class="col-sm-12">
     <select class="form-control" id="spl-form-pickup" name="spl-form[pickup]">
         <option value="dt" selected="">Downtown</option>
         <option value="es">East Side</option>
