@@ -12,7 +12,7 @@
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input class="pull-left" type="radio" name="spl-form[material]" value="book"> Book
+            <input class="text-left" type="radio" name="spl-form[material]" value="book"> Book
           </label>
         </p>
       </div><!-- /.col -->
