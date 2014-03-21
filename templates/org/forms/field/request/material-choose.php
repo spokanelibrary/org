@@ -13,7 +13,7 @@
         <p>
           <label class="btn btn-block btn-primary" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-request">
+                  data-target="#spl-form-panel-request-book">
             <input class="sr-only" type="radio" name="spl-form[material]" value="book"> 
             <i class="glyphicon glyphicon-book"></i>
             Book
@@ -27,7 +27,7 @@
         <p>
           <label class="btn btn-block btn-primary" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-request">
+                  data-target="#spl-form-panel-request-cd-audio-book">
             <input class="sr-only" type="radio" name="spl-form[material]" value="cd-audio-book"> 
             <i class="glyphicon glyphicon-volume-up"></i>
             Book on CD
@@ -38,7 +38,7 @@
         <p>
           <label class="btn btn-block btn-primary" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-request">
+                  data-target="#spl-form-panel-request-ebook">
             <input class="sr-only" type="radio" name="spl-form[material]" value="ebook"> 
             <i class="glyphicon glyphicon-phone"></i> 
             eBook
@@ -49,7 +49,7 @@
         <p>
           <label class="btn btn-block btn-primary" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-request">
+                  data-target="#spl-form-panel-request-dl-audio-book">
             <input class="sr-only" type="radio" name="spl-form[material]" value="dl-audio-book"> 
             <i class="glyphicon glyphicon-headphones"></i>
             Audio Book <small>(download)</small>
@@ -63,7 +63,7 @@
         <p>
           <label class="btn btn-block btn-primary" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-request">
+                  data-target="#spl-form-panel-request-cd">
             <input class="sr-only" type="radio" name="spl-form[material]" value="cd"> 
             <i class="glyphicon glyphicon-music"></i> 
             Music CD
@@ -74,7 +74,7 @@
         <p>
           <label class="btn btn-block btn-primary" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-request">
+                  data-target="#spl-form-panel-request-dvd">
             <input class="sr-only" type="radio" name="spl-form[material]" value="dvd">
             <i class="glyphicon glyphicon-film"></i> 
             DVD
@@ -85,7 +85,7 @@
         <p>
           <label class="btn btn-block btn-primary" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-request">
+                  data-target="#spl-form-panel-request-other">
             <input class="sr-only" type="radio" name="spl-form[material]" value="other"> 
             <i class="glyphicon glyphicon-pencil"></i> 
             Other <small>(specify)</small>
@@ -104,7 +104,7 @@
         <p>
           <label class="btn btn-block btn-default" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-genealogy">
+                  data-target="#spl-form-panel-request-genealogy">
             <input class="sr-only" type="radio" name="spl-form[material]" value="genealogy"> Genealogy <small>(research copies)</small>
           </label>
         </p>
@@ -113,7 +113,7 @@
         <p>
           <label class="btn btn-block btn-default" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-page-copy">
+                  data-target="#spl-form-panel-request-page-copy">
             <input class="sr-only" type="radio" name="spl-form[material]" value="page-copy"> Newspaper <small>(microfilm)</small>
           </label>
         </p>
@@ -122,7 +122,7 @@
         <p>
           <label class="btn btn-block btn-default" data-toggle="collapse" 
                   data-parent="#spl-form-request-panels"
-                  data-target="#spl-form-panel-periodical">
+                  data-target="#spl-form-panel-request-periodical">
             <input class="sr-only" type="radio" name="spl-form[material]" value="periodical"> Magazine <small>or</small> Journal
           </label>
         </p>

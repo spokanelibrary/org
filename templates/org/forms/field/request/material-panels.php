@@ -3,11 +3,11 @@
   <div class="panel" style="border:none;">
 
     <div class="panel-collapse collapse"
-          id="spl-form-panel-request">
+          id="spl-form-panel-request-book">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h4 class="panel-title">
-            I'm looking for a:
+            Book
           </h4>
         </div><!-- /.panel-heading -->   
         <div class="panel-body">
@@ -17,7 +17,91 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse"
-          id="spl-form-panel-genealogy">
+          id="spl-form-panel-request-cd-audio-book">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            Book on CD
+          </h4>
+        </div><!-- /.panel-heading -->   
+        <div class="panel-body">
+          Request.
+        </div><!-- /.panel-body -->
+      </div><!-- /.panel -->
+    </div><!-- /.collapse -->
+
+    <div class="panel-collapse collapse"
+          id="spl-form-panel-request-ebook">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            eBook
+          </h4>
+        </div><!-- /.panel-heading -->   
+        <div class="panel-body">
+          Request.
+        </div><!-- /.panel-body -->
+      </div><!-- /.panel -->
+    </div><!-- /.collapse -->
+
+    <div class="panel-collapse collapse"
+          id="spl-form-panel-request-dl-audio-book">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            Audio Book
+          </h4>
+        </div><!-- /.panel-heading -->   
+        <div class="panel-body">
+          Request.
+        </div><!-- /.panel-body -->
+      </div><!-- /.panel -->
+    </div><!-- /.collapse -->
+
+    <div class="panel-collapse collapse"
+          id="spl-form-panel-request-cd">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            Music CD
+          </h4>
+        </div><!-- /.panel-heading -->   
+        <div class="panel-body">
+          Request.
+        </div><!-- /.panel-body -->
+      </div><!-- /.panel -->
+    </div><!-- /.collapse -->
+
+    <div class="panel-collapse collapse"
+          id="spl-form-panel-request-dvd">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            DVD
+          </h4>
+        </div><!-- /.panel-heading -->   
+        <div class="panel-body">
+          Request.
+        </div><!-- /.panel-body -->
+      </div><!-- /.panel -->
+    </div><!-- /.collapse -->
+
+    <div class="panel-collapse collapse"
+          id="spl-form-panel-request-other">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            Other
+          </h4>
+        </div><!-- /.panel-heading -->   
+        <div class="panel-body">
+          Request.
+        </div><!-- /.panel-body -->
+      </div><!-- /.panel -->
+    </div><!-- /.collapse -->
+
+    <div class="panel-collapse collapse"
+          id="spl-form-panel-request-genealogy">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h4 class="panel-title">
@@ -31,7 +115,7 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse"
-          id="spl-form-panel-page-copy">
+          id="spl-form-panel-request-page-copy">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h4 class="panel-title">
@@ -45,7 +129,7 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse"
-          id="spl-form-panel-periodical">
+          id="spl-form-panel-request-periodical">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h4 class="panel-title">
