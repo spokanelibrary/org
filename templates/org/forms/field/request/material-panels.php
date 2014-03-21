@@ -4,16 +4,9 @@
 
     <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-book">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h4 class="panel-title">
+
             Book
-          </h4>
-        </div><!-- /.panel-heading -->   
-        <div class="panel-body">
-          Request.
-        </div><!-- /.panel-body -->
-      </div><!-- /.panel -->
+
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-material"
