@@ -42,7 +42,9 @@ var org = {
 			$('#spl-form-request-panel-choose').collapse('hide');		
 			//$('#spl-form-panel-request').collapse('hide');
 			$('#spl-form-panel-request').collapse('show');
+
 			$('#spl-form-request-submit-item').collapse('show');
+			$('#spl-form-request-submit-download').collapse('hide')
 		});
 
 		/*
