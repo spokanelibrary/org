@@ -50,6 +50,7 @@ var org = {
 		
 		// show generic request form when requested
 		$('body').on('show.bs.collapse', '.spl-form-request-generic', function() {
+			$('#spl-form-request-submit-download').hide();
 			$('#spl-form-request-submit-item').show();
 			$('#spl-form-panel-request').collapse('show');
 
