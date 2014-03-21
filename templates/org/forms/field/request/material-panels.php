@@ -162,9 +162,16 @@
     <div class="panel-body">
 
       <div class="form-group">
-        <label for="spl-form-title" class="col-sm-4 col-md-3 control-label">Requested Title</label>
+        <label for="spl-form-title" class="col-sm-4 col-md-3 control-label">Requested title</label>
         <div class="col-sm-8 col-md-9">
           <input type="text" class="form-control" id="spl-form-title" name="spl-form[title]" title="Don't forget to tell us the title you are looking for!">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="spl-form-url" class="col-sm-4 col-md-3 control-label">Link on the web</label>
+        <div class="col-sm-8 col-md-9">
+          <input type="text" class="form-control" id="spl-form-url" name="spl-form[url]">
         </div>
       </div>
 
