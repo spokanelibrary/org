@@ -1,6 +1,5 @@
-
 <div class="panel-group" id="spl-form-request-panels">
-  <div class="panel" style="border:none;">
+  <div class="panel" style="border:none; margin:0; padding:0;">
 
     <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-book">
