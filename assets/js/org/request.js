@@ -40,13 +40,11 @@ var org = {
 		// hide material type selectors on choose
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
 			$('#spl-form-request-panel-choose').collapse('hide');		
+			$('#spl-form-panel-request').collapse('hide');
 		});
 
-		$('body').on('hide.bs.collapse', '#spl-form-request-panels', function() {
-			$('#spl-form-panel-request').collapse('hide');		
-		});
 
-		$('body').on('show.bs.collapse', '.spl-form-request-material', function() {
+		$('body').on('shown.bs.collapse', '.spl-form-request-material', function() {
 			$('#spl-form-panel-request').collapse('show');
 		});
 
