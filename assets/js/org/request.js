@@ -54,9 +54,9 @@ var org = {
 
 		$('body').on('show.bs.collapse', '.spl-form-request-panel', function() {
 			console.log('generic panel');
-		}
+		});
 
-  } // initMyAccount()
+  } // initRequestItem()
 
 
 
