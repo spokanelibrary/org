@@ -43,8 +43,8 @@ var org = {
 			//$('#spl-form-panel-request').collapse('hide');
 			$('#spl-form-panel-request').collapse('show');
 
-			//$('#spl-form-request-submit-item').collapse('hide');
-			//$('#spl-form-request-submit-download').collapse('hide');
+			$('#spl-form-request-submit-item').collapse('hide');
+			$('#spl-form-request-submit-download').collapse('hide');
 		});
 
 		
@@ -52,7 +52,6 @@ var org = {
 		$('body').on('shown.bs.collapse', '.spl-form-request-generic', function() {
 			//$('#spl-form-panel-request').collapse('show');
 			$('#spl-form-request-submit-item').collapse('show');
-			$('#spl-form-request-submit-download').collapse('hide');
 		});
 
 		// hide generic request form when not requested
