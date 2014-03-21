@@ -12,7 +12,7 @@
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary" data-toggle="collapse" 
-                  data-parent="#spl-form-request-panels" 
+                   
                   data-target="#spl-form-panel-book">
             <input class="sr-only" type="radio" name="spl-form[material]" value="book"> 
             <i class="glyphicon glyphicon-book"></i>
@@ -26,7 +26,7 @@
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary" data-toggle="collapse" 
-                  data-parent="#spl-form-request-panels" 
+                   
                   data-target="#spl-form-panel-cd-audio-book">
             <input class="sr-only" type="radio" name="spl-form[material]" value="cd-audio-book"> 
             <i class="glyphicon glyphicon-volume-up"></i>
