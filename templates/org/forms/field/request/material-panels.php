@@ -8,7 +8,7 @@ Collapsible Group Item #2
 <br>
 
 <div class="panel-group" id="accordion">
-  
+  <div class="panel">
   <div id="collapseOne" class="panel-collapse collapse in">
     <div class="panel panel-default">
       <div class="panel-body">
@@ -24,7 +24,7 @@ Collapsible Group Item #2
       </div>
     </div>
   </div>
-
+  </div>
 </div>
 
 
