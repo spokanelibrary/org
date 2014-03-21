@@ -53,7 +53,11 @@ var org = {
 		});
 
 		$('body').on('show.bs.collapse', '.spl-form-request-material', function() {
-			console.log('generic panel');
+			console.log('show generic panel');
+		});
+
+		$('body').on('show.bs.hide', '.spl-form-request-material', function() {
+			console.log('hide generic panel');
 		});
 
   } // initRequestItem()
