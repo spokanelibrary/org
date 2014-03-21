@@ -64,7 +64,7 @@ var org = {
 		// swap generic submits for download
 		$('body').on('shown.bs.collapse', '.spl-form-request-download', function() {
 			$('#spl-form-request-submit-item').hide();
-			$('#spl-form-request-submit-download').collapse('show');
+			$('#spl-form-request-submit-download').fadeIn();
 		});
 
   } // initRequestItem()
