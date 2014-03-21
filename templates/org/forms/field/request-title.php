@@ -30,11 +30,12 @@
               <?php echo $_SESSION['spl']['user']->borrowerBarcode; ?>
             </legend>
 
-            <p>
-              We'll have some contact info here.
-            </p>
-
+            <div class="col-md-8">
             <?php include 'common/field-contact.php'; ?>
+            </div>
+            <div class="col-md-4">
+            pickup location
+            </div>
 
           </fieldset>
             <?php include 'request/title.php'; ?>
