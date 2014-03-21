@@ -172,6 +172,13 @@
         <label for="spl-form-url" class="col-sm-4 col-md-3 control-label">Link on the web</label>
         <div class="col-sm-8 col-md-9">
           <input type="text" class="form-control" id="spl-form-url" name="spl-form[url]">
+          <span>
+            You can just send us a link with detailed information about this title (for example, on Amazon).
+          </span>
+          <span>
+            Note: The page you link to must contain enough information for us to clearly identify the item you are requesting. 
+            Otherwise we may not be able to process your request. 
+          </span>
         </div>
       </div>
 
