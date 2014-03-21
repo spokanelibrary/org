@@ -44,7 +44,7 @@ var org = {
 			//}
 			//console.log($(this));
 
-			//$('#spl-form-request-panel-choose').collapse('hide');
+			$('#spl-form-request-panel-choose').collapse('hide');
 			
 			//var materialType = $('input:radio[name = "spl-form[material]"]:checked' , '#spl-form-request-panel-choose').val()
 
