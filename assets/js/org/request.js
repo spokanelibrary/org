@@ -43,7 +43,7 @@ var org = {
 		});
 
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
-		
+			$(this).show;
 			$('#spl-form-request-panel-choose').collapse('hide');
 			
 		});
