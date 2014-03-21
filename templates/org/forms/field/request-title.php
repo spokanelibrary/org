@@ -43,7 +43,7 @@
                 </button>
               </p>
               <div class="collapse" id="spl-form-request-edit-contact">
-                <span class="help-block">You can edit your info for <em>this request only</em>.</span>
+                <span class="help-block"><b>Note:</b> You can edit your info here for <i>this request only</i>.</span>
                 <?php include 'common/shared/field-contact-name.php'; ?>
                 <?php include 'common/shared/field-contact-info.php'; ?>
               </div>
