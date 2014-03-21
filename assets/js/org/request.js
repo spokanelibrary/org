@@ -30,7 +30,9 @@ var org = {
 
 , initRequestItem: function() {
 		
-		console.log('request item');
+		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
+			console.log('panel shown');
+		});
 
   } // initMyAccount()
 
