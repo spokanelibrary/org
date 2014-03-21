@@ -98,12 +98,14 @@
 
     <div class="panel-collapse collapse spl-form-request-specific"
           id="spl-form-panel-request-page-copy">
-      <button type="button" 
-              class="btn btn-block btn-default"
-              data-toggle="collapse"
-              data-target="#spl-form-request-panel-choose">
-              Newspaper <small>(microfilm)</small>
-              </button>
+      <p>
+        <button type="button" 
+                class="btn btn-block btn-default"
+                data-toggle="collapse"
+                data-target="#spl-form-request-panel-choose">
+                Newspaper <small>(microfilm)</small>
+                </button>
+      </p>
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
@@ -118,12 +120,14 @@
 
     <div class="panel-collapse collapse spl-form-request-specific"
           id="spl-form-panel-request-periodical">
-      <button type="button" 
-              class="btn btn-block btn-default"
-              data-toggle="collapse"
-              data-target="#spl-form-request-panel-choose">
-              Magazine <small>or</small> Journal
-              </button>
+      <p>
+        <button type="button" 
+                class="btn btn-block btn-default"
+                data-toggle="collapse"
+                data-target="#spl-form-request-panel-choose">
+                Magazine <small>or</small> Journal
+                </button>
+      </p>
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
@@ -140,13 +144,8 @@
 </div><!-- /.panel-group -->
 
 <div class="panel-collapse collapse"
-          id="spl-form-panel-request"> 
+      id="spl-form-panel-request"> 
   <div class="panel panel-primary">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        Standard request
-      </h4>
-    </div><!-- /.panel-heading -->  
     <div class="panel-body">
       My Request
     </div><!-- /.panel-body -->
