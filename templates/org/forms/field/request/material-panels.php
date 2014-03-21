@@ -232,9 +232,9 @@
       -->
       <div class="form-group col-sm-6">
         <label for="spl-form-publisher" class="control-label">Publisher</label>
-        <div>
+        
           <input type="text" class="form-control" id="spl-form-publisher" name="spl-form[publisher]">
-        </div>
+        
       </div>
 
 
