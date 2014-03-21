@@ -222,8 +222,10 @@
       <!-- publisher/pubdate-->
       <div class="row">
         <div class="col-sm-6">
+          <div class="form-group">
           <label for="spl-form-publisher" class="control-label">Publisher</label>
           <input type="text" class="form-control" id="spl-form-publisher" name="spl-form[publisher]">
+          </div>
         </div>
         <div class="col-sm-6">
           <label for="spl-form-pubdate" class="control-label">Publication Date</label>
