@@ -31,8 +31,9 @@ var org = {
 , initRequestItem: function() {
 
 		$('body').on('change', 'input:radio[name = "spl-form[material]"]', function() {
-			var materialType = $(this).val();
-			console.log(materialType);
+			//var materialTypeDescription = $(this).data('');
+			var materialTypeDescription = $(this).parent().next().find('label').text()
+			console.log(materialTypeDescription);
 		});
 		
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
