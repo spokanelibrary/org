@@ -5,7 +5,7 @@
           id="spl-form-panel-request-book">
       <p>
         <button type="button" 
-                class="btn btn-block btn-primary"
+                class="btn btn-lg btn-block btn-primary"
                 data-toggle="collapse"
                 data-target="#spl-form-request-panel-choose">
                 <i class="glyphicon glyphicon-book"></i> 
