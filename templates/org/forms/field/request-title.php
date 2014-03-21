@@ -34,12 +34,13 @@
             pickup location
             </div>
             <div class="col-md-8">
-
-              <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
-                <i class="glyphicon glyphicon-edit"></i>
-                Edit contact info
-                <span class="caret"></span>
-              </button>
+              <p>
+                <button type="button" class="btn btn-block btn-success" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
+                  <i class="glyphicon glyphicon-edit"></i>
+                  Edit contact info
+                  <span class="caret"></span>
+                </button>
+              </p>
               <div class="collapse" id="spl-form-request-edit-contact">
               <?php include 'common/field-contact.php'; ?>
               </div>
