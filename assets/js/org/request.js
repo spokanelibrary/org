@@ -34,6 +34,10 @@ var org = {
 			$('#spl-form-request-panel-choose').collapse('hide');
 		});
 
+		var materialType = $('input[name = "spl-form[material]"]:checked' , '#spl-form-request-panel-choose').val()
+
+		console.log(materialType);
+
   } // initMyAccount()
 
 
