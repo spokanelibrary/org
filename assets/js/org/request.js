@@ -32,11 +32,14 @@ var org = {
 		
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
 			$('#spl-form-request-panel-choose').collapse('hide');
+			
+			var materialType = $('input[name = "spl-form[material]"]:checked' , '#spl-form-request-panel-choose').val()
+
+			console.log(materialType);
+
 		});
 
-		var materialType = $('input[name = "spl-form[material]"]:checked' , '#spl-form-request-panel-choose').val()
-
-		console.log(materialType);
+		
 
   } // initMyAccount()
 
