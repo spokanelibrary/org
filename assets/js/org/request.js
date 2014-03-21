@@ -42,6 +42,7 @@ var org = {
 			$('#spl-form-request-panel-choose').collapse('hide');		
 			//$('#spl-form-panel-request').collapse('hide');
 			$('#spl-form-panel-request').collapse('show');
+			$('#spl-form-request-submit-physical').collapse('show');
 		});
 
 		/*
@@ -57,6 +58,7 @@ var org = {
 		});
 		
 		$('body').on('shown.bs.collapse', '.spl-form-request-download', function() {
+			$('#spl-form-request-submit-physical').collapse('hide');
 			$('#spl-form-request-submit-download').collapse('show');
 		});
 		
