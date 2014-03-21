@@ -12,7 +12,9 @@
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input class="pull-left" style="margin-left:6px;" type="radio" name="spl-form[material]" value="book"> <small class="glyphicon glyphicon-book"></small> Book
+            <input class="sr-only" type="radio" name="spl-form[material]" value="book"> 
+            <small class="glyphicon glyphicon-book"></small>
+            Book
           </label>
         </p>
       </div><!-- /.col -->
@@ -22,14 +24,18 @@
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input class="sr-only" type="radio" name="spl-form[material]" value="cd-audio-book"> Book on CD
+            <input class="sr-only" type="radio" name="spl-form[material]" value="cd-audio-book"> 
+            <small class="glyphicon glyphicon-volume-up"></small>
+            Book on CD
           </label>
         </p>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input class="sr-only" type="radio" name="spl-form[material]" value="ebook"> eBook
+            <input class="sr-only" type="radio" name="spl-form[material]" value="ebook"> 
+            <small class="glyphicon glyphicon-phone"></small> 
+            eBook
           </label>
         </p>
       </div><!-- /.col -->
