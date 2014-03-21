@@ -220,6 +220,7 @@
         </div>
       </div>
       <!-- publisher -->
+      <!--
       <div class="col-sm-6">
       <div class="form-group">
         <label for="spl-form-publisher" class="col-sm-4 col-md-3 control-label">Publisher</label>
@@ -228,7 +229,15 @@
         </div>
       </div>
       </div>
-
+      -->
+      <div class="col-sm-6">
+      <div class="form-group">
+        <label for="spl-form-publisher" class="control-label">Publisher</label>
+        <div>
+          <input type="text" class="form-control" id="spl-form-publisher" name="spl-form[publisher]">
+        </div>
+      </div>
+      </div>
 
 
 
