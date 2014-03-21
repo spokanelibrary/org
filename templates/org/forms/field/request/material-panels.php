@@ -6,13 +6,11 @@
           id="spl-form-panel-request-book">
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <h4 class="panel-title">
-            Book
-            <button type="button" 
-                    class="btn btn-success"
+          
+          <button type="button" 
+                    class="btn btn-primary"
                     data-toggle="collapse"
-                    data-target="#spl-form-request-panel-choose">Change</button>
-          </h4>
+                    data-target="#spl-form-request-panel-choose">Book</button>
         </div><!-- /.panel-heading -->   
         <div class="panel-body">
           Request.
