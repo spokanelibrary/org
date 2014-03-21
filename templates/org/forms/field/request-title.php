@@ -30,13 +30,19 @@
               <?php echo $_SESSION['spl']['user']->borrowerBarcode; ?>
             </legend>
 
-            <div class="col-md-8">
-            <?php include 'common/shared/field-contact-name.php'; ?>
-            </div>
             <div class="col-md-4">
             pickup location
             </div>
-
+            <div class="col-md-8">
+              <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
+              Edit contact info
+              <span class="caret"></span>
+              </button>
+              <div class="collapse" id="spl-form-request-edit-contact">
+              <?php include 'common/field-contact.php'; ?>
+              </div>
+            </div>
+            
           </fieldset>
             <?php include 'request/title.php'; ?>
             
