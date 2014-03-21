@@ -171,12 +171,10 @@
       <div class="form-group">
         <label for="spl-form-url" class="col-sm-4 col-md-3 control-label">Link on the web</label>
         <div class="col-sm-8 col-md-9">
-          <p>
-            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-link">
-              I have a link to this item
-              <span class="caret"></span>
-            </button>
-          </p>
+          <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-link">
+            I have a link to this item
+            <span class="caret"></span>
+          </button>
           <div id="spl-form-request-link" class="collapse">
             <input type="text" class="form-control" id="spl-form-url" name="spl-form[url]">
             <span class="help-block">
@@ -193,12 +191,10 @@
       <div class="form-group">
         <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
         <div class="col-sm-8 col-md-9">
-          <p>
-            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-search">
-              I would like to search for this title
-              <span class="caret"></span>
-            </button>
-          </p>
+          <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-search">
+            I would like to search for this title
+            <span class="caret"></span>
+          </button>
           <div id="spl-form-request-search" class="collapse">
             <div class="well">
               Search box
