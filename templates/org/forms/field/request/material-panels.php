@@ -167,7 +167,7 @@
         physical
       </div>
 
-      <div id="spl-form-request-submit-download" class="hide">
+      <div id="spl-form-request-submit-download" class="collapse">
         download
       </div>
 
