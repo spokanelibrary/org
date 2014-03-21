@@ -52,7 +52,7 @@ var org = {
 
 		});
 
-		$('body').on('show.bs.collapse', '.spl-form-request-panel', function() {
+		$('body').on('show.bs.collapse', '.spl-form-request-material', function() {
 			console.log('generic panel');
 		});
 
