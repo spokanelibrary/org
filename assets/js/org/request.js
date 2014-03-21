@@ -43,8 +43,8 @@ var org = {
 			//$('#spl-form-panel-request').collapse('hide');
 			//$('#spl-form-panel-request').collapse('show');
 
-			$('#spl-form-request-submit-item').hide();
-			$('#spl-form-request-submit-download').hide();
+			//$('#spl-form-request-submit-item').hide();
+			//$('#spl-form-request-submit-download').hide();
 		});
 
 		
