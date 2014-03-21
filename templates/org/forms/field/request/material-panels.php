@@ -9,7 +9,8 @@
                     data-toggle="collapse"
                     data-target="#spl-form-request-panel-choose">
                     <i class="glyphicon glyphicon-book"></i> 
-                    Book</button>
+                    Book
+                    </button>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-material"
@@ -19,77 +20,63 @@
                     data-toggle="collapse"
                     data-target="#spl-form-request-panel-choose">
                     <i class="glyphicon glyphicon-volume-up"></i>
-                    Book on CD</button>
+                    Book on CD
+                    </button>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-ebook">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            eBook
-          </h4>
-        </div><!-- /.panel-heading -->   
-        <div class="panel-body">
-          Request.
-        </div><!-- /.panel-body -->
-      </div><!-- /.panel -->
+      <button type="button" 
+                    class="btn btn-block btn-primary"
+                    data-toggle="collapse"
+                    data-target="#spl-form-request-panel-choose">
+                    <i class="glyphicon glyphicon-phone"></i>
+                    ebook
+                    </button>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-dl-audio-book">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            Audio Book
-          </h4>
-        </div><!-- /.panel-heading -->   
-        <div class="panel-body">
-          Request.
-        </div><!-- /.panel-body -->
-      </div><!-- /.panel -->
+      <button type="button" 
+                    class="btn btn-block btn-primary"
+                    data-toggle="collapse"
+                    data-target="#spl-form-request-panel-choose">
+                    <i class="glyphicon glyphicon-headphones"></i>
+                    Audio Book <small>(download)</small>
+                    </button>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-cd">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            Music CD
-          </h4>
-        </div><!-- /.panel-heading -->   
-        <div class="panel-body">
-          Request.
-        </div><!-- /.panel-body -->
-      </div><!-- /.panel -->
+      <button type="button" 
+                    class="btn btn-block btn-primary"
+                    data-toggle="collapse"
+                    data-target="#spl-form-request-panel-choose">
+                    <i class="glyphicon glyphicon-music"></i> 
+                    Music CD
+                    </button>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-dvd">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            DVD
-          </h4>
-        </div><!-- /.panel-heading -->   
-        <div class="panel-body">
-          Request.
-        </div><!-- /.panel-body -->
-      </div><!-- /.panel -->
+      <button type="button" 
+                    class="btn btn-block btn-primary"
+                    data-toggle="collapse"
+                    data-target="#spl-form-request-panel-choose">
+                    <i class="glyphicon glyphicon-film"></i> 
+                    DVD
+                    </button>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-other">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            Other
-          </h4>
-        </div><!-- /.panel-heading -->   
-        <div class="panel-body">
-          Request.
-        </div><!-- /.panel-body -->
-      </div><!-- /.panel -->
+      <button type="button" 
+                    class="btn btn-block btn-primary"
+                    data-toggle="collapse"
+                    data-target="#spl-form-request-panel-choose">
+                    <i class="glyphicon glyphicon-pencil"></i> 
+                    Other <small>(specify)</small>
+                    </button>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse"

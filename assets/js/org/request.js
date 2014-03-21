@@ -37,36 +37,16 @@ var org = {
 		});
 		*/
 
-		// hide material type selectors on choose
+		// hide material type selectors and generic request form on select
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
 			$('#spl-form-request-panel-choose').collapse('hide');		
 			$('#spl-form-panel-request').collapse('hide');
 		});
 
-
+		// show generic request form when requested
 		$('body').on('shown.bs.collapse', '.spl-form-request-material', function() {
 			$('#spl-form-panel-request').collapse('show');
 		});
-
-		/*
-
-		$('body').on('shown.bs.collapse', '.spl-form-request-material', function() {
-			$('#spl-form-panel-request').collapse('show');
-		});
-*/
-
-		/*
-		$('body').on('show.bs.collapse', '#spl-form-request-panel-choose', function() {
-			console.log('hide panels');
-			$('#spl-form-request-panels').hide();
-		});
-		*/
-
-
-
-		/*
-		
-		*/
 		
   } // initRequestItem()
 
