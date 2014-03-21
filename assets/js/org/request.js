@@ -59,7 +59,7 @@ var org = {
 		});
 		*/
 
-		$('body').on('show.bs.collapse', '.spl-form-request-material', function() {
+		$('body').on('shown.bs.collapse', '.spl-form-request-material', function() {
 			$('#spl-form-panel-request').collapse('show');
 			//console.log('show generic panel');
 		});
