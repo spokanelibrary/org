@@ -44,8 +44,13 @@ var org = {
 		});
 
 		// show generic request form when requested
-		$('body').on('shown.bs.collapse', '.spl-form-request-material', function() {
+		$('body').on('show.bs.collapse', '.spl-form-request-generic', function() {
 			$('#spl-form-panel-request').collapse('show');
+		});
+
+		// hide generic request form when not requested
+		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function() {
+			$('#spl-form-panel-request').collapse('hide');
 		});
 		
   } // initRequestItem()

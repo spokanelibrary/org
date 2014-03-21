@@ -2,7 +2,7 @@
 <div class="panel-group" id="spl-form-request-panels">
   <div class="panel" style="border:none;">
 
-    <div class="panel-collapse collapse spl-form-request-material"
+    <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-book">
       <button type="button" 
               class="btn btn-block btn-primary"
@@ -13,7 +13,7 @@
               </button>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-material"
+    <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-cd-audio-book">
       <button type="button" 
               class="btn btn-block btn-primary"
@@ -24,7 +24,7 @@
               </button>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-material"
+    <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-ebook">
       <button type="button" 
               class="btn btn-block btn-primary"
@@ -35,7 +35,7 @@
               </button>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-material"
+    <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-dl-audio-book">
       <button type="button" 
               class="btn btn-block btn-primary"
@@ -46,7 +46,7 @@
               </button>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-material"
+    <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-cd">
       <button type="button" 
               class="btn btn-block btn-primary"
@@ -57,7 +57,7 @@
               </button>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-material"
+    <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-dvd">
       <button type="button" 
               class="btn btn-block btn-primary"
@@ -68,7 +68,7 @@
               </button>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-material"
+    <div class="panel-collapse collapse spl-form-request-generic"
           id="spl-form-panel-request-other">
       <button type="button" 
               class="btn btn-block btn-primary"
@@ -79,7 +79,7 @@
               </button>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse"
+    <div class="panel-collapse collapse spl-form-request-specific"
           id="spl-form-panel-request-genealogy">
       <button type="button" 
               class="btn btn-block btn-default"
@@ -89,7 +89,7 @@
               </button>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse"
+    <div class="panel-collapse collapse spl-form-request-specific"
           id="spl-form-panel-request-page-copy">
       <button type="button" 
               class="btn btn-block btn-default"
@@ -99,7 +99,7 @@
               </button>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse"
+    <div class="panel-collapse collapse spl-form-request-specific"
           id="spl-form-panel-request-periodical">
       <button type="button" 
               class="btn btn-block btn-default"
