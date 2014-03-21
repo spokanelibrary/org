@@ -160,20 +160,24 @@
       id="spl-form-panel-request"> 
   <div class="panel panel-primary">
     <div class="panel-body">
-      <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#spl-form-request-search">
-        Search for this title
-      </button>
+      <p>
+        <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-search">
+          I would like to search for this title &rarr;
+        </button>
+      </p>
       <div id="spl-form-request-search" class="collapse">
-        Search for this
+        <div class="well">
+          Search box
+        </div>
       </div>
 
 
       <div id="spl-form-request-submit-item" class="">
-        physical
+        Submit w/ hold &amp; ill
       </div>
 
       <div id="spl-form-request-submit-download" class="collapse">
-        download
+        Submit only
       </div>
 
     </div><!-- /.panel-body -->
