@@ -1,5 +1,5 @@
 <div class="form-group">
-  <label for="spl-form-pickup" class="col-sm-12">Pickup location</label>
+  <label for="spl-form-pickup" class="col-sm-12">Where should we hold this item?</label>
   <div class="col-sm-12">
     <select class="form-control" id="spl-form-pickup" name="spl-form[pickup]">
         <option value="dt" selected="">Downtown</option>
@@ -14,6 +14,5 @@
         <option value="none">
           No thanks (do not place a hold)</option>
       </select>
-      <span class="help-block">Where should we hold this item?</span>
   </div>
 </div>
