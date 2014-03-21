@@ -14,16 +14,12 @@
 
     <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-cd-audio-book">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            Book on CD
-          </h4>
-        </div><!-- /.panel-heading -->   
-        <div class="panel-body">
-          Request.
-        </div><!-- /.panel-body -->
-      </div><!-- /.panel -->
+      <button type="button" 
+                    class="btn btn-block btn-primary"
+                    data-toggle="collapse"
+                    data-target="#spl-form-request-panel-choose">
+                    <i class="glyphicon glyphicon-volume-up"></i>
+                    Book on CD</button>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request-material"
