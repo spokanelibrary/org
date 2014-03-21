@@ -102,6 +102,10 @@ var ORG = {
           $('#spl-form-zip').val(user.address.postalCode);
         }
 
+        if ( user.locationID ) {
+          $('#spl-form-pickup').val(user.locationID);
+        }
+
       }
 
        
