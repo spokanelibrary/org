@@ -44,7 +44,7 @@
           <label class="btn btn-block btn-primary">
             <input class="sr-only" type="radio" name="spl-form[material]" value="dl-audio-book"> 
             <i class="glyphicon glyphicon-headphones"></i>
-            Audio Book <i>(download)</i>
+            Audio Book <small>(download)</small>
           </label>
         </p>
       </div><!-- /.col -->
@@ -74,7 +74,7 @@
           <label class="btn btn-block btn-primary">
             <input class="sr-only" type="radio" name="spl-form[material]" value="other"> 
             <i class="glyphicon glyphicon-pencil"></i> 
-            Other <i>(tell us)</i>
+            Other <small>(specify)</small>
           </label>
         </p>
       </div><!-- /.col -->
@@ -84,26 +84,26 @@
 
     <div class="row">
       <div class="col-sm-12">
-      <h4 class="text-center">Research Request <i>Interlibrary Loan only</i></h4>
+      <h4 class="text-center">Research Request <small>Interlibrary Loan only</small></h4>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-default">
-            <input class="sr-only" type="radio" name="spl-form[material]" value="genealogy"> Genealogy <i>(research copies)</i>
+            <input class="sr-only" type="radio" name="spl-form[material]" value="genealogy"> Genealogy <small>(research copies)</small>
           </label>
         </p>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-default">
-            <input class="sr-only" type="radio" name="spl-form[material]" value="page-copy"> Newspaper <i>(microfilm)</i>
+            <input class="sr-only" type="radio" name="spl-form[material]" value="page-copy"> Newspaper <small>(microfilm)</small>
           </label>
         </p>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-default">
-            <input class="sr-only" type="radio" name="spl-form[material]" value="periodical"> Magazine <i>or</i> Journal
+            <input class="sr-only" type="radio" name="spl-form[material]" value="periodical"> Magazine <small>or</small> Journal
           </label>
         </p>
       </div><!-- /.col -->
