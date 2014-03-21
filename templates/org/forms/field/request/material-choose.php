@@ -63,14 +63,18 @@
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input class="sr-only" type="radio" name="spl-form[material]" value="dvd"> DVD
+            <input class="sr-only" type="radio" name="spl-form[material]" value="dvd">
+            <small class="glyphicon glyphicon-film"></small> 
+            DVD
           </label>
         </p>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
           <label class="btn btn-block btn-primary">
-            <input class="sr-only" type="radio" name="spl-form[material]" value="other"> Other <small>(tell us)</small>
+            <input class="sr-only" type="radio" name="spl-form[material]" value="other"> 
+            <small class="glyphicon glyphicon-pencil"></small> 
+            Other <small>(tell us)</small>
           </label>
         </p>
       </div><!-- /.col -->
