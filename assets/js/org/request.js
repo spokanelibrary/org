@@ -43,16 +43,16 @@ var org = {
 			//$('#spl-form-panel-request').collapse('hide');
 			$('#spl-form-panel-request').collapse('show');
 
-			$('#spl-form-request-submit-item').collapse('hide');
+			$('#spl-form-request-submit-item').collapse('show');
 			$('#spl-form-request-submit-download').collapse('hide');
 		});
 
-		
+		/*
 		// show generic request form when requested
 		$('body').on('shown.bs.collapse', '.spl-form-request-generic', function() {
 			//$('#spl-form-panel-request').collapse('show');
-			$('#spl-form-request-submit-item').collapse('show');
 		});
+		*/
 
 		// hide generic request form when not requested
 		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function() {
@@ -61,6 +61,7 @@ var org = {
 	
 
 		$('body').on('shown.bs.collapse', '.spl-form-request-download', function() {
+			$('#spl-form-request-submit-item').collapse('hide');
 			$('#spl-form-request-submit-download').collapse('show');
 		});
 
