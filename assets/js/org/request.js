@@ -37,24 +37,25 @@ var org = {
 		});
 		*/
 
+		/*
 		$('body').on('show.bs.collapse', '#spl-form-request-panel-choose', function() {
 			console.log('hide panels');
 			$('#spl-form-request-panels').hide();
 		});
+		*/
 
-		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
-			$(this).show;
-			$('#spl-form-request-panel-choose').collapse('hide');
-			
-		});
-
-		/*
 		$('body').on('hide.bs.collapse', '#spl-form-request-panels', function() {
 			$('#spl-form-panel-request').collapse('hide');
-			$('#spl-form-request-panel-choose').collapse('show');
+			//$('#spl-form-request-panel-choose').collapse('show');
+		});
+		
+		/*
+		
+
+		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
+			$('#spl-form-request-panel-choose').collapse('hide');			
 		});
 
-		
 
 
 		$('body').on('shown.bs.collapse', '.spl-form-request-material', function() {
