@@ -18,7 +18,7 @@
           id="spl-form-panel-request-cd-audio-book">
       <p>
         <button type="button" 
-                class="btn btn-block btn-primary"
+                class="btn btn-lg btn-block btn-primary"
                 data-toggle="collapse"
                 data-target="#spl-form-request-panel-choose">
                 <i class="glyphicon glyphicon-volume-up"></i>
@@ -31,7 +31,7 @@
           id="spl-form-panel-request-ebook">
       <p>
         <button type="button" 
-                class="btn btn-block btn-primary"
+                class="btn btn-lg btn-block btn-primary"
                 data-toggle="collapse"
                 data-target="#spl-form-request-panel-choose">
                 <i class="glyphicon glyphicon-phone"></i>
@@ -44,7 +44,7 @@
           id="spl-form-panel-request-dl-audio-book">
       <p>
         <button type="button" 
-                class="btn btn-block btn-primary"
+                class="btn btn-lg btn-block btn-primary"
                 data-toggle="collapse"
                 data-target="#spl-form-request-panel-choose">
                 <i class="glyphicon glyphicon-headphones"></i>
@@ -57,7 +57,7 @@
           id="spl-form-panel-request-cd">
       <p>
         <button type="button" 
-                class="btn btn-block btn-primary"
+                class="btn btn-lg btn-block btn-primary"
                 data-toggle="collapse"
                 data-target="#spl-form-request-panel-choose">
                 <i class="glyphicon glyphicon-music"></i> 
@@ -70,7 +70,7 @@
           id="spl-form-panel-request-dvd">
       <p>
         <button type="button" 
-                class="btn btn-block btn-primary"
+                class="btn btn-lg btn-block btn-primary"
                 data-toggle="collapse"
                 data-target="#spl-form-request-panel-choose">
                 <i class="glyphicon glyphicon-film"></i> 
@@ -83,7 +83,7 @@
           id="spl-form-panel-request-other">
       <p>
         <button type="button" 
-                class="btn btn-block btn-primary"
+                class="btn btn-lg btn-block btn-primary"
                 data-toggle="collapse"
                 data-target="#spl-form-request-panel-choose">
                 <i class="glyphicon glyphicon-pencil"></i> 
@@ -96,7 +96,7 @@
           id="spl-form-panel-request-genealogy">
       <p>
         <button type="button" 
-                class="btn btn-block btn-default"
+                class="btn btn-lg btn-block btn-default"
                 data-toggle="collapse"
                 data-target="#spl-form-request-panel-choose">
                 Genealogy <small>(research copies)</small>
@@ -113,7 +113,7 @@
           id="spl-form-panel-request-page-copy">
       <p>
         <button type="button" 
-                class="btn btn-block btn-default"
+                class="btn btn-lg btn-block btn-default"
                 data-toggle="collapse"
                 data-target="#spl-form-request-panel-choose">
                 Newspaper <small>(microfilm)</small>
@@ -135,7 +135,7 @@
           id="spl-form-panel-request-periodical">
       <p>
         <button type="button" 
-                class="btn btn-block btn-default"
+                class="btn btn-lg btn-block btn-default"
                 data-toggle="collapse"
                 data-target="#spl-form-request-panel-choose">
                 Magazine <small>or</small> Journal
