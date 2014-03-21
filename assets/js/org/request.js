@@ -45,8 +45,8 @@ var org = {
 		*/
 
 		$('body').on('hide.bs.collapse', '#spl-form-request-panels', function() {
-			$('#spl-form-panel-request').collapse('hide');
-			//$('#spl-form-request-panel-choose').collapse('show');
+			//$('#spl-form-panel-request').collapse('hide');
+			$('#spl-form-request-panel-choose').collapse('show');
 		});
 		
 		/*
