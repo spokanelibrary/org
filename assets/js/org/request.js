@@ -41,12 +41,15 @@ var org = {
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
 			$('#spl-form-request-panel-choose').collapse('hide');		
 			$('#spl-form-panel-request').collapse('hide');
-		});
-
-		// show generic request form when requested
-		$('body').on('show.bs.collapse', '.spl-form-request-generic', function() {
 			$('#spl-form-panel-request').collapse('show');
 		});
+
+		/*
+		// show generic request form when requested
+		$('body').on('shown.bs.collapse', '.spl-form-request-generic', function() {
+			$('#spl-form-panel-request').collapse('show');
+		});
+*/
 
 		// hide generic request form when not requested
 		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function() {
