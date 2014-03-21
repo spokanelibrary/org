@@ -36,7 +36,11 @@ var org = {
 			console.log(materialTypeDescription);
 		});
 		*/
-		
+
+		$('body').on('show.bs.collapse', '#spl-form-panel-request', function() {
+			('#spl-form-request-panels').collapse('hide');
+		});
+
 		$('body').on('hide.bs.collapse', '#spl-form-request-panels', function() {
 			$('#spl-form-panel-request').collapse('hide');
 			$('#spl-form-request-panel-choose').collapse('show');
