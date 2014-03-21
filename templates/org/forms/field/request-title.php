@@ -31,13 +31,13 @@
             </legend>
 
             <div class="col-md-4">
-            pickup location
+            <?php include 'common/field-contact-location.php'; ?>
             </div>
             <div class="col-md-8">
               <p>
                 <button type="button" class="btn btn-block btn-success" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
                   <i class="glyphicon glyphicon-edit"></i>
-                  Edit contact info
+                  Edit my contact info
                   <span class="caret"></span>
                 </button>
               </p>
