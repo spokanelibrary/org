@@ -2,15 +2,17 @@
 
   <div class="col-md-12">
     
+    <div class="spl-login" data-callback-method="loadUserFormFields">
     <?php echo do_shortcode('[spl_widget login-form label post=request intro="Please login to get started."]'); ?>
+    </div>
     
     <?php echo get_query_var('bib') ?>
 
     <?php if ( true == do_shortcode('[spl_widget auth-user]') ) : ?>
-    
+        
     <div class="panel panel-default">
       <div class="panel-body">
-        <form class="form-horizontal spl-form spl-login" id="spl-form-request" data-callback-method="loadUserFormFields" method="post" role="form">
+        <form class="form-horizontal spl-form spl-login" id="spl-form-request" method="post" role="form">
           
           <?php include 'common/crass-response.php'; ?>
       
