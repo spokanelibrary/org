@@ -51,7 +51,7 @@ var org = {
 		// show generic request form when requested
 		$('body').on('shown.bs.collapse', '.spl-form-request-generic', function() {
 			//$('#spl-form-panel-request').collapse('show');
-			$('#spl-form-request-submit-item').show();
+			$('#spl-form-request-submit-item').fadeIn();
 		});
 		
 
@@ -63,7 +63,7 @@ var org = {
 
 		$('body').on('shown.bs.collapse', '.spl-form-request-download', function() {
 			$('#spl-form-request-submit-item').hide();
-			$('#spl-form-request-submit-download').show();
+			$('#spl-form-request-submit-download').fadeIn();
 		});
 
 
