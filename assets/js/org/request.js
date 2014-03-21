@@ -38,6 +38,11 @@ var org = {
 		*/
 		
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
+			
+			if ( $(this).hasClass('spl-form-panel-request') ) {
+				console.log('generic panel');
+			}
+
 			//$('#spl-form-request-panel-choose').collapse('hide');
 			
 			//var materialType = $('input:radio[name = "spl-form[material]"]:checked' , '#spl-form-request-panel-choose').val()
