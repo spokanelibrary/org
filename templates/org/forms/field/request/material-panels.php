@@ -161,25 +161,32 @@
   <div class="panel panel-primary">
     <div class="panel-body">
 
-        <div class="form-group">
-          <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
-          <div class="col-sm-8 col-md-9">
-            <p>
-              <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-search">
-                I would like to search for this title
-                <span class="caret"></span>
-              </button>
-            </p>
-            <div id="spl-form-request-search" class="collapse">
-              <div class="well">
-                Search box
-              </div>
+      <div class="form-group">
+        <label for="spl-form-title" class="col-sm-4 col-md-3 control-label">Requested Title</label>
+        <div class="col-sm-8 col-md-9">
+          <input type="text" class="form-control" id="spl-form-title" name="spl-form[title]" title="Don't forget to tell us the title you are looking for!">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
+        <div class="col-sm-8 col-md-9">
+          <p>
+            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-search">
+              I would like to search for this title
+              <span class="caret"></span>
+            </button>
+          </p>
+          <div id="spl-form-request-search" class="collapse">
+            <div class="well">
+              Search box
             </div>
           </div>
+        </div>
       </div>
 
       <div id="spl-form-request-submit-item" class="">
-        Submit w/ hold &amp; ill
+        Submit w/ hold &amp; ill (only for residents, etc.)
       </div>
 
       <div id="spl-form-request-submit-download" class="collapse">
