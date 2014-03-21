@@ -160,14 +160,21 @@
       id="spl-form-panel-request"> 
   <div class="panel panel-primary">
     <div class="panel-body">
-
+      <!-- title -->
       <div class="form-group">
         <label for="spl-form-title" class="col-sm-4 col-md-3 control-label"><span class="text-danger">*</span> Requested title</label>
         <div class="col-sm-8 col-md-9">
-          <input type="text" class="form-control" id="spl-form-title" name="spl-form[title]" title="Don't forget to tell us the title you are looking for!">
+          <input type="text" class="form-control required" id="spl-form-title" name="spl-form[title]" title="Don't forget to tell us the title you are looking for!">
         </div>
       </div>
-
+      <!-- author -->
+      <div class="form-group">
+        <label for="spl-form-author" class="col-sm-4 col-md-3 control-label">Author or Artist</label>
+        <div class="col-sm-8 col-md-9">
+          <input type="text" class="form-control" id="spl-form-autor" name="spl-form[author]">
+        </div>
+      </div>
+      <!-- url -->
       <div class="form-group">
         <label for="spl-form-url" class="col-sm-4 col-md-3 control-label">Link on the web</label>
         <div class="col-sm-8 col-md-9">
@@ -187,7 +194,7 @@
           </div>
         </div>
       </div>
-
+      <!-- search -->
       <div class="form-group">
         <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
         <div class="col-sm-8 col-md-9">
@@ -202,6 +209,14 @@
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
 
       <div id="spl-form-request-submit-item" class="">
         Submit w/ hold &amp; ill (only for residents, etc.)
