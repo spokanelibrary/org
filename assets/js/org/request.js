@@ -30,12 +30,12 @@ var org = {
 
 , initRequestItem: function() {
 
+		/*
 		$('body').on('change', 'input:radio[name = "spl-form[material]"]', function() {
-			//var materialTypeDescription = $(this).data('');
-			//var materialTypeDescription = $(this).parent().next().find('label').text();
 			var materialTypeDescription = $(this).parent().text();
 			console.log(materialTypeDescription);
 		});
+		*/
 		
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
 			//$('#spl-form-request-panel-choose').collapse('hide');

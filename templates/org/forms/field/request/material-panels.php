@@ -2,7 +2,7 @@
 <div class="panel-group" id="spl-form-request-panels">
   <div class="panel" style="border:none;">
 
-    <div class="panel-collapse collapse"
+    <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-book">
       <div class="panel panel-primary">
         <div class="panel-heading">
@@ -16,7 +16,7 @@
       </div><!-- /.panel -->
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse"
+    <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-cd-audio-book">
       <div class="panel panel-primary">
         <div class="panel-heading">
@@ -30,7 +30,7 @@
       </div><!-- /.panel -->
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse"
+    <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-ebook">
       <div class="panel panel-primary">
         <div class="panel-heading">
@@ -44,7 +44,7 @@
       </div><!-- /.panel -->
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse"
+    <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-dl-audio-book">
       <div class="panel panel-primary">
         <div class="panel-heading">
@@ -58,7 +58,7 @@
       </div><!-- /.panel -->
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse"
+    <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-cd">
       <div class="panel panel-primary">
         <div class="panel-heading">
@@ -72,7 +72,7 @@
       </div><!-- /.panel -->
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse"
+    <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-dvd">
       <div class="panel panel-primary">
         <div class="panel-heading">
@@ -86,7 +86,7 @@
       </div><!-- /.panel -->
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse"
+    <div class="panel-collapse collapse spl-form-request-material"
           id="spl-form-panel-request-other">
       <div class="panel panel-primary">
         <div class="panel-heading">
@@ -145,4 +145,17 @@
   </div><!-- /.panel - required here for bs3 -->
 </div><!-- /.panel-group -->
 
+<div class="panel-collapse collapse"
+          id="spl-form-panel-request"> 
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            Standard request
+          </h4>
+        </div><!-- /.panel-heading -->  
+        <div class="panel-body">
+          My Request
+        </div><!-- /.panel-body -->
+      </div><!-- /.panel -->
+    </div><!-- /.collapse -->
 
