@@ -49,13 +49,15 @@ var org = {
 			//var materialType = $('input:radio[name = "spl-form[material]"]:checked' , '#spl-form-request-panel-choose').val()
 
 			//console.log(materialType);
-
+			$('#spl-form-panel-request').collapse('hide');
 		});
 
+		/*
 		$('body').on('hide.bs.collapse', '.spl-form-request-material', function() {
 			$('#spl-form-panel-request').collapse('hide');
 			//console.log('hide generic panel');
 		});
+		*/
 
 		$('body').on('show.bs.collapse', '.spl-form-request-material', function() {
 			$('#spl-form-panel-request').collapse('show');
