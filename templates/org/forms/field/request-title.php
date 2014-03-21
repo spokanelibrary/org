@@ -43,7 +43,8 @@
                 </button>
               </p>
               <div class="collapse" id="spl-form-request-edit-contact">
-              <?php include 'common/field-contact.php'; ?>
+              <?php include 'common/shared/field-contact-name.php'; ?>
+              <?php include 'common/shared/field-contact-info.php'; ?>
               </div>
             </div>
             
