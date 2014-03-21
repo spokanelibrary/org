@@ -161,18 +161,19 @@
   <div class="panel panel-primary">
     <div class="panel-body">
 
-
-      <div class="form-group">
-        <label for="" class="col-sm-4 col-md-9 control-label">Search WorldCat</label>
-        <div class="col-sm-8 col-md-9">
-          <p>
-            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-search">
-              I would like to search for this title &rarr;
-            </button>
-          </p>
-          <div id="spl-form-request-search" class="collapse">
-            <div class="well">
-              Search box
+      <div class="row">
+        <div class="form-group">
+          <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
+          <div class="col-sm-8 col-md-9">
+            <p>
+              <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-search">
+                I would like to search for this title &rarr;
+              </button>
+            </p>
+            <div id="spl-form-request-search" class="collapse">
+              <div class="well">
+                Search box
+              </div>
             </div>
           </div>
         </div>
