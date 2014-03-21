@@ -38,7 +38,7 @@ var org = {
 		*/
 
 		$('body').on('show.bs.collapse', '#spl-form-panel-request', function() {
-			('#spl-form-request-panels').collapse('hide');
+			$('#spl-form-request-panels').collapse('hide');
 		});
 
 		$('body').on('hide.bs.collapse', '#spl-form-request-panels', function() {
