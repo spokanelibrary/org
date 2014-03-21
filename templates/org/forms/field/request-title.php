@@ -31,7 +31,8 @@
             <p>
               We'll have some contact info here.
             </p>
-            <?php //include 'common/field-contact.php'; ?>
+            
+            <?php include 'common/field-contact.php'; ?>
 
           </fieldset>
             <?php include 'request/title.php'; ?>
