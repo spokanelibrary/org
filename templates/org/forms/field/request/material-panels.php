@@ -222,17 +222,15 @@
       <!-- publisher/pubdate-->
       <div class="row">
         <div class="col-sm-6">
-          <div class="form-group">
           <label for="spl-form-publisher" class="control-label">Publisher</label>
           <input type="text" class="form-control" id="spl-form-publisher" name="spl-form[publisher]">
-          </div>
         </div>
         <div class="col-sm-6">
           <label for="spl-form-pubdate" class="control-label">Publication Date</label>
           <input type="text" class="form-control" id="spl-form-pubdate" name="spl-form[pubdate]">
         </div>
       </div>
-      <!-- isbn/oclc-->
+      <!-- isbn/oclc -->
       <div class="row">
         <div class="col-sm-6">
           <label for="spl-form-isbn" class="control-label">ISBN / ISSN</label>
@@ -241,6 +239,17 @@
         <div class="col-sm-6">
           <label for="spl-form-oclc" class="control-label">OCLC #</label>
           <input type="text" class="form-control" id="spl-form-oclc" name="spl-form[oclc]">
+        </div>
+      </div>
+      <!-- content/age -->
+      <div class="row">
+        <div class="col-sm-6">
+          <label for="spl-form-content" class="control-label">Content</label>
+          <input type="text" class="form-control" id="spl-form-content" name="spl-form[content]">
+        </div>
+        <div class="col-sm-6">
+          <label for="spl-form-audience" class="control-label">Age Group</label>
+          <input type="text" class="form-control" id="spl-form-audience" name="spl-form[audience]">
         </div>
       </div>
 
