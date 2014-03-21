@@ -230,14 +230,15 @@
       </div>
       </div>
       -->
-
-      <div class="form-group col-sm-6">
-        <label for="spl-form-publisher" class="control-label">Publisher</label>
-        <input type="text" class="form-control" id="spl-form-publisher" name="spl-form[publisher]">
-      </div>
-      <div class="form-group col-sm-6">
-        <label for="spl-form-pubdate" class="control-label">Publication Date</label>
-        <input type="text" class="form-control" id="spl-form-pubdate" name="spl-form[pubdate]">
+      <div class="row">
+        <div class="col-sm-6">
+          <label for="spl-form-publisher" class="control-label">Publisher</label>
+          <input type="text" class="form-control" id="spl-form-publisher" name="spl-form[publisher]">
+        </div>
+        <div class="col-sm-6">
+          <label for="spl-form-pubdate" class="control-label">Publication Date</label>
+          <input type="text" class="form-control" id="spl-form-pubdate" name="spl-form[pubdate]">
+        </div>
       </div>
 
 
