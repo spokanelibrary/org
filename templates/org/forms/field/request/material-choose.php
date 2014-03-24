@@ -98,9 +98,11 @@
 
     <div class="row">
       <div class="col-sm-12">
-      <span class="caret pull-left"></span>
-      <span class="caret right-right"></span>
-      <h4 class="text-center">Research <small>Interlibrary Loan only</small></h4>
+      <h4 class="text-center">
+        Research <small>Interlibrary Loan only</small>
+        <span class="caret pull-left"></span>
+        <span class="caret right-right"></span>
+      </h4>
       </div><!-- /.col -->
       <div class="col-sm-4">
         <p>
