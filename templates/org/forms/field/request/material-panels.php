@@ -222,9 +222,9 @@
           <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
         </div>
       </div>
-      <blockquote>
+      <p class="lead">
         Any additional information you can provide helps us expedite your request:
-      </blockquote>
+      </p>
       <!-- publisher/pubdate-->
       <div class="row">
         <div class="col-sm-6">
