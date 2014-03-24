@@ -70,7 +70,7 @@ var org = {
 
     if ( query ) {
 
-    	var search = { query };
+    	var search = { term: query };
 
     	var tmpl = Handlebars.compile( $('#oclc-search-tmpl').html() );
       $modal.html(tmpl(search)).modal('show');
