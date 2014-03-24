@@ -391,8 +391,10 @@
       <div class="modal-body">
         <p>Modal body&hellip;</p>
       </div>
-      <div class="modal-footer text-center">
-        <button type="button" class="btn btn-primary">Pagination</button>
+      <div class="modal-footer">
+        <p class="text-center">
+          <button type="button" class="btn btn-default">Pagination</button>
+        </p>
       </div>
     {{/unless}}
     </div><!-- /.modal-content -->
