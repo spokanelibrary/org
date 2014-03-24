@@ -201,10 +201,12 @@
       <div class="form-group">
         <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
         <div class="col-sm-8 col-md-9">
-          <button type="button" class="btn btn-block btn-default" data-toggle="collapse" data-target="#spl-form-request-search">
-            <strong class="text-success">I would like to search for this title</strong>
-            <span class="caret"></span>
-          </button>
+          <p class="form-control-static">
+            <button type="button" class="btn btn-block btn-default" data-toggle="collapse" data-target="#spl-form-request-search">
+              <strong class="text-success">I would like to search for this title</strong>
+              <span class="caret"></span>
+            </button>
+          </p>
           <div id="spl-form-request-search" class="collapse">
             <div class="input-group">
               <input type="text" class="form-control">
