@@ -265,9 +265,10 @@
         Submit w/ hold &amp; ill (only for residents, etc.)
 
         <?php
+        echo ('<pre>');
         print_r($_SESSION['spl']['user']);
+        echo ('</pre>');
         //switch () {
-
         //}
         ?>
 
