@@ -32,6 +32,16 @@ var org = {
 
 		console.log(this.user);
 
+		this.initRequestItemPanels();
+		this.initOCLC();
+
+  } // initRequestItem()
+  
+, initOCLC: function() {
+
+} // initOCLC()
+
+, initRequestItemPanels: function() {
 		/*
 		$('body').on('change', 'input:radio[name = "spl-form[material]"]', function() {
 			var materialTypeDescription = $(this).parent().text();
@@ -65,9 +75,6 @@ var org = {
 			$('#spl-form-panel-request').collapse('hide');
 		});
 
-
-  } // initRequestItem()
-
-
+} // initRequestItemPanels
 
 };
