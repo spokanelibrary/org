@@ -178,7 +178,7 @@
       <div class="form-group">
         <label for="spl-form-url" class="col-sm-4 col-md-3 control-label">Link on the Web</label>
         <div class="col-sm-8 col-md-9">
-          <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-link">
+          <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#spl-form-request-link">
             I have a link to this title
             <span class="caret"></span>
           </button>
