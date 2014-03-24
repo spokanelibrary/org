@@ -356,11 +356,15 @@
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h4 class="modal-title">
           <i class="glyphicon glyphicon-search"></i>
-          Searching OCLC&hellip;
+          Searching OCLC
         </h4>
       </div>
       <div class="modal-body">
         <p class="lead">
+          <img src="/assets/img/ajax-loader.gif">
+          Please wait&hellip;
+        </p>
+        <p>
           Search Term: <em>{{term}}</em>
         </p>
       </div>
