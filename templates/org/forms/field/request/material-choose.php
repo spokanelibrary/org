@@ -100,7 +100,7 @@
       <div class="col-sm-12">
       <h4 class="text-center">
         Research <small>Interlibrary Loan only</small>
-        <span class="caret"></span>
+        <small class="caret"></small>
       </h4>
       </div><!-- /.col -->
       <div class="col-sm-4">
