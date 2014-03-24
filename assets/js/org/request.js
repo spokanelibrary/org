@@ -77,7 +77,6 @@ var org = {
                 ,publisher: $(this).data('publisher')
                 ,pubdate: $(this).data('pubdate')
                 };
-      //console.log(bib);
       _self.oclcSelectBib(bib);
     });
 
@@ -85,14 +84,41 @@ var org = {
 } // initOCLC()
 
 , oclcSelectBib: function(bib) {
+		//console.log(bib);
 		$('#spl-form-title').val(bib.title);
     $('#spl-form-author').val(bib.author);
     $('#spl-form-publisher').val(bib.publisher);
     $('#spl-form-pubdate').val(bib.pubdate);
     $('#spl-form-oclc').val(bib.ocn);
     $('#spl-form-isbn').val(bib.canonical);
+    if ( bib.canonical ) {
+      this.checkISBNHolding( bib.canonical );
+    }
+	} // oclcSelectBib()
 
-}
+, checkISBNHolding: function(isbn) {
+    // check the SPL catalog for holdings using an isbn search and parsing the resulting xml. ugh.
+    console.log(isbn);
+    /*
+    $.ajax({ 
+        url: this.config.api.isbn
+        ,data: { isbn: isbn }
+      })
+      .done(function(obj) {
+        if ( 1 == obj.holding ) {
+          $holding = $('#spl-form-request-holding');
+          var tmpl = Handlebars.compile( $('#spl-form-request-holding-tmpl').html() );
+          $holding.html(tmpl( {isbn:isbn} ));
+          $.scrollTo('#spl-form-request-holding');
+        }
+      })
+      .fail(function() {
+      })
+      .always(function() {
+      });
+      */
+
+  } //checkISBNHolding()
 
 , oclcSearchKeyword: function(start) {
 		
