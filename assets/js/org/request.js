@@ -71,7 +71,7 @@ var org = {
 
 
     	$.ajax({ 
-        url: this.config.api.oclc
+        url: this.config.endpoint.oclc
         ,data: { sru: query // q: $('#spl-form-title').val()
                 ,mt: $('#spl-form-material').val()
                 ,index: $('#spl-form-search-index').val()
