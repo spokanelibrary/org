@@ -263,10 +263,18 @@
 
       <div id="spl-form-request-submit-item" class="">
         Submit w/ hold &amp; ill (only for residents, etc.)
+
+        <?php
+        print_r($_SESSION['spl']['user']);
+        //switch () {
+
+        //}
+        ?>
+
       </div>
 
       <div id="spl-form-request-submit-download" class="collapse">
-        Submit only
+        Submit only (no hold or ill)
       </div>
 
     </div><!-- /.panel-body -->
