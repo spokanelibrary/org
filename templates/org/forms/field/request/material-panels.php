@@ -368,12 +368,21 @@
   </div>
 </script>
 
-
+<script id="oclc-results-tmpl" type="text/x-handlebars-template">
   <div class="modal-dialog">
     <div class="modal-content">
+    {{#unless entry}}
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title">Modal title</h4>
+        <h4 class="modal-title">No results found</h4>
+      </div>
+      <div class="modal-body">
+        <p>Modal body&hellip;</p>
+      </div>
+    {{else}}
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">{{title}}: <small>{{totalResults}} <em>results for</em> {{subtitle}}</small></h4>
       </div>
       <div class="modal-body">
         <p>Modal body&hellip;</p>
@@ -382,12 +391,13 @@
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div>
+    {{/unless}}
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
+</script>
 
 
-
-<script id="oclc-results-tmpl" type="text/x-handlebars-template">
+<script id="oclc-results-orig-tmpl" type="text/x-handlebars-template">
 
 
 <div>
