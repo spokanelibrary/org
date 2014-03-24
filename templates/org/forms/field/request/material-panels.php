@@ -351,7 +351,9 @@
     <div class="modal-content">
       <div class="modal-body">
         <div class="alert alert-info">
-          Searching&hellip;
+          <blockquote>
+            Searching OCLC for {}&hellip;
+          </blockquote>
         </div>
       </div>
     </div>
