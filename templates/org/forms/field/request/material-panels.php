@@ -404,7 +404,7 @@
       </div>
       <div class="modal-body">
         {{#each entry}}
-        <div class="panel panel-default">
+        <div class="panel panel-primary" style="border-left-width:5px;">
           <div class="panel-heading">
             <h4>{{title}} 
               {{#if subtitle}}<small>{{subtitle}}</small>{{/if}}
