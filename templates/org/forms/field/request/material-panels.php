@@ -356,7 +356,7 @@
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h4 class="modal-title">
           <i class="glyphicon glyphicon-search"></i>
-          Searching OCLC
+          OCLC WorldCat Search
         </h4>
       </div>
       <div class="modal-body">
@@ -391,9 +391,8 @@
       <div class="modal-body">
         <p>Modal body&hellip;</p>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-primary">Pagination</button>
       </div>
     {{/unless}}
     </div><!-- /.modal-content -->
