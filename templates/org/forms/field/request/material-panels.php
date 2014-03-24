@@ -482,7 +482,7 @@
               <a class="paginate-index" data-start-index="{{subtract startIndex 1}}" href="#">&larr; Prev {{itemsPerPage}}</a>
             </li>
             <li class="active">
-              <a class="paginate-index" data-start-index="{{startIndex}}" href="#">Page {{startIndex}}</a>
+              <a class="paginate-index" data-start-index="{{startIndex}}" href="#">Pg. {{startIndex}}</a>
             </li>
             <li>
               <a class="paginate-index" data-start-index="{{add startIndex 1}}" href="#">Next {{itemsPerPage}} &rarr;</a>
