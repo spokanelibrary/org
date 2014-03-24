@@ -446,6 +446,12 @@
                   </p>
                 {{/if}}
 
+                {{#if summary}}
+                  <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#summary-{{oclc}}">
+                    Read Summary&hellip;  <i class="glyphicon glyphicon-chevron-down"></i>
+                  </button>
+                {{/if}}
+
               </div>
               <div class="col-sm-4">
                 {{#if canonical}}
@@ -455,9 +461,6 @@
             </div>
             
             {{#if summary}}
-              <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#summary-{{oclc}}">
-                Read Summary&hellip;  <i class="glyphicon glyphicon-chevron-down"></i>
-              </button>
               <div id="summary-{{oclc}}" class="collapse">
                 <p>
                 {{summary}}
