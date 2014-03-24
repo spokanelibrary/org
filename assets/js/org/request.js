@@ -3,10 +3,11 @@
 var org = {
 
 	// added on script load
+	/*
 	config: {
 						endpoint: { hzws: 'http://api.spokanelibrary.org/v2/request/' }
 					 }
-
+					 */
 	// added on authentication
 	,user: {}
 
