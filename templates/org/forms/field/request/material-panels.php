@@ -358,7 +358,7 @@
       <div class="modal-body">
         <div class="alert alert-info">
           <blockquote>
-            Searching OCLC for {}&hellip;
+            Searching OCLC for {{query}}&hellip;
           </blockquote>
         </div>
       </div>
