@@ -99,7 +99,7 @@
     <div class="row">
       <div class="col-sm-12">
       <h4 class="text-center text-muted">
-        <i class="glyphicon glyphicon-eye-open"></i>
+        <small class="glyphicon glyphicon-eye-open"></small>
         Research <small>Interlibrary Loan only</small>
       </h4>
       </div><!-- /.col -->
