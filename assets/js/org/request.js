@@ -106,10 +106,10 @@ var org = {
       })
       .done(function(obj) {
         if ( 1 == obj.holding ) {
-          console.log('we have this');
-          //$holding = $('#spl-form-request-holding');
-          //var tmpl = Handlebars.compile( $('#spl-form-request-holding-tmpl').html() );
-          //$holding.html(tmpl( {isbn:isbn} ));
+          //console.log('we have this');
+          $holding = $('#spl-form-request-holding');
+          var tmpl = Handlebars.compile( $('#spl-form-request-holding-tmpl').html() );
+          $holding.html(tmpl( {isbn:isbn} ));
         }
       })
       .fail(function() {
