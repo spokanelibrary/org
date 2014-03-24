@@ -201,7 +201,7 @@
       <div class="form-group">
         <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
         <div class="col-sm-8 col-md-9">
-          <p class="form-control-static">
+          <p>
             <button type="button" class="btn btn-block btn-default" data-toggle="collapse" data-target="#spl-form-request-search">
               <strong class="text-success">I would like to search for this title</strong>
               <span class="caret"></span>
