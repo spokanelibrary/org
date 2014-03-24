@@ -58,12 +58,18 @@ var org = {
 } // initOCLC()
 
 , oclcSearchKeyword: function(start) {
+		
+		var query = $('#spl-form-search').val();
+
 		if ( !start ) {
       start = 1;
     }
 
-    console.log( 'searching' );
-    console.log(this.config.endpoint.oclc);
+    if ( query ) {
+    	console.log(this.config.endpoint.oclc);
+    	console.log(query);
+    }
+
 }
 
 , initRequestItemPanels: function() {
