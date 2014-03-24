@@ -2,6 +2,8 @@
 var config = { 
       api: {// endpoint: 'http://api.spokanelibrary.org/v2/'
             //,novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery'
+            oclc: 'http://api.spokanelibrary.org/oclc/'
+          , isbn: 'http://api.spokanelibrary.org/isbn/'
            }
     , path: {
               absolute: 'http://dev.spokanelibrary.org' // ToDo: this has to go
