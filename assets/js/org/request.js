@@ -79,7 +79,7 @@ var org = {
 
     	//$modal.modal('show');
 
-    	/*
+    	
     	console.log(this.config.api.oclc);
     	console.log(query);
 
@@ -98,6 +98,8 @@ var org = {
         //var tmpl = Handlebars.compile( $('#oclc-results-tmpl').html() );
         //$modal.html(tmpl(results)).modal('show');
         console.log(results);
+        var tmpl = Handlebars.compile( $('#oclc-results-tmpl').html() );
+	      //$modal.html(tmpl(results)).modal('show');
       })
       .fail(function() {
       })
@@ -105,7 +107,7 @@ var org = {
         //$('#spl-form-lookup-loading').hide();
         //_self.global.formEnable();
       });
-			*/
+			
 
     }
 

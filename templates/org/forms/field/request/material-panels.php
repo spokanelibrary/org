@@ -368,7 +368,7 @@
   </div>
 </script>
 
-<script id="oclc-results-tmpl" type="text/x-handlebars-template">
+
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -384,5 +384,193 @@
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
+
+
+
+<script id="oclc-results-tmpl" type="text/x-handlebars-template">
+
+
+<div>
+
+{{#unless entry}}
+
+<div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+  <h3>Bummer: No results found.</h3>
+</div>
+<div class="modal-body">
+  <p class="lead">
+  Maybe try another search?
+  </p>
+  <p>
+  If you are not having any luck using this search tool just fill out whatever you know about the title you are looking for.
+  We apologize for the inconvenience.
+  </p>
+  <p>
+  <a href="#" class="btn btn-primary" data-dismiss="modal"><i class="icon-remove icon-white"></i> Close</a>
+  </p>
+</div>
+
+{{else}}
+<div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+  <h3>{{title}}: <small>{{totalResults}} <em>results for</em> {{subtitle}}</small></h3>
+</div>
+
+<div class="modal-body">
+
+  
+  
+  <span class="muted">Press the</span> <i class="icon icon-check"></i> <strong>Select</strong> <span class="muted">button to choose a title.</span>
+  <br />
+  <a href="#" class="prevent-default" data-toggle="collapse" data-target="#oclc-explain">What if I am not sure or the title appears more than once? <i class="icon icon-chevron-down"></i></a>
+  
+  <div id="oclc-explain" class="collapse">
+    <p>
+      No problem! 
+      If you don't see what you're looking for <a href="#" data-dismiss="modal"><strong>close</strong></a> this dialog window and you can fill in the details you know or search for something else.
+    </p>
+    <p>
+      If you find a title with multiple entries just pick one.
+      Tell us what you know.
+      We can take it from there.
+    </p>
+  </div>
+  
+  <hr />
+  
+  {{#each entry}}
+  <div class="row-fluid">
+    <div class="span12">
+      
+      <div class="row-fluid">
+      <h4>{{title}} <small>{{subtitle}}</small></h4>
+      </div>
+      
+      <div class="row-fluid">
+        
+        <div class="span3">
+          {{#if isbn}}
+            <img class="thumbnail" src="http://www.syndetics.com/index.aspx?isbn={{isbn}}/SC.GIF&client=spokp" />
+          {{/if}}
+        </div>
+        
+        <div class="span9">
+          
+          <p>
+            <!-- <em>by:</em> --> <strong>{{author}}</strong>
+            <br />
+            <button type="button" class="btn btn-success oclc-select" 
+                    data-dismiss="modal" 
+                    data-ocn="{{oclc}}"
+                    data-canonical="{{canonical}}" 
+                    data-title="{{title}}" 
+                    data-author="{{author}}"
+                    data-publisher="{{publisher}}"
+                    data-pubdate="{{pubdate}}" 
+                    >
+              <i class="icon-white icon-check"></i> 
+              Select
+            </button>
+          </p>
+          
+          <p>
+            {{#if publisher}}
+              {{publisher}}
+              <br />
+            {{/if}}
+
+            {{#if format}}
+              <em>{{format}}</em>
+            {{/if}}
+          </p>
+
+          {{#if language}}
+            <p>    
+              <small>{{language}}</small>
+            </p>
+          {{/if}}
+
+          {{#if summary}}
+            <a href="#" class="prevent-default" data-toggle="collapse" data-target="#summary-{{oclc}}">
+              Read Summary&hellip;  <i class="icon icon-chevron-down"></i>
+            </a>
+            <div id="summary-{{oclc}}" class="collapse">
+              <p>
+              {{summary}}
+              </p>
+            </div>
+          {{/if}}
+          
+          <!--
+          {{#if isbn}}
+            <a href="#" class="prevent-default" data-toggle="collapse" data-target="#holding-{{oclc}}">
+              Already in SPL Catalog? <i class="icon icon-chevron-down"></i>
+            </a>
+            <div id="holding-{{oclc}}" class="collapse">
+              <ul class="nav nav-list well">
+                <li class="nav-header">Check the SPL catalog for ISBN matches</li>
+                <li class="muted"><small>These ISBN links open in a new window</small></li>
+          
+                <a rel="external" href="http://search.spokanelibrary.org/isbn/{{isbn.[0]}}">ISBN# {{isbn.[0]}}</a>
+          
+                {{#each isbn}}
+                <li>
+                <a rel="external" href="http://search.spokanelibrary.org/isbn/{{this}}"><span class="visibile-desktop">Search for </span>ISBN# {{this}}</a>
+                </li>
+                {{/each}}
+              </ul>
+
+            </div>
+          {{/if}}
+          -->
+          
+          <!--
+          <a href="#" class="oclc-link" data-ocn="{{oclc}}">
+            More information about this title&hellip;  <i class="icon icon-zoom-in"></i>
+          </a>
+          -->
+          
+          <a href="#oclc-explain" class="btn pull-right hidden-desktop"><small>&uarr; Top</small></a>
+          
+        </div>
+      </div>
+      
+      <!--
+      <div class="row-fluid oclc-{{oclc}}">
+        <div class="oclc-more"></div>
+      </div>
+      -->
+      
+      <div class="row-fluid">
+        <hr />
+      </div>
+      
+    </div>
+  </div>
+  {{/each}}
+{{/unless}}
+
+</div>
+
+<div class="modal-footer">
+  <div class="pagination pagination-centered" style="margin:0;" data-paginate-index="{{startIndex}}">
+    <ul>
+      <li {{#compare startIndex 1}}class="disabled"{{/compare}} >
+        <a class="paginate-index" data-start-index="{{subtract startIndex 1}}" href="#">&larr; Prev {{itemsPerPage}}</a>
+      </li>
+      <li class="active">
+        <a class="paginate-index" data-start-index="{{startIndex}}" href="#">Page {{startIndex}}</a>
+      </li>
+      <li>
+        <a class="paginate-index" data-start-index="{{add startIndex 1}}" href="#">Next {{itemsPerPage}} &rarr;</a>
+      </li>
+    </ul>
+  </div>
+  <!-- <button class="btn pull-right" data-dismiss="modal" aria-hidden="true">Cancel</button> -->
+  <!-- <button class="btn btn-primary">Save changes</button> -->
+</div>
+
+
 </script>
 
