@@ -408,7 +408,6 @@
         </p>
         <p>
           <a class="prevent-default" data-toggle="collapse" href="#" data-target="#oclc-explain">
-            <span class="caret"></span>
             What if I am not sure or the title appears more than once? 
           </a>
         </p>        
