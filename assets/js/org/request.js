@@ -99,24 +99,24 @@ var org = {
 , checkISBNHolding: function(isbn) {
     // check the SPL catalog for holdings using an isbn search and parsing the resulting xml. ugh.
     console.log(isbn);
-    /*
+    
     $.ajax({ 
         url: this.config.api.isbn
         ,data: { isbn: isbn }
       })
       .done(function(obj) {
         if ( 1 == obj.holding ) {
-          $holding = $('#spl-form-request-holding');
-          var tmpl = Handlebars.compile( $('#spl-form-request-holding-tmpl').html() );
-          $holding.html(tmpl( {isbn:isbn} ));
-          $.scrollTo('#spl-form-request-holding');
+          console.log('we have this');
+          //$holding = $('#spl-form-request-holding');
+          //var tmpl = Handlebars.compile( $('#spl-form-request-holding-tmpl').html() );
+          //$holding.html(tmpl( {isbn:isbn} ));
         }
       })
       .fail(function() {
       })
       .always(function() {
       });
-      */
+      
 
   } //checkISBNHolding()
 
