@@ -84,7 +84,7 @@ var org = {
 
 } // initOCLC()
 
-, oclcSelectBib: function() {
+, oclcSelectBib: function(bib) {
 		$('#spl-form-title').val(bib.title);
     $('#spl-form-author').val(bib.author);
     $('#spl-form-publisher').val(bib.publisher);
