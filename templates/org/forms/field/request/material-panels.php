@@ -179,7 +179,7 @@
         <label for="spl-form-url" class="col-sm-4 col-md-3 control-label">Link on the Web</label>
         <div class="col-sm-8 col-md-9">
           <p class="form-control-static">
-            You can just send us a link with detailed information about this title (for example, on Amazon).
+            You can send us a link with detailed information about this title (for example, on Amazon).
           </p>
           <input type="text" class="form-control" id="spl-form-url" name="spl-form[url]">
           <span class="help-block">
@@ -192,7 +192,7 @@
       <div class="form-group">
         <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
         <div class="col-sm-8 col-md-9">
-          <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-search">
+          <button type="button" class="btn btn-block btn-default" data-toggle="collapse" data-target="#spl-form-request-search">
             I would like to search for this title
             <span class="caret"></span>
           </button>
