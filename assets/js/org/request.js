@@ -56,6 +56,14 @@ var org = {
       }
     });
 
+    $('body').on('click', '.paginate-index', function(e) {
+      e.preventDefault();
+      var start = $(this).data('start-index');
+      if ( !$(this).parent('li').hasClass('active') && !$(this).parent('li').hasClass('disabled') ) {
+        _self.oclcSearchKeyword(start);
+      }
+    });
+
 
 } // initOCLC()
 

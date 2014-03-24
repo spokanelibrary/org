@@ -478,13 +478,13 @@
         <div class="text-center">
           <ul class="pagination">
             <li {{#compare startIndex 1}}class="disabled"{{/compare}}>
-              <button type="button" class="btn paginate-index" data-start-index="{{subtract startIndex 1}}">&larr; Prev {{itemsPerPage}}</button>
+              <a class="paginate-index" data-start-index="{{subtract startIndex 1}}" href="#">&larr; Prev {{itemsPerPage}}</a>
             </li>
             <li class="active">
-              <button type="button" class="btn paginate-index" data-start-index="{{startIndex}}">Page {{startIndex}}</button>
+              <a class="paginate-index" data-start-index="{{startIndex}}" href="#">Page {{startIndex}}</a>
             </li>
             <li>
-              <button type="button" class="btn paginate-index" data-start-index="{{add startIndex 1}}">Next {{itemsPerPage}} &rarr;</button>
+              <a class="paginate-index" data-start-index="{{add startIndex 1}}" href="#">Next {{itemsPerPage}} &rarr;</a>
             </li>
           </ul>
         </div>
