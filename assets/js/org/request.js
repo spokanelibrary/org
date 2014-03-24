@@ -3,13 +3,13 @@
 var org = {
 
 	// added on script load
-	
+	/*
 	config: {
 						api: { hzws: 'http://api.spokanelibrary.org/v2/request/'
-											, oclc: 'http://api.spokanelibrary.org/oclc/'
-											 }
+									,oclc: 'http://api.spokanelibrary.org/oclc/'
+								 }
 					 }
-
+	*/
 	// added on authentication
 	,user: {}
 
@@ -66,6 +66,8 @@ var org = {
     }
 
     if ( query ) {
+    	console.log(this.config);
+    	/*
     	console.log(this.config.api.oclc);
     	console.log(query);
 
@@ -91,6 +93,7 @@ var org = {
         //$('#spl-form-lookup-loading').hide();
         //_self.global.formEnable();
       });
+			*/
 
     }
 

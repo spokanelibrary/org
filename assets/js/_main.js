@@ -13,7 +13,9 @@ var config = {
 // Only fires on body class (working off strictly WordPress body_class)
 
 var ORG = {
-  setUser: function (user) {
+  config: config
+
+, setUser: function (user) {
     if ( user && user.sessionToken ) {
       this.user = user;
     } else{
