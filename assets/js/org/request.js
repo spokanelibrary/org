@@ -63,7 +63,7 @@ var org = {
     }
 
     console.log( 'searching' );
-    console.log(this.config.endpoint.oclcSearchKeyword);
+    console.log(this.config.endpoint.oclc);
 }
 
 , initRequestItemPanels: function() {
