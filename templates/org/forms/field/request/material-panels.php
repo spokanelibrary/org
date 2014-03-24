@@ -347,27 +347,28 @@
 
 <!-- oclc modal -->
 <div class="modal fade" id="spl-form-oclc-result" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-  
-
 </div><!-- /.modal -->
-
 
 <script id="oclc-search-tmpl" type="text/x-handlebars-template">
   <div class="modal-dialog">
     <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Searching OCLC&hellip;</h4>
+      </div>
       <div class="modal-body">
         <div class="alert alert-info">
-          <blockquote>
-            Searching OCLC for {{term}}&hellip;
-          </blockquote>
+          <p class="lead">
+            Search Term: <em>{{term}}</em>
+          </p>
         </div>
       </div>
     </div>
   </div>
 </script>
 
-
-  <div class="modal-dialog collapse">
+<script id="oclc-results-tmpl" type="text/x-handlebars-template">
+  <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -382,5 +383,5 @@
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
-
+</script>
 
