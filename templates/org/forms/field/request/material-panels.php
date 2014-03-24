@@ -409,59 +409,63 @@
             <p class="lead">{{title}} 
               {{#if subtitle}}<small>{{subtitle}}</small>{{/if}}
             </p>
-            <div class="col-sm-8">
-              <p>
-                <strong>{{author}}</strong>
-              </p>
-              <p>
-                <button type="button" class="btn btn-success oclc-select" 
-                    data-dismiss="modal" 
-                    data-ocn="{{oclc}}"
-                    data-canonical="{{canonical}}" 
-                    data-title="{{title}}" 
-                    data-author="{{author}}"
-                    data-publisher="{{publisher}}"
-                    data-pubdate="{{pubdate}}" 
-                    >
-                  <i class="glyphicon glyphicon-check"></i> 
-                  Select
-                </button>
-              </p>
-
-              <p>
-                {{#if publisher}}
-                  {{publisher}}
-                  <br />
-                {{/if}}
-
-                {{#if format}}
-                  <em>{{format}}</em>
-                {{/if}}
-              </p>
-
-              {{#if language}}
-                <p>    
-                  <small>{{language}}</small>
+            <div class='row'>
+              <div class="col-sm-8">
+                <p>
+                  <strong>{{author}}</strong>
                 </p>
-              {{/if}}
+                <p>
+                  <button type="button" class="btn btn-success oclc-select" 
+                      data-dismiss="modal" 
+                      data-ocn="{{oclc}}"
+                      data-canonical="{{canonical}}" 
+                      data-title="{{title}}" 
+                      data-author="{{author}}"
+                      data-publisher="{{publisher}}"
+                      data-pubdate="{{pubdate}}" 
+                      >
+                    <i class="glyphicon glyphicon-check"></i> 
+                    Select
+                  </button>
+                </p>
 
+                <p>
+                  {{#if publisher}}
+                    {{publisher}}
+                    <br />
+                  {{/if}}
+
+                  {{#if format}}
+                    <em>{{format}}</em>
+                  {{/if}}
+                </p>
+
+                {{#if language}}
+                  <p>    
+                    <small>{{language}}</small>
+                  </p>
+                {{/if}}
+
+              </div>
+              <div class="col-sm-4">
+                {{#if canonical}}
+                <img class="img-responsive img-rounded" style="/*max-height:120px;*/ margin:auto;" alt="Cover Image" src="http://contentcafe2.btol.com/ContentCafe/jacket.aspx?UserID=ebsco-test&Password=ebsco-test&Return=T&Type=M&Value={{canonical}}">
+                {{/if}}
+              </div>
             </div>
-            <div class="col-sm-4">
-              {{#if canonical}}
-              <img class="img-responsive img-rounded" style="/*max-height:120px;*/ margin:auto;" alt="Cover Image" src="http://contentcafe2.btol.com/ContentCafe/jacket.aspx?UserID=ebsco-test&Password=ebsco-test&Return=T&Type=M&Value={{canonical}}">
-              {{/if}}
-            </div>
+            
+            {{#if summary}}
+              <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#summary-{{oclc}}">
+                Read Summary&hellip;  <i class="glyphicon glyphicon-chevron-down"></i>
+              </button>
+              <div id="summary-{{oclc}}" class="collapse">
+                <p>
+                {{summary}}
+                </p>
+              </div>
+            {{/if}}
+
           </div>
-          {{#if summary}}
-            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#summary-{{oclc}}">
-              Read Summary&hellip;  <i class="glyphicon glyphicon-chevron-down"></i>
-            </button>
-            <div id="summary-{{oclc}}" class="collapse">
-              <p>
-              {{summary}}
-              </p>
-            </div>
-          {{/if}}
         </div>
         {{/each}}
       </div>
