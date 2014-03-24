@@ -36,9 +36,14 @@
 body {
   @media (max-width: @screen-tablet) {
     padding-top: 40px;
+  }
 
-    .modal-body { height: 200px; overflow: auto; }
-
+  @media ( min-width: @screen-tablet ) {
+    
+    .modal-body { 
+      height: 200px; overflow: auto; 
+    }
+  
   }
 
   padding-top: 30px; 
