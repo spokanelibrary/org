@@ -423,8 +423,6 @@
             We can take it from there.
           </p>
         </div>
-        
-        <hr />
 
         {{#each entry}}
         <div class="panel panel-primary" style="border-left-width:5px;">
