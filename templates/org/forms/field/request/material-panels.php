@@ -381,7 +381,18 @@
         <h4 class="modal-title">No results found</h4>
       </div>
       <div class="modal-body">
-        <p>Modal body&hellip;</p>
+        <p class="lead">
+          Maybe try another search?
+        </p>  
+        <p>
+          If you are not having any luck using this search tool just fill out whatever you know about the title you are looking for.
+          We apologize for the inconvenience.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <p class="text-center">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </p>
       </div>
     {{else}}
       <div class="modal-header">
