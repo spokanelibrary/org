@@ -407,10 +407,10 @@
           Press the <span class="text-success"><i class="glyphicon glyphicon-check"></i> <strong>Select</strong></span> button to choose a title.
         </p>
         <p>
-          <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#oclc-explain">
+          <a data-toggle="collapse" href="#" data-target="#oclc-explain">
             <span class="caret"></span>
             What if I am not sure or the title appears more than once? 
-          </button>
+          </a>
         </p>        
         <div id="oclc-explain" class="collapse">
           <p>
