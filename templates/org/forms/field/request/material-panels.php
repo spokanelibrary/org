@@ -266,7 +266,7 @@
 
         <?php
         echo ('<pre>');
-        print_r($_SESSION['spl']['user']);
+        print_r($_SESSION['spl']['user']->borrowerType);
         echo ('</pre>');
         //switch () {
         //}
