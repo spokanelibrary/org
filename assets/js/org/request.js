@@ -98,7 +98,7 @@ var org = {
 
 , checkISBNHolding: function(isbn) {
     // check the SPL catalog for holdings using an isbn search and parsing the resulting xml. ugh.
-    console.log(isbn);
+    //console.log(isbn);
     
     $.ajax({ 
         url: this.config.api.isbn
@@ -106,7 +106,7 @@ var org = {
       })
       .done(function(obj) {
         if ( 1 == obj.holding ) {
-          //console.log('we have this');
+          console.log(obj);
           $holding = $('#spl-form-request-holding');
           var tmpl = Handlebars.compile( $('#spl-form-request-holding-tmpl').html() );
           $holding.html(tmpl( {isbn:isbn} ));
