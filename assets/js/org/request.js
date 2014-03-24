@@ -77,8 +77,8 @@ var org = {
                 ,publisher: $(this).data('publisher')
                 ,pubdate: $(this).data('pubdate')
                 };
-      console.log(bib);
-      //_self.oclcSelectBib(bib);
+      //console.log(bib);
+      _self.oclcSelectBib(bib);
     });
 
 
@@ -91,7 +91,7 @@ var org = {
     $('#spl-form-pubdate').val(bib.pubdate);
     $('#spl-form-oclc').val(bib.ocn);
     $('#spl-form-isbn').val(bib.canonical);
-    
+
 }
 
 , oclcSearchKeyword: function(start) {
