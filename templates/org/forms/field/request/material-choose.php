@@ -98,8 +98,8 @@
 
     <div class="row">
       <div class="col-sm-12">
-      <h4 class="text-center">
-        <small class="glyphicon glyphicon-zoom-in text-primary"></small>
+      <h4 class="text-center text-muted">
+        <i class="glyphicon glyphicon-zoom-in"></i>
         Research <small>Interlibrary Loan only</small>
       </h4>
       </div><!-- /.col -->
