@@ -36,10 +36,31 @@ var org = {
 		this.initOCLC();
 
   } // initRequestItem()
-  
+
 , initOCLC: function() {
 
+		$('body').on('click', '#spl-form-oclc-search', function(e) {
+      e.preventDefault();
+      _self.oclcSearchKeyword();
+    });
+    $('body').on('keypress', '#spl-form-search', function(e) {
+      // 13 == enter
+      if (e.keyCode == 13) {
+        e.preventDefault();
+        _self.oclcSearchKeyword();
+      }
+    });
+
+
 } // initOCLC()
+
+, oclcSearchKeyword: function(start) {
+		if ( !start ) {
+      start = 1;
+    }
+
+    console.log( 'searching' );
+}
 
 , initRequestItemPanels: function() {
 		/*
