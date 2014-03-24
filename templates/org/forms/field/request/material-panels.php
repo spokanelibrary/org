@@ -265,11 +265,17 @@
         Submit w/ hold &amp; ill (only for residents, etc.)
 
         <?php
-        echo ('<pre>');
-        print_r($_SESSION['spl']['user']->borrowerType);
-        echo ('</pre>');
-        //switch () {
-        //}
+        switch ( $_SESSION['spl']['user']->borrowerType ) {
+          case 'sr':
+          case 'c':
+          case 'in':
+          case 'ol':
+          echo 'you cannot ill';
+          break;
+          default:
+          echo 'you can ill';  
+          break;
+        }
         ?>
 
       </div>
