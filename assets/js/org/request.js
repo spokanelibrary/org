@@ -5,7 +5,7 @@ var org = {
 	// added on script load
 	
 	config: {
-						endpoint: { hzws: 'http://api.spokanelibrary.org/v2/request/'
+						api: { hzws: 'http://api.spokanelibrary.org/v2/request/'
 											, oclc: 'http://api.spokanelibrary.org/oclc/'
 											 }
 					 }
@@ -66,12 +66,12 @@ var org = {
     }
 
     if ( query ) {
-    	console.log(this.config.endpoint.oclc);
+    	console.log(this.config.api.oclc);
     	console.log(query);
 
 
     	$.ajax({ 
-        url: this.config.endpoint.oclc
+        url: this.config.api.oclc
         ,data: { sru: query // q: $('#spl-form-title').val()
                 ,mt: $('#spl-form-material').val()
                 ,index: $('#spl-form-search-index').val()
