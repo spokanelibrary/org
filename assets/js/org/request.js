@@ -63,7 +63,7 @@ var org = {
     }
 
     console.log( 'searching' );
-    console.log(this.config);
+    console.log(this.config.api.endpoint.oclc);
 }
 
 , initRequestItemPanels: function() {
