@@ -84,8 +84,19 @@ var org = {
 
 } // initOCLC()
 
+, oclcSelectBib: function() {
+		$('#spl-form-title').val(bib.title);
+    $('#spl-form-author').val(bib.author);
+    $('#spl-form-publisher').val(bib.publisher);
+    $('#spl-form-pubdate').val(bib.pubdate);
+    $('#spl-form-oclc').val(bib.ocn);
+    $('#spl-form-isbn').val(bib.canonical);
+    
+}
+
 , oclcSearchKeyword: function(start) {
 		
+		var tmpl;
 		var query = $('#spl-form-search').val();
 		var $modal = $('#spl-form-oclc-result');
 
@@ -94,8 +105,7 @@ var org = {
     }
 
     if ( query ) {
-
-    	var tmpl = Handlebars.compile( $('#oclc-search-tmpl').html() );
+    	tmpl = Handlebars.compile( $('#oclc-search-tmpl').html() );
       $modal.html(tmpl({ term: query })).modal('show');
 
     	$.ajax({ 
@@ -110,20 +120,14 @@ var org = {
                 }
       })
       .done(function(results) {
-        //var tmpl = Handlebars.compile( $('#oclc-results-tmpl').html() );
-        //$modal.html(tmpl(results)).modal('show');
-        console.log(results);
-        var tmpl = Handlebars.compile( $('#oclc-results-tmpl').html() );
+        //console.log(results);
+        tmpl = Handlebars.compile( $('#oclc-results-tmpl').html() );
 	      $modal.html(tmpl(results));
-	      //$modal.html(tmpl(results)).modal('show');
-      })
+	    })
       .fail(function() {
       })
       .always(function() {
-        //$('#spl-form-lookup-loading').hide();
-        //_self.global.formEnable();
       });
-			
 
     }
 
