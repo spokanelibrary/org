@@ -100,7 +100,7 @@
       <div class="col-sm-12">
       <h4 class="text-center">
         Research <small>Interlibrary Loan only</small>
-        <small class="caret"></small>
+        <small class="glyphicon glyphicon-arrow-down"></small>
       </h4>
       </div><!-- /.col -->
       <div class="col-sm-4">
