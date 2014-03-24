@@ -404,7 +404,7 @@
       </div>
       <div class="modal-body">
         <p>
-          Press the <span class="text-muted"><i class="glyphicon glyphicon-check"></i> <strong>Select</strong></span> button to choose a title.
+          Press the <span class="text-success"><i class="glyphicon glyphicon-check"></i> <strong>Select</strong></span> button to choose a title.
         </p>
         <p>
           <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#oclc-explain">
