@@ -218,6 +218,12 @@
               </span>
             </div><!-- /input-group -->
             index, sort
+            <span class="help-block">
+              We want to respond to your request as quickly and accurately as possible. 
+              You can search for a keyword (or title, author, subject, etc.) in <a href="http://www.worldcat.org/" title="WorldCat">WorldCat</a>, the world's largest bibliographic database. 
+              If you find the title you are looking for press Select and we will automatically fill out the author, ISBN, and more.
+              If you do not find the title you are looking for, try an <a href="http://www.worldcat.org/advancedsearch" title="Advanced WorldCat Search">Advanced WorldCat Search</a>.
+            </span>
           </div>
         </div>
       </div>
