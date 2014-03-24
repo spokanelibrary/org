@@ -99,8 +99,7 @@
     <div class="row">
       <div class="col-sm-12">
       <h4 class="text-center text-muted">
-        <small class="glyphicon glyphicon-eye-open"></small>
-        Research <small>Interlibrary Loan only</small>
+        Research <small>Interlibrary Loan only <span class="caret"></span></small>
       </h4>
       </div><!-- /.col -->
       <div class="col-sm-4">
