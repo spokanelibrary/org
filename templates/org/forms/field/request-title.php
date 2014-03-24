@@ -34,7 +34,7 @@
             <?php include 'common/field-contact-location.php'; ?>
             </div>
             <div class="col-md-8">
-              <label>Requested by: <?php echo $_SESSION['spl']['user']->name; ?></label>
+              <label><?php echo $_SESSION['spl']['user']->name; ?></label>
               <p>
                 <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
                   <i class="glyphicon glyphicon-edit"></i>

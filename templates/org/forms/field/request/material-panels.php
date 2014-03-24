@@ -182,10 +182,10 @@
             I have a link to this title
             <span class="caret"></span>
           </button>
-          <div id="spl-form-request-link" class="collapse">
-            <p class="form-control-static">
+          <p class="form-control-static">
               You can just send us a link with detailed information about this title (for example, on Amazon).
             </p>
+          <div id="spl-form-request-link" class="collapse">
             <input type="text" class="form-control" id="spl-form-url" name="spl-form[url]">
             <span class="help-block">
               <b>Note:</b> The page you link to must contain enough information for us to clearly identify the item you are requesting. 
