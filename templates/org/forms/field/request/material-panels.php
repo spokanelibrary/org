@@ -252,7 +252,7 @@
                 If you find the title you are looking for press Select and we will automatically fill out the author, ISBN, and more.
                 If you do not find the title you are looking for, try an <a href="http://www.worldcat.org/advancedsearch" title="Advanced WorldCat Search">Advanced WorldCat Search</a>.
               </span>
-              <div id="#spl-form-request-holding"></div>
+              <div id="spl-form-request-holding"></div>
             </div>
           </div>
         </div>
