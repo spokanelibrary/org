@@ -68,6 +68,30 @@ var org = {
     if ( query ) {
     	console.log(this.config.endpoint.oclc);
     	console.log(query);
+
+
+    	$.ajax({ 
+        url: this.config.api.oclc
+        ,data: { sru: query // q: $('#spl-form-title').val()
+                ,mt: $('#spl-form-material').val()
+                ,index: $('#spl-form-search-index').val()
+                ,sort: $('#spl-form-search-sort').val()
+                ,start: start
+                ,count: 20
+                }
+      })
+      .done(function(results) {
+        //var tmpl = Handlebars.compile( $('#oclc-results-tmpl').html() );
+        //$modal.html(tmpl(results)).modal('show');
+        console.log(results);
+      })
+      .fail(function() {
+      })
+      .always(function() {
+        //$('#spl-form-lookup-loading').hide();
+        //_self.global.formEnable();
+      });
+
     }
 
 }
