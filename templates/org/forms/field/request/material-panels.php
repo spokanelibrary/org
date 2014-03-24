@@ -411,7 +411,7 @@
             </h4>
           </div>
           <div class="panel-body">
-            <img class="img-responsive img-rounded" style="max-height:240px; margin:auto;" alt="Cover Image" src="http://contentcafe2.btol.com/ContentCafe/jacket.aspx?UserID=ebsco-test&Password=ebsco-test&Return=T&Type=M&Value={{canonical}}">
+            <img class="img-responsive img-rounded" style="max-height:120px; margin:auto;" alt="Cover Image" src="http://contentcafe2.btol.com/ContentCafe/jacket.aspx?UserID=ebsco-test&Password=ebsco-test&Return=T&Type=S&Value={{canonical}}">
           </div>
         </div>
         {{/each}}
