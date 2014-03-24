@@ -44,6 +44,7 @@ var org = {
 
 , initOCLC: function() {
 
+		// search
 		$('body').on('click', '#spl-form-oclc-search', function(e) {
       e.preventDefault();
       _self.oclcSearchKeyword();
@@ -56,6 +57,7 @@ var org = {
       }
     });
 
+    // pagination
     $('body').on('click', '.paginate-index', function(e) {
       e.preventDefault();
       var start = $(this).data('start-index');
@@ -63,6 +65,20 @@ var org = {
         _self.oclcSearchKeyword(start);
       }
     });
+
+    // select search result
+    $('body').on('click', '.oclc-select', function(e) {
+      e.preventDefault();
+
+      var bib = {ocn: $(this).data('ocn')
+                ,canonical: $(this).data('canonical')
+                ,title: $(this).data('title')
+                ,author: $(this).data('author')
+                ,publisher: $(this).data('publisher')
+                ,pubdate: $(this).data('pubdate')
+                };
+      console.log(bib);
+      //_self.oclcSelectBib(bib);
 
 
 } // initOCLC()
