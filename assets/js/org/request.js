@@ -16,6 +16,8 @@ var org = {
 	// called on script load
 	,init: function() {
 		_self = this;
+		
+		this.config = ORG.config;
 
 		this.setUser();
 
