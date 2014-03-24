@@ -357,11 +357,9 @@
         <h4 class="modal-title">Searching OCLC&hellip;</h4>
       </div>
       <div class="modal-body">
-        <div class="alert alert-info">
-          <p class="lead">
-            Search Term: <em>{{term}}</em>
-          </p>
-        </div>
+        <p class="lead">
+          Search Term: <em>{{term}}</em>
+        </p>
       </div>
     </div>
   </div>
