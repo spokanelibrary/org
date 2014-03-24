@@ -413,6 +413,20 @@
               <p>
                 <strong>{{author}}</strong>
               </p>
+              <p>
+                <button type="button" class="btn btn-success oclc-select" 
+                    data-dismiss="modal" 
+                    data-ocn="{{oclc}}"
+                    data-canonical="{{canonical}}" 
+                    data-title="{{title}}" 
+                    data-author="{{author}}"
+                    data-publisher="{{publisher}}"
+                    data-pubdate="{{pubdate}}" 
+                    >
+                <i class="glyphicon glyphicon-check"></i> 
+                Select
+              </button>
+              </p>
             </div>
             <div class="col-sm-4">
               {{#if canonical}}
