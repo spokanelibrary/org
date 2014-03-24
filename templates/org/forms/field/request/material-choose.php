@@ -98,7 +98,7 @@
 
     <div class="row">
       <div class="col-sm-12">
-      <h4 class="text-center text-muted">
+      <h4 class="text-center">
         Research <small>Interlibrary Loan only <span class="caret"></span></small>
       </h4>
       </div><!-- /.col -->
