@@ -403,6 +403,25 @@
         <h3 class="modal-title">{{title}}: <small>{{totalResults}} <em>results for</em> {{subtitle}}</small></h3>
       </div>
       <div class="modal-body">
+
+        <span class="muted">Press the</span> <i class="glyphicon glyphicon-check"></i> <strong>Select</strong> <span class="text-muted">button to choose a title.</span>
+        <br />
+        <a href="#" class="prevent-default" data-toggle="collapse" data-target="#oclc-explain">What if I am not sure or the title appears more than once? <i class="icon icon-chevron-down"></i></a>
+        
+        <div id="oclc-explain" class="collapse">
+          <p>
+            No problem! 
+            If you don't see what you're looking for <a href="#" data-dismiss="modal"><strong>close</strong></a> this dialog window and you can fill in the details you know or search for something else.
+          </p>
+          <p>
+            If you find a title with multiple entries just pick one.
+            Tell us what you know.
+            We can take it from there.
+          </p>
+        </div>
+        
+        <hr />
+
         {{#each entry}}
         <div class="panel panel-primary" style="border-left-width:5px;">
           <div class="panel-body">
