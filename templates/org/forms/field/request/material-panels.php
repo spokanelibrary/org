@@ -476,7 +476,7 @@
       </div>
       <div class="modal-footer">
         <div class="text-center">
-          <ul class="pagination">
+          <ul class="pagination" style="margin:0;">
             <li {{#compare startIndex 1}}class="disabled"{{/compare}}>
               <a class="paginate-index" data-start-index="{{subtract startIndex 1}}" href="#">&larr; Prev {{itemsPerPage}}</a>
             </li>
