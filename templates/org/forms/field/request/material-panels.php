@@ -407,13 +407,15 @@
         <div class="panel panel-primary" style="border-left-width:5px;">
           <div class="panel-body">
             <p class="lead">{{title}} 
-              {{#if subtitle}}<small>{{subtitle}}</small>{{/if}}
+              {{#if subtitle}}<small class="text-muted">{{subtitle}}</small>{{/if}}
             </p>
             <div class='row'>
               <div class="col-sm-8">
+                
                 <p>
                   <strong>{{author}}</strong>
                 </p>
+
                 <p>
                   <button type="button" class="btn btn-success oclc-select" 
                       data-dismiss="modal" 
@@ -474,7 +476,19 @@
       </div>
       <div class="modal-footer">
         <p class="text-center">
-          <button type="button" class="btn btn-default">Pagination</button>
+          <div class="pagination pagination-centered" style="margin:0;" data-paginate-index="{{startIndex}}">
+          <ul>
+            <li {{#compare startIndex 1}}class="disabled"{{/compare}} >
+              <a class="paginate-index" data-start-index="{{subtract startIndex 1}}" href="#">&larr; Prev {{itemsPerPage}}</a>
+            </li>
+            <li class="active">
+              <a class="paginate-index" data-start-index="{{startIndex}}" href="#">Page {{startIndex}}</a>
+            </li>
+            <li>
+              <a class="paginate-index" data-start-index="{{add startIndex 1}}" href="#">Next {{itemsPerPage}} &rarr;</a>
+            </li>
+          </ul>
+        </div>
         </p>
       </div>
     {{/unless}}
