@@ -79,6 +79,7 @@ var org = {
                 };
       console.log(bib);
       //_self.oclcSelectBib(bib);
+    });
 
 
 } // initOCLC()
