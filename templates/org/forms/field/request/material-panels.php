@@ -355,6 +355,17 @@
       </div>
       <div class="modal-body">
         <p>Modal body&hellip;</p>
+        <p>Modal body&hellip;</p>
+        <p>Modal body&hellip;</p>
+        <p>Modal body&hellip;</p>
+        <p>Modal body&hellip;</p>
+        <p>Modal body&hellip;</p>
+        <p>Modal body&hellip;</p>
+        <p>Modal body&hellip;</p>
+        <p>Modal body&hellip;</p>
+        <p>Modal body&hellip;</p>
+        <p>Modal body&hellip;</p>
+        <p>Modal body&hellip;</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
