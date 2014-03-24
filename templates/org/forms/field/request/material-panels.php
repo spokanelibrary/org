@@ -404,11 +404,11 @@
       </div>
       <div class="modal-body">
         <p>
-          <span class="text-muted">Press the</span> <i class="glyphicon glyphicon-check"></i> <strong>Select</strong> <span class="text-muted">button to choose a title.</span>
+          Press the <span class="text-muted"><i class="glyphicon glyphicon-check"></i> <strong>Select</strong></span> button to choose a title.
           <br />
-          <button type="button" data-toggle="collapse" data-target="#oclc-explain">
-            What if I am not sure or the title appears more than once? 
+          <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#oclc-explain">
             <span class="caret"></span>
+            What if I am not sure or the title appears more than once? 
           </button>
         </p>        
         <div id="oclc-explain" class="collapse">
@@ -472,8 +472,8 @@
 
                 {{#if summary}}
                   <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#summary-{{oclc}}">
-                    Read Summary&hellip;  
                     <span class="caret"></span>
+                    Read Summary&hellip;  
                   </button>
                 {{/if}}
 
