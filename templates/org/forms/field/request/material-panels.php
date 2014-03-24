@@ -347,24 +347,22 @@
 
 <!-- oclc modal -->
 <div class="modal fade" id="spl-form-oclc-result" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-body">
+      <div class="alert alert-info">
+        Searching&hellip;
+      </div>
+    </div>
+  </div>
+</div><!-- /.modal -->
+
+  <div class="modal-dialog collapse">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h4 class="modal-title">Modal title</h4>
       </div>
       <div class="modal-body">
-        <p>Modal body&hellip;</p>
-        <p>Modal body&hellip;</p>
-        <p>Modal body&hellip;</p>
-        <p>Modal body&hellip;</p>
-        <p>Modal body&hellip;</p>
-        <p>Modal body&hellip;</p>
-        <p>Modal body&hellip;</p>
-        <p>Modal body&hellip;</p>
-        <p>Modal body&hellip;</p>
-        <p>Modal body&hellip;</p>
-        <p>Modal body&hellip;</p>
         <p>Modal body&hellip;</p>
       </div>
       <div class="modal-footer">
@@ -373,6 +371,5 @@
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
 
 
