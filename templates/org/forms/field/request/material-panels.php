@@ -223,7 +223,7 @@
         </div>
       </div>
       <blockquote>
-        The following information helps us to expedite your request.
+        Any additional information you can provide helps us expedite your request:
       </blockquote>
       <!-- publisher/pubdate-->
       <div class="row">
