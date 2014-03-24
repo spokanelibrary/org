@@ -106,6 +106,9 @@
         <div class="panel-body">
           My Request
         </div><!-- /.panel-body -->
+        <div class="panel-footer">
+          Submit, ILL Policy
+        </div><!-- /.panel-footer -->
       </div><!-- /.panel -->
     </div><!-- /.collapse -->
 
@@ -128,6 +131,9 @@
         <div class="panel-body">
           My Request
         </div><!-- /.panel-body -->
+        <div class="panel-footer">
+          Submit, ILL Policy
+        </div><!-- /.panel-footer -->
       </div><!-- /.panel -->
     </div><!-- /.collapse -->
 
@@ -150,6 +156,9 @@
         <div class="panel-body">
           My Request
         </div><!-- /.panel-body -->
+        <div class="panel-footer">
+          Submit, ILL Policy
+        </div><!-- /.panel-footer -->
       </div><!-- /.panel -->
     </div><!-- /.collapse -->
 
@@ -270,10 +279,10 @@
           case 'c':
           case 'in':
           case 'ol':
-          echo 'you cannot ill';
+            //echo 'you cannot ill';
           break;
           default:
-          echo 'you can ill';  
+            //echo 'you can ill';
           break;
         }
         ?>
