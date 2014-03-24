@@ -222,6 +222,9 @@
           <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
         </div>
       </div>
+      <blockquote>
+        The following information helps us to expedite your request.
+      </blockquote>
       <!-- publisher/pubdate-->
       <div class="row">
         <div class="col-sm-6">
