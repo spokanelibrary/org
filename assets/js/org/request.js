@@ -71,7 +71,7 @@ var org = {
     if ( query ) {
 
     	var tmpl = Handlebars.compile( $('#oclc-search-tmpl').html() );
-      $modal.html(tmpl(query)).modal('show');
+      $modal.html(tmpl({query})).modal('show');
 
     	//console.log(this.config);
 
