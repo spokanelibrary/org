@@ -378,7 +378,10 @@
     {{#unless entry}}
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title text-danger">No results found</h4>
+        <h3 class="modal-title text-danger">
+          <i class="glyphicon glyphicon-exclamation-sign"></i>
+          No results found
+        </h3>
       </div>
       <div class="modal-body">
         <p class="lead">
@@ -397,13 +400,15 @@
     {{else}}
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title">{{title}}: <small>{{totalResults}} <em>results for</em> {{subtitle}}</small></h4>
+        <h3 class="modal-title">{{title}}: <small>{{totalResults}} <em>results for</em> {{subtitle}}</small></h3>
       </div>
       <div class="modal-body">
         {{#each entry}}
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h4>{{title}} <small>{{subtitle}}</small></h4>
+            <h4>{{title}} 
+              {{#if subtitle}}<small>{{subtitle}}</small>{{/if}
+            </h4>
           </div>
         </div>
         {{/each}}
