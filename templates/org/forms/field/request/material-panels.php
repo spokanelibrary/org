@@ -347,6 +347,12 @@
 
 <!-- oclc modal -->
 <div class="modal fade" id="spl-form-oclc-result" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  
+
+</div><!-- /.modal -->
+
+
+<script id="oclc-search-tmpl" type="text/x-handlebars-template">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
@@ -358,12 +364,6 @@
       </div>
     </div>
   </div>
-
-</div><!-- /.modal -->
-
-
-<script id="oclc-search-tmpl" type="text/x-handlebars-template">
-  This is my template.
 </script>
 
 
