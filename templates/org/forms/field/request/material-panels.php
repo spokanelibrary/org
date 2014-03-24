@@ -403,11 +403,14 @@
         <h3 class="modal-title">{{title}}: <small>{{totalResults}} <em>results for</em> {{subtitle}}</small></h3>
       </div>
       <div class="modal-body">
-
-        <span class="muted">Press the</span> <i class="glyphicon glyphicon-check"></i> <strong>Select</strong> <span class="text-muted">button to choose a title.</span>
-        <br />
-        <a href="#" class="prevent-default" data-toggle="collapse" data-target="#oclc-explain">What if I am not sure or the title appears more than once? <i class="icon icon-chevron-down"></i></a>
-        
+        <p>
+          <span class="text-muted">Press the</span> <i class="glyphicon glyphicon-check"></i> <strong>Select</strong> <span class="text-muted">button to choose a title.</span>
+          <br />
+          <button type="button" data-toggle="collapse" data-target="#oclc-explain">
+            What if I am not sure or the title appears more than once? 
+            <span class="caret"></span>
+          </button>
+        </p>        
         <div id="oclc-explain" class="collapse">
           <p>
             No problem! 
@@ -469,7 +472,8 @@
 
                 {{#if summary}}
                   <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#summary-{{oclc}}">
-                    Read Summary&hellip;  <i class="glyphicon glyphicon-chevron-down"></i>
+                    Read Summary&hellip;  
+                    <span class="caret"></span>
                   </button>
                 {{/if}}
 
