@@ -167,8 +167,8 @@
 
 <div class="panel-collapse collapse"
       id="spl-form-panel-request"> 
-  <div class="panel panel-primary">
-    <div class="panel-body">
+  <!-- <div class="panel panel-primary">-->
+    <!-- <div class="panel-body">-->
       <!-- title -->
       <div class="form-group">
         <label for="spl-form-title" class="col-sm-4 col-md-3 control-label"><span class="text-danger">*</span> Requested Title</label>
@@ -296,7 +296,7 @@
         Submit only (no hold or ill)
       </div>
 
-    </div><!-- /.panel-body -->
-  </div><!-- /.panel -->
+    <!-- </div>--><!-- /.panel-body -->
+  <!-- </div>--><!-- /.panel -->
 </div><!-- /.collapse -->
 
