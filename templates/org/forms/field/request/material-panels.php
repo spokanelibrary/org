@@ -378,7 +378,7 @@
     {{#unless entry}}
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title">No results found</h4>
+        <h4 class="modal-title text-danger">No results found</h4>
       </div>
       <div class="modal-body">
         <p class="lead">
@@ -400,7 +400,13 @@
         <h4 class="modal-title">{{title}}: <small>{{totalResults}} <em>results for</em> {{subtitle}}</small></h4>
       </div>
       <div class="modal-body">
-        <p>Modal body&hellip;</p>
+        {{#each entry}}
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4>{{title}} <small>{{subtitle}}</small></h4>
+          </div>
+        </div>
+        {{/each}}
       </div>
       <div class="modal-footer">
         <p class="text-center">
