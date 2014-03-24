@@ -87,7 +87,8 @@ var org = {
     	$.ajax({ 
         url: this.config.api.oclc
         ,data: { sru: query // q: $('#spl-form-title').val()
-                ,mt: $('#spl-form-material').val()
+                //,mt: $('#spl-form-material').val()
+                ,mt: $('input:radio[name = "spl-form[material]"]').val();
                 ,index: $('#spl-form-search-index').val()
                 ,sort: $('#spl-form-search-sort').val()
                 ,start: start
