@@ -405,7 +405,8 @@
       <div class="modal-body">
         <p>
           Press the <span class="text-muted"><i class="glyphicon glyphicon-check"></i> <strong>Select</strong></span> button to choose a title.
-          <br />
+        </p>
+        <p>
           <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#oclc-explain">
             <span class="caret"></span>
             What if I am not sure or the title appears more than once? 
