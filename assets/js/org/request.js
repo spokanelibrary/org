@@ -62,6 +62,7 @@ var org = {
 , oclcSearchKeyword: function(start) {
 		
 		var query = $('#spl-form-search').val();
+		var $modal = $('#spl-form-oclc-result');
 
 		if ( !start ) {
       start = 1;
@@ -69,6 +70,9 @@ var org = {
 
     if ( query ) {
     	console.log(this.config);
+
+    	$modal.modal('show');
+
     	/*
     	console.log(this.config.api.oclc);
     	console.log(query);
