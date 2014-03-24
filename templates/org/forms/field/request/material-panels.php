@@ -407,7 +407,7 @@
           Press the <span class="text-success"><i class="glyphicon glyphicon-check"></i> <strong>Select</strong></span> button to choose a title.
         </p>
         <p>
-          <a data-toggle="collapse" href="#" data-target="#oclc-explain">
+          <a class="prevent-default" data-toggle="collapse" href="#" data-target="#oclc-explain">
             <span class="caret"></span>
             What if I am not sure or the title appears more than once? 
           </a>
