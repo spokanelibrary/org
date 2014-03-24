@@ -69,9 +69,13 @@ var org = {
     }
 
     if ( query ) {
-    	console.log(this.config);
 
-    	$modal.modal('show');
+    	var tmpl = Handlebars.compile( $('#oclc-search-tmpl').html() );
+      $modal.html(tmpl(query)).modal('show');
+
+    	//console.log(this.config);
+
+    	//$modal.modal('show');
 
     	/*
     	console.log(this.config.api.oclc);

@@ -361,6 +361,12 @@
 
 </div><!-- /.modal -->
 
+
+<script id="oclc-search-tmpl" type="text/x-handlebars-template">
+  This is my template.
+</script>
+
+
   <div class="modal-dialog collapse">
     <div class="modal-content">
       <div class="modal-header">
