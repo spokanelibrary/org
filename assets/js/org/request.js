@@ -60,6 +60,7 @@ var org = {
     }
 
     console.log( 'searching' );
+    console.log(this.config);
 }
 
 , initRequestItemPanels: function() {
