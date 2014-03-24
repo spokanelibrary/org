@@ -475,6 +475,7 @@
         {{/each}}
       </div>
       <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <div class="text-center">
           <ul class="pagination" style="margin:0;">
             <li {{#compare startIndex 1}}class="disabled"{{/compare}}>
