@@ -475,19 +475,19 @@
         {{/each}}
       </div>
       <div class="modal-footer">
-
-        <ul class="pagination">
-          <li {{#compare startIndex 1}}class="disabled"{{/compare}}>
-              <a class="paginate-index" data-start-index="{{subtract startIndex 1}}" href="#">&larr; Prev {{itemsPerPage}}</a>
-            </li>
-            <li class="active">
-              <a class="paginate-index" data-start-index="{{startIndex}}" href="#">Page {{startIndex}}</a>
-            </li>
-            <li>
-              <a class="paginate-index" data-start-index="{{add startIndex 1}}" href="#">Next {{itemsPerPage}} &rarr;</a>
-            </li>
-        </ul>
-        
+        <div class="text-center">
+          <ul class="pagination">
+            <li {{#compare startIndex 1}}class="disabled"{{/compare}}>
+                <a class="paginate-index" data-start-index="{{subtract startIndex 1}}" href="#">&larr; Prev {{itemsPerPage}}</a>
+              </li>
+              <li class="active">
+                <a class="paginate-index" data-start-index="{{startIndex}}" href="#">Page {{startIndex}}</a>
+              </li>
+              <li>
+                <a class="paginate-index" data-start-index="{{add startIndex 1}}" href="#">Next {{itemsPerPage}} &rarr;</a>
+              </li>
+          </ul>
+        </div>
       </div>
     {{/unless}}
     </div><!-- /.modal-content -->
