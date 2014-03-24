@@ -407,7 +407,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4>{{title}} 
-              {{#if subtitle}}<small>{{subtitle}}</small>{{/if}
+              {{#if subtitle}}<small>{{subtitle}}</small>{{/if}}
             </h4>
           </div>
         </div>
