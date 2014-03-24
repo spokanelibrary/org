@@ -258,7 +258,7 @@
       </div>
       <!-- message -->
       <div class="form-group">
-        <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comment or Question</label>
+        <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comments or Questions</label>
         <div class="col-sm-8 col-md-9">
           <p class="form-control-static">
             How did you hear about this title?
@@ -356,7 +356,7 @@
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h4 class="modal-title">
           <i class="glyphicon glyphicon-search"></i>
-          OCLC WorldCat Search
+          WorldCat Search
         </h4>
       </div>
       <div class="modal-body">

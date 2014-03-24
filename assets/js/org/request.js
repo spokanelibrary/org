@@ -35,7 +35,7 @@ var org = {
 
 , initRequestItem: function() {
 
-		console.log(this.user);
+		//console.log(this.user);
 
 		this.initRequestItemPanels();
 		this.initOCLC();
@@ -95,19 +95,8 @@ var org = {
 
     if ( query ) {
 
-    	var search = { term: query };
-
     	var tmpl = Handlebars.compile( $('#oclc-search-tmpl').html() );
-      $modal.html(tmpl(search)).modal('show');
-
-    	//console.log(this.config);
-
-    	//$modal.modal('show');
-
-    	
-    	console.log(this.config.api.oclc);
-    	console.log(query);
-
+      $modal.html(tmpl({ term: query })).modal('show');
 
     	$.ajax({ 
         url: this.config.api.oclc
