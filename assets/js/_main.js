@@ -126,6 +126,10 @@ var ORG = {
         $('a[href='+$(this).attr('href')+']').tab('show');
       });
       
+      $('body').on('click', 'a.prevent-default', function(e) {
+        e.preventDefault();
+      });
+          
       // Ajax defaults[
       $.ajaxSetup({
          type: 'POST'
