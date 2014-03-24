@@ -3,16 +3,18 @@
 var org = {
 
 	// added on script load
-	/*
+	
 	config: {
-						endpoint: { hzws: 'http://api.spokanelibrary.org/v2/request/' }
+						endpoint: { hzws: 'http://api.spokanelibrary.org/v2/request/'
+											, oclc: 'http://api.spokanelibrary.org/oclc/'
+											 }
 					 }
-					 */
+
 	// added on authentication
-	user: {}
+	,user: {}
 
 	// called on script load
-	,init: function() {	
+	,init: function() {
 		_self = this;
 
 		this.setUser();
