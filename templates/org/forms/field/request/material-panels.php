@@ -423,10 +423,39 @@
                     data-publisher="{{publisher}}"
                     data-pubdate="{{pubdate}}" 
                     >
-                <i class="glyphicon glyphicon-check"></i> 
-                Select
-              </button>
+                  <i class="glyphicon glyphicon-check"></i> 
+                  Select
+                </button>
               </p>
+
+              <p>
+                {{#if publisher}}
+                  {{publisher}}
+                  <br />
+                {{/if}}
+
+                {{#if format}}
+                  <em>{{format}}</em>
+                {{/if}}
+              </p>
+
+              {{#if language}}
+                <p>    
+                  <small>{{language}}</small>
+                </p>
+              {{/if}}
+
+              {{#if summary}}
+                <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#summary-{{oclc}}">
+                  Read Summary&hellip;  <i class="glyphicon glyphicon-chevron-down"></i>
+                </button>
+                <div id="summary-{{oclc}}" class="collapse">
+                  <p>
+                  {{summary}}
+                  </p>
+                </div>
+              {{/if}}
+
             </div>
             <div class="col-sm-4">
               {{#if canonical}}
