@@ -3,7 +3,7 @@
 <div class="row">
 
   <div class="col-md-12">
-    <?php echo $_SERVER['PHP_SELF']; ?>
+    <?php echo $_SERVER['REQUEST_URI']; ?>
     <?php echo do_shortcode('[spl_widget login-form label post=request intro="Please login to get started."]'); ?>
 
     <?php if ( true == do_shortcode('[spl_widget auth-user]') ) : ?>
