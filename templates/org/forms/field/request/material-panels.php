@@ -1,5 +1,5 @@
 <div class="panel-group" id="spl-form-request-panels" style="margin:0; padding:0">
-  <div class="panel" style="border:none; box-shadow:none; margin:0; padding:0; padding-top: 10px;">
+  <div class="panel" style="border:none; box-shadow:none; margin:0; padding:0;">
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
           id="spl-form-panel-request-book">
@@ -306,6 +306,17 @@
 
 <!-- tmpl: submit -->
 <script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">
+<div class="form-group">
+  <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comments or Questions</label>
+  <div class="col-sm-8 col-md-9">
+    <p class="form-control-static">
+      How did you hear about this title?
+    </p>
+    <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
+  </div>
+</div><!-- /.form-group -->
+
+
   <p>
   Submit for: {{id}}
   </p>
