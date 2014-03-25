@@ -140,7 +140,7 @@
   </div><!-- /.panel - required here for bs3 -->
 </div><!-- /.panel-group -->
 
-<div class="panel-collapse collapse"
+<div class="collapse"
       id="spl-form-panel-request"> 
   <!-- title -->
   <div class="form-group">

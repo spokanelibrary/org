@@ -93,8 +93,7 @@
               echo '</pre>';
             } else {
               include 'request/material-choose.php';
-              include 'request/material-panels.php';
-                
+              include 'request/material-panels.php'; 
             }
             ?>
             
