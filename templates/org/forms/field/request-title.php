@@ -42,9 +42,6 @@
             </div>
             <div class="col-md-4">
               <p>
-                Holds are not available for all materials.
-              </p>
-              <p>
                 <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-hold-more-info">
                   <i class="glyphicon glyphicon-info-sign"></i>
                   More 
@@ -69,7 +66,10 @@
           </div>
           <div class="collapse" id="spl-form-request-hold-more-info">
             <div class="col-md-12">
-              more info
+              <div class="alert alert-info">
+                If we purchase or obtain your requested title through Interlibrary Loan, we will place a Hold Request on your account.
+                Please note: We cannot place hold requests on downloadable materials.
+              </div>
             </div>
           </div>
             
