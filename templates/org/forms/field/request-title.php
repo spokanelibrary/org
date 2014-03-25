@@ -48,7 +48,7 @@
             
           </fieldset>
             <?php 
-            if ( isset($bib) ) {
+            if ( !empty($bib) ) {
               echo $bib;
             } else {
               include 'request/title.php'; 
