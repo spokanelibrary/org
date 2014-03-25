@@ -1,4 +1,4 @@
-<div class="panel-group" id="spl-form-request-panels" style="margin:0 !important; padding:0 !important;">
+<div class="panel-group" id="spl-form-request-panels" style="border:none; margin:0 !important; padding:0 !important;">
   <div class="panel" style="border: 0px solid red; margin:0 !important; padding:0 !important;">
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
