@@ -41,8 +41,8 @@
               <?php include 'common/field-contact-location.php'; ?>  
             </div>
             <div class="col-md-4">
-              <p>
-                jlasdf
+              <p class="text-muted">
+                Holds are not available for all materials.
               </p> 
             </div>
           <div class="collapse" id="spl-form-request-edit-contact">
