@@ -57,7 +57,7 @@ var org = {
 			$('#spl-form-request-panel-choose').collapse('hide');		
 		});
 
-		$('body').on('show.bs.collapse', '.panel-collapse, #spl-form-request-panels', function(e) {
+		$('body').on('show.bs.collapse', '.spl-form-request', function(e) {
 			console.log( $(this).attr('id') );
 		});
 
@@ -197,7 +197,7 @@ var org = {
       })
       .done(function(obj) {
         if ( 1 == obj.holding ) {
-          console.log(obj);
+          //console.log(obj);
           $holding = $('#spl-form-request-holding');
           var tmpl = Handlebars.compile( $('#spl-form-request-holding-tmpl').html() );
           $holding.html(tmpl( {isbn:isbn} ));
