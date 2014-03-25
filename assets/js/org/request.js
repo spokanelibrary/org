@@ -79,27 +79,27 @@ var org = {
 
 		view.id = panel;
 		switch ( view.id ) {
-		  case 'spl-form-request-book':
-		  case 'spl-form-request-book-cd':
-		  case 'spl-form-request-music-cd':
-		  case 'spl-form-request-dvd':
-		  case 'spl-form-request-other':
+		  case 'spl-form-panel-request-book':
+		  case 'spl-form-panel-request-book-cd':
+		  case 'spl-form-panel-request-music-cd':
+		  case 'spl-form-panel-request-dvd':
+		  case 'spl-form-panel-request-other':
 		    view.content       = true;
 		    break;
-		  case 'spl-form-request-ebook':
-		  case 'spl-form-request-book-audio':
+		  case 'spl-form-panel-request-ebook':
+		  case 'spl-form-panel-request-book-audio':
 		    view.content       = true;
 		    view.download      = true;
 		    break;
-		  case 'spl-form-request-genealogy':
+		  case 'spl-form-panel-request-genealogy':
 		    view.genealogy     = true;
 		    view.ill           = true;
 		    break;
-		  case 'spl-form-request-page-copy':
+		  case 'spl-form-panel-request-page-copy':
 		    view.newspaper      = true;
 		    view.ill            = true;
 		    break;
-		  case 'spl-form-request-periodical':
+		  case 'spl-form-panel-request-periodical':
 		    view.periodical    = true;
 		    view.ill           = true;
 		    break;
