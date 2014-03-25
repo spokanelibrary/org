@@ -351,7 +351,7 @@
 
 <!-- submit -->
 <script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">
-  This is a submit form
+  This is a submit form: {{id}}
 </script>
 
 

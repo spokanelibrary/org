@@ -165,14 +165,13 @@ var org = {
 
 		// hide material type selectors on panel select
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function(e) {
-			$('#spl-form-request-panel-choose').collapse('hide');	
-			console.log( $(this).attr('id') );	
+			$('#spl-form-request-panel-choose').collapse('hide');		
 		});
 
 		// show generic request form when requested
 		$('body').on('show.bs.collapse', '.spl-form-request-generic', function(e) {
 			
-			
+			//console.log( $(this).attr('id') );
 
 			/*
 			if ( $(this).hasClass('spl-form-request-download') ) {
@@ -183,7 +182,7 @@ var org = {
 				$('#spl-form-request-submit-download').hide();
 			}
 			*/
-			$('#spl-form-request-submit').html(tmpl({}));
+			$('#spl-form-request-submit').html(tmpl( {id:$(this).attr('id')} ));
 
 			$('#spl-form-panel-request').collapse('show');
 
@@ -194,7 +193,7 @@ var org = {
 			if ( $('#spl-form-panel-request').hasClass('in') ) {	
 				$('#spl-form-panel-request').collapse('hide');
 			}
-			$('#spl-form-request-submit').html(tmpl({}));
+			$('#spl-form-request-submit').html(tmpl( {id:$(this).attr('id')} ));
 		});
 
 } // initRequestItemPanels
