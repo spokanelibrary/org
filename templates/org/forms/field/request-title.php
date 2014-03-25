@@ -40,11 +40,14 @@
                 </button>
               </p>
             </div>
-          <div class="col-md-12">
-            <div class="collapse" id="spl-form-request-edit-contact">
+          <div class="collapse" id="spl-form-request-edit-contact">
+            <div class="col-md-12">          
               <span class="help-block"><b>Note:</b> You can edit your info here for <i>this request only</i>.</span>
               <?php include 'common/shared/field-contact-name.php'; ?>
               <?php include 'common/shared/field-contact-info.php'; ?>
+            </div>
+            <div class="col-md-8-offset-4">
+              OK
             </div>
           </div>
             
