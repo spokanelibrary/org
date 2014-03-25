@@ -49,7 +49,7 @@
           </fieldset>
             <?php 
             if ( !empty($bib) ) {
-              echo $bib;
+              echo 'CDA for bib# '.$bib;
             } else {
               include 'request/title.php'; 
             }
