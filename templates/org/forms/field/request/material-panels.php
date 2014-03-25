@@ -141,7 +141,7 @@
 </div><!-- /.panel-group -->
 
 <div class="panel-collapse collapse"
-      id="spl-form-panel-request"> 
+      id="spl-form-panel-request" style="margin-bottom:10px;"> 
   
   <!-- title -->
   <div class="form-group">
