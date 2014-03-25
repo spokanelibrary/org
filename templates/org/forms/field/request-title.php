@@ -1,11 +1,13 @@
 <div class="row">
 
   <div class="col-md-12">
-    
+    <!--
     <div class="spl-login" data-callback-method="loadUserFormFields">
+    -->
     <?php echo do_shortcode('[spl_widget login-form label post=request intro="Please login to get started."]'); ?>
+    <!--
     </div>
-    
+    -->
     <?php echo get_query_var('bib') ?>
 
     <?php if ( true == do_shortcode('[spl_widget auth-user]') ) : ?>
