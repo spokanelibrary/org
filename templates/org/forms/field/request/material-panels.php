@@ -306,8 +306,9 @@
 
 <!-- tmpl: submit -->
 <script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">
+<hr>
 <div class="form-group">
-  <label for="" class="col-sm-4 col-md-3 control-label"></label>
+  <label for="" class="col-sm-4 col-md-3 control-label">Send this Request</label>
   <div class="col-sm-8 col-md-9">
     <p class="form-control-static">
       Submit for: {{id}}
