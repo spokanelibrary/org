@@ -47,7 +47,10 @@
               <?php include 'common/shared/field-contact-info.php'; ?>
             </div>
             <div class="col-md-8 col-md-offset-4">
-              OK
+              <button type="button" data-toggle="collapse" data-target="spl-form-request-edit-contact">
+                <i class="glyphicon glyphicon-check"></i>
+                OK
+              </button>
             </div>
           </div>
             
