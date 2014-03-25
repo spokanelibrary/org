@@ -140,22 +140,25 @@
   </div><!-- /.panel - required here for bs3 -->
 </div><!-- /.panel-group -->
 
-<div class="collapse"
+<div class="panel-collapse collapse"
       id="spl-form-panel-request"> 
+  
   <!-- title -->
   <div class="form-group">
     <label for="spl-form-title" class="col-sm-4 col-md-3 control-label"><span class="text-danger">*</span> Requested Title</label>
     <div class="col-sm-8 col-md-9">
       <input type="text" class="form-control required" id="spl-form-title" name="spl-form[title]" title="Don't forget to tell us the title you are looking for!">
     </div>
-  </div>
+  </div><!-- /.form-group -->
+
   <!-- author -->
   <div class="form-group">
     <label for="spl-form-author" class="col-sm-4 col-md-3 control-label">Author or Artist</label>
     <div class="col-sm-8 col-md-9">
       <input type="text" class="form-control" id="spl-form-author" name="spl-form[author]">
     </div>
-  </div>
+  </div><!-- /.form-group -->
+
   <!-- url -->
   <div class="form-group">
     <label for="spl-form-url" class="col-sm-4 col-md-3 control-label">Link on the Web</label>
@@ -168,8 +171,8 @@
         <b>Note:</b> The page you link to must contain enough information for us to clearly identify the item you are requesting. 
         Otherwise we may not be able to process your request. 
       </span>
-    </div>
-  </div>
+  </div><!-- /.form-group -->
+  
   <!-- search -->
   <div class="form-group">
     <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
@@ -201,7 +204,7 @@
                 <option value="se">Series</option>
                 <option value="su">Subject</option>
               </select>
-            </div><!-- /.row -->
+            </div><!-- /.col -->
             <div class="col-md-6">
               <label for="spl-form-search-sort" class="control-label">Sort By:</label>
               <select class="form-control" name="spl-form[search-sort]" id="spl-form-search-sort">
@@ -217,7 +220,7 @@
                 <option value="Score,,0">Score Descending</option>
                 -->
               </select>
-            </div><!-- /.row -->
+            </div><!-- /.col -->
           </div><!-- /.row -->
           <span class="help-block">
             We want to respond to your request as quickly and accurately as possible. 
@@ -226,10 +229,11 @@
             If you do not find the title you are looking for, try an <a href="http://www.worldcat.org/advancedsearch" title="Advanced WorldCat Search">Advanced WorldCat Search</a>.
           </span>
           <div id="spl-form-request-holding"></div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </div><!-- /.well -->
+      </div><!-- /.collapse -->
+    </div><!-- /.col -->
+  </div><!-- /.form-group -->
+
   <!-- message -->
   <div class="form-group">
     <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comments or Questions</label>
@@ -239,32 +243,36 @@
       </p>
       <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
     </div>
-  </div>
+  </div><!-- /.form-group -->
+
   <p>
     Any additional information you can provide really helps us expedite your request:
   </p>
+
   <!-- publisher/pubdate-->
   <div class="row">
     <div class="col-sm-6">
       <label for="spl-form-publisher" class="control-label">Publisher</label>
       <input type="text" class="form-control" id="spl-form-publisher" name="spl-form[publisher]">
-    </div>
+    </div><!-- /.col -->
     <div class="col-sm-6">
       <label for="spl-form-pubdate" class="control-label">Publication Date</label>
       <input type="text" class="form-control" id="spl-form-pubdate" name="spl-form[pubdate]">
-    </div>
-  </div>
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+
   <!-- isbn/oclc -->
   <div class="row">
     <div class="col-sm-6">
       <label for="spl-form-isbn" class="control-label">ISBN / ISSN</label>
       <input type="text" class="form-control" id="spl-form-isbn" name="spl-form[isbn]">
-    </div>
+    </div><!-- /.col -->
     <div class="col-sm-6">
       <label for="spl-form-oclc" class="control-label">OCLC #</label>
       <input type="text" class="form-control" id="spl-form-oclc" name="spl-form[oclc]">
-    </div>
-  </div>
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+
   <!-- content/age -->
   <div class="row">
     <div class="col-sm-6">
@@ -274,7 +282,7 @@
         <option value="fiction">Fiction</option>
         <option value="non-fiction">Non-Fiction</option>
       </select>
-    </div>
+    </div><!-- /.col -->
     <div class="col-sm-6">
       <label for="spl-form-audience" class="control-label">Age Group</label>
       <select class="form-control" name="spl-form[audience]" id="spl-form-audience">
@@ -283,8 +291,9 @@
         <option value="yount-adult">Young Adult</option>
         <option value="juvenile">Juvenile</option>
       </select>
-    </div>
-  </div>
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+
 </div><!-- /.collapse -->
 
 <!-- tmpl target: request-submit -->
