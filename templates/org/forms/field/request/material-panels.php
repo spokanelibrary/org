@@ -314,11 +314,6 @@
       </div>
 
 
-      <br>
-      <br>
-
-      
-
       <div id="spl-form-request-submit-item" class="collapse">
         Submit w/ hold &amp; ill (only for residents, etc.)
 

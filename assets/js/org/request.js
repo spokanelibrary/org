@@ -42,6 +42,62 @@ var org = {
 		}
   } // initRequestItem()
 
+, initRequestItemPanels: function() {
+		var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
+    
+		/*
+		$('body').on('change', 'input:radio[name = "spl-form[material]"]', function() {
+			var materialTypeDescription = $(this).parent().text();
+			console.log(materialTypeDescription);
+		});
+		*/
+
+		// hide material type selectors on panel select
+		$('body').on('show.bs.collapse', '#spl-form-request-panels', function(e) {
+			$('#spl-form-request-panel-choose').collapse('hide');		
+		});
+
+		$('body').on('show.bs.collapse', '.panel-collapse, #spl-form-request-panels', function(e) {
+			console.log( $(this).attr('id') );
+		});
+
+		// show generic request form when requested
+		$('body').on('show.bs.collapse', '.spl-form-request-generic', function(e) {
+			
+			//console.log( $(this).attr('id') );
+
+			/*
+			if ( $(this).hasClass('spl-form-request-download') ) {
+				$('#spl-form-request-submit-item').hide();
+				$('#spl-form-request-submit-download').show();
+			} else {
+				$('#spl-form-request-submit-item').show();
+				$('#spl-form-request-submit-download').hide();
+			}
+			*/
+			//$('#spl-form-request-submit').html(tmpl( {id:$(this).attr('id')} ));
+
+			$('#spl-form-panel-request').collapse('show');
+
+		});
+		
+		// hide generic request form when not requested
+		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function(e) {
+			if ( $('#spl-form-panel-request').hasClass('in') ) {	
+				$('#spl-form-panel-request').collapse('hide');
+			}
+
+			//_self.showRequestSubmit($(this).attr('id'));
+		});
+
+} // initRequestItemPanels
+
+, showRequestSubmit: function(panel) {
+
+	$('#spl-form-request-submit').html(tmpl( {id:$(this).attr('id')} ));
+
+} // showRequestSubmit
+
 , initOCLC: function() {
 
 		// search
@@ -82,40 +138,6 @@ var org = {
 
 } // initOCLC()
 
-, oclcSelectBib: function(bib) {
-		//console.log(bib);
-		$('#spl-form-title').val(bib.title);
-    $('#spl-form-author').val(bib.author);
-    $('#spl-form-publisher').val(bib.publisher);
-    $('#spl-form-pubdate').val(bib.pubdate);
-    $('#spl-form-oclc').val(bib.ocn);
-    $('#spl-form-isbn').val(bib.canonical);
-    if ( bib.canonical ) {
-      this.checkISBNHolding( bib.canonical );
-    }
-	} // oclcSelectBib()
-
-, checkISBNHolding: function(isbn) {
-    // check the SPL catalog for holdings using an isbn search and parsing the resulting xml. ugh.
-    //console.log(isbn);
-    $.ajax({ 
-        url: this.config.api.isbn
-        ,data: { isbn: isbn }
-      })
-      .done(function(obj) {
-        if ( 1 == obj.holding ) {
-          console.log(obj);
-          $holding = $('#spl-form-request-holding');
-          var tmpl = Handlebars.compile( $('#spl-form-request-holding-tmpl').html() );
-          $holding.html(tmpl( {isbn:isbn} ));
-        }
-      })
-      .fail(function() {
-      })
-      .always(function() {
-      });
-  } //checkISBNHolding()
-
 , oclcSearchKeyword: function(start) {
 		if ( !start ) {
       start = 1;
@@ -153,49 +175,38 @@ var org = {
 
 }
 
-, initRequestItemPanels: function() {
-		var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
-    
-		/*
-		$('body').on('change', 'input:radio[name = "spl-form[material]"]', function() {
-			var materialTypeDescription = $(this).parent().text();
-			console.log(materialTypeDescription);
-		});
-		*/
+, oclcSelectBib: function(bib) {
+		//console.log(bib);
+		$('#spl-form-title').val(bib.title);
+    $('#spl-form-author').val(bib.author);
+    $('#spl-form-publisher').val(bib.publisher);
+    $('#spl-form-pubdate').val(bib.pubdate);
+    $('#spl-form-oclc').val(bib.ocn);
+    $('#spl-form-isbn').val(bib.canonical);
+    if ( bib.canonical ) {
+      this.checkISBNHolding( bib.canonical );
+    }
+	} // oclcSelectBib()
 
-		// hide material type selectors on panel select
-		$('body').on('show.bs.collapse', '#spl-form-request-panels', function(e) {
-			$('#spl-form-request-panel-choose').collapse('hide');		
-		});
-
-		// show generic request form when requested
-		$('body').on('show.bs.collapse', '.spl-form-request-generic', function(e) {
-			
-			//console.log( $(this).attr('id') );
-
-			/*
-			if ( $(this).hasClass('spl-form-request-download') ) {
-				$('#spl-form-request-submit-item').hide();
-				$('#spl-form-request-submit-download').show();
-			} else {
-				$('#spl-form-request-submit-item').show();
-				$('#spl-form-request-submit-download').hide();
-			}
-			*/
-			$('#spl-form-request-submit').html(tmpl( {id:$(this).attr('id')} ));
-
-			$('#spl-form-panel-request').collapse('show');
-
-		});
-		
-		// hide generic request form when not requested
-		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function(e) {
-			if ( $('#spl-form-panel-request').hasClass('in') ) {	
-				$('#spl-form-panel-request').collapse('hide');
-			}
-			$('#spl-form-request-submit').html(tmpl( {id:$(this).attr('id')} ));
-		});
-
-} // initRequestItemPanels
+, checkISBNHolding: function(isbn) {
+    // check the SPL catalog for holdings using an isbn search and parsing the resulting xml. ugh.
+    //console.log(isbn);
+    $.ajax({ 
+        url: this.config.api.isbn
+        ,data: { isbn: isbn }
+      })
+      .done(function(obj) {
+        if ( 1 == obj.holding ) {
+          console.log(obj);
+          $holding = $('#spl-form-request-holding');
+          var tmpl = Handlebars.compile( $('#spl-form-request-holding-tmpl').html() );
+          $holding.html(tmpl( {isbn:isbn} ));
+        }
+      })
+      .fail(function() {
+      })
+      .always(function() {
+      });
+  } //checkISBNHolding()
 
 };
