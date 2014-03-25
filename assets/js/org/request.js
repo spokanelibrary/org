@@ -76,8 +76,21 @@ var org = {
 
 , showRequestSubmit: function(panel) {
 		var view = {};
-
+		view.user = {};
 		view.id = panel;
+
+		switch( this.user.borrowerType ) {
+			case 'sr':
+      case 'c':
+      case 'in':
+      case 'ol':
+        view.user.ill = false;
+        break;
+      default:
+        view.user.ill = true;
+        break;
+		}
+
 		switch ( view.id ) {
 		  case 'spl-form-panel-request-book':
 		  case 'spl-form-panel-request-cd-audio-book':
@@ -105,9 +118,7 @@ var org = {
 		    break;
 		}
 
-		console.log(this.user);
 		console.log(view);
-
 
 		var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
 		$('#spl-form-request-submit').html(tmpl( view ));
