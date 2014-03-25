@@ -46,7 +46,9 @@
               </p>
               <p>
                 <button type="button" class="btn btn-link">
-                  More <span class="caret"></span>
+                  <i class="glyphicon glyphicon-info-sign"></i>
+                  More 
+                  <span class="caret"></span>
                 </button>
               </p> 
             </div>
