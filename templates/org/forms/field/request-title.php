@@ -45,7 +45,7 @@
                 Holds are not available for all materials.
               </p>
               <p>
-                <button type="button" class="btn btn-link">
+                <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-hold-more-info">
                   <i class="glyphicon glyphicon-info-sign"></i>
                   More 
                   <span class="caret"></span>
@@ -65,6 +65,11 @@
                 <i class="glyphicon glyphicon-check"></i>
                 OK
               </button>
+            </div>
+          </div>
+          <div class="collapse" id="spl-form-request-hold-more-info">
+            <div class="col-md-12">
+
             </div>
           </div>
             
