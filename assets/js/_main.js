@@ -62,7 +62,7 @@ var ORG = {
 , loadUserFormFields: function(user) {
     $('.spl-login').hide();
     //console.log(user);  
-    if ( $('.spl-form') ) {
+    if ( user && $('.spl-form') ) {
       
       var name = '';
       if ( user.name ) {
@@ -129,7 +129,7 @@ var ORG = {
       $('body').on('click', 'a.prevent-default', function(e) {
         e.preventDefault();
       });
-          
+
       // Ajax defaults[
       $.ajaxSetup({
          type: 'POST'
