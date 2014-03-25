@@ -46,7 +46,7 @@
               <?php include 'common/shared/field-contact-name.php'; ?>
               <?php include 'common/shared/field-contact-info.php'; ?>
             </div>
-            <div class="col-md-8-offset-4">
+            <div class="col-md-8 col-md-offset-4">
               OK
             </div>
           </div>
