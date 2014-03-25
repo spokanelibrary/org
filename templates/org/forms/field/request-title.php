@@ -30,11 +30,10 @@
             <div class="col-md-4">
               <label><?php echo $_SESSION['spl']['user']->name; ?></label>
               <p>
-                <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
+                <a href="#" class="btn btn-link prevent-default" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
                   <i class="glyphicon glyphicon-edit"></i>
                   Edit my contact info
-                  <span class="caret"></span>
-                </button>
+                  <span class="caret"></span></a>
               </p>
             </div>
             <div class="col-md-4">
@@ -68,6 +67,7 @@
             <div class="col-md-12">
               <div class="alert alert-info">
                 If we purchase or obtain your requested title through Interlibrary Loan, we will place a Hold Request on your account.
+                <br>
                 Please note: We cannot place hold requests on downloadable materials.
               </div>
             </div>
