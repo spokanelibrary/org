@@ -43,8 +43,6 @@ var org = {
   } // initRequestItem()
 
 , initRequestItemPanels: function() {
-		var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
-    
 		/*
 		$('body').on('change', 'input:radio[name = "spl-form[material]"]', function() {
 			var materialTypeDescription = $(this).parent().text();
@@ -57,28 +55,14 @@ var org = {
 			$('#spl-form-request-panel-choose').collapse('hide');		
 		});
 
+		// show dynamic submit panel
 		$('body').on('show.bs.collapse', '.spl-form-request', function(e) {
-			console.log( $(this).attr('id') );
+			_self.showRequestSubmit($(this).attr('id'));
 		});
 
 		// show generic request form when requested
 		$('body').on('show.bs.collapse', '.spl-form-request-generic', function(e) {
-			
-			//console.log( $(this).attr('id') );
-
-			/*
-			if ( $(this).hasClass('spl-form-request-download') ) {
-				$('#spl-form-request-submit-item').hide();
-				$('#spl-form-request-submit-download').show();
-			} else {
-				$('#spl-form-request-submit-item').show();
-				$('#spl-form-request-submit-download').hide();
-			}
-			*/
-			//$('#spl-form-request-submit').html(tmpl( {id:$(this).attr('id')} ));
-
 			$('#spl-form-panel-request').collapse('show');
-
 		});
 		
 		// hide generic request form when not requested
@@ -86,15 +70,13 @@ var org = {
 			if ( $('#spl-form-panel-request').hasClass('in') ) {	
 				$('#spl-form-panel-request').collapse('hide');
 			}
-
-			//_self.showRequestSubmit($(this).attr('id'));
 		});
 
 } // initRequestItemPanels
 
 , showRequestSubmit: function(panel) {
-
-	$('#spl-form-request-submit').html(tmpl( {id:$(this).attr('id')} ));
+	var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
+	$('#spl-form-request-submit').html(tmpl( {id:panel} ));
 
 } // showRequestSubmit
 
