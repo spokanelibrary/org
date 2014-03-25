@@ -34,16 +34,12 @@ var org = {
 }
 
 , initRequestItem: function() {
-
 		//console.log(this.user);
-
-		this.initRequestItemPanels();
-		this.initOCLC();
-
 		if ( this.user ) {
 			ORG.loadUserFormFields(this.user);
+			this.initRequestItemPanels();
+			this.initOCLC();
 		}
-
   } // initRequestItem()
 
 , initOCLC: function() {
