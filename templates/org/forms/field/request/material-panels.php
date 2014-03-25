@@ -1,8 +1,8 @@
 <div class="panel-group" id="spl-form-request-panels" style="margin:0; padding:0;">
-  <div class="panel" style="border:none; margin:0; padding:0;">
+  <div class="panel" style="border:none !important; margin:0; padding:0;">
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
-          id="spl-form-panel-request-book" style="border:none;">
+          id="spl-form-panel-request-book">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-primary"
