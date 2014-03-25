@@ -1,9 +1,9 @@
-<div class="panel-group" id="spl-form-request-panels" style="">
-  <div class="panel" style="border:none; box-shadow:none;">
+<div class="panel-group" id="spl-form-request-panels" style="margin:0; padding:0">
+  <div class="panel" style="border:none; box-shadow:none; margin:0; padding:0;">
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
           id="spl-form-panel-request-book">
-      
+      <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-primary"
                 data-toggle="collapse"
@@ -11,7 +11,7 @@
                 <i class="glyphicon glyphicon-book"></i> 
                 Book
                 </button>
-      
+      </p>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
