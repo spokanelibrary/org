@@ -77,7 +77,7 @@ var org = {
 , showRequestSubmit: function(panel) {
 		var view = {};
 
-		view.id = 'test';
+		view.id = panel;
 		switch ( view.id ) {
 		  case 'spl-form-request-book':
 		  case 'spl-form-request-book-cd':
@@ -104,6 +104,8 @@ var org = {
 		    view.ill           = true;
 		    break;
 		}
+
+		console.log(view);
 
 
 		var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
