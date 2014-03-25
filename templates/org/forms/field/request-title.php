@@ -3,8 +3,7 @@
 <div class="row">
 
   <div class="col-md-12">
-    <?php echo $_SERVER['REQUEST_URI']; ?>
-    <?php echo do_shortcode('[spl_widget login-form label post=request intro="Please login to get started."]'); ?>
+    <?php echo do_shortcode('[spl_widget login-form label post=self intro="Please login to get started."]'); ?>
 
     <?php if ( true == do_shortcode('[spl_widget auth-user]') ) : ?>
         
@@ -51,10 +50,11 @@
             <?php 
             if ( !empty($bib) ) {
               echo '<pre>';
+              $api = 'http://api.spokanelibrary.org/v2/hzws/lookup';
               $params = array('bib'=>$bib);
-              
-              $title = SPL_Widget::curlPostProxy('http://api.spokanelibrary.org/v2/hzws/lookup'
-                      ,array('params'=>$params));
+              $title = json_decode(
+                        SPL_Widget::curlPostProxy($api, array('params'=>$params))
+                      );
 
               print_r($title);
               //print_r( SPL_Widget::curlPostProxy('http://api.spokanelibrary.org/v2/hzws/lookup?params[bib]=12345') );
