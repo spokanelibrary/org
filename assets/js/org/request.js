@@ -82,7 +82,7 @@ var org = {
 		});
 		
 		// hide generic request form when not requested
-		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function(e) {
+		$('body').on('show.bs.collapse', '.spl-form-request-specific', function(e) {
 			if ( $('#spl-form-panel-request').hasClass('in') ) {	
 				$('#spl-form-panel-request').collapse('hide');
 			}
