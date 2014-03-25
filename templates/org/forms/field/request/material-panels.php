@@ -353,6 +353,11 @@
 <!-- tmpl: submit -->
 <script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">
   This is a submit form: {{id}}
+  <br>
+  {{content}}
+  <br>
+  {{download}}
+
 </script>
 
 <!-- tmpl: oclc search loading -->
