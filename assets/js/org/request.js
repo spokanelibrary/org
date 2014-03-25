@@ -105,7 +105,7 @@ var org = {
 		    break;
 		}
 
-		console.log(log);
+		console.log(user);
 		console.log(view);
 
 
