@@ -308,7 +308,7 @@
 <script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">
 <fieldset>
   <legend class="text-muted">
-    <i class="glyphicon glyphicon-search"></i>
+    <i class="glyphicon glyphicon-envelope"></i>
     Send this request now
   </legend>
 
