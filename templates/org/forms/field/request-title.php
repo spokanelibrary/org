@@ -67,12 +67,12 @@
           <div class="collapse" id="spl-form-request-hold-more-info">
             <div class="col-md-12">
               <div class="alert alert-info">
-                <button type="button" class="close" data-dismiss="alert">×</button>
-                <h5>Hold Requsts</h5>
+                <button type="button" class="close" data-toggle="collapse" data-target="#spl-form-request-hold-more-info">×</button>
+                <h5>About Hold Requests</h5>
                 <p>
                   If we purchase or obtain your requested title through Interlibrary Loan, we will place a Hold Request on your account.
                   <br>
-                  <b>Please note:</b> We cannot place hold requests on downloadable materials.
+                  <b>Please note:</b> We cannot place Hold Requests on downloadable materials.
                 </p>
               </div>
             </div>
