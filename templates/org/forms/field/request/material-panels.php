@@ -141,7 +141,7 @@
 </div><!-- /.panel-group -->
 
 <div class="panel-collapse collapse"
-      id="spl-form-panel-request" style="margin-bottom:10px;"> 
+      id="spl-form-panel-request" style="margin-bottom:16px;"> 
   
   <!-- title -->
   <div class="form-group">
@@ -308,7 +308,7 @@
 <script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">
 <fieldset>
   <legend class="text-muted">
-    <i class="glyphicon glyphicon-envelope"></i>
+    <i class="glyphicon glyphicon-check"></i>
     Send this request now
   </legend>
 
