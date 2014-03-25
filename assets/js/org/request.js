@@ -176,6 +176,8 @@ var org = {
 		// show generic request form when requested
 		$('body').on('show.bs.collapse', '.spl-form-request-generic', function() {
 			
+			console.log( $(this).attr('id') );
+
 			if ( $(this).hasClass('spl-form-request-download') ) {
 				$('#spl-form-request-submit-item').hide();
 				$('#spl-form-request-submit-download').show();
