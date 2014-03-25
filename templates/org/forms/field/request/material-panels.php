@@ -14,7 +14,7 @@
       </p>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-generic"
+    <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
           id="spl-form-panel-request-cd-audio-book">
       <p>
         <button type="button" 
@@ -27,7 +27,7 @@
       </p>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-generic spl-form-request-download"
+    <div class="panel-collapse collapse spl-form-request spl-form-request-generic spl-form-request-download"
           id="spl-form-panel-request-ebook">
       <p>
         <button type="button" 
@@ -40,7 +40,7 @@
       </p>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-generic spl-form-request-download"
+    <div class="panel-collapse collapse spl-form-request spl-form-request-generic spl-form-request-download"
           id="spl-form-panel-request-dl-audio-book">
       <p>
         <button type="button" 
@@ -53,7 +53,7 @@
       </p>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-generic"
+    <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
           id="spl-form-panel-request-cd">
       <p>
         <button type="button" 
@@ -66,7 +66,7 @@
       </p>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-generic"
+    <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
           id="spl-form-panel-request-dvd">
       <p>
         <button type="button" 
@@ -79,7 +79,7 @@
       </p>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-generic"
+    <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
           id="spl-form-panel-request-other">
       <p>
         <button type="button" 
@@ -92,7 +92,7 @@
       </p>
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-specific"
+    <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
           id="spl-form-panel-request-genealogy">
       <p>
         <button type="button" 
@@ -112,7 +112,7 @@
       </div><!-- /.panel -->
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-specific"
+    <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
           id="spl-form-panel-request-page-copy">
       <p>
         <button type="button" 
@@ -137,7 +137,7 @@
       </div><!-- /.panel -->
     </div><!-- /.collapse -->
 
-    <div class="panel-collapse collapse spl-form-request-specific"
+    <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
           id="spl-form-panel-request-periodical">
       <p>
         <button type="button" 
