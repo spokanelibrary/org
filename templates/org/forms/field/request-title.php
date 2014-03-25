@@ -37,8 +37,13 @@
                 </button>
               </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-4">
               <?php include 'common/field-contact-location.php'; ?>  
+            </div>
+            <div class="col-md-4">
+              <p class="form-control-static">
+                jlasdf
+              </p> 
             </div>
           <div class="collapse" id="spl-form-request-edit-contact">
             <div class="col-md-12">          
