@@ -80,7 +80,6 @@ var org = {
       _self.oclcSelectBib(bib);
     });
 
-
 } // initOCLC()
 
 , oclcSelectBib: function(bib) {
@@ -99,7 +98,6 @@ var org = {
 , checkISBNHolding: function(isbn) {
     // check the SPL catalog for holdings using an isbn search and parsing the resulting xml. ugh.
     //console.log(isbn);
-    
     $.ajax({ 
         url: this.config.api.isbn
         ,data: { isbn: isbn }
@@ -116,19 +114,16 @@ var org = {
       })
       .always(function() {
       });
-      
-
   } //checkISBNHolding()
 
 , oclcSearchKeyword: function(start) {
+		if ( !start ) {
+      start = 1;
+    }
 		
 		var tmpl;
 		var query = $('#spl-form-search').val();
 		var $modal = $('#spl-form-oclc-result');
-
-		if ( !start ) {
-      start = 1;
-    }
 
     if ( query ) {
     	tmpl = Handlebars.compile( $('#oclc-search-tmpl').html() );
@@ -154,7 +149,6 @@ var org = {
       })
       .always(function() {
       });
-
     }
 
 }
@@ -172,12 +166,12 @@ var org = {
 			$('#spl-form-request-panel-choose').collapse('hide');		
 		});
 
-		
 		// show generic request form when requested
 		$('body').on('show.bs.collapse', '.spl-form-request-generic', function() {
 			
 			console.log( $(this).attr('id') );
 
+			/*
 			if ( $(this).hasClass('spl-form-request-download') ) {
 				$('#spl-form-request-submit-item').hide();
 				$('#spl-form-request-submit-download').show();
@@ -185,6 +179,7 @@ var org = {
 				$('#spl-form-request-submit-item').show();
 				$('#spl-form-request-submit-download').hide();
 			}
+			*/
 
 			$('#spl-form-panel-request').collapse('show');
 
@@ -192,7 +187,9 @@ var org = {
 		
 		// hide generic request form when not requested
 		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function() {
-			$('#spl-form-panel-request').collapse('hide');
+			if ( $('#spl-form-panel-request').hasClass('in') ) {	
+				$('#spl-form-panel-request').collapse('hide');
+			}
 		});
 
 } // initRequestItemPanels
