@@ -305,22 +305,9 @@
 
 <!-- tmpl: submit -->
 <script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">
-<div class="form-group">
-<label for="" class="col-sm-4 col-md-3 control-label">Test</label>
-<div class="col-sm-8 col-md-9">
-  <input type="text" class="form-control" id="" name="">
-  <span class="help-block">
-    <b>Note:</b> The page you link to must contain enough information for us to clearly identify the item you are requesting. 
-    Otherwise we may not be able to process your request. 
-  </span>
-</div><!-- /.form-group -->
-
-
-<div class="form-group">
   <p>
   Submit for: {{id}}
   </p>
-</div>
 </script>
 
 <!-- tmpl: oclc search loading -->
