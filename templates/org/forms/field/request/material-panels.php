@@ -2,7 +2,7 @@
   <div class="panel" style="border:none; margin:0; padding:0;">
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
-          id="spl-form-panel-request-book">
+          id="spl-form-panel-request-book" style="border:none;">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-primary"
