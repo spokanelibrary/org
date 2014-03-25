@@ -92,17 +92,15 @@ var org = {
 		}
 
 		switch ( view.id ) {
+		  case 'spl-form-panel-request-ebook':
+		  case 'spl-form-panel-request-dl-audio-book':
+		    view.download      = true;
 		  case 'spl-form-panel-request-book':
 		  case 'spl-form-panel-request-cd-audio-book':
 		  case 'spl-form-panel-request-cd':
 		  case 'spl-form-panel-request-dvd':
 		  case 'spl-form-panel-request-other':
 		    view.content       = true;
-		    break;
-		  case 'spl-form-panel-request-ebook':
-		  case 'spl-form-panel-request-dl-audio-book':
-		    view.content       = true;
-		    view.download      = true;
 		    break;
 		  case 'spl-form-panel-request-genealogy':
 		    view.genealogy     = true;
@@ -117,12 +115,10 @@ var org = {
 		    view.ill           = true;
 		    break;
 		}
-
-		console.log(view);
+		//console.log(view);
 
 		var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
 		$('#spl-form-request-submit').html(tmpl( view ));
-
 } // showRequestSubmit
 
 , initOCLC: function() {

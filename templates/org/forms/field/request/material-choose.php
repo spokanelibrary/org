@@ -93,7 +93,6 @@
       </div><!-- /.col -->
     </div><!-- /.row -->
 
-
     <?php
     // hide ill-only for certain btypes 
     switch ( $_SESSION['spl']['user']->borrowerType ) {
