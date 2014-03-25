@@ -163,15 +163,16 @@ var org = {
 		});
 		*/
 
-		// hide material type selectors 
+		// hide material type selectors on panel select
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function(e) {
-			$('#spl-form-request-panel-choose').collapse('hide');		
+			$('#spl-form-request-panel-choose').collapse('hide');	
+			console.log( $(this).attr('id') );	
 		});
 
 		// show generic request form when requested
 		$('body').on('show.bs.collapse', '.spl-form-request-generic', function(e) {
 			
-			console.log( $(this).attr('id') );
+			
 
 			/*
 			if ( $(this).hasClass('spl-form-request-download') ) {
