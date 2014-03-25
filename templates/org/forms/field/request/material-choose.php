@@ -94,8 +94,18 @@
       </div><!-- /.col -->
     </div><!-- /.row -->
 
-    <!-- ToDo: only show this for residents -->
 
+    <?php
+    // hide ill-only for certain btypes 
+    switch ( $_SESSION['spl']['user']->borrowerType ) {
+      case 'sr':
+      case 'c':
+      case 'in':
+      case 'ol':
+        //echo 'you cannot ill';
+      break;
+      default:
+    ?>
     <div class="row">
       <div class="col-sm-12">
       <h4 class="text-center">
@@ -130,6 +140,9 @@
         </p>
       </div><!-- /.col -->
     </div><!-- /.row -->
+    <?php
+      break;
+    ?>
 
   </div><!-- /.btn-group -->
 

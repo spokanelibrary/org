@@ -80,14 +80,14 @@ var org = {
 		view.id = panel;
 		switch ( view.id ) {
 		  case 'spl-form-panel-request-book':
-		  case 'spl-form-panel-request-book-cd':
-		  case 'spl-form-panel-request-music-cd':
+		  case 'spl-form-panel-request-cd-audio-book':
+		  case 'spl-form-panel-request-cd':
 		  case 'spl-form-panel-request-dvd':
 		  case 'spl-form-panel-request-other':
 		    view.content       = true;
 		    break;
 		  case 'spl-form-panel-request-ebook':
-		  case 'spl-form-panel-request-book-audio':
+		  case 'spl-form-panel-request-dl-audio-book':
 		    view.content       = true;
 		    view.download      = true;
 		    break;
