@@ -43,8 +43,11 @@
             <div class="col-md-4">
               <p>
                 Holds are not available for all materials.
-                <br>
-                More
+              </p>
+              <p>
+                <button type="button" class="btn btn-link">
+                  More <span class="caret"></span>
+                </button>
               </p> 
             </div>
           <div class="collapse" id="spl-form-request-edit-contact">
