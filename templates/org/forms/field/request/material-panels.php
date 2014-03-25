@@ -306,15 +306,21 @@
 
 <!-- tmpl: submit -->
 <script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">
-<hr>
-<div class="form-group">
-  <label for="" class="col-sm-4 col-md-3 control-label">Send this Request</label>
-  <div class="col-sm-8 col-md-9">
-    <p class="form-control-static">
-      Submit for: {{id}}
-    </p>
-  </div>
-</div><!-- /.form-group -->
+<fieldset>
+  <legend class="text-muted">
+    <i class="glyphicon glyphicon-search"></i>
+    Send this request now
+  </legend>
+
+  <div class="form-group">
+    <label for="" class="col-sm-4 col-md-3 control-label">Send this Request</label>
+    <div class="col-sm-8 col-md-9">
+      <p class="form-control-static">
+        Submit for: {{id}}
+      </p>
+    </div>
+  </div><!-- /.form-group -->
+</fieldset>
 </script>
 
 <!-- tmpl: oclc search loading -->
