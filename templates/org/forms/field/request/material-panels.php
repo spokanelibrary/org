@@ -171,6 +171,7 @@
         <b>Note:</b> The page you link to must contain enough information for us to clearly identify the item you are requesting. 
         Otherwise we may not be able to process your request. 
       </span>
+    </div>
   </div><!-- /.form-group -->
   
   <!-- search -->
