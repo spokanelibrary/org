@@ -50,8 +50,10 @@
             <?php 
             if ( !empty($bib) ) {
               echo 'CDA for bib# '.$bib;
-              echo '<pre>';
-              print_r( SPL_Widget::curlPostProxy('http://api.spokanelibrary.org/v2/hzws/lookup?params[bib]=12345') );
+              $params = array('bib'=>$bib);
+              $title = SPL_Widget::curlPostProxy('http://api.spokanelibrary.org/v2/hzws/lookup', array('params'=>$params));
+              print_r($title);
+              //print_r( SPL_Widget::curlPostProxy('http://api.spokanelibrary.org/v2/hzws/lookup?params[bib]=12345') );
               echo '</pre>';
             } else {
               include 'request/title.php'; 
