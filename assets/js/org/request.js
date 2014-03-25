@@ -40,6 +40,10 @@ var org = {
 		this.initRequestItemPanels();
 		this.initOCLC();
 
+		if ( this.user ) {
+			this.loadUserFormFields();
+		}
+
   } // initRequestItem()
 
 , initOCLC: function() {
