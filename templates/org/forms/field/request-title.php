@@ -30,10 +30,11 @@
             <div class="col-md-4">
               <label><?php echo $_SESSION['spl']['user']->name; ?></label>
               <p>
-                <a href="#" class="prevent-default" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
+                <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
                   <i class="glyphicon glyphicon-edit"></i>
                   Edit my contact info
-                  <span class="caret"></span></a>
+                  <span class="caret"></span>
+                </button>
               </p>
             </div>
             <div class="col-md-4">
@@ -41,11 +42,11 @@
             </div>
             <div class="col-md-4">
               <p>
-                <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-hold-more-info">
+                <a href="#" class="prevent-default" data-toggle="collapse" data-target="#spl-form-request-hold-more-info">
                   <i class="glyphicon glyphicon-info-sign"></i>
                   More 
                   <span class="caret"></span>
-                </button>
+                </a>
               </p> 
             </div>
           <div class="collapse" id="spl-form-request-edit-contact">
