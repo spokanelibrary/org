@@ -1,8 +1,8 @@
-<div class="panel-group" id="spl-form-request-panels" style="border-width:0 !important; margin:0; padding:0;">
-  <div class="panel" style="border-width:0 !important; margin:0; padding:0;">
+<div class="panel-group" id="spl-form-request-panels" style="margin:0; padding:0;">
+  <div class="panel" style="border: 1px solid red; margin:0; padding:0;">
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
-          id="spl-form-panel-request-book" style="border-width:1px solid red;">
+          id="spl-form-panel-request-book">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-primary"
@@ -15,7 +15,7 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
-          id="spl-form-panel-request-cd-audio-book" style="border-width:0 !important;">
+          id="spl-form-panel-request-cd-audio-book">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-primary"
@@ -28,7 +28,7 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic spl-form-request-download"
-          id="spl-form-panel-request-ebook" style="border-width:0 !important;">
+          id="spl-form-panel-request-ebook">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-primary"
@@ -41,7 +41,7 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic spl-form-request-download"
-          id="spl-form-panel-request-dl-audio-book" style="border-width:0 !important;">
+          id="spl-form-panel-request-dl-audio-book">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-primary"
@@ -54,7 +54,7 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
-          id="spl-form-panel-request-cd" style="border-width:0 !important;">
+          id="spl-form-panel-request-cd">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-primary"
@@ -67,7 +67,7 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
-          id="spl-form-panel-request-dvd" style="border-width:0 !important;">
+          id="spl-form-panel-request-dvd">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-primary"
@@ -80,7 +80,7 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-generic"
-          id="spl-form-panel-request-other" style="border-width:0 !important;">
+          id="spl-form-panel-request-other">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-primary"
@@ -93,7 +93,7 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
-          id="spl-form-panel-request-genealogy" style="border-width:0 !important;">
+          id="spl-form-panel-request-genealogy">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-default"
@@ -108,7 +108,7 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
-          id="spl-form-panel-request-page-copy" style="border-width:0 !important;">
+          id="spl-form-panel-request-page-copy">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-default"
@@ -123,7 +123,7 @@
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
-          id="spl-form-panel-request-periodical" style="border-width:0 !important;">
+          id="spl-form-panel-request-periodical">
       <p>
         <button type="button" 
                 class="btn btn-lg btn-block btn-default"
@@ -141,7 +141,7 @@
 </div><!-- /.panel-group -->
 
 <div class="panel-collapse collapse"
-      id="spl-form-panel-request" style="border-width:0 !important;"> 
+      id="spl-form-panel-request"> 
   
   <!-- title -->
   <div class="form-group">
