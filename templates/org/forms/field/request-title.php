@@ -41,7 +41,7 @@
               <?php include 'common/field-contact-location.php'; ?>  
             </div>
             <div class="col-md-4">
-              <p class="form-control-static">
+              <p>
                 jlasdf
               </p> 
             </div>
