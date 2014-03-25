@@ -68,6 +68,7 @@
             <div class="col-md-12">
               <div class="alert alert-info">
                 <button type="button" class="close" data-dismiss="alert">×</button>
+                <h5>Hold Requsts</h5>
                 <p>
                   If we purchase or obtain your requested title through Interlibrary Loan, we will place a Hold Request on your account.
                   <br>
