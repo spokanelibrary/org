@@ -92,7 +92,9 @@
               //print_r( SPL_Widget::curlPostProxy('http://api.spokanelibrary.org/v2/hzws/lookup?params[bib]=12345') );
               echo '</pre>';
             } else {
-              include 'request/title.php'; 
+              include 'request/material-choose.php';
+              include 'request/material-panels.php';
+                
             }
             ?>
             
