@@ -28,9 +28,6 @@
             </legend>
 
             <div class="col-md-4">
-            <?php include 'common/field-contact-location.php'; ?>
-            </div>
-            <div class="col-md-8">
               <label><?php echo $_SESSION['spl']['user']->name; ?></label>
               <p>
                 <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
@@ -39,6 +36,9 @@
                   <span class="caret"></span>
                 </button>
               </p>
+            </div>
+            <div class="col-md-8">
+              <?php include 'common/field-contact-location.php'; ?>  
             </div>
           <div class="collapse" id="spl-form-request-edit-contact">
             <div class="col-md-12">          
