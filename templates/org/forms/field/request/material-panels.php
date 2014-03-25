@@ -142,13 +142,9 @@
 
 <div class="panel-collapse collapse"
       id="spl-form-panel-request"> 
-  <!-- title -->
-  <div class="form-group">
-    <label for="spl-form-title" class="col-sm-4 col-md-3 control-label"><span class="text-danger">*</span> Requested Title</label>
-    <div class="col-sm-8 col-md-9">
-      <input type="text" class="form-control required" id="spl-form-title" name="spl-form[title]" title="Don't forget to tell us the title you are looking for!">
-    </div>
-  </div>
+  <?php include 'material-panel-title.php'; ?>
+
+  
   <!-- author -->
   <div class="form-group">
     <label for="spl-form-author" class="col-sm-4 col-md-3 control-label">Author or Artist</label>
