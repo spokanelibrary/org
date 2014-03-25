@@ -317,7 +317,7 @@
       <br>
       <br>
 
-      <div id="spl-form-request-submit"></div>
+      
 
       <div id="spl-form-request-submit-item" class="collapse">
         Submit w/ hold &amp; ill (only for residents, etc.)
@@ -348,17 +348,19 @@
   <!-- </div>--><!-- /.panel -->
 </div><!-- /.collapse -->
 
+<!-- tmpl target: request-submit -->
+<div id="spl-form-request-submit"></div>
 
-<!-- submit -->
+<!-- tmpl target: oclc modal -->
+<div class="modal fade" id="spl-form-oclc-result" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+</div><!-- /.modal -->
+
+<!-- tmpl: submit -->
 <script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">
   This is a submit form: {{id}}
 </script>
 
-
-<!-- oclc modal -->
-<div class="modal fade" id="spl-form-oclc-result" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-</div><!-- /.modal -->
-
+<!-- tmpl: oclc search loading -->
 <script id="oclc-search-tmpl" type="text/x-handlebars-template">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -382,6 +384,7 @@
   </div>
 </script>
 
+<!-- tmpl: oclc holding found -->
 <script id="spl-form-request-holding-tmpl" type="text/x-handlebars-template">
   <div class="alert alert-warning">
     <!--
@@ -400,6 +403,7 @@
   <input type="hidden" id="spl-form-holding" name="spl-form[holding]" value="true" /> 
 </script>
 
+<!-- tmpl: oclc search results -->
 <script id="oclc-results-tmpl" type="text/x-handlebars-template">
   <div class="modal-dialog">
     <div class="modal-content">
