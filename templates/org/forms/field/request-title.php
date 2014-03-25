@@ -69,7 +69,7 @@
           </div>
           <div class="collapse" id="spl-form-request-hold-more-info">
             <div class="col-md-12">
-
+              more info
             </div>
           </div>
             
