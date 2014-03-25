@@ -67,6 +67,7 @@
           <div class="collapse" id="spl-form-request-hold-more-info">
             <div class="col-md-12">
               <div class="alert alert-info">
+                <button type="button" class="close" data-dismiss="alert">×</button>
                 If we purchase or obtain your requested title through Interlibrary Loan, we will place a Hold Request on your account.
                 <br>
                 <b>Please note:</b> We cannot place hold requests on downloadable materials.
