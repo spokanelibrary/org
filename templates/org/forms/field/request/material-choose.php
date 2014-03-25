@@ -106,6 +106,7 @@
       default:
         include 'material-choose-ill.php';
       break;
+    }
     ?>
 
   </div><!-- /.btn-group -->
