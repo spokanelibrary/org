@@ -50,6 +50,8 @@
             <?php 
             if ( !empty($bib) ) {
               echo 'CDA for bib# '.$bib;
+
+              print_r( json_curl('http://api.spokanelibrary.org/v2/hzws/lookup?params[bib]=12345') );
             } else {
               include 'request/title.php'; 
             }
