@@ -41,7 +41,7 @@ var org = {
 		this.initOCLC();
 
 		if ( this.user ) {
-			_self.loadUserFormFields();
+			ORG.loadUserFormFields();
 		}
 
   } // initRequestItem()
