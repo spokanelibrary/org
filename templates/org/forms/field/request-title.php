@@ -44,7 +44,7 @@
               <p>
                 <a href="#" class="prevent-default" data-toggle="collapse" data-target="#spl-form-request-hold-more-info">
                   <i class="glyphicon glyphicon-info-sign"></i>
-                  More 
+                  More about holds
                   <span class="caret"></span>
                 </a>
               </p> 
@@ -69,7 +69,7 @@
               <div class="alert alert-info">
                 If we purchase or obtain your requested title through Interlibrary Loan, we will place a Hold Request on your account.
                 <br>
-                Please note: We cannot place hold requests on downloadable materials.
+                <b>Please note:</b> We cannot place hold requests on downloadable materials.
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@
             <?php //include 'common/field-contact-method.php'; ?>
             <?php //include 'common/field-login.php'; ?>
             <?php //include 'common/field-contact.php'; ?>
-            <?php include 'common/field-submit.php'; ?>
+            <?php //include 'common/field-submit.php'; ?>
             
           
         </form>
