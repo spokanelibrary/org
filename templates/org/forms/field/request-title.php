@@ -1,12 +1,9 @@
+<?php $bib = get_query_var('bib'); ?>
+
 <div class="row">
 
   <div class="col-md-12">
     <?php echo do_shortcode('[spl_widget login-form label post=request intro="Please login to get started."]'); ?>
-
-
-    <?php $bib = get_query_var('bib'); ?>
-    <?php print_r($bib); ?>
-
 
     <?php if ( true == do_shortcode('[spl_widget auth-user]') ) : ?>
         
@@ -50,7 +47,13 @@
             </div>
             
           </fieldset>
-            <?php include 'request/title.php'; ?>
+            <?php 
+            if ( isset($bib) ) {
+              echo $bib;
+            } else {
+              include 'request/title.php'; 
+            }
+            ?>
             
             <?php //include 'common/field-contact-method.php'; ?>
             <?php //include 'common/field-login.php'; ?>
