@@ -30,7 +30,7 @@
             <div class="col-md-4">
               <label><?php echo $_SESSION['spl']['user']->name; ?></label>
               <p>
-                <a href="#" class="btn btn-link prevent-default" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
+                <a href="#" class="prevent-default" data-toggle="collapse" data-target="#spl-form-request-edit-contact">
                   <i class="glyphicon glyphicon-edit"></i>
                   Edit my contact info
                   <span class="caret"></span></a>
