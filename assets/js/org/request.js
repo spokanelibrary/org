@@ -154,6 +154,8 @@ var org = {
 }
 
 , initRequestItemPanels: function() {
+		var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
+    
 		/*
 		$('body').on('change', 'input:radio[name = "spl-form[material]"]', function() {
 			var materialTypeDescription = $(this).parent().text();
@@ -161,13 +163,13 @@ var org = {
 		});
 		*/
 
-		// hide material type selectors and generic request form on select
-		$('body').on('show.bs.collapse', '#spl-form-request-panels', function() {
+		// hide material type selectors 
+		$('body').on('show.bs.collapse', '#spl-form-request-panels', function(e) {
 			$('#spl-form-request-panel-choose').collapse('hide');		
 		});
 
 		// show generic request form when requested
-		$('body').on('show.bs.collapse', '.spl-form-request-generic', function() {
+		$('body').on('show.bs.collapse', '.spl-form-request-generic', function(e) {
 			
 			console.log( $(this).attr('id') );
 
@@ -180,16 +182,18 @@ var org = {
 				$('#spl-form-request-submit-download').hide();
 			}
 			*/
+			$('#spl-form-request-submit').html(tmpl({}));
 
 			$('#spl-form-panel-request').collapse('show');
 
 		});
 		
 		// hide generic request form when not requested
-		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function() {
+		$('body').on('shown.bs.collapse', '.spl-form-request-specific', function(e) {
 			if ( $('#spl-form-panel-request').hasClass('in') ) {	
 				$('#spl-form-panel-request').collapse('hide');
 			}
+			$('#spl-form-request-submit').html(tmpl({}));
 		});
 
 } // initRequestItemPanels

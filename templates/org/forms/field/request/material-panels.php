@@ -317,11 +317,13 @@
       <br>
       <br>
 
+      <div id="spl-form-request-submit"></div>
 
       <div id="spl-form-request-submit-item" class="collapse">
         Submit w/ hold &amp; ill (only for residents, etc.)
 
         <?php
+        /*
         switch ( $_SESSION['spl']['user']->borrowerType ) {
           case 'sr':
           case 'c':
@@ -333,6 +335,7 @@
             //echo 'you can ill';
           break;
         }
+        */
         ?>
 
       </div>
@@ -344,6 +347,12 @@
     <!-- </div>--><!-- /.panel-body -->
   <!-- </div>--><!-- /.panel -->
 </div><!-- /.collapse -->
+
+
+<!-- submit -->
+<script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">
+  This is a submit form
+</script>
 
 
 <!-- oclc modal -->
