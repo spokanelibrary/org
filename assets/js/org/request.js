@@ -77,7 +77,7 @@ var org = {
 , showRequestSubmit: function(panel) {
 		var view = {};
 
-		view.id = panel;
+		view.id = 'test';
 		switch ( view.id ) {
 		  case 'spl-form-request-book':
 		  case 'spl-form-request-book-cd':
