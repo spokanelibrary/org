@@ -102,14 +102,9 @@
                 Genealogy <small>(research copies)</small>
                 </button>
       </p>
-      <div class="panel panel-default"> 
-        <div class="panel-body">
-          My Request
-        </div><!-- /.panel-body -->
-        <div class="panel-footer">
-          Submit, ILL Policy
-        </div><!-- /.panel-footer -->
-      </div><!-- /.panel -->
+      <h4>
+        Gen Request
+      </h4>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
@@ -122,19 +117,9 @@
                 Newspaper <small>(microfilm)</small>
                 </button>
       </p>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            News request
-          </h4>
-        </div><!-- /.panel-heading -->  
-        <div class="panel-body">
-          My Request
-        </div><!-- /.panel-body -->
-        <div class="panel-footer">
-          Submit, ILL Policy
-        </div><!-- /.panel-footer -->
-      </div><!-- /.panel -->
+      <h4>
+        News request
+      </h4>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
@@ -147,19 +132,9 @@
                 Magazine <small>or</small> Journal
                 </button>
       </p>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            Mag request
-          </h4>
-        </div><!-- /.panel-heading -->  
-        <div class="panel-body">
-          My Request
-        </div><!-- /.panel-body -->
-        <div class="panel-footer">
-          Submit, ILL Policy
-        </div><!-- /.panel-footer -->
-      </div><!-- /.panel -->
+      <h4>
+        Mag request
+      </h4>
     </div><!-- /.collapse -->
 
   </div><!-- /.panel - required here for bs3 -->
