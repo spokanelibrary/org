@@ -9,7 +9,7 @@
       </button>
     </p>
     <div id="spl-form-request-search" class="collapse">
-      <div class="well" style="margin-bottom:0;">
+      <div class="well">
         <div class="input-group">
           <input type="text" class="form-control" id="spl-form-search" name="spl-form[search]" title="Don't forget to enter a search term!">
           <span class="input-group-btn">
