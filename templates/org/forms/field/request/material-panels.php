@@ -158,7 +158,7 @@
 
       <?php include 'material-panel-pub.php'; ?>
       <?php include 'material-panel-identify.php'; ?>
-      <?php include 'material-panel-descibe.php'; ?>
+      <?php include 'material-panel-describe.php'; ?>
       
     </div><!-- /.col -->
   </div><!-- /.row -->
