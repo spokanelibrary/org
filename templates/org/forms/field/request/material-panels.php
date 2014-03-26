@@ -165,15 +165,18 @@
 {{#if genealogy}}
   <?php include 'material-panel-genealogy.php'; ?>
 {{/if}}
+
 {{#if newspaper}}
 <?php include 'material-panel-newspaper.php'; ?>
 {{/if}}
+
 {{#if periodical}}
 <?php include 'material-panel-periodical.php'; ?>
 {{/if}}
 
 <?php include 'material-panel-title.php'; ?>
 <?php include 'material-panel-author.php'; ?>
+
 {{#if content}}
   <?php include 'material-panel-url.php'; ?>
   <?php include 'material-panel-search.php'; ?>
