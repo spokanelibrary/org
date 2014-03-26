@@ -175,6 +175,28 @@
 
 </div>
 
+<div class="modal fade" id="spl-ill-policy" tabindex="-1" role="dialog" aria-labelledby="spl-ill-policy-title" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="spl-ill-policy-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        spl ill policy
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">
+          No, I don't agree to this
+        </button>
+        <button type="button" class="btn btn-primary">
+          OK, I agree
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- tmpl target: request-submit -->
 <div id="spl-form-request-submit"></div>
 
@@ -253,7 +275,7 @@
               By checking the box above you confirm that you have read and agree to our ILL Policy.
             </p>
             <p>
-              <button type="button" class="btn btn-warning">
+              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#spl-ill-policy">
                 <i class="glyphicon glyphicon-folder-open"></i>&nbsp;
                 Interlibrary Loan Policy
               </button>
