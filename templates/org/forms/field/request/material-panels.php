@@ -145,7 +145,7 @@
 
   
   <div class="row">
-    <div class="col-md-9 col-md-offset-3">
+    <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
       <p>
         Any additional information you can provide will help us expedite your request:
       </p>
@@ -167,7 +167,7 @@
   <?php include 'material-panel-message-specific.php'; ?>
 
   <div class="row">
-    <div class="col-md-9 col-md-offset-3">
+    <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
       <?php include 'material-panel-pub.php'; ?>
       <?php include 'material-panel-identify.php'; ?>
     </div><!-- /.col -->
