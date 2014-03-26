@@ -115,7 +115,7 @@
                 Newspaper <small>(microfilm)</small>
                 </button>
       </p>
-      <?php include 'material-panel-microfilm.php'; ?>
+      <?php include 'material-panel-newspaper.php'; ?>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
@@ -128,9 +128,7 @@
                 Magazine <small>or</small> Journal
                 </button>
       </p>
-      <h4>
-        Mag request
-      </h4>
+      <?php include 'material-panel-periodical.php'; ?>
     </div><!-- /.collapse -->
 
   </div><!-- /.panel - required here for bs3 -->
