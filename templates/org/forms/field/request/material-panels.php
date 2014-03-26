@@ -199,6 +199,7 @@
     </div>
   </div><!-- /.form-group -->
 
+  {{#unless download}}
   <!-- hold -->
   <div class="form-group">
     <label for="spl-form-hold-confirm" class="col-sm-4 col-md-3 control-label">Hold Request</label>
@@ -251,6 +252,10 @@
     </div><!-- /.form-group -->
     {{/unless}}
   {{/if}}
+
+  ILL Policy stuff
+
+  {{/unless}}
 
   <!-- submit -->
   <div class="form-group">
