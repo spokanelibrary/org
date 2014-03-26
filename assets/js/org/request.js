@@ -72,6 +72,13 @@ var org = {
 			$('#spl-form-request-panel-choose').collapse('hide');		
 		});
 
+		// show dynamic request panel
+		$('body').on('show.bs.collapse', '.spl-form-request', function(e) {
+			_self.showRequestPanel($(this).attr('id'));
+		});
+
+		/*
+
 		// show dynamic submit panel
 		$('body').on('show.bs.collapse', '.spl-form-request', function(e) {
 			_self.showRequestSubmit($(this).attr('id'));
@@ -94,7 +101,13 @@ var org = {
 			$('#spl-form-panel-request-specific').html(specific({})).collapse('show');
 		});
 
+		*/
+
 } // initRequestItemPanels
+
+, showRequestPanel: function(id) {
+	console.log('request panel');
+} // showRequestPanel()
 
 , showRequestSubmit: function(panel) {
 		var view = {};
