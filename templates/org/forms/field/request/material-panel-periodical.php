@@ -47,6 +47,7 @@
 <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
   <div class="col-sm-4">
     <div class="form-group">
+      <label for="pl-form-journal-pages" class="">Page Numbers</label>
       <input type="text" class="required form-control" id="spl-form-journal-pages" name="spl-form[journal][pages]">
     </div><!-- /.form-group -->
   </div><!-- /.col -->
