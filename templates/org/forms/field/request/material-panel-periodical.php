@@ -42,13 +42,26 @@
   </div>
 </div><!-- /.form-group -->
 
-<!-- article info -->
-
 <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
+  <!-- pages -->  
   <div class="col-sm-4">
     <div class="form-group">
       <label for="pl-form-journal-pages" class="">Page Numbers</label>
       <input type="text" class="required form-control" id="spl-form-journal-pages" name="spl-form[journal][pages]">
+    </div><!-- /.form-group -->
+  </div><!-- /.col -->
+  <!-- volume -->
+  <div class="col-sm-4">
+    <div class="form-group">
+      <label for="pl-form-journal-volume" class="">Volume</label>
+      <input type="text" class="required form-control" id="spl-form-journal-volume" name="spl-form[journal][volume]">
+    </div><!-- /.form-group -->
+  </div><!-- /.col -->
+  <!-- issue -->
+  <div class="col-sm-4">
+    <div class="form-group">
+      <label for="pl-form-journal-number" class="">Issue #</label>
+      <input type="text" class="required form-control" id="spl-form-journal-number" name="spl-form[journal][number]">
     </div><!-- /.form-group -->
   </div><!-- /.col -->
 </div>
