@@ -199,6 +199,22 @@
     </div>
   </div><!-- /.form-group -->
 
+  <div class="form-group">
+    <label for="spl-form-hold-confirm" class="col-sm-4 col-md-3 control-label">Hold Request</label>
+    <div class="col-sm-8 col-md-9">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" class="" id="spl-form-hold-confirm" name="spl-form[hold]">
+          Please place a Hold Request for me 
+        </label>
+          <span class="help-block">
+            <strong>Note:</strong> 
+            If we purchase this title we will place a Hold Request on your account. 
+          </span>
+      </div><!-- /.checkbox -->
+    </div>
+  </div><!-- /.form-group -->
+
 
   <div class="form-group">
     <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
