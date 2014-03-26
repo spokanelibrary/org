@@ -228,9 +228,9 @@
 <!-- tmpl: oclc holding found -->
 <script id="spl-form-request-holding-tmpl" type="text/x-handlebars-template">
 <div class="alert alert-warning">
-  <!--
+  
   <button type="button" class="close" data-dismiss="alert">×</button>
-  -->
+  
   <h5>Wait just a minute&hellip;</h5>
   <p>
     It looks like we have that item in our catalog. 
