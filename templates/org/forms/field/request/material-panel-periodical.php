@@ -36,9 +36,9 @@
 
 <!-- article -->
 <div class="form-group">
-  <label for="spl-form-journal-article" class="col-sm-4 col-md-3 control-label">Article Title</label>
+  <label for="spl-form-journal-article" class="col-sm-4 col-md-3 control-label"><span class="text-danger">*</span> Article Title</label>
   <div class="col-sm-8 col-md-9">
-    <input type="text" class="form-control" id="spl-form-journal-article" name="spl-form[journal][article]">
+    <input type="text" class="required form-control" id="spl-form-journal-article" name="spl-form[journal][article]">
   </div>
 </div><!-- /.form-group -->
 
