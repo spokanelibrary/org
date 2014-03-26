@@ -247,7 +247,7 @@
   </div><!-- /.form-group -->
 
   <div class="row">
-  <div class="col-md-8 col-offset-4">
+  <div class="col-md-8 col-md-offset-4">
   <p>
     Any additional information you can provide really helps us expedite your request:
   </p>
