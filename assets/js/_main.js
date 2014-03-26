@@ -131,7 +131,7 @@ var ORG = {
       });
 
       $('.spl-form').validate({
-                                errorClass: 'hasError'
+                                errorClass: 'has-error'
                               });
 
       // Ajax defaults[
