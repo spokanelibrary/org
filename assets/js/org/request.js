@@ -119,7 +119,7 @@ var org = {
 		    view.ill           = true;
 		    break;
 		}
-		//console.log(view);
+		console.log(view);
 
 		var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
 		$('#spl-form-request-submit').html(tmpl( view ));
