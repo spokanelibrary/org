@@ -188,6 +188,7 @@
       </p>
       <?php include 'material-panel-pub.php'; ?>
       <?php include 'material-panel-identify.php'; ?>
+      <?php include 'material-panel-describe.php'; ?>
     </div><!-- /.col -->
   </div><!-- /.row -->
 {{else}}
@@ -198,10 +199,6 @@
     </div><!-- /.col -->
   </div><!-- /.row -->
   <?php include 'material-panel-message-ill.php'; ?>
-{{/if}}
-
-{{#if content}}
-  <?php include 'material-panel-describe.php'; ?>
 {{/if}}
 
 <fieldset>
