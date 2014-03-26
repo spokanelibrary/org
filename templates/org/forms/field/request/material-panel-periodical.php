@@ -43,7 +43,6 @@
 </div><!-- /.form-group -->
 
 <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
-  <div class="form-group">
   <!-- pages -->  
   <div class="col-sm-4">
     
@@ -68,6 +67,5 @@
       <input type="text" class="required form-control" id="spl-form-journal-number" name="spl-form[journal][number]">
     
   </div><!-- /.col -->
-  </div><!-- /.form-group -->
 </div>
 
