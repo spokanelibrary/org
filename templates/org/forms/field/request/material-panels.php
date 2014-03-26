@@ -252,7 +252,7 @@
             <p>
               By checking the box above you confirm that you have read and agree to our ILL Policy.
             </p>
-            <p class="text-center">
+            <p>
               <button type="button" class="btn btn-sm btn-warning">
                 <i class="glyphicon glyphicon-folder-open"></i>
                 Interlibrary Loan Policy
