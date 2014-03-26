@@ -180,7 +180,7 @@
 {{#if content}}
   <?php include 'material-panel-url.php'; ?>
   <?php include 'material-panel-search.php'; ?>
-  <?php include 'material-panel-message-generic.php'; ?>
+  <?php include 'material-panel-message.php'; ?>
   <div class="row">
     <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
       <p>
@@ -191,13 +191,13 @@
     </div><!-- /.col -->
   </div><!-- /.row -->
 {{else}}
-  <?php include 'material-panel-message-specific.php'; ?>
   <div class="row">
     <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
       <?php include 'material-panel-pub-ill.php'; ?>
       <?php include 'material-panel-identify-ill.php'; ?>
     </div><!-- /.col -->
   </div><!-- /.row -->
+  <?php include 'material-panel-message-ill.php'; ?>
 {{/if}}
 
 {{#if content}}
