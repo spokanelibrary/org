@@ -8,4 +8,4 @@
       Please limit requests to a single individual or family.
     </span>
   </div>
-</div>
+</div><!-- /.form-group -->

@@ -5,6 +5,7 @@
 	</p>
 </div>
 <!-- city/st -->
+<div class="form-group">
 <div class="row">
   <div class="col-sm-6">
     <label for="spl-form-news-city" class="control-label">City of Publication</label>
@@ -15,3 +16,4 @@
     <input type="text" class="form-control required" id="spl-form-news-state" name="spl-form[news][state]">
   </div><!-- /.col -->
 </div><!-- /.row -->
+<!-- /.form-group -->
