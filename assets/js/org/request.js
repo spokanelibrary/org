@@ -117,6 +117,7 @@ var org = {
       $('#spl-form-isbn').rules('add'
                                 , { required: "#spl-form-oclc:blank" }
                                 );
+      /*
       $('#spl-form-isbn').on('keyup', function(e) {
         $('#spl-form-oclc').valid();
       });
@@ -126,9 +127,10 @@ var org = {
       $('#spl-form-oclc').on('keyup', function(e) {
         $('#spl-form-isbn').valid();
       });
-
+			*/
     } else {
       // Remove rules only if previously applied
+      /*
       var rulesISBN = $('#spl-form-isbn').rules();
       for (var i in rulesISBN) {
         if ( '#spl-form-oclc:blank' == rulesISBN[i] ) {
@@ -141,6 +143,7 @@ var org = {
           $('#spl-form-oclc').rules('remove', 'required');
         }
       }
+      */
     }
 
 
