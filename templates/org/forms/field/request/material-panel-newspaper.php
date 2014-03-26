@@ -1,9 +1,15 @@
-<div class="alert alert-info">
-	<h4>Important Notice</h4>
-	<p>
-		Microfilm or microfiche is only available to view at the <strong>Downtown Library</strong>. 
-	</p>
-</div>
+<!-- microfilm -->
+<div class="panel panel-info" style="margin-bottom:16px;">
+  <div class="panel-heading">
+    <h4>
+      <i class="glyphicon glyphicon-info-sign"></i>
+      Important Notice
+    </h4>
+  </div><!-- /.panel-heading -->
+  <div class="panel-body">
+    Microfilm or microfiche is only available to view at the <strong>Downtown Library</strong>. 
+  </div><!-- /.panel-body -->
+</div><!-- /.panel -->
 
 <!-- city -->
 <div class="form-group">
