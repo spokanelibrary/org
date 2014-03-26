@@ -45,10 +45,10 @@
 <!-- article info -->
 
 <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
-  <div class="row">
+  <div class="form-group">
     <div class="col-sm-4">
-        <input type="text" class="required form-control" id="spl-form-journal-pages" name="spl-form[journal][pages]">
+      <input type="text" class="required form-control" id="spl-form-journal-pages" name="spl-form[journal][pages]">
     </div><!-- /.col -->
-  </div>
+  </div><!-- /.form-group -->
 </div>
 
