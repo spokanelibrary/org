@@ -204,17 +204,15 @@
     <div class="col-sm-8 col-md-9">
       <div class="checkbox">
         <label>
-          <input type="checkbox" class="" id="spl-form-hold-confirm" name="spl-form[hold]">
+          <input type="checkbox" class="" id="spl-form-hold-confirm" name="spl-form[hold]" checked>
           Please place a Hold Request for me 
         </label>
-          <span class="help-block">
-            <strong>Note:</strong> 
-            If we purchase this title we will place a Hold Request on your account. 
-          </span>
+        <span class="help-block">
+          If we purchase this title we will place a Hold Request on your account. 
+        </span>
       </div><!-- /.checkbox -->
     </div>
   </div><!-- /.form-group -->
-
 
   <div class="form-group">
     <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
