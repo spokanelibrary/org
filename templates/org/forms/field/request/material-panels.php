@@ -134,13 +134,8 @@
   </div><!-- /.panel - required here for bs3 -->
 </div><!-- /.panel-group -->
 
-<div class="panel-collapse collapse"
-      id="spl-form-panel-request-generic" style="margin-bottom:16px;"> 
-</div><!-- /.collapse -->
-
-<div class="panel-collapse collapse"
-      id="spl-form-panel-request-specific" style="margin-bottom:16px;"> 
-</div>
+<!-- tmpl target: request -->
+<div id="spl-form-panel-request"></div>
 
 <div class="modal fade" id="spl-ill-policy" tabindex="-1" role="dialog" aria-labelledby="spl-ill-policy-title" aria-hidden="true">
   <div class="modal-dialog">
@@ -163,13 +158,6 @@
     </div>
   </div>
 </div>
-
-
-<!-- tmpl target: request -->
-<div id="spl-form-panel-request"></div>
-
-<!-- tmpl target: request-submit -->
-<div id="spl-form-request-submit"></div>
 
 <!-- tmpl target: oclc modal -->
 <div class="modal fade" id="spl-form-oclc-result" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
@@ -295,138 +283,6 @@
 
 </fieldset>
 
-</script>
-
-<!-- tmpl: request-generic -->
-<script id="spl-form-panel-request-generic-tmpl" type="text/x-handlebars-template">
-<?php include 'material-panel-title.php'; ?>
-<?php include 'material-panel-author.php'; ?>
-<?php include 'material-panel-url.php'; ?>
-<?php include 'material-panel-search.php'; ?>
-<?php include 'material-panel-message-generic.php'; ?>
-
-
-<div class="row">
-  <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
-    <p>
-      Any additional information you can provide will help us expedite your request:
-    </p>
-
-    <?php include 'material-panel-pub.php'; ?>
-    <?php include 'material-panel-identify.php'; ?>
-    <?php include 'material-panel-describe.php'; ?>
-    
-  </div><!-- /.col -->
-</div><!-- /.row -->
-</script>
-
-<!-- tmpl: request-specific -->
-<script id="spl-form-panel-request-specific-tmpl" type="text/x-handlebars-template">
-<?php include 'material-panel-title.php'; ?>
-<?php include 'material-panel-author.php'; ?>
-<?php include 'material-panel-message-specific.php'; ?>
-
-<div class="row">
-  <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
-    <?php include 'material-panel-pub.php'; ?>
-    <?php include 'material-panel-identify.php'; ?>
-  </div><!-- /.col -->
-</div><!-- /.row -->
-</script>
-
-<!-- tmpl: submit -->
-<script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">
-<fieldset>
-  <legend class="text-muted">
-    <i class="glyphicon glyphicon-check"></i>
-    Finalize this request:
-  </legend>
-
-  {{#unless download}}
-    <!-- hold -->
-    <div class="form-group">
-      <label for="spl-form-hold-confirm" class="col-sm-4 col-md-3 control-label">Hold Request</label>
-      <div class="col-sm-8 col-md-9">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" class="" id="spl-form-hold-confirm" name="spl-form[hold]" checked>
-            Please place a Hold Request for me 
-          </label>
-          <span class="help-block">
-            If we purchase this title we will place a Hold Request on your account. 
-          </span>
-        </div><!-- /.checkbox -->
-      </div>
-    </div><!-- /.form-group -->
-
-    <!-- ill -->
-    {{#if user.ill}}
-      {{#unless ill}}
-      <!-- ill-request -->
-      <div class="form-group">
-        <label for="spl-form-ill-confirm" class="col-sm-4 col-md-3 control-label">ILL Request</label>
-        <div class="col-sm-8 col-md-9">
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]">
-              Please check Interlibray Loan for me 
-            </label>
-            <span class="help-block">
-              If we are do not purchase this title for some reason, we will make an Interlibrary Loan Request.
-            </span>
-          </div><!-- /.checkbox -->
-        </div>
-      </div><!-- /.form-group -->
-      {{else}}
-      <!-- ill-only -->
-      <div class="form-group">
-        <label for="spl-form-ill-confirm" class="col-sm-4 col-md-3 control-label">ILL Policy</label>
-        <div class="col-sm-8 col-md-9">
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]">
-              I agree
-            </label>
-            <span class="help-block">
-              The type of material you are requesting is only available through Interlibrary Loan.
-              <br>
-              We will place a hold on your account when this material becomes available. 
-            </span>
-          </div><!-- /.checkbox -->
-        </div>
-      </div><!-- /.form-group -->
-      {{/unless}}
-      <!-- ill-policy -->
-      <div class="form-group">
-        <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
-          <div class="alert alert-warning">
-            <p>
-              <i class="glyphicon glyphicon-exclamation-sign"></i>
-              By checking the box above you confirm that you have read and agree to our ILL Policy.
-            </p>
-            <p>
-              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#spl-ill-policy">
-                <i class="glyphicon glyphicon-folder-open"></i>&nbsp;
-                Interlibrary Loan Policy
-              </button>
-            </p>
-          </div>
-        </div>
-      </div><!-- /.form-group -->
-    {{/if}}
-  {{/unless}}
-
-  <!-- submit -->
-  <div class="form-group">
-    <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
-      <button type="submit" class="btn btn-block btn-success">
-        <small class="glyphicon glyphicon-check"></small>
-        Request Now &rarr;
-      </button>
-    </div>
-  </div>  
-
-</fieldset>
 </script>
 
 <!-- tmpl: oclc search loading -->
