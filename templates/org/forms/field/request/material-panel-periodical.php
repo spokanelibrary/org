@@ -45,27 +45,27 @@
 <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
   <!-- pages -->  
   <div class="col-sm-4">
-    
+    <p>
       <label for="spl-form-journal-pages" class="">Page Numbers</label>
       <br>
       <input type="text" class="required form-control" id="spl-form-journal-pages" name="spl-form[journal][pages]">
-    
+    </p>
   </div><!-- /.col -->
   <!-- volume -->
   <div class="col-sm-4">
-    
+    <p>
       <label for="spl-form-journal-volume" class="">Volume</label>
       <br>
       <input type="text" class="required form-control" id="spl-form-journal-volume" name="spl-form[journal][volume]">
-    
+    </p>
   </div><!-- /.col -->
   <!-- issue -->
   <div class="col-sm-4">
-    
+    <p>
       <label for="spl-form-journal-number" class="">Issue #</label>
       <br>
       <input type="text" class="required form-control" id="spl-form-journal-number" name="spl-form[journal][number]">
-    
+    </p>
   </div><!-- /.col -->
-</div>
+</div><!-- /.col-offset -->
 
