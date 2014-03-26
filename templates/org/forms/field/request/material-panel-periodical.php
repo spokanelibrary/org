@@ -49,7 +49,7 @@
     <p>
       <label for="spl-form-journal-pages" class="">Page Numbers</label>
       <br>
-      <input type="text" class="required form-control" id="spl-form-journal-pages" name="spl-form[journal][pages]">
+      <input type="text" class="form-control" id="spl-form-journal-pages" name="spl-form[journal][pages]">
     </p>
   </div><!-- /.col -->
   <!-- volume -->
@@ -57,7 +57,7 @@
     <p>
       <label for="spl-form-journal-volume" class="">Volume</label>
       <br>
-      <input type="text" class="required form-control" id="spl-form-journal-volume" name="spl-form[journal][volume]">
+      <input type="text" class="form-control" id="spl-form-journal-volume" name="spl-form[journal][volume]">
     </p>
   </div><!-- /.col -->
   <!-- issue -->
@@ -65,7 +65,7 @@
     <p>
       <label for="spl-form-journal-number" class="">Issue #</label>
       <br>
-      <input type="text" class="required form-control" id="spl-form-journal-number" name="spl-form[journal][number]">
+      <input type="text" class="form-control" id="spl-form-journal-number" name="spl-form[journal][number]">
     </p>
   </div><!-- /.col -->
 </div><!-- /.col-offset -->
