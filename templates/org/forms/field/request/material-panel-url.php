@@ -6,9 +6,11 @@
       You can send us a link with detailed information about this title (for example, on Amazon).
     </p>
     <input type="text" class="form-control" id="spl-form-url" name="spl-form[url]">
+    <!--
     <span class="help-block">
       <b>Note:</b> The page you link to must contain enough information for us to clearly identify the item you are requesting. 
       Otherwise we may not be able to process your request. 
     </span>
+    -->
   </div>
 </div>
