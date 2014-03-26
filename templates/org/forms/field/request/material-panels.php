@@ -248,7 +248,8 @@
       <div class="form-group">
         <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
           <div class="alert alert-warning">
-            <h5><i class="glyphicon glyphicon-exclamation-sign"></i> Important</h5>
+            <strong><i class="glyphicon glyphicon-exclamation-sign"></i> Important</strong>
+            <br>
             By checking the box above you confirm that you have read and agree to the SPL ILL Policy.
           </div>
           <p class="form-control-static">
