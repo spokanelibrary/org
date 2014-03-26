@@ -205,12 +205,12 @@
 </div><!-- /.modal -->
 
 <!-- tmpl: request-generic -->
-<script id="spl-form-request-generic-tmpl" type="text/x-handlebars-template">
+<script id="spl-form-panel-request-generic-tmpl" type="text/x-handlebars-template">
 GENERIC
 </script>
 
 <!-- tmpl: request-specific -->
-<script id="spl-form-request-specific-tmpl" type="text/x-handlebars-template">
+<script id="spl-form-panel-request-specific-tmpl" type="text/x-handlebars-template">
 SPECIFIC
 </script>
 
