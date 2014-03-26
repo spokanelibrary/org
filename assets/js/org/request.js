@@ -110,7 +110,7 @@ var org = {
 		    view.ill           = true;
 		    break;
 		}
-		console.log(view);
+		//console.log(view);
 		$('#spl-form-panel-request').html(tmpl( view ));
 } // showRequestPanel()
 
