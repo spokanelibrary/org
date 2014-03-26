@@ -145,7 +145,7 @@
   <?php include 'material-panel-author.php'; ?>
   <?php include 'material-panel-url.php'; ?>
   <?php include 'material-panel-search.php'; ?>
-  <?php include 'material-panel-message.php'; ?>
+  <?php include 'material-panel-message-generic.php'; ?>
 
   
   <div class="row">
@@ -168,7 +168,7 @@
 
   <?php include 'material-panel-title.php'; ?>
   <?php include 'material-panel-author.php'; ?>
-  <?php include 'material-panel-message.php'; ?>
+  <?php include 'material-panel-message-specific.php'; ?>
 
   <div class="row">
     <div class="col-md-9 col-md-offset-3">
