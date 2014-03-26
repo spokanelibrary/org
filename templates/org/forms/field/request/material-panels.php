@@ -186,10 +186,10 @@
         <?php include 'material-request-ill-policy.php'; ?>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">
+        <button type="button" id="spl-ill-policy-reject" class="btn btn-default pull-left" data-dismiss="modal">
           No, I don't agree
         </button>
-        <button type="button" class="btn btn-primary" id="spl-ill-policy-accept" data-dismiss="modal">
+        <button type="button" id="spl-ill-policy-accept" class="btn btn-primary" data-dismiss="modal">
           Yes, I agree
         </button>
       </div>

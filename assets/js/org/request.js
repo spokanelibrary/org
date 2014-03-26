@@ -49,6 +49,10 @@ var org = {
 		$('#spl-form-ill-confirm').prop('checked', true);
 	});
 
+	$('body').on('click', '#spl-ill-policy-reject', function(e) {
+		$('#spl-form-ill-confirm').prop('checked', false);
+	});
+
 } // initRequestItemEvents()
 , initRequestItemPanels: function() {
 		/*
