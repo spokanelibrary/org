@@ -166,7 +166,7 @@
 
 
 <!-- tmpl target: request -->
-<div id="spl-form-request"></div>
+<div id="spl-form-panel-request"></div>
 
 <!-- tmpl target: request-submit -->
 <div id="spl-form-request-submit"></div>
@@ -177,7 +177,7 @@
 
 <!-- tmpl: request -->
 <script id="spl-form-panel-request-tmpl" type="text/x-handlebars-template">
-this is the request panel
+this is the request
 </script>
 
 <!-- tmpl: request-generic -->
