@@ -87,7 +87,7 @@
                 data-toggle="collapse"
                 data-target="#spl-form-request-panel-choose">
                 <i class="glyphicon glyphicon-pencil"></i> 
-                Other <small>(specify)</small>
+                Other <small>(specify below)</small>
                 </button>
       </p>
     </div><!-- /.collapse -->
@@ -190,71 +190,69 @@
     Finalize this request:
   </legend>
 
-  <div class="form-group">
-    <label for="" class="col-sm-4 col-md-3 control-label">Debug</label>
-    <div class="col-sm-8 col-md-9">
-      <p class="form-control-static">
-        {{id}}
-      </p>
-    </div>
-  </div><!-- /.form-group -->
-
   {{#unless download}}
-  <!-- hold -->
-  <div class="form-group">
-    <label for="spl-form-hold-confirm" class="col-sm-4 col-md-3 control-label">Hold Request</label>
-    <div class="col-sm-8 col-md-9">
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" class="" id="spl-form-hold-confirm" name="spl-form[hold]" checked>
-          Please place a Hold Request for me 
-        </label>
-        <span class="help-block">
-          If we purchase this title we will place a Hold Request on your account. 
-        </span>
-      </div><!-- /.checkbox -->
-    </div>
-  </div><!-- /.form-group -->
-
-  <!-- ill -->
-  {{#if user.ill}}
-    {{#unless ill}}
+    <!-- hold -->
     <div class="form-group">
-      <label for="spl-form-ill-confirm" class="col-sm-4 col-md-3 control-label">ILL Request</label>
+      <label for="spl-form-hold-confirm" class="col-sm-4 col-md-3 control-label">Hold Request</label>
       <div class="col-sm-8 col-md-9">
         <div class="checkbox">
           <label>
-            <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]">
-            Please check Interlibray Loan for me 
+            <input type="checkbox" class="" id="spl-form-hold-confirm" name="spl-form[hold]" checked>
+            Please place a Hold Request for me 
           </label>
           <span class="help-block">
-            If we are do not purchase this title for some reason, we will make an Interlibrary Loan Request.
+            If we purchase this title we will place a Hold Request on your account. 
           </span>
         </div><!-- /.checkbox -->
       </div>
     </div><!-- /.form-group -->
-    {{else}}
-    <div class="form-group">
-      <label for="spl-form-ill-confirm" class="col-sm-4 col-md-3 control-label">ILL Policy</label>
-      <div class="col-sm-8 col-md-9">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]">
-            I agree
-          </label>
-          <span class="help-block">
-            The type of material you are requesting is only available through Interlibrary Loan.
-            <br>
-            We will place a hold on your account when this material becomes available. 
-          </span>
-        </div><!-- /.checkbox -->
-      </div>
-    </div><!-- /.form-group -->
-    {{/unless}}
-  {{/if}}
 
-  ILL Policy stuff
-
+    <!-- ill -->
+    {{#if user.ill}}
+      {{#unless ill}}
+      <!-- ill-request -->
+      <div class="form-group">
+        <label for="spl-form-ill-confirm" class="col-sm-4 col-md-3 control-label">ILL Request</label>
+        <div class="col-sm-8 col-md-9">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]">
+              Please check Interlibray Loan for me 
+            </label>
+            <span class="help-block">
+              If we are do not purchase this title for some reason, we will make an Interlibrary Loan Request.
+            </span>
+          </div><!-- /.checkbox -->
+        </div>
+      </div><!-- /.form-group -->
+      {{else}}
+      <!-- ill-only -->
+      <div class="form-group">
+        <label for="spl-form-ill-confirm" class="col-sm-4 col-md-3 control-label">ILL Policy</label>
+        <div class="col-sm-8 col-md-9">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]">
+              I agree
+            </label>
+            <span class="help-block">
+              The type of material you are requesting is only available through Interlibrary Loan.
+              <br>
+              We will place a hold on your account when this material becomes available. 
+            </span>
+          </div><!-- /.checkbox -->
+        </div>
+      </div><!-- /.form-group -->
+      {{/unless}}
+      <!-- ill-policy -->
+      <div class="form-group">
+        <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
+          <p class="form-control-static">
+            {{id}}
+          </p>
+        </div>
+      </div><!-- /.form-group -->
+    {{/if}}
   {{/unless}}
 
   <!-- submit -->
