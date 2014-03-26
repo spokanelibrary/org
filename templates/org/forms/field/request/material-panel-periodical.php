@@ -19,12 +19,12 @@
   </p>
 </blockquote>
 <!-- copyright -->
-<div class="form-group">
-  <label for="spl-form-journal-copyright" class="col-sm-4 col-md-3 control-label"><span class="text-danger">*</span> Agree to copyright restrictions</label>
-  <div class="col-sm-8 col-md-9">
+<div class="checkbox">
+  <label for="spl-form-journal-copyright" class=""><span class="text-danger">*</span> Copyright Restrictions</label>
+  <div class="">
     <input type="checkbox" class="form-control required" id="spl-form-journal-copyright" name="spl-form[journal][copyright]">
   </div>
-</div><!-- /.form-group -->
+</div><!-- /.checkbox -->
 
 
 <!-- city -->
