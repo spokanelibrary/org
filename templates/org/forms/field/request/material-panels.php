@@ -102,7 +102,6 @@
                 Genealogy <small>(research copies)</small>
                 </button>
       </p>
-      <?php include 'material-panel-genealogy.php'; ?>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
@@ -165,6 +164,10 @@
 
 <!-- tmpl: request -->
 <script id="spl-form-panel-request-tmpl" type="text/x-handlebars-template">
+{{#if genealogy}}
+<?php include 'material-panel-genealogy.php'; ?>
+{{/if}}
+
 <?php include 'material-panel-title.php'; ?>
 <?php include 'material-panel-author.php'; ?>
 {{#if content}}
