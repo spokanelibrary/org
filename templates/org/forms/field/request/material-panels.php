@@ -175,6 +175,11 @@
 <div class="modal fade" id="spl-form-oclc-result" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
 </div><!-- /.modal -->
 
+<!-- tmpl: request -->
+<script id="spl-form-panel-request-tmpl" type="text/x-handlebars-template">
+this is the request panel
+</script>
+
 <!-- tmpl: request-generic -->
 <script id="spl-form-panel-request-generic-tmpl" type="text/x-handlebars-template">
 <?php include 'material-panel-title.php'; ?>

@@ -109,6 +109,7 @@ var org = {
 		var view = {id: id
 							, user: {}
 								};
+		var tmpl = Handlebars.compile( $('#spl-form-request-request-tmpl').html() );
 
 		switch( this.user.borrowerType ) {
 			case 'sr':
@@ -146,10 +147,8 @@ var org = {
 		    view.ill           = true;
 		    break;
 		}
-		console.log(view);
-
-		//var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
-		//$('#spl-form-request-submit').html(tmpl( view ));
+		//console.log(view);
+		$('#spl-form-request-request').html(tmpl( view ));
 } // showRequestPanel()
 
 , showRequestSubmit: function(panel) {
