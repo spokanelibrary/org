@@ -1,13 +1,5 @@
 <div class="row">
 	<div class="col-md-9 col-md-offset-3">
-
-		<div class="alert alert-info">
-			<h4>Important Notice</h4>
-			<p>
-				Microfilm or microfiche is only available to view at the <strong>Downtown Library</strong>. 
-			</p>
-		</div>
-
 		<!-- city/st -->
 		<div class="row">
 		  <div class="col-sm-6">
@@ -23,6 +15,13 @@
 		  	</p>
 		  </div><!-- /.col -->
 		</div><!-- /.row -->
+
+		<div class="alert alert-info">
+			<h4>Important Notice</h4>
+			<p>
+				Microfilm or microfiche is only available to view at the <strong>Downtown Library</strong>. 
+			</p>
+		</div>
 
   </div><!-- /.col -->
 </div><!-- /.row -->
