@@ -22,7 +22,11 @@
 <div class="checkbox">
   <label for="spl-form-journal-copyright">
     <input type="checkbox" class="required" id="spl-form-journal-copyright" name="spl-form[journal][copyright]">
-    <span class="text-danger">Copyright Restrictions <span class="text-danger">*</span></label>
+    Yes, I agree to these Copyright Restrictions  <strong class="text-danger">*</strong></label>
+    <span class="help-block">
+      <strong>Note:</strong> 
+      You must check this box to indicate that you have read and agree to these copyright restrictions.
+    </span>
 </div><!-- /.checkbox -->
 
 
