@@ -20,10 +20,9 @@
 </blockquote>
 <!-- copyright -->
 <div class="checkbox">
-  <label for="spl-form-journal-copyright" class=""><span class="text-danger">*</span> Copyright Restrictions</label>
-  <div class="">
-    <input type="checkbox" class="form-control required" id="spl-form-journal-copyright" name="spl-form[journal][copyright]">
-  </div>
+  <label for="spl-form-journal-copyright">
+    <input type="checkbox" class="required" id="spl-form-journal-copyright" name="spl-form[journal][copyright]">
+    <span class="text-danger">Copyright Restrictions <span class="text-danger">*</span></label>
 </div><!-- /.checkbox -->
 
 
