@@ -1,6 +1,5 @@
 <!-- copyright -->
-
-<div class="panel panel-info">
+<div class="panel panel-info" style="margin-bottom:16px;">
   <div class="panel-heading">
   	<h4>
       <i class="glyphicon glyphicon-exclamation-sign"></i>
