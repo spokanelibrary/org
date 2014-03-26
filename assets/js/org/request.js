@@ -114,10 +114,10 @@ var org = {
 
 		if ( true == view.ill ) {
       // dependency-expression
+      /*
       $('#spl-form-isbn').rules('add'
                                 , { required: "#spl-form-oclc:blank" }
                                 );
-      /*
       $('#spl-form-isbn').on('keyup', function(e) {
         $('#spl-form-oclc').valid();
       });
