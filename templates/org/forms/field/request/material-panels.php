@@ -191,13 +191,24 @@
   </legend>
 
   <div class="form-group">
-    <label for="" class="col-sm-4 col-md-3 control-label">Send this Request</label>
+    <label for="" class="col-sm-4 col-md-3 control-label">Debug</label>
     <div class="col-sm-8 col-md-9">
       <p class="form-control-static">
         Submit for: {{id}}
       </p>
     </div>
   </div><!-- /.form-group -->
+
+
+  <div class="form-group">
+    <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
+      <button type="submit" class="btn btn-block btn-success">
+        <small class="glyphicon glyphicon-check"></small>
+        Send Now &rarr;
+      </button>
+    </div>
+  </div>  
+
 </fieldset>
 </script>
 
