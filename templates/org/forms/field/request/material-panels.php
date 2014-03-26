@@ -146,131 +146,21 @@
   <?php include 'material-panel-title.php'; ?>
   <?php include 'material-panel-author.php'; ?>
   <?php include 'material-panel-url.php'; ?>
+  <?php include 'material-panel-search.php'; ?>
+  <?php include 'material-panel-message.php'; ?>
 
-  <!-- search -->
-  <div class="form-group">
-    <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
-    <div class="col-sm-8 col-md-9">
+  
+  <div class="row">
+    <div class="col-md-9 col-md-offset-3">
       <p>
-        <button type="button" class="btn btn-block btn-default" data-toggle="collapse" data-target="#spl-form-request-search">
-          <strong class="text-success">I would like to search for this title</strong>
-          <span class="caret"></span>
-        </button>
+        Any additional information you can provide really helps us expedite your request:
       </p>
-      <div id="spl-form-request-search" class="collapse">
-        <div class="well">
-          <div class="input-group">
-            <input type="text" class="form-control" id="spl-form-search" name="spl-form[search]" title="Don't forget to enter a search term!">
-            <span class="input-group-btn">
-              <button type="button" class="btn btn-success" id="spl-form-oclc-search">
-                <small class="glyphicon glyphicon-search hidden-xs"></small>
-                Search
-              </button>
-            </span>
-          </div><!-- /input-group -->
-          <div class="row">
-            <div class="col-md-6">
-              <label for="spl-form-search-index" class="control-label">Search For:</label>
-              <select class="form-control" name="spl-form[search-index]" id="spl-form-search-index">
-                <option value="kw" selected="">Keyword</option>
-                <option value="ti">Title</option>
-                <option value="au">Author</option>
-                <option value="se">Series</option>
-                <option value="su">Subject</option>
-              </select>
-            </div><!-- /.col -->
-            <div class="col-md-6">
-              <label for="spl-form-search-sort" class="control-label">Sort By:</label>
-              <select class="form-control" name="spl-form[search-sort]" id="spl-form-search-sort">
-                <option value="relevance" selected="">Relevance</option>
-                <option value="LibraryCount,,0">Library Count</option>
-                <option value="Author">Author</option>
-                <option value="Title">Title</option>
-                <option value="Date,,0">Pub. Date (Newest First)</option>
-                <option value="Date">Pub. Date (Oldest First)</option>
-                <!--
-                <option value="LibraryCount">Library Count (Fewest First)</option>
-                <option value="Score">Score Ascending</option>
-                <option value="Score,,0">Score Descending</option>
-                -->
-              </select>
-            </div><!-- /.col -->
-          </div><!-- /.row -->
-          <span class="help-block">
-            We want to respond to your request as quickly and accurately as possible. 
-            You can search for a keyword (or title, author, subject, etc.) in <a href="http://www.worldcat.org/" title="WorldCat">WorldCat</a>, the world's largest bibliographic database. 
-            If you find the title you are looking for press Select and we will automatically fill out the author, ISBN, and more.
-            If you do not find the title you are looking for, try an <a href="http://www.worldcat.org/advancedsearch" title="Advanced WorldCat Search">Advanced WorldCat Search</a>.
-          </span>
-          <div id="spl-form-request-holding"></div>
-        </div><!-- /.well -->
-      </div><!-- /.collapse -->
-    </div><!-- /.col -->
-  </div><!-- /.form-group -->
 
-  <!-- message -->
-  <div class="form-group">
-    <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comments or Questions</label>
-    <div class="col-sm-8 col-md-9">
-      <p class="form-control-static">
-        How did you hear about this title?
-      </p>
-      <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
-    </div>
-  </div><!-- /.form-group -->
-
-  <div class="row">
-  <div class="col-md-9 col-md-offset-3">
-  <p>
-    Any additional information you can provide really helps us expedite your request:
-  </p>
-
-  <!-- publisher/pubdate-->
-  <div class="row">
-    <div class="col-sm-6">
-      <label for="spl-form-publisher" class="control-label">Publisher</label>
-      <input type="text" class="form-control" id="spl-form-publisher" name="spl-form[publisher]">
+      <?php include 'material-panel-pub.php'; ?>
+      <?php include 'material-panel-identify.php'; ?>
+      <?php include 'material-panel-descibe.php'; ?>
+      
     </div><!-- /.col -->
-    <div class="col-sm-6">
-      <label for="spl-form-pubdate" class="control-label">Publication Date</label>
-      <input type="text" class="form-control" id="spl-form-pubdate" name="spl-form[pubdate]">
-    </div><!-- /.col -->
-  </div><!-- /.row -->
-
-  <!-- isbn/oclc -->
-  <div class="row">
-    <div class="col-sm-6">
-      <label for="spl-form-isbn" class="control-label">ISBN / ISSN</label>
-      <input type="text" class="form-control" id="spl-form-isbn" name="spl-form[isbn]">
-    </div><!-- /.col -->
-    <div class="col-sm-6">
-      <label for="spl-form-oclc" class="control-label">OCLC #</label>
-      <input type="text" class="form-control" id="spl-form-oclc" name="spl-form[oclc]">
-    </div><!-- /.col -->
-  </div><!-- /.row -->
-
-  <!-- content/age -->
-  <div class="row">
-    <div class="col-sm-6">
-      <label for="spl-form-content" class="control-label">Content</label>
-      <select class="form-control" name="spl-form[content]" id="spl-form-content">
-        <option value="">Optional...</option>
-        <option value="fiction">Fiction</option>
-        <option value="non-fiction">Non-Fiction</option>
-      </select>
-    </div><!-- /.col -->
-    <div class="col-sm-6">
-      <label for="spl-form-audience" class="control-label">Age Group</label>
-      <select class="form-control" name="spl-form[audience]" id="spl-form-audience">
-        <option value="">Optional...</option>
-        <option value="adult">Adult</option>
-        <option value="yount-adult">Young Adult</option>
-        <option value="juvenile">Juvenile</option>
-      </select>
-    </div><!-- /.col -->
-  </div><!-- /.row -->
-
-  </div><!-- /.col -->
   </div><!-- /.row -->
 
 </div><!-- /.collapse -->
