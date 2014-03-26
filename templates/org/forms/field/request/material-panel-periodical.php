@@ -34,18 +34,11 @@
   </div><!-- /.panel-footer -->
 </div><!-- /.panel -->
 
-<!-- city -->
+<!-- article -->
 <div class="form-group">
-  <label for="spl-form-news-city" class="col-sm-4 col-md-3 control-label"><span class="text-danger">*</span> City of Publication</label>
+  <label for="spl-form-journal-article" class="col-sm-4 col-md-3 control-label">Article Title</label>
   <div class="col-sm-8 col-md-9">
-    <input type="text" class="form-control required" id="spl-form-news-city" name="spl-form[news][city]">
+    <input type="text" class="form-control" id="spl-form-journal-article" name="spl-form[journal][article]">
   </div>
 </div><!-- /.form-group -->
 
-<!-- state -->
-<div class="form-group">
-  <label for="spl-form-news-state" class="col-sm-4 col-md-3 control-label"><span class="text-danger">*</span> State of Publication</label>
-  <div class="col-sm-8 col-md-9">
-    <input type="text" class="form-control required" id="spl-form-news-state" name="spl-form[news][state]">
-  </div>
-</div><!-- /.form-group -->
