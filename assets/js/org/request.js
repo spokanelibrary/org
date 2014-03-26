@@ -110,6 +110,41 @@ var org = {
 		    view.ill           = true;
 		    break;
 		}
+
+
+		if ( true == view.ill ) {
+      // dependency-expression
+      $('#spl-form-isbn').rules('add'
+                                , { required: "#spl-form-oclc:blank" }
+                                );
+      $('#spl-form-isbn').on('keyup', function(e) {
+        $('#spl-form-oclc').valid();
+      });
+      $('#spl-form-oclc').rules('add'
+                                , { required: "#spl-form-isbn:blank" }
+                                );
+      $('#spl-form-oclc').on('keyup', function(e) {
+        $('#spl-form-isbn').valid();
+      });
+
+    } else {
+      // Remove rules only if previously applied
+      var rulesISBN = $('#spl-form-isbn').rules();
+      for (var i in rulesISBN) {
+        if ( '#spl-form-oclc:blank' == rulesISBN[i] ) {
+          $('#spl-form-isbn').rules('remove', 'required');
+        }
+      }
+      var rulesOCLC = $('#spl-form-oclc').rules();
+      for (var i in rulesOCLC) {
+        if ( '#spl-form-isbn:blank' == rulesOCLC[i] ) {
+          $('#spl-form-oclc').rules('remove', 'required');
+        }
+      }
+    }
+
+
+
 		//console.log(view);
 		$('#spl-form-panel-request').html(tmpl( view ));
 } // showRequestPanel()
