@@ -144,30 +144,9 @@
       id="spl-form-panel-request" style="margin-bottom:16px;"> 
   
   <?php include 'material-panel-title.php'; ?>
+  <?php include 'material-panel-author.php'; ?>
+  <?php include 'material-panel-url.php'; ?>
 
-  <!-- author -->
-  <div class="form-group">
-    <label for="spl-form-author" class="col-sm-4 col-md-3 control-label">Author or Artist</label>
-    <div class="col-sm-8 col-md-9">
-      <input type="text" class="form-control" id="spl-form-author" name="spl-form[author]">
-    </div>
-  </div><!-- /.form-group -->
-
-  <!-- url -->
-  <div class="form-group">
-    <label for="spl-form-url" class="col-sm-4 col-md-3 control-label">Link on the Web</label>
-    <div class="col-sm-8 col-md-9">
-      <p class="form-control-static">
-        You can send us a link with detailed information about this title (for example, on Amazon).
-      </p>
-      <input type="text" class="form-control" id="spl-form-url" name="spl-form[url]">
-      <span class="help-block">
-        <b>Note:</b> The page you link to must contain enough information for us to clearly identify the item you are requesting. 
-        Otherwise we may not be able to process your request. 
-      </span>
-    </div>
-  </div><!-- /.form-group -->
-  
   <!-- search -->
   <div class="form-group">
     <label for="" class="col-sm-4 col-md-3 control-label">Search WorldCat</label>
