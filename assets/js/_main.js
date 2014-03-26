@@ -130,9 +130,7 @@ var ORG = {
         e.preventDefault();
       });
 
-      $('body').on('submit', '.spl-form', function(e) {
-        $(this).validate({});
-      });
+      $('.spl-form').validate({});
 
       // Ajax defaults[
       $.ajaxSetup({
@@ -191,6 +189,7 @@ var ORG = {
     */
 
 }
+/*
 , contact : {
     
     init: function() {
@@ -208,6 +207,7 @@ var ORG = {
 
     }
 }
+*/
 , request : {
     
     init: function() {
@@ -231,7 +231,7 @@ var ORG = {
       Modernizr.load([
         {
           load: [config.path.absolute+'/assets/js/org/account.js'
-                ,config.path.absolute+'/assets/js/vendor/jquery.validate.js'
+                //,config.path.absolute+'/assets/js/vendor/jquery.validate.js'
                 ,config.path.absolute+'/assets/js/vendor/bootstrap-datepicker.js' ],
           complete: function () {
             if ( org ) { 
