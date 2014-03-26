@@ -189,7 +189,7 @@
         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">
           No, I don't agree
         </button>
-        <button type="button" class="btn btn-primary">
+        <button type="button" class="btn btn-primary" id="spl-ill-policy-accept" data-dismiss="modal">
           Yes, I agree
         </button>
       </div>

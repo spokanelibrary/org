@@ -37,11 +37,19 @@ var org = {
 		//console.log(this.user);
 		if ( this.user ) {
 			ORG.loadUserFormFields(this.user);
+			this.initRequestItemEvents();
 			this.initRequestItemPanels();
 			this.initOCLC();
 		}
   } // initRequestItem()
 
+, initRequestItemEvents: function() {
+
+	$('body').on('click', '#spl-ill-policy-accept', function(e) {
+		console.log('check me out');
+	});
+
+} // initRequestItemEvents()
 , initRequestItemPanels: function() {
 		/*
 		$('body').on('change', 'input:radio[name = "spl-form[material]"]', function() {
@@ -119,7 +127,7 @@ var org = {
 		    view.ill           = true;
 		    break;
 		}
-		console.log(view);
+		//console.log(view);
 
 		var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
 		$('#spl-form-request-submit').html(tmpl( view ));

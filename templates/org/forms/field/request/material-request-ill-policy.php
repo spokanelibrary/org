@@ -1,10 +1,10 @@
 <p class="lead">
-  This is a brief summary of the SPL ILL policy. 
-  We highly recommend that you read <a rel="external" href="http://www.spokanelibrary.org/ill">our complete Interlibrary Loan page</a> if you have not made a previous ILL request.
+  This is a brief summary of the Interlibrary Loan policy. 
+  We highly recommend that you read <a rel="external" href="/ill">our complete Interlibrary Loan page</a> if you have not made a previous ILL request.
 </p>
 
 <p>
-  <a class="btn btn-block btn-info" rel="external" href="http://www.spokanelibrary.org/ill">
+  <a class="btn btn-block btn-info" rel="external" href="/ill">
     <i class="glyphicon glyphicon-info-sign"></i>
     More about Interlibary Loan &rarr;
   </a>
