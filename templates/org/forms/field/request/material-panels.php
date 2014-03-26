@@ -204,7 +204,7 @@
     <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
       <button type="submit" class="btn btn-block btn-success">
         <small class="glyphicon glyphicon-check"></small>
-        Send Now &rarr;
+        Request Now &rarr;
       </button>
     </div>
   </div>  
