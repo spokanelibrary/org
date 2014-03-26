@@ -102,9 +102,7 @@
                 Genealogy <small>(research copies)</small>
                 </button>
       </p>
-      <h4>
-        Gen Request
-      </h4>
+      <?php include 'material-panel-genealogy.php'; ?>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
