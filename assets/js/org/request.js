@@ -106,7 +106,50 @@ var org = {
 } // initRequestItemPanels
 
 , showRequestPanel: function(id) {
-	console.log('request panel');
+		var view = {id: id
+							, user: {}
+								};
+
+		switch( this.user.borrowerType ) {
+			case 'sr':
+      case 'c':
+      case 'in':
+      case 'ol':
+        view.user.ill = false;
+        break;
+      default:
+        view.user.ill = true;
+        break;
+		}
+
+		switch ( view.id ) {
+		  case 'spl-form-panel-request-ebook':
+		  case 'spl-form-panel-request-dl-audio-book':
+		    view.download      = true;
+		  case 'spl-form-panel-request-book':
+		  case 'spl-form-panel-request-cd-audio-book':
+		  case 'spl-form-panel-request-cd':
+		  case 'spl-form-panel-request-dvd':
+		  case 'spl-form-panel-request-other':
+		    view.content       = true;
+		    break;
+		  case 'spl-form-panel-request-genealogy':
+		    view.genealogy     = true;
+		    view.ill           = true;
+		    break;
+		  case 'spl-form-panel-request-page-copy':
+		    view.newspaper      = true;
+		    view.ill            = true;
+		    break;
+		  case 'spl-form-panel-request-periodical':
+		    view.periodical    = true;
+		    view.ill           = true;
+		    break;
+		}
+		console.log(view);
+
+		//var tmpl = Handlebars.compile( $('#spl-form-request-submit-tmpl').html() );
+		//$('#spl-form-request-submit').html(tmpl( view ));
 } // showRequestPanel()
 
 , showRequestSubmit: function(panel) {
