@@ -188,17 +188,20 @@
       </p>
       <?php include 'material-panel-pub.php'; ?>
       <?php include 'material-panel-identify.php'; ?>
-      <?php include 'material-panel-describe.php'; ?>
     </div><!-- /.col -->
   </div><!-- /.row -->
 {{else}}
   <?php include 'material-panel-message-specific.php'; ?>
   <div class="row">
     <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
-      <?php include 'material-panel-pub.php'; ?>
-      <?php include 'material-panel-identify.php'; ?>
+      <?php include 'material-panel-pub-ill.php'; ?>
+      <?php include 'material-panel-identify-ill.php'; ?>
     </div><!-- /.col -->
   </div><!-- /.row -->
+{{/if}}
+
+{{#if content}}
+  <?php include 'material-panel-describe.php'; ?>
 {{/if}}
 
 <fieldset>
