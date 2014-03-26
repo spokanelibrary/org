@@ -186,11 +186,11 @@
         spl ill policy
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">
-          No, I don't agree to this
+        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">
+          No, I don't agree
         </button>
         <button type="button" class="btn btn-primary">
-          OK, I agree
+          Yes, I agree
         </button>
       </div>
     </div>
