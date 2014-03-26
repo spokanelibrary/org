@@ -249,12 +249,13 @@
         <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
           <div class="alert alert-warning">
             <strong><i class="glyphicon glyphicon-exclamation-sign"></i> Important</strong>
-            <br>
-            By checking the box above you confirm that you have read and agree to the SPL ILL Policy.
+            <p>
+              By checking the box above you confirm that you have read and agree to our ILL Policy.
+            </p>
+            <button type="button" class="btn btn-warning">
+            Interlibrary Loan Policy
+            </button>
           </div>
-          <p class="form-control-static">
-            {{id}}
-          </p>
         </div>
       </div><!-- /.form-group -->
     {{/if}}
