@@ -194,11 +194,12 @@
     <label for="" class="col-sm-4 col-md-3 control-label">Debug</label>
     <div class="col-sm-8 col-md-9">
       <p class="form-control-static">
-        Submit for: {{id}}
+        {{id}}
       </p>
     </div>
   </div><!-- /.form-group -->
 
+  <!-- hold -->
   <div class="form-group">
     <label for="spl-form-hold-confirm" class="col-sm-4 col-md-3 control-label">Hold Request</label>
     <div class="col-sm-8 col-md-9">
@@ -214,6 +215,23 @@
     </div>
   </div><!-- /.form-group -->
 
+  <!-- ill -->
+  <div class="form-group">
+    <label for="spl-form-ill-confirm" class="col-sm-4 col-md-3 control-label">ILL Request</label>
+    <div class="col-sm-8 col-md-9">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]">
+          Please check Interlibray Loan 
+        </label>
+        <span class="help-block">
+          If we are do not purchase this title for some reason, we will make an Interlibrary Loan Request for you.
+        </span>
+      </div><!-- /.checkbox -->
+    </div>
+  </div><!-- /.form-group -->
+
+  <!-- submit -->
   <div class="form-group">
     <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
       <button type="submit" class="btn btn-block btn-success">
