@@ -141,7 +141,7 @@
 </div><!-- /.panel-group -->
 
 <div class="panel-collapse collapse"
-      id="spl-form-panel-request" style="margin-bottom:16px;"> 
+      id="spl-form-panel-request-generic" style="margin-bottom:16px;"> 
   
   <?php include 'material-panel-title.php'; ?>
   <?php include 'material-panel-author.php'; ?>
@@ -153,7 +153,7 @@
   <div class="row">
     <div class="col-md-9 col-md-offset-3">
       <p>
-        Any additional information you can provide really helps us expedite your request:
+        Any additional information you can provide will help us expedite your request:
       </p>
 
       <?php include 'material-panel-pub.php'; ?>
@@ -164,6 +164,13 @@
   </div><!-- /.row -->
 
 </div><!-- /.collapse -->
+
+<div class="panel-collapse collapse"
+      id="spl-form-panel-request-specific" style="margin-bottom:16px;"> 
+
+specific form fields
+
+</div>
 
 <!-- tmpl target: request-submit -->
 <div id="spl-form-request-submit"></div>

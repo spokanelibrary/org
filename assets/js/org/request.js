@@ -62,14 +62,18 @@ var org = {
 
 		// show generic request form when requested
 		$('body').on('show.bs.collapse', '.spl-form-request-generic', function(e) {
-			$('#spl-form-panel-request').collapse('show');
+			if ( $('#spl-form-panel-request-specific').hasClass('in') ) {	
+				$('#spl-form-panel-request-specific').collapse('hide');
+			}
+			$('#spl-form-panel-request-generic').collapse('show');
 		});
 		
 		// hide generic request form when not requested
 		$('body').on('show.bs.collapse', '.spl-form-request-specific', function(e) {
-			if ( $('#spl-form-panel-request').hasClass('in') ) {	
-				$('#spl-form-panel-request').collapse('hide');
+			if ( $('#spl-form-panel-request-generic').hasClass('in') ) {	
+				$('#spl-form-panel-request-generic').collapse('hide');
 			}
+			$('#spl-form-panel-request-specific').collapse('show');
 		});
 
 } // initRequestItemPanels
