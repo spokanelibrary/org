@@ -183,7 +183,7 @@
         <h4 class="modal-title" id="spl-ill-policy-title">Modal title</h4>
       </div>
       <div class="modal-body">
-        spl ill policy
+        <?php include'material-request-ill-policy'; ?>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">
