@@ -1,11 +1,12 @@
 <p class="lead">
-  This is a brief summary of the SPL ILL policy. We highly recommend that you read <a rel="external" href="http://www.spokanelibrary.org/ill">our complete Interlibrary Loan page</a> if you have not made a previous ILL request.
+  This is a brief summary of the SPL ILL policy. 
+  We highly recommend that you read <a rel="external" href="http://www.spokanelibrary.org/ill">our complete Interlibrary Loan page</a> if you have not made a previous ILL request.
 </p>
 
 <p>
-  <a class="btn btn-block btn-primary" rel="external" href="http://www.spokanelibrary.org/ill">
-    <i class="icon-info-sign icon-white"></i>
-    More information about ILL at Spokane Public Library &rarr;
+  <a class="btn btn-block btn-info" rel="external" href="http://www.spokanelibrary.org/ill">
+    <i class="glyphicon glyphicon-info-sign"></i>
+    More about Interlibary Loan &rarr;
   </a>
 </p>
 
@@ -14,6 +15,31 @@
 <p>
   Interlibrary Loan is the process by which Spokane Public Library requests materials from, or supplies materials to, libraries outside of our library system.  
 </p>
+
+
+<h4>Who Can Borrow?</h4>
+<p>
+Library card holders who reside within the city limits of Spokane and people who own businesses within the city of Spokane, if they have a business library card. In order to process a request <strong>ALL</strong> of the following must apply:
+</p>
+<ul>
+  <li>Card must be <strong>verified</strong> (proof of address and identity must be shown).</li>
+  <li>Fines must be under <strong>$10.00</strong>.</li>
+  <li>Card must be <strong>current</strong> (no expired cards, please).</li>
+</ul>
+<p>
+  Non-resident cardholders should contact their home library system for Interlibrary Loan Service.
+</p>
+    
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 <ul class="nav nav-list">
 
