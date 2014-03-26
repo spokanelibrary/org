@@ -136,43 +136,10 @@
 
 <div class="panel-collapse collapse"
       id="spl-form-panel-request-generic" style="margin-bottom:16px;"> 
-
-  <?php include 'material-panel-title.php'; ?>
-  <?php include 'material-panel-author.php'; ?>
-  <?php include 'material-panel-url.php'; ?>
-  <?php include 'material-panel-search.php'; ?>
-  <?php include 'material-panel-message-generic.php'; ?>
-
-  
-  <div class="row">
-    <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
-      <p>
-        Any additional information you can provide will help us expedite your request:
-      </p>
-
-      <?php include 'material-panel-pub.php'; ?>
-      <?php include 'material-panel-identify.php'; ?>
-      <?php include 'material-panel-describe.php'; ?>
-      
-    </div><!-- /.col -->
-  </div><!-- /.row -->
-
 </div><!-- /.collapse -->
 
 <div class="panel-collapse collapse"
       id="spl-form-panel-request-specific" style="margin-bottom:16px;"> 
-
-  <?php include 'material-panel-title.php'; ?>
-  <?php include 'material-panel-author.php'; ?>
-  <?php include 'material-panel-message-specific.php'; ?>
-
-  <div class="row">
-    <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
-      <?php include 'material-panel-pub.php'; ?>
-      <?php include 'material-panel-identify.php'; ?>
-    </div><!-- /.col -->
-  </div><!-- /.row -->
-
 </div>
 
 <div class="modal fade" id="spl-ill-policy" tabindex="-1" role="dialog" aria-labelledby="spl-ill-policy-title" aria-hidden="true">
@@ -206,12 +173,39 @@
 
 <!-- tmpl: request-generic -->
 <script id="spl-form-panel-request-generic-tmpl" type="text/x-handlebars-template">
-GENERIC
+<?php include 'material-panel-title.php'; ?>
+<?php include 'material-panel-author.php'; ?>
+<?php include 'material-panel-url.php'; ?>
+<?php include 'material-panel-search.php'; ?>
+<?php include 'material-panel-message-generic.php'; ?>
+
+
+<div class="row">
+  <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
+    <p>
+      Any additional information you can provide will help us expedite your request:
+    </p>
+
+    <?php include 'material-panel-pub.php'; ?>
+    <?php include 'material-panel-identify.php'; ?>
+    <?php include 'material-panel-describe.php'; ?>
+    
+  </div><!-- /.col -->
+</div><!-- /.row -->
 </script>
 
 <!-- tmpl: request-specific -->
 <script id="spl-form-panel-request-specific-tmpl" type="text/x-handlebars-template">
-SPECIFIC
+<?php include 'material-panel-title.php'; ?>
+<?php include 'material-panel-author.php'; ?>
+<?php include 'material-panel-message-specific.php'; ?>
+
+<div class="row">
+  <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
+    <?php include 'material-panel-pub.php'; ?>
+    <?php include 'material-panel-identify.php'; ?>
+  </div><!-- /.col -->
+</div><!-- /.row -->
 </script>
 
 <!-- tmpl: submit -->

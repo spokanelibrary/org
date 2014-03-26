@@ -92,8 +92,6 @@ var org = {
 				$('#spl-form-panel-request-generic').collapse('hide');
 			}
 			$('#spl-form-panel-request-specific').html(specific({})).collapse('show');
-
-			$('#spl-form-panel-request-specific').collapse('show');
 		});
 
 } // initRequestItemPanels
