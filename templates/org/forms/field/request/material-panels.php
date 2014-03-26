@@ -221,8 +221,6 @@
             </label>
             <span class="help-block">
               If we are do not purchase this title for some reason, we will make an Interlibrary Loan Request.
-              <br>
-              <strong>Note:</strong> By checking the box above you confirm that you have read and agree to the SPL ILL Policy.
             </span>
           </div><!-- /.checkbox -->
         </div>
@@ -241,8 +239,6 @@
               The type of material you are requesting is only available through Interlibrary Loan.
               <br>
               We will place a hold on your account when this material becomes available. 
-              <br>
-              <strong>Note:</strong> By checking the box above you confirm that you have read and agree to the SPL ILL Policy.
             </span>
           </div><!-- /.checkbox -->
         </div>
@@ -251,6 +247,9 @@
       <!-- ill-policy -->
       <div class="form-group">
         <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
+          <div class="alert alert-warning">
+            <strong>Note:</strong> By checking the box above you confirm that you have read and agree to the SPL ILL Policy.
+          </div>
           <p class="form-control-static">
             {{id}}
           </p>
