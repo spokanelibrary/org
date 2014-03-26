@@ -115,9 +115,7 @@
                 Newspaper <small>(microfilm)</small>
                 </button>
       </p>
-      <h4>
-        News request
-      </h4>
+      <?php include 'material-panel-microfilm.php'; ?>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
