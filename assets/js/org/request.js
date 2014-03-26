@@ -218,6 +218,8 @@ var org = {
 , checkISBNHolding: function(isbn) {
     // check the SPL catalog for holdings using an isbn search and parsing the resulting xml. ugh.
     //console.log(isbn);
+    $holding = $('#spl-form-request-holding');
+    $holding.html('');
     $.ajax({ 
         url: this.config.api.isbn
         ,data: { isbn: isbn }
