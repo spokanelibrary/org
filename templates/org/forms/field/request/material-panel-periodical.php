@@ -1,5 +1,8 @@
 <div class="alert alert-info">
-	<h4>Warning Concerning Copyright Restrictions</h4>
+	<h4>
+    <i class="glyphicon glyphicon-exclamation-sign"></i>
+    Warning Concerning Copyright Restrictions
+  </h4>
 </div>
 
 <blockquote>
@@ -15,6 +18,14 @@
     This institution reserves the right to refuse to accept a copying order if, in its judgement, fulfillment of the order would involve violation of copyright law. 
   </p>
 </blockquote>
+<!-- copyright -->
+<div class="form-group">
+  <label for="spl-form-journal-copyright" class="col-sm-4 col-md-3 control-label"><span class="text-danger">*</span> Agree to copyright restrictions</label>
+  <div class="col-sm-8 col-md-9">
+    <input type="checkbox" class="form-control required" id="spl-form-journal-copyright" name="spl-form[journal][copyright]">
+  </div>
+</div><!-- /.form-group -->
+
 
 <!-- city -->
 <div class="form-group">
