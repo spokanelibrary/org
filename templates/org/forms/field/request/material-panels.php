@@ -177,6 +177,30 @@
 
 <!-- tmpl: request -->
 <script id="spl-form-panel-request-tmpl" type="text/x-handlebars-template">
+
+{{#if content}}
+<?php include 'material-panel-title.php'; ?>
+<?php include 'material-panel-author.php'; ?>
+<?php include 'material-panel-url.php'; ?>
+<?php include 'material-panel-search.php'; ?>
+<?php include 'material-panel-message-generic.php'; ?>
+<div class="row">
+  <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
+    <p>
+      Any additional information you can provide will help us expedite your request:
+    </p>
+    <?php include 'material-panel-pub.php'; ?>
+    <?php include 'material-panel-identify.php'; ?>
+    <?php include 'material-panel-describe.php'; ?>
+  </div><!-- /.col -->
+</div><!-- /.row -->
+{{else}}
+
+{{/if}}
+
+
+
+
 <fieldset>
   <legend class="text-muted">
     <i class="glyphicon glyphicon-check"></i>
@@ -268,6 +292,7 @@
   </div>  
 
 </fieldset>
+
 </script>
 
 <!-- tmpl: request-generic -->
