@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-sm-12">
   <h4 class="text-center">
-    Research <small>Interlibrary Loan only <span class="caret"></span></small>
+    Research <small>Interlibrary Loan only <i class="glyphicon glyphicon-arrow-down"></i></small>
   </h4>
   </div><!-- /.col -->
   <div class="col-sm-4">
