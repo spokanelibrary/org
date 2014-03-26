@@ -114,7 +114,6 @@
                 Newspaper <small>(microfilm)</small>
                 </button>
       </p>
-      <?php include 'material-panel-newspaper.php'; ?>
     </div><!-- /.collapse -->
 
     <div class="panel-collapse collapse spl-form-request spl-form-request-specific"
@@ -127,7 +126,6 @@
                 Magazine <small>or</small> Journal
                 </button>
       </p>
-      <?php include 'material-panel-periodical.php'; ?>
     </div><!-- /.collapse -->
 
   </div><!-- /.panel - required here for bs3 -->
@@ -165,7 +163,13 @@
 <!-- tmpl: request -->
 <script id="spl-form-panel-request-tmpl" type="text/x-handlebars-template">
 {{#if genealogy}}
-<?php include 'material-panel-genealogy.php'; ?>
+  <?php include 'material-panel-genealogy.php'; ?>
+{{/if}}
+{{#if newspaper}}
+<?php include 'material-panel-newspaper.php'; ?>
+{{/if}}
+{{#if periodical}}
+<?php include 'material-panel-periodical.php'; ?>
 {{/if}}
 
 <?php include 'material-panel-title.php'; ?>
