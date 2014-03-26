@@ -62,6 +62,11 @@ var org = {
 		});
 		*/
 
+		// put common forms in templates to avoid duplicate fields
+		var generic = Handlebars.compile( $('#spl-form-panel-request-generic-tmpl').html() );
+		var specific = Handlebars.compile( $('#spl-form-panel-request-specific-tmpl').html() );
+			
+
 		// hide material type selectors on panel select
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function(e) {
 			$('#spl-form-request-panel-choose').collapse('hide');		
@@ -78,8 +83,7 @@ var org = {
 				$('#spl-form-panel-request-specific').collapse('hide');
 			}
 			// put common forms in templates to avoid duplicate fields
-			var tmpl = Handlebars.compile( $('#spl-form-panel-request-generic-tmpl').html() );
-			$('#spl-form-panel-request-generic').html(tmpl({})).collapse('show');
+			$('#spl-form-panel-request-generic').html(generic({})).collapse('show');
 		});
 		
 		// hide generic request form when not requested
@@ -87,7 +91,7 @@ var org = {
 			if ( $('#spl-form-panel-request-generic').hasClass('in') ) {	
 				$('#spl-form-panel-request-generic').collapse('hide');
 			}
-			// put common forms in templates to avoid duplicate fields
+			$('#spl-form-panel-request-specific').html(specific({})).collapse('show');
 
 			$('#spl-form-panel-request-specific').collapse('show');
 		});
