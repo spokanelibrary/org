@@ -78,7 +78,7 @@ var org = {
 				$('#spl-form-panel-request-specific').collapse('hide');
 			}
 			// put common forms in templates to avoid duplicate fields
-			var tmpl = Handlebars.compile( $('##spl-form-panel-request-generic-tmpl').html() );
+			var tmpl = Handlebars.compile( $('#spl-form-panel-request-generic-tmpl').html() );
 			$('#spl-form-panel-request-generic').html(tmpl( {} ));
 
 			$('#spl-form-panel-request-generic').collapse('show');
