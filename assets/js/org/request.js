@@ -46,7 +46,7 @@ var org = {
 , initRequestItemEvents: function() {
 
 	$('body').on('click', '#spl-ill-policy-accept', function(e) {
-		console.log('check me out');
+		$('#spl-form-ill-confirm').prop('checked', true);
 	});
 
 } // initRequestItemEvents()
