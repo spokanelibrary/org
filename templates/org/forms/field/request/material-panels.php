@@ -136,7 +136,7 @@
 
 <div class="panel-collapse collapse"
       id="spl-form-panel-request-generic" style="margin-bottom:16px;"> 
-  
+
   <?php include 'material-panel-title.php'; ?>
   <?php include 'material-panel-author.php'; ?>
   <?php include 'material-panel-url.php'; ?>
@@ -203,6 +203,16 @@
 <!-- tmpl target: oclc modal -->
 <div class="modal fade" id="spl-form-oclc-result" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
 </div><!-- /.modal -->
+
+<!-- tmpl: request-generic -->
+<script id="spl-form-request-generic-tmpl" type="text/x-handlebars-template">
+GENERIC
+</script>
+
+<!-- tmpl: request-specific -->
+<script id="spl-form-request-specific-tmpl" type="text/x-handlebars-template">
+SPECIFIC
+</script>
 
 <!-- tmpl: submit -->
 <script id="spl-form-request-submit-tmpl" type="text/x-handlebars-template">

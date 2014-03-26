@@ -77,6 +77,10 @@ var org = {
 			if ( $('#spl-form-panel-request-specific').hasClass('in') ) {	
 				$('#spl-form-panel-request-specific').collapse('hide');
 			}
+			// put common forms in templates to avoid duplicate fields
+			var tmpl = Handlebars.compile( $('##spl-form-panel-request-generic-tmpl').html() );
+			$('#spl-form-panel-request-generic').html(tmpl( {} ));
+
 			$('#spl-form-panel-request-generic').collapse('show');
 		});
 		
@@ -85,6 +89,8 @@ var org = {
 			if ( $('#spl-form-panel-request-generic').hasClass('in') ) {	
 				$('#spl-form-panel-request-generic').collapse('hide');
 			}
+			// put common forms in templates to avoid duplicate fields
+
 			$('#spl-form-panel-request-specific').collapse('show');
 		});
 
