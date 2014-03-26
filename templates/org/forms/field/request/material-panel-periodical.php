@@ -42,3 +42,11 @@
   </div>
 </div><!-- /.form-group -->
 
+<!-- article info -->
+
+<div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
+  <div class="form-group">
+    article info
+  </div><!-- /.form-group -->
+</div>
+
