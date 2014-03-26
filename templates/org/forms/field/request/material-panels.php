@@ -246,6 +246,8 @@
     </div>
   </div><!-- /.form-group -->
 
+  <div class="row">
+  <div class="col-md-8 col-offset-4">
   <p>
     Any additional information you can provide really helps us expedite your request:
   </p>
@@ -293,6 +295,9 @@
         <option value="juvenile">Juvenile</option>
       </select>
     </div><!-- /.col -->
+  </div><!-- /.row -->
+
+  </div><!-- /.col -->
   </div><!-- /.row -->
 
 </div><!-- /.collapse -->
