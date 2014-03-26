@@ -45,8 +45,12 @@
 <!-- article info -->
 
 <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
-  <div class="form-group">
-    article info
-  </div><!-- /.form-group -->
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="form-group">
+        <input type="text" class="required form-control" id="spl-form-journal-pages" name="spl-form[journal][pages]">
+      </div><!-- /.form-group -->
+    </div><!-- /.col -->
+  </div>
 </div>
 
