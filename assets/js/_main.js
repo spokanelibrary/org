@@ -130,7 +130,9 @@ var ORG = {
         e.preventDefault();
       });
 
-      $('.spl-form').validate({});
+      $('body').on('submit', '.spl-form', function(e) {
+        $(this).validate({});
+      });
 
       // Ajax defaults[
       $.ajaxSetup({
