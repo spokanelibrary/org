@@ -19,15 +19,19 @@
   </p>
 </blockquote>
 <!-- copyright -->
-<div class="checkbox">
-  <label for="spl-form-journal-copyright">
-    <input type="checkbox" class="required" id="spl-form-journal-copyright" name="spl-form[journal][copyright]">
-    Yes, I agree to these Copyright Restrictions  <strong class="text-danger">*</strong></label>
-    <span class="help-block">
-      <strong>Note:</strong> 
-      You must check this box to indicate that you have read and agree to these copyright restrictions.
-    </span>
-</div><!-- /.checkbox -->
+<div class="row">
+  <div class="col-md-9 col-md-offset-3">
+    <div class="checkbox">
+      <label for="spl-form-journal-copyright">
+        <input type="checkbox" class="required" id="spl-form-journal-copyright" name="spl-form[journal][copyright]">
+        <strong>Yes, I agree to these Copyright Restrictions  <span class="text-danger">*</span></strong></label>
+        <span class="help-block">
+          <strong>Note:</strong> 
+          You must check this box to indicate that you have read and agree to these copyright restrictions.
+        </span>
+    </div><!-- /.checkbox -->
+  </div><!-- /.col -->
+</div><!-- /.row -->
 
 
 <!-- city -->
