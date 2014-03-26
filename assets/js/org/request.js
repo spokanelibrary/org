@@ -55,12 +55,6 @@ var org = {
 
 } // initRequestItemEvents()
 , initRequestItemPanels: function() {
-		/*
-		$('body').on('change', 'input:radio[name = "spl-form[material]"]', function() {
-			var materialTypeDescription = $(this).parent().text();
-			console.log(materialTypeDescription);
-		});
-		*/
 
 		// hide material type selectors on panel select
 		$('body').on('show.bs.collapse', '#spl-form-request-panels', function(e) {
@@ -71,32 +65,6 @@ var org = {
 		$('body').on('show.bs.collapse', '.spl-form-request', function(e) {
 			_self.showRequestPanel($(this).attr('id'));
 		});
-
-		/*
-
-		// show dynamic submit panel
-		$('body').on('show.bs.collapse', '.spl-form-request', function(e) {
-			_self.showRequestSubmit($(this).attr('id'));
-		});
-
-		// show generic request form when requested
-		$('body').on('show.bs.collapse', '.spl-form-request-generic', function(e) {
-			if ( $('#spl-form-panel-request-specific').hasClass('in') ) {	
-				$('#spl-form-panel-request-specific').collapse('hide');
-			}
-			// put common forms in templates to avoid duplicate fields
-			$('#spl-form-panel-request-generic').html(generic({})).collapse('show');
-		});
-		
-		// hide generic request form when not requested
-		$('body').on('show.bs.collapse', '.spl-form-request-specific', function(e) {
-			if ( $('#spl-form-panel-request-generic').hasClass('in') ) {	
-				$('#spl-form-panel-request-generic').collapse('hide');
-			}
-			$('#spl-form-panel-request-specific').html(specific({})).collapse('show');
-		});
-
-		*/
 
 } // initRequestItemPanels
 
