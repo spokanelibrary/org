@@ -177,10 +177,9 @@
 
 <!-- tmpl: request -->
 <script id="spl-form-panel-request-tmpl" type="text/x-handlebars-template">
-
+<?php include 'material-panel-title.php'; ?>
+<?php include 'material-panel-author.php'; ?>
 {{#if content}}
-  <?php include 'material-panel-title.php'; ?>
-  <?php include 'material-panel-author.php'; ?>
   <?php include 'material-panel-url.php'; ?>
   <?php include 'material-panel-search.php'; ?>
   <?php include 'material-panel-message-generic.php'; ?>
@@ -195,10 +194,7 @@
     </div><!-- /.col -->
   </div><!-- /.row -->
 {{else}}
-  <?php include 'material-panel-title.php'; ?>
-  <?php include 'material-panel-author.php'; ?>
   <?php include 'material-panel-message-specific.php'; ?>
-
   <div class="row">
     <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
       <?php include 'material-panel-pub.php'; ?>
@@ -206,7 +202,6 @@
     </div><!-- /.col -->
   </div><!-- /.row -->
 {{/if}}
-
 
 <fieldset>
   <legend class="text-muted">
