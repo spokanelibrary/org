@@ -248,8 +248,10 @@
       <div class="form-group">
         <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
           <div class="alert alert-warning">
-            <i class="glyphicon glyphicon-exclamation-sign"></i>
-            By checking the box above you confirm that you have read and agree to our ILL Policy.
+            <p>
+              <i class="glyphicon glyphicon-exclamation-sign"></i>
+              By checking the box above you confirm that you have read and agree to our ILL Policy.
+            </p>
             <p>
               <button type="button" class="btn btn-warning">
                 <i class="glyphicon glyphicon-folder-open"></i>&nbsp;
