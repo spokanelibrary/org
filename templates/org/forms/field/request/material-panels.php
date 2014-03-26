@@ -187,7 +187,7 @@
 <fieldset>
   <legend class="text-muted">
     <i class="glyphicon glyphicon-check"></i>
-    Send this request now
+    Finalize this request:
   </legend>
 
   <div class="form-group">
@@ -222,10 +222,28 @@
       <div class="checkbox">
         <label>
           <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]">
-          Please check Interlibray Loan 
+          Please check Interlibray Loan for me 
         </label>
         <span class="help-block">
-          If we are do not purchase this title for some reason, we will make an Interlibrary Loan Request for you.
+          If we are do not purchase this title for some reason, we will make an Interlibrary Loan Request.
+        </span>
+      </div><!-- /.checkbox -->
+    </div>
+  </div><!-- /.form-group -->
+
+  <!-- ill-only -->
+  <div class="form-group">
+    <label for="spl-form-ill-confirm" class="col-sm-4 col-md-3 control-label">ILL Policy</label>
+    <div class="col-sm-8 col-md-9">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]">
+          I agree
+        </label>
+        <span class="help-block">
+          The type of material you are requesting is only available through Interlibrary Loan.
+          <br>
+          We will place a hold on your account when this material becomes available. 
         </span>
       </div><!-- /.checkbox -->
     </div>
