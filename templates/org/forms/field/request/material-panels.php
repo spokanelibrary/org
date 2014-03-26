@@ -252,9 +252,11 @@
             <p>
               By checking the box above you confirm that you have read and agree to our ILL Policy.
             </p>
-            <button type="button" class="btn btn-warning">
-            Interlibrary Loan Policy
-            </button>
+            <p>
+              <button type="button" class="btn btn-warning">
+              Interlibrary Loan Policy
+              </button>
+            </p>
           </div>
         </div>
       </div><!-- /.form-group -->
