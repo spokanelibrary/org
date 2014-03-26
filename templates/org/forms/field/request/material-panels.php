@@ -168,7 +168,16 @@
 <div class="panel-collapse collapse"
       id="spl-form-panel-request-specific" style="margin-bottom:16px;"> 
 
-specific form fields
+  <?php include 'material-panel-title.php'; ?>
+  <?php include 'material-panel-author.php'; ?>
+  <?php include 'material-panel-message.php'; ?>
+
+  <div class="row">
+    <div class="col-md-9 col-md-offset-3">
+      <?php include 'material-panel-pub.php'; ?>
+      <?php include 'material-panel-identify.php'; ?>
+    </div><!-- /.col -->
+  </div><!-- /.row -->
 
 </div>
 
