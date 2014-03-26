@@ -47,6 +47,7 @@
   <div class="col-sm-4">
     <div class="form-group">
       <label for="spl-form-journal-pages" class="">Page Numbers</label>
+      <br>
       <input type="text" class="required form-control" id="spl-form-journal-pages" name="spl-form[journal][pages]">
     </div><!-- /.form-group -->
   </div><!-- /.col -->
@@ -54,6 +55,7 @@
   <div class="col-sm-4">
     <div class="form-group">
       <label for="spl-form-journal-volume" class="">Volume</label>
+      <br>
       <input type="text" class="required form-control" id="spl-form-journal-volume" name="spl-form[journal][volume]">
     </div><!-- /.form-group -->
   </div><!-- /.col -->
@@ -61,6 +63,7 @@
   <div class="col-sm-4">
     <div class="form-group">
       <label for="spl-form-journal-number" class="">Issue #</label>
+      <br>
       <input type="text" class="required form-control" id="spl-form-journal-number" name="spl-form[journal][number]">
     </div><!-- /.form-group -->
   </div><!-- /.col -->
