@@ -1,5 +1,3 @@
-<?php $crass = wp_get_crass_response(); ?>
-
 <?php if ( isset( $crass->result['date'] ) ) : ?>
 
 <div class="alert alert-success">

@@ -1,5 +1,3 @@
-<?php $crass = wp_get_crass_response(); ?>
-
 <div class="panel panel-success">
   <div class="panel-heading">
     <h3>Thank You!</h3>
