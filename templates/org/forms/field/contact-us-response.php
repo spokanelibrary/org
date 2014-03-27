@@ -1,26 +1,14 @@
-<div class="well" style="background:transparent;">
+<div class="alert alert-success">
+  <h3>Thank You! <small>We received your message.</small></h3>
+</div>
 
-  <form class="form-horizontal spl-form">
-
-    <div id="spl-form-contact-response">
-      <h3>Processing <small>your message&hellip;</small></h3>
-    </div>
-
-    <!-- this should be a script or move out of js  -->
-    <input type="hidden" 
-            id="spl-form-id" 
-            name="spl-form[id]" 
-            value="contact-response" 
-            data-response-id="<?php echo $GLOBALS['crass_response']->result['id']; ?>" 
-            data-response-contact='<?php echo json_encode($GLOBALS['crass_response']->request); ?>' 
-            />
-  </form>
+<div class="row">
 
 </div>
 
 <script id="spl-form-contact-response-tmpl" type="text/x-handlebars-template">
 
-<h3>Thank You! <small>We received your message.</small></h3>
+
 
 {{#with request}}
 
