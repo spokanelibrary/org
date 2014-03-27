@@ -13,47 +13,55 @@
     <h4>We received your request:</h4>
     <dl class="dl-horizontal">
 
-      <?php if( !empty($GLOBALS['crass_response']->request['name']) ) : ?>
+      <?php if( !empty($crass->request['name']) ) : ?>
       <dt>Your Name</dt>
       <dd>
         <p>
-          <?php echo $GLOBALS['crass_response']->request['name']; ?>
+          <?php echo $crass->request['name']; ?>
         </p>
       </dd>
       <?php endif; ?>
 
-      <?php if( !empty($GLOBALS['crass_response']->request['barcode']) ) : ?>
+      <?php if( !empty($crass->request['barcode']) ) : ?>
       <dt>Your Library Card</dt>
       <dd>
         <p>
-          <?php echo $GLOBALS['crass_response']->request['barcode']; ?>
+          <?php echo $crass->request['barcode']; ?>
         </p>
       </dd>
       <?php endif; ?>
 
-      <?php if( !empty($GLOBALS['crass_response']->request['email']) ) : ?>
+      <?php if( !empty($crass->request['email']) ) : ?>
       <dt>Your Email</dt>
       <dd>
         <p>
-          <?php echo $GLOBALS['crass_response']->request['email']; ?>
+          <?php echo $crass->request['email']; ?>
         </p>
       </dd>
       <?php endif; ?>
 
-      <?php if( !empty($GLOBALS['crass_response']->request['question']) ) : ?>
+      <?php if( !empty($crass->request['question']) ) : ?>
       <dt>Your Question</dt>
       <dd>
         <p>
-          <?php echo $GLOBALS['crass_response']->request['question']; ?>
+          <?php echo $crass->request['question']; ?>
         </p>
       </dd>
       <?php endif; ?>
 
-      <?php if( !empty($GLOBALS['crass_response']->request['question']) ) : ?>
-      <dt>Your Question</dt>
+      <?php if( !empty($crass->request['announcement']) ) : ?>
+      <dt>Type of Request</dt>
       <dd>
         <p>
-          <?php echo $GLOBALS['crass_response']->request['question']; ?>
+          <?php 
+          if ( 'obit' == $crass->request['announcement'] ) {
+            echo 'Obituary';
+          } elseif ( 'obit' == $crass->request['announcement'] ) {
+            echo 'Birth Announcement';
+          } else {
+            echo 'Unknown';
+          }
+          ?>
         </p>
       </dd>
       <?php endif; ?>
@@ -66,9 +74,9 @@
 <?php
 /*
 echo '<pre>';
-//print_r($GLOBALS['crass_response']);
-//print_r($GLOBALS['crass_response']->result);
-print_r($GLOBALS['crass_response']->request); 
+//print_r($crass);
+//print_r($crass->result);
+print_r($crass->request); 
 echo '</pre>';
 */
 ?>
