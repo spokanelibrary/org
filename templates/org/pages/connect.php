@@ -54,7 +54,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <p>
-              Learn about library cards or renew your existing card.
+              Learn about library cards or <a href="/renew">renew</a> your existing card.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
@@ -120,7 +120,7 @@
 
     <p>
       <strong>Non-discoverable Connect pages to port:</strong>
-      Welcome, Wireless, Receipt, IT Academy
+      Welcome, Wireless, Receipt, Unblock, IT Academy
     </p>
 
   </div><!-- /.col -->
