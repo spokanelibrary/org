@@ -8,12 +8,14 @@
 
   <dl class="dl-horizontal">
 
+    <?php if( isset($GLOBALS['crass_response']->request['name']) ) : ?>
     <dt>Your Name</dt>
     <dd>
       <p>
-        {{name}}
+        <?php echo $GLOBALS['crass_response']->request['name']; ?>
       </p>
     </dd>
+    <?php endif; ?>
 
     <dt>Your Library Card</dt>
     <dd>
@@ -43,8 +45,8 @@
 <?php
 
 echo '<pre>';
-print_r($GLOBALS['crass_response']);
-print_r($GLOBALS['crass_response']->result);
+//print_r($GLOBALS['crass_response']);
+//print_r($GLOBALS['crass_response']->result);
 print_r($GLOBALS['crass_response']->request); 
 echo '</pre>';
 
