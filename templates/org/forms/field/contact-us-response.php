@@ -50,10 +50,11 @@
 </div><!-- /.panel -->
 <?php
 
+/*
 echo '<pre>';
 //print_r($GLOBALS['crass_response']);
 //print_r($GLOBALS['crass_response']->result);
 print_r($GLOBALS['crass_response']->request); 
 echo '</pre>';
-
+*/
 ?>
