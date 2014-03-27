@@ -1,84 +1,94 @@
-<div class="well" style="background:transparent;">
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <h3>Thank You!</h3>
+  </div><!-- /.panel-heading -->
 
-  <form class="form-horizontal spl-form">
-
-    <div id="spl-form-contact-response">
-      <h3>Processing <small>your message&hellip;</small></h3>
-    </div>
-
-    <!-- this should be a script or move out of js  -->
-    <input type="hidden" 
-            id="spl-form-id" 
-            name="spl-form[id]" 
-            value="contact-response" 
-            data-response-id="<?php echo $GLOBALS['crass_response']->result['id']; ?>" 
-            data-response-contact='<?php echo json_encode($GLOBALS['crass_response']->request); ?>' 
-            />
-  </form>
-
-</div>
-
-<script id="spl-form-contact-response-tmpl" type="text/x-handlebars-template">
-
-<h3>Thank You! <small>We received your message.</small></h3>
-
-{{#with request}}
-
-  <div class="row-fluid">
+  <div class="panel-body">
+    <h4>We received your request:</h4>
     <dl class="dl-horizontal">
 
-    {{#if name}}
+      <?php if( !empty($crass->request['name']) ) : ?>
       <dt>Your Name</dt>
       <dd>
         <p>
-          {{name}}
+          <?php echo $crass->request['name']; ?>
         </p>
       </dd>
-    {{/if}}
+      <?php endif; ?>
 
-    {{#if barcode}}
-      <dt>Your Barcode</dt>
+      <?php if( !empty($crass->request['barcode']) ) : ?>
+      <dt>Your Library Card</dt>
       <dd>
         <p>
-          {{barcode}}
+          <?php echo $crass->request['barcode']; ?>
         </p>
       </dd>
-    {{/if}}
+      <?php endif; ?>
 
-    {{#if email}}
+      <?php if( !empty($crass->request['email']) ) : ?>
       <dt>Your Email</dt>
       <dd>
         <p>
-          {{email}}
+          <strong><?php echo $crass->request['email']; ?></strong>
+          <br>
+          We will keep you informed via email about the status of your request.
         </p>
-      </dd>
-    {{/if}}
 
-    {{#if message}}
+      </dd>
+      <?php endif; ?>
+
+      <?php if( !empty($crass->request['message']) ) : ?>
       <dt>Your Message</dt>
       <dd>
         <p>
-          {{message}}
+          <?php echo $crass->request['message']; ?>
         </p>
       </dd>
-    {{/if}}
+      <?php endif; ?>
+
+      <?php if( !empty($crass->request['title']) ) : ?>
+      <dt>Requested Title</dt>
+      <dd>
+        <p>
+          <?php echo $crass->request['title']; ?>
+          <?php if( !empty($crass->request['author']) ) : ?>
+          <br>
+          <em>by</em> <?php echo $crass->request['author']; ?>
+          <?php endif; ?>
+        </p>
+      </dd>
+      <?php endif; ?>
+
+      <?php if( !empty($crass->request['url']) ) : ?>
+      <dt>Link on the web</dt>
+      <dd>
+        <p>
+          <a href="<?php echo $crass->request['url']; ?>"><?php echo $crass->request['url']; ?></a>
+        </p>
+      </dd>
+      <?php endif; ?>
+
+      <?php if( !empty($crass->request['hold']) ) : ?>
+      <dt>Hold Request</dt>
+      <dd>
+        <p>
+          If your account is in good standing we will place a hold request on this item for you.
+        </p>
+      </dd>
+      <?php endif; ?>
+
+
 
     </dl>
-
-    <div class="alert alert-info">
-      We will respond to your inquiry as soon as possible.
-    </div>
-
-  </div><!-- /.row-fluid -->
-
-{{/with}}
-</script>
+  </div><!-- /.panel-body -->
+</div><!-- /.panel -->
 
 <?php
 /*
 echo '<pre>';
-print_r($GLOBALS['crass_response']->result);
-print_r($GLOBALS['crass_response']->request); 
+//print_r($crass);
+//print_r($crass->result);
+print_r($crass->request); 
 echo '</pre>';
 */
 ?>
