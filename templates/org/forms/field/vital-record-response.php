@@ -56,10 +56,27 @@
           <?php 
           if ( 'obit' == $crass->request['announcement'] ) {
             echo 'Obituary';
-          } elseif ( 'obit' == $crass->request['announcement'] ) {
+          } elseif ( 'birth' == $crass->request['announcement'] ) {
             echo 'Birth Announcement';
-          } else {
-            echo 'Unknown';
+          }
+          ?>
+        </p>
+      </dd>
+      <?php endif; ?>
+
+      <?php if( !empty($crass->request['announcement-name']) ) : ?>
+      <dt>Name(s) to Search</dt>
+      <dd>
+        <p>
+          <?php 
+          echo $crass->request['announcement-name'][1].PHP_EOL;; 
+          if ( !empty($crass->request['announcement-name'][2]) ) {
+            echo '<br>'.PHP_EOL;
+            echo $crass->request['announcement-name'][2].PHP_EOL;;
+          }
+          if ( !empty($crass->request['announcement-name'][3]) ) {
+            echo '<br>'.PHP_EOL;
+            echo $crass->request['announcement-name'][3].PHP_EOL;;
           }
           ?>
         </p>
@@ -81,14 +98,6 @@ echo '</pre>';
 */
 ?>
 
-    <!--
-    <dt>Type of Request</dt>
-    <dd>
-      <p>
-        {{#compare announcement 'obit'}}Obituary{{else}}Birth Announcement{{/compare}}
-      </p>
-    </dd>
-    -->
 
     {{#if announcement-name}}
       <dt>Name(s) to Search</dt>
@@ -115,20 +124,3 @@ echo '</pre>';
         </p>
       </dd>
     {{/if}}
-
-
-
-    </dl>
-
-    <div class="alert alert-info">
-      We will respond to your inquiry as soon as possible.
-      <p>
-        Thanks for visiting SPL and using our research services <i class="icon icon-thumbs-up"></i>
-      </p>
-    </div>
-
-  </div><!-- /.row-fluid -->
-
-{{/with}}
-
-</script>
