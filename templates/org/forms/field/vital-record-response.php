@@ -83,6 +83,24 @@
       </dd>
       <?php endif; ?>
 
+      <?php if( !empty($crass->request['announcement-date']) ) : ?>
+      <dt>Date(s) to Search</dt>
+      <dd>
+        <p>
+          <?php 
+          echo $crass->request['announcement-date'][1].PHP_EOL;; 
+          if ( !empty($crass->request['announcement-date'][2]) ) {
+            echo '<br>'.PHP_EOL;
+            echo $crass->request['announcement-date'][2].PHP_EOL;;
+          }
+          if ( !empty($crass->request['announcement-date'][3]) ) {
+            echo '<br>'.PHP_EOL;
+            echo $crass->request['announcement-date'][3].PHP_EOL;;
+          }
+          ?>
+        </p>
+      </dd>
+      <?php endif; ?>
 
     </dl>
   </div><!-- /.panel-body -->
@@ -97,30 +115,3 @@ print_r($crass->request);
 echo '</pre>';
 */
 ?>
-
-
-    {{#if announcement-name}}
-      <dt>Name(s) to Search</dt>
-      <dd>
-        <p>
-          {{announcement-name.[1]}}
-          <br />
-          {{announcement-name.[2]}}
-          <br />
-          {{announcement-name.[3]}}
-        </p>
-      </dd>
-    {{/if}}
-
-    {{#if announcement-date}}
-      <dt>Date(s) to Search</dt>
-      <dd>
-        <p>
-          {{announcement-date.[1]}}
-          <br />
-          {{announcement-date.[2]}}
-          <br />
-          {{announcement-date.[3]}}
-        </p>
-      </dd>
-    {{/if}}
