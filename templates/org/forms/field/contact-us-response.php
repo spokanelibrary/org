@@ -8,7 +8,7 @@
 
   <dl class="dl-horizontal">
 
-    <?php if( isset($GLOBALS['crass_response']->request['name']) ) : ?>
+    <?php if( !empty($GLOBALS['crass_response']->request['name']) ) : ?>
     <dt>Your Name</dt>
     <dd>
       <p>
@@ -17,26 +17,32 @@
     </dd>
     <?php endif; ?>
 
+    <?php if( !empty($GLOBALS['crass_response']->request['barcode']) ) : ?>
     <dt>Your Library Card</dt>
     <dd>
       <p>
-        {{barcode}}
+        <?php echo $GLOBALS['crass_response']->request['barcode']; ?>
       </p>
     </dd>
+    <?php endif; ?>
 
+    <?php if( !empty($GLOBALS['crass_response']->request['email']) ) : ?>
     <dt>Your Email</dt>
     <dd>
       <p>
-        {{email}}
+        <?php echo $GLOBALS['crass_response']->request['email']; ?>
       </p>
     </dd>
+    <?php endif; ?>
 
+    <?php if( !empty($GLOBALS['crass_response']->request['message']) ) : ?>
     <dt>Your Message</dt>
     <dd>
       <p>
-        {{message}}
+        <?php echo $GLOBALS['crass_response']->request['message']; ?>
       </p>
     </dd>
+    <?php endif; ?>
 
   </dl>
 
