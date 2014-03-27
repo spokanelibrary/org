@@ -6,7 +6,7 @@ var config = {
           , isbn: 'http://api.spokanelibrary.org/isbn/'
            }
     , path: {
-              absolute: {}
+              absolute: {} // ToDo: this should go
 
     }
 }
@@ -122,8 +122,6 @@ var ORG = {
       MBP.hideUrlBarOnLoad();
 
       config.path.absolute = 'http://'+location.hostname;
-
-      console.log(config);
 
       // trigger tabs from alternate links
       $('body').on('click', '[data-toggle="tab"]', function(e) {
