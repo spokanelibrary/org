@@ -1,4 +1,6 @@
-<?php if ( isset( $GLOBALS['crass_response']->result['date'] ) ) : ?>
+<?php $crass = wp_get_crass_response(); ?>
+
+<?php if ( isset( $crass->result['date'] ) ) : ?>
 
 <div class="alert alert-success">
   
@@ -6,7 +8,7 @@
 
   <blockquote>
     <p>
-      Your card has been renewed until <b><?php echo $GLOBALS['crass_response']->result['date']; ?></b>.
+      Your card has been renewed until <b><?php echo $crass->result['date']; ?></b>.
     </p>
     <p>
       If you have updated your contact information, your changes will not be reflected on your account until they are reviewed by library circulation staff.
@@ -40,8 +42,8 @@
 
 /*
 echo '<pre>';
-print_r($GLOBALS['crass_response']->result);
-//print_r($GLOBALS['crass_response']->request); 
+print_r($crass->result);
+//print_r($crass->request); 
 echo '</pre>';
 */
 ?>

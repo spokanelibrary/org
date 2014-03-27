@@ -1,3 +1,5 @@
+<?php $crass = wp_get_crass_response(); ?>
+
 <div class="well" style="background:transparent;">
 
   <form class="form-horizontal spl-form">
