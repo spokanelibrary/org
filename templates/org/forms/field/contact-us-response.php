@@ -4,7 +4,7 @@
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
-  <h4>We received your message</h4>
+  <h4>We received your message:</h4>
 
   <dl class="dl-horizontal">
 
@@ -15,7 +15,7 @@
       </p>
     </dd>
 
-    <dt>Your Barcode</dt>
+    <dt>Your Library Card</dt>
     <dd>
       <p>
         {{barcode}}
@@ -41,10 +41,10 @@
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
 <?php
-/*
+
 echo '<pre>';
 print_r($GLOBALS['crass_response']->result);
 print_r($GLOBALS['crass_response']->request); 
 echo '</pre>';
-*/
+
 ?>
