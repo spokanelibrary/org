@@ -1,18 +1,19 @@
 <?php if ( isset( $GLOBALS['crass_response']->result['date'] ) ) : ?>
 
 <div class="alert alert-success">
+  
   <h2>Success!</h2>
 
   <blockquote>
     <p>
-      Your card has been renewed until <strong><?php echo $GLOBALS['crass_response']->result['date']; ?></strong>.
+      Your card has been renewed until <b><?php echo $GLOBALS['crass_response']->result['date']; ?></b>.
     </p>
     <p>
       If you have updated your contact information, your changes will not be reflected on your account until they are reviewed by library circulation staff.
     </p>
-</blockquote>
+  </blockquote>
 
-</div>
+</div><!-- /.alert -->
 
 <?php else: ?>
 
@@ -31,7 +32,7 @@
     </p>
   </blockquote>
 
-</div>
+</div><!-- /.alert -->
 
 <?php endif; ?>
 

@@ -1,84 +1,126 @@
-<div class="well" style="background:transparent;">
+<?php 
+  $crass = wp_get_crass_response();
+  if ( !empty($crass) ) {
+    print_r($crass);
+  }
+?>
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <h3>Thank You!</h3>
+  </div><!-- /.panel-heading -->
 
-  <form class="form-horizontal spl-form">
-
-    <div id="spl-form-contact-response">
-      <h3>Processing <small>your message&hellip;</small></h3>
-    </div>
-
-    <!-- this should be a script or move out of js  -->
-    <input type="hidden" 
-            id="spl-form-id" 
-            name="spl-form[id]" 
-            value="contact-response" 
-            data-response-id="<?php echo $GLOBALS['crass_response']->result['id']; ?>" 
-            data-response-contact='<?php echo json_encode($GLOBALS['crass_response']->request); ?>' 
-            />
-  </form>
-
-</div>
-
-<script id="spl-form-contact-response-tmpl" type="text/x-handlebars-template">
-
-<h3>Thank You! <small>We received your message.</small></h3>
-
-{{#with request}}
-
-  <div class="row-fluid">
+  <div class="panel-body">
+    <h4>We received your request:</h4>
     <dl class="dl-horizontal">
 
-    {{#if name}}
+      <?php if( !empty($GLOBALS['crass_response']->request['name']) ) : ?>
       <dt>Your Name</dt>
       <dd>
         <p>
-          {{name}}
+          <?php echo $GLOBALS['crass_response']->request['name']; ?>
         </p>
       </dd>
-    {{/if}}
+      <?php endif; ?>
 
-    {{#if barcode}}
-      <dt>Your Barcode</dt>
+      <?php if( !empty($GLOBALS['crass_response']->request['barcode']) ) : ?>
+      <dt>Your Library Card</dt>
       <dd>
         <p>
-          {{barcode}}
+          <?php echo $GLOBALS['crass_response']->request['barcode']; ?>
         </p>
       </dd>
-    {{/if}}
+      <?php endif; ?>
 
-    {{#if email}}
+      <?php if( !empty($GLOBALS['crass_response']->request['email']) ) : ?>
       <dt>Your Email</dt>
       <dd>
         <p>
-          {{email}}
+          <?php echo $GLOBALS['crass_response']->request['email']; ?>
+        </p>
+      </dd>
+      <?php endif; ?>
+
+      <?php if( !empty($GLOBALS['crass_response']->request['question']) ) : ?>
+      <dt>Your Question</dt>
+      <dd>
+        <p>
+          <?php echo $GLOBALS['crass_response']->request['question']; ?>
+        </p>
+      </dd>
+      <?php endif; ?>
+
+      <?php if( !empty($GLOBALS['crass_response']->request['question']) ) : ?>
+      <dt>Your Question</dt>
+      <dd>
+        <p>
+          <?php echo $GLOBALS['crass_response']->request['question']; ?>
+        </p>
+      </dd>
+      <?php endif; ?>
+
+
+    </dl>
+  </div><!-- /.panel-body -->
+</div><!-- /.panel -->
+
+<?php
+/*
+echo '<pre>';
+//print_r($GLOBALS['crass_response']);
+//print_r($GLOBALS['crass_response']->result);
+print_r($GLOBALS['crass_response']->request); 
+echo '</pre>';
+*/
+?>
+
+    <!--
+    <dt>Type of Request</dt>
+    <dd>
+      <p>
+        {{#compare announcement 'obit'}}Obituary{{else}}Birth Announcement{{/compare}}
+      </p>
+    </dd>
+    -->
+
+    {{#if announcement-name}}
+      <dt>Name(s) to Search</dt>
+      <dd>
+        <p>
+          {{announcement-name.[1]}}
+          <br />
+          {{announcement-name.[2]}}
+          <br />
+          {{announcement-name.[3]}}
         </p>
       </dd>
     {{/if}}
 
-    {{#if message}}
-      <dt>Your Message</dt>
+    {{#if announcement-date}}
+      <dt>Date(s) to Search</dt>
       <dd>
         <p>
-          {{message}}
+          {{announcement-date.[1]}}
+          <br />
+          {{announcement-date.[2]}}
+          <br />
+          {{announcement-date.[3]}}
         </p>
       </dd>
     {{/if}}
+
+
 
     </dl>
 
     <div class="alert alert-info">
       We will respond to your inquiry as soon as possible.
+      <p>
+        Thanks for visiting SPL and using our research services <i class="icon icon-thumbs-up"></i>
+      </p>
     </div>
 
   </div><!-- /.row-fluid -->
 
 {{/with}}
-</script>
 
-<?php
-/*
-echo '<pre>';
-print_r($GLOBALS['crass_response']->result);
-print_r($GLOBALS['crass_response']->request); 
-echo '</pre>';
-*/
-?>
+</script>

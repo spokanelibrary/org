@@ -1,83 +1,57 @@
-<div class="well" style="background:transparent;">
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <h3>Thank You!</h3>
+  </div><!-- /.panel-heading -->
 
-  <form class="form-horizontal spl-form">
-
-    <div id="spl-form-contact-response">
-      <h3>Processing <small>your message&hellip;</small></h3>
-    </div>
-
-    <!-- this should be a script or move out of js  -->
-    <input type="hidden" 
-            id="spl-form-id" 
-            name="spl-form[id]" 
-            value="contact-response" 
-            data-response-id="<?php echo $GLOBALS['crass_response']->result['id']; ?>" 
-            data-response-contact='<?php echo json_encode($GLOBALS['crass_response']->request); ?>' 
-            />
-  </form>
-
-</div>
-
-<script id="spl-form-contact-response-tmpl" type="text/x-handlebars-template">
-
-<h3>Thank You! <small>We received your message.</small></h3>
-
-{{#with request}}
-
-  <div class="row-fluid">
+  <div class="panel-body">
+    <h4>We received your request:</h4>
     <dl class="dl-horizontal">
 
-    {{#if name}}
+      <?php if( !empty($GLOBALS['crass_response']->request['name']) ) : ?>
       <dt>Your Name</dt>
       <dd>
         <p>
-          {{name}}
+          <?php echo $GLOBALS['crass_response']->request['name']; ?>
         </p>
       </dd>
-    {{/if}}
+      <?php endif; ?>
 
-    {{#if barcode}}
-      <dt>Your Barcode</dt>
+      <?php if( !empty($GLOBALS['crass_response']->request['barcode']) ) : ?>
+      <dt>Your Library Card</dt>
       <dd>
         <p>
-          {{barcode}}
+          <?php echo $GLOBALS['crass_response']->request['barcode']; ?>
         </p>
       </dd>
-    {{/if}}
+      <?php endif; ?>
 
-    {{#if email}}
+      <?php if( !empty($GLOBALS['crass_response']->request['email']) ) : ?>
       <dt>Your Email</dt>
       <dd>
         <p>
-          {{email}}
+          <?php echo $GLOBALS['crass_response']->request['email']; ?>
         </p>
       </dd>
-    {{/if}}
+      <?php endif; ?>
 
-    {{#if message}}
-      <dt>Your Message</dt>
+      <?php if( !empty($GLOBALS['crass_response']->request['question']) ) : ?>
+      <dt>Your Question</dt>
       <dd>
         <p>
-          {{message}}
+          <?php echo $GLOBALS['crass_response']->request['question']; ?>
         </p>
       </dd>
-    {{/if}}
+      <?php endif; ?>
 
     </dl>
-
-    <div class="alert alert-info">
-      We will respond to your inquiry as soon as possible.
-    </div>
-
-  </div><!-- /.row-fluid -->
-
-{{/with}}
-</script>
+  </div><!-- /.panel-body -->
+</div><!-- /.panel -->
 
 <?php
 /*
 echo '<pre>';
-print_r($GLOBALS['crass_response']->result);
+//print_r($GLOBALS['crass_response']);
+//print_r($GLOBALS['crass_response']->result);
 print_r($GLOBALS['crass_response']->request); 
 echo '</pre>';
 */
