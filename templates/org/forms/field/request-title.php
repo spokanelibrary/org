@@ -1,6 +1,6 @@
 <?php $bib = get_query_var('bib'); ?>
 
-<?php echo $_SERVER['HTTP_HOST'] ;?
+<?php echo $_SERVER['HTTP_HOST'] ;?>
 
 <div class="row">
 
