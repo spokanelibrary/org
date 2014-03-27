@@ -1,10 +1,40 @@
 <div class="alert alert-success">
-  <h3>Thank You! <small>We received your message.</small></h3>
+  <h3>Thank You!</h3>
 </div>
 
-<div class="row">
+<h4>We received your message</h4>
 
-</div>
+<dl class="dl-horizontal">
+
+  <dt>Your Name</dt>
+  <dd>
+    <p>
+      {{name}}
+    </p>
+  </dd>
+
+  <dt>Your Barcode</dt>
+  <dd>
+    <p>
+      {{barcode}}
+    </p>
+  </dd>
+
+  <dt>Your Email</dt>
+  <dd>
+    <p>
+      {{email}}
+    </p>
+  </dd>
+
+  <dt>Your Message</dt>
+  <dd>
+    <p>
+      {{message}}
+    </p>
+  </dd>
+
+</dl>
 
 <script id="spl-form-contact-response-tmpl" type="text/x-handlebars-template">
 
@@ -16,46 +46,23 @@
     <dl class="dl-horizontal">
 
     {{#if name}}
-      <dt>Your Name</dt>
-      <dd>
-        <p>
-          {{name}}
-        </p>
-      </dd>
+      
     {{/if}}
 
     {{#if barcode}}
-      <dt>Your Barcode</dt>
-      <dd>
-        <p>
-          {{barcode}}
-        </p>
-      </dd>
+      
     {{/if}}
 
     {{#if email}}
-      <dt>Your Email</dt>
-      <dd>
-        <p>
-          {{email}}
-        </p>
-      </dd>
+      
     {{/if}}
 
     {{#if message}}
-      <dt>Your Message</dt>
-      <dd>
-        <p>
-          {{message}}
-        </p>
-      </dd>
+      
     {{/if}}
 
     </dl>
 
-    <div class="alert alert-info">
-      We will respond to your inquiry as soon as possible.
-    </div>
 
   </div><!-- /.row-fluid -->
 
