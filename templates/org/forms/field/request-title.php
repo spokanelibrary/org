@@ -1,10 +1,10 @@
 <?php $bib = get_query_var('bib'); ?>
 
-<div class="row">
+<p class="lead">
+  This is the place to request material the library does not own.
+</p>
 
-  <p class="lead">
-    This is the place to request material the library does not own.
-  </p>
+<div class="row">
 
   <div class="col-sm-6">
     <p>
