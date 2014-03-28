@@ -5,6 +5,6 @@
     <p class="form-control-static">
       How did you hear about this title?
     </p>
-    <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
+    <textarea rows="4" class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
   </div>
 </div><!-- /.form-group -->

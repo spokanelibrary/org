@@ -46,15 +46,27 @@ if ( is_array($title->titleInfo->ISBN) ) {
 
       <div class="row">
         <div class="col-sm-9">
+          
           <div class="form-group">
             <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comments or Questions</label>
             <div class="col-sm-8 col-md-9">
               <p class="form-control-static">
                 How did you hear about this title?
               </p>
-              <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
+              <textarea rows="4" class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
             </div>
           </div><!-- /.form-group -->
+
+          <div class="form-group">
+            <label for="" class="col-sm-4 col-md-3 control-label">Comments or Questions</label>
+            <div class="col-sm-8 col-md-9">
+              <button type="submit" class="btn btn-block btn-success">
+                <small class="glyphicon glyphicon-check"></small>
+                Place Request Now &rarr;
+              </button>
+            </div>
+          </div><!-- /.form-group -->
+
         </div><!-- /.col -->
       </div><!-- /.row -->
 
