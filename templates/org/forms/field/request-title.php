@@ -71,6 +71,7 @@
                 <h5>About Hold Requests</h5>
                 <p>
                   If we purchase your requested title or obtain it through Interlibrary Loan, we will place a Hold Request on your account.
+                  We will notify you when the item is ready for checkout.
                   <br>
                   <b>Please note:</b> We cannot place Hold Requests on downloadable materials.
                 </p>
