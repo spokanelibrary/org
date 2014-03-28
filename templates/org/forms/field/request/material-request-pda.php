@@ -9,6 +9,11 @@
       <p class="lead">
         <?php echo $title->titleInfo->title; ?>
       </p>
+      <p>
+        This title has not yet been purchased by the library. 
+        At your request the library will purchase this item and will place a hold for you. 
+        It may take up to two weeks for the item to be ready for checkout.
+      </p>
     </div><!-- /.panel-body -->
   </div><!-- /.panel -->
 
