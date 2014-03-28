@@ -51,7 +51,7 @@ var org = {
 , initRequestISBN: function(isbn) {
 		if ( isbn ) {
       $.ajax({ 
-        url: _self.api.syndetics
+        url: _self.config.api.syndetics
         ,data: { params : {isbn: isbn} }
       })
       .done(function(data) {
