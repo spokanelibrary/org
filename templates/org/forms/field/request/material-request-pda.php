@@ -18,13 +18,6 @@ if ( is_array($title->titleInfo->ISBN) ) {
         <?php echo $title->titleInfo->title; ?>
       </p>
       <div class="col-sm-9">
-        <div class="alert alert-info">
-          <strong>This title has not yet been purchased by the library.</strong>
-          <br>
-          At your request we will purchase this item and will place a hold for you. 
-          It may take up to two weeks for the item to be ready for checkout.
-        </div><!-- /.alert -->
-
         <p>
           <?php 
           if ( is_array($title->titleInfo->author) ) {
@@ -37,7 +30,14 @@ if ( is_array($title->titleInfo->ISBN) ) {
           }
           ?>
         </p>
-        
+
+        <div class="alert alert-info">
+          <strong>This title has not yet been purchased by the library.</strong>
+          <br>
+          At your request we will purchase this item and will place a hold for you. 
+          It may take up to two weeks for the item to be ready for checkout.
+        </div><!-- /.alert -->
+
         <div id="syndetics-summary"></div>
 
       </div><!-- /.col -->
@@ -57,7 +57,6 @@ if ( is_array($title->titleInfo->ISBN) ) {
 <script id="syndetics-summary-tmpl" type="text/x-handlebars-template">
 {{#if syndetics.summary}}
   {{#unless syndetics.summary.empty}}
-    <hr>
     <h4>About <em>{{syndetics.summary.title}}</em></h4>
     {{syndetics.summary.text}}
   
