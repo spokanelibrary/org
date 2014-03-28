@@ -8,14 +8,17 @@
 
   <div class="col-sm-6">
     <p>
-      We'll do our best to locate, purchase, and catalog the title. 
-      When the item is ready for circulation, we'll place a hold for you if possible. 
+      We review these requests frequently and do our best to locate, purchase, and catalog requested titles. 
+      If a request does not meet our criteria for purchase, we will attempt to obtain the title through Interlibrary Loan <em>(City of Spokane residents only)</em>.      
+    </p>
+    <p>
+      We will place a hold request and notify you when the item is ready for checkout. 
     </p>
   </div><!-- /.col -->
 
   <div class="col-sm-6">
     <p>
-      You can also make Interlibrary Loan Requests for:
+      City of Spokane residents can also make Interlibrary Loan Requests for:
       <ul>
         <li>Genealogical information</li>
         <li>Photocopies of magazine articles</li>
