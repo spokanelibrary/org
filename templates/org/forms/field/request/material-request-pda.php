@@ -4,7 +4,13 @@
     Finalize this request:
   </legend>
 
-  <h3>Patron Driven Acq</h3>
+  <div class="panel panel-primary" style="padding-left-width:5px;">
+    <div class="panel-body">
+      <p class="lead">
+        <?php echo $title->titleInfo->title; ?>
+      </p>
+    </div><!-- /.panel-body -->
+  </div><!-- /.panel -->
 
 </fieldset>
 
