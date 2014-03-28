@@ -72,6 +72,10 @@ if ( is_array($title->titleInfo->ISBN) ) {
     </div><!-- /.panel-body -->
     <div class="panel-footer">
       <input type="text" name="spl-form['title']" value="<?php echo $title->titleInfo->title; ?>">
+      <input type="text" name="spl-form['author']" value="<?php echo $title->titleInfo->author; ?>">
+      <input type="text" name="spl-form['isbn']" value="<?php echo $isbn; ?>">
+      <input type="text" name="spl-form['material']" value="pda">
+      <input type="text" name="spl-form['hold']" value="true">
     </div><!-- /.panel-footer -->
   </div><!-- /.panel -->
 
