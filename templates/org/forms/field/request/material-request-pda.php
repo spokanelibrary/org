@@ -75,17 +75,17 @@ if ( isset($title->titleInfo->ISBN) ) {
     </div><!-- /.panel-body -->
   </div><!-- /.panel -->
 
-  <input type="hidden" name="spl-form['title']" value="<?php echo $title->titleInfo->title; ?>">
-  <input type="hidden" name="spl-form['author']" value="<?php echo $title->titleInfo->author; ?>">
-  <input type="hidden" name="spl-form['isbn']" value="<?php echo $isbn; ?>">
-  <input type="hidden" name="spl-form['material']" value="book">
-  <input type="hidden" name="spl-form['hold']" value="true">
+  <input type="hidden" name="spl-form[title]" value="<?php echo $title->titleInfo->title; ?>">
+  <input type="hidden" name="spl-form[author]" value="<?php echo $title->titleInfo->author; ?>">
+  <input type="hidden" name="spl-form[isbn]" value="<?php echo $isbn; ?>">
+  <input type="hidden" name="spl-form[material]" value="book">
+  <input type="hidden" name="spl-form[hold]" value="true">
 
-  <input type="hidden" name="spl-form['oclc']" value="">
-  <input type="hidden" name="spl-form['publisher']" value="">
-  <input type="hidden" name="spl-form['pubdate']" value="">
-  <input type="hidden" name="spl-form['content']" value="">
-  <input type="hidden" name="spl-form['audience']" value="">
+  <input type="hidden" name="spl-form[oclc]" value="">
+  <input type="hidden" name="spl-form[publisher]" value="">
+  <input type="hidden" name="spl-form[pubdate]" value="">
+  <input type="hidden" name="spl-form[content]" value="">
+  <input type="hidden" name="spl-form[audience]" value="">
 
 </fieldset>
 
