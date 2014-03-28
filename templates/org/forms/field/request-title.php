@@ -18,7 +18,7 @@
 
   <div class="col-sm-4">
     <p>
-      City of Spokane residents can also make Interlibrary Loan Requests for:
+      City of Spokane residents can also make Interlibrary Loan requests for:
       <ul>
         <li>Genealogical information</li>
         <li>Photocopies of magazine articles</li>
