@@ -41,7 +41,17 @@ var org = {
 			this.initRequestItemPanels();
 			this.initOCLC();
 		}
+
+		if ( $('#spl-request-isbn').data('isbn') ) {
+			this.initRequestISBN($('#spl-request-isbn').data('isbn'));
+		}
+
   } // initRequestItem()
+
+, initRequestISBN: function(isbn) {
+		console.log(isbn);
+
+} // initRequestISBN()
 
 , initRequestItemEvents: function() {
 

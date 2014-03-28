@@ -38,18 +38,7 @@ if ( is_array($title->titleInfo->ISBN) ) {
           It may take up to two weeks for the item to be ready for checkout.
         </p>
 
-        <div id="spl-title-page" data-bib="<?php echo $isbn; ?>" data-isbn="<?php echo $isbn; ?>"></div>
-
-        <?php if ( !empty($isbn) ) : ?>
-        <a class="btn btn-default btn-block spl-related-reading-trigger"
-          id="spl-related-reading-trigger-<?php echo $isbn; ?>" 
-          href="#spl-related-reading-<?php echo $isbn; ?>" 
-          data-toggle="collapse"
-          data-parent="#accordion-<?php echo $bib; ?>">
-          <span class="text-primary">
-          <small class="glyphicon glyphicon-leaf text-muted"></small> 
-          Read a summary</span></a>
-        <?php endif; ?>
+        <div id="spl-request-isbn" data-bib="<?php echo $isbn; ?>" data-isbn="<?php echo $isbn; ?>"></div>
 
       </div><!-- /.col -->
       <div class="col-sm-3">
