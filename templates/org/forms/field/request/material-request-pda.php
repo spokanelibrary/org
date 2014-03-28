@@ -21,7 +21,7 @@ if ( isset($title->titleInfo->ISBN) ) {
         <?php echo $title->titleInfo->title; ?>
       </p>
       <div class="row">
-        <div class="col-sm-9">
+        <div class="col-sm-9 col-md-8">
           <p>
             <?php 
             if ( is_array($title->titleInfo->author) ) {
@@ -40,7 +40,7 @@ if ( isset($title->titleInfo->ISBN) ) {
           <div id="syndetics-summary"></div>
 
         </div><!-- /.col -->
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-md-4">
           <?php if ( !empty($isbn) ) : ?>
           <img class="img-responsive img-rounded" style="max-height:260px;" title="'.$bib->title.'" alt="Cover Image" src="http://contentcafe2.btol.com/ContentCafe/jacket.aspx?UserID=ebsco-test&Password=ebsco-test&Return=T&Type=M&Value=<?php echo $isbn; ?>">
           <?php endif ?>
@@ -51,8 +51,8 @@ if ( isset($title->titleInfo->ISBN) ) {
         <div class="col-sm-9">
           
           <div class="form-group">
-            <label for="spl-form-message" class="col-sm-4 control-label">Comments or Questions</label>
-            <div class="col-sm-8">
+            <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comments or Questions</label>
+            <div class="col-sm-8 col-md-9">
               <p class="form-control-static">
                 How did you hear about this title?
               </p>
