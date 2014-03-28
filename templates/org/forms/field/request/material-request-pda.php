@@ -48,7 +48,7 @@ if ( isset($title->titleInfo->ISBN) ) {
       </div><!-- /.row -->
 
       <div class="row">
-        <div class="col-sm-9">
+        <div class="col-sm-9 col-md-8">
           
           <div class="form-group">
             <label for="spl-form-message" class="col-sm-3 col-md-4 control-label">Comments or Questions</label>
