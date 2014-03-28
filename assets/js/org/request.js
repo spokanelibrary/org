@@ -49,7 +49,27 @@ var org = {
   } // initRequestItem()
 
 , initRequestISBN: function(isbn) {
-		console.log(isbn);
+		if (isbn) {
+		$.ajax( { 
+        url: _self.config.endpoint.novelist
+        ,crossDomain: true
+        ,data: { profile: 's8427805.main.novsel'
+                ,password: 'dGJyMOPY8UivprQA'
+                ,version: '2.1'
+                ,ISBN: isbn
+                ,ClientIdentifier: isbn
+                }
+      } )
+      .done(function(data) {
+				console.log(data);
+				//_self.parseNovelistData(data, isbn);
+      })
+      .fail(function() {
+        //parseNovelistData(null);
+      })
+      .always(function() {  
+      });
+  }
 
 } // initRequestISBN()
 
