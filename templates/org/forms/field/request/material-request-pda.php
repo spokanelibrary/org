@@ -11,6 +11,18 @@
       </p>
       <div class="col-sm-9">
         <p>
+          <?php 
+          if ( is_array($title->titleInfo->author) ) {
+            foreach ( $title->titleInfo->author as $author ) {
+              echo '<strong>'.$title->titleInfo->author.'</strong> ';
+            }
+          } elseif ( !is_object($title->titleInfo->author) ) {
+            echo '<span class="text-muted">by</span> ';
+            echo '<strong>'.$title->titleInfo->author.'</strong>';
+          }
+          ?>
+        </p>
+        <p>
           This title has not yet been purchased by the library. 
         </p>
         <p>
