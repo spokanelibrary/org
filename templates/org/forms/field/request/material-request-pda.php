@@ -51,8 +51,8 @@ if ( isset($title->titleInfo->ISBN) ) {
         <div class="col-sm-9">
           
           <div class="form-group">
-            <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comments or Questions</label>
-            <div class="col-sm-8 col-md-9">
+            <label for="spl-form-message" class="col-sm-3 col-md-4 control-label">Comments or Questions</label>
+            <div class="col-sm-9 col-md-8">
               <p class="form-control-static">
                 How did you hear about this title?
               </p>
@@ -61,7 +61,7 @@ if ( isset($title->titleInfo->ISBN) ) {
           </div><!-- /.form-group -->
 
           <div class="form-group">
-            <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
+            <div class="col-sm-9 col-md-8 col-sm-offset-3 col-md-offset-4">
               <button type="submit" class="btn btn-block btn-success">
                 <small class="glyphicon glyphicon-check"></small>
                 Request Now &rarr;
