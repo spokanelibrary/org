@@ -5,7 +5,4 @@ if ( !empty($crass->request) ) {
   } else {
   include 'field/request-title.php';
 }
-echo '<pre>';
-print_r($crass);
-echo '</pre>';
 ?>
