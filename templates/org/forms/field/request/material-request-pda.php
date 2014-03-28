@@ -35,13 +35,6 @@ if ( is_array($title->titleInfo->ISBN) ) {
 
         <div id="syndetics-summary"></div>
 
-        <p>
-          <button type="submit" class="btn btn-block btn-success">
-              <small class="glyphicon glyphicon-check"></small>
-              Request Now &rarr;
-            </button>
-        </p>
-
       </div><!-- /.col -->
       <div class="col-sm-3">
         <?php if ( !empty($isbn) ) : ?>
@@ -49,6 +42,12 @@ if ( is_array($title->titleInfo->ISBN) ) {
         <?php endif ?>
       </div><!-- /.col -->
     </div><!-- /.panel-body -->
+    <div class="panel-footer">
+      <button type="submit" class="btn btn-block btn-success">
+        <small class="glyphicon glyphicon-check"></small>
+        Request Now &rarr;
+      </button>
+    </div><!-- /.panel-footer -->
   </div><!-- /.panel -->
 
 
