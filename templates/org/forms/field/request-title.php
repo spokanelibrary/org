@@ -2,6 +2,18 @@
 
 <div class="row">
 
+  <div class="col-md-6">
+  If we
+  </div><!-- /.col -->
+
+  <div class="col-md-6">
+  And also
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
+
+<div class="row">
+
   <div class="col-md-12">
     <?php echo do_shortcode('[spl_widget login-form label post=self intro="Please login to get started."]'); ?>
 
