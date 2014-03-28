@@ -1,8 +1,8 @@
 <?php $bib = get_query_var('bib'); ?>
 
-<p class="lead">
+<h4>
   This is the place to request material the library does not own.
-</p>
+</h4>
 
 <div class="row">
 
