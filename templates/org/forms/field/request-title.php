@@ -9,7 +9,7 @@
   <div class="col-sm-6">
     <p>
       We review these requests frequently and do our best to locate, purchase, and catalog requested titles. 
-      If a request does not meet our criteria for purchase, we will attempt to obtain the title through Interlibrary Loan <em>(City of Spokane residents only)</em>.      
+      If we elect not to purchase a title, we will attempt to obtain it through Interlibrary Loan <em>(City of Spokane residents only)</em>.      
     </p>
     <p>
       We will place a hold request and notify you when the item is ready for checkout. 
