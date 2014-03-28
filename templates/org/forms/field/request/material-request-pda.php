@@ -1,10 +1,13 @@
 <?php 
 $isbn = null;
-if ( is_array($title->titleInfo->ISBN) ) {
-  $isbn = $title->titleInfo->ISBN[0];
-} elseif ( !is_object($title->titleInfo->author) ) {
-  $isbn = $title->titleInfo->ISBN;
+if ( isset($title->titleInfo->ISBN) ) {
+  if ( is_array($title->titleInfo->ISBN) ) {
+    $isbn = $title->titleInfo->ISBN[0];
+  } elseif ( !is_object($title->titleInfo->author) ) {
+    $isbn = $title->titleInfo->ISBN;
+  }
 }
+
 ?>
 <fieldset>
   <legend class="text-muted">
