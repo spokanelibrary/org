@@ -3,7 +3,7 @@ $isbn = null;
 if ( isset($title->titleInfo->ISBN) ) {
   if ( is_array($title->titleInfo->ISBN) ) {
     $isbn = $title->titleInfo->ISBN[0];
-  } elseif ( !is_object($title->titleInfo->author) ) {
+  } elseif ( !is_object($title->titleInfo->isbn) ) {
     $isbn = $title->titleInfo->ISBN;
   }
 }
