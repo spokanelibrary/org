@@ -15,8 +15,7 @@ if ( isset($title->titleInfo->ISBN) ) {
     Finalize this request:
   </legend>
 
-  <div class="panel panel-primary" style="border-left-width:5px;">
-    <div class="panel-body">
+
       <p class="lead">
         <?php echo $title->titleInfo->title; ?>
       </p>
@@ -74,8 +73,6 @@ if ( isset($title->titleInfo->ISBN) ) {
         </div><!-- /.col -->
       </div><!-- /.row -->
 
-    </div><!-- /.panel-body -->
-  </div><!-- /.panel -->
 
   <input type="hidden" name="spl-form[title]" value="<?php echo $title->titleInfo->title; ?>">
   <input type="hidden" name="spl-form[author]" value="<?php echo $title->titleInfo->author; ?>">
