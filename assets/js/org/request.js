@@ -66,7 +66,7 @@ var org = {
 } // initRequestISBN()
 
 , parseSyndeticsData: function(data, isbn) {
-		//console.log(data);
+		console.log(data);
     $summary = $('#syndetics-summary-'+isbn);
     tmpl = Handlebars.compile( $("#syndetics-summary-tmpl").html() );
     $summary.html( tmpl({syndetics:data}) );
