@@ -17,30 +17,32 @@ if ( is_array($title->titleInfo->ISBN) ) {
       <p class="lead">
         <?php echo $title->titleInfo->title; ?>
       </p>
-      <div class="col-sm-9">
-        <p>
-          <?php 
-          if ( is_array($title->titleInfo->author) ) {
-            foreach ( $title->titleInfo->author as $author ) {
-              echo '<strong>'.$title->titleInfo->author.'</strong> ';
+      <div class="row">
+        <div class="col-sm-9">
+          <p>
+            <?php 
+            if ( is_array($title->titleInfo->author) ) {
+              foreach ( $title->titleInfo->author as $author ) {
+                echo '<strong>'.$title->titleInfo->author.'</strong> ';
+              }
+            } elseif ( !is_object($title->titleInfo->author) ) {
+              echo '<span class="text-muted">by</span> ';
+              echo '<strong>'.$title->titleInfo->author.'</strong>';
             }
-          } elseif ( !is_object($title->titleInfo->author) ) {
-            echo '<span class="text-muted">by</span> ';
-            echo '<strong>'.$title->titleInfo->author.'</strong>';
-          }
-          ?>
-        </p>
-        
-        <div id="spl-form-request-holding"></div>
+            ?>
+          </p>
+          
+          <div id="spl-form-request-holding"></div>
 
-        <div id="syndetics-summary"></div>
+          <div id="syndetics-summary"></div>
 
-      </div><!-- /.col -->
-      <div class="col-sm-3">
-        <?php if ( !empty($isbn) ) : ?>
-        <img class="img-responsive img-rounded" style="max-height:260px;" title="'.$bib->title.'" alt="Cover Image" src="http://contentcafe2.btol.com/ContentCafe/jacket.aspx?UserID=ebsco-test&Password=ebsco-test&Return=T&Type=M&Value=<?php echo $isbn; ?>">
-        <?php endif ?>
-      </div><!-- /.col -->
+        </div><!-- /.col -->
+        <div class="col-sm-3">
+          <?php if ( !empty($isbn) ) : ?>
+          <img class="img-responsive img-rounded" style="max-height:260px;" title="'.$bib->title.'" alt="Cover Image" src="http://contentcafe2.btol.com/ContentCafe/jacket.aspx?UserID=ebsco-test&Password=ebsco-test&Return=T&Type=M&Value=<?php echo $isbn; ?>">
+          <?php endif ?>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
     </div><!-- /.panel-body -->
     <div class="panel-footer">
       <div class="row">
@@ -63,8 +65,9 @@ if ( is_array($title->titleInfo->ISBN) ) {
 {{#if syndetics.summary}}
   {{#unless syndetics.summary.empty}}
     <h4>About <em>{{syndetics.summary.title}}</em></h4>
+    <p>
     {{syndetics.summary.text}}
-  
+    </p>
   {{else}}
     <p>
       No summary available.
