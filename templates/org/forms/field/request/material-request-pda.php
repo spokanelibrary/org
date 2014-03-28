@@ -12,6 +12,14 @@ if ( is_array($title->titleInfo->ISBN) ) {
     Finalize this request:
   </legend>
 
+  <div class="alert alert-info">
+    This title has not yet been purchased by the library. 
+  </div><!-- /.alert -->
+  <p>
+    At your request the library will purchase this item and will place a hold for you. 
+    It may take up to two weeks for the item to be ready for checkout.
+  </p>
+
   <div class="panel panel-primary" style="border-left-width:5px;">
     <div class="panel-body">
       <p class="lead">
@@ -30,14 +38,7 @@ if ( is_array($title->titleInfo->ISBN) ) {
           }
           ?>
         </p>
-        <p>
-          This title has not yet been purchased by the library. 
-        </p>
-        <p>
-          At your request the library will purchase this item and will place a hold for you. 
-          It may take up to two weeks for the item to be ready for checkout.
-        </p>
-
+        
         <div id="syndetics-summary"></div>
 
       </div><!-- /.col -->
