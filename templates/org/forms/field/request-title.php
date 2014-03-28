@@ -8,7 +8,6 @@
 
   <div class="col-sm-6">
     <p>
-      You can request that the library obtain material it does not own.
       We'll do our best to locate, purchase, and catalog the title. 
       When the item is ready for circulation, we'll place a hold for you if possible. 
     </p>
@@ -16,7 +15,12 @@
 
   <div class="col-sm-6">
     <p>
-      You can also make Interlibrary Loan Requests for genealogical information, photocopies of magazine articles, or newspaper microfilm. 
+      You can also make Interlibrary Loan Requests for:
+      <ul>
+        <li>Genealogical information</li>
+        <li>Photocopies of magazine articles</li>
+        <li>Newspaper microfilm</li>
+      </ul>
     </p>
   </div><!-- /.col -->
 
