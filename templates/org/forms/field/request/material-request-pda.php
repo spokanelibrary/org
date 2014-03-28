@@ -38,7 +38,7 @@ if ( is_array($title->titleInfo->ISBN) ) {
           It may take up to two weeks for the item to be ready for checkout.
         </p>
 
-        <div id="spl-request-isbn" data-bib="<?php echo $isbn; ?>" data-isbn="<?php echo $isbn; ?>"></div>
+        <div id="syndetics-summary"></div>
 
       </div><!-- /.col -->
       <div class="col-sm-3">
@@ -47,7 +47,30 @@ if ( is_array($title->titleInfo->ISBN) ) {
     </div><!-- /.panel-body -->
   </div><!-- /.panel -->
 
+
 </fieldset>
+
+<div id="spl-request-isbn" data-bib="<?php echo $isbn; ?>" data-isbn="<?php echo $isbn; ?>"></div>
+
+<script id="syndetics-summary-tmpl" type="text/x-handlebars-template">
+{{#if syndetics.summary}}
+  {{#unless syndetics.summary.empty}}
+  
+    <h4>About <em>{{syndetics.summary.title}}</em></h4>
+    {{syndetics.summary.text}}
+    <hr />
+  
+  {{else}}
+    <p>
+      No summary available.
+    </p>
+  {{/unless}}
+{{else}}
+  <p>
+    No summary available.
+  </p>
+{{/if}}
+</script>
 
 <?php
 echo '<pre>';
