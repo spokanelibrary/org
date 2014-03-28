@@ -51,8 +51,8 @@ if ( isset($title->titleInfo->ISBN) ) {
         <div class="col-sm-9">
           
           <div class="form-group">
-            <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comments or Questions</label>
-            <div class="col-sm-8 col-md-9">
+            <label for="spl-form-message" class="col-sm-4control-label">Comments or Questions</label>
+            <div class="col-sm-8">
               <p class="form-control-static">
                 How did you hear about this title?
               </p>
