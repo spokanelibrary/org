@@ -42,7 +42,7 @@ if ( is_array($title->titleInfo->ISBN) ) {
 
       </div><!-- /.col -->
       <div class="col-sm-3">
-        fpo
+        fpo <?php echo $isbn; ?>
       </div><!-- /.col -->
     </div><!-- /.panel-body -->
   </div><!-- /.panel -->
