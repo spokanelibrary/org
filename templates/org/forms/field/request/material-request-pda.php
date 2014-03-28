@@ -45,7 +45,7 @@ if ( is_array($title->titleInfo->ISBN) ) {
     <div class="panel-footer">
       <button type="submit" class="btn btn-block btn-success">
         <small class="glyphicon glyphicon-check"></small>
-        Request Now &rarr;
+        Place Request Now &rarr;
       </button>
     </div><!-- /.panel-footer -->
   </div><!-- /.panel -->
@@ -74,10 +74,11 @@ if ( is_array($title->titleInfo->ISBN) ) {
 </script>
 
 <?php
+/*
 echo '<pre>';
 print_r($title);
 echo '</pre>';
-
+*/
 ?>
 
 
