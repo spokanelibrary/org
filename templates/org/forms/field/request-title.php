@@ -6,9 +6,9 @@
 
 <div class="row">
 
-  <div class="col-sm-6">
+  <div class="col-sm-8">
     <p>
-      We review these requests frequently and do our best to locate, purchase, and catalog requested titles. 
+      We review these requests frequently and do our best to locate, purchase, and catalog requested material. 
       If we elect not to purchase a title, we will attempt to obtain it through Interlibrary Loan <em>(City of Spokane residents only)</em>.      
     </p>
     <p>
@@ -16,7 +16,7 @@
     </p>
   </div><!-- /.col -->
 
-  <div class="col-sm-6">
+  <div class="col-sm-4">
     <p>
       City of Spokane residents can also make Interlibrary Loan Requests for:
       <ul>
