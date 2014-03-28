@@ -55,10 +55,9 @@ if ( is_array($title->titleInfo->ISBN) ) {
 <script id="syndetics-summary-tmpl" type="text/x-handlebars-template">
 {{#if syndetics.summary}}
   {{#unless syndetics.summary.empty}}
-  
+    <hr>
     <h4>About <em>{{syndetics.summary.title}}</em></h4>
     {{syndetics.summary.text}}
-    <hr />
   
   {{else}}
     <p>
