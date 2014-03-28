@@ -1,7 +1,5 @@
 <?php $bib = get_query_var('bib'); ?>
 
-<?php echo $_SERVER['HTTP_HOST'] ;?>
-
 <div class="row">
 
   <div class="col-md-12">
@@ -84,16 +82,8 @@
 
           <?php 
           if ( !empty($bib) ) {
-            echo '<pre>';
-            $api = 'http://api.spokanelibrary.org/v2/hzws/lookup';
-            $params = array('bib'=>$bib);
-            $title = json_decode(
-                      SPL_Widget::curlPostProxy($api, array('params'=>$params))
-                    );
-
-            print_r($title);
-            //print_r( SPL_Widget::curlPostProxy('http://api.spokanelibrary.org/v2/hzws/lookup?params[bib]=12345') );
-            echo '</pre>';
+            $title = SPL_Widget::getBib($bib);
+            include 'request/material-request-pda.php';
           } else {
             include 'request/material-choose.php';
             include 'request/material-panels.php'; 
