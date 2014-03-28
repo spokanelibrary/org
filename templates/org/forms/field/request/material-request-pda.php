@@ -43,12 +43,14 @@ if ( is_array($title->titleInfo->ISBN) ) {
       </div><!-- /.col -->
     </div><!-- /.panel-body -->
     <div class="panel-footer">
-      <div class="col-sm-9">
-        <button type="submit" class="btn btn-block btn-success">
-          <small class="glyphicon glyphicon-check"></small>
-          Place Request Now &rarr;
-        </button>
-      </div><!-- /.col -->
+      <div class="row">
+        <div class="col-sm-9">
+          <button type="submit" class="btn btn-block btn-success">
+            <small class="glyphicon glyphicon-check"></small>
+            Place Request Now &rarr;
+          </button>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
     </div><!-- /.panel-footer -->
   </div><!-- /.panel -->
 
