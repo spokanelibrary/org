@@ -2,15 +2,22 @@
 
 <div class="row">
 
+  <p class="lead">
+    This is the place to request material the library does not own.
+  </p>
+
   <div class="col-sm-6">
-    You can request that the library obtain material it does not own.
-     We'll do our best to locate, purchase, and catalog the title. 
-     When the item is ready for circulation, we'll place a hold for you if possible. 
+    <p>
+      You can request that the library obtain material it does not own.
+      We'll do our best to locate, purchase, and catalog the title. 
+      When the item is ready for circulation, we'll place a hold for you if possible. 
+    </p>
   </div><!-- /.col -->
 
   <div class="col-sm-6">
-  You can also make Interlibrary Loan Requests for genealogical information, photocopies of magazine articles, or newspaper microfilm. 
-  
+    <p>
+      You can also make Interlibrary Loan Requests for genealogical information, photocopies of magazine articles, or newspaper microfilm. 
+    </p>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
