@@ -30,6 +30,8 @@ if ( is_array($title->titleInfo->ISBN) ) {
           }
           ?>
         </p>
+        
+        <div id="spl-form-request-holding"></div>
 
         <div class="alert alert-info">
           <strong>This title has not yet been purchased by the library.</strong>

@@ -319,25 +319,6 @@
 </div>
 </script>
 
-<!-- tmpl: oclc holding found -->
-<script id="spl-form-request-holding-tmpl" type="text/x-handlebars-template">
-<div class="alert alert-warning">
-  
-  <button type="button" class="close" data-dismiss="alert">×</button>
-  
-  <h5>Wait just a minute&hellip;</h5>
-  <p>
-    It looks like we have that item in our catalog. 
-    <br />
-    We would really appreciate it if you could <a rel="external" href="http://search.spokanelibrary.org/isbn/{{isbn}}">check this link</a> before proceeding.
-  </p>
-  <p>
-    <em>Thanks!</em>
-  </p>
-</div><!-- /.alert -->
-<input type="hidden" id="spl-form-holding" name="spl-form[holding]" value="true" /> 
-</script>
-
 <!-- tmpl: oclc search results -->
 <script id="oclc-results-tmpl" type="text/x-handlebars-template">
 <div class="modal-dialog">

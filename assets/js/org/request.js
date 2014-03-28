@@ -49,6 +49,8 @@ var org = {
   } // initRequestItem()
 
 , initRequestISBN: function(isbn) {
+		this.checkISBNHolding( isbn );
+
 		if ( isbn ) {
       $.ajax({ 
         url: _self.config.api.syndetics
