@@ -39,17 +39,6 @@ if ( isset($title->titleInfo->ISBN) ) {
 
           <div id="syndetics-summary"></div>
 
-        </div><!-- /.col -->
-        <div class="col-sm-3 col-md-4">
-          <?php if ( !empty($isbn) ) : ?>
-          <img class="img-responsive img-rounded" style="max-height:260px;" title="'.$bib->title.'" alt="Cover Image" src="http://contentcafe2.btol.com/ContentCafe/jacket.aspx?UserID=ebsco-test&Password=ebsco-test&Return=T&Type=M&Value=<?php echo $isbn; ?>">
-          <?php endif ?>
-        </div><!-- /.col -->
-      </div><!-- /.row -->
-
-      <div class="row">
-        <div class="col-sm-9 col-md-8">
-          
           <div class="form-group">
             <label for="spl-form-message" class="col-sm-3 col-md-4 control-label">Comments or Questions</label>
             <div class="col-sm-9 col-md-8">
@@ -68,6 +57,19 @@ if ( isset($title->titleInfo->ISBN) ) {
               </button>
             </div>
           </div><!-- /.form-group -->
+
+        </div><!-- /.col -->
+        <div class="col-sm-3 col-md-4">
+          <?php if ( !empty($isbn) ) : ?>
+          <img class="img-responsive img-rounded" style="max-height:260px;" title="'.$bib->title.'" alt="Cover Image" src="http://contentcafe2.btol.com/ContentCafe/jacket.aspx?UserID=ebsco-test&Password=ebsco-test&Return=T&Type=M&Value=<?php echo $isbn; ?>">
+          <?php endif ?>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+
+      <div class="row">
+        <div class="col-sm-9 col-md-8">
+          
+          
 
         </div><!-- /.col -->
       </div><!-- /.row -->
