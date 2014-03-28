@@ -42,6 +42,16 @@ if ( is_array($title->titleInfo->ISBN) ) {
         <?php endif ?>
       </div><!-- /.col -->
     </div><!-- /.panel-body -->
+    <div class="panel-footer">
+      <div class="form-group">
+        <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
+          <button type="submit" class="btn btn-block btn-success">
+            <small class="glyphicon glyphicon-check"></small>
+            Request Now &rarr;
+          </button>
+        </div>
+      </div> 
+    </div>
   </div><!-- /.panel -->
 
 
