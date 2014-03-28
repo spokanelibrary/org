@@ -61,7 +61,7 @@ if ( is_array($title->titleInfo->ISBN) ) {
             <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
               <button type="submit" class="btn btn-block btn-success">
                 <small class="glyphicon glyphicon-check"></small>
-                Place Request Now &rarr;
+                Request Now &rarr;
               </button>
             </div>
           </div><!-- /.form-group -->
@@ -71,18 +71,11 @@ if ( is_array($title->titleInfo->ISBN) ) {
 
     </div><!-- /.panel-body -->
     <div class="panel-footer">
-      <div class="row">
-        <div class="col-sm-7 col-sm-offset-2">
-          <button type="submit" class="btn btn-block btn-success">
-            <small class="glyphicon glyphicon-check"></small>
-            Place Request Now &rarr;
-          </button>
-        </div><!-- /.col -->
-      </div><!-- /.row -->
+      <input type="text" name="spl-form['title']" value="<?php echo $title->titleInfo->title; ?>">
     </div><!-- /.panel-footer -->
   </div><!-- /.panel -->
 
-  <input type="text" name="spl-form[]">
+  
 
 </fieldset>
 
