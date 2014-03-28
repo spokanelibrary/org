@@ -58,7 +58,6 @@ if ( is_array($title->titleInfo->ISBN) ) {
           </div><!-- /.form-group -->
 
           <div class="form-group">
-            <label for="" class="col-sm-4 col-md-3 control-label">Comments or Questions</label>
             <div class="col-sm-8 col-md-9">
               <button type="submit" class="btn btn-block btn-success">
                 <small class="glyphicon glyphicon-check"></small>
