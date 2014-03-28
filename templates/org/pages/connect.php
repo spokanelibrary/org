@@ -93,7 +93,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <p>
-              Not yet implemented.
+              This is the place to request material the library does not own.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
