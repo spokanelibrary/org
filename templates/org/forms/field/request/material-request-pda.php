@@ -21,10 +21,10 @@ if ( is_array($title->titleInfo->ISBN) ) {
         <div class="alert alert-info">
           <strong>This title has not yet been purchased by the library.</strong>
           <br>
-          At your request the library will purchase this item and will place a hold for you. 
+          At your request we will purchase this item and will place a hold for you. 
           It may take up to two weeks for the item to be ready for checkout.
         </div><!-- /.alert -->
-        
+
         <p>
           <?php 
           if ( is_array($title->titleInfo->author) ) {
