@@ -77,6 +77,7 @@ if ( isset($title->titleInfo->ISBN) ) {
   <input type="hidden" name="spl-form[title]" value="<?php echo $title->titleInfo->title; ?>">
   <input type="hidden" name="spl-form[author]" value="<?php echo $title->titleInfo->author; ?>">
   <input type="hidden" name="spl-form[isbn]" value="<?php echo $isbn; ?>">
+  <input type="hidden" name="spl-form[url]" value="http://www.spokanelibrary.org/bib/<?php echo $bib; ?>">
   <input type="hidden" name="spl-form[material]" value="pda">
   <input type="hidden" name="spl-form[hold]" value="true">
 
