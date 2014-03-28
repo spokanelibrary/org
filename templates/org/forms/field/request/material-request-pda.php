@@ -33,13 +33,6 @@ if ( is_array($title->titleInfo->ISBN) ) {
         
         <div id="spl-form-request-holding"></div>
 
-        <div class="alert alert-info">
-          <strong>This title has not yet been purchased by the library.</strong>
-          <br>
-          At your request we will purchase this item and will place a hold for you. 
-          It may take up to two weeks for the item to be ready for checkout.
-        </div><!-- /.alert -->
-
         <div id="syndetics-summary"></div>
 
       </div><!-- /.col -->
