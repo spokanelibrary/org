@@ -40,9 +40,8 @@ if ( is_array($title->titleInfo->ISBN) ) {
               <small class="glyphicon glyphicon-check"></small>
               Request Now &rarr;
             </button>
-          </div>
         </p>
-        
+
       </div><!-- /.col -->
       <div class="col-sm-3">
         <?php if ( !empty($isbn) ) : ?>
