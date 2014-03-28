@@ -4,7 +4,7 @@
     Finalize this request:
   </legend>
 
-  <div class="panel panel-primary" style="padding-left-width:5px;">
+  <div class="panel panel-primary" style="border-left-width:5px;">
     <div class="panel-body">
       <p class="lead">
         <?php echo $title->titleInfo->title; ?>
