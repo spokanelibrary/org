@@ -61,7 +61,7 @@ if ( is_array($title->titleInfo->ISBN) ) {
     </div><!-- /.panel-body -->
     <div class="panel-footer">
       <div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
+        <div class="col-sm-7 col-sm-offset-2">
           <button type="submit" class="btn btn-block btn-success">
             <small class="glyphicon glyphicon-check"></small>
             Place Request Now &rarr;
