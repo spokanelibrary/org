@@ -43,6 +43,18 @@ if ( is_array($title->titleInfo->ISBN) ) {
           <?php endif ?>
         </div><!-- /.col -->
       </div><!-- /.row -->
+
+      <div class="form-group">
+        <label for="spl-form-message" class="col-sm-4 col-md-3 control-label">Comments or Questions</label>
+        <div class="col-sm-8 col-md-9">
+          <p class="form-control-static">
+            How did you hear about this title?
+          </p>
+          <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
+        </div>
+      </div><!-- /.form-group -->
+
+      
     </div><!-- /.panel-body -->
     <div class="panel-footer">
       <div class="row">
@@ -56,6 +68,7 @@ if ( is_array($title->titleInfo->ISBN) ) {
     </div><!-- /.panel-footer -->
   </div><!-- /.panel -->
 
+  <input type="text" name="spl-form[]">
 
 </fieldset>
 
