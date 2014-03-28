@@ -2,12 +2,15 @@
 
 <div class="row">
 
-  <div class="col-md-6">
-  If we
+  <div class="col-sm-6">
+    You can request that the library obtain material it does not own.
+     We'll do our best to locate, purchase, and catalog the title. 
+     When the item is ready for circulation, we'll place a hold for you if possible. 
   </div><!-- /.col -->
 
-  <div class="col-md-6">
-  And also
+  <div class="col-sm-6">
+  You can also make Interlibrary Loan Requests for genealogical information, photocopies of magazine articles, or newspaper microfilm. 
+  
   </div><!-- /.col -->
 
 </div><!-- /.row -->
