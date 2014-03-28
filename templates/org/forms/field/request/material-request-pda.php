@@ -81,12 +81,6 @@ if ( isset($title->titleInfo->ISBN) ) {
   <input type="hidden" name="spl-form[material]" value="pda">
   <input type="hidden" name="spl-form[hold]" value="true">
 
-  <input type="hidden" name="spl-form[oclc]" value="">
-  <input type="hidden" name="spl-form[publisher]" value="">
-  <input type="hidden" name="spl-form[pubdate]" value="">
-  <input type="hidden" name="spl-form[content]" value="">
-  <input type="hidden" name="spl-form[audience]" value="">
-
 </fieldset>
 
 <div id="spl-request-isbn" data-bib="<?php echo $isbn; ?>" data-isbn="<?php echo $isbn; ?>"></div>
