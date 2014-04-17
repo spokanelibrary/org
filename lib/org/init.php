@@ -69,7 +69,7 @@ function spl_scrollspy($params) {
                 //$active = 'active';
             endif;
 
-            $output = $post->id;
+            $output = $post->ID;
             //$spl_panel['title'] = get_post_meta( $post->ID, '_cmb_secondary_content_title', true );
             //$spl_panel['subtitle'] = get_post_meta( $post->ID, '_cmb_secondary_content_subtitle', true );
             //$spl_panel['secondary'] = wpautop(get_post_meta( $post->ID, '_cmb_secondary_content', true ));
