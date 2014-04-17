@@ -109,12 +109,12 @@ function spl_resources( $params ) {
                       <h4>
                       '.$proxy.'
                       </h4>
-                      '.do_shortcode( get_the_content() ).''.PHP_EOL.
-                      '</div>'.PHP_EOL.
-                      '<p class="text-right">'.PHP_EOL.
-                      '<a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>'.PHP_EOL.
-                      '</p>'.PHP_EOL.
-                      '</div>'.PHP_EOL;  
+                      '.do_shortcode( get_the_content() ).''.PHP_EOL.'
+                      <p class="text-right">
+                      <a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
+                      </p>
+                      </div>
+                      </div>'.PHP_EOL;  
 
       endwhile; 
       $nav .= '</ul>'.PHP_EOL; 
