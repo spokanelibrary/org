@@ -112,9 +112,9 @@ function spl_resources( $params ) {
                       </div>
                       <div class="panel-body">
                       '.do_shortcode( get_the_content() ).''.PHP_EOL.'
+                      </div>
                       <div class="panel-footer">
                       <a class="btn btn-sm btn-primary pull-right" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
-                      </div>
                       </div>
                       </div>'.PHP_EOL;  
 
