@@ -85,7 +85,10 @@ function spl_resources( $params ) {
           $nav .= '<li role="menuitem" class="'. $active . '"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
           $dropdown .= '<li role="menuitem"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
 
-          $output .= '<div class="panel panel-default" id="'.$post->post_name.'">
+          
+
+          $output .= '<div class="col-md-6"
+                      <div class="panel panel-default" id="'.$post->post_name.'">
                       <div class="panel-heading">
                       <div class="panel-title">
                       <h4 class="text-primary">'.get_the_title().'</h4> 
@@ -97,7 +100,9 @@ function spl_resources( $params ) {
                       '<div class="panel-footer text-right">'.PHP_EOL.
                       '<a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>'.PHP_EOL.
                       '</div>'.PHP_EOL.
+                      '</div>'.PHP_EOL.
                       '</div>'.PHP_EOL;  
+
       endwhile; 
       $nav .= '</ul>'.PHP_EOL; 
 
