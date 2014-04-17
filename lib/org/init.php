@@ -87,7 +87,7 @@ function spl_resources( $params ) {
 
           
 
-          $output .= '<div class="col-md-6"
+          $output .= '<div class="col-md-6>"
                       <div class="panel panel-default" id="'.$post->post_name.'">
                       <div class="panel-heading">
                       <div class="panel-title">
