@@ -74,11 +74,12 @@ function spl_resources( $params ) {
           $link['url'] = get_post_meta( $post->ID, '_cmb_secondary_proxy_url', true );
           if ( is_array($link) && !empty($link['url']) ) {
             if ( empty($link['text']) ) {
-              $link['text'] = $link['url'];
+
+              $link['text'] = get_the_title();
             }
-            $proxy .= '<p>' . PHP_EOL;
             $proxy .= '<a href="'.$link['url'].'">'.$link['text'].'</a>' . PHP_EOL;
-            $proxy .= '</p>' . PHP_EOL;
+          } else {
+            $proxy = get_the_title();
           }
 
 
@@ -86,7 +87,7 @@ function spl_resources( $params ) {
           $dropdown .= '<li role="menuitem"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
 
           
-
+          /*
           $output .= '
                       <div class="panel panel-default" id="'.$post->post_name.'">
                       <div class="panel-heading">
@@ -96,6 +97,19 @@ function spl_resources( $params ) {
                       </div>
                       <div class="panel-body">
                       '.$proxy.do_shortcode( get_the_content() ).''.PHP_EOL.
+                      '</div>'.PHP_EOL.
+                      '<div class="panel-footer text-right">'.PHP_EOL.
+                      '<a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>'.PHP_EOL.
+                      '</div>'.PHP_EOL.
+                      '</div>'.PHP_EOL;  
+          */
+          $output .= '
+                      <div class="panel panel-default" id="'.$post->post_name.'">
+                      <div class="panel-body">
+                      <h4>
+                      '.$proxy.'
+                      </h4>
+                      '.do_shortcode( get_the_content() ).''.PHP_EOL.
                       '</div>'.PHP_EOL.
                       '<div class="panel-footer text-right">'.PHP_EOL.
                       '<a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>'.PHP_EOL.
