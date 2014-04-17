@@ -77,8 +77,11 @@ function spl_scrollspy($params) {
               if ( empty($link['text']) ) {
                 $link['text'] = $link['url'];
               }
+              $proxy .= '<p>' . PHP_EOL;
               $proxy .= '<a href="'.$link['url'].'">'.$link['text'].'</a>' . PHP_EOL;
+              $proxy .= '</p>' . PHP_EOL;
             }
+
 
             $nav .= '<li role="menuitem" class="'. $active . '"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
             $dropdown .= '<li role="menuitem"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
@@ -90,7 +93,7 @@ function spl_scrollspy($params) {
                         </div>
                         </div>
                         <div class="panel-body">
-                        '.do_shortcode( get_the_content() ).''.PHP_EOL.
+                        '.$proxy.do_shortcode( get_the_content() ).''.PHP_EOL.
                         '</div>'.PHP_EOL.
                         '<div class="panel-footer text-right">'.PHP_EOL.
                         '<a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>'.PHP_EOL.
