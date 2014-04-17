@@ -87,7 +87,7 @@ function spl_resources( $params ) {
 
           
 
-          $output .= '<div class="col-md-6">
+          $output .= '
                       <div class="panel panel-default" id="'.$post->post_name.'">
                       <div class="panel-heading">
                       <div class="panel-title">
@@ -99,7 +99,6 @@ function spl_resources( $params ) {
                       '</div>'.PHP_EOL.
                       '<div class="panel-footer text-right">'.PHP_EOL.
                       '<a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>'.PHP_EOL.
-                      '</div>'.PHP_EOL.
                       '</div>'.PHP_EOL.
                       '</div>'.PHP_EOL;  
 
