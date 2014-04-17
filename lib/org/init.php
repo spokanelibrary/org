@@ -111,9 +111,6 @@ function spl_resources( $params ) {
                       </h4>
                       '.do_shortcode( get_the_content() ).''.PHP_EOL.
                       '</div>'.PHP_EOL.
-                      '<div class="panel-footer text-right">'.PHP_EOL.
-                      '<a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>'.PHP_EOL.
-                      '</div>'.PHP_EOL.
                       '</div>'.PHP_EOL;  
 
       endwhile; 
