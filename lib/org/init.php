@@ -107,7 +107,7 @@ function spl_resources( $params ) {
                       <div class="panel panel-default" id="'.$post->post_name.'">
                       <div class="panel-heading panel-transparent">
                       <h4>
-                      '.$proxy.PHP_EOL.'
+                      '.$title.PHP_EOL.'
                       </h4>
                       </div>
                       <div class="panel-body">
