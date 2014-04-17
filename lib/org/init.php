@@ -105,10 +105,12 @@ function spl_resources( $params ) {
           */
           $output .= '
                       <div class="panel panel-default" id="'.$post->post_name.'">
-                      <div class="panel-body">
+                      <div class="panel-heading panel-transparent">
                       <h4>
-                      '.$proxy.'
+                      '.$proxy.PHP_EOL.'
                       </h4>
+                      </div>
+                      <div class="panel-body">
                       '.do_shortcode( get_the_content() ).''.PHP_EOL.'
                       <div class="text-right">
                       <a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
