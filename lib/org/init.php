@@ -181,7 +181,7 @@ function spl_secondary_metaboxes( $meta_boxes ) {
   $meta_boxes[] = array('id' => 'spl_secondary_proxy'
                       , 'title' => 'Proxy Link'
                       , 'pages' => array('page') // post type
-                      , 'show_on' => array( 'key' => 'page-template', 'value' => 'template-scrollspy.php' )
+                      , 'show_on' => array( 'key' => 'page-template', 'value' => 'template-proxy.php' )
                       , 'context' => 'normal'
                       , 'priority' => 'high'
                       , 'show_names' => true // Show field names on the left
