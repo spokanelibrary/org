@@ -69,11 +69,16 @@ function spl_scrollspy($params) {
                 //$active = 'active';
             endif;
 
-            $output = $post->ID;
-            //$spl_panel['title'] = get_post_meta( $post->ID, '_cmb_secondary_content_title', true );
-            //$spl_panel['subtitle'] = get_post_meta( $post->ID, '_cmb_secondary_content_subtitle', true );
-            //$spl_panel['secondary'] = wpautop(get_post_meta( $post->ID, '_cmb_secondary_content', true ));
-
+            $link = array();
+            $proxy = '';
+            $link['text'] = get_post_meta( $post->ID, '_cmb_secondary_proxy_text', true );
+            $link['url'] = get_post_meta( $post->ID, '_cmb_secondary_proxy_url', true );
+            if ( is_array($link) && !empty($link['url']) ) {
+              if ( empty($link['text']) ) {
+                $link['text'] = $link['url'];
+              }
+              $proxy .= '<a href="'.$link['url'].'">'.$link['text'].'</a>' . PHP_EOL;
+            }
 
             $nav .= '<li role="menuitem" class="'. $active . '"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
             $dropdown .= '<li role="menuitem"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
