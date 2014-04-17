@@ -14,14 +14,14 @@ Template Name: Scrollspy (Child Pages)
 		<div class="row visible-xs">
 			<div class="col-xs-12">
 				<div class="panel">
-					<?php echo do_shortcode('[spl_tutorial dropdown]'); ?>
+					<?php echo do_shortcode('[spl_subpages dropdown]'); ?>
 				</div>
 			</div>
 		</div>
 		
 		<div class="row">
 			<div class="col-xs-12">
-				<?php echo do_shortcode('[spl_tutorial content]'); ?>
+				<?php echo do_shortcode('[spl_subpages content]'); ?>
 			</div>
 		</div>
 	</div>
