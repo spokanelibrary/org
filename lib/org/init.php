@@ -41,7 +41,7 @@ add_filter( 'the_content','bootstrap_responsive_images',10 );
 add_filter( 'post_thumbnail_html', 'bootstrap_responsive_images', 10 );
 
 
-function spl_tutorial($params) {  
+function spl_scrollspy($params) {  
     global $post;  
     
     //query subpages  
@@ -138,7 +138,7 @@ function spl_tutorial($params) {
     return $output;  
 } 
 
-add_shortcode('spl_tutorial', 'spl_tutorial'); 
+add_shortcode('spl_scrollspy', 'spl_scrollspy'); 
 
 function spl_subpages() {  
     global $post;  
