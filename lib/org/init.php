@@ -110,9 +110,9 @@ function spl_resources( $params ) {
                       '.$proxy.'
                       </h4>
                       '.do_shortcode( get_the_content() ).''.PHP_EOL.'
-                      <p class="text-right">
+                      <div class="text-right">
                       <a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
-                      </p>
+                      </div>
                       </div>
                       </div>'.PHP_EOL;  
 
