@@ -116,14 +116,14 @@ function spl_resources( $params ) {
       
 
       
-      $tutorial .= '<div class="row" class="hidden-xs">'.PHP_EOL;
+      $tutorial .= '<div class="row">'.PHP_EOL;
       
       $tutorial .= '<div class="col-sm-8">'.PHP_EOL;
       $tutorial .= $output.PHP_EOL;
       $tutorial .= '</div>'.PHP_EOL;
 
       $tutorial .= '<div class="col-sm-4">'.PHP_EOL;
-      $tutorial .= '<div class="scrollspy-nav" data-spy="affix">'.PHP_EOL;
+      $tutorial .= '<div class="scrollspy-nav hidden-xs" data-spy="affix">'.PHP_EOL;
       $tutorial .= $nav.PHP_EOL;
       $tutorial .= '</div>'.PHP_EOL;
       $tutorial .= '</div>'.PHP_EOL;
