@@ -41,6 +41,118 @@ add_filter( 'the_content','bootstrap_responsive_images',10 );
 add_filter( 'post_thumbnail_html', 'bootstrap_responsive_images', 10 );
 
 
+function spl_resources( $params ) {
+  global $post; 
+  //query subpages  
+  $args = array(  
+      'post_parent' => $post->ID
+    , 'post_type' => 'page'  
+    , 'orderby' => 'title'
+    , 'order' => 'ASC'
+  );  
+  $subpages = new WP_query($args);  
+
+  // create output  
+  if ($subpages->have_posts()) :  
+    $i = 1;
+      $nav = '<ul class="nav nav-pills nav-stacked">'.PHP_EOL;
+      
+      $dropdown = '<div class="btn-group btn-block">'.PHP_EOL;
+      $dropdown .= '<button type="button" class="btn btn-block btn-primary dropdown-toggle" data-toggle="dropdown">Choose a Topic <span class="caret"></span></button>'.PHP_EOL;
+      $dropdown .= '<ul class="dropdown-menu" role="menu">'.PHP_EOL;
+
+      $output = '';  
+      while ($subpages->have_posts()) : $subpages->the_post();  
+          $active = '';
+          if ( 1 == $i++ ) :
+              //$active = 'active';
+          endif;
+
+          $link = array();
+          $proxy = '';
+          $link['text'] = get_post_meta( $post->ID, '_cmb_secondary_proxy_text', true );
+          $link['url'] = get_post_meta( $post->ID, '_cmb_secondary_proxy_url', true );
+          if ( is_array($link) && !empty($link['url']) ) {
+            if ( empty($link['text']) ) {
+              $link['text'] = $link['url'];
+            }
+            $proxy .= '<p>' . PHP_EOL;
+            $proxy .= '<a href="'.$link['url'].'">'.$link['text'].'</a>' . PHP_EOL;
+            $proxy .= '</p>' . PHP_EOL;
+          }
+
+
+          $nav .= '<li role="menuitem" class="'. $active . '"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
+          $dropdown .= '<li role="menuitem"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
+
+          $output .= '<div class="panel panel-default" id="'.$post->post_name.'">
+                      <div class="panel-heading">
+                      <div class="panel-title">
+                      <h4 class="text-primary">'.get_the_title().'</h4> 
+                      </div>
+                      </div>
+                      <div class="panel-body">
+                      '.$proxy.do_shortcode( get_the_content() ).''.PHP_EOL.
+                      '</div>'.PHP_EOL.
+                      '<div class="panel-footer text-right">'.PHP_EOL.
+                      '<a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>'.PHP_EOL.
+                      '</div>'.PHP_EOL.
+                      '</div>'.PHP_EOL;  
+      endwhile; 
+      $nav .= '</ul>'.PHP_EOL; 
+
+      $dropdown .= '</ul>'.PHP_EOL; 
+      $dropdown .= '</div>'.PHP_EOL; 
+
+      $output .= '';  
+      
+      $tutorial .= '<div class="row visible-xs">'.PHP_EOL;
+      $tutorial .= '<div class="col-xs-12">'.PHP_EOL;
+      $tutorial .= '<div class="panel panel-default">'.PHP_EOL;
+      $tutorial .= $dropdown.PHP_EOL;
+      $tutorial .= '</div>'.PHP_EOL;
+      $tutorial .= '</div>'.PHP_EOL;
+      $tutorial .= '</div>'.PHP_EOL;
+      
+
+      
+      $tutorial .= '<div class="row">'.PHP_EOL;
+      
+      $tutorial .= '<div class="col-sm-8">'.PHP_EOL;
+      $tutorial .= $output.PHP_EOL;
+      $tutorial .= '</div>'.PHP_EOL;
+
+      $tutorial .= '<div class="col-sm-4">'.PHP_EOL;
+      $tutorial .= '<div class="scrollspy-nav" data-spy="affix">'.PHP_EOL;
+      $tutorial .= $nav.PHP_EOL;
+      $tutorial .= '</div>'.PHP_EOL;
+      $tutorial .= '</div>'.PHP_EOL;
+      
+      $tutorial .= '</div>'.PHP_EOL;
+
+      if ( in_array('nav', $params) ) {
+          $output = $nav;
+      } elseif ( in_array('dropdown', $params) ) {
+          $output = $dropdown;
+      } elseif ( in_array('content', $params) ) {
+          $output = $output;
+      } else {
+          $output = $tutorial;
+      }
+  else :  
+      $output = '<p>No subpages found.</p>';  
+  endif;  
+
+    
+  // reset the query  
+  wp_reset_postdata();  
+    
+  // return something  
+  return $output;  
+
+}
+add_shortcode('spl_resources', 'spl_resources'); 
+
 function spl_scrollspy($params) {  
     global $post;  
     
