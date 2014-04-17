@@ -69,7 +69,7 @@ function spl_resources( $params ) {
           endif;
 
           $link = array();
-          $proxy = '';
+          $title = '';
           $link['text'] = get_post_meta( $post->ID, '_cmb_secondary_proxy_text', true );
           $link['url'] = get_post_meta( $post->ID, '_cmb_secondary_proxy_url', true );
           if ( is_array($link) && !empty($link['url']) ) {
@@ -77,9 +77,9 @@ function spl_resources( $params ) {
 
               $link['text'] = get_the_title();
             }
-            $proxy .= '<a href="'.$link['url'].'">'.$link['text'].'</a> <small>&rarr;</small>'.PHP_EOL;
+            $title .= '<a href="'.$link['url'].'">'.$link['text'].'</a> <small>&rarr;</small>'.PHP_EOL;
           } else {
-            $proxy = get_the_title();
+            $title = get_the_title();
           }
 
 
@@ -112,8 +112,8 @@ function spl_resources( $params ) {
                       </div>
                       <div class="panel-body">
                       '.do_shortcode( get_the_content() ).''.PHP_EOL.'
-                      <div class="text-right">
-                      <a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
+                      <div class="panel-footer">
+                      <a class="btn btn-sm btn-primary pull-right" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
                       </div>
                       </div>
                       </div>'.PHP_EOL;  
