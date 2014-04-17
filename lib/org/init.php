@@ -69,6 +69,12 @@ function spl_scrollspy($params) {
                 //$active = 'active';
             endif;
 
+            $output = $post->post_id;
+            //$spl_panel['title'] = get_post_meta( $post->ID, '_cmb_secondary_content_title', true );
+            //$spl_panel['subtitle'] = get_post_meta( $post->ID, '_cmb_secondary_content_subtitle', true );
+            //$spl_panel['secondary'] = wpautop(get_post_meta( $post->ID, '_cmb_secondary_content', true ));
+
+
             $nav .= '<li role="menuitem" class="'. $active . '"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
             $dropdown .= '<li role="menuitem"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
 
@@ -179,7 +185,7 @@ function spl_secondary_metaboxes( $meta_boxes ) {
   $prefix = '_cmb_'; // Prefix for all fields
 
   $meta_boxes[] = array('id' => 'spl_secondary_proxy'
-                      , 'title' => 'Proxy Link'
+                      , 'title' => 'External Link'
                       , 'pages' => array('page') // post type
                       , 'show_on' => array( 'key' => 'page-template', 'value' => 'template-proxy.php' )
                       , 'context' => 'normal'
