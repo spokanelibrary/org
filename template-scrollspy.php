@@ -26,7 +26,7 @@ Template Name: Scrollspy (Child Pages)
 		</div>
 	</div>
 
-	<div class="col-sm-4">
+	<div class="col-sm-4 hidden-xs">
 		<div class="scrollspy-nav" data-spy="affix" style="z-index:1">
 			<div class="panel panel-warning panel-callout panel-callout-warning">
 					<h4 class="text-warning">Choose a Topic <small>&rarr;</small></h4>
