@@ -30,7 +30,7 @@ Template Name: Scrollspy (Child Pages)
 		<div class="scrollspy-nav" data-spy="affix" style="z-index:1">
 			<div class="panel panel-warning panel-callout panel-callout-warning">
 					<h4 class="text-warning">Choose a Topic <small>&rarr;</small></h4>
-					<?php echo do_shortcode('[spl_tutorial nav]'); ?>
+					<?php echo do_shortcode('[spl_subpages nav]'); ?>
 					<hr />
 					<div class="text-right">
 						<p>
