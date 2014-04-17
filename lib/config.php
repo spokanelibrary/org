@@ -65,6 +65,7 @@ function roots_display_sidebar() {
       'template-custom.php'
     , 'template-application.php'
     , 'template-no-headline.php'
+    , 'template-scrollspy.php'
     )
   );
 
