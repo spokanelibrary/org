@@ -77,7 +77,7 @@ function spl_resources( $params ) {
 
               $link['text'] = get_the_title();
             }
-            $proxy .= '<a href="'.$link['url'].'">'.$link['text'].'</a>' . PHP_EOL;
+            $proxy .= '<a href="'.$link['url'].'">'.$link['text'].'</a> <small>&rarr;</small>'.PHP_EOL;
           } else {
             $proxy = get_the_title();
           }
@@ -110,6 +110,9 @@ function spl_resources( $params ) {
                       '.$proxy.'
                       </h4>
                       '.do_shortcode( get_the_content() ).''.PHP_EOL.
+                      '</div>'.PHP_EOL.
+                      '<div class="panel-footer text-right">'.PHP_EOL.
+                      '<a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>'.PHP_EOL.
                       '</div>'.PHP_EOL.
                       '</div>'.PHP_EOL;  
 
