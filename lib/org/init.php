@@ -140,7 +140,7 @@ function spl_resources( $params ) {
       } elseif ( in_array('dropdown', $params) ) {
           $output = $dropdown;
       } elseif ( in_array('content', $params) ) {
-          $output = $output;
+          $output = '<div class="row">'.$output.'</div>';
       } else {
           $output = $tutorial;
       }
