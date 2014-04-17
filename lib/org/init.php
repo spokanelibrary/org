@@ -178,6 +178,27 @@ add_shortcode('spl_subpages', 'spl_subpages');
 function spl_secondary_metaboxes( $meta_boxes ) {
   $prefix = '_cmb_'; // Prefix for all fields
 
+  $meta_boxes[] = array('id' => 'spl_secondary_proxy'
+                      , 'title' => 'Proxy Link'
+                      , 'pages' => array('page') // post type
+                      , 'show_on' => array( 'key' => 'page-template', 'value' => 'template-scrollspy.php' )
+                      , 'context' => 'normal'
+                      , 'priority' => 'high'
+                      , 'show_names' => true // Show field names on the left
+                      , 'fields' => array(
+                                          array('name' => ''
+                                              , 'desc' => 'Configure Link'
+                                              , 'id' => $prefix . 'secondary_proxy_text'
+                                              , 'type' => 'title'
+                                          ),
+                                          array('name' => 'Headline'
+                                              , 'desc' => ''
+                                              , 'id' => $prefix . 'secondary_proxy_link'
+                                              , 'type' => 'text_medium'
+                                          )
+                                    )
+                  );
+
   $meta_boxes[] = array('id' => 'spl_secondary_intro'
                       , 'title' => 'Callout Box'
                       , 'pages' => array('page') // post type
