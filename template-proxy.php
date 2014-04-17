@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Proxy Page
+Template Name: Proxy Page (Resources)
 */
 ?>
 

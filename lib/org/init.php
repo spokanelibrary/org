@@ -187,14 +187,19 @@ function spl_secondary_metaboxes( $meta_boxes ) {
                       , 'show_names' => true // Show field names on the left
                       , 'fields' => array(
                                           array('name' => ''
-                                              , 'desc' => 'Configure Link'
-                                              , 'id' => $prefix . 'secondary_proxy_text'
+                                              , 'desc' => 'Configure Offsite Link'
+                                              , 'id' => $prefix . 'secondary_proxy_description'
                                               , 'type' => 'title'
                                           ),
-                                          array('name' => 'Headline'
+                                          array('name' => 'Link Text'
                                               , 'desc' => ''
-                                              , 'id' => $prefix . 'secondary_proxy_link'
-                                              , 'type' => 'text_medium'
+                                              , 'id' => $prefix . 'secondary_proxy_text'
+                                              , 'type' => 'text'
+                                          ),
+                                          array('name' => 'Link URL'
+                                              , 'desc' => ''
+                                              , 'id' => $prefix . 'secondary_proxy_url'
+                                              , 'type' => 'text'
                                           )
                                     )
                   );
