@@ -59,6 +59,10 @@ Template Name: Home Page
     <!-- </div> -->
     </div>
 
-	</div>
+	</div><!-- /.col -->
+	<div class="col-md-3">
+
+		
+	</div><!-- /.col -->
 
 </div><!-- /.row -->
