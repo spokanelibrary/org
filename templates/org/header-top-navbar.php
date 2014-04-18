@@ -1,3 +1,4 @@
+<?php if ( !isset($_REQUEST['kiosk']) ) : ?>
 <script>/*(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -45,6 +46,7 @@
     </li>
   </ul>
 </header><!-- /.navbar -->
+<?php endif;?>
 
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
