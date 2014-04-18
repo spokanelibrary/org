@@ -97,6 +97,7 @@
   </div>
 </header><!-- /.navbar -->
 
+<?php if ( !isset($_REQUEST['kiosk']) ) : ?>
 <header class="navbar-primary banner navbar navbar-inverse navbar-static-top" role="banner">
   <div class="container">
     <div class="navbar-header">
@@ -119,4 +120,5 @@
     </nav>
   </div>
 </header><!-- /.navbar -->
+?>
 
