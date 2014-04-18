@@ -113,7 +113,7 @@ function spl_resources( $params ) {
                       </h4>
                       </div>
                       <div class="panel-body">
-                      '. get_the_content().''.PHP_EOL.'
+                      '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
                       </div>
                       <div class="panel-footer clearfix">
                       <a class="btn btn-sm btn-primary pull-right" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
@@ -227,7 +227,7 @@ function spl_scrollspy($params) {
                         </div>
                         </div>
                         <div class="panel-body">
-                        '.$proxy.do_shortcode( get_the_content() ).''.PHP_EOL.
+                        '.apply_filters('the_content', get_the_content() ).''.PHP_EOL.
                         '</div>'.PHP_EOL.
                         '<div class="panel-footer text-right">'.PHP_EOL.
                         '<a class="btn btn-sm btn-primary" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>'.PHP_EOL.
