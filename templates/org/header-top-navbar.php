@@ -97,10 +97,11 @@
   </div>
 </header><!-- /.navbar -->
 
-<?php if ( !isset($_REQUEST['kiosk']) ) : ?>
+
 <header class="navbar-primary banner navbar navbar-inverse navbar-static-top" role="banner">
   <div class="container">
     <div class="navbar-header">
+      <?php if ( !isset($_REQUEST['kiosk']) ) : ?>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -118,9 +119,8 @@
         endif;
       ?>
     </nav>
+    <?php endif;?>
   </div>
 </header><!-- /.navbar -->
-<?php else: ?>
-  <div class="masthead-kiosk">&nbsp;</div>
-<?php endif;?>
+
 
