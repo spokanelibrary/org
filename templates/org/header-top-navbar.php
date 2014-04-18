@@ -120,5 +120,5 @@
     </nav>
   </div>
 </header><!-- /.navbar -->
-?>
+<?php endif; ?>
 
