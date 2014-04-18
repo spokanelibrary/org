@@ -12,9 +12,22 @@
 			</strong>
 		</p>
 
-		<p>
-			Visit the Digital Branch for online research and educational tools.
-		</p>
+		<div class="panel panel-warning" style="border-width-left:5px;">
+			<div class="panel-heading">
+				<h5>
+					<i class="glyphicon glyphicon-hand-right"></i> 
+					Digital Branch
+				</h5>
+			</div><!-- /.panel-heading -->
+			<div class="panel-body">
+				<p>
+					Visit the Digital Branch for online research and educational tools.
+				</p>
+				<p>
+					<a class="btn btn-block btn-primary" href="/digital">Learn More &rarr;</a>
+				</p>
+			</div><!-- /.panel-body -->
+		</div><!-- /.panel -->
 
 		<div class="panel panel-primary" style="border-width-left:5px;">
 			<div class="panel-heading">
