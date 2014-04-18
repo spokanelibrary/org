@@ -17,7 +17,7 @@
     }
   ?>
 
-  <div class="wrap container container-full" style="width:100%;" role="document">
+  <div class="wrap container container-fluid" style="width:100%;" role="document">
     <div class="content row">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
