@@ -19,6 +19,8 @@ add_post_type_support( 'page', 'excerpt' );
 
 update_option('image_default_link_type', 'none' );
 
+add_filter('widget_text', 'do_shortcode'); 
+
 //  https://gist.github.com/mkdizajn/7352469
 //----------------------------------------------------------/
 //  responsive images [ 1) add img-responsive class 2) remove dimensions ]
