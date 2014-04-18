@@ -1,9 +1,12 @@
 <div class="row">
-	<div class="col-md-9">
+	<div class="col-md-12">
 		<p>
 			This content is provided by third-party vendors. 
 			In most cases you will need to create an account, and you may need to download software to access these materials. 
 			We have provided detailed instructions at the links below to help you get started.
+		</p>
+		<p>
+			You can also visit our <a href="/digital">Digital Branch</a> for online research and educational tools.
 		</p>
 		<p>
 			<strong>
@@ -11,23 +14,6 @@
 				We’ll do our best to help.
 			</strong>
 		</p>
-
-		<div class="panel panel-warning" style="border-width-left:5px;">
-			<div class="panel-heading">
-				<h5>
-					<i class="glyphicon glyphicon-hand-right"></i> 
-					Digital Branch
-				</h5>
-			</div><!-- /.panel-heading -->
-			<div class="panel-body">
-				<p>
-					Visit the Digital Branch for online research and educational tools.
-				</p>
-				<p>
-					<a class="btn btn-block btn-primary" href="/digital">Learn More &rarr;</a>
-				</p>
-			</div><!-- /.panel-body -->
-		</div><!-- /.panel -->
 
 		<div class="panel panel-primary" style="border-width-left:5px;">
 			<div class="panel-heading">
@@ -172,24 +158,5 @@
 		</div><!-- /.panel -->
 
 	</div><!-- /.col -->
-	<div class="col-md-3">
-		<div class="panel panel-warning" style="border-width-left:5px;">
-			<div class="panel-heading">
-				<h5>
-					<i class="glyphicon glyphicon-hand-right"></i> 
-					Digital Branch
-				</h5>
-			</div><!-- /.panel-heading -->
-			<div class="panel-body">
-				<p>
-					Visit the Digital Branch for online research and educational tools.
-				</p>
-				<p>
-					<a class="btn btn-block btn-primary" href="/digital">Learn More &rarr;</a>
-				</p>
-			</div><!-- /.panel-body -->
-		</div><!-- /.panel -->
-	</div><!-- /.col -->
-</div><!-- /.row -->
 
 
