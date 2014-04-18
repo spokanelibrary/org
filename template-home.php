@@ -10,6 +10,8 @@ Template Name: Home Page
 	<div class="col-sm-12">
 		<?php //get_template_part('templates/page', 'header'); ?>
 
+		<?php echo do_shortcode('[spl_carousel]'); ?>
+
 		<?php get_template_part('templates/content', 'page'); ?>
 
 
@@ -56,7 +58,7 @@ Template Name: Home Page
     </ul>
     <!-- </div> -->
     </div>
-    
+
 	</div>
 
 </div>
