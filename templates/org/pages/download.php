@@ -12,6 +12,10 @@
 			</strong>
 		</p>
 
+		<p>
+			Visit the Digital Branch for online research and educational tools.
+		</p>
+
 		<div class="panel panel-primary" style="border-width-left:5px;">
 			<div class="panel-heading">
 				<h4>
