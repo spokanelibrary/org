@@ -120,5 +120,7 @@
     </nav>
   </div>
 </header><!-- /.navbar -->
-<?php endif; ?>
+<?php else: ?>
+  <div class="masthead-kiosk">&nbsp;</div>
+<?php endif;?>
 
