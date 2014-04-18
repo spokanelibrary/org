@@ -155,7 +155,7 @@ function spl_resources( $params ) {
       } elseif ( in_array('dropdown', $params) ) {
           $output = $dropdown;
       } elseif ( in_array('content', $params) ) {
-          $output = '<div class="row">'.$output.'</div>';
+          $output = $output;
       } else {
           $output = $tutorial;
       }
