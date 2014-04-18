@@ -6,13 +6,13 @@
 			We have provided detailed instructions at the links below to help you get started.
 		</p>
 		<p>
-			You can also visit our <a href="/digital">Digital Branch</a> for online research and educational tools.
+			<strong>
+				You can also visit our <a href="/digital">Digital Branch</a> for online research and educational tools.
+			</strong>
 		</p>
 		<p>
-			<strong>
-				Feel free to <a href="#">contact us</a> with questions. 
-				We’ll do our best to help.
-			</strong>
+			Feel free to <a href="#">contact us</a> with questions. 
+			We’ll do our best to help.
 		</p>
 
 		<div class="panel panel-primary" style="border-width-left:5px;">
