@@ -22,7 +22,6 @@
     if ( isset($_REQUEST['kiosk']) ) {
       $container = 'container-fluid';
     }
-  }
   ?>
 
   <div class="wrap <?php echo $container;?>" role="document">
