@@ -1,4 +1,3 @@
-<?php if ( !isset($_REQUEST['kiosk']) ) : ?>
 <script>/*(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -7,6 +6,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));*/</script>  
 <header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
+  <?php if ( !isset($_REQUEST['kiosk']) ) : ?>
   <ul class="nav nav-justified">
     <li>
       <a href="<?php echo home_url(); ?>/">
@@ -45,8 +45,8 @@
       </a>
     </li>
   </ul>
+  <?php endif;?>
 </header><!-- /.navbar -->
-<?php endif;?>
 
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
