@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="col-md-12">
+	<div class="col-md-10">
 		<p>
 			This content is provided by third-party vendors. 
 			In most cases you will need to create an account, and you may need to download software to access these materials. 
