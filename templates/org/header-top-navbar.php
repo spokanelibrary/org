@@ -101,7 +101,7 @@
 
 
 <header class="navbar-primary banner navbar navbar-inverse navbar-static-top" role="banner">
-  <div class="<?php echo $container;?>">
+  <div class="container">
     <?php if ( !isset($_REQUEST['kiosk']) ) : ?>
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
