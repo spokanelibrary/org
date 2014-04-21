@@ -20,7 +20,7 @@
   <?php 
     $container = 'container';
     if ( isset($_REQUEST['kiosk']) ) {
-      //$container = 'container-fluid';
+      $container = 'container-fluid';
     }
   ?>
 
