@@ -10,10 +10,12 @@
   <?php
     do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
-    if (current_theme_supports('bootstrap-top-navbar')) {
-      get_template_part('templates/header-top-navbar');
-    } else {
-      get_template_part('templates/header');
+    if ( !isset($_REQUEST['kiosk']) ) {
+      if (current_theme_supports('bootstrap-top-navbar')) {
+        get_template_part('templates/header-top-navbar');
+      } else {
+        get_template_part('templates/header');
+      }
     }
   ?>
 
