@@ -1,9 +1,3 @@
-<?php 
-  $container = 'container';
-  if ( isset($_REQUEST['kiosk']) ) {
-    $container = 'container-fluid';
-  }
-?>
 <script>/*(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -12,7 +6,6 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));*/</script>  
 <header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
-  <?php if ( !isset($_REQUEST['kiosk']) ) : ?>
   <ul class="nav nav-justified">
     <li>
       <a href="<?php echo home_url(); ?>/">
@@ -51,11 +44,10 @@
       </a>
     </li>
   </ul>
-  <?php endif;?>
 </header><!-- /.navbar -->
 
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
-  <div class="<?php echo $container;?>">
+  <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="<?php echo home_url(); ?>/">
         <span class="text-hide"><?php bloginfo('name'); ?></span>
@@ -108,7 +100,6 @@
 
 <header class="navbar-primary banner navbar navbar-inverse navbar-static-top" role="banner">
   <div class="container">
-    <?php if ( !isset($_REQUEST['kiosk']) ) : ?>
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -127,7 +118,6 @@
         endif;
       ?>
     </nav>
-    <?php endif;?>
   </div>
 </header><!-- /.navbar -->
 

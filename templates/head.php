@@ -12,10 +12,10 @@
 	
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url(get_feed_link()); ?>">
 
- <?php if ( isset($_REQUEST['kiosk']) ) : ?>
-    <style>
+ 	<?php if ( isset($_REQUEST['kiosk']) ) : ?>
+  <style>
     html {cursor:none;}
-    </style>
-<?php endif; ?>
+  </style>
+	<?php endif; ?>
 
 </head>
