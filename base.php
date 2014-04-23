@@ -8,6 +8,7 @@
   <![endif]-->
 
   <?php
+    $container = 'container';
     do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
     if ( !isset($_REQUEST['kiosk']) ) {
@@ -16,12 +17,7 @@
       } else {
         get_template_part('templates/header');
       }
-    }
-  ?>
-
-  <?php 
-    $container = 'container';
-    if ( isset($_REQUEST['kiosk']) ) {
+    } else {
       $container = 'container-fluid';
     }
   ?>
