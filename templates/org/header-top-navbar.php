@@ -100,7 +100,7 @@
 
 <header class="navbar-primary banner navbar navbar-inverse navbar-static-top" role="banner">
   <div class="container" style="background:red;">
-    <div class="navbar-header">
+    <div class="navbar-header" style="background:green;">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
