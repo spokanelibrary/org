@@ -99,7 +99,7 @@
 
 
 <header class="navbar-primary banner navbar navbar-inverse navbar-static-top" role="banner">
-  <div class="container">
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -118,7 +118,7 @@
         endif;
       ?>
     </nav>
-  </div>
+
 </header><!-- /.navbar -->
 
 
