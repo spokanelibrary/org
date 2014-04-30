@@ -230,6 +230,25 @@ var ORG = {
     }
 }
 */
+, vhs : {
+    init: function() {
+
+      Modernizr.load([
+        {
+          load: [config.path.absolute+'/assets/js/vendor/jquery.dynatable.js'],
+          complete: function () {
+            $('#vhs-holdings').dynatable();
+            /*
+            if ( org ) { 
+              org.init();
+            }
+            */ 
+          }
+        }
+      ]);
+
+    }
+}
 , request : {
     
     init: function() {
