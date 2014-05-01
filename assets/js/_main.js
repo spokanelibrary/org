@@ -247,7 +247,8 @@ var ORG = {
                 paginationDisabledClass: 'disabled',
                 paginationLinkPlacement: 'before',
                 recordCountPlacement: 'before',
-                searchPlacement: 'before'
+                searchPlacement: 'before',
+                perPagePlacement: 'after'
               }
             });
             /*
