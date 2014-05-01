@@ -245,6 +245,7 @@ var ORG = {
                 paginationClass: 'pagination',
                 paginationActiveClass: 'active',
                 paginationDisabledClass: 'disabled',
+                paginationLinkPlacement: 'before',
                 recordCountPlacement: 'before'
               }
             });
