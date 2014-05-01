@@ -237,7 +237,13 @@ var ORG = {
         {
           load: [config.path.absolute+'/assets/js/vendor/jquery.dynatable.js'],
           complete: function () {
-            $('#vhs-holdings').dynatable();
+            $('#vhs-holdings').dynatable({
+              inputs: {
+                paginationClass: 'pagination',
+                paginationActiveClass: 'active',
+                paginationDisabledClass: 'disabled'
+              }
+            });
             /*
             if ( org ) { 
               org.init();
