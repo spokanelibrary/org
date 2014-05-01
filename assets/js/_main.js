@@ -246,7 +246,7 @@ var ORG = {
                 paginationActiveClass: 'active',
                 paginationDisabledClass: 'disabled',
                 paginationLinkPlacement: 'before',
-                recordCountPlacement: 'before',
+                recordCountPlacement: 'after',
                 searchPlacement: 'before',
                 perPagePlacement: 'after'
               }
