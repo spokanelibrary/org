@@ -238,6 +238,9 @@ var ORG = {
           load: [config.path.absolute+'/assets/js/vendor/jquery.dynatable.js'],
           complete: function () {
             $('#vhs-holdings').dynatable({
+              features: {
+                search: false
+              },
               dataset: {
                 perPageDefault: 100
               },
@@ -249,7 +252,6 @@ var ORG = {
                 recordCountPlacement: 'after',
                 searchPlacement: 'before',
                 perPagePlacement: 'after',
-                searchClass: 'form-control'
               }
             });
             /*
