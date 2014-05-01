@@ -238,6 +238,9 @@ var ORG = {
           load: [config.path.absolute+'/assets/js/vendor/jquery.dynatable.js'],
           complete: function () {
             $('#vhs-holdings').dynatable({
+              dataset: {
+                perPageDefault: 50
+              },
               inputs: {
                 paginationClass: 'pagination',
                 paginationActiveClass: 'active',
