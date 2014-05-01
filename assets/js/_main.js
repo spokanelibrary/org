@@ -248,7 +248,8 @@ var ORG = {
                 paginationLinkPlacement: 'before',
                 recordCountPlacement: 'after',
                 searchPlacement: 'before',
-                perPagePlacement: 'after'
+                perPagePlacement: 'after',
+                searchClass: 'form-control'
               }
             });
             /*
