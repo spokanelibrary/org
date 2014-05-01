@@ -239,12 +239,13 @@ var ORG = {
           complete: function () {
             $('#vhs-holdings').dynatable({
               dataset: {
-                perPageDefault: 50
+                perPageDefault: 100
               },
               inputs: {
                 paginationClass: 'pagination',
                 paginationActiveClass: 'active',
-                paginationDisabledClass: 'disabled'
+                paginationDisabledClass: 'disabled',
+                recordCountPlacement: 'before'
               }
             });
             /*
