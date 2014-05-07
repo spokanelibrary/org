@@ -274,7 +274,8 @@ var ORG = {
           complete: function () {
             $('#spl-obit').dynatable({
               features: {
-                pushState: false
+                pushState: false,
+                search: false
               },
               dataset: {
                 perPageDefault: 100
