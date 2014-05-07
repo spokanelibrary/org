@@ -265,6 +265,41 @@ var ORG = {
 
     }
 }
+, obituaries : {
+    init: function() {
+
+      Modernizr.load([
+        {
+          load: [config.path.absolute+'/assets/js/vendor/jquery.dynatable.js'],
+          complete: function () {
+            $('#spl-obit').dynatable({
+              features: {
+                pushState: false
+              },
+              dataset: {
+                perPageDefault: 100
+              },
+              inputs: {
+                paginationClass: 'pagination',
+                paginationActiveClass: 'active',
+                paginationDisabledClass: 'disabled',
+                paginationLinkPlacement: 'before',
+                recordCountPlacement: 'after',
+                searchPlacement: 'before',
+                perPagePlacement: 'after',
+              }
+            });
+            /*
+            if ( org ) { 
+              org.init();
+            }
+            */ 
+          }
+        }
+      ]);
+
+    }
+}
 , request : {
     
     init: function() {
