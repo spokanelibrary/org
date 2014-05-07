@@ -281,7 +281,7 @@ var ORG = {
                 perPageDefault: 100
               },
               inputs: {
-                paginationClass: 'pagination',
+                paginationClass: 'dynatable-pagination pagination',
                 paginationActiveClass: 'active',
                 paginationDisabledClass: 'disabled',
                 paginationLinkPlacement: 'before',
