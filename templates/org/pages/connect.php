@@ -111,7 +111,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              Not yet implemented.
+              Find answers to frequently asked questions.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
