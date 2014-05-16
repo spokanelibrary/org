@@ -105,7 +105,7 @@ function spl_resources( $params ) {
                       '</div>'.PHP_EOL.
                       '</div>'.PHP_EOL;  
           */
-          $image_url = null;
+          $img = null;
           $featured = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
           $image_url = $featured[0];
           if ( !empty($image_url) ) {
