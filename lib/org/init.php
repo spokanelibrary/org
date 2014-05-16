@@ -109,7 +109,7 @@ function spl_resources( $params ) {
           $featured = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
           $image_url = $featured[0];
           if ( !empty($image_url) ) {
-            $img = '<a href="'.$link['url'].'" class="thumbnail">
+            $img = '<a href="'.$link['url'].'" class="pull-left">
                       <img src="'.$image_url.'" alt="'.$post->post_name.'">
                     </a>'.PHP_EOL;
             //$img = $image_url;
