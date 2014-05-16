@@ -133,9 +133,11 @@ function spl_resources( $params ) {
                           </div>
                         </div>
                       </div>
+                      <!--
                       <div class="panel-footer clearfix">
                       <a class="btn btn-sm btn-primary pull-right" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
                       </div>
+                      -->
                       </div>'.PHP_EOL;  
 
       endwhile; 
