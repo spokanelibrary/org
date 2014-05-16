@@ -121,7 +121,7 @@ function spl_resources( $params ) {
                       </h4>
                       </div>
                       <div class="panel-body">
-                      '.$image.'
+                      '.$img.'
                       '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
                       </div>
                       <div class="panel-footer clearfix">
