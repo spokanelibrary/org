@@ -109,8 +109,8 @@ function spl_resources( $params ) {
           $featured = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
           $image_url = $featured[0];
           if ( !empty($image_url) ) {
-            $img = '<a href="'.$link['url'].'" class="pull-left">
-                      <img src="'.$image_url.'" class="thumbnail media-object" alt="'.$post->post_name.'">
+            $img = '<a href="'.$link['url'].'" class="">
+                      <img src="'.$image_url.'" class="img-responsive img-rounded" alt="'.$post->post_name.'">
                     </a>'.PHP_EOL;
             //$img = $image_url;
           }
@@ -124,9 +124,11 @@ function spl_resources( $params ) {
                       </h4>
                       </div>
                       <div class="panel-body">
-                        <div class="media">
+                        <div class="row">
+                          <div class="col-md-3">
                           '.$img.'
-                          <div class="media-body">
+                          </div>
+                          <div class="col-md-9">
                           '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
                           </div>
                         </div>
