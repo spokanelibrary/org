@@ -110,7 +110,7 @@ function spl_resources( $params ) {
           $image_url = $featured[0];
           if ( !empty($image_url) ) {
             $img = '<a href="'.$link['url'].'" class="pull-left">
-                      <img src="'.$image_url.'" alt="'.$post->post_name.'">
+                      <img src="'.$image_url.'" class="media-object" alt="'.$post->post_name.'">
                     </a>'.PHP_EOL;
             //$img = $image_url;
           }
@@ -124,8 +124,12 @@ function spl_resources( $params ) {
                       </h4>
                       </div>
                       <div class="panel-body">
-                      '.$img.'
-                      '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
+                        <div class="media">
+                          '.$img.'
+                          <div class="media-body">
+                          '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
+                          </div>
+                        </div>
                       </div>
                       <div class="panel-footer clearfix">
                       <a class="btn btn-sm btn-primary pull-right" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
