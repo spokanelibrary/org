@@ -110,6 +110,7 @@ function spl_resources( $params ) {
             $img = '<a href="'.$link['url'].'" class="thumbnail">
                       <img data-src="'.$image_url.'" alt="...">
                     </a>'.PHP_EOL;
+            $img = $image_url;
           }
 
 
