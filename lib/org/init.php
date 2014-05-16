@@ -105,7 +105,13 @@ function spl_resources( $params ) {
                       '</div>'.PHP_EOL.
                       '</div>'.PHP_EOL;  
           */
-          $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+          $image_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+          if ( !empty($image_url) ) {
+            $img = '<a href="'.$link['url'].'" class="thumbnail">
+                      <img data-src="'.$image_url.'" alt="...">
+                    </a>'.PHP_EOL;
+          }
+
 
           $output .= '
                       <div class="panel panel-default" id="'.$post->post_name.'">
@@ -115,7 +121,7 @@ function spl_resources( $params ) {
                       </h4>
                       </div>
                       <div class="panel-body">
-                      '.$feat_image.'
+                      '.$image.'
                       '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
                       </div>
                       <div class="panel-footer clearfix">
