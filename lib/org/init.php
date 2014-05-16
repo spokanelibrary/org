@@ -106,7 +106,7 @@ function spl_resources( $params ) {
                       '</div>'.PHP_EOL;  
           */
           $image_url = null;
-          $image_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+          $image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
           if ( !empty($image_url) ) {
             $img = '<a href="'.$link['url'].'" class="thumbnail">
                       <img data-src="'.$image_url.'" alt="...">
