@@ -110,7 +110,7 @@ function spl_resources( $params ) {
           $image_url = $featured[0];
           if ( !empty($image_url) ) {
             $img = '<a href="'.$link['url'].'" class="pull-left">
-                      <img src="'.$image_url.'" class="media-object" alt="'.$post->post_name.'">
+                      <img src="'.$image_url.'" class="thumbnail media-object" alt="'.$post->post_name.'">
                     </a>'.PHP_EOL;
             //$img = $image_url;
           }
