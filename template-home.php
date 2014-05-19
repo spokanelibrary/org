@@ -4,7 +4,7 @@ Template Name: Home Page
 */
 ?>
 
-<div class="row">
+<div class="row-fluid">
   <div class="col-md-6">
     <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
   </div><!-- /.col -->
@@ -13,7 +13,7 @@ Template Name: Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="row">
+<div class="row-fluid">
   <div class="col-md-6">
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
