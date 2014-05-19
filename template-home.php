@@ -4,8 +4,16 @@ Template Name: Home Page
 */
 ?>
 
+<div class="row">
+  <div class="col-md-6">
+    <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
+  </div><!-- /.col -->
+  <div class="'col-md-6">
+    <?php echo do_shortcode('[spl_widget account-login]'); ?>
+  </div><!-- /.col -->
+</div><!-- /.row -->
 
-<?php echo do_shortcode('[spl_widget search-catalog]'); ?>
+
 
 <div class="row">
 
