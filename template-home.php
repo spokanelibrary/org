@@ -13,7 +13,10 @@ Template Name: Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="row" style="margin-top:6px;">
+<p class="hidden-md">
+</p>
+
+<div class="row">
   <div class="col-md-6">
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
