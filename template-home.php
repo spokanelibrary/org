@@ -9,7 +9,7 @@ Template Name: Home Page
 
 <div class="row">
 
-	<div class="col-md-12">
+	<div class="col-sm-8 col-md-9">
 		<?php //get_template_part('templates/page', 'header'); ?>
 
 		<?php echo do_shortcode('[spl_carousel auto]'); ?>
@@ -62,7 +62,7 @@ Template Name: Home Page
     </div>
 
 	</div><!-- /.col -->
-	<div class="col-md-3">
+	<div class="'col-sm-4 col-md-3">
 
 		
 	</div><!-- /.col -->
