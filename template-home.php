@@ -9,7 +9,7 @@ Template Name: Home Page
     <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
   </div><!-- /.col -->
   <div class="'col-md-6">
-    <?php echo do_shortcode('[spl_widget my-account]'); ?>
+    <?php echo do_shortcode('[spl_widget login-form label]'); ?>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
