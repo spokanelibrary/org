@@ -5,6 +5,8 @@ Template Name: Home Page
 ?>
 
 
+<?php echo do_shortcode('[spl_widget search-catalog]'); ?>
+
 <div class="row">
 
 	<div class="col-md-9">
