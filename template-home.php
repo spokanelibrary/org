@@ -22,8 +22,9 @@ Template Name: Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-
-
+<p>
+  &nbsp;
+</p>
 
 <div class="row">
 
