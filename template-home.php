@@ -13,6 +13,10 @@ Template Name: Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
+<p>
+  &nbsp;
+</p>
+
 <div class="row">
   <div class="col-md-6">
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
@@ -21,10 +25,6 @@ Template Name: Home Page
     Some other stuff
   </div><!-- /.col -->
 </div><!-- /.row -->
-
-<p>
-  &nbsp;
-</p>
 
 <div class="row">
 
