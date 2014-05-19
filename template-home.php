@@ -13,6 +13,16 @@ Template Name: Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
+<div class="row">
+  <div class="col-md-6">
+    <?php echo do_shortcode('[spl_carousel auto]'); ?>
+  </div><!-- /.col -->
+  <div class="col-md-6">
+    Some other stuff
+  </div><!-- /.col -->
+</div><!-- /.row -->
+
+
 
 
 <div class="row">
@@ -20,7 +30,7 @@ Template Name: Home Page
 	<div class="col-sm-8 col-md-9">
 		<?php //get_template_part('templates/page', 'header'); ?>
 
-		<?php echo do_shortcode('[spl_carousel auto]'); ?>
+		
 
 		<?php get_template_part('templates/content', 'page'); ?>
 
