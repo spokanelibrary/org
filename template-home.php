@@ -13,7 +13,7 @@ Template Name: Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<p class="hidden-md">
+<p class="hidden-md hidden-lg">
 </p>
 
 <div class="row">
