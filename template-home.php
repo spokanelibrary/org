@@ -50,9 +50,11 @@ Template Name: Home Page
   <div class="col-md-3">
     
     <div class="panel panel-default" style="margin-bottom:6px;">
-      <div class="panel-heading text-muted">
+      <div class="panel-heading">
+        <span class="text-muted">
         <i class="glyphicon glyphicon-calendar"></i>
         Is the library open?
+        </span>
       </div>
     </div><!-- /.panel -->
     <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
