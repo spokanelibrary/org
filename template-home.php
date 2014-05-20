@@ -133,7 +133,7 @@ Template Name: Home Page
   
   <div class="col-md-3">
     <div class="hidden-xs">
-      <div class="panel panel-primary">
+      <div class="panel panel-success">
         <div class="panel-heading">
           <i class="glyphicon glyphicon-calendar"></i>
           Happening soon
