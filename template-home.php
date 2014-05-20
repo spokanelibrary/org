@@ -54,10 +54,8 @@ Template Name: Home Page
         <i class="glyphicon glyphicon-calendar"></i>
         Is the library open?
       </div>
-      <div class="panel-body">
-        <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
-      </div>
     </div><!-- /.panel -->
+        <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
 
     <div class="panel panel-primary">
       <div class="panel-heading">
