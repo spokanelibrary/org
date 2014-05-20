@@ -55,21 +55,8 @@ Template Name: Home Page
         Is the library open?
       </div>
     </div><!-- /.panel -->
-        <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
-
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <i class="glyphicon glyphicon-calendar"></i>
-        Happening soon
-      </div>
-      <div class="panel-body">
-        <?php echo do_shortcode('[events_list scope="year" country="US"]<p>#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> </p>[/events_list]'); ?>
-      </div>
-      <div class="panel-footer text-center">
-        <a href="/calendar/">View events calendar</a> &rarr;
-      </div>
-    </div><!-- /.panel -->
-
+    <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+  
   </div><!-- /.col -->
 
 </div><!-- /.row -->
@@ -131,6 +118,18 @@ Template Name: Home Page
 	</div><!-- /.col -->
 	<div class="'col-sm-4 col-md-3">
 
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <i class="glyphicon glyphicon-calendar"></i>
+        Happening soon
+      </div>
+      <div class="panel-body">
+        <?php echo do_shortcode('[events_list scope="year" country="US"]<p>#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> </p>[/events_list]'); ?>
+      </div>
+      <div class="panel-footer text-center">
+        <a href="/calendar/">View events calendar</a> &rarr;
+      </div>
+    </div><!-- /.panel -->
 		
 	</div><!-- /.col -->
 
