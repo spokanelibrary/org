@@ -51,6 +51,9 @@ Template Name: Home Page
         </small>
       </div>
     </div><!-- /.panel -->
+
+    <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+
   </div><!-- /.col -->
 </div><!-- /.row -->
 
