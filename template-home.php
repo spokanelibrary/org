@@ -25,7 +25,7 @@ Template Name: Home Page
   <div class="col-md-6">
     <div class="panel panel-warning" style="border-left-width:5px;">
       <div class="panel-heading">
-        <i class="glyphicon glyphicon-download-cloud"></i>
+        <i class="glyphicon glyphicon-cloud-download"></i>
         Discover the Digital Branch
       </div>
       <div class="panel-body">
