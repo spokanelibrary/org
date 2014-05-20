@@ -42,6 +42,7 @@ Template Name: Home Page
 
     <div class="list-group">
       <a href="/chat/" class="list-group-item active">
+        <i class="glyphicon glyphicon-chat"></i>
         Live chat
       </a>
       <a href="/search/" class="list-group-item">
