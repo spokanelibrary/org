@@ -19,20 +19,6 @@ Template Name: Home Page
 </p>
 
 <div class="row">
-  <div class="col-md-9">
-    <a href="#" class="btn btn-block btn-primary">Test</a>
-    <div class="row">
-      <div class="col-md-6">
-        <a href="#" class="btn btn-block btn-primary">Test</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-3">
-    <a href="#" class="btn btn-block btn-primary">Test</a>
-  </div>
-</div><!-- /.row --> 
-
-<div class="row">
   <div class="col-md-6">
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
@@ -66,7 +52,7 @@ Template Name: Home Page
       Is the library open?
     </h4>
     <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
-    
+
     <div class="panel panel-primary">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-calendar"></i>
