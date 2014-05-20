@@ -106,7 +106,7 @@ Template Name: Home Page
                     <?php //print_r($item); ?>
                     <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
                         title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
-                        <small class="glyphicon glyphicon-comment text-muted"></small>
+                        <small class="glyphicon glyphicon-bullhorn text-muted"></small>
                         <?php echo esc_html( $item->get_title() ); ?>
                     </a>
                 </li>
