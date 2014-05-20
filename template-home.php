@@ -42,13 +42,19 @@ Template Name: Home Page
 
     <ul class="nav nav-pills">
       <li>
-        <a href="/chat/">Live Chat &rarr;</a>
+        <a href="/chat/">Live chat &rarr;</a>
       </li>
       <li>
-        <a href="/faq/">Frequently Asked</a>
+        <a href="/search/">Search the catalog &rarr;</a>
       </li>
       <li>
-        <a href="/connect/">Contact the Library</a>
+        <a href="/search/">Staff picks &amp; popular titles &rarr;</a>
+      </li>
+      <li>
+        <a href="/connect/">Contact the library &rarr;</a>
+      </li>
+      <li>
+        <a href="/faq/">Frequently asked questions &rarr;</a>
       </li>
     </ul>
     
