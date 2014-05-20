@@ -81,6 +81,11 @@ Template Name: Home Page
     <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
 
   </div><!-- /.col -->
+
+  <div class="col-md-9">
+    <a href="#" class="btn btn-block btn-primary">Test</a>
+  </div><!-- /.col -->
+
 </div><!-- /.row -->
 
 <div class="row">
