@@ -42,7 +42,7 @@ Template Name: Home Page
 
     <div class="list-group">
       <a href="/chat/" class="list-group-item active">
-        <i class="glyphicon glyphicon-chat"></i>
+        <i class="glyphicon glyphicon-comment"></i>
         Live chat
       </a>
       <a href="/search/" class="list-group-item">
@@ -120,7 +120,6 @@ Template Name: Home Page
     <div class="panel panel-primary panel-callout panel-callout-primary panel-transparent">
     -->
     <h4 class="text-primary" href="http://blog.spokanelibrary.org">
-      <span class="glyphicon glyphicon-bullhorn text-primary"></span>
       <a href="#">Recently posted <small>by library bloggers</small></a>
     </h4>
     <ul class="nav nav-pills">
