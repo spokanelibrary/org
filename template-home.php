@@ -35,6 +35,7 @@ Template Name: Home Page
 
     <div class="panel panel-primary">
       <div class="panel-heading">
+        <i class="glyphicon glyphicon-calendar"></i>
         This week at the library
       </div>
       <div class="panel-body">
