@@ -48,7 +48,10 @@ Template Name: Home Page
         <a href="/search/">Search the catalog &rarr;</a>
       </li>
       <li>
-        <a href="/search/">Browse popular titles &rarr;</a>
+        <a href="/browse/">Browse popular titles &rarr;</a>
+      </li>
+      <li>
+        <a href="/news/">Get library news &rarr;</a>
       </li>
       <li>
         <a href="/connect/">Contact the library &rarr;</a>
