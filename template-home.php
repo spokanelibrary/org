@@ -31,7 +31,9 @@ Template Name: Home Page
       <div class="panel-body">
         <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
         <hr>
-        <a href="/digital/">Learn More</a> &rarr;
+        <small>
+          <a href="/digital/">Learn More</a> &rarr;
+        </small>
       </div>
     </div><!-- /.panel -->
   </div><!-- /.col -->
@@ -43,9 +45,10 @@ Template Name: Home Page
       </div>
       <div class="panel-body">
         <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK <small class="muted">@</small> #_LOCATIONLINK <br> <b>#_EVENTDATES</b> #_EVENTTIMES <br>  #_EVENTEXCERPT{20,...} </p>[/events_list]'); ?>
-      </div>
-      <div class="panel-footer text-right">
-        <a href="/calendar/">Check out the events calendar</a> &rarr;
+        <hr>
+        <small>
+          <a href="/calendar/">Check out the events calendar</a> &rarr;
+        </small>
       </div>
     </div><!-- /.panel -->
   </div><!-- /.col -->
