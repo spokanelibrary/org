@@ -23,9 +23,10 @@ Template Name: Home Page
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
   <div class="col-md-6">
-    <div class="panel panel-warning" style="border-left-width:4px;">
+    <div class="panel panel-warning" style="border-left-width:5px;">
       <div class="panel-heading">
-        Digital Branch
+        <i class="glyphicon glyphicon-download-cloud"></i>
+        Discover the Digital Branch
       </div>
       <div class="panel-body">
       <?php echo do_shortcode('[spl_widget custom-page page=download-home]'); ?>
