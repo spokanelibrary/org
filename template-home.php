@@ -26,7 +26,7 @@ Template Name: Home Page
     <div class="panel panel-warning" style="border-left-width:5px;">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-cloud-download"></i>
-        At the <a href="/digital/">Digital Branch</a>
+        At the Digital Branch
       </div>
       <div class="panel-body">
         <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
