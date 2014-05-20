@@ -40,7 +40,7 @@ Template Name: Home Page
   </div><!-- /.col -->
   <div class="col-md-3">
 
-    <a href="/chat/" class="btn btn-default">Live chat &rarr;</a>
+    <a href="/chat/" class="btn btn-default btn-block">Live chat &rarr;</a>
     <br>
       <a href="/search/">Search the catalog &rarr;</a>
     <br>
