@@ -78,16 +78,18 @@ Template Name: Home Page
     <div class="row">
       <div class="col-md-6">
         <p>  
-        <a class=""
-          href="http://facebook.com/spokanelibrary" 
-          title=""><img src="/assets/img/icons/16px/facebook.png"> <strong>Facebook</strong></a>
+          <img src="/assets/img/icons/16px/facebook.png">
+          <a class=""
+            href="http://facebook.com/spokanelibrary" 
+            title=""><small>Facebook</small></a>
         </p>
       </div><!-- /.col -->
       <div class="col-md-6">
         <p>
-        <a class="text-info" 
-          href="http://twitter.com/spokanelibrary" 
-          title=""><img src="/assets/img/icons/16px/twitter.png"> <strong>Twitter</strong></a>
+          <img src="/assets/img/icons/16px/twitter.png">
+          <a class="text-info" 
+            href="http://twitter.com/spokanelibrary" 
+            title=""><small>Twitter</small></a>
         </p>
       </div><!-- /.col -->
     </div><!-- /.row -->
