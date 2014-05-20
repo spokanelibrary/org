@@ -56,6 +56,7 @@
 
     <div id="spl-account-profile"></div>
 
+    <div class="pull-right">
     <div class="row">
       <div class="col-xs-6">
         <p>  
@@ -77,7 +78,8 @@
         </p>
       </div><!-- /.col -->
     </div><!-- /.row -->
-    
+    </div>
+
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       {{#if user.sessionToken}}
