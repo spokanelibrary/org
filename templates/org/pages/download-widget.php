@@ -18,9 +18,9 @@
   	</span>
 	</a>
   <div class="media-body">
-    <h4 class="media-heading">
+    <h5 class="media-heading">
     	<a href="#"><em>OverDrive:</em> eBook Downloads</a>
-    </h4>
+    </h5>
   </div>
 </div><!-- /.media -->
 
@@ -31,9 +31,9 @@
   	</span>
 	</a>
   <div class="media-body">
-    <h4 class="media-heading">
+    <h5 class="media-heading">
     	<a href="#"><em>Zinio:</em> Magazine Downloads</a>
-    </h4>
+    </h5>
   </div>
 </div><!-- /.media -->
 
@@ -44,9 +44,9 @@
   	</span>
 	</a>
   <div class="media-body">
-    <h4 class="media-heading">
+    <h5 class="media-heading">
     	<a href="#"><em>OneClick:</em> Audio Book Downloads</a>
-    </h4>
+    </h5>
   </div>
 </div><!-- /.media -->
 
