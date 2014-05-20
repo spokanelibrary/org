@@ -36,6 +36,16 @@ Template Name: Home Page
         </small>
       </div>
     </div><!-- /.panel -->
+
+    <h4 class="text-muted">
+      We can help
+    </h4>
+    <div class="list-group">
+      <a href="#" class="list-group-item">Live Chat</a>
+      <a href="#" class="list-group-item">Frequently Asked</a>
+      <a href="#" class="list-group-item">Contact the Library</a>
+    </div>
+
   </div><!-- /.col -->
   <div class="col-md-3">
     <div class="panel panel-primary">
