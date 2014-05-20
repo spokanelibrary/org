@@ -52,6 +52,9 @@ Template Name: Home Page
       </div>
     </div><!-- /.panel -->
 
+    <h4 class="text-muted">
+      Is the library open?
+    </h4>
     <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
 
   </div><!-- /.col -->
