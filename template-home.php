@@ -62,7 +62,7 @@ Template Name: Home Page
       <a href="/apps/" class="list-group-item">
         Mobile apps
       </a>
-      <a href="/news/" class="list-group-item">
+      <a href="http://news.spokanelibrary.org" class="list-group-item">
         Get library news
       </a>
       <a href="/connect/" class="list-group-item">
