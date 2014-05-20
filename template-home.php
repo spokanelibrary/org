@@ -48,17 +48,20 @@ Template Name: Home Page
 
   </div><!-- /.col -->
   <div class="col-md-3">
-    
-    <div class="panel panel-default" style="margin-bottom:6px;">
+
+    <div class="panel panel-primary">
       <div class="panel-heading">
-        <span class="text-muted">
         <i class="glyphicon glyphicon-calendar"></i>
-        Is the library open?
-        </span>
+        Happening soon
+      </div>
+      <div class="panel-body">
+        <?php echo do_shortcode('[events_list scope="year" limit="3" country="US"]<p>#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> </p>[/events_list]'); ?>
+      </div>
+      <div class="panel-footer text-center">
+        <a href="/calendar/">View events calendar</a> &rarr;
       </div>
     </div><!-- /.panel -->
-    <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
-  
+    
   </div><!-- /.col -->
 
 </div><!-- /.row -->
@@ -118,20 +121,17 @@ Template Name: Home Page
     </div>
 
 	</div><!-- /.col -->
-	<div class="'col-sm-4 col-md-3">
-
-    <div class="panel panel-primary">
+	<div class="col-sm-4 col-md-3">
+    
+    <div class="panel panel-default" style="margin-bottom:6px;">
       <div class="panel-heading">
+        <span class="text-muted">
         <i class="glyphicon glyphicon-calendar"></i>
-        Happening soon
-      </div>
-      <div class="panel-body">
-        <?php echo do_shortcode('[events_list scope="year" limit="3" country="US"]<p>#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> </p>[/events_list]'); ?>
-      </div>
-      <div class="panel-footer text-center">
-        <a href="/calendar/">View events calendar</a> &rarr;
+        Is the library open?
+        </span>
       </div>
     </div><!-- /.panel -->
+    <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
 		
 	</div><!-- /.col -->
 
