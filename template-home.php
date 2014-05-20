@@ -30,9 +30,9 @@ Template Name: Home Page
       </div>
       <div class="panel-body">
         <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
-      </div>
-      <div class="panel-footer">
-        <a href="/digital/">Learn More</a> &rarr;
+        <p>
+          <a href="/digital/">Learn More</a> &rarr;
+        </p>
       </div>
     </div><!-- /.panel -->
 
