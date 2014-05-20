@@ -47,6 +47,9 @@ Template Name: Home Page
         <i class="glyphicon glyphicon-comment"></i>
         Live chat
       </a>
+      <a href="/account/" class="list-group-item">
+        My account
+      </a>
       <a href="/search/" class="list-group-item">
         Search the catalog
       </a>
