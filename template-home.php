@@ -23,10 +23,14 @@ Template Name: Home Page
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
   <div class="col-md-6">
-    <div class="sidebar hidden-xs">
-      <h3>Coming up soon</h3>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+      Coming up soon
+      </div>
+      <div class="panel-body">
       <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK will take place at #_LOCATIONLINK on #_EVENTDATES at #_EVENTTIMES</p>[/events_list]'); ?>
-    </div>
+      </div>
+    </div><!-- /.panel -->
   </div><!-- /.col -->
 </div><!-- /.row -->
 
