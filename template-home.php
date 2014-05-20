@@ -58,7 +58,7 @@ Template Name: Home Page
         Contact the library
       </a>
       <a href="/faq/" class="list-group-item">
-        Frequently asked questions
+        Questions &amp; Answers
       </a>
     </div>
 
