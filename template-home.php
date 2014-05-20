@@ -31,7 +31,7 @@ Template Name: Home Page
         <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK will take place at #_LOCATIONLINK on #_EVENTDATES at #_EVENTTIMES</p>[/events_list]'); ?>
       </div>
       <div class="panel-footer">
-        <a href="/calendar/">Check out the event calendar &rarr;</a>
+        <a href="/calendar/">Check out the events calendar</a> &rarr;
       </div>
     </div><!-- /.panel -->
   </div><!-- /.col -->
