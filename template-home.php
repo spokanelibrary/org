@@ -126,7 +126,7 @@ Template Name: Home Page
         Happening soon
       </div>
       <div class="panel-body">
-        <?php echo do_shortcode('[events_list scope="year" country="US"]<p>#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> </p>[/events_list]'); ?>
+        <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> </p>[/events_list]'); ?>
       </div>
       <div class="panel-footer text-center">
         <a href="/calendar/">View events calendar</a> &rarr;
