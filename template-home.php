@@ -8,7 +8,7 @@ Template Name: Home Page
   <div class="col-md-6">
     <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
   </div><!-- /.col -->
-  <div class="col-md-6">
+  <div class="col-md-6 hidden-xs">
     <?php echo do_shortcode('[spl_widget login-form]'); ?>
   </div><!-- /.col -->
 </div><!-- /.row -->
