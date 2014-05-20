@@ -131,8 +131,7 @@ Template Name: Home Page
       </div>
       <div class="panel-body">
         <?php echo do_shortcode('[events_list scope="month" limit="5" country="US"]#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> <hr>[/events_list]'); ?>
-      </div>
-      <div class="panel-footer text-center">
+      
         <small>
           <a href="/calendar/">View events calendar</a> &rarr;
         </small>
