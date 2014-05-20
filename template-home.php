@@ -76,7 +76,7 @@ Template Name: Home Page
     </div>
     
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-xs-6">
         <p>  
           
           <a class="btn btn-block btn-default btn-sm"
@@ -86,7 +86,7 @@ Template Name: Home Page
             <b>Facebook</b></a>
         </p>
       </div><!-- /.col -->
-      <div class="col-md-6">
+      <div class="col-xs-6">
         <p>
           <a class="btn btn-block btn-default btn-sm text-info" 
             href="http://twitter.com/spokanelibrary" 
