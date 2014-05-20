@@ -34,7 +34,8 @@ Template Name: Home Page
         <a href="/digital/">Learn More</a> &rarr;
       </div>
     </div><!-- /.panel -->
-
+  </div><!-- /.col -->
+  <div class="col-md-3">
     <div class="panel panel-primary">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-calendar"></i>
