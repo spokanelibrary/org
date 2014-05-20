@@ -68,9 +68,11 @@ Template Name: Home Page
       <a href="/connect/" class="list-group-item">
         Contact the library
       </a>
+      <!--
       <a href="/faq/" class="list-group-item">
         Questions &amp; Answers
       </a>
+      -->
     </div>
     
   </div><!-- /.col -->
