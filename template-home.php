@@ -33,6 +33,11 @@ Template Name: Home Page
       </div>
     </div><!-- /.panel -->
 
+    
+
+  </div><!-- /.col -->
+  <div class="col-md-3">
+
     <h4 class="text-muted">
       We can help!
     </h4>
@@ -45,9 +50,18 @@ Template Name: Home Page
     <p>
       <a href="/connect/" class="btn btn-block btn-sm btn-success">Contact the Library</a>
     </p>
-
+    
   </div><!-- /.col -->
-  <div class="col-md-3">
+
+</div><!-- /.row -->
+
+<div class="row">
+
+	<div class="col-sm-8 col-md-9">
+		<?php //get_template_part('templates/page', 'header'); ?>
+
+		<?php get_template_part('templates/content', 'page'); ?>
+
 
     <div class="panel panel-primary">
       <div class="panel-heading">
@@ -61,19 +75,7 @@ Template Name: Home Page
         <a href="/calendar/">View events calendar</a> &rarr;
       </div>
     </div><!-- /.panel -->
-    
-  </div><!-- /.col -->
 
-</div><!-- /.row -->
-
-<div class="row">
-
-	<div class="col-sm-8 col-md-9">
-		<?php //get_template_part('templates/page', 'header'); ?>
-
-		
-
-		<?php get_template_part('templates/content', 'page'); ?>
 
 
 		<?php
