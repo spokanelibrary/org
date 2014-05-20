@@ -62,6 +62,11 @@ Template Name: Home Page
 
   </div><!-- /.col -->
   <div class="col-md-3">
+    <h4 class="text-muted">
+      Is the library open?
+    </h4>
+    <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+    
     <div class="panel panel-primary">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-calendar"></i>
@@ -74,11 +79,6 @@ Template Name: Home Page
         <a href="/calendar/">View events calendar</a> &rarr;
       </div>
     </div><!-- /.panel -->
-
-    <h4 class="text-muted">
-      Is the library open?
-    </h4>
-    <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
 
   </div><!-- /.col -->
 
