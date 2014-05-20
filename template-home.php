@@ -40,7 +40,7 @@ Template Name: Home Page
   </div><!-- /.col -->
   <div class="col-md-3">
 
-    <ul class="nav nav-pills">
+    <ul class="nav nav-pills nav-stacked">
       <li>
         <a href="/chat/">Live chat &rarr;</a>
       </li>
@@ -48,7 +48,7 @@ Template Name: Home Page
         <a href="/search/">Search the catalog &rarr;</a>
       </li>
       <li>
-        <a href="/search/">Staff picks &amp; popular titles &rarr;</a>
+        <a href="/search/">Browse popular titles &rarr;</a>
       </li>
       <li>
         <a href="/connect/">Contact the library &rarr;</a>
