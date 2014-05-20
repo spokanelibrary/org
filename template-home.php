@@ -23,7 +23,7 @@ Template Name: Home Page
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
   <div class="col-md-6">
-    <div class="panel panel-warning">
+    <div class="panel panel-warning" style="border-left-width:4px;">
       <div class="panel-heading">
         Digital Branch
       </div>
