@@ -93,7 +93,7 @@ Template Name: Home Page
     -->
     <h4 class="text-primary" href="http://blog.spokanelibrary.org">
       <span class="glyphicon glyphicon-bullhorn text-primary"></span>
-      <a href="#">Recently posted <small>by library bloggers &rarr;</small></a>
+      <a href="#">Recently posted <small>by library bloggers</small></a>
     </h4>
     <ul class="nav nav-pills">
         <?php if ( $maxitems == 0 ) : ?>
