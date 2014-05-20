@@ -48,10 +48,16 @@ Template Name: Home Page
 
   </div><!-- /.col -->
   <div class="col-md-3">
-    <h4 class="text-muted">
-      Is the library open?
-    </h4>
-    <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <i class="glyphicon glyphicon-calendar"></i>
+        Is the library open?
+      </div>
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+      </div>
+    </div><!-- /.panel -->
 
     <div class="panel panel-primary">
       <div class="panel-heading">
