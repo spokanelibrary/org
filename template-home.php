@@ -37,13 +37,13 @@ Template Name: Home Page
       We can help!
     </h4>
     <p>
-      <a href="/chat/" class="btn btn-block btn-warning">Live Chat</a>
+      <a href="/chat/" class="btn btn-block btn-sm btn-warning">Live Chat</a>
     </p>
     <p>
-      <a href="/faq/" class="btn btn-block btn-primary">Frequently Asked</a>
+      <a href="/faq/" class="btn btn-block btn-sm btn-primary">Frequently Asked</a>
     </p>
     <p>
-      <a href="/connect/" class="btn btn-block btn-success">Contact the Library</a>
+      <a href="/connect/" class="btn btn-block btn-sm btn-success">Contact the Library</a>
     </p>
 
   </div><!-- /.col -->
