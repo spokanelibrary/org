@@ -54,7 +54,7 @@ Template Name: Home Page
         Happening soon
       </div>
       <div class="panel-body">
-        <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK <small class="muted">@</small> #_LOCATIONLINK <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  #_EVENTEXCERPT{20,...} </p>[/events_list]'); ?>
+        <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK <br> <small class="muted">@</small> #_LOCATIONLINK <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  #_EVENTEXCERPT{20,...} </p>[/events_list]'); ?>
       </div>
       <div class="panel-footer text-right">
         <a href="/calendar/">View events calendar</a> &rarr;
