@@ -61,32 +61,6 @@ Template Name: Home Page
         Questions &amp; Answers
       </a>
     </div>
-
-
-    
-
-    <!--
-    <ul class="nav nav-pills nav-stacked">
-      <li>
-        <a href="/chat/">Live chat &rarr;</a>
-      </li>
-      <li>
-        <a href="/search/">Search the catalog &rarr;</a>
-      </li>
-      <li>
-        <a href="/browse/">Browse popular titles &rarr;</a>
-      </li>
-      <li>
-        <a href="/news/">Get library news &rarr;</a>
-      </li>
-      <li>
-        <a href="/connect/">Contact the library &rarr;</a>
-      </li>
-      <li>
-        <a href="/faq/">Frequently asked questions &rarr;</a>
-      </li>
-    </ul>
-    -->
     
   </div><!-- /.col -->
 
@@ -151,7 +125,7 @@ Template Name: Home Page
         Happening soon
       </div>
       <div class="panel-body">
-        <?php echo do_shortcode('[events_list scope="year" limit="4" country="US"]<p>#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> </p>[/events_list]'); ?>
+        <?php echo do_shortcode('[events_list scope="year" limit="4" country="US"]#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> <hr>[/events_list]'); ?>
       </div>
       <div class="panel-footer text-center">
         <a href="/calendar/">View events calendar</a> &rarr;
