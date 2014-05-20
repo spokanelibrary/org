@@ -20,6 +20,7 @@ if ( !isset($_REQUEST['kiosk']) ) {
 <![endif]-->
 
 <?php if ( is_home() ): ?>
+  this is a test
 <!-- begin olark code -->
 <script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
 f[z]=function(){
