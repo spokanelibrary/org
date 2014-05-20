@@ -5,9 +5,9 @@
   	</span>
 	</a>
   <div class="media-body">
-    <h6 class="media-heading">
+    <h5 class="media-heading">
     	<a href="#"><em>Freegal:</em> Music Downloads</a> <small>(.mp3)</small>
-    </h6>
+    </h5>
   </div>
 </div><!-- /.media -->
 
