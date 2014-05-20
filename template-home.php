@@ -29,7 +29,7 @@ Template Name: Home Page
         Discover the Digital Branch
       </div>
       <div class="panel-body">
-      <?php echo do_shortcode('[spl_widget custom-page page=download-home]'); ?>
+      <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
       </div>
     </div><!-- /.panel -->
 
