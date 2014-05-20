@@ -40,11 +40,15 @@ Template Name: Home Page
     <h4 class="text-muted">
       We can help!
     </h4>
-    
-    <a href="#" class="btn btn-default">Live Chat</a>
-    <a href="#" class="btn btn-default">Frequently Asked</a>
-    <a href="#" class="btn btn-default">Contact the Library</a>
-    
+    <p>
+      <a href="#" class="btn btn-block btn-default">Live Chat</a>
+    </p>
+    <p>
+      <a href="#" class="btn btn-block btn-default">Frequently Asked</a>
+    </p>
+    <p>
+      <a href="#" class="btn btn-block btn-default">Contact the Library</a>
+    </p>
 
   </div><!-- /.col -->
   <div class="col-md-3">
