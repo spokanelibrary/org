@@ -41,13 +41,13 @@ Template Name: Home Page
   <div class="col-md-3">
 
     <p>
-      <a href="/chat/" class="btn btn-block btn-link">Live Chat</a>
+      <a href="/chat/" class="btn btn-link">Live Chat</a>
     </p>
     <p>
-      <a href="/faq/" class="btn btn-block btn-link">Frequently Asked</a>
+      <a href="/faq/" class="btn btn-link">Frequently Asked</a>
     </p>
     <p>
-      <a href="/connect/" class="btn btn-block btn-link">Contact the Library</a>
+      <a href="/connect/" class="btn btn-link">Contact the Library</a>
     </p>
     
   </div><!-- /.col -->
