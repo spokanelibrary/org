@@ -24,6 +24,8 @@ Template Name: Home Page
   </div><!-- /.col -->
   <div class="col-md-6">
     <div class="panel panel-primary">
+      <?php echo do_shortcode('[spl_widget custom-page page=download]'); ?>
+      
       <div class="panel-heading">
         This week at the library
       </div>
