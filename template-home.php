@@ -9,8 +9,7 @@ Template Name: Home Page
     <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
   </div><!-- /.col -->
   <div class="col-md-6">
-    <div class="sidebar hidden-xs">
-      <h3>Coming up soon</h3>
+    <div class="hidden-xs">
       <?php echo do_shortcode('[spl_widget login-form]'); ?>
     </div>
   </div><!-- /.col -->
@@ -24,7 +23,10 @@ Template Name: Home Page
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
   <div class="col-md-6">
-    <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK will take place at #_LOCATIONLINK on #_EVENTDATES at #_EVENTTIMES</p>[/events_list]'); ?>
+    <div class="sidebar hidden-xs">
+      <h3>Coming up soon</h3>
+      <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK will take place at #_LOCATIONLINK on #_EVENTDATES at #_EVENTTIMES</p>[/events_list]'); ?>
+    </div>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
