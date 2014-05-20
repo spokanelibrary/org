@@ -53,8 +53,14 @@ Template Name: Home Page
       <a href="/search/" class="list-group-item">
         Search the catalog
       </a>
+      <a href="/explore/" class="list-group-item">
+        How to find things
+      </a>
       <a href="/browse/" class="list-group-item">
         Browse popular titles
+      </a>
+      <a href="/apps/" class="list-group-item">
+        Mobile apps
       </a>
       <a href="/news/" class="list-group-item">
         Get library news
