@@ -19,6 +19,7 @@ if ( !isset($_REQUEST['kiosk']) ) {
   <script src="/assets/js/vendor/respond.min.js"></script>
 <![endif]-->
 
+<?php if ( is_home() ): ?>
 <!-- begin olark code -->
 <script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
 f[z]=function(){
@@ -39,5 +40,6 @@ loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure"
 /* custom configuration goes here (www.olark.com/documentation) */
 olark.identify('1674-854-10-5175');/*]]>*/</script><noscript><a href="https://www.olark.com/site/1674-854-10-5175/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
 <!-- end olark code -->
+<?php endif; ?>
 
 <?php wp_footer(); ?>
