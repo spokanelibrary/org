@@ -31,7 +31,9 @@ Template Name: Home Page
       <div class="panel-body">
         <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
         <hr>
-        <a href="/digital/">Find more research and learning tools online</a> &rarr;
+        <small>
+          <a href="/digital/">Find more research and learning tools online</a> &rarr;
+        </small>
       </div>
     </div><!-- /.panel -->
 
