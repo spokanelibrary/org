@@ -40,11 +40,17 @@ Template Name: Home Page
   </div><!-- /.col -->
   <div class="col-md-3">
 
-    <p>
-      <a href="/chat/" class="btn btn-link">Live Chat</a>
-      <a href="/faq/" class="btn btn-link">Frequently Asked</a>
-      <a href="/connect/" class="btn btn-link">Contact the Library</a>
-    </p>
+    <ul class="nav nav-pills">
+      <li>
+        <a href="/chat/" class="btn btn-link">Live Chat</a>
+      </li>
+      <li>
+        <a href="/faq/" class="btn btn-link">Frequently Asked</a>
+      </li>
+      <li>
+        <a href="/connect/" class="btn btn-link">Contact the Library</a>
+      </li>
+    </ul>
     
   </div><!-- /.col -->
 
