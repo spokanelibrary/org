@@ -23,9 +23,10 @@ Template Name: Home Page
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
   <div class="col-md-6">
-    <div class="panel panel-primary">
-      <?php echo do_shortcode('[spl_widget custom-page page=download]'); ?>
+    
+    <?php echo do_shortcode('[spl_widget custom-page page=download-home]'); ?>
       
+    <div class="panel panel-primary">
       <div class="panel-heading">
         This week at the library
       </div>
