@@ -79,20 +79,20 @@ Template Name: Home Page
       <div class="col-md-6">
         <p>  
           
-          <a class="btn btn-block btn-sm"
+          <a class="btn btn-block btn-default btn-sm"
             href="http://facebook.com/spokanelibrary" 
             title="">
             <img src="/assets/img/icons/16px/facebook.png">
-            <small>Facebook</small></a>
+            <b>Facebook</b></a>
         </p>
       </div><!-- /.col -->
       <div class="col-md-6">
         <p>
-          <a class="btn btn-block btn-sm text-info" 
+          <a class="btn btn-block btn-default btn-sm text-info" 
             href="http://twitter.com/spokanelibrary" 
             title="">
             <img src="/assets/img/icons/16px/twitter.png">
-            <small>Twitter</small></a>
+            <b>Twitter</b></a>
         </p>
       </div><!-- /.col -->
     </div><!-- /.row -->
