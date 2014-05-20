@@ -19,6 +19,15 @@ Template Name: Home Page
 </p>
 
 <div class="row">
+  <div class="col-md-9">
+    <a href="#" class="btn btn-block btn-primary">Test</a>
+  </div>
+  <div class="col-md-3">
+    <a href="#" class="btn btn-block btn-primary">Test</a>
+  </div>
+</div><!-- /.row --> 
+
+<div class="row">
   <div class="col-md-6">
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
@@ -37,13 +46,13 @@ Template Name: Home Page
       We can help!
     </h4>
     <p>
-      <a href="/chat/" class="btn btn-block btn-link">Live Chat</a>
+      <a href="/chat/" class="btn btn-block btn-warning">Live Chat</a>
     </p>
     <p>
-      <a href="/faq/" class="btn btn-block btn-link">Frequently Asked</a>
+      <a href="/faq/" class="btn btn-block btn-primary">Frequently Asked</a>
     </p>
     <p>
-      <a href="/connect/" class="btn btn-block btn-link">Contact the Library</a>
+      <a href="/connect/" class="btn btn-block btn-success">Contact the Library</a>
     </p>
 
   </div><!-- /.col -->
