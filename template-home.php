@@ -25,10 +25,13 @@ Template Name: Home Page
   <div class="col-md-6">
     <div class="panel panel-primary">
       <div class="panel-heading">
-      This week at the library
+        This week at the library
       </div>
       <div class="panel-body">
-      <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK will take place at #_LOCATIONLINK on #_EVENTDATES at #_EVENTTIMES</p>[/events_list]'); ?>
+        <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK will take place at #_LOCATIONLINK on #_EVENTDATES at #_EVENTTIMES</p>[/events_list]'); ?>
+      </div>
+      <div class="panel-footer">
+        <a href="/calendar/">Check out the event calendar &rarr;</a>
       </div>
     </div><!-- /.panel -->
   </div><!-- /.col -->
