@@ -38,7 +38,7 @@ Template Name: Home Page
     <div class="panel panel-primary">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-calendar"></i>
-        This week at the library
+        Happening soon
       </div>
       <div class="panel-body">
         <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK <small class="muted">@</small> #_LOCATIONLINK <br> <b>#_EVENTDATES</b> #_EVENTTIMES <br>  #_EVENTEXCERPT{20,...} </p>[/events_list]'); ?>
