@@ -42,11 +42,7 @@ Template Name: Home Page
 
     <p>
       <a href="/chat/" class="btn btn-link">Live Chat</a>
-    </p>
-    <p>
       <a href="/faq/" class="btn btn-link">Frequently Asked</a>
-    </p>
-    <p>
       <a href="/connect/" class="btn btn-link">Contact the Library</a>
     </p>
     
