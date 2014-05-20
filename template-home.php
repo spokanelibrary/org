@@ -49,7 +49,7 @@ Template Name: Home Page
   </div><!-- /.col -->
   <div class="col-md-3">
     
-    <div class="panel panel-default">
+    <div class="panel panel-warning" style="margin-bottom:0;">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-calendar"></i>
         Is the library open?
