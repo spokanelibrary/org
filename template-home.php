@@ -28,7 +28,7 @@ Template Name: Home Page
         This week at the library
       </div>
       <div class="panel-body">
-        <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK <small class="muted">@</small> #_LOCATIONLINK <br> <b>#_EVENTDATES</b> #_EVENTTIMES</p>[/events_list]'); ?>
+        <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK <small class="muted">@</small> #_LOCATIONLINK <br> <b>#_EVENTDATES</b> #_EVENTTIMES <br> #_EVENTNOTES </p>[/events_list]'); ?>
       </div>
       <div class="panel-footer text-right">
         <a href="/calendar/">Check out the events calendar</a> &rarr;
