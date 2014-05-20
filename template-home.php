@@ -40,6 +40,19 @@ Template Name: Home Page
   </div><!-- /.col -->
   <div class="col-md-3">
 
+    <a href="/chat/" class="btn btn-default">Live chat &rarr;</a>
+    <br>
+      <a href="/search/">Search the catalog &rarr;</a>
+    <br>
+      <a href="/browse/">Browse popular titles &rarr;</a>
+    <br>
+      <a href="/news/">Get library news &rarr;</a>
+    <br>
+      <a href="/connect/">Contact the library &rarr;</a>
+    <br>
+      <a href="/faq/">Frequently asked questions &rarr;</a>
+
+    <!--
     <ul class="nav nav-pills nav-stacked">
       <li>
         <a href="/chat/">Live chat &rarr;</a>
@@ -60,6 +73,7 @@ Template Name: Home Page
         <a href="/faq/">Frequently asked questions &rarr;</a>
       </li>
     </ul>
+    -->
     
   </div><!-- /.col -->
 
