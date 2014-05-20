@@ -12,7 +12,7 @@
 </div><!-- /.media -->
 
 <div class="media">
-  <a class="pull-left btn btn-success" href="#">
+  <a class="pull-left btn btn-success btn-xs" href="#">
   	<span class="media-object">
   		<img alt="" style="width: 30px; height: 30px;" src="/assets/img/png/spl-app-icons-ebook.png">
   	</span>
@@ -25,7 +25,7 @@
 </div><!-- /.media -->
 
 <div class="media">
-  <a class="pull-left btn btn-success" href="#">
+  <a class="pull-left btn btn-success btn-xs" href="#">
   	<span class="media-object">
   		<img alt="" style="width: 30px; height: 30px;" src="/assets/img/png/spl-app-icons-magazine.png">
   	</span>
@@ -38,7 +38,7 @@
 </div><!-- /.media -->
 
 <div class="media">
-  <a class="pull-left btn btn-success" href="#">
+  <a class="pull-left btn btn-success btn-xs" href="#">
   	<span class="media-object">
   		<img alt="" style="width: 30px; height: 30px;" src="/assets/img/png/spl-app-icons-audio.png">
   	</span>
