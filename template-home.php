@@ -38,13 +38,13 @@ Template Name: Home Page
     </div><!-- /.panel -->
 
     <h4 class="text-muted">
-      We can help
+      We can help!
     </h4>
-    <div class="list-group">
-      <a href="#" class="list-group-item">Live Chat</a>
-      <a href="#" class="list-group-item">Frequently Asked</a>
-      <a href="#" class="list-group-item">Contact the Library</a>
-    </div>
+    
+    <a href="#" class="btn btn-default">Live Chat</a>
+    <a href="#" class="btn btn-default">Frequently Asked</a>
+    <a href="#" class="btn btn-default">Contact the Library</a>
+    
 
   </div><!-- /.col -->
   <div class="col-md-3">
