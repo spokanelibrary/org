@@ -21,7 +21,7 @@ Template Name: Home Page
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
   <div class="col-md-6">
-    <?php echo do_shortcode('[events_list scope="tomorrow" country="US"]<p>#_EVENTLINK will take place at #_LOCATIONLINK on #_EVENTDATES at #_EVENTTIMES</p>[/events_list]'); ?>
+    <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK will take place at #_LOCATIONLINK on #_EVENTDATES at #_EVENTTIMES</p>[/events_list]'); ?>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
