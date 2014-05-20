@@ -74,28 +74,6 @@ Template Name: Home Page
       </a>
       -->
     </div>
-    
-    <div class="row">
-      <div class="col-xs-6">
-        <p>  
-          
-          <a class="btn btn-block btn-default btn-sm"
-            href="http://facebook.com/spokanelibrary" 
-            title="">
-            <img src="/assets/img/icons/16px/facebook.png">
-            <b>Facebook</b></a>
-        </p>
-      </div><!-- /.col -->
-      <div class="col-xs-6">
-        <p>
-          <a class="btn btn-block btn-default btn-sm text-info" 
-            href="http://twitter.com/spokanelibrary" 
-            title="">
-            <img src="/assets/img/icons/16px/twitter.png">
-            <b>Twitter</b></a>
-        </p>
-      </div><!-- /.col -->
-    </div><!-- /.row -->
 
   </div><!-- /.col -->
 
