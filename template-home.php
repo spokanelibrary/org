@@ -56,26 +56,10 @@ Template Name: Home Page
 
 <div class="row">
 
-	<div class="col-sm-8 col-md-9">
+	<div class="col-md-6">
 		<?php //get_template_part('templates/page', 'header'); ?>
 
 		<?php get_template_part('templates/content', 'page'); ?>
-
-
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <i class="glyphicon glyphicon-calendar"></i>
-        Happening soon
-      </div>
-      <div class="panel-body">
-        <?php echo do_shortcode('[events_list scope="year" limit="4" country="US"]<p>#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> </p>[/events_list]'); ?>
-      </div>
-      <div class="panel-footer text-center">
-        <a href="/calendar/">View events calendar</a> &rarr;
-      </div>
-    </div><!-- /.panel -->
-
-
 
 		<?php
     $rss = fetch_feed( 'http://blog.spokanelibrary.org/feed/atom/' );
@@ -122,7 +106,23 @@ Template Name: Home Page
     </div>
 
 	</div><!-- /.col -->
-	<div class="col-sm-4 col-md-3">
+  
+  <div class="col-md-3">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <i class="glyphicon glyphicon-calendar"></i>
+        Happening soon
+      </div>
+      <div class="panel-body">
+        <?php echo do_shortcode('[events_list scope="year" limit="4" country="US"]<p>#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> </p>[/events_list]'); ?>
+      </div>
+      <div class="panel-footer text-center">
+        <a href="/calendar/">View events calendar</a> &rarr;
+      </div>
+    </div><!-- /.panel -->
+  </div><!-- /.col -->
+
+	<div class="col-md-3">
     
     <div class="panel panel-default" style="margin-bottom:6px;">
       <div class="panel-heading">
