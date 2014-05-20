@@ -41,19 +41,30 @@ Template Name: Home Page
   <div class="col-md-3">
 
     <div class="list-group">
-  <a href="#" class="list-group-item active">
-    Cras justo odio
-  </a>
-  <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-  <a href="#" class="list-group-item">Morbi leo risus</a>
-  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-  <a href="#" class="list-group-item">Vestibulum at eros</a>
-</div>
+      <a href="/chat/" class="list-group-item active">
+        Live chat
+      </a>
+      <a href="/search/" class="list-group-item">
+        Search the catalog
+      </a>
+      <a href="/browse/" class="list-group-item">
+        Browse popular titles
+      </a>
+      <a href="/news/" class="list-group-item">
+        Get library news
+      </a>
+      <a href="/connect/" class="list-group-item">
+        Contact the library
+      </a>
+      <a href="/faq/" class="list-group-item">
+        Frequently asked questions
+      </a>
+    </div>
 
 
-    <a href="/chat/" class="btn btn-default btn-block">Live chat &rarr;</a>
+    <a href="/chat/" class="btn btn-default btn-block"> &rarr;</a>
     <br>
-      <a href="/search/">Search the catalog &rarr;</a>
+      
     <br>
       <a href="/browse/">Browse popular titles &rarr;</a>
     <br>
