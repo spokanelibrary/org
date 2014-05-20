@@ -37,13 +37,13 @@ Template Name: Home Page
       We can help!
     </h4>
     <p>
-      <a href="/chat/" class="btn btn-block btn-warning">Live Chat</a>
+      <a href="/chat/" class="btn btn-block btn-link">Live Chat</a>
     </p>
     <p>
-      <a href="/faq/" class="btn btn-block btn-primary">Frequently Asked</a>
+      <a href="/faq/" class="btn btn-block btn-link">Frequently Asked</a>
     </p>
     <p>
-      <a href="/connect/" class="btn btn-block btn-success">Contact the Library</a>
+      <a href="/connect/" class="btn btn-block btn-link">Contact the Library</a>
     </p>
 
   </div><!-- /.col -->
@@ -56,7 +56,7 @@ Template Name: Home Page
       <div class="panel-body">
         <?php echo do_shortcode('[events_list scope="month" country="US"]<p>#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> </p>[/events_list]'); ?>
       </div>
-      <div class="panel-footer text-right">
+      <div class="panel-footer text-center">
         <a href="/calendar/">View events calendar</a> &rarr;
       </div>
     </div><!-- /.panel -->
