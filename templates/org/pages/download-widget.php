@@ -1,5 +1,5 @@
 <div class="media">
-  <a class="pull-left btn btn-success" href="#">
+  <a class="pull-left btn btn-success btn-sm" href="#">
   	<span class="media-object">
   		<img alt="" style="width: 30px; height: 30px;" src="/assets/img/png/spl-app-icons-music.png">
   	</span>
