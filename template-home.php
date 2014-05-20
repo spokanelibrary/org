@@ -62,17 +62,7 @@ Template Name: Home Page
     </div>
 
 
-    <a href="/chat/" class="btn btn-default btn-block"> &rarr;</a>
-    <br>
-      
-    <br>
-      <a href="/browse/">Browse popular titles &rarr;</a>
-    <br>
-      <a href="/news/">Get library news &rarr;</a>
-    <br>
-      <a href="/connect/">Contact the library &rarr;</a>
-    <br>
-      <a href="/faq/">Frequently asked questions &rarr;</a>
+    
 
     <!--
     <ul class="nav nav-pills nav-stacked">
