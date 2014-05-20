@@ -56,7 +56,7 @@
 
     <div id="spl-account-profile"></div>
 
-    <div class="pull-right" style="width:220px;">
+    <div class="pull-right" style="width:220px; margin-top: 10px; margin-right: 10px;">
     <div class="row">
       <div class="col-xs-6">
         <p>  
