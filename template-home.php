@@ -50,7 +50,7 @@ Template Name: Home Page
   <div class="col-md-3">
     
     <div class="panel panel-default" style="margin-bottom:6px;">
-      <div class="panel-heading muted">
+      <div class="panel-heading text-muted">
         <i class="glyphicon glyphicon-calendar"></i>
         Is the library open?
       </div>
