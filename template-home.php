@@ -143,7 +143,7 @@ Template Name: Home Page
   
   <div class="col-md-6">
     <div class="hidden-xs">
-      <div class="panel panel-warning" style="border-left-width:5px;">
+      <div class="panel panel-success" style="border-left-width:5px;">
         <div class="panel-heading">
           <i class="glyphicon glyphicon-calendar"></i>
           Coming up soon at your local library
