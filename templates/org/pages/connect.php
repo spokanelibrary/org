@@ -121,7 +121,7 @@
     <div class="alert alert-info">
     <p>
       <strong>Non-discoverable Connect pages to port:</strong>
-      Welcome, Wireless, Receipt, Unblock, IT Academy
+      Welcome, Wireless, Receipt, Unblock, IT Academy, Obits, BioFiles
     </p>
     </div>
 
