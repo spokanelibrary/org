@@ -129,9 +129,7 @@ Template Name: Home Page
     <!-- </div> -->
     </div>
 
-    <hr>
-
-    <div class="panel panel-default" style="margin-bottom:6px;">
+    <div class="panel panel-default" style="margin-top:6px;">
       <div class="panel-heading">
         <span class="text-muted">
         <i class="glyphicon glyphicon-calendar"></i>
