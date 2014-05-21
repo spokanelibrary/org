@@ -19,6 +19,7 @@
       </a>
     </p>    
   </div><!-- /.panel-body -->
+  <!--
   <div class="panel-footer panel-transparent text-center">
       <a class=""
         href="http://facebook.com/spokanelibrary" 
@@ -27,5 +28,5 @@
       <a class="text-info" 
         href="http://twitter.com/spokanelibrary" 
         title=""><img src="/assets/img/icons/16px/twitter.png"> <strong>Twitter</strong></a>
-  </div><!-- /.panel-footer -->
+  </div> /.panel-footer -->
 </div><!-- /.panel -->
