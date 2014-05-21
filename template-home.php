@@ -130,7 +130,7 @@ Template Name: Home Page
     </div>
 
     <hr>
-    
+
     <div class="panel panel-default" style="margin-bottom:6px;">
       <div class="panel-heading">
         <span class="text-muted">
@@ -143,12 +143,12 @@ Template Name: Home Page
 
 	</div><!-- /.col -->
   
-  <div class="col-md-3">
+  <div class="col-md-6">
     <div class="hidden-xs">
       <div class="panel panel-warning" style="border-left-width:5px;">
         <div class="panel-heading">
           <i class="glyphicon glyphicon-calendar"></i>
-          Happening soon
+          Happening soon at your local library
         </div>
         <div class="panel-body">
           <?php echo do_shortcode('[events_list scope="2-months" limit="5" country="US"]#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> <hr>[/events_list]'); ?>
@@ -161,18 +161,5 @@ Template Name: Home Page
     </div>
   </div><!-- /.col -->
 
-	<div class="col-md-3">
-    
-    <div class="panel panel-default" style="margin-bottom:6px;">
-      <div class="panel-heading">
-        <span class="text-muted">
-        <i class="glyphicon glyphicon-calendar"></i>
-        Is the library open?
-        </span>
-      </div>
-    </div><!-- /.panel -->
-    <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
-		
-	</div><!-- /.col -->
 
 </div><!-- /.row -->
