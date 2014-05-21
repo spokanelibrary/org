@@ -27,7 +27,7 @@
 </div><!-- /.row -->
 
 
-
+<!--
 
 <h3>
 			<i class="glyphicon glyphicon-globe"></i> Online Resources
@@ -45,3 +45,4 @@
 
 <a href="#"><img style="width: 50px; height: 50px;" alt="" src="/assets/img/png/spl-app-icons-audio.png" /></a>
 <a href="#">Audio Books</a>
+-->
