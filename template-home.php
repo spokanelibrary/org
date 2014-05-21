@@ -133,7 +133,7 @@ Template Name: Home Page
       <div class="panel-heading">
         <span class="text-muted">
         <i class="glyphicon glyphicon-calendar"></i>
-        Is the library open?
+        Is the library open now?
         </span>
       </div>
     </div><!-- /.panel -->
