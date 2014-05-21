@@ -43,7 +43,7 @@ Template Name: Home Page
   <div class="col-md-3">
 
     <div class="list-group">
-      <a href="/chat/" class="list-group-item active">
+      <a href="onclick="olark('api.box.expand')" href="javascript:void(0);"" class="list-group-item active">
         <i class="glyphicon glyphicon-comment"></i>
         Live chat
       </a>
