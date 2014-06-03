@@ -208,7 +208,7 @@ function spl_resources( $params ) {
       } elseif ( in_array('content', $params) ) {
           $output = $output;
       }  elseif ( in_array('panels', $params) ) {
-          $output = $panels;
+          $output = 'panels';
       } else {
           $output = $tutorial;
       }
