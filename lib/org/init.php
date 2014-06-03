@@ -45,6 +45,12 @@ add_filter( 'post_thumbnail_html', 'bootstrap_responsive_images', 10 );
 
 function spl_resources( $params ) {
   global $post; 
+
+  $orderby = 'title';
+  if ( $params['orderby'] ) {
+    $orderby = $params['orderby'];
+  }
+
   //query subpages  
   $args = array(  
       'post_parent' => $post->ID
