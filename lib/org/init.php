@@ -133,23 +133,21 @@ function spl_resources( $params ) {
           }
 
 
-          $panels .= '<h3>'.PHP_EOL;
-          $panels .= '<a href="#" class="text-success" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;
-          $panels .= '</h3>'.PHP_EOL;
+          //$panels .= '<h3>'.PHP_EOL;
+          //$panels .= '<a href="#" class="text-success" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;
+          //$panels .= '</h3>'.PHP_EOL;
           
-          $panels .= '
-                      <div class="collapse" id="'.$post->post_name.'">
-                      <div class="panel panel-default">
-                      <div class="panel-heading panel-transparent">
-                      <h4>
-                      '.$title.PHP_EOL.'
-                      </h4>
-                      </div>
-                      <div class="panel-body">
-                        
-                          '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
-                      </div>
-                      </div>
+          $panels .= '<div class="panel panel-default">
+                        <div class="panel-heading panel-transparent">
+                        <h4>
+                        '.$panels .= '<a href="#" class="text-success" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;.PHP_EOL.'
+                        </h4>
+                        </div>
+                        <div class="panel-body">
+                          <div class="collapse" id="'.$post->post_name.'">  
+                            '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
+                          </div>
+                        </div>
                       </div>'.PHP_EOL; 
 
           $panels .= '<hr>'.PHP_EOL;
