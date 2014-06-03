@@ -25,13 +25,13 @@
               <i class="glyphicon glyphicon-question-sign text-muted"></i> 
               <a class="" 
                 href="/ask/" 
-                title="">Book a librarian</a>
+                title="">Ask a librarian</a>
               <span class="text-muted">&rarr;</span>
             </h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              Please use this form to schedule one-on-one research assistance with a staff librarian.
+              Please use this form to request research assistance by email. We'll be glad to help!
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
@@ -43,18 +43,17 @@
               <i class="glyphicon glyphicon-question-sign text-muted"></i> 
               <a class="" 
                 href="/ask/" 
-                title="">Ask a librarian</a>
+                title="">Book a librarian</a>
               <span class="text-muted">&rarr;</span>
             </h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              Please use this form to request research assistance from a staff librarian. We'll be glad to help!
+              Please use this form to schedule a one-on-one research session with a staff librarian.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
-
     </div><!-- /.row -->
 
     <div class="row">
@@ -138,7 +137,7 @@
     <div class="alert alert-info">
     <p>
       <strong>Non-discoverable Connect pages to port:</strong>
-      Welcome, Wireless, Receipt, Unblock, IT Academy, Obits, BioFiles
+      Welcome, Wireless, Receipt, Unblock, IT Academy, Obits, BioFiles, Summere Signup
     </p>
     </div>
 
