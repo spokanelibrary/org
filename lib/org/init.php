@@ -64,6 +64,7 @@ function spl_resources( $params ) {
       $dropdown .= '<ul class="dropdown-menu" role="menu">'.PHP_EOL;
 
       $output = '';  
+      $panels = '';
       while ($subpages->have_posts()) : $subpages->the_post();  
           $active = '';
           if ( 1 == $i++ ) :
@@ -88,6 +89,9 @@ function spl_resources( $params ) {
           $nav .= '<li role="menuitem" class="'. $active . '"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
           $dropdown .= '<li role="menuitem"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
 
+          $panels .= '<p>';
+          $panels .= $post->post_name . PHP_EOL;
+          $panels .= '</p>';
           
           /*
           $output .= '
@@ -178,6 +182,8 @@ function spl_resources( $params ) {
           $output = $dropdown;
       } elseif ( in_array('content', $params) ) {
           $output = $output;
+      }  elseif ( in_array('panels', $params) ) {
+          $output = $panels;
       } else {
           $output = $tutorial;
       }
