@@ -140,10 +140,12 @@ function spl_resources( $params ) {
           $panels .= '</div>'.PHP_EOL;
           $panels .= '</div>'.PHP_EOL;
           
-          $panels .= '
-                      <div class="collapse" id="'.$post->post_name.'">  
+          $panels .= '<div class="collapse" id="'.$post->post_name.'">  
+                        <div class="panel panel-success">
+                          <div class="panel-body">
                           '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
-                      <hr>
+                          </div>
+                        </div>
                       </div>'.PHP_EOL; 
 
 
