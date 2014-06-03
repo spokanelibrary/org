@@ -116,7 +116,7 @@ function spl_resources( $params ) {
           }
 
           $panels .= '<p>';
-          $panels .= '<a href="#'.$post->post_name.'" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].'</a>' . PHP_EOL;
+          $panels .= '<a href="#" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].'</a>' . PHP_EOL;
           $panels .= '</p>';
 
           $panels .= '
