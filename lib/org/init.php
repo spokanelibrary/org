@@ -75,6 +75,7 @@ function spl_resources( $params ) {
           $title = '';
           $link['text'] = get_post_meta( $post->ID, '_cmb_secondary_proxy_text', true );
           $link['url'] = get_post_meta( $post->ID, '_cmb_secondary_proxy_url', true );
+          /*
           if ( is_array($link) && !empty($link['url']) ) {
             if ( empty($link['text']) ) {
 
@@ -83,6 +84,13 @@ function spl_resources( $params ) {
             $title .= '<a href="'.$link['url'].'">'.$link['text'].'</a> <small>&rarr;</small>'.PHP_EOL;
           } else {
             $title = get_the_title();
+          }
+          */
+          if ( empty($link['text'])) {
+            $link['text'] = get_the_title();
+            $title = get_the_title();
+          } else {
+             $title .= '<a href="'.$link['url'].'">'.$link['text'].'</a> <small>&rarr;</small>'.PHP_EOL;
           }
 
 
@@ -114,6 +122,7 @@ function spl_resources( $params ) {
                     </a>'.PHP_EOL;
             //$img = $image_url;
           }
+
 
           $panels .= '<h3>';
           $panels .= '<a href="#" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].'</a>' . PHP_EOL;
