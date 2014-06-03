@@ -132,25 +132,20 @@ function spl_resources( $params ) {
             //$img = $image_url;
           }
 
-
-          //$panels .= '<h3>'.PHP_EOL;
-          //$panels .= '<a href="#" class="text-success" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;
-          //$panels .= '</h3>'.PHP_EOL;
+          $panels .= '<div class="panel">'.PHP_EOL;
+          $panels .= '<div class="panel-body">'.PHP_EOL;
+          $panels .= '<h4>'.PHP_EOL;
+          $panels .= '<h4>'.PHP_EOL;
+          $panels .= '<a href="#" class="text-success" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;
+          $panels .= '</h4>'.PHP_EOL;
+          $panels .= '</div>'.PHP_EOL;
+          $panels .= '</div>'.PHP_EOL;
           
-          $panels .= '<div class="panel panel-default">
-                        <div class="panel-heading panel-transparent">
-                        <h4>
-                        <a href="#" class="text-success" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL.'
-                        </h4>
-                        </div>
-                        <div class="panel-body">
-                          <div class="collapse" id="'.$post->post_name.'">  
-                            '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
-                          </div>
-                        </div>
+          $panels .= '
+                      <div class="collapse" id="'.$post->post_name.'">  
+                          '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
                       </div>'.PHP_EOL; 
 
-          //$panels .= '<hr>'.PHP_EOL;
 
           $output .= '
                       <div class="panel panel-default" id="'.$post->post_name.'">
