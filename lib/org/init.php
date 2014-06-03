@@ -142,8 +142,8 @@ function spl_resources( $params ) {
           
           $panels .= '<div class="collapse" id="'.$post->post_name.'">  
                         <div class="row">
-                          <div class="col-md-1 hidden-xs hidden-sm text-centered">
-                            <h2 class="glyphicon glyphicon-info-sign text-success"></h2>
+                          <div class="col-md-1 hidden-xs hidden-sm">
+                            <h1 class="glyphicon glyphicon-info-sign text-success"></h1>
                           </div>
                           <div class="col-md-11">
                           '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
