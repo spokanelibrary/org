@@ -55,7 +55,7 @@ function spl_resources( $params ) {
   $args = array(  
       'post_parent' => $post->ID
     , 'post_type' => 'page'  
-    , 'orderby' => 'title'
+    , 'orderby' => $orderby
     , 'order' => 'ASC'
   );  
   $subpages = new WP_query($args);  
