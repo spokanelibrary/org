@@ -89,8 +89,10 @@ function spl_resources( $params ) {
           $nav .= '<li role="menuitem" class="'. $active . '"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
           $dropdown .= '<li role="menuitem"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
 
+
+
           $panels .= '<p>';
-          $panels .= $post->post_name . PHP_EOL;
+          $panels .= '<a href="#'.$post->post_name.'">'.$link['text'].'</a>' . PHP_EOL;
           $panels .= '</p>';
           
           /*
