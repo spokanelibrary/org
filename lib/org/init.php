@@ -140,7 +140,7 @@ function spl_resources( $params ) {
           $panels .= '<div class="panel panel-default">
                         <div class="panel-heading panel-transparent">
                         <h4>
-                        '.$panels .= '<a href="#" class="text-success" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;.PHP_EOL.'
+                        <a href="#" class="text-success" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL.'
                         </h4>
                         </div>
                         <div class="panel-body">
