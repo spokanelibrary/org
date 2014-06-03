@@ -1,21 +1,37 @@
 <div class="row">
   <div class="col-md-8">
-    
+    <div class="panel panel-default">
+      <div class="panel-heading panel-transparent">
+        <h4>
+          <i class="glyphicon glyphicon-envelope text-muted"></i> 
+          <a class="" 
+            href="/contact/" 
+            title="">Send us an email</a>
+          <span class="text-muted">&rarr;</span>
+        </h4>
+      </div><!-- /.panel-heading -->
+      <div class="panel-body">            
+        <p>
+          Contact us with questions about your account or general inquiries about the library.
+        </p>
+      </div><!-- /.panel-body -->
+    </div><!-- /.panel -->
+
     <div class="row">
       <div class="col-sm-6">
         <div class="panel panel-default">
           <div class="panel-heading panel-transparent">
             <h4>
-              <i class="glyphicon glyphicon-envelope text-muted"></i> 
+              <i class="glyphicon glyphicon-question-sign text-muted"></i> 
               <a class="" 
-                href="/contact/" 
-                title="">Send us an email</a>
+                href="/ask/" 
+                title="">Book a librarian</a>
               <span class="text-muted">&rarr;</span>
             </h4>
           </div><!-- /.panel-heading -->
-          <div class="panel-body">            
+          <div class="panel-body">
             <p>
-              Contact us with questions about your account or general inquiries about the library.
+              Please use this form to schedule one-on-one research assistance with a staff librarian.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
@@ -38,6 +54,7 @@
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
+
     </div><!-- /.row -->
 
     <div class="row">
