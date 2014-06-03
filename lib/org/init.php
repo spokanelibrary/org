@@ -88,6 +88,9 @@ function spl_resources( $params ) {
           */
           if ( empty($link['text'])) {
             $link['text'] = get_the_title();
+          }
+
+          if ( empty($link['url'])) {
             $title = get_the_title();
           } else {
              $title .= '<a href="'.$link['url'].'">'.$link['text'].'</a> <small>&rarr;</small>'.PHP_EOL;
@@ -128,7 +131,7 @@ function spl_resources( $params ) {
           $panels .= '<a href="#" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].'</a>' . PHP_EOL;
           $panels .= '</h3>';
 
-          /*
+          
           $panels .= '
                       <div class="collapse" id="'.$post->post_name.'">
                       <div class="panel panel-default">
@@ -154,7 +157,7 @@ function spl_resources( $params ) {
                       -->
                       </div>
                       </div>'.PHP_EOL; 
-          */
+          
 
           $output .= '
                       <div class="panel panel-default" id="'.$post->post_name.'">
