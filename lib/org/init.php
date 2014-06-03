@@ -142,7 +142,7 @@ function spl_resources( $params ) {
           
           $panels .= '<div class="collapse" id="'.$post->post_name.'">  
                         <div class="row">
-                          <div class="col-md-1 hidden-xs hidden-sm text-center">
+                          <div class="col-md-1 hidden-xs hidden-sm text-centered">
                             <h2 class="glyphicon glyphicon-info-sign text-success"></h2>
                           </div>
                           <div class="col-md-11">
