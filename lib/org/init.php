@@ -116,7 +116,7 @@ function spl_resources( $params ) {
           }
 
           $panels .= '<p>';
-          $panels .= '<button class="btn btn-primary" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].'</button>' . PHP_EOL;
+          $panels .= '<button class="btn btn-lg btn-link" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].'</button>' . PHP_EOL;
           $panels .= '</p>';
 
           $panels .= '
