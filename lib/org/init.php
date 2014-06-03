@@ -144,6 +144,7 @@ function spl_resources( $params ) {
                         <div class="row">
                           <div class="col-md-11 col-md-offset-1"
                           '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
+                          <hr>
                           </div>
                         </div>
                       </div>'.PHP_EOL; 
