@@ -134,7 +134,7 @@ function spl_resources( $params ) {
 
 
           $panels .= '<p>';
-          $panels .= '<a href="#" class="btn btn-block btn-lg btn-default" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;
+          $panels .= '<a href="#" class="btn btn-block btn-lg btn-success" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;
           $panels .= '</p>';
 
           
