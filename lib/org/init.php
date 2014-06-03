@@ -142,7 +142,10 @@ function spl_resources( $params ) {
           
           $panels .= '<div class="collapse" id="'.$post->post_name.'">  
                         <div class="row">
-                          <div class="col-md-11 col-md-offset-1">
+                          <div class="col-md-1">
+                            <i class="glyphicon glyphicon-info-sign"></i>
+                          </div>
+                          <div class="col-md-11">
                           '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
                           <hr>
                           </div>
