@@ -81,10 +81,31 @@ Template Name: Home Page
 
 <div class="row">
 
-	<div class="col-md-6">
-		<?php //get_template_part('templates/page', 'header'); ?>
+  <div class="col-md-6">
 
-		<?php get_template_part('templates/content', 'page'); ?>
+    <?php //get_template_part('templates/page', 'header'); ?>
+
+    <?php get_template_part('templates/content', 'page'); ?>
+
+
+    <div class="hidden-xs">
+      <div class="panel panel-success" style="border-left-width:5px;">
+        <div class="panel-heading">
+          <i class="glyphicon glyphicon-calendar"></i>
+          Coming up soon at your local library
+        </div>
+        <div class="panel-body">
+          <?php echo do_shortcode('[events_list scope="2-months" limit="5" country="US"]#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> <hr>[/events_list]'); ?>
+        
+          <small>
+            <a href="/calendar/">View events calendar</a> &rarr;
+          </small>
+        </div>
+      </div><!-- /.panel -->
+    </div>
+  </div><!-- /.col -->
+
+	<div class="col-md-6">
 
 		<?php
     $rss = fetch_feed( 'http://blog.spokanelibrary.org/feed/atom/' );
@@ -141,23 +162,4 @@ Template Name: Home Page
 
 	</div><!-- /.col -->
   
-  <div class="col-md-6">
-    <div class="hidden-xs">
-      <div class="panel panel-success" style="border-left-width:5px;">
-        <div class="panel-heading">
-          <i class="glyphicon glyphicon-calendar"></i>
-          Coming up soon at your local library
-        </div>
-        <div class="panel-body">
-          <?php echo do_shortcode('[events_list scope="2-months" limit="5" country="US"]#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> <hr>[/events_list]'); ?>
-        
-          <small>
-            <a href="/calendar/">View events calendar</a> &rarr;
-          </small>
-        </div>
-      </div><!-- /.panel -->
-    </div>
-  </div><!-- /.col -->
-
-
 </div><!-- /.row -->
