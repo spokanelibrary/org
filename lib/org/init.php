@@ -115,9 +115,9 @@ function spl_resources( $params ) {
             //$img = $image_url;
           }
 
-          $panels .= '<p>';
-          $panels .= '<button class="btn btn-lg btn-link" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].'</button>' . PHP_EOL;
-          $panels .= '</p>';
+          $panels .= '<h3>';
+          $panels .= '<a href="#" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].'</a>' . PHP_EOL;
+          $panels .= '</h3>';
 
           $panels .= '
                       <div class="collapse" id="'.$post->post_name.'">
