@@ -150,7 +150,7 @@ function spl_resources( $params ) {
                         </div>
                       </div>'.PHP_EOL; 
 
-          $panels .= '<hr>'.PHP_EOL;
+          //$panels .= '<hr>'.PHP_EOL;
 
           $output .= '
                       <div class="panel panel-default" id="'.$post->post_name.'">
