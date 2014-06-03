@@ -89,12 +89,6 @@ function spl_resources( $params ) {
           $nav .= '<li role="menuitem" class="'. $active . '"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
           $dropdown .= '<li role="menuitem"><a href="#'.$post->post_name.'">'. get_the_title() . '</a></li>'.PHP_EOL;
 
-
-
-          $panels .= '<p>';
-          $panels .= '<a href="#'.$post->post_name.'">'.$link['text'].'</a>' . PHP_EOL;
-          $panels .= '</p>';
-          
           /*
           $output .= '
                       <div class="panel panel-default" id="'.$post->post_name.'">
@@ -121,7 +115,34 @@ function spl_resources( $params ) {
             //$img = $image_url;
           }
 
+          $panels .= '<p>';
+          $panels .= '<a href="#'.$post->post_name.'" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].'</a>' . PHP_EOL;
+          $panels .= '</p>';
 
+          $panels .= '
+                      <div class="panel panel-default" id="'.$post->post_name.'">
+                      <div class="panel-heading panel-transparent">
+                      <h4>
+                      '.$title.PHP_EOL.'
+                      </h4>
+                      </div>
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-md-3">
+                          '.$img.'
+                          </div>
+                          <div class="col-md-9">
+                          '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
+                          </div>
+                        </div>
+                      </div>
+                      <!--
+                      <div class="panel-footer clearfix">
+                      <a class="btn btn-sm btn-primary pull-right" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
+                      </div>
+                      -->
+                      </div>'.PHP_EOL; 
+                      
           $output .= '
                       <div class="panel panel-default" id="'.$post->post_name.'">
                       <div class="panel-heading panel-transparent">
