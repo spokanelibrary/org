@@ -143,8 +143,8 @@ function spl_resources( $params ) {
           $panels .= '
                       <div class="collapse" id="'.$post->post_name.'">  
                           '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
-                      </div>
-                      <hr>'.PHP_EOL; 
+                      <hr>
+                      </div>'.PHP_EOL; 
 
 
           $output .= '
