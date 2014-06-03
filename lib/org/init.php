@@ -132,7 +132,7 @@ function spl_resources( $params ) {
             //$img = $image_url;
           }
 
-          $panels .= '<div class="panel">'.PHP_EOL;
+          $panels .= '<div class="panel panel-default">'.PHP_EOL;
           $panels .= '<div class="panel-body">'.PHP_EOL;
           $panels .= '<h4>'.PHP_EOL;
           $panels .= '<a href="#" class="text-success" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;
