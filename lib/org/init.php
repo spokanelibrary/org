@@ -132,8 +132,8 @@ function spl_resources( $params ) {
             //$img = $image_url;
           }
 
-          $panels .= '<div class="panel panel-success">'.PHP_EOL;
-          $panels .= '<div class="panel-heading">'.PHP_EOL;
+          $panels .= '<div class="panel panel-primary">'.PHP_EOL;
+          $panels .= '<div class="panel-body">'.PHP_EOL;
           $panels .= '<h4>'.PHP_EOL;
           $panels .= '<a href="#" class="text-success" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;
           $panels .= '</h4>'.PHP_EOL;
@@ -143,7 +143,7 @@ function spl_resources( $params ) {
           $panels .= '<div class="collapse" id="'.$post->post_name.'">  
                         <div class="row">
                           <div class="col-md-1 hidden-xs hidden-sm">
-                            <h1 class="glyphicon glyphicon-info-sign text-success"></h1>
+                            <h1 class="glyphicon glyphicon-info-sign text-primary"></h1>
                           </div>
                           <div class="col-md-11">
                           '. apply_filters('the_content', get_the_content() ).''.PHP_EOL.'
