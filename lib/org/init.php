@@ -119,6 +119,7 @@ function spl_resources( $params ) {
           $panels .= '<a href="#" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].'</a>' . PHP_EOL;
           $panels .= '</h3>';
 
+          /*
           $panels .= '
                       <div class="collapse" id="'.$post->post_name.'">
                       <div class="panel panel-default">
@@ -144,6 +145,7 @@ function spl_resources( $params ) {
                       -->
                       </div>
                       </div>'.PHP_EOL; 
+          */
 
           $output .= '
                       <div class="panel panel-default" id="'.$post->post_name.'">
