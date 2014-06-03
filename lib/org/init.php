@@ -120,7 +120,8 @@ function spl_resources( $params ) {
           $panels .= '</p>';
 
           $panels .= '
-                      <div class="panel panel-default" id="'.$post->post_name.'">
+                      <div class="collapse" id="'.$post->post_name.'">
+                      <div class="panel panel-default">
                       <div class="panel-heading panel-transparent">
                       <h4>
                       '.$title.PHP_EOL.'
@@ -141,8 +142,9 @@ function spl_resources( $params ) {
                       <a class="btn btn-sm btn-primary pull-right" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
                       </div>
                       -->
+                      </div>
                       </div>'.PHP_EOL; 
-                      
+
           $output .= '
                       <div class="panel panel-default" id="'.$post->post_name.'">
                       <div class="panel-heading panel-transparent">
