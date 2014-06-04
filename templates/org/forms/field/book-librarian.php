@@ -73,12 +73,12 @@
             </span>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                Date <span class="text-success">(first choice)</span>
+                Date <span class="text-success">(First choice)</span>
               </label>
               <div class="col-sm-8">
                 <div class="input-group date">
                   <input type="text" 
-                          class="form-control bootstrap-datepicker" 
+                          class="form-control" 
                           name="spl-form[datetime][first][date]"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
                 </div>
                 <div class="row">
@@ -105,12 +105,12 @@
             </span>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                Date <span class="text-warning">(second choice)</span>
+                Date <span class="text-warning">(Second choice)</span>
               </label>
               <div class="col-sm-8">
                 <div class="input-group date">
                   <input type="text" 
-                          class="form-control bootstrap-datepicker" 
+                          class="form-control" 
                           name="spl-form[datetime][second][date]"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
                 </div>
                 <div class="row">
