@@ -325,7 +325,8 @@ var ORG = {
         {
           load: [config.path.absolute+'/assets/js/org/account.js'
                 //,config.path.absolute+'/assets/js/vendor/jquery.validate.js'
-                ,config.path.absolute+'/assets/js/vendor/bootstrap-datepicker.js' ],
+                //,config.path.absolute+'/assets/js/vendor/bootstrap-datepicker.js' 
+                ],
           complete: function () {
             if ( org ) { 
               org.init();
