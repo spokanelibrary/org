@@ -64,8 +64,8 @@
                   <option value="account">My account</option>
                   <option value="other">Something else</option>
                 </select>
+                <hr>
               </div>
-              <hr>
             </div>
 
             <p>
