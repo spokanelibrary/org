@@ -1,4 +1,4 @@
-<?php print_r($_ENV); ?>
+<?php print_r(getenv('SPL_KEY')); ?>
 <div class="row">
 
   <div class="col-md-8">
