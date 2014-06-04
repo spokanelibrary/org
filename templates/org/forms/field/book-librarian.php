@@ -69,6 +69,7 @@
 
             <span class="help-block">
               Please let us know the best date for you to meet, and select two time slots that would work.
+              <a href="/branch">Check branch hours</a> &rarr;
             </span>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
@@ -82,9 +83,16 @@
                 </div>
                 <div class="row">
                   <div class="col-sm-6">
-                    <label>Time (First Choice)</label>
+                    <label>Best time</label>
                     <select class="form-control"
                             name="spl-form[datetime][first][time][a]">
+                      <?php include 'common/field-book-librarian-times.php'; ?>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <label>Alternate time</label>
+                    <select class="form-control"
+                            name="spl-form[datetime][first][time][b]">
                       <?php include 'common/field-book-librarian-times.php'; ?>
                     </select>
                   </div>
