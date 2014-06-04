@@ -50,9 +50,15 @@
                 <span class="help-block collapse" id="spl-explain-date-1">
                   We use this information to route your inquiry.
                 </span>
-                <select>
-                  <?php include 'common/field-book-librarian-times.php'; ?>
-                </select>
+
+                <div class="row">
+                  <div class="row-sm-6">
+                    <label>Time (First Choice)</label>
+                    <select class="form-control">
+                      <?php include 'common/field-book-librarian-times.php'; ?>
+                    </select>
+                  </div>
+                </div>
               </div>
             </div>
             
