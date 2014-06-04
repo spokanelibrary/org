@@ -58,16 +58,19 @@
               <div class="col-sm-8">
                 <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
                   <option value="library">Using the library</option>
-                  <option value="account">My Account</option>
+                  <option value="account">My account</option>
                   <option value="download">eBooks and downloadables</option>
-                  <option value="business">Business Research</option>
-                  <option value="genealogy">Genealogy Research</option>
+                  <option value="business">Business research</option>
+                  <option value="genealogy">Genealogy research</option>
                   <option value="other">Something else</option>
                 </select>
               </div>
             </div>
 
             <div class="form-group">
+              <span class="help-block">
+                Please let us know the best date for you to meet, and select two time slots that would work.
+              </span>
               <label for="spl-form-query-type" class="col-sm-4 control-label">
                 Date (First choice)
               </label>
