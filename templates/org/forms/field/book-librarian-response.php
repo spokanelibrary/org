@@ -34,24 +34,6 @@
       </dd>
       <?php endif; ?>
 
-      <?php if( !empty($crass->request['appt-location']) ) : ?>
-      <dt>You appointment Location</dt>
-      <dd>
-        <p>
-          <?php echo $crass->request['appt-location']; ?>
-        </p>
-      </dd>
-      <?php endif; ?>
-
-      <?php if( !empty($crass->request['query-type']) ) : ?>
-      <dt>Your questions is about</dt>
-      <dd>
-        <p>
-          <?php echo $crass->request['query-type']; ?>
-        </p>
-      </dd>
-      <?php endif; ?>
-
       <?php if( !empty($crass->request['datetime']['first']['date']) ) : ?>
       <dt>Date (First Choice)</dt>
       <dd>
@@ -82,6 +64,15 @@
       </dd>
       <?php endif; ?>
 
+      <?php if( !empty($crass->request['appt-location']) ) : ?>
+      <dt>Library location</dt>
+      <dd>
+        <p>
+          <?php echo $crass->request['appt-location']; ?>
+        </p>
+      </dd>
+      <?php endif; ?>
+      
       <?php if( !empty($crass->request['message']) ) : ?>
       <dt>Your agenda</dt>
       <dd>

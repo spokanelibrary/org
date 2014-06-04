@@ -44,12 +44,12 @@
               </label>
               <div class="col-sm-8">
                 <select class="form-control" id="spl-form-appt-location" name="spl-form[appt-location]">
-                  <option value="dt" selected>Downtown Library</option>
-                  <option value="es">East Side Library</option>
-                  <option value="hy">Hillyard Library</option>
-                  <option value="it">Indian Trail Library</option>
-                  <option value="sh">Shadle Library</option>
-                  <option value="so">South Hill Library</option>
+                  <option value="Downtown" selected>Downtown Library</option>
+                  <option value="East Side">East Side Library</option>
+                  <option value="Hillyard">Hillyard Library</option>
+                  <option value="Indian Trail">Indian Trail Library</option>
+                  <option value="Shadle">Shadle Library</option>
+                  <option value="South Hill">South Hill Library</option>
                 </select>
               </div>
             </div>
