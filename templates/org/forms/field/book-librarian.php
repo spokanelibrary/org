@@ -41,7 +41,7 @@
               </label>
               <div class="col-sm-8">
                 <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
-                  <option value="dt">Downtown Library</option>
+                  <option value="dt" selected>Downtown Library</option>
                   <option value="es">East Side Library</option>
                   <option value="hy">Hillyard Library</option>
                   <option value="it">Indian Trail Library</option>
@@ -59,7 +59,9 @@
                 <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
                   <option value="library">Using the library</option>
                   <option value="account">My Account</option>
-                  <option value="website">The library website</option>
+                  <option value="download">eBooks and downloadables</option>
+                  <option value="business">Business Research</option>
+                  <option value="genealogy">Genealogy Research</option>
                   <option value="other">Something else</option>
                 </select>
               </div>
