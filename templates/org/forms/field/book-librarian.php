@@ -83,7 +83,7 @@
                 </div>
                 <div class="row">
                   <div class="col-sm-6">
-                    <label class="text-success">Best time</label>
+                    <label class="text-success">Preferred time</label>
                     <select class="form-control"
                             name="spl-form[datetime][first][time][a]">
                       <?php include 'common/field-book-librarian-hours.php'; ?>
@@ -116,7 +116,7 @@
                 </div>
                 <div class="row">
                   <div class="col-sm-6">
-                    <label class="text-success">Best time</label>
+                    <label class="text-success">Preferred time</label>
                     <select class="form-control"
                             name="spl-form[datetime][second][time][a]">
                       <?php include 'common/field-book-librarian-hours.php'; ?>

@@ -40,6 +40,12 @@
         <p>
           <?php echo $crass->request['datetime']['first']['date']; ?>
         </p>
+        <p>
+          Preferred Time: <?php echo $crass->request['datetime']['first']['time']['a']; ?>
+        </p>
+        <p>
+          Alternate Time: <?php echo $crass->request['datetime']['first']['time']['a']; ?>
+        </p>
       </dd>
       <?php endif; ?>
 
