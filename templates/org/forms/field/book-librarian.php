@@ -84,8 +84,8 @@
                 <div class="row">
                   <div class="col-sm-6">
                     <label class="text-success">Preferred time</label>
-                    <select class="form-control"
-                            name="spl-form[datetime][first][time][a]" minlength="2">
+                    <select class="form-control required"
+                            name="spl-form[datetime][first][time][a]">
                       <?php include 'common/field-book-librarian-hours.php'; ?>
                     </select>
                   </div>
