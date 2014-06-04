@@ -71,7 +71,6 @@
               Please let us know the best date for you to meet, and select two time slots that would work.
               You might want to <a href="/branch">check branch hours</a> &rarr;
             </p>
-
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
                 Date <span class="text-success">(First choice)</span>
@@ -101,9 +100,9 @@
               </div>
             </div>
             
-            <span class="help-block">
+            <p>
               Please let us know an alternate date you can meet, and select two time slots that would work.
-            </span>
+            <p>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
                 Date <span class="text-warning">(Second choice)</span>
@@ -133,9 +132,9 @@
               </div>
             </div>
 
-            <span class="help-block">
+            <p>
               Please give us a brief idea of what you would like to accomplish in a one-hour session.
-            </span>
+            </p>
             <div class="form-group">
               <label for="spl-form-message" class="col-sm-4 control-label">
                 I would like to discuss
