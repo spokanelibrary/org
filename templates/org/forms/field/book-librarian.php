@@ -31,7 +31,7 @@
 
           <fieldset>
             <legend class="text-muted">
-              <small class="glyphicon glyphicon-envelope"></small>
+              <small class="glyphicon glyphicon-calendar"></small>
               Schedule an appointment
             </legend>
 
@@ -58,10 +58,10 @@
               <div class="col-sm-8">
                 <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
                   <option value="library">Using the library</option>
-                  <option value="account">My account</option>
-                  <option value="download">eBooks and downloadables</option>
+                  <option value="download">eBooks and downloads</option>
                   <option value="business">Business research</option>
                   <option value="genealogy">Genealogy research</option>
+                  <option value="account">My account</option>
                   <option value="other">Something else</option>
                 </select>
               </div>
@@ -132,8 +132,13 @@
               </div>
             </div>
 
+            <span class="help-block">
+              Please give us a brief idea of what you would like to accomplish in a one hour session.
+            </span>
             <div class="form-group">
-              <label for="spl-form-message" class="col-sm-4 control-label">My message</label>
+              <label for="spl-form-message" class="col-sm-4 control-label">
+                I would like to discuss
+              </label>
               <div class="col-sm-8">
                 <textarea rows="6" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
               </div>
