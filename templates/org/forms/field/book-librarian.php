@@ -17,11 +17,11 @@
     
     <div class="panel panel-default">
       <div class="panel-body">
-        <form class="form-horizontal spl-form" id="spl-form-contact" method="post" role="form">
+        <form class="form-horizontal spl-form" id="spl-form-book" method="post" role="form">
           
           <?php include 'common/crass-response.php'; ?>
       
-          <input type="hidden" id="spl-form-id" name="spl-form[id]" value="contact" />
+          <input type="hidden" id="spl-form-id" name="spl-form[id]" value="book" />
           
           <input type="hidden" 
                 id="spl-form-ip" 
@@ -36,19 +36,16 @@
             </legend>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-query-type">
+                <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-date-1">
                   <i class="glyphicon glyphicon-info-sign"></i>
                 </button>
-                My question is about
+                Date (First choice)
               </label>
               <div class="col-sm-8">
-                <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
-                  <option value="library">Using the library</option>
-                  <option value="account">My Account</option>
-                  <option value="website">The library website</option>
-                  <option value="other">Something else</option>
-                </select>
-                <span class="help-block collapse" id="spl-explain-query-type">
+                <div class="input-group date">
+                  <input type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                </div>
+                <span class="help-block collapse" id="spl-explain-date-1">
                   We use this information to route your inquiry.
                 </span>
               </div>
