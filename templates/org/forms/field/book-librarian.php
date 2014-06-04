@@ -67,10 +67,10 @@
               </div>
             </div>
 
+            <span class="help-block">
+              Please let us know the best date for you to meet, and select two time slots that would work.
+            </span>
             <div class="form-group">
-              <span class="help-block">
-                Please let us know the best date for you to meet, and select two time slots that would work.
-              </span>
               <label for="spl-form-query-type" class="col-sm-4 control-label">
                 Date (First choice)
               </label>
