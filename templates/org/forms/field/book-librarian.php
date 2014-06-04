@@ -69,7 +69,7 @@
 
             <span class="help-block">
               Please let us know the best date for you to meet, and select two time slots that would work.
-              <a href="/branch">Check branch hours</a> &rarr;
+              You might want to <a href="/branch">check branch hours</a> &rarr;
             </span>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
@@ -100,6 +100,38 @@
               </div>
             </div>
             
+            <span class="help-block">
+              Please let us know an alternate date you can meet, and select two time slots that would work.
+            </span>
+            <div class="form-group">
+              <label for="spl-form-query-type" class="col-sm-4 control-label">
+                Date (Second choice)
+              </label>
+              <div class="col-sm-8">
+                <div class="input-group date">
+                  <input type="text" 
+                          class="form-control bootstrap-datepicker" 
+                          name="spl-form[datetime][second][date]"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <label>Best time</label>
+                    <select class="form-control"
+                            name="spl-form[datetime][second][time][a]">
+                      <?php include 'common/field-book-librarian-times.php'; ?>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <label>Alternate time</label>
+                    <select class="form-control"
+                            name="spl-form[datetime][second][time][b]">
+                      <?php include 'common/field-book-librarian-times.php'; ?>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="form-group">
               <label for="spl-form-message" class="col-sm-4 control-label">My message</label>
               <div class="col-sm-8">
