@@ -45,11 +45,14 @@
                 <div class="input-group date">
                   <input type="text" 
                           class="form-control bootstrap-datepicker" 
-                          ><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                          name="spl-form[datetime][first][date]"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
                 </div>
                 <span class="help-block collapse" id="spl-explain-date-1">
                   We use this information to route your inquiry.
                 </span>
+                <select>
+                  <?php include 'common/field-book-librarian-times.php'; ?>
+                </select>
               </div>
             </div>
             
