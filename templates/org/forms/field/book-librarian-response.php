@@ -7,11 +7,11 @@
 
     <div class="alert alert-warning">
       <b>Please note:</b>
-      This is not a meeting confirmation.
-      A staff librarian will contact you to confirmation your appointment date and time.
+      This is <em>not</em> a meeting confirmation. 
+      Appointments are subject to staff availability.
+      A librarian will contact you to confirmation your appointment date and time.
     </div>
 
-    <h4>Appointment request detail</h4>
     <dl class="dl-horizontal">
 
       <?php if( !empty($crass->request['name']) ) : ?>
