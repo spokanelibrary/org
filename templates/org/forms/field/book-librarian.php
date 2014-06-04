@@ -65,6 +65,7 @@
                   <option value="other">Something else</option>
                 </select>
               </div>
+              <hr>
             </div>
 
             <p>
