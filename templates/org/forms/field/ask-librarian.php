@@ -17,11 +17,11 @@
     
     <div class="panel panel-default">
       <div class="panel-body">
-        <form class="form-horizontal spl-form" id="spl-form-contact" method="post" role="form">
+        <form class="form-horizontal spl-form" id="spl-form-ask" method="post" role="form">
           
           <?php include 'common/crass-response.php'; ?>
       
-          <input type="hidden" id="spl-form-id" name="spl-form[id]" value="contact" />
+          <input type="hidden" id="spl-form-id" name="spl-form[id]" value="ask" />
           
           <input type="hidden" 
                 id="spl-form-ip" 
