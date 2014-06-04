@@ -1,10 +1,17 @@
 <div class="panel panel-success">
   <div class="panel-heading">
-    <h3>Thank You!</h3>
+    <h3>Thank You! <small>We received your appointment request</small></h3>
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
-    <h4>We received your appointment request:</h4>
+
+    <div class="alert alert-warning">
+      <b>Please note:</b>
+      This is not a meeting confirmation.
+      A staff librarian will contact you to confirmation your appointment date and time.
+    </div>
+
+    <h4>Appointment request detail</h4>
     <dl class="dl-horizontal">
 
       <?php if( !empty($crass->request['name']) ) : ?>
@@ -72,7 +79,7 @@
         </p>
       </dd>
       <?php endif; ?>
-      
+
       <?php if( !empty($crass->request['message']) ) : ?>
       <dt>Your agenda</dt>
       <dd>
