@@ -128,8 +128,8 @@
                       <?php include 'common/field-book-librarian-hours.php'; ?>
                     </select>
                   </div>
-                  <hr>
                 </div>
+                <hr>
               </div>
             </div>
 
