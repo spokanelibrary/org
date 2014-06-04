@@ -238,6 +238,12 @@ var ORG = {
         {
           load: [config.path.absolute+'/assets/js/vendor/bootstrap-datepicker.js'],
           complete: function () {
+            $('.bootstrap-datepicker').datepicker({
+                startDate: "+1d",
+                endDate: "+1y",
+                daysOfWeekDisabled: "0",
+                autoclose: true
+            });
             /*
             if ( org ) { 
               org.init();

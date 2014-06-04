@@ -44,9 +44,8 @@
               <div class="col-sm-8">
                 <div class="input-group date">
                   <input type="text" 
-                          class="form-control" 
-                          data-provide="datepicker"
-                          data-date-start-date="+1d"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                          class="form-control bootstrap-datepicker" 
+                          ><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
                 </div>
                 <span class="help-block collapse" id="spl-explain-date-1">
                   We use this information to route your inquiry.
