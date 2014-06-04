@@ -34,6 +34,24 @@
       </dd>
       <?php endif; ?>
 
+      <?php if( !empty($crass->request['appt-location']) ) : ?>
+      <dt>You appointment Location</dt>
+      <dd>
+        <p>
+          <?php echo $crass->request['appt-location']; ?>
+        </p>
+      </dd>
+      <?php endif; ?>
+
+      <?php if( !empty($crass->request['query-type']) ) : ?>
+      <dt>Your questions is about</dt>
+      <dd>
+        <p>
+          <?php echo $crass->request['query-type']; ?>
+        </p>
+      </dd>
+      <?php endif; ?>
+
       <?php if( !empty($crass->request['datetime']['first']['date']) ) : ?>
       <dt>Date (First Choice)</dt>
       <dd>
@@ -44,7 +62,7 @@
           Preferred Time: <?php echo $crass->request['datetime']['first']['time']['a']; ?>
         </p>
         <p>
-          Alternate Time: <?php echo $crass->request['datetime']['first']['time']['a']; ?>
+          Alternate Time: <?php echo $crass->request['datetime']['first']['time']['b']; ?>
         </p>
       </dd>
       <?php endif; ?>
@@ -59,13 +77,13 @@
           Preferred Time: <?php echo $crass->request['datetime']['second']['time']['a']; ?>
         </p>
         <p>
-          Alternate Time: <?php echo $crass->request['datetime']['second']['time']['a']; ?>
+          Alternate Time: <?php echo $crass->request['datetime']['second']['time']['b']; ?>
         </p>
       </dd>
       <?php endif; ?>
 
       <?php if( !empty($crass->request['message']) ) : ?>
-      <dt>You plan to discuss</dt>
+      <dt>Your agenda</dt>
       <dd>
         <p>
           <?php echo $crass->request['message']; ?>

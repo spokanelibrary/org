@@ -36,14 +36,14 @@
             </legend>
 
             <p>
-              Please let us know where you would like to meet and a general topic so we can route your request.
+              Please let us know where you would like to meet and a general topic, so we can route your request.
             </p>
             <div class="form-group">
-              <label for="spl-form-query-type" class="col-sm-4 control-label">
+              <label for="spl-form-appt-location" class="col-sm-4 control-label">
                 I would like to meet at
               </label>
               <div class="col-sm-8">
-                <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
+                <select class="form-control" id="spl-form-appt-location" name="spl-form[appt-location]">
                   <option value="dt" selected>Downtown Library</option>
                   <option value="es">East Side Library</option>
                   <option value="hy">Hillyard Library</option>
