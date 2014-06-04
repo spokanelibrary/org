@@ -34,11 +34,29 @@
               <small class="glyphicon glyphicon-envelope"></small>
               Schedule an appointment
             </legend>
+
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-date-1">
+                <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-query-type">
                   <i class="glyphicon glyphicon-info-sign"></i>
                 </button>
+                My question is about
+              </label>
+              <div class="col-sm-8">
+                <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
+                  <option value="library">Using the library</option>
+                  <option value="account">My Account</option>
+                  <option value="website">The library website</option>
+                  <option value="other">Something else</option>
+                </select>
+                <span class="help-block collapse" id="spl-explain-query-type">
+                  We use this information to route your inquiry.
+                </span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="spl-form-query-type" class="col-sm-4 control-label">
                 Date (First choice)
               </label>
               <div class="col-sm-8">
@@ -47,14 +65,11 @@
                           class="form-control bootstrap-datepicker" 
                           name="spl-form[datetime][first][date]"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
                 </div>
-                <span class="help-block collapse" id="spl-explain-date-1">
-                  We use this information to route your inquiry.
-                </span>
-
                 <div class="row">
                   <div class="col-sm-6">
                     <label>Time (First Choice)</label>
-                    <select class="form-control">
+                    <select class="form-control"
+                            name="spl-form[datetime][first][time][a]">
                       <?php include 'common/field-book-librarian-times.php'; ?>
                     </select>
                   </div>
