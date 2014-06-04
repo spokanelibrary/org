@@ -35,6 +35,9 @@
               Schedule an appointment
             </legend>
 
+            <p>
+              Please let us know where you would like to meet and a general topic so we can route your request.
+            </p>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
                 I would like to meet at
@@ -50,7 +53,6 @@
                 </select>
               </div>
             </div>
-
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
                 My question is about
@@ -144,6 +146,7 @@
               </label>
               <div class="col-sm-8">
                 <textarea rows="6" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
+                <hr>
               </div>
             </div>
             
