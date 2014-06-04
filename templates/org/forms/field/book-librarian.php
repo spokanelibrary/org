@@ -40,6 +40,22 @@
                 <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-query-type">
                   <i class="glyphicon glyphicon-info-sign"></i>
                 </button>
+                I would like to meet at
+              </label>
+              <div class="col-sm-8">
+                <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
+                  <option value="dt">Downtown Library</option>
+                  <option value="es">East Side Library</option>
+                  <option value="hy">Hillyard Library</option>
+                  <option value="it">Indian Trail Library</option>
+                  <option value="sh">Shadle Library</option>
+                  <option value="so">South Hill Library</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="spl-form-query-type" class="col-sm-4 control-label">
                 My question is about
               </label>
               <div class="col-sm-8">
@@ -49,9 +65,6 @@
                   <option value="website">The library website</option>
                   <option value="other">Something else</option>
                 </select>
-                <span class="help-block collapse" id="spl-explain-query-type">
-                  We use this information to route your inquiry.
-                </span>
               </div>
             </div>
 
