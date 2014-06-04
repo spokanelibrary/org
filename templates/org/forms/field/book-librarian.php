@@ -37,9 +37,6 @@
 
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-query-type">
-                  <i class="glyphicon glyphicon-info-sign"></i>
-                </button>
                 I would like to meet at
               </label>
               <div class="col-sm-8">
