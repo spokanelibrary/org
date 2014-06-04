@@ -238,7 +238,7 @@ var ORG = {
         {
           load: [config.path.absolute+'/assets/js/vendor/bootstrap-datepicker.js'],
           complete: function () {
-            $('.input-group.date').datepicker({
+            $('.form-group .input-group.date').datepicker({
                 startDate: "+1d",
                 endDate: "+1y",
                 daysOfWeekDisabled: "0",
