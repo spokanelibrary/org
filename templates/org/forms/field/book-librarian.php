@@ -67,7 +67,7 @@
               </div>
             </div>
 
-            <p class="text-muted">
+            <p>
               Please let us know the best date for you to meet, and select two time slots that would work.
               You might want to <a href="/branch">check branch hours</a> &rarr;
             </p>
