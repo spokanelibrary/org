@@ -71,7 +71,7 @@
             </div>
 
             <p>
-              Please let us know the best date for you to meet, and select two time slots that would work.
+              Please let us know your <em>preferred date</em> to meet, and select two time slots that would work.
               You might want to <a href="/branch">check branch hours</a> &rarr;
             </p>
             <div class="form-group">
@@ -105,7 +105,7 @@
             </div>
             
             <p>
-              Please let us know an alternate date you can meet, and select two time slots that would work.
+              Please let us know an <em>alternate date</em> you can meet, and select two time slots that would work.
             <p>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
