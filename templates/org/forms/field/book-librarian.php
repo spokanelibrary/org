@@ -67,12 +67,10 @@
               </div>
             </div>
 
-            <div class="form-group">
-            <span class="help-block">
+            <p class="text-muted">
               Please let us know the best date for you to meet, and select two time slots that would work.
               You might want to <a href="/branch">check branch hours</a> &rarr;
-            </span>
-            </div>
+            </p>
 
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
