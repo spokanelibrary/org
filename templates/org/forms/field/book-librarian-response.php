@@ -35,7 +35,7 @@
       <?php endif; ?>
 
       <?php if( !empty($crass->request['datetime']['first']['date']) ) : ?>
-      <dt>Requested Date (First Choice)</dt>
+      <dt>Date (First Choice)</dt>
       <dd>
         <p>
           <?php echo $crass->request['datetime']['first']['date']; ?>
@@ -50,7 +50,7 @@
       <?php endif; ?>
 
       <?php if( !empty($crass->request['datetime']['second']['date']) ) : ?>
-      <dt>Requested Date (Second Choice)</dt>
+      <dt>Date (Second Choice)</dt>
       <dd>
         <p>
           <?php echo $crass->request['datetime']['second']['date']; ?>
@@ -65,7 +65,7 @@
       <?php endif; ?>
 
       <?php if( !empty($crass->request['message']) ) : ?>
-      <dt>Your Message</dt>
+      <dt>You plan to discuss</dt>
       <dd>
         <p>
           <?php echo $crass->request['message']; ?>
