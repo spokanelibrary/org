@@ -73,7 +73,7 @@
             </span>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                Date (First choice)
+                Date <em class="text-muted">(first choice)</em>
               </label>
               <div class="col-sm-8">
                 <div class="input-group date">
@@ -105,7 +105,7 @@
             </span>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                Date (Second choice)
+                Date (second choice)
               </label>
               <div class="col-sm-8">
                 <div class="input-group date">
@@ -133,7 +133,7 @@
             </div>
 
             <span class="help-block">
-              Please give us a brief idea of what you would like to accomplish in a one hour session.
+              Please give us a brief idea of what you would like to accomplish in a one-hour session.
             </span>
             <div class="form-group">
               <label for="spl-form-message" class="col-sm-4 control-label">
