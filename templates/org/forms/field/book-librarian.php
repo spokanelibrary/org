@@ -90,7 +90,7 @@
                     </select>
                   </div>
                   <div class="col-sm-6">
-                    <label class="text-danger">Alternate time</label>
+                    <label class="text-warning">Alternate time</label>
                     <select class="form-control"
                             name="spl-form[datetime][first][time][b]">
                       <?php include 'common/field-book-librarian-times.php'; ?>
@@ -115,14 +115,14 @@
                 </div>
                 <div class="row">
                   <div class="col-sm-6">
-                    <label>Best time</label>
+                    <label class="text-success">Best time</label>
                     <select class="form-control"
                             name="spl-form[datetime][second][time][a]">
                       <?php include 'common/field-book-librarian-times.php'; ?>
                     </select>
                   </div>
                   <div class="col-sm-6">
-                    <label>Alternate time</label>
+                    <label class="text-warning">Alternate time</label>
                     <select class="form-control"
                             name="spl-form[datetime][second][time][b]">
                       <?php include 'common/field-book-librarian-times.php'; ?>
