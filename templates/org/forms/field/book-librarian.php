@@ -110,7 +110,7 @@
               <div class="col-sm-8">
                 <div class="input-group date">
                   <input type="text" 
-                          class="form-control" 
+                          class="form-control required" 
                           name="spl-form[datetime][second][date]"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
                 </div>
                 <div class="row">
