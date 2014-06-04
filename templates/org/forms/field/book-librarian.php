@@ -73,7 +73,7 @@
             </span>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                Date <span class="text-muted">(first choice)</span>
+                Date (first choice)
               </label>
               <div class="col-sm-8">
                 <div class="input-group date">
@@ -105,7 +105,7 @@
             </span>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                Date <span class="text-muted">(second choice)</span>
+                Date (second choice)
               </label>
               <div class="col-sm-8">
                 <div class="input-group date">
