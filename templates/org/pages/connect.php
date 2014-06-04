@@ -42,7 +42,7 @@
             <h4>
               <i class="glyphicon glyphicon-question-sign text-muted"></i> 
               <a class="" 
-                href="/ask/" 
+                href="/book/" 
                 title="">Book a librarian</a>
               <span class="text-muted">&rarr;</span>
             </h4>
