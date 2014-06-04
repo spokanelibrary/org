@@ -4,7 +4,7 @@
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
-    <h4>We received your message:</h4>
+    <h4>We received your appointment request:</h4>
     <dl class="dl-horizontal">
 
       <?php if( !empty($crass->request['name']) ) : ?>
@@ -30,6 +30,15 @@
       <dd>
         <p>
           <?php echo $crass->request['email']; ?>
+        </p>
+      </dd>
+      <?php endif; ?>
+
+      <?php if( !empty($crass->request['datetime']['first']['date']) ) : ?>
+      <dt>Requested Date (First Choice)</dt>
+      <dd>
+        <p>
+          <?php echo $crass->request['datetime']['first']['date']; ?>
         </p>
       </dd>
       <?php endif; ?>

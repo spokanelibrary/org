@@ -78,7 +78,7 @@
               <div class="col-sm-8">
                 <div class="input-group date">
                   <input type="text" 
-                          class="form-control" 
+                          class="form-control required" 
                           name="spl-form[datetime][first][date]"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
                 </div>
                 <div class="row">
@@ -86,14 +86,14 @@
                     <label class="text-success">Best time</label>
                     <select class="form-control"
                             name="spl-form[datetime][first][time][a]">
-                      <?php include 'common/field-book-librarian-times.php'; ?>
+                      <?php include 'common/field-book-librarian-hours.php'; ?>
                     </select>
                   </div>
                   <div class="col-sm-6">
                     <label class="text-warning">Alternate time</label>
                     <select class="form-control"
                             name="spl-form[datetime][first][time][b]">
-                      <?php include 'common/field-book-librarian-times.php'; ?>
+                      <?php include 'common/field-book-librarian-hours.php'; ?>
                     </select>
                   </div>
                 </div>
@@ -118,14 +118,14 @@
                     <label class="text-success">Best time</label>
                     <select class="form-control"
                             name="spl-form[datetime][second][time][a]">
-                      <?php include 'common/field-book-librarian-times.php'; ?>
+                      <?php include 'common/field-book-librarian-hours.php'; ?>
                     </select>
                   </div>
                   <div class="col-sm-6">
                     <label class="text-warning">Alternate time</label>
                     <select class="form-control"
                             name="spl-form[datetime][second][time][b]">
-                      <?php include 'common/field-book-librarian-times.php'; ?>
+                      <?php include 'common/field-book-librarian-hours.php'; ?>
                     </select>
                   </div>
                 </div>
