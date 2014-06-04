@@ -1,3 +1,4 @@
+<?php print_r($_ENV); ?>
 <div class="row">
 
   <div class="col-md-8">
