@@ -1,15 +1,16 @@
 <div class="panel panel-success">
   <div class="panel-heading">
-    <h3>Thank You! <small>We received your appointment request</small></h3>
+    <h3>Thank You!</h3>
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
+    <h4>We received your appointment request.</h4>
 
     <div class="alert alert-warning">
       <b>Please note:</b>
       This is <em>not</em> a meeting confirmation. 
       Appointments are subject to staff availability.
-      A librarian will contact you to confirmation your appointment date and time.
+      A librarian will contact you to confirmation your appointment.
     </div>
 
     <dl class="dl-horizontal">
