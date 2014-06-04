@@ -49,6 +49,21 @@
       </dd>
       <?php endif; ?>
 
+      <?php if( !empty($crass->request['datetime']['second']['date']) ) : ?>
+      <dt>Requested Date (Second Choice)</dt>
+      <dd>
+        <p>
+          <?php echo $crass->request['datetime']['second']['date']; ?>
+        </p>
+        <p>
+          Preferred Time: <?php echo $crass->request['datetime']['second']['time']['a']; ?>
+        </p>
+        <p>
+          Alternate Time: <?php echo $crass->request['datetime']['second']['time']['a']; ?>
+        </p>
+      </dd>
+      <?php endif; ?>
+
       <?php if( !empty($crass->request['message']) ) : ?>
       <dt>Your Message</dt>
       <dd>

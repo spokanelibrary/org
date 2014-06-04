@@ -91,7 +91,7 @@
                   </div>
                   <div class="col-sm-6">
                     <label class="text-warning">Alternate time</label>
-                    <select class="form-control"
+                    <select class="form-control required"
                             name="spl-form[datetime][first][time][b]">
                       <?php include 'common/field-book-librarian-hours.php'; ?>
                     </select>
@@ -117,14 +117,14 @@
                 <div class="row">
                   <div class="col-sm-6">
                     <label class="text-success">Preferred time</label>
-                    <select class="form-control"
+                    <select class="form-control required"
                             name="spl-form[datetime][second][time][a]">
                       <?php include 'common/field-book-librarian-hours.php'; ?>
                     </select>
                   </div>
                   <div class="col-sm-6">
                     <label class="text-warning">Alternate time</label>
-                    <select class="form-control"
+                    <select class="form-control required"
                             name="spl-form[datetime][second][time][b]">
                       <?php include 'common/field-book-librarian-hours.php'; ?>
                     </select>
