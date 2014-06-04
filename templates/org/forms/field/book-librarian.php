@@ -32,7 +32,7 @@
           <fieldset>
             <legend class="text-muted">
               <small class="glyphicon glyphicon-envelope"></small>
-              Send us an email
+              Schedule an appointment
             </legend>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
