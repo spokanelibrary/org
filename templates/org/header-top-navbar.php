@@ -7,25 +7,8 @@
 }(document, 'script', 'facebook-jssdk'));*/</script>  
 
 <header class="navbar-common navbar-fixed-top">
-  <ul class="nav nav-justified">
-    <li>
-      <a href="<?php echo home_url(); ?>/">
-        <span class="visible-xs"><i class="glyphicon glyphicon-home"></i></span>
-        <span class="hidden-xs"><i class="text-success glyphicon glyphicon-home"></i> Home</span>
-      </a>
-    </li>
-    <li>
-      <a href="/account/">
-        <span class="visible-xs"><i class="glyphicon glyphicon-user"></i></span>
-        <span class="hidden-xs"><i class="text-success glyphicon glyphicon-user"></i> My Account</span>
-      </a>
-    </li>
-  </ul>
-</header>
-
-
 <?php wp_nav_menu( array('menu' => 'Common Navigation' )); ?>
-
+</header>
 
 <!--<header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
   <ul class="nav nav-justified">
