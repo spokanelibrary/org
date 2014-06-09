@@ -45,6 +45,7 @@
                 href="/book/" 
                 title="">Book a librarian</a>
               <span class="text-muted">&rarr;</span>
+              <span class="label label-success pull-right">new!</new>
             </h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
