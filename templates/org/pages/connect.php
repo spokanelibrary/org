@@ -147,6 +147,23 @@
 
     <?php echo do_shortcode('[spl_widget custom-page page=contact-info]'); ?>
 
+    <div class="panel panel-default">
+      <div class="panel-heading panel-transparent">
+        <h4>
+          <i class="glyphicon glyphicon-info-sign text-muted"></i> 
+          <a class="" 
+            href="/faq/" 
+            title="">Frequently asked</a>
+          <span class="text-muted">&rarr;</span>
+        </h4>
+      </div><!-- /.panel-heading -->
+      <div class="panel-body">
+        <p>
+          Find answers to frequently asked questions.
+        </p>
+      </div><!-- /.panel-body -->
+    </div><!-- /.panel -->
+
   </div><!-- /.col -->
 
 </div><!-- /.row -->
