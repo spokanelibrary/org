@@ -8,11 +8,14 @@
 
 <header class="navbar-common navbar-fixed-top">
   <ul class="nav nav-justified">
-<?php 
-wp_nav_menu( array('menu' => 'Common Navigation'
-                  ,'container' => false
-                  ,'items_wrap' => '%3$s')); 
-?>
+  <?php 
+  wp_nav_menu( 
+  array(
+    'menu' => 'Common Navigation'
+  , 'container' => false
+  , 'items_wrap' => '%3$s'
+  )); 
+  ?>
   </ul>
 </header>
 
