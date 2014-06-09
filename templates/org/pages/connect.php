@@ -12,7 +12,7 @@
       </div><!-- /.panel-heading -->
       <div class="panel-body">            
         <p>
-          Contact us with questions about your account or general inquiries about the library.
+          Contact us with questions about your account or general inquiries about using the library.
         </p>
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
@@ -79,27 +79,6 @@
         <div class="panel panel-default">
           <div class="panel-heading panel-transparent">
             <h4>
-              <i class="glyphicon glyphicon-search text-muted"></i> 
-              <a class="" 
-                href="/vital/" 
-                title="">Research vital records</a>
-              <span class="text-muted">&rarr;</span>
-            </h4>
-          </div><!-- /.panel-heading -->
-          <div class="panel-body">
-            <p>
-              Out-of-town users may request an obituary or birth notice search.
-            </p>
-          </div><!-- /.panel-body -->
-        </div><!-- /.panel -->
-      </div><!-- /.col -->
-    </div><!-- /.row -->
-
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="panel panel-default">
-          <div class="panel-heading panel-transparent">
-            <h4>
               <i class="glyphicon glyphicon-book text-muted"></i> 
               <a class="" 
                 href="/request/" 
@@ -113,6 +92,28 @@
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading panel-transparent">
+            <h4>
+              <i class="glyphicon glyphicon-search text-muted"></i> 
+              <a class="" 
+                href="/vital/" 
+                title="">Research vital records</a>
+              <span class="text-muted">&rarr;</span>
+            </h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">
+            <p>
+              Out-of-town users may request an obituary or birth notice search.
+            </p>
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+        
       </div><!-- /.col -->
       <div class="col-sm-6">
         <div class="panel panel-default">
@@ -147,7 +148,7 @@
 
     <?php echo do_shortcode('[spl_widget custom-page page=contact-info]'); ?>
 
-    <div class="panel panel-warning">
+    <div class="panel panel-default">
       <div class="panel-heading panel-transparent">
         <h4>
           <i class="glyphicon glyphicon-info-sign text-muted"></i> 
