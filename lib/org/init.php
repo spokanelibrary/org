@@ -15,6 +15,12 @@
   ));
   */
 
+
+define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wordpress' );
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] );
+
+
+
 add_post_type_support( 'page', 'excerpt' );
 
 update_option('image_default_link_type', 'none' );
