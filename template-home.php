@@ -16,9 +16,9 @@ Template Name: Home Page
 </div><!-- /.row -->
 
 <div class="alert alert-info">
-  <b>Beta Testing</b>
+  <b>Welcome to beta.spokanelibrary.org!</b>
   <p>
-    We are transitioning Spokane Public Library to a new website!
+    We are transitioning Spokane Public Library to a new website.
     <a href="/contact">Please contact us</a> with comments, questions, or suggestions.
     <br>
     <a class="btn btn-info" href="http://www.spokanelibrary.org">
