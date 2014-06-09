@@ -7,7 +7,13 @@
 }(document, 'script', 'facebook-jssdk'));*/</script>  
 
 <header class="navbar-common navbar-fixed-top">
-<?php wp_nav_menu( array('menu' => 'Common Navigation' )); ?>
+  <ul class="nav nav-justified">
+<?php 
+wp_nav_menu( array('menu' => 'Common Navigation'
+                  ,'container' => false
+                  ,'items_wrap' => '%3$s')); 
+?>
+  </ul>
 </header>
 
 <!--<header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
