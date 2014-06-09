@@ -40,7 +40,7 @@
         <div class="panel panel-default">
           <div class="panel-heading panel-transparent">
             <h4>
-              <i class="glyphicon glyphicon-question-sign text-muted"></i> 
+              <i class="glyphicon glyphicon-calendar text-muted"></i> 
               <a class="" 
                 href="/book/" 
                 title="">Book a librarian</a>
