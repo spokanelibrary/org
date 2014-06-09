@@ -18,11 +18,11 @@ Template Name: Home Page
 <div class="alert alert-info">
   <b>Beta Testing</b>
   <p>
-    We are transitioning Spokane Public Library to a new website.
+    We are transitioning Spokane Public Library to a new website!
     <a href="/contact">Please contact us</a> with comments, questions, or suggestions.
     <br>
     <a class="btn btn-info" href="http://www.spokanelibrary.org">
-      Please take me to the old website.
+      Please take me to the old website &rarr;
     </a>
   </p>
 </div>
