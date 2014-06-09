@@ -5,7 +5,23 @@
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=289675684463099";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));*/</script>  
-<header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
+
+<ul class="nav nav-justified">
+    <li>
+      <a href="<?php echo home_url(); ?>/">
+        <span class="visible-xs"><i class="glyphicon glyphicon-home"></i></span>
+        <span class="hidden-xs"><i class="text-success glyphicon glyphicon-home"></i> Home</span>
+      </a>
+    </li>
+    <li>
+      <a href="/account/">
+        <span class="visible-xs"><i class="glyphicon glyphicon-user"></i></span>
+        <span class="hidden-xs"><i class="text-success glyphicon glyphicon-user"></i> My Account</span>
+      </a>
+    </li>
+</ul>
+
+<!--<header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
   <ul class="nav nav-justified">
     <li>
       <a href="<?php echo home_url(); ?>/">
@@ -44,7 +60,8 @@
       </a>
     </li>
   </ul>
-</header><!-- /.navbar -->
+</header>--><!-- /.navbar -->
+
 
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
