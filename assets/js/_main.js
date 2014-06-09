@@ -125,7 +125,8 @@ var ORG = {
     init: function() {
       MBP.hideUrlBarOnLoad();
 
-      config.path.absolute = 'http://'+location.hostname;
+      //config.path.absolute = 'http://'+location.hostname;
+      config.path.absolute = '//'+location.hostname;
 
       // trigger tabs from alternate links
       $('body').on('click', '[data-toggle="tab"]', function(e) {
