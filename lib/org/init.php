@@ -1,24 +1,28 @@
 <?php
 
-  // For now this is in footer instead
-  /*
-	add_action( 'wp_head', create_function( '',  
-	   'echo \'<!--[if lt IE 9]><script src="'.get_template_directory_uri() . '/assets/js/vendor/respond.min.js"></script><![endif]-->\';'
-	) );
-  */
+/*
+  NOTE: Place the following in wp-config to enable domain-relative uri
 
-  // Register wp_nav_menu() menus (http://codex.wordpress.org/Function_Reference/register_nav_menus)
-  /*
-  register_nav_menus(array(
-    'common_navigation' => __('Common Navigation', 'org'),
-    'connect_navigation' => __('Connect Navigation', 'org'),
-  ));
-  */
+  # Relative hostname -sg
+  define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress' );
+  define( 'WP_HOME',    'http://' . $_SERVER['HTTP_HOST'] );
 
+*/
 
-//define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wordpress' );
-//define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] );
+// For now this is in footer instead
+/*
+add_action( 'wp_head', create_function( '',  
+   'echo \'<!--[if lt IE 9]><script src="'.get_template_directory_uri() . '/assets/js/vendor/respond.min.js"></script><![endif]-->\';'
+) );
+*/
 
+// Register wp_nav_menu() menus (http://codex.wordpress.org/Function_Reference/register_nav_menus)
+/*
+register_nav_menus(array(
+  'common_navigation' => __('Common Navigation', 'org'),
+  'connect_navigation' => __('Connect Navigation', 'org'),
+));
+*/
 
 
 add_post_type_support( 'page', 'excerpt' );
