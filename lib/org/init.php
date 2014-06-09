@@ -16,8 +16,8 @@
   */
 
 
-define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wordpress' );
-define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] );
+//define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wordpress' );
+//define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] );
 
 
 
