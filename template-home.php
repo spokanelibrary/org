@@ -16,8 +16,9 @@ Template Name: Home Page
 </div><!-- /.row -->
 
 <div class="alert alert-danger">
-<h3>Beta Testing</h3>
-Hi there. Welcome to beta.spokanelibrary.org.
+  <b>Beta Testing</b>
+  <br>
+  Hi there. Welcome to beta.spokanelibrary.org.
 </div>
 
 <p class="hidden-md hidden-lg">
