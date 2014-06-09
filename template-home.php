@@ -15,7 +15,7 @@ Template Name: Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="alert alert-danger">
+<div class="alert alert-info">
   <b>Beta Testing</b>
   <br>
   We are transitioning Spokane Public Library to a new website.
