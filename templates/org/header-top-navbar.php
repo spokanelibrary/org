@@ -6,7 +6,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));*/</script>  
 
-<header class="navbar-common">
+<header class="navbar-common navbar-fixed-top">
   <ul class="nav nav-justified">
     <li>
       <a href="<?php echo home_url(); ?>/">
