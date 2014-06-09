@@ -147,7 +147,7 @@
 
     <?php echo do_shortcode('[spl_widget custom-page page=contact-info]'); ?>
 
-    <div class="panel panel-default">
+    <div class="panel panel-warning">
       <div class="panel-heading panel-transparent">
         <h4>
           <i class="glyphicon glyphicon-info-sign text-muted"></i> 
