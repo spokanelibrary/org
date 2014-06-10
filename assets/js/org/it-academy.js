@@ -34,10 +34,11 @@ var org = {
 }
 
 , initITAcademy: function() {
-		//console.log(this.user);
+		console.log('handle it academy');
+    //console.log(this.user);
 		if ( this.user ) {
 
-      console.log('handle it academy');
+      
 		}
 
   } // initITAcademy()
