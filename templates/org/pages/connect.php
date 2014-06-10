@@ -139,7 +139,7 @@
     <div class="alert alert-info">
       <p>
         <strong>Non-discoverable Connect pages to port:</strong>
-        <span style="text-decoration:line-through;">Welcome</span>, Wireless, Receipt/optout, Unblock, IT Academy, Obits, BioFiles, Summer Signup, iCal
+        <span style="text-decoration:line-through;">Welcome, Obits, iCal</span> Wireless, Receipt/optout, Unblock, IT Academy, BioFiles, Summer Signup
       </p>
     </div>
 
