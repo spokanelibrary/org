@@ -72,23 +72,15 @@
 				<a href="http://hzportal.spokanelibrary.org"><i class="glyphicon glyphicon-search"></i> <strong>Open the Library Catalog</strong> &rarr;</a>
 			</li>
 		</ul>
+		<strong class="text-muted">Search for DVDs</strong>
 		<form method="get" action="http://hzportal.spokanelibrary.org/ipac20/ipac.jsp?=">
 			<input type="hidden" name="index" value="PDVDTI">
-
 			<div class="input-group">
 	      <input type="text" class="form-control" name="term">
   	    <span class="input-group-btn">
     	    <button class="btn btn-default" type="submit">Go!</button>
       	</span>
     	</div><!-- /input-group -->
-
-			
-			<strong class="text-muted">Search for DVDs</strong>
-			<div class="input-append">
-			  <input class="span10"  type="text">
-			  <button class="btn btn-default" type="submit">Go</button>
-			</div>
-		</form>
 		<!--
 		<form method="get" action="http://hzportal.spokanelibrary.org/ipac20/ipac.jsp?=">
 			<input type="hidden" name="index" value=".GW">
