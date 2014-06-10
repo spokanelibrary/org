@@ -137,10 +137,10 @@
     </div><!-- /.row -->
 
     <div class="alert alert-info">
-    <p>
-      <strong>Non-discoverable Connect pages to port:</strong>
-      Welcome, Wireless, Receipt, Unblock, IT Academy, Obits, BioFiles, Summere Signup
-    </p>
+      <p>
+        <strong>Non-discoverable Connect pages to port:</strong>
+        Welcome, Wireless, Receipt/optout, Unblock, IT Academy, Obits, BioFiles, Summer Signup, iCal
+      </p>
     </div>
 
   </div><!-- /.col -->
