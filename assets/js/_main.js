@@ -63,6 +63,37 @@ var ORG = {
     }
   }
 
+, splLoadITAcademyLinks: function(user) {
+    console.log(user);
+    /*
+    $.ajax( { 
+        url: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
+        ,crossDomain: true
+        ,data: { params: {
+                          location: location
+                  }
+                }
+      } )
+      .done(function(data) {
+        //console.log(data);
+
+        var $html = $('#spl-it-academy-link');
+        var $script = $('#spl-it-academy-link-tmpl').html();
+        
+        var $tmpl = Handlebars.compile( $script );
+        $html.html( $tmpl( { codes: data } ) ); 
+
+
+      })
+      .fail(function() {
+        //parseNovelistData(null);
+      })
+      .always(function() {  
+      });
+    */
+
+  }
+
 , loadUserFormFields: function(user) {
     $('.spl-login').hide();
     //console.log(user);  
