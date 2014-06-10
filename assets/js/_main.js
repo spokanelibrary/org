@@ -226,7 +226,16 @@ var ORG = {
   }
 , it_academy: {
     init: function() {
-      console.log('it-academy');
+      Modernizr.load([
+        {
+          load: [config.path.absolute+'/assets/js/org/it-academy.js'],
+          complete: function () {
+            if ( org ) { 
+              org.init();
+            } 
+          }
+        }
+      ]);
     }
   }
 , search : {
@@ -291,7 +300,7 @@ var ORG = {
       ]);
 
     }
-}
+  }
 , vhs : {
     init: function() {
 
@@ -326,7 +335,7 @@ var ORG = {
       ]);
 
     }
-}
+  }
 , obits : {
     init: function() {
 
@@ -362,7 +371,7 @@ var ORG = {
       ]);
 
     }
-}
+  }
 , request : {
     
     init: function() {
@@ -379,7 +388,7 @@ var ORG = {
       ]);
 
     }
-}
+  }
 , account: {
     init: function() {
       
