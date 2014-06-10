@@ -45,6 +45,12 @@ function spl_get_network_source($ip=null) {
       }
     }
   }
+
+  if ( is_null($source) || ('external' == $_REQUEST['rel']) ) {
+    $source = 'external';
+  }
+
+  return $source;
 }
 
 
