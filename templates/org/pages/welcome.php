@@ -74,6 +74,15 @@
 		</ul>
 		<form method="get" action="http://hzportal.spokanelibrary.org/ipac20/ipac.jsp?=">
 			<input type="hidden" name="index" value="PDVDTI">
+
+			<div class="input-group">
+	      <input type="text" class="form-control">
+  	    <span class="input-group-btn">
+    	    <button class="btn btn-default" type="button">Go!</button>
+      	</span>
+    	</div><!-- /input-group -->
+
+			
 			<strong class="text-muted">Search for DVDs</strong>
 			<div class="input-append">
 			  <input class="span10" name="term" type="text">
