@@ -79,10 +79,15 @@ function spl_get_network_source($ip=null) {
 	</div><!-- ./col -->
 	<div class="col-sm-6">
 		<div class="alert alert-success">
-			<button type="button" class="btn btn-block btn-warning" data-toggle="modal" data-target="#spl-login-modal">
-        <i class="glyphicon glyphicon-user"></i>
-        Login to My Account
-      </button>
+			<div class="spl-login collapse" data-callback-method="loadUserFormFields">
+        <p class="form-control-static">
+          <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
+            <i class="glyphicon glyphicon-user"></i>
+            Login to My Account
+          </button>
+          <span class="help-block">Login and we'll fill out the rest of this information for you.</span>
+        </p>
+      </div>
 			<?php echo ucfirst(spl_get_network_source($_SERVER['REMOTE_ADDR'])); ?>
 		</div><!-- ./alert -->
 	</div><!-- ./col -->
