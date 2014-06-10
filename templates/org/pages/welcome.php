@@ -116,7 +116,7 @@
 		<h4 class="text-danger">Spokane Area News &amp; Information</h4>
 		<ul class="nav nav-pills">
 			<li>
-				<a href="http://beta.spokanecity.org">Spokane City</a>
+				<a href="http://www.spokanecity.org">City of Spokane</a>
 			</li>
 			<li>
 				<a href="http://spokane.craigslist.org">Spokane Craigslist</a>
