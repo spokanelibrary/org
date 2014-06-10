@@ -5,13 +5,12 @@ var org = {
 	// added on script load
 	
 	config: {
-						api: { hzws: 'http://api.spokanelibrary.org/v2/request/'
-									,oclc: 'http://api.spokanelibrary.org/oclc/'
+						api: { msit: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
 								 }
 					 }
 	
 	// added on authentication
-	user: {}
+	,user: {}
 
 	// called on script load
 	init: function() {
