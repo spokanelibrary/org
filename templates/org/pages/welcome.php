@@ -1,5 +1,6 @@
 <div class="panel panel-warning">
 	<div class="panel-heading">
+		<small class="glyphicon glyphicon-exclamation-sign"></small>
 		Use of Library computers constitutes an agreement that you accept the following terms and conditions:
 	</div>
 	<div class="panel-body">
@@ -72,7 +73,7 @@
 			</li>
 		</ul>
 		<form method="get" action="http://hzportal.spokanelibrary.org/ipac20/ipac.jsp?=">
-			<input ctype="hidden" name="index" value="PDVDTI">
+			<input type="hidden" name="index" value="PDVDTI">
 			<strong class="text-muted">Search for DVDs</strong>
 			<div class="input-append">
 			  <input class="span10" name="term" type="text">
@@ -144,50 +145,4 @@
 		</ul>
 	</div><!-- ./col -->
 </div><!-- ./row -->
-
-
-<hr>
-
-
-
-
-
-
-<div class="row-fluid">
-	
-	<div class="span12"></h3>
-		<h4 class="text-error">Spokane Area News &amp; Information</h4>
-		<ul class="nav nav-pills">
-			<li>
-				<a href="http://beta.spokanecity.org">Spokane City</a>
-			</li>
-			<li>
-				<a href="http://spokane.craigslist.org">Spokane Craigslist</a>
-			</li>
-			<li>
-				<a href="http://www.spokesman.com">Spokesman Review</a>
-			</li>
-			<li>
-				<a href="http://www.inlander.com">Pacific NW Inlander</a>
-			</li>
-			<li>
-				<a href="http://www.krem.com">KREM</a>
-			</li>
-			<li>
-				<a href="http://www.kxly.com">KXLY</a>
-			</li>
-			<li>
-				<a href="http://www.khq.com">KHQ</a>
-			</li>
-			<li>
-				<a href="http://www.ksps.org">KSPS</a>
-			</li>
-			<li>
-				<a href="http://www.ksfc.org">KSFC &amp; KPBX</a>
-			</li>
-		</ul>
-	</div>
-
-</div><!-- ./row-fluid -->
-
 
