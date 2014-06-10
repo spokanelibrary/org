@@ -18,7 +18,7 @@
 		<h3 class="text-muted normal">Popular Websites <small>Search & Social</small></h3>
 		<ul class="nav nav-pills">
 			<li>
-				<a href="http://google.com"><img src="../wordpress/assets/img/icons/16px/google.png"> Google</a>
+				<a href="http://google.com"><img src="/assets/img/icons/16px/google.png"> Google</a>
 			</li>
 			<li>
 				<a href="http://yahoo.com"><img src="../wordpress/assets/img/icons/16px/yahoo.png"> Yahoo!</a>
