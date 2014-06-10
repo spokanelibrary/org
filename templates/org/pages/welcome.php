@@ -12,22 +12,45 @@
 	</div>
 </div>
 
+<div class="row">
+	<div class="col-sm-6">
+		<h3 class="text-muted normal">Popular Websites <small>Search & Social</small></h3>
+		<ul class="nav nav-pills">
+			<li>
+				<a href="http://google.com"><img src="../wordpress/assets/img/icons/16px/google.png"> Google</a>
+			</li>
+			<li>
+				<a href="http://yahoo.com"><img src="../wordpress/assets/img/icons/16px/yahoo.png"> Yahoo!</a>
+			</li>
+			<li>
+				<a href="http://bing.com"><img src="../wordpress/assets/img/icons/16px/bing.png"> Bing</a>
+			</li>
+			<li>
+				<a href="http://facebook.com/spokanelibrary"><img src="../wordpress/assets/img/icons/16px/facebook.png"> Facebook</a>
+			</li>
+		</ul>
+	</div><!-- ./col -->
+	<div class="col-sm-6">
+		<h3 class="text-muted normal">Check Your Email</h3>
+		<ul class="nav nav-pills">
+			<li>
+				<a href="http://gmail.com"><img src="../wordpress/assets/img/icons/16px/gmail.png"> Gmail</a>
+			</li>
+			<li>
+				<a href="http://mail.yahoo.com"><img src="../wordpress/assets/img/icons/16px/yahoo.png"> Yahoo! Mail</a>
+			</li>
+			<li>
+				<a href="http://outlook.com"><img src="../wordpress/assets/img/icons/16px/outlook.png"> Hotmail / Live / Outlook</a>
+			</li>
+		</ul>
+	</div><!-- ./col -->
+</div><!-- ./row -->
+
+
+
+
 
 <hr>
-
-<div class="alert alert-warning">
-	<h5>
-  	Use of Library computers constitutes an agreement that you accept the following terms and conditions:
-  </h5>
-	<p class="">
-  	<span class="help-block">
-  	All Library customers are expected to access the Internet in compliance with the <a href="http://www.spokanelibrary.org/index.php?page=internet_policy">Internet Use Policy</a> and <a href="http://www.spokanelibrary.org/admin/uploads/files/Policies/rules_of_conduct.pdf">Rules of Conduct</a>, and within the boundaries of the law.
-  	Viewing or downloading illegal or copyright-protected materials, obscenity, child pornography, or materials harmful to minors is prohibited.
-  	<em>Please be considerate of other Library patrons.</em>
-  	</span>
-  </p>
-  <a class="btn btn-success" href="http://www.spokanelibrary.org"><i class="icon-home icon-white"></i> Go to the Library website &rarr;</a>
-</div>
 
 
 
