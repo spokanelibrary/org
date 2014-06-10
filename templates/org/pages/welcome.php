@@ -1,3 +1,12 @@
+<div class="panel panel-warning">
+	<div class="panel-heading">
+		Terms and conditions
+	</div>
+	<div class="panel-body">
+		;asdjf;j
+	</div>
+</div>
+
 
 <div class="alert alert-warning">
 	<h5>
