@@ -4,7 +4,7 @@
 
   <footer class="content-info container" role="contentinfo">
 
-    <?php include('/org/footer-bottom-navbar.php'); ?>
+    <?php include('org/footer-bottom-navbar.php'); ?>
 
     <div class="row">
       <div class="col-md-12">
