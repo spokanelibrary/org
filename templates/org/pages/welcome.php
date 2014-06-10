@@ -21,13 +21,13 @@
 				<a href="http://google.com"><img src="/assets/img/icons/16px/google.png"> Google</a>
 			</li>
 			<li>
-				<a href="http://yahoo.com"><img src="../wordpress/assets/img/icons/16px/yahoo.png"> Yahoo!</a>
+				<a href="http://yahoo.com"><img src="/assets/img/icons/16px/yahoo.png"> Yahoo!</a>
 			</li>
 			<li>
-				<a href="http://bing.com"><img src="../wordpress/assets/img/icons/16px/bing.png"> Bing</a>
+				<a href="http://bing.com"><img src="/assets/img/icons/16px/bing.png"> Bing</a>
 			</li>
 			<li>
-				<a href="http://facebook.com/spokanelibrary"><img src="../wordpress/assets/img/icons/16px/facebook.png"> Facebook</a>
+				<a href="http://facebook.com/spokanelibrary"><img src="/assets/img/icons/16px/facebook.png"> Facebook</a>
 			</li>
 		</ul>
 	</div><!-- ./col -->
@@ -35,13 +35,13 @@
 		<h3 class="text-muted normal">Check Your Email</h3>
 		<ul class="nav nav-pills">
 			<li>
-				<a href="http://gmail.com"><img src="../wordpress/assets/img/icons/16px/gmail.png"> Gmail</a>
+				<a href="http://gmail.com"><img src="/assets/img/icons/16px/gmail.png"> Gmail</a>
 			</li>
 			<li>
-				<a href="http://mail.yahoo.com"><img src="../wordpress/assets/img/icons/16px/yahoo.png"> Yahoo! Mail</a>
+				<a href="http://mail.yahoo.com"><img src="/assets/img/icons/16px/yahoo.png"> Yahoo! Mail</a>
 			</li>
 			<li>
-				<a href="http://outlook.com"><img src="../wordpress/assets/img/icons/16px/outlook.png"> Hotmail / Live / Outlook</a>
+				<a href="http://outlook.com"><img src="/assets/img/icons/16px/outlook.png"> Hotmail / Live / Outlook</a>
 			</li>
 		</ul>
 	</div><!-- ./col -->
@@ -52,16 +52,16 @@
 		<h4 class="text-success">Use the Library</h4>
 		<ul class="nav nav-stacked nav-pills">
 			<li>
-				<a href="http://www.spokanelibrary.org/librarycards"><i class="icon-barcode"></i> Get a Library Card &rarr;</a>
+				<a href="http://www.spokanelibrary.org/librarycards"><i class="glyphicon glyphicon-barcode"></i> Get a Library Card &rarr;</a>
 			</li>
 			<li>
-				<a href="http://www.spokanelibrary.org/printing"><i class="icon-print"></i> How to use Library printers &rarr;</a>
+				<a href="http://www.spokanelibrary.org/printing"><i class="glyphicon glyphicon-print"></i> How to use Library printers &rarr;</a>
 			</li>
 			<li>
-				<a href="http://www.spokanelibrary.org/branches"><i class="icon-time"></i> When is the Library open &rarr;</a>
+				<a href="http://www.spokanelibrary.org/branches"><i class="glyphicon glyphicon-time"></i> When is the Library open &rarr;</a>
 			</li>
 			<li>
-				<a href="http://www.spokanelibrary.org/worksource"><i class="icon-question-sign"></i> WorkSource Career Center &rarr;</a>
+				<a href="http://www.spokanelibrary.org/worksource"><i class="glyphicon glyphicon-question-sign"></i> WorkSource Career Center &rarr;</a>
 			</li>
 		</ul>
 	</div><!-- ./col -->
@@ -69,7 +69,7 @@
 		<h4 class="text-success">Search the Library</h4>
 		<ul class="nav nav-stacked nav-pills">
 			<li>
-				<a href="http://hzportal.spokanelibrary.org"><i class="icon-search"></i> <strong>Open the Library Catalog</strong> &rarr;</a>
+				<a href="http://hzportal.spokanelibrary.org"><i class="glyphicon glyphicon-search"></i> <strong>Open the Library Catalog</strong> &rarr;</a>
 			</li>
 		</ul>
 		<form method="get" action="http://hzportal.spokanelibrary.org/ipac20/ipac.jsp?=">
@@ -96,16 +96,16 @@
 		<h4 class="text-success">Download from the Library</h4>
 		<ul class="nav nav-stacked nav-pills">
 			<li>
-				<a href="http://www.spokanelibrary.org/download-music"><i class="icon-music"></i> Download Music <small>(.mp3)</small> &rarr;</a>
+				<a href="http://www.spokanelibrary.org/download-music"><i class="glyphicon glyphicon-music"></i> Download Music <small>(.mp3)</small> &rarr;</a>
 			</li>
 			<li>
-				<a href="http://www.spokanelibrary.org/download-magazines"><i class="icon-picture"></i> Download Magazines &rarr;</a>
+				<a href="http://www.spokanelibrary.org/download-magazines"><i class="glyphicon glyphicon-picture"></i> Download Magazines &rarr;</a>
 			</li>
 			<li>
-				<a href="http://www.spokanelibrary.org/ebooks"><i class="icon-book"></i> Download eBooks &rarr;</a>
+				<a href="http://www.spokanelibrary.org/ebooks"><i class="glyphicon glyphicon-book"></i> Download eBooks &rarr;</a>
 			</li>
 			<li>
-				<a href="http://www.spokanelibrary.org/eaudiobooks"><i class="icon-headphones"></i> Download Audio Books &rarr;</a>
+				<a href="http://www.spokanelibrary.org/eaudiobooks"><i class="glyphicon glyphicon-headphones"></i> Download Audio Books &rarr;</a>
 			</li>
 		</ul>
 	</div><!-- ./col -->
