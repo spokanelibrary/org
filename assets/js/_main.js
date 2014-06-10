@@ -224,6 +224,11 @@ var ORG = {
       //console.log(config);
     }
   }
+, it_academy: {
+    init: function() {
+      console.log('it-academy');
+    }
+  }
 , search : {
     /*
     init: function() {
@@ -322,7 +327,7 @@ var ORG = {
 
     }
 }
-, obituaries : {
+, obits : {
     init: function() {
 
       Modernizr.load([
