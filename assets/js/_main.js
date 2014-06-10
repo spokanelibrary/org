@@ -64,7 +64,7 @@ var ORG = {
   }
 
 , splLoadITAcademyLinks: function(user) {
-    console.log(user);
+    console.log(this.org.config);
     /*
     $.ajax( { 
         url: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
