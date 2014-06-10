@@ -15,6 +15,7 @@ var org = {
 
 	// called on script load
 	init: function() {
+    console.log('test');
 		_self = this;
 		
 		this.config = ORG.config;
