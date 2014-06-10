@@ -61,7 +61,7 @@
 				<a href="http://www.spokanelibrary.org/branches"><i class="glyphicon glyphicon-time"></i> When is the Library open &rarr;</a>
 			</li>
 			<li>
-				<a href="http://www.spokanelibrary.org/worksource"><i class="glyphicon glyphicon-question-sign"></i> WorkSource Career Center &rarr;</a>
+				<a href="http://www.spokanelibrary.org/worksource"><i class="glyphicon glyphicon-folder-close"></i> WorkSource Career Center &rarr;</a>
 			</li>
 		</ul>
 	</div><!-- ./col -->
