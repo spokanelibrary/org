@@ -76,16 +76,16 @@
 			<input type="hidden" name="index" value="PDVDTI">
 
 			<div class="input-group">
-	      <input type="text" class="form-control">
+	      <input type="text" class="form-control" name="term">
   	    <span class="input-group-btn">
-    	    <button class="btn btn-default" type="button">Go!</button>
+    	    <button class="btn btn-default" type="submit">Go!</button>
       	</span>
     	</div><!-- /input-group -->
 
 			
 			<strong class="text-muted">Search for DVDs</strong>
 			<div class="input-append">
-			  <input class="span10" name="term" type="text">
+			  <input class="span10"  type="text">
 			  <button class="btn btn-default" type="submit">Go</button>
 			</div>
 		</form>
