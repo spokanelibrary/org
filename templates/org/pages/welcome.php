@@ -57,48 +57,6 @@
 
 
 
-
-
-
-
-
-<div class="row-fluid">
-
-	<div class="span6">
-		<h3 class="muted normal">Popular Websites <small>Search & Social</small></h3>
-		<ul class="nav nav-pills">
-			<li>
-				<a href="http://google.com"><img src="../wordpress/assets/img/icons/16px/google.png"> Google</a>
-			</li>
-			<li>
-				<a href="http://yahoo.com"><img src="../wordpress/assets/img/icons/16px/yahoo.png"> Yahoo!</a>
-			</li>
-			<li>
-				<a href="http://bing.com"><img src="../wordpress/assets/img/icons/16px/bing.png"> Bing</a>
-			</li>
-			<li>
-				<a href="http://facebook.com/spokanelibrary"><img src="../wordpress/assets/img/icons/16px/facebook.png"> Facebook</a>
-			</li>
-		</ul>
-	</div>
-
-	<div class="span6">
-		<h3 class="muted normal">Check Your Email</h3>
-		<ul class="nav nav-pills">
-			<li>
-				<a href="http://gmail.com"><img src="../wordpress/assets/img/icons/16px/gmail.png"> Gmail</a>
-			</li>
-			<li>
-				<a href="http://mail.yahoo.com"><img src="../wordpress/assets/img/icons/16px/yahoo.png"> Yahoo! Mail</a>
-			</li>
-			<li>
-				<a href="http://outlook.com"><img src="../wordpress/assets/img/icons/16px/outlook.png"> Hotmail / Live / Outlook</a>
-			</li>
-		</ul>
-	</div>
-
-</div><!-- ./row-fluid -->
-
 <div class="row-fluid">
 
 	<div class="span4">
