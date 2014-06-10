@@ -114,7 +114,7 @@
 
 <div class="row">
 	<div class="col-sm-12">
-		<h4 class="text-danger">Spokane Area News &amp; Information</h4>
+		<h4 class="text-danger text-center">Spokane Area News &amp; Information</h4>
 		<ul class="nav nav-pills">
 			<li>
 				<a href="http://www.spokanecity.org">City of Spokane</a>
