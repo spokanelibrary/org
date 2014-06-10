@@ -46,6 +46,70 @@
 	</div><!-- ./col -->
 </div><!-- ./row -->
 
+<div class="row">
+	<div class="col-sm-4">
+		<h4 class="text-success">Use the Library</h4>
+		<ul class="nav nav-stacked nav-pills">
+			<li>
+				<a href="http://www.spokanelibrary.org/librarycards"><i class="icon-barcode"></i> Get a Library Card &rarr;</a>
+			</li>
+			<li>
+				<a href="http://www.spokanelibrary.org/printing"><i class="icon-print"></i> How to use Library printers &rarr;</a>
+			</li>
+			<li>
+				<a href="http://www.spokanelibrary.org/branches"><i class="icon-time"></i> When is the Library open &rarr;</a>
+			</li>
+			<li>
+				<a href="http://www.spokanelibrary.org/worksource"><i class="icon-question-sign"></i> WorkSource Career Center &rarr;</a>
+			</li>
+		</ul>
+	</div><!-- ./col -->
+	<div class="col-sm-4">
+		<h4 class="text-success">Search the Library</h4>
+		<ul class="nav nav-stacked nav-pills">
+			<li>
+				<a href="http://hzportal.spokanelibrary.org"><i class="icon-search"></i> <strong>Open the Library Catalog</strong> &rarr;</a>
+			</li>
+		</ul>
+		<form method="get" action="http://hzportal.spokanelibrary.org/ipac20/ipac.jsp?=">
+			<input type="hidden" name="index" value="PDVDTI">
+			<strong class="muted">Search for DVDs</strong>
+			<div class="input-append">
+			  <input class="span10" name="term" type="text">
+			  <button class="btn" type="submit">Go</button>
+			</div>
+		</form>
+		<!--
+		<form method="get" action="http://hzportal.spokanelibrary.org/ipac20/ipac.jsp?=">
+			<input type="hidden" name="index" value=".GW">
+			<input type="hidden" name="limitbox_2" value="<?php echo urldecode('FM01+%3D+fo_ebook'); ?>">
+			<strong class="muted">Search for eBooks</strong>
+			<div class="input-append">
+			  <input class="span10" name="term" type="text">
+			  <button class="btn" type="submit">Go</button>
+			</div>
+		</form>
+	 	-->
+	</div><!-- ./col -->
+	<div class="col-sm-4">
+		<h4 class="text-success">Download from the Library</h4>
+		<ul class="nav nav-stacked nav-pills">
+			<li>
+				<a href="http://www.spokanelibrary.org/download-music"><i class="icon-music"></i> Download Music <small>(.mp3)</small> &rarr;</a>
+			</li>
+			<li>
+				<a href="http://www.spokanelibrary.org/download-magazines"><i class="icon-picture"></i> Download Magazines &rarr;</a>
+			</li>
+			<li>
+				<a href="http://www.spokanelibrary.org/ebooks"><i class="icon-book"></i> Download eBooks &rarr;</a>
+			</li>
+			<li>
+				<a href="http://www.spokanelibrary.org/eaudiobooks"><i class="icon-headphones"></i> Download Audio Books &rarr;</a>
+			</li>
+		</ul>
+	</div><!-- ./col -->
+</div><!-- ./row -->
+
 
 
 
