@@ -47,6 +47,8 @@ function spl_get_network_source($ip=null) {
   }
 }
 
+
+
 ?>
 
 <div class="row">
@@ -71,7 +73,7 @@ function spl_get_network_source($ip=null) {
 	</div><!-- ./col -->
 	<div class="col-sm-6">
 		<div class="alert alert-success">
-
+			<?php echo ucfirst(spl_get_network_source($_SERVER['REMOTE_ADDR'])); ?>
 		</div><!-- ./alert -->
 	</div><!-- ./col -->
 </div><!-- ./row -->
