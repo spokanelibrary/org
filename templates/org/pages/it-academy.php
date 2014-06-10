@@ -49,7 +49,7 @@ function spl_get_network_source($ip=null) {
     }
   }
 
- ?>
+?>
 <div class="row">
 	<div class="col-sm-6">
 		<div class="alert alert-info">
@@ -72,8 +72,7 @@ function spl_get_network_source($ip=null) {
 	</div><!-- ./col -->
 	<div class="col-sm-6">
 		<div class="alert alert-success">
-			<?php $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']); ?>
-			<?php echo $spl_network_source; ?>
+
 		</div><!-- ./alert -->
 	</div><!-- ./col -->
 </div><!-- ./row -->
