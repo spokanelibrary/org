@@ -85,7 +85,7 @@ function spl_get_network_source($ip=null) {
             <i class="glyphicon glyphicon-user"></i>
             Login to My Account
           </button>
-          <span class="help-block">Login and we'll fill out the rest of this information for you.</span>
+          <span class="help-block">Login to your Library account to get started.</span>
         </p>
       </div>
 			<?php echo ucfirst(spl_get_network_source($_SERVER['REMOTE_ADDR'])); ?>
