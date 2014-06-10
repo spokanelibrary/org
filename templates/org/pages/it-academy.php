@@ -16,9 +16,10 @@
       <span class="help-block">
         Use this link <b>only</b> if you have <em>already</em> signed up.
       </span>
-		</div>
+		</div><!-- ./alert -->
 	</div><!-- ./col -->
 	<div class="col-sm-6">
-
+		<div class="alert alert-success">
+		</div><!-- ./alert -->
 	</div><!-- ./col -->
 </div><!-- ./row -->
