@@ -8,6 +8,7 @@
   		Viewing or downloading illegal or copyright-protected materials, obscenity, child pornography, or materials harmful to minors is prohibited.
 	  	<em>Please be considerate of other Library patrons.</em>
 		</p>
+		<a class="btn btn-success" href="http://www.spokanelibrary.org"><i class="glyphicon glyphicon-home"></i> Go to the Library website &rarr;</a>
 	</div>
 </div>
 
