@@ -40,6 +40,7 @@ var org = {
 
       
 		}
+    $('#it-academy-links').html('only a test');
 
   } // initITAcademy()
 

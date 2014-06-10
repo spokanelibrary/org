@@ -64,13 +64,13 @@ function spl_get_network_source($ip=null) {
 				<b>Returning Users:</b> IT Academy Login
 			</p>
 			<p>
-      <a href="https://itacademy.microsoft.com?whr=uri:MicrosoftAccount"
-        rel="external"
-        class="btn btn-block btn-info"
-        title="For returning users"
-        ><b>I have already signed up for Microsoft IT Academy</b>
-        &rarr;
-      </a>
+        <a href="https://itacademy.microsoft.com?whr=uri:MicrosoftAccount"
+          rel="external"
+          class="btn btn-block btn-info"
+          title="For returning users"
+          ><b>I have already signed up for Microsoft IT Academy</b>
+          &rarr;
+        </a>
       </p>
       <span class="help-block">
         Use this link <b>only</b> if you have <em>already</em> signed up.
@@ -82,13 +82,18 @@ function spl_get_network_source($ip=null) {
 			<p class="lead">
         <b>Returning Users:</b> IT Academy Registration
       </p>
-      <p class="spl-login" data-callback-method="splLoadITAcademyLinks">
-        <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
-          <i class="glyphicon glyphicon-user"></i>
-          Login to My Account
-        </button>
-      </p>
-      <span class="help-block">Login to your Library account to get started.</span>
+      <div class="it-academy-login">
+        <p class="spl-login" data-callback-method="splLoadITAcademyLinks">
+          <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
+            <i class="glyphicon glyphicon-user"></i>
+            Login to My Account
+          </button>
+        </p>
+        <span class="help-block">Login to your Library account to get started.</span>
+      </div>
+      <div class="it-academy-links">
+        Ok, here is your link:
+      </div>
 
 			<?php echo ucfirst(spl_get_network_source($_SERVER['REMOTE_ADDR'])); ?>
 		</div><!-- ./alert -->
