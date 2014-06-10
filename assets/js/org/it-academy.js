@@ -34,7 +34,8 @@ var org = {
 }
 
 , initITAcademy: function() {
-		console.log('handle it academy');
+		ORG.splLoadITAcademyLinks();
+    //console.log('handle it academy');
     //console.log(this.user);
 		if ( this.user ) {
 
