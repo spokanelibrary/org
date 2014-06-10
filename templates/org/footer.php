@@ -2,7 +2,7 @@
 
   <!-- <a name="spl-more">&nbsp;</a> -->
 
-  <footer class="content-info container" role="contentinfo">
+  <footer class="content-info container" role="contentinfo" style="border-top:1px solid rgb(100,150,75);">
 
     <?php //include('footer-bottom-navbar.php'); ?>
 
