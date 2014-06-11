@@ -43,9 +43,14 @@ var org = {
 , initITAcademy: function() {
 		//ORG.splLoadITAcademyLinks();
     var netSrc = $('#spl-network-source').data('source');
-    console.log(netSrc);
-    
-    console.log('handle it academy');
+    console.log('Network Source ' + netSrc);
+
+
+    $tmpl = $('#it-academy-links');
+    tmpl = Handlebars.compile( $('#spl-it-academy-link-tmpl').html() );
+    $tmpl.html( tmpl({my:'var'}) );
+
+
     //console.log(this.user);
 		if ( this.user ) {
 
