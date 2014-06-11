@@ -36,10 +36,9 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         </p>
         <span class="help-block">Login to your Library account to get started.</span>
       </div>
-      <div class="it-academy-links">
-      </div>
 
       <div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
+      <div id="spl-it-academy-links"></div>
 
       <script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
         <p class="lead">
