@@ -27,16 +27,22 @@ var org = {
 	} // init()
 
 , setUser: function(user) {
-    console.log('this is a callback function');
-		if ( !ORG.user ) {
+    if ( !ORG.user ) {
 			ORG.setUser(user);
 		}
 		this.user = ORG.user;
+
+    if ( this.user ) {
+      console.log('this is a callback function');
+      this.initITAcademy();
+    } else {
+      console.log('not a callback function!');
+    }
 }
 
 , initITAcademy: function() {
 		//ORG.splLoadITAcademyLinks();
-    //console.log('handle it academy');
+    console.log('handle it academy');
     //console.log(this.user);
 		if ( this.user ) {
 

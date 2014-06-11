@@ -316,8 +316,15 @@ var org = {
 		        //console.log( _self.user );
 		        //console.log( _self.login.callbackTrigger );
 		        
-		        // NOTE: this was added for msit
+		        /*
+						######################################
+		        // NOTE: this was added for it academy
+		        // it may need to be removed!!!!!
+		        ######################################
+		        */
 		        _self.login = {};
+
+
 
 		        //$('#spl-login-modal').modal('hide');
 		        $('.spl-login-modal-response').addClass('hide');
