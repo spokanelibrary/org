@@ -45,7 +45,8 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         <strong>New Users:</strong> IT Academy Registration
         </p>
 
-        {{my}}
+
+        {{location}}
 
         {{#each codes}}
           <p>
