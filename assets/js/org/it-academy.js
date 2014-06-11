@@ -60,7 +60,7 @@ var org = {
                   }
         } )
         .done(function(data) {
-          _self.parseITAcademyLinks('login', data);
+          _self.parseITAcademyLinks(data);
         })
         .fail(function() {
           //parseNovelistData(null);
@@ -69,15 +69,21 @@ var org = {
         });
 
     } else {
-      this.parseITAcademyLinks('auth');
+      this.parseITAcademyLinks('login');
     }
 
 
   } // initITAcademy()
 
-, parseITAcademyLinks: function(mode, links) {
+, parseITAcademyLinks: function(links) {
     
-    console.log(mode);
+    var msit = { links:links };
+    msit.login = false;
+    if ( 'login' == links ) {
+      msit.login = true;
+    }
+    
+    console.log(msit);
 
     $tmpl = $('#spl-it-academy-links');
     tmpl = Handlebars.compile( $('#spl-it-academy-link-tmpl').html() );
