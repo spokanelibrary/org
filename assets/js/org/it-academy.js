@@ -27,6 +27,7 @@ var org = {
 	} // init()
 
 , setUser: function(user) {
+    console.log('this is a callback function');
 		if ( !ORG.user ) {
 			ORG.setUser(user);
 		}
