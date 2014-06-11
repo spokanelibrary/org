@@ -22,7 +22,7 @@ var org = {
 		this.setUser();
 
 		// init ui
-		this.initITAcademy();
+		//this.initITAcademy();
 
 	} // init()
 
@@ -32,18 +32,17 @@ var org = {
 		}
 		this.user = ORG.user;
 
-    if ( this.user ) {
-      console.log('this is a callback function');
-      this.initITAcademy();
-    } else {
-      console.log('not a callback function!');
-    }
+    // Reparse links on login
+    this.initITAcademy();
 }
 
 , initITAcademy: function() {
 		//ORG.splLoadITAcademyLinks();
     var netSrc = $('#spl-network-source').data('source');
     console.log('Network Source ' + netSrc);
+
+    if ( this.user ) {
+    }
 
     var location = netSrc;
 
