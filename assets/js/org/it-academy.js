@@ -75,6 +75,8 @@ var org = {
 
 , parseITAcademyLinks: function(links) {
     
+    console.log(links);
+
     $tmpl = $('#spl-it-academy-links');
     tmpl = Handlebars.compile( $('#spl-it-academy-link-tmpl').html() );
     $tmpl.html( tmpl({my:'var'}) );
