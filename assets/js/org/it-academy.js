@@ -56,13 +56,15 @@ var org = {
                 }
       } )
       .done(function(data) {
-        //console.log(data);
+        console.log(data);
 
+        /*
         var $html = $('#spl-it-academy-link');
         var $script = $('#spl-it-academy-link-tmpl').html();
         
         var $tmpl = Handlebars.compile( $script );
         $html.html( $tmpl( { codes: data } ) ); 
+        */
 
 
       })
