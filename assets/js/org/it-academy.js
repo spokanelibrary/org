@@ -47,7 +47,9 @@ var org = {
       location = netSrc;
     }
 
-    if ( 'external' != location ) {
+    location = 'external';
+
+    if ( location ) {
     
       $.ajax( { 
           url: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
