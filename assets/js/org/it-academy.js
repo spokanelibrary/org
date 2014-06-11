@@ -79,7 +79,7 @@ var org = {
     
     var msit = { codes:codes };
     msit.login = false;
-    if ( 'login' == modes ) {
+    if ( 'login' == mode ) {
       msit.login = true;
     }
     
