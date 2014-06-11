@@ -45,6 +45,34 @@ var org = {
     var netSrc = $('#spl-network-source').data('source');
     console.log('Network Source ' + netSrc);
 
+    var location = netSrc;
+
+    $.ajax( { 
+        url: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
+        ,crossDomain: true
+        ,data: { params: {
+                          location: location
+                  }
+                }
+      } )
+      .done(function(data) {
+        //console.log(data);
+
+        var $html = $('#spl-it-academy-link');
+        var $script = $('#spl-it-academy-link-tmpl').html();
+        
+        var $tmpl = Handlebars.compile( $script );
+        $html.html( $tmpl( { codes: data } ) ); 
+
+
+      })
+      .fail(function() {
+        //parseNovelistData(null);
+      })
+      .always(function() {  
+      });
+
+
 
     $tmpl = $('#spl-it-academy-links');
     tmpl = Handlebars.compile( $('#spl-it-academy-link-tmpl').html() );
