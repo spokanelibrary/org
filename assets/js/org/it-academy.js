@@ -87,7 +87,7 @@ var org = {
 
     $tmpl = $('#spl-it-academy-links');
     tmpl = Handlebars.compile( $('#spl-it-academy-link-tmpl').html() );
-    $tmpl.html( tmpl({my:'var'}) );
+    $tmpl.html( tmpl({msit:msit}) );
 
   }
 
