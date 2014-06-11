@@ -49,7 +49,7 @@ var org = {
 
     location = 'external';
 
-    if ( location ) {
+    if ( 'external' != location ) {
     
       $.ajax( { 
           url: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
