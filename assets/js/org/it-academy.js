@@ -60,7 +60,7 @@ var org = {
                   }
         } )
         .done(function(data) {
-          _self.parseITAcademyLinks(data);
+          _self.parseITAcademyLinks('login', data);
         })
         .fail(function() {
           //parseNovelistData(null);
@@ -69,15 +69,15 @@ var org = {
         });
 
     } else {
-      this.parseITAcademyLinks();
+      this.parseITAcademyLinks('auth');
     }
 
 
   } // initITAcademy()
 
-, parseITAcademyLinks: function(links) {
+, parseITAcademyLinks: function(mode, links) {
     
-    console.log(links);
+    console.log(mode);
 
     $tmpl = $('#spl-it-academy-links');
     tmpl = Handlebars.compile( $('#spl-it-academy-link-tmpl').html() );

@@ -46,8 +46,6 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         </p>
 
 
-        {{location}}
-
         {{#each codes}}
           <p>
             <a href="https://itacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&key={{code}}"
@@ -64,7 +62,6 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         </span>
       </script>
 
-			<?php echo $spl_network_source; ?>
 		</div><!-- ./alert -->
 	</div><!-- ./col -->
 </div><!-- ./row -->
