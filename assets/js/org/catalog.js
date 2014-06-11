@@ -316,12 +316,12 @@ var org = {
 		        //console.log( _self.user );
 		        //console.log( _self.login.callbackTrigger );
 		        
-		        
-		        
+		        // NOTE: this was added for msit
+		        _self.login = {};
 
 		        //$('#spl-login-modal').modal('hide');
 		        $('.spl-login-modal-response').addClass('hide');
-		        if ( _self.user && _self.login && _self.user.sessionToken ) {
+		        if ( _self.user && _self.user.sessionToken ) {
 		        	if ( _self.login.callbackFunction && _self.login.callbackTrigger ) {
 		        		_self.login.callbackFunction(_self.login.callbackTrigger);
 		        		_self.login = {};
