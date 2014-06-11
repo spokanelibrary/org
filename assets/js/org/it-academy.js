@@ -60,7 +60,7 @@ var org = {
                   }
         } )
         .done(function(data) {
-          _self.parseITAcademyLinks(data);
+          _self.parseITAcademyLinks('auth', data);
         })
         .fail(function() {
           //parseNovelistData(null);
@@ -75,11 +75,11 @@ var org = {
 
   } // initITAcademy()
 
-, parseITAcademyLinks: function(links) {
+, parseITAcademyLinks: function(mode, codes) {
     
-    var msit = { links:links };
+    var msit = { codes:codes };
     msit.login = false;
-    if ( 'login' == links ) {
+    if ( 'login' == modes ) {
       msit.login = true;
     }
     
