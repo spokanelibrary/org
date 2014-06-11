@@ -28,7 +28,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         <b>Returning Users:</b> IT Academy Registration
       </p>
       <div class="it-academy-login">
-        <p class="spl-login" data-callback-method="splLoadITAcademyLinks">
+        <p class="" data-callback-method="splLoadITAcademyLinks">
           <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
             <i class="glyphicon glyphicon-user"></i>
             <b>Login to My Account &rarr;</b>
@@ -37,7 +37,6 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         <span class="help-block">Login to your Library account to get started.</span>
       </div>
       <div class="it-academy-links">
-        Ok, here is your link:
       </div>
 
       <div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
