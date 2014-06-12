@@ -39,7 +39,8 @@ var org = {
 , initITAcademy: function() {
 		//ORG.splLoadITAcademyLinks();
     var netSrc = $('#spl-network-source').data('source');
-    netSrc = 'external';
+    //netSrc = 'external';
+    netSrc = 'es';
 
     var location;
     if ( 'external' == netSrc && this.user  ) {
