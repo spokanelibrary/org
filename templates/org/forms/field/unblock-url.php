@@ -147,7 +147,7 @@
                 <input type="text" 
                     id="spl-form-unblock-email" 
                     name="spl-form[unblock][email]" 
-                    class="form-control required"
+                    class="form-control"
                     value=""
                     placeholder="" />
                 <span class="help-block">
