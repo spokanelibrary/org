@@ -11,14 +11,15 @@
           Please fill out the form below to request a review of this website.
       </p>
       <p>
-          We will be happy to unblock it if we find that the content is not in violation of our <a href="#spl-internet-policy" data-toggle="modal">Internet Use Policy</a>.
+          We will be happy to unblock it if we find that the content is not in violation of our <a href="http://www.spokanelibrary.org/internet-policy">Internet Use Policy</a>.
       </p>
       <p>
         All unblock requests are processed within <strong class="serif">72</strong> hours. 
         <a href="#"
+            class="prevent-default"
             data-toggle="collapse" 
             data-target="#unblock-explain" 
-            >What if I need this website unblocked <em>right now?</em> <i class="icon-chevron-down"></i></a>
+            >What if I need this website unblocked <em>right now?</em> <i class="glyphicon glyphicon-chevron-down"></i></a>
       </p>
       <div id="unblock-explain" class="collapse">
         <blockquote>
@@ -27,6 +28,7 @@
           Next, walk over to the nearest <em>Reference &amp; Information</em> desk and ask that the reference librarian on staff make an interim evaluation of your request.
           We'll be glad to help.
           <a href="#" 
+              class="prevent-default" 
               data-toggle="collapse" 
               data-target="#unblock-explain"
               >Hide <i class="glyphicon glyphicon-chevron-up"></i></a>
@@ -35,3 +37,39 @@
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
 <?php endif; ?>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    <form class="form-horizontal spl-form" id="spl-form-optout" method="post" role="form">      
+      <?php include 'common/crass-response.php'; ?>
+
+      <input type="hidden" id="spl-form-id" name="spl-form[id]" value="receipt-unblock" />
+      
+      <input type="hidden" 
+              id="spl-form-unblock-path" 
+              name="spl-form[unblock][path]" 
+              value="<?php echo $spl['unblock']['url']['path']; ?>"
+              />
+      <input type="hidden" 
+              id="spl-form-unblock-query" 
+              name="spl-form[unblock][query]" 
+              value="<?php echo $spl['unblock']['url']['query']; ?>"
+              />
+
+      <input type="hidden" 
+              id="spl-form-unblock-ip" 
+              name="spl-form[unblock][ip]" 
+              value="<?php echo $_SERVER['REMOTE_ADDR']; ?>"
+              />
+
+      <fieldset>
+        <legend class="text-muted">
+          <small class="glyphicon glyphicon-info-sign"></small>
+          Tell us about your request
+        </legend>
+
+
+      </fieldset>
+    </form>
+  </div><!-- /.panel-body -->
+</div><!-- /.panel -->
