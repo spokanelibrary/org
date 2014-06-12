@@ -52,6 +52,8 @@ function spl_get_network_source($ip=null) {
   return $source;
 }
 
+?>
+
 <?php
 $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 ?>
@@ -114,6 +116,3 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
   {{/with}}
 </script>
 
-
-
-?>
