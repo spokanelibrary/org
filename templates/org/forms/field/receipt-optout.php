@@ -70,11 +70,22 @@ if ( array_key_exists('number', $borrower) ) :
               </div>
             </div>
 
+            <hr>
+
             <div class="form-group">
-              <div class="col-sm-8 col-offset-4">
+              <div class="col-sm-8 col-sm-offset-4">
                 <button type="submit" name="spl-form[receipt-optout]" value="true" class="btn btn-block btn-danger spl-submit">
                   <i class="glyphicon glyphicon-remove-circle"></i> 
-                  Please do not send me any more email receipts
+                  Please do not send me any more email receipts &rarr;
+                </button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-8 col-sm-offset-4">
+                <button type="submit" name="spl-form[receipt-optout-cancel]" value="true" class="btn btn-block btn-success spl-submit">
+                  <i class="glyphicon glyphicon-ok-sign"></i> 
+                  Nevermind, I'd like to continue receiving receipts &rarr;
                 </button>
               </div>
             </div>
