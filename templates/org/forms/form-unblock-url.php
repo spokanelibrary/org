@@ -1,18 +1,18 @@
-<div class="row-fluid">
-  <div class="span6">
+<div class="row">
+  <div class="col-sm-6">
     <p>
       In an effort to maintain a safe and comfortable environment as well as compliance with the <a href="http://www.fcc.gov/guides/childrens-internet-protection-act">Children's Internet Protection Act of 2000</a>, Spokane Public Library automatically filters pornography and other objectionable content in accordance with our <a href="http://www.spokanelibrary.org/internet-policy">Internet Use Policy</a>.
     </p>
-  </div><!-- /.span6 -->
-  <div class="span6">
+  </div><!-- /.col -->
+  <div class="col-sm-6">
     <p>
       However, sometimes our software makes the wrong call. 
       You may use the form on this page to request that a specific website be unblocked. 
       These requests are anonymous. 
       You may provide an email address if you wish to be informed about the status of your request.
     </p>
-  </div><!-- /.span6 -->
-</div><!-- /.row-fluid -->
+  </div><!-- /.col -->
+</div><!-- /.row -->
 
 <!--
 <p>
