@@ -59,15 +59,11 @@ function spl_log_unblock_request($request) {
   }
   $api['params'] = $params;
 
-  require_once('/var/web/hosts/---/apps/api/init.php');
-  $api['key'] = $init['api']['key'];
-  unset ($init);
+  $api['key'] = get_env('SPL_KEY');
 
   //print_r($api);
   
-  
-  $crass = new Crass_Response;
-  $result = $crass->jsonCurl($api['endpoint']
+  $result = Crass_Response::jsonCurl($api['endpoint']
                                       , array('apikey'=>$api['key'], 
                                               'params'=>$api['params'])
                                       );
