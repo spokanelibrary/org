@@ -40,7 +40,7 @@ var org = {
 		//ORG.splLoadITAcademyLinks();
     var netSrc = $('#spl-network-source').data('source');
     //netSrc = 'external';
-    netSrc = 'es';
+    //netSrc = 'es';
 
     var location;
     if ( 'external' == netSrc && this.user  ) {
@@ -52,7 +52,8 @@ var org = {
     if ( 'external' != location ) {
     
       $.ajax( { 
-          url: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
+          url: _self.config.api.msit
+          //url: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
           ,crossDomain: true
           ,data: { params: {
                             location: location
