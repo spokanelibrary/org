@@ -78,6 +78,9 @@ if ( array_key_exists('number', $borrower) ) :
                   <i class="glyphicon glyphicon-remove-circle"></i> 
                   Please do not send me any more email receipts &rarr;
                 </button>
+                <span class="help-block">
+                  Press this red button to stop receiving receipts
+                </span>
               </div>
             </div>
 
@@ -87,6 +90,9 @@ if ( array_key_exists('number', $borrower) ) :
                   <i class="glyphicon glyphicon-ok-sign"></i> 
                   Nevermind, I'd like to continue receiving receipts &rarr;
                 </button>
+                <span class="help-block">
+                  Press this green button to continue receiving receipts
+                </span>
               </div>
             </div>
 
