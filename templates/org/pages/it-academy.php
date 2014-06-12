@@ -69,3 +69,40 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
   <b>IT Academy:</b>
   digital curriculum &amp; training on fundamental technology skills
 </p>
+
+<div class="row">
+  <div class="col-sm-6">
+    <blockquote>
+      <p>
+        <em>Microsoft IT Academy</em> provides libraries and their patrons access to online courseware for technology training at <strong class="text-success">no cost</strong>.
+      </p>
+      <p>
+      Courses cover a variety of Microsoft products and skill levels &ndash; ranging from beginner users to advanced technical courses that qualify for Microsoft Certification testing.
+      </p>
+    </blockquote>
+    <p class="lead">
+      How do I access IT Academy?
+    </p>
+    <p>
+      Register for IT Academy using the <strong class="text-success">New Users</strong> link at the top of this page.
+      Follow the instructions provided at IT Academy to select courses that interest you.
+    </p>
+    <p>
+      <a href="http://www.spokanelibrary.org/pdf/Patron-Steps-ITA-Online-Learning-via-Enrollment-Link.pdf"
+        class="btn btn-warning"><strong>More detailed instructions</strong> (.pdf)
+        <i class="icon-white icon-arrow-right"></i>
+      </a>
+    </p>
+    <p>
+      The IT Academy Help page also provides instructions for registering and accessing your courses, as well as answers to many frequently asked questions.
+    </p>
+    <p>
+      <a href="http://itacademy.microsoft.com/home/help"
+        class="btn btn-warning"><strong>Read the IT Academy Help page</strong>
+        <i class="icon-white icon-arrow-right"></i>
+      </a>
+    </p>
+  </div><!-- ./col -->
+  <div class="col-sm-6">
+  </div><!-- ./col -->
+</div><!-- ./row -->
