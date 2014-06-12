@@ -176,22 +176,15 @@
 
                 <div class="checkbox">
                   <label>
-                   <input type="checkbox">
-                    Check to confirm you have read, understand, and agree to the <a href="#">SPL Internet Use Policy</a>
+                   <input type="checkbox"
+                          id="spl-form-inet-confirm" 
+                          name="spl-form[inet-confirm]">
+                    Check to confirm you have read, understand, and agree to our <a href="http://www.spokanelibrary.org/internet-policy">Internet Use Policy</a>.
                   </label>
                 </div>
-
-
-                <input type="checkbox"
-                    id="spl-form-inet-confirm" 
-                    name="spl-form[inet-confirm]" 
-                    class="form-control required">
                 <span class="help-block">
-                  I have read, understand, and agree to the <a href="#">SPL Internet Use Policy</a>.
+                  <b>Note:</b> You must accept this policy in order to submit an unblock request. 
                 </span>
-                <p class="muted">
-                  <strong>Note:</strong> You must accept this policy in order to submit an unblock request. 
-                </p>
               </div>
             </div>  
           </div><!-- /.col -->
