@@ -30,7 +30,6 @@ var org = {
 }
 
 , initITAcademy: function() {
-		//ORG.splLoadITAcademyLinks();
     var netSrc = $('#spl-network-source').data('source');
     //netSrc = 'external';
     //netSrc = 'es';
@@ -43,10 +42,8 @@ var org = {
     }
 
     if ( 'external' != location ) {
-      console.log(_self.config.api.msit);
       $.ajax( { 
           url: _self.config.api.msit
-          //url: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
           ,crossDomain: true
           ,data: { params: {
                             location: location
@@ -61,7 +58,6 @@ var org = {
         })
         .always(function() {  
         });
-
     } else {
       this.parseITAcademyLinks('login');
     }
@@ -70,19 +66,16 @@ var org = {
   } // initITAcademy()
 
 , parseITAcademyLinks: function(mode, codes) {
-    
     var msit = { codes:codes };
     msit.login = false;
+
     if ( 'login' == mode ) {
       msit.login = true;
     }
-    
-    console.log(msit);
 
     $tmpl = $('#spl-it-academy-links');
     tmpl = Handlebars.compile( $('#spl-it-academy-link-tmpl').html() );
     $tmpl.html( tmpl({msit:msit}) );
-
   }
 
 };
