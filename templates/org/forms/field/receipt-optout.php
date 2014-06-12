@@ -47,12 +47,26 @@ if ( array_key_exists('number', $borrower) ) :
         </legend>
 
         <div class="row">
-          <div class="col-sm-6"> 
+          <div class="col-md-8"> 
             
             <div class="form-group">
               <label for="spl-form-name" class="col-sm-4 control-label">Your Name</label>
               <div class="col-sm-8">
                 <input type="text" id="spl-form-name" name="spl-form[name]" class="form-control" value="<?php echo $borrower->name; ?>" disabled >
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="spl-form-barcode" class="col-sm-4 control-label">Your Library Card</label>
+              <div class="col-sm-8">
+                <input type="text" id="spl-form-barcode" name="spl-form[barcode]" class="form-control" value="<?php echo $borrower->barcode; ?>" disabled >
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="spl-form-email" class="col-sm-4 control-label">Your Email Address</label>
+              <div class="col-sm-8">
+                <input type="text" id="spl-form-email" name="spl-form[email]" class="form-control" value="<?php echo $borrower->email; ?>" disabled >
               </div>
             </div>
 
