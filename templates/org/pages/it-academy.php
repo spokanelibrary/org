@@ -183,7 +183,79 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 
 <div class="row">
   <div class="col-sm-6">
+    <p class="lead">
+      What courses are available?
+    </p>
+    <p>
+      <strong>Course topics include:</strong>
+    </p>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <ul class="nav">
+          <li class="nav-header">Server</li>
+          <li>Windows Server</li>
+          <li>Exchange Server</li>
+          <li>Lync Server</li>
+          <li>Sharepoint</li>
+          <li>Virtualization</li>
+          <li>System Center</li>
+        </ul>
+      </div><!-- /.col -->
+      <div class="col-sm-4">
+        <ul class="nav">
+          <li class="nav-header">Desktop</li>
+          <li>Windows</li>
+          <li>Microsoft Dynamics</li>
+        </ul>
+      </div><!-- /.col -->
+      <div class="col-sm-4">
+        <ul class="nav">
+          <li class="nav-header">Office</li>
+          <li>Office</li>
+          <li>Office 365</li>
+        </ul>
+      </div><!-- /.col -->
+      <div class="col-sm-4">
+        <ul class="nav">
+          <li class="nav-header">Database</li>
+          <li>SQL Server</li>
+        </ul>
+      </div><!-- /.col -->
+      <div class="col-sm-4">
+        <ul class="nav">
+          <li class="nav-header">Developer</li>
+          <li>Visual Studio</li>
+          <li>Windows Azure</li>
+          <li>Windows Phone</li>
+        </ul>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+
   </div><!-- ./col -->
   <div class="col-sm-6">
+    <p class="lead">
+      Certifications &amp; Test Centers
+    </p>
+    <p>
+      IT Academy training courses will prepare you for certification in several areas, including:
+    </p>
+    <ul>
+      <li>MOS Certification</li>
+      <li>MTA (Microsoft Technology Associate)</li>
+      <li>MCP (Microsoft Certified Professional) </li>
+    </ul>
+    <p>
+      Once you have completed your courses, you can apply for Microsoft Certification testing. 
+      You will be responsible for any costs associated with testing.
+      The following locators give test locations for particular courses:
+    </p>
+    <p>
+      <a href="http://www.certiport.com/Locator">Certiport testing locator</a>
+      (for academic outlets) 
+      <br />
+      <a href="http://www.register.prometric.com/Index.asp?tcl=1">Prometric testing locator</a>
+      (for commercial outlets)
+    </p>
   </div><!-- ./col -->
 </div><!-- ./row -->
