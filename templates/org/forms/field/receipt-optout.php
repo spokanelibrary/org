@@ -10,7 +10,23 @@ $borrower = Crass_Response::jsonCurl($endpoint, array( 'apikey'=>getenv('SPL_KEY
 if ( array_key_exists('number', $borrower) ) :
 ?>
 
-OK
+<div class="row">
+  
+  <div class="col-sm-6">    
+    <p>
+      We now email checkout and renewal receipts, as well as <a href="/reminder/">ical reminders</a>, to all Library customers with an email address.
+      
+    </p>
+  </div><!-- /.col -->
+
+  <div class="col-sm-6">    
+    <p>
+      We understand that not everyone needs an emailed receipt.
+      You've come to the right place if you wish to stop receiving these receipts.
+    </p>
+  </div><!-- /.col -->
+  
+</div><!-- /.row-fluid -->
 
 <?php else: ?>
 
