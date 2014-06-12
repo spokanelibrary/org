@@ -65,3 +65,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 
 <img src="/assets/img/logos/mslogo.png" alt="MS Logo"/>
 
+<p class="lead">
+  <b>IT Academy:</b>
+  digital curriculum &amp; training on fundamental technology skills
+</p>
