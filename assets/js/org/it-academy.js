@@ -3,7 +3,7 @@
 var org = {
 	
 	// added on authentication
-, user: {}
+  user: {}
 
 	// called on script load
 ,	init: function() {
