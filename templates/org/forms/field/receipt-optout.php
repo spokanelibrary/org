@@ -8,7 +8,6 @@ $borrower = json_decode(Crass_Response::curlPostProxy($endpoint, array( 'apikey'
 
 <?php
 if ( array_key_exists('number', $borrower) ) :
-print_r($borrower);
 ?>
 
 <div class="row">
@@ -31,7 +30,7 @@ print_r($borrower);
 
 <div class="panel panel-default">
   <div class="panel-body">
-    <form class="form-horizontal spl-form" id="spl-form-optout" method="post" role="form">      
+    <form class="spl-form" id="spl-form-optout" method="post" role="form">      
       <?php include 'common/crass-response.php'; ?>
       <input type="hidden" id="spl-form-id" name="spl-form[id]" value="receipt-optout" />
   
