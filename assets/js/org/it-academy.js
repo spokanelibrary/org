@@ -1,13 +1,6 @@
 // account.js
 
 var org = {
-
-	// added on script load
-	
-	config: {
-						api: { msit: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
-								 }
-					 }
 	
 	// added on authentication
 , user: {}
@@ -50,10 +43,10 @@ var org = {
     }
 
     if ( 'external' != location ) {
-      console.log(_self.config);
+      console.log(_self.config.api.msit);
       $.ajax( { 
           //url: _self.config
-          url: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
+          //url: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
           ,crossDomain: true
           ,data: { params: {
                             location: location

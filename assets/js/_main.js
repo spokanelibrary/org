@@ -8,6 +8,7 @@ var config = {
           //, syndetics: 'http://beta.spokanelibrary.org/checkin/api/syndetics.php'
           , syndetics: 'http://api.spokanelibrary.org/v2/syndetics/lookup'
           , overdrive: 'http://api.spokanelibrary.org/v2/overdrive/lookup'
+          , msit: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
            }
     , path: {
               absolute: {} // ToDo: this should go
