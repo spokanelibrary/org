@@ -167,6 +167,27 @@
           That's it 
         </legend>
 
+        <div class="row">
+          <div class="col-md-7">
+            <div class="form-group">
+              <label for="spl-form-inet-confirm" 
+                      class="col-sm-4 control-label">Internet Use Policy</label>
+              <div class="col-sm-8">
+                <input type="checkbox"
+                    id="spl-form-inet-confirm" 
+                    name="spl-form[inet-confirm]" 
+                    class="form-control required">
+                <span class="help-block">
+                  I have read, understand, and agree to the <a href="#">SPL Internet Use Policy</a>.
+                </span>
+                <p class="muted">
+                  <strong>Note:</strong> You must accept this policy in order to submit an unblock request. 
+                </p>
+              </div>
+            </div>  
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+
       </fieldset>
 
     </form>
