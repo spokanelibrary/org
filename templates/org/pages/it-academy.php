@@ -24,30 +24,25 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 	</div><!-- ./col -->
 	<div class="col-sm-6">
 		<div class="alert alert-success">
-			<p class="lead">
-        <b>Returning Users:</b> IT Academy Registration
-      </p>
-      <div class="it-academy-login">
-        <p class="" data-callback-method="splLoadITAcademyLinks">
-          <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
-            <i class="glyphicon glyphicon-user"></i>
-            <b>Login to My Account &rarr;</b>
-          </button>
-        </p>
-        <span class="help-block">Login to your Library account to get started.</span>
-      </div>
-
       <div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
       <div id="spl-it-academy-links"></div>
-
       <script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
+      <p class="lead">
+      <b>New Users:</b> IT Academy Registration
+      </p>
       {{#with msit}}
         
         {{#if login}}
-          You really need to login.
+          <div class="it-academy-login">
+            <p class="" data-callback-method="splLoadITAcademyLinks">
+              <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
+                <i class="glyphicon glyphicon-user"></i>
+                <b>Login to My Account &rarr;</b>
+              </button>
+            </p>
+            <span class="help-block">Login to your Library account to get started.</span>
+          </div>
         {{else}}
-          You do not need to login!
-
           {{#each codes}}
             <p>
               <a href="https://itacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&key={{code}}"
@@ -62,30 +57,11 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
           <span class="help-block">
             Use this link <strong>only</strong> if you have <em>not yet</em> signed up.
           </span>
-          
+
         {{/if}}
 
       {{/with}}
 
-        <p class="lead">
-        <strong>New Users:</strong> IT Academy Registration
-        </p>
-
-
-        {{#each codes}}
-          <p>
-            <a href="https://itacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&key={{code}}"
-            rel="external"
-            class="btn btn-block btn-success"
-            title="Microsoft IT Academy Login"
-            ><strong>I would like to register for Microsoft IT Academy</strong>
-            <i class="icon-white icon-arrow-right"></i>
-            </a>
-          </p>
-        {{/each}}
-        <span class="help-block">
-          Use this link <strong>only</strong> if you have <em>not yet</em> signed up.
-        </span>
       </script>
 
 		</div><!-- ./alert -->
