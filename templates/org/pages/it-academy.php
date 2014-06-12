@@ -1,10 +1,4 @@
 <?php
-
-
-
-?>
-
-<?php
 $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 ?>
 
@@ -29,6 +23,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 	</div><!-- ./col -->
 	<div class="col-sm-6">
 		<div class="alert alert-success" id="spl-it-academy-links">
+      <b>Please wait</b>: loading registration&hellip;
     </div><!-- ./alert -->
 	</div><!-- ./col -->
 </div><!-- ./row -->
