@@ -11,26 +11,23 @@ if ( array_key_exists('number', $borrower) ) :
 ?>
 
 <div class="row">
-  
   <div class="col-sm-6">    
     <p>
       We now email checkout and renewal receipts, as well as <a href="/ical/">ical reminders</a>, to all Library customers with an email address.
       
     </p>
   </div><!-- /.col -->
-
   <div class="col-sm-6">    
     <p>
       We understand that not everyone needs an emailed receipt.
       You've come to the right place if you wish to stop receiving these receipts.
     </p>
   </div><!-- /.col -->
-  
-</div><!-- /.row-fluid -->
+</div><!-- /.row -->
 
 <div class="panel panel-default">
   <div class="panel-body">
-    <form class="spl-form" id="spl-form-optout" method="post" role="form">      
+    <form class="form-horizontal spl-form" id="spl-form-optout" method="post" role="form">      
       <?php include 'common/crass-response.php'; ?>
       <input type="hidden" id="spl-form-id" name="spl-form[id]" value="receipt-optout" />
   
@@ -49,12 +46,18 @@ if ( array_key_exists('number', $borrower) ) :
           Emailed Receipt Preferences
         </legend>
 
-        <div class="form-group">
-          <label for="spl-form-name" class="control-label">Your Name</label>
-          <input type="text" id="spl-form-name" name="spl-form[name]" class="form-control" value="<?php echo $borrower->name; ?>" disabled >
-        </div>
+        <div class="row">
+          <div class="col-sm-6"> 
+            
+            <div class="form-group">
+              <label for="spl-form-name" class="col-sm-4 control-label">Your Name</label>
+              <div class="col-sm-8">
+                <input type="text" id="spl-form-name" name="spl-form[name]" class="form-control" value="<?php echo $borrower->name; ?>" disabled >
+              </div>
+            </div>
 
-
+          </div><!-- /.col -->
+        </div><!-- /.row -->
       </fieldset>
     </form>
   </div><!-- /.panel-body -->
