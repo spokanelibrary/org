@@ -14,7 +14,7 @@ if ( array_key_exists('number', $borrower) ) :
   
   <div class="col-sm-6">    
     <p>
-      We now email checkout and renewal receipts, as well as <a href="/reminder/">ical reminders</a>, to all Library customers with an email address.
+      We now email checkout and renewal receipts, as well as <a href="/ical/">ical reminders</a>, to all Library customers with an email address.
       
     </p>
   </div><!-- /.col -->
@@ -27,6 +27,33 @@ if ( array_key_exists('number', $borrower) ) :
   </div><!-- /.col -->
   
 </div><!-- /.row-fluid -->
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    <form class="form-horizontal spl-form" id="spl-form-optout" method="post" role="form">      
+      <?php include 'common/crass-response.php'; ?>
+      <input type="hidden" id="spl-form-id" name="spl-form[id]" value="receipt-optout" />
+  
+      <input type="hidden" id="spl-form[borrower]" name="spl-form[batch]" value="<?php echo $_REQUEST['b']; ?>" />
+      <input type="hidden" id="spl-form[borrower]" name="spl-form[hash]" value="<?php echo $_REQUEST['h']; ?>" />
+
+      <input type="hidden" 
+            id="spl-form-ip" 
+            name="spl-form[ip]" 
+            value="<?php echo $_SERVER['REMOTE_ADDR']; ?>"
+            />
+
+      <fieldset>
+        <legend class="text-muted">
+          <small class="glyphicon glyphicon-envelope"></small>
+          Emailed Receipt Preferences
+        </legend>
+
+
+      </fieldset>
+    </form>
+  </div><<!-- /.panel-body -->
+</div><<!-- /.panel -->
 
 <?php else: ?>
 
