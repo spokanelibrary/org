@@ -2,6 +2,7 @@
 <div class="panel panel-danger">
   <div class="panel-heading">
     <h4>
+      <i class="glyphicon glyphicon-exclamation-sign"></i>
       Hi There. The website you are trying to access has been blocked.
     </h4>
   </div>
