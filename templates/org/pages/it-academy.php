@@ -34,7 +34,6 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 </p>
 {{#with msit}}
   {{#if login}}
-    <div class="it-academy-login">
       <p>
       <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
         <i class="glyphicon glyphicon-user"></i>
@@ -42,7 +41,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
       </button>
       </p>
       <span class="help-block">Login to your Library account to get started.</span>
-    </div>
+
   {{else}}
     {{#each codes}}
       <p>
