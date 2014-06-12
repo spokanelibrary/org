@@ -120,12 +120,12 @@
                     value=""
                     placeholder=""></textarea>
               </div>
-              <p>
+            </div>  
+            <div class="form-group">
               <span class="help-block">
                 <strong class="text-success">Optional:</strong> 
                 Let us know why you feel this website should be made available at the Library. 
               </span>
-              </p>
             </div>
           </div><!-- /.col -->
         </div><!-- /.row -->
