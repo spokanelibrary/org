@@ -70,7 +70,6 @@
 
         <div class="row">
           <div class="col-md-8"> 
-            
             <div class="form-group">
               <label for="spl-form-unblock-host" 
                       class="col-sm-4 control-label">Website to Unblock</label>
@@ -86,7 +85,8 @@
                     placeholder="" />
               </div>
             </div>
-
+          </div><!-- /.col -->
+          <div class="col-md-4"> 
             <?php if ( !empty($spl['unblock']['category']) ) : ?>
             <div class="form-group">
               <label for="spl-form-unblock-category" 
@@ -104,7 +104,6 @@
               </div>
             </div>
             <?php endif; ?>
-
           </div><!-- /.col -->
         </div><!-- /.row -->
 
