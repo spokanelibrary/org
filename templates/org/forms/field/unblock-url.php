@@ -177,6 +177,7 @@
                 <div class="checkbox">
                   <label>
                    <input type="checkbox"
+                          class="required"
                           id="spl-form-inet-confirm" 
                           name="spl-form[inet-confirm]">
                     Check to confirm you have read, understand, and agree to our <a href="http://www.spokanelibrary.org/internet-policy">Internet Use Policy</a>.
