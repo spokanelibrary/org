@@ -59,7 +59,7 @@ function spl_log_unblock_request($request) {
   }
   $api['params'] = $params;
 
-  $api['key'] = get_env('SPL_KEY');
+  $api['key'] = getenv('SPL_KEY');
 
   //print_r($api);
   
