@@ -109,6 +109,7 @@
 
         <div class="row">
           <div class="col-md-8">
+            
             <div class="form-group">
               <label for="spl-form-unblock-note" 
                       class="col-sm-4 control-label">Reason to Unblock</label>
@@ -119,14 +120,12 @@
                     class="form-control"
                     value=""
                     placeholder=""></textarea>
+                <span class="help-block">
+                  <strong class="text-success">Optional:</strong> 
+                  Let us know why you feel this website should be made available at the Library. 
+                </span>
               </div>
             </div>  
-            <div class="form-group">
-              <span class="help-block">
-                <strong class="text-success">Optional:</strong> 
-                Let us know why you feel this website should be made available at the Library. 
-              </span>
-            </div>
           </div><!-- /.col -->
         </div><!-- /.row -->
 
