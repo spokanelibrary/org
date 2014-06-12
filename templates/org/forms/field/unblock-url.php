@@ -173,6 +173,14 @@
               <label for="spl-form-inet-confirm" 
                       class="col-sm-4 control-label">Internet Use Policy</label>
               <div class="col-sm-8">
+
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Check me out
+                  </label>
+                </div>
+
+                
                 <input type="checkbox"
                     id="spl-form-inet-confirm" 
                     name="spl-form[inet-confirm]" 
