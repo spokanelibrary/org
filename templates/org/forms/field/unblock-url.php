@@ -6,8 +6,7 @@
       Hi There. The website you are trying to access has been blocked.
     </h4>
   </div>
-
-  <div class="row-fluid">
+  <div class="panel-body">
       <p class="lead help-block">
           Please fill out the form below to request a review of this website.
       </p>
@@ -35,6 +34,6 @@
               >Hide <i class="icon-chevron-up"></i></a>
         </blockquote>
       </div>
-  </div><!-- /.row-fluid -->
-</div><!-- /.alert -->
+  </div><!-- /.panel-body -->
+</div><!-- /.panel -->
 <?php endif; ?>
