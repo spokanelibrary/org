@@ -68,6 +68,27 @@
           Tell us about your request
         </legend>
 
+        <div class="row">
+          <div class="col-md-8"> 
+            
+            <div class="form-group">
+              <label for="spl-form-unblock-host" 
+                      class="col-sm-4 control-label">Website to Unblock</label>
+              <div class="col-sm-8">
+                <input type="text" 
+                    id="spl-form-unblock-host" 
+                    name="spl-form[unblock][host]" 
+                    class="input-xlarge"
+                    value="<?php echo $spl['unblock']['url']['host']; ?>"
+                    <?php if ( !empty($spl['unblock']['url']['host']) ) : ?> 
+                    readonly
+                    <?php endif; ?>
+                    placeholder="" />
+              </div>
+            </div>
+
+            
+
 
       </fieldset>
     </form>
