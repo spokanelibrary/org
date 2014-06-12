@@ -185,6 +185,13 @@
                 <span class="help-block">
                   <b>Note:</b> You must accept this policy in order to submit an unblock request. 
                 </span>
+
+                <p>
+                  <button type="submit" class="btn btn-success btn-block">
+                    Send this request now &rarr;
+                  </button>
+                </p>
+
               </div>
             </div>  
           </div><!-- /.col -->
