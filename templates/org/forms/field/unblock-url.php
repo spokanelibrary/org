@@ -176,8 +176,8 @@
 
                 <div class="checkbox">
                   <label>
+                   <input type="checkbox">
                     Check to confirm you have read, understand, and agree to the <a href="#">SPL Internet Use Policy</a>
-                    <input type="checkbox"> Check me out
                   </label>
                 </div>
 
