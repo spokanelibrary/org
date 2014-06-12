@@ -125,6 +125,12 @@
                   Let us know why you feel this website should be made available at the Library. 
                 </span>
               </div>
+              <div class="col-sm-8 col-md-offset-4">
+                <span class="help-block">
+                  <b class="text-success">Optional:</b> 
+                  Let us know why you feel this website should be made available at the Library. 
+                </span>
+              </div>
             </div>  
           </div><!-- /.col -->
         </div><!-- /.row -->
