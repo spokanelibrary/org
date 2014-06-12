@@ -78,7 +78,7 @@
                 <input type="text" 
                     id="spl-form-unblock-host" 
                     name="spl-form[unblock][host]" 
-                    class="input-xlarge"
+                    class="form-control"
                     value="<?php echo $spl['unblock']['url']['host']; ?>"
                     <?php if ( !empty($spl['unblock']['url']['host']) ) : ?> 
                     readonly
@@ -87,8 +87,8 @@
               </div>
             </div>
 
-            
-
+          </div><!-- /.col -->
+        </div><!-- /.row -->
 
       </fieldset>
     </form>
