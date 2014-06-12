@@ -7,13 +7,13 @@
     </h4>
   </div>
   <div class="panel-body">
-      <p class="lead help-block">
+      <p class="lead">
           Please fill out the form below to request a review of this website.
       </p>
-      <p class="help-block">
+      <p>
           We will be happy to unblock it if we find that the content is not in violation of our <a href="#spl-internet-policy" data-toggle="modal">Internet Use Policy</a>.
       </p>
-      <p class="help-block">
+      <p>
         All unblock requests are processed within <strong class="serif">72</strong> hours. 
         <a href="#"
             class="prevent-default"
