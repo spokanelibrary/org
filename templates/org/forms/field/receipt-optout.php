@@ -70,6 +70,15 @@ if ( array_key_exists('number', $borrower) ) :
               </div>
             </div>
 
+            <div class="form-group">
+              <div class="col-sm-8 col-offset-4">
+                <button type="submit" name="spl-form[receipt-optout]" value="true" class="btn btn-block btn-danger spl-submit">
+                  <i class="glyphicon glyphicon-remove-circle"></i> 
+                  Please do not send me any more email receipts
+                </button>
+              </div>
+            </div>
+
           </div><!-- /.col -->
         </div><!-- /.row -->
       </fieldset>
@@ -79,18 +88,14 @@ if ( array_key_exists('number', $borrower) ) :
 
 <?php else: ?>
 
-<div class="alert alert-error">
-
+<div class="alert alert-warning">
   <h4>Oops!</h4>
-
   <p>
    We apologize for the inconvenience, but we are unable find you in our system.
   </p>
-
   <p>
     If you landed here by clicking a link in a receipt email please call us at 509.444.5333 or <a href="/contact/">send us an email</a>.
   </p>
-
 </div>
 
 <?php endif; ?>
