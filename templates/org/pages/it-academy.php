@@ -34,12 +34,10 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         
         {{#if login}}
           <div class="it-academy-login">
-            <p class="" data-callback-method="splLoadITAcademyLinks">
-              <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
-                <i class="glyphicon glyphicon-user"></i>
-                <b>Login to My Account &rarr;</b>
-              </button>
-            </p>
+            <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
+              <i class="glyphicon glyphicon-user"></i>
+              <b>Login to My Account &rarr;</b>
+            </button>
             <span class="help-block">Login to your Library account to get started.</span>
           </div>
         {{else}}
