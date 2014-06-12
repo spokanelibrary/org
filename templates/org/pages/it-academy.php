@@ -24,7 +24,6 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 	</div><!-- ./col -->
 	<div class="col-sm-6">
 		<div class="alert alert-success">
-      <div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
       <div id="spl-it-academy-links"></div>
       <script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
       <p class="lead">
@@ -61,7 +60,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
       {{/with}}
 
       </script>
-
+      <div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
 		</div><!-- ./alert -->
 	</div><!-- ./col -->
 </div><!-- ./row -->
