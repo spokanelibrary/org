@@ -29,38 +29,35 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 
 <div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
 <script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
-<p class="lead">
-  <b>New Users:</b> IT Academy Registration
-</p>
-{{#with msit}}
-  {{#if login}}
-      <p>
-      <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
-        <i class="glyphicon glyphicon-user"></i>
-        <b>Login to My Account &rarr;</b>
-      </button>
-      </p>
-      <span class="help-block">Login to your Library account to get started.</span>
+  <p class="lead">
+    <b>New Users:</b> IT Academy Registration
+  </p>
+  {{#with msit}}
+    {{#if login}}
+        <p>
+        <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
+          <i class="glyphicon glyphicon-user"></i>
+          <b>Login to My Account &rarr;</b>
+        </button>
+        </p>
+        <span class="help-block">Login to your Library account to get started.</span>
 
-  {{else}}
-    {{#each codes}}
-      <p>
-        <a href="https://itacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&key={{code}}"
-        rel="external"
-        class="btn btn-block btn-success"
-        title="Microsoft IT Academy Login"
-        ><b>I would like to register for Microsoft IT Academy &rarr;</b>
-        </a>
-      </p>
-    {{/each}}
-    <span class="help-block">
-      Use this link <strong>only</strong> if you have <em>not yet</em> signed up.
-    </span>
-
-  {{/if}}
-
-{{/with}}
-
+    {{else}}
+      {{#each codes}}
+        <p>
+          <a href="https://itacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&key={{code}}"
+          rel="external"
+          class="btn btn-block btn-success"
+          title="Microsoft IT Academy Login"
+          ><b>I would like to register for Microsoft IT Academy &rarr;</b>
+          </a>
+        </p>
+      {{/each}}
+      <span class="help-block">
+        Use this link <strong>only</strong> if you have <em>not yet</em> signed up.
+      </span>
+    {{/if}}
+  {{/with}}
 </script>
 
 <?php

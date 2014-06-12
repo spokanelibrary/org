@@ -39,6 +39,7 @@ var org = {
 , initITAcademy: function() {
 		//ORG.splLoadITAcademyLinks();
     var netSrc = $('#spl-network-source').data('source');
+    netSrc = 'external';
 
     var location;
     if ( 'external' == netSrc && this.user  ) {
@@ -46,8 +47,6 @@ var org = {
     } else {
       location = netSrc;
     }
-
-    location = 'external';
 
     if ( 'external' != location ) {
     
