@@ -7,7 +7,6 @@ $borrower = Crass_Response::jsonCurl($endpoint, array( 'apikey'=>getenv('SPL_KEY
                                                                                         ,'hash'=>$_REQUEST['h'])
                                                                       ));
 
-/*
 print_r($borrower);
-*/
+
 ?>
