@@ -1,8 +1,8 @@
 <?php if ( !empty($spl['unblock']['url']['host']) ) : ?> 
 <div class="alert alert-danger">
-  <button type="button" class="close" data-dismiss="alert">×</button>
-  <i class="icon-exclamation-sign"></i>
-  <strong>Hi There. The website you are trying to access has been blocked.</strong>
+  <h4>
+    Hi There. The website you are trying to access has been blocked.
+  </h4>
 
   <div class="row-fluid">
       <p class="lead help-block">
