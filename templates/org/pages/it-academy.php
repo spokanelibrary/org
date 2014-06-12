@@ -14,8 +14,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
           class="btn btn-block btn-info"
           title="For returning users"
           ><b>I have already signed up for Microsoft IT Academy</b>
-          &rarr;
-        </a>
+          &rarr;</a>
       </p>
       <span class="help-block">
         Use this link <b>only</b> if you have <em>already</em> signed up.
