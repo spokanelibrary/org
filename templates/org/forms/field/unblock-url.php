@@ -87,6 +87,24 @@
               </div>
             </div>
 
+            <?php if ( !empty($spl['unblock']['category']) ) : ?>
+            <div class="form-group">
+              <label for="spl-form-unblock-category" 
+                    class="col-sm-4 control-label">Reason Blocked</label>
+              <div class="col-sm-8">
+                <span class="lead">
+                  <?php echo $spl['unblock']['category']; ?> 
+                </span>
+                <input type="hidden" 
+                        id="spl-form-unblock-category" 
+                        name="spl-form[unblock][category]" 
+                        class="form-control" 
+                        value="<?php echo $spl['unblock']['category']; ?>"
+                        placeholder="" />
+              </div>
+            </div>
+            <?php endif; ?>
+
           </div><!-- /.col -->
         </div><!-- /.row -->
 
