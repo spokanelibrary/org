@@ -104,5 +104,47 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
     </p>
   </div><!-- ./col -->
   <div class="col-sm-6">
+    <p class="lead">
+      What will I need to get started?
+    </p>
+
+    <ul>  
+      <li>
+        <strong>A <em>valid</em> <a href="http://www.spokanelibrary.org/librarycards">Spokane Public Library card number</a> and PIN</strong>
+      </li>  
+      <li>
+        <strong>A personal email account</strong>
+        <br />
+        <a href="https://signup.live.com">Create a new Microsoft email account</a> or you can use an address you already have as your Microsoft username. 
+        You will need an email address to create a Microsoft Windows Live ID.
+      </li>  
+      <li>
+        <strong>A Windows Live ID</strong>
+        <br />
+        <a href="http://windows.microsoft.com/en-us/windows-live/sign-up-create-account-how">Obtain a Windows Live ID.</a>
+      </li> 
+      <li>
+        <strong>Headphones or earphones</strong> (in the Library)
+        <br />
+        Please be courteous when accessing courses with sound from inside the Library.
+      </li>
+    </ul>
+
+    <div class="well well-small">
+      <span class="help-block">
+        <strong class="text-error">Did you know:</strong>
+        <a href="http://www.microsoft.com/about/corporatecitizenship/citizenship/giving/programs/up/digitalliteracy/default.mspx"><strong>Microsoft's Digital Literacy program</strong></a> 
+        has easy multimedia courses on computer basics, the Internet, and online safety &ndash; no sign-in required.
+        If you are new to using computers you may wish to start here and return to IT Academy later.
+      </span>
+    </div>
+
+    <p class="lead">
+      What if I don't have a library card?
+    </p>
+
+    <p>
+      If you are a Washington state resident, but do not have a valid library card, you can still <a href="http://www.sos.wa.gov/library/libraries/projects/ita/info.aspx">sign up through the State Library</a>.
+    </p>
   </div><!-- ./col -->
 </div><!-- ./row -->
