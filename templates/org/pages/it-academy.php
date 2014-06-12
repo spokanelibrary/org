@@ -63,5 +63,5 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 
 <!-- END REGISTRATION -->
 
-<img src="/assets/img/logo/mslogo.png" alt="MS Logo"/>
+<img src="/assets/img/logos/mslogo.png" alt="MS Logo"/>
 
