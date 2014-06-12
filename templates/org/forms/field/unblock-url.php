@@ -63,6 +63,7 @@
               />
 
       <fieldset>
+
         <legend class="text-muted">
           <small class="glyphicon glyphicon-info-sign"></small>
           Tell us about your request
@@ -109,19 +110,18 @@
 
         <div class="row">
           <div class="col-md-7">
-            
             <div class="form-group">
               <label for="spl-form-unblock-note" 
                       class="col-sm-4 control-label">Reason to Unblock</label>
               <div class="col-sm-8">
-                <textarea rows="3"
+                <textarea rows="4"
                     id="spl-form-unblock-note" 
                     name="spl-form[unblock][note]" 
                     class="form-control"
                     value=""
                     placeholder=""></textarea>
                 <span class="help-block">
-                  <strong class="text-success">Optional:</strong> 
+                  <b class="text-success">Optional:</b> 
                   Let us know why you feel this website should be made available at the Library. 
                 </span>
               </div>
@@ -130,6 +130,36 @@
         </div><!-- /.row -->
 
       </fieldset>
+
+      <fieldset>
+        
+        <legend class="text-muted">
+          <small class="glyphicon glyphicon-envelope"></small>
+          Tell us how to reach you 
+        </legend>
+
+        <div class="row">
+          <div class="col-md-7"> 
+            <div class="form-group">
+              <label for="spl-form-unblock-email" 
+                      class="col-sm-4 control-label">Your Email Address</label>
+              <div class="col-sm-8">
+                <input type="text" 
+                    id="spl-form-unblock-email" 
+                    name="spl-form[unblock][email]" 
+                    class="form-control"
+                    value=""
+                    placeholder="" />
+                <span class="help-block">
+                <b class="text-success">Optional:</b> 
+                  Provide an email address if you would like to be notified about the status of your request. 
+                </span>
+              </div>
+            </div>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </fieldset>
+
     </form>
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
