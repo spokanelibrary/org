@@ -1,5 +1,5 @@
 <?php if ( !empty($spl['unblock']['url']['host']) ) : ?> 
-<div class="alert alert-error">
+<div class="alert alert-danger">
   <button type="button" class="close" data-dismiss="alert">×</button>
   <i class="icon-exclamation-sign"></i>
   <strong>Hi There. The website you are trying to access has been blocked.</strong>
