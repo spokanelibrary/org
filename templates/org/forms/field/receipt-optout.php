@@ -8,6 +8,7 @@ $borrower = json_decode(Crass_Response::curlPostProxy($endpoint, array( 'apikey'
 
 <?php
 if ( array_key_exists('number', $borrower) ) :
+print_r($borrower);
 ?>
 
 <div class="row">
