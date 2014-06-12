@@ -52,7 +52,7 @@ var org = {
     if ( 'external' != location ) {
       console.log(_self.config.api.msit);
       $.ajax( { 
-          url: _self.config.api.msit
+          url: _self.config
           //url: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
           ,crossDomain: true
           ,data: { params: {
