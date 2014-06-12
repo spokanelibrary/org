@@ -16,7 +16,6 @@
       <p>
         All unblock requests are processed within <strong class="serif">72</strong> hours. 
         <a href="#"
-            class="prevent-default"
             data-toggle="collapse" 
             data-target="#unblock-explain" 
             >What if I need this website unblocked <em>right now?</em> <i class="icon-chevron-down"></i></a>
@@ -28,10 +27,9 @@
           Next, walk over to the nearest <em>Reference &amp; Information</em> desk and ask that the reference librarian on staff make an interim evaluation of your request.
           We'll be glad to help.
           <a href="#" 
-              class="prevent-default" 
               data-toggle="collapse" 
               data-target="#unblock-explain"
-              >Hide <i class="icon-chevron-up"></i></a>
+              >Hide <i class="glyphicon glyphicon-chevron-up"></i></a>
         </blockquote>
       </div>
   </div><!-- /.panel-body -->
