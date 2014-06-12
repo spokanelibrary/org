@@ -8,6 +8,7 @@ $borrower = Crass_Response::jsonCurl($endpoint, array( 'apikey'=>getenv('SPL_KEY
 
 <?php
 if ( array_key_exists('number', $borrower) ) :
+print_r($borrower);
 ?>
 
 <div class="row">
