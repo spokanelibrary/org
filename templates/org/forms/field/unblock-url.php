@@ -1,6 +1,6 @@
 <?php if ( !empty($spl['unblock']['url']['host']) ) : ?> 
 <div class="panel panel-danger">
-  <div class="panel-header">
+  <div class="panel-heading">
     <h4>
       Hi There. The website you are trying to access has been blocked.
     </h4>
