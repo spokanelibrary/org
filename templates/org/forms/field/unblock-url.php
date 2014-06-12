@@ -69,7 +69,7 @@
         </legend>
 
         <div class="row">
-          <div class="col-md-6"> 
+          <div class="col-md-8"> 
             <div class="form-group">
               <label for="spl-form-unblock-host" 
                       class="col-sm-4 control-label">Website to Unblock</label>
@@ -86,7 +86,7 @@
               </div>
             </div>
           </div><!-- /.col -->
-          <div class="col-md-6"> 
+          <div class="col-md-4"> 
             <?php if ( !empty($spl['unblock']['category']) ) : ?>
             <div class="form-group">
               <label for="spl-form-unblock-category" 
@@ -104,6 +104,27 @@
               </div>
             </div>
             <?php endif; ?>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+
+        <div class="row">
+          <div class="col-md-8">
+            <div class="form-group">
+              <label for="spl-form-unblock-note" 
+                      class="col-sm-4 control-label">Reason to Unblock</label>
+              <div class="col-sm-8">
+                <input type="text" 
+                    id="spl-form-unblock-note" 
+                    name="spl-form[unblock][note]" 
+                    class="form-control"
+                    value=""
+                    placeholder="" />
+              </div>
+              <span class="help-block">
+                <strong class="text-success">Optional:</strong> 
+                Let us know why you feel this website should be made available at the Library. 
+              </span>
+            </div>
           </div><!-- /.col -->
         </div><!-- /.row -->
 
