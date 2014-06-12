@@ -148,3 +148,42 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
     </p>
   </div><!-- ./col -->
 </div><!-- ./row -->
+
+<p class="lead">
+  What are the system requirements to access these courses?
+</p>
+
+<div class="row">
+  <div class="col-sm-6">
+    <strong>If you are using a Library computer</strong>
+    <p>
+      Our computer management reservation system will only allow 60-minute sessions. 
+      Your Windows Live ID is tied to the courses you select; if you need to continue beyond time allowed, the course will remember the point at which you finished, and you can resume at the same point when you log in again.
+    </p>
+    <p>
+      <a href="http://www.spokanelibrary.org/index.php?page=internetreservations">Reserve a library computer in advance</a>
+    </p>
+  </div><!-- ./col -->
+  <div class="col-sm-6">
+    <strong>If you are taking the courses at home</strong>
+    <p>
+      Please make sure your computer complies with Microsoft’s requirements for these courses. 
+      Each course has its own set of system requirements you can view to ensure your system meets the minimum requirements to play the course.
+      <!--      
+      <br />
+      <a href="http://itacademy.microsoftelearning.com/help/systemRequirements.aspx">See the requirements</a>
+      -->
+    </p>
+    <ul>
+      <li>Once you have located a course of interest, click the course title.</li>
+      <li>On the resulting course detail page, click System requirements.</li>
+    </ul>
+  </div><!-- ./col -->
+</div><!-- ./row -->
+
+<div class="row">
+  <div class="col-sm-6">
+  </div><!-- ./col -->
+  <div class="col-sm-6">
+  </div><!-- ./col -->
+</div><!-- ./row -->
