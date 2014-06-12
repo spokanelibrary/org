@@ -50,11 +50,8 @@ if ( array_key_exists('number', $borrower) ) :
         </legend>
 
         <div class="form-group">
-          <label for="spl-form-name" class="col-sm-4 control-label">Your Name</label>
-
-          <div class="col-sm-8">
-            <input type="text" id="spl-form-name" name="spl-form[name]" class="form-control" value="<?php echo $borrower->name; ?>" disabled >
-          </div>
+          <label for="spl-form-name" class="control-label">Your Name</label>
+          <input type="text" id="spl-form-name" name="spl-form[name]" class="form-control" value="<?php echo $borrower->name; ?>" disabled >
         </div>
 
 
