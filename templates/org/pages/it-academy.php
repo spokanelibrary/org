@@ -47,8 +47,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
               rel="external"
               class="btn btn-block btn-success"
               title="Microsoft IT Academy Login"
-              ><strong>I would like to register for Microsoft IT Academy</strong>
-              <i class="icon-white icon-arrow-right"></i>
+              ><b>I would like to register for Microsoft IT Academy &rarr;</b>
               </a>
             </p>
           {{/each}}
