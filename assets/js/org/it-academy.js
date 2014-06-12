@@ -47,7 +47,7 @@ var org = {
       location = netSrc;
     }
 
-    //location = 'external';
+    location = 'external';
 
     if ( 'external' != location ) {
     

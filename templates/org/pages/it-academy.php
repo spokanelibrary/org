@@ -25,7 +25,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 	<div class="col-sm-6">
 		<div class="alert alert-success">
       <p class="lead">
-      <b>New Users:</b> IT Academy Registration
+        <b>New Users:</b> IT Academy Registration
       </p>
       <div id="spl-it-academy-links"></div>
       <script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
