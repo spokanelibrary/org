@@ -27,6 +27,13 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
       <p class="lead">
         <b>New Users:</b> IT Academy Registration
       </p>
+      <p>
+      <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
+        <i class="glyphicon glyphicon-user"></i>
+        <b>Login to My Account &rarr;</b>
+      </button>
+      </p>
+      <span class="help-block">Login to your Library account to get started.</span>
       <div id="spl-it-academy-links"></div>
       <script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
       {{#with msit}}
