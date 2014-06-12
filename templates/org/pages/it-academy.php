@@ -203,8 +203,8 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         </ul>
       </div><!-- /.col -->
       <div class="col-sm-4">
-        <ul class="nav">
-          <li class="nav-header">Desktop</li>
+        <ul class="list-unstyled">
+          <li><b>Desktop</b></li>
           <li>Windows</li>
           <li>Microsoft Dynamics</li>
         </ul>
