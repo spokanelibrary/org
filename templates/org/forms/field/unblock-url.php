@@ -43,7 +43,7 @@
     <form class="form-horizontal spl-form" id="spl-form-optout" method="post" role="form">      
       <?php include 'common/crass-response.php'; ?>
 
-      <input type="hidden" id="spl-form-id" name="spl-form[id]" value="request-unblock" />
+      <input type="hidden" id="spl-form-id" name="spl-form[id]" value="unblock" />
       
       <input type="hidden" 
               id="spl-form-unblock-path" 
