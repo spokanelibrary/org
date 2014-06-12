@@ -24,13 +24,12 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 	</div><!-- ./col -->
 	<div class="col-sm-6">
 		<div class="alert alert-success">
-      <div id="spl-it-academy-links"></div>
-      <script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
       <p class="lead">
       <b>New Users:</b> IT Academy Registration
       </p>
+      <div id="spl-it-academy-links"></div>
+      <script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
       {{#with msit}}
-        
         {{#if login}}
           <div class="it-academy-login">
             <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
