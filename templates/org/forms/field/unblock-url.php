@@ -1,17 +1,17 @@
 <?php if ( !empty($spl['unblock']['url']['host']) ) : ?> 
-<div class="alert alert-danger">
+<div class="panel panel-danger">
   <h4>
     Hi There. The website you are trying to access has been blocked.
   </h4>
 
   <div class="row-fluid">
-      <p class="lead">
+      <p class="lead help-block">
           Please fill out the form below to request a review of this website.
       </p>
-      <p>
+      <p class="help-block">
           We will be happy to unblock it if we find that the content is not in violation of our <a href="#spl-internet-policy" data-toggle="modal">Internet Use Policy</a>.
       </p>
-      <p>
+      <p class="help-block">
         All unblock requests are processed within <strong class="serif">72</strong> hours. 
         <a href="#"
             class="prevent-default"
