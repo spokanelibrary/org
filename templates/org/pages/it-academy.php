@@ -47,6 +47,22 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
           You really need to login.
         {{else}}
           You do not need to login!
+
+          {{#each codes}}
+            <p>
+              <a href="https://itacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&key={{code}}"
+              rel="external"
+              class="btn btn-block btn-success"
+              title="Microsoft IT Academy Login"
+              ><strong>I would like to register for Microsoft IT Academy</strong>
+              <i class="icon-white icon-arrow-right"></i>
+              </a>
+            </p>
+          {{/each}}
+          <span class="help-block">
+            Use this link <strong>only</strong> if you have <em>not yet</em> signed up.
+          </span>
+          
         {{/if}}
 
       {{/with}}
