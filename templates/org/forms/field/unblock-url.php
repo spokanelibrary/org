@@ -170,17 +170,18 @@
         <div class="row">
           <div class="col-md-7">
             <div class="form-group">
-              <label for="spl-form-inet-confirm" 
+              <label for=""
                       class="col-sm-4 control-label">Internet Use Policy</label>
               <div class="col-sm-8">
 
                 <div class="checkbox">
                   <label>
+                    Check to confirm you have read, understand, and agree to the <a href="#">SPL Internet Use Policy</a>
                     <input type="checkbox"> Check me out
                   </label>
                 </div>
 
-                
+
                 <input type="checkbox"
                     id="spl-form-inet-confirm" 
                     name="spl-form[inet-confirm]" 
