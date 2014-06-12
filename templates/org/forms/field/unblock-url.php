@@ -113,17 +113,19 @@
               <label for="spl-form-unblock-note" 
                       class="col-sm-4 control-label">Reason to Unblock</label>
               <div class="col-sm-8">
-                <input type="text" 
+                <textarea rows="3"
                     id="spl-form-unblock-note" 
                     name="spl-form[unblock][note]" 
                     class="form-control"
                     value=""
-                    placeholder="" />
+                    placeholder=""></textarea>
               </div>
+              <p>
               <span class="help-block">
                 <strong class="text-success">Optional:</strong> 
                 Let us know why you feel this website should be made available at the Library. 
               </span>
+              </p>
             </div>
           </div><!-- /.col -->
         </div><!-- /.row -->
