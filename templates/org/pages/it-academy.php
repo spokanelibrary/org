@@ -23,10 +23,19 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 		</div><!-- ./alert -->
 	</div><!-- ./col -->
 	<div class="col-sm-6">
-		<div class="alert alert-success">
-      <p class="lead">
-        <b>New Users:</b> IT Academy Registration
-      </p>
+		<div class="alert alert-success" id="spl-it-academy-links">
+    </div><!-- ./alert -->
+	</div><!-- ./col -->
+</div><!-- ./row -->
+
+<div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
+<script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
+<p class="lead">
+  <b>New Users:</b> IT Academy Registration
+</p>
+{{#with msit}}
+  {{#if login}}
+    <div class="it-academy-login">
       <p>
       <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
         <i class="glyphicon glyphicon-user"></i>
@@ -34,43 +43,27 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
       </button>
       </p>
       <span class="help-block">Login to your Library account to get started.</span>
-      <div id="spl-it-academy-links"></div>
-      <script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
-      {{#with msit}}
-        {{#if login}}
-          <div class="it-academy-login">
-            <p>
-            <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#spl-login-modal">
-              <i class="glyphicon glyphicon-user"></i>
-              <b>Login to My Account &rarr;</b>
-            </button>
-            </p>
-            <span class="help-block">Login to your Library account to get started.</span>
-          </div>
-        {{else}}
-          {{#each codes}}
-            <p>
-              <a href="https://itacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&key={{code}}"
-              rel="external"
-              class="btn btn-block btn-success"
-              title="Microsoft IT Academy Login"
-              ><b>I would like to register for Microsoft IT Academy &rarr;</b>
-              </a>
-            </p>
-          {{/each}}
-          <span class="help-block">
-            Use this link <strong>only</strong> if you have <em>not yet</em> signed up.
-          </span>
+    </div>
+  {{else}}
+    {{#each codes}}
+      <p>
+        <a href="https://itacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&key={{code}}"
+        rel="external"
+        class="btn btn-block btn-success"
+        title="Microsoft IT Academy Login"
+        ><b>I would like to register for Microsoft IT Academy &rarr;</b>
+        </a>
+      </p>
+    {{/each}}
+    <span class="help-block">
+      Use this link <strong>only</strong> if you have <em>not yet</em> signed up.
+    </span>
 
-        {{/if}}
+  {{/if}}
 
-      {{/with}}
+{{/with}}
 
-      </script>
-      <div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
-		</div><!-- ./alert -->
-	</div><!-- ./col -->
-</div><!-- ./row -->
+</script>
 
 <?php
 
