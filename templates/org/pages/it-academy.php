@@ -192,8 +192,8 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 
     <div class="row">
       <div class="col-sm-4">
-        <ul class="nav">
-          <li class="nav-header">Server</li>
+        <ul class="list-unstyled">
+          <li><b>Server</b></li>
           <li>Windows Server</li>
           <li>Exchange Server</li>
           <li>Lync Server</li>
@@ -210,21 +210,21 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         </ul>
       </div><!-- /.col -->
       <div class="col-sm-4">
-        <ul class="nav">
-          <li class="nav-header">Office</li>
+        <ul class="list-unstyled">
+          <li><b>Office Suite</b></li>
           <li>Office</li>
           <li>Office 365</li>
         </ul>
       </div><!-- /.col -->
       <div class="col-sm-4">
-        <ul class="nav">
-          <li class="nav-header">Database</li>
+        <ul class="list-unstyled">
+          <li><b>Database</b></li>
           <li>SQL Server</li>
         </ul>
       </div><!-- /.col -->
       <div class="col-sm-4">
-        <ul class="nav">
-          <li class="nav-header">Developer</li>
+        <ul class="list-unstyled">
+          <li><b>Developer</b></li>
           <li>Visual Studio</li>
           <li>Windows Azure</li>
           <li>Windows Phone</li>
