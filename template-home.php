@@ -5,12 +5,15 @@ Template Name: Home Page
 ?>
 
 <div class="alert alert-info">
-  <h2>
+  <div class="page-header">
+  <h1>
     Welcome to beta.spokanelibrary.org!
-  </h2>
+  </h1>
+  </div>
+  
   <p class="lead">
     We are transitioning Spokane Public Library to a new website.
-    A small portion of our website, including <a href="/contact/">contact us</a>, <a href="/book/">book a librarian</a>, and <a href="/connect/">other interactive forms</a> are only available on this new website.
+    A small portion of our website, including <a href="/contact/">contact us</a>, <a href="/book/">book a librarian</a>, and <a href="/connect/">other interactive forms</a>, are only available on this new website.
   </p>
   <p>
     Everything else is still located on our old website.
