@@ -14,12 +14,12 @@ Template Name: Home Page
   <p class="lead">
     <b>
     We are transitioning Spokane Public Library to a new website.
-    A small portion of our website, including <a href="/contact/">contact us</a>, <a href="/book/">book a librarian</a>, and <a href="/connect/">other interactive forms</a>, are only available on this new website.
+    A small portion of our site, including <a href="/contact/">contact us</a>, <a href="/book/">book a librarian</a>, and <a href="/connect/">other interactive forms</a>, is only available here on beta.spokanelibrary.org.
     </b>
   </p>
   <p>
     All other pages are still located on <a href="http://www.spokanelibrary.org">our old website</a>.
-    We understand this may be frustrating, and we really appreciate your patience during this period.
+    We understand this may be somewhat confusing, and we really appreciate your patience during this period.
   </p>
   <p>
     Please feel free to <a href="/contact">contact us</a> with any comments, questions, or suggestions.
@@ -27,7 +27,7 @@ Template Name: Home Page
   <hr>
   <p>
     <a class="btn btn-lg btn-block btn-primary" href="http://www.spokanelibrary.org">
-      Please take me to the old website &rarr;
+      Please take me to the old website now &rarr;
     </a>
   </p>
 </div>
