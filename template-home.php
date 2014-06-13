@@ -14,7 +14,7 @@ Template Name: Home Page
   <p class="lead">
     <b>
     We are transitioning Spokane Public Library to a new website.
-    A small portion of our site, including <a href="/contact/">contact us</a>, <a href="/book/">book a librarian</a>, and <a href="/connect/">other interactive forms</a>, is only available here on beta.spokanelibrary.org.
+    During this time a few pages, including <a href="/contact/">contact us</a>, <a href="/book/">book a librarian</a>, and <a href="/connect/">other interactive forms</a>, are only available here on beta.spokanelibrary.org.
     </b>
   </p>
   <p>
@@ -28,7 +28,7 @@ Template Name: Home Page
     <p>
       Thanks,
     </p>
-    <small>SPL Web Team</small>
+    <small>The SPL Web Team</small>
   </blockquote>
   <hr>
   <p>
