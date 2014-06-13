@@ -3,13 +3,13 @@
 Template Name: Home Page
 */
 ?>
-
-<div class="alert alert-info">
-  <div class="page-header">
+<div class="page-header">
   <h1>
     Welcome to beta.spokanelibrary.org!
   </h1>
-  </div>
+</div>
+<div class="alert alert-info">
+
   
   <p class="lead">
     We are transitioning Spokane Public Library to a new website.
