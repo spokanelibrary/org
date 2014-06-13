@@ -24,6 +24,12 @@ Template Name: Home Page
   <p>
     Please feel free to <a href="/contact">contact us</a> with any comments, questions, or suggestions.
   </p>
+  <blockquote>
+    <p>
+      Thanks,
+    </p>
+    <small>SPL Web Team</small>
+  </blockquote>
   <hr>
   <p>
     <a class="btn btn-lg btn-block btn-primary" href="http://www.spokanelibrary.org">
