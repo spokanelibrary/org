@@ -18,7 +18,7 @@ Template Name: Home Page
     </b>
   </p>
   <p>
-    Everything else is still located on <a href="http://www.spokanelibrary.org">our old website</a>.
+    All other pages are still located on <a href="http://www.spokanelibrary.org">our old website</a>.
     We understand this may be frustrating, and we really appreciate your patience during this period.
   </p>
   <p>
