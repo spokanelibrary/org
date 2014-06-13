@@ -18,7 +18,7 @@ Template Name: Home Page
     </b>
   </p>
   <p>
-    Everything else is still located on our old website.
+    Everything else is still located on <a href="http://www.spokanelibrary.org">our old website</a>.
     We understand this may be frustrating, and we really appreciate your patience during this period.
   </p>
   <p>
@@ -26,7 +26,7 @@ Template Name: Home Page
   </p>
   <hr>
   <p>
-    <a class="btn btn-info" href="http://www.spokanelibrary.org">
+    <a class="btn btn-lg btn-lg btn-primary" href="http://www.spokanelibrary.org">
       Please take me to the old website &rarr;
     </a>
   </p>
