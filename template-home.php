@@ -19,12 +19,10 @@ Template Name: Home Page
   </p>
   <p>
     Everything else is still located on our old website.
-  </p>
-  <p>
     We understand this may be frustrating, and we really appreciate your patience during this period.
   </p>
   <p>
-    We'd welcome any comments, questions, or suggestions. Feel free to <a href="/contact">contact us</a>.
+    Please feel free to <a href="/contact">contact us</a> with any comments, questions, or suggestions.
   </p>
   <hr>
   <p>
