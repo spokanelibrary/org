@@ -26,7 +26,7 @@ Template Name: Home Page
   </p>
   <hr>
   <p>
-    <a class="btn btn-lg btn-lg btn-primary" href="http://www.spokanelibrary.org">
+    <a class="btn btn-lg btn-block btn-primary" href="http://www.spokanelibrary.org">
       Please take me to the old website &rarr;
     </a>
   </p>
