@@ -27,7 +27,13 @@ Template Name: Home Page
   <hr>
   <p>
     <a class="btn btn-lg btn-block btn-primary" href="http://www.spokanelibrary.org">
-      Take me to the old website &rarr;
+      <span class="visible-xs">  
+      Take me to the old website
+      </span>
+      <span class="hidden-xs">  
+      Please take me to the old website now
+      </span>
+      &rarr;
     </a>
   </p>
 </div>
