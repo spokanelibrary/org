@@ -138,6 +138,10 @@ var ORG = {
         e.preventDefault();
       });
 
+      $('body').on('submit', '.spl-form', function(e) {
+        $('button').attr('disabled', true);
+      });
+
       $('.spl-form').validate({
         highlight: function(element) {
             $(element).closest('.form-group').addClass('has-error');
