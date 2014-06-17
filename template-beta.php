@@ -17,6 +17,15 @@ Template Name: Beta Home Page
       During this time a few pages, including <a href="/contact/">contact us</a>, <a href="/book/">book a librarian</a>, and <a href="/connect/">other interactive forms</a>, are only available here on beta.spokanelibrary.org.
       </b>
     </p>
+
+    <p>
+    <a class="btn btn-lg btn-block btn-success" href="/connect/">
+      <span class="visible-xs">Take me to the contact forms &rarr;</span>
+      <span class="hidden-xs">Please take me to the contact forms &rarr;</span>
+    </a>
+  </p>
+
+
     <blockquote>
       <p>
         All other pages are still located on <a href="http://www.spokanelibrary.org">our old website</a>.
