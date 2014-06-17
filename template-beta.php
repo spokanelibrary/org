@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home Page
+Template Name: Beta Home Page
 */
 ?>
 <div class="page-header">
