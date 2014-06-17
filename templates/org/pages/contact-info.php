@@ -1,5 +1,5 @@
-<div class="panel panel-default">
-  <div class="panel-heading panel-transparent">
+<div class="panel panel-primary">
+  <div class="panel-heading">
     <h4>Spokane Public Library</h4>
   </div><!-- /.panel-heading -->
   <div class="panel-body">
