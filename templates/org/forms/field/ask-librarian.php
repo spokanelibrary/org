@@ -77,7 +77,7 @@
       </div><!-- /.panel-heading -->
       <div class="panel-body">
         <p>     
-          Spokane Public Library will gladly research Spokane topics for out-of-town customers. 
+          Spokane Public Library will gladly research <b>Spokane topics</b> for out-of-town customers. 
         </p>
         <p>
           For general research questions, please contact your local library.
