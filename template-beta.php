@@ -11,6 +11,7 @@ Template Name: Beta Home Page
 
 <div class="row">
   <div class="col-md-6">
+  
     <p class="lead">
       <b>
       We are transitioning Spokane Public Library to a new website.
@@ -19,22 +20,21 @@ Template Name: Beta Home Page
     </p>
 
     <p>
-    <a class="btn btn-lg btn-block btn-success" href="/connect/">
-      <span class="visible-xs">Take me to the contact forms &rarr;</span>
-      <span class="hidden-xs">Please take me to the contact forms &rarr;</span>
-    </a>
-  </p>
-
+      <a class="btn btn-lg btn-block btn-success" href="/connect/">
+        <span class="visible-xs">Take me to the contact forms &rarr;</span>
+        <span class="hidden-xs">Please take me to the contact forms &rarr;</span>
+      </a>
+    </p>
 
     <blockquote>
       <p>
         All other pages are still located on <a href="http://www.spokanelibrary.org">our old website</a>.
         We understand this may be somewhat confusing, and we really appreciate your patience during this transition period.
       </p>
+      <!--
       <p>
         Please feel free to <a href="/contact">contact us</a> with any comments, questions, or suggestions.
       </p>
-      <!--
       <p>
         Thanks,
       </p>
