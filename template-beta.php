@@ -5,7 +5,7 @@ Template Name: Beta Home Page
 ?>
 <div class="page-header">
   <h1>
-    It's about time for an upgrade!
+    It's about time for something new!
   </h1>
 </div>
 
