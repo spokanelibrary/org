@@ -136,13 +136,17 @@
       </div><!-- /.col -->
     </div><!-- /.row -->
 
+    <?php
+    /*
     <div class="alert alert-info">
       <p>
         <strong>Non-discoverable Connect pages to port:</strong>
-        <span style="text-decoration:line-through;">Welcome, Obits, iCal, IT Academy, Receipt/optout, Unblock,</span> Kiosk, Wireless, BioFiles, Summer Signup
+        <span style="text-decoration:line-through;">Welcome, Obits, iCal, IT Academy, Receipt/optout, Unblock, Kiosk,</span> Wireless, BioFiles, Summer Signup
       </p>
     </div>
-
+    */
+    ?>
+    
   </div><!-- /.col -->
   
   <div class="col-md-4">
