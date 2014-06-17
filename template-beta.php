@@ -25,10 +25,12 @@ Template Name: Beta Home Page
       <p>
         Please feel free to <a href="/contact">contact us</a> with any comments, questions, or suggestions.
       </p>
+      <!--
       <p>
         Thanks,
       </p>
       <small>The SPL Web Team</small>
+      -->
     </blockquote>
     
   </div><!-- /.col -->
