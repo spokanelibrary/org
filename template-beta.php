@@ -35,7 +35,9 @@ Template Name: Beta Home Page
     
   </div><!-- /.col -->
   <div class="col-md-6">
-    <img class="img-responsive img-rounded" alt="Spokane Public Library Bookmobile" src="/assets/img/jpg/spl-bookmobile-1.jpg">
+    <p>
+      <img class="img-responsive img-rounded" alt="Spokane Public Library Bookmobile" src="/assets/img/jpg/spl-bookmobile-1.jpg">
+    </p>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
