@@ -5,7 +5,7 @@ Template Name: Beta Home Page
 ?>
 <div class="page-header">
   <h1>
-    Welcome to beta.spokanelibrary.org!
+    We're getting an upgrade!
   </h1>
 </div>
 
