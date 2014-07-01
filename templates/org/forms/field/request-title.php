@@ -12,7 +12,7 @@
       If we elect not to purchase a title, we will attempt to obtain it through Interlibrary Loan <em>(City of Spokane residents only)</em>.      
     </p>
     <p>
-      We will place a hold request and notify you when the item is ready for checkout. 
+      Either way, we will place a hold request and notify you when the item is ready for checkout. 
     </p>
   </div><!-- /.col -->
 
