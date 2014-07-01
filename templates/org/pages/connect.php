@@ -81,7 +81,7 @@
             <h4>
               <i class="glyphicon glyphicon-search text-muted"></i> 
               <a class="" 
-                href="/vital/" 
+                href="/vitals/" 
                 title="">Research vital records</a>
               <span class="text-muted">&rarr;</span>
             </h4>
