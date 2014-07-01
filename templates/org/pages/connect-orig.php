@@ -40,16 +40,17 @@
         <div class="panel panel-default">
           <div class="panel-heading panel-transparent">
             <h4>
-              <i class="glyphicon glyphicon-barcode text-muted"></i> 
+              <i class="glyphicon glyphicon-calendar text-muted"></i> 
               <a class="" 
-                href="/card/" 
-                title="">Your library card</a>
+                href="/book/" 
+                title="">Book a librarian</a>
               <span class="text-muted">&rarr;</span>
+              <span class="label label-success pull-right">new</new>
             </h4>
           </div><!-- /.panel-heading -->
-          <div class="panel-body">            
+          <div class="panel-body">
             <p>
-              Learn about library cards or <a href="/renew">renew</a> your existing card.
+              Please use this form to schedule a one-on-one research session with a staff librarian.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
