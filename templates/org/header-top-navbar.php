@@ -1,3 +1,11 @@
+<?php
+
+function spl_get_home_url() {
+  return home_url();
+}
+
+?>
+
 <script>/*(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -22,7 +30,7 @@
 <!--<header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
   <ul class="nav nav-justified">
     <li>
-      <a href="<?php echo home_url(); ?>/">
+      <a href="<?php echo spl_get_home_url(); ?>/">
         <span class="visible-xs"><i class="glyphicon glyphicon-home"></i></span>
         <span class="hidden-xs"><i class="text-success glyphicon glyphicon-home"></i> Home</span>
       </a>
@@ -64,7 +72,7 @@
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="<?php echo home_url(); ?>/">
+      <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
         <span class="text-hide"><?php bloginfo('name'); ?></span>
       </a>
     </div>
@@ -146,7 +154,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand hidden-md hidden-lg" href="<?php echo home_url(); ?>/">
+      <a class="navbar-brand hidden-md hidden-lg" href="<?php echo spl_get_home_url(); ?>/">
         <span class="logotype"><?php bloginfo('name'); ?></span>
       </a>
     </div>
