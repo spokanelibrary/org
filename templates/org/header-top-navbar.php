@@ -1,7 +1,8 @@
 <?php
 
 function spl_get_home_url() {
-  return home_url();
+  //return home_url();
+  return 'http://www.spokanelibrary.org/';
 }
 
 ?>
