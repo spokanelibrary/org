@@ -31,7 +31,7 @@
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              Please use this form to request research assistance by email. We'll be glad to help!
+              Please use this form to request research assistance by email.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
@@ -61,24 +61,6 @@
         <div class="panel panel-default">
           <div class="panel-heading panel-transparent">
             <h4>
-              <i class="glyphicon glyphicon-barcode text-muted"></i> 
-              <a class="" 
-                href="/card/" 
-                title="">Your library card</a>
-              <span class="text-muted">&rarr;</span>
-            </h4>
-          </div><!-- /.panel-heading -->
-          <div class="panel-body">            
-            <p>
-              Learn about library cards or <a href="/renew">renew</a> your existing card.
-            </p>
-          </div><!-- /.panel-body -->
-        </div><!-- /.panel -->
-      </div><!-- /.col -->
-      <div class="col-sm-6">
-        <div class="panel panel-default">
-          <div class="panel-heading panel-transparent">
-            <h4>
               <i class="glyphicon glyphicon-book text-muted"></i> 
               <a class="" 
                 href="/request/" 
@@ -89,6 +71,24 @@
           <div class="panel-body">            
             <p>
               This is the place to request material the library does not own.
+            </p>
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading panel-transparent">
+            <h4>
+              <i class="glyphicon glyphicon-search text-muted"></i> 
+              <a class="" 
+                href="/vital/" 
+                title="">Research vital records</a>
+              <span class="text-muted">&rarr;</span>
+            </h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">
+            <p>
+              <b>Out-of-town users</b> may request an obituary or birth notice search.
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
