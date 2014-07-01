@@ -95,46 +95,6 @@
       </div><!-- /.col -->
     </div><!-- /.row -->
 
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="panel panel-default">
-          <div class="panel-heading panel-transparent">
-            <h4>
-              <i class="glyphicon glyphicon-search text-muted"></i> 
-              <a class="" 
-                href="/vital/" 
-                title="">Research vital records</a>
-              <span class="text-muted">&rarr;</span>
-            </h4>
-          </div><!-- /.panel-heading -->
-          <div class="panel-body">
-            <p>
-              <b>Out-of-town users</b> may request an obituary or birth notice search.
-            </p>
-          </div><!-- /.panel-body -->
-        </div><!-- /.panel -->
-        
-      </div><!-- /.col -->
-      <div class="col-sm-6">
-        <div class="panel panel-default">
-          <div class="panel-heading panel-transparent">
-            <h4>
-              <i class="glyphicon glyphicon-info-sign text-muted"></i> 
-              <a class="" 
-                href="/faq/" 
-                title="">Frequently asked</a>
-              <span class="text-muted">&rarr;</span>
-            </h4>
-          </div><!-- /.panel-heading -->
-          <div class="panel-body">
-            <p>
-              Find answers to frequently asked questions.
-            </p>
-          </div><!-- /.panel-body -->
-        </div><!-- /.panel -->
-      </div><!-- /.col -->
-    </div><!-- /.row -->
-
     <?php
     /*
     <div class="alert alert-info">
