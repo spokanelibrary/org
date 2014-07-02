@@ -34,8 +34,10 @@ if ( isset($title->titleInfo->ISBN) ) {
             ?>
           </p>
           
+          <!--
           <div id="spl-form-request-holding"></div>
-
+          -->
+          
           <div id="syndetics-summary"></div>
 
           <div class="form-group">
