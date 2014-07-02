@@ -112,7 +112,7 @@ function spl_get_home_url() {
             <strong class="text-muted">{{user.firstName}}</strong>
             <a href="/account/"><small><strong>My Account</strong></small></a>
             <span class="text-muted">&nbsp;&nbsp;</span>
-            <br>
+            
             <span class="">
               <i class="glyphicon glyphicon-log-out text-danger"></i>
               <a href="./?logout" class="text-danger"><small><strong>Logout</strong></small></a>
