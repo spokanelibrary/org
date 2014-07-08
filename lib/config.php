@@ -63,6 +63,8 @@ function roots_display_sidebar() {
      */
     array(
       'template-custom.php'
+    , 'template-home.php'
+    , 'template-beta.php'
     , 'template-application.php'
     , 'template-no-headline.php'
     , 'template-scrollspy.php'
