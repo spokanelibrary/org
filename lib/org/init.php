@@ -116,7 +116,7 @@ function spl_resources( $params ) {
     $orderby = $params['orderby'];
   }
 
-  $sort = 'DESC';
+  $sort = 'ASC';
   if ( $params['sort'] ) {
     $sort = $params['sort'];
   }
