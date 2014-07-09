@@ -116,12 +116,17 @@ function spl_resources( $params ) {
     $orderby = $params['orderby'];
   }
 
+  $sort = 'DESC';
+  if ( $params['sort'] ) {
+    $sort = $params['sort'];
+  }
+
   //query subpages  
   $args = array(  
       'post_parent' => $post->ID
     , 'post_type' => 'page'  
     , 'orderby' => $orderby
-    , 'order' => 'ASC'
+    , 'order' => $sort
   );  
   $subpages = new WP_query($args);  
 
