@@ -416,13 +416,24 @@ add_shortcode('spl_scrollspy', 'spl_scrollspy');
 
 function spl_subpages() {  
     global $post;  
-      
+    
+    $orderby = 'title';
+    if ( $params['orderby'] ) {
+      $orderby = $params['orderby'];
+    }
+
+    $sort = 'ASC';
+    if ( $params['sort'] ) {
+      $sort = $params['sort'];
+    }
+
     //query subpages  
     $args = array(  
         'post_parent' => $post->ID
       , 'post_type' => 'page'  
-      , 'orderby' => 'title'
-    );  
+      , 'orderby' => $orderby
+      , 'order' => $sort
+    );   
     $subpages = new WP_query($args);  
       
     // create output  
