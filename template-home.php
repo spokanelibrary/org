@@ -116,7 +116,7 @@ Template Name: Home Page
           //print_r($rss_items);
 
           ?>
-          <table class="table table-condensed">
+          <table class="table table-condensed table-striped">
             <?php if ( $maxitems == 0 ) : ?>
                 <tr><td><?php _e( 'No items', 'my-text-domain' ); ?></td></td>
             <?php else : ?>
@@ -132,6 +132,8 @@ Template Name: Home Page
                         <td>
                           <?php echo esc_html( $formatteddatetime[0]['data'] ); ?>
                         </td>
+                    </tr>
+                    <tr>
                         <td>
                         <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
                             title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
