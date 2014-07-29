@@ -130,7 +130,7 @@ Template Name: Home Page
                 <?php $location = $item->get_item_tags('urn:ietf:params:xml:ns:xcal', 'location'); ?>
                 <?php $formatteddatetime = $item->get_item_tags('http://schemas.trumba.com/rss/x-trumba', 'formatteddatetime'); ?>
                 <li class="media">
-                  <h4 class="media-heading pull-left">
+                  <h4 class="media-heading">
                     <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
                         title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
                         <?php echo esc_html( $item->get_title() ); ?>
