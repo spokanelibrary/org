@@ -131,8 +131,9 @@ Template Name: Home Page
                         </a>
                         <?php 
                         $enc = $item->get_enclosure();
-                        $cap = $enc ->get_caption();
-                        echo $cap->get_starttime(); 
+                        print_r($enc);
+                        //$cap = $enc ->get_caption();
+                        //echo $cap->get_starttime(); 
                         ?>
                     </li>
                 <?php endforeach; ?>
