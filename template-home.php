@@ -98,8 +98,14 @@ Template Name: Home Page
           Coming up soon at your local library
         </div>
         <div class="panel-body">
-          <?php echo do_shortcode('[events_list scope="2-months" limit="5" country="US"]#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> <hr>[/events_list]'); ?>
-        
+          <?php //echo do_shortcode('[events_list scope="2-months" limit="5" country="US"]#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> <hr>[/events_list]'); ?>
+          <script src="http://www.trumba.com/scripts/spuds.js"></script>
+          <script type="text/javascript">
+          $Trumba.addSpud({
+          webName: "spls-calendar",
+          spudType : "monthlist",
+          events: "10", });
+          </script>
           <small>
             <a href="/calendar/">View events calendar</a> &rarr;
           </small>
