@@ -99,19 +99,10 @@ Template Name: Home Page
         </div>
         <div class="panel-body">
           <?php //echo do_shortcode('[events_list scope="2-months" limit="5" country="US"]#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> <hr>[/events_list]'); ?>
-          <!--
-          <script src="http://www.trumba.com/scripts/spuds.js"></script>
-          <script type="text/javascript">
-          $Trumba.addSpud({
-            webName: "spls-calendar",
-            spudType : "main",
-            url: { events: "4" } 
-          });
-          </script>
-          -->
+          
           <?php
           $rss = fetch_feed( 'http://www.trumba.com/calendars/spls-calendar.rss' );
-
+          /*
           if ( ! is_wp_error( $rss ) ) : // Checks that the object is created correctly
 
               // Figure out how many total items there are, but limit it to 5. 
@@ -121,7 +112,7 @@ Template Name: Home Page
               $rss_items = $rss->get_items( 0, $maxitems );
 
           endif;
-
+          */
           print_r($rss_items);
 
           ?>
