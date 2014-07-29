@@ -130,9 +130,7 @@ Template Name: Home Page
                 <?php $location = $item->get_item_tags('urn:ietf:params:xml:ns:xcal', 'location'); ?>
                 <?php $formatteddatetime = $item->get_item_tags('http://schemas.trumba.com/rss/x-trumba', 'formatteddatetime'); ?>
                 <li class="media">
-                   <a class="pull-left" href="#">
-                    <img class="media-object" src="..." alt="...">
-                  </a>
+                  <i class="pull-left glyphicon glyphicon-dashboard"></i>
                   <div class="media-body">
                     <h4 class="media-heading">
                     <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
