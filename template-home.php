@@ -113,7 +113,7 @@ Template Name: Home Page
 
           endif;
           */
-          print_r($rss_items);
+          print_r($rss);
 
           ?>
           <small>
