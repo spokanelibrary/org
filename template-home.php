@@ -130,7 +130,7 @@ Template Name: Home Page
                             <?php echo esc_html( $item->get_title() ); ?>
                         </a>
                         <?php 
-                        $enc = $item->get_enclosures();
+                        $enc = $item->get_item_tags('xCal', 'location');
                         print_r($enc);
                         //$cap = $enc ->get_caption();
                         //echo $cap->get_starttime(); 
