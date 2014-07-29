@@ -104,7 +104,7 @@ Template Name: Home Page
           $Trumba.addSpud({
           webName: "spls-calendar",
           spudType : "main",
-          events: "10", });
+          url: { events: "10" } });
           </script>
           <small>
             <a href="/calendar/">View events calendar</a> &rarr;
