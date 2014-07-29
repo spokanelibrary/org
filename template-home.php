@@ -102,9 +102,10 @@ Template Name: Home Page
           <script src="http://www.trumba.com/scripts/spuds.js"></script>
           <script type="text/javascript">
           $Trumba.addSpud({
-          webName: "spls-calendar",
-          spudType : "main",
-          url: { events: "10" } });
+            webName: "spls-calendar",
+            spudType : "main",
+            url: { events: "4" } 
+          });
           </script>
           <small>
             <a href="/calendar/">View events calendar</a> &rarr;
