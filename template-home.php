@@ -103,7 +103,7 @@ Template Name: Home Page
           <script type="text/javascript">
           $Trumba.addSpud({
           webName: "spls-calendar",
-          spudType : "monthlist",
+          spudType : "main",
           events: "10", });
           </script>
           <small>
