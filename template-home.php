@@ -120,30 +120,32 @@ Template Name: Home Page
             <?php if ( $maxitems == 0 ) : ?>
                 <tr><td><?php _e( 'No items', 'my-text-domain' ); ?></td></td>
             <?php else : ?>
-                <?php // Loop through each feed item and display each item as a hyperlink. ?>
-                <?php foreach ( $rss_items as $item ) : ?> 
-                    <?php $location = $item->get_item_tags('urn:ietf:params:xml:ns:xcal', 'location'); ?>
-                    <?php $formatteddatetime = $item->get_item_tags('http://schemas.trumba.com/rss/x-trumba', 'formatteddatetime'); ?>
-                    <tr>
-                        <?php //print_r($item); ?>
-                        <td>
-                          <?php echo esc_html( $location[0]['data'] ); ?>
-                        </td>
-                        <td>
-                          <?php echo esc_html( $formatteddatetime[0]['data'] ); ?>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
-                            title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
-                            <?php echo esc_html( $item->get_title() ); ?>
-                        </a>
-                        </td>
-                    </tr>
-                <?php endforeach; ?>
+              <?php // Loop through each feed item and display each item as a hyperlink. ?>
+              <?php foreach ( $rss_items as $item ) : ?> 
+                <?php $location = $item->get_item_tags('urn:ietf:params:xml:ns:xcal', 'location'); ?>
+                <?php $formatteddatetime = $item->get_item_tags('http://schemas.trumba.com/rss/x-trumba', 'formatteddatetime'); ?>
+                  <tr>
+                    <?php //print_r($item); ?>
+                    <td>
+                      <?php echo esc_html( $location[0]['data'] ); ?>
+                    </td>
+                    <td>
+                      <?php echo esc_html( $formatteddatetime[0]['data'] ); ?>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h3>
+                      <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
+                          title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
+                          <?php echo esc_html( $item->get_title() ); ?>
+                      </a>
+                      </h3>
+                    </td>
+                  </tr>
+              <?php endforeach; ?>
             <?php endif; ?>
-        </table>
+          </table>
 
           <small>
             <a href="/calendar/">View events calendar</a> &rarr;
