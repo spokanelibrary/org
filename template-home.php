@@ -128,6 +128,7 @@ Template Name: Home Page
                             title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
                             <small class="glyphicon glyphicon-bullhorn text-muted"></small>
                             <?php echo esc_html( $item->get_title() ); ?>
+                            <?php echo esc_html( $item->get_date() ); ?>
                         </a>
                     </li>
                 <?php endforeach; ?>
