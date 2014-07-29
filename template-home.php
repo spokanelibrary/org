@@ -129,7 +129,7 @@ Template Name: Home Page
                             <small class="glyphicon glyphicon-bullhorn text-muted"></small>
                             <?php echo esc_html( $item->get_title() ); ?>
                         </a>
-                        <?php echo $item->get_date(); ?>
+                        <?php echo $item->get_description(); ?>
                     </li>
                 <?php endforeach; ?>
             <?php endif; ?>
