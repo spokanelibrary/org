@@ -116,27 +116,26 @@ Template Name: Home Page
           //print_r($rss_items);
 
           ?>
-          <ul class="nav nav-pills">
+          <table class="table table-condensed">
             <?php if ( $maxitems == 0 ) : ?>
-                <li><?php _e( 'No items', 'my-text-domain' ); ?></li>
+                <tr><td><?php _e( 'No items', 'my-text-domain' ); ?></td></td>
             <?php else : ?>
                 <?php // Loop through each feed item and display each item as a hyperlink. ?>
-                <?php foreach ( $rss_items as $item ) : ?>
-                    <li>
+                <?php foreach ( $rss_items as $item ) : ?> 
+                    <?php $location = $item->get_item_tags('urn:ietf:params:xml:ns:xcal', 'location'); ?>
+                    <tr>
                         <?php //print_r($item); ?>
+                        <td>
+                          <?php echo esc_html( $location[0]['data'] ); ?>
+                        </td>
+                        <td>
                         <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
                             title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
                             <small class="glyphicon glyphicon-bullhorn text-muted"></small>
                             <?php echo esc_html( $item->get_title() ); ?>
                         </a>
-                        <?php 
-                        $location = $item->get_item_tags('urn:ietf:params:xml:ns:xcal', 'location');
-                        print_r($location[0]['data']);
-                        //echo $location[0]->data;
-                        //$cap = $enc ->get_caption();
-                        //echo $cap->get_starttime(); 
-                        ?>
-                    </li>
+                        </td>
+                    </tr>
                 <?php endforeach; ?>
             <?php endif; ?>
         </ul>
