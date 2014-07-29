@@ -138,7 +138,7 @@ Template Name: Home Page
                     </tr>
                 <?php endforeach; ?>
             <?php endif; ?>
-        </ul>
+        </table>
 
           <small>
             <a href="/calendar/">View events calendar</a> &rarr;
