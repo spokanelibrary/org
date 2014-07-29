@@ -131,7 +131,7 @@ Template Name: Home Page
                         </a>
                         <?php 
                         $location = $item->get_item_tags('urn:ietf:params:xml:ns:xcal', 'location');
-                        print_r($location);
+                        print_r($location[0]);
                         //echo $location[0]->data;
                         //$cap = $enc ->get_caption();
                         //echo $cap->get_starttime(); 
