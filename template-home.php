@@ -116,36 +116,38 @@ Template Name: Home Page
           //print_r($rss_items);
 
           ?>
-          <table class="table table-condensed table-striped">
+
+
+   
+
+
+          <ul class="media-list">
             <?php if ( $maxitems == 0 ) : ?>
-                <tr><td><?php _e( 'No items', 'my-text-domain' ); ?></td></td>
+                <li class="media"><?php _e( 'No items', 'my-text-domain' ); ?></li>
             <?php else : ?>
               <?php // Loop through each feed item and display each item as a hyperlink. ?>
               <?php foreach ( $rss_items as $item ) : ?> 
                 <?php $location = $item->get_item_tags('urn:ietf:params:xml:ns:xcal', 'location'); ?>
                 <?php $formatteddatetime = $item->get_item_tags('http://schemas.trumba.com/rss/x-trumba', 'formatteddatetime'); ?>
-                <tr>
-                  <td colspan="2">
-                    <h3>
+                <li class="media">
+                   <a class="pull-left" href="#">
+                    <img class="media-object" src="..." alt="...">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">
                     <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
                         title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
                         <?php echo esc_html( $item->get_title() ); ?>
                     </a>
-                    </h3>
-                  </td>
-                </tr>
-                <tr>
-                  <?php //print_r($item); ?>
-                  <td>
+                    </h4>
                     <?php echo esc_html( $location[0]['data'] ); ?>
-                  </td>
-                  <td>
+                    <br>
                     <?php echo esc_html( $formatteddatetime[0]['data'] ); ?>
-                  </td>
-                </tr>
+                  </div>
+                </li>
               <?php endforeach; ?>
             <?php endif; ?>
-          </table>
+          </ul>
 
           <small>
             <a href="/calendar/">View events calendar</a> &rarr;
