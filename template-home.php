@@ -141,9 +141,9 @@ Template Name: Home Page
                         </small>
                     </a>
                     </h4>
-                    <?php echo esc_html( $location[0]['data'] ); ?>
+                    <b><?php echo esc_html( $formatteddatetime[0]['data'] ); ?></b>
                     <br>
-                    <?php echo esc_html( $formatteddatetime[0]['data'] ); ?>
+                    <?php echo esc_html( $location[0]['data'] ); ?>
                   </div>
                 </li>
               <?php endforeach; ?>
