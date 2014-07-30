@@ -70,7 +70,7 @@ function spl_get_home_url() {
 </header>--><!-- /.navbar -->
 
 <header class="navbar-inverse">
-<div class="container" style="margin-bottom:0px;">
+<div class="container" style="padding-bottom:0px;">
       <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
   </div>
 </header>
