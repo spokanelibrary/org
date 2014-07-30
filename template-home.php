@@ -160,6 +160,8 @@ Template Name: Home Page
 
 	<div class="col-md-6">
 
+    <?php echo do_shortcode('[recent-posts]'); ?>
+
 		<?php
     $rss = fetch_feed( 'http://blog.spokanelibrary.org/feed/atom/' );
 
