@@ -76,11 +76,10 @@ function spl_get_home_url() {
       <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
         <span class="text-hide"><?php bloginfo('name'); ?></span>
       </a>
-      <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
     </div>
 
     <div id="spl-account-profile"></div>
-
+    <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
     <div class="pull-right" style="width:220px; margin-top: 10px; margin-right: 10px;">
     <div class="row">
       <div class="col-xs-6">
