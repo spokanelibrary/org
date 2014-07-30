@@ -53,7 +53,7 @@ Template Name: Home Page
         </a>
         -->
         <a href="/account/" class="list-group-item">
-          My account
+          <span class="text-primary">My account</span> &rarr;
         </a>
         <a href="/search/" class="list-group-item">
           Search the catalog
