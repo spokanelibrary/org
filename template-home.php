@@ -56,6 +56,9 @@ Template Name: Home Page
       <a href="/search/" class="list-group-item">
         Search the catalog
       </a>
+      <a href="/search/" class="list-group-item">
+        Is the library open?
+      </a>
       <a href="/explore/" class="list-group-item">
         How to find things
       </a>
