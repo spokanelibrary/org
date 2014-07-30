@@ -52,7 +52,7 @@ Template Name: Home Page
         Live chat
       </a>
       -->
-      <a href="/account/" class="list-group-item">
+      <a href="/account/" class="">
         My account
       </a>
       <a href="/search/" class="list-group-item">
