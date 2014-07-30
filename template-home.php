@@ -144,7 +144,7 @@ Template Name: Home Page
         </span>
       </div>
     </div><!-- /.panel -->
-    <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+    <?php //echo do_shortcode('[spl_widget branch-hours]'); ?>
 
 	</div><!-- /.col -->
 
