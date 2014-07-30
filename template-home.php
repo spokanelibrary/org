@@ -56,25 +56,25 @@ Template Name: Home Page
           <span class="text-primary">My account</span> &rarr;
         </a>
         <a href="/search/" class="list-group-item">
-          Search the catalog
+          <span class="text-primary">Search the catalog</span> &rarr;
         </a>
         <a href="/search/" class="list-group-item">
-          Is the library open?
+          <span class="text-primary">Is the library open?</span> &rarr;
         </a>
         <a href="/explore/" class="list-group-item">
-          How to find things
+          <span class="text-primary">How to find things</span> &rarr;
         </a>
         <a href="/browse/" class="list-group-item">
-          Browse popular titles
+          <span class="text-primary">Browse popular titles</span> &rarr;
         </a>
         <a href="/apps/" class="list-group-item">
-          Mobile apps
+          <span class="text-primary">Mobile apps</span> &rarr;
         </a>
         <a href="http://news.spokanelibrary.org" class="list-group-item">
-          Get library news
+          <span class="text-primary">Get library news</span> &rarr;
         </a>
         <a href="/connect/" class="list-group-item">
-          Contact the library
+          <span class="text-primary">Contact the library</span> &rarr;
         </a>
         <!--
         <a href="/faq/" class="list-group-item">
