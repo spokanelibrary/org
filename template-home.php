@@ -46,10 +46,12 @@ Template Name: Home Page
   <div class="col-md-3">
 
     <div class="list-group">
+      <!--
       <a href="/chat/" class="list-group-item active">
         <i class="glyphicon glyphicon-comment"></i>
         Live chat
       </a>
+      -->
       <a href="/account/" class="list-group-item">
         My account
       </a>
