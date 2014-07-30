@@ -26,6 +26,7 @@ function spl_get_home_url() {
   )); 
   ?>
   </ul>
+  <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
 </header>
 
 <!--<header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
@@ -79,7 +80,7 @@ function spl_get_home_url() {
     </div>
 
     <div id="spl-account-profile"></div>
-    <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
+
     <div class="pull-right" style="width:220px; margin-top: 10px; margin-right: 10px;">
     <div class="row">
       <div class="col-xs-6">
