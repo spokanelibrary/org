@@ -20,6 +20,29 @@ Template Name: Home Page
 </p>
 
 <div class="row">
+  <div class="col-md-6">
+
+    <?php echo do_shortcode('[spl_carousel auto]'); ?>
+
+  </div><!-- /.col -->
+  <div class="col-md-3">
+    <div class="panel panel-warning" style="border-left-width:5px;">
+      <div class="panel-heading">
+        <i class="glyphicon glyphicon-cloud-download"></i>
+        At the digital branch
+      </div>
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
+        <hr>
+        <small>
+          <a href="/digital/">More research and learning tools</a> &rarr;
+        </small>
+      </div>
+    </div><!-- /.panel -->
+
+    
+
+  </div><!-- /.col -->
   <div class="col-md-3">
     <div class="panel panel-primary" style="border-left-width:5px;">
       <div class="list-group">
@@ -62,31 +85,6 @@ Template Name: Home Page
     </div>
 
   </div><!-- /.col -->
-  
-  <div class="col-md-6">
-
-    <?php echo do_shortcode('[spl_carousel auto]'); ?>
-
-  </div><!-- /.col -->
-  <div class="col-md-3">
-    <div class="panel panel-warning" style="border-left-width:5px;">
-      <div class="panel-heading">
-        <i class="glyphicon glyphicon-cloud-download"></i>
-        At the digital branch
-      </div>
-      <div class="panel-body">
-        <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
-        <hr>
-        <small>
-          <a href="/digital/">More research and learning tools</a> &rarr;
-        </small>
-      </div>
-    </div><!-- /.panel -->
-
-    
-
-  </div><!-- /.col -->
-  
 
 </div><!-- /.row -->
 
