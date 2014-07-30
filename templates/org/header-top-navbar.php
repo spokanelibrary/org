@@ -26,7 +26,6 @@ function spl_get_home_url() {
   )); 
   ?>
   </ul>
-  <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
 </header>
 
 <!--<header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
@@ -70,6 +69,13 @@ function spl_get_home_url() {
   </ul>
 </header>--><!-- /.navbar -->
 
+<header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
+    </div>
+  </div>
+</header>
 
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
