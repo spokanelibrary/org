@@ -44,7 +44,7 @@ Template Name: Home Page
 
   </div><!-- /.col -->
   <div class="col-md-3">
-    <div class="panel panel-primary" style="border-left-width:5px;">
+    <div class="panel panel-primary panel-callout" style="border-left-width:5px;">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-cloud-download"></i>
         Quick links
