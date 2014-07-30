@@ -76,6 +76,7 @@ function spl_get_home_url() {
       <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
         <span class="text-hide"><?php bloginfo('name'); ?></span>
       </a>
+      <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
     </div>
 
     <div id="spl-account-profile"></div>
