@@ -26,7 +26,7 @@ Template Name: Home Page
 
   </div><!-- /.col -->
   <div class="col-md-3">
-    <div class="panel panel-warning" style="border-left-width:5px;">
+    <div class="panel panel-default" style="border-left-width:5px;">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-cloud-download"></i>
         At the digital branch
