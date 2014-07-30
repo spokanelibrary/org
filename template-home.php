@@ -44,7 +44,7 @@ Template Name: Home Page
 
   </div><!-- /.col -->
   <div class="col-md-3">
-
+    <div class="panel panel-default" style="border-left-width:5px;">
     <div class="list-group">
       <!--
       <a href="/chat/" class="list-group-item active">
@@ -81,6 +81,7 @@ Template Name: Home Page
         Questions &amp; Answers
       </a>
       -->
+    </div>
     </div>
 
   </div><!-- /.col -->
