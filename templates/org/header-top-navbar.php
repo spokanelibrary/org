@@ -69,11 +69,11 @@ function spl_get_home_url() {
   </ul>
 </header>--><!-- /.navbar -->
 
-<header class="navbar-common">
+<header class="navbar-inverse">
 <div class="container">
       <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
   </div>
-</div>
+</header>
 
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
