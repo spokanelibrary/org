@@ -45,43 +45,48 @@ Template Name: Home Page
   </div><!-- /.col -->
   <div class="col-md-3">
     <div class="panel panel-primary" style="border-left-width:5px;">
-    <div class="list-group">
-      <!--
-      <a href="/chat/" class="list-group-item active">
-        <i class="glyphicon glyphicon-comment"></i>
-        Live chat
-      </a>
-      -->
-      <a href="/account/" class="list-group-item active">
-        My account
-      </a>
-      <a href="/search/" class="list-group-item">
-        Search the catalog
-      </a>
-      <a href="/search/" class="list-group-item">
-        Is the library open?
-      </a>
-      <a href="/explore/" class="list-group-item">
-        How to find things
-      </a>
-      <a href="/browse/" class="list-group-item">
-        Browse popular titles
-      </a>
-      <a href="/apps/" class="list-group-item">
-        Mobile apps
-      </a>
-      <a href="http://news.spokanelibrary.org" class="list-group-item">
-        Get library news
-      </a>
-      <a href="/connect/" class="list-group-item">
-        Contact the library
-      </a>
-      <!--
-      <a href="/faq/" class="list-group-item">
-        Questions &amp; Answers
-      </a>
-      -->
-    </div>
+      <div class="panel-heading">
+        <i class="glyphicon glyphicon-cloud-download"></i>
+        Quick links
+      </div>
+
+      <div class="list-group">
+        <!--
+        <a href="/chat/" class="list-group-item active">
+          <i class="glyphicon glyphicon-comment"></i>
+          Live chat
+        </a>
+        -->
+        <a href="/account/" class="list-group-item">
+          My account
+        </a>
+        <a href="/search/" class="list-group-item">
+          Search the catalog
+        </a>
+        <a href="/search/" class="list-group-item">
+          Is the library open?
+        </a>
+        <a href="/explore/" class="list-group-item">
+          How to find things
+        </a>
+        <a href="/browse/" class="list-group-item">
+          Browse popular titles
+        </a>
+        <a href="/apps/" class="list-group-item">
+          Mobile apps
+        </a>
+        <a href="http://news.spokanelibrary.org" class="list-group-item">
+          Get library news
+        </a>
+        <a href="/connect/" class="list-group-item">
+          Contact the library
+        </a>
+        <!--
+        <a href="/faq/" class="list-group-item">
+          Questions &amp; Answers
+        </a>
+        -->
+      </div>
     </div>
 
   </div><!-- /.col -->
