@@ -229,10 +229,9 @@ Template Name: Home Page
                     <dl class="dl-horizontal">
                       <dt>
                         <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
+                            class="btn btn-sm btn-block btn-success"
                             title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
-                            <small class="text-success">
-                              learn more &rarr;
-                            </small>
+                              Learn more &rarr;
                         </a>
                       </dt>
                       <dd>
