@@ -88,7 +88,7 @@ Template Name: Home Page
 
 </div><!-- /.row -->
 
-<div class="row" style="margin-top:0px;">
+<div class="row">
 
   <div class="col-md-6">
 
@@ -101,13 +101,14 @@ Template Name: Home Page
       Coming up at your local library
     </h3>
 
+    <div class="alert alert-success">
+      <small>
+        <a href="/calendar/">View events calendar</a> &rarr;
+      </small>
+    </div>
+
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
-    <small>
-      <a href="/calendar/">View events calendar</a> &rarr;
-    </small>
-
-    
   </div><!-- /.col -->
   
   <div class="col-md-6">
