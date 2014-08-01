@@ -180,7 +180,7 @@ Template Name: Home Page
           Coming up soon at your local library branch
         </div>
         <div class="panel-body">
-          <?php echo do_shortcode('[spl_widget calendar-view widget limit=9]'); ?>
+          <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
           <small>
             <a href="/calendar/">View events calendar</a> &rarr;
