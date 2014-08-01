@@ -44,7 +44,7 @@ Template Name: Home Page
 
   </div><!-- /.col -->
   <div class="col-md-3">
-    <div class="panel panel-warning" style="border-left-width:5px;">
+    <div class="panel panel-primary" style="border-left-width:5px;">
       <div class="list-group">
         <!--
         <a href="/chat/" class="list-group-item active">
@@ -112,7 +112,7 @@ Template Name: Home Page
   
   <div class="col-md-6">
     <div class="hidden-xs">
-    <div class="panel panel-warning" style="border-left-width:5px;">
+    <div class="panel panel-default" style="border-left-width:5px;">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-comment text-muted"></i>
         <span class="text-muted">Recently posted on the <a href="/blog/">library blog</a></span>
