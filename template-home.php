@@ -114,8 +114,8 @@ Template Name: Home Page
     <div class="hidden-xs">
     <div class="panel panel-default" style="border-left-width:5px;">
       <div class="panel-heading">
-        <i class="glyphicon glyphicon-comment"></i>
-        Recently posted on the <a href="/blog/">library blog</a>
+        <i class="glyphicon glyphicon-comment text-muted"></i>
+        <span class="text-muted">Recently posted on the <a href="/blog/">library blog</a></span>
       </div>
       <div class="panel-body">
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
