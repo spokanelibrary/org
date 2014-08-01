@@ -173,6 +173,7 @@ Template Name: Home Page
 
     <?php get_template_part('templates/content', 'page'); ?>
 
+    <?php echo do_shortcode('[spl_widget calendar-view widget]'); ?>
 
     <div class="hidden-xs">
       <div class="panel panel-success" style="border-left-width:5px;">
