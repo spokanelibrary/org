@@ -96,26 +96,22 @@ Template Name: Home Page
 
     <?php get_template_part('templates/content', 'page'); ?>
 
-    <div class="hidden-xs">
-      <div class="panel panel-success" style="border-left-width:5px;">
-        <div class="panel-heading">
-          <i class="glyphicon glyphicon-calendar"></i>
+    
+
           Coming up soon at your local library branch
-        </div>
-        <div class="panel-body">
+
           <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
           <small>
             <a href="/calendar/">View events calendar</a> &rarr;
           </small>
-        </div>
-      </div><!-- /.panel -->
-    </div>
+
+    
   </div><!-- /.col -->
   
   <div class="col-md-6">
-
-    <div class="panel panel-default" style="border-left-width:5px;">
+    <div class="hidden-xs">
+    <div class="panel panel-success" style="border-left-width:5px;">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-comment text-muted"></i>
         <span class="text-muted">From the <a href="/blog/">library blog</a></span>
@@ -124,9 +120,9 @@ Template Name: Home Page
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
       </div>
     </div>
-
+    </div>
   </div><!-- /.col -->
-  
+
 </div><!-- /.row -->
 
 <?php
