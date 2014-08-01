@@ -44,7 +44,7 @@ Template Name: Home Page
 
   </div><!-- /.col -->
   <div class="col-md-3">
-    <div class="panel panel-primary" style="border-left-width:5px;">
+    <div class="panel panel-default" style="border-left-width:5px;">
       <div class="list-group">
         <!--
         <a href="/chat/" class="list-group-item active">
@@ -92,7 +92,10 @@ Template Name: Home Page
 
 	<div class="col-md-6">
 
-    <div class="panel panel-default" style="border-left-width:5px;">
+    <div class="panel panel-primary" style="border-left-width:5px;">
+      <div class="panel-heading">
+        From the library blog
+      </div>
       <div class="panel-body">
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
       </div>
