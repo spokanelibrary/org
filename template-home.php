@@ -93,8 +93,8 @@ Template Name: Home Page
 	<div class="col-md-6">
 
     <div class="panel panel-default" style="border-left-width:5px;">
-      <div class="panel-heading text-muted">
-        <i class="glyphicon glyphicon-bullhorn"></i>
+      <div class="panel-heading">
+        <i class="glyphicon glyphicon-bullhorn text-muted"></i>
         From the library blog
       </div>
       <div class="panel-body">
