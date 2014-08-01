@@ -96,7 +96,7 @@ Template Name: Home Page
 
     <?php get_template_part('templates/content', 'page'); ?>
 
-    <h3>Happening soon at your local library</h3>
+    <h3 class="text-success">Happening soon at your local library</h3>
 
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
