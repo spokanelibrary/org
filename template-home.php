@@ -219,9 +219,11 @@ Template Name: Home Page
                     <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
                         title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
                         <?php echo esc_html( $item->get_title() ); ?>
+                        <!--
                         <small class="text-success">
                           learn more &rarr;
                         </small>
+                        -->
                     </a>
                     </h4>
                     <dl class="dl-horizontal">
