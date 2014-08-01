@@ -94,7 +94,7 @@ Template Name: Home Page
 
     <div class="panel panel-default" style="border-left-width:5px;">
       <div class="panel-heading">
-        <i class="glyphicon glyphicon-bullhorn text-muted"></i>
+        <i class="glyphicon glyphicon-comment text-muted"></i>
         <span class="text-muted">From the <a href="/blog/">library blog</a></span>
       </div>
       <div class="panel-body">
