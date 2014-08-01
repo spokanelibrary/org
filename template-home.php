@@ -95,7 +95,7 @@ Template Name: Home Page
     <div class="panel panel-default" style="border-left-width:5px;">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-bullhorn text-muted"></i>
-        <a href="/blog/">From the library blog</a>
+        <span class="text-muted">From the <a href="/blog/">library blog</a></span>
       </div>
       <div class="panel-body">
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
