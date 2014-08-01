@@ -225,7 +225,14 @@ Template Name: Home Page
                     </a>
                     </h4>
                     <dl class="dl-horizontal">
-                      <dt>&nbsp;</dt>
+                      <dt>
+                        <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
+                            title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
+                            <small class="text-success">
+                              learn more &rarr;
+                            </small>
+                        </a>
+                      </dt>
                       <dd>
                       <b><?php echo esc_html( $formatteddatetime[0]['data'] ); ?></b>
                       <br>
