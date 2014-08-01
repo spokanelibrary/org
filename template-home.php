@@ -213,7 +213,7 @@ Template Name: Home Page
                 <?php $location = $item->get_item_tags('urn:ietf:params:xml:ns:xcal', 'location'); ?>
                 <?php $formatteddatetime = $item->get_item_tags('http://schemas.trumba.com/rss/x-trumba', 'formatteddatetime'); ?>
                 <li class="media">
-                  <i class="text-muted pull-left glyphicon glyphicon-dashboard"></i>
+                  <!--<i class="text-muted pull-left glyphicon glyphicon-dashboard"></i>-->
                   <div class="media-body">
                     <h4 class="media-heading">
                     <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
@@ -224,9 +224,13 @@ Template Name: Home Page
                         </small>
                     </a>
                     </h4>
-                    <b><?php echo esc_html( $formatteddatetime[0]['data'] ); ?></b>
-                    <br>
-                    <?php echo esc_html( $location[0]['data'] ); ?>
+                    <dl>
+                      <dd>
+                      <b><?php echo esc_html( $formatteddatetime[0]['data'] ); ?></b>
+                      <br>
+                      <?php echo esc_html( $location[0]['data'] ); ?>
+                      </dd>
+                    </dl>
                   </div>
                 </li>
               <?php endforeach; ?>
