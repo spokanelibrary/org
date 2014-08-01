@@ -107,7 +107,7 @@ Template Name: Home Page
       </small>
     </p>
 
-    <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
+    <?php echo do_shortcode('[spl_widget calendar-view widget limit=10]'); ?>
 
     <p class="text-right text-muted">
       <small>
@@ -128,7 +128,7 @@ Template Name: Home Page
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
         <p class="text-right text-muted">
           <small>
-            <a href="/blog/">Read more on the library blog</a> &rarr;
+            <a href="/blog/">Read more on the library blogho</a> &rarr;
           </small>
         </p>
       </div>
