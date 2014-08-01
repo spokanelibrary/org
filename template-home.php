@@ -109,6 +109,12 @@ Template Name: Home Page
 
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
+    <p class="text-right">
+      <small>
+        <a href="/calendar/">Full events calendar</a> &rarr;
+      </small>
+    </p>
+    
   </div><!-- /.col -->
   
   <div class="col-md-6">
