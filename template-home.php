@@ -118,18 +118,17 @@ Template Name: Home Page
     */
     ?>
 
+    <?php
+    /*
     <div class="hidden-xs">
     
     <!--
     <div class="panel panel-primary panel-callout panel-callout-primary panel-transparent">
     -->
-    <!--
+    
     <h4 class="text-primary" href="http://blog.spokanelibrary.org">
       <a href="#">Recently posted <small>by library bloggers</small></a>
     </h4>
-    -->
-    <?php
-    /*
     <ul class="nav nav-pills">
         <?php if ( $maxitems == 0 ) : ?>
             <li><?php _e( 'No items', 'my-text-domain' ); ?></li>
@@ -151,8 +150,6 @@ Template Name: Home Page
     </div>
     */
     ?>
-
-    <!--
     <div class="panel panel-default" style="margin-top:10px; margin-bottom:6px;">
       <div class="panel-heading">
         <span class="text-muted">
@@ -160,7 +157,7 @@ Template Name: Home Page
         Is the library open now?
         </span>
       </div>
-    </div>--><!-- /.panel -->
+    </div><!-- /.panel -->
     <?php //echo do_shortcode('[spl_widget branch-hours]'); ?>
 
 	</div><!-- /.col -->
