@@ -101,11 +101,11 @@ Template Name: Home Page
       Coming up at your local library
     </h3>
 
-    <div class="alert alert-success">
+    <p class="text-right">
       <small>
-        <a href="/calendar/">View events calendar</a> &rarr;
+        <a href="/calendar/">Full events calendar</a> &rarr;
       </small>
-    </div>
+    </p>
 
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
