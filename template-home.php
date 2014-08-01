@@ -96,15 +96,13 @@ Template Name: Home Page
 
     <?php get_template_part('templates/content', 'page'); ?>
 
-    
+    <h3>Happening soon at your local library</h3>
 
-          Coming up soon at your local library branch
+    <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
-          <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
-
-          <small>
-            <a href="/calendar/">View events calendar</a> &rarr;
-          </small>
+    <small>
+      <a href="/calendar/">View events calendar</a> &rarr;
+    </small>
 
     
   </div><!-- /.col -->
