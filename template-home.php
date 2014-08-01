@@ -90,83 +90,6 @@ Template Name: Home Page
 
 <div class="row" style="margin-top:20px;">
 
-	<div class="col-md-6">
-
-    <div class="panel panel-default" style="border-left-width:5px;">
-      <div class="panel-heading">
-        <i class="glyphicon glyphicon-comment text-muted"></i>
-        <span class="text-muted">From the <a href="/blog/">library blog</a></span>
-      </div>
-      <div class="panel-body">
-        <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
-      </div>
-    </div>
-
-		<?php
-    /*
-    $rss = fetch_feed( 'http://blog.spokanelibrary.org/feed/atom/' );
-
-    if ( ! is_wp_error( $rss ) ) : // Checks that the object is created correctly
-
-        // Figure out how many total items there are, but limit it to 5. 
-        $maxitems = $rss->get_item_quantity( 9 ); 
-
-        // Build an array of all the items, starting with element 0 (first element).
-        $rss_items = $rss->get_items( 0, $maxitems );
-
-    endif;
-    */
-    ?>
-
-    <?php
-    /*
-    <div class="hidden-xs">
-    
-    <!--
-    <div class="panel panel-primary panel-callout panel-callout-primary panel-transparent">
-    -->
-    
-    <h4 class="text-primary" href="http://blog.spokanelibrary.org">
-      <a href="#">Recently posted <small>by library bloggers</small></a>
-    </h4>
-    <ul class="nav nav-pills">
-        <?php if ( $maxitems == 0 ) : ?>
-            <li><?php _e( 'No items', 'my-text-domain' ); ?></li>
-        <?php else : ?>
-            <?php // Loop through each feed item and display each item as a hyperlink. ?>
-            <?php foreach ( $rss_items as $item ) : ?>
-                <li>
-                    <?php //print_r($item); ?>
-                    <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
-                        title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
-                        <small class="glyphicon glyphicon-bullhorn text-muted"></small>
-                        <?php echo esc_html( $item->get_title() ); ?>
-                    </a>
-                </li>
-            <?php endforeach; ?>
-        <?php endif; ?>
-    </ul>
-    <!-- </div> -->
-    </div>
-    */
-    ?>
-
-    <?php
-    /*
-    <div class="panel panel-default" style="margin-top:10px; margin-bottom:6px;">
-      <div class="panel-heading">
-        <span class="text-muted">
-        <i class="glyphicon glyphicon-calendar"></i>
-        Is the library open now?
-        </span>
-      </div>
-    </div><!-- /.panel -->
-    */
-    ?>
-    <?php //echo do_shortcode('[spl_widget branch-hours]'); ?>
-
-	</div><!-- /.col -->
-
   <div class="col-md-6">
 
     <?php //get_template_part('templates/page', 'header'); ?>
@@ -190,4 +113,32 @@ Template Name: Home Page
     </div>
   </div><!-- /.col -->
   
+  <div class="col-md-6">
+
+    <div class="panel panel-default" style="border-left-width:5px;">
+      <div class="panel-heading">
+        <i class="glyphicon glyphicon-comment text-muted"></i>
+        <span class="text-muted">From the <a href="/blog/">library blog</a></span>
+      </div>
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
+      </div>
+    </div>
+
+  </div><!-- /.col -->
+  
 </div><!-- /.row -->
+
+<?php
+/*
+<div class="panel panel-default" style="margin-top:10px; margin-bottom:6px;">
+  <div class="panel-heading">
+    <span class="text-muted">
+    <i class="glyphicon glyphicon-calendar"></i>
+    Is the library open now?
+    </span>
+  </div>
+</div><!-- /.panel -->
+*/
+?>
+<?php //echo do_shortcode('[spl_widget branch-hours]'); ?>
