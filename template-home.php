@@ -225,6 +225,7 @@ Template Name: Home Page
                     </a>
                     </h4>
                     <dl class="dl-horizontal">
+                      <dt>&nbsp;</dt>
                       <dd>
                       <b><?php echo esc_html( $formatteddatetime[0]['data'] ); ?></b>
                       <br>
