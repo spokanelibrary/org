@@ -150,6 +150,9 @@ Template Name: Home Page
     </div>
     */
     ?>
+
+    <?php
+    /*
     <div class="panel panel-default" style="margin-top:10px; margin-bottom:6px;">
       <div class="panel-heading">
         <span class="text-muted">
@@ -158,6 +161,8 @@ Template Name: Home Page
         </span>
       </div>
     </div><!-- /.panel -->
+    */
+    ?>
     <?php //echo do_shortcode('[spl_widget branch-hours]'); ?>
 
 	</div><!-- /.col -->
