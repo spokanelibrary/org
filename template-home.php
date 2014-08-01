@@ -112,7 +112,7 @@ Template Name: Home Page
   
   <div class="col-md-6">
     <div class="hidden-xs">
-    <div class="panel panel-success" style="border-left-width:5px;">
+    <div class="panel panel-default" style="border-left-width:5px;">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-comment"></i>
         Recently posted on the <a href="/blog/">library blog</a>
