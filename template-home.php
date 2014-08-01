@@ -182,69 +182,6 @@ Template Name: Home Page
         <div class="panel-body">
           <?php echo do_shortcode('[spl_widget calendar-view widget limit=6]'); ?>
 
-          <?php
-          $rss = fetch_feed( 'http://www.trumba.com/calendars/spls-calendar.rss' );
-          
-          if ( ! is_wp_error( $rss ) ) : // Checks that the object is created correctly
-
-              // Figure out how many total items there are, but limit it to 5. 
-              $maxitems = $rss->get_item_quantity( 9 ); 
-
-              // Build an array of all the items, starting with element 0 (first element).
-              $rss_items = $rss->get_items( 0, $maxitems );
-
-          endif;
-          
-          //print_r($rss_items);
-
-          ?>
-
-
-   
-
-
-          <ul class="media-list">
-            <?php if ( $maxitems == 0 ) : ?>
-                <li class="media"><?php _e( 'No items', 'my-text-domain' ); ?></li>
-            <?php else : ?>
-              <?php // Loop through each feed item and display each item as a hyperlink. ?>
-              <?php foreach ( $rss_items as $item ) : ?> 
-                <?php $location = $item->get_item_tags('urn:ietf:params:xml:ns:xcal', 'location'); ?>
-                <?php $formatteddatetime = $item->get_item_tags('http://schemas.trumba.com/rss/x-trumba', 'formatteddatetime'); ?>
-                <li class="media">
-                  <!--<i class="text-muted pull-left glyphicon glyphicon-dashboard"></i>-->
-                  <div class="media-body">
-                    <h4 class="media-heading">
-                    <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
-                        title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
-                        <?php echo esc_html( $item->get_title() ); ?>
-                        <!--
-                        <small class="text-success">
-                          learn more &rarr;
-                        </small>
-                        -->
-                    </a>
-                    </h4>
-                    <dl class="dl-horizontal">
-                      <dt>
-                        <a href="<?php echo esc_url( $item->get_permalink() ); ?>"
-                            class="btn btn-sm btn-block btn-success"
-                            title="<?php printf( __( 'Posted %s', 'my-text-domain' ), $item->get_date('j F Y | g:i a') ); ?>">
-                              Learn more &rarr;
-                        </a>
-                      </dt>
-                      <dd>
-                      <b><?php echo esc_html( $formatteddatetime[0]['data'] ); ?></b>
-                      <br>
-                      <?php echo esc_html( $location[0]['data'] ); ?>
-                      </dd>
-                    </dl>
-                  </div>
-                </li>
-              <?php endforeach; ?>
-            <?php endif; ?>
-          </ul>
-
           <small>
             <a href="/calendar/">View events calendar</a> &rarr;
           </small>
