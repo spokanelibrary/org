@@ -92,9 +92,14 @@ Template Name: Home Page
 
 	<div class="col-md-6">
 
-    <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
+    <div class="panel panel-default" style="border-left-width:5px;">
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
+      </div>
+    </div>
 
 		<?php
+    /*
     $rss = fetch_feed( 'http://blog.spokanelibrary.org/feed/atom/' );
 
     if ( ! is_wp_error( $rss ) ) : // Checks that the object is created correctly
@@ -106,6 +111,7 @@ Template Name: Home Page
         $rss_items = $rss->get_items( 0, $maxitems );
 
     endif;
+    */
     ?>
 
     <div class="hidden-xs">
