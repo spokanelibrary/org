@@ -173,8 +173,6 @@ Template Name: Home Page
 
     <?php get_template_part('templates/content', 'page'); ?>
 
-    <?php echo do_shortcode('[spl_widget calendar-view widget]'); ?>
-
     <div class="hidden-xs">
       <div class="panel panel-success" style="border-left-width:5px;">
         <div class="panel-heading">
@@ -182,7 +180,7 @@ Template Name: Home Page
           Coming up soon at your local library branch
         </div>
         <div class="panel-body">
-          <?php //echo do_shortcode('[events_list scope="2-months" limit="5" country="US"]#_EVENTLINK <br> <small class="muted">@ #_LOCATIONLINK</small> <br> <small><b>#_EVENTDATES</b> #_EVENTTIMES</small> <br>  <small>#_EVENTEXCERPT{20,...}</small> <hr>[/events_list]'); ?>
+          <?php echo do_shortcode('[spl_widget calendar-view widget]'); ?>
           
           <?php
           $rss = fetch_feed( 'http://www.trumba.com/calendars/spls-calendar.rss' );
