@@ -1,0 +1,1 @@
+<input type="hidden" class="form-control" id="spl-form-barcode" name="spl-form[barcode]">

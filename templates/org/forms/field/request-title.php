@@ -85,6 +85,7 @@
               </p>
               <?php include 'common/shared/field-contact-name.php'; ?>
               <?php include 'common/shared/field-contact-info.php'; ?>
+              <?php include 'common/shared/field-contact-barcode-hidden.php'; ?>
             </div>
             <div class="col-md-8 col-md-offset-4">
               <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#spl-form-request-edit-contact">

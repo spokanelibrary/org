@@ -107,7 +107,7 @@ Template Name: Home Page
       </small>
     </p>
 
-    <?php echo do_shortcode('[spl_widget calendar-view widget limit=10]'); ?>
+    <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
     <p class="text-right text-muted">
       <small>
