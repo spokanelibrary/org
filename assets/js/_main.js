@@ -42,7 +42,7 @@ var ORG = {
       }
     } else {
       this.user = user;
-      //console.log( this.user );
+      console.log( this.user );
       $profile = $('#spl-account-profile');
       tmpl = Handlebars.compile( $('#spl-account-profile-tmpl').html() );
       $profile.html( tmpl({user:this.user}) );
