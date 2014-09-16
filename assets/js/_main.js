@@ -66,7 +66,7 @@ var ORG = {
 
 , loadUserFormFields: function(user) {
     $('.spl-login').hide();
-    console.log(user);  
+    //console.log(user);  
     if ( user && $('.spl-form') ) {
       
       var name = '';
@@ -80,6 +80,10 @@ var ORG = {
       
       if ( user.borrowerBarcode ) {
         $('#spl-form-barcode').val(user.borrowerBarcode);
+      }
+
+      if ( user.borrower ) {
+        $('#spl-form-borrower').val(user.borrower);
       }
 
       if ( user.phone ) {
