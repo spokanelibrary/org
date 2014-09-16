@@ -66,7 +66,7 @@ var ORG = {
 
 , loadUserFormFields: function(user) {
     $('.spl-login').hide();
-    //console.log(user);  
+    console.log(user);  
     if ( user && $('.spl-form') ) {
       
       var name = '';
