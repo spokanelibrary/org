@@ -23,7 +23,7 @@ var ORG = {
   config: config
 
 , setUser: function (user) {
-    console.log(user);
+    //console.log(user);
     if ( user && user.sessionToken ) {
       this.user = user;
     } else{
