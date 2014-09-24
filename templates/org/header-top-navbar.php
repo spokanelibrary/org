@@ -145,6 +145,11 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
+<header class="navbar-primary banner navbar navbar-inverse navbar-static-top" style="padding-top: 2px; margin-bottom:0;" role="search">
+  <div class="container">
+    <?php echo do_shortcode('[spl_widget enterprise-search]'); ?>
+  </div>
+</header>
 
 <header class="navbar-primary banner navbar navbar-inverse navbar-static-top" style="margin-bottom:0;" role="banner">
   <div class="container">
@@ -169,10 +174,5 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
-<header class="navbar-primary banner navbar navbar-default navbar-static-top" style="padding-top: 2px;" role="search">
-  <div class="container">
-    <?php echo do_shortcode('[spl_widget enterprise-search]'); ?>
-  </div>
-</header>
 
 
