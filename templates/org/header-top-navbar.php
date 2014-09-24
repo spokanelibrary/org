@@ -171,7 +171,7 @@ function spl_get_home_url() {
 
 <header class="navbar-primary banner navbar navbar-default navbar-static-top" style="padding-top: 2px;" role="search">
   <div class="container">
-    <input type="text" class="form-control">
+    <?php echo do_shortcode('[spl_widget enterprise-search]'); ?>
   </div>
 </header>
 
