@@ -169,4 +169,8 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
+<header class="navbar-primary banner navbar navbar-inverse navbar-static-top" role="searc">
+  <input type="text" class="form-control">
+</header>
+
 
