@@ -146,7 +146,7 @@ function spl_get_home_url() {
 </header><!-- /.navbar -->
 
 
-<header class="navbar-primary banner navbar navbar-inverse navbar-static-top" style="margin-bottom:0;" role="banner">
+<header class="navbar-primary banner navbar navbar-inverse navbar-static-top" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -169,10 +169,8 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
-<header class="navbar-primary banner navbar navbar-inverse navbar-static-top" style="padding-top: 2px;" role="search">
-  <div class="container">
+<div class="container">
     <input type="text" class="form-control">
-  </div>
-</header>
+</div>
 
 
