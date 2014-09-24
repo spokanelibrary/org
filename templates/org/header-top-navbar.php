@@ -169,8 +169,10 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
-<div class="container">
+<header class="navbar-primary banner navbar navbar-default navbar-static-top" style="padding-top: 2px;" role="search">
+  <div class="container">
     <input type="text" class="form-control">
-</div>
+  </div>
+</header>
 
 
