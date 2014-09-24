@@ -104,6 +104,7 @@ function spl_get_home_url() {
           <a class="btn btn-block btn-default btn-sm text-info" 
             href="/about/" 
             title="">
+            <small class="text-muted glyphicon glyphicon-info-sign"></small>
             <b>About Us</b></a>
         </p>
       </div><!-- /.col -->
