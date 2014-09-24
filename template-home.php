@@ -7,11 +7,11 @@ Template Name: Home Page
 
 <div class="row">
   <div class="col-md-6">
-    <?php echo do_shortcode('[spl_widget search-catalog]'); ?>
+    <?php //echo do_shortcode('[spl_widget search-catalog]'); ?>
   </div><!-- /.col -->
   <div class="col-md-6">
     <div class="hidden-xs">
-      <?php echo do_shortcode('[spl_widget login-form]'); ?>
+      <?php //echo do_shortcode('[spl_widget login-form]'); ?>
     </div>
   </div><!-- /.col -->
 </div><!-- /.row -->
