@@ -23,7 +23,7 @@ Template Name: Home Page
 
 <div class="visible-sm">
    
-<div class="navbar navbar-inverse" style="background:transparent; margin-bottom:0;">
+<div class="navbar navbar-inverse" style="background:transparent; border:none;">
     
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
