@@ -33,9 +33,6 @@ Template Name: Home Page
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand hidden-md hidden-lg" href="<?php echo spl_get_home_url(); ?>/">
-        <span class="logotype"><?php bloginfo('name'); ?></span>
-      </a>
     </div>
 </header>
 
