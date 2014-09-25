@@ -136,7 +136,7 @@ Template Name: Home Page
         </h3> 
         <p class="text-right text-muted">
           <small>
-            <a href="/blog/">Read more on the library blog</a> &rarr; &rarr;
+            <a href="/blog/">Read more on the library blog</a> &rarr;
           </small>
         </p>
 
