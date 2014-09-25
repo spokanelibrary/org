@@ -42,6 +42,7 @@ Template Name: Home Page
   </div><!-- /.col -->
 
   <div class="col-md-3">  
+    <?php get_template_part('templates/content', 'page'); ?>
   </div><!-- /.col -->
 
   <!--<div class="col-md-3">
@@ -86,7 +87,7 @@ Template Name: Home Page
 
     <?php //get_template_part('templates/page', 'header'); ?>
 
-    <?php get_template_part('templates/content', 'page'); ?>
+    <?php //get_template_part('templates/content', 'page'); ?>
 
     <h3 class="text-success">
       <i class="glyphicon glyphicon-calendar"></i> 
