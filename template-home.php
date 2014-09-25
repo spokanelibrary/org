@@ -25,7 +25,7 @@ Template Name: Home Page
   <p>
     <b>Tip:</b>
 
-      <button type="button" class="navbar-toggle" data-toggle="collapse in" data-target=".navbar-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse in" data-target="">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
