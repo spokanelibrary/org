@@ -49,10 +49,6 @@ Template Name: Home Page
       </div>
       <div class="panel-body">
         <?php get_template_part('templates/content', 'page'); ?>
-        <hr>
-        <small>
-          <a href="/digital/">More research and learning tools</a> &rarr;
-        </small>
       </div>
     </div><!-- /.panel -->
   </div><!-- /.col -->
