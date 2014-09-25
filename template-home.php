@@ -19,6 +19,42 @@ Template Name: Home Page
 <p class="hidden-md hidden-lg">
 </p>
 
+<div class="row visible-xs">
+  <div class="col-xs-12">
+    <div class="panel panel-primary" style="border-left-width:5px;">
+      <div class="list-group">
+
+        <a href="/account/" class="list-group-item">
+          <span class="text-primary">My account</span> &rarr;
+        </a>
+        <a href="/search/" class="list-group-item">
+          <span class="text-primary">Search the catalog</span> &rarr;
+        </a>
+        <a href="/search/" class="list-group-item">
+          <span class="text-primary">Is the library open?</span> &rarr;
+        </a>
+        <a href="/explore/" class="list-group-item">
+          <span class="text-primary">How to find things</span> &rarr;
+        </a>
+        <a href="/browse/" class="list-group-item">
+          <span class="text-primary">Browse popular titles</span> &rarr;
+        </a>
+        <a href="/apps/" class="list-group-item">
+          <span class="text-primary">Mobile apps</span> &rarr;
+        </a>
+        <a href="http://news.spokanelibrary.org" class="list-group-item">
+          <span class="text-primary">Get library news</span> &rarr;
+        </a>
+        <a href="/connect/" class="list-group-item">
+          <span class="text-primary">Contact the library</span> &rarr;
+        </a>
+
+      </div>
+    </div>
+
+  </div><!-- /.col -->
+</div><!-- /.row -->
+
 <div class="row">
   
   <div class="col-md-6">
