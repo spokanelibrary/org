@@ -28,7 +28,7 @@ Template Name: Home Page
       <b>Tip: use the toggle (upper right)</b>
     </span>
 
-    <button type="button" style="float:none; margin-top:0;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    <button type="button" style="float:none; margin-top:0; margin-right:0;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
