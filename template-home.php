@@ -25,9 +25,6 @@ Template Name: Home Page
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-3">  
-  </div><!-- /.col -->
-
   <div class="col-md-3">
     <div class="panel panel-warning" style="border-left-width:5px;">
       <div class="panel-heading">
@@ -42,6 +39,9 @@ Template Name: Home Page
         </small>
       </div>
     </div><!-- /.panel -->
+  </div><!-- /.col -->
+
+  <div class="col-md-3">  
   </div><!-- /.col -->
 
   <!--<div class="col-md-3">
