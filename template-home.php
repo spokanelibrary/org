@@ -16,8 +16,10 @@ Template Name: Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
+<!--
 <p class="hidden-md hidden-lg">
 </p>
+-->
 
 <div class="row visible-xs">
   <div class="col-xs-12">
