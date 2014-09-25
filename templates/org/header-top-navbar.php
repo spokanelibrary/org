@@ -16,10 +16,6 @@ function spl_get_home_url() {
 }(document, 'script', 'facebook-jssdk'));*/</script>  
 
 <header class="navbar-common navbar-fixed-top">
-  
-<div class="container">
-    <?php echo do_shortcode('[spl_widget enterprise-search]'); ?>
-  </div>
   <ul class="nav nav-justified">
   <?php 
   wp_nav_menu( 
@@ -30,7 +26,6 @@ function spl_get_home_url() {
   )); 
   ?>
   </ul>
-
 </header>
 
 <!--<header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
