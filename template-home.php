@@ -26,7 +26,7 @@ Template Name: Home Page
     <b>Tip:</b>
 
 <header class="navbar-primary banner navbar navbar-inverse navbar-static-top" style="margin-bottom:0;" role="banner">
-    <div class="navbar-header">
+    
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -34,7 +34,7 @@ Template Name: Home Page
         <span class="icon-bar"></span>
       </button>
       Test
-    </div>
+   
 </header>
 
 
