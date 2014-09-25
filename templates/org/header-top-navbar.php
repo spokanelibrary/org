@@ -26,6 +26,9 @@ function spl_get_home_url() {
   )); 
   ?>
   </ul>
+  <div class="container">
+    <?php echo do_shortcode('[spl_widget enterprise-search]'); ?>
+  </div>
 </header>
 
 <!--<header class="navbar-common banner navbar navbar-fixed-top" role="navigation">
