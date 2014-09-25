@@ -37,9 +37,6 @@ Template Name: Home Page
         <span class="logotype"><?php bloginfo('name'); ?></span>
       </a>
     </div>
-    <nav class="collapse navbar-collapse" role="navigation">
-
-    </nav>
 </header>
 
 
