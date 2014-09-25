@@ -22,7 +22,7 @@ Template Name: Home Page
 -->
 
 <div class="visible-sm">
-  <div class="navbar navbar-inverse" style="background:transparent; border:none;">
+  <div class="navbar navbar-inverse" style="margin-top: 10px; margin-bottom: 10px; background:transparent; border:none;">
       
     <span class="text-muted">
     <b>Tip:</b>
