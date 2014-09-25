@@ -25,7 +25,7 @@ Template Name: Home Page
   <div class="navbar navbar-inverse" style="margin-top: 0px; margin-bottom: 0px; background:transparent; border:none;">
       
     <span class="text-muted">
-    <b>Tip:</b>
+    <b>Tip: use the toggle (upper right)</b>
     </span>
 
     <button type="button" style="float:none; margin-top:0;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -34,6 +34,10 @@ Template Name: Home Page
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
+
+    <span class="text-muted">
+    to browse this website.</b>
+    </span>
      
   </div>
 </div>
