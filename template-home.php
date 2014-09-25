@@ -132,7 +132,7 @@ Template Name: Home Page
     -->   
         <h3 class="text-success">
           <i class="glyphicon glyphicon-comment"></i> 
-          Recently posted
+          From the reference desk
         </h3> 
         <p class="text-right text-muted">
           <small>
