@@ -44,8 +44,8 @@ Template Name: Home Page
   <div class="col-md-3">  
     <div class="panel panel-warning" style="border-left-width:5px;">
       <div class="panel-heading">
-        <i class="glyphicon glyphicon-cloud-download"></i>
-        At the digital branch
+        <i class="glyphicon glyphicon-bullhorn"></i>
+        Bulletin board
       </div>
       <div class="panel-body">
         <?php get_template_part('templates/content', 'page'); ?>
