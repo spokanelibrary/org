@@ -222,7 +222,7 @@ function spl_resources( $params ) {
 
 
           $output .= '
-                      <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="col-md-6">
                       <div class="panel panel-default" id="'.$post->post_name.'">
                       <div class="panel-heading panel-transparent">
                       <h4>
