@@ -35,7 +35,7 @@ Template Name: Home Page
         <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
         <hr>
         <small>
-          <a href="/digital/">More research and learning tools</a> &rarr;
+          <a href="/digital/">Discover the digital branch</a> &rarr;
         </small>
       </div>
     </div><!-- /.panel -->
