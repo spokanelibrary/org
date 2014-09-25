@@ -20,7 +20,7 @@ Template Name: Home Page
 </p>
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-9">
 
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
 
