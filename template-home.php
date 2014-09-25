@@ -43,7 +43,7 @@ Template Name: Home Page
 
   <div class="col-md-3">  
     <div class="panel panel-primary" style="border-left-width:5px;">
-      <div class="panel-heading">
+      <div class="panel-heading" style="border-radius:0;">
         <i class="glyphicon glyphicon-bullhorn"></i>
         Announcements
       </div>
