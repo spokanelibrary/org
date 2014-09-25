@@ -42,7 +42,19 @@ Template Name: Home Page
   </div><!-- /.col -->
 
   <div class="col-md-3">  
-    <?php get_template_part('templates/content', 'page'); ?>
+    <div class="panel panel-warning" style="border-left-width:5px;">
+      <div class="panel-heading">
+        <i class="glyphicon glyphicon-cloud-download"></i>
+        At the digital branch
+      </div>
+      <div class="panel-body">
+        <?php get_template_part('templates/content', 'page'); ?>
+        <hr>
+        <small>
+          <a href="/digital/">More research and learning tools</a> &rarr;
+        </small>
+      </div>
+    </div><!-- /.panel -->
   </div><!-- /.col -->
 
   <!--<div class="col-md-3">
