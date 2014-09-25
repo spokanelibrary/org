@@ -20,72 +20,12 @@ Template Name: Home Page
 </p>
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-12">
 
     <?php echo do_shortcode('[spl_carousel auto]'); ?>
 
   </div><!-- /.col -->
-  <div class="col-md-3">
-    <div class="panel panel-warning" style="border-left-width:5px;">
-      <div class="panel-heading">
-        <i class="glyphicon glyphicon-cloud-download"></i>
-        At the digital branch
-      </div>
-      <div class="panel-body">
-        <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
-        <hr>
-        <small>
-          <a href="/digital/">More research and learning tools</a> &rarr;
-        </small>
-      </div>
-    </div><!-- /.panel -->
-
-    
-
-  </div><!-- /.col -->
-  <div class="col-md-3">
-    <div class="panel panel-primary" style="border-left-width:5px;">
-      <div class="list-group">
-        <!--
-        <a href="/chat/" class="list-group-item active">
-          <i class="glyphicon glyphicon-comment"></i>
-          Live chat
-        </a>
-        -->
-        <a href="/account/" class="list-group-item">
-          <span class="text-primary">My account</span> &rarr;
-        </a>
-        <a href="/search/" class="list-group-item">
-          <span class="text-primary">Search the catalog</span> &rarr;
-        </a>
-        <a href="/search/" class="list-group-item">
-          <span class="text-primary">Is the library open?</span> &rarr;
-        </a>
-        <a href="/explore/" class="list-group-item">
-          <span class="text-primary">How to find things</span> &rarr;
-        </a>
-        <a href="/browse/" class="list-group-item">
-          <span class="text-primary">Browse popular titles</span> &rarr;
-        </a>
-        <a href="/apps/" class="list-group-item">
-          <span class="text-primary">Mobile apps</span> &rarr;
-        </a>
-        <a href="http://news.spokanelibrary.org" class="list-group-item">
-          <span class="text-primary">Get library news</span> &rarr;
-        </a>
-        <a href="/connect/" class="list-group-item">
-          <span class="text-primary">Contact the library</span> &rarr;
-        </a>
-        <!--
-        <a href="/faq/" class="list-group-item">
-          Questions &amp; Answers
-        </a>
-        -->
-      </div>
-    </div>
-
-  </div><!-- /.col -->
-
+  
 </div><!-- /.row -->
 
 <div class="row">
