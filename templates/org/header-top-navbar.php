@@ -180,7 +180,10 @@ function spl_get_home_url() {
 <!--
 <header class="navbar-primary banner navbar navbar-default navbar-static-top" style="padding-top: 2px;" role="search">
 -->
-<header class="navbar navbar-default" style="padding-top: 2px; border-bottom:none;">
+<!--
+<header class="navbar navbar-default" style="padding-top: 2px;">
+-->
+<header style="margin: 10px 0;"
   <div class="container">
     <?php echo do_shortcode('[spl_widget enterprise-search]'); ?>
   </div>
