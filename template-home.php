@@ -42,7 +42,7 @@ Template Name: Home Page
   </div><!-- /.col -->
 
   <div class="col-md-3">  
-    <div class="panel panel-warning" style="border-left-width:5px;">
+    <div class="panel panel-primary" style="border-left-width:5px;">
       <div class="panel-heading">
         <i class="glyphicon glyphicon-bullhorn"></i>
         Announcements
@@ -143,7 +143,7 @@ Template Name: Home Page
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
         
         <p>&nbsp;</p>
-        
+
         <p class="text-right text-muted">
           <small>
             <a href="/blog/">Read more on the library blog</a> &rarr;
