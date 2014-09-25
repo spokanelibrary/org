@@ -141,6 +141,9 @@ Template Name: Home Page
         </p>
 
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
+        
+        <p>&nbsp;</p>
+        
         <p class="text-right text-muted">
           <small>
             <a href="/blog/">Read more on the library blog</a> &rarr;
