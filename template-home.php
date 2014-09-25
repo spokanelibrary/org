@@ -21,6 +21,11 @@ Template Name: Home Page
 </p>
 -->
 
+<div class="visible-sm">
+  <b>Tip:</b>
+</div>
+
+
 <div class="row visible-xs">
   <div class="col-xs-12">
     <div class="panel panel-primary" style="border-left-width:5px;">
