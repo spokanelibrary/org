@@ -22,25 +22,20 @@ Template Name: Home Page
 -->
 
 <div class="visible-sm">
-   
-<div class="navbar navbar-inverse" style="background:transparent; border:none;">
-    
-      <span class="text-muted">
-      <b>Tip:</b>
-      </span>
+  <div class="navbar navbar-inverse" style="background:transparent; border:none;">
       
-      <button type="button" style="float:left" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      
+    <span class="text-muted">
+    <b>Tip:</b>
+    </span>
 
-   
-</div>
-
-
+    <button type="button" style="float:left; padding-top:0; margin-top:0;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+     
+  </div>
 </div>
 
 
