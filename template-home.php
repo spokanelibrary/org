@@ -22,10 +22,8 @@ Template Name: Home Page
 -->
 
 <div class="visible-sm">
-  <p>
-    <b>Tip:</b>
-
-<header class="navbar" style="margin-bottom:0;" role="banner">
+   
+<div class="navbar navbar-inverse" style="background:transparent; margin-bottom:0;">
     
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -33,12 +31,12 @@ Template Name: Home Page
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      Test
+      <b>Tip:</b>
+
    
-</header>
+</div>
 
 
-  </p>
 </div>
 
 
