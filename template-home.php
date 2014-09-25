@@ -130,8 +130,14 @@ Template Name: Home Page
     -->   
         <h3 class="text-success">
           <i class="glyphicon glyphicon-comment"></i> 
-          Recently posted on the <a href="/blog/">library blog</a>
+          Recently posted
         </h3> 
+        <p class="text-right text-muted">
+          <small>
+            <a href="/blog/">Read more on the library blog</a> &rarr; &rarr;
+          </small>
+        </p>
+
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
         <p class="text-right text-muted">
           <small>
