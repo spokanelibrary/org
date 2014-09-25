@@ -22,7 +22,9 @@ Template Name: Home Page
 -->
 
 <div class="visible-sm">
-  <b>Tip:</b>
+  <p>
+    <b>Tip:</b>
+  </p>
 </div>
 
 
