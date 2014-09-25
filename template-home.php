@@ -43,15 +43,10 @@ Template Name: Home Page
     
 
   </div><!-- /.col -->
-  <div class="col-md-3">
+  <!--<div class="col-md-3">
     <div class="panel panel-primary" style="border-left-width:5px;">
       <div class="list-group">
-        <!--
-        <a href="/chat/" class="list-group-item active">
-          <i class="glyphicon glyphicon-comment"></i>
-          Live chat
-        </a>
-        -->
+
         <a href="/account/" class="list-group-item">
           <span class="text-primary">My account</span> &rarr;
         </a>
@@ -76,15 +71,11 @@ Template Name: Home Page
         <a href="/connect/" class="list-group-item">
           <span class="text-primary">Contact the library</span> &rarr;
         </a>
-        <!--
-        <a href="/faq/" class="list-group-item">
-          Questions &amp; Answers
-        </a>
-        -->
+
       </div>
     </div>
 
-  </div><!-- /.col -->
+  </div>--><!-- /.col -->
 
 </div><!-- /.row -->
 
