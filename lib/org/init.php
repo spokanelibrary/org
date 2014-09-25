@@ -222,7 +222,7 @@ function spl_resources( $params ) {
 
 
           $output .= '
-                      <div class="col-md-6 col-lg-3">
+                      <!--<div class="col-md-6 col-lg-3">-->
                       <div class="panel panel-default" id="'.$post->post_name.'">
                       <div class="panel-heading panel-transparent">
                       <h4>
@@ -244,7 +244,7 @@ function spl_resources( $params ) {
                       <a class="btn btn-sm btn-primary pull-right" href="#top">Top <small class="glyphicon glyphicon-arrow-up"></small></a>
                       </div>
                       -->
-                      </div>
+                      <!--</div>-->
                       </div>'.PHP_EOL;  
 
       endwhile; 
