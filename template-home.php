@@ -25,11 +25,24 @@ Template Name: Home Page
   <p>
     <b>Tip:</b>
 
-      <button type="button" class="btn btn-primary">
+<header class="navbar-primary banner navbar navbar-inverse navbar-static-top" style="margin-bottom:0;" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      <a class="navbar-brand hidden-md hidden-lg" href="<?php echo spl_get_home_url(); ?>/">
+        <span class="logotype"><?php bloginfo('name'); ?></span>
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+
+    </nav>
+  </div>
+</header>
 
 
   </p>
