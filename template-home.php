@@ -158,11 +158,16 @@ Template Name: Home Page
     <h2>
       <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
     </h2>
+    <p class="text-right text-muted">
+      <small>
+        <a href="/news/">Read Library News</a> &rarr;
+      </small>
+    </p>
   </div><!-- /.col -->
   <div class="col-md-6">
-    <h3>
+    <h4 class="text-muted">
       Also in this issue&hellip;
-    </h3>
+    </h4>
 
     <ul class="list-unstyled">
       <li><a href="#">Digital Literacy – Part of the Library’s Educational Curriculum</a></li>
