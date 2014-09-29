@@ -175,6 +175,16 @@ Template Name: Home Page
       Also in this issue
     </h3>
 
+    <ul>
+      <li>Digital Literacy – Part of the Library’s Educational Curriculum</li>
+      <li>A Decade of Dedication from our Friends</li>
+      <li>School! Homework! – Dewey Can Help (649, 372)</li>
+      <li>Back to School - 5 Songs from Freegal</li>
+      <li>Spokane is Reading: Swamplandia!</li>
+      <li>Don't Miss the Friends Book Sale!</li>
+      <li>Art!</li>
+    </ul>
+
   </div><!-- /.col -->
 
 </div><!-- /.row --> 
