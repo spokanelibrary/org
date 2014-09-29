@@ -177,13 +177,13 @@ Template Name: Home Page
     </h3>
 
     <ul class="list-unstyled">
-      <li>Digital Literacy – Part of the Library’s Educational Curriculum</li>
-      <li>A Decade of Dedication from our Friends</li>
-      <li>School! Homework! – Dewey Can Help (649, 372)</li>
-      <li>Back to School - 5 Songs from Freegal</li>
-      <li>Spokane is Reading: Swamplandia!</li>
-      <li>Don't Miss the Friends Book Sale!</li>
-      <li>Art!</li>
+      <li><a href="#">Digital Literacy – Part of the Library’s Educational Curriculum</a></li>
+      <li><a href="#">A Decade of Dedication from our Friends</a></li>
+      <li><a href="#">School! Homework! – Dewey Can Help (649, 372)</a></li>
+      <li><a href="#">Back to School - 5 Songs from Freegal</a></li>
+      <li><a href="#">Spokane is Reading: Swamplandia!</a></li>
+      <li><a href="#">Don't Miss the Friends Book Sale!</a></li>
+      <li><a href="#">Art!</a></li>
     </ul>
 
   </div><!-- /.col -->
