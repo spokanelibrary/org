@@ -171,12 +171,9 @@ Template Name: Home Page
         Read the latest: <b>Library News</b>
       </div>
       <div class="panel-body">
-        <p>
-          We’ll keep you informed of new service offerings, as well as upcoming events and activities at your local library.
-        </p>
-        <p>
-          Library News is published monthly, with occasional special editions.
-        </p>
+        <h2>
+          <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
+        </h2>
       </div>
     </div><!-- /.panel -->
   </div><!-- /.col -->
