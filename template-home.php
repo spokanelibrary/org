@@ -158,7 +158,7 @@ Template Name: Home Page
       <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
     </h2>
     
-    <a class="btn btn-primary pull-right" href="/news/">Read Library News</a> &rarr;
+    <a class="btn btn-primary btn-sm pull-right" href="/news/">Read Library News &rarr;</a>
       
   </div><!-- /.col -->
   <div class="col-md-6">
