@@ -151,6 +151,23 @@ Template Name: Home Page
 <div class="row">
 
   <div class="col-md-6">
+    <h3 class="text-success">
+      <i class="glyphicon glyphicon-bullhorn"></i> 
+      Library News
+    </h3>
+  </div>--><!-- /.col -->
+
+  <div class="col-md-6">
+    asdf
+  </div>--><!-- /.col -->
+
+</div><!-- /.row --> 
+
+<hr>
+
+<div class="row">
+
+  <div class="col-md-6">
 
     <?php //get_template_part('templates/page', 'header'); ?>
 
