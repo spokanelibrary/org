@@ -156,13 +156,19 @@ Template Name: Home Page
       <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
     </h2>
 
+    <p class="text-right text-muted">
+      <small>
+        <a href="/news/">Read Library News</a> &rarr;
+      </small>
+    </p>
+
   </div><!-- /.col -->
 
   <div class="col-md-6">
     <div class="panel panel-success" style="border-left-width:5px;">
       <div class="panel-heading" style="border-radius:0;">
         <i class="glyphicon glyphicon-bullhorn"></i>
-        Read the latest: <a href="#">Library News</a>
+        Read the latest: <b>Library News</b>
       </div>
       <div class="panel-body">
         <p>
