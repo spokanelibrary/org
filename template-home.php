@@ -162,13 +162,17 @@ Template Name: Home Page
     <div class="panel panel-success" style="border-left-width:5px;">
       <div class="panel-heading" style="border-radius:0;">
         <i class="glyphicon glyphicon-bullhorn"></i>
-        Also in the latest issue of <a href="#">Library News</a>
+        Read the latest: <a href="#">Library News</a>
       </div>
       <div class="panel-body">
-        <ul>
-          <li>Digital Literacy – Part of the Library’s Educational Curriculum</li>
-          <li>A Decade of Dedication from our Friends</li>
-        </ul>
+        <p>
+        </p>
+        <p>
+          We’ll keep you informed of new service offerings, as well as upcoming events and activities at your local library.
+        </p>
+        <p>
+          Library News is published monthly, with occasional special editions.
+        </p>
       </div>
     </div><!-- /.panel -->
   </div><!-- /.col -->
