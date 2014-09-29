@@ -157,9 +157,11 @@ Template Name: Home Page
     <h2>
       <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
     </h2>
-    
-    <a class="btn btn-primary btn-sm pull-right" href="/news/">Read Library News &rarr;</a>
-      
+
+    <p class="text-right">
+      <a class="btn btn-primary btn-sm" href="/news/">Read Library News &rarr;</a>
+    </p>
+
   </div><!-- /.col -->
   <div class="col-md-6">
     <h4 class="text-muted">
@@ -199,10 +201,8 @@ Template Name: Home Page
 
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
-    <p class="text-right text-muted">
-      <small>
-        <a href="/calendar/">Full events calendar</a> &rarr;
-      </small>
+    <p class="text-right">
+      <a class="btn btn-default btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>
 
   </div><!-- /.col -->
