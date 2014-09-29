@@ -155,6 +155,11 @@ Template Name: Home Page
       <i class="glyphicon glyphicon-bullhorn"></i> 
       Library News
     </h3>
+
+    <h2>
+      <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
+    </h2>
+
   </div><!-- /.col -->
 
   <div class="col-md-6">
