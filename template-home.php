@@ -151,10 +151,6 @@ Template Name: Home Page
 <div class="row">
 
   <div class="col-md-6">
-    <h3 class="text-success">
-      <i class="glyphicon glyphicon-bullhorn"></i> 
-      Library News
-    </h3>
 
     <h2>
       <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
@@ -166,12 +162,12 @@ Template Name: Home Page
     <div class="panel panel-success" style="border-left-width:5px;">
       <div class="panel-heading" style="border-radius:0;">
         <i class="glyphicon glyphicon-bullhorn"></i>
-        Also in this issue
+        Also in the latest issue of <a href="#">Library News</a>
       </div>
       <div class="panel-body">
         <ul>
-          <li>one thing</li>
-          <li>another thing</li>
+          <li>Digital Literacy – Part of the Library’s Educational Curriculum</li>
+          <li>A Decade of Dedication from our Friends</li>
         </ul>
       </div>
     </div><!-- /.panel -->
