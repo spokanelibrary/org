@@ -150,7 +150,7 @@ Template Name: Home Page
 
 <div class="row">
   <div class="col-md-6">
-    <h3 class="text-success">
+    <h3 class="text-success serif">
       <i class="glyphicon glyphicon-pencil"></i> 
       Library News
     </h3>
