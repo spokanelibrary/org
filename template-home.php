@@ -193,12 +193,8 @@ Template Name: Home Page
       Coming up at your local library
     </h3>
 
-    <p class="text-right text-muted">
-      <small>
-        <a href="/calendar/">Full events calendar</a> &rarr;
-      </small>
-    </p>
-
+    <a class="btn btn-default btn-sm pull-right" href="/calendar/">Full events calendar &rarr;</a>
+    
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
     <p class="text-right text-muted">
