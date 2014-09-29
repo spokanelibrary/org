@@ -163,7 +163,18 @@ Template Name: Home Page
   </div><!-- /.col -->
 
   <div class="col-md-6">
-    asdf
+    <div class="panel panel-success" style="border-left-width:5px;">
+      <div class="panel-heading" style="border-radius:0;">
+        <i class="glyphicon glyphicon-bullhorn"></i>
+        Also in this issue
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li>one thing</li>
+          <li>another thing</li>
+        </ul>
+      </div>
+    </div><!-- /.panel -->
   </div><!-- /.col -->
 
 </div><!-- /.row --> 
