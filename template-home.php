@@ -223,7 +223,7 @@ Template Name: Home Page
         </h3> 
 
         <p class="text-right">
-          <a class="btn btn-default btn-sm" href="/blog/">Read more on the library blog &rarr;</a>
+          <a class="btn btn-default btn-sm" href="/blog/">More on the library blog &rarr;</a>
         </p>
 
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
@@ -231,7 +231,7 @@ Template Name: Home Page
         <p>&nbsp;</p>
 
         <p class="text-right">
-          <a class="btn btn-default btn-sm" href="/blog/">Read more on the library blog &rarr;</a>
+          <a class="btn btn-default btn-sm" href="/blog/">More on the library blog &rarr;</a>
         </p>
     <!--
       </div>
