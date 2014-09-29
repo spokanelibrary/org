@@ -172,7 +172,8 @@ Template Name: Home Page
   <div class="col-md-6">
 
     <h3 class="text-success">
-      Also in this issue
+      <i class="glyphicon glyphicon-pencil"></i> 
+      Also in this issue&hellip;
     </h3>
 
     <ul>
