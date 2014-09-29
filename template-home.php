@@ -171,10 +171,10 @@ Template Name: Home Page
         Read the latest: <b>Library News</b>
       </div>
       <div class="panel-body">
-        <p class="text-success">
+        <p>
           We’ll keep you informed of new service offerings, as well as upcoming events and activities at your local library.
         </p>
-        <p class="text-muted">
+        <p>
           Library News is published monthly, with occasional special editions.
         </p>
       </div>
