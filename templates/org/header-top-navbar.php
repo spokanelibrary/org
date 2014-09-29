@@ -79,7 +79,7 @@ function spl_get_home_url() {
 
     <div id="spl-account-profile"></div>
 
-    <div class="pull-right" style="width:330px; margin-top: 10px; margin-right: 10px;">
+    <div class="pull-right" style="width:360px; margin-top: 10px; margin-right: 10px;">
     <div class="row">
       <div class="col-xs-4">
         <p>  
