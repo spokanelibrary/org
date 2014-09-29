@@ -154,17 +154,26 @@ Template Name: Home Page
 </h3>
 
 <div class="row">
-  <div class="panel panel-default">
-    <div class="panel-body">
-      <div class="col-md-6">
-        <h2>
-          <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
-        </h2>
-      </div><!-- /.col -->
-      <div class="col-md-6">
-      </div><!-- /.col -->
-    </div><!-- /.panel-body -->
-  </div><!-- /.panel -->
+  <div class="col-md-6">
+    <h2>
+      <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
+    </h2>
+  </div><!-- /.col -->
+  <div class="col-md-6">
+    <h3>
+      Also in this issue&hellip;
+    </h3>
+
+    <ul class="list-unstyled">
+      <li><a href="#">Digital Literacy – Part of the Library’s Educational Curriculum</a></li>
+      <li><a href="#">A Decade of Dedication from our Friends</a></li>
+      <li><a href="#">School! Homework! – Dewey Can Help (649, 372)</a></li>
+      <li><a href="#">Back to School - 5 Songs from Freegal</a></li>
+      <li><a href="#">Spokane is Reading: Swamplandia!</a></li>
+      <li><a href="#">Don't Miss the Friends Book Sale!</a></li>
+      <li><a href="#">Art!</a></li>
+    </ul>
+  </div><!-- /.col -->
 </div><!-- /.row -->
 
 <div class="row">
