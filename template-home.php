@@ -151,7 +151,7 @@ Template Name: Home Page
 <div class="row">
 
   <div class="col-md-6">
-    <div class="panel panel-success" style="border-left-width:5px;">
+    <div class="panel panel-default" style="border-left-width:5px;">
       <div class="panel-heading" style="border-radius:0;">
         <i class="glyphicon glyphicon-bullhorn"></i>
         Read the latest: <b>Library News</b>
