@@ -226,15 +226,12 @@ Template Name: Home Page
           <a class="btn btn-default btn-sm" href="/blog/">Read more on the library blog &rarr;</a>
         </p>
 
-
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
         
         <p>&nbsp;</p>
 
-        <p class="text-right text-muted">
-          <small>
-            <a href="/blog/">Read more on the library blog</a> &rarr;
-          </small>
+        <p class="text-right">
+          <a class="btn btn-default btn-sm" href="/blog/">Read more on the library blog &rarr;</a>
         </p>
     <!--
       </div>
