@@ -190,7 +190,7 @@ Template Name: Home Page
 
     <?php //get_template_part('templates/content', 'page'); ?>
 
-    <h3 class="text-success">
+    <h3 class="text-success serif">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
@@ -221,7 +221,7 @@ Template Name: Home Page
       </div>
       <div class="panel-body">
     -->   
-        <h3 class="text-success">
+        <h3 class="text-success serif">
           <i class="glyphicon glyphicon-comment"></i> 
           From the reference desk
         </h3> 
