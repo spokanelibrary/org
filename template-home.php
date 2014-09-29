@@ -151,20 +151,6 @@ Template Name: Home Page
 <div class="row">
 
   <div class="col-md-6">
-
-    <h2>
-      <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
-    </h2>
-
-    <p class="text-right text-muted">
-      <small>
-        <a href="/news/">Read Library News</a> &rarr;
-      </small>
-    </p>
-
-  </div><!-- /.col -->
-
-  <div class="col-md-6">
     <div class="panel panel-success" style="border-left-width:5px;">
       <div class="panel-heading" style="border-radius:0;">
         <i class="glyphicon glyphicon-bullhorn"></i>
@@ -174,8 +160,21 @@ Template Name: Home Page
         <h2>
           <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
         </h2>
+        <p class="text-right text-muted">
+          <small>
+            <a href="/news/">Read Library News</a> &rarr;
+          </small>
+        </p>
       </div>
     </div><!-- /.panel -->
+  </div><!-- /.col -->
+
+  <div class="col-md-6">
+
+    <h3 class="text-success">
+      Also in this issue
+    </h3>
+
   </div><!-- /.col -->
 
 </div><!-- /.row --> 
