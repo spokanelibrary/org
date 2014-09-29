@@ -168,7 +168,7 @@ Template Name: Home Page
       Also in this issue&hellip;
     </h4>
 
-    <ul class="nav nav-list">
+    <ul class="nav nav-pills">
       <li><a href="#">Digital Literacy – Part of the Library’s Educational Curriculum</a></li>
       <li><a href="#">A Decade of Dedication from our Friends</a></li>
       <li><a href="#">School! Homework! – Dewey Can Help (649, 372)</a></li>
