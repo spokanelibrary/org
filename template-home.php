@@ -148,6 +148,25 @@ Template Name: Home Page
 
 <hr>
 
+<h3 class="text-success">
+  <i class="glyphicon glyphicon-pencil"></i> 
+  Library News
+</h3>
+
+<div class="row">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div class="col-md-6">
+        <h2>
+          <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
+        </h2>
+      </div><!-- /.col -->
+      <div class="col-md-6">
+      </div><!-- /.col -->
+    </div><!-- /.panel-body -->
+  </div><!-- /.panel -->
+</div><!-- /.row -->
+
 <div class="row">
 
   <div class="col-md-6">
