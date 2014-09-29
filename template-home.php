@@ -176,7 +176,7 @@ Template Name: Home Page
       Also in this issue&hellip;
     </h3>
 
-    <ul>
+    <ul class="list-unstyled">
       <li>Digital Literacy – Part of the Library’s Educational Curriculum</li>
       <li>A Decade of Dedication from our Friends</li>
       <li>School! Homework! – Dewey Can Help (649, 372)</li>
