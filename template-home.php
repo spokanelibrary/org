@@ -148,7 +148,7 @@ Template Name: Home Page
 
 <hr>
 
-<div class="row">
+<div class="row" style="background-image:url(); background-repeat:none;">
   <div class="col-md-6">
     <h3 class="text-success">
       <i class="glyphicon glyphicon-pencil"></i> 
@@ -157,11 +157,9 @@ Template Name: Home Page
     <h2>
       <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
     </h2>
-    <p class="text-right text-muted">
-      <small>
-        <a href="/news/">Read Library News</a> &rarr;
-      </small>
-    </p>
+    
+    <a class="btn btn-primary pull-right" href="/news/">Read Library News</a> &rarr;
+      
   </div><!-- /.col -->
   <div class="col-md-6">
     <h4 class="text-muted">
