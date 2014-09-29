@@ -221,11 +221,11 @@ Template Name: Home Page
           <i class="glyphicon glyphicon-comment"></i> 
           From the reference desk
         </h3> 
-        <p class="text-right text-muted">
-          <small>
-            <a href="/blog/">Read more on the library blog</a> &rarr;
-          </small>
+
+        <p class="text-right">
+          <a class="btn btn-default btn-sm" href="/blog/">Read more on the library blog &rarr;</a>
         </p>
+
 
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
         
