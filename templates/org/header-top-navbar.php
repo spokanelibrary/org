@@ -104,7 +104,7 @@ function spl_get_home_url() {
           <a class="btn btn-block btn-default btn-sm text-info" 
             href="/about/" 
             title="">
-            <i style="border:0px solid #ccc !important; border-radius:4px; padding:4px; margin-top:-1px; color:#fff; background: rgb(100,150,75);" class="text-success glyphicon glyphicon-thumbs-up"></i>
+            <i style="border:0px solid #ccc !important; border-radius:4px; padding:3px; margin-top:-1px; color:#fff; background: rgb(100,150,75);" class="text-success glyphicon glyphicon-thumbs-up"></i>
             <b>Support Us</b></a>
         </p>
       </div><!-- /.col -->
