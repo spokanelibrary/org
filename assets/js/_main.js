@@ -234,7 +234,9 @@ var ORG = {
   }
 , search : {
     init: function() {
-      console.log('this is a search page');
+      $('.spl-enterprise-search-selector-text').text('Site');
+      $('.spl-enterprise-search-selector').attr('action', '/');
+      $('.spl-enterprise-search-input').prop('name', 's');
     }
     /*
     init: function() {
