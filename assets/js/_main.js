@@ -181,14 +181,14 @@ var ORG = {
       $('body').on('click', '.spl-enterprise-search-select-catalog', function(e) {
         e.preventDefault();
         
-        $('spl-enterprise-search-selector-text').text('Catalog');
+        $('.spl-enterprise-search-selector-text').text('Catalog');
         $('.spl-enterprise-search-selector').attr('action', 'http://catalog.spokanelibrary.org/client/lib/search/results/');
         $('.spl-enterprise-search-input').prop('name', 'qu');
       });
       $('body').on('click', '.spl-enterprise-search-select-site', function(e) {
         e.preventDefault();
         
-        $('spl-enterprise-search-selector-text').text('Site');
+        $('.spl-enterprise-search-selector-text').text('Site');
         $('.spl-enterprise-search-selector').attr('action', '/');
         $('.spl-enterprise-search-input').prop('name', 's');
       });
