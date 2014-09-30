@@ -146,8 +146,8 @@ Template Name: Home Page
 
 </div><!-- /.row -->
 
-<div class="row">
-  <div class="col-md-6" style="padding-top: 20px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
+<div class="row" style="padding-top: 20px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
+  <div class="col-md-6">
     <h3 class="text-success">
       <i class="glyphicon glyphicon-pencil"></i> 
       Library News
