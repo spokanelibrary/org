@@ -3,7 +3,7 @@
   <!-- <a name="spl-more">&nbsp;</a> -->
 
   <footer class="content-info container" role="contentinfo">
-    <hr>
+    <!--<hr>-->
     <?php include('footer-bottom-navbar.php'); ?>
 
     <div class="row">
