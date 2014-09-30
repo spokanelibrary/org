@@ -200,7 +200,6 @@ Template Name: Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<hr>
 
 <div class="row">
 
