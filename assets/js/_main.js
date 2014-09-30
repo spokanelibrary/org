@@ -186,7 +186,7 @@ var ORG = {
       $('body').on('click', '.spl-enterprise-search-select-site', function(e) {
         e.preventDefault();
         console.log('site');
-        $('.spl-enterprise-search-selector').attr('action', '/q/');
+        $('.spl-enterprise-search-selector').attr('action', '/search/');
         console.log($('.spl-enterprise-search-selector').attr('action'));
       });
 
