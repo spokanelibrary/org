@@ -19,7 +19,7 @@
         </span>
 
         <p>
-          <strong class="text-muted" style="">Spokane Public Library</strong>
+          <strong class="text-success" style="">Spokane Public Library</strong>
         </p>
         <address class="text-success" style="">
           906 West Main Avenue
