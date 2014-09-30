@@ -178,11 +178,11 @@ var ORG = {
       });
 
       // Handle enterprise search selector
-      $('body').on('click', '.spl-search-select-catalog', function(e) {
+      $('body').on('click', '.spl-enterprise-search-select-catalog', function(e) {
         e.preventDefault();
         console.log('catalog');
       });
-      $('body').on('click', '.spl-search-select-site', function(e) {
+      $('body').on('click', '.spl-enterprise-search-select-site', function(e) {
         e.preventDefault();
         console.log('site');
       });
