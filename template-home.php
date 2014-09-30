@@ -154,7 +154,7 @@ Template Name: Home Page
       <i class="glyphicon glyphicon-pencil"></i> 
       Library News
     </h3>
-    <h2>
+    <h2 class="pull-left">
       <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
     </h2>
     <img class="img-responsive img-rounded pull-right" src="http://news.spokanelibrary.org/wordpress/media/East_Side-busy_day-160x113.jpg">
