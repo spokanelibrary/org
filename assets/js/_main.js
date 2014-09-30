@@ -233,6 +233,9 @@ var ORG = {
     }
   }
 , search : {
+    init: function() {
+      console.log('this is a search page');
+    }
     /*
     init: function() {
 
