@@ -180,16 +180,17 @@ var ORG = {
       // Handle enterprise search selector
       $('body').on('click', '.spl-enterprise-search-select-catalog', function(e) {
         e.preventDefault();
-        console.log('catalog');
+        
+        $('spl-enterprise-search-selector-text').text('Catalog');
         $('.spl-enterprise-search-selector').attr('action', 'http://catalog.spokanelibrary.org/client/lib/search/results/');
+        $('.spl-enterprise-search-input').prop('name', 'qu');
       });
       $('body').on('click', '.spl-enterprise-search-select-site', function(e) {
         e.preventDefault();
-        console.log('site');
+        
+        $('spl-enterprise-search-selector-text').text('Site');
         $('.spl-enterprise-search-selector').attr('action', '/');
         $('.spl-enterprise-search-input').prop('name', 's');
-        console.log($('.spl-enterprise-search-input').prop('name'));
-        console.log($('.spl-enterprise-search-selector').attr('action'));
       });
 
       Modernizr.load([
