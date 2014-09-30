@@ -187,6 +187,7 @@ var ORG = {
         e.preventDefault();
         console.log('site');
         $('.spl-enterprise-search-select').attr('action', '/q/');
+        console.log($('.spl-enterprise-search-select').attr('action'));
       });
 
       Modernizr.load([
