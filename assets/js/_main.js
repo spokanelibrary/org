@@ -189,8 +189,8 @@ var ORG = {
         e.preventDefault();
         
         $('.spl-enterprise-search-selector-text').text('Calendar');
-        $('.spl-enterprise-search-selector').attr('action', '/calendar/search/');
-        $('.spl-enterprise-search-input').prop('name', 'find');
+        $('.spl-enterprise-search-selector').attr('action', '/calendar/find/');
+        $('.spl-enterprise-search-input').prop('name', 'cq');
       });
       $('body').on('click', '.spl-enterprise-search-select-site', function(e) {
         e.preventDefault();
