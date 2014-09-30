@@ -1,7 +1,7 @@
 <div id="spl-more" style="/*background:rgb(100,150,75);*/">
 
   <!-- <a name="spl-more">&nbsp;</a> -->
-  <div style="padding-top: 20px; margin-bottom: 20px; background-color:rgb(100,150,75); background-image: url(/assets/img/png/bg-book-cart.png); background-repeat: none;">
+  <div style="padding-top: 20px; margin-bottom: 20px; background: rgb(100,150,75) url(/assets/img/png/bg-book-cart.png) no-repeat right middle;">
   <footer class="content-info container" role="contentinfo">
     <!--<hr>-->
     <?php include('footer-bottom-navbar.php'); ?>
