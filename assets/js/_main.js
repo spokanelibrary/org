@@ -190,7 +190,7 @@ var ORG = {
         
         $('.spl-enterprise-search-selector-text').text('Calendar');
         $('.spl-enterprise-search-selector').attr('action', '/calendar/search/');
-        $('.spl-enterprise-search-input').prop('name', 'cq');
+        $('.spl-enterprise-search-input').prop('name', 'find');
       });
       $('body').on('click', '.spl-enterprise-search-select-site', function(e) {
         e.preventDefault();
