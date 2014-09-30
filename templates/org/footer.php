@@ -21,7 +21,7 @@
         <p>
           <strong class="text-muted" style="">Spokane Public Library</strong>
         </p>
-        <address class="text-muted" style="">
+        <address class="text-success" style="">
           906 West Main Avenue
           <br>
           Spokane, WA 99201
