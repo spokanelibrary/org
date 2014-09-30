@@ -185,6 +185,13 @@ var ORG = {
         $('.spl-enterprise-search-selector').attr('action', 'http://catalog.spokanelibrary.org/client/lib/search/results/');
         $('.spl-enterprise-search-input').prop('name', 'qu');
       });
+      $('body').on('click', '.spl-enterprise-search-select-calendar', function(e) {
+        e.preventDefault();
+        
+        $('.spl-enterprise-search-selector-text').text('Calendar');
+        $('.spl-enterprise-search-selector').attr('action', '/calendar/search/');
+        $('.spl-enterprise-search-input').prop('name', 'cq');
+      });
       $('body').on('click', '.spl-enterprise-search-select-site', function(e) {
         e.preventDefault();
         
