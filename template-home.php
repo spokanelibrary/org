@@ -166,7 +166,7 @@ Template Name: Home Page
   </div><!-- /.col -->
   <div class="col-md-6">
 
-    <div class="panel panel-default" style="border-left-width:5px;">
+    <div class="panel panel-success" style="border-left-width:5px;">
       <div class="panel-heading" style="border-radius:0;">
         <i class="glyphicon glyphicon-plus-sign"></i>
         Also in this issue&hellip;
