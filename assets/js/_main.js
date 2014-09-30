@@ -239,7 +239,14 @@ var ORG = {
       ]);
     }
   }
-, search : {
+, calendar: {
+    init: function() {
+      $('.spl-enterprise-search-selector-text').text('Calendar');
+      $('.spl-enterprise-search-selector').attr('action', '/calendar/find/');
+      $('.spl-enterprise-search-input').prop('name', 'cq');
+    }
+}
+, search: {
     init: function() {
       $('.spl-enterprise-search-selector-text').text('Site');
       $('.spl-enterprise-search-selector').attr('action', '/');
