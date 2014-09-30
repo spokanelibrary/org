@@ -177,6 +177,16 @@ var ORG = {
         */
       });
 
+      // Handle enterprise search selector
+      $('body').on('click', '.spl-search-select-catalog', function(e) {
+        e.preventDefault();
+        console.log('catalog');
+      });
+      $('body').on('click', '.spl-search-select-site', function(e) {
+        e.preventDefault();
+        console.log('site');
+      });
+
       Modernizr.load([
         {
           load: [config.path.absolute+'/assets/js/org/catalog.js' ],
