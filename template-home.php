@@ -153,7 +153,7 @@ Template Name: Home Page
       Library News
     </h3>
     <img class="img-responsive img-rounded pull-right" src="http://news.spokanelibrary.org/wordpress/media/East_Side-busy_day-160x113.jpg">
-    <h2>
+    <h2 class="clearfix">
       <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
     </h2>
     
