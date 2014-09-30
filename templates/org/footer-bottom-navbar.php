@@ -131,7 +131,7 @@
             <a href="#"><small><i class="text-muted glyphicon glyphicon-road"></i> Strategic Plan</small></a>
           </li>
           <li>
-            <a href="#"><small><i class="text-muted glyphicon glyphicon-gift"></i> Support Your Library</small></a>
+            <a href="#"><small><i class="text-muted glyphicon glyphicon-hand-right"></i> Support Your Library</small></a>
           </li>
         </ul>
       </div><!-- /.panel-footer -->
