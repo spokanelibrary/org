@@ -146,7 +146,7 @@ Template Name: Home Page
 
 </div><!-- /.row -->
 
-<div class="row" style="border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
+<div class="row" style="padding-top: 15px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
   <div class="col-md-6">
     <h3 class="text-success">
       <i class="glyphicon glyphicon-pencil"></i> 
