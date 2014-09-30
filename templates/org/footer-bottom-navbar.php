@@ -1,6 +1,6 @@
 
-    <div class="panel panel-primary">
-      <div class="panel-body" style="opacity:.9;">
+    <div class="panel panel-primary" style="opacity:.9;">
+      <div class="panel-body">
 
         <!--
         <h3 class="normal" style="margin-top:0;"><a name="" class="text-success">Read. Learn. Discover.</a></h3>
