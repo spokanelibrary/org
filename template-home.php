@@ -41,8 +41,7 @@ Template Name: Home Page
 
 <div class="row visible-xs">
   <div class="col-xs-12">
-    <div class="panel panel-primary" style="border-left-width:5px;">
-      <div class="list-group">
+    <div class="list-group">
 
         <a href="/account/" class="list-group-item">
           <span class="text-primary">My account</span> &rarr;
@@ -69,7 +68,6 @@ Template Name: Home Page
           <span class="text-primary">Contact the library</span> &rarr;
         </a>
 
-      </div>
     </div>
 
   </div><!-- /.col -->
