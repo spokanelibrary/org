@@ -146,8 +146,6 @@ Template Name: Home Page
 
 </div><!-- /.row -->
 
-<hr>
-
 <div class="row" style="background-image:url(); background-repeat:none;">
   <div class="col-md-6">
     <h3 class="text-success">
