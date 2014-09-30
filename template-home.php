@@ -166,11 +166,9 @@ Template Name: Home Page
   </div><!-- /.col -->
   <div class="col-md-6">
 
-    <div class="panel panel-success" style="border-left-width:5px;">
-      <div class="panel-heading" style="border-radius:0;">
-        <i class="glyphicon glyphicon-plus-sign"></i>
-        Also in this issue&hellip;
-      </div>
+    <h4 class="text-muted">
+      Also in this issue&hellip;
+    </h4>
       <div class="panel-body">
         <ul class="list-group">
           <li class="list-group-item"><a href="#">Digital Literacy – Part of the Library’s Educational Curriculum</a></li>
@@ -181,8 +179,7 @@ Template Name: Home Page
           <li class="list-group-item"><a href="#">Don't Miss the Friends Book Sale!</a></li>
           <li class="list-group-item"><a href="#">Art!</a></li>
         </ul>
-      </div>
-    </div><!-- /.panel -->
+
 
     <!--
     <h4 class="text-muted">
