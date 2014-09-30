@@ -166,20 +166,23 @@ Template Name: Home Page
   </div><!-- /.col -->
   <div class="col-md-6">
 
-    <h4 class="text-muted">
-      Also in this issue&hellip;
-    </h4>
+    <div class="panel panel-success" style="border-left-width:5px;">
+      <div class="panel-heading" style="border-radius:0;">
+        <i class="glyphicon glyphicon-plus-sign"></i>
+        Also in this issue&hellip;
+      </div>
       <div class="panel-body">
-        <ul class="list-group">
-          <li class="list-group-item"><a href="#">Digital Literacy – Part of the Library’s Educational Curriculum</a></li>
-          <li class="list-group-item"><a href="#">A Decade of Dedication from our Friends</a></li>
-          <li class="list-group-item"><a href="#">School! Homework! – Dewey Can Help (649, 372)</a></li>
-          <li class="list-group-item"><a href="#">Back to School - 5 Songs from Freegal</a></li>
-          <li class="list-group-item"><a href="#">Spokane is Reading: Swamplandia!</a></li>
-          <li class="list-group-item"><a href="#">Don't Miss the Friends Book Sale!</a></li>
-          <li class="list-group-item"><a href="#">Art!</a></li>
+        <ul class="">
+          <li><a href="#">Digital Literacy – Part of the Library’s Educational Curriculum</a></li>
+          <li><a href="#">A Decade of Dedication from our Friends</a></li>
+          <li><a href="#">School! Homework! – Dewey Can Help (649, 372)</a></li>
+          <li><a href="#">Back to School - 5 Songs from Freegal</a></li>
+          <li><a href="#">Spokane is Reading: Swamplandia!</a></li>
+          <li><a href="#">Don't Miss the Friends Book Sale!</a></li>
+          <li><a href="#">Art!</a></li>
         </ul>
-
+      </div>
+    </div><!-- /.panel -->
 
     <!--
     <h4 class="text-muted">
