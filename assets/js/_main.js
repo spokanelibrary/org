@@ -181,13 +181,13 @@ var ORG = {
       $('body').on('click', '.spl-enterprise-search-select-catalog', function(e) {
         e.preventDefault();
         console.log('catalog');
-        $('.spl-enterprise-search-select').attr('action', 'http://catalog.spokanelibrary.org/client/lib/search/results/');
+        $('.spl-enterprise-search-select').prop('action', 'http://catalog.spokanelibrary.org/client/lib/search/results/');
       });
       $('body').on('click', '.spl-enterprise-search-select-site', function(e) {
         e.preventDefault();
         console.log('site');
-        $('.spl-enterprise-search-select').attr('action', '/q/');
-        console.log($('.spl-enterprise-search-select').attr('action'));
+        $('.spl-enterprise-search-select').prop('action', '/q/');
+        console.log($('.spl-enterprise-search-select').prop('action'));
       });
 
       Modernizr.load([
