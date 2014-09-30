@@ -195,7 +195,7 @@ var ORG = {
       $('body').on('click', '.spl-enterprise-search-select-site', function(e) {
         e.preventDefault();
         
-        $('.spl-enterprise-search-selector-text').text('Site');
+        $('.spl-enterprise-search-selector-text').text('Website');
         $('.spl-enterprise-search-selector').attr('action', '/');
         $('.spl-enterprise-search-input').prop('name', 's');
       });
@@ -248,7 +248,7 @@ var ORG = {
 }
 , search: {
     init: function() {
-      $('.spl-enterprise-search-selector-text').text('Site');
+      $('.spl-enterprise-search-selector-text').text('Website');
       $('.spl-enterprise-search-selector').attr('action', '/');
       $('.spl-enterprise-search-input').prop('name', 's');
     }
