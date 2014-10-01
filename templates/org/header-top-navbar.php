@@ -85,6 +85,7 @@ function spl_get_home_url() {
         <p>  
           <a class="btn btn-block btn-default btn-sm"
             href="http://facebook.com/spokanelibrary" 
+            style="opacity:.9;"
             title="">
             <img src="/assets/img/icons/16px/facebook.png">
             <b>Facebook</b></a>
