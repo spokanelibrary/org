@@ -89,11 +89,13 @@ Template Name: Home Page
         <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
         <br>
         <p>
-        <a class="btn btn-block btn-warning" href="#">Research databases</a>
+          <a class="btn btn-block btn-warning" href="#">Research databases</a>
         </p>
+        <p class="text-center">
         <small>
           <a href="/digital/">Visit the digital branch</a> &rarr;
         </small>
+        </p>
       </div>
     </div><!-- /.panel -->
   </div><!-- /.col -->
@@ -158,7 +160,7 @@ Template Name: Home Page
     </h2>
     
     <p class="text-right">
-      <a class="btn btn-primary btn-sm" href="/news/">Read Library News &rarr;</a>
+      <a class="btn btn-primary" href="/news/">Read Library News &rarr;</a>
     </p>
 
   </div><!-- /.col -->
