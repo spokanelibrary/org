@@ -85,7 +85,7 @@ function spl_get_home_url() {
         <p>  
           <a class="btn btn-block btn-default btn-sm"
             href="http://facebook.com/spokanelibrary" 
-            style="opacity:.8;"
+            style="opacity:.85;"
             title="">
             <img src="/assets/img/icons/16px/facebook.png">
             <b>Facebook</b></a>
@@ -95,7 +95,7 @@ function spl_get_home_url() {
         <p>
           <a class="btn btn-block btn-default btn-sm text-info" 
             href="http://twitter.com/spokanelibrary" 
-            style="opacity:.8;"
+            style="opacity:.85;"
             title="">
             <img src="/assets/img/icons/16px/twitter.png">
             <b>Twitter</b></a>
@@ -105,7 +105,7 @@ function spl_get_home_url() {
         <p>
           <a class="btn btn-block btn-default btn-sm text-info" 
             href="/support/" 
-            style="opacity:.8;"
+            style="opacity:.85;"
             title="">
             <i style="border:0px solid #ccc !important; border-radius:4px; padding:2px 3px;  color:#fff; background: #f0ad4e;" class="glyphicon glyphicon-hand-right"></i>
             <b>Support Us</b></a>
