@@ -89,7 +89,7 @@ Template Name: Home Page
         <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
         <br>
         <p>
-          <a class="btn btn-block btn-default" href="#">
+          <a class="btn btn-block btn-warning" href="#">
             <small class="glyphicon glyphicon-sort-by-alphabet"></small>
             Research databases</a>
         </p>
