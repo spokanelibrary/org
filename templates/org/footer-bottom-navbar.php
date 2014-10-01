@@ -1,5 +1,5 @@
 
-    <div class="panel panel-success">
+    <div class="panel panel-primary">
       <div class="panel-body">
 
         <!--
