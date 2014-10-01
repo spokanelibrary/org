@@ -60,11 +60,7 @@
 
 <div class="media">
   <div class="media-body">
-    <p class="text-center">
-      <small>
-        <a href="/digital/">Visit the digital branch</a> &rarr;
-      </small>
-    </p>
+      <a class="btn btn-block btn-link" href="/digital/">Visit the digital branch</a> &rarr;
   </div>
 </div><!-- /.media -->
 
