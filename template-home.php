@@ -91,11 +91,11 @@ Template Name: Home Page
         <p>
           <a class="btn btn-block btn-warning" href="#">Research databases</a>
         </p>
-        <p class="text-center">
+        <div class="text-center">
         <small>
           <a href="/digital/">Visit the digital branch</a> &rarr;
         </small>
-        </p>
+        </div>
       </div>
     </div><!-- /.panel -->
   </div><!-- /.col -->
