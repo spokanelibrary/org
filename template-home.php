@@ -103,40 +103,6 @@ Template Name: Home Page
     </div><!-- /.panel -->
   </div><!-- /.col -->
 
-  <!--<div class="col-md-3">
-    <div class="panel panel-primary" style="border-left-width:5px;">
-      <div class="list-group">
-
-        <a href="/account/" class="list-group-item">
-          <span class="text-primary">My account</span> &rarr;
-        </a>
-        <a href="/search/" class="list-group-item">
-          <span class="text-primary">Search the catalog</span> &rarr;
-        </a>
-        <a href="/search/" class="list-group-item">
-          <span class="text-primary">Is the library open?</span> &rarr;
-        </a>
-        <a href="/explore/" class="list-group-item">
-          <span class="text-primary">How to find things</span> &rarr;
-        </a>
-        <a href="/browse/" class="list-group-item">
-          <span class="text-primary">Browse popular titles</span> &rarr;
-        </a>
-        <a href="/apps/" class="list-group-item">
-          <span class="text-primary">Mobile apps</span> &rarr;
-        </a>
-        <a href="http://news.spokanelibrary.org" class="list-group-item">
-          <span class="text-primary">Get library news</span> &rarr;
-        </a>
-        <a href="/connect/" class="list-group-item">
-          <span class="text-primary">Contact the library</span> &rarr;
-        </a>
-
-      </div>
-    </div>
-
-  </div>--><!-- /.col -->
-
 </div><!-- /.row -->
 
 <div class="row" style="padding-top: 20px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
@@ -145,7 +111,7 @@ Template Name: Home Page
       <i class="glyphicon glyphicon-pencil"></i> 
       Library News
     </h3>
-    <img class="img-responsive img-rounded pull-right" src="http://news.spokanelibrary.org/wordpress/media/East_Side-busy_day-160x113.jpg">
+    <img class="img-responsive img-rounded pull-left" src="http://news.spokanelibrary.org/wordpress/media/East_Side-busy_day-160x113.jpg">
     <h2 class="clearfix">
       <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
     </h2>
