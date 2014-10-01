@@ -87,9 +87,8 @@ Template Name: Home Page
       </div>
       <div class="panel-body">
         <?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
-        <p>
-        <a class="btn btn-default" href="#">Research databases</a>
-        </p>
+        <p>&nbsp;</p>
+        <a class="btn btn-block btn-warning" href="#">Research databases</a>
         <hr>
         <small>
           <a href="/digital/">Visit the digital branch</a> &rarr;
