@@ -50,3 +50,9 @@
   </div>
 </div><!-- /.media -->
 
+<div class="media">
+  <div class="media-body">
+    my link
+  </div>
+</div><!-- /.media -->
+
