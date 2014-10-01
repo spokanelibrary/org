@@ -1,5 +1,5 @@
 
-    <div class="panel panel-warning">
+    <div class="panel panel-success">
       <div class="panel-body">
 
         <!--
