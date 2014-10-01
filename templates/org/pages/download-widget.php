@@ -52,7 +52,9 @@
 
 <div class="media">
   <div class="media-body">
-    my link
+    <a class="btn btn-block btn-success" href="/subscriptions/">
+      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+      Research databases</a>
   </div>
 </div><!-- /.media -->
 
