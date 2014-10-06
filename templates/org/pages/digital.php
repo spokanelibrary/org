@@ -10,6 +10,7 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
+				<?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
