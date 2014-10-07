@@ -22,6 +22,9 @@
     }
   ?>
 
+  <?php if ( isset($_REQUEST['kiosk']) ) : ?>
+    <?php include roots_template_path(); ?>
+  <?php else: ?>
   <div class="wrap <?php echo $container;?>" role="document">
     <div class="content row">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
@@ -36,6 +39,8 @@
   </div><!-- /.wrap -->
 
   <?php get_template_part('templates/footer'); ?>
+
+  <?php endif ?>
 
 </body>
 </html>
