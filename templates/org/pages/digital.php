@@ -6,7 +6,7 @@
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
-					<i class="glyphicon glyphicon-cloud-download"></i> Downloadable Material
+					<i class="glyphicon glyphicon-cloud-download"></i> Downloadable material
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
@@ -24,7 +24,7 @@
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
-					<i class="glyphicon glyphicon-globe"></i> Research &amp; Learning
+					<i class="glyphicon glyphicon-globe"></i> Research &amp; learning
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
