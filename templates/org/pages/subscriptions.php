@@ -95,18 +95,19 @@ function spl_get_subscriptions() {
 	          '.$subjects.'
 					</div><!-- /.col -->
 	      </div><!-- /.row -->
+	      <hr>
        </div><!-- /.collapse -->
       ';
 		}
 	}	
 	echo $html;
 
-	
+	/*
 	echo '<pre>';
 	print_r($cat);	
 	print_r($sub);
 	echo '</pre>';
-	
+	*/
 }
 
 ?>
