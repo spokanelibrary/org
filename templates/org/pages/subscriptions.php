@@ -14,7 +14,7 @@ function spl_get_subscriptions() {
 			,'rep'=>'Repair'
 			);
 
-	$sub = new stdClass();
+	$sub = new ArrayObject();
 	//default
 	$sub->id->name = '';
 	$sub->id->img = '';
@@ -43,7 +43,7 @@ function spl_get_subscriptions() {
 	';
 	$sub->arrc->limit = null;
 
-	ksort($sub);
+	krsort($sub);
 
 	//
 
