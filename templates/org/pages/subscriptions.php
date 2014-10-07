@@ -41,7 +41,7 @@ function spl_get_subscriptions() {
 	foreach ( $cat as $k => $category ) {
 		$html .= '
 		<li>
-			'.$category.'
+			<a href="#">'.$category.'</a>
 		</li>
 		';
 	}
