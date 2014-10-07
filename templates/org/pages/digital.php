@@ -10,7 +10,9 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
+				
 				<?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
+				
 				<hr>
 				<p class="text-center">
 					<a href="#"><b>More about downloadable material</b></a> &rarr;
@@ -26,6 +28,15 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
+				
+				<div class="media">
+				  <div class="media-body">
+				    <a class="btn btn-block btn-success" href="/subscriptions/">
+				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+				      Research databases</a>
+				  </div>
+				</div><!-- /.media -->
+
 				<hr>
 				<p class="text-center">
 					<a href="#"><b>More about our online resources</b></a> &rarr;
@@ -35,23 +46,3 @@
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
-
-<!--
-
-<h3>
-			<i class="glyphicon glyphicon-globe"></i> Online Resources
-		</h3>
-
-
-<a href="#"><img style="" alt="" src="/assets/img/png/spl-app-icons-music.png" /></a>
-<a href="#">Music (.mp3)</a>
-
-<a href="#"><img style="width: 50px; height: 50px;" alt="" src="/assets/img/png/spl-app-icons-magazine.png" /></a>
-<a href="#">Magazines</a>
-
-<a href="#"><img style="width: 50px; height: 50px;" alt="" src="/assets/img/png/spl-app-icons-ebook.png" /></a>
-<a href="#">eBooks</a>
-
-<a href="#"><img style="width: 50px; height: 50px;" alt="" src="/assets/img/png/spl-app-icons-audio.png" /></a>
-<a href="#">Audio Books</a>
--->
