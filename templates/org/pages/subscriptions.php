@@ -37,7 +37,10 @@ function spl_get_subscriptions() {
 	$html .= '';
 
 	$html .= '<ul class="nav nav-pills">';
-	$html .= '<li class="active">Show all (alphabetical order)</li>';
+	$html .= '
+	<li class="active">
+		<a href="#">Show all (alphabetical order)</a>
+	</li>';
 	foreach ( $cat as $k => $category ) {
 		$html .= '
 		<li>
