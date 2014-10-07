@@ -51,12 +51,10 @@ function spl_get_subscriptions() {
 	<script>
 		$('body').on('click', '.spl-database-subjects-trigger', function(e) {
 			e.preventDefault();
-			$('.spl-database-subjects').hide();
 
+			$('.spl-database-subjects').hide();
 			$('.spl-database-subjects-nav').removeClass('active');
 			$(this).closest('.spl-database-subjects-nav').addClass('active');
-
-			console.log($(this).data('spl-db'));
 			$($(this).data('spl-db')).show();
 		});
 	</script>
@@ -67,7 +65,7 @@ function spl_get_subscriptions() {
 	$html .= '<ul class="nav nav-pills">'.PHP_EOL;
 	$html .= '
 	<li class="spl-database-subjects-nav active">
-		<a class="spl-database-subjects-trigger" data-spl-db=".spl-database-subjects" href="#">Show all <small>(alphabetical order)</small></a>
+		<a class="spl-database-subjects-trigger" data-spl-db=".spl-database-subjects" href="#"><b>Show all</b> <small>(alphabetical order)</small></a>
 	</li>';
 	foreach ( $cat as $k => $category ) {
 		$html .= '
