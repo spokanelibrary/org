@@ -68,7 +68,7 @@ function spl_get_subscriptions() {
 			$subjects = null;
 			foreach ( $db->category as $subject ) {
 				$class .= $subject . ' ';
-				$subjects .='<p><span class="label label-primary">'.$cat[$subject].'</span></p>';
+				$subjects .='<p><span class="label label-default">'.$cat[$subject].'</span></p>';
 			}
 
 			$html .= '
