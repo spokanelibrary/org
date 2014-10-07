@@ -15,7 +15,7 @@
  	<?php if ( isset($_REQUEST['kiosk']) ) : ?>
   <style>
     html {cursor:none;}
-    body {padding-top:none !important;}
+    body {padding-top:0px !important;}
   </style>
 	<?php endif; ?>
 
