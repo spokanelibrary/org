@@ -24,10 +24,8 @@
 
   <?php if ( isset($_REQUEST['kiosk']) ) : ?>
   
-    <div class="wrap <?php echo $container;?>" role="document">
-      <?php include roots_template_path(); ?>
-    </div><!-- /.wrap -->
-  
+    <?php include roots_template_path(); ?>
+    
   <?php else: ?>
   
   <div class="wrap <?php echo $container;?>" role="document">
