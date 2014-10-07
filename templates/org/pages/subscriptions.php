@@ -89,7 +89,7 @@ function spl_get_subscriptions() {
 			}
 
 			$html .= '
-			<div class="collapse'.$class.'">
+			<div class="collapse in'.$class.'">
 				<a href="'.$db->url.'" class="">
 					<h3>'.$db->name.' &rarr;</h3>
 				</a>
