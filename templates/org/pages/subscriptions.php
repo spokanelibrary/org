@@ -68,7 +68,7 @@ function spl_get_subscriptions() {
 	$html .= "
 	<script>
 		$('body').on('click', '.spl-database-subjects-trigger', function() {
-			$(this).prop('href');
+			console.log($(this).attr('href'));
 		});
 	</script>
 	".PHP_EOL;
