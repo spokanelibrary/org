@@ -43,7 +43,7 @@ function spl_get_subscriptions() {
 	';
 	$sub->arrc->limit = null;
 
-	krsort($sub);
+	ksort($sub);
 
 	//
 
