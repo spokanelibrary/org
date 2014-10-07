@@ -52,7 +52,7 @@ function spl_get_subscriptions() {
 	$html .= '<ul class="nav nav-pills">'.PHP_EOL;
 	$html .= '
 	<li class="active">
-		<a data-toggle="collapse" href=".spl-database-subjects">Show all <small>(alphabetical order)</small></a>
+		<a class="spl-database-subjects-trigger" data-toggle="collapse" href=".spl-database-subjects">Show all <small>(alphabetical order)</small></a>
 	</li>';
 	foreach ( $cat as $k => $category ) {
 		$html .= '
@@ -67,7 +67,9 @@ function spl_get_subscriptions() {
 
 	$html .= "
 	<script>
-		console.log('test');
+		$('body').on('click', '.spl-database-subjects-trigger', function() {
+			console.log('test');
+		});
 	</script>
 	".PHP_EOL;
 
