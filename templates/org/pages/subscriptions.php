@@ -75,8 +75,7 @@ function spl_get_subscriptions() {
 
 			$('.spl-database-subjects').collapse('hide');
 
-			var classes = $(this).data('spl-db'); 
-			$(classes).collapse('show');
+			$($(this).data('spl-db')).collapse('show');
 		});
 	</script>
 	".PHP_EOL;
