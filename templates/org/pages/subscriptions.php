@@ -56,6 +56,7 @@ function spl_get_subscriptions() {
 			$('.spl-database-subjects-nav').removeClass('active');
 			$(this).closest('.spl-database-subjects-nav').addClass('active');
 
+			$console.log($(this).data('spl-db'));
 			$($(this).data('spl-db')).collapse('show');
 		});
 	</script>
