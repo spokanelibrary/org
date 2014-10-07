@@ -1,4 +1,4 @@
-<?php include('./download-widget.php'); ?>
+<?php include('download-widget.php'); ?>
 
 <div class="media">
   <div class="media-body">
