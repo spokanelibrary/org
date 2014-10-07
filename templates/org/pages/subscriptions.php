@@ -44,7 +44,7 @@ function spl_get_subscriptions() {
 	$sub->arrc->limit = null;
 
 	$sub = new ArrayObject($sub);
-	krsort($sub);
+	$sub->krsort();
 
 	//
 
