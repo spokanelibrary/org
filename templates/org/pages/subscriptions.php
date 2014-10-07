@@ -61,7 +61,7 @@ function spl_get_subscriptions() {
 	</script>
 	".PHP_EOL;
 
-	$html .= '<div class="panel panel-info">'.PHP_EOL;
+	$html .= '<div class="panel panel-primary">'.PHP_EOL;
 	$html .= '<div class="panel-body">'.PHP_EOL;
 	$html .= '<ul class="nav nav-pills">'.PHP_EOL;
 	$html .= '
@@ -91,7 +91,8 @@ function spl_get_subscriptions() {
 			$subjects = null;
 			foreach ( $db->category as $subject ) {
 				$class .= $subject . ' spl-database-subjects ';
-				$subjects .='<p><span class="label label-default">'.$cat[$subject].'</span></p>';
+				$label = ('aaa' == $subject) ? 'label-info' : 'label-default';
+				$subjects .='<p><span class="label '.$label.'">'.$cat[$subject].'</span></p>';
 			}
 
 			$html .= '
