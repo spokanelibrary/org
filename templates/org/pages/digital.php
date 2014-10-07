@@ -28,7 +28,7 @@
 			<div class="panel-body">
 				<hr>
 				<p class="text-center">
-					<a href="#"><b>More about online research &amp; learning</b></a> &rarr;
+					<a href="#"><b>More about online resources</b></a> &rarr;
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
