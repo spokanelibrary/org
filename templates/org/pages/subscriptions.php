@@ -3,7 +3,8 @@
 
 function spl_get_subscriptions() {
 	$cat = array(
-			 'bus'=>'Business &amp; Career'
+			 'aaa'=>'Featured'
+			,'bus'=>'Business &amp; Career'
 			,'dir'=>'Directories'
 			,'gen'=>'Genealogy'
 			,'ref'=>'General Reference'
@@ -37,7 +38,7 @@ function spl_get_subscriptions() {
 	$sub->arrc->name = 'Auto Repair Reference Center ';
 	$sub->arrc->img = 'arrc_button_200x100';
 	$sub->arrc->url = 'http://search.ebscohost.com/login.aspx?authtype=ip,cpid&custid=s8427805&profile=autorefctr';
-	$sub->arrc->category = array('rep');
+	$sub->arrc->category = array('rep', 'aaa');
 	$sub->arrc->description = '
 	Do-it-yourself repair and maintenance information on most major manufacturers of domestic and imported vehicles. 
 	';
