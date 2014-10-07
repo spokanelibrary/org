@@ -10,7 +10,10 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
-				
+				<p>
+					A library for your ereader, media player, smart phone, or tablet&hellip;
+				</p>
+
 				<?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
 				
 				<hr>
