@@ -55,9 +55,9 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-warning" href="/subscriptions/">
+				    <a class="btn btn-block btn-danger" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-				      Microsoft IT Academy</a>
+				      Tools for business</a>
 				  </div>
 				</div><!-- /.media -->
 
