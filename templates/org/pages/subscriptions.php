@@ -134,11 +134,12 @@ function spl_get_subscriptions() {
 					</div><!-- /.col -->
 					<div class="col-md-3">
 	          '.$subjects.'
+	          <p class="text-right">
+			      	<a class="btn btn-sm btn-default" href="#top">Top &uarr;</a>
+			      </p>
 					</div><!-- /.col -->
 	      </div><!-- /.row -->
-	      <p class="text-right">
-	      	<a class="btn btn-sm btn-default" href="#top">Top &uarr;</a>
-	      </p>
+	      
 	      <hr>
        </div><!-- /.collapse -->
       ';
