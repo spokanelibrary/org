@@ -15,22 +15,40 @@ function spl_get_subscriptions() {
 			);
 
 	$sub = new stdClass();
+	//default
 	$sub->id->name = '';
-	$sub->id->description = '';
-	$sub->id->category = array('');
-	$sub->id->url = '';
 	$sub->id->img = '';
-	
+	$sub->id->url = '';
+	$sub->id->category = array('');
+	$sub->id->description = '
 
+	';
+	$sub->id->note = null;
 
-	print_r($cat);
+	$sub->aps->name = 'American Physical Society Journals';
+	$sub->aps->img = 'apslogo.gif';
+	$sub->aps->url = 'http://publish.aps.org/';
+	$sub->aps->category = array('mag');
+	$sub->aps->description = '
+	Free access to APS journals, including <em>Physics and Reviews of Modern Physics</em>. 
+	';
+	$sub->id->note = 'Only accessible through library computers';
+
+	$html .= '';
+	foreach ( $sub as $k=>$db ) {
+		$html .= $db->name;
+	}	
+	echo $html;
+
+	echo '<pre>';
+	print_r($cat);	
 	print_r($sub);
+	echo '</pre>';
 
 }
 
 ?>
 
-<pre>
 <?php spl_get_subscriptions(); ?>
-</pre>
+
 
