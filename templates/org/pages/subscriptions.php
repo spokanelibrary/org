@@ -51,7 +51,7 @@ function spl_get_subscriptions() {
 	<script>
 		$('body').on('click', '.spl-database-subjects-trigger', function(e) {
 			e.preventDefault();
-			$('.spl-database-subjects').hide;
+			$('.spl-database-subjects').hide();
 
 			$('.spl-database-subjects-nav').removeClass('active');
 			$(this).closest('.spl-database-subjects-nav').addClass('active');
