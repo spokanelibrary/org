@@ -23,7 +23,7 @@ function spl_get_subscriptions() {
 	$sub->id->description = '
 
 	';
-	$sub->id->note = null;
+	$sub->id->limit = null;
 
 	$sub->aps->name = 'American Physical Society Journals';
 	$sub->aps->img = 'apslogo.gif';
@@ -32,10 +32,19 @@ function spl_get_subscriptions() {
 	$sub->aps->description = '
 	Free access to APS journals, including <em>Physics and Reviews of Modern Physics</em>. 
 	';
-	$sub->aps->note = 'Only accessible through library computers';
+	$sub->aps->limit = 'Only accessible through library computers';
 
 	$html .= '';
-	foreach ( $sub as $k=>$db ) {
+
+	foreach ( $cat as $k => $category ) {
+		$html .= '
+		<p>
+			'.$category.'
+		</p>
+		'
+	}
+
+	foreach ( $sub as $k => $db ) {
 		if ( 'id' != $k ) {
 			$class = ' ';
 			foreach ( $db->category as $subject ) {
@@ -60,7 +69,7 @@ function spl_get_subscriptions() {
 		          	'.$db->description.'
 		          </p>
 		          <p class="text-danger">
-		          	'.$db->note.'
+		          	'.$db->limit.'
 		          </p>
 						</div><!-- /.col -->
 		      </div><!-- /.row -->
