@@ -73,11 +73,13 @@ function spl_get_subscriptions() {
 	</li>
 	';
 	foreach ( $cat as $k => $category ) {
-		$html .= '
-		<li class="spl-database-subjects-nav">
-			<a class="spl-database-subjects-trigger" data-spl-db=".'.$k.'" href="#">'.$category.'</a>
-		</li>
-		';
+		if ( 'aaa' != $k) {
+			$html .= '
+			<li class="spl-database-subjects-nav">
+				<a class="spl-database-subjects-trigger" data-spl-db=".'.$k.'" href="#">'.$category.'</a>
+			</li>
+			';
+		}
 	}
 	$html .= '</ul>'.PHP_EOL;
 	$html .= '</div>'.PHP_EOL;
