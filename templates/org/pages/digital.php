@@ -24,6 +24,8 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
+				<hr>
+				<a href="#">More research &amp; learning tools</a> &rarr;
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
