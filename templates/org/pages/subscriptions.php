@@ -136,6 +136,9 @@ function spl_get_subscriptions() {
 	          '.$subjects.'
 					</div><!-- /.col -->
 	      </div><!-- /.row -->
+	      <p>
+	      	<a href="#top">Top &uarr;</a>
+	      </p>
 	      <hr>
        </div><!-- /.collapse -->
       ';
