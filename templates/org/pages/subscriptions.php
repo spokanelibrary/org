@@ -66,11 +66,12 @@ function spl_get_subscriptions() {
 	}	
 	echo $html;
 
+	/*
 	echo '<pre>';
 	print_r($cat);	
 	print_r($sub);
 	echo '</pre>';
-
+	*/
 }
 
 ?>
