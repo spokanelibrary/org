@@ -52,12 +52,12 @@ function spl_get_subscriptions() {
 	$html .= '<ul class="nav nav-pills">'.PHP_EOL;
 	$html .= '
 	<li class="active">
-		<a data-toggle="collapse" data-parent="#spl-database-subscriptions" href=".spl-database-subjects">Show all <small>(alphabetical order)</small></a>
+		<a data-toggle="collapse" href=".spl-database-subjects">Show all <small>(alphabetical order)</small></a>
 	</li>';
 	foreach ( $cat as $k => $category ) {
 		$html .= '
 		<li>
-			<a data-toggle="collapse" data-parent="#spl-database-subscriptions" href=".'.$k.'">'.$category.'</a>
+			<a data-toggle="collapse" href=".'.$k.'">'.$category.'</a>
 		</li>
 		';
 	}
@@ -65,8 +65,13 @@ function spl_get_subscriptions() {
 	$html .= '</div>'.PHP_EOL;
 	$html .= '</div>'.PHP_EOL;
 
+	$html .= '
+	<script>
+		console.log('test');
+	</script>
+	'.PHP_EOL;
 
-	$html .= '<div class="accordian" id="spl-database-subscriptions">'.PHP_EOL;
+	$html .= '<div>'.PHP_EOL;
 	foreach ( $sub as $k => $db ) {
 		if ( 'id' != $k ) {
 			$class = ' ';
