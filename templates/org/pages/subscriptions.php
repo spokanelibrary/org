@@ -73,7 +73,7 @@ function spl_get_subscriptions() {
 			$('.spl-database-subjects-nav').removeClass('active');
 			$(this).closest('.spl-database-subjects-nav').addClass('active');
 
-			$('.spl-database-subjects').collapse('hide');
+			$('.spl-database-subjects').hide();
 
 			$($(this).data('spl-db')).collapse('show');
 		});
