@@ -12,7 +12,7 @@
 			<div class="panel-body">
 				<?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
 				<hr>
-				<a href="#">Learn more about downloadable material</a> &rarr;
+				<a href="#">More about downloadable material</a> &rarr;
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
