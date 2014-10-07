@@ -70,8 +70,8 @@ function spl_get_subscriptions() {
 		$('body').on('click', '.spl-database-subjects-trigger', function() {
 			$('.spl-database-subjects').collapse('hide');
 
-			var class = $(this).attr('href'); 
-			$(class).collapse('show');
+			var classes = $(this).attr('href'); 
+			$(classes).collapse('show');
 			
 			//console.log($(this).attr('href'));
 		});
