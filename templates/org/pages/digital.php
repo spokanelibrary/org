@@ -38,7 +38,7 @@
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Research databases</a>
 				    <small>
-				    	lorem ipsum dolor sit amet
+				    	Wide ranging topics from scientific journals to legal forms
 				    </small>
 				  </div>
 				</div><!-- /.media -->
@@ -48,6 +48,9 @@
 				    <a class="btn btn-block btn-warning" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Microsoft IT Academy</a>
+				    <small>
+				    	Courses and training in the latest Microsoft technologies
+				    </small>
 				  </div>
 				</div><!-- /.media -->
 
