@@ -67,7 +67,7 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-default" href="/subscriptions/">
+				    <a class="btn btn-block btn-primary" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Northwest Room online</a>
 				  </div>
