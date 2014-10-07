@@ -11,7 +11,7 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<p>
-					A modern library for your ereader, media player, smart phone, or tablet&hellip;
+					A modern library for your ereader, media player, smart phone, or tablet with no lines, no parking, and no late fees!
 				</p>
 
 				<?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
