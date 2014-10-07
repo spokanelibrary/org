@@ -137,7 +137,7 @@ function spl_get_subscriptions() {
 					</div><!-- /.col -->
 	      </div><!-- /.row -->
 	      <p class="text-right">
-	      	<a class="btn btn-default" href="#top">Top &uarr;</a>
+	      	<a class="btn btn-sm btn-default" href="#top">Top &uarr;</a>
 	      </p>
 	      <hr>
        </div><!-- /.collapse -->
