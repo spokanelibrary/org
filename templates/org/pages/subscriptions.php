@@ -65,11 +65,11 @@ function spl_get_subscriptions() {
 	$html .= '</div>'.PHP_EOL;
 	$html .= '</div>'.PHP_EOL;
 
-	$html .= '
+	$html .= "
 	<script>
 		console.log('test');
 	</script>
-	'.PHP_EOL;
+	".PHP_EOL;
 
 	$html .= '<div>'.PHP_EOL;
 	foreach ( $sub as $k => $db ) {
