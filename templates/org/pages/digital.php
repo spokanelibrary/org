@@ -38,7 +38,7 @@
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Research databases</a>
 				    <small>
-				    	Wide ranging topics from scientific journals to legal forms
+				    	Wide ranging topics, from scientific journals to legal forms.
 				    </small>
 				  </div>
 				</div><!-- /.media -->
@@ -49,7 +49,7 @@
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Microsoft IT Academy</a>
 				    <small>
-				    	Courses and training in the latest Microsoft technologies
+				    	Courses and training in the latest Microsoft technologies.
 				    </small>
 				  </div>
 				</div><!-- /.media -->
@@ -78,10 +78,6 @@
 				  </div>
 				</div><!-- /.media -->
 
-				<hr>
-				<p class="text-center">
-					<a href="#"><b>More about our online resources</b></a> &rarr;
-				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
