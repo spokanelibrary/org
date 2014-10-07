@@ -44,8 +44,11 @@ function spl_get_subscriptions() {
 
 			$html .= '<div class="panel panel-default'.$class.'">'.PHP_EOL;
 			$html .= '<div class="panel-body">'.PHP_EOL;
-			$html .= $db->name;
+			
 			$html .= '
+			<a href="'.$db->url.'" class="">
+				<h3>'.$db->name.'</h3>
+			</a>
 			<div class="row">
       	<div class="col-md-3">
           <a href="'.$db->url.'" class="">
@@ -56,6 +59,9 @@ function spl_get_subscriptions() {
          <div class="col-md-9">
           <p>
           	'.$db->description.'
+          </p>
+          <p class="text-danger">
+          	'.$db->note.'
           </p>
 				</div>
         </div>
