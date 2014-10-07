@@ -56,6 +56,25 @@ function spl_get_subscriptions() {
 	';
 	$sub->bsc->limit = null;
 
+	//
+	$sub->cg->name = 'CultureGrams Country Fact Sheets';
+	$sub->cg->img = 'cgrams.gif';
+	$sub->cg->url = 'http://www2.spokanelibrary.org/rpa/webauth.exe?rs=culture';
+	$sub->cg->category = array('gen','hom');
+	$sub->cg->description = '
+	Cultural and geographic fact sheets on countries, U.S. states, and Canadian provinces
+	';
+	$sub->cg->limit = null;
+
+	//
+	$sub->cr->name = 'Cypress Resume';
+	$sub->cr->img = 'cr_banner.jpg';
+	$sub->cr->url = 'http://www.cypressresume.com/index.php?c=spokanepubliclibrary';
+	$sub->cr->category = array('aaa','bus');
+	$sub->cr->description = '
+	An easy, online way to create a resume, cover letter, or reference sheet
+	';
+	$sub->cr->limit = null;
 
 	/*
 		output
@@ -134,12 +153,13 @@ function spl_get_subscriptions() {
 					</div><!-- /.col -->
 					<div class="col-md-3">
 	          '.$subjects.'
-	          <p class="text-right">
-			      	<a class="btn btn-sm btn-default" href="#top">Top &uarr;</a>
-			      </p>
 					</div><!-- /.col -->
 	      </div><!-- /.row -->
-	      
+
+	      <p class="text-right">
+	      	<a class="btn btn-sm btn-default" href="#top">Top &uarr;</a>
+	      </p>
+	     
 	      <hr>
        </div><!-- /.collapse -->
       ';

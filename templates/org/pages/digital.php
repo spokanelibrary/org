@@ -81,6 +81,14 @@
 				  </div>
 				</div><!-- /.media -->
 
+				<div class="media">
+				  <div class="media-body">
+				    <a class="btn btn-block btn-default" href="/subscriptions/">
+				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+				      Resume Builder</a>
+				  </div>
+				</div><!-- /.media -->
+
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
