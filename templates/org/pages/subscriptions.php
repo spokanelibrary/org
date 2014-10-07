@@ -47,6 +47,20 @@ function spl_get_subscriptions() {
 
 	$html .= '';
 
+	$html .= "
+	<script>
+		$('body').on('click', '.spl-database-subjects-trigger', function(e) {
+			e.preventDefault();
+			$('.spl-database-subjects').collapse('hide');
+
+			$('.spl-database-subjects-nav').removeClass('active');
+			$(this).closest('.spl-database-subjects-nav').addClass('active');
+
+			$($(this).data('spl-db')).collapse('show');
+		});
+	</script>
+	".PHP_EOL;
+
 	$html .= '<div class="panel panel-primary">'.PHP_EOL;
 	$html .= '<div class="panel-body">'.PHP_EOL;
 	$html .= '<ul class="nav nav-pills">'.PHP_EOL;
@@ -65,21 +79,7 @@ function spl_get_subscriptions() {
 	$html .= '</div>'.PHP_EOL;
 	$html .= '</div>'.PHP_EOL;
 
-	$html .= "
-	<script>
-		$('body').on('click', '.spl-database-subjects-trigger', function(e) {
-			e.preventDefault();
-
-			$('.spl-database-subjects-nav').removeClass('active');
-			$(this).closest('.spl-database-subjects-nav').addClass('active');
-
-			$('.spl-database-subjects').collapse('hide');
-
-			$($(this).data('spl-db')).collapse('show');
-		});
-	</script>
-	".PHP_EOL;
-
+	
 	$html .= '<div>'.PHP_EOL;
 	foreach ( $sub as $k => $db ) {
 		if ( 'id' != $k ) {
