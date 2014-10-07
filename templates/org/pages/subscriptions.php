@@ -41,7 +41,7 @@ function spl_get_subscriptions() {
 		<p>
 			'.$category.'
 		</p>
-		'
+		';
 	}
 
 	foreach ( $sub as $k => $db ) {
