@@ -31,14 +31,6 @@
 				
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-primary" href="/subscriptions/">
-				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-				      Tools for business</a>
-				  </div>
-				</div><!-- /.media -->
-				
-				<div class="media">
-				  <div class="media-body">
 				    <a class="btn btn-block btn-success" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Research databases</a>
@@ -61,7 +53,13 @@
 				  </div>
 				</div><!-- /.media -->
 
-				
+				<div class="media">
+				  <div class="media-body">
+				    <a class="btn btn-block btn-inverse" href="/subscriptions/">
+				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+				      Tools for business</a>
+				  </div>
+				</div><!-- /.media -->
 
 				<hr>
 				<p class="text-center">
