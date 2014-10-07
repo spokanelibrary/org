@@ -36,13 +36,16 @@ function spl_get_subscriptions() {
 
 	$html .= '';
 
+	$html .= '<ul>';
+	$html .= '<li>Show all (alphabetical order)</li>';
 	foreach ( $cat as $k => $category ) {
 		$html .= '
-		<p>
+		<li>
 			'.$category.'
-		</p>
+		</li>
 		';
 	}
+	$html .= '</ul>';
 
 	foreach ( $sub as $k => $db ) {
 		if ( 'id' != $k ) {
