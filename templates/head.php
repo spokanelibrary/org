@@ -15,6 +15,7 @@
  	<?php if ( isset($_REQUEST['kiosk']) ) : ?>
   <style>
     html {cursor:none;}
+    body {padding:none !important;}
   </style>
 	<?php endif; ?>
 
