@@ -3,16 +3,16 @@
 
 function spl_get_subscriptions() {
 	$cat = array(
-			 'aaa'=>'Featured'
-			,'bus'=>'Business &amp; Career'
-			,'dir'=>'Directories'
-			,'gen'=>'Genealogy'
-			,'ref'=>'General Reference'
-			,'fun'=>'Grants &amp; Fundraising'
-			,'hom'=>'Homework Help'
-			,'law'=>'Law'
-			,'mag'=>'Magazines &amp; Newspapers'
-			,'rep'=>'Repair'
+			 'aaa'=>'<i class="glyphicon glyphicon-star"></i> Featured'
+			,'bus'=>'<i class="glyphicon glyphicon-paperclip"></i> Business &amp; Career'
+			,'dir'=>'<i class="glyphicon glyphicon-filter"></i> Directories'
+			,'gen'=>'<i class="glyphicon glyphicon-user"></i> Genealogy'
+			,'ref'=>'<i class="glyphicon glyphicon-globe"></i> General Reference'
+			,'fun'=>'<i class="glyphicon glyphicon-usd"></i> Grants &amp; Fundraising'
+			,'hom'=>'<i class="glyphicon glyphicon-question-sign"></i> Homework Help'
+			,'law'=>'<i class="glyphicon glyphicon-briefcase"></i> Law'
+			,'mag'=>'<i class="glyphicon glyphicon-book"></i> Magazines &amp; Newspapers'
+			,'rep'=>'<i class="glyphicon glyphicon-wrench"></i> Repair'
 			);
 
 	$sub = new stdClass();
@@ -99,10 +99,10 @@ function spl_get_subscriptions() {
 	$html .= '<ul class="nav nav-pills">'.PHP_EOL;
 	$html .= '
 	<li class="spl-database-subjects-nav">
-		<a class="spl-database-subjects-trigger" data-spl-db=".spl-database-subjects" href="#"><b>Show All</b> <small>(alphabetical order)</small></a>
+		<a class="spl-database-subjects-trigger" data-spl-db=".spl-database-subjects" href="#"><i class="glyphicon glyphicon-plus-sign"></i> <b>Show All</b> <small>(alphabetical order)</small></a>
 	</li>
 	<li class="spl-database-subjects-nav active">
-		<a class="spl-database-subjects-trigger" data-spl-db=".aaa" href="#"><b>Featured</b> <small>(staff picks)</small></a>
+		<a class="spl-database-subjects-trigger" data-spl-db=".aaa" href="#"><i class="glyphicon glyphicon-star"></i> <b>Featured</b> <small>(staff picks)</small></a>
 	</li>
 	';
 	foreach ( $cat as $k => $category ) {
