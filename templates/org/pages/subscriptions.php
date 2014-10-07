@@ -99,7 +99,7 @@ function spl_get_subscriptions() {
 	$html .= '<ul class="nav nav-pills">'.PHP_EOL;
 	$html .= '
 	<li class="spl-database-subjects-nav">
-		<a class="spl-database-subjects-trigger" data-spl-db=".spl-database-subjects" href="#"><small class="glyphicon glyphicon-plus-sign"></small> <b>Show All</b> <small>(alphabetical order)</small></a>
+		<a class="spl-database-subjects-trigger" data-spl-db=".spl-database-subjects" href="#"><small class="glyphicon glyphicon-plus-sign"></small> <b>Show All</b> <small>(alphabetical)</small></a>
 	</li>
 	<li class="spl-database-subjects-nav active">
 		<a class="spl-database-subjects-trigger" data-spl-db=".aaa" href="#"><small class="glyphicon glyphicon-star"></small> <b>Featured</b> <small>(staff picks)</small></a>
