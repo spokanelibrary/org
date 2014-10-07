@@ -15,6 +15,13 @@ function spl_get_subscriptions() {
 			);
 
 	$sub = new stdClass();
+	$sub->id->name = '';
+	$sub->id->description = '';
+	$sub->id->category = array('');
+	$sub->id->url = '';
+	$sub->id->img = '';
+	
+
 
 	print_r($cat);
 	print_r($sub);
