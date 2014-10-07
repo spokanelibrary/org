@@ -48,7 +48,9 @@ function spl_get_subscriptions() {
 
 	$html .= '';
 
-	$html .= '<ul class="nav nav-pills">';
+	$html .= '<div class="panel panel-primary">'.PHP_EOL;
+	$html .= '<div class="panel-body">'.PHP_EOL;
+	$html .= '<ul class="nav nav-pills">'.PHP_EOL;
 	$html .= '
 	<li class="active">
 		<a href="#">Show all <small>(alphabetical order)</small></a>
@@ -60,7 +62,9 @@ function spl_get_subscriptions() {
 		</li>
 		';
 	}
-	$html .= '</ul>';
+	$html .= '</ul>'.PHP_EOL;
+	$html .= '</div>'.PHP_EOL;
+	$html .= '</div>'.PHP_EOL;
 
 	foreach ( $sub as $k => $db ) {
 		if ( 'id' != $k ) {
