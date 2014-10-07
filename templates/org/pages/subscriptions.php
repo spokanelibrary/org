@@ -16,6 +16,6 @@ $sub = new stdClass();
 ?>
 
 <pre>
-<?php print_r($cat, true); ?>
+<?php print_r($cat); ?>
 </pre>
 
