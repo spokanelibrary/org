@@ -3,16 +3,16 @@
 
 function spl_get_subscriptions() {
 	$cat = array(
-			 'aaa'=>'<i class="glyphicon glyphicon-star"></i> Featured'
-			,'bus'=>'<i class="glyphicon glyphicon-paperclip"></i> Business &amp; Career'
-			,'dir'=>'<i class="glyphicon glyphicon-filter"></i> Directories'
-			,'gen'=>'<i class="glyphicon glyphicon-user"></i> Genealogy'
-			,'ref'=>'<i class="glyphicon glyphicon-globe"></i> General Reference'
-			,'fun'=>'<i class="glyphicon glyphicon-usd"></i> Grants &amp; Fundraising'
-			,'hom'=>'<i class="glyphicon glyphicon-question-sign"></i> Homework Help'
-			,'law'=>'<i class="glyphicon glyphicon-briefcase"></i> Law'
-			,'mag'=>'<i class="glyphicon glyphicon-book"></i> Magazines &amp; Newspapers'
-			,'rep'=>'<i class="glyphicon glyphicon-wrench"></i> Repair'
+			 'aaa'=>'<small class="glyphicon glyphicon-star"></small> Featured'
+			,'bus'=>'<small class="glyphicon glyphicon-paperclip"></small> Business &amp; Career'
+			,'dir'=>'<small class="glyphicon glyphicon-filter"></small> Directories'
+			,'gen'=>'<small class="glyphicon glyphicon-user"></small> Genealogy'
+			,'ref'=>'<small class="glyphicon glyphicon-globe"></small> General Reference'
+			,'fun'=>'<small class="glyphicon glyphicon-usd"></small> Grants &amp; Fundraising'
+			,'hom'=>'<small class="glyphicon glyphicon-question-sign"></small> Homework Help'
+			,'law'=>'<small class="glyphicon glyphicon-briefcase"></small> Law'
+			,'mag'=>'<small class="glyphicon glyphicon-book"></small> Magazines &amp; Newspapers'
+			,'rep'=>'<small class="glyphicon glyphicon-wrench"></small> Repair'
 			);
 
 	$sub = new stdClass();
@@ -99,10 +99,10 @@ function spl_get_subscriptions() {
 	$html .= '<ul class="nav nav-pills">'.PHP_EOL;
 	$html .= '
 	<li class="spl-database-subjects-nav">
-		<a class="spl-database-subjects-trigger" data-spl-db=".spl-database-subjects" href="#"><i class="glyphicon glyphicon-plus-sign"></i> <b>Show All</b> <small>(alphabetical order)</small></a>
+		<a class="spl-database-subjects-trigger" data-spl-db=".spl-database-subjects" href="#"><small class="glyphicon glyphicon-plus-sign"></small> <b>Show All</b> <small>(alphabetical order)</small></a>
 	</li>
 	<li class="spl-database-subjects-nav active">
-		<a class="spl-database-subjects-trigger" data-spl-db=".aaa" href="#"><i class="glyphicon glyphicon-star"></i> <b>Featured</b> <small>(staff picks)</small></a>
+		<a class="spl-database-subjects-trigger" data-spl-db=".aaa" href="#"><small class="glyphicon glyphicon-star"></small> <b>Featured</b> <small>(staff picks)</small></a>
 	</li>
 	';
 	foreach ( $cat as $k => $category ) {
