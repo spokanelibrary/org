@@ -57,7 +57,7 @@ function spl_get_subscriptions() {
 	foreach ( $cat as $k => $category ) {
 		$html .= '
 		<li>
-			<a data-toggle="collapse" href=".'.$k.'">'.$category.'</a>
+			<a class="spl-database-subjects-trigger" data-toggle="collapse" href=".'.$k.'">'.$category.'</a>
 		</li>
 		';
 	}
@@ -68,7 +68,7 @@ function spl_get_subscriptions() {
 	$html .= "
 	<script>
 		$('body').on('click', '.spl-database-subjects-trigger', function() {
-			console.log('test');
+			$(this).attr('attr');
 		});
 	</script>
 	".PHP_EOL;
