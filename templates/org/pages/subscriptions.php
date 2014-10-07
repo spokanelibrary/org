@@ -36,7 +36,13 @@ function spl_get_subscriptions() {
 
 	$html .= '';
 	foreach ( $sub as $k=>$db ) {
-		$html .= $db->name;
+		if ( 'id' != $k ) {
+			$html .= '<div class="panel panel-default">'.PHP_EOL;
+			$html .= '<div class="panel-body">'.PHP_EOL;
+			$html .= $db->name;
+			$html .= '</div>'.PHP_EOL;
+			$html .= '</div>'.PHP_EOL;
+		}
 	}	
 	echo $html;
 
