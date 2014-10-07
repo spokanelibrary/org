@@ -52,12 +52,12 @@ function spl_get_subscriptions() {
 	$html .= '<ul class="nav nav-pills">'.PHP_EOL;
 	$html .= '
 	<li class="active">
-		<a href="#">Show all <small>(alphabetical order)</small></a>
+		<a data-toggle="collapse" href="#">Show all <small>(alphabetical order)</small></a>
 	</li>';
 	foreach ( $cat as $k => $category ) {
 		$html .= '
 		<li>
-			<a href="#">'.$category.'</a>
+			<a data-toggle="collapse" href="#spl-database-subjects'.$k.'">'.$category.'</a>
 		</li>
 		';
 	}
@@ -70,12 +70,12 @@ function spl_get_subscriptions() {
 			$class = ' ';
 			$subjects = null;
 			foreach ( $db->category as $subject ) {
-				$class .= $subject . ' ';
+				$class .= $subject . ' spl-database-subjects ';
 				$subjects .='<p><span class="label label-default">'.$cat[$subject].'</span></p>';
 			}
 
 			$html .= '
-			<div class="collapse in'.$class.'">
+			<div class="collapse'.$class.'">
 				<a href="'.$db->url.'" class="">
 					<h3>'.$db->name.' &rarr;</h3>
 				</a>
