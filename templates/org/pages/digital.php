@@ -37,6 +37,9 @@
 				    <a class="btn btn-block btn-success" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Research databases</a>
+				    <small>
+				    	lorem ipsum dolor sit amet
+				    </small>
 				  </div>
 				</div><!-- /.media -->
 
