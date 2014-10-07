@@ -47,17 +47,25 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-info" href="/subscriptions/">
+				    <a class="btn btn-block btn-inverse" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-				      Research databases</a>
+				      Tools for business</a>
 				  </div>
 				</div><!-- /.media -->
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-inverse" href="/subscriptions/">
+				    <a class="btn btn-block btn-info" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-				      Tools for business</a>
+				      Northwest Room online</a>
+				  </div>
+				</div><!-- /.media -->
+
+				<div class="media">
+				  <div class="media-body">
+				    <a class="btn btn-block btn-info" href="/subscriptions/">
+				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+				      Research databases</a>
 				  </div>
 				</div><!-- /.media -->
 
