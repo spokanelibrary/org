@@ -59,6 +59,9 @@
 				    <a class="btn btn-block btn-info" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Tools for business</a>
+				    <small>
+				    	Competitive analysis, technology training, and market research.
+				    </small>
 				  </div>
 				</div><!-- /.media -->
 
@@ -74,7 +77,7 @@
 				  <div class="media-body">
 				    <a class="btn btn-block btn-default" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-				      Easter Washington genealogy</a>
+				      Eastern Washington genealogy</a>
 				  </div>
 				</div><!-- /.media -->
 
