@@ -32,7 +32,7 @@ function spl_get_subscriptions() {
 	$sub->aps->description = '
 	Free access to APS journals, including <em>Physics and Reviews of Modern Physics</em>. 
 	';
-	$sub->id->note = 'Only accessible through library computers';
+	$sub->aps->note = 'Only accessible through library computers';
 
 	$html .= '';
 	foreach ( $sub as $k=>$db ) {
@@ -42,32 +42,31 @@ function spl_get_subscriptions() {
 				$class .= $subject . ' ';
 			}
 
-			$html .= '<div class="panel panel-default'.$class.'">'.PHP_EOL;
-			$html .= '<div class="panel-body">'.PHP_EOL;
-			
 			$html .= '
-			<a href="'.$db->url.'" class="">
-				<h3>'.$db->name.'</h3>
-			</a>
-			<div class="row">
-      	<div class="col-md-3">
-          <a href="'.$db->url.'" class="">
-      			<img src="/assets/img/db/'.$db->img.'" class="img-responsive img-rounded">
-    			</a>
+			<div class="panel panel-default'.$class.'">
+				<div class="panel-body">
+					<a href="'.$db->url.'" class="">
+						<h3>'.$db->name.'</h3>
+					</a>
+					<div class="row">
+		      	<div class="col-md-3">
+		          <a href="'.$db->url.'" class="">
+		      			<img src="/assets/img/db/'.$db->img.'" class="img-responsive img-rounded">
+		    			</a>
 
-         </div>
-         <div class="col-md-9">
-          <p>
-          	'.$db->description.'
-          </p>
-          <p class="text-danger">
-          	'.$db->note.'
-          </p>
-				</div>
-        </div>
+		         </div><!-- /.col -->
+		         <div class="col-md-9">
+		          <p>
+		          	'.$db->description.'
+		          </p>
+		          <p class="text-danger">
+		          	'.$db->note.'
+		          </p>
+						</div><!-- /.col -->
+		      </div><!-- /.row -->
+	      </div><!-- /.panel-body -->
+       </div><!-- /.panel -->
       ';
-			$html .= '</div>'.PHP_EOL;
-			$html .= '</div>'.PHP_EOL;
 		}
 	}	
 	echo $html;
