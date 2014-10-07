@@ -91,7 +91,7 @@ function spl_get_subscriptions() {
 			$subjects = null;
 			foreach ( $db->category as $subject ) {
 				$class .= $subject . ' spl-database-subjects ';
-				$class .= ('aaa' == $subject) ? 'collapse in ' : 'collapse ';
+				$class .= ('aaa' == $subject) ? 'collapse in ' : 'collapse in ';
 				$label = ('aaa' == $subject) ? 'label-info' : 'label-warning';
 				$subjects .='<p><span class="label '.$label.'">'.$cat[$subject].'</span></p>';
 			}
