@@ -61,7 +61,7 @@ function spl_get_subscriptions() {
 	</script>
 	".PHP_EOL;
 
-	$html .= '<div class="panel panel-primary">'.PHP_EOL;
+	$html .= '<div class="panel panel-info">'.PHP_EOL;
 	$html .= '<div class="panel-body">'.PHP_EOL;
 	$html .= '<ul class="nav nav-pills">'.PHP_EOL;
 	$html .= '
