@@ -51,13 +51,13 @@ function spl_get_subscriptions() {
 	<script>
 		$('body').on('click', '.spl-database-subjects-trigger', function(e) {
 			e.preventDefault();
-			$('.spl-database-subjects').collapse('hide');
+			$('.spl-database-subjects').hide;
 
 			$('.spl-database-subjects-nav').removeClass('active');
 			$(this).closest('.spl-database-subjects-nav').addClass('active');
 
 			console.log($(this).data('spl-db'));
-			$($(this).data('spl-db')).collapse('show');
+			$($(this).data('spl-db')).show();
 		});
 	</script>
 	".PHP_EOL;
@@ -92,7 +92,7 @@ function spl_get_subscriptions() {
 			}
 
 			$html .= '
-			<div class="collapse in'.$class.'">
+			<div class="'.$class.'">
 				<a href="'.$db->url.'" class="">
 					<h3>'.$db->name.' &rarr;</h3>
 				</a>
