@@ -66,9 +66,9 @@ function spl_get_subscriptions() {
 		if ( 'id' != $k ) {
 			$class = ' ';
 			$subjects = null;
-			foreach ( $db->category as $subject => $label ) {
+			foreach ( $db->category as $subject ) {
 				$class .= $subject . ' ';
-				$subjects .'<p>'.$label.'</p>';
+				$subjects .='<p>'.$subject.'</p>';
 			}
 
 			$html .= '
