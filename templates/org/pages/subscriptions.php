@@ -24,7 +24,7 @@ function spl_get_subscriptions() {
 
 	';
 	$sub->id->limit = null;
-
+	//
 	$sub->aps->name = 'American Physical Society Journals';
 	$sub->aps->img = 'apslogo.gif';
 	$sub->aps->url = 'http://publish.aps.org/';
@@ -33,13 +33,25 @@ function spl_get_subscriptions() {
 	Free access to APS journals, including <em>Physics and Reviews of Modern Physics</em>. 
 	';
 	$sub->aps->limit = 'Only accessible through library computers';
+	//
+	$sub->arrc->name = 'Auto Repair Reference Center ';
+	$sub->arrc->img = 'arrc_button_200x100';
+	$sub->arrc->url = 'http://search.ebscohost.com/login.aspx?authtype=ip,cpid&custid=s8427805&profile=autorefctr';
+	$sub->arrc->category = array('rep');
+	$sub->arrc->description = '
+	Do-it-yourself repair and maintenance information on most major manufacturers of domestic and imported vehicles. 
+	';
+	$sub->arrc->limit = null;
+
+
+	//
 
 	$html .= '';
 
 	$html .= '<ul class="nav nav-pills">';
 	$html .= '
 	<li class="active">
-		<a href="#">Show all (alphabetical order)</a>
+		<a href="#">Show all <small>(alphabetical order)<small></a>
 	</li>';
 	foreach ( $cat as $k => $category ) {
 		$html .= '
@@ -58,29 +70,27 @@ function spl_get_subscriptions() {
 			}
 
 			$html .= '
-			<div class="panel panel-default'.$class.'">
-				<div class="panel-body">
-					<a href="'.$db->url.'" class="">
-						<h3>'.$db->name.'</h3>
-					</a>
-					<div class="row">
-		      	<div class="col-md-3">
-		          <a href="'.$db->url.'" class="">
-		      			<img src="/assets/img/db/'.$db->img.'" class="img-responsive img-rounded">
-		    			</a>
+			<div class="collapse in'.$class.'">
+				<a href="'.$db->url.'" class="">
+					<h3>'.$db->name.'</h3>
+				</a>
+				<div class="row">
+	      	<div class="col-md-3">
+	          <a href="'.$db->url.'" class="">
+	      			<img src="/assets/img/db/'.$db->img.'" class="img-responsive img-rounded">
+	    			</a>
 
-		         </div><!-- /.col -->
-		         <div class="col-md-9">
-		          <p>
-		          	'.$db->description.'
-		          </p>
-		          <p class="text-danger">
-		          	'.$db->limit.'
-		          </p>
-						</div><!-- /.col -->
-		      </div><!-- /.row -->
-	      </div><!-- /.panel-body -->
-       </div><!-- /.panel -->
+	         </div><!-- /.col -->
+	         <div class="col-md-9">
+	          <p>
+	          	'.$db->description.'
+	          </p>
+	          <p class="text-danger">
+	          	'.$db->limit.'
+	          </p>
+					</div><!-- /.col -->
+	      </div><!-- /.row -->
+       </div><!-- /.collapse -->
       ';
 		}
 	}	
