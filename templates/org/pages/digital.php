@@ -13,7 +13,7 @@
 				<?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
 				<hr>
 				<p class="text-center">
-					<a href="#">More about downloadable material</a> &rarr;
+					<a href="#"><b>More about downloadable material</b></a> &rarr;
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
@@ -28,7 +28,7 @@
 			<div class="panel-body">
 				<hr>
 				<p class="text-center">
-					<a href="#">More research &amp; learning tools</a> &rarr;
+					<a href="#"><b>More research &amp; learning tools</b></a> &rarr;
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
