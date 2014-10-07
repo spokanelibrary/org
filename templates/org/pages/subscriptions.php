@@ -37,9 +37,29 @@ function spl_get_subscriptions() {
 	$html .= '';
 	foreach ( $sub as $k=>$db ) {
 		if ( 'id' != $k ) {
-			$html .= '<div class="panel panel-default">'.PHP_EOL;
+			$class = ' ';
+			foreach ( $db->category as $subject ) {
+				$class .= $subject . ' ';
+			}
+
+			$html .= '<div class="panel panel-default'.$class.'">'.PHP_EOL;
 			$html .= '<div class="panel-body">'.PHP_EOL;
 			$html .= $db->name;
+			$html .= '
+			<div class="row">
+      	<div class="col-md-3">
+          <a href="'.$db->url.'" class="">
+      			<img src="/assets/img/db/'.$db->img.'" class="img-responsive img-rounded">
+    			</a>
+
+         </div>
+         <div class="col-md-9">
+          <p>
+          	'.$db->description.'
+          </p>
+				</div>
+        </div>
+      ';
 			$html .= '</div>'.PHP_EOL;
 			$html .= '</div>'.PHP_EOL;
 		}
