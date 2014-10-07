@@ -39,12 +39,27 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-success" href="/subscriptions/">
+				    <a class="btn btn-block btn-warning" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Microsoft IT Academy</a>
 				  </div>
 				</div><!-- /.media -->
 
+				<div class="media">
+				  <div class="media-body">
+				    <a class="btn btn-block btn-success" href="/subscriptions/">
+				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+				      Research databases</a>
+				  </div>
+				</div><!-- /.media -->
+
+				<div class="media">
+				  <div class="media-body">
+				    <a class="btn btn-block btn-warning" href="/subscriptions/">
+				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+				      Microsoft IT Academy</a>
+				  </div>
+				</div><!-- /.media -->
 
 				<hr>
 				<p class="text-center">
