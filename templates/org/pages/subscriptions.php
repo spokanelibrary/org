@@ -65,14 +65,16 @@ function spl_get_subscriptions() {
 	foreach ( $sub as $k => $db ) {
 		if ( 'id' != $k ) {
 			$class = ' ';
-			foreach ( $db->category as $subject ) {
+			$subjects = null;
+			foreach ( $db->category as $subject => $label ) {
 				$class .= $subject . ' ';
+				$subjects .'<p>'.$label.'</p>'
 			}
 
 			$html .= '
 			<div class="collapse in'.$class.'">
 				<a href="'.$db->url.'" class="">
-					<h3>'.$db->name.'</h3>
+					<h3>'.$db->name.' &rarr;</h3>
 				</a>
 				<div class="row">
 	      	<div class="col-md-3">
@@ -81,13 +83,16 @@ function spl_get_subscriptions() {
 	    			</a>
 
 	         </div><!-- /.col -->
-	         <div class="col-md-9">
+	         <div class="col-md-6">
 	          <p>
 	          	'.$db->description.'
 	          </p>
 	          <p class="text-danger">
 	          	'.$db->limit.'
 	          </p>
+					</div><!-- /.col -->
+					<div class="col-md-3">
+	          '.$subjects.'
 					</div><!-- /.col -->
 	      </div><!-- /.row -->
        </div><!-- /.collapse -->
