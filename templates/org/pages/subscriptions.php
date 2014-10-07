@@ -47,7 +47,7 @@ function spl_get_subscriptions() {
 	$sub->arrc->limit = null;
 
 	// 
-	$sub->bsc->name = 'Business Source Complete Magazines';
+	$sub->bsc->name = 'Business Source Complete (Magazines)';
 	$sub->bsc->img = 'bscomplete_button_150x75';
 	$sub->bsc->url = 'http://search.ebscohost.com/login.aspx?authtype=ip,cpid&custid=s8427805&profile=ehost&defaultdb=bth';
 	$sub->bsc->category = array('aaa','bus','mag');
