@@ -43,9 +43,6 @@ function spl_get_subscriptions() {
 	';
 	$sub->arrc->limit = null;
 
-	$sub = new ArrayObject($sub);
-	$sub->krsort();
-
 	//
 
 	$html .= '';
