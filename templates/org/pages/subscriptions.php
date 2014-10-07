@@ -25,27 +25,41 @@ function spl_get_subscriptions() {
 
 	';
 	$sub->id->limit = null;
+
 	//
 	$sub->aps->name = 'American Physical Society Journals';
 	$sub->aps->img = 'apslogo.gif';
 	$sub->aps->url = 'http://publish.aps.org/';
 	$sub->aps->category = array('mag');
 	$sub->aps->description = '
-	Free access to APS journals, including <em>Physics and Reviews of Modern Physics</em>. 
+	Free access to APS journals, including <em>Physics and Reviews of Modern Physics</em> 
 	';
 	$sub->aps->limit = 'Only accessible through library computers';
+	
 	//
 	$sub->arrc->name = 'Auto Repair Reference Center ';
-	$sub->arrc->img = 'arrc_button_200x100';
+	$sub->arrc->img = 'arrc_button_150x75.gif';
 	$sub->arrc->url = 'http://search.ebscohost.com/login.aspx?authtype=ip,cpid&custid=s8427805&profile=autorefctr';
-	$sub->arrc->category = array('rep', 'aaa');
+	$sub->arrc->category = array('rep');
 	$sub->arrc->description = '
-	Do-it-yourself repair and maintenance information on most major manufacturers of domestic and imported vehicles. 
+	Do-it-yourself repair and maintenance information on most major manufacturers of domestic and imported vehicles
 	';
 	$sub->arrc->limit = null;
 
-	//
+	// 
+	$sub->bsc->name = 'Business Source Complete Magazines';
+	$sub->bsc->img = 'bscomplete_button_150x75';
+	$sub->bsc->url = 'http://search.ebscohost.com/login.aspx?authtype=ip,cpid&custid=s8427805&profile=ehost&defaultdb=bth';
+	$sub->bsc->category = array('aaa','bus','mag');
+	$sub->bsc->description = '
+	Full-text journals for business, including marketing, management, accounting, and economics, as well as detailed information on public and private companies
+	';
+	$sub->bsc->limit = null;
 
+
+	/*
+		output
+	*/
 	$html .= '';
 
 	$html .= "
