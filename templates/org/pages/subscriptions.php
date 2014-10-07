@@ -67,13 +67,13 @@ function spl_get_subscriptions() {
 
 	$html .= "
 	<script>
-		$('body').on('click', '.spl-database-subjects-trigger', function() {
+		$('body').on('click', '.spl-database-subjects-trigger', function(e) {
+			e.preventDefault();
+
 			$('.spl-database-subjects').collapse('hide');
 
 			var classes = $(this).data('spl-db'); 
 			$(classes).collapse('show');
-			
-			//console.log($(this).attr('href'));
 		});
 	</script>
 	".PHP_EOL;
