@@ -142,6 +142,12 @@ var ORG = {
         e.preventDefault();
       });
 
+      // external links
+      $('body').on('click', 'a[rel="external"]', function(e) {
+        ewindow.open( $(this).attr('href') );
+        return false;
+      });
+
       $('body').on('submit', '.spl-form', function(e) {
         $('button').attr('disabled', true);
       });
