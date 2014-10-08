@@ -144,7 +144,7 @@ var ORG = {
 
       // external links
       $('body').on('click', 'a[rel="external"]', function(e) {
-        ewindow.open( $(this).attr('href') );
+        window.open( $(this).attr('href') );
         return false;
       });
 
