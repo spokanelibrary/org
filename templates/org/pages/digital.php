@@ -32,9 +32,11 @@
 				<div class="media">
 				  <a class="pull-left btn btn-success btn-xs" href="#">
 				  	<div class="media-object">
+				  		<h4>
 				  			<span class="label label-primary">
 				  				<i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				  			</span>
+				  		</h4>
 				  	</div>
 					</a>
 				  <div class="media-body">
