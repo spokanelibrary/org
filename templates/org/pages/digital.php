@@ -11,7 +11,7 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<p class="text-warning">
-					A modern library for your ereader, media player, smart phone, or tablet with no lines, no parking, and <b>no late fees</b>!
+					A modern library for your ereader, media player, smart phone, tablet, or desktop with no lines, no parking, and <b>no late fees</b>!
 				</p>
 
 				<?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
