@@ -12,26 +12,26 @@
 
 <h3>Library locations</h3>
 
-<ul class="nav">
-	<li class="active">
-		<a href="/branch/downtown/">Downtown</a>
+<ul class="nav nav-pills">
+	<li>
+		<a class="btn btn-primary" href="/branch/downtown/">Downtown</a>
 	</li>
-	<li class="active">
+	<li>
 		<a href="/branch/northwest-room/">NW Room</a>
 	</li>
-	<li class="active">
+	<li>
 		<a href="/branch/east-side/">East Side</a>
 	</li>
-	<li class="active">
+	<li>
 		<a href="/branch/hillyard/">Hillyard</a>
 	</li>
-	<li class="active">
+	<li>
 		<a href="/branch/indian-trail/">Indian Trail</a>
 	</li>
-	<li class="active">
+	<li>
 		<a href="/branch/shadle/">Shadle</a>
 	</li>
-	<li class="active">
+	<li>
 		<a href="/branch/south-hill/">South Hill</a>
 	</li>
 </ul>
