@@ -38,7 +38,7 @@
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Research databases</a>
 				    <small>
-				    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#cr">resume building</a>, <a href="/subscriptions/#morn">investment research</a>, and <a href="/subscriptions/#wslf">legal forms</a>.
+				    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
 				    	<a href="/subscriptions/#all">View all &rarr;</a>
 				    </small>
 				  </div>
@@ -51,6 +51,7 @@
 				      Online classes</a>
 				    <small>
 				    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
+				    	<a href="/subscriptions/#cr">Or build your resume online &rarr;</a>
 				    </small>
 				  </div>
 				</div><!-- /.media -->
