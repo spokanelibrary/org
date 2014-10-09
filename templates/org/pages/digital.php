@@ -34,7 +34,7 @@
 				
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-info" href="/subscriptions/">
+				    <a class="btn btn-block btn-default" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Research databases</a>
 				    <small>
@@ -46,7 +46,7 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-info" href="/elearning/">
+				    <a class="btn btn-block btn-default" href="/elearning/">
 				      <i class="glyphicon glyphicon-facetime-video"></i>
 				      Online classes</a>
 				    <small>
@@ -58,7 +58,7 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-info" href="/subscriptions/">
+				    <a class="btn btn-block btn-default" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-briefcase"></i>
 				      Tools for business</a>
 				    <small>
@@ -69,7 +69,7 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-info" href="/subscriptions/">
+				    <a class="btn btn-block btn-default" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-picture"></i>
 				      Northwest Room digital</a>
 				  </div>
@@ -77,7 +77,7 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-info" href="/subscriptions/">
+				    <a class="btn btn-block btn-default" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-tree-conifer"></i>
 				      Eastern Washington genealogy</a>
 				  </div>
