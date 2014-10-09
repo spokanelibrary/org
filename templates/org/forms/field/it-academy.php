@@ -40,7 +40,7 @@
             <p class="lead">
               <strong>New Users:</strong> Login to get started
             </p>
-            <?php include 'common/user-login.php'; ?>
+            <?php //include 'common/user-login.php'; ?>
           </div>
         <?php
           endif;
