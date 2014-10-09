@@ -38,7 +38,7 @@
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Research databases</a>
 				    <small>
-				    	Wide ranging topics, from scientific journals to legal forms.
+				    	Wide ranging topics, from scientific journals and auto repair to investment research and legal forms.
 				    </small>
 				  </div>
 				</div><!-- /.media -->
