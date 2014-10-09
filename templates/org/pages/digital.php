@@ -43,6 +43,10 @@
 				    <h5 class="media-heading">
 				    	<a href="#">Subscription databases</a>
 				    </h5>
+				    <small>
+				    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
+				    	<a href="/subscriptions/#all">View all &rarr;</a>
+				    </small>
 				  </div>
 				</div><!-- /.media -->
 				
