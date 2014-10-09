@@ -24,7 +24,7 @@
 		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h4>
-					<i class="glyphicon glyphicon-globe"></i> Research &amp; learning
+					<i class="glyphicon glyphicon-globe"></i> Research &amp; education
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
