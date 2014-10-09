@@ -10,7 +10,10 @@
 	</p>
 </div>
 
-<h3>Find a library location</h3>
+<h3>
+	<i class="glyphicon glyphicon-flag"></i>
+	Find a library location
+</h3>
 
 <div class="btn-group">
 	<a class="btn btn-primary" href="/branch/downtown/">Downtown</a>
