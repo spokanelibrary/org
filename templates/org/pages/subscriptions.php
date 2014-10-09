@@ -1,4 +1,4 @@
-<dl class="dl-horizontal" style="margin-bottom:0;">
+<dl class="dl-horizontal" style="padding-bottom:0;">
 	<dt>In-library use</dt>
 		<dd>
 			No library card is required
