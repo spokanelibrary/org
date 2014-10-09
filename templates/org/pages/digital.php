@@ -33,7 +33,7 @@
 				  <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
 				  	<div class="media-object">
 				  		<h4>
-				  			<span class="label label-primary">
+				  			<span class="label label-primary" style="margin:0;">
 				  				<i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				  			</span>
 				  		</h4>
