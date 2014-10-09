@@ -32,7 +32,7 @@
 				<div class="media">
 				  <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
 				  	<div class="media-object">
-				  		<h4 class="btn-icon">
+				  		<h4 class="spl-btn-icon">
 				  			<span class="label label-primary">
 				  				<i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				  			</span>
@@ -53,7 +53,7 @@
 				<div class="media">
 				  <a class="pull-left btn btn-success btn-xs" href="/elearning/">
 				  	<div class="media-object">
-				  		<h4>
+				  		<h4 class="spl-btn-icon">
 				  			<span class="label label-primary">
 				  				<i class="glyphicon glyphicon-facetime-video"></i>
 				  			</span>
@@ -74,7 +74,7 @@
 				<div class="media">
 				  <a class="pull-left btn btn-success btn-xs" href="/business/">
 				  	<div class="media-object">
-				  		<h4>
+				  		<h4 class="spl-btn-icon">
 				  			<span class="label label-primary">
 				  				<i class="glyphicon glyphicon-briefcase"></i>
 				  			</span>
@@ -94,7 +94,7 @@
 				<div class="media">
 				  <a class="pull-left btn btn-success btn-xs" href="/nw-digital/">
 				  	<div class="media-object">
-				  		<h4>
+				  		<h4 class="spl-btn-icon">
 				  			<span class="label label-primary">
 				  				<i class="glyphicon glyphicon-picture"></i>
 				  			</span>
@@ -112,7 +112,7 @@
 				<div class="media">
 				  <a class="pull-left btn btn-success btn-xs" href="/genealogy/">
 				  	<div class="media-object">
-				  		<h4>
+				  		<h4 class="spl-btn-icon">
 				  			<span class="label label-primary">
 				  				<i class="glyphicon glyphicon-tree-conifer"></i>
 				  			</span>
