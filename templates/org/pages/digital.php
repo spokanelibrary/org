@@ -38,7 +38,7 @@
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Research databases</a>
 				    <small>
-				    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
+				    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#cr">resume building</a>, <a href="/subscriptions/#morn">investment research</a>, and <a href="/subscriptions/#wslf">legal forms</a>.
 				    	<a href="/subscriptions/#all">View all &rarr;</a>
 				    </small>
 				  </div>
@@ -46,8 +46,8 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-default" href="/subscriptions/">
-				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+				    <a class="btn btn-block btn-default" href="/elearning/">
+				      <i class="glyphicon glyphicon-facetime-video"></i>
 				      Online classes</a>
 				    <small>
 				    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
@@ -57,8 +57,8 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-info" href="/subscriptions/">
-				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+				    <a class="btn btn-block btn-default" href="/subscriptions/">
+				      <i class="glyphicon glyphicon-briefcase"></i>
 				      Tools for business</a>
 				    <small>
 				    	Competitive analysis, technology training, and market research.
@@ -68,8 +68,8 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-primary" href="/subscriptions/">
-				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+				    <a class="btn btn-block btn-default" href="/subscriptions/">
+				      <i class="glyphicon glyphicon-picture"></i>
 				      Northwest Room online</a>
 				  </div>
 				</div><!-- /.media -->
@@ -77,16 +77,8 @@
 				<div class="media">
 				  <div class="media-body">
 				    <a class="btn btn-block btn-default" href="/subscriptions/">
-				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+				      <i class="glyphicon glyphicon-tree-conifer"></i>
 				      Eastern Washington genealogy</a>
-				  </div>
-				</div><!-- /.media -->
-
-				<div class="media">
-				  <div class="media-body">
-				    <a class="btn btn-block btn-default" href="/subscriptions/">
-				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-				      Resume Builder</a>
 				  </div>
 				</div><!-- /.media -->
 
