@@ -51,7 +51,7 @@
 				      Online classes</a>
 				    <small>
 				    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
-				    	<a href="/subscriptions/#cr">Or build your resume online &rarr;</a>
+				    	Or <a href="/subscriptions/#cr">build your resume online &rarr;</a>
 				    </small>
 				  </div>
 				</div><!-- /.media -->
