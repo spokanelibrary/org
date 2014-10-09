@@ -12,4 +12,4 @@
 
 <h3>Library locations</h3>
 
-<a href="/branch/downtown/#spl-map-view">Downtown</a>
+<a href="/branch/downtown/">Downtown</a>
