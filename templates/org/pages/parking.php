@@ -17,7 +17,7 @@
 		<a href="/branch/downtown/">Downtown</a>
 	</li>
 	<li>
-		<a href="/branch/northwest-room/">Northwest Room</a>
+		<a href="/branch/northwest-room/">NW Room</a>
 	</li>
 	<li>
 		<a href="/branch/east-side/">East Side</a>
