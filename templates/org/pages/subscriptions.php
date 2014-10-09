@@ -1,7 +1,7 @@
 <dl class="dl-horizontal">
 	<dt>In-library use</dt>
 		<dd>
-			No library card required
+			No library card is required
 		</dd>
 	<dt>Outside the library</dt>
 		<dd>
