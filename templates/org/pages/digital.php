@@ -71,19 +71,26 @@
 				  </div>
 				</div><!-- /.media -->
 
-
-
 				<div class="media">
+				  <a class="pull-left btn btn-success btn-xs" href="/business/">
+				  	<div class="media-object">
+				  		<h4>
+				  			<span class="label label-primary">
+				  				<i class="glyphicon glyphicon-briefcase"></i>
+				  			</span>
+				  		</h4>
+				  	</div>
+					</a>
 				  <div class="media-body">
-				    <a class="btn btn-block btn-primary" href="/elearning/">
-				      <i class="glyphicon glyphicon-facetime-video"></i>
-				      Online training <span class="hidden-xs">&amp; certification</span></a>
+				    <h5 class="media-heading">
+				    	<a href="#">Tools for business</a>
+				    </h5>
 				    <small>
-				    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
-				    	Or <a href="/subscriptions/#cr">build your resume online &rarr;</a>
+				    	Competitive analysis, technology training, and market research.
 				    </small>
 				  </div>
 				</div><!-- /.media -->
+
 
 				<div class="media">
 				  <div class="media-body">
