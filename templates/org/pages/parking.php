@@ -9,3 +9,7 @@
 		For alternative parking options, look at <a href="http://www.downtownspokane.org/uploads/documents/parking/downtown_spokane_parking_map.pdf">this downtown Spokane parking map</a>. 
 	</p>
 </div>
+
+<h3>Library locations</h3>
+
+<a href="/downtown/#spl-map-view">Downtown</a>
