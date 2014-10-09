@@ -39,7 +39,7 @@
 				      Research databases</a>
 				    <small>
 				    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
-				    	<a href="/subscriptions/#all">View all &arr;</a>
+				    	<a href="/subscriptions/#all">View all &rarr;</a>
 				    </small>
 				  </div>
 				</div><!-- /.media -->
