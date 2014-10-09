@@ -7,6 +7,8 @@
 		<dd>
 			A valid library card is required (open to city residents and paying non-residents)
 			<br>
-			Some databases are restricted to in-library use as <span class="text-danger">indicated in red</span>.
+			<small>
+				Some databases are restricted to in-library use as <span class="text-danger">indicated in red</span>.
+			</small>
 		</dd>
 </dl>
