@@ -33,7 +33,7 @@
 				  <div class="media-body">
 				    <a class="btn btn-block btn-default" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-				      Research databases</a>
+				      Subscription databases</a>
 				    <small>
 				    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
 				    	<a href="/subscriptions/#all">View all &rarr;</a>
