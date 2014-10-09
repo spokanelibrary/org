@@ -45,7 +45,7 @@
 				  <div class="media-body">
 				    <a class="btn btn-block btn-default" href="/elearning/">
 				      <i class="glyphicon glyphicon-facetime-video"></i>
-				      Online classes</a>
+				      Online training <span class="hidden-xs">&amp; certification</span></a>
 				    <small>
 				    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
 				    	Or <a href="/subscriptions/#cr">build your resume online &rarr;</a>
