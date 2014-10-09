@@ -30,7 +30,7 @@
 			<div class="panel-body">
 
 				<div class="media">
-				  <a class="pull-left btn btn-success btn-xs" href="#">
+				  <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
 				  	<div class="media-object">
 				  		<h4>
 				  			<span class="label label-primary">
@@ -49,18 +49,29 @@
 				    </small>
 				  </div>
 				</div><!-- /.media -->
-				
+
 				<div class="media">
+				  <a class="pull-left btn btn-success btn-xs" href="/elearning/">
+				  	<div class="media-object">
+				  		<h4>
+				  			<span class="label label-primary">
+				  				<i class="glyphicon glyphicon-facetime-video"></i>
+				  			</span>
+				  		</h4>
+				  	</div>
+					</a>
 				  <div class="media-body">
-				    <a class="btn btn-block btn-primary" href="/subscriptions/">
-				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-				      Subscription databases</a>
+				    <h5 class="media-heading">
+				    	<a href="#">Online training <span class="hidden-xs">&amp; certification</span></a>
+				    </h5>
 				    <small>
-				    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
-				    	<a href="/subscriptions/#all">View all &rarr;</a>
+				    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
+				    	Or <a href="/subscriptions/#cr">build your resume online &rarr;</a>
 				    </small>
 				  </div>
 				</div><!-- /.media -->
+
+
 
 				<div class="media">
 				  <div class="media-body">
