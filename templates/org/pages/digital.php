@@ -1,6 +1,3 @@
-<p class="lead">
-	Spokane Public Library is pleased to offer a growing catalog of downloadable material as well as online research and educational resources.
-</p>
 <div class="row">
 	<div class="col-sm-6">
 		<div class="panel panel-warning">
