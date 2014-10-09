@@ -96,25 +96,34 @@
 				  	<div class="media-object">
 				  		<h4>
 				  			<span class="label label-primary">
-				  				<i class="glyphicon glyphicon-briefcase"></i>
+				  				<i class="glyphicon glyphicon-picture"></i>
 				  			</span>
 				  		</h4>
 				  	</div>
 					</a>
 				  <div class="media-body">
 				    <h5 class="media-heading">
-				    	<a href="#">Northwest Room digital</a>
+				    	<a href="#">Northwest Room digital collections</a>
 				    </h5>
 
 				  </div>
 				</div><!-- /.media -->
 
-
 				<div class="media">
+				  <a class="pull-left btn btn-success btn-xs" href="/genealogy/">
+				  	<div class="media-object">
+				  		<h4>
+				  			<span class="label label-primary">
+				  				<i class="glyphicon glyphicon-tree-conifer"></i>
+				  			</span>
+				  		</h4>
+				  	</div>
+					</a>
 				  <div class="media-body">
-				    <a class="btn btn-block btn-primary" href="/subscriptions/">
-				      <i class="glyphicon glyphicon-tree-conifer"></i>
-				      Eastern Washington genealogy</a>
+				    <h5 class="media-heading">
+				    	<a href="#">Eastern Washington genealogy</a>
+				    </h5>
+
 				  </div>
 				</div><!-- /.media -->
 
