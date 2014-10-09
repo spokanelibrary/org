@@ -12,7 +12,7 @@
 
 <h3>Library locations</h3>
 
-<ul class="nav nav-pills">
+<ul class="nav">
 	<li class="active">
 		<a href="/branch/downtown/">Downtown</a>
 	</li>
