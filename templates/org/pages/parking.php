@@ -18,7 +18,7 @@
 
 <div class="btn-group">
 	<a class="btn btn-primary" href="/branch/downtown/">Downtown</a>
-	<a class="btn btn-primary" href="/branch/northwest-room/">NW Room</a>
+	<a class="btn btn-primary" href="/branch/northwest-room/">Northwest Room</a>
 	<a class="btn btn-primary" href="/branch/east-side/">East Side</a>
 	<a class="btn btn-primary" href="/branch/hillyard/">Hillyard</a>
 	<a class="btn btn-primary" href="/branch/indian-trail/">Indian Trail</a>
