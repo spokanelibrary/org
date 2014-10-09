@@ -1,6 +1,9 @@
 <dl class="dl-horizontal">
-<dt>In-library use</dt>
-<dd></dd>
-<dt>Use outside the library</dt>
+	<dt>In-library use</dt>
+		<dd>No library card required</dd>
+	<dt>Use outside the library</dt>
+		<dd>Valid library card required, open to city residents or paying non-residents</dd>
 </dl>
-These databases are restricted to use within the library (no library card required) or, <b>outside the library</b>, to city residents or paying non-residents <b>with valid library cards</b>.</p>
+<p>
+	Some databases are restricted to in-library use as <span class="text-danger">indicated in red</span>.
+</p>
