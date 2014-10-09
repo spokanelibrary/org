@@ -1,5 +1,5 @@
 <div class="alert alert-warning">
-	<b>Downtown</b>
+	<b>Parking downtown</b>
 	<p>
 		The parking garage below the Downtown Library is operated by Diamond Parking.
 	</p>
