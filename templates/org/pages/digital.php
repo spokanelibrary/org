@@ -28,6 +28,23 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
+
+				<div class="media">
+				  <a class="pull-left btn btn-success btn-xs" href="#">
+				  	<div class="media-object">
+				  		<h3>
+				  			<span class="label label-primary">
+				  				<i class="glyphicon glyphicon-sort-by-alphabet"></i>
+				  			</span>
+				  		</h3>
+				  	</div>
+					</a>
+				  <div class="media-body">
+				    <h5 class="media-heading">
+				    	<a href="#">Subscription databases</a>
+				    </h5>
+				  </div>
+				</div><!-- /.media -->
 				
 				<div class="media">
 				  <div class="media-body">
