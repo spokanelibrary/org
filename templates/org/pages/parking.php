@@ -17,21 +17,21 @@
 		<a class="btn btn-primary" href="/branch/downtown/">Downtown</a>
 	</li>
 	<li>
-		<a href="/branch/northwest-room/">NW Room</a>
+		<a class="btn btn-primary" href="/branch/northwest-room/">NW Room</a>
 	</li>
 	<li>
-		<a href="/branch/east-side/">East Side</a>
+		<a class="btn btn-primary" href="/branch/east-side/">East Side</a>
 	</li>
 	<li>
-		<a href="/branch/hillyard/">Hillyard</a>
+		<a class="btn btn-primary" href="/branch/hillyard/">Hillyard</a>
 	</li>
 	<li>
-		<a href="/branch/indian-trail/">Indian Trail</a>
+		<a class="btn btn-primary" href="/branch/indian-trail/">Indian Trail</a>
 	</li>
 	<li>
-		<a href="/branch/shadle/">Shadle</a>
+		<a class="btn btn-primary" href="/branch/shadle/">Shadle</a>
 	</li>
 	<li>
-		<a href="/branch/south-hill/">South Hill</a>
+		<a class="btn btn-primary" href="/branch/south-hill/">South Hill</a>
 	</li>
 </ul>
