@@ -38,7 +38,8 @@
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Research databases</a>
 				    <small>
-				    	Wide ranging topics, from scientific journals and auto repair to investment research and legal forms.
+				    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
+				    	<a href="/subscriptions/#all">View all &arr;</a>
 				    </small>
 				  </div>
 				</div><!-- /.media -->
