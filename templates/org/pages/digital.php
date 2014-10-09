@@ -71,7 +71,7 @@
 				  <div class="media-body">
 				    <a class="btn btn-block btn-default" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-picture"></i>
-				      Northwest Room online</a>
+				      Northwest Room digital</a>
 				  </div>
 				</div><!-- /.media -->
 
