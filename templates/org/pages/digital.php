@@ -34,7 +34,7 @@
 				
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-success" href="/subscriptions/">
+				    <a class="btn btn-block btn-default" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
 				      Research databases</a>
 				    <small>
@@ -46,11 +46,11 @@
 
 				<div class="media">
 				  <div class="media-body">
-				    <a class="btn btn-block btn-warning" href="/subscriptions/">
+				    <a class="btn btn-block btn-default" href="/subscriptions/">
 				      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-				      Microsoft IT Academy</a>
+				      Online classes</a>
 				    <small>
-				    	Courses and training in the latest Microsoft technologies.
+				    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
 				    </small>
 				  </div>
 				</div><!-- /.media -->
