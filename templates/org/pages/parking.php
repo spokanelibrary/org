@@ -11,8 +11,8 @@
 </div>
 
 <h3>
-	<small class="glyphicon glyphicon-flag"></small>
 	Find a library location
+	<small class="glyphicon glyphicon-flag"></small>
 </h3>
 
 <div class="btn-group">
