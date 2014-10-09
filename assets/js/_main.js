@@ -231,6 +231,7 @@ var ORG = {
       //console.log(config);
     }
   }
+/*
 , it_academy: {
     init: function() {
       Modernizr.load([
@@ -245,6 +246,7 @@ var ORG = {
       ]);
     }
   }
+*/
 , calendar: {
     init: function() {
       $('.spl-enterprise-search-selector-text').text('Calendar');
