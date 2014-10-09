@@ -91,25 +91,24 @@
 				  </div>
 				</div><!-- /.media -->
 
-
 				<div class="media">
+				  <a class="pull-left btn btn-success btn-xs" href="/nw-digital/">
+				  	<div class="media-object">
+				  		<h4>
+				  			<span class="label label-primary">
+				  				<i class="glyphicon glyphicon-briefcase"></i>
+				  			</span>
+				  		</h4>
+				  	</div>
+					</a>
 				  <div class="media-body">
-				    <a class="btn btn-block btn-primary" href="/subscriptions/">
-				      <i class="glyphicon glyphicon-briefcase"></i>
-				      Tools for business</a>
-				    <small>
-				    	Competitive analysis, technology training, and market research.
-				    </small>
+				    <h5 class="media-heading">
+				    	<a href="#">Northwest Room digital</a>
+				    </h5>
+
 				  </div>
 				</div><!-- /.media -->
 
-				<div class="media">
-				  <div class="media-body">
-				    <a class="btn btn-block btn-primary" href="/subscriptions/">
-				      <i class="glyphicon glyphicon-picture"></i>
-				      Northwest Room digital</a>
-				  </div>
-				</div><!-- /.media -->
 
 				<div class="media">
 				  <div class="media-body">
