@@ -15,7 +15,7 @@
 				
 				<hr>
 				<p class="text-center">
-					<a href="#"><b>More about downloadable material</b></a> &rarr;
+					<a href="#"><b>More about library downloads</b></a> &rarr;
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
@@ -32,7 +32,7 @@
 				<p>
 					Web-based resources available through the library.
 				</p>
-				
+
 				<div class="media">
 				  <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
 				  	<div class="media-object">
