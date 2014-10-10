@@ -1,9 +1,27 @@
-	<div class="row">
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h4>
+			<i class="glyphicon glyphicon-phone"></i> Library apps
+		</h4>
+	</div><!-- /.panel-heading -->
+	<div class="panel-body">
+		<p>
+			Lorem ipsum.
+		</p>
+
+		<hr>
+		<p class="text-center">
+			<a href="#"><b>More about library apps</b></a> &rarr;
+		</p>
+	</div><!-- /.panel-body -->
+</div><!-- /.panel -->
+
+<div class="row">
 	<div class="col-sm-5 col-md-4 col-sm-push-7 col-md-push-8">
 		<div class="panel panel-warning">
 			<div class="panel-heading">
 				<h4>
-					<i class="glyphicon glyphicon-cloud-download"></i> Downloadable material
+					<i class="glyphicon glyphicon-cloud-download"></i> Downloads
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
