@@ -39,6 +39,11 @@
 				  		</h4>
 				  	</div>
 					</a>
+
+					<p>
+						Web-based resources available through the library.
+					</p>
+
 				  <div class="media-body">
 				    <h4 class="media-heading">
 				    	<a href="#">Subscription databases</a>
