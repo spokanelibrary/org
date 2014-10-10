@@ -48,10 +48,8 @@
 				    <h4 class="media-heading">
 				    	<a href="#">Subscription databases</a>
 				    </h4>
-				    <p>
-				    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
-				    	<a href="/subscriptions/#all">View all &rarr;</a>
-				    </p>
+			    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
+			    	<a href="/subscriptions/#all"><b>View all</b> &rarr;</a>
 				  </div>
 				</div><!-- /.media -->
 
@@ -66,13 +64,11 @@
 				  	</div>
 					</a>
 				  <div class="media-body">
-				    <h5 class="media-heading">
+				    <h4 class="media-heading">
 				    	<a href="#">Online training <span class="hidden-xs">&amp; certification</span></a>
-				    </h5>
-				    <small>
-				    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
-				    	Or <a href="/subscriptions/#cr">build your resume online &rarr;</a>
-				    </small>
+				    </h4>
+			    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
+			    	Or <a href="/subscriptions/#cr">build your resume online &rarr;</a>
 				  </div>
 				</div><!-- /.media -->
 
