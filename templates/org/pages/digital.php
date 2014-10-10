@@ -38,12 +38,14 @@
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
 	<div class="col-sm-7 col-md-8 col-sm-pull-5 col-md-pull-4">
-
+		<div class="panel panel-success">
+			<div class="panel-heading">
 				<h3 class="text-success">
 					<i class="glyphicon glyphicon-globe"></i>
 					Research, training, and educational resources
 				</h3>
-
+			</div>
+		</div>
 				<div class="media">
 				  <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
 				  	<div class="media-object">
