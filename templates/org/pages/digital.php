@@ -15,7 +15,7 @@
 				
 				<hr>
 				<p class="text-center">
-					<a href="#"><b>More about library downloads</b></a> &rarr;
+					<a href="#">More about <b>library downloads</b></a> &rarr;
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
@@ -32,7 +32,7 @@
 
 				<hr>
 				<p class="text-center">
-					<a href="#"><b>More about library apps</b></a> &rarr;
+					<a href="#">More about <b>library apps</b></a> &rarr;
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
