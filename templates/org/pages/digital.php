@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-sm-6">
-		<div class="panel panel-warning">
+		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
 					<i class="glyphicon glyphicon-cloud-download"></i> Downloadable material
@@ -21,7 +21,7 @@
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
 	<div class="col-sm-6">
-		<div class="panel panel-warning">
+		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
 					<i class="glyphicon glyphicon-globe"></i> Research &amp; education
