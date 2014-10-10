@@ -148,4 +148,4 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
-<?php include('header-search.php'); ?>
+<?php //include('header-search.php'); ?>
