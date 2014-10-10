@@ -166,14 +166,14 @@
 			<p>
 				<a class="btn btn-block btn-warning" href="#">
 					<i class="glyphicon glyphicon-calendar"></i>
-					Find a computer class</a>
+					Find a computer class &rarr;</a>
 			</p>
 		</div><!-- /.col -->
 		<div class="col-sm-6">
 			<p>
 				<a class="btn btn-block btn-info" href="#">
 					<i class="glyphicon glyphicon-time"></i>
-					Reserve a computer</a>
+					Reserve a computer &rarr;</a>
 			</p>
 		</div><!-- /.col -->
 		
