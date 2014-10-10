@@ -1,5 +1,14 @@
 <div class="row">
 	<div class="col-sm-5 col-md-4 pull-right">
+		A
+	</div>
+	<div class="col-sm-7 col-md-8">
+		B
+	</div>
+</div>	
+
+<div class="row">
+	<div class="col-sm-5 col-md-4">
 		<div class="panel panel-warning">
 			<div class="panel-heading">
 				<h4>
@@ -19,7 +28,6 @@
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
-		<hr class="clearfix">
 	</div><!-- /.col -->
 	<div class="col-sm-7 col-md-8">
 		<div class="panel panel-primary">
