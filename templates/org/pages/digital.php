@@ -38,7 +38,7 @@
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
 	<div class="col-sm-7 col-md-8 col-sm-pull-5 col-md-pull-4">
-		<div class="panel panel-success">
+		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h3 class="panel-title">
 					<i class="glyphicon glyphicon-globe"></i>
