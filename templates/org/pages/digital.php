@@ -2,7 +2,7 @@
 	<div class="col-sm-5 col-md-4 col-sm-push-7 col-md-push-8">
 		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h4>
+				<h4 class="panel-title">
 					<i class="glyphicon glyphicon-cloud-download"></i> Downloads
 				</h4>
 			</div><!-- /.panel-heading -->
@@ -21,7 +21,7 @@
 		</div><!-- /.panel -->
 		<div class="panel panel-primary">
 			<div class="panel-heading">
-				<h4>
+				<h4 class="panel-title">
 					<i class="glyphicon glyphicon-phone"></i> Library apps
 				</h4>
 			</div><!-- /.panel-heading -->
