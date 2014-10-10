@@ -32,7 +32,7 @@
 
 				<hr>
 				<p class="text-center">
-					<a href="#">More about library <b>apps</b></a> &rarr;
+					More about <a href="#"><b>library apps</b></a> &rarr;
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
