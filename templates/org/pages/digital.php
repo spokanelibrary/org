@@ -29,6 +29,10 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 
+				<p>
+					Web-based resources available through the library.
+				</p>
+				
 				<div class="media">
 				  <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
 				  	<div class="media-object">
@@ -39,10 +43,6 @@
 				  		</h4>
 				  	</div>
 					</a>
-
-					<p>
-						Web-based resources available through the library.
-					</p>
 
 				  <div class="media-body">
 				    <h4 class="media-heading">
