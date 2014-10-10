@@ -30,7 +30,7 @@
 			<div class="panel-body">
 
 				<p>
-					Web-based resources available through the library.
+					Web-based research, training, and educational resources available through the library.
 				</p>
 
 				<div class="media">
@@ -83,12 +83,10 @@
 				  	</div>
 					</a>
 				  <div class="media-body">
-				    <h5 class="media-heading">
+				    <h4 class="media-heading">
 				    	<a href="#">Tools for business</a>
-				    </h5>
-				    <small>
-				    	Competitive analysis, technology training, and market research.
-				    </small>
+				    </h4>
+			    	Competitive analysis, technology training, and market research.
 				  </div>
 				</div><!-- /.media -->
 
@@ -103,9 +101,9 @@
 				  	</div>
 					</a>
 				  <div class="media-body">
-				    <h5 class="media-heading">
+				    <h4 class="media-heading">
 				    	<a href="#">Northwest Room digital collections</a>
-				    </h5>
+				    </h4>
 
 				  </div>
 				</div><!-- /.media -->
