@@ -40,9 +40,9 @@
 				  	</div>
 					</a>
 				  <div class="media-body">
-				    <h5 class="media-heading">
+				    <h4 class="media-heading">
 				    	<a href="#">Subscription databases</a>
-				    </h5>
+				    </h4>
 				    <small>
 				    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
 				    	<a href="/subscriptions/#all">View all &rarr;</a>
