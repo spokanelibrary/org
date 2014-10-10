@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="col-sm-5 col-md-4 pull-right" style="background:red;">
+	<div class="col-sm-5 col-md-4 pull-right clearfix" style="background:red;">
 		A
 	</div>
 	<div class="col-sm-7 col-md-8" style="background:blue;">
