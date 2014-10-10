@@ -19,7 +19,7 @@
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
-		<div class="panel panel-primary">
+		<div class="panel panel-success">
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<i class="glyphicon glyphicon-phone"></i> Library apps
