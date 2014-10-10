@@ -46,118 +46,131 @@
 				</h3>
 			</div>
 		</div>
-				<div class="media">
-				  <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
-				  	<div class="media-object">
-				  		<h4 class="spl-btn-icon">
-				  			<span class="label label-primary">
-				  				<i class="glyphicon glyphicon-sort-by-alphabet"></i>
-				  			</span>
-				  		</h4>
-				  	</div>
-					</a>
+		
+		<div class="media">
+		  <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
+		  	<div class="media-object">
+		  		<h4 class="spl-btn-icon">
+		  			<span class="label label-primary">
+		  				<i class="glyphicon glyphicon-sort-by-alphabet"></i>
+		  			</span>
+		  		</h4>
+		  	</div>
+			</a>
 
-				  <div class="media-body">
-				    <h4 class="media-heading">
-				    	<a href="#">Subscription databases</a>
-				    </h4>
-			    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
-			    	<a href="/subscriptions/#all"><b>View all</b> &rarr;</a>
-				  </div>
-				</div><!-- /.media -->
+		  <div class="media-body">
+		    <h4 class="media-heading">
+		    	<a href="#">Subscription databases</a>
+		    </h4>
+	    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
+	    	<a href="/subscriptions/#all"><b>View all</b> &rarr;</a>
+		  </div>
+		</div><!-- /.media -->
 
-				<div class="media">
-				  <a class="pull-left btn btn-success btn-xs" href="/elearning/">
-				  	<div class="media-object">
-				  		<h4 class="spl-btn-icon">
-				  			<span class="label label-primary">
-				  				<i class="glyphicon glyphicon-facetime-video"></i>
-				  			</span>
-				  		</h4>
-				  	</div>
-					</a>
-				  <div class="media-body">
-				    <h4 class="media-heading">
-				    	<a href="#">Online training <span class="hidden-xs">&amp; certification</span></a>
-				    </h4>
-			    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
-			    	Or <a href="/subscriptions/#cr">build your resume online &rarr;</a>
-				  </div>
-				</div><!-- /.media -->
+		<div class="media">
+		  <a class="pull-left btn btn-success btn-xs" href="/elearning/">
+		  	<div class="media-object">
+		  		<h4 class="spl-btn-icon">
+		  			<span class="label label-primary">
+		  				<i class="glyphicon glyphicon-facetime-video"></i>
+		  			</span>
+		  		</h4>
+		  	</div>
+			</a>
+		  <div class="media-body">
+		    <h4 class="media-heading">
+		    	<a href="#">Online training <span class="hidden-xs">&amp; certification</span></a>
+		    </h4>
+	    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
+	    	Or <a href="/subscriptions/#cr">build your resume online &rarr;</a>
+		  </div>
+		</div><!-- /.media -->
 
-				<div class="media">
-				  <a class="pull-left btn btn-success btn-xs" href="/business/">
-				  	<div class="media-object">
-				  		<h4 class="spl-btn-icon">
-				  			<span class="label label-primary">
-				  				<i class="glyphicon glyphicon-briefcase"></i>
-				  			</span>
-				  		</h4>
-				  	</div>
-					</a>
-				  <div class="media-body">
-				    <h4 class="media-heading">
-				    	<a href="#">Tools for business</a>
-				    </h4>
-			    	Competitive analysis, technology training, and market research.
-				  </div>
-				</div><!-- /.media -->
+		<div class="media">
+		  <a class="pull-left btn btn-success btn-xs" href="/business/">
+		  	<div class="media-object">
+		  		<h4 class="spl-btn-icon">
+		  			<span class="label label-primary">
+		  				<i class="glyphicon glyphicon-briefcase"></i>
+		  			</span>
+		  		</h4>
+		  	</div>
+			</a>
+		  <div class="media-body">
+		    <h4 class="media-heading">
+		    	<a href="#">Tools for business</a>
+		    </h4>
+	    	Competitive analysis, technology training, and market research.
+		  </div>
+		</div><!-- /.media -->
 
-				<div class="media">
-				  <a class="pull-left btn btn-success btn-xs" href="/homework/">
-				  	<div class="media-object">
-				  		<h4 class="spl-btn-icon">
-				  			<span class="label label-primary">
-				  				<i class="glyphicon glyphicon-pencil"></i>
-				  			</span>
-				  		</h4>
-				  	</div>
-					</a>
-				  <div class="media-body">
-				    <h4 class="media-heading">
-				    	<a href="#">Help with your homework</a>
-				    </h4>
-			    	Easy-to-use websites for all ages to help with class projects, research, or homework.
-				  </div>
-				</div><!-- /.media -->
+		<div class="media">
+		  <a class="pull-left btn btn-success btn-xs" href="/homework/">
+		  	<div class="media-object">
+		  		<h4 class="spl-btn-icon">
+		  			<span class="label label-primary">
+		  				<i class="glyphicon glyphicon-pencil"></i>
+		  			</span>
+		  		</h4>
+		  	</div>
+			</a>
+		  <div class="media-body">
+		    <h4 class="media-heading">
+		    	<a href="#">Help with your homework</a>
+		    </h4>
+	    	Easy-to-use websites for all ages to help with class projects, research, or homework.
+		  </div>
+		</div><!-- /.media -->
 
-				<div class="media">
-				  <a class="pull-left btn btn-success btn-xs" href="/nw-digital/">
-				  	<div class="media-object">
-				  		<h4 class="spl-btn-icon">
-				  			<span class="label label-primary">
-				  				<i class="glyphicon glyphicon-picture"></i>
-				  			</span>
-				  		</h4>
-				  	</div>
-					</a>
-				  <div class="media-body">
-				    <h4 class="media-heading">
-				    	<a href="#">Northwest Room digital collections</a>
-				    </h4>
+		<div class="media">
+		  <a class="pull-left btn btn-success btn-xs" href="/nw-digital/">
+		  	<div class="media-object">
+		  		<h4 class="spl-btn-icon">
+		  			<span class="label label-primary">
+		  				<i class="glyphicon glyphicon-picture"></i>
+		  			</span>
+		  		</h4>
+		  	</div>
+			</a>
+		  <div class="media-body">
+		    <h4 class="media-heading">
+		    	<a href="#">Northwest Room digital collections</a>
+		    </h4>
 
-				  </div>
-				</div><!-- /.media -->
+		  </div>
+		</div><!-- /.media -->
 
-				<div class="media">
-				  <a class="pull-left btn btn-success btn-xs" href="/genealogy/">
-				  	<div class="media-object">
-				  		<h4 class="spl-btn-icon">
-				  			<span class="label label-primary">
-				  				<i class="glyphicon glyphicon-tree-conifer"></i>
-				  			</span>
-				  		</h4>
-				  	</div>
-					</a>
-				  <div class="media-body">
-				    <h4 class="media-heading">
-				    	<a href="#">Eastern Washington genealogy</a>
-				    </h4>
+		<div class="media">
+		  <a class="pull-left btn btn-success btn-xs" href="/genealogy/">
+		  	<div class="media-object">
+		  		<h4 class="spl-btn-icon">
+		  			<span class="label label-primary">
+		  				<i class="glyphicon glyphicon-tree-conifer"></i>
+		  			</span>
+		  		</h4>
+		  	</div>
+			</a>
+		  <div class="media-body">
+		    <h4 class="media-heading">
+		    	<a href="#">Eastern Washington genealogy</a>
+		    </h4>
 
-				  </div>
-				</div><!-- /.media -->
+		  </div>
+		</div><!-- /.media -->
 
+		<hr>
 
+		<div class="col-sm-6">
+			<p>
+				<a class="btn btn-warning" href="#">Find a computer class</a>
+			</p>
+		</div><!-- /.col -->
+		<div class="col-sm-6">
+			<p>
+				<a class="btn btn-info" href="#">Reserve a computer</a>
+			</p>
+		</div><!-- /.col -->
+		
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
