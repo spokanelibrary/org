@@ -19,8 +19,9 @@
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
+		<hr class="clearfix">
 	</div><!-- /.col -->
-	<div class="col-sm-7 col-md-8 clearfix">
+	<div class="col-sm-7 col-md-8">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
