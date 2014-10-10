@@ -39,10 +39,10 @@
 	</div><!-- /.col -->
 	<div class="col-sm-7 col-md-8 col-sm-pull-5 col-md-pull-4">
 
-				<h4 class="text-success">
+				<h3 class="text-success">
 					<i class="glyphicon glyphicon-globe"></i>
 					Research, training, and educational resources
-				</h4>
+				</h3>
 
 				<div class="media">
 				  <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
