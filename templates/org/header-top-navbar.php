@@ -79,7 +79,7 @@ function spl_get_home_url() {
 
     <div id="spl-account-profile"></div>
 
-    <?php //include('header-social.php'); ?>
+    <?php include('header-social.php'); ?>
 
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
@@ -148,9 +148,4 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
-<header class="navbar navbar-default" style="padding-top: 2px;">
-  <div class="container">
-    <?php echo do_shortcode('[spl_widget enterprise-search]'); ?>
-  </div>
-</header>
-
+<?php include('header-search.php'); ?>
