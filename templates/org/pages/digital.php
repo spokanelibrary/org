@@ -39,6 +39,7 @@
 	</div><!-- /.col -->
 	<div class="col-sm-7 col-md-8 col-sm-pull-5 col-md-pull-4">
 
+				<h3>Research &amp; education</h3>
 
 				<p>
 					Web-based research, training, and educational resources available with your library card.
