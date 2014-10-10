@@ -1,21 +1,3 @@
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h4>
-			<i class="glyphicon glyphicon-phone"></i> Library apps
-		</h4>
-	</div><!-- /.panel-heading -->
-	<div class="panel-body">
-		<p>
-			Lorem ipsum.
-		</p>
-
-		<hr>
-		<p class="text-center">
-			<a href="#"><b>More about library apps</b></a> &rarr;
-		</p>
-	</div><!-- /.panel-body -->
-</div><!-- /.panel -->
-
 <div class="row">
 	<div class="col-sm-5 col-md-4 col-sm-push-7 col-md-push-8">
 		<div class="panel panel-warning">
@@ -37,24 +19,20 @@
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
-	</div><!-- /.col -->
-		<div class="col-sm-5 col-md-4 col-sm-push-7 col-md-push-8">
-		<div class="panel panel-warning">
+		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
-					<i class="glyphicon glyphicon-cloud-download"></i> Downloads
+					<i class="glyphicon glyphicon-phone"></i> Library apps
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<p>
-					A modern library for your ereader, media player, smart phone, tablet, or desktop with no lines, no parking, and <b>no late fees</b>!
+					Lorem ipsum.
 				</p>
 
-				<?php echo do_shortcode('[spl_widget custom-page page=download-widget]'); ?>
-				
 				<hr>
 				<p class="text-center">
-					<a href="#"><b>More about library downloads</b></a> &rarr;
+					<a href="#"><b>More about library apps</b></a> &rarr;
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
