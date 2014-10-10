@@ -160,7 +160,7 @@
 
 		<hr>
 
-		<h3>Digital in the library</h3>
+		<h3 class="text-muted">Hands on: digital in the library</h3>
 
 		<div class="col-sm-6">
 			<p>
