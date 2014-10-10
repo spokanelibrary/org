@@ -27,7 +27,7 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<p>
-					Lorem ipsum.
+					Lorem ipsum dolor sit amet.
 				</p>
 
 				<hr>
@@ -38,13 +38,7 @@
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
 	<div class="col-sm-7 col-md-8 col-sm-pull-5 col-md-pull-4">
-		<div class="panel panel-primary">
-			<div class="panel-heading">
-				<h4>
-					<i class="glyphicon glyphicon-globe"></i> Research &amp; education
-				</h4>
-			</div><!-- /.panel-heading -->
-			<div class="panel-body">
+
 
 				<p>
 					Web-based research, training, and educational resources available with your library card.
@@ -161,8 +155,7 @@
 				  </div>
 				</div><!-- /.media -->
 
-			</div><!-- /.panel-body -->
-		</div><!-- /.panel -->
+
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
