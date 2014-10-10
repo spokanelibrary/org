@@ -7,7 +7,7 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
-				<p class="text-warning">
+				<p>
 					A modern library for your ereader, media player, smart phone, tablet, or desktop with no lines, no parking, and <b>no late fees</b>!
 				</p>
 
