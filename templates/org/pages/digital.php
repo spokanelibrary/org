@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-sm-5 col-md-4 pull-right clearfix" style="background:red;">
-		<div style="float:none">A</div>
+		<div style="float:none" class="clearfix">A</div>
 	</div>
 	<div class="col-sm-7 col-md-8" style="background:blue;">
 		B
