@@ -20,7 +20,7 @@
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
-	<div class="col-sm-7 col-md-8 col-sm-push-5 col-md-push-4">
+	<div class="col-sm-7 col-md-8 col-sm-pull-5 col-md-pull-4">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
