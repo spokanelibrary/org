@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="col-sm-6">
+	<div class="col-sm-4">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
@@ -20,7 +20,7 @@
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
-	<div class="col-sm-6">
+	<div class="col-sm-8">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
