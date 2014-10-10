@@ -79,7 +79,7 @@ function spl_get_home_url() {
 
     <div id="spl-account-profile"></div>
 
-    <?php include('header-social.php'); ?>
+    <?php //include('header-social.php'); ?>
 
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
