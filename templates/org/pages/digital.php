@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-sm-5">
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
 				<h4>
 					<i class="glyphicon glyphicon-cloud-download"></i> Downloadable material
