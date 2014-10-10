@@ -160,14 +160,20 @@
 
 		<hr>
 
+		<h3>Digital in the library</h3>
+
 		<div class="col-sm-6">
 			<p>
-				<a class="btn btn-warning" href="#">Find a computer class</a>
+				<a class="btn btn-block btn-warning" href="#">
+					<i class="glyphicon glyphicon-calendar"></i>
+					Find a computer class</a>
 			</p>
 		</div><!-- /.col -->
 		<div class="col-sm-6">
 			<p>
-				<a class="btn btn-info" href="#">Reserve a computer</a>
+				<a class="btn btn-block btn-info" href="#">
+					<i class="glyphicon glyphicon-time"></i>
+					Reserve a computer</a>
 			</p>
 		</div><!-- /.col -->
 		
