@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-sm-5 col-md-4 pull-right">
-		<div class="panel panel-warning clearfix">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
 				<h4>
 					<i class="glyphicon glyphicon-cloud-download"></i> Downloadable material
@@ -20,7 +20,7 @@
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
-	<div class="col-sm-7 col-md-8">
+	<div class="col-sm-7 col-md-8 clearfix">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4>
