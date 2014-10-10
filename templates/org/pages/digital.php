@@ -30,7 +30,7 @@
 			<div class="panel-body">
 
 				<p>
-					Web-based research, training, and educational resources available through the library.
+					Web-based research, training, and educational resources available with your library card.
 				</p>
 
 				<div class="media">
