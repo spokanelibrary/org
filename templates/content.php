@@ -12,16 +12,19 @@
 	  			</h4>
   			</div>
   			<div class="panel-body">
-  				a category
+  				<ul class="nav nav-list nav-stacked">
+  				<?php
+			  	$categories = get_the_category($post->ID);
+					if ( is_array($categories)) { 
+						foreach ( $categories as $category ) {
+							echo '<li>'.$category->name.'</li>';
+						}
+					}		
+					?>
+					</ul>
   			</div>
 	  	</div>
   	</aside>
-  	<?php
-  	$categories = get_the_category($post->ID);
-		if ( is_array($categories)) { 
-			//print_r($categories);
-		}		
-		?>
     <?php the_excerpt(); ?>
   </div>
 </article>
