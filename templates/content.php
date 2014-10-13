@@ -27,7 +27,8 @@
 		  	</aside>
 		  </div><!-- /.col -->
 		  <div class="col-sm-8 col-sm-pull-4">
-	    	<?php the_excerpt(); ?>
+	    	<?php //the_excerpt(); ?>
+	    	<?php the_content(); ?>
 	  	</div>
 	  </div><!-- /.col -->
   </div><!-- /.row -->
