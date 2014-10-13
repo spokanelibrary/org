@@ -10,7 +10,7 @@
 	  			<h5 class="text-muted">
 		  				Posted in
 		  			</h4>
-	  				<ul class="nav nav-list nav-stacked">
+	  				<ul class="nav nav-pills">
 	  				<?php
 				  	$categories = get_the_category($post->ID);
 						if ( is_array($categories)) { 
