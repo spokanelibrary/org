@@ -7,9 +7,6 @@
   	<div class="row">
   	<div class="col-sm-4 col-sm-push-8">
 	  	<aside>
-	  			<h5 class="text-muted">
-		  				Posted in
-		  			</h4>
 	  				<ul class="nav nav-pills">
 	  				<?php
 				  	$categories = get_the_category($post->ID);
