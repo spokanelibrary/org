@@ -4,6 +4,7 @@
     <?php get_template_part('templates/entry-meta'); ?>
   </header>
   <div class="entry-summary">
+  	<div class="row">
   	<div class="col-sm-4 col-sm-push-8">
 	  	<aside>
 	  		<div class="panel panel-primary">
@@ -30,5 +31,6 @@
 	  <div class="col-sm-8 col-sm-pull-4">
     	<?php the_excerpt(); ?>
   	</div>
+	  </div>
   </div>
 </article>
