@@ -5,10 +5,13 @@
   </header>
   <div class="entry-summary">
   	<?php
+  	print_r($post);
+  	/*
   	$categories = get_the_category($post->ID);
 		if ( is_array($categories)) { 
 			print_r($categories, true);
 		}
+		*/
 		?>
     <?php the_excerpt(); ?>
   </div>
