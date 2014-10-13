@@ -6,13 +6,9 @@
   <div class="entry-summary">
   	<?php
   	$categories = get_the_category($post->ID);
-  	print_r($categories);
-  	/*
-  	
 		if ( is_array($categories)) { 
-			print_r($categories, true);
-		}
-		*/
+			print_r($categories);
+		}		
 		?>
     <?php the_excerpt(); ?>
   </div>
