@@ -21,7 +21,7 @@
 								echo '<img src="/assets/img/icon/categories/'.$category->slug.'.png"> ';
 								echo $category->name;
 								echo '</a>';
-								echo '<small>';
+								echo '</small>';
 								echo '</li>';
 							}
 						}		
