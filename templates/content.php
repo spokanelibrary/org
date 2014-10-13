@@ -13,7 +13,7 @@
 					if ( is_array($categories)) { 
 						foreach ( $categories as $category ) {
 							echo '<li>';
-							echo '<a href="' . get_category_link($category->cat_ID) . '">';
+							echo '<a class="btn btn-warning" href="' . get_category_link($category->cat_ID) . '">';
 							echo '<small>';
 							echo '<i class="glyphicon glyphicon-pushpin text-success"></i> ';
 							echo $category->name;
