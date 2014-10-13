@@ -4,7 +4,6 @@
     <?php get_template_part('templates/entry-meta'); ?>
   </header>
   <div class="entry-summary">
-  	categories
     <?php the_excerpt(); ?>
   </div>
 </article>
