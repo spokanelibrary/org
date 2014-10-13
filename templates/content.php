@@ -7,7 +7,7 @@
   	<div class="row">
   	<div class="col-sm-4 col-sm-push-8">
 	  	<aside>
-	  			<h4>
+	  			<h5 class="text-muted">
 		  				Posted in
 		  			</h4>
 	  				<ul class="nav nav-list nav-stacked">
