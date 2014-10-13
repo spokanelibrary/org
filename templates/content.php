@@ -4,7 +4,7 @@
     <?php get_template_part('templates/entry-meta'); ?>
   </header>
   <div class="entry-summary">
-  	<aside class="col-sm-4 col-md-pull-4 col-md-push-6">
+  	<aside class="col-sm-4 col-md-push-8">
   		<div class="panel panel-primary">
   			<div class="panel-heading">
 	  			<h4 class="panel-title">
