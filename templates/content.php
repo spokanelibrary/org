@@ -15,7 +15,7 @@
 				  	$categories = get_the_category($post->ID);
 						if ( is_array($categories)) { 
 							foreach ( $categories as $category ) {
-								echo '<li>';
+								echo '<li class="active">';
 								echo '<a href="' . get_category_link($category->cat_ID) . '">';
 								echo '<small>';
 								echo '<i class="glyphicon glyphicon-pushpin"></i> ';
