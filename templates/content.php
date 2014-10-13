@@ -22,8 +22,8 @@
 								echo '<li>';
 								echo '<a href="' . get_category_link($category->cat_ID) . '">';
 								echo $category->name;
-								echo '</a>'
-								echo '</li>'
+								echo '</a>';
+								echo '</li>';
 							}
 						}		
 						?>
