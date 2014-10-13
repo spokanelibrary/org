@@ -18,7 +18,7 @@
 								echo '<li>';
 								echo '<small>';
 								echo '<a href="' . get_category_link($category->cat_ID) . '">';
-								echo '<img src="/assets/img/icon/categories/'.$category->slug.'.png"> ';
+								echo '<i class="glyphicon glyphicon-pin"></i> ';
 								echo $category->name;
 								echo '</a>';
 								echo '</small>';
