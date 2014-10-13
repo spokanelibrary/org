@@ -7,21 +7,23 @@
   	<div class="row">
 	  	<div class="col-sm-4 col-sm-push-8">
 		  	<aside>
+  				<ul class="nav nav-pills">
   				<?php
 			  	$categories = get_the_category($post->ID);
 					if ( is_array($categories)) { 
 						foreach ( $categories as $category ) {
-							//echo '<li>';
-							echo '<a class="btn btn-warning" href="' . get_category_link($category->cat_ID) . '">';
+							echo '<li>';
+							echo '<a class="" href="' . get_category_link($category->cat_ID) . '">';
 							echo '<small>';
 							echo '<i class="glyphicon glyphicon-pushpin text-success"></i> ';
 							echo $category->name;
 							echo '</small>';
 							echo '</a>';
-							//echo '</li>';
+							echo '</li>';
 						}
 					}		
 					?>
+					</ul>
 		  	</aside>
 		  </div><!-- /.col -->
 		  <div class="col-sm-8 col-sm-pull-4">
