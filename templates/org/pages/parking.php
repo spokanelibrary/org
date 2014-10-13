@@ -17,11 +17,11 @@
 </h3>
 
 <div class="btn-group">
-	<a class="btn btn-primary" href="/branch/downtown/">Downtown</a>
-	<a class="btn btn-primary" href="/branch/northwest-room/">Northwest Room</a>
-	<a class="btn btn-primary" href="/branch/east-side/">East Side</a>
-	<a class="btn btn-primary" href="/branch/hillyard/">Hillyard</a>
-	<a class="btn btn-primary" href="/branch/indian-trail/">Indian Trail</a>
-	<a class="btn btn-primary" href="/branch/shadle/">Shadle</a>
-	<a class="btn btn-primary" href="/branch/south-hill/">South Hill</a>
+	<a class="btn btn-primary" href="/downtown/">Downtown</a>
+	<a class="btn btn-primary" href="/northwest-room/">Northwest Room</a>
+	<a class="btn btn-primary" href="/east-side/">East Side</a>
+	<a class="btn btn-primary" href="/hillyard/">Hillyard</a>
+	<a class="btn btn-primary" href="/indian-trail/">Indian Trail</a>
+	<a class="btn btn-primary" href="/shadle/">Shadle</a>
+	<a class="btn btn-primary" href="/south-hill/">South Hill</a>
 </div>
