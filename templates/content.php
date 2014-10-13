@@ -4,10 +4,17 @@
     <?php get_template_part('templates/entry-meta'); ?>
   </header>
   <div class="entry-summary">
+  	<aside>
+  		<div class="panel panel-default">
+  			<div class="panel-body">
+	  		Posted In
+  			</div>
+	  	</div>
+  	</aside>
   	<?php
   	$categories = get_the_category($post->ID);
 		if ( is_array($categories)) { 
-			print_r($categories);
+			//print_r($categories);
 		}		
 		?>
     <?php the_excerpt(); ?>
