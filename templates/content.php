@@ -7,13 +7,9 @@
   	<div class="row">
   	<div class="col-sm-4 col-sm-push-8">
 	  	<aside>
-	  		<div class="panel panel-primary">
-	  			<div class="panel-heading">
-		  			<h4 class="panel-title">
+	  			<h4>
 		  				Posted in
 		  			</h4>
-	  			</div>
-	  			<div class="panel-body">
 	  				<ul class="nav nav-list nav-stacked">
 	  				<?php
 				  	$categories = get_the_category($post->ID);
@@ -21,6 +17,7 @@
 							foreach ( $categories as $category ) {
 								echo '<li>';
 								echo '<a href="' . get_category_link($category->cat_ID) . '">';
+								echo '<img src="/assets/img/icon/categories/'.$category->slug.'.png"> ';
 								echo $category->name;
 								echo '</a>';
 								echo '</li>';
@@ -28,8 +25,6 @@
 						}		
 						?>
 						</ul>
-	  			</div>
-		  	</div>
 	  	</aside>
 	  </div>
 	  <div class="col-sm-8 col-sm-pull-4">
