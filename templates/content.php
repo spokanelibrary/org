@@ -5,7 +5,7 @@
   </header>
   <div class="entry-summary">
   	<div class="row">
-	  	<div class="col-sm-4 col-sm-push-8">
+	  	<div class="col-md-4 col-md-push-8">
 		  	<aside>
   				<ul class="nav nav-pills">
   				<?php
@@ -26,7 +26,7 @@
 					</ul>
 		  	</aside>
 		  </div><!-- /.col -->
-		  <div class="col-sm-8 col-sm-pull-4">
+		  <div class="col-md-8 col-md-pull-4">
 	    	<?php //the_excerpt(); ?>
 	    	<?php the_content(); ?>
 	  	</div>
