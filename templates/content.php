@@ -19,7 +19,11 @@
 				  	$categories = get_the_category($post->ID);
 						if ( is_array($categories)) { 
 							foreach ( $categories as $category ) {
-								echo '<li>'.$category->name.'</li>';
+								echo '<li>';
+								echo '<a href="' . get_category_link($category->cat_ID) . '">';
+								echo $category->name;
+								echo '</a>'
+								echo '</li>'
 							}
 						}		
 						?>
