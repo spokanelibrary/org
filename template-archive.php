@@ -15,12 +15,13 @@ Template Name: Archive (Posts)
 			$args = array( 'numberposts' => '1' );
 			$recent_posts = wp_get_recent_posts( $args );
 			foreach( $recent_posts as $recent ){
+				/*
 				$categories = get_the_category($post_id);
 				if ( is_array($categories)) { 
 					print_r($categories, true);
 				}
+				*/
 				echo '<div class="page-header"><h1>'.$recent["post_title"].'</h1></div>';
-				echo 'some categories';
 				// todo: this should be an excerpt
 				//echo $recent["post_excerpt"];
 				echo $recent["post_content"];
