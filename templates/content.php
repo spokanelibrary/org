@@ -1,6 +1,6 @@
 <article <?php post_class(); ?>>
   <header>
-    <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <small>&rarr;</small></h2>
+    <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
     <?php //get_template_part('templates/entry-meta'); ?>
   </header>
   <div class="entry-summary">
@@ -18,7 +18,7 @@
 								echo '<li>';
 								echo '<a href="' . get_category_link($category->cat_ID) . '">';
 								echo '<small>';
-								echo '<i class="glyphicon glyphicon-pushpin"></i> ';
+								echo '<i class="glyphicon glyphicon-pushpin text-muted"></i> ';
 								echo $category->name;
 								echo '</small>';
 								echo '</a>';
