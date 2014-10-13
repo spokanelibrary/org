@@ -20,6 +20,7 @@ Template Name: Archive (Posts)
 					print_r($categories, true);
 				}
 				echo '<div class="page-header"><h1>'.$recent["post_title"].'</h1></div>';
+				echo 'some categories';
 				// todo: this should be an excerpt
 				//echo $recent["post_excerpt"];
 				echo $recent["post_content"];
