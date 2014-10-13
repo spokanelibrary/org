@@ -4,7 +4,12 @@
     <?php get_template_part('templates/entry-meta'); ?>
   </header>
   <div class="entry-summary">
-  	categories
+  	<?php
+  	$categories = get_the_category($post_id);
+		if ( is_array($categories)) { 
+			print_r($categories, true);
+		}
+		?>
     <?php the_excerpt(); ?>
   </div>
 </article>
