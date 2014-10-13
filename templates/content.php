@@ -5,7 +5,7 @@
   </header>
   <div class="entry-summary">
   	<?php
-  	$categories = get_the_category($post_id);
+  	$categories = get_the_category(get_the_ID());
 		if ( is_array($categories)) { 
 			print_r($categories, true);
 		}
