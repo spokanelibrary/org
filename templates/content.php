@@ -5,7 +5,7 @@
   </header>
   <div class="entry-summary">
   	<aside class="pull-right">
-  		<div class="panel panel-default">
+  		<div class="panel panel-primary">
   			<div class="panel-heading">
 	  			<h4 class="panel-title">
 	  				Posted in
