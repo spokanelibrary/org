@@ -1,16 +1,25 @@
 <div class="row">
 
-	<div class="col-sm-6">
-	<div class="panel panel-warning">
+	<div class="col-sm-6 col-lg-4">
+		<p>&nbsp;</p>
+		<div class="panel panel-warning">
 			<div class="panel-heading">
 				<h4 class="panel-title">Library RSS Feeds</h4>
 			</div><!-- /.panel-heading -->			
 			<div class="panel-body">
-			Some feeds
+				<div class="list-group">
+				  <a href="#" class="list-group-item active">
+				    Cras justo odio
+				  </a>
+				  <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+				  <a href="#" class="list-group-item">Morbi leo risus</a>
+				  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+				  <a href="#" class="list-group-item">Vestibulum at eros</a>
+				</div><!-- /.list-group -->
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
-	<div class="col-sm-6">
+	<div class="col-sm-6 col-lg-8">
 		<h3>What are RSS feeds?</h3>
 		Also known as news feeds, RSS stands for <em>Really Simple Syndication</em>. It is a way to publish frequently-updated content such as blogs or news articles. You will usually see the RSS feed icon if you can subscribe to something - <img src="/assets/img/icons/16px/social-rss.png" style="display:inline" alt="" /> .
 		RSS feeds allow you to keep up-to-date on your favorite websites by "subscribing" to their feeds. New information added to those sites can be easily browsed by looking at an "aggregator." The aggregator automatically checks for updates to the feed and displays them for you. RSS aggregators are often included with your internet browser (on Internet Explorer it can be found under Favorites), your operating system (newer versions of Windows have one), or can be a separate program you load on your computer. See this <a href="http://en.wikipedia.org/wiki/List_of_feed_aggregators" target="_blank">Wikipedia article</a> for a list of available aggregators.
