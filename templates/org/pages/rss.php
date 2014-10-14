@@ -32,6 +32,15 @@
 				  <li>
 				  	<a href="/blog/topic/northwest-room/feed/">Northwest Room</a>
 				  </li>
+				  <li>
+				  	<a href="/blog/topic/readers-corner/feed/">Reader's Corner</a>
+				  </li>
+				  <li>
+				  	<a href="/blog/topic/spokane-government/feed/">Spokane Government</a>
+				  </li>
+				  <li>
+				  	<a href="/blog/topic/teens/feed/">Teens</a>
+				  </li>
 				</ul>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
