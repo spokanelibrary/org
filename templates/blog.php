@@ -34,7 +34,7 @@
   </div><!-- /.row -->
   <?php get_template_part('templates/entry-meta'); ?>
   <br>
-  <small class="text-muted">
+  <small class="text-muted widget_tag_cloud">
   	<?php the_tags( 'Tags: ', ', ', '' ); ?>
 	</small>
   <hr>
