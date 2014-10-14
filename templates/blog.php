@@ -33,6 +33,8 @@
 	  </div><!-- /.col -->
   </div><!-- /.row -->
   <?php get_template_part('templates/entry-meta'); ?>
-  <?php the_tags( 'Tags: ', ', ', '' ); ?>
+  <p>
+	  <?php the_tags( 'Tags: ', ', ', '' ); ?>
+  </p>
   <hr>
 </article>
