@@ -7,12 +7,20 @@
 				<h4 class="panel-title">Library RSS Feeds</h4>
 			</div><!-- /.panel-heading -->			
 			<div class="panel-body">
-				<div class="list-group">
-				  <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-				  <a href="#" class="list-group-item">Morbi leo risus</a>
-				  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-				  <a href="#" class="list-group-item">Vestibulum at eros</a>
-				</div><!-- /.list-group -->
+				<ul class="nav nav-pills nav-stacked">
+				  <li>
+				  	<a href="/blog/feed/"><b>Library blog</b> (all topics)</a>
+				  </li>
+				  <li>
+				  	<a href=""></a>
+				  </li>
+				  <li>
+				  	<a href=""></a>
+				  </li>
+				  <li>
+				  	<a href=""></a>
+				  </li>
+				</ul>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
