@@ -12,13 +12,25 @@
 				  	<a href="/blog/feed/"><b>Library blog</b> (all topics)</a>
 				  </li>
 				  <li>
-				  	<a href="/blog/topic/business/feed/"></a>
+				  	<a href="/blog/topic/business/feed/">Business</a>
 				  </li>
 				  <li>
-				  	<a href=""></a>
+				  	<a href="/blog/topic/consumer/feed/">Consumer</a>
 				  </li>
 				  <li>
-				  	<a href=""></a>
+				  	<a href="/blog/topic/digital-discoveries/feed/">Digital Discoveries</a>
+				  </li>
+				  <li>
+				  	<a href="/blog/topic/federal-government/feed/">Federal Government</a>
+				  </li>
+				  <li>
+				  	<a href="/blog/topic/genealogy/feed/">Genealogy</a>
+				  </li>
+				  <li>
+				  	<a href="/blog/topic/health/feed/">Health</a>
+				  </li>
+				  <li>
+				  	<a href="/blog/topic/northwest-room/feed/">Northwest Room</a>
 				  </li>
 				</ul>
 			</div><!-- /.panel-body -->
