@@ -33,8 +33,9 @@
 	  </div><!-- /.col -->
   </div><!-- /.row -->
   <?php get_template_part('templates/entry-meta'); ?>
-  <div class="text-muted">
+  <br>
+  <small class="text-muted">
   	<?php the_tags( 'Tags: ', ', ', '' ); ?>
-	</div>
+	</small>
   <hr>
 </article>
