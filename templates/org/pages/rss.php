@@ -4,7 +4,7 @@
 		<p>&nbsp;</p>
 		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h4 class="panel-title"><img src="/assets/img/icons/16px/social-rss.png" style="display:inline" alt="" /> Library RSS Feeds</h4>
+				<h4 class="panel-title"><img src="/assets/img/icons/16px/social-rss.png" style="" alt="" /> Library RSS Feeds</h4>
 			</div><!-- /.panel-heading -->			
 			<div class="panel-body">
 				<ul class="nav nav-pills nav-stacked">
