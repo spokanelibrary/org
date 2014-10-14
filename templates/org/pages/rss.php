@@ -8,14 +8,11 @@
 			</div><!-- /.panel-heading -->			
 			<div class="panel-body">
 				<ul class="nav nav-pills nav-stacked">
-				  <li>
+				  <li class="active">
 				  	<a href="/blog/feed/"><b>Library blog</b> (all topics)</a>
 				  </li>
-				  <li class="divider">
-				  	<a href="#"></a>
-				  </li>
 				  <li>
-				  	<a href=""></a>
+				  	<a href="/blog/topic/business/feed/"></a>
 				  </li>
 				  <li>
 				  	<a href=""></a>
