@@ -21,7 +21,6 @@
           <b>Twitter</b></a>
       </p>
     </div><!-- /.col -->
-    <!--
     <div class="col-xs-4">
       <p>
         <a class="btn btn-block btn-default btn-sm text-info" 
@@ -31,7 +30,7 @@
           <i style="border:0px solid #ccc !important; border-radius:4px; padding:2px 3px;  color:#fff; background: #f0ad4e;" class="glyphicon glyphicon-hand-right"></i>
           <b>Support Us</b></a>
       </p>
-    </div>--><!-- /.col -->
+    </div><!-- /.col -->
   </div><!-- /.row -->
 </div>
 
