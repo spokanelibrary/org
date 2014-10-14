@@ -14,7 +14,7 @@
 						foreach ( $categories as $category ) {
 							echo '<li>';
 							echo '<a class="" href="' . get_category_link($category->cat_ID) . '">';
-							echo '<small>';
+							echo '<small class="text-success">';
 							echo '<i class="glyphicon glyphicon-pushpin text-success"></i> ';
 							echo $category->name;
 							echo '</small>';
