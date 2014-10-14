@@ -29,7 +29,7 @@
 		  <div class="col-md-8 col-md-pull-4">
 	    	<?php //the_excerpt(); ?>
 	    	<?php the_content(); ?>
-	    	<?php the_tags( 'Tags: ', ', ', '' ); ?> 
+	    	<?php the_tags(); ?> 
 	  	</div>
 	  </div><!-- /.col -->
   </div><!-- /.row -->
