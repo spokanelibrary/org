@@ -4,12 +4,15 @@
 		<p>&nbsp;</p>
 		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h4 class="panel-title"><img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -6px;" alt="" /> Library RSS Feeds</h4>
+				<h4 class="panel-title"><img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="" /> Library RSS Feeds</h4>
 			</div><!-- /.panel-heading -->			
 			<div class="panel-body">
 				<ul class="nav nav-pills nav-stacked">
 				  <li>
 				  	<a href="/blog/feed/"><b>Library blog</b> (all topics)</a>
+				  </li>
+				  <li class="divider">
+				  	<a href="#"></a>
 				  </li>
 				  <li>
 				  	<a href=""></a>
