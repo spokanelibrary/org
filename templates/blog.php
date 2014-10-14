@@ -32,5 +32,6 @@
 	  	</div>
 	  </div><!-- /.col -->
   </div><!-- /.row -->
+  <?php get_template_part('templates/entry-meta'); ?>
   <hr>
 </article>
