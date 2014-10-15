@@ -35,7 +35,7 @@ Template Name: Beta Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="row" style="padding-top: 20px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
+<div class="row" style="padding-top: 10px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
   <p>
   <a class="btn btn-lg btn-block btn-primary" href="http://www.spokanelibrary.org">
     <span class="visible-xs">Take me to the old website &rarr;</span>
