@@ -60,7 +60,7 @@ Template Name: Beta Home Page
     </h2>
     
     <p class="text-right">
-      <a class="btn btn-primary" href="http://news.spokanelibrary.org/">Read Library News &rarr;</a>
+      <a class="btn btn-success" href="http://news.spokanelibrary.org/">Read Library News &rarr;</a>
     </p>
 
   </div><!-- /.col -->
