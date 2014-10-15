@@ -13,12 +13,15 @@ function spl_get_digicol() {
 	$digicol = array();
 
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll1'
-										,'img' => ''
+										,'img' => 'spl-fire.jpg'
 										,'label' => 'Spokane Fire (1889)'
-										 );
+										);
+
+
 	$html = null; 
 	foreach ( $digicol as $col ) {
-		$html .= $col['label'];
+		//$html .= $col['label'];
+		$html .= '<img src="/assets/img/digicol/'.$col['img'].'">'.PHP_EOL;
 	}
 
 	return $html;
