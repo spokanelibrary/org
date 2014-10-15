@@ -11,11 +11,11 @@
 </b>
 <br>
 <ul>
-	<li><a href="/northwest-room/biofiles/">Biographical files</a></li>
+	<li><a href="/northwest-room/biofiles/"><b>Biographical files</b></a></li>
 	<li><a href="">House history</a></li>
 	<li><a href="">Photo archive</a></li>
 	<li><a href="">Map collection</a></li>
 	<li><a href="">Full collection</a></li>
 	<li><a href="">Digital collections</a></li>
-	<li><a href="/calendar/nw/exhibit/">Northwest Room exhibits</li>
+	<li><a href="/calendar/nw/exhibit/"><b>Northwest Room exhibits</b></li>
 </ul>
