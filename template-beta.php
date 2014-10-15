@@ -19,27 +19,12 @@ Template Name: Beta Home Page
       </b>
     </p>
 
-    <p>
-      <a class="btn btn-lg btn-block btn-success" href="/connect/">
-        <span class="visible-xs">Take me to the contact forms &rarr;</span>
-        <span class="hidden-xs">Please take me to the contact forms &rarr;</span>
-      </a>
-    </p>
-
     <blockquote>
       <p>
         All other pages are still located on <a href="http://www.spokanelibrary.org">our old website</a>.
         We understand this may be somewhat confusing, and we really appreciate your patience during this transition period.
       </p>
-      <!--
-      <p>
-        Please feel free to <a href="/contact">contact us</a> with any comments, questions, or suggestions.
-      </p>
-      <p>
-        Thanks,
-      </p>
-      <small>The SPL Web Team</small>
-      -->
+
     </blockquote>
     
   </div><!-- /.col -->
@@ -60,17 +45,9 @@ Template Name: Beta Home Page
 
 
 
-
-
-
-
 <div class="row">
 
   <div class="col-md-6">
-
-    <?php //get_template_part('templates/page', 'header'); ?>
-
-    <?php //get_template_part('templates/content', 'page'); ?>
 
     <h3 class="text-success">
       <i class="glyphicon glyphicon-calendar"></i> 
@@ -91,14 +68,7 @@ Template Name: Beta Home Page
   
   <div class="col-md-6">
     <div class="hidden-xs">
-    <!--
-    <div class="panel panel-default" style="border-left-width:5px;">
-      <div class="panel-heading">
-        <i class="glyphicon glyphicon-comment text-muted"></i>
-        <span class="text-muted">Recently posted on the <a href="/blog/">library blog</a> &rarr;</span>
-      </div>
-      <div class="panel-body">
-    -->   
+
         <h3 class="text-success">
           <i class="glyphicon glyphicon-comment"></i> 
           From the reference desk
@@ -115,11 +85,6 @@ Template Name: Beta Home Page
         <p class="text-right">
           <a class="btn btn-default btn-sm" href="/blog/">More on the library blog &rarr;</a>
         </p>
-    <!--
-      </div>
-    </div>
-    </div>
-  </div>--><!-- /.col -->
 
 </div><!-- /.row -->
 
