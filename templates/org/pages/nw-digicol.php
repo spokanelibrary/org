@@ -19,11 +19,14 @@ function spl_get_digicol() {
 										,'label' => ''
 										);
 	*/
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll3'
+										,'img' => 'spl-views.jpg'
+										,'label' => 'Spokane Views'
+										);
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll2'
 										,'img' => 'spl-rivers.jpg'
 										,'label' => 'Spokane River'
 										);
-
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll1'
 										,'img' => 'spl-fire.jpg'
 										,'label' => 'Spokane Fire (1889)'
