@@ -1,4 +1,3 @@
-
 <?php get_template_part('templates/page', 'header'); ?>
 <div class="text-right">
   <img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <a href="./feed/"><b>RSS</b></a>
