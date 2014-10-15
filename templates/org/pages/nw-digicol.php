@@ -8,6 +8,8 @@
 	The original items are available for use and study in the <a href="/northwest-room/">Northwest Room</a>.
 </p>
 
+<hr>
+
 <?php echo spl_get_digicol(); ?>
 
 <?php
