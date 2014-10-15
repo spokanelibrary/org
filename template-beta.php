@@ -95,7 +95,7 @@ Template Name: Beta Home Page
 
   <div class="col-md-6">
 
-    <h3 class="text-success">
+    <h3 class="text-muted">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
@@ -115,7 +115,7 @@ Template Name: Beta Home Page
   <div class="col-md-6">
     <div class="hidden-xs">
 
-        <h3 class="text-success">
+        <h3 class="text-muted">
           <i class="glyphicon glyphicon-comment"></i> 
           From the reference desk
         </h3> 
