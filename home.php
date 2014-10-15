@@ -3,9 +3,8 @@
   &nbsp;
   <a class="btn btn-sm btn-default" href="/rss-feeds/"><img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <b>More feeds</b></a>
 </div>
-<hr>
 <?php get_template_part('templates/page', 'header'); ?>
-
+<hr>
 <?php if (!have_posts()) : ?>
   <div class="alert alert-warning">
     <?php _e('Sorry, no results were found.', 'roots'); ?>
