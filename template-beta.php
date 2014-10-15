@@ -97,11 +97,11 @@ Template Name: Beta Home Page
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
-    <!--
+    
     <p class="text-right">
-      <a class="btn btn-default btn-sm" href="/calendar/">Full events calendar &rarr;</a>
+      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>
-    -->
+    
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
     <p class="text-right">
@@ -117,11 +117,11 @@ Template Name: Beta Home Page
           <i class="glyphicon glyphicon-comment"></i> 
           From the reference desk
         </h3> 
-        <!--
+        
         <p class="text-right">
-          <a class="btn btn-default btn-sm" href="/blog/">More on the library blog &rarr;</a>
+          <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
         </p>
-        -->
+        
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
         
         <p>&nbsp;</p>
