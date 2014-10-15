@@ -1,7 +1,7 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
-    <header>
-      <h1 class="entry-title serif"><?php the_title(); ?></h1>
+    <header class="page-header">
+      <h1 class=""><?php the_title(); ?></h1>
     </header>
     <div class="entry-content">
       <?php the_content(); ?>
