@@ -51,9 +51,9 @@ Template Name: Beta Home Page
       <i class="glyphicon glyphicon-pencil"></i> 
       Library News
     </h3>
-    <!--
-    <img class="img-responsive img-rounded pull-right hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Create_Spokane_Logo2-296x300.jpg">
-    -->
+    
+    <img class="img-responsive img-rounded pull-right hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Create_Spokane_Logo2-158x160.jpg">
+    
     <h2 class="clearfix">
       <a href="http://news.spokanelibrary.org/newsletter/createspokane-trivia-spokane-is-reading-and-a-book-sale/">#CreateSpokane, Trivia, Spokane is Reading and a Book Sale!</a>
     </h2>
