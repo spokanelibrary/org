@@ -1,5 +1,5 @@
 <div class="pull-right">
-  <img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <a href="/blog/feed/"><b>RSS</b></a>
+  <img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <a href="./feed/"><b>RSS</b></a>
   &nbsp;
   <img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <a href="/rss-feeds/"><b>More feeds</b></a>
 </div>
