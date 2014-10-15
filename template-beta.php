@@ -105,7 +105,7 @@ Template Name: Beta Home Page
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
     <p class="text-right">
-      <a class="btn btn-default btn-sm" href="/calendar/">Full events calendar &rarr;</a>
+      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>
 
   </div><!-- /.col -->
@@ -127,7 +127,7 @@ Template Name: Beta Home Page
         <p>&nbsp;</p>
 
         <p class="text-right">
-          <a class="btn btn-default btn-sm" href="/blog/">More on the library blog &rarr;</a>
+          <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
         </p>
 
 </div><!-- /.row -->
