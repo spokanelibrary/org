@@ -15,7 +15,7 @@ Template Name: Beta Home Page
     <p class="lead">
       <b>
       We are transitioning Spokane Public Library to a new website.
-      During this time a few pages, including <a href="/contact/">contact us</a>, <a href="/request/">request a title</a>, and <a href="/connect/">other interactive forms</a>, are only available here on beta.spokanelibrary.org.
+      During this time a few pages, including <a href="/contact/">contact us</a>, <a href="/request/">request a title</a>, and <a href="/blog/">our blog</a>, are only available here on beta.spokanelibrary.org.
       </b>
     </p>
 
