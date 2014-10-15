@@ -44,7 +44,7 @@ Template Name: Beta Home Page
 
 <div class="row" style="padding-top: 20px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
   <p>&nbsp;</p>
-</p>
+</div>
 
 <div class="row">
 
