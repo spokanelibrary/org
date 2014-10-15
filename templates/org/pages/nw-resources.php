@@ -1,12 +1,15 @@
-<p>
+<b>
 	<a href="/northwest-room/">Northwest Room</a>
-</p>
-<p>
+</b>
+<br>
+<b>
 	<a href="/yearbooks/">High school yearbooks</a>
-</p>
-<p>
+</b>
+<br>
+<b>
 	<a href="/northwest-room/resources/">Northwest Room resources</a>
-</p>
+</b>
+<br>
 <ul>
 	<li><a href="/northwest-room/biofiles/">Biographical files</a></li>
 	<li><a href="">House history</a></li>
@@ -14,6 +17,5 @@
 	<li><a href="">Map collection</a></li>
 	<li><a href="">Full collection</a></li>
 	<li><a href="">Digital collections</a></li>
-	<li><a href="">Exhibits</li>
-	<li><a href="">High school yearbooks</a></li>
+	<li><a href="/calendar/nw/exhibit/">Northwest Room exhibits</li>
 </ul>
