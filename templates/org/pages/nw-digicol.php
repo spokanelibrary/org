@@ -8,6 +8,8 @@
 	The original items are available for use and study in the <a href="/northwest-room/">Northwest Room</a>.
 </p>
 
+<?php echo spl_get_digicol(); ?>
+
 <?php
 function spl_get_digicol() {
 	$digicol = array();
@@ -21,22 +23,9 @@ function spl_get_digicol() {
 	$html = null; 
 	foreach ( $digicol as $col ) {
 		//$html .= $col['label'];
-		$html .= '<img src="/assets/img/digicol/'.$col['img'].'">'.PHP_EOL;
+		$html .= '<img class="thumb img-rounded" src="/assets/img/digicol/'.$col['img'].'">'.PHP_EOL;
 	}
 
 	return $html;
 }
 ?>
-
-<div class="row">
-
-	<div class="col-md-4">
-		<div class="panel panel-default">
-			<div class="panel-body">
-				<?php echo spl_get_digicol(); ?>
-			</div>
-		</div>
-	</div><!-- /. col -->
-
-</div><!-- /. row -->
-
