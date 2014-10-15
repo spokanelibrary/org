@@ -13,6 +13,16 @@
 <?php
 function spl_get_digicol() {
 	$digicol = array();
+	/*
+	$digicol[] = array('url' => ''
+										,'img' => ''
+										,'label' => ''
+										);
+	*/
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll2'
+										,'img' => 'spl-rivers.jpg'
+										,'label' => 'Spokane River'
+										);
 
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll1'
 										,'img' => 'spl-fire.jpg'
