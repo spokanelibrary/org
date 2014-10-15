@@ -22,7 +22,7 @@ Template Name: Beta Home Page
     <blockquote>
       <p>
         All other pages are still located on <a href="http://www.spokanelibrary.org">our old website</a>.
-        We understand this may be somewhat confusing, and we really appreciate your patience during this transition period.
+        We understand this is somewhat confusing, and we really appreciate your patience during this transition period.
       </p>
 
     </blockquote>
