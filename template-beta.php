@@ -21,18 +21,20 @@ Template Name: Beta Home Page
 
     <blockquote>
       <p>
-        All other pages are still located on <a href="http://www.spokanelibrary.org">our old website</a>.
+        All other pages are still located on <a href="http://www.spokanelibrary.org"><b>our old website</b></a>.
         We understand this is somewhat confusing, and we really appreciate your patience during this transition period.
       </p>
 
     </blockquote>
 
+    <!--
     <p>
       <a class="btn btn-block btn-primary" href="http://www.spokanelibrary.org">
         <span class="visible-xs">Take me to the old website &rarr;</span>
         <span class="hidden-xs">Please take me back to the old website &rarr;</span>
       </a>
     </p>
+    -->
     
   </div><!-- /.col -->
   <div class="col-md-6">
