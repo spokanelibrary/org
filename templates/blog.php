@@ -15,7 +15,7 @@
 							echo '<li>';
 							echo '<a class="" href="' . get_category_link($category->cat_ID) . '">';
 							echo '<small class="text-success">';
-							echo '<i class="glyphicon glyphicon-pushpin"></i> ';
+							echo '<small class="glyphicon glyphicon-pushpin"></small> ';
 							echo '<b>'.$category->name.'</b>';
 							echo '</small>';
 							echo '</a>';
