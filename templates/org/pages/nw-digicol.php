@@ -13,8 +13,8 @@ function spl_get_digicol() {
 	$digicol = array();
 
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll1'
-										 'img' => ''
-										 'label' => 'Spokane Fire (1889)'
+										,'img' => ''
+										,'label' => 'Spokane Fire (1889)'
 										 );
 	$html = null; 
 	foreach ( $digicol as $col ) {
