@@ -26,11 +26,15 @@ function spl_get_digicol() {
 		$html .= '<div class="panel panel-default">'.PHP_EOL;
 		
 		$html .= '<div class="panel-heading">'.PHP_EOL;
-		$html .= '<h4 class="panel-title">'.$col['label'].'</h4>'.PHP_EOL;
+		$html .= '<a href="'.$col['url'].'">';	
+		$html .= '<h4 class="panel-title">'.$col['label'].'</h4>';
+		$html .= '</a>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
 		
-		$html .= '<div class="panel-body">'.PHP_EOL;		
-		$html .= '<img class="img-responsive img-rounded" src="/assets/img/digicol/'.$col['img'].'">'.PHP_EOL;
+		$html .= '<div class="panel-body">'.PHP_EOL;	
+		$html .= '<a href="'.$col['url'].'">';	
+		$html .= '<img class="img-responsive img-rounded" alt="'.$col['label'].'" src="/assets/img/digicol/'.$col['img'].'">';
+		$html .= '</a>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
 
 		$html .= '</div>'.PHP_EOL;
