@@ -1,7 +1,8 @@
 <?php get_template_part('templates/page', 'header'); ?>
-
+<p class="text-right">
 <img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <a href="/blog/feed/"><b>Library blog</b></a> <span class="text-muted">&rarr;</span>
 <img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <a href="/rss-feeds/"><b>More feeds</b></a> <span class="text-muted">&rarr;</span>
+</p>
 <hr>
 <?php if (!have_posts()) : ?>
   <div class="alert alert-warning">
