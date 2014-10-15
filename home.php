@@ -1,9 +1,10 @@
-<?php get_template_part('templates/page', 'header'); ?>
-<div class="text-right">
+<div class="pull-right">
   <a class="btn btn-sm btn-default" href="./feed/"><img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <b>RSS</b></a>
   &nbsp;
   <a class="btn btn-sm btn-default" href="/rss-feeds/"><img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <b>More feeds</b></a>
 </div>
+
+<?php get_template_part('templates/page', 'header'); ?>
 
 <?php if (!have_posts()) : ?>
   <div class="alert alert-warning">
