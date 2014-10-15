@@ -1,6 +1,6 @@
 <?php get_template_part('templates/page', 'header'); ?>
 <div class="text-right">
-  <a class="btn btn-sm btn-default">RSS</a>
+  <a class="btn btn-sm btn-default" href="./feed/"><img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <b>RSS</b></a>
   <img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <a href="./feed/"><b>RSS</b></a>
   &nbsp;
   <img src="/assets/img/icons/16px/social-rss.png" style="margin-top: -4px;" alt="RSS feeds"> <a href="/rss-feeds/"><b>More feeds</b></a>
