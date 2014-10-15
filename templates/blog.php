@@ -6,7 +6,7 @@
   <div class="entry-summary">
   	<div class="row">
 	  	<div class="col-md-3 col-md-push-9">
-		  	<aside class="text-right">
+		  	<aside>
   				<ul class="nav nav-pills">
   				<?php
 			  	$categories = get_the_category($post->ID);
