@@ -42,9 +42,49 @@ Template Name: Beta Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="row" style="padding-top: 10px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
 
-</div>
+
+
+<div class="row" style="padding-top: 20px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
+  <div class="col-md-6">
+    <h3 class="text-success">
+      <i class="glyphicon glyphicon-pencil"></i> 
+      Library News
+    </h3>
+    <img class="img-responsive img-rounded pull-right hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Create_Spokane_Logo2-296x300.jpg">
+    <h2 class="clearfix">
+      <a href="http://news.spokanelibrary.org/newsletter/createspokane-trivia-spokane-is-reading-and-a-book-sale/">#CreateSpokane, Trivia, Spokane is Reading and a Book Sale!</a>
+    </h2>
+    
+    <p class="text-right">
+      <a class="btn btn-primary" href="/news/">Read Library News &rarr;</a>
+    </p>
+
+  </div><!-- /.col -->
+  <div class="col-md-6">
+
+    <div class="panel panel-success" style="border-left-width:5px;">
+      <div class="panel-heading" style="border-radius:0;">
+        <i class="glyphicon glyphicon-plus-sign"></i>
+        Also in this issue&hellip;
+      </div>
+      <div class="panel-body">
+        <ul class="" style="padding-left:14px;">
+          <li><a href="http://news.spokanelibrary.org/6-simple-and-fun-ways-to-support-the-library/">6 Simple (and Fun) Ways to Support the Library!</a></li>
+          <li><a href="http://news.spokanelibrary.org/ueda-award/">Award Nomination for the Library</a></li>
+          <li><a href="http://news.spokanelibrary.org/what-do-you-love-about-spokane/">What do you love about Spokane?</a></li>
+          <li><a href="http://news.spokanelibrary.org/dewey-sir/">Discovering Dewey in Swamplandia!</a></li>
+          <li><a href="http://news.spokanelibrary.org/5-songs-spooky/">Five Spooky Songs</a></li>
+          <li><a href="http://news.spokanelibrary.org/annual_report-13/"></a>A Look Back with 2013 Number Wrap-up</li>
+        </ul>
+      </div>
+    </div><!-- /.panel -->
+
+  </div><!-- /.col -->
+</div><!-- /.row -->
+
+
+
 
 <div class="row">
 
