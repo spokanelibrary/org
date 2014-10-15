@@ -95,7 +95,7 @@ Template Name: Beta Home Page
 
   <div class="col-md-6">
 
-    <h3 class="text-success">
+    <h3 class="text-warning">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
