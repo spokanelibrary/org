@@ -40,7 +40,7 @@ function spl_get_digicol() {
 		
 		$html .= '<div class="panel-heading">'.PHP_EOL;
 		$html .= '<a href="'.$col['url'].'">';	
-		$html .= '<h4 class="panel-title">'.$col['label'].'</h4>';
+		$html .= '<h4 class="panel-title text-center">'.$col['label'].'</h4>';
 		$html .= '</a>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
 		
