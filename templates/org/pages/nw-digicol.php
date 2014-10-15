@@ -23,7 +23,13 @@ function spl_get_digicol() {
 	$html = null; 
 	foreach ( $digicol as $col ) {
 		//$html .= $col['label'];
-		$html .= '<img class="thumb img-rounded" src="/assets/img/digicol/'.$col['img'].'">'.PHP_EOL;
+		$html .= '<div class="thumbnail">'.PHP_EOL;
+		
+		$html .= '<img class="img-responsive img-rounded" src="/assets/img/digicol/'.$col['img'].'">'.PHP_EOL;
+		$html .= '<div class="caption">'.PHP_EOL;
+		$html .= $col['label'].PHP_EOL;
+		$html .= '</div>'.PHP_EOL;
+		$html .= '</div>'.PHP_EOL;
 	}
 
 	return $html;
