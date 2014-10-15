@@ -77,7 +77,7 @@ Template Name: Beta Home Page
           <li><a href="http://news.spokanelibrary.org/what-do-you-love-about-spokane/">What do you love about Spokane?</a></li>
           <li><a href="http://news.spokanelibrary.org/dewey-sir/">Discovering Dewey in Swamplandia!</a></li>
           <li><a href="http://news.spokanelibrary.org/5-songs-spooky/">Five Spooky Songs</a></li>
-          <li><a href="http://news.spokanelibrary.org/annual_report-13/"></a>A Look Back with 2013 Number Wrap-up</li>
+          <li><a href="http://news.spokanelibrary.org/annual_report-13/">A Look Back with 2013 Number Wrap-up</a></li>
         </ul>
       </div>
     </div><!-- /.panel -->
