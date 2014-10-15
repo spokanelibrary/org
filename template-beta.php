@@ -70,8 +70,8 @@ Template Name: Beta Home Page
 
     <div class="panel panel-success" style="border-left-width:5px;">
       <div class="panel-heading" style="border-radius:0;">
-        <i class="glyphicon glyphicon-plus-sign"></i>
-        Also in this issue&hellip;
+        <!--<i class="glyphicon glyphicon-plus-sign"></i>-->
+        <h4 class="panel-title">Also in this issue&hellip;</h4>
       </div>
       <div class="panel-body">
         <ul class="" style="padding-left:14px;">
