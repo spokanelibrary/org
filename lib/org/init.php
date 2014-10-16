@@ -495,9 +495,9 @@ function spl_menupage() {
               </div>
               <div class="panel-body">
               '.get_the_content().'
-              </div>
-              <div class="panel-footer">
-                <a class="btn btn-default" href="#top">Top <small>&uarr;</small></a>
+              <p class="text-right">
+                <a class="btn btn-sm btn-default" href="#top">Top <small>&uarr;</small></a>
+              </p>
               </div>
             </div>';  
         endwhile;  
