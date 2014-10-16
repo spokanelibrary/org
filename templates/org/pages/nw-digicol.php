@@ -125,6 +125,7 @@ function spl_get_digicol() {
 										,'img' => 'spl-fire.jpg'
 										,'label' => 'Spokane Fire (1889)'
 										);
+	shuffle($digicol);
 	$columns = 3;
 	$html = null; 
 	foreach ( $digicol as $k => $col ) {
