@@ -17,7 +17,7 @@ If you are looking for a specific image, please feel free to visit the Northwest
 </p>
 
 <?php
-function spl_get_digicol($shuffle=false) {
+function spl_get_digicol($shuffle=false, $columns=4) {
 	$digicol = array();
 	/*
 	$digicol[] = array('url' => ''
@@ -162,7 +162,6 @@ function spl_get_digicol($shuffle=false) {
 		shuffle($digicol);
 	}
 	
-	$columns = 3;
 	$html = null; 
 	foreach ( $digicol as $k => $col ) {
 		if ( 0 == $k%$columns ) {
