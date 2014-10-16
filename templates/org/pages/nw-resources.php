@@ -15,6 +15,24 @@
 		</p>
 	</div>
 	<div class="col-md-6">
+		<h4>Biographical Files</h4>
+		<a href="/northwest-room/biofiles/">
+		<img class="img-responsive img-rounded alignleft" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
+		</a>
+		<p>
+		For over 100 years, librarians at SPL clipped the newspapers for biographical information.
+		These clippings include obituaries on pioneers, but they also contain all kinds of biographical information from papers in Spokane and around the Northwest.
+		</p>
+		<p>
+		<a class="btn btn-default btn-block" href="/northwest-room/biofiles/">Learn more &rarr;</a>
+		</p>
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="col-md-6">
 		<h4>Digital archives</h4>
 		<p>
 		These collections, available online, emphasize the most frequently requested subjects in the Northwest Room – the homes, buildings, streets and activities in and around Spokane.
@@ -26,24 +44,6 @@
 		<p>
 		<p>
 		<a class="btn btn-default btn-block" href="/northwest-room/digital-collections/">More &rarr;</a>
-		</p>
-	</div>
-</div>
-
-
-
-<div class="row">
-	<div class="col-md-6">
-		<h4>Biographical Files</h4>
-		<a href="/northwest-room/biofiles/">
-		<img class="img-responsive img-rounded alignleft" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
-		</a>
-		<p>
-		For over 100 years, librarians at SPL clipped the newspapers for biographical information.
-		These clippings include obituaries on pioneers, but they also contain all kinds of biographical information from papers in Spokane and around the Northwest.
-		</p>
-		<p>
-		<a class="btn btn-default btn-block" href="/northwest-room/biofiles/">Learn more &rarr;</a>
 		</p>
 	</div>
 	<div class="col-md-6">
@@ -67,24 +67,20 @@
 	<a href="/northwest-room/">Northwest Room</a>
 </b>
 <br>
-<b>
 	<a href="/yearbooks/">High school yearbooks</a>
-</b>
 <br>
-<b>
 	<a href="/northwest-room/resources/">Northwest Room resources</a>
-</b>
 <br>
 <ul>
-	<li><a href="/northwest-room/biofiles/"><b>Biographical files</b></a></li>
+	<li><a href="/northwest-room/biofiles/">Biographical files</a></li>
 	<li><a href="/northwest-room/house-history/"><b>House history</b></a></li>
 	<li><a href="/northwest-room/photo-archive/"><b>Photo archive</b></a></li>
 	<li><a href="/northwest-room/maps/"><b>Map collection</b></a></li>
 	<li><a href="/northwest-room/fuller/"><b>Fuller collection</b></a></li>
-	<li><a href="/northwest-room/digital-collections/"><b>Digital collections</b></a></li>
+	<li><a href="/northwest-room/digital-collections/">Digital collections</a></li>
 	<li><a href="/northwest-room/exhibits/"><b>Northwest Room exhibits</b></li>
 	<li><a href="/northwest-room/policies/"><b>Northwest Room policies</b></li>
 	<li><a href="/northwest-room/about/"><b>About the Northwest Room</b></li>
-	<li><a href="/northwest-room/ned-barnes/"><b>Ned M. Barnes</b></li>
+	<li><a href="/northwest-room/ned-barnes/">Ned M. Barnes</li>
 </ul>
 
