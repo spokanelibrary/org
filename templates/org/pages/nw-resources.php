@@ -87,7 +87,7 @@
 		</p>
 	</div>
 	<div class="col-md-6">
-		<h4>Fuller collection</h4>
+		<h4>The Fuller Collection</h4>
 		<p>
 			The Fuller Collection consists of rare materials relating to the history of writing and printing.
 		</p>
@@ -99,7 +99,7 @@
 
 <div class="row">
 	<div class="col-md-6">
-		<h4>Map collection</h4>
+		<h4>Northwest Map Collection</h4>
 		<p>
 			Maps offer a whole different dimension to studying and understanding the history of the Pacific Northwest.
 		</p>
@@ -108,7 +108,7 @@
 		</p>
 	</div>
 	<div class="col-md-6">
-		<h4>Photo archive</h4>
+		<h4>Northwest Room Photo archive</h4>
 		<p>
 			Spokane Public Library’s small, but impressive, photograph collection contains several hundred prints offering glimpses of life in the Pacific Northwest.
 		</p>
