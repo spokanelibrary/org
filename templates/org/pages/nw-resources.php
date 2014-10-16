@@ -19,9 +19,11 @@
 	</div>
 </div>
 
+
+
 <div class="row">
 	<div class="col-md-6">
-		<h4>Photo Archives</h4>
+		<h4>High school yearbooks</h4>
 		<p>
 		These collections, available online, emphasize the most frequently requested subjects in the Northwest Room – the homes, buildings, streets and activities in and around Spokane.
 		</p>
@@ -44,6 +46,37 @@
 		</p>
 		<p>
 		<a class="btn btn-default btn-block" href="http://www.spokanelibrary.org/nw/biofiles/">Learn more &rarr;</a>
+		</p>
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="col-md-6">
+		<h4>Digital archives</h4>
+		<p>
+		These collections, available online, emphasize the most frequently requested subjects in the Northwest Room – the homes, buildings, streets and activities in and around Spokane.
+		</p>
+		<p>
+		<a href="/northwest-room/digital-collections/">
+		<img class="img-responsive img-rounded" alt="Digital Collections" src="/assets/img/digicol/dc-intro.jpg" />
+		</a>
+		<p>
+		<p>
+		<a class="btn btn-default btn-block" href="/northwest-room/digital-collections/">More &rarr;</a>
+		</p>
+	</div>
+	<div class="col-md-6">
+		<h4>Biographical files</h4>
+		<a href="/northwest-room/biofiles/">
+		<img class="img-responsive img-rounded pull-left" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
+		</a>
+		<p>
+		For over 100 years, librarians at SPL clipped the newspapers for biographical information. These clippings include obituaries on pioneers, but they also contain all kinds of biographical information from papers in Spokane and around the Northwest. The Northwest Room has created a database for every name in these files which includes over five thousand names.
+		</p>
+		<p>
+		<a class="btn btn-default btn-block" href="/northwest-room/biofiles/">More &rarr;</a>
 		</p>
 	</div>
 </div>
