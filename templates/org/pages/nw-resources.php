@@ -17,5 +17,5 @@
 	<li><a href="">Map collection</a></li>
 	<li><a href="">Full collection</a></li>
 	<li><a href="/northwest-room/digital-collections/"><b>Digital collections</b></a></li>
-	<li><a href="/calendar/nw/exhibit/"><b>Northwest Room exhibits</b></li>
+	<li><a href="/northwest-room/exhibits/"><b>Northwest Room exhibits</b></li>
 </ul>
