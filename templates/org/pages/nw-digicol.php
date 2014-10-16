@@ -8,7 +8,7 @@
 
 <hr>
 
-<?php echo spl_get_digicol(); ?>
+<?php echo spl_get_digicol(true); ?>
 
 <h2>More at the Downtown Library</h2>
 <p>
@@ -17,7 +17,7 @@ If you are looking for a specific image, please feel free to visit the Northwest
 </p>
 
 <?php
-function spl_get_digicol() {
+function spl_get_digicol($shuffle=false) {
 	$digicol = array();
 	/*
 	$digicol[] = array('url' => ''
@@ -157,7 +157,11 @@ function spl_get_digicol() {
 										,'img' => 'spl-fire.jpg'
 										,'label' => 'Spokane Fire (1889)'
 										);
-	//shuffle($digicol);
+	
+	if ( $shuffle ) {
+		shuffle($digicol);
+	}
+	
 	$columns = 3;
 	$html = null; 
 	foreach ( $digicol as $k => $col ) {
