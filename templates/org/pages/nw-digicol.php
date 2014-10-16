@@ -19,6 +19,18 @@ function spl_get_digicol() {
 										,'label' => ''
 										);
 	*/
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll7'
+										,'img' => 'spl-watown.jpg'
+										,'label' => 'Washington Towns'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll8'
+										,'img' => 'spl-industry.jpg'
+										,'label' => 'Spokane Industry'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223qs'
+										,'img' => 'spl-streets.jpg'
+										,'label' => 'Spokane Streets'
+										);
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll4'
 										,'img' => 'spl-bridges.jpg'
 										,'label' => 'Spokane Bridges'
