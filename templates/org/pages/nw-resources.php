@@ -31,7 +31,7 @@
 		</p>
 	</div>
 	<div class="col-md-6">
-		<h4>Biographical Files</h4>
+		<h4>Biographical files</h4>
 		<a href="/northwest-room/biofiles/">
 		<img class="img-responsive img-rounded alignright" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
 		</a>
@@ -44,8 +44,6 @@
 		</p>
 	</div>
 </div>
-
-
 
 <div class="row">
 	<div class="col-md-6">
@@ -63,7 +61,7 @@
 		</p>
 	</div>
 	<div class="col-md-6">
-		<h4>Northwest exhibits</h4>
+		<h4>Northwest exhibit schedule</h4>
 		<p>
 		The Northwest Room displays permanent art as well as exhibits which rotate several times a year.
 		</p>
@@ -74,6 +72,46 @@
 		<p>
 		<p>
 		<a class="btn btn-default btn-block" href="/northwest-room/exhibitss/">More &rarr;</a>
+		</p>
+	</div>
+</div>
+
+<h3>Additional resources</h3>
+
+<div class="row">
+	<div class="col-md-6">
+		<h4>House history</h4>
+		<p>
+		</p>
+		<p>
+			<a class="btn btn-default btn-block" href="/northwest-room/house-history/">More &rarr;</a>
+		</p>
+	</div>
+	<div class="col-md-6">
+		<h4>Fuller collection</h4>
+		<p>
+		</p>
+		<p>
+			<a class="btn btn-default btn-block" href="/northwest-room/fuller/">More &rarr;</a>
+		</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-6">
+		<h4>Map collection</h4>
+		<p>
+		</p>
+		<p>
+			<a class="btn btn-default btn-block" href="/northwest-room/maps/">More &rarr;</a>
+		</p>
+	</div>
+	<div class="col-md-6">
+		<h4>Photo archive</h4>
+		<p>
+		</p>
+		<p>
+			<a class="btn btn-default btn-block" href="/northwest-room/photo-archive/">More &rarr;</a>
 		</p>
 	</div>
 </div>
@@ -89,10 +127,10 @@
 <br>
 <ul>
 	<li><a href="/northwest-room/biofiles/">Biographical files</a></li>
-	<li><a href="/northwest-room/house-history/"><b>House history</b></a></li>
-	<li><a href="/northwest-room/photo-archive/"><b>Photo archive</b></a></li>
-	<li><a href="/northwest-room/maps/"><b>Map collection</b></a></li>
-	<li><a href="/northwest-room/fuller/"><b>Fuller collection</b></a></li>
+	<li><a href="/northwest-room/house-history/">House history</a></li>
+	<li><a href="/northwest-room/photo-archive/">Photo archive</b></a></li>
+	<li><a href="/northwest-room/maps/">Map collection</a></li>
+	<li><a href="/northwest-room/fuller/">Fuller collection</a></li>
 	<li><a href="/northwest-room/digital-collections/">Digital collections</a></li>
 	<li><a href="/northwest-room/exhibits/">Northwest Room exhibits</li>
 	<li><a href="/northwest-room/policies/">Northwest Room policies</li>
