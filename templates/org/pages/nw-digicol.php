@@ -17,7 +17,7 @@ If you are looking for a specific image, please feel free to visit the Northwest
 </p>
 
 <?php
-function spl_get_digicol($shuffle=false, $columns=3) {
+function spl_get_digicol($shuffle=false, $columns=4) {
 	$digicol = array();
 	/*
 	$digicol[] = array('url' => ''
@@ -177,6 +177,7 @@ function spl_get_digicol($shuffle=false, $columns=3) {
 		$html .= '</div>'.PHP_EOL;
 		
 		$html .= '<div class="panel-body">'.PHP_EOL;	
+		//$html .= $k . ' | ' . 
 		$html .= '<a href="'.$col['url'].'">';	
 		$html .= '<img class="img-responsive img-rounded" style="max-height:150px; margin:auto;" alt="'.$col['label'].'" src="/assets/img/digicol/'.$col['img'].'">';
 		$html .= '</a>'.PHP_EOL;
@@ -185,7 +186,7 @@ function spl_get_digicol($shuffle=false, $columns=3) {
 		$html .= '</div>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
 		
-		if ( ($columns-1)==$k%3 || $k==(count($digicol)-1) ) {
+		if ( ($columns-1)==$k%$columns || $k==(count($digicol)-1) ) {
 			$html .= '</div><!-- /.row digicol -->'.PHP_EOL;
 		}
 
