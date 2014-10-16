@@ -1,15 +1,18 @@
-<ul class="nav nav-pills">
-	<li>
-		<a href="#">Locations &amp; hours</a>
-	</li>
-	<li>
-		<a href="#">About the Northwest Room</a>
+<div class="panel panel-primary">
+	<div class="panel-body">
+		<ul class="nav nav-pills">
+			<li>
+				<a href="#">Locations &amp; hours</a>
+			</li>
+			<li>
+				<a href="#">About the Northwest Room</a>
+			</li>
+			<li>
+				<a href="#">Northwest Room policies</a>
+			</li>
+		</ul>
 	</div>
-	<li>
-		<a href="#">Northwest Room policies</a>
-	</li>
-</ul>
-
+</div>
 
 
 <div class="row">
