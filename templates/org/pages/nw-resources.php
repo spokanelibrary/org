@@ -76,8 +76,6 @@
 	</div>
 </div>
 
-<h3>Additional resources</h3>
-
 <div class="row">
 	<div class="col-md-6">
 		<h4>House history</h4>
