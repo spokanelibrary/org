@@ -19,6 +19,18 @@ function spl_get_digicol() {
 										,'label' => ''
 										);
 	*/
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll1'
+										,'img' => 'spl-nw-agriculture.jpg'
+										,'label' => 'Northwest Agriculture'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll4'
+										,'img' => 'spl-scenic-northwest.jpg'
+										,'label' => 'Scenic Northwest'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll3'
+										,'img' => 'spl-idahotowns.jpg'
+										,'label' => 'Idaho Towns'
+										);
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll2'
 										,'img' => 'spl-ephemera.jpg'
 										,'label' => 'Northwest Ephemera'
