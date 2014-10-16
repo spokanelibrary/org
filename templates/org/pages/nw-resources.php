@@ -103,6 +103,7 @@
 	<div class="col-md-6">
 		<h4>Map collection</h4>
 		<p>
+			Maps offer a whole different dimension to studying and understanding the history of the Pacific Northwest.
 		</p>
 		<p>
 			<a class="btn btn-default btn-block" href="/northwest-room/maps/">More &rarr;</a>
@@ -111,6 +112,7 @@
 	<div class="col-md-6">
 		<h4>Photo archive</h4>
 		<p>
+			Spokane Public Library’s small, but impressive, photograph collection contains several hundred prints offering glimpses of life in the Pacific Northwest.
 		</p>
 		<p>
 			<a class="btn btn-default btn-block" href="/northwest-room/photo-archive/">More &rarr;</a>
