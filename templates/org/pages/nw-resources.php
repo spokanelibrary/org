@@ -1,3 +1,16 @@
+<div class="row">
+	<div class="col-md-4">
+		<h4>Locations &amp; hours</h4>
+	</div>
+	<div class="col-md-4">
+		<h4>About the Northwest Room</h4>
+	</div>
+	<div class="col-md-4">
+		<h4>Northwest Room policies</h4>
+	</div>
+</div>
+
+
 
 <div class="row">
 	<div class="col-md-6">
@@ -80,7 +93,7 @@
 	<li><a href="/northwest-room/maps/"><b>Map collection</b></a></li>
 	<li><a href="/northwest-room/fuller/"><b>Fuller collection</b></a></li>
 	<li><a href="/northwest-room/digital-collections/">Digital collections</a></li>
-	<li><a href="/northwest-room/exhibits/"><b>Northwest Room exhibits</b></li>
+	<li><a href="/northwest-room/exhibits/">Northwest Room exhibits</li>
 	<li><a href="/northwest-room/policies/"><b>Northwest Room policies</b></li>
 	<li><a href="/northwest-room/about/"><b>About the Northwest Room</b></li>
 	<li><a href="/northwest-room/ned-barnes/">Ned M. Barnes</li>
