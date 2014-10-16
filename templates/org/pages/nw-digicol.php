@@ -165,7 +165,7 @@ function spl_get_digicol($shuffle=false, $columns=4) {
 	$html = null; 
 	foreach ( $digicol as $k => $col ) {
 		if ( 0 == $k%$columns ) {
-			$html .= '<div class="row digicol"> Open row'.PHP_EOL;
+			$html .= '<div class="row digicol"> Open row<hr>'.PHP_EOL;
 		}
 
 		$html .= '<div class="col-md-4">'.PHP_EOL;
@@ -187,7 +187,7 @@ function spl_get_digicol($shuffle=false, $columns=4) {
 		$html .= '</div>'.PHP_EOL;
 		
 		if ( ($columns-1)==$k%$columns || $k==(count($digicol)-1) ) {
-			$html .= 'Close row</div><!-- /.row digicol -->'.PHP_EOL;
+			$html .= '<hr>Close row</div><!-- /.row digicol -->'.PHP_EOL;
 		}
 
 	}
