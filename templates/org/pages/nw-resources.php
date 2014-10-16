@@ -20,5 +20,5 @@
 	<li><a href="/northwest-room/exhibits/"><b>Northwest Room exhibits</b></li>
 	<li><a href="/northwest-room/policies/">Northwest Room policies</li>
 	<li><a href="/northwest-room/about/">About the Northwest Room</li>
-	<li><a href="/northwest-room/ned-barnes/">Ned M. Barnes</li>
+	<li><a href="/northwest-room/ned-barnes/"><b>Ned M. Barnes</b></li>
 </ul>
