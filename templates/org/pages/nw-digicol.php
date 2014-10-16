@@ -168,7 +168,7 @@ function spl_get_digicol($shuffle=false, $columns=4) {
 			$html .= '<div class="row digicol"> Open row<hr>'.PHP_EOL;
 		}
 
-		$html .= '<div class="col-md-4">'.PHP_EOL;
+		$html .= '<div class="col-md-'.12/$columns.'">'.PHP_EOL;
 		$html .= '<div class="panel panel-default">'.PHP_EOL;
 		$html .= '<div class="panel-heading">'.PHP_EOL;
 		$html .= '<a href="'.$col['url'].'">';	
