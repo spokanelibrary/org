@@ -506,7 +506,7 @@ function spl_menupage() {
               <h4 class="panel-title">'.get_the_title().'</h4>
               </div>
               <div class="panel-body">
-              '.wpautop(get_the_content()).'
+              '.apply_filters('the_content', get_the_content() ).'
               <p class="text-right">
                 <a class="btn btn-sm btn-default" href="#top">Top <small>&uarr;</small></a>
               </p>
