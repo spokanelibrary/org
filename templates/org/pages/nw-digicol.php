@@ -25,7 +25,18 @@ function spl_get_digicol() {
 										,'label' => ''
 										);
 	*/
-	
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll20'
+										,'img' => 'spl-expo-74.jpg'
+										,'label' => 'Expo \'74'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll23'
+										,'img' => 'spl-capp-album.jpg'
+										,'label' => 'Capp Photo Album'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll21'
+										,'img' => 'spl-nw-indians.jpg'
+										,'label' => 'Northwest Indians'
+										);
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll22'
 										,'img' => 'spl-nw-indian-portraits.jpg'
 										,'label' => 'Northwest Indian Portraits'
