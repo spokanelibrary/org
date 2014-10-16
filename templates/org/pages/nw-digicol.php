@@ -25,6 +25,18 @@ function spl_get_digicol() {
 										,'label' => ''
 										);
 	*/
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll14'
+										,'img' => 'spl-nw-missions.jpg'
+										,'label' => 'Northwest Missions'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll13'
+										,'img' => 'spl-spokane-library.jpg'
+										,'label' => 'Spokane Public Library'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll12'
+										,'img' => 'spl-spokane-buildings.jpg'
+										,'label' => 'Spokane Buildings'
+										);
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll10'
 										,'img' => 'spl-nw-dams.jpg'
 										,'label' => 'Northwest Dams'
