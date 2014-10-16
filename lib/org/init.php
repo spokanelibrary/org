@@ -462,6 +462,51 @@ function spl_subpages() {
 
 add_shortcode('spl_subpages', 'spl_subpages'); 
 
+function spl_menupage() {  
+    global $post;  
+    
+    $orderby = 'title';
+    if ( $params['orderby'] ) {
+      $orderby = $params['orderby'];
+    }
+
+    $sort = 'ASC';
+    if ( $params['sort'] ) {
+      $sort = $params['sort'];
+    }
+
+    //query subpages  
+    $args = array(  
+        'post_parent' => $post->ID
+      , 'post_type' => 'page'  
+      , 'orderby' => $orderby
+      , 'order' => $sort
+    );   
+    $subpages = new WP_query($args);  
+      
+    // create output  
+    if ($subpages->have_posts()) :  
+        $output = '<ul class="list-group">';  
+        while ($subpages->have_posts()) : $subpages->the_post();  
+            $output .= '<li class="list-group-item">
+                        <h4>'.get_the_title().'</h4>'
+                        .get_the_content().
+                        '</li>';  
+        endwhile;  
+        $output .= '</ul>';  
+    else :  
+        $output = '<p>No subpages found.</p>';  
+    endif;  
+      
+    // reset the query  
+    wp_reset_postdata();  
+      
+    // return something  
+    return $output;  
+} 
+
+add_shortcode('spl_menupage', 'spl_menupage'); 
+
 
 function spl_secondary_metaboxes( $meta_boxes ) {
   $prefix = '_cmb_'; // Prefix for all fields
