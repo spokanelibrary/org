@@ -162,13 +162,14 @@ function spl_get_digicol($shuffle=false, $columns=4) {
 		shuffle($digicol);
 	}
 	
+	$grid = 12/$columns;
 	$html = null; 
 	foreach ( $digicol as $k => $col ) {
 		if ( 0 == $k%$columns ) {
-			$html .= '<div class="row digicol"> Open row<hr>'.PHP_EOL;
+			$html .= '<div class="row digicol">'.PHP_EOL;
 		}
 
-		$html .= '<div class="col-md-'.(12/$columns).'">'.PHP_EOL;
+		$html .= '<div class="col-md-'.$grid.'">'.PHP_EOL;
 		$html .= '<div class="panel panel-default">'.PHP_EOL;
 		$html .= '<div class="panel-heading">'.PHP_EOL;
 		$html .= '<a href="'.$col['url'].'">';	
@@ -177,7 +178,7 @@ function spl_get_digicol($shuffle=false, $columns=4) {
 		$html .= '</div>'.PHP_EOL;
 		
 		$html .= '<div class="panel-body">'.PHP_EOL;	
-		$html .= $k . ' | ' . $k%$columns;
+		//$html .= $k . ' | ' . $k%$columns;
 		$html .= '<a href="'.$col['url'].'">';	
 		$html .= '<img class="img-responsive img-rounded" style="max-height:150px; margin:auto;" alt="'.$col['label'].'" src="/assets/img/digicol/'.$col['img'].'">';
 		$html .= '</a>'.PHP_EOL;
@@ -187,7 +188,7 @@ function spl_get_digicol($shuffle=false, $columns=4) {
 		$html .= '</div>'.PHP_EOL;
 		
 		if ( ($columns-1)==$k%$columns || $k==(count($digicol)-1) ) {
-			$html .= '<hr>Close row</div><!-- /.row digicol -->'.PHP_EOL;
+			$html .= '</div><!-- /.row digicol -->'.PHP_EOL;
 		}
 
 	}
