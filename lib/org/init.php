@@ -497,8 +497,7 @@ function spl_menupage() {
         while ($subpages->have_posts()) : $subpages->the_post(); 
             $menu .= '
             <li>
-              <a href="#'.$post->post_name.'">'.get_the_title().'</a>
-              <small class="text-muted">&rarr;</small>
+              <a href="#'.$post->post_name.'">'.get_the_title().' <small class="text-muted">&rarr;</small></a>
             </li>'.PHP_EOL;
 
             $page .= '
