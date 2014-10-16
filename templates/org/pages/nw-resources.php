@@ -62,6 +62,7 @@
 		</a>
 		<p>
 		For over 100 years, librarians at SPL clipped the newspapers for biographical information.
+		These clippings include obituaries on pioneers, but they also contain all kinds of biographical information from papers in Spokane and around the Northwest.
 		</p>
 		<p>
 		<a class="btn btn-default btn-block" href="/northwest-room/biofiles/">Learn more &rarr;</a>
