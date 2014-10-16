@@ -143,7 +143,7 @@ function spl_get_digicol() {
 		
 		$html .= '<div class="panel-body">'.PHP_EOL;	
 		$html .= '<a href="'.$col['url'].'">';	
-		$html .= '<img class="img-responsive img-rounded" style="margin:auto;" alt="'.$col['label'].'" src="/assets/img/digicol/'.$col['img'].'">';
+		$html .= '<img class="img-responsive img-rounded" style="max-height:150px; margin:auto;" alt="'.$col['label'].'" src="/assets/img/digicol/'.$col['img'].'">';
 		$html .= '</a>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
 
