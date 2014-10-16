@@ -498,6 +498,7 @@ function spl_menupage() {
             $menu .= '
             <li>
               <a href="#'.$post->post_name.'">'.get_the_title().'</a>
+              <small class="text-muted">&rarr;</small>
             </li>'.PHP_EOL;
 
             $page .= '
