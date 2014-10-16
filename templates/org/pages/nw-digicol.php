@@ -10,6 +10,12 @@
 
 <?php echo spl_get_digicol(); ?>
 
+<h2>More at the Downtown Library</h2>
+<p>
+Please remember that the digital collections represent only a sampling of the entire photograph collection in the <a href="/northwest-room/">Northwest Room</a>. 
+If you are looking for a specific image, please feel free to visit the Northwest Room to see other photographs.
+</p>
+
 <?php
 function spl_get_digicol() {
 	$digicol = array();
@@ -19,6 +25,18 @@ function spl_get_digicol() {
 										,'label' => ''
 										);
 	*/
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll7'
+										,'img' => 'spl-grand-coulee.jpg'
+										,'label' => 'Grand Coulee Dam Images'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll6'
+										,'img' => 'spl-documents.jpg'
+										,'label' => 'Documents of Northwest History'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll5'
+										,'img' => 'spl-schools.jpg'
+										,'label' => 'Spokane County Schools'
+										);
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll1'
 										,'img' => 'spl-nw-agriculture.jpg'
 										,'label' => 'Northwest Agriculture'
