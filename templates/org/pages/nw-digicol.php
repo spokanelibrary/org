@@ -130,7 +130,7 @@ function spl_get_digicol() {
 
 		$html .= '<div class="col-md-4">'.PHP_EOL;
 		$html .= '<div class="panel panel-default">'.PHP_EOL;
-		$html .= $i%3;
+		$html .= $k%3;
 		$html .= '<div class="panel-heading">'.PHP_EOL;
 		$html .= '<a href="'.$col['url'].'">';	
 		$html .= '<h4 class="panel-title text-center">'.$col['label'].'</h4>';
