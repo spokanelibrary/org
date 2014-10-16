@@ -47,15 +47,17 @@
 		</p>
 	</div>
 	<div class="col-md-6">
-		<h4>Biographical files</h4>
-		<a href="/northwest-room/biofiles/">
-		<img class="img-responsive img-rounded pull-left" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
-		</a>
+		<h4>Northwest exhibits</h4>
 		<p>
-		For over 100 years, librarians at SPL clipped the newspapers for biographical information. These clippings include obituaries on pioneers, but they also contain all kinds of biographical information from papers in Spokane and around the Northwest. The Northwest Room has created a database for every name in these files which includes over five thousand names.
+		The Northwest Room displays permanent art as well as exhibits which rotate several times a year.
 		</p>
 		<p>
-		<a class="btn btn-default btn-block" href="/northwest-room/biofiles/">More &rarr;</a>
+		<a href="/northwest-room/exhibits/">
+		<img class="img-responsive img-rounded" alt="Exhibits" src="/assets/img/digicol/nw-exhibit-intro.jpg" />
+		</a>
+		<p>
+		<p>
+		<a class="btn btn-default btn-block" href="/northwest-room/exhibitss/">More &rarr;</a>
 		</p>
 	</div>
 </div>
