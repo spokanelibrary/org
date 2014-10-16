@@ -1,4 +1,3 @@
-<div id="nw-room-detail">
 <div class="panel panel-primary">
 	<div class="panel-heading">
 		<h3 class="panel-title text-center">
@@ -19,6 +18,7 @@
 		</p>
 	</div>
 </div>
+
 <div class="row">
 	<div class="col-md-6">
 		<h4>Photo Archives</h4>
