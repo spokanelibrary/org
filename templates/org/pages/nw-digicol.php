@@ -25,6 +25,27 @@ function spl_get_digicol() {
 										,'label' => ''
 										);
 	*/
+	
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll22'
+										,'img' => 'spl-nw-indian-portraits.jpg'
+										,'label' => 'Northwest Indian Portraits'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll19'
+										,'img' => 'spl-nw-transportation.jpg'
+										,'label' => 'Northwest Transportation'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll18'
+										,'img' => 'spl-inland-art.jpg'
+										,'label' => 'Art work of the Inland Empire'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll17'
+										,'img' => 'spl-spokane-valley.jpg'
+										,'label' => 'Spokane Valley'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll16'
+										,'img' => 'spl-portraits.jpg'
+										,'label' => 'Portraits'
+										);
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll15'
 										,'img' => 'spl-outdoor-recreation.jpg'
 										,'label' => 'Outdoor Recreation'
