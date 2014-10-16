@@ -122,14 +122,9 @@ function spl_get_digicol() {
 										,'label' => 'Spokane Fire (1889)'
 										);
 
-	$i = 1;
 	$html = null; 
-	foreach ( $digicol as $col ) {
-		$row = false;
-		if ( $i == 1 || (0 == $i%3) ) {
-			$row = true;
-		}
-		if ( $row ) {
+	foreach ( $digicol as $k => $col ) {
+		if ( !$k%3 ) {
 			$html .= '<div class="row">'.PHP_EOL;
 		}
 
@@ -151,7 +146,7 @@ function spl_get_digicol() {
 		$html .= '</div>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
 		
-		if ( $row ) {
+		if ( !$k%3 ) {
 			$html .= '</div>'.PHP_EOL;
 		}
 
