@@ -14,8 +14,9 @@
 	<li><a href="/northwest-room/biofiles/"><b>Biographical files</b></a></li>
 	<li><a href="/northwest-room/house-history/"><b>House history</b></a></li>
 	<li><a href="/northwest-room/photo-archive/"><b>Photo archive</b></a></li>
-	<li><a href="/northwest-room/maps/">Map collection</a></li>
+	<li><a href="/northwest-room/maps/"><b>Map collection</b></a></li>
 	<li><a href="/northwest-room/fuller/">Fuller collection</a></li>
 	<li><a href="/northwest-room/digital-collections/"><b>Digital collections</b></a></li>
 	<li><a href="/northwest-room/exhibits/"><b>Northwest Room exhibits</b></li>
+	<li><a href="/northwest-room/policies/">Northwest Room policies</li>
 </ul>
