@@ -82,6 +82,7 @@
 	<div class="col-md-6">
 		<h4>House history</h4>
 		<p>
+			Getting to know the history of your house can be a fun and fascinating process.
 		</p>
 		<p>
 			<a class="btn btn-default btn-block" href="/northwest-room/house-history/">More &rarr;</a>
@@ -90,6 +91,7 @@
 	<div class="col-md-6">
 		<h4>Fuller collection</h4>
 		<p>
+			The Fuller Collection consists of rare materials relating to the history of writing and printing.
 		</p>
 		<p>
 			<a class="btn btn-default btn-block" href="/northwest-room/fuller/">More &rarr;</a>
@@ -117,7 +119,7 @@
 </div>
 
 
-
+<!--
 <hr>
 	<a href="/northwest-room/">Northwest Room</a>
 <br>
@@ -137,4 +139,4 @@
 	<li><a href="/northwest-room/about/">About the Northwest Room</li>
 	<li><a href="/northwest-room/ned-barnes/">Ned M. Barnes</li>
 </ul>
-
+-->
