@@ -25,6 +25,10 @@ function spl_get_digicol() {
 										,'label' => ''
 										);
 	*/
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll15'
+										,'img' => 'spl-outdoor-recreation.jpg'
+										,'label' => 'Outdoor Recreation'
+										);
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll14'
 										,'img' => 'spl-nw-missions.jpg'
 										,'label' => 'Northwest Missions'
