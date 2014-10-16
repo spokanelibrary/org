@@ -486,9 +486,12 @@ function spl_menupage() {
       
     // create output  
     if ($subpages->have_posts()) :  
-        //$output = '<ul class="list-group">';  
+        $menu = '<ul class="nav nav-pills">'.PHP_EOL;  
         while ($subpages->have_posts()) : $subpages->the_post(); 
-            $menu = 'My menu';
+            $menu .= '
+            <li>
+              <a href="#'.$post->post_name.'">'.get_the_title().'</a>
+            </li>'.PHP_EOL;
 
             $page .= '
             <div class="panel panel-default" id="'.$post->post_name.'">
@@ -501,9 +504,9 @@ function spl_menupage() {
                 <a class="btn btn-sm btn-default" href="#top">Top <small>&uarr;</small></a>
               </p>
               </div>
-            </div>';  
+            </div>'.PHP_EOL;  
         endwhile;  
-        //$output .= '</ul>'; 
+        $menu .= '</ul>'; 
         $output = $menu.$page; 
     else :  
         $output = '<p>No subpages found.</p>';  
