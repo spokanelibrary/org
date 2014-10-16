@@ -37,23 +37,6 @@
 		</p>
 	</div>
 	<div class="col-md-6">
-		<h4>Biographical Files</h4>
-		<a href="http://www.spokanelibrary.org/nw/biofiles/">
-		<img class="img-responsive img-rounded alignleft" alt="nw-bio-thumb" src="http://dev.spokanelibrary.org/wordpress/wp-content/uploads/nw-bio-thumb.jpg" />
-		</a>
-		<p>
-		For over 100 years, librarians at SPL clipped the newspapers for biographical information. These clippings include obituaries on pioneers, but they also contain all kinds of biographical information from papers in Spokane and around the Northwest. The Northwest Room has created a database for every name in these files which includes over five thousand names.
-		</p>
-		<p>
-		<a class="btn btn-default btn-block" href="http://www.spokanelibrary.org/nw/biofiles/">Learn more &rarr;</a>
-		</p>
-	</div>
-</div>
-
-
-
-<div class="row">
-	<div class="col-md-6">
 		<h4>Digital archives</h4>
 		<p>
 		These collections, available online, emphasize the most frequently requested subjects in the Northwest Room – the homes, buildings, streets and activities in and around Spokane.
@@ -65,6 +48,23 @@
 		<p>
 		<p>
 		<a class="btn btn-default btn-block" href="/northwest-room/digital-collections/">More &rarr;</a>
+		</p>
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="col-md-6">
+		<h4>Biographical Files</h4>
+		<a href="/northwest-room/biofiles/">
+		<img class="img-responsive img-rounded alignleft" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
+		</a>
+		<p>
+		For over 100 years, librarians at SPL clipped the newspapers for biographical information.
+		</p>
+		<p>
+		<a class="btn btn-default btn-block" href="/northwest-room/biofiles/">Learn more &rarr;</a>
 		</p>
 	</div>
 	<div class="col-md-6">
