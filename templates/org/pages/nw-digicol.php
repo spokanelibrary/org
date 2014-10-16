@@ -128,8 +128,8 @@ function spl_get_digicol() {
 
 	$html = null; 
 	foreach ( $digicol as $k => $col ) {
-		if ( !$k%3 ) {
-			$html .= '<div class="row">'.PHP_EOL;
+		if ( 0 == $k%3 ) {
+			$html .= '<div class="row digicol">'.PHP_EOL;
 		}
 
 		$html .= '<div class="col-md-4">'.PHP_EOL;
@@ -150,7 +150,7 @@ function spl_get_digicol() {
 		$html .= '</div>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
 		
-		if ( (!$k%3 && $k!=0) || $k==count($digicol) ) {
+		if ( (0!=$k%3 && 0!=$k) || $k==count($digicol) ) {
 			$html .= '</div><!-- /.row digicol -->'.PHP_EOL;
 		}
 
