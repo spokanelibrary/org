@@ -126,7 +126,7 @@ function spl_get_digicol() {
 	$html = null; 
 	foreach ( $digicol as $col ) {
 		$row = false;
-		if ( $i = 1 || ($i%3) ) {
+		if ( $i == 1 || ($i%3) ) {
 			$row = true;
 		}
 		if ( $row ) {
