@@ -151,7 +151,7 @@ function spl_get_digicol() {
 		$html .= '</div>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
 		
-		if ( 2==$k%3 || $k==count($digicol) ) {
+		if ( 2==$k%3 || $k==(count($digicol)-1) ) {
 			//$html .= '</div><!-- /.row digicol -->'.PHP_EOL;
 			$html .= '<p>Close digicol row</p>';
 		}
