@@ -484,9 +484,16 @@ function spl_menupage() {
     );   
     $subpages = new WP_query($args);  
       
+    $menu = null;
+
     // create output  
     if ($subpages->have_posts()) :  
-        $menu = '<ul class="nav nav-pills">'.PHP_EOL;  
+        
+        $menu .= '
+        <div class="panel panel-primary">
+        <div class="panel-body">
+        <ul class="nav nav-pills">'.PHP_EOL;  
+        
         while ($subpages->have_posts()) : $subpages->the_post(); 
             $menu .= '
             <li>
@@ -506,7 +513,10 @@ function spl_menupage() {
               </div>
             </div>'.PHP_EOL;  
         endwhile;  
-        $menu .= '</ul>'; 
+        $menu .= '
+        </div>
+        </div>
+        </ul>'.PHP_EOL; 
         $output = $menu.$page; 
     else :  
         $output = '<p>No subpages found.</p>';  
