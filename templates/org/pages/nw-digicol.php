@@ -19,6 +19,18 @@ function spl_get_digicol() {
 										,'label' => ''
 										);
 	*/
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll4'
+										,'img' => 'spl-bridges.jpg'
+										,'label' => 'Spokane Bridges'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll6'
+										,'img' => 'spl-parks'
+										,'label' => 'Spokane Parks'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll5'
+										,'img' => 'spl-homes.jpg'
+										,'label' => 'Spokane Homes'
+										);
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll3'
 										,'img' => 'spl-views.jpg'
 										,'label' => 'Spokane Views'
