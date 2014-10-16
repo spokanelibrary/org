@@ -503,7 +503,7 @@ function spl_menupage() {
 
             $page .= '
             <p id="'.$post->post_name.'">&nbsp;</p>
-            <div class="panel panel-default">
+            <div class="panel panel-success">
               <div class="panel-heading">
               <h4 class="">'.get_the_title().'</h4>
               </div>
