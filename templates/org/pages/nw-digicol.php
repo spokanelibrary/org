@@ -19,6 +19,18 @@ function spl_get_digicol() {
 										,'label' => ''
 										);
 	*/
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll2'
+										,'img' => 'spl-ephemera.jpg'
+										,'label' => 'Northwest Ephemera'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll10'
+										,'img' => 'spl-miners.jpg'
+										,'label' => 'Miners &amp; Mining'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll9'
+										,'img' => 'spl-nwrails.jpg'
+										,'label' => 'Northwest Rails'
+										);
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll7'
 										,'img' => 'spl-watown.jpg'
 										,'label' => 'Washington Towns'
