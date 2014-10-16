@@ -17,7 +17,7 @@
 	<div class="col-md-6">
 		<h4>Biographical Files</h4>
 		<a href="/northwest-room/biofiles/">
-		<img class="img-responsive img-rounded alignleft" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
+		<img class="img-responsive img-rounded alignright" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
 		</a>
 		<p>
 		For over 100 years, librarians at SPL clipped the newspapers for biographical information.
