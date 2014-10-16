@@ -490,6 +490,7 @@ function spl_menupage() {
     if ($subpages->have_posts()) :  
         
         $menu .= '
+        <p id="menupage">&nbsp;</p>
         <div class="panel panel-primary">
         <div class="panel-body">
         <ul class="nav nav-pills">'.PHP_EOL;  
