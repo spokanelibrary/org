@@ -465,7 +465,7 @@ add_shortcode('spl_subpages', 'spl_subpages');
 function spl_menupage() {  
     global $post;  
     
-    $orderby = 'title';
+    $orderby = 'menu_order'; //title
     if ( $params['orderby'] ) {
       $orderby = $params['orderby'];
     }
