@@ -12,7 +12,7 @@
 <br>
 <ul>
 	<li><a href="/northwest-room/biofiles/"><b>Biographical files</b></a></li>
-	<li><a href="/northwest-room/house-history/">House history</a></li>
+	<li><a href="/northwest-room/house-history/"><b>House history</b></a></li>
 	<li><a href="/northwest-room/photo-archive/">Photo archive</a></li>
 	<li><a href="/northwest-room/maps/">Map collection</a></li>
 	<li><a href="/northwest-room/fuller/">Fuller collection</a></li>
