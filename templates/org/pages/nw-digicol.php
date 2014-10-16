@@ -134,7 +134,7 @@ function spl_get_digicol() {
 
 		$html .= '<div class="col-md-4">'.PHP_EOL;
 		$html .= '<div class="panel panel-default">'.PHP_EOL;
-		$html .= $k%3;
+		$html .= $k%3 . ' ' . $k;
 		$html .= '<div class="panel-heading">'.PHP_EOL;
 		$html .= '<a href="'.$col['url'].'">';	
 		$html .= '<h4 class="panel-title text-center">'.$col['label'].'</h4>';
@@ -151,7 +151,7 @@ function spl_get_digicol() {
 		$html .= '</div>'.PHP_EOL;
 		
 		if ( (!$k%3 && $k!=0) || $k==count($digicol) ) {
-			$html .= '</div><!-- /.row -->'.PHP_EOL;
+			$html .= '</div><!-- /.row digicol -->'.PHP_EOL;
 		}
 
 	}
