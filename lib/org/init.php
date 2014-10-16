@@ -503,7 +503,7 @@ function spl_menupage() {
             $page .= '
             <div class="panel panel-default" id="'.$post->post_name.'">
               <div class="panel-heading">
-              <h4 class="panel-title">'.get_the_title().'</h4>
+              <h4 class="">'.get_the_title().'</h4>
               </div>
               <div class="panel-body">
               '.apply_filters('the_content', get_the_content() ).'
