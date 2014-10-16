@@ -30,7 +30,7 @@
 		<img class="img-responsive img-rounded alignleft" alt="Yearbooks" src="/assets/img/digicol/nw-yearbook-thumb.jpg" />
 		</a>
 		Several hundred Spokane high scool yearbooks are now available online.
-		This collection is made available with the cooperation of the <a href="http://www.spokaneschools.org/"><b>Spokane Public Schools</b></a> and the <a href="https://archive.org/details/spokanehighschoolyearbooks"><b>Internet Archive</b></a>.
+		You can view these yearbooks in your web browser without downloading any files or additional software.
 		</p>
 		<p>
 		<a class="btn btn-default btn-block" href="/yearbooks/">More &rarr;</a>
