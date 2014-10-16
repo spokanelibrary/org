@@ -2,7 +2,7 @@
 	<div class="panel-body">
 		<ul class="nav nav-pills">
 			<li>
-				<a href="/northwest-room/">Locations &amp; hours &rarr;</a>
+				<a href="/northwest-room/">Location &amp; hours &rarr;</a>
 			</li>
 			<li>
 				<a href="/northwest-room/about/">About the Northwest Room &rarr;</a>
