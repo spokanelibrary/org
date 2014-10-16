@@ -25,15 +25,18 @@
 	<div class="col-md-6">
 		<h4>High school yearbooks</h4>
 		<p>
-		These collections, available online, emphasize the most frequently requested subjects in the Northwest Room – the homes, buildings, streets and activities in and around Spokane.
+		Several hundred Spokane high scool yearbooks are now available online.
 		</p>
 		<p>
-		<a href="http://cdm15223.contentdm.oclc.org/cdm/">
-		<img class="img-responsive img-rounded" alt="dc-intro" src="http://dev.spokanelibrary.org/wordpress/wp-content/uploads/dc-intro.jpg" />
+			This collection is made available with the cooperation of the <a href="http://www.spokaneschools.org/"><b>Spokane Public Schools</b></a> and the <a href="https://archive.org/details/spokanehighschoolyearbooks"><b>Internet Archive</b></a>.
+		</p>
+		<p>
+		<a href="/yearbooks/">
+		<img class="img-responsive img-rounded" alt="Yearbooks" src="/assets/img/digicol/nw-yearbook-thumb.jpg" />
 		</a>
 		<p>
 		<p>
-		<a class="btn btn-default btn-block" href="http://cdm15223.contentdm.oclc.org/cdm/">Learn more &rarr;</a>
+		<a class="btn btn-default btn-block" href="/yearbooks/">More &rarr;</a>
 		</p>
 	</div>
 	<div class="col-md-6">
