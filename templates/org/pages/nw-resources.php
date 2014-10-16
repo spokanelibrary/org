@@ -1,25 +1,3 @@
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h3 class="panel-title text-center">
-			<i class="glyphicon glyphicon-book"></i>
-			High School Yearbooks from around Spokane
-		</h3>
-	</div>
-	<div class="panel-body">
-		<p class="lead">
-			Several hundred Spokane high scool yearbooks are now available online.
-		</p>
-		<p>
-			This collection is made available with the cooperation of the <a href="http://www.spokaneschools.org/"><b>Spokane Public Schools</b></a> and the <a href="https://archive.org/details/spokanehighschoolyearbooks"><b>Internet Archive</b></a>.
-		</p>
-		<p>
-			<a class="btn btn-default btn-block" href="http://beta.spokanelibrary.org/yearbooks/">
-			View Spokane Yearbooks &rarr;</a>
-		</p>
-	</div>
-</div>
-
-
 
 <div class="row">
 	<div class="col-md-6">
