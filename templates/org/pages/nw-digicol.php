@@ -146,11 +146,10 @@ function spl_get_digicol() {
 		$html .= '</div>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
 		
-		if ( !$k%3 ) {
+		if ( !$k%3 && $k!=0 ) {
 			$html .= '</div>'.PHP_EOL;
 		}
 
-		$i++;
 	}
 
 	return $html;
