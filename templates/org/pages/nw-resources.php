@@ -1,14 +1,14 @@
-<div class="row">
-	<div class="col-md-4">
-		<h4>Locations &amp; hours</h4>
+<ul class="nav nav-pills">
+	<li>
+		<a href="#">Locations &amp; hours</a>
+	</li>
+	<li>
+		<a href="#">About the Northwest Room</a>
 	</div>
-	<div class="col-md-4">
-		<h4>About the Northwest Room</h4>
-	</div>
-	<div class="col-md-4">
-		<h4>Northwest Room policies</h4>
-	</div>
-</div>
+	<li>
+		<a href="#">Northwest Room policies</a>
+	</li>
+</ul>
 
 
 
