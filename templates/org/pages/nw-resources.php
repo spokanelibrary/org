@@ -2,13 +2,13 @@
 	<div class="panel-body">
 		<ul class="nav nav-pills">
 			<li>
-				<a href="#">Locations &amp; hours</a>
+				<a href="/northwest-room/">Locations &amp; hours &rarr;</a>
 			</li>
 			<li>
-				<a href="#">About the Northwest Room</a>
+				<a href="/northwest-room/about/">About the Northwest Room &rarr;</a>
 			</li>
 			<li>
-				<a href="#">Northwest Room policies</a>
+				<a href="/northwest-room/policies">Northwest Room policies &rarr;</a>
 			</li>
 		</ul>
 	</div>
@@ -81,9 +81,7 @@
 
 
 <hr>
-<b>
 	<a href="/northwest-room/">Northwest Room</a>
-</b>
 <br>
 	<a href="/yearbooks/">High school yearbooks</a>
 <br>
@@ -97,8 +95,8 @@
 	<li><a href="/northwest-room/fuller/"><b>Fuller collection</b></a></li>
 	<li><a href="/northwest-room/digital-collections/">Digital collections</a></li>
 	<li><a href="/northwest-room/exhibits/">Northwest Room exhibits</li>
-	<li><a href="/northwest-room/policies/"><b>Northwest Room policies</b></li>
-	<li><a href="/northwest-room/about/"><b>About the Northwest Room</b></li>
+	<li><a href="/northwest-room/policies/">Northwest Room policies</li>
+	<li><a href="/northwest-room/about/">About the Northwest Room</li>
 	<li><a href="/northwest-room/ned-barnes/">Ned M. Barnes</li>
 </ul>
 
