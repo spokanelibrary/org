@@ -25,6 +25,18 @@ function spl_get_digicol() {
 										,'label' => ''
 										);
 	*/
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll10'
+										,'img' => 'spl-nw-dams.jpg'
+										,'label' => 'Northwest Dams'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll11'
+										,'img' => 'spl-kettle-falls.jpg'
+										,'label' => 'Kettle Falls, Washington'
+										);
+	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll8'
+										,'img' => 'spl-indian-congress.jpg'
+										,'label' => 'Indian Congress, Spokane'
+										);
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll7'
 										,'img' => 'spl-grand-coulee.jpg'
 										,'label' => 'Grand Coulee Dam Images'
