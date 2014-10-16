@@ -17,7 +17,7 @@ If you are looking for a specific image, please feel free to visit the Northwest
 </p>
 
 <?php
-function spl_get_digicol($shuffle=false, $columns=4) {
+function spl_get_digicol($shuffle=false, $columns=3) {
 	$digicol = array();
 	/*
 	$digicol[] = array('url' => ''
