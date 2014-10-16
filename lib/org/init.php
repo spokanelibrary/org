@@ -501,7 +501,8 @@ function spl_menupage() {
             </li>'.PHP_EOL;
 
             $page .= '
-            <div class="panel panel-default" style="margin-top:30px;" id="'.$post->post_name.'">
+            <p id="'.$post->post_name.'">&nbsp;</p>
+            <div class="panel panel-default">
               <div class="panel-heading">
               <h4 class="">'.get_the_title().'</h4>
               </div>
