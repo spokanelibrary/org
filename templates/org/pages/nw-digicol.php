@@ -125,16 +125,15 @@ function spl_get_digicol() {
 										,'img' => 'spl-fire.jpg'
 										,'label' => 'Spokane Fire (1889)'
 										);
-
+	$columns = 3;
 	$html = null; 
 	foreach ( $digicol as $k => $col ) {
-		if ( 0 == $k%3 ) {
+		if ( 0 == $k%$columns ) {
 			$html .= '<div class="row digicol">'.PHP_EOL;
 		}
 
 		$html .= '<div class="col-md-4">'.PHP_EOL;
 		$html .= '<div class="panel panel-default">'.PHP_EOL;
-		$html .= $k%3 . ' | ' . $k . ' | ' . count($digicol);
 		$html .= '<div class="panel-heading">'.PHP_EOL;
 		$html .= '<a href="'.$col['url'].'">';	
 		$html .= '<h4 class="panel-title text-center">'.$col['label'].'</h4>';
@@ -150,7 +149,7 @@ function spl_get_digicol() {
 		$html .= '</div>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
 		
-		if ( 2==$k%3 || $k==(count($digicol)-1) ) {
+		if ( ($columns-1)==$k%3 || $k==(count($digicol)-1) ) {
 			$html .= '</div><!-- /.row digicol -->'.PHP_EOL;
 		}
 
