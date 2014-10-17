@@ -1,19 +1,25 @@
-<div class="panel panel-primary">
-	<div class="panel-body">
-		<ul class="nav nav-pills">
-			<li>
-				<a href="/northwest-room/">Location &amp; hours &rarr;</a>
-			</li>
-			<li>
-				<a href="/northwest-room/about/">About the Northwest Room &rarr;</a>
-			</li>
-			<li>
-				<a href="/northwest-room/policies">Northwest Room policies &rarr;</a>
-			</li>
-		</ul>
+<div class="row">
+	<div class="col-md-6">
+		<div class="panel panel-primary">
+			<div class="panel-body">
+				<ul class="nav nav-pills">
+					<li>
+						<a href="/northwest-room/">Location &amp; hours &rarr;</a>
+					</li>
+					<li>
+						<a href="/northwest-room/about/">About the Northwest Room &rarr;</a>
+					</li>
+					<li>
+						<a href="/northwest-room/policies">Northwest Room policies &rarr;</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6">
+	<?php do_shortcode('[spl_widget branch-hours branch='.$this->params['branch']; ?>
 	</div>
 </div>
-
 
 <div class="row">
 	<div class="col-md-6">
