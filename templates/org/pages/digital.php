@@ -87,6 +87,24 @@
 		</div><!-- /.media -->
 
 		<div class="media">
+		  <a class="pull-left btn btn-success btn-xs" href="/nw-digital/">
+		  	<div class="media-object">
+		  		<h4 class="spl-btn-icon">
+		  			<span class="label label-primary">
+		  				<i class="glyphicon glyphicon-picture"></i>
+		  			</span>
+		  		</h4>
+		  	</div>
+			</a>
+		  <div class="media-body">
+		    <h4 class="media-heading">
+		    	<a href="#">Northwest Room digital</a>
+		    </h4>
+		    Lorem ipsum
+		  </div>
+		</div><!-- /.media -->
+
+		<div class="media">
 		  <a class="pull-left btn btn-success btn-xs" href="/business/">
 		  	<div class="media-object">
 		  		<h4 class="spl-btn-icon">
@@ -119,24 +137,6 @@
 		    	<a href="#">Help with your homework</a>
 		    </h4>
 	    	Easy-to-use websites for all ages to help with class projects, research, or homework.
-		  </div>
-		</div><!-- /.media -->
-
-		<div class="media">
-		  <a class="pull-left btn btn-success btn-xs" href="/nw-digital/">
-		  	<div class="media-object">
-		  		<h4 class="spl-btn-icon">
-		  			<span class="label label-primary">
-		  				<i class="glyphicon glyphicon-picture"></i>
-		  			</span>
-		  		</h4>
-		  	</div>
-			</a>
-		  <div class="media-body">
-		    <h4 class="media-heading">
-		    	<a href="#">Northwest Room digital collections</a>
-		    </h4>
-
 		  </div>
 		</div><!-- /.media -->
 
