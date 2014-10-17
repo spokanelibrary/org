@@ -4,6 +4,11 @@
   <div style="padding-top: 20px; margin-bottom: 20px; background-color: rgb(100,150,75); background-image: url(/assets/img/png/bg-book-cart.png); background-repeat: no-repeat; background-position: center;">
   <footer class="content-info container" role="contentinfo">
     <!--<hr>-->
+    <?php
+    if ( is_user_logged_in() ) {
+      include('footer-bottom-navbar.php');
+    }
+    ?>
     <?php //include('footer-bottom-navbar.php'); ?>
   </footer>
   </div>

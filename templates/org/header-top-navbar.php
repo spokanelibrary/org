@@ -43,6 +43,7 @@ function spl_get_home_url() {
       include('header-social.php');
     }
     ?>
+    <?php //include('header-social.php'); ?>
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       {{#if user.sessionToken}}
