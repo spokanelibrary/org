@@ -3,29 +3,27 @@
 		<h4>High school yearbooks</h4>
 
 		<p class="clearfix">
-		<a href="/yearbooks/">
-		<img class="img-responsive img-rounded alignleft" alt="Yearbooks" src="/assets/img/digicol/nw-yearbook-thumb.jpg" />
-		</a>
-		Several hundred Spokane high scool yearbooks are now available online.
-		You can view these yearbooks in your web browser without downloading any files or additional software.
+			<a href="/yearbooks/">
+				<img class="img-responsive img-rounded alignleft" alt="Yearbooks" src="/assets/img/digicol/nw-yearbook-thumb.jpg" />
+			</a>
+			Several hundred Spokane high scool yearbooks are now available online.
+			You can view these yearbooks in your web browser without downloading any files or additional software.
 		</p>
 		<p>
-		<a class="btn btn-default btn-block" href="/yearbooks/">More &rarr;</a>
+			<a class="btn btn-default btn-block" href="/yearbooks/">More &rarr;</a>
 		</p>
 	</div>
 	<div class="col-md-6">
 		<h4>Biographical files</h4>
 		<p class="clearfix">
-		<a href="/northwest-room/biofiles/">
-		<img class="img-responsive img-rounded alignright" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
-		</a>
+			<a href="/northwest-room/biofiles/">
+				<img class="img-responsive img-rounded alignright" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
+			</a>
+			For over 100 years, librarians at SPL clipped the newspapers for biographical information.
+			These clippings include obituaries on pioneers, but they also contain all kinds of biographical information from papers in Spokane and around the Northwest.
 		</p>
 		<p>
-		For over 100 years, librarians at SPL clipped the newspapers for biographical information.
-		These clippings include obituaries on pioneers, but they also contain all kinds of biographical information from papers in Spokane and around the Northwest.
-		</p>
-		<p>
-		<a class="btn btn-default btn-block" href="/northwest-room/biofiles/">Learn more &rarr;</a>
+			<a class="btn btn-default btn-block" href="/northwest-room/biofiles/">Learn more &rarr;</a>
 		</p>
 	</div>
 </div>
