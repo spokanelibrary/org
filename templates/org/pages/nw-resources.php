@@ -1,4 +1,4 @@
-<h3 class="text-success text-center" style="margin-top:0;">
+<h3 class="text-success text-center" style="padding-top:0;">
 	Exhibits, resources, and special collections
 </h3>
 
