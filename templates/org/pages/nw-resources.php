@@ -1,3 +1,7 @@
+<h3 class="text-success">
+	Exhibits, resources, and special collections
+</h3>
+
 <div class="row">
 	<div class="col-md-6">
 		<h4>High school yearbooks</h4>
