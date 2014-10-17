@@ -4,6 +4,7 @@
 
 <div class="row">
 	<div class="col-md-6">
+		<hr>
 		<h4>High school yearbooks</h4>
 
 		<p class="clearfix">
@@ -18,6 +19,7 @@
 		</p>
 	</div>
 	<div class="col-md-6">
+		<hr>
 		<h4>Biographical files</h4>
 		<p class="clearfix">
 			<a href="/northwest-room/biofiles/">
@@ -34,6 +36,7 @@
 
 <div class="row">
 	<div class="col-md-6">
+		<hr>
 		<h4>Digital archives</h4>
 		<p>
 		These collections, available online, emphasize the most frequently requested subjects in the Northwest Room – the homes, buildings, streets and activities in and around Spokane.
@@ -48,6 +51,7 @@
 		</p>
 	</div>
 	<div class="col-md-6">
+		<hr>
 		<h4>Northwest exhibit schedule</h4>
 		<p>
 		The Northwest Room displays permanent art as well as exhibits which rotate several times a year.
@@ -65,6 +69,7 @@
 
 <div class="row">
 	<div class="col-md-6">
+		<hr>
 		<h4>House history</h4>
 		<p>
 			Getting to know the history of your house can be a fun and fascinating process.
@@ -74,6 +79,7 @@
 		</p>
 	</div>
 	<div class="col-md-6">
+		<hr>
 		<h4>The Fuller Collection</h4>
 		<p>
 			The Fuller Collection consists of rare materials relating to the history of writing and printing.
@@ -86,6 +92,7 @@
 
 <div class="row">
 	<div class="col-md-6">
+		<hr>
 		<h4>Northwest Map Collection</h4>
 		<p>
 			Maps offer a whole different dimension to studying and understanding the history of the Pacific Northwest.
@@ -95,6 +102,7 @@
 		</p>
 	</div>
 	<div class="col-md-6">
+		<hr>
 		<h4>Northwest Room Photo archive</h4>
 		<p>
 			Spokane Public Library’s small, but impressive, photograph collection contains several hundred prints offering glimpses of life in the Pacific Northwest.
