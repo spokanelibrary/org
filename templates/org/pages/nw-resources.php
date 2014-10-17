@@ -29,7 +29,7 @@
 			These clippings include obituaries on pioneers, but they also contain all kinds of biographical information from papers in Spokane and around the Northwest.
 		</p>
 		<p>
-			<a class="btn btn-default btn-block" href="/northwest-room/biofiles/">Learn more &rarr;</a>
+			<a class="btn btn-default btn-block" href="/northwest-room/biofiles/">More &rarr;</a>
 		</p>
 	</div>
 </div>
