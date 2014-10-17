@@ -100,7 +100,7 @@
 		    <h4 class="media-heading">
 		    	<a href="#">Northwest Room digital</a>
 		    </h4>
-		    <a href="/yearbooks/">Look through high school yearbooks</a>, <a href="/northwest-room/biofiles/">search for a name</a> in newspaper clippings, or <a href="/northwest-room/digital-collections/">browse more than 2,000 historical images</a> from the inland northwest.
+		    <a href="/yearbooks/">Look through high school yearbooks</a> from Spokane during the last 100 years, <a href="/northwest-room/biofiles/">search for a name</a> in newspaper clippings, or <a href="/northwest-room/digital-collections/">browse more than 2,000 historical images</a> from the inland northwest.
 		  	<a href="/subscriptions/#all"><b>View all</b> &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
