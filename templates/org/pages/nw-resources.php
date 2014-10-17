@@ -17,7 +17,7 @@
 		</div>
 	</div>
 	<div class="col-md-6">
-	<?php apply_filters('the_content', do_shortcode('[spl_widget branch-hours branch=nw]') ); ?>
+	[spl_widget branch-hours branch=nw]
 	</div>
 </div>
 
