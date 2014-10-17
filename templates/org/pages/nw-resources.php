@@ -17,7 +17,7 @@
 		</div>
 	</div>
 	<div class="col-md-6">
-	<?php do_shortcode('[spl_widget branch-hours branch='.$this->params['branch']; ?>
+	<?php do_shortcode('[spl_widget branch-hours branch=nw]' ?>
 	</div>
 </div>
 
