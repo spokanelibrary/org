@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="col-md-6">
+	<div class="col-md-6 clearfix">
 		<h4>High school yearbooks</h4>
 
 		<p>
@@ -13,7 +13,7 @@
 		<a class="btn btn-default btn-block" href="/yearbooks/">More &rarr;</a>
 		</p>
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-6 clearfix">
 		<h4>Biographical files</h4>
 		<a href="/northwest-room/biofiles/">
 		<img class="img-responsive img-rounded alignright" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
