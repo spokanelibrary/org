@@ -1,8 +1,8 @@
 <div class="row">
-	<div class="col-md-6 clearfix">
+	<div class="col-md-6">
 		<h4>High school yearbooks</h4>
 
-		<p>
+		<p class="clearfix">
 		<a href="/yearbooks/">
 		<img class="img-responsive img-rounded alignleft" alt="Yearbooks" src="/assets/img/digicol/nw-yearbook-thumb.jpg" />
 		</a>
@@ -13,11 +13,13 @@
 		<a class="btn btn-default btn-block" href="/yearbooks/">More &rarr;</a>
 		</p>
 	</div>
-	<div class="col-md-6 clearfix">
+	<div class="col-md-6">
 		<h4>Biographical files</h4>
+		<p class="clearfix">
 		<a href="/northwest-room/biofiles/">
 		<img class="img-responsive img-rounded alignright" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
 		</a>
+		</p>
 		<p>
 		For over 100 years, librarians at SPL clipped the newspapers for biographical information.
 		These clippings include obituaries on pioneers, but they also contain all kinds of biographical information from papers in Spokane and around the Northwest.
