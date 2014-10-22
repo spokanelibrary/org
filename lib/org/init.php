@@ -206,7 +206,7 @@ function spl_resources( $params ) {
           $panels .= '<div class="panel panel-primary">'.PHP_EOL;
           $panels .= '<div class="panel-body">'.PHP_EOL;
           $panels .= '<h4>'.PHP_EOL;
-          $panels .= '<a href="#" class="dropdown" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;
+          $panels .= '<a href="#'.$post->post_name.'" class="" data-toggle="collapse" data-target="#'.$post->post_name.'">'.$link['text'].' <span class="caret"></span></a>' . PHP_EOL;
           $panels .= '</h4>'.PHP_EOL;
           $panels .= '</div>'.PHP_EOL;
           $panels .= '</div>'.PHP_EOL;
