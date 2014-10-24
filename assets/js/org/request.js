@@ -111,10 +111,10 @@ var org = {
       case 'in':
       case 'ol':
         view.user.ill = false;
-        console.log(this.user);
         break;
       default:
         view.user.ill = true;
+        console.log(this.user);
         break;
 		}
 
