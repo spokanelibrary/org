@@ -100,6 +100,7 @@ var org = {
 } // initRequestItemPanels
 
 , showRequestPanel: function(id) {
+    console.log('test');
 		var view = {id: id
 							, user: {}
 								};
@@ -114,7 +115,6 @@ var org = {
         break;
       default:
         view.user.ill = true;
-        console.log(this.user);
         break;
 		}
 
