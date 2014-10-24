@@ -100,7 +100,7 @@ var org = {
 } // initRequestItemPanels
 
 , showRequestPanel: function(id) {
-    console.log('test');
+    console.log(this.user);
 		var view = {id: id
 							, user: {}
 								};
