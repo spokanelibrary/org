@@ -233,7 +233,7 @@
         <div class="col-sm-8 col-md-9">
           <div class="checkbox">
             <label>
-              <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]">
+              <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]" checked>
               Please check Interlibray Loan for me 
             </label>
             <span class="help-block">
