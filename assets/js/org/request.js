@@ -114,7 +114,7 @@ var org = {
         break;
       default:
         console.log(this.user.illInfo);
-        if ( true = this.user.illInfo.limit ) {
+        if ( true == this.user.illInfo.limit ) {
           view.user.ill = false;
         } else {
           view.user.ill = true;
