@@ -100,8 +100,7 @@ var org = {
 } // initRequestItemPanels
 
 , showRequestPanel: function(id) {
-    console.log(this.user);
-		var view = {id: id
+    var view = {id: id
 							, user: {}
 								};
 		var tmpl = Handlebars.compile( $('#spl-form-panel-request-tmpl').html() );
@@ -114,6 +113,7 @@ var org = {
         view.user.ill = false;
         break;
       default:
+        console.log(this.user.illInfo);
         view.user.ill = true;
         break;
 		}
