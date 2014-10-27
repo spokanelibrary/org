@@ -481,7 +481,7 @@ function spl_menupage() {
       , 'post_type' => 'page'  
       , 'orderby' => $orderby
       , 'order' => $sort
-      , 'limit' => 20
+      , 'posts_per_page' => -1
     );   
     $subpages = new WP_query($args);  
       
