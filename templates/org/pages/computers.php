@@ -3,6 +3,10 @@
 	Travelers or visitors to the area may obtain a temporary visitor's pass; ask at any <a href="/reference/">Reference and Information Desk</a>.
 </div>
 
+<p>
+	We ask that all users accessing Spokane Public Library's computer network familiarize themselves with our <a href="/policies/inet/">Internet Use Policy</a>.
+</p>
+
 <h3>
 	Reserve a computer
 	<small class="glyphicon glyphicon-time"></small>
