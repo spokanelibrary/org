@@ -31,10 +31,9 @@ var ORG = {
         var user = JSON.parse($account.text());
       }
     }
-
+    console.log('findUser');
     if ( null == typeof(user) || 'undefined' == typeof(user) ) {
       this.user = null;
-      console.log('findUser');
       // if login autocallback is configured,
       // show the login form
       if ( $('.spl-login').data('callback-method') ) {
