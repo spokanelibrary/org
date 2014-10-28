@@ -129,7 +129,7 @@ var ORG = {
 , common: {
     init: function() {
       MBP.hideUrlBarOnLoad();
-      console.log('init');
+
       //config.path.absolute = 'http://'+location.hostname;
       config.path.absolute = '//'+location.hostname;
 

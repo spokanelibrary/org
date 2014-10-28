@@ -34,7 +34,7 @@ var org = {
 }
 
 , initRequestItem: function() {
-		//console.log(this.user);
+		console.log(this.user);
 		if ( this.user ) {
 			ORG.loadUserFormFields(this.user);
 			this.initRequestItemEvents();
