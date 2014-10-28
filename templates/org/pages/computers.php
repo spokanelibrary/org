@@ -1,3 +1,4 @@
+<h2>Internet access</h2>
 <div class="alert alert-warning">
 	<p>
 		90-minute appointments available to valid card holders. 
@@ -21,3 +22,7 @@
 	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SH">Shadle <small>&rarr;</small></a>
 	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SO">South Hill <small>&rarr;</small></a>
 </div>
+
+<h4>A note about wifi</h4>
+
+<h2>Word processing computers</h2>
