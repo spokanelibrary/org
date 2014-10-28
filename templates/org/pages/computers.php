@@ -5,7 +5,7 @@
 <div class="panel panel-primary">
 	<div class="panel-heading">
 		<h3 class="panel-title">
-			Internet access
+			Internet computers
 		</h3>
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
