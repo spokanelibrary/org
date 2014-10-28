@@ -45,7 +45,7 @@
 
 		<p>
 			All library locations offer computers with Microsoft Office 2013 word processing, spreadsheet, and presentation software.
-			These computers do not have a time limit and are available on a first-come, first-served basis.
+			<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
 		</p>
 		<dl class="dl-horizontal">
 			<dt>Downtown library</dt>
