@@ -66,7 +66,7 @@ var ORG = {
 
 , loadUserFormFields: function(user) {
     $('.spl-login').hide();
-    console.log(user);  
+    //console.log(user);  
     if ( user && $('.spl-form') ) {
       
       var name = '';
@@ -129,7 +129,7 @@ var ORG = {
 , common: {
     init: function() {
       MBP.hideUrlBarOnLoad();
-
+      console.log('init');
       //config.path.absolute = 'http://'+location.hostname;
       config.path.absolute = '//'+location.hostname;
 
