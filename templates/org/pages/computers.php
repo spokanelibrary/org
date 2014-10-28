@@ -1,7 +1,9 @@
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		Internet access
-	</div>
+		<h3 class="panel-title">
+			Internet access
+		</h3>
+	</div><!-- /.panel-heading -->
 	<div class="panel-body">
 
 		<p>
@@ -30,7 +32,7 @@
 			<a href="/wifi/">Unlimited WiFi</a> is also available at all <a href="/branches/">library locations</a>.
 		</h4>
 
-	</div>
-</div>
+	</div><!-- /.panel-body -->
+</div><!-- /.panel -->
 
 <h2>Word processing computers</h2>
