@@ -1,5 +1,6 @@
 <div class="alert alert-warning">
-	90-minute appointments available to valid card holders. Travelers or visitors to the area may obtain a temporary visitor's pass; ask at any Reference and Information Desk.
+	90-minute appointments available to valid card holders. 
+	Travelers or visitors to the area may obtain a temporary visitor's pass; ask at any <a href="/reference/">Reference and Information Desk</a>.
 </div>
 
 <h3>
