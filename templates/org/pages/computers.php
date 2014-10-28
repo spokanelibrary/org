@@ -14,6 +14,8 @@
 			<b>90-minute</b> appointments to use computers with Internet access are available to valid card holders. 
 			Travelers or visitors to the area may obtain a temporary visitor's pass; ask at any <a href="/reference/">Reference and Information Desk</a>.
 		</p>
+
+		<a class="btn btn-block" href="/faq/inet/">More about public internet computers <small>&rarr;</small></a>
 		
 		<h3>
 			Reserve a computer
