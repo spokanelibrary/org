@@ -4,11 +4,10 @@
 </h3>
 
 <div class="btn-group">
-	<a class="btn btn-warning" href="/downtown/">Downtown</a>
-	<a class="btn btn-warning" href="/northwest-room/">Northwest Room</a>
-	<a class="btn btn-warning" href="/east-side/">East Side</a>
-	<a class="btn btn-warning" href="/hillyard/">Hillyard</a>
-	<a class="btn btn-warning" href="/indian-trail/">Indian Trail</a>
-	<a class="btn btn-warning" href="/shadle/">Shadle</a>
-	<a class="btn btn-warning" href="/south-hill/">South Hill</a>
+	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=DT_3">Downtown</a>
+	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=ES">East Side</a>
+	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=HY">Hillyard</a>
+	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=IT">Indian Trail</a>
+	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SH">Shadle</a>
+	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SO">South Hill</a>
 </div>
