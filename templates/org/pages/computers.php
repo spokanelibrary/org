@@ -1,6 +1,11 @@
 <div class="alert alert-warning">
-	90-minute appointments available to valid card holders. 
-	Travelers or visitors to the area may obtain a temporary visitor's pass; ask at any <a href="/reference/">Reference and Information Desk</a>.
+	<p>
+		90-minute appointments available to valid card holders. 
+		Travelers or visitors to the area may obtain a temporary visitor's pass; ask at any <a href="/reference/">Reference and Information Desk</a>.
+	</p>
+	<p>
+		We ask that all users accessing Spokane Public Library's computer network familiarize themselves with our <a href="/policies/inet/">Internet Use Policy</a>.
+	</p>
 </div>
 
 <h3>
@@ -16,7 +21,3 @@
 	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SH">Shadle <small>&rarr;</small></a>
 	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SO">South Hill <small>&rarr;</small></a>
 </div>
-
-<p>
-	We ask that all users accessing Spokane Public Library's computer network familiarize themselves with our <a href="/policies/inet/">Internet Use Policy</a>.
-</p>
