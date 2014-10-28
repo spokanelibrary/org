@@ -28,6 +28,8 @@
 			<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SO">South Hill <small>&rarr;</small></a>
 		</div>
 
+		<hr>
+
 		<h4>
 			<a href="/wifi/">Unlimited WiFi</a> is also available at all <a href="/branches/">library locations</a>.
 		</h4>
@@ -79,6 +81,22 @@
 			<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
 		</p>
 
+
+	</div><!-- /.panel-body -->
+</div><!-- /.panel -->
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title">
+			WorkSource Spokane Connection
+		</h3>
+	</div><!-- /.panel-heading -->
+	<div class="panel-body">
+
+		<p>
+			The <a href="/worksource/">WorkSource Spokane Connection</a> site, located in the Downtown Library, offers personalized job searching assistance and computer access.
+			<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
+		</p>
 
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
