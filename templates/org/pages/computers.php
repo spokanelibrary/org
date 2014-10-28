@@ -28,12 +28,6 @@
 			<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SO">South Hill <small>&rarr;</small></a>
 		</div>
 
-		<hr>
-
-		<h4>
-			<a href="/wifi/">Unlimited WiFi</a> is also available at all <a href="/branches/">library locations</a>.
-		</h4>
-
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
 
