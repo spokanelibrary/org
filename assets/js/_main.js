@@ -31,7 +31,7 @@ var ORG = {
         var user = JSON.parse($account.text());
       }
     }
-    console.log('findUser');
+    console.log(user);
     if ( null == typeof(user) || 'undefined' == typeof(user) ) {
       this.user = null;
       // if login autocallback is configured,
