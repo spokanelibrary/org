@@ -80,7 +80,9 @@
 
 	</div><!-- /.panel-body -->
 	<div class="panel-footer">
-		<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
+		<small>
+			<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
+		</small>
 	</div>
 </div><!-- /.panel -->
 
@@ -98,6 +100,8 @@
 
 	</div><!-- /.panel-body -->
 	<div class="panel-footer">
-		<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
+		<small>
+			<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
+		</small>
 	</div>
 </div><!-- /.panel -->
