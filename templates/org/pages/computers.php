@@ -5,16 +5,12 @@
 	<div class="panel-body">
 
 		<p>
-			90-minute appointments available to valid card holders. 
+			<b>90-minute</b> appointments to use computers with Internet access are available to valid card holders. 
 			Travelers or visitors to the area may obtain a temporary visitor's pass; ask at any <a href="/reference/">Reference and Information Desk</a>.
-		</p>
-		<p>
-			Unlimited WiFi is available at all <a href="/branches/">library locations</a>.
 		</p>
 		<p>
 			We ask that all users accessing Spokane Public Library's computer network familiarize themselves with our <a href="/policies/inet/">Internet Use Policy</a>.
 		</p>
-
 
 		<h3>
 			Reserve a computer
@@ -30,7 +26,10 @@
 			<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SO">South Hill <small>&rarr;</small></a>
 		</div>
 
-		<h4>A note about wifi</h4>
+		<p>
+			<a href="/wifi/">Unlimited WiFi</a> is also available at all <a href="/branches/">library locations</a>.
+		</p>
+
 	</div>
 </div>
 
