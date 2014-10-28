@@ -8,6 +8,7 @@
 	</p>
 </div>
 
+<div class="center-block">
 <h3>
 	Reserve a computer
 	<small class="glyphicon glyphicon-time"></small>
@@ -20,4 +21,5 @@
 	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=IT">Indian Trail <small>&rarr;</small></a>
 	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SH">Shadle <small>&rarr;</small></a>
 	<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SO">South Hill <small>&rarr;</small></a>
+</div>
 </div>
