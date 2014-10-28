@@ -29,7 +29,7 @@ var org = {
 , setUser: function(user) {
 		if ( !ORG.user ) {
 			ORG.setUser(user);
-      console.log('setUser');
+      console.log(ORG.user);
 		}
 		this.user = ORG.user;
 }
