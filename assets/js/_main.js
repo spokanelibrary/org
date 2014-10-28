@@ -27,12 +27,13 @@ var ORG = {
       this.user = user;
     } else{
       var $account = $('#spl-account-summary');
-      console.log( $account );
+      //console.log( $account );
       //if ( $account && $account.text().length > 0 ) {
-      if ( $account && $account.html() ) {
+      if ( $account && $account.html().length > 0 ) {
       
         console.log('parseUser');
-        var user = JSON.parse($account.text());
+        //var user = JSON.parse($account.text());
+        var user = JSON.parse($account.html());
       }
     }
 
