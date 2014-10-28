@@ -29,12 +29,12 @@ var org = {
 , setUser: function(user) {
 		if ( !ORG.user ) {
 			ORG.setUser(user);
+      console.log('setUser');
 		}
 		this.user = ORG.user;
 }
 
 , initRequestItem: function() {
-		console.log(this.user);
 		if ( this.user ) {
 			ORG.loadUserFormFields(this.user);
 			this.initRequestItemEvents();
