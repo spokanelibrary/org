@@ -28,14 +28,13 @@ var ORG = {
     } else{
       var $account = $('#spl-account-summary');
       if ( $account && $account.text().length > 0 ) {
-        console.log('findUser');
         var user = JSON.parse($account.text());
       }
     }
 
     if ( null == typeof(user) || 'undefined' == typeof(user) ) {
       this.user = null;
-
+      console.log('findUser');
       // if login autocallback is configured,
       // show the login form
       if ( $('.spl-login').data('callback-method') ) {
