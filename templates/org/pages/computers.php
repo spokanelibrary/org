@@ -1,3 +1,7 @@
+<div class="alert alert-warning">
+	90-minute appointments available to valid card holders. Travelers or visitors to the area may obtain a temporary visitor's pass; ask at any Reference and Information Desk.
+</div>
+
 <h3>
 	Reserve a computer
 	<small class="glyphicon glyphicon-time"></small>
