@@ -27,9 +27,9 @@ var ORG = {
       this.user = user;
     } else{
       var $account = $('#spl-account-summary');
-      console.log( $account.text() );
+      console.log( $account );
       //if ( $account && $account.text().length > 0 ) {
-      if ( $account && $account.text() ) {
+      if ( $account && $account.html() ) {
       
         console.log('parseUser');
         var user = JSON.parse($account.text());
