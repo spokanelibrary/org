@@ -31,7 +31,7 @@
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
 
-<div class="panel panel-default">
+<div class="panel panel-primary">
 	<div class="panel-heading">
 		<h3 class="panel-title">
 			Word processing computers
@@ -60,6 +60,9 @@
 		</dl>
 		-->
 	</div><!-- /.panel-body -->
+	<div class="panel-footer">
+		<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
+	</div>
 </div><!-- /.panel -->
 
 <div class="panel panel-primary">
