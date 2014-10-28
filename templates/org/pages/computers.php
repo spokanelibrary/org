@@ -35,4 +35,32 @@
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
 
-<h2>Word processing computers</h2>
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title">
+			Word processing computers
+		</h3>
+	</div><!-- /.panel-heading -->
+	<div class="panel-body">
+
+		<p>
+			All library locations offer computers with Microsoft Office 2013 word processing, spreadsheet, and presentation software.
+			These computers do not have a time limit and are available on a first-come, first-served basis.
+		</p>
+		<dl class="dl-horizontal">
+			<dt>Downtown library</dt>
+			<dd>8 computers on the third floor</dd>
+			<dt>East Side library</dt>
+			<dd>4 computers</dd>
+			<dt>Hillyard library</dt>
+			<dd>3 computers</dd>
+			<dt>Indian Trail library</dt>
+			<dd>2 computers</dd>
+			<dt>Shadle library</dt>
+			<dd>4 computers</dd>
+			<dt>South Hill library</dt>
+			<dd>2 computers</dd>
+		</dl>
+
+	</div><!-- /.panel-body -->
+</div><!-- /.panel -->
