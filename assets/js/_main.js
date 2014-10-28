@@ -30,10 +30,10 @@ var ORG = {
       //console.log( $account );
       //if ( $account && $account.text().length > 0 ) {
       if ( $account && $account.html().length > 0 ) {
-      
-        console.log('parseUser');
         //var user = JSON.parse($account.text());
         var user = JSON.parse($account.html());
+        console.log('parseUser');
+        console.log(user);
       }
     }
 
