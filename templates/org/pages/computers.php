@@ -1,3 +1,7 @@
+<div class="alert alert-warning">
+	We ask that all users accessing Spokane Public Library's computer network familiarize themselves with our <a href="/policies/inet/">Internet Use Policy</a>.
+</div>
+
 <div class="panel panel-primary">
 	<div class="panel-heading">
 		<h3 class="panel-title">
@@ -10,10 +14,7 @@
 			<b>90-minute</b> appointments to use computers with Internet access are available to valid card holders. 
 			Travelers or visitors to the area may obtain a temporary visitor's pass; ask at any <a href="/reference/">Reference and Information Desk</a>.
 		</p>
-		<p>
-			We ask that all users accessing Spokane Public Library's computer network familiarize themselves with our <a href="/policies/inet/">Internet Use Policy</a>.
-		</p>
-
+		
 		<h3>
 			Reserve a computer
 			<small class="glyphicon glyphicon-time"></small>
