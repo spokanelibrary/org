@@ -1,2 +1,2 @@
-<input type="hidden" class="" id="spl-form-barcode" name="spl-form[barcode]">
-<input type="hidden" class="" id="spl-form-borrower" name="spl-form[borrower]">
+<input type="hidden" class="" id="spl-form-barcode" name="spl-form[barcode]" value="<?php echo $_SESSION['spl']['user']->borrowerBarcode; ?>">
+<input type="hidden" class="" id="spl-form-borrower" name="spl-form[borrower]" value="<?php echo $_SESSION['spl']['user']->borrower; ?>">
