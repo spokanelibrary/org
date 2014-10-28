@@ -41,7 +41,6 @@
 
 		<p>
 			All library locations offer computers with Microsoft Office 2013 word processing, spreadsheet, and presentation software.
-			<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
 		</p>
 		<!--
 		<dl class="dl-horizontal">
@@ -75,11 +74,12 @@
 
 		<p>
 			Additional computers are available at each library location for searching <a href="/catalog/">our collection</a>, <a href="/subscriptions/">our databases</a>, and limited internet sites, including all .gov and .edu web sites. 
-			<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
 		</p>
 
-
 	</div><!-- /.panel-body -->
+	<div class="panel-footer">
+		<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
+	</div>
 </div><!-- /.panel -->
 
 <div class="panel panel-primary">
@@ -92,8 +92,10 @@
 
 		<p>
 			The <a href="/worksource/">WorkSource Spokane Connection</a> site, located in the Downtown Library, offers personalized job searching assistance and computer access.
-			<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
 		</p>
 
 	</div><!-- /.panel-body -->
+	<div class="panel-footer">
+		<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
+	</div>
 </div><!-- /.panel -->
