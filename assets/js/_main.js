@@ -23,12 +23,12 @@ var ORG = {
   config: config
 
 , setUser: function (user) {
-    console.log(user);
     if ( user && user.sessionToken ) {
       this.user = user;
     } else{
       var $account = $('#spl-account-summary');
       if ( $account && $account.text().length > 0 ) {
+        console.log('findUser');
         var user = JSON.parse($account.text());
       }
     }
