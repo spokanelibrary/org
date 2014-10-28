@@ -27,11 +27,12 @@ var ORG = {
       this.user = user;
     } else{
       var $account = $('#spl-account-summary');
+      console.log('account');
       if ( $account && $account.text().length > 0 ) {
         var user = JSON.parse($account.text());
       }
     }
-    console.log(user);
+
     if ( null == typeof(user) || 'undefined' == typeof(user) ) {
       this.user = null;
       // if login autocallback is configured,
