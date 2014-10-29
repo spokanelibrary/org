@@ -20,6 +20,10 @@
 			Walk-up computers are available on a first-come, first-served basis.
 		</p>
 
+		<p>
+			<a href="/printing/">Printing is available</a> for 10 cents per page.</p>
+		</p>
+
 		<a class="btn btn-primary" href="/faq/inet/">More about public internet computers <small>&rarr;</small></a>
 		
 		<h3>
@@ -66,6 +70,10 @@
 			<dd>2 computers</dd>
 		</dl>
 		-->
+		<p>
+			<a href="/printing/">Printing is available</a> for 10 cents per page.</p>
+		</p>
+		
 	</div><!-- /.panel-body -->
 	<div class="panel-footer">
 		<small>
@@ -85,6 +93,11 @@
 		<p>
 			Additional computers are available at each library location for searching <a href="/catalog/">our collection</a>, <a href="/subscriptions/">our databases</a>, and limited internet sites, including all .gov and .edu web sites. 
 		</p>
+
+		<p>
+			<a href="/printing/">Printing is available</a> for 10 cents per page.</p>
+		</p>
+		
 
 	</div><!-- /.panel-body -->
 	<div class="panel-footer">
