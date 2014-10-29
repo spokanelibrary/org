@@ -15,6 +15,10 @@
 			Travelers or visitors to the area may obtain a temporary visitor's pass; ask at any <a href="/reference/">Reference and Information Desk</a>.
 		</p>
 
+		<p>
+			Some locations also offer 30-minute walk-up internet stations with no appointment required.
+		</p>
+
 		<a class="btn btn-primary" href="/faq/inet/">More about public internet computers <small>&rarr;</small></a>
 		
 		<h3>
