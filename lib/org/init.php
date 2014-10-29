@@ -440,19 +440,20 @@ function spl_subpages() {
     $subpages = new WP_query($args);  
       
     // create output  
+    remove_filter( 'the_excerpt', 'wp_trim_excerpt' );
     if ($subpages->have_posts()) :  
         $output = '<ul class="list-group">';  
         while ($subpages->have_posts()) : $subpages->the_post();  
             $output .= '<li class="list-group-item">
                         <h4><a href="'.get_permalink().'">'.get_the_title().'</a> <small>&rarr;</small></h4> 
-                        <p>'.apply_filters('the_excerpt', get_the_excerpt() ).'</p>'.
+                        <p>'.get_the_excerpt().'</p>'.
                         '</li>';  
         endwhile;  
         $output .= '</ul>';  
     else :  
         $output = '<p>No subpages found.</p>';  
     endif;  
-      
+    add_filter( 'the_excerpt', 'wp_trim_excerpt' );
     // reset the query  
     wp_reset_postdata();  
       
