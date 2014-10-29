@@ -450,12 +450,15 @@ function spl_subpages() {
                         '</li>';  
             } else {
             $output .= '<li class="list-group-item">';
-            //$output .= '<h4>';
-            
-            //$output .= '</h4>';
-            $output .= print_r($post, true);
+            $output .= '<h4>';
+            if ( !empty($post->post_excerpt) ) {
+              $output .= get_the_title();
+            } else {
+              $output .= '<a href="'.get_permalink().'">'.get_the_title().'</a> <small>&rarr;</small>';
+            }
+            $output .= '</h4>';
+
             $output .= '            
-                        <h4><a href="'.get_permalink().'">'.get_the_title().'</a> <small>&rarr;</small></h4> 
                         <p>'.get_the_excerpt().'</p>'.
                         '</li>';  
             }
