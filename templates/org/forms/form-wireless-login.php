@@ -6,7 +6,7 @@
 	<div class="panel-heading">
 		<small class="glyphicon glyphicon-exclamation-sign"></small>
 		Use of the library computer network constitutes an agreement that you accept the following terms and conditions:
-	</div>
+	</div><!-- /.panel-heading -->
 	<div class="panel-body">
 		<p>
 			All Library customers are expected to access the Internet in compliance with the <a href="/policies/inet/">Internet Use Policy</a> and <a href="/uploads/rules_of_conduct.pdf">Rules of Conduct</a>, and within the boundaries of the law.
@@ -23,8 +23,12 @@
         
         <input type="hidden" name="username" value="spl" />
         <input type="hidden" name="password" value="wireless" />
-        <input type="submit" class="btn btn-large btn-primary" value="I agree. Proceed!" />
+        <input type="submit" class="btn btn-block btn-lg btn-primary" value="I agree. Proceed!" />
     </form>
 
-	</div>
-</div>
+	</div><!-- /.panel-body -->
+</div><!-- /.panel -->
+
+<h3>
+	Tips
+</h3>
