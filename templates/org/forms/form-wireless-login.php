@@ -35,3 +35,17 @@
 <h3>
 	Tips
 </h3>
+<ul>
+	<li>
+		A standard IEEE 802.11g or 802.11n wireless network adaptor should work with our wireless connection.
+	</li>
+	<li>
+		All wireless access users should have up-to-date virus protection on their laptop computers or wireless devices.
+	</li>
+	<li>
+		As with most public wireless “hot spots,” this connection is not secure. Potentially any information being sent or received could be intercepted by another wireless user. Please take appropriate precautions when using this service.
+	</li>
+	<li>
+		Library staff are not responsible for any changes you make to your computer’s settings and cannot guarantee your hardware will work with our wireless connection. They cannot assist in making changes to your network settings or perform any troubleshooting on your computer. Please refer to your owner’s manual or other support services offered by your device manufacturer.
+	</li>
+</ul>
