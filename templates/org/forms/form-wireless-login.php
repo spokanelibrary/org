@@ -14,7 +14,17 @@
 	  	<em>Please be considerate of other Library patrons.</em>
 		</p>
 
-
+		<form 
+        action="http://10.14.50.2:9997/login" 
+        method="post" 
+        class=""
+        id="spl-wireless" 
+    >
+        
+        <input type="hidden" name="username" value="spl" />
+        <input type="hidden" name="password" value="wireless" />
+        <input type="submit" class="btn btn-large btn-primary" value="I agree. Proceed!" />
+    </form>
 
 	</div>
 </div>
