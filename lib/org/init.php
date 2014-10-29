@@ -453,7 +453,7 @@ function spl_subpages() {
               $output .= '<h4>';
               if ( !empty($post->post_excerpt) ) {
                 //$output .= get_the_title();
-                $output .= get_the_excerpt();
+                $output .= '<a href="'.get_the_excerpt().'">'.get_the_title().'</a> <small>&rarr;</small>';
               } else {
                 $output .= '<a href="'.get_permalink().'">'.get_the_title().'</a> <small>&rarr;</small>';
               }
