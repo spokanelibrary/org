@@ -23,7 +23,7 @@
         
         <input type="hidden" name="username" value="spl" />
         <input type="hidden" name="password" value="wireless" />
-        <input type="submit" class="btn btn-block btn-lg btn-primary" value="I agree. Proceed!" />
+        <input type="submit" class="btn btn-block btn-primary" value="I agree. Proceed!" />
     </form>
 
 	</div><!-- /.panel-body -->
