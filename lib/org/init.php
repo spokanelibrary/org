@@ -449,7 +449,15 @@ function spl_subpages() {
                         '.apply_filters('the_content', get_the_content() ).
                         '</li>';  
             } else {
-            $output .= '<li class="list-group-item">
+            $output .= '<li class="list-group-item">';
+            $output .= '<h4>';
+            
+            if (  ) {
+
+            }
+            $output .= '</h4>';
+            $output .= print_r($subpages->the_post(), true);
+            $output .= '            
                         <h4><a href="'.get_permalink().'">'.get_the_title().'</a> <small>&rarr;</small></h4> 
                         <p>'.get_the_excerpt().'</p>'.
                         '</li>';  
