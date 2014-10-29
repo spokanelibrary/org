@@ -84,8 +84,6 @@ $username = ( false == $mobile ) ? $branch : $branch.'_'.'mobile';
 	<h1>Welcome to the library <small>we're glad you're here</small></h1>
 </div>
 
-<?php echo $username; ?>
-
 <div class="panel panel-warning">
 	<div class="panel-heading">
 		<small class="glyphicon glyphicon-exclamation-sign"></small>
