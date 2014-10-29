@@ -23,7 +23,10 @@
         
         <input type="hidden" name="username" value="spl" />
         <input type="hidden" name="password" value="wireless" />
-        <input type="submit" class="btn btn-block btn-primary" value="I agree. Proceed!" />
+        <button type="submit" class="btn btn-block btn-lg btn-success">
+        	<small class="glyphicon glyphicon-ok"></small>
+        	I agree. Proceed!
+        </button>
     </form>
 
 	</div><!-- /.panel-body -->
