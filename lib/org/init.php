@@ -471,7 +471,7 @@ function spl_subpages() {
         $output = '<p>No subpages found.</p>';  
     endif;  
       
-    $output .= print_r($params, true);
+    $output .= print_r('test', true);
 
     // reset the query  
     wp_reset_postdata();  
