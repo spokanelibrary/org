@@ -5,7 +5,7 @@
 <div class="panel panel-warning">
 	<div class="panel-heading">
 		<small class="glyphicon glyphicon-exclamation-sign"></small>
-		Use of Library computers constitutes an agreement that you accept the following terms and conditions:
+		Use of the library computer network constitutes an agreement that you accept the following terms and conditions:
 	</div>
 	<div class="panel-body">
 		<p>
