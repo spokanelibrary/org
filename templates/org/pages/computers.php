@@ -17,6 +17,7 @@
 
 		<p>
 			Some locations also offer 30-minute walk-up internet stations with no appointment required.
+			Walk-up computers are available on a first-come, first-served basis.
 		</p>
 
 		<a class="btn btn-primary" href="/faq/inet/">More about public internet computers <small>&rarr;</small></a>
