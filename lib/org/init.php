@@ -443,7 +443,7 @@ function spl_subpages() {
     if ($subpages->have_posts()) :  
         $output = '<ul class="list-group">';  
         while ($subpages->have_posts()) : $subpages->the_post();  
-            if ( 'full' == $params['excerpt'] ) {
+            if ( 'full' != $params['excerpt'] ) {
               $output .= '<li class="list-group-item">
                         <h4>'.get_the_title().'</h4> 
                         '.apply_filters('the_content', get_the_content() ).
