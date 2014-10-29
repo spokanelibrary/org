@@ -25,7 +25,7 @@
         <input type="hidden" name="password" value="wireless" />
         <button type="submit" class="btn btn-block btn-lg btn-success">
         	<small class="glyphicon glyphicon-ok"></small>
-        	I agree. Proceed!
+        	I agree. Proceed &rarr;
         </button>
     </form>
 
