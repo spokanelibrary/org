@@ -128,9 +128,6 @@ $username = ( false == $mobile ) ? $branch : $branch.'_'.'mobile';
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
 
-<h3>
-	Tips
-</h3>
 <ul>
 	<li>
 		A standard IEEE 802.11g or 802.11n wireless network adaptor should work with our wireless connection.
