@@ -417,7 +417,7 @@ function spl_scrollspy($params) {
 
 add_shortcode('spl_scrollspy', 'spl_scrollspy'); 
 
-function spl_subpages() {  
+function spl_subpages($params) {  
     global $post;  
     
     $orderby = 'title';
@@ -471,7 +471,7 @@ function spl_subpages() {
         $output = '<p>No subpages found.</p>';  
     endif;  
       
-    $output .= print_r('test', true);
+    $output .= print_r($params, true);
 
     // reset the query  
     wp_reset_postdata();  
