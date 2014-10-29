@@ -445,7 +445,7 @@ function spl_subpages() {
         while ($subpages->have_posts()) : $subpages->the_post();  
             $output .= '<li class="list-group-item">
                         <h4><a href="'.get_permalink().'">'.get_the_title().'</a> <small>&rarr;</small></h4> 
-                        <p>'.apply_filters('the_content', get_the_excerpt() ).'</p>'.
+                        <p>'.apply_filters('the_excerpt', get_the_excerpt() ).'</p>'.
                         '</li>';  
         endwhile;  
         $output .= '</ul>';  
