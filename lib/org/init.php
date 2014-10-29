@@ -439,8 +439,6 @@ function spl_subpages() {
     );   
     $subpages = new WP_query($args);  
     
-    remove_filter('get_the_excerpt', 'wp_trim_excerpt');
-
     // create output  
     if ($subpages->have_posts()) :  
         $output = '<ul class="list-group">';  
@@ -462,8 +460,6 @@ function spl_subpages() {
         $output = '<p>No subpages found.</p>';  
     endif;  
       
-
-    add_filter('get_the_excerpt', 'wp_trim_excerpt');
     // reset the query  
     wp_reset_postdata();  
       
