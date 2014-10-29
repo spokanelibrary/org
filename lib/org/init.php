@@ -451,7 +451,7 @@ function spl_subpages($params) {
             } else {
               $output .= '<li class="list-group-item">';
               $output .= '<h4>';
-              if ( !empty($post->post_excerpt) ) {
+              if ( !empty($post->post_excerpt) && 'excerpt' == $params['link'] ) {
                 //$output .= get_the_title();
                 $output .= '<a href="'.get_the_excerpt().'">'.get_the_title().'</a> <small>&rarr;</small>';
               } else {
@@ -459,7 +459,7 @@ function spl_subpages($params) {
               }
               $output .= '</h4>';
 
-              if ( empty($post->post_excerpt) ) {
+              if ( 'excerpt' != $params['link'] ) {
                 $output .= '            
                             <p>'.get_the_excerpt().'</p>'.
                             '</li>'; 
@@ -471,8 +471,6 @@ function spl_subpages($params) {
         $output = '<p>No subpages found.</p>';  
     endif;  
       
-    $output .= print_r($params, true);
-
     // reset the query  
     wp_reset_postdata();  
       
@@ -482,7 +480,7 @@ function spl_subpages($params) {
 
 add_shortcode('spl_subpages', 'spl_subpages'); 
 
-function spl_menupage() {  
+function spl_menupage($params) {  
     global $post;  
     
     $orderby = 'menu_order'; //title
