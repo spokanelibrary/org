@@ -449,18 +449,21 @@ function spl_subpages() {
                         '.apply_filters('the_content', get_the_content() ).
                         '</li>';  
             } else {
-            $output .= '<li class="list-group-item">';
-            $output .= '<h4>';
-            if ( !empty($post->post_excerpt) ) {
-              $output .= get_the_title();
-            } else {
-              $output .= '<a href="'.get_permalink().'">'.get_the_title().'</a> <small>&rarr;</small>';
-            }
-            $output .= '</h4>';
+              $output .= '<li class="list-group-item">';
+              $output .= '<h4>';
+              if ( !empty($post->post_excerpt) ) {
+                //$output .= get_the_title();
+                $output .= get_the_excerpt();
+              } else {
+                $output .= '<a href="'.get_permalink().'">'.get_the_title().'</a> <small>&rarr;</small>';
+              }
+              $output .= '</h4>';
 
-            $output .= '            
-                        <p>'.get_the_excerpt().'</p>'.
-                        '</li>';  
+              if ( empty($post->post_excerpt) ) {
+                $output .= '            
+                            <p>'.get_the_excerpt().'</p>'.
+                            '</li>'; 
+              } 
             }
         endwhile;  
         $output .= '</ul>';  
