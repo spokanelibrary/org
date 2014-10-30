@@ -503,7 +503,7 @@ function spl_menupage($params) {
     $id = $post->ID;
     if ( $params['page'] ) {
       $parent = new WP_query(array('pagename'=>$params['page']));
-      //$id = $params['page'];
+      $id = $parent->ID;
     }
 
 
@@ -516,7 +516,7 @@ function spl_menupage($params) {
       , 'posts_per_page' => -1
     );   
 
-    
+
 
     $subpages = new WP_query($args);  
       
