@@ -143,7 +143,7 @@
       Asked &amp; answered
     </h4>
     <p>
-      <a class="btn btn-block btn-primary" title="How do I?" href="/how">
+      <a class="btn btn-block btn-primary" title="How do I?" href="/faq/">
         <i class="glyphicon glyphicon-question-sign"></i>
         Frequently Asked Questions &rarr;
       </a>
