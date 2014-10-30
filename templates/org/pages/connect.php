@@ -43,7 +43,7 @@
               <i class="glyphicon glyphicon-barcode text-muted"></i> 
               <a class="" 
                 href="/card/" 
-                title="">Your library card</a>
+                title="">My library card</a>
               <span class="text-muted">&rarr;</span>
             </h4>
           </div><!-- /.panel-heading -->
@@ -100,7 +100,7 @@
     <div class="alert alert-info">
       <p>
         <strong>Non-discoverable Connect pages to port:</strong>
-        <span style="text-decoration:line-through;">Welcome, Obits, iCal, IT Academy, Receipt/optout, Unblock, Kiosk,</span> Wireless, BioFiles, Summer Signup
+        <span style="text-decoration:line-through;">Welcome, Obits, iCal, IT Academy, Receipt/optout, Unblock, Kiosk, Wireless, BioFiles,</span> Summer Signup
       </p>
     </div>
     */

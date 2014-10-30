@@ -436,6 +436,7 @@ function spl_subpages($params) {
       , 'post_type' => 'page'  
       , 'orderby' => $orderby
       , 'order' => $sort
+      , 'posts_per_page' => -1
     );   
     $subpages = new WP_query($args);  
     
