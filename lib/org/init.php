@@ -502,8 +502,10 @@ function spl_menupage($params) {
 
     $id = $post->ID;
     if ( $params['page'] ) {
-      $id = $params['page'];
+      $parent = new WP_query(array('pagename'=>$params['page']));
+      //$id = $params['page'];
     }
+
 
     //query subpages  
     $args = array(  
