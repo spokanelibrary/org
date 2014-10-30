@@ -14,7 +14,7 @@
       <abbr title="Phone">Ph.</abbr> 509.444.5300
     </h4>
     <p>
-      <a class="" href="/branch">Branch Locations &amp; Hours</a> &rarr;
+      <a class="" href="/branches/">Branch Locations &amp; Hours</a> &rarr;
     </p>    
   </div><!-- /.panel-body -->
   <!--
