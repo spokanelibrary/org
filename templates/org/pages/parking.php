@@ -16,7 +16,7 @@
 	<small class="glyphicon glyphicon-flag"></small>
 </h3>
 
-<div class="btn-group">
+<div class="btn-group btn-group-justified">
 	<a class="btn btn-primary" href="/downtown/">Downtown</a>
 	<a class="btn btn-primary" href="/northwest-room/">Northwest Room</a>
 	<a class="btn btn-primary" href="/east-side/">East Side</a>
