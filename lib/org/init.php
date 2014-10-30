@@ -545,7 +545,12 @@ function spl_menupage($params) {
         </div>
         </div>
         </ul>'.PHP_EOL; 
-        $output = $menu.$page; 
+
+        if ( !in_array('nomenu', $params) ) {
+          $output = $menu.$page; 
+        } else {
+          $output = $page; 
+        }
     else :  
         $output = '<p>No subpages found.</p>';  
     endif;  
