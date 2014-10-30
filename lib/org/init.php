@@ -500,9 +500,14 @@ function spl_menupage($params) {
       $sort = $params['sort'];
     }
 
+    $id = $post->ID;
+    if ( $params['page'] ) {
+      $id = $params['page'];
+    }
+
     //query subpages  
     $args = array(  
-        'post_parent' => $post->ID
+        'post_parent' => $id
       , 'post_type' => 'page'  
       , 'orderby' => $orderby
       , 'order' => $sort
