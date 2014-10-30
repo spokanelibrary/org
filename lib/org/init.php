@@ -532,19 +532,27 @@ function spl_menupage($params) {
               <a href="#'.$post->post_name.'">'.get_the_title().' <small class="text-muted">&rarr;</small></a>
             </li>'.PHP_EOL;
 
-            $page .= '
-            <p id="'.$post->post_name.'">&nbsp;</p>
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-              <h4 class="">'.get_the_title().'</h4>
-              </div>
-              <div class="panel-body">
+            if ( in_array('nochrome', $params) ) {
+              $page .= '
+              <p id="'.$post->post_name.'">&nbsp;</p>
               '.apply_filters('the_content', get_the_content() ).'
-              <p class="text-right">
-                <a class="btn btn-sm btn-default" href="#top">Top <small>&uarr;</small></a>
-              </p>
-              </div>
-            </div>'.PHP_EOL;  
+              '.PHP_EOL;  
+            } else {
+              $page .= '
+              <p id="'.$post->post_name.'">&nbsp;</p>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                <h4 class="">'.get_the_title().'</h4>
+                </div>
+                <div class="panel-body">
+                '.apply_filters('the_content', get_the_content() ).'
+                <p class="text-right">
+                  <a class="btn btn-sm btn-default" href="#top">Top <small>&uarr;</small></a>
+                </p>
+                </div>
+              </div>'.PHP_EOL; 
+            }
+
         endwhile;  
         $menu .= '
         </div>
