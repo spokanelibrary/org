@@ -452,12 +452,17 @@ function spl_subpages($params) {
             } else {
               $output .= '<li class="list-group-item">';
               $output .= '<h4>';
+
+              $title = get_the_title();
+              if ( isset($params['highlight']) ) {
+                $title = str_ireplace($params['highlight'], '<span class="'.$params['class'].'">'.$params['highlight'].'</span>', $title);
+              }
+
               if ( !empty($post->post_excerpt) && 'excerpt' == $params['link'] ) {
                 //$output .= get_the_title();
-                $title = str_ireplace('How do I', '<span class="text-muted">How do I</span>', get_the_title());
                 $output .= '<a href="'.get_the_excerpt().'">'.$title.'</a> <small>&rarr;</small>';
               } else {
-                $output .= '<a href="'.get_permalink().'">'.get_the_title().'</a> <small>&rarr;</small>';
+                $output .= '<a href="'.get_permalink().'">'.$title.'</a> <small>&rarr;</small>';
               }
               $output .= '</h4>';
 
