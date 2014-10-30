@@ -1,5 +1,5 @@
 
-<div class="btn-group">
+<div class="btn-group btn-group-justified">
 	<a class="btn btn-primary" href="/calendar/storytime/dt/">Downtown</a>
 	<a class="btn btn-primary" href="/calendar/storytime/es/">East Side</a>
 	<a class="btn btn-primary" href="/calendar/storytime/hy/">Hillyard</a>
