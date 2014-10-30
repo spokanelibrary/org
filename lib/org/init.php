@@ -457,7 +457,7 @@ function spl_subpages($params) {
               if ( isset($params['highlight']) ) {
                 $title = str_ireplace($params['highlight'], '<span class="'.$params['class'].'">'.$params['highlight'].'</span>', $title);
               }
-
+              $output .= $params['highlight'];
               if ( !empty($post->post_excerpt) && 'excerpt' == $params['link'] ) {
                 //$output .= get_the_title();
                 $output .= '<a href="'.get_the_excerpt().'">'.$title.'</a> <small>&rarr;</small>';
