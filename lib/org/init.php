@@ -544,6 +544,7 @@ function spl_menupage($params) {
               <p id="'.$post->post_name.'">&nbsp;</p>
               <h4 class="">'.get_the_title().'</h4>
               '.apply_filters('the_content', get_the_content() ).'
+              <hr>
               '.PHP_EOL;  
             } else {
               $page .= '
