@@ -459,7 +459,7 @@ function spl_subpages($params) {
               }
               $output .= '</h4>';
 
-              if ( empty($post->post_excerpt) || 'excerpt' != $params['link'] ) {
+              if ( 'hide' != && (empty($post->post_excerpt) || 'excerpt' != $params['link']) ) {
                 $output .= '            
                             <p>'.get_the_excerpt().'</p>'.
                             '</li>'; 
