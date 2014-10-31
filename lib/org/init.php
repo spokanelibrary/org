@@ -530,6 +530,17 @@ function spl_menupage($params) {
         $menu .= '
         <p id="menupage">&nbsp;</p>
         <div class="panel panel-primary">
+        '.PHP_EOL;
+
+        if ( isset($params['menutitle']) ) {
+          $menu .= '
+          <div class="panel-heading">
+          <h4 class="">'.$params['menutitle'].'</h4>
+          </div>
+          '.PHP_EOL;
+        }
+
+        $menu .='
         <div class="panel-body">
         <ul class="nav nav-pills">'.PHP_EOL;  
         
