@@ -1,4 +1,4 @@
-<div class="btn-group">
+<div class="btn-group btn-group-justified">
 	<a class="btn btn-primary" href="#downtown">Downtown</a>
 	<a class="btn btn-primary" href="#east-side">East Side</a>
 	<a class="btn btn-primary" href="#hillyard">Hillyard</a>
