@@ -39,19 +39,21 @@
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
 		<p>
-			The library is pleased to offer access to serveral subscription
+			The library is pleased to offer in-depth technology training to individuals and organizations in our service area.
 		</p>
-
-		<!-- GALE COURSES -->
-
-
-		<!-- MS IT ACADEMY -->
-
-
 		<p>
-			<a rel="external" class="btn btn-warning" 
-					href="http://www.spokanebusiness.org">Visit the <b>Spokane Business Library</b> &rarr;</a>
+			If you are unsure whether your organization falls into our service area please visit <a rel="external" href="http://www.spokanebusiness.org">spokanebusiness.org</a> or take a look at our <a href="/card/">library card information</a>.
 		</p>
+
+		<div class="row">
+			<div class="col-md-6">
+				<!-- GALE COURSES -->
+			</div><!-- /.col -->
+			<div class="col-md-6">
+				<!-- MS IT ACADEMY -->
+			</div><!-- /.col -->
+		</div><!-- /.row -->
+
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
 
@@ -64,6 +66,8 @@
 	<div class="panel-body">
 		<p>
 			The library provides access to serveral subscription-only research tools to individuals and organizations in our service area.
+		</p>
+		<p>
 			If you are unsure whether your organization falls into our service area please visit <a rel="external" href="http://www.spokanebusiness.org">spokanebusiness.org</a> or take a look at our <a href="/card/">library card information</a>.
 		</p>
 		<?php echo do_shortcode('[spl_widget subscriptions-view category=business static]'); ?>
