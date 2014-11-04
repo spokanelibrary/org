@@ -47,10 +47,14 @@
 
 		<div class="row">
 			<div class="col-md-6">
-				<!-- GALE COURSES -->
+				<p>
+					<img src="/assets/img/logos/itacademy.png">
+				</p>
 			</div><!-- /.col -->
 			<div class="col-md-6">
-				<!-- MS IT ACADEMY -->
+				<p>
+					<img src="/assets/img/logos/galecourses.png">
+				</p>
 			</div><!-- /.col -->
 		</div><!-- /.row -->
 
