@@ -68,6 +68,11 @@
 			</div><!-- /.col -->
 		</div><!-- /.row -->
 
+		<p>
+			<a class="btn btn-info" 
+					href="/training/">More about <b>online training courses</b> &rarr;</a>
+		</p>
+
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
 
