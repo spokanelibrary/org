@@ -12,7 +12,7 @@
 		</p>
 
 		<p>
-			We are a founding partner of the <a rel="external" href="http://www.spokanebusiness.org">Spokane Business Library</a>, a unified resource for all Spokane-area businesses to access library services. 
+			We are a founding partner of the <a rel="external" href="http://www.spokanebusiness.org">Spokane Business Library</a>, a unified resource for regional businesses and entrepreneurs to access library services. 
 		</p>
 
 		<p>
