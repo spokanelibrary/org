@@ -47,7 +47,7 @@
 
 		<div class="row">
 			<div class="col-md-6">
-				<p>
+				<p class="center-block">
 					<img src="/assets/img/logos/itacademy.png">
 				</p>
 			</div><!-- /.col -->
