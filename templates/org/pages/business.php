@@ -14,13 +14,13 @@
 
 <h4>
 	Take a minute to check out this important resource. 
-	<small>You'll be glad you did.</h4>
+	You'll be glad you did.
 </h4>
 
 
 <p>
 	<a rel="external" class="btn btn-warning" 
-			href="http://www.spokanebusiness.org">Visit the Spokane Business Library &rarr;</a>
+			href="http://www.spokanebusiness.org">Visit the <b>Spokane Business Library</b> &rarr;</a>
 </p>
 
 <!-- GALE COURSES -->
