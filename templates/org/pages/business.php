@@ -2,26 +2,30 @@
 	Competitive <b>analysis</b>, technology <b>training</b>, and market <b>research</b>: tools and support for the Spokane regional business community.
 </p>
 
-<h3>Spokane Business Library</h3>
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3>Spokane Business Library</h3>
+	</div><!-- /.panel-heading -->
+	<div class="panel-body">
+		<p>
+			<a rel="external" href="http://www.spokanebusiness.org"><img class="img-responsive" src="/assets/img/logos/sbl-masthead.png"></a>
+		</p>
 
-<p>
-	<a rel="external" href="http://www.spokanebusiness.org"><img class="img-responsive" src="/assets/img/logos/sbl-masthead.png"></a>
-</p>
+		<p>
+			We are a founding partner of the <a rel="external" href="http://www.spokanebusiness.org">Spokane Business Library</a>, a unified resource for all Spokane-area businesses to access library services. 
+		</p>
 
-<p>
-	We are a founding partner of the <a rel="external" href="http://www.spokanebusiness.org">Spokane Business Library</a>, a unified resource for all Spokane-area businesses to access library services. 
-</p>
+		<p>
+			<b>Take a minute to check out this important resource.</p> 
+			You'll be glad you did.
+		</p>
 
-<p>
-	<b>Take a minute to check out this important resource.</p> 
-	You'll be glad you did.
-</p>
-
-
-<p>
-	<a rel="external" class="btn btn-warning" 
-			href="http://www.spokanebusiness.org">Visit the <b>Spokane Business Library</b> &rarr;</a>
-</p>
+		<p>
+			<a rel="external" class="btn btn-warning" 
+					href="http://www.spokanebusiness.org">Visit the <b>Spokane Business Library</b> &rarr;</a>
+		</p>
+	</div><!-- /.panel-body -->
+</div><!-- /.panel -->
 
 <!-- GALE COURSES -->
 
