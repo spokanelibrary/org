@@ -34,6 +34,14 @@
 
 
 <!-- MS IT ACADEMY -->
+<h3>Technology training</h3>
+<p>
+	The library is...
+</p>
 
 <h3>Subscription resources</h3>
+<p>
+	The library does...
+</p>
+
 <?php echo do_shortcode('[spl_widget subscriptions-view category=business static]'); ?>
