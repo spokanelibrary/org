@@ -51,7 +51,7 @@ Template Name: Beta Home Page
   <div class="col-md-12">
     <h3 class="text-success">
       <i class="glyphicon glyphicon-pencil"></i> 
-      Library News
+      Read the latest: Library News
     </h3>
   </div>
 
