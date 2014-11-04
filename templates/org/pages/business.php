@@ -30,18 +30,41 @@
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
 
-<!-- GALE COURSES -->
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title">
+			Technology training
+		</h3>
+	</div><!-- /.panel-heading -->
+	<div class="panel-body">
+		<p>
+			The library is...
+		</p>
+
+		<!-- GALE COURSES -->
 
 
-<!-- MS IT ACADEMY -->
-<h3>Technology training</h3>
-<p>
-	The library is...
-</p>
+		<!-- MS IT ACADEMY -->
 
-<h3>Subscription resources</h3>
-<p>
-	The library does...
-</p>
 
-<?php echo do_shortcode('[spl_widget subscriptions-view category=business static]'); ?>
+		<p>
+			<a rel="external" class="btn btn-warning" 
+					href="http://www.spokanebusiness.org">Visit the <b>Spokane Business Library</b> &rarr;</a>
+		</p>
+	</div><!-- /.panel-body -->
+</div><!-- /.panel -->
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title">
+			Subscription research tools
+		</h3>
+	</div><!-- /.panel-heading -->
+	<div class="panel-body">
+		<p>
+			The library does...
+		</p>
+		<?php echo do_shortcode('[spl_widget subscriptions-view category=business static]'); ?>
+	</div><!-- /.panel-body -->
+</div><!-- /.panel -->
