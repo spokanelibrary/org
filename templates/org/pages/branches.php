@@ -19,7 +19,7 @@
 <p>
 <a class="btn btn-success" href="/open/">
 	<i class="glyphicon glyphicon-time"></i>
-	<b>Library open hours</b> &rarr;</a>
+	Library open hours &rarr;</a>
 </p>
 
 <p>
