@@ -14,7 +14,7 @@
 </div>
 
 
-<p>&nbsp;</p>
+<hr>
 
 <p>
 <a class="btn btn-success" href="/open/">
