@@ -12,9 +12,10 @@
 	We are a founding partner of the <a rel="external" href="http://www.spokanebusiness.org">Spokane Business Library</a>, a unified resource for all Spokane-area businesses to access library services. 
 </p>
 
-<p>
-	Take a minute to check out this important resource. You'll be glad you did.
-</p>
+<h4>
+	Take a minute to check out this important resource. 
+	<small>You'll be glad you did.</h4>
+</h4>
 
 
 <p>
