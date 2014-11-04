@@ -4,7 +4,10 @@
 
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title">Spokane Business Library</h3>
+		<h3 class="panel-title">
+			<i class="glyphicon glyphicon-briefcase"></i>
+			Spokane Business Library
+		</h3>
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
 		<p>
@@ -22,7 +25,7 @@
 
 		<p>
 			<a rel="external" class="btn btn-warning" 
-					href="http://www.spokanebusiness.org"><i class="glyphicon glyphicon-briefcase"></i> Visit the <b>Spokane Business Library</b> &rarr;</a>
+					href="http://www.spokanebusiness.org">Visit the <b>Spokane Business Library</b> &rarr;</a>
 		</p>
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
