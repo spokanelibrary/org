@@ -48,7 +48,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<p class="center-block">
-					<img style="margin-bottom:10px;" src="/assets/img/logos/itacademy.png">
+					<img style="margin-bottom:20px;" src="/assets/img/logos/itacademy.png">
 				</p>
 				<p>
 					<small>
