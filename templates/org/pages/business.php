@@ -29,4 +29,4 @@
 <!-- MS IT ACADEMY -->
 
 <h3>Subscription resources</h3>
-<?php do_shortcode('[spl_widget subscriptions-view category=business static]'); ?>
+<?php echo do_shortcode('[spl_widget subscriptions-view category=business static]'); ?>
