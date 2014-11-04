@@ -48,20 +48,14 @@ Template Name: Beta Home Page
 
 
 <div class="row" style="padding-top: 20px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
-  <div class="col-md-12">
-    <h3 class="text-success">
-      <i class="glyphicon glyphicon-bullhorn"></i> 
-      Library News
-    </h3>
-  </div>
 
   <div class="col-md-6">
-    <!--
+    
     <h3 class="text-success">
       <i class="glyphicon glyphicon-pencil"></i> 
       Library News
     </h3>
-    -->
+    
     <img class="img-responsive img-rounded pull-right hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard-300x165.jpg">
     
     <h2 class="clearfix">
