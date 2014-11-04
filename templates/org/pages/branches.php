@@ -30,6 +30,6 @@
 
 <p>
 <a class="btn btn-danger" href="/holiday/">
-	<i class="glyphicon glyphicon-"></i>
+	<i class="glyphicon glyphicon-remove"></i>
 	Holiday schedule &amp; closed days &rarr;</a>
 </p>
