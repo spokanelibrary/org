@@ -4,13 +4,18 @@
 
 <h3 style="color:">Spokane Business Library</h3>
 
-<div class="text-center">
+<p>
 	<a rel="external" href="http://www.spokanebusiness.org"><img class="img-responsive" src="/assets/img/logos/sbl-masthead.png"></a>
-</div>
+</p>
 
 <p>
-	We are a founding partner in the <a rel="external" href="http://www.spokanebusiness.org">Spokane Business Library</a>, a unified resource for all Spokane-area businesses to access library services. 
+	We are a founding partner of the <a rel="external" href="http://www.spokanebusiness.org">Spokane Business Library</a>, a unified resource for all Spokane-area businesses to access library services. 
 </p>
+
+<p>
+	Take a look at this important resource, where you will find detailed listings of all our tools for the Spokane business community.
+</p>
+
 
 <p>
 	<a rel="external" class="btn btn-warning" 
