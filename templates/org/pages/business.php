@@ -48,9 +48,8 @@
 		<div class="row">
 			<div class="col-md-6">
 				<p class="center-block">
-					<img src="/assets/img/logos/itacademy.png">
+					<img style="margin-bottom:10px;" src="/assets/img/logos/itacademy.png">
 				</p>
-				<p>&nbsp;</p>
 				<p>
 					<small>
 					Courses cover a variety of Microsoft products and skill levels – ranging from beginner users to advanced technical courses that qualify for Microsoft Certification testing. 
