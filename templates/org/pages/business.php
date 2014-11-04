@@ -1,5 +1,5 @@
 
-
+<img class="img-responsive" src="/assets/img/logos/sbl-masthead.png">
 
 
 <!-- GALE COURSES -->
