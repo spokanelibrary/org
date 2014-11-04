@@ -39,7 +39,7 @@
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
 		<p>
-			The library is...
+			The library is pleased to offer access to serveral subscription
 		</p>
 
 		<!-- GALE COURSES -->
@@ -63,7 +63,8 @@
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
 		<p>
-			The library does...
+			The library provides access to serveral subscription-only research tools to individuals and organizations in our service area.
+			If you are unsure whether your organization falls into our service area please visit <a rel="external" href="http://www.spokanebusiness.org">spokanebusiness.org</a> or take a look at our <a href="/card/">library card information</a>.
 		</p>
 		<?php echo do_shortcode('[spl_widget subscriptions-view category=business static]'); ?>
 	</div><!-- /.panel-body -->
