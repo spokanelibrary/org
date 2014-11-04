@@ -4,7 +4,7 @@
 
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3>Spokane Business Library</h3>
+		<h3 class="panel-title">Spokane Business Library</h3>
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
 		<p>
