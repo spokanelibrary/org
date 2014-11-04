@@ -2,7 +2,7 @@
 	Competitive <b>analysis</b>, technology <b>training</b>, and market <b>research</b>: tools and support for the Spokane regional business community.
 </p>
 
-<h3 style="color:">Spokane Business Library</h3>
+<h3>Spokane Business Library</h3>
 
 <p>
 	<a rel="external" href="http://www.spokanebusiness.org"><img class="img-responsive" src="/assets/img/logos/sbl-masthead.png"></a>
@@ -12,10 +12,10 @@
 	We are a founding partner of the <a rel="external" href="http://www.spokanebusiness.org">Spokane Business Library</a>, a unified resource for all Spokane-area businesses to access library services. 
 </p>
 
-<h4>
-	Take a minute to check out this important resource. 
+<p>
+	<b>Take a minute to check out this important resource.</p> 
 	You'll be glad you did.
-</h4>
+</p>
 
 
 <p>
@@ -28,3 +28,5 @@
 
 <!-- MS IT ACADEMY -->
 
+<h3>Subscription resources</h3>
+<?php do_shortcode('[spl_widget subscriptions-view category=business static]'); ?>
