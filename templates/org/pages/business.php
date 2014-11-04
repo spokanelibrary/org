@@ -90,5 +90,11 @@
 			If you are unsure whether your organization falls into our service area please visit <a rel="external" href="http://www.spokanebusiness.org">spokanebusiness.org</a> or take a look at our <a href="/card/">library card information</a>.
 		</p>
 		<?php echo do_shortcode('[spl_widget subscriptions-view category=business static]'); ?>
+		
+		<p>
+			<a class="btn btn-default" 
+					href="/subscriptions/">View all <b>subscription databases</b> &rarr;</a>
+		</p>
+
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
