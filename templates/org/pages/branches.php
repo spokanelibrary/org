@@ -17,13 +17,19 @@
 <p>&nbsp;</p>
 
 <p>
-<a class="btn btn-success" href="/open/">Library open hours &rarr;</a>
+<a class="btn btn-success" href="/open/">
+	<i class="glyphicon glyphicon-time"></i>
+	Library open hours &rarr;</a>
 </p>
 
 <p>
-<a class="btn btn-warning" href="/calendar/">Complete calendar of events &rarr;</a>
+<a class="btn btn-warning" href="/calendar/">
+	<i class="glyphicon glyphicon-calendar"></i>
+	Complete calendar of events &rarr;</a>
 </p>
 
 <p>
-<a class="btn btn-danger" href="/holiday/">Holiday schedule & closed days &rarr;</a>
+<a class="btn btn-danger" href="/holiday/">
+	<i class="glyphicon glyphicon-"></i>
+	Holiday schedule &amp; closed days &rarr;</a>
 </p>
