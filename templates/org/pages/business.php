@@ -51,7 +51,9 @@
 					<img src="/assets/img/logos/itacademy.png">
 				</p>
 				<p>
+					<small>
 					Courses cover a variety of Microsoft products and skill levels – ranging from beginner users to advanced technical courses that qualify for Microsoft Certification testing. 
+					</small>
 				</p>
 			</div><!-- /.col -->
 			<div class="col-md-6">
@@ -59,7 +61,9 @@
 					<img src="/assets/img/logos/galecourses.png">
 				</p>
 				<p>
+					<small>
 					Gale Courses offer a wide range of highly interactive courses taught entirely online by college instructors and experts in the field, ensuring a high-quality, high-impact educational experience.
+					</small>
 				</p>
 			</div><!-- /.col -->
 		</div><!-- /.row -->
