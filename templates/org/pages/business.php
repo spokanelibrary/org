@@ -13,7 +13,7 @@
 </p>
 
 <p>
-	Take a look at this important resource, where you will find detailed listings of all our tools for the Spokane business community.
+	Take a minute to check out this important resource. You'll be glad you did.
 </p>
 
 
