@@ -16,7 +16,7 @@
 		</p>
 
 		<p>
-			<b>Take a minute to check out this important resource.</p> 
+			<b>Take a minute to check out this important resource.</b> 
 			You'll be glad you did.
 		</p>
 
