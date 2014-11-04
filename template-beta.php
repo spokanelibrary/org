@@ -64,7 +64,7 @@ Template Name: Beta Home Page
     -->
     <img class="img-responsive img-rounded pull-right hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard-300x165.jpg">
     
-    <h2 class="clearfix">
+    <h2 style="margin-top:0;" class="clearfix">
       <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/">November: Reading, Writing and Electricity</a>
     </h2>
     
