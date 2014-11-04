@@ -55,10 +55,10 @@ Template Name: Beta Home Page
       Library News
     </h3>
     -->
-    <img class="img-responsive img-rounded pull-right hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Create_Spokane_Logo2-158x160.jpg">
+    <img class="img-responsive img-rounded pull-right hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Crystal_Martin-160x115.jpg">
     
     <h2 class="clearfix">
-      <a href="http://news.spokanelibrary.org/newsletter/createspokane-trivia-spokane-is-reading-and-a-book-sale/">#CreateSpokane, Trivia, Spokane is Reading and a Book Sale!</a>
+      <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/">November – Reading, Writing and Electricity</a>
     </h2>
     
     <p class="text-right">
@@ -75,12 +75,12 @@ Template Name: Beta Home Page
       </div>
       <div class="panel-body">
         <ul class="" style="padding-left:14px;">
-          <li><a href="http://news.spokanelibrary.org/6-simple-and-fun-ways-to-support-the-library/">6 Simple (and Fun) Ways to Support the Library!</a></li>
-          <li><a href="http://news.spokanelibrary.org/ueda-award/">Award Nomination for the Library</a></li>
-          <li><a href="http://news.spokanelibrary.org/what-do-you-love-about-spokane/">What do you love about Spokane?</a></li>
-          <li><a href="http://news.spokanelibrary.org/dewey-sir/">Discovering Dewey in Swamplandia!</a></li>
-          <li><a href="http://news.spokanelibrary.org/5-songs-spooky/">Five Spooky Songs</a></li>
-          <li><a href="http://news.spokanelibrary.org/annual_report-13/">A Look Back with 2013 Number Wrap-up</a></li>
+          <li><a href="http://news.spokanelibrary.org/connected-learning-for-connected-holidays/">Connected Learning for Connected Holidays</a></li>
+          <li><a href="http://news.spokanelibrary.org/dewey-for-writers-808-02/">Dewey for Writers - 808.02</a></li>
+          <li><a href="http://news.spokanelibrary.org/5-songs-11-14/">5 Songs - Music for Concentration</a></li>
+          <li><a href="http://news.spokanelibrary.org/events_wrap-up-10-14/">Bang-Up Month for Events</a></li>
+          <li><a href="http://news.spokanelibrary.org/kilowatt_monitor/">How Many Kilowatts Does it Take to Read a Book?</a></li>
+          <li><a href="http://news.spokanelibrary.org/sunday-hours-the-shadle-library/">Sunday Hours @ the Shadle Library</a></li>
         </ul>
       </div>
     </div><!-- /.panel -->
