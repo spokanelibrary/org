@@ -22,7 +22,7 @@
 
 		<p>
 			<a rel="external" class="btn btn-warning" 
-					href="http://www.spokanebusiness.org">Visit the <b>Spokane Business Library</b> &rarr;</a>
+					href="http://www.spokanebusiness.org"><i class="glyphicon glyphicon-briefcase"></i> Visit the <b>Spokane Business Library</b> &rarr;</a>
 		</p>
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
