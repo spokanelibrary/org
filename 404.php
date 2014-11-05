@@ -14,6 +14,8 @@
 -->
 <?php get_search_form(); ?>
 
+<p>&nbsp;</p>
+
 <p>
 <img style="margin:auto;" class="alignnone img-responsive img-rounded" src="/assets/img/jpg/gh.jpg">
 </p>
