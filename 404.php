@@ -6,7 +6,7 @@
 	<h4>This is one of those 404 errors.</h4>
 	<p>
   <?php _e('We could not find the page you are looking for.', 'roots'); ?>
-  <?php _e('Please try searching or check the <a href="/sitemap/">sitemap</a>.', 'roots'); ?>
+  <?php _e('Please try searching or <a href="/sitemap/">check the sitemap</a>.', 'roots'); ?>
 	</p>
 	<p>
 	<?php _e('If you have questions or believe you are seeing this page in error, <a href="/contact/">please contact us</a>.', 'roots'); ?>
