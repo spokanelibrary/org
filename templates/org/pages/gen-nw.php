@@ -32,7 +32,7 @@
 			You can view these yearbooks in your web browser without downloading any files or additional software.
 		</p>
 		<p>
-			These yearbooks are searchable and might be useful if you have a name of someone who attended high school in Spokane.
+			These yearbooks are searchable, so if you have a name of someone who attended high school in Spokane take a look.
 		</p>
 		<p>
 			<a class="btn btn-default btn-block" href="/yearbooks/">More &rarr;</a>
@@ -48,7 +48,7 @@
 			<a href="/northwest-room/house-history/">House &amp; neighborhood history</a>
 		</h4>
 		<p class="clearfix">
-			Some of the information available in our section on researching house history can be useful in uncovering biographical clues.
+			We have collected quite a bit of information on researching house history and previous ownership using public records.
 		</p>
 		<p>
 			<a href="/northwest-room/house-history/">
