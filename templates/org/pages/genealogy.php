@@ -15,6 +15,9 @@ You can then use the results to make an accurate search in the appropriate publi
 
 <hr>
 <h3>Northwest Room digital archives</h3>
+<p class="lead">
+	Some of the digital archives curated by the Northwest Room are useful in Genealogical research.
+</p>
 
 <div class="row">
 
