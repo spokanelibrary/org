@@ -48,6 +48,9 @@
 		</p>
 	</div><!-- /.col -->
 
+</div><!-- /.row -->
+<div class="row">
+
 	<div class="col-md-6">
 		<h4>
 			<a rel="external" href="https://familysearch.org/">FamilySearch.org</a>
