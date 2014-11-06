@@ -23,7 +23,7 @@ You may interlibrary loan a microfilm copy of the newspaper from the State Libra
 </p>
 <div class="alert alert-warning">
 	<p>
-		<b>Please not:</b> This form is for obituary and birth announcement requests for out-of-town customers only. 
+		<b>Please note:</b> This form is for obituary and birth announcement requests for out-of-town customers only. 
 	</p>
 	<p>
 		If you live in the Spokane area, we ask that you come in to do your research. 
