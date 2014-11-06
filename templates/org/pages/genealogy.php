@@ -72,7 +72,7 @@
 			<a href="/northwest-room/digital-collections/">Digitized photo archives</a>
 		</h4>
 		<p class="clearfix">
-			These collections emphasize the most frequently requested subjects in the Northwest Room – the homes, buildings, streets and activities in and around Spokane and could provide some context to your search.
+			These collections emphasize the homes, buildings, streets and activities in and around Spokane and could provide some context to your search.
 		</p>
 		<p>
 			<a href="/northwest-room/digital-collections/">
