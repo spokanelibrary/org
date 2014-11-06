@@ -59,27 +59,6 @@
 	<div class="col-md-6">
 		<hr>
 		<h4>
-			<a href="/northwest-room/exhibits/">Northwest exhibit schedule</a>
-		</h4>
-		<p class="clearfix">
-			The Northwest Room displays permanent art as well as exhibits which rotate several times a year.
-		</p>
-		<p>
-			<a href="/northwest-room/exhibits/">
-			<img class="img-responsive img-rounded" alt="Exhibits" src="/assets/img/digicol/nw-exhibit-intro.jpg" />
-			</a>
-		</p>
-		<p>
-			<a class="btn btn-default btn-block" href="/northwest-room/exhibits/">More &rarr;</a>
-		</p>
-	</div><!-- /.col -->
-
-</div><!-- /.row -->
-<div class="row">
-
-	<div class="col-md-6">
-		<hr>
-		<h4>
 			<a href="/northwest-room/house-history/">House history</a>
 		</h4>
 		<p class="clearfix">
@@ -90,20 +69,6 @@
 		</p>
 	</div><!-- /.col -->
 
-	<div class="col-md-6">
-		<hr>
-		<h4>
-			<a href="/northwest-room/fuller/">The Fuller Collection</a>
-		</h4>
-		<p class="clearfix">
-			The Fuller Collection consists of rare materials relating to the history of writing and printing.
-		</p>
-		<p>
-			<a class="btn btn-default btn-block" href="/northwest-room/fuller/">More &rarr;</a>
-		</p>
-	</div><!-- /.col -->
-
 </div><!-- /.row -->
-
 
 
