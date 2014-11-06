@@ -42,7 +42,7 @@
 			You can search recent obituaries directly on the Spokeman Review page at legacy.com.
 		</p>
 		<p>
-			You can also use the <a href="http://www.legacy.com/obituaries/spokesman/obituary-search.aspx">advanced search</a>.
+			You can also use the <a href="http://www.legacy.com/obituaries/spokesman/obituary-search.aspx">advanced search</a> to narrow down your search.
 		</p>
 		<p>
 			<a class="btn btn-default btn-block" href="http://www.legacy.com/obituaries/spokesman/">More &rarr;</a>
