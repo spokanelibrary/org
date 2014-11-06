@@ -65,6 +65,11 @@
 			Getting to know the history of your house can be a fun and fascinating process.
 		</p>
 		<p>
+			<a href="/northwest-room/house-history/">
+			<img class="img-responsive img-rounded" alt="House History" src="/assets/img/digicol/spl-homes.jpg" />
+			</a>
+		</p>
+		<p>
 			<a class="btn btn-default btn-block" href="/northwest-room/house-history/">More &rarr;</a>
 		</p>
 	</div><!-- /.col -->
