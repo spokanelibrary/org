@@ -11,8 +11,12 @@
 		Make a vital records request &rarr;</a>
 </p>
 <div class="alert alert-warning">
+	<h4>
+		<i class="glyphicon glyphicon-exlamation-sign"></i>
+		Important notice
+	</h4>
 	<p>
-		<b>Please note:</b> This form is for obituary and birth announcement requests for out-of-town customers only. 
+		This service is for obituary and birth announcement requests for <b>out-of-town</b> customers only. 
 	</p>
 	<p>
 		If you live in the Spokane area, we ask that you come in to do your research. 
