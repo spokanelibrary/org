@@ -7,7 +7,7 @@
 This search will return the person’s name, the publication the obituary appeared in, as well as the publication date and page.
 </p>
 <p>
-	<a href="btn btn-default">Start searching &rarr;</a>
+	<a class="btn btn-default" href="/obits/">Start searching &rarr;</a>
 </p>
 
 <hr>
