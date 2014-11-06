@@ -18,8 +18,8 @@ You can then use the results to make an accurate search in the appropriate publi
 	Are you doing research from outside the greater Spokane area?
 </p>
 <p>
-We will search for three announcements at a time and will search the newspaper for 5 days after an event date. 
-You may interlibrary loan a microfilm copy of the newspaper from the State Library if you wish to continue the search yourself.
+	We will search for three announcements at a time and will search the newspaper for 5 days after an event date. 
+	You may interlibrary loan a microfilm copy of the newspaper from the State Library if you wish to continue the search yourself.
 </p>
 <div class="alert alert-warning">
 	<p>
@@ -35,6 +35,27 @@ You may interlibrary loan a microfilm copy of the newspaper from the State Libra
 	<a class="btn btn-block btn-primary" href="/vitals/">
 		<i class="glyphicon glyphicon-search"></i>
 		Make a vital records request &rarr;</a>
+</p>
+<hr>
+
+<h3>Directory of online genealogy resources</h3>
+<p class="lead">
+	We have collected and organized links to many of the most useful websites for exploring genealogy.
+</p>
+<h4>Topics include:</h4>
+<ul>
+	<li>Census Records</li>
+	<li>Immigration &amp; Naturalization Records</li>
+	<li>Vital &amp; Public Records </li>
+	<li>Military Records</li>
+	<li>Land Records</li>
+	<li>Court records</li>
+	<li>Genealogy websites</li>
+</ul>
+<p>
+	<a class="btn btn-block btn-primary" href="http://learn.spokanelibrary.org/genealogy/">
+		<i class="glyphicon glyphicon-search"></i>
+		Browse genealogy websites &rarr;</a>
 </p>
 <hr>
 
