@@ -43,7 +43,7 @@ You can then use the results to make an accurate search in the appropriate publi
 	We have collected and organized links to many of the most useful websites for exploring genealogy.
 </p>
 <h4>Topics include:</h4>
-<ul>
+<ul class="nav nav-pills">
 	<li>Census Records</li>
 	<li>Immigration &amp; Naturalization Records</li>
 	<li>Vital &amp; Public Records </li>
