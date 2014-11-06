@@ -1,6 +1,3 @@
-<p class="lead">
-	Are you doing research from outside the greater Spokane area?
-</p>
 <p>
 	Our librarians can search our records on your behalf for birth or death notices.
 </p>

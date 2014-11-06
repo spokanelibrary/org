@@ -1,6 +1,3 @@
-<p class="lead">
-	Search our records of more than 75,000 regional obituaries.
-</p>
 <p>
 	This is a comprehensive record of obituaries since 2008, with some addional records dating back to the early 1900s.
 </p>
