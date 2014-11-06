@@ -57,6 +57,9 @@ More information is added daily by volunteers.
 </p>
 
 <p>
-	<a class="btn btn-success btn-block" rel="external" href="https://familysearch.org/">Visit FamilySearch &rarr;</a>
+	<a class="btn btn-success btn-block" rel="external" href="https://familysearch.org/">
+		<i class="glyphicon glyphicon-share-alt"></i>
+		Visit FamilySearch &rarr;
+	</a>
 </p>
 
