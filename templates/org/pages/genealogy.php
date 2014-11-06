@@ -52,7 +52,7 @@
 			<a href="/northwest-room/house-history/">House &amp; neighborhood history</a>
 		</h4>
 		<p class="clearfix">
-			Getting to know the history of your house can be a fun and fascinating process.
+			Some of the information available in our section on researching house history can be useful in uncovering biographical clues.
 		</p>
 		<p>
 			<a href="/northwest-room/house-history/">
