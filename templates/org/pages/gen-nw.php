@@ -67,7 +67,7 @@
 		</h4>
 		<p class="clearfix">
 			These collections emphasize the homes, buildings, streets and activities in and around Spokane.
-			They might provide some context to your search.
+			They might provide some interesting context to your search.
 		</p>
 		<p>
 			<a href="/northwest-room/digital-collections/">
