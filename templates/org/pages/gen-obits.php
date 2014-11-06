@@ -9,7 +9,7 @@
 	You can then use the results to make an accurate search in the appropriate publication.
 </p>
 
-<?php echo do_shortcode('[spl_widget obit-lookup search]'); ?>
+<?php //echo do_shortcode('[spl_widget obit-lookup search]'); ?>
 
 <p>
 	<a class="btn btn-block btn-primary" href="/obits/">
