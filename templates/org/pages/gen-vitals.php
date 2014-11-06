@@ -12,7 +12,7 @@
 </p>
 <div class="alert alert-warning">
 	<h4>
-		<i class="glyphicon glyphicon-exlamation-sign"></i>
+		<i class="glyphicon glyphicon-warning-sign"></i>
 		Important notice
 	</h4>
 	<p>
