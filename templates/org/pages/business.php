@@ -69,7 +69,7 @@
 		</div><!-- /.row -->
 
 		<p>
-			<a class="btn btn-info" 
+			<a class="btn btn-block btn-info" 
 					href="/training/">More about <b>online training courses</b> &rarr;</a>
 		</p>
 
