@@ -107,55 +107,6 @@
 	</div><!-- /.col -->
 
 </div><!-- /.row -->
-<div class="row">
-
-	<div class="col-md-6">
-		<hr>
-		<h4>
-			<a href="/northwest-room/maps/">Northwest Map Collection</a>
-		</h4>
-		<p class="clearfix">
-			Maps offer a whole different dimension to studying and understanding the history of the Pacific Northwest.
-		</p>
-		<p>
-			<a class="btn btn-default btn-block" href="/northwest-room/maps/">More &rarr;</a>
-		</p>
-	</div><!-- /.col -->
-
-	<div class="col-md-6">
-		<hr>
-		<h4>
-			<a href="/northwest-room/photo-archive/">Northwest Room Photo archive</a>
-		</h4>
-		<p class="clearfix">
-			Spokane Public Library’s small, but impressive, photograph collection contains several hundred prints offering glimpses of life in the Pacific Northwest.
-		</p>
-		<p>
-			<a class="btn btn-default btn-block" href="/northwest-room/photo-archive/">More &rarr;</a>
-		</p>
-	</div><!-- /.col -->
-
-</div><!-- /.row -->
 
 
-<!--
-<hr>
-	<a href="/northwest-room/">Northwest Room</a>
-<br>
-	<a href="/yearbooks/">High school yearbooks</a>
-<br>
-	<a href="/northwest-room/resources/">Northwest Room resources</a>
-<br>
-<ul>
-	<li><a href="/northwest-room/biofiles/">Biographical files</a></li>
-	<li><a href="/northwest-room/house-history/">House history</a></li>
-	<li><a href="/northwest-room/photo-archive/">Photo archive</b></a></li>
-	<li><a href="/northwest-room/maps/">Map collection</a></li>
-	<li><a href="/northwest-room/fuller/">Fuller collection</a></li>
-	<li><a href="/northwest-room/digital-collections/">Digital collections</a></li>
-	<li><a href="/northwest-room/exhibits/">Northwest Room exhibits</li>
-	<li><a href="/northwest-room/policies/">Northwest Room policies</li>
-	<li><a href="/northwest-room/about/">About the Northwest Room</li>
-	<li><a href="/northwest-room/ned-barnes/">Ned M. Barnes</li>
-</ul>
--->
+
