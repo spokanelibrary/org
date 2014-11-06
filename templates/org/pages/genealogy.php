@@ -56,7 +56,7 @@
 		</p>
 		<p>
 			<a href="/northwest-room/house-history/">
-			<img class="img-responsive img-rounded" alt="House History" src="/assets/img/digicol/spl-homes.jpg" />
+			<img class="img-responsive img-rounded" style="margin:auto;" alt="House History" src="/assets/img/digicol/spl-homes.jpg" />
 			</a>
 		</p>
 		<p>
