@@ -48,10 +48,12 @@
 
 </div><!-- /.row -->
 
-<h3>FamilySearch</h3>
+<h4>
+	<a rel="external" href="https://familysearch.org/">FamilySearch.org</a>
+</h4>
 
 <p>
-FamilySearch is an free online database provided by the LDS church. 
+<b>FamilySearch</b> is an free online database provided by the LDS church. 
 It includes birth, marriage and death records as well as most U.S. Census records. 
 More information is added daily by volunteers.
 </p>
