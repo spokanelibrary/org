@@ -1,3 +1,7 @@
+<p class="lead">
+	Follow our very own <em>Obituary Goddess</em> Becky and stay up to date with the past.
+</p>
+
 <h4 class="text-success">
 	<i class="glyphicon glyphicon-comment"></i> 
 	Recently posted

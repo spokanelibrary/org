@@ -1,5 +1,5 @@
 <p class="lead">
-	Some of the digital archives curated by the Northwest Room are also useful in genealogical research.
+	Some of the digital archives curated by the Northwest Room can be useful in genealogical research.
 </p>
 
 <div class="row">
