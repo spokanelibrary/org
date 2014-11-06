@@ -28,11 +28,16 @@ You may interlibrary loan a microfilm copy of the newspaper from the State Libra
 	<p>
 		If you live in the Spokane area, we ask that you come in to do your research. 
 		<br>
-		<b>We'll be glad to help!</b>
+		We'll be glad to help!
 	</p>
 </div>
-
+<p>
+	<a class="btn btn-block btn-primary" href="/vitals/">
+		<i class="glyphicon glyphicon-search"></i>
+		Make a vital records request &rarr;</a>
+</p>
 <hr>
+
 <h3>Northwest Room digital archives</h3>
 <p class="lead">
 	Some of the digital archives curated by the Northwest Room are useful in Genealogical research.
