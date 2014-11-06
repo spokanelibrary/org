@@ -2,7 +2,12 @@
 	Are you doing research from outside the greater Spokane area?
 </p>
 <p>
-	We will search for three announcements at a time and will search the newspaper for 5 days after an event date. 
+	Our librarians can search our records on your behalf for birth or death notices.
+</p>
+<p>
+	We will search for <b>3 announcements at a time</b> and will search the newspaper for <b>5 days after an event date</b>. 
+</p>
+<p>
 	You may interlibrary loan a microfilm copy of the newspaper from the State Library if you wish to continue the search yourself.
 </p>
 <p>
