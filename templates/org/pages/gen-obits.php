@@ -56,6 +56,7 @@ It includes birth, marriage and death records as well as most U.S. Census record
 More information is added daily by volunteers.
 </p>
 
-<a class="btn btn-default btn-block" href="https://familysearch.org/">Visit FamilySearch &rarr;</a>
-
+<p>
+	<a class="btn btn-inverse btn-block" href="https://familysearch.org/">Visit FamilySearch &rarr;</a>
+</p>
 
