@@ -1,5 +1,4 @@
 <h3>Obituary search</h3>
-
 <p class="lead">
 	Search more than 75,000 regional obituaries dating back to the early 1900s
 </p>
@@ -12,6 +11,17 @@ You can then use the results to make an accurate search in the appropriate publi
 		<i class="glyphicon glyphicon-search"></i>
 		Start searching obituaries &rarr;</a>
 </p>
+<hr>
+
+<h3>Vital records request</h3>
+<p class="lead">
+	Are you doing research from outside the greater Spokane area?
+</p>
+<p>
+We will search for three announcements at a time and will search the newspaper for 5 days after an event date. 
+You may interlibrary loan a microfilm copy of the newspaper from the State Library if you wish to continue the search yourself.
+</p>
+
 
 <hr>
 <h3>Northwest Room digital archives</h3>
