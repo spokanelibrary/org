@@ -19,6 +19,9 @@
 			You can view these yearbooks in your web browser without downloading any files or additional software.
 		</p>
 		<p>
+			These yearbooks are searchable and might be useful if you have a name of someone who attended high school in Spokane.
+		</p>
+		<p>
 			<a class="btn btn-default btn-block" href="/yearbooks/">More &rarr;</a>
 		</p>
 	</div><!-- /.col -->
