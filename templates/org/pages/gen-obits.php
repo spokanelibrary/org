@@ -11,6 +11,3 @@ You can then use the results to make an accurate search in the appropriate publi
 		<i class="glyphicon glyphicon-search"></i>
 		Start searching obituaries &rarr;</a>
 </p>
-<hr>
-
-
