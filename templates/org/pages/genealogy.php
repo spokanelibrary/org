@@ -1,3 +1,4 @@
+<h3>Northwest Room digital archives</h3>
 
 <div class="row">
 
@@ -66,7 +67,7 @@
 		</p>
 		<p>
 			<a href="/northwest-room/house-history/">
-			<img class="img-responsive img-rounded margin-auto" alt="House History" src="/assets/img/digicol/spl-homes.jpg" />
+			<img class="img-responsive img-rounded" alt="House History" src="/assets/img/digicol/spl-homes.jpg" />
 			</a>
 		</p>
 		<p>
