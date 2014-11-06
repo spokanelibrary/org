@@ -8,7 +8,7 @@ This search will return the person’s name, the publication the obituary appear
 </p>
 <p>
 	<a class="btn btn-block btn-primary" href="/obits/">
-		<i class="glyphicon glyphicon-search"></a>
+		<i class="glyphicon glyphicon-search"></i>
 		Obituary search &rarr;</a>
 </p>
 
