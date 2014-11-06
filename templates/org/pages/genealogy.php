@@ -16,6 +16,8 @@
 				<img class="img-responsive img-rounded alignright" alt="Biofiles" src="/assets/img/digicol/nw-bio-thumb.jpg" />
 			</a>
 			For over 100 years, librarians at SPL clipped the newspapers for biographical information.
+		</p>
+		<p>
 			These clippings include obituaries on pioneers, but they also contain all kinds of biographical information from papers in Spokane and around the Northwest.
 		</p>
 		<p>
