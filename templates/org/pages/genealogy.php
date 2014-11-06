@@ -1,5 +1,14 @@
-<h3>Obituary searches</h3>
+<h3>Obituary search</h3>
 
+<p class="lead">
+	Search more than 75,000 regional obituaries dating back to the early 1900s
+</p>
+<p>
+This search will return the person’s name, the publication the obituary appeared in, as well as the publication date and page.
+</p>
+<p>
+	<a href="btn btn-default">Start searching &rarr;</a>
+</p>
 
 <hr>
 <h3>Northwest Room digital archives</h3>
