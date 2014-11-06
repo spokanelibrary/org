@@ -14,6 +14,8 @@
 		Start searching obituaries &rarr;</a>
 </p>
 
+<h3>
+
 <h3>Additional obituary search sources</h3>
 
 <div class="row">
