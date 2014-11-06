@@ -21,7 +21,15 @@ You can then use the results to make an accurate search in the appropriate publi
 We will search for three announcements at a time and will search the newspaper for 5 days after an event date. 
 You may interlibrary loan a microfilm copy of the newspaper from the State Library if you wish to continue the search yourself.
 </p>
-
+<div class="alert alert-warning">
+	<p>
+		<b>Please not:</b> This form is for obituary and birth announcement requests for out-of-town customers only. 
+	</p>
+	<p>
+		If you live in the Spokane area, we ask that you come in to do your research. 
+		We'll be glad to help! 
+	</p>
+</div>
 
 <hr>
 <h3>Northwest Room digital archives</h3>
