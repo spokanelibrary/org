@@ -44,7 +44,7 @@
 	<div class="col-md-6">
 		<hr>
 		<h4>
-			<a href="/northwest-room/digital-collections/">Digital archives</a>
+			<a href="/northwest-room/digital-collections/">Digitized photo archives</a>
 		</h4>
 		<p class="clearfix">
 			These collections, available online, emphasize the most frequently requested subjects in the Northwest Room – the homes, buildings, streets and activities in and around Spokane.
