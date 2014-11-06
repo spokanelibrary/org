@@ -44,13 +44,13 @@ You can then use the results to make an accurate search in the appropriate publi
 </p>
 <h4>Topics include:</h4>
 <ul class="nav nav-pills">
-	<li>Census Records</li>
-	<li>Immigration &amp; Naturalization Records</li>
-	<li>Vital &amp; Public Records </li>
-	<li>Military Records</li>
-	<li>Land Records</li>
-	<li>Court records</li>
-	<li>Genealogy websites</li>
+	<li class="thumbnail">Census Records</li>
+	<li class="thumbnail">Immigration &amp; Naturalization Records</li>
+	<li class="thumbnail">Vital &amp; Public Records </li>
+	<li class="thumbnail">Military Records</li>
+	<li class="thumbnail">Land Records</li>
+	<li class="thumbnail">Court records</li>
+	<li class="thumbnail">Genealogy websites</li>
 </ul>
 <p>
 	<a class="btn btn-block btn-primary" href="http://learn.spokanelibrary.org/genealogy/">
