@@ -27,7 +27,8 @@ You may interlibrary loan a microfilm copy of the newspaper from the State Libra
 	</p>
 	<p>
 		If you live in the Spokane area, we ask that you come in to do your research. 
-		We'll be glad to help! 
+		<br>
+		<b>We'll be glad to help!</b>
 	</p>
 </div>
 
