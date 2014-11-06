@@ -48,21 +48,19 @@
 		</p>
 	</div><!-- /.col -->
 
+	<div class="col-md-6">
+		<h4>
+			<a rel="external" href="https://familysearch.org/">FamilySearch.org</a>
+		</h4>
+		<p>
+			<b>FamilySearch</b> is an free online database provided by the LDS church. 
+			It includes birth, marriage and death records as well as most U.S. Census records. 
+			More information is added daily by volunteers.
+		</p>
+		<p>
+			<a class="btn btn-default btn-block" rel="external" href="https://familysearch.org/">More &rarr;</a>
+		</p>
+	</div><!-- /.col -->
+
 </div><!-- /.row -->
-
-<h4>
-	<a rel="external" href="https://familysearch.org/">FamilySearch.org</a>
-</h4>
-
-<p>
-<b>FamilySearch</b> is an free online database provided by the LDS church. 
-It includes birth, marriage and death records as well as most U.S. Census records. 
-More information is added daily by volunteers.
-</p>
-
-<p>
-	<a class="btn btn-success btn-block" rel="external" href="https://familysearch.org/">
-		Visit FamilySearch &rarr;
-	</a>
-</p>
 
