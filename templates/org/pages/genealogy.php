@@ -5,6 +5,7 @@
 </p>
 <p>
 This search will return the person’s name, the publication the obituary appeared in, as well as the publication date and page.
+You can then use the results to make an accurate search in the appropriate publication.
 </p>
 <p>
 	<a class="btn btn-block btn-primary" href="/obits/">
