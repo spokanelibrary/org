@@ -40,7 +40,7 @@ You may interlibrary loan a microfilm copy of the newspaper from the State Libra
 
 <h3>Northwest Room digital archives</h3>
 <p class="lead">
-	Some of the digital archives curated by the Northwest Room are useful in Genealogical research.
+	Some of the digital archives curated by the Northwest Room are useful in genealogical research.
 </p>
 
 <div class="row">
