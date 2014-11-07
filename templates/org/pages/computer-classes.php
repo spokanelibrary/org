@@ -4,7 +4,14 @@
 		<h4>
 			<a href="/reference/">Beginning Internet</a> <small>&rarr;</small>
 		</h4>
-		Lorem ipsum
+		<p>
+			Lorem ipsum
+		</p>
+		<p>
+			<a class="btn btn-warning" href="//">
+				<i class="glyphicon glyphicon-time"></i>
+				Find dates &amp; times &rarr;</a>
+		</p>
 	</li>
 	<li class="list-group-item">
 		<h4>
