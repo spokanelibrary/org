@@ -1,5 +1,5 @@
 
-<img class=="alignright" src="/assets/img/logos/Worksource_Spokane.jpg">
+<img class="alignright" src="/assets/img/logos/Worksource_Spokane.jpg">
 <h3 class="text-success">WorkSource open hours</h3>
 <dl class="dl-horizontal">
 <dt>Tuesday</dt>
