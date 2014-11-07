@@ -501,7 +501,7 @@ function spl_subpages_links($params) {
     }
     
     if ( $params['btnicon'] ) {
-      $btn_icon = '<i class="glyphicon glyphicon-'.$params['btnclass'].'></i> ';
+      $btn_icon = '<i class="glyphicon glyphicon-'.$params['btnclass'].'"></i> ';
     }
 
     //print_r($params);
