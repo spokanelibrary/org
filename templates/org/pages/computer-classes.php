@@ -12,7 +12,7 @@
 			<li>Creating video holiday cards</li>
 		</ul>
 		<p>
-			<a class="btn btn-primary" href="/calendar/find/Learning+Lab/">
+			<a class="btn btn-success" href="/calendar/find/Learning+Lab/">
 				<i class="glyphicon glyphicon-time"></i>
 				Find dates &amp; times &rarr;</a>
 		</p>
@@ -39,7 +39,7 @@
 			Interested in 3D printing? Come on in and learn a little bit about creating your own 3D design and then see how they print!
 		</p>
 		<p>
-			<a class="btn btn-warning" href="/calendar/find/3D+Printing/">
+			<a class="btn btn-success" href="/calendar/find/3D+Printing/">
 				<i class="glyphicon glyphicon-time"></i>
 				Find dates &amp; times &rarr;</a>
 		</p>
@@ -53,7 +53,7 @@
 			Come join us for an overview of the Library’s eBook services.
 		</p>
 		<p>
-			<a class="btn btn-warning" href="/calendar/find/Downloading+eBooks/">
+			<a class="btn btn-success" href="/calendar/find/Downloading+eBooks/">
 				<i class="glyphicon glyphicon-time"></i>
 				Find dates &amp; times &rarr;</a>
 		</p>
