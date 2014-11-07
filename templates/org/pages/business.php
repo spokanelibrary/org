@@ -70,7 +70,7 @@
 
 		<p>
 			<a class="btn btn-block btn-info" 
-					href="/training/">More about <b>online technology courses</b> &rarr;</a>
+					href="/tech-training/">More about <b>online technology courses</b> &rarr;</a>
 		</p>
 
 	</div><!-- /.panel-body -->
