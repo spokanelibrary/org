@@ -1,5 +1,5 @@
 <p>
-	The library offers in-depth technology training to people of all ages and skill levels.
+	The library offers in-depth, online technology training to people of all ages and skill levels.
 </p>
 
 <div class="row">
@@ -28,5 +28,16 @@
 <p>
 	<a class="btn btn-block btn-info" 
 			href="/training/">More about <b>online technology courses</b> &rarr;</a>
+</p>
+
+<h3>Hands-on classes in the library</h3>
+<p>
+	We also have some great computer &amp; technology classes in the library on a regular basis.
+</p>
+<p>
+	<p>
+	<a class="btn btn-block btn-info" 
+			href="/computer-classes/">More about <b>hands-on computer classes</b> &rarr;</a>
+</p>
 </p>
 
