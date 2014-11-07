@@ -2,12 +2,11 @@
 	The WorkSource Spokane computer lab is located on the second floor of the <a href="/downtown/">Downtown library</a>.
 </p>
 
-<div class="alert alert-info">
-	<p>
-		Please direct questions about this resource to the Downtown library reference desk at 444-5336 or <a href="/ask/">ask a librarian</a>. 
-	</p>
-</div>
-
+<p>
+	<a class="btn btn-block btn-warning" href="#upcoming">
+		<i class="glyphicon glyphicon-calendar"></i> 
+		Check the WorkSource calendar <span class="caret"></span></a>
+</p>
 
 <img class="alignright" src="/assets/img/logos/Worksource_Spokane.jpg">
 <h3 class="text-success">WorkSource open hours</h3>
@@ -22,11 +21,12 @@
 
 <hr>
 
-<p>
-	<a class="btn btn-block btn-warning" href="#upcoming">
-		<i class="glyphicon glyphicon-calendar"></i> 
-		Check the WorkSource calendar <span class="caret"></span></a>
-</p>
+<div class="alert alert-info">
+	<p>
+		Please direct questions about this resource to the Downtown library reference desk at 444-5336 or <a href="/ask/">ask a librarian</a>. 
+	</p>
+</div>
+
 
 <h4>About the WorkSource Spokane Connection site</h4>
 Our WorkSource Spokane Connection site offers computers for individuals who need them for employment-related activities. If you’re working on your resume or applying for jobs online, this is a good location to do that work. 
