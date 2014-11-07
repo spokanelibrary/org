@@ -1,6 +1,3 @@
-<p>
-	The library offers in-depth, online technology training to people of all ages and skill levels.
-</p>
 
 <div class="row">
 	<div class="col-md-6">
