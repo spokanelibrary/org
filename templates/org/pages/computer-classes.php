@@ -12,7 +12,7 @@
 			<li>Creating video holiday cards</li>
 		</ul>
 		<p>
-			<a class="btn btn-warning" href="/calendar/find/Learning+Lab/">
+			<a class="btn btn-primary" href="/calendar/find/Learning+Lab/">
 				<i class="glyphicon glyphicon-time"></i>
 				Find dates &amp; times &rarr;</a>
 		</p>
@@ -26,7 +26,7 @@
 			Our Digital Projects Manager, Tara Neumann,  will be available during Digital Drop-In Time to answer questions and show you a variety of gadgets.
 		</p>
 		<p>
-			<a class="btn btn-warning" href="/calendar/find/Digital+Drop-In/">
+			<a class="btn btn-success" href="/calendar/find/Digital+Drop-In/">
 				<i class="glyphicon glyphicon-time"></i>
 				Find dates &amp; times &rarr;</a>
 		</p>
