@@ -1,5 +1,6 @@
+<p id="upcoming">&nbsp;</p>
 
-<div class="panel panel-warning" id="upcoming">
+<div class="panel panel-warning">
 	<div class="panel-heading">
 		<h3 class="panel-title">
 			<i class="glyphicon glyphicon-calendar"></i>
