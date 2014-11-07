@@ -79,7 +79,7 @@
 		</p>
 		<p>
 			<a class="btn btn-block btn-success" 
-					href="/learning-lab/">More about <b>hands-on learning labs</b> &rarr;</a>
+					href="/learning-labs/">More about <b>hands-on learning labs</b> &rarr;</a>
 		</p>
 
 	</div><!-- /.panel-body -->
