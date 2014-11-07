@@ -7,11 +7,10 @@
 		<p>
 			Join our Digital Projects Manager, Tara Neumann, and explore topics such as:
 		</p>
-		<ul>
+		<ul style="margin-bottom:10px;">
 			<li>Buying &amp; selling online</li>
 			<li>Creating video holiday cards</li>
 		</ul>
-		<p>&nbsp;</p>
 		<p>
 			<a class="btn btn-warning" href="/calendar/find/Learning+Lab/">
 				<i class="glyphicon glyphicon-time"></i>
