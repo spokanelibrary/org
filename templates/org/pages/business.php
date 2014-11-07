@@ -78,7 +78,7 @@
 			We also have some great computer &amp; technology classes you can take in the library.
 		</p>
 		<p>
-			<a class="btn btn-block btn-warning" 
+			<a class="btn btn-block btn-success" 
 					href="/learning-lab/">More about <b>hands-on learning labs</b> &rarr;</a>
 		</p>
 
