@@ -6,9 +6,11 @@
 
 <h4>Please call 444-5336 or the hosting <a href="/branches">library branch</a> with questions.</h4>
 
+<p>
 <a class="btn btn-block btn-warning" href="#upcoming">
 	<i class="glyphicon glyphicon-calendar"></i> 
 	Schedule of all upcoming classes</a>
+</p>
 
 <?php echo do_shortcode('[spl_subpages_links btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
 
