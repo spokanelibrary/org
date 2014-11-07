@@ -10,7 +10,7 @@
 	<i class="glyphicon glyphicon-calendar"></i> 
 	Schedule of all upcoming classes</a>
 
-<?php echo do_shortcode('[spl_subpages_links btnclass=success btnicon=time btntext="Find dates & times"]'; ?>
+<?php echo do_shortcode('[spl_subpages_links btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
 
 <p id="upcoming">&nbsp;</p>
 
