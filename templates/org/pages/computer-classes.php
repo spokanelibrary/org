@@ -2,7 +2,7 @@
 <ul class="list-group">
 	<li class="list-group-item">
 		<h4>
-			<a href="/calendar/find/Learning+Lab:/">Learning Labs</a> <small>&rarr;</small>
+			<a href="/calendar/find/Learning+Lab/">Learning Labs</a> <small>&rarr;</small>
 		</h4>
 		<p>
 			Join our digital projects manager and explore topics such as:
@@ -12,7 +12,7 @@
 			</ul>
 		</p>
 		<p>
-			<a class="btn btn-warning" href="/calendar/find/Learning+Lab:/">
+			<a class="btn btn-warning" href="/calendar/find/Learning+Lab/">
 				<i class="glyphicon glyphicon-time"></i>
 				Find dates &amp; times &rarr;</a>
 		</p>
