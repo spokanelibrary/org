@@ -6,8 +6,19 @@
 		</h3>
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
-		<ul class="nav nav-pills">
-			<li><a href="">Beginning Internet &rarr;</a></li>
+		<ul class="list-group">
+			<li class="list-group-item">
+				<h4>
+					<a href="/reference/">Beginning Internet</a> <small>&rarr;</small>
+				</h4>
+				Lorem ipsum
+			</li>
+			<li class="list-group-item">
+				<h4>
+					<a href="/reference/">Beginning Internet</a> <small>&rarr;</small>
+				</h4>
+				Lorem ipsum
+			</li>
 		</ul>
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
