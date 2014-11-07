@@ -487,72 +487,7 @@ function spl_subpages($params) {
 
 add_shortcode('spl_subpages', 'spl_subpages'); 
 
-function spl_subpages_links($params) {  
-    global $post;  
-    
-    $orderby = 'title';
-    if ( $params['orderby'] ) {
-      $orderby = $params['orderby'];
-    }
 
-    $sort = 'ASC';
-    if ( $params['sort'] ) {
-      $sort = $params['sort'];
-    }
-
-    //query subpages  
-    $args = array(  
-        'post_parent' => $post->ID
-      , 'post_type' => 'page'  
-      , 'orderby' => $orderby
-      , 'order' => $sort
-      , 'posts_per_page' => -1
-    );   
-    $subpages = new WP_query($args);  
-    
-    // create output  
-    if ($subpages->have_posts()) :  
-        $output = '<ul class="list-group">';  
-        while ($subpages->have_posts()) : $subpages->the_post();  
-          $title = get_the_title();
-
-          $output .= '<li class="list-group-item">';
-          
-          $output .= '<h4>';
-          if ( !empty($post->post_excerpt) ) {
-            $output .= '<a href="'.get_the_excerpt().'">'.$title.'</a> <small>&rarr;</small>';
-          } else {
-            $output .= '<a href="'.get_permalink().'">'.$title.'</a> <small>&rarr;</small>';
-          }
-          $output .= '</h4>';
-
-          $output .= apply_filters('the_content', get_the_content() );
-          
-          $output .= '<p>';
-          if ( !empty($post->post_excerpt) ) {
-            $output .= '<a class="btn btn-success" href="'.get_the_excerpt().'">'.$title.'</a> <small>&rarr;</small>';
-          } else {
-            $output .= '<a class="btn btn-success" href="'.get_permalink().'">'.$title.'</a> <small>&rarr;</small>';
-          }
-          $output .= '</p>';
-
-          $output .= '</li>'; 
-              
-        }
-        endwhile;  
-        $output .= '</ul>';  
-    else :  
-        $output = '<p>No subpages found.</p>';  
-    endif;  
-      
-    // reset the query  
-    wp_reset_postdata();  
-      
-    // return something  
-    return $output;  
-} 
-
-add_shortcode('spl_subpages_links', 'spl_subpages_links'); 
 
 function spl_menupage($params) {  
     global $post;  
