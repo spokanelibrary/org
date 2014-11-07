@@ -11,6 +11,7 @@
 			<li>Buying &amp; selling online</li>
 			<li>Creating video holiday cards</li>
 		</ul>
+		<p>&nbsp;</p>
 		<p>
 			<a class="btn btn-warning" href="/calendar/find/Learning+Lab/">
 				<i class="glyphicon glyphicon-time"></i>
@@ -27,6 +28,19 @@
 		</p>
 		<p>
 			<a class="btn btn-warning" href="/calendar/find/Digital+Drop-In/">
+				<i class="glyphicon glyphicon-time"></i>
+				Find dates &amp; times &rarr;</a>
+		</p>
+	</li>
+	<li class="list-group-item">
+		<h4>
+			<a href="/calendar/find/3D+printing/">3D Printing</a> <small>&rarr;</small>
+		</h4>
+		<p>
+			Interested in 3D printing? Come on in and learn a little bit about creating your own 3D design and then see how they print!
+		</p>
+		<p>
+			<a class="btn btn-warning" href="/calendar/find/3D+Printing/">
 				<i class="glyphicon glyphicon-time"></i>
 				Find dates &amp; times &rarr;</a>
 		</p>
