@@ -30,14 +30,12 @@
 			href="/tech-training/">More about <b>online technology courses</b> &rarr;</a>
 </p>
 
-<h3 class="text-success text-center">Hands-on classes in the library</h3>
+<h3 class="text-success text-center">Hands-on learning labs</h3>
 <p>
-	We also have some great computer &amp; technology classes in the library on a regular basis.
+	We also have some great computer &amp; technology classes you can take in the library.
 </p>
 <p>
-	<p>
 	<a class="btn btn-block btn-warning" 
-			href="/computer-classes/">More about <b>hands-on computer classes</b> &rarr;</a>
-</p>
+			href="/learning-lab/">More about <b>hands-on learning labs</b> &rarr;</a>
 </p>
 
