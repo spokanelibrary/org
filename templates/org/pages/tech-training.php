@@ -2,7 +2,7 @@
 <div class="row">
 	<div class="col-md-6">
 		<p class="center-block">
-			<img style="margin-top:10px; margin-bottom:10px;" src="/assets/img/logos/itacademy.png">
+			<a href="/it-academy/"><img style="margin-top:10px; margin-bottom:10px;" src="/assets/img/logos/itacademy.png"></a>
 		</p>
 		<h5>Microsoft IT Academy</h5>
 		<p>
@@ -15,7 +15,7 @@
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<p>
-			<img src="/assets/img/logos/galecourses.png">
+			<a href="http://www.ed2go.com/l-splbt_main/"><img src="/assets/img/logos/galecourses.png"></a>
 		</p>
 		<h5>Gale Courses</h5>
 		<p>
