@@ -1,16 +1,4 @@
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		
-	</div><!-- /.panel-heading -->
-	<div class="panel-body">
 
-	</div><!-- /.panel-body -->
-</div><!-- /.panel -->
-
-<h3 class="text-primary">
-	<i class="glyphicon glyphicon-tasks"></i>
-	Find a topic
-</h3>
 <ul class="list-group">
 	<li class="list-group-item">
 		<h4>
