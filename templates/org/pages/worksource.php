@@ -1,3 +1,7 @@
+<p>
+	The WorkSource Spokane computer lab is located on the second floor of the <a href="/downtown/">Downtown library</a>.
+</p>
+
 <div class="alert alert-info">
 	<p>
 		Please direct questions about this resource to the Downtown library reference desk at 444-5336 or <a href="/ask/">ask a librarian</a>. 
