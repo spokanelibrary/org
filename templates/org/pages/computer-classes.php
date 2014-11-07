@@ -44,6 +44,20 @@
 				Find dates &amp; times &rarr;</a>
 		</p>
 	</li>
+	<li class="list-group-item">
+		<h4>
+			<a href="/calendar/find/Downloading+eBooks/">Downloading eBooks</a> <small>&rarr;</small>
+		</h4>
+		<p>
+			Did you know you can download library books to your smartphone, tablet or eReader? 
+			Come join us for an overview of the Library’s eBook services.
+		</p>
+		<p>
+			<a class="btn btn-warning" href="/calendar/find/Downloading+eBooks/">
+				<i class="glyphicon glyphicon-time"></i>
+				Find dates &amp; times &rarr;</a>
+		</p>
+	</li>
 	<!--
 	<li class="list-group-item">
 		<h4>
