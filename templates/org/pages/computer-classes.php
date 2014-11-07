@@ -1,8 +1,6 @@
-<div class="alert alert-info">
-	Our classes and learning labs are free and open to the public. 
+Our classes and learning labs are free and open to the public. 
 	You do not need a library card, however we do recommend signing up in advance. 
 	Registration is required when noted.
-</div>
 
 <h4>Please call 444-5336 or the hosting <a href="/branches">library branch</a> with questions.</h4>
 
