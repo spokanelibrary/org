@@ -1,5 +1,5 @@
 
-<img class=="alignright" src="/uploads/img/logos/Worksource_Spokane.jpg">
+<img class=="alignright" src="/assets/img/uploads/logos/Worksource_Spokane.jpg">
 <h3 class="text-success">WorkSource open hours</h3>
 <dl class="dl-horizontal">
 <dt>Tuesday</dt>
@@ -37,7 +37,7 @@ Unlike the library’s other Internet computers, use of these computers has <b>n
 	<div class="panel-heading">
 		<h3 class="panel-title">
 			<i class="glyphicon glyphicon-calendar"></i>
-			All upcoming computer &amp; technology classes
+			Upcoming scheduled WorkSource hours
 		</h3>
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
