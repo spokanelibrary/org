@@ -19,6 +19,7 @@
 <dd>1&ndash;6pm</dd>
 <dl>
 
+<hr>
 
 <div class="alert alert-info">
 	<p>
