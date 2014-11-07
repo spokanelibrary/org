@@ -491,8 +491,15 @@ function spl_subpages_links($params) {
     global $post;  
 
     $btn_text = 'More';
-    $btn_class = 'default';
+    if ( $params['btn-text'] ) {
+      $btn_text = $params['btn-text'];
+    }
     
+    $btn_class = 'default';
+    if ( $params['btn-class'] ) {
+      $btn_class = $params['btn-class'];
+    }
+
     $orderby = 'title';
     if ( $params['orderby'] ) {
       $orderby = $params['orderby'];
