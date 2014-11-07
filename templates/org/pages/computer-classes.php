@@ -1,3 +1,11 @@
+<h4>Prefer to learn at your own pace?</h4>
+We also offer access to high-quality online training courses. 
+
+<p>
+	<a class="btn btn-block btn-info" 
+			href="/tech-training/">More about <b>online technology courses</b> &rarr;</a>
+</p>
+
 <div class="alert alert-info">
 	Our classes and learning labs are free and open to the public. 
 	You do not need a library card, however we do recommend signing up in advance. 
