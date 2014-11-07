@@ -24,11 +24,12 @@
 		</p>
 	</div><!-- /.col -->
 </div><!-- /.row -->
-
+<!--
 <p>
 	<a class="btn btn-block btn-info" 
 			href="/tech-training/">More about <b>online technology courses</b> &rarr;</a>
 </p>
+-->
 
 <h3 class="text-success text-center">Hands-on learning labs</h3>
 <p>
