@@ -533,9 +533,9 @@ function spl_subpages_links($params) {
           
           $output .= '<p>';
           if ( !empty($post->post_excerpt) ) {
-            $output .= '<a class="btn '.$btn_class.'" href="'.get_the_excerpt().'">'.$btn_text.' &rarr;</a>';
+            $output .= '<a class="btn btn-'.$btn_class.'" href="'.get_the_excerpt().'">'.$btn_text.' &rarr;</a>';
           } else {
-            $output .= '<a class="btn '.$btn_class.'" href="'.get_permalink().'">'.$btn_text.' &rarr;</a>';
+            $output .= '<a class="btn btn-'.$btn_class.'" href="'.get_permalink().'">'.$btn_text.' &rarr;</a>';
           }
           $output .= '</p>';
 
