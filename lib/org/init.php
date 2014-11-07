@@ -499,6 +499,11 @@ function spl_subpages_links($params) {
     if ( $params['btnclass'] ) {
       $btn_class = $params['btnclass'];
     }
+    
+    if ( $params['btnicon'] ) {
+      $btn_icon = '<i class="glyphicon glyphicon-'.$params['btnclass'].'></i> ';
+    }
+
     //print_r($params);
 
     $orderby = 'title';
@@ -541,9 +546,9 @@ function spl_subpages_links($params) {
           
           $output .= '<p>';
           if ( !empty($post->post_excerpt) ) {
-            $output .= '<a class="btn btn-'.$btn_class.'" href="'.get_the_excerpt().'">'.$btn_text.' &rarr;</a>';
+            $output .= '<a class="btn btn-'.$btn_class.'" href="'.get_the_excerpt().'">'$btn_icon.$btn_text.' &rarr;</a>';
           } else {
-            $output .= '<a class="btn btn-'.$btn_class.'" href="'.get_permalink().'">'.$btn_text.' &rarr;</a>';
+            $output .= '<a class="btn btn-'.$btn_class.'" href="'.get_permalink().'">'$btn_icon.$btn_text.' &rarr;</a>';
           }
           $output .= '</p>';
 
