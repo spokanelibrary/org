@@ -489,6 +489,9 @@ add_shortcode('spl_subpages', 'spl_subpages');
 
 function spl_subpages_links($params) {  
     global $post;  
+
+    $btn_text = 'More';
+    $btn_class = 'default';
     
     $orderby = 'title';
     if ( $params['orderby'] ) {
@@ -530,9 +533,9 @@ function spl_subpages_links($params) {
           
           $output .= '<p>';
           if ( !empty($post->post_excerpt) ) {
-            $output .= '<a class="btn btn-success" href="'.get_the_excerpt().'">'.$title.'</a> <small>&rarr;</small>';
+            $output .= '<a class="btn '.$btn_class.'" href="'.get_the_excerpt().'">'.$btn_text.' &rarr;</a>';
           } else {
-            $output .= '<a class="btn btn-success" href="'.get_permalink().'">'.$title.'</a> <small>&rarr;</small>';
+            $output .= '<a class="btn '.$btn_class.'" href="'.get_permalink().'">'.$btn_text.' &rarr;</a>';
           }
           $output .= '</p>';
 
