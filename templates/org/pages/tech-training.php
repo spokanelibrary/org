@@ -24,7 +24,7 @@
 			</small>
 		</p>
 		<p>
-			<a class="btn btn-block btn-warning" 
+			<a class="btn btn-block btn-info" 
 					href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
