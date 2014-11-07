@@ -9,6 +9,10 @@
 			Courses cover a variety of Microsoft products and skill levels – ranging from beginner users to advanced technical courses that qualify for Microsoft Certification testing. 
 			</small>
 		</p>
+		<p>
+			<a class="btn btn-block btn-warning" 
+					href="/it-academy/">Access <b>Microsoft IT Academy</b> &rarr;</a>
+		</p>
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<p>
@@ -19,6 +23,10 @@
 			Gale Courses offer a wide range of highly interactive courses taught entirely online by college instructors and experts in the field, ensuring a high-quality, high-impact educational experience.
 			</small>
 		</p>
+		<p>
+			<a class="btn btn-block btn-warning" 
+					href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
+		</p>
 	</div><!-- /.col -->
 </div><!-- /.row -->
 <!--
@@ -27,6 +35,8 @@
 			href="/tech-training/">More about <b>online technology courses</b> &rarr;</a>
 </p>
 -->
+
+<hr>
 
 <h3 class="text-success text-center">Hands-on learning labs</h3>
 <p>
