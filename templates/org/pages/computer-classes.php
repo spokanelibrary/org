@@ -12,13 +12,16 @@
 	Schedule of all upcoming classes</a>
 </p>
 
+<div class="alert alert-info">
 <h4>Prefer to learn at your own pace?</h4>
-We also offer access to high-quality online training courses. 
-
+<p>
+	We also offer access to high-quality online training courses. 
+</p>
 <p>
 	<a class="btn btn-block btn-info" 
 			href="/tech-training/">More about <b>online technology courses</b> &rarr;</a>
 </p>
+</div>
 
 <?php echo do_shortcode('[spl_subpages_links btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
 
