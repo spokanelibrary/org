@@ -2,17 +2,31 @@
 <ul class="list-group">
 	<li class="list-group-item">
 		<h4>
-			<a href="/calendar/find/Learning+Lab/">Learning Labs</a> <small>&rarr;</small>
+			<a href="/calendar/find/Learning+Lab/">Libary Learning Labs</a> <small>&rarr;</small>
 		</h4>
 		<p>
-			Join our digital projects manager and explore topics such as:
-			<ul>
-				<li>Buying &amp; selling online</li>
-				<li>Creating video holiday cards</li>
-			</ul>
+			Join our Digital Projects Manager, Tara Neumann, and explore topics such as:
 		</p>
+		<ul>
+			<li>Buying &amp; selling online</li>
+			<li>Creating video holiday cards</li>
+		</ul>
 		<p>
 			<a class="btn btn-warning" href="/calendar/find/Learning+Lab/">
+				<i class="glyphicon glyphicon-time"></i>
+				Find dates &amp; times &rarr;</a>
+		</p>
+	</li>
+	<li class="list-group-item">
+		<h4>
+			<a href="/calendar/find/Digital+Drop-In/">Digital Drop-In Time</a> <small>&rarr;</small>
+		</h4>
+		<p>
+			Is your digital device driving you crazy, or you want a device and don't know which one? 
+			Our Digital Projects Manager, Tara Neumann,  will be available during Digital Drop-In Time to answer questions and show you a variety of gadgets.
+		</p>
+		<p>
+			<a class="btn btn-warning" href="/calendar/find/Digital+Drop-In/">
 				<i class="glyphicon glyphicon-time"></i>
 				Find dates &amp; times &rarr;</a>
 		</p>
