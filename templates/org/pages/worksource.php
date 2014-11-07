@@ -20,7 +20,7 @@
 <p>
 	<a class="btn btn-block btn-warning" href="#upcoming">
 		<i class="glyphicon glyphicon-calendar"></i> 
-		Check the WorkSource calendar &rarr;</a>
+		Check the WorkSource calendar <span class="caret"></span></a>
 </p>
 
 <h4>About the WorkSource Spokane Connection site</h4>
