@@ -2,6 +2,24 @@
 <ul class="list-group">
 	<li class="list-group-item">
 		<h4>
+			<a href="/calendar/find/Learning+Lab:/">Learning Labs</a> <small>&rarr;</small>
+		</h4>
+		<p>
+			Join our digital projects manager and explore topics such as:
+			<ul>
+				<li>Buying &amp; selling online</li>
+				<li>Creating video holiday cards</li>
+			</ul>
+		</p>
+		<p>
+			<a class="btn btn-warning" href="/calendar/find/Learning+Lab:/">
+				<i class="glyphicon glyphicon-time"></i>
+				Find dates &amp; times &rarr;</a>
+		</p>
+	</li>
+	<!--
+	<li class="list-group-item">
+		<h4>
 			<a href="/calendar/find/Beginning+Internet+Explorer/">Using a web browser</a> <small>&rarr;</small>
 		</h4>
 		<p>
@@ -26,13 +44,14 @@
 				Find dates &amp; times &rarr;</a>
 		</p>
 	</li>
+	-->
 </ul>
 
 <div class="panel panel-warning">
 	<div class="panel-heading">
 		<h3 class="panel-title">
 			<i class="glyphicon glyphicon-calendar"></i>
-			Upcoming computer &amp; technology classes
+			All upcoming computer &amp; technology classes
 		</h3>
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
