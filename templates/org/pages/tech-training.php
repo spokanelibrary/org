@@ -17,7 +17,7 @@
 			<img src="/assets/img/logos/galecourses.png">
 		</p>
 		<p>
-			Gale Courses offer a wide range of highly interactive courses taught entirely online by college instructors and experts in the field, ensuring a high-quality, high-impact educational experience.
+			Highly interactive courses taught entirely online by college instructors and experts in the field, ensuring a high-quality, high-impact educational experience.
 		</p>
 		<p>
 			<a class="btn btn-block btn-info" 
