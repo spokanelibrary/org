@@ -1,63 +1,7 @@
 
 <ul class="list-group">
-	<li class="list-group-item">
-		<h4>
-			<a href="/calendar/find/Learning+Lab/">Libary Learning Labs</a> <small>&rarr;</small>
-		</h4>
-		<p>
-			Join our Digital Projects Manager, Tara Neumann, and explore topics such as:
-		</p>
-		<ul style="margin-bottom:10px;">
-			<li>Buying &amp; selling online</li>
-			<li>Creating video holiday cards</li>
-		</ul>
-		<p>
-			<a class="btn btn-success" href="/calendar/find/Learning+Lab/">
-				<i class="glyphicon glyphicon-time"></i>
-				Find dates &amp; times &rarr;</a>
-		</p>
-	</li>
-	<li class="list-group-item">
-		<h4>
-			<a href="/calendar/find/Digital+Drop-In/">Digital Drop-In Time</a> <small>&rarr;</small>
-		</h4>
-		<p>
-			Is your digital device driving you crazy, or you want a device and don't know which one? 
-			Our Digital Projects Manager, Tara Neumann,  will be available during Digital Drop-In Time to answer questions and show you a variety of gadgets.
-		</p>
-		<p>
-			<a class="btn btn-success" href="/calendar/find/Digital+Drop-In/">
-				<i class="glyphicon glyphicon-time"></i>
-				Find dates &amp; times &rarr;</a>
-		</p>
-	</li>
-	<li class="list-group-item">
-		<h4>
-			<a href="/calendar/find/3D+printing/">3D Printing</a> <small>&rarr;</small>
-		</h4>
-		<p>
-			Interested in 3D printing? Come on in and learn a little bit about creating your own 3D design and then see how they print!
-		</p>
-		<p>
-			<a class="btn btn-success" href="/calendar/find/3D+Printing/">
-				<i class="glyphicon glyphicon-time"></i>
-				Find dates &amp; times &rarr;</a>
-		</p>
-	</li>
-	<li class="list-group-item">
-		<h4>
-			<a href="/calendar/find/Downloading+eBooks/">Downloading eBooks</a> <small>&rarr;</small>
-		</h4>
-		<p>
-			Did you know you can download library books to your smartphone, tablet or eReader? 
-			Come join us for an overview of the Library’s eBook services.
-		</p>
-		<p>
-			<a class="btn btn-success" href="/calendar/find/Downloading+eBooks/">
-				<i class="glyphicon glyphicon-time"></i>
-				Find dates &amp; times &rarr;</a>
-		</p>
-	</li>
+	
+
 	<!--
 	<li class="list-group-item">
 		<h4>
