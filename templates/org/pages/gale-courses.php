@@ -13,7 +13,7 @@
 
 <div class="row">
 	<div class="col-md-6">
-		<h5 class="text-muted">
+		<h5 class="text-info">
 			<i class="glyphicon glyphicon-info-sign"></i>
 			You will need your library card number to enroll.
 		</h5>
