@@ -5,30 +5,37 @@
 <p>
 	<b>Gale Courses:</b>
 	Highly interactive courses taught entirely online by college instructors and experts in the field, ensuring a high-quality, high-impact educational experience.
-	You will need your library card number to enroll in classes.
+	You will need your library card number to enroll in a class.
 </p>
 
 <h3>
-	Courses run for six weeks and new sessions begin every month. 
+	Courses run for six weeks. New sessions begin every month. 
 </h3>
 
-<h4>
-	Classes are offered in many topics, including:
-</h4>
+<div class="row">
+	<div class="col-md-6">
+	</div><!-- /.col -->
+	<div class="col-md-6">
+		<h4>
+			Topics include:
+		</h4>
+		<ul class="nav nav-pills">
+			<li>Accounting and Finance</li>
+			<li>Business</li>
+			<li>Computer Applications</li>
+			<li>Design and Composition</li>
+			<li>Health Care and Medical</li>
+			<li>Language and Arts</li>
+			<li>Law and Legal</li>
+			<li>Personal Development</li>
+			<li>Teaching and Education</li>
+			<li>Technology</li>
+			<li>Writing and Publishing</li>
+		</ul>
+	</div><!-- /.col -->
+</div><!-- /.row -->
 
-<ul>
-	<li>Accounting and Finance</li>
-	<li>Business</li>
-	<li>Computer Applications</li>
-	<li>Design and Composition</li>
-	<li>Health Care and Medical</li>
-	<li>Language and Arts</li>
-	<li>Law and Legal</li>
-	<li>Personal Development</li>
-	<li>Teaching and Education</li>
-	<li>Technology</li>
-	<li>Writing and Publishing</li>
-</ul>
+
 <p>
 	<a class="btn btn-block btn-info" 
 			href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
