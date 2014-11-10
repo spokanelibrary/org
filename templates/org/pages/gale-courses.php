@@ -13,7 +13,10 @@
 
 <div class="row">
 	<div class="col-md-6">
-		<h5>You will need your library card number to enroll.</h5>
+		<h5 class="text-muted">
+			<i class="glyphicon glyphicon-info-sign"></i>
+			You will need your library card number to enroll.
+		</h5>
 		<p>
 			<a class="btn btn-block btn-info" 
 					href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
