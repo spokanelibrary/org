@@ -24,11 +24,11 @@
 		<hr>
 		<p>
 			Gale Courses is part of our <b>Connected Learning</b> initiative.
-			<a href="/connected-learning/">Learn more &rarr;</a>
+			<a href="/connected-learning/">Learn more</a> &rarr;
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<h4>
-			Topics include:
+			Gale Courses topics include:
 		</h4>
 		<ul class="">
 			<li>Accounting and Finance</li>
