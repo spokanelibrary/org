@@ -5,13 +5,17 @@
 <p>
 	<b>Gale Courses:</b>
 	Highly interactive courses taught entirely online by college instructors and experts in the field, ensuring a high-quality, high-impact educational experience.
+	You will need your library card number to enroll in classes.
 </p>
-<h4>
+
+<h3>
 	Courses run for six weeks and new sessions begin every month. 
+</h3>
+
+<h4>
+	Classes are offered in many topics, including:
 </h4>
-<p>
-	Topics include:
-</p>
+
 <ul>
 	<li>Accounting and Finance</li>
 	<li>Business</li>
