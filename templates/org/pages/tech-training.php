@@ -36,7 +36,7 @@
 
 <hr>
 
-<h3 class="text-success text-center">Hands-on computer &amp; technology classes</h3>
+<h3 class="text-success text-center">Hands-on computer &amp; technology workshops</h3>
 <p>
 	We also have some great computer &amp; technology workshops you can take <b>in the library</b>.
 </p>
