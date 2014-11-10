@@ -10,7 +10,7 @@
 		</p>
 		<p>
 			<a class="btn btn-block btn-warning" 
-					href="/it-academy/">Access <b>Microsoft IT Academy</b> &rarr;</a>
+					href="/it-academy/">More about <b>Microsoft IT Academy</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
 	<div class="col-md-6">
@@ -23,7 +23,7 @@
 		</p>
 		<p>
 			<a class="btn btn-block btn-info" 
-					href="/gale-courses/">Access <b>Gale Courses</b> &rarr;</a>
+					href="/gale-courses/">More about <b>Gale Courses</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
 </div><!-- /.row -->

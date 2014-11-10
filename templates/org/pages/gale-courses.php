@@ -13,7 +13,7 @@
 
 <div class="row">
 	<div class="col-md-6">
-		<h5>You will need your library card number to enroll in a class.</h5>
+		<h5>You will need your library card number to enroll.</h5>
 		<p>
 			<a class="btn btn-block btn-info" 
 					href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
@@ -23,7 +23,7 @@
 		<h4>
 			Topics include:
 		</h4>
-		<ul class="nav nav-pills">
+		<ul class="">
 			<li>Accounting and Finance</li>
 			<li>Business</li>
 			<li>Computer Applications</li>
