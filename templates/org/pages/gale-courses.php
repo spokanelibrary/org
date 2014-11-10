@@ -3,7 +3,7 @@
 	<a href="http://www.ed2go.com/l-splbt_main/"><img class="alignright" src="/assets/img/logos/galecourses.png"></a>
 </p>
 <p>
-	Gale Courses:
+	<b>Gale Courses:</b>
 	Highly interactive courses taught entirely online by college instructors and experts in the field, ensuring a high-quality, high-impact educational experience.
 </p>
 <p>
