@@ -21,6 +21,9 @@
 			<a class="btn btn-block btn-info" 
 					href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
 		</p>
+		<hr>
+		<p>
+			Gale Courses is part of our <a href="/connected-learning/">Connected Learning</a> initiative.
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<h4>
