@@ -530,8 +530,8 @@ function spl_subpages_links($params) {
     if ($subpages->have_posts()) :  
         $output = '<ul class="list-group">';  
         if ( $params['titlebar'] ) {
-          $output .= '<li class="active list-group-item">';
-          $output .= $params['titlebar'];
+          $output .= '<li class="list-group-item">';
+          $output .= '<h3 class="text-'.$btn_class.'">'.$params['titlebar'].'</h3>';
           $output .= '</li>';
         }
         while ($subpages->have_posts()) : $subpages->the_post();  
