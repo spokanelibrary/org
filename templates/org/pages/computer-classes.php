@@ -12,11 +12,11 @@
 </p>
 <p>
 	<a class="btn btn-block btn-info" 
-			href="/tech-training/">More about <b>online technology courses</b> &rarr;</a>
+			href="/tech/">More about <b>online technology courses</b> &rarr;</a>
 </p>
 </div>
 
-<?php echo do_shortcode('[spl_subpages_links btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
+<?php echo do_shortcode('[spl_subpages_links title="Connected Learning" btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
 
 <p id="upcoming">&nbsp;</p>
 
