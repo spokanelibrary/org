@@ -16,7 +16,7 @@
 </p>
 </div>
 
-<h3 class="text-success">Connected learning: hands-on workshops</h3>
+<h3 class="text-success">Connected learning <small>hands-on workshops at the library</small></h3>
 
 <?php echo do_shortcode('[spl_subpages_links btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
 
