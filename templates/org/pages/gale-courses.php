@@ -23,7 +23,8 @@
 		</p>
 		<hr>
 		<p>
-			Gale Courses is part of our <a href="/connected-learning/">Connected Learning</a> initiative.
+			Gale Courses is part of our <b>Connected Learning</b> initiative.
+			<a href="/connected-learning/">Learn more &rarr;</a>
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<h4>
