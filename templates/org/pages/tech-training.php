@@ -15,7 +15,7 @@
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<p>
-			<a href="http://www.ed2go.com/l-splbt_main/"><img src="/assets/img/logos/galecourses.png"></a>
+			<a href="/gale-courses/"><img src="/assets/img/logos/galecourses.png"></a>
 		</p>
 		<h5>Gale Courses</h5>
 		<p>
@@ -23,7 +23,7 @@
 		</p>
 		<p>
 			<a class="btn btn-block btn-info" 
-					href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
+					href="/gale-courses/">Access <b>Gale Courses</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
 </div><!-- /.row -->
