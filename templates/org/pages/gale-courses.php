@@ -6,6 +6,25 @@
 	<b>Gale Courses:</b>
 	Highly interactive courses taught entirely online by college instructors and experts in the field, ensuring a high-quality, high-impact educational experience.
 </p>
+<h4>
+	Courses run for six weeks and new sessions begin every month. 
+</h4>
+<p>
+	Topics include:
+</p>
+<ul>
+	<li>Accounting and Finance</li>
+	<li>Business</li>
+	<li>Computer Applications</li>
+	<li>Design and Composition</li>
+	<li>Health Care and Medical</li>
+	<li>Language and Arts</li>
+	<li>Law and Legal</li>
+	<li>Personal Development</li>
+	<li>Teaching and Education</li>
+	<li>Technology</li>
+	<li>Writing and Publishing</li>
+</ul>
 <p>
 	<a class="btn btn-block btn-info" 
 			href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
