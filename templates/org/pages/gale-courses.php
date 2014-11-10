@@ -3,9 +3,8 @@
 	<a href="http://www.ed2go.com/l-splbt_main/"><img class="alignright" src="/assets/img/logos/galecourses.png"></a>
 </p>
 <p>
-	<b>Gale Courses:</b>
 	Highly interactive courses taught entirely online by college instructors and experts in the field, ensuring a high-quality, high-impact educational experience.
-	</p>
+</p>
 
 <h3>
 	Courses run for six weeks. New sessions begin every month. 
@@ -22,9 +21,13 @@
 					href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
 		</p>
 		<hr>
-		<p>
-			Gale Courses is part of our <b>Connected Learning</b> initiative.
-			<a href="/connected-learning/">Learn more</a> &rarr;
+		<div class="alert alert-success">
+			<p>
+				Gale Courses is part of our <b>Connected Learning</b> initiative.
+				<br>
+				<a href="/connected-learning/">Learn more</a> &rarr;
+			</p>
+		</div>
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<h4>
