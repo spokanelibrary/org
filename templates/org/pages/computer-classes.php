@@ -16,7 +16,7 @@
 </p>
 </div>
 
-<?php echo do_shortcode('[spl_subpages_links title="Connected Learning" btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
+<?php echo do_shortcode('[spl_subpages_links titlebar="Connected Learning" btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
 
 <p id="upcoming">&nbsp;</p>
 

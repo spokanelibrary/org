@@ -529,6 +529,9 @@ function spl_subpages_links($params) {
     // create output  
     if ($subpages->have_posts()) :  
         $output = '<ul class="list-group">';  
+        if ( $params['titlebar'] ) {
+
+        }
         while ($subpages->have_posts()) : $subpages->the_post();  
           $title = get_the_title();
 
