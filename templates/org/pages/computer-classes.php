@@ -16,6 +16,8 @@
 </p>
 </div>
 
+<h3 class="text-success">Connected learning: hands-on workshops</h3>
+
 <?php echo do_shortcode('[spl_subpages_links btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
 
 <p id="upcoming">&nbsp;</p>
@@ -24,7 +26,7 @@
 	<div class="panel-heading">
 		<h3 class="panel-title">
 			<i class="glyphicon glyphicon-calendar"></i>
-			All upcoming computer &amp; technology classes
+			All upcoming computer &amp; technology workshops
 		</h3>
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
