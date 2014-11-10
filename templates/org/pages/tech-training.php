@@ -38,7 +38,7 @@
 
 <h3 class="text-success text-center">Hands-on computer &amp; technology workshops</h3>
 <p>
-	We also have some great computer &amp; technology workshops you can take <b>in the library</b>.
+	We also offer some great computer &amp; technology training <b>in the library</b>.
 </p>
 <p>
 	<a class="btn btn-block btn-success" 
