@@ -24,8 +24,9 @@
 		<div class="alert alert-success">
 			<p>
 				Gale Courses is part of our <b>Connected Learning</b> initiative.
-				<br>
-				<a href="/connected-learning/">Learn more</a> &rarr;
+			</p>
+			<p>
+				<a class="btn btn-block btn-success" href="/connected-learning/">Learn more &rarr;</a>
 			</p>
 		</div>
 	</div><!-- /.col -->
