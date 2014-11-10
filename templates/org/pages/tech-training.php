@@ -39,6 +39,8 @@
 <h3 class="text-success text-center">Hands-on computer &amp; technology workshops</h3>
 <p>
 	We also offer a wide range of computer &amp; technology training <b>in the library</b>.
+	From computer basics to basic video editing, we offer something for all skill levels. 
+	Check it out.
 </p>
 <p>
 	<a class="btn btn-block btn-success" 
