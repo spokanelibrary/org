@@ -70,7 +70,7 @@
 
 		<p>
 			<a class="btn btn-block btn-info" 
-					href="/tech-training/">More about <b>online technology courses</b> &rarr;</a>
+					href="/tech/">More about <b>online technology courses</b> &rarr;</a>
 		</p>
 
 		<h3 class="text-success text-center">Hands-on learning labs</h3>
@@ -79,7 +79,7 @@
 		</p>
 		<p>
 			<a class="btn btn-block btn-success" 
-					href="/learning-labs/">More about <b>hands-on learning labs</b> &rarr;</a>
+					href="/labs/">More about <b>hands-on learning labs</b> &rarr;</a>
 		</p>
 
 	</div><!-- /.panel-body -->

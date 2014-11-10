@@ -38,10 +38,10 @@
 
 <h3 class="text-success text-center">Hands-on computer &amp; technology classes</h3>
 <p>
-	We also have some great computer &amp; technology classes you can take in the library.
+	We also have some great computer &amp; technology workshops you can take <b>in the library</b>.
 </p>
 <p>
 	<a class="btn btn-block btn-success" 
-			href="/learning-labs/">More about <b>hands-on learning labs</b> &rarr;</a>
+			href="/labs/">More about <b>hands-on workshops</b> &rarr;</a>
 </p>
 
