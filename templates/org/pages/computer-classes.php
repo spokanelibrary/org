@@ -4,6 +4,8 @@
 		Schedule of <b>all upcoming workshops</b> <span class="caret"></span></a>
 </p>
 
+<?php echo do_shortcode('[spl_subpages_links titlebar="Connected Learning <small>find a workshop at your library</small>" btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
+
 <div class="alert alert-info">
 	<h4>Prefer to learn at your own pace?</h4>
 	<p>
@@ -14,8 +16,6 @@
 				href="/tech/">More about <b>online technology courses</b> &rarr;</a>
 	</p>
 </div>
-
-<?php echo do_shortcode('[spl_subpages_links titlebar="Connected Learning <small>find a workshop at your library</small>" btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
 
 <p id="upcoming">&nbsp;</p>
 
