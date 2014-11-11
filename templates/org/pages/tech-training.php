@@ -38,6 +38,9 @@
 	Check it out!
 </p>
 <p>
+	These workshops are part of our <a href="/connected-learning/">Connected Learning</a> initiative.
+</p>
+<p>
 	<a class="btn btn-block btn-success" 
 			href="/labs/">More about <b>hands-on <span class="hidden-xs">technology</span> workshops</b> &rarr;</a>
 </p>
