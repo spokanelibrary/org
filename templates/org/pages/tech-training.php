@@ -7,7 +7,7 @@
 		</p>
 		<h5>Microsoft IT Academy</h5>
 		<p>
-			Courses cover a variety of Microsoft products and skill levels – ranging from beginner users to advanced technical courses that qualify for Microsoft Certification testing. 
+			Courses cover a variety of Microsoft products and skill levels – ranging from beginner users to advanced technical courses that qualify for <a href="/mos/">Microsoft Certification</a> testing. 
 		</p>
 		<p>
 			<a class="btn btn-block btn-warning" 
