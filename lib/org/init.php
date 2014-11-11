@@ -499,7 +499,11 @@ function spl_subpages_links($params) {
     if ( $params['btnclass'] ) {
       $btn_class = $params['btnclass'];
     }
-    
+    if ( 'primary' != $params['btnclass'] ) {
+      $title_class = $btn_class;
+    }
+
+
     if ( $params['btnicon'] ) {
       $btn_icon = '<i class="glyphicon glyphicon-'.$params['btnicon'].'"></i> ';
     }
@@ -531,7 +535,11 @@ function spl_subpages_links($params) {
         $output = '<ul class="list-group">';  
         if ( $params['titlebar'] ) {
           $output .= '<li class="list-group-item">';
-          $output .= '<h4 class="text-'.$btn_class.'">'.$params['titlebar'].'</h4>';
+          if ( $title_class ) {
+            $output .= '<h4 class="text-'.$btn_class.'">'.$params['titlebar'].'</h4>';
+          } else {
+            $output .= '<h4 class="">'.$params['titlebar'].'</h4>';
+          }
           $output .= '</li>';
         }
         while ($subpages->have_posts()) : $subpages->the_post();  
