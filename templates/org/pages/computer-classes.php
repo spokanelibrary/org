@@ -1,7 +1,7 @@
 <p>
 	<a class="btn btn-block btn-warning" href="#upcoming">
 		<i class="glyphicon glyphicon-calendar"></i> 
-		Schedule of all upcoming workshops <span class="caret"></span></a>
+		Schedule of <b>all upcoming workshops</b> <span class="caret"></span></a>
 </p>
 
 <div class="row">
