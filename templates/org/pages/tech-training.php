@@ -1,3 +1,4 @@
+<hr>
 
 <div class="row">
 	<div class="col-md-6">
@@ -27,12 +28,6 @@
 		</p>
 	</div><!-- /.col -->
 </div><!-- /.row -->
-<!--
-<p>
-	<a class="btn btn-block btn-info" 
-			href="/tech-training/">More about <b>online technology courses</b> &rarr;</a>
-</p>
--->
 
 <hr>
 
