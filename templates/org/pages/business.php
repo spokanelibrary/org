@@ -73,10 +73,12 @@
 					href="/tech/">More about <b>online technology training</b> &rarr;</a>
 		</p>
 
+		<hr>
+
 		<div class="alert alert-success">
 			<h4 class="text-center">Hands-on technology workshops</h4>
 			<p>
-				We also have some great computer &amp; technology classes you can take in the library.
+				We also have some great computer &amp; technology classes you can take <b>in the library</b>.
 			</p>
 			<p>
 				<a class="btn btn-block btn-success" 
