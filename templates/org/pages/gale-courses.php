@@ -24,7 +24,7 @@
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<h4>
-			Gale Courses topics include:
+			Subject areas include:
 		</h4>
 		<ul class="">
 			<li>Accounting and Finance</li>
