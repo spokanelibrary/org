@@ -1,6 +1,5 @@
 <hr>
 
-<h3 class="text-success text-center">Web-based training opportunities</h3>
 <div class="row">
 	<div class="col-md-6">
 		<p class="center-block">
