@@ -1,5 +1,6 @@
 <hr>
 
+<h3 class="text-success text-center">Web-based training opportunities</h3>
 <div class="row">
 	<div class="col-md-6">
 		<p class="center-block">
@@ -36,9 +37,6 @@
 	We also offer a wide range of computer &amp; technology training <b>in the library</b>.
 	From computer basics to basic video editing, we offer something for all skill levels. 
 	Check it out!
-</p>
-<p>
-	These workshops are part of our <a href="/connected-learning/">Connected Learning</a> initiative.
 </p>
 <p>
 	<a class="btn btn-block btn-success" 
