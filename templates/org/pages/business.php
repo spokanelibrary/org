@@ -74,7 +74,7 @@
 		</p>
 
 		<div class="alert alert-success">
-			<h3 class="text-center">Hands-on technology workshops</h3>
+			<h4 class="text-center">Hands-on technology workshops</h4>
 			<p>
 				We also have some great computer &amp; technology classes you can take in the library.
 			</p>
