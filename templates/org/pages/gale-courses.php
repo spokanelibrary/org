@@ -21,17 +21,6 @@
 			You will need your library card number to enroll.
 		</h5>
 
-		<hr>
-		
-		<div class="alert alert-success">
-			<p>
-				Gale Courses is part of our <b>Connected Learning</b> initiative.
-			</p>
-			<p>
-				<a class="btn btn-block btn-success" href="/connected-learning/">
-					More about <b>Connected Learning</b> &rarr;</a>
-			</p>
-		</div>
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<h4>
