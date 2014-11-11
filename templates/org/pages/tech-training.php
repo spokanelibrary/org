@@ -31,14 +31,16 @@
 
 <hr>
 
-<h3 class="text-success text-center">Hands-on computer &amp; technology workshops</h3>
-<p>
-	We also offer a wide range of computer &amp; technology training <b>in the library</b>.
-	From computer basics to basic video editing, we offer something for all skill levels. 
-	Check it out!
-</p>
-<p>
-	<a class="btn btn-block btn-success" 
-			href="/labs/">More about <b>hands-on <span class="hidden-xs">technology</span> workshops</b> &rarr;</a>
-</p>
+<div class="alert alert-success">
+	<h3 class="text-center">Hands-on computer &amp; technology workshops</h3>
+	<p>
+		We also offer a wide range of computer &amp; technology training <b>in the library</b>.
+		From computer basics to basic video editing, we offer something for all skill levels. 
+		Check it out!
+	</p>
+	<p>
+		<a class="btn btn-block btn-success" 
+				href="/labs/">More about <b>hands-on <span class="hidden-xs">technology</span> workshops</b> &rarr;</a>
+	</p>
+</div>
 
