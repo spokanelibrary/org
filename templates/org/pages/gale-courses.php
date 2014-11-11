@@ -10,6 +10,37 @@
 	Courses run for six weeks. New sessions begin every month. 
 </h3>
 
+<hr>
+<p>
+			<a class="btn btn-block btn-info" 
+					href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
+		</p>
+		<h5 class="text-info">
+			<i class="glyphicon glyphicon-info-sign"></i>
+			You will need your library card number to enroll.
+		</h5>
+<hr>
+
+		<h4>
+			Subject areas include:
+		</h4>
+		<ul class="">
+			<li>Accounting and Finance</li>
+			<li>Business</li>
+			<li>Computer Applications</li>
+			<li>Design and Composition</li>
+			<li>Health Care and Medical</li>
+			<li>Language and Arts</li>
+			<li>Law and Legal</li>
+			<li>Personal Development</li>
+			<li>Teaching and Education</li>
+			<li>Technology</li>
+			<li>Writing and Publishing</li>
+		</ul>
+
+
+
+
 <div class="row">
 	<div class="col-md-6">
 		<p>
