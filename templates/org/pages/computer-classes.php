@@ -1,79 +1,19 @@
-
-<div class="row">
-	<div class="col-md-8">
-		
-		<?php echo do_shortcode('[spl_subpages_links titlebar="Find a workshop at your library" btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
-
-	</div><!-- /.col -->
-	<div class="col-md-4">
-		<p>
-			<a class="btn btn-block btn-warning" href="#upcoming">
-				<i class="glyphicon glyphicon-calendar"></i> 
-				Schedule of <b>all upcoming workshops</b> <span class="caret"></span></a>
-		</p>
-
-		<div class="alert alert-info">
-			<h4>Learn at your own pace</h4>
-			<p>
-				We also offer access to high-quality online technology training courses. 
-			</p>
-			<p>
-				<a class="btn btn-block btn-info" 
-						href="/tech/">Learn more &rarr;</a>
-			</p>
-		</div>
-		<div class="alert alert-success">
-			<h4>Taming technology</h4>
-			<p>
-				These workshops are part of our <b>Connected Learning</b> initiative.
-			</p>
-			<p>
-				<a class="btn btn-block btn-success" href="/connected-learning/">
-					Learn more &rarr;</a>
-			</p>
-		</div>
-	</div><!-- /.col -->
-</div><!-- /.row -->
-
-
-
-
-
-
-
 <p>
 	<a class="btn btn-block btn-warning" href="#upcoming">
 		<i class="glyphicon glyphicon-calendar"></i> 
 		Schedule of <b>all upcoming workshops</b> <span class="caret"></span></a>
 </p>
 
-<div class="row">
-	<div class="col-md-6">
-		<div class="alert alert-info">
-			<h4>Prefer to learn at your own pace?</h4>
-			<p>
-				We also offer access to high-quality online technology training courses. 
-			</p>
-			<p>
-				<a class="btn btn-block btn-info" 
-						href="/tech/">More about <b>online technology courses</b> &rarr;</a>
-			</p>
-		</div>
-	</div><!-- /.col -->
-	<div class="col-md-6">
-		<div class="alert alert-success">
-			<h4>Taming technology at the library</h4>
-			<p>
-				These workshops are part of our <b>Connected Learning</b> initiative.
-			</p>
-			<p>
-				<a class="btn btn-block btn-success" href="/connected-learning/">
-					More about <b>Connected Learning</b> &rarr;</a>
-			</p>
-		</div>
-	</div><!-- /.col -->
-</div><!-- /.row -->
-
+<div class="alert alert-info">
+	<h4>Prefer to learn at your own pace?</h4>
+	<p>
+		We also offer access to high-quality online technology training courses. 
+	</p>
+	<p>
+		<a class="btn btn-block btn-info" 
+				href="/tech/">More about <b>online technology courses</b> &rarr;</a>
+	</p>
+</div>
 
 <?php echo do_shortcode('[spl_subpages_links titlebar="Find a workshop at your library" btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
 
