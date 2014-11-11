@@ -88,7 +88,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
       Follow the instructions provided at IT Academy to select courses that interest you.
     </p>
     <p>
-      <a href="http://www.spokanelibrary.org/pdf/Patron-Steps-ITA-Online-Learning-via-Enrollment-Link.pdf"
+      <a href="/uploads/Patron-Steps-ITA-Online-Learning-via-Enrollment-Link.pdf"
         class="btn btn-warning"><strong>More detailed instructions</strong> (.pdf)
         <i class="icon-white icon-arrow-right"></i>
       </a>
