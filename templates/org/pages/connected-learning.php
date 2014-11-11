@@ -9,7 +9,7 @@
 				Lorem ipsum.
 			</p>
 			<p>
-				<a class="btn btn-block btn-" href="//">Learn more &rarr;</a>
+				<a class="btn btn-block btn-success" href="//">Learn more &rarr;</a>
 			</p>
 		</div><!-- /.alert -->
 	</div><!-- /.col -->
@@ -22,7 +22,7 @@
 				Lorem ipsum.
 			</p>
 			<p>
-				<a class="btn btn-block btn-" href="//">Learn more &rarr;</a>
+				<a class="btn btn-block btn-default" href="//">Learn more &rarr;</a>
 			</p>
 		</div><!-- /.alert -->
 	</div><!-- /.col -->
