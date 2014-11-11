@@ -70,17 +70,19 @@
 
 		<p>
 			<a class="btn btn-block btn-info" 
-					href="/tech/">More about <b>online technology courses</b> &rarr;</a>
+					href="/tech/">More about <b>online technology training</b> &rarr;</a>
 		</p>
 
-		<h3 class="text-success text-center">Hands-on learning labs</h3>
-		<p>
-			We also have some great computer &amp; technology classes you can take in the library.
-		</p>
-		<p>
-			<a class="btn btn-block btn-success" 
-					href="/labs/">More about <b>hands-on learning labs</b> &rarr;</a>
-		</p>
+		<div class="alert alert-success">
+			<h3 class="text-center">Hands-on technology workshops</h3>
+			<p>
+				We also have some great computer &amp; technology classes you can take in the library.
+			</p>
+			<p>
+				<a class="btn btn-block btn-success" 
+						href="/labs/">More about <b>hands-on technology workshops</b> &rarr;</a>
+			</p>
+		</div>
 
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
