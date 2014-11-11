@@ -7,8 +7,9 @@
 <div class="row">
 	<div class="col-md-6">
 		<div class="alert alert-success">
+			<h4>Connected learning at the library</h4>
 			<p>
-				These workshops are part of our <b>Connected Learning</b> initiative.
+				These workshops are part of our Connected Learning initiative.
 			</p>
 			<p>
 				<a class="btn btn-block btn-success" href="/connected-learning/">Learn more &rarr;</a>
@@ -16,14 +17,16 @@
 		</div>
 	</div><!-- /.col -->
 	<div class="col-md-6">
-		<h4>Prefer to learn at your own pace?</h4>
-		<p>
-			We also offer access to high-quality online technology training courses. 
-		</p>
-		<p>
-			<a class="btn btn-block btn-info" 
-					href="/tech/">More about <b>online technology courses</b> &rarr;</a>
-		</p>
+		<div class="alert alert-success">
+			<h4>Prefer to learn at your own pace?</h4>
+			<p>
+				We also offer access to high-quality online technology training courses. 
+			</p>
+			<p>
+				<a class="btn btn-block btn-info" 
+						href="/tech/">More about <b>online technology courses</b> &rarr;</a>
+			</p>
+		</div>
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
