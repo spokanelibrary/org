@@ -6,17 +6,6 @@
 
 <div class="row">
 	<div class="col-md-6">
-		<div class="alert alert-success">
-			<h4>Technology resources at the library</h4>
-			<p>
-				These workshops are part of our <b>Connected Learning</b> initiative.
-			</p>
-			<p>
-				<a class="btn btn-block btn-success" href="/connected-learning/">More about <b>Connected Learning</b> &rarr;</a>
-			</p>
-		</div>
-	</div><!-- /.col -->
-	<div class="col-md-6">
 		<div class="alert alert-info">
 			<h4>Prefer to learn at your own pace?</h4>
 			<p>
@@ -25,6 +14,17 @@
 			<p>
 				<a class="btn btn-block btn-info" 
 						href="/tech/">More about <b>online technology courses</b> &rarr;</a>
+			</p>
+		</div>
+	</div><!-- /.col -->
+	<div class="col-md-6">
+		<div class="alert alert-success">
+			<h4>Technology at the library</h4>
+			<p>
+				These workshops are part of our <b>Connected Learning</b> initiative.
+			</p>
+			<p>
+				<a class="btn btn-block btn-success" href="/connected-learning/">More about <b>Connected Learning</b> &rarr;</a>
 			</p>
 		</div>
 	</div><!-- /.col -->
