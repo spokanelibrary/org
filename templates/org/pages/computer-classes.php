@@ -17,7 +17,7 @@
 		</div>
 	</div><!-- /.col -->
 	<div class="col-md-6">
-		<div class="alert alert-success">
+		<div class="alert alert-info">
 			<h4>Prefer to learn at your own pace?</h4>
 			<p>
 				We also offer access to high-quality online technology training courses. 
