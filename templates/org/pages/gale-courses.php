@@ -14,7 +14,7 @@
 	<a class="btn btn-block btn-info" 
 			href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
 </p>
-<h5 class="text-info">
+<h5 class="text-center text-info">
 	<i class="glyphicon glyphicon-info-sign"></i>
 	You will need your library card number to enroll in classes.
 </h5>
