@@ -21,7 +21,7 @@
 </h5>
 <hr>
 
-<h4>
+<h4 class="text-muted">
 	Subject areas include:
 </h4>
 <ul class="nav nav-pills">
