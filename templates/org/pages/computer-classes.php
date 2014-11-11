@@ -19,7 +19,7 @@
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<div class="alert alert-success">
-			<h4>Taming technology</h4>
+			<h4>Taming technology at the library</h4>
 			<p>
 				These workshops are part of our <b>Connected Learning</b> initiative.
 			</p>
