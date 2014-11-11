@@ -1,19 +1,41 @@
-
 <p>
 	<a class="btn btn-block btn-warning" href="#upcoming">
 		<i class="glyphicon glyphicon-calendar"></i> 
 		Schedule of all upcoming workshops <span class="caret"></span></a>
 </p>
 
+<div class="row">
+	<div class="col-md-6">
+		<div class="alert alert-success">
+			<p>
+				These workshops are part of our <b>Connected Learning</b> initiative.
+			</p>
+			<p>
+				<a class="btn btn-block btn-success" href="/connected-learning/">Learn more &rarr;</a>
+			</p>
+		</div>
+	</div><!-- /.col -->
+	<div class="col-md-6">
+		<h4>Prefer to learn at your own pace?</h4>
+		<p>
+			We also offer access to high-quality online technology training courses. 
+		</p>
+		<p>
+			<a class="btn btn-block btn-info" 
+					href="/tech/">More about <b>online technology courses</b> &rarr;</a>
+		</p>
+	</div><!-- /.col -->
+</div><!-- /.row -->
+
 <div class="alert alert-info">
-<h4>Prefer to learn at your own pace?</h4>
-<p>
-	We also offer access to high-quality online technology training courses. 
-</p>
-<p>
-	<a class="btn btn-block btn-info" 
-			href="/tech/">More about <b>online technology courses</b> &rarr;</a>
-</p>
+	<h4>Prefer to learn at your own pace?</h4>
+	<p>
+		We also offer access to high-quality online technology training courses. 
+	</p>
+	<p>
+		<a class="btn btn-block btn-info" 
+				href="/tech/">More about <b>online technology courses</b> &rarr;</a>
+	</p>
 </div>
 
 <?php echo do_shortcode('[spl_subpages_links titlebar="Find a workshop at your library" btnclass=success btnicon=time btntext="Find dates & times"]'); ?>
