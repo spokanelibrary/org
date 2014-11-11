@@ -32,7 +32,7 @@
 <hr>
 
 <div class="alert alert-success">
-	<h3 class="text-center">Hands-on computer &amp; technology workshops</h3>
+	<h4 class="text-center">Hands-on computer &amp; technology workshops</h4>
 	<p>
 		We also offer a wide range of computer &amp; technology training <b>in the library</b>.
 		From computer basics to basic video editing, we offer something for all skill levels. 
