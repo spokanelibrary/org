@@ -12,23 +12,23 @@
 	</div><!-- /.col -->
 	<div class="col-md-4">
 		<div class="alert alert-info">
-			<h4>Prefer to learn at your own pace?</h4>
+			<h4>Learn at your own pace</h4>
 			<p>
 				We also offer access to high-quality online technology training courses. 
 			</p>
 			<p>
 				<a class="btn btn-block btn-info" 
-						href="/tech/">More about <b>online technology courses</b> &rarr;</a>
+						href="/tech/">Learn more &rarr;</a>
 			</p>
 		</div>
 		<div class="alert alert-success">
-			<h4>Taming technology at the library</h4>
+			<h4>Taming technology</h4>
 			<p>
 				These workshops are part of our <b>Connected Learning</b> initiative.
 			</p>
 			<p>
 				<a class="btn btn-block btn-success" href="/connected-learning/">
-					More about <b>Connected Learning</b> &rarr;</a>
+					Learn more &rarr;</a>
 			</p>
 		</div>
 	</div><!-- /.col -->
