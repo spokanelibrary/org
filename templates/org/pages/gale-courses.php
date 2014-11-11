@@ -12,7 +12,6 @@
 
 <div class="row">
 	<div class="col-md-6">
-		<p>&nbsp;</p>
 		<p>
 			<a class="btn btn-block btn-info" 
 					href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
