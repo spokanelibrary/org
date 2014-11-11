@@ -7,12 +7,12 @@
 <div class="row">
 	<div class="col-md-6">
 		<div class="alert alert-success">
-			<h4>Connected learning at the library</h4>
+			<h4>Technology resources at the library</h4>
 			<p>
 				These workshops are part of our <b>Connected Learning</b> initiative.
 			</p>
 			<p>
-				<a class="btn btn-block btn-success" href="/connected-learning/">Learn more &rarr;</a>
+				<a class="btn btn-block btn-success" href="/connected-learning/">More about <b>Connected Learning</b> &rarr;</a>
 			</p>
 		</div>
 	</div><!-- /.col -->
