@@ -27,7 +27,7 @@ var ORG = {
       this.user = user;
     } else {
 
-      if ( $('#spl-account-summary') ) { 
+      if ( $('#spl-account-summary').length > 0 ) { 
         var $account = $('#spl-account-summary');
         //if ( $account && $account.text().length > 0 ) {
         if ( $account && $account.html().length > 0 ) {
