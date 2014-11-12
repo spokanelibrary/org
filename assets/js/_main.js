@@ -25,13 +25,17 @@ var ORG = {
 , setUser: function (user) {
     if ( user && user.sessionToken ) {
       this.user = user;
-    } else{
-      var $account = $('#spl-account-summary');
-      //if ( $account && $account.text().length > 0 ) {
-      if ( $account && $account.html().length > 0 ) {
-        //var user = JSON.parse($account.text());
-        var user = JSON.parse($account.html());
+    } else {
+
+      if ( $('#spl-account-summary') ) { 
+        var $account = $('#spl-account-summary');
+        //if ( $account && $account.text().length > 0 ) {
+        if ( $account && $account.html().length > 0 ) {
+          //var user = JSON.parse($account.text());
+          var user = JSON.parse($account.html());
+        }
       }
+
     }
 
     if ( null == typeof(user) || 'undefined' == typeof(user) ) {
