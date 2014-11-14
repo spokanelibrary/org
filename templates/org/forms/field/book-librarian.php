@@ -154,10 +154,21 @@
             <?php include 'common/field-login.php'; ?>
             <?php include 'common/field-contact.php'; ?>
 
-            <p>
-              Appointments are subject to staff availability. 
-              We will contact you to confirm your appointment.
-            </p>
+            <hr>
+
+            <div class="form-group">
+              <label for="" class="col-sm-4 control-label">
+                &nbsp;
+              </label>
+              <div class="col-sm-8">
+                <p>
+                  Appointments are subject to staff availability. 
+                  We will contact you to confirm your appointment.
+                </p>
+              </div>
+            </div>
+
+            
 
             <?php include 'common/field-submit.php'; ?>
             
