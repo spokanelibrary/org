@@ -72,7 +72,7 @@
 
             <p>
               Please let us know your <em>preferred date</em> to meet, and select two time slots that would work.
-              You might want to <a href="/branch">check branch hours</a> &rarr;
+              You might want to <a href="/branches/">check branch hours</a> &rarr;
             </p>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
