@@ -153,6 +153,12 @@
             <?php include 'common/field-contact-method.php'; ?>
             <?php include 'common/field-login.php'; ?>
             <?php include 'common/field-contact.php'; ?>
+
+            <p>
+              Appointments are subject to staff availability. 
+              We will contact you to confirm your appointment.
+            </p>
+
             <?php include 'common/field-submit.php'; ?>
             
           </fieldset>
