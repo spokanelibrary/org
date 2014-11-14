@@ -163,7 +163,8 @@
               <div class="col-sm-8">
                 <p>
                   Appointments are subject to staff availability. 
-                  We will contact you to confirm your appointment.
+                  <br>
+                  <b>We will contact you to confirm your appointment.</b>
                 </p>
               </div>
             </div>
