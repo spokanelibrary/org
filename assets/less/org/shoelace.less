@@ -38,20 +38,21 @@ ul.dynatable-pagination li a { cursor: pointer; }
   padding: 5px 0;
 }
 
-ol {
+// counting lists
+ol.counting-list {
   list-style-type: none;
   counter-reset: item;
   margin: 0;
   padding: 0;
 }
 
-ol > li {
+ol.counting-list > li {
   display: table;
   counter-increment: item;
   margin-bottom: 0.6em;
 }
 
-ol > li:before {
+ol.counting-list > li:before {
   content: counters(item, ".") ". ";
   display: table-cell;
   padding-right: 0.6em;    
