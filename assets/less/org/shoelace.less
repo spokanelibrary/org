@@ -44,7 +44,7 @@ ol.counting-list {
   margin: 0;
   padding: 0;
 
-  > li {
+  li {
     display: table;
     counter-increment: item;
     margin-bottom: 0.6em;
@@ -53,17 +53,16 @@ ol.counting-list {
       content: counters(item, ".") " ";
     }
 
+    ol { 
+      li:before {
+        content: counters(item, ".") ". ";
+        display: table-cell;
+        padding-right: 0.6em;   
+      } 
+    }
+
   }
-
-   > li:before {
-    content: counters(item, ".") ". ";
-    display: table-cell;
-    padding-right: 0.6em;    
-  }
-
-  
-
-  
+ 
 }
 
 
