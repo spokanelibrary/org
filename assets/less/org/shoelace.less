@@ -48,6 +48,11 @@ ol.counting-list {
     display: table;
     counter-increment: item;
     margin-bottom: 0.6em;
+
+    ol > li:before {
+      content: counters(item, ".") " ";
+    }
+
   }
 
    > li:before {
@@ -56,13 +61,9 @@ ol.counting-list {
     padding-right: 0.6em;    
   }
 
-  > li ol > li {
-    margin: 0;
-  }
+  
 
-  > li ol > li:before {
-    content: counters(item, ".") " ";
-  }
+  
 }
 
 
