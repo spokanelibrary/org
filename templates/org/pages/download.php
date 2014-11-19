@@ -34,7 +34,7 @@
 			<div class="col-md-6">
 				<div class="panel panel-primary" style="border-width-left:5px;">
 					<div class="panel-heading">
-						<h4>
+						<h4 class="panel-title">
 							<i class="glyphicon glyphicon-cloud-download"></i> 
 							eBooks
 						</h4>
@@ -113,7 +113,7 @@
 			<div class="col-md-6">
 				<div class="panel panel-primary" style="border-width-left:5px;">
 					<div class="panel-heading">
-						<h4>
+						<h4 class="panel-title">
 							<i class="glyphicon glyphicon-cloud-download"></i> 
 							Audio Books
 						</h4>
@@ -150,7 +150,7 @@
 			<div class="col-md-6">
 				<div class="panel panel-primary" style="border-width-left:5px;">
 					<div class="panel-heading">
-						<h4>
+						<h4 class="panel-title">
 							<i class="glyphicon glyphicon-cloud-download"></i> 
 							Magazines
 						</h4>
