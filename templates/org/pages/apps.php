@@ -10,7 +10,7 @@
     
     <div class="media">
     	<span class="media-object pull-left">
-    		<img style="width:57px; height:57px;" src="/assets/img/icons/apps/bookmyne.png">
+    		<img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/bookmyne.png">
     	</span>
       <div class="media-body">
         <h4 class="media-heading">
@@ -29,7 +29,7 @@
 
     <div class="media">
       <span class="media-object pull-left">
-        <img style="width:57px; height:57px;" src="/assets/img/icons/apps/overdrive.png">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/overdrive.png">
       </span>
       <div class="media-body">
         <h4 class="media-heading">
@@ -48,7 +48,7 @@
 
     <div class="media">
       <span class="media-object pull-left">
-        <img style="width:57px; height:57px;" src="/assets/img/icons/apps/freegal.png">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/freegal.png">
       </span>
       <div class="media-body">
         <h4 class="media-heading">
@@ -67,7 +67,7 @@
 
     <div class="media">
       <span class="media-object pull-left">
-        <img style="width:57px; height:57px;" src="/assets/img/icons/apps/oneclick.png">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/oneclick.png">
       </span>
       <div class="media-body">
         <h4 class="media-heading">
@@ -86,11 +86,49 @@
 
     <div class="media">
       <span class="media-object pull-left">
-        <img style="width:57px; height:57px;" src="/assets/img/icons/apps/zinio.png">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/zinio.png">
       </span>
       <div class="media-body">
         <h4 class="media-heading">
           <em>Zinio:</em> Magazines
+        </h4>
+        <p>
+          Lorem ipsum dolor sit amet.
+        </p>
+        <a href="#">iOS</a>
+        | 
+        <a href="#">Android</a>
+      </div>
+    </div><!-- /.media -->
+
+    <hr>
+
+    <div class="media">
+      <span class="media-object pull-left">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/zinio.png">
+      </span>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <em>Reference USA:</em> Research
+        </h4>
+        <p>
+          Lorem ipsum dolor sit amet.
+        </p>
+        <a href="#">iOS</a>
+        | 
+        <a href="#">Android</a>
+      </div>
+    </div><!-- /.media -->
+
+    <hr>
+
+    <div class="media">
+      <span class="media-object pull-left">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/zinio.png">
+      </span>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <em>Access my library:</em> Gale online resources
         </h4>
         <p>
           Lorem ipsum dolor sit amet.
