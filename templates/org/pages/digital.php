@@ -26,9 +26,9 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
-				<p>
+				<blockquote>
 					Use your phone or tablet to search the catalog, download material, and more.
-				</p>
+				</blockquote>
 				<p>
 					<a class="btn btn-block btn-success" href="/apps/">Get library apps &rarr;</a> 
 				</p>
@@ -66,7 +66,7 @@
 		</div><!-- /.media -->
 
 		<div class="media">
-		  <a class="pull-left btn btn-success btn-xs" href="/elearning/">
+		  <a class="pull-left btn btn-success btn-xs" href="/tech/">
 		  	<div class="media-object">
 		  		<h4 class="spl-btn-icon">
 		  			<span class="label label-primary">
@@ -86,7 +86,7 @@
 		</div><!-- /.media -->
 
 		<div class="media">
-		  <a class="pull-left btn btn-success btn-xs" href="/nw-digital/">
+		  <a class="pull-left btn btn-success btn-xs" href="/northwest-room/">
 		  	<div class="media-object">
 		  		<h4 class="spl-btn-icon">
 		  			<span class="label label-primary">
