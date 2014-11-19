@@ -2,7 +2,7 @@
   <div class="panel-body">
     
     <div class="media">
-      	<span class="media-object media-left">
+      	<span class="media-object pull-left">
       		<img style="width:57px; height:57px;" src="/assets/img/icons/apps/bookmyne.png">
       	</span>
       <div class="media-body">
