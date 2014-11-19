@@ -5,9 +5,9 @@
   	</span>
 	</a>
   <div class="media-body">
-    <h5 class="media-heading">
+    <h4 class="media-heading">
     	<a href="#"><em>BookMyne:</em> Mobile catalog
-    </h5>
+    </h4>
   </div>
 </div><!-- /.media -->
 
