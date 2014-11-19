@@ -53,7 +53,7 @@
 						    	<a href="#"><em>OverDrive:</em> eBook Downloads</a>
 						    </h4>
 						    <p>
-						    	We have several options for online and downloadable books you can read on your computer, smart phone, tablet, or dedicated eBook reader. 
+						    	We have several options for books you can read on your computer, smart phone, tablet, or dedicated eBook reader. 
 						  	</p>
 						  	<p>
 									eBook formats vary by publisher. 
