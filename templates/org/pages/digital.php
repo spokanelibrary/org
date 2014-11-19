@@ -15,7 +15,7 @@
 				
 				<hr>
 				<p class="text-center">
-					<a href="#">More about library <b>downloads</b></a> &rarr;
+					<a href="/download/">More about library <b>downloads</b></a> &rarr;
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
@@ -165,14 +165,14 @@
 
 		<div class="col-sm-6">
 			<p>
-				<a class="btn btn-block btn-warning" href="#">
+				<a class="btn btn-block btn-warning" href="/labs/">
 					<i class="glyphicon glyphicon-calendar"></i>
 					Find a computer class &rarr;</a>
 			</p>
 		</div><!-- /.col -->
 		<div class="col-sm-6">
 			<p>
-				<a class="btn btn-block btn-info" href="#">
+				<a class="btn btn-block btn-info" href="/computers/">
 					<i class="glyphicon glyphicon-time"></i>
 					Reserve a computer &rarr;</a>
 			</p>
