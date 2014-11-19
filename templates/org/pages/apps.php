@@ -6,9 +6,11 @@
 	</a>
   <div class="media-body">
     <h4 class="media-heading">
-    	<a href="#"><em>BookMyne:</em> Mobile catalog
+    	<em>BookMyne:</em> Mobile catalog
     </h4>
-    iOS | Android
+    <a href="#">iOS</a>
+    | 
+    <a href="#">Android</a>
   </div>
 </div><!-- /.media -->
 
