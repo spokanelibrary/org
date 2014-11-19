@@ -33,7 +33,7 @@
 						<li><b>manage</b> your account</li>
 						<li><b>download</b> books &amp; music
 					</ul>
-				<p class="text-right">
+				<p class="text-right text-muted">
 					&hellip; and much more!
 				</p>
 				<p>
