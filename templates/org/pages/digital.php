@@ -32,7 +32,7 @@
 						<li><b>search</b> the catalog</li>
 						<li><b>manage</b> your account</li>
 						<li><b>download</b> books &amp; music
-						<li><b>&hellip;</b> and much more!</li>
+						<li class="text-right">&hellip; and much more!</li>
 					</ul>
 				<p>
 					<a class="btn btn-block btn-success" 
