@@ -19,7 +19,6 @@
 			</div><!-- /.col -->
 			<div class="col-md-4">
 				<div class="alert alert-info">
-					<b>Notice:</b> 
 					This content is provided by third-party vendors. 
 					<br>
 					<small>
