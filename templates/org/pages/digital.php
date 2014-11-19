@@ -34,7 +34,7 @@
 						<li><b>download</b> books &amp; music
 					</ul>
 				<p class="text-right text-muted">
-					&hellip; and much more!
+					<small>&hellip; and much more!</small>
 				</p>
 				<p>
 					<a class="btn btn-block btn-success" 
