@@ -29,10 +29,10 @@
 
 					<h4>Use your phone or tablet to</h4> 
 					<ul>
-						<li><em>search</em> the catalog</li>
-						<li><em>manage</em> your account</li>
-						<li><em>download</em> books, music, &amp; magazines
-						<li>andmore</li>
+						<li><b>search</b> the catalog</li>
+						<li><b>manage</b> your account</li>
+						<li><b>download</b> books &amp; music
+						<li>and much more</li>
 					</ul>
 				<p>
 					<a class="btn btn-block btn-success" href="/apps/">Get library apps &rarr;</a> 
