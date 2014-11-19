@@ -26,14 +26,14 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
-				<blockquote>
+
 					<h4>Use your phone or tablet</h4> 
 					<ul>
 						<li>search the catalog</li>
 						<li>manage your account</li>
 						<li>download books, music, &amp; magazines
 						<li>and much more</li>
-				</blockquote>
+					</ul>
 				<p>
 					<a class="btn btn-block btn-success" href="/apps/">Get library apps &rarr;</a> 
 				</p>
