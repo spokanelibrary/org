@@ -155,7 +155,7 @@
 		  	<div class="media-object">
 		  		<h4 class="spl-btn-icon">
 		  			<span class="label label-primary">
-		  				<i class="glyphicon glyphicon-tree-conifer"></i>
+		  				<i class="glyphicon glyphicon-tree-deciduous"></i>
 		  			</span>
 		  		</h4>
 		  	</div>
