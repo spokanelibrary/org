@@ -48,6 +48,25 @@
 
     <div class="media">
       <span class="media-object pull-left">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/kindle.png">
+      </span>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <em>Kindle:</em> eBook reader
+        </h4>
+        <p>
+          Lorem ipsum dolor sit amet.
+        </p>
+        <a href="#">iOS</a>
+        | 
+        <a href="#">Android</a>
+      </div>
+    </div><!-- /.media -->
+
+    <hr>
+
+    <div class="media">
+      <span class="media-object pull-left">
         <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/freegal.png">
       </span>
       <div class="media-body">
