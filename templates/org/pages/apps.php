@@ -10,7 +10,7 @@
     
     <div class="media">
     	<span class="media-object pull-left">
-    		<img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/bookmyne.png">
+    		<img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/bookmyne.jpg">
     	</span>
       <div class="media-body">
         <h4 class="media-heading">
@@ -105,7 +105,7 @@
 
     <div class="media">
       <span class="media-object pull-left">
-        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/zinio.png">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/referenceusa.jpg">
       </span>
       <div class="media-body">
         <h4 class="media-heading">
@@ -124,7 +124,7 @@
 
     <div class="media">
       <span class="media-object pull-left">
-        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/zinio.png">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/accessmylibrary.jpg">
       </span>
       <div class="media-body">
         <h4 class="media-heading">
