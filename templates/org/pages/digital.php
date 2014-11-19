@@ -27,7 +27,7 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<p>
-					Lorem ipsum dolor sit amet.
+					Use your phone or tablet to search the catalog, download material, and more.
 				</p>
 
 				<hr>
