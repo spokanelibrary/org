@@ -29,10 +29,8 @@
 				<p>
 					Use your phone or tablet to search the catalog, download material, and more.
 				</p>
-
-				<hr>
-				<p class="text-center">
-					<a href="/apps/">More about library <b>apps</b></a> &rarr;
+				<p>
+					<a class="btn btn-block btn-success" href="/apps/">Get library apps &rarr;</a> 
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
