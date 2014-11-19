@@ -35,7 +35,8 @@
 						<li>and much more!</li>
 					</ul>
 				<p>
-					<a class="btn btn-block btn-success" href="/apps/">Get library apps &rarr;</a> 
+					<a class="btn btn-block btn-success" 
+						href="/apps/"><i class="glyphicon glyphicon-phone"></i> Get library apps &rarr;</a> 
 				</p>
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
@@ -102,7 +103,7 @@
 			</a>
 		  <div class="media-body">
 		    <h4 class="media-heading">
-		    	<a href="/northwest-room/">Northwest Room digital</a>
+		    	<a href="/northwest-room/">Northwest Room digital archives</a>
 		    </h4>
 		    <a href="/yearbooks/">Look through high school yearbooks</a> from Spokane during the last 100 years, <a href="/northwest-room/biofiles/">search for a name</a> in newspaper clippings, or <a href="/northwest-room/digital-collections/">browse more than 2,000 historical images</a> from the inland northwest.
 		  	<a href="/northwest-room/"><b>More</b> &rarr;</a>
