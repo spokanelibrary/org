@@ -32,8 +32,10 @@
 						<li><b>search</b> the catalog</li>
 						<li><b>manage</b> your account</li>
 						<li><b>download</b> books &amp; music
-						<li><p class="text-right">&hellip; and much more!</p></li>
 					</ul>
+				<p class="text-right">
+					&hellip; and much more!
+				</p>
 				<p>
 					<a class="btn btn-block btn-success" 
 						href="/apps/"><i class="glyphicon glyphicon-phone"></i> Get library apps &rarr;</a> 
