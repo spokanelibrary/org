@@ -8,6 +8,7 @@
     <h4 class="media-heading">
     	<a href="#"><em>BookMyne:</em> Mobile catalog
     </h4>
+    iOS | Android
   </div>
 </div><!-- /.media -->
 
