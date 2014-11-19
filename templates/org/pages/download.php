@@ -19,7 +19,6 @@
 			</div><!-- /.col -->
 			<div class="col-md-4">
 				<div class="alert alert-info">
-					<i class="glyphicon glyphicon-info-sign"></i>
 					<b>Notice:</b> 
 					This content is provided by third-party vendors. 
 					<br>
