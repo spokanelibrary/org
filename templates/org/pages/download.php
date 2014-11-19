@@ -19,7 +19,7 @@
 			</div><!-- /.col -->
 			<div class="col-md-4">
 				<div class="alert alert-info">
-					This content is provided by third-party vendors. 
+					Downloads are provided by third-party vendors. 
 					<br>
 					<small>
 					In most cases you will need to create an account, and you may need to download software to access these materials. 
