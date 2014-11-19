@@ -156,10 +156,10 @@
 			</a>
 		  <div class="media-body">
 		    <h4 class="media-heading">
-		    	<a href="/geanealogy/">Eastern Washington genealogy</a>
+		    	<a href="/genealogy/">Eastern Washington genealogy</a>
 		    </h4>
 		    Web-based tools with a special emphasis on Spokane, Eastern Washington and the surrounding states.
-		  	<a href="/geanealogy/"><b>More</b> &rarr;</a>
+		  	<a href="/genealogy/"><b>More</b> &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
