@@ -8,13 +8,13 @@
 					Don't forget to check back often. 
 				</p>
 				<p>
-					<strong>
-						You can also visit our <a href="/digital">Digital Branch</a> for online research and educational tools.
-					</strong>
-				</p>
-				<p>
 					Feel free to <a href="#">contact us</a> with questions. 
 					We’ll do our best to help.
+				</p>
+				<p>
+					<b>
+						You can also visit our <a href="/digital">Digital Branch</a> for online research and educational tools.
+					</b>
 				</p>
 			</div><!-- /.col -->
 			<div class="col-md-4">
