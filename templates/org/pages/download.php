@@ -91,7 +91,11 @@
 					</div><!-- /.panel-body -->
 				</div><!-- /.panel -->
 			</div><!-- /.col -->
-			
+		
+		</div><!-- /.row -->
+		
+		<div class="row">
+
 			<div class="col-md-6">
 				<div class="panel panel-primary" style="border-width-left:5px;">
 					<div class="panel-heading">
