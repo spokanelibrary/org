@@ -25,15 +25,8 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
-
-					<h4 class="text-success">Use your phone or tablet to:</h4> 
-					<ul>
-						<li><b>search</b> the catalog</li>
-						<li><b>manage</b> your account</li>
-						<li><b>download</b> books &amp; music
-					</ul>
-				<p class="text-right text-muted">
-					<small>&hellip; and much more!</small>
+				<p>
+					We have apps for most of our digital downloads.
 				</p>
 				<p>
 					<a class="btn btn-block btn-success" 
