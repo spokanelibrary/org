@@ -29,7 +29,7 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<p>
-					Check it out: we have apps for most of our digital downloads.
+					Check it out: we have mobile apps for most of our digital downloads.
 				</p>
 				<p>
 					<a class="btn btn-block btn-success" 
