@@ -32,7 +32,7 @@
 						<li><b>search</b> the catalog</li>
 						<li><b>manage</b> your account</li>
 						<li><b>download</b> books &amp; music
-						<li>and much more</li>
+						<li>and much more!</li>
 					</ul>
 				<p>
 					<a class="btn btn-block btn-success" href="/apps/">Get library apps &rarr;</a> 
@@ -174,7 +174,7 @@
 			<p>
 				<a class="btn btn-block btn-warning" href="/labs/">
 					<i class="glyphicon glyphicon-calendar"></i>
-					Find a computer class &rarr;</a>
+					Find a workshop &rarr;</a>
 			</p>
 		</div><!-- /.col -->
 		<div class="col-sm-6">
