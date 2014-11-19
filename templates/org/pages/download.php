@@ -7,6 +7,12 @@
 			Our capabilities continue to change and expand. 
 			Don't forget to check back often. 
 		</p>
+
+		<p>
+			Downloads are provided by third-party vendors.
+			In most cases you will need to create an account, and you may need to download software to access these materials. 
+		</p>
+
 		<p>
 			Feel free to <a href="/contact/">contact us</a> with questions. 
 			We’ll do our best to help.
@@ -194,13 +200,4 @@
 	</div><!-- /.col -->
 	
 </div><!-- /.row -->
-
-<hr>
-
-<h4>Downloads are provided by third-party vendors.</h4>
-<p>
-	In most cases you will need to create an account, and you may need to download software to access these materials. 
-</p>
-
-
 
