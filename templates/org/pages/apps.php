@@ -1,4 +1,11 @@
 <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <i class="glyphicon glyphicon-download-alt"></i>
+      App store links
+    </h4>
+  </div><!-- /.panel-heading -->
+
   <div class="panel-body">
     
     <div class="media">
