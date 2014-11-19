@@ -4,7 +4,7 @@
     <div class="media">
       <a class="pull-left btn btn-default btn-lg" href="#">
       	<span class="media-object">
-      		<i class="glyphicon glyphicon-download-alt"></i>
+      		<img style="width:57px; height:57px;" src="/assets/img/icons/apps/bookmyne.png">
       	</span>
     	</a>
       <div class="media-body">
