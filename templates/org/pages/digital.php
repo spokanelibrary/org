@@ -27,7 +27,7 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 
-					<h4 class="text-success">Use your phone or tablet to</h4> 
+					<h4 class="text-success">Use your phone or tablet to:</h4> 
 					<ul>
 						<li><b>search</b> the catalog</li>
 						<li><b>manage</b> your account</li>
