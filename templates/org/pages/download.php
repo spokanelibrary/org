@@ -18,7 +18,7 @@
 				</p>
 			</div><!-- /.col -->
 			<div class="col-md-4">
-				<div class="alert alert-info">
+				<div class="well well-condensed">
 					Downloads are provided by third-party vendors. 
 					<br>
 					<small>
