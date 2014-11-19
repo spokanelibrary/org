@@ -17,7 +17,7 @@
 					<b>Notice:</b> This content is provided by third-party vendors. 
 					In most cases you will need to create an account, and you may need to download software to access these materials. 
 					We have provided detailed instructions at the links below to help you get started.
-					<small>
+					</small>
 				</div>
 			</div><!-- /.col -->
 		</div><!-- /.row -->
