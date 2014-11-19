@@ -2,17 +2,9 @@
 <div class="row">
 	<div class="col-md-8">
 		<p>
-			Digital lending is a new and rapidly evolving landscape for libraries as well as for publishers. 
-			We are working hard to offer the widest range of digital content available. 
-			Our capabilities continue to change and expand. 
-			Don't forget to check back often. 
-		</p>
-
-		<p>
 			Downloads are provided by third-party vendors.
 			In most cases you will need to create an account, and you may need to download software to access these materials. 
 		</p>
-
 		<p>
 			Feel free to <a href="/contact/">contact us</a> with questions. 
 			We’ll do our best to help.
