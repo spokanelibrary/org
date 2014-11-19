@@ -6,7 +6,7 @@
 	</a>
   <div class="media-body">
     <h5 class="media-heading">
-    	<a href="#"><em>Freegal:</em> Music downloads</a> <small>(.mp3)</small>
+    	<a href="/emusic/"><em>Freegal:</em> Music downloads</a> <small>(.mp3)</small>
     </h5>
   </div>
 </div><!-- /.media -->
@@ -19,7 +19,7 @@
 	</a>
   <div class="media-body">
     <h5 class="media-heading">
-    	<a href="#"><em>OverDrive:</em> eBook downloads</a>
+    	<a href="/ebooks/"><em>OverDrive:</em> eBook downloads</a>
     </h5>
   </div>
 </div><!-- /.media -->
@@ -32,7 +32,7 @@
 	</a>
   <div class="media-body">
     <h5 class="media-heading">
-    	<a href="#"><em>Zinio:</em> Magazine downloads</a>
+    	<a href="/emagazines/"><em>Zinio:</em> Magazine downloads</a>
     </h5>
   </div>
 </div><!-- /.media -->
@@ -45,7 +45,7 @@
 	</a>
   <div class="media-body">
     <h5 class="media-heading">
-    	<a href="#"><em>OneClick:</em> Audio book downloads</a>
+    	<a href="/eaudio/"><em>OneClick:</em> Audio book downloads</a>
     </h5>
   </div>
 </div><!-- /.media -->
