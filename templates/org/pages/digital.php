@@ -27,7 +27,12 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<blockquote>
-					Use your phone or tablet to search the catalog, download material, and more.
+					<h4>Use your phone or tablet</h4> 
+					<ul>
+						<li>search the catalog</li>
+						<li>manage your account</li>
+						<li>download books, music, &amp; magazines
+						<li>and much more</li>
 				</blockquote>
 				<p>
 					<a class="btn btn-block btn-success" href="/apps/">Get library apps &rarr;</a> 
