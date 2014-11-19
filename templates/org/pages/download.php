@@ -2,6 +2,12 @@
 		<div class="row">
 			<div class="col-md-8">
 				<p>
+					Digital lending is a new and rapidly evolving landscape for libraries as well as for publishers. 
+					We are working hard to offer the widest range of digital content available. 
+					Our capabilities continue to change and expand. 
+					Don't forget to check back often. 
+				</p>
+				<p>
 					<strong>
 						You can also visit our <a href="/digital">Digital Branch</a> for online research and educational tools.
 					</strong>
