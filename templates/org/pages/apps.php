@@ -1,5 +1,5 @@
 <div class="media">
-  <a class="pull-left btn btn-success btn-lg" href="#">
+  <a class="pull-left btn btn-default btn-lg" href="#">
   	<span class="media-object">
   		<i class="glyphicon glyphicon-download-alt"></i>
   	</span>
