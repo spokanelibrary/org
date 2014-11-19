@@ -60,7 +60,7 @@
 
 		  <div class="media-body">
 		    <h4 class="media-heading">
-		    	<a href="#">Subscription databases</a>
+		    	<a href="/subscriptions/">Subscription databases</a>
 		    </h4>
 	    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
 	    	<a href="/subscriptions/#all"><b>View all</b> &rarr;</a>
@@ -79,10 +79,11 @@
 			</a>
 		  <div class="media-body">
 		    <h4 class="media-heading">
-		    	<a href="#">Online training <span class="hidden-xs">&amp; certification</span></a>
+		    	<a href="/tech/">Online training <span class="hidden-xs">&amp; certification</span></a>
 		    </h4>
-	    	Courses and training in the latest <a href="#">Microsoft technologies</a> as well as <a href="#">many other topics</a>.
-	    	Or <a href="/subscriptions/#cr">build your resume online &rarr;</a>
+	    	Courses and training in the latest <a href="/it-academy/">Microsoft technologies</a> as well as <a href="/gale-courses/">many other topics</a>.
+	    	Or <a href="/subscriptions/#cr">build your resume</a> online.
+	    	<a href="/tech/">More &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
@@ -98,10 +99,10 @@
 			</a>
 		  <div class="media-body">
 		    <h4 class="media-heading">
-		    	<a href="#">Northwest Room digital</a>
+		    	<a href="/northwest-room/">Northwest Room digital</a>
 		    </h4>
 		    <a href="/yearbooks/">Look through high school yearbooks</a> from Spokane during the last 100 years, <a href="/northwest-room/biofiles/">search for a name</a> in newspaper clippings, or <a href="/northwest-room/digital-collections/">browse more than 2,000 historical images</a> from the inland northwest.
-		  	<a href="/subscriptions/#all"><b>View all</b> &rarr;</a>
+		  	<a href="/northwest-room/"><b>More</b> &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
@@ -117,9 +118,10 @@
 			</a>
 		  <div class="media-body">
 		    <h4 class="media-heading">
-		    	<a href="#">Tools for business</a>
+		    	<a href="/business/">Tools for business</a>
 		    </h4>
-	    	Competitive analysis, technology training, and market research.
+	    	Competitive analysis, technology training, and market research. 
+	    	<a href="/business/">More &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
@@ -135,9 +137,10 @@
 			</a>
 		  <div class="media-body">
 		    <h4 class="media-heading">
-		    	<a href="#">Help with your homework</a>
+		    	<a href="/homework/">Help with your homework</a>
 		    </h4>
 	    	Easy-to-use websites for all ages to help with class projects, research, or homework.
+		  	<a href="/homework/">More &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
@@ -153,9 +156,10 @@
 			</a>
 		  <div class="media-body">
 		    <h4 class="media-heading">
-		    	<a href="#">Eastern Washington genealogy</a>
+		    	<a href="/geanealogy/">Eastern Washington genealogy</a>
 		    </h4>
-
+		    Web-based tools with a special emphasis on Spokane, Eastern Washington and the surrounding states.
+		  	<a href="/geanealogy/">More &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
