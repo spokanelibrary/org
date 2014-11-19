@@ -83,7 +83,7 @@
 		    </h4>
 	    	Courses and training in the latest <a href="/it-academy/">Microsoft technologies</a> as well as <a href="/gale-courses/">many other topics</a>.
 	    	Or <a href="/subscriptions/#cr">build your resume</a> online.
-	    	<a href="/tech/">More &rarr;</a>
+	    	<a href="/tech/"><b>More</b> &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
@@ -121,7 +121,7 @@
 		    	<a href="/business/">Tools for business</a>
 		    </h4>
 	    	Competitive analysis, technology training, and market research. 
-	    	<a href="/business/">More &rarr;</a>
+	    	<a href="/business/"><b>More</b> &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
@@ -140,7 +140,7 @@
 		    	<a href="/homework/">Help with your homework</a>
 		    </h4>
 	    	Easy-to-use websites for all ages to help with class projects, research, or homework.
-		  	<a href="/homework/">More &rarr;</a>
+		  	<a href="/homework/"><b>More</b> &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
@@ -159,7 +159,7 @@
 		    	<a href="/geanealogy/">Eastern Washington genealogy</a>
 		    </h4>
 		    Web-based tools with a special emphasis on Spokane, Eastern Washington and the surrounding states.
-		  	<a href="/geanealogy/">More &rarr;</a>
+		  	<a href="/geanealogy/"><b>More</b> &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
