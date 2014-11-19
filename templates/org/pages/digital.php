@@ -45,7 +45,7 @@
 			<div class="panel-heading">
 				<h3 class="panel-title">
 					<i class="glyphicon glyphicon-globe"></i>
-					Research, training, and educational resources
+					<b class="hidden-xs hidden-sm">Connected Learning:</b> Research, training, and educational resources
 				</h3>
 			</div>
 		</div>
