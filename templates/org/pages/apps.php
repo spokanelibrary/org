@@ -11,6 +11,9 @@
     <a href="#">iOS</a>
     | 
     <a href="#">Android</a>
+    <p>
+      Lorem ipsum dolor sit amet.
+    </p>
   </div>
 </div><!-- /.media -->
 
