@@ -1,6 +1,6 @@
 
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-8">
 				<p>
 					<strong>
 						You can also visit our <a href="/digital">Digital Branch</a> for online research and educational tools.
@@ -11,7 +11,7 @@
 					We’ll do our best to help.
 				</p>
 			</div><!-- /.col -->
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<div class="alert alert-info">
 					This content is provided by third-party vendors. 
 					In most cases you will need to create an account, and you may need to download software to access these materials. 
