@@ -8,12 +8,12 @@
 					Don't forget to check back often. 
 				</p>
 				<p>
-					Feel free to <a href="#">contact us</a> with questions. 
+					Feel free to <a href="/contact/">contact us</a> with questions. 
 					We’ll do our best to help.
 				</p>
 				<p>
 					<b>
-						You can also visit our <a href="/digital">Digital Branch</a> for online research and educational tools.
+						You can also visit our <a href="/digital/">Digital Branch</a> for online research and educational tools.
 					</b>
 				</p>
 			</div><!-- /.col -->
@@ -41,14 +41,14 @@
 					</div><!-- /.panel-heading -->
 					<div class="panel-body">
 						<div class="media">
-						  <a class="pull-left btn btn-success" href="#">
+						  <a class="pull-left btn btn-success" href="/ebooks/">
 						  	<span class="media-object">
 						  		<img alt="" style="width: 50px; height: 50px;" src="/assets/img/png/spl-app-icons-ebook.png">
 						  	</span>
 							</a>
 						  <div class="media-body">
 						    <h4 class="media-heading">
-						    	<a href="#"><em>OverDrive:</em> eBook Downloads</a>
+						    	<a href="/ebooks/"><em>OverDrive:</em> eBook Downloads</a>
 						    </h4>
 						    <p>
 						    	We have several options for books you can read on your computer, smart phone, tablet, or dedicated eBook reader. 
@@ -59,7 +59,7 @@
 		 						</p>
 						    <p>
 						    	<h4>
-						    		<a href="#">Learn more</a> 
+						    		<a href="/ebooks/">Learn more</a> 
 						    		<small>&rarr;</small>
 						    	</h4>
 						    </p>
@@ -79,14 +79,14 @@
 					</div><!-- /.panel-heading -->
 					<div class="panel-body">
 						<div class="media">
-						  <a class="pull-left btn btn-success" href="#">
+						  <a class="pull-left btn btn-success" href="/emusic/">
 						  	<span class="media-object">
 						  		<img alt="" style="width: 50px; height: 50px;" src="/assets/img/png/spl-app-icons-music.png">
 						  	</span>
 							</a>
 						  <div class="media-body">
 						    <h4 class="media-heading">
-						    	<a href="#"><em>Freegal:</em> Music Downloads</a> <small>(.mp3)</small>
+						    	<a href="/emusic/"><em>Freegal:</em> Music Downloads</a> <small>(.mp3)</small>
 						    </h4>
 						    <p>
 						    	<strong>Download 5 free songs every week</strong> – yours to keep! 
@@ -96,7 +96,7 @@
 		 						</p>
 						    <p>
 						    	<h4>
-						    		<a href="#">Learn more</a> 
+						    		<a href="/emusic/">Learn more</a> 
 						    		<small>&rarr;</small>
 						    	</h4>
 						    </p>
@@ -120,14 +120,14 @@
 					</div><!-- /.panel-heading -->
 					<div class="panel-body">
 						<div class="media">
-						  <a class="pull-left btn btn-success" href="#">
+						  <a class="pull-left btn btn-success" href="/eaudio/">
 						  	<span class="media-object">
 						  		<img alt="" style="width: 50px; height: 50px;" src="/assets/img/png/spl-app-icons-audio.png">
 						  	</span>
 							</a>
 						  <div class="media-body">
 						    <h4 class="media-heading">
-						    	<a href="#"><em>OneClick:</em> Audio Book Downloads</a>
+						    	<a href="/eaudio/"><em>OneClick:</em> Audio Book Downloads</a>
 						    </h4>
 						    <p>
 						    	Download audio books directly to your computer or portable music player. 
@@ -137,7 +137,7 @@
 		 						</p>
 						    <p>
 						    	<h4>
-						    		<a href="#">Learn more</a> 
+						    		<a href="/eaudio/">Learn more</a> 
 						    		<small>&rarr;</small>
 						    	</h4>
 						    </p>
@@ -157,14 +157,14 @@
 					</div><!-- /.panel-heading -->
 					<div class="panel-body">
 						<div class="media">
-						  <a class="pull-left btn btn-success" href="#">
+						  <a class="pull-left btn btn-success" href="/emagazines/">
 						  	<span class="media-object">
 						  		<img alt="" style="width: 50px; height: 50px;" src="/assets/img/png/spl-app-icons-magazine.png">
 						  	</span>
 							</a>
 						  <div class="media-body">
 						    <h4 class="media-heading">
-						    	<a href="#"><em>Zinio:</em> Magazine Downloads</a>
+						    	<a href="/magazines/"><em>Zinio:</em> Magazine Downloads</a>
 						    </h4>
 						    <p>
 						    	Download current magazines from the Library's digital collection using your desktop or mobile device. 
@@ -174,7 +174,7 @@
 		 						</p>
 						    <p>
 						    	<h4>
-						    		<a href="#">Learn more</a> 
+						    		<a href="/emagazines/">Learn more</a> 
 						    		<small>&rarr;</small>
 						    	</h4>
 						    </p>
