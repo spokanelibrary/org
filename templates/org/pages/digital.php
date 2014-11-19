@@ -27,12 +27,12 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 
-					<h4>Use your phone or tablet</h4> 
+					<h4>Use your phone or tablet to</h4> 
 					<ul>
-						<li>search the catalog</li>
-						<li>manage your account</li>
-						<li>download books, music, &amp; magazines
-						<li>and much more</li>
+						<li><em>search</em> the catalog</li>
+						<li><em>manage</em> your account</li>
+						<li><em>download</em> books, music, &amp; magazines
+						<li>andmore</li>
 					</ul>
 				<p>
 					<a class="btn btn-block btn-success" href="/apps/">Get library apps &rarr;</a> 
