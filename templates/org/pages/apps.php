@@ -30,7 +30,6 @@
       </div>
     </div><!-- /.media -->
 
-    <hr>
     <p id="overdrive">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
