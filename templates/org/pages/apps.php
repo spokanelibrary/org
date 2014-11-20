@@ -78,6 +78,7 @@
         <p>
           If you choose to borrow OverDrive eBooks in Kindle format you'll want to grab this Kindle reader app.
           This is useful, for example, if you want to switch between reading on a Kindle device and a smartphone.
+          <a href="/ebooks/">More about eBooks at the library &rarr;</a>
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/id302584613">iOS &rarr;</a>
@@ -106,6 +107,7 @@
         <p>
           Download 5 free songs every week – yours to keep!
           With over 7 million tracks from 23,000 record labels spanning more than 100 genres of music, we think everyone can find a reason (or 5) to like this service. 
+          <a href="/emusic/">More about eMusic at the library &rarr;</a>
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/freegal-music/id508036345">iOS &rarr;</a>
@@ -127,6 +129,7 @@
         <p>
           Download audio books directly to your computer or portable music player. 
           Listen at home or on the go. 
+          <a href="/eaudio/">More about eAudio at the library &rarr;</a>
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/oneclickdigital/id515311743">iOS &rarr;</a>
@@ -151,6 +154,7 @@
         <p>
           Zinio online magazine service lets you download some of the most popular current magazines to your computer or mobile device. 
           There are no limits or expiration dates for checked out magazines. 
+          <a href="/emagazines/">More about eMagazines at the library &rarr;</a>
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/zinio-magazine-newsstand-reader/id364297166">iOS &rarr;</a>
