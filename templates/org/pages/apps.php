@@ -166,7 +166,7 @@
           Lorem ipsum dolor sit amet.
         </p>
         <p>
-          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/referenceusa-for-ipad/id532313135">iPad &rarr;</a>
+          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/referenceusa-for-ipad/id532313135">iOS <small>(iPad only)</small> &rarr;</a>
         </p>
       </div>
     </div><!-- /.media -->
