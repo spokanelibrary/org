@@ -50,9 +50,9 @@
         | 
         <a rel="external" href="https://www.barnesandnoble.com/w/overdrive-overdrive-inc/1120365790?ean=2940043354334&isbn=2940043354334">Nook</a>
         | 
-        <a rel="external" href="http://app.overdrive.com/downloads/ODMediaConsoleSetup.dmg">Mac</a>
+        <a rel="external" href="http://app.overdrive.com/downloads/ODMediaConsoleSetup.dmg">Mac <small class="text-muted">(download)<small></a>
         | 
-        <a rel="external" href="http://app.overdrive.com/downloads/ODMediaConsoleSetup.msi">Windows</a>
+        <a rel="external" href="http://app.overdrive.com/downloads/ODMediaConsoleSetup.msi">Windows <small class="text-muted">(download)<small></a>
         | 
         <a rel="external" href="http://apps.microsoft.com/windows/en-US/app/overdrive-media-console/0c1b24d6-bf93-44da-90fb-601c6a99e379">Windows 8</a>
 
@@ -78,11 +78,9 @@
         </p>
         <a rel="external" href="https://www.windowsphone.com/en-us/store/app/amazon-kindle/48195fb4-ee0e-e011-9264-00237de2db9e">Windows Phone</a>
         | 
-        <a rel="external" href="https://itunes.apple.com/us/app/kindle/id405399194">Mac (app store)</a>
-        | 
-        <a rel="external" href="http://www.amazon.com/gp/kindle/mac/download">Mac (download)</a>
-        | 
-        <a rel="external" href="http://www.amazon.com/gp/kindle/pc/download">Windows</a>
+        <a rel="external" href="https://itunes.apple.com/us/app/kindle/id405399194">Mac <small class="text-muted">(app store)<small></a>
+        |
+        <a rel="external" href="http://www.amazon.com/gp/kindle/pc/download">Windows <small class="text-muted">(download)<small></a>
         | 
         <a rel="external" href="http://apps.microsoft.com/windows/en-us/app/kindle/1d7e4396-0143-4aed-8892-84eb75e799f3">Windows 8</a>
       </div>
