@@ -52,7 +52,7 @@
         | 
         <a rel="external" href="http://app.overdrive.com/downloads/ODMediaConsoleSetup.msi">Windows</a>
         | 
-        <a rel="external" href="http://apps.microsoft.com/windows/en-US/app/overdrive-media-console/0c1b24d6-bf93-44da-90fb-601c6a99e379">Windows 8</a>
+        <a rel="external" href="https://apps.microsoft.com/windows/en-US/app/overdrive-media-console/0c1b24d6-bf93-44da-90fb-601c6a99e379">Windows 8</a>
       </div>
     </div><!-- /.media -->
 
