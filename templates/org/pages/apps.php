@@ -64,8 +64,7 @@
       </div>
     </div><!-- /.media -->
 
-    <hr>
-
+    <p id="kindle">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
         <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/kindle.png">
@@ -93,8 +92,7 @@
       </div>
     </div><!-- /.media -->
 
-    <hr>
-
+    <p id="freegal">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
         <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/freegal.png">
@@ -115,8 +113,7 @@
       </div>
     </div><!-- /.media -->
 
-    <hr>
-
+    <p id="oneclick">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
         <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/oneclick.png">
@@ -140,8 +137,7 @@
       </div>
     </div><!-- /.media -->
 
-    <hr>
-
+    <p id="zinio">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
         <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/zinio.png">
@@ -165,8 +161,7 @@
       </div>
     </div><!-- /.media -->
 
-    <hr>
-
+    <p id="referenceusa">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
         <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/referenceusa.jpg">
@@ -184,8 +179,7 @@
       </div>
     </div><!-- /.media -->
 
-    <hr>
-
+    <p id="accessmylibrary">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
         <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/accessmylibrary.jpg">
