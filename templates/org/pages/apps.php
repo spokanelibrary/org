@@ -163,7 +163,7 @@
           <em>Reference USA:</em> Research
         </h4>
         <p>
-          Lorem ipsum dolor sit amet.
+          ReferenceUSA is the premier business and consumer reference and research tool offering instant, real-time access to in-depth information on millions of U.S Businesses and Consumers.
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/referenceusa-for-ipad/id532313135">iOS <small>(iPad only)</small> &rarr;</a>
@@ -179,10 +179,10 @@
       </span>
       <div class="media-body">
         <h4 class="media-heading">
-          <em>Access my library:</em> Gale online resources
+          <em>Access my library:</em> Cengage Learning online resources
         </h4>
         <p>
-          Lorem ipsum dolor sit amet.
+          Access several library subscription-only databases, including Demographics Now, Gale Legal Forms, Literature Resource Center, and many other digital reference materials.
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/access-my-library/id920817861">iOS &rarr;</a>
