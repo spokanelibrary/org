@@ -120,12 +120,12 @@
           Lorem ipsum dolor sit amet.
         </p>
         <p>
-          <a rel="external" class="btn btn-info" href="#">iOS &rarr;</a>
-          <a rel="external" class="btn btn-success" href="#">Android &rarr;</a>
+          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/oneclickdigital/id515311743">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.ocd&hl=en">Android &rarr;</a>
         </p>
-        <a rel="external" href="#">iOS</a>
+        <a rel="external" href="http://www.amazon.com/Recorded-Books-OneClickdigital/dp/B009GLFOL4/">Kindle Fire</a>
         | 
-        <a rel="external" href="#">Android</a>
+        <a rel="external" href="http://www.barnesandnoble.com/w/oneclickdigital-recorded-books/1115073231?ean=2940147119860">Nook</a>
       </div>
     </div><!-- /.media -->
 
