@@ -21,8 +21,8 @@
         </p>
 
         <p>
-          <a class="btn btn-default" href="#">iOS &rarr;</a>
-          <a class="btn btn-default" href="#">Android &rarr;</a>
+          <a class="btn btn-info" href="#">iOS &rarr;</a>
+          <a class="btn btn-success" href="#">Android &rarr;</a>
         </p>
 
         <a rel="external" href="https://itunes.apple.com/us/app/bookmyne/id350625461">iOS</a>
