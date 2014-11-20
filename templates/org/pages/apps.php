@@ -37,7 +37,8 @@
           <em>OverDrive:</em> eBooks
         </h4>
         <p>
-          Lorem ipsum dolor sit amet.
+          eBooks for your computer, smart phone, tablet, or dedicated eBook reader.
+          When possible, we attempt to provide titles in PDF or ePUB as well as AZW (Kindle) formats. 
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/overdrive-media-console/id366869252">iOS &rarr;</a>

@@ -104,7 +104,7 @@
 				    	<strong>Download 5 free songs every week</strong> – yours to keep! 
 				  	</p>
 				  	<p>
-							With over 3 million tracks from 11,000 record labels spanning more than 100 genres of music, we think everyone can find a reason (or 5) to like this service. 
+							With over 7 million tracks from 23,000 record labels spanning more than 100 genres of music, we think everyone can find a reason (or 5) to like this service. 
  						</p>
 				    <p>
 				    	<h4>
