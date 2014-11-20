@@ -7,8 +7,8 @@
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
-    
-    <div class="media" id="bookmyne">
+    <p id="bookmyne">&nbsp;</p>
+    <div class="media">
     	<span class="media-object pull-left">
     		<img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/bookmyne.jpg">
     	</span>
