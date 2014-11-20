@@ -73,13 +73,9 @@
           Lorem ipsum dolor sit amet.
         </p>
         <p>
-          <a rel="external" class="btn btn-info" href="#">iOS &rarr;</a>
-          <a rel="external" class="btn btn-success" href="#">Android &rarr;</a>
+          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/id302584613">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?hl=en&id=com.amazon.kindle">Android &rarr;</a>
         </p>
-        <a rel="external" href="https://itunes.apple.com/us/app/id302584613">iOS</a>
-        | 
-        <a rel="external" href="https://play.google.com/store/apps/details?hl=en&id=com.amazon.kindle">Android</a>
-        | 
         <a rel="external" href="https://www.windowsphone.com/en-us/store/app/amazon-kindle/48195fb4-ee0e-e011-9264-00237de2db9e">Windows Phone</a>
         | 
         <a rel="external" href="https://itunes.apple.com/us/app/kindle/id405399194">Mac (app store)</a>
@@ -105,6 +101,10 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="#">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="#">Android &rarr;</a>
+        </p>
         <a rel="external" href="#">iOS</a>
         | 
         <a rel="external" href="#">Android</a>
@@ -123,6 +123,10 @@
         </h4>
         <p>
           Lorem ipsum dolor sit amet.
+        </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="#">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="#">Android &rarr;</a>
         </p>
         <a rel="external" href="#">iOS</a>
         | 
@@ -143,6 +147,10 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="#">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="#">Android &rarr;</a>
+        </p>
         <a rel="external" href="#">iOS</a>
         | 
         <a rel="external" href="#">Android</a>
@@ -162,6 +170,10 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="#">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="#">Android &rarr;</a>
+        </p>
         <a rel="external" href="#">iOS</a>
         | 
         <a rel="external" href="#">Android</a>
@@ -180,6 +192,10 @@
         </h4>
         <p>
           Lorem ipsum dolor sit amet.
+        </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="#">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="#">Android &rarr;</a>
         </p>
         <a rel="external" href="#">iOS</a>
         | 
