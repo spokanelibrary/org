@@ -19,15 +19,10 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
-
         <p>
-          <a class="btn btn-info" href="#">iOS &rarr;</a>
-          <a class="btn btn-success" href="#">Android &rarr;</a>
+          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/bookmyne/id350625461">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=sirsidynix.bookmyne">Android &rarr;</a>
         </p>
-
-        <a rel="external" href="https://itunes.apple.com/us/app/bookmyne/id350625461">iOS</a>
-        | 
-        <a rel="external" href="https://play.google.com/store/apps/details?id=sirsidynix.bookmyne">Android</a>
       </div>
     </div><!-- /.media -->
 
@@ -44,6 +39,11 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="#">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="#">Android &rarr;</a>
+        </p>
+
         <a rel="external" href="https://itunes.apple.com/us/app/overdrive-media-console/id366869252">iOS</a>
         | 
         <a rel="external" href="https://play.google.com/store/apps/details?id=com.overdrive.mobile.android.mediaconsole">Android</a>
