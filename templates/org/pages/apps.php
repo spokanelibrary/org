@@ -171,7 +171,7 @@
           ReferenceUSA is the premier business and consumer reference and research tool offering instant, real-time access to in-depth information on millions of U.S Businesses and Consumers.
         </p>
         <p>
-          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/referenceusa-for-ipad/id532313135">iOS (iPad only) &rarr;</a>
+          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/referenceusa-for-ipad/id532313135">iOS <span class="text-muted">&ndash; iPad only</span> &rarr;</a>
         </p>
       </div>
     </div><!-- /.media -->
