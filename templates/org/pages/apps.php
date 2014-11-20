@@ -71,7 +71,7 @@
           <em>Kindle:</em> eBook reader
         </h4>
         <p>
-          If you choose to borrower OverDrive eBooks in Kindle format you'll want to grab this Kindle reader app.
+          If you choose to borrow OverDrive eBooks in Kindle format you'll want to grab this Kindle reader app.
           This is useful if you want to switch between reading on a Kindle device and a smartphone, for example.
         </p>
         <p>
