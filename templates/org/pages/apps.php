@@ -17,7 +17,7 @@
         	<em>BookMyne:</em> Mobile catalog
         </h4>
         <p>
-          Search the library catalog, place holds, and manage your account.
+          <b>Search the library catalog, place holds, and manage your account.</b>
         </p>
         <p>
           <span class="label label-success">New</span>
