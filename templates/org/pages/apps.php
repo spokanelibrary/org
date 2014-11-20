@@ -8,7 +8,7 @@
 
   <div class="panel-body">
     
-    <div class="media">
+    <div class="media" id="bookmyne">
     	<span class="media-object pull-left">
     		<img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/bookmyne.jpg">
     	</span>
