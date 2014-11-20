@@ -69,9 +69,13 @@
 							eBook formats vary by publisher. 
 							When possible, we attempt to provide titles in PDF or ePUB as well as AZW (Kindle) formats. 
  						</p>
-				    <p>
 				    	<h4>
 				    		<a href="/ebooks/">Learn more</a> 
+				    		<small>&rarr;</small>
+				    	</h4>
+				    <p>
+				    	<h4>
+				    		<a href="/apps/#overdrive">Get the app</a> 
 				    		<small>&rarr;</small>
 				    	</h4>
 				    </p>
