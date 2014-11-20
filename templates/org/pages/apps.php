@@ -20,10 +20,10 @@
           Lorem ipsum dolor sit amet.
         </p>
 
-        <div class="btn-group btn-group-justified">
+        <p>
           <a class="btn btn-default" href="#">iOS &rarr;</a>
           <a class="btn btn-default" href="#">Android &rarr;</a>
-        </div>
+        </p>
 
         <a rel="external" href="https://itunes.apple.com/us/app/bookmyne/id350625461">iOS</a>
         | 
