@@ -20,7 +20,7 @@
           Lorem ipsum dolor sit amet.
         </p>
 
-        <div class="btn-group">
+        <div class="btn-group btn-group-justified">
           <a class="btn btn-info" href="#">iOS</a>
           <a class="btn btn-success" href="#">Android</a>
         </div>
