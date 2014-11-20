@@ -19,9 +19,9 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
-        <a href="#">iOS</a>
+        <a rel="external" href="http://itunes.apple.com/us/app/bookmyne/id350625461">iOS</a>
         | 
-        <a href="#">Android</a>
+        <a rel="external" href="https://play.google.com/store/apps/details?id=sirsidynix.bookmyne">Android</a>
       </div>
     </div><!-- /.media -->
 
