@@ -37,7 +37,7 @@
           <em>OverDrive:</em> eBooks
         </h4>
         <p>
-          eBooks for your computer, smart phone, tablet, or dedicated eBook reader.
+          Borrow eBooks to read on your computer, smart phone, tablet, or dedicated eBook reader.
           When possible, we attempt to provide titles in PDF or ePUB as well as AZW (Kindle) formats. 
         </p>
         <p>
@@ -71,7 +71,8 @@
           <em>Kindle:</em> eBook reader
         </h4>
         <p>
-          Lorem ipsum dolor sit amet.
+          If you choose to borrower OverDrive eBooks in Kindle format you'll want to grab this Kindle reader app.
+          This is useful if you want to switch between reading on a Kindle device and a smartphone, for example.
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/id302584613">iOS &rarr;</a>
