@@ -110,8 +110,8 @@
  						</p>
 
  						<p>
- 							<a class="btn btn-lg btn-link" href="/emusic/">Learn more</a>
- 							<a class="btn btn-lg btn-link" href="/apps/#freegal">Get the app</a> 
+ 							<a class="btn btn-lg btn-link" href="/emusic/">Learn more &rarr;</a>
+ 							<a class="btn btn-lg btn-link" href="/apps/#freegal">Get the app &rarr;</a> 
  						</p>
 
 			    	<h4>
