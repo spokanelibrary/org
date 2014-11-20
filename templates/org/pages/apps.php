@@ -69,9 +69,19 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
-        <a rel="external" href="#">iOS</a>
+        <a rel="external" href="https://itunes.apple.com/us/app/id302584613">iOS</a>
         | 
-        <a rel="external" href="#">Android</a>
+        <a rel="external" href="https://play.google.com/store/apps/details?hl=en&id=com.amazon.kindle">Android</a>
+        | 
+        <a rel="external" href="https://www.windowsphone.com/en-us/store/app/amazon-kindle/48195fb4-ee0e-e011-9264-00237de2db9e">Windows Phone</a>
+        | 
+        <a rel="external" href="http://www.amazon.com/gp/kindle/mac/download">Mac (download)</a>
+        | 
+        <a rel="external" href="https://itunes.apple.com/us/app/kindle/id405399194">Mac (app store)</a>
+        | 
+        <a rel="external" href="http://www.amazon.com/gp/kindle/pc/download">Windows</a>
+        | 
+        <a rel="external" href="http://apps.microsoft.com/windows/en-us/app/kindle/1d7e4396-0143-4aed-8892-84eb75e799f3">Windows 8</a>
       </div>
     </div><!-- /.media -->
 
