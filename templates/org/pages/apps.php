@@ -17,7 +17,10 @@
         	<em>BookMyne:</em> Mobile catalog
         </h4>
         <p>
-          Lorem ipsum dolor sit amet.
+          Search the library catalog, place holds, and manage your account.
+        </p>
+        <p>
+          <span class="label label-success">New</span>
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/bookmyne/id350625461">iOS &rarr;</a>
@@ -72,7 +75,7 @@
         </h4>
         <p>
           If you choose to borrow OverDrive eBooks in Kindle format you'll want to grab this Kindle reader app.
-          This is useful if you want to switch between reading on a Kindle device and a smartphone, for example.
+          This is useful, for example, if you want to switch between reading on a Kindle device and a smartphone.
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/id302584613">iOS &rarr;</a>
@@ -171,7 +174,7 @@
           ReferenceUSA is the premier business and consumer reference and research tool offering instant, real-time access to in-depth information on millions of U.S Businesses and Consumers.
         </p>
         <p>
-          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/referenceusa-for-ipad/id532313135">iOS &ndash; iPad only &rarr;</a>
+          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/referenceusa-for-ipad/id532313135">iOS (iPad only) &rarr;</a>
         </p>
       </div>
     </div><!-- /.media -->
