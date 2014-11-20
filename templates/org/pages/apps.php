@@ -19,6 +19,12 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
+
+        <div class="btn-group btn-group-justified">
+          <a class="btn btn-info" href="#">iOS</a>
+          <a class="btn btn-inverse" href="#">Android</a>
+        </div>
+
         <a rel="external" href="https://itunes.apple.com/us/app/bookmyne/id350625461">iOS</a>
         | 
         <a rel="external" href="https://play.google.com/store/apps/details?id=sirsidynix.bookmyne">Android</a>
@@ -75,9 +81,9 @@
         | 
         <a rel="external" href="https://www.windowsphone.com/en-us/store/app/amazon-kindle/48195fb4-ee0e-e011-9264-00237de2db9e">Windows Phone</a>
         | 
-        <a rel="external" href="http://www.amazon.com/gp/kindle/mac/download">Mac (download)</a>
-        | 
         <a rel="external" href="https://itunes.apple.com/us/app/kindle/id405399194">Mac (app store)</a>
+        | 
+        <a rel="external" href="http://www.amazon.com/gp/kindle/mac/download">Mac (download)</a>
         | 
         <a rel="external" href="http://www.amazon.com/gp/kindle/pc/download">Windows</a>
         | 
