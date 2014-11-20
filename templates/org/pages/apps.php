@@ -21,8 +21,8 @@
         </p>
 
         <div class="btn-group btn-group-justified">
-          <a class="btn btn-default" href="#">iOS</a>
-          <a class="btn btn-default" href="#">Android</a>
+          <a class="btn btn-default" href="#">iOS &rarr;</a>
+          <a class="btn btn-default" href="#">Android &rarr;</a>
         </div>
 
         <a rel="external" href="https://itunes.apple.com/us/app/bookmyne/id350625461">iOS</a>
