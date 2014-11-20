@@ -20,7 +20,7 @@
           <b>Search the library catalog, place holds, and manage your account.</b>
         </p>
         <p>
-          <span class="label label-success">New</span>
+          <span class="label label-success">Update</span>
           BookMyne has been completely rewritten for Android and now works! 
         </p>
         <p>
