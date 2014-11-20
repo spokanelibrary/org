@@ -19,7 +19,7 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
-        <a rel="external" href="http://itunes.apple.com/us/app/bookmyne/id350625461">iOS</a>
+        <a rel="external" href="https://itunes.apple.com/us/app/bookmyne/id350625461">iOS</a>
         | 
         <a rel="external" href="https://play.google.com/store/apps/details?id=sirsidynix.bookmyne">Android</a>
       </div>
@@ -38,9 +38,21 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
-        <a href="#">iOS</a>
+        <a rel="external" href="https://itunes.apple.com/us/app/overdrive-media-console/id366869252">iOS</a>
         | 
-        <a href="#">Android</a>
+        <a rel="external" href="https://play.google.com/store/apps/details?id=com.overdrive.mobile.android.mediaconsole">Android</a>
+        | 
+        <a rel="external" href="https://www.windowsphone.com/en-us/store/app/overdrive-media-console/637433e5-1392-e011-9210-002264c2fb72">Windows Phone</a>
+        | 
+        <a rel="external" href="https://www.amazon.com/OverDrive-Media-Console-Library-Audiobooks/dp/B00850NK6I/">Kindle</a>
+        | 
+        <a rel="external" href="https://www.barnesandnoble.com/w/overdrive-overdrive-inc/1120365790?ean=2940043354334&isbn=2940043354334">Nook</a>
+        | 
+        <a rel="external" href="http://app.overdrive.com/downloads/ODMediaConsoleSetup.dmg">Mac</a>
+        | 
+        <a rel="external" href="http://app.overdrive.com/downloads/ODMediaConsoleSetup.msi">Windows</a>
+        | 
+        <a rel="external" href="https://apps.microsoft.com/windows/en-US/app/overdrive-media-console/0c1b24d6-bf93-44da-90fb-601c6a99e379">Windows 8</a>
       </div>
     </div><!-- /.media -->
 
@@ -57,9 +69,9 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
-        <a href="#">iOS</a>
+        <a rel="external" href="#">iOS</a>
         | 
-        <a href="#">Android</a>
+        <a rel="external" href="#">Android</a>
       </div>
     </div><!-- /.media -->
 
@@ -76,9 +88,9 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
-        <a href="#">iOS</a>
+        <a rel="external" href="#">iOS</a>
         | 
-        <a href="#">Android</a>
+        <a rel="external" href="#">Android</a>
       </div>
     </div><!-- /.media -->
 
@@ -95,9 +107,9 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
-        <a href="#">iOS</a>
+        <a rel="external" href="#">iOS</a>
         | 
-        <a href="#">Android</a>
+        <a rel="external" href="#">Android</a>
       </div>
     </div><!-- /.media -->
 
@@ -114,9 +126,9 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
-        <a href="#">iOS</a>
+        <a rel="external" href="#">iOS</a>
         | 
-        <a href="#">Android</a>
+        <a rel="external" href="#">Android</a>
       </div>
     </div><!-- /.media -->
 
@@ -133,9 +145,9 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
-        <a href="#">iOS</a>
+        <a rel="external" href="#">iOS</a>
         | 
-        <a href="#">Android</a>
+        <a rel="external" href="#">Android</a>
       </div>
     </div><!-- /.media -->
 
@@ -152,9 +164,9 @@
         <p>
           Lorem ipsum dolor sit amet.
         </p>
-        <a href="#">iOS</a>
+        <a rel="external" href="#">iOS</a>
         | 
-        <a href="#">Android</a>
+        <a rel="external" href="#">Android</a>
       </div>
     </div><!-- /.media -->
 
