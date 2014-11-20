@@ -20,9 +20,9 @@
           Lorem ipsum dolor sit amet.
         </p>
 
-        <div class="btn-group btn-group-justified">
+        <div class="btn-group">
           <a class="btn btn-info" href="#">iOS</a>
-          <a class="btn btn-inverse" href="#">Android</a>
+          <a class="btn btn-success" href="#">Android</a>
         </div>
 
         <a rel="external" href="https://itunes.apple.com/us/app/bookmyne/id350625461">iOS</a>
