@@ -97,7 +97,8 @@
           <em>Freegal:</em> Music
         </h4>
         <p>
-          Lorem ipsum dolor sit amet.
+          Download 5 free songs every week – yours to keep!
+          With over 7 million tracks from 23,000 record labels spanning more than 100 genres of music, we think everyone can find a reason (or 5) to like this service. 
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/freegal-music/id508036345">iOS &rarr;</a>
@@ -117,7 +118,8 @@
           <em>OneClick:</em> Audio Books
         </h4>
         <p>
-          Lorem ipsum dolor sit amet.
+          Download audio books directly to your computer or portable music player. 
+          Listen at home or on the go. 
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/oneclickdigital/id515311743">iOS &rarr;</a>
@@ -140,7 +142,8 @@
           <em>Zinio:</em> Magazines
         </h4>
         <p>
-          Lorem ipsum dolor sit amet.
+          Zinio online magazine service lets you download some of the most popular current magazines to your computer or mobile device. 
+          There are no limits or expiration dates for checked out magazines. 
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/zinio-magazine-newsstand-reader/id364297166">iOS &rarr;</a>
@@ -166,7 +169,7 @@
           ReferenceUSA is the premier business and consumer reference and research tool offering instant, real-time access to in-depth information on millions of U.S Businesses and Consumers.
         </p>
         <p>
-          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/referenceusa-for-ipad/id532313135">iOS <small>(iPad only)</small> &rarr;</a>
+          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/referenceusa-for-ipad/id532313135">iOS (iPad only) &rarr;</a>
         </p>
       </div>
     </div><!-- /.media -->
@@ -182,7 +185,7 @@
           <em>Access my library:</em> Cengage Learning online resources
         </h4>
         <p>
-          Access several library subscription-only databases, including Demographics Now, Gale Legal Forms, Literature Resource Center, and many other digital reference materials.
+          Access several subscription-only library databases, including Demographics Now, Gale Legal Forms, Literature Resource Center, and many other others.
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/access-my-library/id920817861">iOS &rarr;</a>
