@@ -12,7 +12,7 @@
 
           <div class="col-md-3 col-sm-6">
             <h4>
-              <a href="#">Get Connected</a> <small>&rarr;</small>
+              Get Connected
             </h4>
             <ul class="nav nav-pills nav-stacked">
               <!--
@@ -21,7 +21,7 @@
               </li>
               -->
               <li>
-                <a href="#">Send Us an Email</a>
+                <a href="#">Send Us an Email <small class="text-muted">&rarr;</small></a>
               </li>
               <li>
                 <a href="#">Suggest a New Title</a>
