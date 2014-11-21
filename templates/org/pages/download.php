@@ -21,7 +21,7 @@
 		</p>
 	</div><!-- /.col -->
 	<div class="col-md-4">
-		<div class="panel panel-success">
+		<div class="panel panel-default">
 
 			<div class="panel-body">
 				<h4 class="text-success">
