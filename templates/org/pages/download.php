@@ -48,7 +48,7 @@
 				<div class="media">
 				  <a class="pull-left" href="/ebooks/">
 				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 50px; height: 50px;" src="/assets/img/icons/apps/overdrive.png">
+				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/overdrive.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
