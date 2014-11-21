@@ -46,7 +46,7 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
-				  <a class="pull-left btn btn-default" href="/ebooks/">
+				  <a class="pull-left" href="/ebooks/">
 				  	<span class="media-object">
 				  		<img alt="" class="img-rounded" style="width: 50px; height: 50px;" src="/assets/img/icons/apps/overdrive.png">
 				  	</span>
