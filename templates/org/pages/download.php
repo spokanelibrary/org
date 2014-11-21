@@ -28,6 +28,9 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
+				<h4 class="panel-title text-success">
+					<i class="glyphicon glyphicon-phone"></i> An app for that
+				</h4>
 				<p>
 					Check it out: we have mobile apps for most of our digital downloads.
 				</p>
