@@ -82,9 +82,9 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
-				  <a class="pull-left btn btn-default" href="/emusic/">
+				  <a class="pull-left" href="/emusic/">
 				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 50px; height: 50px;" src="/assets/img/icons/apps/freegal.png">
+				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/freegal.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
@@ -121,9 +121,9 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
-				  <a class="pull-left btn btn-default" href="/eaudio/">
+				  <a class="pull-left" href="/eaudio/">
 				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 50px; height: 50px;" src="/assets/img/icons/apps/oneclick.png">
+				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/oneclick.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
@@ -156,9 +156,9 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
-				  <a class="pull-left btn btn-default" href="/emagazines/">
+				  <a class="pull-left" href="/emagazines/">
 				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 50px; height: 50px;" src="/assets/img/icons/apps/zinio.png">
+				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/zinio.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
