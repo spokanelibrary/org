@@ -25,7 +25,7 @@
 					<i class="glyphicon glyphicon-phone"></i> An app for that
 				</h4>
 				<p>
-					Check it out: we have mobile apps for most of our digital downloads.
+					<b>Check it out:</b> we have mobile apps for most of our digital downloads.
 				</p>
 				<p>
 					<a class="btn btn-block btn-success" 
