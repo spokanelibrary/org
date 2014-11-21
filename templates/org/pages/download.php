@@ -143,10 +143,10 @@
 				  	<p>
 							These recordings are a great alternative to books on CD and are compatible with virtually all mp3 players, smartphones, and tablets on the market today.
  						</p>
- 						<p>
- 							<a class="btn btn-lg btn-link" href="/eaudio/">Learn more &rarr;</a>
- 							<a class="btn btn-lg btn-link" href="/apps/#oneclick">Get the app &rarr;</a> 
- 						</p>
+ 						<div class="btn-group btn-group-justified">
+ 							<a class="btn btn-primary" href="/eaudio/">Learn more &rarr;</a>
+ 							<a class="btn btn-success" href="/apps/#oneclick">Get the app &rarr;</a> 
+ 						</div>
 				  </div>
 				</div><!-- /.media -->
 			</div><!-- /.panel-body -->
@@ -178,10 +178,10 @@
 				  	<p>
 							There are no limits or expiration dates. Apps are available for most platforms. 
  						</p>
- 						<p>
- 							<a class="btn btn-lg btn-link" href="/emagazines/">Learn more &rarr;</a>
- 							<a class="btn btn-lg btn-link" href="/apps/#zinio">Get the app &rarr;</a> 
- 						</p>
+ 						<div class="btn-group btn-group-justified">
+ 							<a class="btn btn-primary" href="/emagazines/">Learn more &rarr;</a>
+ 							<a class="btn btn-success" href="/apps/#zinio">Get the app &rarr;</a> 
+ 						</div>
 				  </div>
 				</div><!-- /.media -->
 			</div><!-- /.panel-body -->
