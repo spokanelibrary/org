@@ -84,7 +84,7 @@
 				<div class="media">
 				  <a class="pull-left btn btn-success" href="/emusic/">
 				  	<span class="media-object">
-				  		<img alt="" style="width: 50px; height: 50px;" src="/assets/img/png/spl-app-icons-music.png">
+				  		<img alt="" class="img-rounded" style="width: 50px; height: 50px;" src="/assets/img/icons/apps/freegal.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
