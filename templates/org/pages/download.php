@@ -22,11 +22,7 @@
 	</div><!-- /.col -->
 	<div class="col-md-4">
 		<div class="panel panel-success">
-			<div class="panel-heading">
-				<h4 class="panel-title">
-					<i class="glyphicon glyphicon-phone"></i> An app for that
-				</h4>
-			</div><!-- /.panel-heading -->
+
 			<div class="panel-body">
 				<h4 class="text-success">
 					<i class="glyphicon glyphicon-phone"></i> An app for that
