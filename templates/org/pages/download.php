@@ -24,9 +24,7 @@
 
 		<blockquote>
 				
-				<p>
-					<i class="glyphicon glyphicon-phone"></i> <b>Check it out:</b> we have mobile apps for most of our digital downloads.
-				</p>
+			<i class="glyphicon glyphicon-phone"></i> <b>Check it out:</b> we have mobile apps for most of our digital downloads.
 				
 		</blockquote>
 		<p>
