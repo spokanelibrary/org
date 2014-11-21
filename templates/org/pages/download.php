@@ -21,10 +21,11 @@
 		</p>
 	</div><!-- /.col -->
 	<div class="col-md-4">
-		<blockquote>
-				<h4 class="text-success">
+		<h4 class="text-success">
 					<i class="glyphicon glyphicon-phone"></i> An app for that
 				</h4>
+		<blockquote>
+				
 				<p>
 					<b>Check it out:</b> we have mobile apps for most of our digital downloads.
 				</p>
