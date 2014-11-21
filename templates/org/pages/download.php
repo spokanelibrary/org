@@ -104,10 +104,10 @@
 				  	<p>
 							With over 7 million tracks from 23,000 record labels spanning more than 100 genres of music, we think everyone can find a reason (or 5) to like this service. 
  						</p>
- 						<p>
- 							<a class="btn btn-lg btn-link" href="/emusic/">Learn more &rarr;</a>
- 							<a class="btn btn-lg btn-link" href="/apps/#freegal">Get the app &rarr;</a> 
- 						</p>
+ 						<div class="btn-group btn-group-justified">
+ 							<a class="btn btn-primary" href="/emusic/">Learn more &rarr;</a>
+ 							<a class="btn btn-success" href="/apps/#freegal">Get the app &rarr;</a> 
+ 						</div>
 				  </div>
 				</div><!-- /.media -->
 			</div><!-- /.panel-body -->
