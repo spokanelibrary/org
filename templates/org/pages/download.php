@@ -21,9 +21,6 @@
 		</p>
 	</div><!-- /.col -->
 	<div class="col-md-4">
-		<div class="panel panel-default">
-
-			<div class="panel-body">
 				<h4 class="text-success">
 					<i class="glyphicon glyphicon-phone"></i> An app for that
 				</h4>
@@ -34,8 +31,6 @@
 					<a class="btn btn-block btn-success" 
 						href="/apps/"><i class="glyphicon glyphicon-phone"></i> Get library apps &rarr;</a> 
 				</p>
-			</div><!-- /.panel-body -->
-		</div><!-- /.panel -->
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
