@@ -121,9 +121,9 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
-				  <a class="pull-left btn btn-success" href="/eaudio/">
+				  <a class="pull-left btn btn-default" href="/eaudio/">
 				  	<span class="media-object">
-				  		<img alt="" style="width: 50px; height: 50px;" src="/assets/img/png/spl-app-icons-audio.png">
+				  		<img alt="" class="img-rounded" style="width: 50px; height: 50px;" src="/assets/img/icons/apps/oneclick.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
@@ -156,9 +156,9 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
-				  <a class="pull-left btn btn-success" href="/emagazines/">
+				  <a class="pull-left btn btn-default" href="/emagazines/">
 				  	<span class="media-object">
-				  		<img alt="" style="width: 50px; height: 50px;" src="/assets/img/png/spl-app-icons-magazine.png">
+				  		<img alt="" class="img-rounded" style="width: 50px; height: 50px;" src="/assets/img/icons/apps/zinio.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
