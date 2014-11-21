@@ -29,11 +29,12 @@
 				<p>
 					<b>Check it out:</b> we have mobile apps for most of our digital downloads.
 				</p>
-				<p>
-					<a class="btn btn-block btn-success" 
-						href="/apps/"><i class="glyphicon glyphicon-phone"></i> Get library apps &rarr;</a> 
-				</p>
+				
 		</blockquote>
+		<p>
+			<a class="btn btn-block btn-success" 
+				href="/apps/"><i class="glyphicon glyphicon-phone"></i> Get library apps &rarr;</a> 
+		</p>
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
