@@ -21,7 +21,7 @@
         </p>
         <p>
           <span class="label label-success">Update</span>
-          BookMyne has been completely rewritten for Android and now works! 
+          BookMyne has been completely rewritten for Android &ndash; and now works! 
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/bookmyne/id350625461">iOS &rarr;</a>
