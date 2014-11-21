@@ -12,7 +12,7 @@
 
           <div class="col-md-3 col-sm-6">
             <h4>
-              Get Connected
+              <a href="/connect/">Get Connected</a> <small>&rarr;</small>
             </h4>
             <ul class="nav nav-pills nav-stacked">
               <!--
@@ -21,23 +21,23 @@
               </li>
               -->
               <li>
-                <a href="#">Send Us an Email <small class="text-muted">&rarr;</small></a>
+                <a href="/contact/">Send Us an Email</a>
               </li>
               <li>
-                <a href="#">Suggest a New Title</a>
+                <a href="/request/">Suggest a New Title</a>
               </li>
               <li>
-                <a href="#">Ask Us a Question</a>
+                <a href="/ask/">Ask Us a Question</a>
               </li>
               <li>
-                <a href="#">Get a Library Card</a>
+                <a href="/card/">Get a Library Card</a>
               </li>
             </ul>
           </div><!-- /.col -->
 
           <div class="col-md-3 col-sm-6">
             <h4 class="text-muted">
-              <a href="#">Stay Current</a>
+              <a href="/calendar/">Stay Current</a>
               <small>&rarr;</small>
             </h4>
             <ul class="nav nav-pills nav-stacked">
@@ -47,23 +47,23 @@
               </li>
               -->
               <li>
-                <a href="#">Upcoming Events</a>
+                <a href="/calendar/">Upcoming Events</a>
               </li>
               <li>
-                <a href="#">Read Our Blog</a>
+                <a href="/blog/">Read Our Blog</a>
               </li>
               <li>
-                <a href="#">Your Local Branch</a>
+                <a href="/news/">Read our Newsletter</a>
               </li>
               <li>
-                <a href="#">Library Tips</a>
+                <a href="/faq/">Library Tips</a>
               </li>
             </ul>
           </div><!-- /.col -->
 
           <div class="col-md-3 col-sm-6">
             <h4 class="text-muted">
-              <a href="#">In the Library</a>
+              <a href="/services/">In the Library</a>
               <small>&rarr;</small>
             </h4>
             <ul class="nav nav-pills nav-stacked">
@@ -73,23 +73,23 @@
               </li>
               -->
               <li>
-                <a href="#">Free WiFi</a>
+                <a href="/wifi/">Free WiFi</a>
               </li>
               <li>
-                <a href="#">Reserve a Computer</a>
+                <a href="/computers/">Reserve a Computer</a>
               </li>
               <li>
-                <a href="#">Printing <small>(10&#162; per page)</small></a>
+                <a href="/printing/">Printing <small>(10&#162; per page)</small></a>
               </li>
               <li>
-                <a href="#">Public Meeting Rooms</a>
+                <a href="/meeting-rooms/">Public Meeting Rooms</a>
               </li>
             </ul>
           </div><!-- /.col -->
 
           <div class="col-md-3 col-sm-6">
             <h4 class="text-muted">
-              <a href="#">Digital Branch</a>
+              <a href="/digital/">Digital Branch</a>
               <small>&rarr;</small>
             </h4>
             <ul class="nav nav-pills nav-stacked">
@@ -99,16 +99,16 @@
               </li>
               -->
               <li>
-                <a href="#">Music <small>(.mp3)</small></a>
+                <a href="/emusic/">Music <small>(.mp3)</small></a>
               </li>
               <li>
-                <a href="#">Magazines</a>
+                <a href="/emagazines/">Magazines</a>
               </li>
               <li>
-                <a href="#">eBooks</a>
+                <a href="/ebooks/">eBooks</a>
               </li>
               <li>
-                <a href="#">Audio Books</a>
+                <a href="/eaudio/">Audio Books</a>
               </li>
             </ul>
           </div><!-- /.col -->
@@ -119,19 +119,19 @@
       <div class="panel-footer">
         <ul class="nav nav-pills nav-justified">
           <li>
-            <a href="#"><small><i class="text-muted glyphicon glyphicon-paperclip"></i> Administration</small> </a>
+            <a href="/administration/"><small><i class="text-muted glyphicon glyphicon-paperclip"></i> Administration</small> </a>
           </li>
           <li>
-            <a href="#"><small><i class="text-muted glyphicon glyphicon-info-sign"></i> Library Policies</small></a>
+            <a href="/policies/"><small><i class="text-muted glyphicon glyphicon-info-sign"></i> Library Policies</small></a>
           </li>
           <li>
-            <a href="#"><small><i class="text-muted glyphicon glyphicon-briefcase"></i> Employment</small></a>
+            <a href="/employment/"><small><i class="text-muted glyphicon glyphicon-briefcase"></i> Employment</small></a>
           </li>
           <li>
-            <a href="#"><small><i class="text-muted glyphicon glyphicon-road"></i> Strategic Plan</small></a>
+            <a href="/about/mission/"><small><i class="text-muted glyphicon glyphicon-road"></i> Strategic Plan</small></a>
           </li>
           <li>
-            <a href="#"><small><i class="text-muted glyphicon glyphicon-hand-right"></i> Support Your Library</small></a>
+            <a href="/support/"><small><i class="text-muted glyphicon glyphicon-hand-right"></i> Support Your Library</small></a>
           </li>
         </ul>
       </div><!-- /.panel-footer -->
