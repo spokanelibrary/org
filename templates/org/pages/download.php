@@ -11,7 +11,7 @@
 			In most cases you will need to create an account, and you may need to download software to access these materials. 
 		</p>
 		<p>
-			Feel free to <a href="/contact/">contact us</a> with questions. 
+			Feel free to <a href="/ask/">contact us</a> with questions. 
 			We’ll do our best to help.
 		</p>
 		<p>

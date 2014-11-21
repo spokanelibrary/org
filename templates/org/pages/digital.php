@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-sm-5 col-md-4 col-sm-push-7 col-md-push-8">
-		<div class="panel panel-warning">
+		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<i class="glyphicon glyphicon-cloud-download"></i> Downloads
@@ -44,7 +44,7 @@
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
 	<div class="col-sm-7 col-md-8 col-sm-pull-5 col-md-pull-4">
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
 				<h3 class="panel-title">
 					<i class="glyphicon glyphicon-globe"></i>
