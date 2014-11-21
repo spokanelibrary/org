@@ -161,6 +161,12 @@
         <a rel="external" href="http://apps.microsoft.com/webpdp/en-US/app/zinio/790e1b04-01f7-4c06-a0d6-07d8501b53b6">Windows 8</a>
         | 
         <a rel="external" href="http://www.zinio.com/www/apps/desktop.jsp">Desktop <small>(Mac or Windows)</small></a>
+        | 
+        <a rel="external" href="http://www.amazon.com/Zinio-5-000-Digital-Magazines/dp/B00659DAIE">Kindle Fire</a>
+        | 
+        <a rel="external" href="http://imgs.zinio.com/faq/fire.html">Kindle Fire <small>(alternate install)</small></a>
+        | 
+        <a rel="external" href="http://appworld.blackberry.com/webstore/content/97572/">Blackberry Playbook</small></a>
       </div>
     </div><!-- /.media -->
 
