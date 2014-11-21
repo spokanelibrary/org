@@ -141,7 +141,7 @@
 				    	Download audio books directly to your computer or portable music player. 
 				  	</p>
 				  	<p>
-							These recordings are a great alternative to books on CD and are compatible with virtually all mp3 players, smartphones, and tablets on the market today.
+							These recordings are a great alternative to books on CD and are compatible with virtually all mp3 players, smartphones, and tablets.
  						</p>
  						<div class="btn-group btn-group-justified">
  							<a class="btn btn-primary" href="/eaudio/">Learn more &rarr;</a>
