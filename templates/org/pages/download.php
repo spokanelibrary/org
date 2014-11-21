@@ -21,13 +21,10 @@
 		</p>
 	</div><!-- /.col -->
 	<div class="col-md-4">
-
-		<blockquote>
-				
-		<p>
-			<i class="glyphicon glyphicon-phone"></i> <b>Check it out:</b> we have mobile apps for most of our digital downloads.
-		</p>
-				
+		<blockquote>			
+			<p>
+				<span class="text-success"><i class="glyphicon glyphicon-phone"></i> <b>Check it out:</b></span> we have mobile apps for most of our digital downloads.
+			</p>
 		</blockquote>
 		<p>
 			<a class="btn btn-block btn-success" 
