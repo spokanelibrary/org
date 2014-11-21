@@ -1,5 +1,18 @@
 <div class="media">
   <a class="pull-left" href="#">
+    <span class="media-object">
+      <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/overdrive.png">
+    </span>
+  </a>
+  <div class="media-body">
+    <h5 class="media-heading">
+      <a href="/ebooks/"><em>OverDrive:</em> eBooks</a>
+    </h5>
+  </div>
+</div><!-- /.media -->
+
+<div class="media">
+  <a class="pull-left" href="#">
   	<span class="media-object">
   		<img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/freegal.png">
   	</span>
@@ -13,13 +26,13 @@
 
 <div class="media">
   <a class="pull-left" href="#">
-  	<span class="media-object">
-  		<img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/overdrive.png">
-  	</span>
-	</a>
+    <span class="media-object">
+      <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/oneclick.png">
+    </span>
+  </a>
   <div class="media-body">
     <h5 class="media-heading">
-    	<a href="/ebooks/"><em>OverDrive:</em> eBook downloads</a>
+      <a href="/eaudio/"><em>OneClick:</em> eAudio books</a>
     </h5>
   </div>
 </div><!-- /.media -->
@@ -36,18 +49,4 @@
     </h5>
   </div>
 </div><!-- /.media -->
-
-<div class="media">
-  <a class="pull-left" href="#">
-  	<span class="media-object">
-  		<img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/oneclick.png">
-  	</span>
-	</a>
-  <div class="media-body">
-    <h5 class="media-heading">
-    	<a href="/eaudio/"><em>OneClick:</em> Audio book downloads</a>
-    </h5>
-  </div>
-</div><!-- /.media -->
-
 
