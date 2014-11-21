@@ -1,7 +1,7 @@
 <div class="media">
   <a class="pull-left btn btn-success btn-xs" href="#">
   	<span class="media-object">
-  		<img alt="" style="width: 30px; height: 30px;" src="/assets/img/icon/apps/freegal.png">
+  		<img alt="" style="width: 30px; height: 30px;" src="/assets/img/icons/apps/freegal.png">
   	</span>
 	</a>
   <div class="media-body">
