@@ -70,10 +70,10 @@
 							When possible, we attempt to provide titles in PDF or ePUB as well as AZW (Kindle) formats. 
  						</p>
  						<hr>
- 						<p>
+ 						<div class="btn-group btn-justified">
  							<a class="btn btn-primary" href="/ebooks/">Learn more &rarr;</a>
  							<a class="btn btn-success" href="/apps/#overdrive">Get the app &rarr;</a> 
- 						</p>
+ 						</div>
 				  </div>
 				</div><!-- /.media -->
 			</div><!-- /.panel-body -->
