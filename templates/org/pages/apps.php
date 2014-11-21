@@ -110,7 +110,7 @@
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/freegal-music/id508036345">iOS &rarr;</a>
           <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.libraryideas.freegalmusic">Android &rarr;</a>
         </p>
-        <a rel="external" href="http://slideme.org/application/freegal-music/">Kindle Fire <span class="text-success">(via slideme.org)</span></a>
+        <a rel="external" href="http://slideme.org/application/freegal-music/">Kindle Fire <span class="text-muted">(via slideme.org)</span></a>
         
 
       </div>
