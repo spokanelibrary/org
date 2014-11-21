@@ -25,9 +25,9 @@
 </div><!-- /.media -->
 
 <div class="media">
-  <a class="pull-left btn btn-success btn-xs" href="#">
+  <a class="pull-left" href="#">
   	<span class="media-object">
-  		<img alt="" style="width: 30px; height: 30px;" src="/assets/img/png/spl-app-icons-magazine.png">
+  		<img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/zinio.png">
   	</span>
 	</a>
   <div class="media-body">
@@ -38,9 +38,9 @@
 </div><!-- /.media -->
 
 <div class="media">
-  <a class="pull-left btn btn-success btn-xs" href="#">
+  <a class="pull-left" href="#">
   	<span class="media-object">
-  		<img alt="" style="width: 30px; height: 30px;" src="/assets/img/png/spl-app-icons-audio.png">
+  		<img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/oneclick.png">
   	</span>
 	</a>
   <div class="media-body">
