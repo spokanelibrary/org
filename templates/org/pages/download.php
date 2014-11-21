@@ -28,7 +28,7 @@
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
-				<h4 class="panel-title text-success">
+				<h4 class="text-success">
 					<i class="glyphicon glyphicon-phone"></i> An app for that
 				</h4>
 				<p>
