@@ -148,22 +148,15 @@ Template Name: Home Page
 </div><!-- /.row -->
 
 
-<div class="row" style="margin-top: 20px;">
+<div class="row">
 
   <div class="col-md-6">
 
-    <!--
     <h3 class="text-success">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
-    -->
-    <p>
-      <a class="btn btn-block btn-warning" href="/calendar/">
-        <i class="glyphicon glyphicon-calendar"></i> 
-        Coming up at your local library
-      </a>
-    </p>
+   
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>
@@ -192,6 +185,13 @@ Template Name: Home Page
         
         <p>&nbsp;</p>
 
+         <p>
+          <a class="btn btn-block btn-lg btn-warning" href="/calendar/">
+            <i class="glyphicon glyphicon-calendar"></i> 
+            Coming up at your local library
+          </a>
+        </p>
+        
         <p class="text-right">
           <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
         </p>
