@@ -120,11 +120,13 @@ Template Name: Home Page
       Library News
     </h3>
     -->
-    <img class="img-responsive img-rounded pull-right hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard-300x165.jpg">
-    
     <h2 style="margin-top:0;" class="clearfix">
       <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/">November: Reading, Writing and Electricity</a>
     </h2>
+
+    <img class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard-300x165.jpg">
+    
+    
     
     <p class="text-right">
       <a class="btn btn-default" href="http://news.spokanelibrary.org/">Read Library News &rarr;</a>
