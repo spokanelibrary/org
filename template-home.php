@@ -163,8 +163,16 @@ Template Name: Home Page
     
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
+    <!--
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
+    </p>
+    -->
+    <p>
+      <a class="btn btn-block btn-warning" href="/calendar/">
+        <i class="glyphicon glyphicon-calendar"></i> 
+        Coming up at your local library
+      </a>
     </p>
 
   </div><!-- /.col -->
@@ -185,13 +193,6 @@ Template Name: Home Page
         
         <p>&nbsp;</p>
 
-         <p>
-          <a class="btn btn-block btn-lg btn-warning" href="/calendar/">
-            <i class="glyphicon glyphicon-calendar"></i> 
-            Coming up at your local library
-          </a>
-        </p>
-        
         <p class="text-right">
           <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
         </p>
