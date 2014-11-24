@@ -108,6 +108,7 @@ add_filter( 'the_content','bootstrap_responsive_images',10 );
 add_filter( 'post_thumbnail_html', 'bootstrap_responsive_images', 10 );
 
 
+
 function spl_resources( $params ) {
   global $post; 
 
