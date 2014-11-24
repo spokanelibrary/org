@@ -1,7 +1,7 @@
 <?php include('download-widget.php'); ?>
 
 <div class="media">
-  <a class="pull-left btn btn-success" href="/subscriptions/">
+  <a class="pull-left btn btn-primary" href="/subscriptions/">
   				<i class="glyphicon glyphicon-sort-by-alphabet"></i>
 
 	</a>
