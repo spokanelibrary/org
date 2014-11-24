@@ -12,7 +12,7 @@
 	</a>
   <div class="media-body">
   	<h5 class="media-heading">
-    	<a href="/subscriptions/">Online research</a>
+    	<a href="/subscriptions/">Online research subscriptions</a>
     </h5>
   </div>
 </div><!-- /.media -->
