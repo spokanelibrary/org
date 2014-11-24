@@ -76,7 +76,7 @@ Template Name: Home Page
   
   <div class="col-md-6">
     <?php //echo do_shortcode('[spl_carousel auto]'); ?>
-    <?php echo do_shortcode('[spl_carousel]'); ?>
+    <?php echo do_shortcode('[spl_carousel auto]'); ?>
   </div><!-- /.col -->
 
   <div class="col-md-3">
