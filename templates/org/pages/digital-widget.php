@@ -1,3 +1,9 @@
+<div class="media">
+  <div class="media-body">
+    <a class="btn btn-block btn-link" href="/digital/">Visit the digital branch &rarr;</a>
+  </div>
+</div><!-- /.media -->
+
 <?php include('download-widget.php'); ?>
 
 <div class="media">
@@ -8,13 +14,6 @@
   	<h5 class="media-heading">
     	<a href="/subscriptions/"><em>Research:</em> library subscriptions</a>
     </h5>
-  </div>
-</div><!-- /.media -->
-
-
-<div class="media">
-  <div class="media-body">
-    <a class="btn btn-block btn-link" href="/digital/">Visit the digital branch &rarr;</a>
   </div>
 </div><!-- /.media -->
 
