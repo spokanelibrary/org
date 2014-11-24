@@ -19,9 +19,10 @@
   		</h4>
   	</div>
 	</a>
-
   <div class="media-body">
-    	<a href="/subscriptions/">Subscription databases</a>
+  	<h5 class="media-heading">
+    	<a href="/subscriptions/">Research databases</a>
+    </h5>
   </div>
 </div><!-- /.media -->
 
