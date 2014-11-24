@@ -161,58 +161,42 @@ Template Name: Home Page
 
   <div class="col-md-6">
 
-    <?php //get_template_part('templates/page', 'header'); ?>
-
-    <?php //get_template_part('templates/content', 'page'); ?>
-
     <h3 class="text-success">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
-
+    
     <p class="text-right">
-      <a class="btn btn-default btn-sm" href="/calendar/">Full events calendar &rarr;</a>
+      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>
-
+    
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
     <p class="text-right">
-      <a class="btn btn-default btn-sm" href="/calendar/">Full events calendar &rarr;</a>
+      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>
 
   </div><!-- /.col -->
   
   <div class="col-md-6">
     <div class="hidden-xs">
-    <!--
-    <div class="panel panel-default" style="border-left-width:5px;">
-      <div class="panel-heading">
-        <i class="glyphicon glyphicon-comment text-muted"></i>
-        <span class="text-muted">Recently posted on the <a href="/blog/">library blog</a> &rarr;</span>
-      </div>
-      <div class="panel-body">
-    -->   
+
         <h3 class="text-success">
           <i class="glyphicon glyphicon-comment"></i> 
           From the reference desk
         </h3> 
-
+        
         <p class="text-right">
-          <a class="btn btn-default btn-sm" href="/blog/">More on the library blog &rarr;</a>
+          <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
         </p>
-
+        
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
         
         <p>&nbsp;</p>
 
         <p class="text-right">
-          <a class="btn btn-default btn-sm" href="/blog/">More on the library blog &rarr;</a>
+          <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
         </p>
-    <!--
-      </div>
-    </div>
-    </div>
-  </div>--><!-- /.col -->
 
 </div><!-- /.row -->
 
