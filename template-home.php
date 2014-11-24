@@ -139,7 +139,7 @@ Template Name: Home Page
     <!--<div class="panel panel-success" style="border-left-width:5px;">-->
       <!--<div class="panel-heading" style="border-radius:0;">-->
         <!--<i class="glyphicon glyphicon-plus-sign"></i>-->
-        <h3 class="">Also in this issue&hellip;</h3>
+        <h2 style="margin-top:0;" class="text-muted">Also in this issue&hellip;</h2>
       <!--</div>-->
       <!--<div class="panel-body">-->
         <ul class="nav nav-pills nav-stacked">
