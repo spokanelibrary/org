@@ -119,7 +119,7 @@
       <div class="panel-footer">
         <ul class="nav nav-pills nav-justified">
           <li>
-            <a class="btn btn-block btn-sm btn-default" href="/administration/"><small><i class="text-muted glyphicon glyphicon-paperclip"></i> Administration</small> </a>
+            <a class="btn btn-block btn-sm btn-default" href="/administration/"><i class="text-muted glyphicon glyphicon-paperclip"></i> Administration</a>
           </li>
           <li>
             <a href="/policies/"><small><i class="text-muted glyphicon glyphicon-info-sign"></i> Library Policies</small></a>
