@@ -139,7 +139,7 @@ Template Name: Home Page
         <h4 class="panel-title">Also in this issue&hellip;</h4>
       <!--</div>-->
       <!--<div class="panel-body">-->
-        <ul class="" style="padding-left:14px;">
+        <ul class="nav nav-pills nav-stacked">
           <li><a href="http://news.spokanelibrary.org/connected-learning-for-connected-holidays/">Connected Learning for Connected Holidays</a></li>
           <li><a href="http://news.spokanelibrary.org/dewey-for-writers-808-02/">Dewey for Writers - 808.02</a></li>
           <li><a href="http://news.spokanelibrary.org/5-songs-11-14/">5 Songs - Music for Concentration</a></li>
