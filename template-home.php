@@ -171,7 +171,7 @@ Template Name: Home Page
     <p>
       <a class="btn btn-block btn-warning" href="/calendar/">
         <i class="glyphicon glyphicon-calendar"></i> 
-        Coming up at your local library
+        Check out the library calendar &rarr;
       </a>
     </p>
 
