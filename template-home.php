@@ -168,6 +168,7 @@ Template Name: Home Page
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>
     -->
+    <p>&nbsp;</p>
     <p>
       <a class="btn btn-block btn-warning" href="/calendar/">
         <i class="glyphicon glyphicon-calendar"></i> 
@@ -192,10 +193,17 @@ Template Name: Home Page
         <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
         
         <p>&nbsp;</p>
-
+        <!--
         <p class="text-right">
           <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
         </p>
+        -->
+        <p>
+        <a class="btn btn-block btn-info" href="/blog/">
+          <i class="glyphicon glyphicon-bullhorn"></i> 
+          Read the library blog &rarr;
+        </a>
+      </p>
 
 </div><!-- /.row -->
 
