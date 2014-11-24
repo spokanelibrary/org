@@ -133,12 +133,12 @@ Template Name: Home Page
   </div><!-- /.col -->
   <div class="col-md-6">
 
-    <div class="panel panel-success" style="border-left-width:5px;">
-      <div class="panel-heading" style="border-radius:0;">
+    <!--<div class="panel panel-success" style="border-left-width:5px;">-->
+      <!--<div class="panel-heading" style="border-radius:0;">-->
         <!--<i class="glyphicon glyphicon-plus-sign"></i>-->
         <h4 class="panel-title">Also in this issue&hellip;</h4>
-      </div>
-      <div class="panel-body">
+      <!--</div>-->
+      <!--<div class="panel-body">-->
         <ul class="" style="padding-left:14px;">
           <li><a href="http://news.spokanelibrary.org/connected-learning-for-connected-holidays/">Connected Learning for Connected Holidays</a></li>
           <li><a href="http://news.spokanelibrary.org/dewey-for-writers-808-02/">Dewey for Writers - 808.02</a></li>
@@ -147,8 +147,8 @@ Template Name: Home Page
           <li><a href="http://news.spokanelibrary.org/kilowatt_monitor/">How Many Kilowatts Does it Take to Read a Book?</a></li>
           <li><a href="http://news.spokanelibrary.org/sunday-hours-the-shadle-library/">Sunday Hours @ the Shadle Library</a></li>
         </ul>
-      </div>
-    </div><!-- /.panel -->
+      <!--</div>-->
+    <!--</div>--><!-- /.panel -->
 
   </div><!-- /.col -->
 </div><!-- /.row -->
