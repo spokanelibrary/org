@@ -111,6 +111,9 @@ Template Name: Home Page
       <i class="glyphicon glyphicon-bullhorn"></i> 
       Read the latest: Library News
     </h3>
+    <h2 style="margin-top:0;" class="clearfix">
+      <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/">November: Reading, Writing and Electricity</a>
+    </h2>
   </div>
 
   <div class="col-md-6">
@@ -120,9 +123,7 @@ Template Name: Home Page
       Library News
     </h3>
     -->
-    <h2 style="margin-top:0;" class="clearfix">
-      <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/">November: Reading, Writing and Electricity</a>
-    </h2>
+    
 
     <p>
       <img class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard.jpg">
