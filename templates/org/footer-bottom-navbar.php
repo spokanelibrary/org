@@ -37,7 +37,7 @@
 
           <div class="col-md-3 col-sm-6">
             <h4 class="text-muted">
-              <a href="/calendar/">Stay Current</a>
+              <a href="/calendar/"><span class="text-success">Stay Current</span></a>
               <small>&rarr;</small>
             </h4>
             <ul class="nav nav-pills nav-stacked">
@@ -63,7 +63,7 @@
 
           <div class="col-md-3 col-sm-6">
             <h4 class="text-muted">
-              <a href="/services/">In the Library</a>
+              <a href="/services/"><span class="text-success">In the Library</span></a>
               <small>&rarr;</small>
             </h4>
             <ul class="nav nav-pills nav-stacked">
@@ -89,7 +89,7 @@
 
           <div class="col-md-3 col-sm-6">
             <h4 class="text-muted">
-              <a href="/digital/">Digital Branch</a>
+              <a href="/digital/"><span class="text-success">Digital Branch</span></a>
               <small>&rarr;</small>
             </h4>
             <ul class="nav nav-pills nav-stacked">
