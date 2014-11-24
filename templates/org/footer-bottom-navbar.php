@@ -119,19 +119,19 @@
       <div class="panel-footer">
         <ul class="nav nav-pills nav-justified">
           <li>
-            <a class="btn btn-block btn-xs btn-default" href="/administration/"><i class="text-muted glyphicon glyphicon-paperclip"></i> Administration</a>
+            <a href="/administration/"><small><i class="text-muted glyphicon glyphicon-paperclip"></i> Administration</small> </a>
           </li>
           <li>
-            <a class="btn btn-block btn-sm btn-default" href="/policies/"><i class="text-muted glyphicon glyphicon-info-sign"></i> Library Policies</a>
+            <a href="/policies/"><small><i class="text-muted glyphicon glyphicon-info-sign"></i> Library Policies</small></a>
           </li>
           <li>
-            <a class="btn btn-block btn-sm btn-default" href="/employment/"><i class="text-muted glyphicon glyphicon-briefcase"></i> Employment</a>
+            <a href="/employment/"><small><i class="text-muted glyphicon glyphicon-briefcase"></i> Employment</small></a>
           </li>
           <li>
-            <a class="btn btn-block btn-sm btn-default" href="/about/mission/"><i class="text-muted glyphicon glyphicon-road"></i> Strategic Plan</a>
+            <a href="/about/mission/"><small><i class="text-muted glyphicon glyphicon-road"></i> Strategic Plan</small></a>
           </li>
           <li>
-            <a class="btn btn-block btn-sm btn-default" href="/support/"><i class="text-muted glyphicon glyphicon-hand-right"></i> Support Your Library</a>
+            <a href="/support/"><small><i class="text-muted glyphicon glyphicon-hand-right"></i> Support Your Library</small></a>
           </li>
         </ul>
       </div><!-- /.panel-footer -->
