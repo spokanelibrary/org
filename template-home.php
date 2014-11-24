@@ -152,11 +152,18 @@ Template Name: Home Page
 
   <div class="col-md-6">
 
+    <!--
     <h3 class="text-success">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
-    
+    -->
+    <p>
+      <a class="btn btn-block btn-warning" href="/calendar/">
+        <i class="glyphicon glyphicon-calendar"></i> 
+        Coming up at your local library
+      </a>
+    </p>
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>
