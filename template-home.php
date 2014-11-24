@@ -105,19 +105,29 @@ Template Name: Home Page
 
 </div><!-- /.row -->
 
-<div class="row" style="padding-top: 20px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
+<div class="row" style="padding-top: 0px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
+  <div class="col-md-12">
+    <h3 class="text-success">
+      <i class="glyphicon glyphicon-bullhorn"></i> 
+      Read the latest: Library News
+    </h3>
+  </div>
+
   <div class="col-md-6">
+    <!--
     <h3 class="text-success">
       <i class="glyphicon glyphicon-pencil"></i> 
       Library News
     </h3>
-    <img class="img-responsive img-rounded pull-right hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/East_Side-busy_day-160x113.jpg">
-    <h2 class="clearfix">
-      <a href="#">September - Back to School, Digital Literacy, Trivia and Spokane is Reading!</a>
+    -->
+    <img class="img-responsive img-rounded pull-right hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard-300x165.jpg">
+    
+    <h2 style="margin-top:0;" class="clearfix">
+      <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/">November: Reading, Writing and Electricity</a>
     </h2>
     
     <p class="text-right">
-      <a class="btn btn-primary" href="/news/">Read Library News &rarr;</a>
+      <a class="btn btn-default" href="http://news.spokanelibrary.org/">Read Library News &rarr;</a>
     </p>
 
   </div><!-- /.col -->
@@ -125,36 +135,20 @@ Template Name: Home Page
 
     <div class="panel panel-success" style="border-left-width:5px;">
       <div class="panel-heading" style="border-radius:0;">
-        <i class="glyphicon glyphicon-plus-sign"></i>
-        Also in this issue&hellip;
+        <!--<i class="glyphicon glyphicon-plus-sign"></i>-->
+        <h4 class="panel-title">Also in this issue&hellip;</h4>
       </div>
       <div class="panel-body">
         <ul class="" style="padding-left:14px;">
-          <li><a href="#">Digital Literacy – Part of the Library’s Educational Curriculum</a></li>
-          <li><a href="#">A Decade of Dedication from our Friends</a></li>
-          <li><a href="#">School! Homework! – Dewey Can Help (649, 372)</a></li>
-          <li><a href="#">Back to School - 5 Songs from Freegal</a></li>
-          <li><a href="#">Spokane is Reading: Swamplandia!</a></li>
-          <li><a href="#">Don't Miss the Friends Book Sale!</a></li>
-          <li><a href="#">Art!</a></li>
+          <li><a href="http://news.spokanelibrary.org/connected-learning-for-connected-holidays/">Connected Learning for Connected Holidays</a></li>
+          <li><a href="http://news.spokanelibrary.org/dewey-for-writers-808-02/">Dewey for Writers - 808.02</a></li>
+          <li><a href="http://news.spokanelibrary.org/5-songs-11-14/">5 Songs - Music for Concentration</a></li>
+          <li><a href="http://news.spokanelibrary.org/events_wrap-up-10-14/">Bang-Up Month for Events</a></li>
+          <li><a href="http://news.spokanelibrary.org/kilowatt_monitor/">How Many Kilowatts Does it Take to Read a Book?</a></li>
+          <li><a href="http://news.spokanelibrary.org/sunday-hours-the-shadle-library/">Sunday Hours @ the Shadle Library</a></li>
         </ul>
       </div>
     </div><!-- /.panel -->
-
-    <!--
-    <h4 class="text-muted">
-      Also in this issue&hellip;
-    </h4>
-    <ul class="list-unstyled">
-      <li><a href="#">Digital Literacy – Part of the Library’s Educational Curriculum</a></li>
-      <li><a href="#">A Decade of Dedication from our Friends</a></li>
-      <li><a href="#">School! Homework! – Dewey Can Help (649, 372)</a></li>
-      <li><a href="#">Back to School - 5 Songs from Freegal</a></li>
-      <li><a href="#">Spokane is Reading: Swamplandia!</a></li>
-      <li><a href="#">Don't Miss the Friends Book Sale!</a></li>
-      <li><a href="#">Art!</a></li>
-    </ul>
-    -->
 
   </div><!-- /.col -->
 </div><!-- /.row -->
