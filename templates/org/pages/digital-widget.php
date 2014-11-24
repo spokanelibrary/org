@@ -1,11 +1,9 @@
 <?php include('download-widget.php'); ?>
 
 <div class="media">
-  <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
-  	<div class="media-object">
+  <a class="pull-left btn btn-success btn-lg" href="/subscriptions/">
   				<i class="glyphicon glyphicon-sort-by-alphabet"></i>
 
-  	</div>
 	</a>
   <div class="media-body">
   	<h5 class="media-heading">
