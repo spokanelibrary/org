@@ -129,8 +129,8 @@ Template Name: Home Page
     </p>
     
     
-    <p class="text-right">
-      <a class="btn btn-default" href="http://news.spokanelibrary.org/">Read Library News &rarr;</a>
+    <p class="">
+      <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read Library News &rarr;</a>
     </p>
 
   </div><!-- /.col -->
