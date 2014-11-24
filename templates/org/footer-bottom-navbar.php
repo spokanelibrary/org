@@ -12,7 +12,7 @@
 
           <div class="col-md-3 col-sm-6">
             <h4>
-              <a href="/connect/">Get Connected</a> <small>&rarr;</small>
+              <a href="/connect/"><span class="text-success">Get Connected</span></a> <small>&rarr;</small>
             </h4>
             <ul class="nav nav-pills nav-stacked">
               <!--
