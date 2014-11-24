@@ -124,8 +124,9 @@ Template Name: Home Page
       <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/">November: Reading, Writing and Electricity</a>
     </h2>
 
-    <img class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard-300x165.jpg">
-    
+    <p>
+      <img class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard.jpg">
+    </p>
     
     
     <p class="text-right">
