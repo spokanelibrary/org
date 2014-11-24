@@ -116,23 +116,14 @@ Template Name: Home Page
   </div>
 
   <div class="col-md-6">
-    <!--
-    <h3 class="text-success">
-      <i class="glyphicon glyphicon-pencil"></i> 
-      Library News
-    </h3>
-    -->
-    
-
     <p>
-      <img class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard.jpg">
+      <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/"
+      ><img class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard.jpg"></a>
     </p>
-    
     
     <p class="">
       <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read Library News &rarr;</a>
     </p>
-
   </div><!-- /.col -->
   <div class="col-md-6">
 
