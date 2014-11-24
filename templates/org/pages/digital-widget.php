@@ -1,15 +1,6 @@
 <?php include('download-widget.php'); ?>
 
 <div class="media">
-  <div class="media-body">
-    <a class="btn btn-block btn-link" href="/subscriptions/">
-      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-      Research databases</a>
-  </div>
-</div><!-- /.media -->
-
-
-<div class="media">
   <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
   	<div class="media-object">
   		<h4 class="spl-btn-icon">
@@ -21,7 +12,7 @@
 	</a>
   <div class="media-body">
   	<h5 class="media-heading">
-    	<a href="/subscriptions/">Research databases</a>
+    	<a href="/subscriptions/">Online research</a>
     </h5>
   </div>
 </div><!-- /.media -->
