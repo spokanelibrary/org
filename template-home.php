@@ -142,8 +142,8 @@ Template Name: Home Page
       <!--</div>-->
       <!--<div class="panel-body">-->
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="http://news.spokanelibrary.org/connected-learning-for-connected-holidays/">Connected Learning for Connected Holidays</a></li>
-          <li><a href="http://news.spokanelibrary.org/dewey-for-writers-808-02/">Dewey for Writers - 808.02</a></li>
+          <li class="active"><a href="http://news.spokanelibrary.org/connected-learning-for-connected-holidays/">Connected Learning for Connected Holidays</a></li>
+          <li class="active"><a href="http://news.spokanelibrary.org/dewey-for-writers-808-02/">Dewey for Writers - 808.02</a></li>
           <li><a href="http://news.spokanelibrary.org/5-songs-11-14/">5 Songs - Music for Concentration</a></li>
           <li><a href="http://news.spokanelibrary.org/events_wrap-up-10-14/">Bang-Up Month for Events</a></li>
           <li><a href="http://news.spokanelibrary.org/kilowatt_monitor/">How Many Kilowatts Does it Take to Read a Book?</a></li>
