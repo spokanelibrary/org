@@ -7,7 +7,7 @@
 	</a>
   <div class="media-body">
   	<h5 class="media-heading">
-    	<a href="/subscriptions/"><em>Research:</em> subscription databases</a>
+    	<a href="/subscriptions/"><em>Research:</em> online subscriptions</a>
     </h5>
   </div>
 </div><!-- /.media -->
