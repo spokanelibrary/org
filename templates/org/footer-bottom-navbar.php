@@ -1,5 +1,5 @@
 
-    <div class="panel panel-primary">
+    <div class="panel panel-primary" style="opacity:.9;">
       <div class="panel-body">
 
         <!--
