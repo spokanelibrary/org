@@ -108,7 +108,7 @@ Template Name: Home Page
   <div class="col-md-12">
     <h3 class="text-success">
       <i class="glyphicon glyphicon-bullhorn"></i> 
-      Read the latest: Library News
+      Read the latest: <a href="http://news.spokanelibrary.org">Library News</a>
     </h3>
     <h2 style="margin-top:0;" class="clearfix">
       <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/">November: Reading, Writing and Electricity</a>
