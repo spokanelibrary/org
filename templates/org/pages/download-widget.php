@@ -32,7 +32,7 @@
   </a>
   <div class="media-body">
     <h5 class="media-heading">
-      <a href="/eaudio/"><em>OneClick:</em> eAudio books</a>
+      <a href="/eaudio/"><em>OneClick:</em> eAudiobooks</a>
     </h5>
   </div>
 </div><!-- /.media -->
