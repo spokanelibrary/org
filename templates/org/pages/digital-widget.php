@@ -1,6 +1,6 @@
 <div class="media">
   <div class="media-body">
-    <a class="btn btn-block btn-link" href="/digital/">Visit the digital branch &rarr;</a>
+    <a class="btn btn-block btn-primary" href="/digital/">Visit the digital branch &rarr;</a>
   </div>
 </div><!-- /.media -->
 
@@ -12,7 +12,7 @@
 	</a>
   <div class="media-body">
   	<h5 class="media-heading">
-    	<a href="/subscriptions/"><em>Research:</em> library subscriptions</a>
+    	<a href="/subscriptions/"><em>Research:</em> Library subscriptions</a>
     </h5>
   </div>
 </div><!-- /.media -->
