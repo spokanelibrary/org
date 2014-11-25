@@ -152,7 +152,7 @@ Template Name: Home Page
 
   <div class="col-md-6">
 
-    <h3 class="text-warning">
+    <h3 class="text-success">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
@@ -181,42 +181,35 @@ Template Name: Home Page
   <div class="col-md-6">
     <div class="hidden-xs">
 
-        <h3 class="text-info">
-          <i class="glyphicon glyphicon-comment"></i> 
-          From the reference desk
-        </h3> 
-        
-        <p class="text-right">
-          <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
-        </p>
-        
-        <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
-        
-        <p>&nbsp;</p>
-        <!--
-        <p class="text-right">
-          <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
-        </p>
-        -->
-        <p>
+      <h3 class="text-success">
+        <i class="glyphicon glyphicon-comment"></i> 
+        From the reference desk
+      </h3> 
+      <!--
+      <p class="text-right">
+        <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
+      </p>
+      -->
+      <p>
         <a class="btn btn-block btn-info" href="/blog/">
-          <i class="glyphicon glyphicon-bullhorn"></i> 
-          Read the library blog &rarr;
+        <i class="glyphicon glyphicon-bullhorn"></i> 
+        Read the library blog &rarr;
         </a>
       </p>
-
-</div><!-- /.row -->
-
-<?php
-/*
-<div class="panel panel-default" style="margin-top:10px; margin-bottom:6px;">
-  <div class="panel-heading">
-    <span class="text-muted">
-    <i class="glyphicon glyphicon-calendar"></i>
-    Is the library open now?
-    </span>
+      <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
+      
+      <p>&nbsp;</p>
+      <!--
+      <p class="text-right">
+        <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
+      </p>
+      -->
+      <p>
+        <a class="btn btn-block btn-info" href="/blog/">
+        <i class="glyphicon glyphicon-bullhorn"></i> 
+        Read the library blog &rarr;
+        </a>
+      </p>
   </div>
-</div><!-- /.panel -->
-*/
-?>
-<?php //echo do_shortcode('[spl_widget branch-hours]'); ?>
+  </div><!-- /.col -->
+</div><!-- /.row -->
