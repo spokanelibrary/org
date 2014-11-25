@@ -162,11 +162,11 @@ Template Name: Home Page
         Check out the library calendar &rarr;
       </a>
     </p>
-   
+    <!--
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>
-    
+    -->
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
     <!--
