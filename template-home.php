@@ -42,15 +42,14 @@ Template Name: Home Page
 <div class="row visible-xs">
   <div class="col-xs-12">
     <div class="list-group">
-      
+      <a href="/open/" class="list-group-item active">
+        <span class="text-primary">Is the library open?</span> &rarr;
+      </a>
       <a href="/catalog/" class="list-group-item">
         <span class="text-primary">Library catalog</span> &rarr;
       </a>
       <a href="/login/" class="list-group-item">
         <span class="text-primary">My account</span> &rarr;
-      </a>
-      <a href="/open/" class="list-group-item">
-        <span class="text-primary">Is the library open?</span> &rarr;
       </a>
       <a href="/storytime/" class="list-group-item">
         <span class="text-primary">Storytime schedules</span> &rarr;
