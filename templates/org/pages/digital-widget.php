@@ -5,6 +5,7 @@
 </div><!-- /.media -->
 
 <?php include('download-widget.php'); ?>
-<h5><a href="/connected-learning/">Connected Learning<a/></h5>
-<h5><a href="/subscriptions/">Research tools</a></h5>
-<h5><a href="/apps/">Great entertainment</a></h5>
+<hr>
+<h5><a href="/connected-learning/">Connected Learning<a/> <small>&rarr;</small></h5>
+<h5><a href="/subscriptions/">Research tools</a> <small>&rarr;</small></h5>
+<h5><a href="/apps/">Entertainment</a> <small>&rarr;</small></h5>
