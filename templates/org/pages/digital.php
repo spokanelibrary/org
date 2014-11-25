@@ -88,7 +88,7 @@
 		    	<a href="/connected-learning/">Connected Learning: technology  <span class="hidden-xs">training &amp; workshops</span></a>
 		    </h4>
 	    	Courses and training in the latest <a href="/it-academy/">Microsoft technologies</a> as well as <a href="/gale-courses/">many other topics</a>.
-	    	Or <a href="/subscriptions/#cr">build your resume</a> online.
+	    	<a href="/subscriptions/#cr">Build your resume</a> online or <a href="/labs/">find a hands-on workshop</a>.
 	    	<a href="/connected-learning/"><b>More</b> &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
