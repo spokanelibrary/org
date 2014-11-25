@@ -5,11 +5,13 @@
   <footer class="content-info container" role="contentinfo">
     <!--<hr>-->
     <?php
+    /*
     if ( is_user_logged_in() ) {
       include('footer-bottom-navbar.php');
     }
+    */
     ?>
-    <?php //include('footer-bottom-navbar.php'); ?>
+    <?php include('footer-bottom-navbar.php'); ?>
   </footer>
   </div>
 
