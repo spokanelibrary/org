@@ -46,7 +46,7 @@ Template Name: Home Page
       <a href="/catalog/" class="list-group-item">
         <span class="text-primary">Library catalog</span> &rarr;
       </a>
-      <a href="/account/" class="list-group-item">
+      <a href="/login/" class="list-group-item">
         <span class="text-primary">My account</span> &rarr;
       </a>
       <a href="/open/" class="list-group-item">
