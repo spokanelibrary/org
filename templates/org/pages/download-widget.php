@@ -45,7 +45,7 @@
 	</a>
   <div class="media-body">
     <h5 class="media-heading">
-    	<a href="/emagazines/"><em>Zinio:</em> Magazine downloads</a>
+    	<a href="/emagazines/"><em>Zinio:</em> Digital magazines</a>
     </h5>
   </div>
 </div><!-- /.media -->
