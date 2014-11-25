@@ -19,7 +19,7 @@
 
 <div class="media">
   <a class="pull-left btn btn-primary" href="/connected-learning/">
-  	<i class="glyphicon glyphicon-sort-by-alphabet"></i>
+  	<i class="glyphicon glyphicon-film"></i>
 	</a>
   <div class="media-body">
   	<h5 class="media-heading">
