@@ -43,7 +43,7 @@ Template Name: Home Page
   <div class="col-xs-12">
     <div class="list-group">
       <a href="/open/" class="list-group-item active">
-        <span class="text-primary">Is the library open?</span> &rarr;
+        Is the library open? &rarr;
       </a>
       <a href="/catalog/" class="list-group-item">
         <span class="text-primary">Library catalog</span> &rarr;
