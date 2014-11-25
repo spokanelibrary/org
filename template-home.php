@@ -159,7 +159,7 @@ Template Name: Home Page
 
     <p>
       <a class="btn btn-block btn-warning" href="/calendar/">
-        Check out the library calendar &rarr;
+        Check the library calendar &rarr;
       </a>
     </p>
     <!--
