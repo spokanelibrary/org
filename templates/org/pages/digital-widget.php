@@ -17,3 +17,14 @@
   </div>
 </div><!-- /.media -->
 
+<div class="media">
+  <a class="pull-left btn btn-primary" href="/connected-learning/">
+  	<i class="glyphicon glyphicon-sort-by-alphabet"></i>
+	</a>
+  <div class="media-body">
+  	<h5 class="media-heading">
+    	<a href="/connected-learning/"><em>Connected Learning:</em> Library tech</a>
+    </h5>
+  </div>
+</div><!-- /.media -->
+
