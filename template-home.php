@@ -52,6 +52,12 @@ Template Name: Home Page
       <a href="/search/" class="list-group-item">
         <span class="text-primary">Is the library open?</span> &rarr;
       </a>
+      <a href="/storytime/" class="list-group-item">
+        <span class="text-primary">Storytime schedules</span> &rarr;
+      </a>
+      <a href="/calendar/" class="list-group-item">
+        <span class="text-primary">Check events calendar</span> &rarr;
+      </a>
       <a href="/apps/" class="list-group-item">
         <span class="text-primary">Mobile apps</span> &rarr;
       </a>
@@ -64,8 +70,8 @@ Template Name: Home Page
       <a href="/browse/" class="list-group-item">
         <span class="text-primary">Staff picks &amp; popular titles</span> &rarr;
       </a>
-      <a href="http://news.spokanelibrary.org" class="list-group-item">
-        <span class="text-primary">Get library news</span> &rarr;
+      <a href="/news/" class="list-group-item">
+        <span class="text-primary">Read library news</span> &rarr;
       </a>
 
     </div>
