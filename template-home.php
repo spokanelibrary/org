@@ -106,7 +106,7 @@ Template Name: Home Page
 
 <div class="row" style="padding-top: 0px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
   <div class="col-md-12">
-    <h3 class="text-muted">
+    <h3 class="text-success">
       <i class="glyphicon glyphicon-bullhorn"></i> 
       Read the latest: Library News
     </h3>
