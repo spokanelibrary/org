@@ -152,10 +152,16 @@ Template Name: Home Page
 
   <div class="col-md-6">
 
-    <h3 class="text-success">
+    <h3 class="text-muted">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
+
+    <p>
+      <a class="btn btn-block btn-warning" href="/calendar/">
+        Check out the library calendar &rarr;
+      </a>
+    </p>
    
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
@@ -181,7 +187,7 @@ Template Name: Home Page
   <div class="col-md-6">
     <div class="hidden-xs">
 
-      <h3 class="text-success">
+      <h3 class="text-muted">
         <i class="glyphicon glyphicon-comment"></i> 
         From the reference desk
       </h3> 
@@ -192,7 +198,6 @@ Template Name: Home Page
       -->
       <p>
         <a class="btn btn-block btn-info" href="/blog/">
-        <i class="glyphicon glyphicon-bullhorn"></i> 
         Read the library blog &rarr;
         </a>
       </p>
