@@ -57,4 +57,5 @@
   <span class="visible-lg"></span>
 
 </div>
+<p>&nbsp;</p>
 <div id="fb-root"></div>

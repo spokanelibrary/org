@@ -42,14 +42,12 @@ Template Name: Home Page
 <div class="row visible-xs">
   <div class="col-xs-12">
     <div class="list-group">
-      <a href="/connect/" class="list-group-item">
-        <span class="text-primary">Contact the library</span> &rarr;
+      
+      <a href="/catalog/" class="list-group-item">
+        <span class="text-primary">Library catalog</span> &rarr;
       </a>
       <a href="/account/" class="list-group-item">
         <span class="text-primary">My account</span> &rarr;
-      </a>
-      <a href="/search/" class="list-group-item">
-        <span class="text-primary">Search the catalog</span> &rarr;
       </a>
       <a href="/search/" class="list-group-item">
         <span class="text-primary">Is the library open?</span> &rarr;
@@ -57,14 +55,17 @@ Template Name: Home Page
       <a href="/apps/" class="list-group-item">
         <span class="text-primary">Mobile apps</span> &rarr;
       </a>
+      <a href="/connect/" class="list-group-item">
+        <span class="text-primary">Contact the library</span> &rarr;
+      </a>
+      <a href="/new/" class="list-group-item">
+        <span class="text-primary">Browse new arrivals</span> &rarr;
+      </a>
       <a href="/browse/" class="list-group-item">
-        <span class="text-primary">Browse popular titles</span> &rarr;
+        <span class="text-primary">Staff picks &amp; popular titles</span> &rarr;
       </a>
       <a href="http://news.spokanelibrary.org" class="list-group-item">
         <span class="text-primary">Get library news</span> &rarr;
-      </a>
-      <a href="/explore/" class="list-group-item">
-        <span class="text-primary">How to find things</span> &rarr;
       </a>
 
     </div>
