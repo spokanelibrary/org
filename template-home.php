@@ -122,7 +122,7 @@ Template Name: Home Page
     </p>
     
     <p class="">
-      <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read Library News &rarr;</a>
+      <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
     </p>
   </div><!-- /.col -->
   <div class="col-md-6">
