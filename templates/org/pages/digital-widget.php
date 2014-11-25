@@ -23,7 +23,7 @@
 	</a>
   <div class="media-body">
   	<h5 class="media-heading">
-    	<a href="/connected-learning/"><em>Connected Learning:</em> Library tech</a>
+    	<a href="/connected-learning/"><em>Connected Learning:</em> technology</a>
     </h5>
   </div>
 </div><!-- /.media -->
