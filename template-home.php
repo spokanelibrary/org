@@ -197,7 +197,7 @@ Template Name: Home Page
       </p>
       -->
       <p>
-        <a class="btn btn-block btn-info" href="/blog/">
+        <a class="btn btn-block btn-primary" href="/blog/">
         Read the library blog &rarr;
         </a>
       </p>
