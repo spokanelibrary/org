@@ -19,11 +19,11 @@
 
 <div class="media">
   <a class="pull-left btn btn-primary" href="/connected-learning/">
-  	<i class="glyphicon glyphicon-film"></i>
+  	<i class="glyphicon glyphicon-facetime-video"></i>
 	</a>
   <div class="media-body">
   	<h5 class="media-heading">
-    	<a href="/connected-learning/"><em>Connected Learning:</em> technology</a>
+    	<a href="/connected-learning/"><em>Connected Learning:</em> tech</a>
     </h5>
   </div>
 </div><!-- /.media -->
