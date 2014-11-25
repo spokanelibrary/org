@@ -43,34 +43,34 @@ Template Name: Home Page
   <div class="col-xs-12">
     <div class="list-group">
       <a href="/open/" class="list-group-item">
-        Is the library open? <small class="text-muted">&rarr;</a>
+        Is the library open? <small class="text-muted">&rarr;</small></a>
       </a>
       <a href="/catalog/" class="list-group-item">
-        Library catalog <small class="text-muted">&rarr;</a>
+        Library catalog <small class="text-muted">&rarr;</small></a>
       </a>
       <a href="/login/" class="list-group-item">
-        My account <small class="text-muted">&rarr;</a>
+        My account <small class="text-muted">&rarr;</small></a>
       </a>
       <a href="/storytime/" class="list-group-item">
-        Storytime schedules <small class="text-muted">&rarr;</a>
+        Storytime schedules <small class="text-muted">&rarr;</small></a>
       </a>
       <a href="/calendar/" class="list-group-item">
-        Check events calendar <small class="text-muted">&rarr;</a>
+        Check events calendar <small class="text-muted">&rarr;</small></a>
       </a>
       <a href="/apps/" class="list-group-item">
-        Mobile apps <small class="text-muted">&rarr;</a>
+        Mobile apps <small class="text-muted">&rarr;</small></a>
       </a>
       <a href="/connect/" class="list-group-item">
-        Contact the library <small class="text-muted">&rarr;</a>
+        Contact the library <small class="text-muted">&rarr;</small></a>
       </a>
       <a href="/new/" class="list-group-item">
-        Browse new arrivals <small class="text-muted">&rarr;</a>
+        Browse new arrivals <small class="text-muted">&rarr;</small></a>
       </a>
       <a href="/browse/" class="list-group-item">
-        Staff picks &amp; popular titles <small class="text-muted">&rarr;</a>
+        Staff picks &amp; popular titles <small class="text-muted">&rarr;</small></a>
       </a>
       <a href="/news/" class="list-group-item">
-        Read library news <small class="text-muted">&rarr;</a>
+        Read library news <small class="text-muted">&rarr;</small></a>
       </a>
 
     </div>
