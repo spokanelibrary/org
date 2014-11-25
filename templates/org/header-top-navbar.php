@@ -1,8 +1,8 @@
 <?php
 
 function spl_get_home_url() {
-  //return home_url();
-  return 'http://www.spokanelibrary.org';
+  return home_url();
+  //return 'http://www.spokanelibrary.org';
 }
 
 ?>
@@ -39,11 +39,13 @@ function spl_get_home_url() {
     <div id="spl-account-profile"></div>
 
     <?php
+    /*
     if ( is_user_logged_in() ) {
       include('header-social.php');
     }
+    */
     ?>
-    <?php //include('header-social.php'); ?>
+    <?php include('header-social.php'); ?>
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       {{#if user.sessionToken}}
