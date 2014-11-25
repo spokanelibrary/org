@@ -49,7 +49,7 @@ Template Name: Home Page
       <a href="/account/" class="list-group-item">
         <span class="text-primary">My account</span> &rarr;
       </a>
-      <a href="/search/" class="list-group-item">
+      <a href="/open/" class="list-group-item">
         <span class="text-primary">Is the library open?</span> &rarr;
       </a>
       <a href="/storytime/" class="list-group-item">
