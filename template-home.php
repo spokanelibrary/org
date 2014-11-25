@@ -43,34 +43,34 @@ Template Name: Home Page
   <div class="col-xs-12">
     <div class="list-group">
       <a href="/open/" class="list-group-item">
-        Is the library open? <small class="text-muted">&rarr;</small></a>
+        <span class="text-primary">Is the library open?</span> <small>&rarr;</small>
       </a>
       <a href="/catalog/" class="list-group-item">
-        Library catalog <small class="text-muted">&rarr;</small></a>
+        <span class="text-primary">Library catalog</span> <small>&rarr;</small>
       </a>
       <a href="/login/" class="list-group-item">
-        My account <small class="text-muted">&rarr;</small></a>
+        <span class="text-primary">My account</span> <small>&rarr;</small>
       </a>
       <a href="/storytime/" class="list-group-item">
-        Storytime schedules <small class="text-muted">&rarr;</small></a>
+        <span class="text-primary">Storytime schedules</span> <small>&rarr;</small>
       </a>
       <a href="/calendar/" class="list-group-item">
-        Check events calendar <small class="text-muted">&rarr;</small></a>
+        <span class="text-primary">Check events calendar</span> <small>&rarr;</small>
       </a>
       <a href="/apps/" class="list-group-item">
-        Mobile apps <small class="text-muted">&rarr;</small></a>
+        <span class="text-primary">Mobile apps</span> <small>&rarr;</small>
       </a>
       <a href="/connect/" class="list-group-item">
-        Contact the library <small class="text-muted">&rarr;</small></a>
+        <span class="text-primary">Contact the library</span> <small>&rarr;</small>
       </a>
       <a href="/new/" class="list-group-item">
-        Browse new arrivals <small class="text-muted">&rarr;</small></a>
+        <span class="text-primary">Browse new arrivals</span> <small>&rarr;</small>
       </a>
       <a href="/browse/" class="list-group-item">
-        Staff picks &amp; popular titles <small class="text-muted">&rarr;</small></a>
+        <span class="text-primary">Staff picks &amp; popular titles</span> <small>&rarr;</small>
       </a>
       <a href="/news/" class="list-group-item">
-        Read library news <small class="text-muted">&rarr;</small></a>
+        <span class="text-primary">Read library news</span> <small>&rarr;</small>
       </a>
 
     </div>
