@@ -48,7 +48,7 @@
 			<div class="panel-heading">
 				<h3 class="panel-title">
 					<i class="glyphicon glyphicon-globe"></i>
-					<b class="hidden-xs hidden-sm">Connected Learning:</b> Research, training, and educational resources
+					Research, training, and educational resources
 				</h3>
 			</div>
 		</div>
@@ -85,11 +85,11 @@
 			</a>
 		  <div class="media-body">
 		    <h4 class="media-heading">
-		    	<a href="/tech/">Online training <span class="hidden-xs">&amp; certification</span></a>
+		    	<a href="/connected-learning/">Connected Learning: technology  <span class="hidden-xs">training &amp; workshops</span></a>
 		    </h4>
 	    	Courses and training in the latest <a href="/it-academy/">Microsoft technologies</a> as well as <a href="/gale-courses/">many other topics</a>.
 	    	Or <a href="/subscriptions/#cr">build your resume</a> online.
-	    	<a href="/tech/"><b>More</b> &rarr;</a>
+	    	<a href="/connected-learning/"><b>More</b> &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
