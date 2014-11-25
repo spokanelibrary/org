@@ -1,6 +1,6 @@
 <div class="media">
   <div class="media-body">
-    <a class="btn btn-block btn-success" href="/digital/">Visit the digital branch &rarr;</a>
+    <a class="btn btn-block btn-primary" href="/digital/">Visit the digital branch &rarr;</a>
   </div>
 </div><!-- /.media -->
 
