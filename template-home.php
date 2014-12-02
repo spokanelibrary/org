@@ -117,14 +117,14 @@ Template Name: Home Page
       Read the latest: Library News
     </h3>
     <h2 style="margin-top:0;" class="clearfix">
-      <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/">November: Reading, Writing and Electricity</a>
+      <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/">More Library Time For Busy People</a>
     </h2>
   </div>
 
   <div class="col-md-6">
     <p>
-      <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/"
-      ><img class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard.jpg"></a>
+      <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/"
+      ><img class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Shadle_Sunday_hours2-300x282.jpg"></a>
     </p>
     
     <p class="">
@@ -140,12 +140,11 @@ Template Name: Home Page
       <!--</div>-->
       <!--<div class="panel-body">-->
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="http://news.spokanelibrary.org/connected-learning-for-connected-holidays/">Connected Learning for Connected Holidays <small class="text-muted">&rarr;</small></a></li>
-          <li><a href="http://news.spokanelibrary.org/dewey-for-writers-808-02/">Dewey for Writers - 808.02 <small class="text-muted">&rarr;</small></a></li>
-          <li><a href="http://news.spokanelibrary.org/5-songs-11-14/">5 Songs - Music for Concentration <small class="text-muted">&rarr;</small></a></li>
-          <li><a href="http://news.spokanelibrary.org/events_wrap-up-10-14/">Bang-Up Month for Events <small class="text-muted">&rarr;</small></a></li>
-          <li><a href="http://news.spokanelibrary.org/kilowatt_monitor/">How Many Kilowatts Does it Take to Read a Book? <small class="text-muted">&rarr;</small></a></li>
-          <li><a href="http://news.spokanelibrary.org/sunday-hours-the-shadle-library/">Sunday Hours @ the Shadle Library <small class="text-muted">&rarr;</small></a></li>
+          <li><a href="http://news.spokanelibrary.org/nw_exhibit_12-14/">Spokane in 1889 Exhibit <small class="text-muted">&rarr;</small></a></li>
+          <li><a href="http://news.spokanelibrary.org/hour-of-code/">Hour of Code! <small class="text-muted">&rarr;</small></a></li>
+          <li><a href="http://news.spokanelibrary.org/knits-purls-and-dewey/">Knits, Purls and Dewey <small class="text-muted">&rarr;</small></a></li>
+          <li><a href="http://news.spokanelibrary.org/holiday-giving-ideas-from-the-library/">Holiday Giving Ideas from the Library <small class="text-muted">&rarr;</small></a></li>
+          <li><a href="http://news.spokanelibrary.org/five-artists-one-song-for-the-season/">Five Artists – One Song for the Season <small class="text-muted">&rarr;</small></a></li>
         </ul>
       <!--</div>-->
     <!--</div>--><!-- /.panel -->
