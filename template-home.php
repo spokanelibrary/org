@@ -122,9 +122,9 @@ Template Name: Home Page
   </div>
 
   <div class="col-md-6">
-    <p>
+    <p class="text-center">
       <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/"
-      ><img class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Shadle_Sunday_hours2.jpg"></a>
+      ><img class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Shadle_Sunday_hours2-300x282.jpg"></a>
     </p>
     
     <p class="">
