@@ -24,4 +24,4 @@
     	<a class="btn btn-block btn-default" href="/digital/">Visit the digital branch <small>&rarr;</small></a>
   	</p>
   </div>
-</div<!-- /.media -->
+</div><!-- /.media -->
