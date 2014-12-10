@@ -87,20 +87,24 @@ Template Name: Beta Home Page
     
     <div class="panel panel-warning">
     <div class="panel-heading">
+      <h4 class="panel-title">
+          <a href="/digital/"><i class="glyphicon glyphicon-cloud-download"></i>
+            Digital branch</a>
+        </h4>
+    </div>
+    <div class="panel-body">
     <h5 class="text-muted" style="margin-top:0;">
       <a href="/subscriptions/">Research</a>.
       <a href="/apps/">Entertainment</a>.
       <a href="/connected-learning/">Technology training</a>.
       <a href="/digital/">So much more</a>.
     </h5>
-    </div>
-    <div class="panel-body">
     <div class="row">
      
       <div class="col-md-6">
         <h4>
           <a href="/digital/"><i class="glyphicon glyphicon-phone"></i>
-            Digital branch</a>
+            Library apps</a>
         </h4>
         <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
       </div><!-- /.col -->
