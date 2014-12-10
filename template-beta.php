@@ -97,7 +97,8 @@ Template Name: Beta Home Page
       <a href="/connected-learning/"><i class="glyphicon glyphicon-cloud-download"></i>
         Connected learning</a> <small>&rarr;</small>
     </h4>
-    <?php get_template_part('templates/content', 'page'); ?>
+    <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
+    <?php //get_template_part('templates/content', 'page'); ?>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
