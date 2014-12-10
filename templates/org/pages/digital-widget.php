@@ -11,7 +11,7 @@
 <div class="media">
   <div class="media-body">
     <p>
-    	<a class="btn btn-block btn-link" href="/digital/">Visit the  digital branch <small>&rarr;</small></a>
+    	<a class="btn btn-block btn-link" href="/apps/">Get library apps <small>&rarr;</small></a>
   	</p>
   </div>
 </div><!-- /.media -->
