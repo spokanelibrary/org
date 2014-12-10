@@ -111,6 +111,24 @@ Template Name: Beta Home Page
             </h4>
             -->
             <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
+            <div class="media">
+              <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
+                <div class="media-object">
+                  <h4 class="spl-btn-icon">
+                    <span class="label label-primary">
+                      <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+                    </span>
+                  </h4>
+                </div>
+              </a>
+              <div class="media-body">
+                <h5 class="media-heading">
+                  <a href="/subscriptions/"><em>Library subscriptions:</em> Research tools</a>
+                </h5>
+              </div>
+            </div><!-- /.media -->
+
+
           </div><!-- /.col -->
 
           <div class="col-md-6">  
