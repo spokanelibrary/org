@@ -26,7 +26,7 @@ Template Name: Beta Home Page
   //$spl_home = get_template_part('templates/content', 'page'); 
   //if ( !empty(trim($spl_home)) ):
 ?>
-<div class="well well-sm">
+<div class="alert alert-success">
   <?php echo $post->post_content; ?>
 </div>
 <?php //endif; ?>
