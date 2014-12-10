@@ -122,7 +122,7 @@ Template Name: Beta Home Page
         </div><!-- /.row -->
 
       </div><!-- /.panel-body -->
-      <div class="panel-footer">
+      <div class="panel-footer panel-transparent">
         <h5 class="text-muted" style="margin-top:0;">
           <a href="/subscriptions/">Research</a>.
           <a href="/apps/">Entertainment</a>.
