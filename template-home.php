@@ -87,7 +87,7 @@ Template Name: Home Page
   <div class="col-md-3">
     <h4>
       <a href="/digital/"><i class="glyphicon glyphicon-cloud-download"></i>
-        Digital branch</a> <small>&rarr;</small>
+        Digital branch</a>
     </h4>
     <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>
     
