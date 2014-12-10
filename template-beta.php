@@ -84,10 +84,10 @@ Template Name: Beta Home Page
   </div><!-- /.col -->
 
   <div class="col-md-3">
-    
-      <a class="btn btn-primary" href="/digital/"><i class="glyphicon glyphicon-cloud-download"></i>
+    <h4>
+      <a href="/digital/"><i class="glyphicon glyphicon-cloud-download"></i>
         Digital branch</a> <small>&rarr;</small>
-    
+    </h4>
     <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>
     
   </div><!-- /.col -->
