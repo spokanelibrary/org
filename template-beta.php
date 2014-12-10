@@ -147,17 +147,12 @@ Template Name: Beta Home Page
           </div><!-- /.col -->
 
         </div><!-- /.row -->
-        <!--
-        <h5 class="text-muted" style="margin-top:0;">
-          <a href="/subscriptions/">Research</a>.
-          <a href="/apps/">Entertainment</a>.
-          <a href="/connected-learning/">Technology training</a>.
-          <a href="/digital/">So much more</a>.
-        </h5>
-        -->
+
+      </div><!-- /.panel-body -->
+      <div class="panel-footer">
         <a class="btn btn-block btn-primary"
           href="/digital/">Visit the digital branch &rarr;</a>
-      </div><!-- /.panel-body -->
+      </div>
     </div><!-- /.panel -->
 
   </div><!-- /.col -->
