@@ -110,7 +110,9 @@ Template Name: Beta Home Page
                 Library apps</a>
             </h4>
             -->
+            <h4 class="text-muted">Downloads</h4>
             <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
+            <!--
             <div class="media">
               <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
                 <div class="media-object">
@@ -126,9 +128,9 @@ Template Name: Beta Home Page
                   <a href="/subscriptions/"><em>Library subscriptions:</em> Online research</a>
                 </h5>
               </div>
-            </div><!-- /.media -->
+            </div>--><!-- /.media -->
 
-            <p>&nbsp;</p>
+            
 
           </div><!-- /.col -->
 
@@ -139,10 +141,11 @@ Template Name: Beta Home Page
                 Connected learning</a>
             </h4>
             -->
+            <h4 class="text-muted">Connected learning</h4>
             <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
             <?php //get_template_part('templates/content', 'page'); ?>
-            <p>&nbsp;</p>
             
+
           </div><!-- /.col -->
 
         </div><!-- /.row -->
