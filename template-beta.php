@@ -24,7 +24,7 @@ Template Name: Beta Home Page
 
 <?php 
 $spl_home = $post->post_content;
-trim($spl_home);
+$spl_home =trim($spl_home);
 if ( !empty($spl_home) ): 
 ?>
 
