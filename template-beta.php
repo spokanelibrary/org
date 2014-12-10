@@ -83,22 +83,25 @@ Template Name: Beta Home Page
     <?php echo do_shortcode('[spl_carousel auto slug=carousel]'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-3">
+  <div class="col-md-6">
+
+  <div class="col-md-6">
     <h4>
       <a href="/digital/"><i class="glyphicon glyphicon-cloud-download"></i>
         Digital branch</a>
     </h4>
-    <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>
-    
+    <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
   </div><!-- /.col -->
 
-  <div class="col-md-3">  
+  <div class="col-md-6">  
     <h4>
       <a href="/connected-learning/"><i class="glyphicon glyphicon-cloud-download"></i>
         Connected learning</a>
     </h4>
     <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
     <?php //get_template_part('templates/content', 'page'); ?>
+  </div><!-- /.col -->
+
   </div><!-- /.col -->
 
 </div><!-- /.row -->
