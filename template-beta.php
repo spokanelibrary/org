@@ -97,12 +97,14 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-6">
     
-        <h4 class="panel-title">
+
+        <h3 class="text-muted">
             <i class="glyphicon glyphicon-cloud-download"></i>
             <a class="text-primary"
               href="/digital/">
               Check out the digital branch</a>
-        </h4>
+        </h3>
+
         <h5 class="text-warning" style="margin-top:0;">
           Research
           &middot;
@@ -153,6 +155,7 @@ if ( !empty($spl_home) ): ;
 
         <a class="btn btn-block btn-primary"
           href="/digital/">Visit the digital branch &rarr;</a>
+
 
   </div><!-- /.col -->
 
