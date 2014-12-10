@@ -20,6 +20,8 @@ Template Name: Beta Home Page
 </p>
 -->
 
+<?php get_template_part('templates/content', 'page'); ?>
+
 <div class="visible-sm">
   <div class="navbar navbar-inverse" style="margin-top: 0px; margin-bottom: 0px; background:transparent; border:none;">
       
@@ -141,9 +143,7 @@ Template Name: Beta Home Page
             </h4>
             -->
             <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
-            <?php //get_template_part('templates/content', 'page'); ?>
             
-
           </div><!-- /.col -->
 
         </div><!-- /.row -->
