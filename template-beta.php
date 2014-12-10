@@ -68,6 +68,9 @@ if ( !empty($spl_home) ): ;
       <a href="/calendar/" class="list-group-item">
         <span class="text-primary">Check events calendar</span> <small>&rarr;</small>
       </a>
+      <a href="/digital/" class="list-group-item">
+        <span class="text-primary">Digital branch</span> <small>&rarr;</small>
+      </a>
       <a href="/apps/" class="list-group-item">
         <span class="text-primary">Mobile apps</span> <small>&rarr;</small>
       </a>
