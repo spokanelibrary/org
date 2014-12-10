@@ -8,31 +8,27 @@
 
 <div class="media">
   <div class="media-body">
-  	<p>
 	  	<img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png">
 			<span class="help-block">  		
   			<small>
   				Learn Microsoft products and qualify for certification testing.
-  				<a class="" href="/connected-learning/">More <small>&rarr;</small></a>
+  				<a class="pull-right" href="/connected-learning/">More <small>&rarr;</small></a>
 		  	</small>
 		  </span>		  
-  	</p>
   </div>
 </div><!-- /.media -->
 
 <div class="media">
   <div class="media-body">
-  	<p>
+
 	  	<img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png">
 	  	<span class="help-block">
   			<small>
   				Online courses taught by college instructors and industry experts.
+  				<a class="pull-right" href="/connected-learning/">More <small>&rarr;</small></a>
 		  	</small>
 		  </span>
-		  <span class="pull-right">
-		  	<a class="" href="/connected-learning/">More <small>&rarr;</small></a>
-		  </span>
-  	</p>
+
   </div>
 </div><!-- /.media -->
 
