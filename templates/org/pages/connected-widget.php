@@ -32,3 +32,10 @@
   </div>
 </div><!-- /.media -->
 
+<div class="media">
+  <div class="media-body">
+    <p>
+    	<a class="btn btn-block btn-default" href="/connected-learning/">Learn more <small>&rarr;</small></a>
+  	</p>
+  </div>
+</div><!-- /.media -->
