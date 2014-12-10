@@ -107,7 +107,7 @@ if ( !empty($spl_home) ): ;
         </h4>
       </div>
       <div class="panel-body">
-        <h5 class="text-warning" style="margin-top:0;">
+        <h5 class="text-center text-warning" style="margin-top:0;">
           Research
           &middot;
           Entertainment
