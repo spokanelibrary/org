@@ -108,10 +108,13 @@ if ( !empty($spl_home) ): ;
       </div>
       <div class="panel-body">
         <h5 class="text-warning" style="margin-top:0;">
-          Research.
-          Entertainment.
-          Connected learning.
-          Apps &amp; more.
+          Research
+          &middot;
+          Entertainment
+          &middot;
+          Connected learning
+          &middot;
+          Apps &amp; more
         </h5>
         <div class="row">
          
