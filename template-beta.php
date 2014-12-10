@@ -129,7 +129,7 @@ if ( !empty($spl_home) ): ;
             <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
             
             <div class="media">
-              <a class="pull-left btn btn-success" href="/subscriptions/">
+              <a class="pull-left btn btn-primary" href="/subscriptions/">
                 <i class="glyphicon glyphicon-sort-by-alphabet"></i>
               </a>
               <div class="media-body">
