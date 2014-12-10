@@ -135,7 +135,7 @@ if ( !empty($spl_home) ): ;
                 </h5>
               </div>
             </div><!-- /.media -->
-            <p class="visible-xs visible-sm">&nbsp;</p>
+            <p class="">&nbsp;</p>
             
 
           </div><!-- /.col -->
@@ -148,14 +148,15 @@ if ( !empty($spl_home) ): ;
             </h4>
             -->
             <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
-            
+            <p class="">&nbsp;</p>
           </div><!-- /.col -->
 
         </div><!-- /.row -->
 
+        <p>
         <a class="btn btn-block btn-primary"
           href="/digital/">Visit the digital branch &rarr;</a>
-
+        </p>
 
   </div><!-- /.col -->
 
