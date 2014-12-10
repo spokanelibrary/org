@@ -95,7 +95,7 @@ Template Name: Beta Home Page
         </h4>
       </div>
       <div class="panel-body">
-        <h5 class="text-muted" style="margin-top:0;">
+        <h5 class="text-warning" style="margin-top:0;">
           Research.
           Entertainment.
           Technology training.
