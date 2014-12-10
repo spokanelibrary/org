@@ -95,7 +95,12 @@ Template Name: Beta Home Page
         </h4>
       </div>
       <div class="panel-body">
-        
+        <h5 class="text-muted" style="margin-top:0;">
+          Research.
+          Entertainment.
+          Technology training.
+          Apps &amp; more.
+        </h5>
         <div class="row">
          
           <div class="col-md-6">
@@ -128,12 +133,6 @@ Template Name: Beta Home Page
           <a href="/digital/">So much more</a>.
         </h5>
         -->
-        <h5 class="text-muted" style="margin-top:0;">
-          Research.
-          Entertainment.
-          Technology training.
-          Apps &amp; more.
-        </h5>
         <a class="btn btn-block btn-primary"
           href="/digital/">Visit the digital branch &rarr;</a>
       </div><!-- /.panel-body -->
