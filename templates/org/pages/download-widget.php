@@ -19,7 +19,7 @@
 	</a>
   <div class="media-body">
     <h5 class="media-heading">
-    	<a href="/emusic/"><em>Freegal:</em> Download songs
+    	<a href="/emusic/"><em>Freegal:</em> Music downloads</a>
     </h5>
   </div>
 </div><!-- /.media -->
