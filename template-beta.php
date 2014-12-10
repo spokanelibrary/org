@@ -149,7 +149,7 @@ Template Name: Beta Home Page
         </div><!-- /.row -->
 
       </div><!-- /.panel-body -->
-      <div class="panel-footer transparent">
+      <div class="panel-footer panel-transparent">
         <a class="btn btn-block btn-primary"
           href="/digital/">Visit the digital branch &rarr;</a>
       </div>
