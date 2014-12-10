@@ -88,7 +88,7 @@ Template Name: Beta Home Page
     <h5 class="text-muted" style="margin-top:0;">
       <a href="/subscriptions/">Research</a>.
       <a href="/apps/">Entertainment</a>.
-      <a href="/connected-learning/">Technology Training</a>.
+      <a href="/connected-learning/">Technology training</a>.
       <a href="/digital/">So much more</a>.
     </h5>
     
