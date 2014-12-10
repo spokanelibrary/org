@@ -128,7 +128,7 @@ Template Name: Beta Home Page
                 </h5>
               </div>
             </div><!-- /.media -->
-
+            <p class="visible-xs visible-sm">&nbsp;</p>
             
 
           </div><!-- /.col -->
