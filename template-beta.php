@@ -20,6 +20,7 @@ Template Name: Beta Home Page
 <?php //get_template_part('templates/content', 'page'); ?>
 
 <?php 
+// conditionally display page content
 $spl_home = $post->post_content;
 $spl_home = trim($spl_home);
 if ( !empty($spl_home) ): ;
@@ -48,6 +49,7 @@ if ( !empty($spl_home) ): ;
 
 
 <div class="row visible-xs">
+
   <div class="col-xs-12">
     <div class="list-group">
       <a href="/open/" class="list-group-item">
@@ -83,10 +85,9 @@ if ( !empty($spl_home) ): ;
       <a href="/news/" class="list-group-item">
         <span class="text-primary">Read library news</span> <small>&rarr;</small>
       </a>
-
-    </div>
-
+    </div><!-- /.list-group -->
   </div><!-- /.col -->
+
 </div><!-- /.row -->
 
 <div class="row">
@@ -98,12 +99,11 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-6 hidden-xs">
     
     <h3 class="text-primary" style="margin-top:0;">
-        <i class="glyphicon glyphicon-cloud-download"></i>
-        <a class="text-primary"
-          href="/digital/">
-          Check out the digital branch</a>
+      <i class="glyphicon glyphicon-cloud-download"></i>
+      <a class="text-primary"
+        href="/digital/">
+        Check out the digital branch</a>
     </h3>
-
     <h5 class="help-block" style="margin-top:0; margin-bottom:20px;">
       Research
       &middot;
@@ -113,17 +113,10 @@ if ( !empty($spl_home) ): ;
       &middot;
       Apps &amp; more
     </h5>
+
     <div class="row">
-     
       <div class="col-md-6">
-        <!--
-        <h4>
-          <a href="/digital/"><i class="glyphicon glyphicon-phone"></i>
-            Library apps</a>
-        </h4>
-        -->
-        <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
-        
+        <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>
         <div class="media">
           <a class="pull-left btn btn-default" href="/subscriptions/">
             <i class="glyphicon glyphicon-sort-by-alphabet"></i>
@@ -135,21 +128,11 @@ if ( !empty($spl_home) ): ;
           </div>
         </div><!-- /.media -->
         <p class="">&nbsp;</p>
-        
-
       </div><!-- /.col -->
-
       <div class="col-md-6">  
-        <!--
-        <h4>
-          <a href="/connected-learning/"><i class="glyphicon glyphicon-cloud-download"></i>
-            Connected learning</a>
-        </h4>
-        -->
         <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
         <p class="">&nbsp;</p>
       </div><!-- /.col -->
-
     </div><!-- /.row -->
 
     <p>
@@ -162,6 +145,7 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 <div class="row" style="padding-top: 0px; border-width: 4px 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
+ 
   <div class="col-md-12">
     <h3 class="text-success">
       <i class="glyphicon glyphicon-bullhorn"></i> 
@@ -173,17 +157,14 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 
   <div class="col-md-6">
-
     <p class="">
       <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/"
       ><img style="margin:auto;" class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Shadle_Sunday_hours2-300x282.jpg"></a>
     </p>
-    
   </div><!-- /.col -->
+
   <div class="col-md-6">
-
     <h3 style="margin-top:0;" class="text-muted">also in this issue&hellip;</h3>
-
     <ul class="nav nav-pills nav-stacked">
       <li><a href="http://news.spokanelibrary.org/nw_exhibit_12-14/">Spokane in 1889 Exhibit <small class="text-muted">&rarr;</small></a></li>
       <li><a href="http://news.spokanelibrary.org/hour-of-code/">Hour of Code! <small class="text-muted">&rarr;</small></a></li>
@@ -191,69 +172,50 @@ if ( !empty($spl_home) ): ;
       <li><a href="http://news.spokanelibrary.org/holiday-giving-ideas-from-the-library/">Holiday Giving Ideas from the Library <small class="text-muted">&rarr;</small></a></li>
       <li><a href="http://news.spokanelibrary.org/five-artists-one-song-for-the-season/">Five Artists – One Song for the Season <small class="text-muted">&rarr;</small></a></li>
     </ul>
-
     <p class="">
       <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
     </p>
-  
   </div><!-- /.col -->
+
 </div><!-- /.row -->
 
 
 <div class="row">
 
   <div class="col-md-6">
-
     <h3 class="text-muted">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
-
     <p>
       <a class="btn btn-block btn-warning" href="/calendar/">
         Check the library calendar &rarr;
       </a>
     </p>
-    <!--
-    <p class="text-right">
-      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
-    </p>
-    -->
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
-
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
-    </p>
-    
+    </p>    
   </div><!-- /.col -->
   
   <div class="col-md-6">
     <div class="hidden-xs">
-
       <h3 class="text-muted">
         <i class="glyphicon glyphicon-comment"></i> 
         From the reference desk
       </h3> 
-      <!--
-      <p class="text-right">
-        <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
-      </p>
-      -->
       <p>
         <a class="btn btn-block btn-info" href="/blog/">
         Read the library blog &rarr;
         </a>
       </p>
       <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
-      
       <p>&nbsp;</p>
-      
       <p class="text-right">
         <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
       </p>
-      
     </div>
   </div><!-- /.col -->
-</div><!-- /.row -->
 
+</div><!-- /.row -->
 
