@@ -22,14 +22,11 @@ Template Name: Beta Home Page
 
 <?php //get_template_part('templates/content', 'page'); ?>
 
-<?php 
-  //$spl_home = get_template_part('templates/content', 'page'); 
-  //if ( !empty(trim($spl_home)) ):
-?>
+<?php if ( !empty(trim($post->post_content)) ):;?>
 <div class="alert alert-success">
   <?php echo $post->post_content; ?>
 </div>
-<?php //endif; ?>
+<?php endif; ?>
 
 <div class="visible-sm">
   <div class="navbar navbar-inverse" style="margin-top: 0px; margin-bottom: 0px; background:transparent; border:none;">
