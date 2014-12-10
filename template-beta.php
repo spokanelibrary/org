@@ -84,11 +84,26 @@ Template Name: Beta Home Page
   </div><!-- /.col -->
 
   <div class="col-md-3">
-        <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>
+    <a>
+      <h4>
+      <i class="glyphicon glyphicon-cloud-download"></i>
+        Digital branch
+      </h4>
+    </a>
+    <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>
+    
   </div><!-- /.col -->
 
   <div class="col-md-3">  
+    <div class="panel panel-primary" style="border-left-width:5px;">
+      <div class="panel-heading" style="border-radius:0;">
+        <i class="glyphicon glyphicon-pushpin"></i>
+        Announcements
+      </div>
+      <div class="panel-body">
         <?php get_template_part('templates/content', 'page'); ?>
+      </div>
+    </div><!-- /.panel -->
   </div><!-- /.col -->
 
 </div><!-- /.row -->
