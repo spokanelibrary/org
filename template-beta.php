@@ -107,7 +107,7 @@ if ( !empty($spl_home) ): ;
           Check out the digital branch</a>
     </h3>
 
-    <h5 class="help-block" style="margin-top:0;">
+    <h5 class="help-block" >
       Research
       &middot;
       Entertainment
@@ -116,7 +116,6 @@ if ( !empty($spl_home) ): ;
       &middot;
       Apps &amp; more
     </h5>
-    <hr>
     <div class="row">
      
       <div class="col-md-6">
