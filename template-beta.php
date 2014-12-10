@@ -151,7 +151,7 @@ if ( !empty($spl_home) ): ;
             </h4>
             -->
             <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
-            <!--<p class="">&nbsp;</p>-->
+            <p class="">&nbsp;</p>
           </div><!-- /.col -->
 
         </div><!-- /.row -->
