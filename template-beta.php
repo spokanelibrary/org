@@ -4,20 +4,17 @@ Template Name: Beta Home Page
 */
 ?>
 
+<!--
 <div class="row">
   <div class="col-md-6">
     <?php //echo do_shortcode('[spl_widget search-catalog]'); ?>
-  </div><!-- /.col -->
+  </div>
   <div class="col-md-6">
     <div class="hidden-xs">
       <?php //echo do_shortcode('[spl_widget login-form]'); ?>
     </div>
-  </div><!-- /.col -->
-</div><!-- /.row -->
-
-<!--
-<p class="hidden-md hidden-lg">
-</p>
+  </div>
+</div>
 -->
 
 <?php //get_template_part('templates/content', 'page'); ?>
