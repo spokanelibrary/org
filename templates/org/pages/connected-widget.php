@@ -10,9 +10,11 @@
   <div class="media-body">
   	<p>
 	  	<img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png">
-  		<small>
-  			Lorem ipsum.
-	  	</small>
+			<span class="help-block">  		
+  			<small>
+  				Lorem ipsum.
+		  	</small>
+		  </span>
   	</p>
   </div>
 </div><!-- /.media -->
@@ -21,9 +23,11 @@
   <div class="media-body">
   	<p>
 	  	<img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png">
-  		<small>
-  			Lorem ipsum.
-	  	</small>
+	  	<span class="help-block">
+  			<small>
+  				Lorem ipsum.
+		  	</small>
+		  </span>
   	</p>
   </div>
 </div><!-- /.media -->
