@@ -23,11 +23,11 @@ Template Name: Beta Home Page
 <?php //get_template_part('templates/content', 'page'); ?>
 
 <?php 
-  $spl_home = get_template_part('templates/content', 'page'); 
+  //$spl_home = get_template_part('templates/content', 'page'); 
   //if ( !empty(trim($spl_home)) ):
 ?>
 <div class="alert alert-info">
-  <?php echo $spl_home; ?>
+  <?php echo $post->post_content; ?>
 </div>
 <?php //endif; ?>
 
