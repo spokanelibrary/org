@@ -3,49 +3,111 @@
 Template Name: Beta Home Page
 */
 ?>
-<div class="page-header">
-  <h1>
-    It's time for something new!
-  </h1>
-</div>
 
 <div class="row">
   <div class="col-md-6">
-  
-    <p class="lead">
-      <b>
-      We are transitioning Spokane Public Library to a new website.
-      During this time a few pages, including <a href="/contact/">contact us</a>, <a href="/request/">request a title</a>, and <a href="/blog/">our blog</a>, are only available here on beta.spokanelibrary.org.
-      </b>
-    </p>
-
-    <blockquote>
-      <p>
-        All other pages are still located on <a href="http://www.spokanelibrary.org"><b>our old website</b></a>.
-        We understand this is somewhat confusing, and we really appreciate your patience during this transition period.
-      </p>
-
-    </blockquote>
-
-    <!--
-    <p>
-      <a class="btn btn-block btn-primary" href="http://www.spokanelibrary.org">
-        <span class="visible-xs">Take me to the old website &rarr;</span>
-        <span class="hidden-xs">Please take me back to the old website &rarr;</span>
-      </a>
-    </p>
-    -->
-    
+    <?php //echo do_shortcode('[spl_widget search-catalog]'); ?>
   </div><!-- /.col -->
   <div class="col-md-6">
-    <p>
-      <img class="img-responsive img-rounded" alt="Spokane Public Library Bookmobile" src="/assets/img/jpg/spl-bookmobile-1.jpg">
-    </p>
+    <div class="hidden-xs">
+      <?php //echo do_shortcode('[spl_widget login-form]'); ?>
+    </div>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
+<!--
+<p class="hidden-md hidden-lg">
+</p>
+-->
+
+<div class="visible-sm">
+  <div class="navbar navbar-inverse" style="margin-top: 0px; margin-bottom: 0px; background:transparent; border:none;">
+      
+    <span class="text-muted">
+      <b>Tip: use the toggle (upper right) to browse this website.</b>
+    </span>
+
+    <button type="button" style="float:none; margin-top:0; margin-right:0;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+     
+  </div>
+</div>
 
 
+<div class="row visible-xs">
+  <div class="col-xs-12">
+    <div class="list-group">
+      <a href="/open/" class="list-group-item">
+        <span class="text-primary">Is the library open?</span> <small>&rarr;</small>
+      </a>
+      <a href="/catalog/" class="list-group-item">
+        <span class="text-primary">Library catalog</span> <small>&rarr;</small>
+      </a>
+      <a href="/login/" class="list-group-item">
+        <span class="text-primary">My account</span> <small>&rarr;</small>
+      </a>
+      <a href="/storytime/" class="list-group-item">
+        <span class="text-primary">Storytime schedules</span> <small>&rarr;</small>
+      </a>
+      <a href="/calendar/" class="list-group-item">
+        <span class="text-primary">Check events calendar</span> <small>&rarr;</small>
+      </a>
+      <a href="/apps/" class="list-group-item">
+        <span class="text-primary">Mobile apps</span> <small>&rarr;</small>
+      </a>
+      <a href="/connect/" class="list-group-item">
+        <span class="text-primary">Contact the library</span> <small>&rarr;</small>
+      </a>
+      <a href="/new/" class="list-group-item">
+        <span class="text-primary">Browse new arrivals</span> <small>&rarr;</small>
+      </a>
+      <a href="/browse/" class="list-group-item">
+        <span class="text-primary">Staff picks &amp; popular titles</span> <small>&rarr;</small>
+      </a>
+      <a href="/news/" class="list-group-item">
+        <span class="text-primary">Read library news</span> <small>&rarr;</small>
+      </a>
+
+    </div>
+
+  </div><!-- /.col -->
+</div><!-- /.row -->
+
+<div class="row">
+  
+  <div class="col-md-6 hidden-xs">
+    <?php echo do_shortcode('[spl_carousel auto slug=carousel]'); ?>
+  </div><!-- /.col -->
+
+  <div class="col-md-3">
+    <div class="panel panel-primary" style="border-left-width:5px;">
+      <div class="panel-heading" style="border-radius:0;">
+        <i class="glyphicon glyphicon-cloud-download"></i>
+        Digital branch
+      </div>
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>
+      </div>
+    </div><!-- /.panel -->
+  </div><!-- /.col -->
+
+  <div class="col-md-3">  
+    <div class="panel panel-primary" style="border-left-width:5px;">
+      <div class="panel-heading" style="border-radius:0;">
+        <i class="glyphicon glyphicon-pushpin"></i>
+        Announcements
+      </div>
+      <div class="panel-body">
+        <?php get_template_part('templates/content', 'page'); ?>
+      </div>
+    </div><!-- /.panel -->
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
 
 <div class="row" style="padding-top: 0px; border-width: 4px 0; border-style: solid; border-color: rgb(100,150,75);">
   <div class="col-md-12">
@@ -53,92 +115,97 @@ Template Name: Beta Home Page
       <i class="glyphicon glyphicon-bullhorn"></i> 
       Read the latest: Library News
     </h3>
+    <h2 style="margin-top:0;" class="clearfix">
+      <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/">More Library Time For Busy People</a>
+    </h2>
   </div>
 
   <div class="col-md-6">
-    <!--
-    <h3 class="text-success">
-      <i class="glyphicon glyphicon-pencil"></i> 
-      Library News
-    </h3>
-    -->
-    <img class="img-responsive img-rounded pull-right hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/whiteboard-300x165.jpg">
-    
-    <h2 style="margin-top:0;" class="clearfix">
-      <a href="http://news.spokanelibrary.org/newsletter/november-reading-writing-and-electricity/">November: Reading, Writing and Electricity</a>
-    </h2>
-    
-    <p class="text-right">
-      <a class="btn btn-default" href="http://news.spokanelibrary.org/">Read Library News &rarr;</a>
+    <p class="">
+      <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/"
+      ><img style="margin:auto;" class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Shadle_Sunday_hours2-300x282.jpg"></a>
     </p>
-
+    
+    <p class="">
+      <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
+    </p>
   </div><!-- /.col -->
   <div class="col-md-6">
 
-    <div class="panel panel-success" style="border-left-width:5px;">
-      <div class="panel-heading" style="border-radius:0;">
+    <!--<div class="panel panel-success" style="border-left-width:5px;">-->
+      <!--<div class="panel-heading" style="border-radius:0;">-->
         <!--<i class="glyphicon glyphicon-plus-sign"></i>-->
-        <h4 class="panel-title">Also in this issue&hellip;</h4>
-      </div>
-      <div class="panel-body">
-        <ul class="" style="padding-left:14px;">
-          <li><a href="http://news.spokanelibrary.org/connected-learning-for-connected-holidays/">Connected Learning for Connected Holidays</a></li>
-          <li><a href="http://news.spokanelibrary.org/dewey-for-writers-808-02/">Dewey for Writers - 808.02</a></li>
-          <li><a href="http://news.spokanelibrary.org/5-songs-11-14/">5 Songs - Music for Concentration</a></li>
-          <li><a href="http://news.spokanelibrary.org/events_wrap-up-10-14/">Bang-Up Month for Events</a></li>
-          <li><a href="http://news.spokanelibrary.org/kilowatt_monitor/">How Many Kilowatts Does it Take to Read a Book?</a></li>
-          <li><a href="http://news.spokanelibrary.org/sunday-hours-the-shadle-library/">Sunday Hours @ the Shadle Library</a></li>
+        <h3 style="margin-top:0;" class="text-muted">also in this issue&hellip;</h3>
+      <!--</div>-->
+      <!--<div class="panel-body">-->
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="http://news.spokanelibrary.org/nw_exhibit_12-14/">Spokane in 1889 Exhibit <small class="text-muted">&rarr;</small></a></li>
+          <li><a href="http://news.spokanelibrary.org/hour-of-code/">Hour of Code! <small class="text-muted">&rarr;</small></a></li>
+          <li><a href="http://news.spokanelibrary.org/knits-purls-and-dewey/">Knits, Purls and Dewey <small class="text-muted">&rarr;</small></a></li>
+          <li><a href="http://news.spokanelibrary.org/holiday-giving-ideas-from-the-library/">Holiday Giving Ideas from the Library <small class="text-muted">&rarr;</small></a></li>
+          <li><a href="http://news.spokanelibrary.org/five-artists-one-song-for-the-season/">Five Artists – One Song for the Season <small class="text-muted">&rarr;</small></a></li>
         </ul>
-      </div>
-    </div><!-- /.panel -->
+      <!--</div>-->
+    <!--</div>--><!-- /.panel -->
 
   </div><!-- /.col -->
 </div><!-- /.row -->
-
-
 
 
 <div class="row">
 
   <div class="col-md-6">
 
-    <h3 class="text-success">
+    <h3 class="text-muted">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
-    
+
+    <p>
+      <a class="btn btn-block btn-warning" href="/calendar/">
+        Check the library calendar &rarr;
+      </a>
+    </p>
+    <!--
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>
-    
+    -->
     <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
 
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>
-
+    
   </div><!-- /.col -->
   
   <div class="col-md-6">
     <div class="hidden-xs">
 
-        <h3 class="text-success">
-          <i class="glyphicon glyphicon-comment"></i> 
-          From the reference desk
-        </h3> 
-        
-        <p class="text-right">
-          <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
-        </p>
-        
-        <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
-        
-        <p>&nbsp;</p>
-
-        <p class="text-right">
-          <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
-        </p>
-
+      <h3 class="text-muted">
+        <i class="glyphicon glyphicon-comment"></i> 
+        From the reference desk
+      </h3> 
+      <!--
+      <p class="text-right">
+        <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
+      </p>
+      -->
+      <p>
+        <a class="btn btn-block btn-info" href="/blog/">
+        Read the library blog &rarr;
+        </a>
+      </p>
+      <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
+      
+      <p>&nbsp;</p>
+      
+      <p class="text-right">
+        <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
+      </p>
+      
+  </div>
+  </div><!-- /.col -->
 </div><!-- /.row -->
 
 
