@@ -24,7 +24,8 @@ Template Name: Beta Home Page
 
 <?php 
 $spl_home = $post->post_content;
-if ( !empty(trim($spl_home)) ): 
+trim($spl_home);
+if ( !empty($spl_home) ): 
 ?>
 
 <div class="alert alert-success">
