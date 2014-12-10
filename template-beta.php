@@ -94,7 +94,7 @@ Template Name: Beta Home Page
 
   <div class="col-md-3">  
     <h4>
-      <a href="/connected-learning/"><i class="glyphicon glyphicon-cloud"></i>
+      <a href="/connected-learning/"><i class="glyphicon glyphicon-cloud-download"></i>
         Connected learning</a> <small>&rarr;</small>
     </h4>
     <?php get_template_part('templates/content', 'page'); ?>
