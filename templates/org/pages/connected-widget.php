@@ -6,8 +6,7 @@
 </h5>
 -->
 
-<div class="media">
-  <div class="media-body">
+<p>
   	<a href="/it-academy/"><img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png"></a>
 		<span class="help-block">  		
 			<small>
@@ -15,11 +14,9 @@
 				<a class="pull-right" href="/it-academy/">More <small>&rarr;</small></a>
 	  	</small>
 	  </span>
-  </div>
-</div><!-- /.media -->
+</p>
 
-<div class="media">
-  <div class="media-body">
+<p>
   	<a href="/gale-courses/"><img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png"></a>
   	<span class="help-block">
 			<small>
@@ -27,8 +24,7 @@
 				<a class="pull-right" href="/gale-courses/">More <small>&rarr;</small></a>
 	  	</small>
 	  </span>
-  </div>
-</div><!-- /.media -->
+</p>
 
 <!--
 <div class="media">
