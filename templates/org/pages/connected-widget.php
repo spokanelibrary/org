@@ -15,7 +15,7 @@
   				Learn Microsoft products and qualify for certification testing.
 		  	</small>
 		  </span>
-		  <a class="btn btn-block btn-link" href="/connected-learning/">More <small>&rarr;</small></a>
+		  <a class="btn btn-block btn-default" href="/connected-learning/">More <small>&rarr;</small></a>
   	</p>
   </div>
 </div><!-- /.media -->
@@ -29,7 +29,7 @@
   				Online courses taught by college instructors and industry experts.
 		  	</small>
 		  </span>
-		  <a class="btn btn-block btn-link" href="/connected-learning/">More <small>&rarr;</small></a>
+		  <a class="btn btn-block btn-primary" href="/connected-learning/">More <small>&rarr;</small></a>
   	</p>
   </div>
 </div><!-- /.media -->
