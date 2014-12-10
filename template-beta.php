@@ -98,7 +98,7 @@ Template Name: Beta Home Page
         <h5 class="text-warning" style="margin-top:0;">
           Research.
           Entertainment.
-          Connectedl learning.
+          Connected learning.
           Apps &amp; more.
         </h5>
         <div class="row">
