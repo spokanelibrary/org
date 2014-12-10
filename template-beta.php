@@ -84,7 +84,7 @@ Template Name: Beta Home Page
   </div><!-- /.col -->
 
   <div class="col-md-6">
-
+    Lorem ipsum dolor sit amet.
   <div class="col-md-6">
     <h4>
       <a href="/digital/"><i class="glyphicon glyphicon-cloud-download"></i>
