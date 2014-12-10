@@ -27,8 +27,10 @@
 	  	<span class="help-block">
   			<small>
   				Online courses taught by college instructors and industry experts.
-  				<a class="" href="/connected-learning/">More <small>&rarr;</small></a>
 		  	</small>
+		  </span>
+		  <span class="pull-right">
+		  	<a class="" href="/connected-learning/">More <small>&rarr;</small></a>
 		  </span>
   	</p>
   </div>
