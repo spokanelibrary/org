@@ -116,6 +116,7 @@ if ( !empty($spl_home) ): ;
       &middot;
       Apps &amp; more
     </h5>
+    <hr>
     <div class="row">
      
       <div class="col-md-6">
