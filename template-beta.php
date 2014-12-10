@@ -93,6 +93,10 @@ Template Name: Beta Home Page
   </div><!-- /.col -->
 
   <div class="col-md-3">  
+    <h4>
+      <a href="/connected-learning/"><i class="glyphicon glyphicon-cloud"></i>
+        Connected learning</a> <small>&rarr;</small>
+    </h4>
     <?php get_template_part('templates/content', 'page'); ?>
   </div><!-- /.col -->
 
