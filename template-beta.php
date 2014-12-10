@@ -89,7 +89,7 @@ Template Name: Beta Home Page
       <div class="panel-heading">
         <h4 class="panel-title">
             <a href="/digital/"><i class="glyphicon glyphicon-cloud-download"></i>
-              Digital branch</a>
+              Check out the digital branch</a>
         </h4>
       </div>
       <div class="panel-body">
