@@ -128,6 +128,7 @@ Template Name: Beta Home Page
               </div>
             </div><!-- /.media -->
 
+            <p>&nbsp;</p>
 
           </div><!-- /.col -->
 
@@ -140,6 +141,8 @@ Template Name: Beta Home Page
             -->
             <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
             <?php //get_template_part('templates/content', 'page'); ?>
+            <p>&nbsp;</p>
+            
           </div><!-- /.col -->
 
         </div><!-- /.row -->
