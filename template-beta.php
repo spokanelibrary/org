@@ -95,7 +95,7 @@ if ( !empty($spl_home) ): ;
     <?php echo do_shortcode('[spl_carousel auto random slug=carousel]'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-6">
+  <div class="col-md-6 hidden-xs">
     
 
         <h3 class="text-primary" style="margin-top:0;">
@@ -105,7 +105,7 @@ if ( !empty($spl_home) ): ;
               Check out the digital branch</a>
         </h3>
 
-        <h5 class="text-warning" style="margin-top:0;">
+        <h5 class="text-muted" style="margin-top:0;">
           Research
           &middot;
           Entertainment
