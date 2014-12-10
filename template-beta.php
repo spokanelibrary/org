@@ -166,7 +166,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row" style="padding-top: 0px; border-width: 4px 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
   <div class="col-md-12">
-    <h3 class="text-muted">
+    <h3 class="text-success">
       <i class="glyphicon glyphicon-bullhorn"></i> 
       Read the latest: Library News
     </h3>
@@ -185,7 +185,7 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
   <div class="col-md-6">
 
-    <h3 style="margin-top:0;" class="text-success">also in this issue&hellip;</h3>
+    <h3 style="margin-top:0;" class="text-muted">also in this issue&hellip;</h3>
 
     <ul class="nav nav-pills nav-stacked">
       <li><a href="http://news.spokanelibrary.org/nw_exhibit_12-14/">Spokane in 1889 Exhibit <small class="text-muted">&rarr;</small></a></li>
