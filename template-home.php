@@ -81,20 +81,39 @@ Template Name: Home Page
 <div class="row">
   
   <div class="col-md-6 hidden-xs">
-    <?php echo do_shortcode('[spl_carousel auto slug=carousel]'); ?>
+    <?php echo do_shortcode('[spl_carousel auto random slug=carousel]'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-3">
-    <h4>
-      <a href="/digital/"><i class="glyphicon glyphicon-cloud-download"></i>
-        Digital branch</a>
-    </h4>
-    <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>
+  <div class="col-md-6">
     
-  </div><!-- /.col -->
+    <h5 class="text-muted" style="margin-top:0;">
+      <a href="/subscriptions/">Research</a>.
+      <a href="/apps/">Entertainment</a>.
+      <a href="/connected-learning/">Technology training</a>.
+      <a href="/digital/">So much more</a>.
+    </h5>
+    
+    <div class="row">
+     
+      <div class="col-md-6">
+        <h4>
+          <a href="/digital/"><i class="glyphicon glyphicon-phone"></i>
+            Digital branch</a>
+        </h4>
+        <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
+      </div><!-- /.col -->
 
-  <div class="col-md-3">  
-    <?php get_template_part('templates/content', 'page'); ?>
+      <div class="col-md-6">  
+        <h4>
+          <a href="/connected-learning/"><i class="glyphicon glyphicon-cloud-download"></i>
+            Connected learning</a>
+        </h4>
+        <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
+        <?php //get_template_part('templates/content', 'page'); ?>
+      </div><!-- /.col -->
+
+    </div><!-- /.row -->
+
   </div><!-- /.col -->
 
 </div><!-- /.row -->
