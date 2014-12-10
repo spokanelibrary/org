@@ -13,9 +13,9 @@
 			<span class="help-block">  		
   			<small>
   				Learn Microsoft products and qualify for certification testing.
+  				<a class="" href="/connected-learning/">More <small>&rarr;</small></a>
 		  	</small>
-		  </span>
-		  <a class="btn btn-block btn-default" href="/connected-learning/">More <small>&rarr;</small></a>
+		  </span>		  
   	</p>
   </div>
 </div><!-- /.media -->
@@ -27,9 +27,9 @@
 	  	<span class="help-block">
   			<small>
   				Online courses taught by college instructors and industry experts.
+  				<a class="" href="/connected-learning/">More <small>&rarr;</small></a>
 		  	</small>
 		  </span>
-		  <a class="btn btn-block btn-primary" href="/connected-learning/">More <small>&rarr;</small></a>
   	</p>
   </div>
 </div><!-- /.media -->
