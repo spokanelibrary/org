@@ -107,7 +107,7 @@ if ( !empty($spl_home) ): ;
           Check out the digital branch</a>
     </h3>
 
-    <h5 class="help-block" >
+    <h5 class="help-block" style="margin-top:0; margin-bottom:6px;">
       Research
       &middot;
       Entertainment
