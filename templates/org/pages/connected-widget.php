@@ -5,12 +5,12 @@
 	<a href="/apps/">Entertainment</a>.
 </h5>
 -->
-<!--
+
 <div class="media">
   <div class="media-body">
+  	<img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png">
     <a class="btn btn-block btn-default" href="/digital/">Visit the digital branch <small>&rarr;</small></a>
   </div>
-</div>--><!-- /.media -->
+</div<!-- /.media -->
 
-<?php include('download-widget.php'); ?>
 
