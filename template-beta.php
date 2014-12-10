@@ -22,7 +22,11 @@ Template Name: Beta Home Page
 
 <?php //get_template_part('templates/content', 'page'); ?>
 
-<?php if ( !empty(trim($post->post_content)) ): ;?>
+<?php 
+$spl_home = $post->post_content;
+if ( !empty(trim($spl_home)) ): 
+?>
+
 <div class="alert alert-success">
   <?php echo $post->post_content; ?>
 </div>
