@@ -6,7 +6,7 @@
 </h5>
 -->
 
-<p>
+<div class="clearfix">
   	<a href="/it-academy/"><img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png"></a>
 		<span class="help-block">  		
 			<small>
@@ -14,9 +14,10 @@
 				<a class="pull-right" href="/it-academy/">More <small>&rarr;</small></a>
 	  	</small>
 	  </span>
-</p>
+</div>
 
-<p>
+
+<div class="clearfix">
   	<a href="/gale-courses/"><img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png"></a>
   	<span class="help-block">
 			<small>
@@ -24,7 +25,7 @@
 				<a class="pull-right" href="/gale-courses/">More <small>&rarr;</small></a>
 	  	</small>
 	  </span>
-</p>
+</div>
 
 <!--
 <div class="media">
