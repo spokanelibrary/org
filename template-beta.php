@@ -86,9 +86,10 @@ Template Name: Beta Home Page
   <div class="col-md-6">
     
     <h5 class="text-muted" style="margin-top:0;">
-      <a href="/connected-learning/">Connected Learning</a>.
       <a href="/subscriptions/">Research</a>.
       <a href="/apps/">Entertainment</a>.
+      <a href="/connected-learning/">Technology Training</a>.
+      <a href="/digital/">So much more</a>.
     </h5>
     
     <div class="row">
