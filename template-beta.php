@@ -111,7 +111,7 @@ Template Name: Beta Home Page
             </h4>
             -->
             <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
-            <!--
+            
             <div class="media">
               <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
                 <div class="media-object">
@@ -127,7 +127,7 @@ Template Name: Beta Home Page
                   <a href="/subscriptions/"><em>Library subscriptions:</em> Online research</a>
                 </h5>
               </div>
-            </div>--><!-- /.media -->
+            </div><!-- /.media -->
 
             
 
