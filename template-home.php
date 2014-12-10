@@ -21,11 +21,23 @@ Template Name: Home Page
 </p>
 -->
 
+<?php //get_template_part('templates/content', 'page'); ?>
+
+<?php 
+$spl_home = $post->post_content;
+$spl_home = trim($spl_home);
+if ( !empty($spl_home) ): ;
+?>
+<div class="alert alert-success">
+  <?php echo $post->post_content; ?>
+</div>
+<?php endif; ?>
+
 <div class="visible-sm">
   <div class="navbar navbar-inverse" style="margin-top: 0px; margin-bottom: 0px; background:transparent; border:none;">
       
     <span class="text-muted">
-      <b>Tip: use the toggle (upper right) to browse this website.</b>
+      <b>Tip:</b> use the toggle (upper right) to browse this website.
     </span>
 
     <button type="button" style="float:none; margin-top:0; margin-right:0;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -57,6 +69,9 @@ Template Name: Home Page
       <a href="/calendar/" class="list-group-item">
         <span class="text-primary">Check events calendar</span> <small>&rarr;</small>
       </a>
+      <a href="/digital/" class="list-group-item">
+        <span class="text-primary">Digital branch</span> <small>&rarr;</small>
+      </a>
       <a href="/apps/" class="list-group-item">
         <span class="text-primary">Mobile apps</span> <small>&rarr;</small>
       </a>
@@ -84,35 +99,68 @@ Template Name: Home Page
     <?php echo do_shortcode('[spl_carousel auto random slug=carousel]'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-6">
+  <div class="col-md-6 hidden-xs">
     
-    <h5 class="text-muted" style="margin-top:0;">
-      <a href="/subscriptions/">Research</a>.
-      <a href="/apps/">Entertainment</a>.
-      <a href="/connected-learning/">Technology training</a>.
-      <a href="/digital/">So much more</a>.
-    </h5>
-    
-    <div class="row">
-     
-      <div class="col-md-6">
-        <h4>
-          <a href="/digital/"><i class="glyphicon glyphicon-phone"></i>
-            Digital branch</a>
-        </h4>
-        <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
-      </div><!-- /.col -->
 
-      <div class="col-md-6">  
-        <h4>
-          <a href="/connected-learning/"><i class="glyphicon glyphicon-cloud-download"></i>
-            Connected learning</a>
-        </h4>
-        <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
-        <?php //get_template_part('templates/content', 'page'); ?>
-      </div><!-- /.col -->
+        <h3 class="text-primary" style="margin-top:0;">
+            <i class="glyphicon glyphicon-cloud-download"></i>
+            <a class="text-primary"
+              href="/digital/">
+              Check out the digital branch</a>
+        </h3>
 
-    </div><!-- /.row -->
+        <h5 class="help-block" style="margin-top:0;">
+          Research
+          &middot;
+          Entertainment
+          &middot;
+          Connected learning
+          &middot;
+          Apps &amp; more
+        </h5>
+        <div class="row">
+         
+          <div class="col-md-6">
+            <!--
+            <h4>
+              <a href="/digital/"><i class="glyphicon glyphicon-phone"></i>
+                Library apps</a>
+            </h4>
+            -->
+            <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
+            
+            <div class="media">
+              <a class="pull-left btn btn-default" href="/subscriptions/">
+                <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+              </a>
+              <div class="media-body">
+                <h5 class="media-heading">
+                  <a href="/subscriptions/"><em>Library subscriptions:</em> Online research</a>
+                </h5>
+              </div>
+            </div><!-- /.media -->
+            <p class="">&nbsp;</p>
+            
+
+          </div><!-- /.col -->
+
+          <div class="col-md-6">  
+            <!--
+            <h4>
+              <a href="/connected-learning/"><i class="glyphicon glyphicon-cloud-download"></i>
+                Connected learning</a>
+            </h4>
+            -->
+            <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
+            <p class="">&nbsp;</p>
+          </div><!-- /.col -->
+
+        </div><!-- /.row -->
+
+        <p>
+        <a class="btn btn-block btn-primary"
+          href="/digital/">Visit the digital branch &rarr;</a>
+        </p>
 
   </div><!-- /.col -->
 
@@ -135,9 +183,6 @@ Template Name: Home Page
       ><img style="margin:auto;" class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Shadle_Sunday_hours2-300x282.jpg"></a>
     </p>
     
-    <p class="">
-      <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
-    </p>
   </div><!-- /.col -->
   <div class="col-md-6">
 
@@ -154,6 +199,10 @@ Template Name: Home Page
           <li><a href="http://news.spokanelibrary.org/holiday-giving-ideas-from-the-library/">Holiday Giving Ideas from the Library <small class="text-muted">&rarr;</small></a></li>
           <li><a href="http://news.spokanelibrary.org/five-artists-one-song-for-the-season/">Five Artists – One Song for the Season <small class="text-muted">&rarr;</small></a></li>
         </ul>
+
+        <p class="">
+          <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
+        </p>
       <!--</div>-->
     <!--</div>--><!-- /.panel -->
 
