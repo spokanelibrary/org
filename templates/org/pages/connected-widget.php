@@ -12,7 +12,7 @@
 	  	<img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png">
 			<span class="help-block">  		
   			<small>
-  				Gain experience with Microsoft products and qualify for certification testing.
+  				Learn Microsoft products and qualify for certification testing.
 		  	</small>
 		  </span>
   	</p>
