@@ -84,8 +84,15 @@ Template Name: Beta Home Page
   </div><!-- /.col -->
 
   <div class="col-md-6">
-    Lorem ipsum dolor sit amet.
+    
+    <h5 class="text-muted" style="margin-top:0;">
+      <a href="/connected-learning/">Connected Learning</a>.
+      <a href="/subscriptions/">Research</a>.
+      <a href="/apps/">Entertainment</a>.
+    </h5>
+    
     <div class="row">
+     
       <div class="col-md-6">
         <h4>
           <a href="/digital/"><i class="glyphicon glyphicon-cloud-download"></i>
@@ -102,7 +109,9 @@ Template Name: Beta Home Page
         <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
         <?php //get_template_part('templates/content', 'page'); ?>
       </div><!-- /.col -->
+
     </div><!-- /.row -->
+
   </div><!-- /.col -->
 
 </div><!-- /.row -->
