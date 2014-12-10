@@ -85,7 +85,7 @@ Template Name: Beta Home Page
 
   <div class="col-md-6">
     
-    <div class="panel panel-warning" style="border-width-left:4px">
+    <div class="panel panel-warning" style="border-left-width:4px">
       <div class="panel-heading">
         <h4 class="panel-title">
             <a href="/digital/"><i class="glyphicon glyphicon-cloud-download"></i>
