@@ -12,7 +12,7 @@
 	  	<img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png">
 			<span class="help-block">  		
   			<small>
-  				Learn Microsoft products &amp; qualify for certification testing.
+  				Learn Microsoft products and qualify for certification testing.
 		  	</small>
 		  </span>
   	</p>
@@ -25,7 +25,7 @@
 	  	<img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png">
 	  	<span class="help-block">
   			<small>
-  				Online courses taught by college instructors &amp; industry experts.
+  				Online courses taught by college instructors and industry experts.
 		  	</small>
 		  </span>
   	</p>
