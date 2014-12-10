@@ -99,29 +99,35 @@ Template Name: Beta Home Page
         <div class="row">
          
           <div class="col-md-6">
+            <!--
             <h4>
               <a href="/digital/"><i class="glyphicon glyphicon-phone"></i>
                 Library apps</a>
             </h4>
+            -->
             <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
           </div><!-- /.col -->
 
           <div class="col-md-6">  
+            <!--
             <h4>
               <a href="/connected-learning/"><i class="glyphicon glyphicon-cloud-download"></i>
                 Connected learning</a>
             </h4>
+            -->
             <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
             <?php //get_template_part('templates/content', 'page'); ?>
           </div><!-- /.col -->
 
         </div><!-- /.row -->
+        <div class="panel-footer">
         <h5 class="text-muted" style="margin-top:0;">
           <a href="/subscriptions/">Research</a>.
           <a href="/apps/">Entertainment</a>.
           <a href="/connected-learning/">Technology training</a>.
           <a href="/digital/">So much more</a>.
         </h5>
+        </div>
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
