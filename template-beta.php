@@ -132,7 +132,7 @@ Template Name: Beta Home Page
           Research.
           Entertainment.
           Technology training.
-          So much more.
+          Apps &amp; much more.
         </h5>
         <a class="btn btn-block btn-primary"
           href="/digital/">Visit the digital branch &rarr;</a>
