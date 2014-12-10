@@ -97,16 +97,12 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-6">
     
-    <div class="panel panel-warning" style="border-left-width:4px">
-      <div class="panel-heading">
         <h4 class="panel-title">
             <i class="glyphicon glyphicon-cloud-download"></i>
             <a class="text-primary"
               href="/digital/">
               Check out the digital branch</a>
         </h4>
-      </div>
-      <div class="panel-body">
         <h5 class="text-warning" style="margin-top:0;">
           Research
           &middot;
@@ -155,12 +151,8 @@ if ( !empty($spl_home) ): ;
 
         </div><!-- /.row -->
 
-      </div><!-- /.panel-body -->
-      <div class="panel-footer panel-transparent">
         <a class="btn btn-block btn-primary"
           href="/digital/">Visit the digital branch &rarr;</a>
-      </div>
-    </div><!-- /.panel -->
 
   </div><!-- /.col -->
 
