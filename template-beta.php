@@ -85,13 +85,16 @@ Template Name: Beta Home Page
 
   <div class="col-md-6">
     
+    <div class="panel panel-warning">
+    <div class="panel-heading">
     <h5 class="text-muted" style="margin-top:0;">
       <a href="/subscriptions/">Research</a>.
       <a href="/apps/">Entertainment</a>.
       <a href="/connected-learning/">Technology training</a>.
       <a href="/digital/">So much more</a>.
     </h5>
-    
+    </div>
+    <div class="panel-body">
     <div class="row">
      
       <div class="col-md-6">
@@ -112,7 +115,8 @@ Template Name: Beta Home Page
       </div><!-- /.col -->
 
     </div><!-- /.row -->
-
+    </div>
+    </div>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
