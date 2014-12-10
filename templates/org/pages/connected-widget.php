@@ -8,13 +8,23 @@
 
 <div class="media">
   <div class="media-body">
-  	<img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png">
+  	<p>
+	  	<img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png">
+  	</p>
+  	<p>
+  		Lorem ipsum.
+  	</p>
   </div>
 </div><!-- /.media -->
 
 <div class="media">
   <div class="media-body">
-  	<img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png">
+  	<p>
+	  	<img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png">
+  	</p>
+  	<p>
+  		Lorem ipsum.
+  	</p>
   </div>
 </div><!-- /.media -->
 
