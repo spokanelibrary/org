@@ -10,7 +10,6 @@
   <div class="media-body">
   	<p>
 	  	<img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png">
-  		<br>
   		<small>
   			Lorem ipsum.
 	  	</small>
@@ -22,7 +21,6 @@
   <div class="media-body">
   	<p>
 	  	<img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png">
-	  	<br>
   		<small>
   			Lorem ipsum.
 	  	</small>
