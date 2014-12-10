@@ -20,7 +20,16 @@ Template Name: Beta Home Page
 </p>
 -->
 
-<?php get_template_part('templates/content', 'page'); ?>
+<?php //get_template_part('templates/content', 'page'); ?>
+
+<?php 
+  $spl_home = get_template_part('templates/content', 'page'); 
+  if ( !empty(trim($spl_home)) ):
+?>
+<div class="alert alert-info">
+  <?php echo $spl_home; ?>
+</div>
+<?php endif; ?>
 
 <div class="visible-sm">
   <div class="navbar navbar-inverse" style="margin-top: 0px; margin-bottom: 0px; background:transparent; border:none;">
