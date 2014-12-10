@@ -110,7 +110,6 @@ Template Name: Beta Home Page
                 Library apps</a>
             </h4>
             -->
-            <h4 class="text-muted">Downloads</h4>
             <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>    
             <!--
             <div class="media">
@@ -141,7 +140,6 @@ Template Name: Beta Home Page
                 Connected learning</a>
             </h4>
             -->
-            <h4 class="text-muted">Connected learning</h4>
             <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
             <?php //get_template_part('templates/content', 'page'); ?>
             
