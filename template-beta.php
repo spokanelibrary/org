@@ -123,7 +123,7 @@ Template Name: Beta Home Page
               </a>
               <div class="media-body">
                 <h5 class="media-heading">
-                  <a href="/subscriptions/"><em>Library subscriptions:</em> Research tools</a>
+                  <a href="/subscriptions/"><em>Subscriptions:</em> Online research tools</a>
                 </h5>
               </div>
             </div><!-- /.media -->
