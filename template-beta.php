@@ -98,7 +98,7 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-6">
     
 
-        <h3 class="text-muted" style="margin-top:0;">
+        <h3 class="text-primary" style="margin-top:0;">
             <i class="glyphicon glyphicon-cloud-download"></i>
             <a class="text-primary"
               href="/digital/">
