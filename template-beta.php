@@ -23,9 +23,9 @@ Template Name: Beta Home Page
 <div class="visible-sm">
   <div class="navbar navbar-inverse" style="margin-top: 0px; margin-bottom: 0px; background:transparent; border:none;">
       
-    <small class="text-muted">
-      <b>Tip: use the toggle (upper right) to browse this website.</b>
-    </small>
+    <span class="text-muted">
+      <b>Tip:</b> use the toggle (upper right) to browse this website.
+    </span>
 
     <button type="button" style="float:none; margin-top:0; margin-right:0;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
       <span class="sr-only">Toggle navigation</span>
