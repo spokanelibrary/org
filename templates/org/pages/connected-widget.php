@@ -12,7 +12,7 @@
 	  	<img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png">
 			<span class="help-block">  		
   			<small>
-  				Lorem ipsum.
+  				Gain experience with Microsoft products and qualify for certification testing.
 		  	</small>
 		  </span>
   	</p>
