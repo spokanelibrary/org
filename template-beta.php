@@ -120,7 +120,9 @@ Template Name: Beta Home Page
           </div><!-- /.col -->
 
         </div><!-- /.row -->
-        <div class="panel-footer">
+
+      </div><!-- /.panel-body -->
+      <div class="panel-footer">
         <h5 class="text-muted" style="margin-top:0;">
           <a href="/subscriptions/">Research</a>.
           <a href="/apps/">Entertainment</a>.
@@ -128,7 +130,6 @@ Template Name: Beta Home Page
           <a href="/digital/">So much more</a>.
         </h5>
         </div>
-      </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
   </div><!-- /.col -->
