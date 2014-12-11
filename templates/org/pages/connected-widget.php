@@ -6,7 +6,7 @@
 </h5>
 -->
 
-<div class="clearfix">
+<p class="clearfix">
   	<a href="/it-academy/"><img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png"></a>
 		<span class="help-block">  		
 			<small>
@@ -14,9 +14,7 @@
 				<a class="pull-right" href="/it-academy/"><b>More</b> <small>&rarr;</small></a>
 	  	</small>
 	  </span>
-</div>
-
-<p>&nbsp;</p>
+</p>
 
 <div class="clearfix">
   	<a href="/gale-courses/"><img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png"></a>
