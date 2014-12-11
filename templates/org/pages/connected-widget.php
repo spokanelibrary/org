@@ -8,7 +8,7 @@
 
 <div class="clearfix" style="margin-bottom:10px;">
   	<a href="/it-academy/"><img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png"></a>
-		<span class="help-block">  		
+		<span class="">  		
 			<small>
 				Learn Microsoft products and qualify for certification testing.
 				<a class="pull-right" href="/it-academy/"><b>More</b> <small>&rarr;</small></a>
@@ -18,7 +18,7 @@
 
 <div class="clearfix">
   	<a href="/gale-courses/"><img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png"></a>
-  	<span class="help-block">
+  	<span class="">
 			<small>
 				Online courses taught by college instructors and industry experts.
 				<a class="pull-right" href="/gale-courses/"><b>More</b> <small>&rarr;</small></a>
