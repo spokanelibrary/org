@@ -11,7 +11,7 @@
 		<span class="help-block">  		
 			<small>
 				Learn Microsoft products and qualify for certification testing.
-				<a class="pull-right" href="/it-academy/"><b>More</b> &rarr;</a>
+				<a class="pull-right" href="/it-academy/"><b>More</b> <small>&rarr;</small></a>
 	  	</small>
 	  </span>
 </div>
@@ -21,7 +21,7 @@
   	<span class="help-block">
 			<small>
 				Online courses taught by college instructors and industry experts.
-				<a class="pull-right" href="/gale-courses/"><b>More</b> &rarr;</a>
+				<a class="pull-right" href="/gale-courses/"><b>More</b> <small>&rarr;</small></a>
 	  	</small>
 	  </span>
 </div>
