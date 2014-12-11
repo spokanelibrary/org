@@ -132,7 +132,8 @@ if ( !empty($spl_home) ): ;
     
     <p>
       <a class="btn btn-block btn-primary"
-        href="/digital/">Visit the digital branch &rarr;</a>
+        href="/digital/">Visit the digital branch
+        <i class="glyphicon glyphicon-arrow-right"></i></a>
     </p>
     
   </div><!-- /.col -->
