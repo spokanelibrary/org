@@ -153,7 +153,7 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="row" style="padding-top: 0px; border-top:width: 4px; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
+<div class="row" style="padding-top: 0px; border-top-width: 4px; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
   <div class="col-md-6">
     <h3 class="text-success">
       <i class="glyphicon glyphicon-bullhorn"></i> 
