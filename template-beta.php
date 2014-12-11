@@ -146,7 +146,7 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="row" style="padding-top: 0px; border-width: 1px 0 0 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
+<div class="row" style="padding-top: 0px; border-width: 0px 0 0 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
   <div class="col-md-6">
     <h3 class="text-success">
       <i class="glyphicon glyphicon-bullhorn"></i> 
@@ -164,7 +164,7 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="row" style="padding-top: 0px; border-width: 0 0 1px 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
+<div class="row" style="padding-top: 0px; border-width: 0 0 0px 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
  
   <div class="col-md-12">
     <h2 style="margin-top:0;" class="clearfix">
