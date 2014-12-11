@@ -16,6 +16,7 @@
 	  </span>
 </div>
 
+<p>&nbsp;</p>
 
 <div class="clearfix">
   	<a href="/gale-courses/"><img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png"></a>
