@@ -190,7 +190,8 @@ if ( !empty($spl_home) ): ;
     </ul>
     
     <p class="">
-      <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
+      <a class="btn btn-block btn-success" 
+      href="http://news.spokanelibrary.org/">Get the library newsletter &rarr;</a>
     </p>
     
   </div><!-- /.col -->
