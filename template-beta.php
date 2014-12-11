@@ -97,13 +97,19 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 
   <div class="col-md-6 hidden-xs">
-    
+    <!--
     <h3 class="text-primary" style="margin-top:0;">
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a class="text-primary"
         href="/digital/">
         Check out the digital branch</a>
     </h3>
+    -->
+    <p>
+      <a class="btn btn-block btn-primary"
+        href="/digital/">Visit the digital branch &rarr;</a>
+    </p>
+
     <h5 class="help-block" style="margin-top:0; margin-bottom:20px;">
       Research
       &middot;
@@ -134,12 +140,12 @@ if ( !empty($spl_home) ): ;
         <p class="">&nbsp;</p>
       </div><!-- /.col -->
     </div><!-- /.row -->
-
+    <!--
     <p>
       <a class="btn btn-block btn-primary"
         href="/digital/">Visit the digital branch &rarr;</a>
     </p>
-
+    -->
   </div><!-- /.col -->
 
 </div><!-- /.row -->
