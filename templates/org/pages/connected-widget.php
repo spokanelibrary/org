@@ -6,7 +6,7 @@
 </h5>
 -->
 
-<blockquote class="clearfix" style="margin-bottom:10px;">
+<div class="clearfix" style="margin-bottom:10px; border-left: 4px solid #ccc;">
   	<a href="/it-academy/"><img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png"></a>
 		<span class="help-block">  		
 			<small>
@@ -14,9 +14,9 @@
 				<a class="pull-right" href="/it-academy/"><b>More</b> <small>&rarr;</small></a>
 	  	</small>
 	  </span>
-</blockquote>
+</div>
 
-<blockquote class="clearfix">
+<div class="clearfix">
   	<a href="/gale-courses/"><img class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png"></a>
   	<span class="help-block">
 			<small>
@@ -24,7 +24,7 @@
 				<a class="pull-right" href="/gale-courses/"><b>More</b> <small>&rarr;</small></a>
 	  	</small>
 	  </span>
-</blockquote>
+</div>
 
 <!--
 <div class="media">
