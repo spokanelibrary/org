@@ -168,6 +168,7 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-12">
     <h2 style="margin-top:0;" class="clearfix">
       <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/">More Library Time For Busy People</a>
+      <small>&rarr;</small>
     </h2>
   </div><!-- /.col -->
 
