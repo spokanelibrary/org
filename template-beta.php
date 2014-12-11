@@ -153,7 +153,7 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="row" style="padding-top: 0px; border-width-top: 4px; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
+<div class="row" style="padding-top: 0px; border-width: 4px 0 0 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
   <div class="col-md-6">
     <h3 class="text-success">
       <i class="glyphicon glyphicon-bullhorn"></i> 
@@ -161,13 +161,13 @@ if ( !empty($spl_home) ): ;
     </h3>
   </div><!-- /.col -->
   <div class="col-md-6">
-    <p class="">
+    <div style="padding: 10px 0;">
       <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
-    </p>
+    </div>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="row" style="padding-top: 0px; border-width-bottom: 4px; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
+<div class="row" style="padding-top: 0px; border-width: 0 0 4px 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
  
   <div class="col-md-12">
     <h2 style="margin-top:0;" class="clearfix">
