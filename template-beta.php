@@ -168,7 +168,8 @@ if ( !empty($spl_home) ): ;
       <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
     </p>
   </div>
-
+</div>
+<div class="row">
   <div class="col-md-6">
     <p class="">
       <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/"
