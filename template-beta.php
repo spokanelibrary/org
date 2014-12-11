@@ -104,7 +104,7 @@ if ( !empty($spl_home) ): ;
         Check out the digital branch</a>
     </h3>
 
-    <h5 class="help-block" style="margin-top:0; margin-bottom:20px;">
+    <h5 class="help-block" style="">
       Research
       &middot;
       Entertainment
@@ -118,7 +118,7 @@ if ( !empty($spl_home) ): ;
       <a class="btn btn-block btn-primary"
         href="/digital/">Visit the digital branch &rarr;</a>
     </p>
-    
+
     <div class="row">
       <div class="col-md-6">
         <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>
