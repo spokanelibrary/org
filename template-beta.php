@@ -32,24 +32,19 @@ if ( !empty($spl_home) ): ;
 
 <div class="visible-sm">
   <div class="navbar navbar-inverse" style="margin-top: 0px; margin-bottom: 0px; background:transparent; border:none;">
-      
     <span class="text-muted">
       <b>Tip:</b> use the toggle (upper right) to browse our website.
     </span>
-
     <button type="button" style="float:none; margin-top:0; margin-right:0;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
-    </button>
-     
+    </button>     
   </div>
 </div>
 
-
 <div class="row visible-xs">
-
   <div class="col-xs-12">
     <div class="list-group">
       <a href="/open/" class="list-group-item">
@@ -87,7 +82,6 @@ if ( !empty($spl_home) ): ;
       </a>
     </div><!-- /.list-group -->
   </div><!-- /.col -->
-
 </div><!-- /.row -->
 
 <div class="row">
@@ -102,7 +96,7 @@ if ( !empty($spl_home) ): ;
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a class="text-primary"
         href="/digital/">
-        Check out the digital branch</a>
+        Spokane digital branch</a>
     </h3>
 
     <h5 class="help-block" style="margin-bottom:16px;">
