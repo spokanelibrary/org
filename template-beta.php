@@ -201,7 +201,7 @@ if ( !empty($spl_home) ): ;
 <div class="row">
 
   <div class="col-md-6">
-    <h3 class="text-muted">
+    <h3 class="text-warning">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
@@ -218,7 +218,7 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-6">
     <div class="hidden-xs">
-      <h3 class="text-muted">
+      <h3 class="text-info">
         <i class="glyphicon glyphicon-comment"></i> 
         From the reference desk
       </h3> 
