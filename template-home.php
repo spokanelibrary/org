@@ -33,24 +33,19 @@ if ( !empty($spl_home) ): ;
 
 <div class="visible-sm">
   <div class="navbar navbar-inverse" style="margin-top: 0px; margin-bottom: 0px; background:transparent; border:none;">
-      
     <span class="text-muted">
-      <b>Tip:</b> use the toggle (upper right) to browse this website.
+      <b>Tip:</b> use the toggle (upper right) to browse our website.
     </span>
-
     <button type="button" style="float:none; margin-top:0; margin-right:0;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
-    </button>
-     
+    </button>     
   </div>
 </div>
 
-
 <div class="row visible-xs">
-
   <div class="col-xs-12">
     <div class="list-group">
       <a href="/open/" class="list-group-item">
@@ -88,24 +83,24 @@ if ( !empty($spl_home) ): ;
       </a>
     </div><!-- /.list-group -->
   </div><!-- /.col -->
-
 </div><!-- /.row -->
 
 <div class="row">
   
   <div class="col-md-6 hidden-xs">
     <?php echo do_shortcode('[spl_carousel auto random slug=carousel]'); ?>
+    <hr class="visible-sm">
   </div><!-- /.col -->
 
   <div class="col-md-6 hidden-xs">
-    
     <h3 class="text-primary" style="margin-top:0;">
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a class="text-primary"
         href="/digital/">
         Check out the digital branch</a>
     </h3>
-    <h5 class="help-block" style="margin-top:0; margin-bottom:20px;">
+
+    <h5 class="help-block" style="margin-bottom:20px;">
       Research
       &middot;
       Entertainment
@@ -135,25 +130,41 @@ if ( !empty($spl_home) ): ;
         <p class="">&nbsp;</p>
       </div><!-- /.col -->
     </div><!-- /.row -->
-
+    
     <p>
       <a class="btn btn-block btn-primary"
         href="/digital/">Visit the digital branch &rarr;</a>
     </p>
-
+    
   </div><!-- /.col -->
 
 </div><!-- /.row -->
 
-<div class="row" style="padding-top: 0px; border-width: 4px 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
- 
-  <div class="col-md-12">
+
+<div class="row" style="padding-top: 0px; border-width: 4px 0 0 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
+  <div class="col-md-6">
     <h3 class="text-success">
       <i class="glyphicon glyphicon-bullhorn"></i> 
       Read the latest: Library News
     </h3>
+  </div><!-- /.col -->
+  <div class="col-md-6">
+    <!--
+    <div style="padding: 16px 0;">
+      <a class="btn btn-block btn-success" 
+      href="http://news.spokanelibrary.org/">
+      Get the library newsletter &rarr;</a>
+    </div>
+    -->
+  </div><!-- /.col -->
+</div><!-- /.row -->
+
+<div class="row" style="padding-top: 0px; border-width: 0 0 4px 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
+ 
+  <div class="col-md-12">
     <h2 style="margin-top:0;" class="clearfix">
       <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/">More Library Time For Busy People</a>
+      <small>&rarr;</small>
     </h2>
   </div><!-- /.col -->
 
@@ -173,9 +184,12 @@ if ( !empty($spl_home) ): ;
       <li><a href="http://news.spokanelibrary.org/holiday-giving-ideas-from-the-library/">Holiday Giving Ideas from the Library <small class="text-muted">&rarr;</small></a></li>
       <li><a href="http://news.spokanelibrary.org/five-artists-one-song-for-the-season/">Five Artists – One Song for the Season <small class="text-muted">&rarr;</small></a></li>
     </ul>
+    <!--
     <p class="">
-      <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
+      <a class="btn btn-block btn-success" 
+      href="http://news.spokanelibrary.org/">Get the library newsletter &rarr;</a>
     </p>
+    -->
   </div><!-- /.col -->
 
 </div><!-- /.row -->
@@ -184,7 +198,7 @@ if ( !empty($spl_home) ): ;
 <div class="row">
 
   <div class="col-md-6">
-    <h3 class="text-muted">
+    <h3 class="text-warning">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
@@ -201,7 +215,7 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-6">
     <div class="hidden-xs">
-      <h3 class="text-muted">
+      <h3 class="text-info">
         <i class="glyphicon glyphicon-comment"></i> 
         From the reference desk
       </h3> 
@@ -219,4 +233,3 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 
 </div><!-- /.row -->
-
