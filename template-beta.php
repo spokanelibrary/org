@@ -114,11 +114,6 @@ if ( !empty($spl_home) ): ;
       Apps &amp; more
     </h5>
 
-    <p>
-      <a class="btn btn-block btn-primary"
-        href="/digital/">Visit the digital branch &rarr;</a>
-    </p>
-
     <div class="row">
       <div class="col-md-6">
         <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>
@@ -139,12 +134,12 @@ if ( !empty($spl_home) ): ;
         <p class="">&nbsp;</p>
       </div><!-- /.col -->
     </div><!-- /.row -->
-    <!--
+    
     <p>
       <a class="btn btn-block btn-primary"
         href="/digital/">Visit the digital branch &rarr;</a>
     </p>
-    -->
+    
   </div><!-- /.col -->
 
 </div><!-- /.row -->
