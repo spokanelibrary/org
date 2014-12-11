@@ -34,7 +34,7 @@ if ( !empty($spl_home) ): ;
   <div class="navbar navbar-inverse" style="margin-top: 0px; margin-bottom: 0px; background:transparent; border:none;">
       
     <span class="text-muted">
-      <b>Tip:</b> use the toggle (upper right) to browse this website.
+      <b>Tip:</b> use the toggle (upper right) to browse our website.
     </span>
 
     <button type="button" style="float:none; margin-top:0; margin-right:0;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
