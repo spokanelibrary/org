@@ -108,11 +108,11 @@ if ( !empty($spl_home) ): ;
     <p>
       <a class="btn btn-block btn-primary"
         href="/digital/">
-        Visit the digital branch &rarr;</a>
+        <i class="glyphicon glyphicon-cloud-download"></i>
+        <b>Visit the digital branch</b> &rarr;</a>
     </p>
 
     <h5 class="help-block" style="margin-top:0; margin-bottom:20px;">
-      <i class="glyphicon glyphicon-cloud-download"></i>
       Research
       &middot;
       Entertainment
@@ -156,13 +156,15 @@ if ( !empty($spl_home) ): ;
 <div class="row" style="padding-top: 0px; border-width: 4px 0 0 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
   <div class="col-md-6">
     <h3 class="text-success">
-      <i class="glyphicon glyphicon-bullhorn"></i> 
       Read the latest: Library News
     </h3>
   </div><!-- /.col -->
   <div class="col-md-6">
     <div style="padding: 16px 0;">
-      <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
+      <a class="btn btn-block btn-success" 
+      href="http://news.spokanelibrary.org/">
+      <i class="glyphicon glyphicon-bullhorn"></i> 
+      <b>Get the library newsletter</b> &rarr;</a>
     </div>
   </div><!-- /.col -->
 </div><!-- /.row -->
