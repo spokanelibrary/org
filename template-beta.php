@@ -188,11 +188,11 @@ if ( !empty($spl_home) ): ;
       <li><a href="http://news.spokanelibrary.org/holiday-giving-ideas-from-the-library/">Holiday Giving Ideas from the Library <small class="text-muted">&rarr;</small></a></li>
       <li><a href="http://news.spokanelibrary.org/five-artists-one-song-for-the-season/">Five Artists – One Song for the Season <small class="text-muted">&rarr;</small></a></li>
     </ul>
-    <!--
+    
     <p class="">
       <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
     </p>
-    -->
+    
   </div><!-- /.col -->
 
 </div><!-- /.row -->
