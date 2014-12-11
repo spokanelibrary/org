@@ -96,7 +96,7 @@ if ( !empty($spl_home) ): ;
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a class="text-primary"
         href="/digital/">
-        Spokane digital branch</a>
+        Check out the digital branch</a>
     </h3>
 
     <h5 class="help-block" style="margin-bottom:16px;">
