@@ -6,7 +6,7 @@
 </h5>
 -->
 
-<div class="clearfix" style="margin-bottom:10px; border-left: 4px solid #aaa; padding-left: 10px;">
+<div class="clearfix" style="margin-bottom:10px;">
   	<a href="/it-academy/"><img class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png"></a>
 		<span class="help-block">  		
 			<small>
