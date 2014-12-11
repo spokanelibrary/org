@@ -154,7 +154,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row" style="padding-top: 0px; border-width: 4px 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
  
-  <div class="col-md-12">
+  <div class="col-md-6">
     <h3 class="text-success">
       <i class="glyphicon glyphicon-bullhorn"></i> 
       Read the latest: Library News
@@ -163,6 +163,11 @@ if ( !empty($spl_home) ): ;
       <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/">More Library Time For Busy People</a>
     </h2>
   </div><!-- /.col -->
+  <div class="col-md-6">
+    <p class="">
+      <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
+    </p>
+  </div>
 
   <div class="col-md-6">
     <p class="">
@@ -180,9 +185,11 @@ if ( !empty($spl_home) ): ;
       <li><a href="http://news.spokanelibrary.org/holiday-giving-ideas-from-the-library/">Holiday Giving Ideas from the Library <small class="text-muted">&rarr;</small></a></li>
       <li><a href="http://news.spokanelibrary.org/five-artists-one-song-for-the-season/">Five Artists – One Song for the Season <small class="text-muted">&rarr;</small></a></li>
     </ul>
+    <!--
     <p class="">
       <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
     </p>
+    -->
   </div><!-- /.col -->
 
 </div><!-- /.row -->
