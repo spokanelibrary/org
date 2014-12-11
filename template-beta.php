@@ -105,6 +105,10 @@ if ( !empty($spl_home) ): ;
         Check out the digital branch</a>
     </h3>
     -->
+    <h3 class="text-primary" style="margin-top:0;">
+      <i class="glyphicon glyphicon-cloud-download"></i>
+      Digital branch
+    </h3>
     <p>
       <a class="btn btn-block btn-primary"
         href="/digital/">
