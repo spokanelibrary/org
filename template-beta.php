@@ -108,11 +108,11 @@ if ( !empty($spl_home) ): ;
     <p>
       <a class="btn btn-block btn-primary"
         href="/digital/">
-        <i class="glyphicon glyphicon-cloud-download"></i>
         Visit the digital branch &rarr;</a>
     </p>
 
     <h5 class="help-block" style="margin-top:0; margin-bottom:20px;">
+      <i class="glyphicon glyphicon-cloud-download"></i>
       Research
       &middot;
       Entertainment
