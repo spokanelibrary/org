@@ -161,7 +161,7 @@ if ( !empty($spl_home) ): ;
     </h3>
   </div><!-- /.col -->
   <div class="col-md-6">
-    <div style="padding: 10px 0;">
+    <div style="padding: 16px 0;">
       <a class="btn btn-block btn-success" href="http://news.spokanelibrary.org/">Read the library newsletter &rarr;</a>
     </div>
   </div><!-- /.col -->
