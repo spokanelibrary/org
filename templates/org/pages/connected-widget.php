@@ -11,9 +11,11 @@
 		<span class="help-block">  		
 			<small>
 				Learn Microsoft products and qualify for certification testing.
-				<a class="pull-right" href="/it-academy/"><b>More</b> <small>&rarr;</small></a>
-	  	</small>
+			</small>
 	  </span>
+	  <span class="help-block text-right">
+	  <a class="pull-right" href="/it-academy/"><b>More</b> <small>&rarr;</small></a>
+		</span>
 </div>
 
 <div class="clearfix">
