@@ -157,7 +157,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
   <div class="col-sm-6">
     <strong>If you are using a Library computer</strong>
     <p>
-      Our computer management reservation system will only allow 60-minute sessions. 
+      Our computer management reservation system will only allow 90-minute sessions. 
       Your Windows Live ID is tied to the courses you select; if you need to continue beyond time allowed, the course will remember the point at which you finished, and you can resume at the same point when you log in again.
     </p>
     <p>
@@ -241,7 +241,10 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
       IT Academy training courses will prepare you for certification in several areas, including:
     </p>
     <ul>
-      <li>MOS Certification</li>
+      <li>MOS Certification
+          <br>
+          The Downtown Library offers <a href="http://beta.spokanelibrary.org/mos/"><b>Microsoft Office Specialist Certification</b></a> testing for free or a low cost. 
+      </li>
       <li>MTA (Microsoft Technology Associate)</li>
       <li>MCP (Microsoft Certified Professional) </li>
     </ul>
