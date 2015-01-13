@@ -243,7 +243,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
     <ul>
       <li>MOS Certification
           <br>
-          The Downtown Library offers <a href="http://beta.spokanelibrary.org/mos/"><b>Microsoft Office Specialist Certification</b></a> testing for free or a low cost. 
+          The Downtown Library offers <a href="/mos/"><b>Microsoft Office Specialist Certification</b></a> testing for free or a low cost. 
       </li>
       <li>MTA (Microsoft Technology Associate)</li>
       <li>MCP (Microsoft Certified Professional) </li>
