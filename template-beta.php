@@ -90,7 +90,7 @@ if ( !empty($spl_home) ): ;
 <div class="row" style="margin-bottom:500px;">
   
   <div class="col-md-3">
-    <div class="btn-group-vertical" role="group" aria-label="...">
+    <div class="btn-group btn-group-vertical btn-group-justified" role="group" aria-label="...">
       <button type="button" class="btn btn-primary">
         <i class="glyphicon glyphicon-user"></i>
         <br>
