@@ -4,6 +4,7 @@ Template Name: Beta Home Page
 */
 ?>
 
+
 <!--
 <div class="row">
   <div class="col-md-6">
@@ -162,14 +163,14 @@ if ( !empty($spl_home) ): ;
  
   <div class="col-md-12">
     <h2 style="margin-top:0;" class="clearfix">
-      <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/">More Library Time For Busy People</a>
+      <a href="http://news.spokanelibrary.org/newsletter/new-year-new-you-new-day-for-the-library/">New Year, New You, New Day for the Library</a>
       <small>&rarr;</small>
     </h2>
   </div><!-- /.col -->
 
   <div class="col-md-6">
     <p class="">
-      <a href="http://news.spokanelibrary.org/newsletter/more-library-time-a-gift-for-you/"
+      <a href="http://news.spokanelibrary.org/newsletter/new-year-new-you-new-day-for-the-library/"
       ><img style="margin:auto;" class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Shadle_Sunday_hours2-300x282.jpg"></a>
     </p>
   </div><!-- /.col -->
@@ -177,11 +178,9 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-6">
     <h3 style="margin-top:0;" class="text-muted">also in this issue&hellip;</h3>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="http://news.spokanelibrary.org/nw_exhibit_12-14/">Spokane in 1889 Exhibit <small class="text-muted">&rarr;</small></a></li>
-      <li><a href="http://news.spokanelibrary.org/hour-of-code/">Hour of Code! <small class="text-muted">&rarr;</small></a></li>
-      <li><a href="http://news.spokanelibrary.org/knits-purls-and-dewey/">Knits, Purls and Dewey <small class="text-muted">&rarr;</small></a></li>
-      <li><a href="http://news.spokanelibrary.org/holiday-giving-ideas-from-the-library/">Holiday Giving Ideas from the Library <small class="text-muted">&rarr;</small></a></li>
-      <li><a href="http://news.spokanelibrary.org/five-artists-one-song-for-the-season/">Five Artists – One Song for the Season <small class="text-muted">&rarr;</small></a></li>
+      <li><a href="http://news.spokanelibrary.org/new-year-new-you/">What’s on your “to do” list for 2015? <small class="text-muted">&rarr;</small></a></li>
+      <li><a href="http://news.spokanelibrary.org/dewey_1-15/">Dewey’s (self) helpful side <small class="text-muted">&rarr;</small></a></li>
+      <li><a href="http://news.spokanelibrary.org/5_magazines_1-15/">Five Magazines instead of Five Songs This Month <small class="text-muted">&rarr;</small></a></li>
     </ul>
     <!--
     <p class="">
