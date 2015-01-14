@@ -88,7 +88,7 @@ if ( !empty($spl_home) ): ;
 
 
 <div class="row" style="margin-bottom:500px;">
-  
+  <!--
   <div class="col-md-3">
     <div class="btn-group-vertical" role="group" aria-label="...">
       <button type="button" class="btn btn-default panel-transparent">
@@ -103,20 +103,32 @@ if ( !empty($spl_home) ): ;
         Right
       </button>
     </div>
-  </div><!-- /.col -->
+  </div>--><!-- /.col -->
 
-  <div class="col-md-9">
+  <div class="col-md-12">
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a type="button" class="btn btn-default panel-transparent">
         <i class="glyphicon glyphicon-user"></i>
         <br>
-        My Account
+        eBooks
       </a>
       <a type="button" class="btn btn-default panel-transparent">
-        Middle
+        Music
       </a>
       <a type="button" class="btn btn-default panel-transparent">
-        Right
+        Audio Books
+      </a>
+      <a type="button" class="btn btn-default panel-transparent">
+        Audio Books
+      </a>
+      <a type="button" class="btn btn-default panel-transparent">
+        Audio Books
+      </a>
+      <a type="button" class="btn btn-default panel-transparent">
+        Audio Books
+      </a>
+      <a type="button" class="btn btn-default panel-transparent">
+        Audio Books
       </a>
     </div>
   </div><!-- /.col -->
