@@ -93,7 +93,40 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 
   <div class="col-md-6 hidden-xs">
-    <?php echo do_shortcode('[spl_carousel auto random slug=carousel]'); ?>
+    
+    <div class="row">
+ 
+      <div class="col-md-12">
+        <h2 style="margin-top:0;" class="clearfix">
+          <a href="http://news.spokanelibrary.org/newsletter/new-year-new-you-new-day-for-the-library/">New Year, New You, New Day for the Library</a>
+          <small>&rarr;</small>
+        </h2>
+      </div><!-- /.col -->
+
+      <div class="col-md-6">
+        <p class="">
+          <a href="http://news.spokanelibrary.org/newsletter/new-year-new-you-new-day-for-the-library/"
+          ><img style="margin:auto;" class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Shadle_Sunday_hours2-300x282.jpg"></a>
+        </p>
+      </div><!-- /.col -->
+
+      <div class="col-md-6">
+        <h3 style="margin-top:0;" class="text-muted">also in this issue&hellip;</h3>
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="http://news.spokanelibrary.org/new-year-new-you/">What’s on your “to do” list for 2015? <small class="text-muted">&rarr;</small></a></li>
+          <li><a href="http://news.spokanelibrary.org/dewey_1-15/">Dewey’s (self) helpful side <small class="text-muted">&rarr;</small></a></li>
+          <li><a href="http://news.spokanelibrary.org/5_magazines_1-15/">Five Magazines instead of Five Songs This Month <small class="text-muted">&rarr;</small></a></li>
+        </ul>
+        <!--
+        <p class="">
+          <a class="btn btn-block btn-success" 
+          href="http://news.spokanelibrary.org/">Get the library newsletter &rarr;</a>
+        </p>
+        -->
+      </div><!-- /.col -->
+
+    </div><!-- /.row -->
+
     <hr class="visible-sm">
   </div><!-- /.col -->
 
