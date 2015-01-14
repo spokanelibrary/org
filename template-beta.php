@@ -129,7 +129,7 @@ if ( !empty($spl_home) ): ;
         Magazines
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
-        <i class="glyphicon sort-by-alphabet"></i>
+        <i class="glyphicon glyphicon-sort-by-alphabet"></i>
         <br>
         Research Tools
       </a>
