@@ -107,7 +107,7 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-12">
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a type="button" class="btn btn-default panel-transparent">
+      <a type="button" class="btn btn-primary">
         <i class="glyphicon glyphicon-user"></i>
         <br>
         eBooks
