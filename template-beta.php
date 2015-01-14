@@ -121,13 +121,13 @@ if ( !empty($spl_home) ): ;
       <a style="" class="btn btn-default spl-blue-70">
         Audio Books
       </a>
-      <a style="" class="btn btn-default panel-transparent">
+      <a style="" class="btn btn-default spl-blue-60">
         Audio Books
       </a>
-      <a style="" class="btn btn-default panel-transparent">
+      <a style="" class="btn btn-default spl-blue-50">
         Audio Books
       </a>
-      <a style="" class="btn btn-default panel-transparent">
+      <a style="" class="btn btn-default spl-blue-40">
         Audio Books
       </a>
     </div>
