@@ -90,6 +90,22 @@ if ( !empty($spl_home) ): ;
 <div class="row" style="margin-bottom:500px;">
   
   <div class="col-md-3">
+    <div class="btn-group-vertical" role="group" aria-label="...">
+      <button type="button" class="btn btn-default panel-transparent">
+        <i class="glyphicon glyphicon-user"></i>
+        <br>
+        My Account
+      </button>
+      <button type="button" class="btn btn-default">
+        Middle
+      </button>
+      <button type="button" class="btn btn-default">
+        Right
+      </button>
+    </div>
+  </div><!-- /.col -->
+
+  <div class="col-md-9">
     <div class="btn-group btn-group-vertical btn-group-justified" role="group" aria-label="...">
       <button type="button" class="btn btn-primary">
         <i class="glyphicon glyphicon-user"></i>
@@ -103,10 +119,6 @@ if ( !empty($spl_home) ): ;
         Right
       </button>
     </div>
-  </div><!-- /.col -->
-
-  <div class="col-md-9">
-
   </div><!-- /.col -->
 
 </div><!-- /.row -->
