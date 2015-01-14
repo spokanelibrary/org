@@ -136,13 +136,8 @@ if ( !empty($spl_home) ): ;
 
 
 <div class="row">
-  
-  <div class="col-md-6 hidden-xs">
-    <?php echo do_shortcode('[spl_carousel auto random slug=carousel]'); ?>
-    <hr class="visible-sm">
-  </div><!-- /.col -->
 
-  <div class="col-md-6 hidden-xs">
+  <div class="col-md-12 hidden-xs">
     <h3 class="text-primary" style="margin-top:0;">
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a class="text-primary"
