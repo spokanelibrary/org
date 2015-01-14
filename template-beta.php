@@ -112,21 +112,7 @@ if ( !empty($spl_home) ): ;
         <br>
         eBooks
       </a>
-      <a style="background:#ccc; border:none; /* Safari */
--webkit-transform: rotate(-90deg);
-
-/* Firefox */
--moz-transform: rotate(-90deg);
-
-/* IE */
--ms-transform: rotate(-90deg);
-
-/* Opera */
--o-transform: rotate(-90deg);
-
-/* Internet Explorer */
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-" class="btn btn-default">
+      <a style="background:#ccc; border:none;" class="btn btn-default">
         Music
       </a>
       <a style="background:; border:none;" class="btn btn-default panel-transparent">
