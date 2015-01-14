@@ -107,27 +107,27 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-12">
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a type="button" class="btn btn-primary">
+      <a type="button" class="btn btn-primary spl-blue">
         <i class="glyphicon glyphicon-user"></i>
         <br>
         eBooks
       </a>
-      <a style="" class="btn btn-primary spl-blue-90">
+      <a style="" class="btn btn-primary spl-blue-tint-90">
         Music
       </a>
-      <a style="" class="btn btn-primary spl-blue-80">
+      <a style="" class="btn btn-primary spl-blue-tint-80">
         Audio Books
       </a>
-      <a style="" class="btn btn-primary spl-blue-70">
+      <a style="" class="btn btn-primary spl-blue-tint-70">
         Audio Books
       </a>
-      <a style="" class="btn btn-primary spl-blue-60">
+      <a style="" class="btn btn-primary spl-blue-tint-60">
         Audio Books
       </a>
-      <a style="" class="btn btn-primary spl-blue-50">
+      <a style="" class="btn btn-primary spl-blue-tint-50">
         Audio Books
       </a>
-      <a style="" class="btn btn-primary spl-blue-40">
+      <a style="" class="btn btn-primary spl-blue-tint-40">
         Audio Books
       </a>
     </div>
