@@ -91,31 +91,31 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-3">
     <div class="btn-group-vertical" role="group" aria-label="...">
-      <button type="button" class="btn btn-block btn-default panel-transparent">
+      <button type="button" class="btn btn-default panel-transparent">
         <i class="glyphicon glyphicon-user"></i>
         <br>
         My Account
       </button>
-      <button type="button" class="btn btn-block btn-default panel-transparent">
+      <button type="button" class="btn btn-default panel-transparent">
         Middle
       </button>
-      <button type="button" class="btn btn-block btn-default panel-transparent">
+      <button type="button" class="btn btn-default panel-transparent">
         Right
       </button>
     </div>
   </div><!-- /.col -->
 
   <div class="col-md-9">
-    <div class="btn-group btn-group-vertical btn-group-justified" role="group" aria-label="...">
-      <button type="button" class="btn btn-primary">
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+      <button type="button" class="btn btn-default panel-transparent">
         <i class="glyphicon glyphicon-user"></i>
         <br>
         My Account
       </button>
-      <button type="button" class="btn btn-primary">
+      <button type="button" class="btn btn-default panel-transparent">
         Middle
       </button>
-      <button type="button" class="btn btn-primary">
+      <button type="button" class="btn btn-default panel-transparent">
         Right
       </button>
     </div>
