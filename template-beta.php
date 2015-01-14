@@ -119,10 +119,14 @@ if ( !empty($spl_home) ): ;
         Music
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-80">
+        <i class="glyphicon glyphicon-headphones"></i>
+        <br>
         Audio Books
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-70">
-        Audio Books
+        <i class="glyphicon glyphicon-book"></i>
+        <br>
+        Magazines
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
         Audio Books
