@@ -108,25 +108,25 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-12">
     <h3 class="text-primary">Check out the Digital Branch</h3>
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a type="button" class="btn btn-primary spl-green">
+      <a style="border:none;" class="btn btn-primary spl-blue">
         eBooks
       </a>
-      <a style="border:none;" class="btn btn-primary spl-green-tint-90">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-90">
         Music
       </a>
-      <a style="border:none;" class="btn btn-primary spl-green-tint-80">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-80">
         Audio Books
       </a>
-      <a style="border:none;" class="btn btn-primary spl-green-tint-70">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-70">
         Audio Books
       </a>
-      <a style="border:none;" class="btn btn-primary spl-green-tint-60">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
         Audio Books
       </a>
-      <a style="border:none;" class="btn btn-primary spl-green-tint-50">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
         Audio Books
       </a>
-      <a style="border:none;" class="btn btn-primary spl-green-tint-40">
+      <a style="" class="btn btn-primary spl-blue-tint-40">
         Audio Books
       </a>
     </div>
