@@ -91,15 +91,15 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-3">
     <div class="btn-group-vertical" role="group" aria-label="...">
-      <button type="button" class="btn btn-default transparent">
+      <button type="button" class="btn btn-default panel-transparent">
         <i class="glyphicon glyphicon-user"></i>
         <br>
         My Account
       </button>
-      <button type="button" class="btn btn-default">
+      <button type="button" class="btn btn-default panel-transparent">
         Middle
       </button>
-      <button type="button" class="btn btn-default">
+      <button type="button" class="btn btn-default panel-transparent">
         Right
       </button>
     </div>
