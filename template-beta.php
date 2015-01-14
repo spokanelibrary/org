@@ -109,7 +109,7 @@ if ( !empty($spl_home) ): ;
     <h3 class="text-primary">Check out the Digital Branch</h3>
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none;" class="btn btn-primary spl-blue">
-        <i class="glyphicon glyphicon-book"></i>
+        <i class="glyphicon glyphicon-phone"></i>
         <br>
         eBooks
       </a>
