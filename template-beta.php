@@ -129,7 +129,9 @@ if ( !empty($spl_home) ): ;
         Magazines
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
-        Audio Books
+        <i class="glyphicon sort-by-alphabet"></i>
+        <br>
+        Research Tools
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
         Audio Books
