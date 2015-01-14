@@ -135,7 +135,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row">
+<div class="row" style="padding-top: 0px; border-width: 4px 0 0 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
 
   <div class="col-md-12 hidden-xs">
     <h3 class="text-primary" style="margin-top:0;">
