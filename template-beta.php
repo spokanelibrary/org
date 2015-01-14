@@ -112,22 +112,22 @@ if ( !empty($spl_home) ): ;
         <br>
         eBooks
       </a>
-      <a style="background:; border:none;" class="btn btn-default panel-transparent">
+      <a style="background:;" class="btn btn-default panel-transparent">
         Music
       </a>
-      <a style="background:; border:none;" class="btn btn-default panel-transparent">
+      <a style="background:;" class="btn btn-default panel-transparent">
         Audio Books
       </a>
-      <a style="background:; border:none;" class="btn btn-default panel-transparent">
+      <a style="background:;" class="btn btn-default panel-transparent">
         Audio Books
       </a>
-      <a style="background:; border:none;" class="btn btn-default panel-transparent">
+      <a style="background:;" class="btn btn-default panel-transparent">
         Audio Books
       </a>
-      <a style="background:; border:none;" class="btn btn-default panel-transparent">
+      <a style="background:;" class="btn btn-default panel-transparent">
         Audio Books
       </a>
-      <a style="background:; border:none;" class="btn btn-default panel-transparent">
+      <a style="background:;" class="btn btn-default panel-transparent">
         Audio Books
       </a>
     </div>
