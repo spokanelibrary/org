@@ -85,6 +85,38 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 </div><!-- /.row -->
 
+
+
+<div class="row" style="margin-bottom:500px;">
+  
+  <div class="col-md-2">
+    <div class="btn-group-vertical" role="group" aria-label="...">
+      <button type="button" class="btn btn-default">Left</button>
+      <button type="button" class="btn btn-default">Middle</button>
+      <button type="button" class="btn btn-default">Right</button>
+    </div>
+  </div><!-- /.col -->
+
+  <div class="col-md-2">
+
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="row">
   
   <div class="col-md-6 hidden-xs">
@@ -135,7 +167,11 @@ if ( !empty($spl_home) ): ;
 <div class="row">
 
   <div class="col-sm-12">
-    Digital branch
+    <div class="btn-group" role="group" aria-label="...">
+      <button type="button" class="btn btn-default">Left</button>
+      <button type="button" class="btn btn-default">Middle</button>
+      <button type="button" class="btn btn-default">Right</button>
+    </div>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
