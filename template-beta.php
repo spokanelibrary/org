@@ -109,25 +109,25 @@ if ( !empty($spl_home) ): ;
     <h3 class="text-primary">Check out the Digital Branch</h3>
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none;" class="btn btn-primary spl-blue">
-        eBooks
+        <b>eBooks</b>
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-90">
-        Music
+         <b>Music</b>
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-80">
-        Audio Books
+         <b>Audio Books</b>
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-70">
-        Audio Books
+         <b>Audio Books</b>
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
-        Audio Books
+         <b>Audio Books</b>
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
-        Audio Books
+         <b>Audio Books</b>
       </a>
-      <a style="" class="btn btn-primary spl-blue-tint-40">
-        Audio Books
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-40">
+         <b>Audio Books</b>
       </a>
     </div>
   </div><!-- /.col -->
