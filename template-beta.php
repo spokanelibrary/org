@@ -89,15 +89,23 @@ if ( !empty($spl_home) ): ;
 
 <div class="row" style="margin-bottom:500px;">
   
-  <div class="col-md-2">
+  <div class="col-md-3">
     <div class="btn-group-vertical" role="group" aria-label="...">
-      <button type="button" class="btn btn-default">Left</button>
-      <button type="button" class="btn btn-default">Middle</button>
-      <button type="button" class="btn btn-default">Right</button>
+      <button type="button" class="btn btn-primary">
+        <i class="glyphicon glyphicon-user"></i>
+        <br>
+        My Account
+      </button>
+      <button type="button" class="btn btn-primary">
+        Middle
+      </button>
+      <button type="button" class="btn btn-primary">
+        Right
+      </button>
     </div>
   </div><!-- /.col -->
 
-  <div class="col-md-2">
+  <div class="col-md-9">
 
   </div><!-- /.col -->
 
