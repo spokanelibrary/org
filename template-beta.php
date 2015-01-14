@@ -106,11 +106,9 @@ if ( !empty($spl_home) ): ;
   </div>--><!-- /.col -->
 
   <div class="col-md-12">
-    <h3 class="text-info">Check out the Digital Branch</h3>
+    <h3 class="text-primary">Check out the Digital Branch</h3>
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a type="button" class="btn btn-primary spl-blue">
-        <i class="glyphicon glyphicon-user"></i>
-        <br>
         eBooks
       </a>
       <a style="" class="btn btn-primary spl-blue-tint-90">
