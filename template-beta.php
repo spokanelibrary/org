@@ -128,12 +128,12 @@ if ( !empty($spl_home) ): ;
         Audio Books
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-70">
-        <i class="text-primary glyphicon glyphicon-book"></i>
+        <i class="glyphicon glyphicon-book"></i>
         <br>
         Magazines
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
-        <i class="text-primary glyphicon glyphicon-sort-by-alphabet"></i>
+        <i class="glyphicon glyphicon-sort-by-alphabet"></i>
         <br>
         Research Tools
       </a>
