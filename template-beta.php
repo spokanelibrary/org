@@ -138,7 +138,7 @@ if ( !empty($spl_home) ): ;
         Research Tools
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
-        Technology Training
+        <span class="text-primary">Technology Training</span>
         <br>
         &amp; Workshops
       </a>
