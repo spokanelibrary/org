@@ -87,7 +87,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row">
 
-  <div class="col-md-2 hidden-xs">
+  <div class="col-md-1 hidden-xs">
     <div class="btn-group-vertical" role="group" aria-label="...">
       <button type="button" class="btn btn-default">Left</button>
       <button type="button" class="btn btn-default">Middle</button>
