@@ -138,10 +138,9 @@ if ( !empty($spl_home) ): ;
         Research Tools
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
-        Audio Books
-      </a>
-      <a style="border:none;" class="btn btn-primary spl-blue-tint-40">
-        Audio Books
+        Technology Training
+        <br>
+        &amp; Workshops
       </a>
     </div>
   </div><!-- /.col -->
