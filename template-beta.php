@@ -85,16 +85,8 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 </div><!-- /.row -->
 
+
 <div class="row">
-
-  <div class="col-md-6">
-    <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
-
-
-<div class="row" style="margin-bottom:500px;">
   <!--
   <div class="col-md-3">
     <div class="btn-group-vertical" role="group" aria-label="...">
@@ -164,14 +156,20 @@ if ( !empty($spl_home) ): ;
 
 
 
+<div class="row">
+
+  <div class="col-md-6">
+    <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
 
 
 
 
 
 
-
-
+<div style="margin-bottom:600px;"></div>
 
 
 
