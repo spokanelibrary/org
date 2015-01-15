@@ -85,17 +85,9 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="row">
+<div class="row"> 
 
-  <div class="col-md-2 hidden-xs">
-    <div class="btn-group-vertical" role="group" aria-label="...">
-      <button type="button" class="btn btn-default">Left</button>
-      <button type="button" class="btn btn-default">Middle</button>
-      <button type="button" class="btn btn-default">Right</button>
-    </div>
-  </div><!-- /.col -->  
-
-  <div class="col-md-5 hidden-xs">
+  <div class="col-md-6 hidden-xs">
     <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
   </div><!-- /.col -->
 
@@ -131,7 +123,7 @@ if ( !empty($spl_home) ): ;
         <br>
         eBooks
       </a>
-      <a style="border:none;" class="btn btn-primary spl-green-tint-50">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
         <i class="glyphicon glyphicon-music"></i>
         <br>
         Music
@@ -141,7 +133,7 @@ if ( !empty($spl_home) ): ;
         <br>
         Audio Books
       </a>
-      <a style="border:none;" class="btn btn-primary spl-green-tint-30">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-30">
         <i class="glyphicon glyphicon-book"></i>
         <br>
         Magazines
@@ -151,7 +143,7 @@ if ( !empty($spl_home) ): ;
         <br>
         Research Tools
       </a>
-      <a style="border:none;" class="btn btn-primary spl-green-tint-10">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-10">
         Technology Training
         <br>
         &amp; Workshops
