@@ -86,7 +86,8 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="row">
+
+<div class="row" style="margin-bottom:500px;">
   <!--
   <div class="col-md-3">
     <div class="btn-group-vertical" role="group" aria-label="...">
@@ -105,7 +106,7 @@ if ( !empty($spl_home) ): ;
   </div>--><!-- /.col -->
 
   <div class="col-md-12">
-    <h3 class="text-primary" style="margin-top:0;">
+    <h3 class="text-primary">
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a href="/digital/">Check out the Digital Branch</a>
       <small>eBooks, music, magazines, and more</small>
@@ -149,17 +150,7 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
   
   <div class="col-md-6">
-    Connected Learning
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
-
-
-
-<div class="row">
-
-  <div class="col-md-6">
-    <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
+    Connected learning
   </div><!-- /.col -->
 
 </div><!-- /.row -->
@@ -169,7 +160,11 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div style="margin-bottom:600px;"></div>
+
+
+
+
+
 
 
 
