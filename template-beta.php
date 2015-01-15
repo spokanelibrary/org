@@ -113,17 +113,17 @@ if ( !empty($spl_home) ): ;
     </h3>
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none;" class="btn btn-primary spl-blue">
-        <i class="text-primary glyphicon glyphicon-phone"></i>
+        <i class="glyphicon glyphicon-phone"></i>
         <br>
         eBooks
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-90">
-        <i class="text-primary glyphicon glyphicon-music"></i>
+        <i class="glyphicon glyphicon-music"></i>
         <br>
         Music
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-80">
-        <i class="text-primary glyphicon glyphicon-headphones"></i>
+        <i class="glyphicon glyphicon-headphones"></i>
         <br>
         Audio Books
       </a>
