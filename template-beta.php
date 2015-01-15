@@ -112,7 +112,7 @@ if ( !empty($spl_home) ): ;
   </div>--><!-- /.col -->
 
   <div class="col-md-12">
-    <h3 class="text-primary" style="margin-top:0;">
+    <h3 class="text-primary">
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a href="/digital/">Check out the Digital Branch</a>
       <small>eBooks, music, magazines, and more</small>
