@@ -117,7 +117,7 @@ if ( !empty($spl_home) ): ;
         <br>
         eBooks
       </a>
-      <a style="border:none;" class="btn btn-default panel-transparent">
+      <a style="border:none;" class="btn btn-default spl-blue-tint-10">
         <i class="glyphicon glyphicon-music"></i>
         <br>
         Music
