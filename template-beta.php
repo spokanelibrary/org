@@ -112,7 +112,7 @@ if ( !empty($spl_home) ): ;
       <small>eBooks, music, magazines, and more</small>
     </h3>
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a style="border:none;" class="btn btn-primary spl-blue-60">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
         <i class="glyphicon glyphicon-phone"></i>
         <br>
         eBooks
