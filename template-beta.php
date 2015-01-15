@@ -106,7 +106,7 @@ if ( !empty($spl_home) ): ;
   </div>--><!-- /.col -->
 
   <div class="col-md-12">
-    <h3 class="text-primary">
+    <h3 class="text-primary" style="margin-top:0;">
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a href="/digital/">Check out the Digital Branch</a>
       <small>eBooks, music, magazines, and more</small>
@@ -138,7 +138,7 @@ if ( !empty($spl_home) ): ;
         Research Tools
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
-        <span class="text-primary">Technology Training</span>
+        Technology Training
         <br>
         &amp; Workshops
       </a>
