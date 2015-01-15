@@ -113,27 +113,27 @@ if ( !empty($spl_home) ): ;
     </h3>
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none;" class="btn btn-primary spl-blue">
-        <i class="glyphicon glyphicon-phone"></i>
+        <i class="text-primary glyphicon glyphicon-phone"></i>
         <br>
         eBooks
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-90">
-        <i class="glyphicon glyphicon-music"></i>
+        <i class="text-primary glyphicon glyphicon-music"></i>
         <br>
         Music
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-80">
-        <i class="glyphicon glyphicon-headphones"></i>
+        <i class="text-primary glyphicon glyphicon-headphones"></i>
         <br>
         Audio Books
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-70">
-        <i class="glyphicon glyphicon-book"></i>
+        <i class="text-primary glyphicon glyphicon-book"></i>
         <br>
         Magazines
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
-        <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+        <i class="text-primary glyphicon glyphicon-sort-by-alphabet"></i>
         <br>
         Research Tools
       </a>
