@@ -117,7 +117,7 @@ if ( !empty($spl_home) ): ;
         <br>
         eBooks
       </a>
-      <a style="border:none;" class="btn btn-default spl-blue-tint-50">
+      <a style="border:none;" class="btn btn-primary spl-green-tint-50">
         <i class="glyphicon glyphicon-music"></i>
         <br>
         Music
@@ -127,7 +127,7 @@ if ( !empty($spl_home) ): ;
         <br>
         Audio Books
       </a>
-      <a style="border:none;" class="btn btn-primary spl-blue-tint-30">
+      <a style="border:none;" class="btn btn-primary spl-green-tint-30">
         <i class="glyphicon glyphicon-book"></i>
         <br>
         Magazines
@@ -137,7 +137,7 @@ if ( !empty($spl_home) ): ;
         <br>
         Research Tools
       </a>
-      <a style="border:none;" class="btn btn-primary spl-blue-tint-10">
+      <a style="border:none;" class="btn btn-primary spl-green-tint-10">
         Technology Training
         <br>
         &amp; Workshops
