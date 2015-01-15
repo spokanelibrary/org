@@ -85,6 +85,13 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 </div><!-- /.row -->
 
+<div class="row">
+
+  <div class="col-md-12">
+    <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
 
 
 <div class="row" style="margin-bottom:500px;">
