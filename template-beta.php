@@ -229,7 +229,7 @@ if ( !empty($spl_home) ): ;
         Check the library calendar &rarr;
       </a>
     </p>
-    <?php echo do_shortcode('[spl_widget calendar-view widget limit=12]'); ?>
+    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=12]'); ?>
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>    
