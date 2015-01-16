@@ -97,6 +97,13 @@ if ( !empty($spl_home) ): ;
     </p>
     <p>
       <a class="btn btn-block btn-default panel-transparent" href="/login/">
+          <i class="glyphicon glyphicon-barcode"></i>
+          <br>
+          <b>Get a library card</b>
+      </a>
+    </p>
+    <p>
+      <a class="btn btn-block btn-default panel-transparent" href="/login/">
           <i class="glyphicon glyphicon-envelope"></i>
           <br>
           <b>Contact Us</b>
