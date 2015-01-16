@@ -118,9 +118,12 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-12">
     <h3 class="text-primary" style="maring-top:0;">
-      <i class="glyphicon glyphicon-cloud-download"></i>
-      <a href="/digital/">Check out the Digital Branch</a>
-      <small>eBooks, music, magazines, and more</small>
+      <a href="/digital/">Digital Branch</a>
+      
+      <small>
+        <a href="#"><i class="glyphicon glyphicon-cloud-download"></i>
+        eBooks, music, magazines, and more</a>
+      </small>
     </h3>
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
