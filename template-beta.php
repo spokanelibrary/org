@@ -92,7 +92,11 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 
   <div class="col-sm-4 hidden-xs">
-    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=6]'); ?>
+    <div class="panel panel-primary">
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=6]'); ?>
+      </div><!-- /.panel-body -->
+    </div><!-- /.panel -->
   </div><!-- /.col -->
 
 </div><!-- /.row -->
