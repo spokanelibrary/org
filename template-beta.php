@@ -88,11 +88,11 @@ if ( !empty($spl_home) ): ;
 <div class="row"> 
   
   <div class="col-sm-3 col-md-2 hidden-xs">
-    <h4 class="text-primary" style="margin:0; padding:0;">
+    <h4 class="text-primary" style="margin-top:0;">
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a href="/digital/">Download</a>
     </h4>
-    <div class="btn-group-vertical" role="group" aria-label="...">
+    <div class="btn-group-vertical" role="group" aria-label="..." style="margin:auto;">
       <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
         <i class="glyphicon glyphicon-phone"></i>
         <br>
