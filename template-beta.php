@@ -88,7 +88,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row" style="border-bottom: 4px solid #ccc; padding-bottom: 20px;"> 
+<div class="row"> 
   <div class="col-sm-2 hidden-xs">
     Buttons
   </div><!-- /.col -->
@@ -101,7 +101,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row" style="border-bottom: 4px solid #ccc; padding-bottom: 20px;">
+<div class="row" style="border-top: 4px solid #ccc; border-bottom: 4px solid #ccc; padding: 20px 0;">
 
   <div class="col-md-12">
     <h3 class="text-primary">
@@ -156,7 +156,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row" style="border-bottom: 4px solid #ccc; padding-bottom: 20px;"> 
+<div class="row"> 
 
   <div class="col-md-2 hidden-xs">
     Stuff
