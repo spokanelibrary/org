@@ -87,7 +87,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row"> 
   
-  <div class="col-sm-3 hidden-xs">
+  <div class="col-sm-2 hidden-xs">
     <a class="btn btn-block btn-primary" href="/login/">My Account</a>
 
   </div><!-- /.col -->
