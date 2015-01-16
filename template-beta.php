@@ -101,7 +101,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row" style="background: rgb(0,85,135); margin:16px 0; border-top: 4px solid #ccc; border-bottom: 4px solid #ccc;">
+<div class="row" style="background: rgb(200,200,200); margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
 
   <div class="col-md-12">
     <h3 class="text-primary" style="maring-top:0;">
