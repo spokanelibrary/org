@@ -164,11 +164,23 @@ if ( !empty($spl_home) ): ;
 
 <div class="row"> 
 
-  <div class="col-md-2 hidden-xs">
-    Stuff
+  <div class="col-md-4 hidden-xs">
+    <h3 class="text-warning">
+      <i class="glyphicon glyphicon-calendar"></i> 
+      Coming up at your local library
+    </h3>
+    <p>
+      <a class="btn btn-block btn-warning" href="/calendar/">
+        Check the library calendar &rarr;
+      </a>
+    </p>
+    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=12]'); ?>
+    <p class="text-right">
+      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
+    </p>    
   </div><!-- /.col -->
 
-  <div class="col-md-10 hidden-xs">
+  <div class="col-md-8 hidden-xs">
     
     <div class="row">
      
@@ -219,7 +231,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row">
 
-  <div class="col-md-3">
+  <div class="col-md-6">
     <h3 class="text-warning">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
@@ -235,7 +247,7 @@ if ( !empty($spl_home) ): ;
     </p>    
   </div><!-- /.col -->
   
-  <div class="col-md-9">
+  <div class="col-md-6">
     <div class="hidden-xs">
       <h3 class="text-info">
         <i class="glyphicon glyphicon-comment"></i> 
