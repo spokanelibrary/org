@@ -89,7 +89,7 @@ if ( !empty($spl_home) ): ;
 
 
 <div class="row"> 
-  <div class="col-sm-2 hidden-xs">
+  <div class="col-sm-2 hidden-xs" style="background:red;">
     <div class="btn-group-vertical" role="group" aria-label="...">
       <button type="button" class="btn btn-default">Left</button>
       <button type="button" class="btn btn-default">Middle</button>
