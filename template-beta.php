@@ -89,16 +89,22 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-sm-2 hidden-xs">
     <p>
-      <a class="btn btn-block btn-success" href="/login/">
-        <i class="glyphicon glyphicon-user"></i>
-        <br>
-        My Account</a>
+      <a class="btn btn-block btn-success panel-transparent" href="/login/">
+        <span class="text-success">
+          <i class="glyphicon glyphicon-user"></i>
+          <br>
+          <b>My Account</b>
+        </span>
+      </a>
     </p>
     <p>
-      <a class="btn btn-block btn-success" href="/login/">
-        <i class="glyphicon glyphicon-envelope"></i>
-        <br>
-        Contact Us</a>
+      <a class="btn btn-block btn-success panel-transparent" href="/login/">
+        <span class="text-success">
+          <i class="glyphicon glyphicon-envelope"></i>
+          <br>
+          <b>Contact Us</b>
+        </span>
+      </a>
     </p>
   </div><!-- /.col -->
   
