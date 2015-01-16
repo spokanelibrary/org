@@ -88,7 +88,7 @@ if ( !empty($spl_home) ): ;
 <div class="row"> 
   
   
-  <div class="col-sm-9 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-9 col-lg-offset-9 hidden-xs">
+  <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1 hidden-xs">
     <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
   </div><!-- /.col -->
 
