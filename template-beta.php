@@ -116,15 +116,23 @@ if ( !empty($spl_home) ): ;
 
 <div class="row" style="background: rgb(255,255,255); margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
 
-  <div class="col-md-12">
+  <div class="col-md-3">
     <h3 class="text-primary" style="maring-top:0;">
       <a href="/digital/">Digital Branch</a>
-      
-      <small>
-        <a href="#"><i class="glyphicon glyphicon-cloud-download"></i>
-        eBooks, music, magazines, and more</a>
-      </small>
     </h3>
+  </div><!-- /.col -->
+
+  <div class="col-md-3">
+      <a href="#"><i class="glyphicon glyphicon-cloud-download"></i>
+        eBooks &amp; Downloads</a>
+  </div><!-- /.col -->
+
+  <div class="col-md-3">
+    <a href="#"><i class="glyphicon glyphicon-cloud-download"></i>
+        <b>Connected Learning:</b> Training, workshops &amp; certification</a>
+  </div><!-- /.col -->
+
+  <div class="col-md-12">
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
         <i class="glyphicon glyphicon-phone"></i>
