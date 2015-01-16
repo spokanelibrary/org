@@ -105,11 +105,11 @@ if ( !empty($spl_home) ): ;
 
 <div class="row"> 
 
-  <div class="col-md-3 hidden-xs">
+  <div class="col-md-2 hidden-xs">
     Stuff
   </div><!-- /.col -->
 
-  <div class="col-md-9 hidden-xs">
+  <div class="col-md-10 hidden-xs">
     
     <div class="row">
      
