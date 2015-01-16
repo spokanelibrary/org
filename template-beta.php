@@ -96,7 +96,7 @@ if ( !empty($spl_home) ): ;
 <div class="row">
  
   <div class="col-md-12">
-    <h2 style="margin-top:0;" class="clearfix">
+    <h2 style="" class="clearfix">
       <a href="http://news.spokanelibrary.org/newsletter/new-year-new-you-new-day-for-the-library/">New Year, New You, New Day for the Library</a>
       <small>&rarr;</small>
     </h2>
