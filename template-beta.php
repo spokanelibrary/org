@@ -207,7 +207,7 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 
   <div class="col-md-8 hidden-xs">
-    
+      
     <div class="row">
      
       <div class="col-md-12">
