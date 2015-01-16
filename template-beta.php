@@ -88,6 +88,33 @@ if ( !empty($spl_home) ): ;
 <div class="row"> 
   
   <div class="col-sm-3 col-md-2 hidden-xs">
+    <h4 class="text-primary" style="margin:0; padding:0;">
+      <i class="glyphicon glyphicon-cloud-download"></i>
+      <a href="/digital/">Download</a>
+    </h4>
+    <div class="btn-group-vertical" role="group" aria-label="...">
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
+        <i class="glyphicon glyphicon-phone"></i>
+        <br>
+        eBooks
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-50">
+        <i class="glyphicon glyphicon-music"></i>
+        <br>
+        Music
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-40">
+        <i class="glyphicon glyphicon-headphones"></i>
+        <br>
+        Audio Books
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-30">
+        <i class="glyphicon glyphicon-book"></i>
+        <br>
+        Magazines
+      </a>
+    </div>
+    <!--
     <p>
       <a class="btn btn-block btn-default panel-transparent" href="/login/">
           <i class="glyphicon glyphicon-user"></i>
@@ -109,6 +136,7 @@ if ( !empty($spl_home) ): ;
           <b>Contact Us</b>
       </a>
     </p>
+    -->
   </div><!-- /.col -->
   
   <div class="col-sm-9 col-md-10 col-lg-9 hidden-xs">
@@ -131,7 +159,7 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 
   <div class="col-sm-9 col-md-10 col-lg-9 hidden-xs">
-    <div class="btn-group-vertical" role="group" aria-label="...">
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
         <i class="glyphicon glyphicon-phone"></i>
         <br>
