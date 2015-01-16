@@ -89,10 +89,10 @@ if ( !empty($spl_home) ): ;
 
 
 <div class="row"> 
-  <div class="col-sm-1 hidden-xs">
+  <div class="col-sm-2 hidden-xs">
     Buttons
   </div><!-- /.col -->
-  <div class="col-sm-11 hidden-xs">
+  <div class="col-sm-10 hidden-xs">
     <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
   </div><!-- /.col -->
 
