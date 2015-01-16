@@ -87,7 +87,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row"> 
   
-  <div class="col-sm-3 col-md-2 col-lg-3 hidden-xs">
+  <div class="col-sm-3 col-md-2 hidden-xs">
     <p>
       <a class="btn btn-block btn-default panel-transparent" href="/login/">
           <i class="glyphicon glyphicon-user"></i>
