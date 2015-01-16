@@ -88,7 +88,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row"> 
+<div class="row" style="border-bottom: 4px solid #ccc;"> 
   <div class="col-sm-2 hidden-xs">
     Buttons
   </div><!-- /.col -->
@@ -103,7 +103,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row"> 
+<div class="row" style="border-bottom: 4px solid #ccc;"> 
 
   <div class="col-md-2 hidden-xs">
     Stuff
@@ -152,23 +152,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row" style="margin-bottom:500px;">
-  <!--
-  <div class="col-md-3">
-    <div class="btn-group-vertical" role="group" aria-label="...">
-      <button type="button" class="btn btn-default panel-transparent">
-        <i class="glyphicon glyphicon-user"></i>
-        <br>
-        My Account
-      </button>
-      <button type="button" class="btn btn-default panel-transparent">
-        Middle
-      </button>
-      <button type="button" class="btn btn-default panel-transparent">
-        Right
-      </button>
-    </div>
-  </div>--><!-- /.col -->
+<div class="row" style="border-bottom: 4px solid #ccc;">
 
   <div class="col-md-12">
     <h3 class="text-primary">
@@ -220,129 +204,6 @@ if ( !empty($spl_home) ): ;
 
 </div><!-- /.row -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  
-  <div class="col-md-6 hidden-xs">
-    <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
-    <hr class="visible-sm">
-  </div><!-- /.col -->
-
-  <div class="col-md-6 hidden-xs">
-    
-    <div class="row">
- 
-      <div class="col-md-12">
-        <h2 style="margin-top:0;" class="clearfix">
-          <a href="http://news.spokanelibrary.org/newsletter/new-year-new-you-new-day-for-the-library/">New Year, New You, New Day for the Library</a>
-          <small>&rarr;</small>
-        </h2>
-      </div><!-- /.col -->
-
-      <div class="col-md-6">
-        <p class="">
-          <a href="http://news.spokanelibrary.org/newsletter/new-year-new-you-new-day-for-the-library/"
-          ><img style="margin:auto;" class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Shadle_Sunday_hours2-300x282.jpg"></a>
-        </p>
-      </div><!-- /.col -->
-
-      <div class="col-md-6">
-        <h3 style="margin-top:0;" class="text-muted">also in this issue&hellip;</h3>
-        <ul class="nav nav-pills nav-stacked">
-          <li><a href="http://news.spokanelibrary.org/new-year-new-you/">What’s on your “to do” list for 2015? <small class="text-muted">&rarr;</small></a></li>
-          <li><a href="http://news.spokanelibrary.org/dewey_1-15/">Dewey’s (self) helpful side <small class="text-muted">&rarr;</small></a></li>
-          <li><a href="http://news.spokanelibrary.org/5_magazines_1-15/">Five Magazines instead of Five Songs This Month <small class="text-muted">&rarr;</small></a></li>
-        </ul>
-        <!--
-        <p class="">
-          <a class="btn btn-block btn-success" 
-          href="http://news.spokanelibrary.org/">Get the library newsletter &rarr;</a>
-        </p>
-        -->
-      </div><!-- /.col -->
-
-    </div><!-- /.row -->
-
-    <hr class="visible-sm">
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
-
-<div class="row">
-
-  <div class="col-sm-12">
-    <div class="btn-group" role="group" aria-label="...">
-      <button type="button" class="btn btn-default">Left</button>
-      <button type="button" class="btn btn-default">Middle</button>
-      <button type="button" class="btn btn-default">Right</button>
-    </div>
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
-
-
-<div class="row" style="margin-top: 300px; padding-top: 10px; border-width: 4px 0 0 0; border-style: solid; border-color: #ccc /*rgb(100,150,75)*/;">
-
-  <div class="col-md-12 hidden-xs">
-    <h3 class="text-primary" style="margin-top:0;">
-      <i class="glyphicon glyphicon-cloud-download"></i>
-      <a class="text-primary"
-        href="/digital/">
-        Check out the digital branch</a>
-    </h3>
-
-    <h5 class="help-block" style="margin-bottom:20px;">
-      Research
-      &middot;
-      Entertainment
-      &middot;
-      Connected learning
-      &middot;
-      Apps &amp; more
-    </h5>
-
-    <div class="row">
-      <div class="col-md-6">
-        <?php echo do_shortcode('[spl_widget custom-page page=digital-widget]'); ?>
-        <div class="media">
-          <a class="pull-left btn btn-default" href="/subscriptions/">
-            <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-          </a>
-          <div class="media-body">
-            <h5 class="media-heading">
-              <a href="/subscriptions/"><em>Library subscriptions:</em> Online research</a>
-            </h5>
-          </div>
-        </div><!-- /.media -->
-        <p class="">&nbsp;</p>
-      </div><!-- /.col -->
-      <div class="col-md-6">  
-        <?php echo do_shortcode('[spl_widget custom-page page=connected-widget]'); ?>
-        <p class="">&nbsp;</p>
-      </div><!-- /.col -->
-    </div><!-- /.row -->
-    
-    <p>
-      <a class="btn btn-block btn-primary"
-        href="/digital/">Visit the digital branch &rarr;</a>
-    </p>
-    
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
 
 
 
