@@ -87,59 +87,8 @@ if ( !empty($spl_home) ): ;
 
 <div class="row"> 
   
-  <div class="col-sm-3 col-md-2 hidden-xs">
-    <h4 class="text-primary" style="margin-top:0;">
-      <i class="glyphicon glyphicon-cloud-download"></i>
-      <a href="/digital/">Download</a>
-    </h4>
-    <div class="btn-group-vertical center-block" role="group" aria-label="...">
-      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
-        <i class="glyphicon glyphicon-phone"></i>
-        <br>
-        eBooks
-      </a>
-      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-50">
-        <i class="glyphicon glyphicon-music"></i>
-        <br>
-        Music
-      </a>
-      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-40">
-        <i class="glyphicon glyphicon-headphones"></i>
-        <br>
-        Audio Books
-      </a>
-      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-30">
-        <i class="glyphicon glyphicon-book"></i>
-        <br>
-        Magazines
-      </a>
-    </div>
-    <!--
-    <p>
-      <a class="btn btn-block btn-default panel-transparent" href="/login/">
-          <i class="glyphicon glyphicon-user"></i>
-          <br>
-          <b>My Account</b>
-      </a>
-    </p>
-    <p>
-      <a class="btn btn-block btn-default panel-transparent" href="/login/">
-          <i class="glyphicon glyphicon-barcode"></i>
-          <br>
-          <b>Get a Library Card</b>
-      </a>
-    </p>
-    <p>
-      <a class="btn btn-block btn-default panel-transparent" href="/login/">
-          <i class="glyphicon glyphicon-envelope"></i>
-          <br>
-          <b>Contact Us</b>
-      </a>
-    </p>
-    -->
-  </div><!-- /.col -->
   
-  <div class="col-sm-9 col-md-10 col-lg-9 hidden-xs">
+  <div class="col-sm-9 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-9 col-lg-offset-9 hidden-xs">
     <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
   </div><!-- /.col -->
 
@@ -305,6 +254,66 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
+
+<div class="row"> 
+  
+  <div class="col-sm-3 col-md-2 hidden-xs">
+    <h4 class="text-primary" style="margin-top:0;">
+      <i class="glyphicon glyphicon-cloud-download"></i>
+      <a href="/digital/">Download</a>
+    </h4>
+    <div class="btn-group-vertical center-block" role="group" aria-label="...">
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
+        <i class="glyphicon glyphicon-phone"></i>
+        <br>
+        eBooks
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-50">
+        <i class="glyphicon glyphicon-music"></i>
+        <br>
+        Music
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-40">
+        <i class="glyphicon glyphicon-headphones"></i>
+        <br>
+        Audio Books
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-30">
+        <i class="glyphicon glyphicon-book"></i>
+        <br>
+        Magazines
+      </a>
+    </div>
+    <!--
+    <p>
+      <a class="btn btn-block btn-default panel-transparent" href="/login/">
+          <i class="glyphicon glyphicon-user"></i>
+          <br>
+          <b>My Account</b>
+      </a>
+    </p>
+    <p>
+      <a class="btn btn-block btn-default panel-transparent" href="/login/">
+          <i class="glyphicon glyphicon-barcode"></i>
+          <br>
+          <b>Get a Library Card</b>
+      </a>
+    </p>
+    <p>
+      <a class="btn btn-block btn-default panel-transparent" href="/login/">
+          <i class="glyphicon glyphicon-envelope"></i>
+          <br>
+          <b>Contact Us</b>
+      </a>
+    </p>
+    -->
+  </div><!-- /.col -->
+  
+  <div class="col-sm-9 col-md-10 col-lg-9 hidden-xs">
+    <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
 
 
 <div class="row">
