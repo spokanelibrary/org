@@ -87,7 +87,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row"> 
   
-  <div class="col-sm-2 hidden-xs">
+  <div class="col-sm-3 col-md-2 hidden-xs">
     <p>
       <a class="btn btn-block btn-default panel-transparent" href="/login/">
           <i class="glyphicon glyphicon-user"></i>
@@ -99,7 +99,7 @@ if ( !empty($spl_home) ): ;
       <a class="btn btn-block btn-default panel-transparent" href="/login/">
           <i class="glyphicon glyphicon-barcode"></i>
           <br>
-          <b>Get a library card</b>
+          <b>Get a Library Card</b>
       </a>
     </p>
     <p>
@@ -111,7 +111,7 @@ if ( !empty($spl_home) ): ;
     </p>
   </div><!-- /.col -->
   
-  <div class="col-sm-10 hidden-xs">
+  <div class="col-sm-9 col-md-10 hidden-xs">
     <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
   </div><!-- /.col -->
 
