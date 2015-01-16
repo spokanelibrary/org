@@ -167,14 +167,6 @@ if ( !empty($spl_home) ): ;
     </div>
   </div><!-- /.col -->
 
-  <div class="col-md-6">
-    eBooks &amp; Downloads
-  </div><!-- /.col -->
-  
-  <div class="col-md-6">
-    Connected learning
-  </div><!-- /.col -->
-
 </div><!-- /.row -->
 
 
