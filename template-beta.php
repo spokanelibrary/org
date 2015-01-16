@@ -88,7 +88,9 @@ if ( !empty($spl_home) ): ;
 <div class="row"> 
   
   <div class="col-sm-2 hidden-xs">
-    <a class="btn btn-block btn-primary" href="/login/">My Account</a>
+    <a class="btn btn-block btn-success" href="/login/">
+      <i class="glyphicon glyphicon-user"></i>
+      My Account</a>
 
   </div><!-- /.col -->
   
