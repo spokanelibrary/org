@@ -129,17 +129,7 @@ if ( !empty($spl_home) ): ;
     </h3>
   </div><!-- /.col -->
 
-  <div class="col-md-3">
-      <a href="#"><i class="glyphicon glyphicon-cloud-download"></i>
-        eBooks &amp; Downloads</a>
-  </div><!-- /.col -->
-
-  <div class="col-md-6">
-    <a href="#"><i class="glyphicon glyphicon-globe"></i>
-        <b>Connected Learning:</b> Training, workshops &amp; certification</a>
-  </div><!-- /.col -->
-
-  <div class="col-md-12">
+  <div class="col-md-9">
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
         <i class="glyphicon glyphicon-phone"></i>
@@ -160,16 +150,6 @@ if ( !empty($spl_home) ): ;
         <i class="glyphicon glyphicon-book"></i>
         <br>
         Magazines
-      </a>
-      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-20">
-        <i class="glyphicon glyphicon-sort-by-alphabet"></i>
-        <br>
-        Research Tools
-      </a>
-      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-10">
-        Technology Training
-        <br>
-        &amp; Workshops
       </a>
     </div>
   </div><!-- /.col -->
@@ -240,7 +220,60 @@ if ( !empty($spl_home) ): ;
 
 
 
+<div class="row" style="background: rgb(255,255,255); padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
 
+  <div class="col-md-3">
+    <h3 class="text-primary" style="margin-top:0; padding-top:0;">
+      <a href="/digital/">Digital Branch:</a>
+    </h3>
+  </div><!-- /.col -->
+
+  <div class="col-md-3">
+      <a href="#"><i class="glyphicon glyphicon-cloud-download"></i>
+        eBooks &amp; Downloads</a>
+  </div><!-- /.col -->
+
+  <div class="col-md-6">
+    <a href="#"><i class="glyphicon glyphicon-globe"></i>
+        <b>Connected Learning:</b> Training, workshops &amp; certification</a>
+  </div><!-- /.col -->
+
+  <div class="col-md-12">
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
+        <i class="glyphicon glyphicon-phone"></i>
+        <br>
+        eBooks
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-50">
+        <i class="glyphicon glyphicon-music"></i>
+        <br>
+        Music
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-40">
+        <i class="glyphicon glyphicon-headphones"></i>
+        <br>
+        Audio Books
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-30">
+        <i class="glyphicon glyphicon-book"></i>
+        <br>
+        Magazines
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-20">
+        <i class="glyphicon glyphicon-sort-by-alphabet"></i>
+        <br>
+        Research Tools
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-10">
+        Technology Training
+        <br>
+        &amp; Workshops
+      </a>
+    </div>
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
 
 
 
