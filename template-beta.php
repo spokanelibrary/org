@@ -96,7 +96,7 @@ if ( !empty($spl_home) ): ;
       <button type="button" class="btn btn-default">Right</button>
     </div>
   </div><!-- /.col -->
-  <div class="col-sm-12 hidden-xs">
+  <div class="col-sm-10 hidden-xs">
     <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
   </div><!-- /.col -->
 
