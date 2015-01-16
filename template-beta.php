@@ -201,14 +201,14 @@ if ( !empty($spl_home) ): ;
         </h2>
       </div><!-- /.col -->
 
-      <div class="col-md-6">
+      <div class="col-md-4">
         <p class="">
           <a href="http://news.spokanelibrary.org/newsletter/new-year-new-you-new-day-for-the-library/"
           ><img style="margin:auto;" class="img-responsive img-rounded hidden-xs" src="http://news.spokanelibrary.org/wordpress/media/Shadle_Sunday_hours2-300x282.jpg"></a>
         </p>
       </div><!-- /.col -->
 
-      <div class="col-md-6">
+      <div class="col-md-8">
         <h3 style="margin-top:0;" class="text-muted">also in this issue&hellip;</h3>
         <ul class="nav nav-pills nav-stacked">
           <li><a href="http://news.spokanelibrary.org/new-year-new-you/">What’s on your “to do” list for 2015? <small class="text-muted">&rarr;</small></a></li>
