@@ -92,7 +92,7 @@ if ( !empty($spl_home) ): ;
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a href="/digital/">Download</a>
     </h4>
-    <div class="btn-group-vertical" role="group" aria-label="..." style="margin:auto;">
+    <div class="btn-group-vertical center-block" role="group" aria-label="...">
       <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
         <i class="glyphicon glyphicon-phone"></i>
         <br>
