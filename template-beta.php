@@ -95,10 +95,10 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="panel panel-primary">
+<div class="panel panel-primary" style="margin-top:16px;">
   <div class="panel-heading">
-    <h3 class="text-muted text-center" style="margin-top:0;">
-      Visit the  <a href="/digital/">Digital Branch</a> to download eBooks, music, &amp; more
+    <h3 class="panel-title text-center">
+      Visit the Digital Branch to download eBooks, music, &amp; more
     </h3>
   </div>
 </div>
