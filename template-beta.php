@@ -156,7 +156,7 @@ if ( !empty($spl_home) ): ;
       <b>Read the library blog</b> <small>&rarr;</small>
       </a>
     </p>
-    <?php echo do_shortcode('[spl_widget recent-posts limit=3]'); ?>
+    <?php echo do_shortcode('[spl_widget recent-posts count=3]'); ?>
     <p>&nbsp;</p>
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
@@ -175,7 +175,7 @@ if ( !empty($spl_home) ): ;
       <?php echo do_shortcode('[spl_widget browse-list list=star]'); ?>
       <p>&nbsp;</p>
       <p class="text-right">
-        <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
+        <a class="btn btn-link btn-sm" href="/blog/">More staff picks &rarr;</a>
       </p>
     </div>
   </div><!-- /.col -->
