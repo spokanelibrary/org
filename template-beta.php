@@ -115,17 +115,17 @@ if ( !empty($spl_home) ): ;
         eBooks
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
-        <i class="glyphicon glyphicon-music"></i>
+        <i class="glyphicon glyphicon-music text-primary"></i>
         <br>
         Music
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-40">
-        <i class="glyphicon glyphicon-headphones"></i>
+        <i class="glyphicon glyphicon-headphones text-primary"></i>
         <br>
         Audio Books
       </a>
       <a style="border:none; border:none; border-top-right-radius:0;" class="btn btn-primary spl-blue-tint-30">
-        <i class="glyphicon glyphicon-book"></i>
+        <i class="glyphicon glyphicon-book text-primary"></i>
         <br>
         Magazines
       </a>
