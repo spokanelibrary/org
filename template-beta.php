@@ -145,7 +145,7 @@ if ( !empty($spl_home) ): ;
         <b>Coming up soon</b> <small>&rarr;</small>
       </a>
     </p>
-    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=3]'); ?>
+    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>    
