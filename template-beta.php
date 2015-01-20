@@ -139,6 +139,7 @@ if ( !empty($spl_home) ): ;
 <div class="row">
 
   <div class="col-md-5">
+    
     <h3 class="text-warning">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
@@ -148,15 +149,12 @@ if ( !empty($spl_home) ): ;
         Check the library calendar &rarr;
       </a>
     </p>
-    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=6]'); ?>
+    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=3]'); ?>
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>    
-  </div><!-- /.col -->
-  
-  <div class="col-md-7">
-    <div class="hidden-xs">
-      <h3 class="text-info">
+
+    <h3 class="text-info">
         <i class="glyphicon glyphicon-comment"></i> 
         From the reference desk
       </h3> 
@@ -165,7 +163,20 @@ if ( !empty($spl_home) ): ;
         Read the library blog &rarr;
         </a>
       </p>
-      <?php echo do_shortcode('[spl_widget browse-list list=star]'); ?>
+      <?php echo do_shortcode('[spl_widget recent-posts limit=3]'); ?>
+      <p>&nbsp;</p>
+      <p class="text-right">
+        <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
+      </p>
+
+  </div><!-- /.col -->
+  
+  <div class="col-md-7">
+    <div class="hidden-xs">
+      <h3 class="text-success">
+        <i class="glyphicon glyphicon-comment"></i> 
+        What we're reading
+      </h3> 
       <?php //echo do_shortcode('[spl_widget recent-posts limit=6]'); ?>
       <p>&nbsp;</p>
       <p class="text-right">
