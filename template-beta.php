@@ -98,7 +98,7 @@ if ( !empty($spl_home) ): ;
 
 
   <div class="col-md-12">
-    <div class="panel panel-primary" style="margin-bottom:0; border-bottom-radius:0;">
+    <div class="panel panel-primary" style="margin-bottom:0; border-bottom-left-radius:0;">
       <div class="panel-heading">
         <h3 class="panel-title text-center">
           Visit the Digital Branch to download eBooks, music, &amp; more
