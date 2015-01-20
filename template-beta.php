@@ -156,7 +156,7 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-7 hidden-xs">
       
-    <img src="/assets/img/png/spl-devices.png">
+    <img class="img-responsive img-rounded" src="/assets/img/png/spl-devices.png">
 
   
   </div><!-- /.col -->
