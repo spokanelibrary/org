@@ -173,6 +173,8 @@ if ( !empty($spl_home) ): ;
     <h3 class="text-primary" style="margin-top:0; padding-top:0;">
       <a href="/digital/">Digital Branch:</a>
     </h3>
+    <br>
+    <img src="img-rounded img-responsive" src="/assets/img/png/spl-devices.png">
   </div><!-- /.col -->
 
   <div class="col-md-3">
