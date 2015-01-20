@@ -148,7 +148,7 @@ if ( !empty($spl_home) ): ;
         Check the library calendar &rarr;
       </a>
     </p>
-    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=12]'); ?>
+    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=6]'); ?>
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>    
@@ -165,7 +165,7 @@ if ( !empty($spl_home) ): ;
         Read the library blog &rarr;
         </a>
       </p>
-      <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
+      <?php echo do_shortcode('[spl_widget recent-posts limit=6]'); ?>
       <p>&nbsp;</p>
       <p class="text-right">
         <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
