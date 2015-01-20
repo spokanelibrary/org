@@ -107,6 +107,12 @@ if ( !empty($spl_home) ): ;
     </div>
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
+      <a style="border:none; border-bottom-left-radius:0; border-bottom-right-radius:0;" class="btn btn-primary">
+        Visit the Digital Branch to download eBooks, music, &amp; more
+      </a>
+    </div>
+
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none; border-top-left-radius:0;" class="btn btn-primary spl-blue-tint-60">
         <i class="glyphicon glyphicon-phone"></i>
         <br>
