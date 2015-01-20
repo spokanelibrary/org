@@ -89,13 +89,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row"> 
   
-  <div class="hidden-xs col-sm-2">
-    My Account
-    <br>
-    Get a Card
-  </div><!-- /.col -->
-
-  <div class="hidden-xs col-sm-10">
+  <div class="hidden-xs col-sm-12">
     <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
   </div><!-- /.col -->
 
@@ -116,22 +110,22 @@ if ( !empty($spl_home) ): ;
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none; border-top-left-radius:0;" class="btn btn-primary spl-blue-tint-60">
-        <i class="glyphicon glyphicon-phone text-primary"></i>
+        <i class="glyphicon glyphicon-phone"></i>
         <br>
         <b>eBooks</b>
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
-        <i class="glyphicon glyphicon-music text-primary"></i>
+        <i class="glyphicon glyphicon-music"></i>
         <br>
         <b>Music</b>
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-40">
-        <i class="glyphicon glyphicon-headphones text-primary"></i>
+        <i class="glyphicon glyphicon-headphones"></i>
         <br>
         <b>Audio Books</b>
       </a>
       <a style="border:none; border:none; border-top-right-radius:0;" class="btn btn-primary spl-blue-tint-30">
-        <i class="glyphicon glyphicon-book text-primary"></i>
+        <i class="glyphicon glyphicon-book"></i>
         <br>
         <b>Magazines</b>
       </a>
