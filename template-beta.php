@@ -101,13 +101,13 @@ if ( !empty($spl_home) ): ;
 
   <div class="">
 
-    <a class="btn btn-lg btn-link">
+    <a class="btn btn-lg btn-block btn-link">
       <i class="glyphicon glyphicon-cloud-download"></i>
       Visit the <b>Digital Branch</b> to download eBooks, music, &amp; more
     </a>
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a style="border:none; border-top-left-radius:0;" class="btn btn-primary spl-blue-tint-60">
+      <a style="border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
         <i class="glyphicon glyphicon-phone"></i>
         <br>
         <b>eBooks</b>
@@ -122,7 +122,7 @@ if ( !empty($spl_home) ): ;
         <br>
         <b>Audio Books</b>
       </a>
-      <a style="border:none; border:none; border-top-right-radius:0;" class="btn btn-primary spl-blue-tint-30">
+      <a style="border:none; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-30">
         <i class="glyphicon glyphicon-book"></i>
         <br>
         <b>Magazines</b>
