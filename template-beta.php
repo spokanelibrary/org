@@ -98,7 +98,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row" style="background: rgb(150,200,100); padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
+<div class="row" style="background: rgb(250,250,250); padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
 
   <div class="col-sm-3 col-md-2 hidden-xs">
     <h4 class="text-primary" style="margin:0; padding:0;">
