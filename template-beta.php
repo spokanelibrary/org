@@ -165,7 +165,7 @@ if ( !empty($spl_home) ): ;
         Read the library blog &rarr;
         </a>
       </p>
-      <?php echo do_shortcode('[spl_widget browse-list menu=true list=star]'); ?>
+      <?php echo do_shortcode('[spl_widget browse-list list=star]'); ?>
       <?php //echo do_shortcode('[spl_widget recent-posts limit=6]'); ?>
       <p>&nbsp;</p>
       <p class="text-right">
