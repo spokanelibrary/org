@@ -180,8 +180,8 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-7">
     <div class="hidden-xs">
-      <h3 class="text-success">
-        <i class="glyphicon glyphicon-book"></i>
+      <h3 class="text-muted">
+        <a class="btn btn-lg btn-success" href="/browse/"><i class="glyphicon glyphicon-thumbs-up"></i></a>
         What we're reading
       </h3>
       <!--
