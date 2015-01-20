@@ -104,9 +104,7 @@ if ( !empty($spl_home) ): ;
         </h3>
       </div>
     </div>
-  </div><!-- /.col -->
 
-  <div class="col-md-12">
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
         <i class="glyphicon glyphicon-phone"></i>
