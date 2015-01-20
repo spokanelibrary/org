@@ -99,24 +99,21 @@ if ( !empty($spl_home) ): ;
 
 <div class="row" style="/*background: rgb(245,245,245);*/ /*background-image:url('http://beta.spokanelibrary.org/assets/img/png/spl-devices.png'); background-repeat:no-repeat;*/ padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
 
-  <div class="col-md-4">
+  <div class="col-md-12">
     <h4 class="text-primary" style="margin:0; padding:0;">
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a href="/digital/">Digital Branch</a>
     </h4>
   </div><!-- /.col -->
 
-  <div class="col-md-4">
-    <h4 class="text-primary" style="margin:0; padding:0;">
-      <i class="glyphicon glyphicon-cloud-download"></i>
-      <a href="/digital/">Coming up soon</a>
-    </h4>
+  <div class="col-md-6">
+    eBooks &amp; Downloads
   </div><!-- /.col -->
 
-  <div class="col-md-4">
+  <div class="col-md-6">
     <h4 class="text-primary" style="margin:0; padding:0;">
-      <i class="glyphicon glyphicon-cloud-download"></i>
-      <a href="/digital/">What we're reading</a>
+      <i class="glyphicon glyphicon-globe"></i>
+      <a href="/digital/">Connected Learning</a>
     </h4>
   </div><!-- /.col -->
   
