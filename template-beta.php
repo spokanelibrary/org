@@ -97,16 +97,13 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row" style="/*background: rgb(245,245,245);*/ background-image:url('http://beta.spokanelibrary.org/assets/img/png/spl-devices.png'); padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
-  <div class="col-sm-12 hidden-xs">
+<div class="row" style="/*background: rgb(245,245,245);*/ background-image:url('http://beta.spokanelibrary.org/assets/img/png/spl-devices.png'); background-repeat:no-repeat; background-position: top middle; padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
+
+  <div class="col-sm-3 col-md-2 hidden-xs">
     <h4 class="text-primary" style="margin:0; padding:0;">
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a href="/digital/">Download</a>
     </h4>
-  </div><!-- /.col -->
-    
-  <div class="col-sm-3 col-md-2 hidden-xs">
-    <img class="img-responsive img-rounded" src="/assets/img/png/spl-devices.png">
   </div><!-- /.col -->
 
   <div class="col-sm-9 col-md-10 col-lg-9 hidden-xs">
