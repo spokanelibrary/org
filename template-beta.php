@@ -140,8 +140,8 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-5">
     
-    <h3 class="">
-      <i class="glyphicon glyphicon-calendar"></i> 
+    <h3 class="text-muted">
+      <i class="glyphicon glyphicon-calendar text-warning"></i> 
       Coming up at your local library
     </h3>
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=3]'); ?>
@@ -151,8 +151,8 @@ if ( !empty($spl_home) ): ;
       </a>
     </p> 
 
-    <h3 class="text-info">
-        <i class="glyphicon glyphicon-comment"></i> 
+    <h3 class="text-muted">
+        <i class="glyphicon glyphicon-comment text-info"></i> 
         From the reference desk
       </h3> 
       <?php echo do_shortcode('[spl_widget recent-posts limit=3]'); ?>
