@@ -104,6 +104,8 @@ if ( !empty($spl_home) ): ;
       <i class="glyphicon glyphicon-cloud-download"></i>
       <a href="/digital/">Download</a>
     </h4>
+    <br>
+    <img class="img-responsive img-rounded" src="/assets/img/png/spl-devices.png">
   </div><!-- /.col -->
 
   <div class="col-sm-9 col-md-10 col-lg-9 hidden-xs">
@@ -156,8 +158,7 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-7 hidden-xs">
       
-    <img class="img-responsive img-rounded" src="/assets/img/png/spl-devices.png">
-
+    Blog
   
   </div><!-- /.col -->
 
