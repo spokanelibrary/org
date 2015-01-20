@@ -97,39 +97,29 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row" style="/*background: rgb(245,245,245);*/ background-image:url('http://beta.spokanelibrary.org/assets/img/png/spl-devices.png'); background-repeat:no-repeat; background-position: top middle; padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
+<div class="row" style="/*background: rgb(245,245,245);*/ /*background-image:url('http://beta.spokanelibrary.org/assets/img/png/spl-devices.png'); background-repeat:no-repeat;*/ padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
 
-  <div class="col-sm-3 col-md-2 hidden-xs">
+  <div class="col-md-4">
     <h4 class="text-primary" style="margin:0; padding:0;">
       <i class="glyphicon glyphicon-cloud-download"></i>
-      <a href="/digital/">Download</a>
+      <a href="/digital/">Digital Branch</a>
     </h4>
   </div><!-- /.col -->
 
-  <div class="col-sm-9 col-md-10 col-lg-9 hidden-xs">
-    <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
-        <i class="glyphicon glyphicon-phone"></i>
-        <br>
-        eBooks
-      </a>
-      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-50">
-        <i class="glyphicon glyphicon-music"></i>
-        <br>
-        Music
-      </a>
-      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-40">
-        <i class="glyphicon glyphicon-headphones"></i>
-        <br>
-        Audio Books
-      </a>
-      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-30">
-        <i class="glyphicon glyphicon-book"></i>
-        <br>
-        Magazines
-      </a>
-    </div>
+  <div class="col-md-4">
+    <h4 class="text-primary" style="margin:0; padding:0;">
+      <i class="glyphicon glyphicon-cloud-download"></i>
+      <a href="/digital/">Coming up soon</a>
+    </h4>
   </div><!-- /.col -->
+
+  <div class="col-md-4">
+    <h4 class="text-primary" style="margin:0; padding:0;">
+      <i class="glyphicon glyphicon-cloud-download"></i>
+      <a href="/digital/">What we're reading</a>
+    </h4>
+  </div><!-- /.col -->
+  
 
 </div><!-- /.row -->
 
@@ -223,6 +213,41 @@ if ( !empty($spl_home) ): ;
 
 </div><!-- /.row -->
 
+<div class="row" style="/*background: rgb(245,245,245);*/ /*background-image:url('http://beta.spokanelibrary.org/assets/img/png/spl-devices.png'); background-repeat:no-repeat;*/ padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
+
+  <div class="col-sm-3 col-md-2 hidden-xs">
+    <h4 class="text-primary" style="margin:0; padding:0;">
+      <i class="glyphicon glyphicon-cloud-download"></i>
+      <a href="/digital/">Download</a>
+    </h4>
+  </div><!-- /.col -->
+
+  <div class="col-sm-9 col-md-10 col-lg-9 hidden-xs">
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-60">
+        <i class="glyphicon glyphicon-phone"></i>
+        <br>
+        eBooks
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-50">
+        <i class="glyphicon glyphicon-music"></i>
+        <br>
+        Music
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-40">
+        <i class="glyphicon glyphicon-headphones"></i>
+        <br>
+        Audio Books
+      </a>
+      <a style="border:none;" class="btn btn-sm btn-primary spl-blue-tint-30">
+        <i class="glyphicon glyphicon-book"></i>
+        <br>
+        Magazines
+      </a>
+    </div>
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
 
 
 <div class="row"> 
