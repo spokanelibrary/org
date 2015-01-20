@@ -106,8 +106,8 @@ if ( !empty($spl_home) ): ;
       </div>
     </div>
 
-    <div class="btn-group btn-group-justified" role="group" aria-label="..." style="border-top-left-radius:0; border-top-right-radius:0;">
-      <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-60" style="border-top-left-radius:0;">
         <i class="glyphicon glyphicon-phone"></i>
         <br>
         eBooks
@@ -122,7 +122,7 @@ if ( !empty($spl_home) ): ;
         <br>
         Audio Books
       </a>
-      <a style="border:none;" class="btn btn-primary spl-blue-tint-30">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-30" style="border-top-right-radius:0;">
         <i class="glyphicon glyphicon-book"></i>
         <br>
         Magazines
