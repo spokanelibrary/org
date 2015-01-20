@@ -172,7 +172,7 @@ if ( !empty($spl_home) ): ;
         <b>What we're reading</b> <small>&rarr;</small>
         </a>
       </p>
-      <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=3]'); ?>
+      <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=4]'); ?>
       <p>&nbsp;</p>
       <p class="text-right">
         <a class="btn btn-link btn-sm" href="/blog/">More staff picks &rarr;</a>
