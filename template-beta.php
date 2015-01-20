@@ -164,12 +164,18 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-7">
     <div class="hidden-xs">
+      <h3 class="text-success">
+        <i class="glyphicon glyphicon-book"></i>
+        What we're reading
+      </h3>
+      <!--
       <p>
         <a class="btn btn-block btn-success" href="/browse/">
         <i class="glyphicon glyphicon-book"></i> 
         <b>What we're reading</b> <small>&rarr;</small>
         </a>
       </p>
+      -->
       <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=4]'); ?>
       <p>&nbsp;</p>
       <p class="text-right">
