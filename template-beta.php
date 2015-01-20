@@ -86,7 +86,7 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="row" style="/*background: rgb(245,245,245);*/ /*background-image:url('http://beta.spokanelibrary.org/assets/img/png/spl-devices.png'); background-repeat:no-repeat;*/ padding: 6px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
+<div class="row">
 
 
   <div class="col-md-12">
@@ -124,7 +124,7 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="row"> 
+<div class="row" style="padding: 6px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);"> 
     
   <div class="hidden-xs col-sm-12">
     <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
