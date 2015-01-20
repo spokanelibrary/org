@@ -86,7 +86,7 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="row">
+<div class="row" style="margin-top:0;">
 
 
   <div class="col-md-12">
