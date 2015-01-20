@@ -100,6 +100,8 @@ if ( !empty($spl_home) ): ;
     <h3 class="panel-title text-center">
       Visit the Digital Branch to download eBooks, music, &amp; more
     </h3>
+  </div>
+  <div class="panel-body">
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
@@ -123,7 +125,7 @@ if ( !empty($spl_home) ): ;
         Magazines
       </a>
     </div>
-    
+
   </div>
 </div>
 
