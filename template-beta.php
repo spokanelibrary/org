@@ -137,7 +137,7 @@ if ( !empty($spl_home) ): ;
 <div class="row">
 
   <div class="col-md-5">
-    <h3 class="text-warning">
+    <h3 class="">
       <i class="glyphicon glyphicon-calendar"></i>
       On our calendar
     </h3>
