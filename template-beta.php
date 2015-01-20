@@ -138,7 +138,7 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-5">
     <h3 class="text-muted">
-      <a class="btn btn-warning"><i class="glyphicon glyphicon-calendar"></i></a>
+      <a class="btn btn-lg btn-warning"><i class="glyphicon glyphicon-calendar"></i></a>
       On our calendar
     </h3>
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
