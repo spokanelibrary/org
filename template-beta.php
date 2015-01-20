@@ -142,7 +142,7 @@ if ( !empty($spl_home) ): ;
     <p>
       <a class="btn btn-block btn-warning" href="/calendar/">
         <i class="glyphicon glyphicon-calendar"></i>
-        <b>Coming up soon</b> &rarr;
+        <b>Coming up soon</b> <small>&rarr;</small>
       </a>
     </p>
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=3]'); ?>
@@ -153,7 +153,7 @@ if ( !empty($spl_home) ): ;
     <p>
       <a class="btn btn-block btn-info" href="/blog/">
       <i class="glyphicon glyphicon-comment"></i> 
-      <b>Read the library blog</b> &rarr;
+      <b>Read the library blog</b> <small>&rarr;</small>
       </a>
     </p>
     <?php echo do_shortcode('[spl_widget recent-posts limit=3]'); ?>
@@ -166,13 +166,10 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-7">
     <div class="hidden-xs">
-      <h3 class="text-success">
-        <i class="glyphicon glyphicon-book"></i> 
-        What we're reading
-      </h3> 
       <p>
-        <a class="btn btn-block btn-info" href="/blog/">
-        Read the library blog &rarr;
+        <a class="btn btn-block btn-success" href="/browse/">
+        <i class="glyphicon glyphicon-book"></i> 
+        <b>What we're reading</b> <small>&rarr;</small>
         </a>
       </p>
       <?php echo do_shortcode('[spl_widget browse-list list=star]'); ?>
