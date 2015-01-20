@@ -99,6 +99,7 @@ if ( !empty($spl_home) ): ;
   <div class="panel-heading">
     <h3 class="panel-title text-center">
       Visit the Digital Branch to download eBooks, music, &amp; more
+      <a class="btn btn-primary" href="/digital/">Go &rarr;</a>
     </h3>
   </div>
 </div>
