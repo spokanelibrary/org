@@ -177,7 +177,12 @@ if ( !empty($spl_home) ): ;
         <i class="glyphicon glyphicon-comment"></i> 
         What we're reading
       </h3> 
-      <?php echo do_shortcode('[spl_widget recent-posts limit=6]'); ?>
+      <p>
+        <a class="btn btn-block btn-info" href="/blog/">
+        Read the library blog &rarr;
+        </a>
+      </p>
+      <?php echo do_shortcode('[spl_widget browse-list list=star]'); ?>
       <p>&nbsp;</p>
       <p class="text-right">
         <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
