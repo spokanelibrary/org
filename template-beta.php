@@ -136,9 +136,9 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row"> 
+<div class="row">
 
-  <div class="col-md-5 hidden-xs">
+  <div class="col-md-6">
     <h3 class="text-warning">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
@@ -153,11 +153,24 @@ if ( !empty($spl_home) ): ;
       <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
     </p>    
   </div><!-- /.col -->
-
-  <div class="col-md-7 hidden-xs">
-      
-    Blog
   
+  <div class="col-md-6">
+    <div class="hidden-xs">
+      <h3 class="text-info">
+        <i class="glyphicon glyphicon-comment"></i> 
+        From the reference desk
+      </h3> 
+      <p>
+        <a class="btn btn-block btn-info" href="/blog/">
+        Read the library blog &rarr;
+        </a>
+      </p>
+      <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
+      <p>&nbsp;</p>
+      <p class="text-right">
+        <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
+      </p>
+    </div>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
@@ -321,42 +334,5 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="row">
 
-  <div class="col-md-6">
-    <h3 class="text-warning">
-      <i class="glyphicon glyphicon-calendar"></i> 
-      Coming up at your local library
-    </h3>
-    <p>
-      <a class="btn btn-block btn-warning" href="/calendar/">
-        Check the library calendar &rarr;
-      </a>
-    </p>
-    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=12]'); ?>
-    <p class="text-right">
-      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
-    </p>    
-  </div><!-- /.col -->
-  
-  <div class="col-md-6">
-    <div class="hidden-xs">
-      <h3 class="text-info">
-        <i class="glyphicon glyphicon-comment"></i> 
-        From the reference desk
-      </h3> 
-      <p>
-        <a class="btn btn-block btn-info" href="/blog/">
-        Read the library blog &rarr;
-        </a>
-      </p>
-      <?php echo do_shortcode('[spl_widget recent-posts]'); ?>
-      <p>&nbsp;</p>
-      <p class="text-right">
-        <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
-      </p>
-    </div>
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
 
