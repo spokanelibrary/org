@@ -137,16 +137,22 @@ if ( !empty($spl_home) ): ;
 <div class="row">
 
   <div class="col-md-5">
+    <h3 class="">
+        <i class="glyphicon glyphicon-book"></i>
+        What we're reading
+      </h3>
+    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
+    <!--
+    <p class="text-right">
+      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
+    </p>
+    -->    
     <p>
       <a class="btn btn-block btn-warning" href="/calendar/">
         <i class="glyphicon glyphicon-calendar"></i>
         <b>Coming up soon</b> <small>&rarr;</small>
       </a>
     </p>
-    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
-    <p class="text-right">
-      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
-    </p>    
 
     <p>
       <a class="btn btn-block btn-info" href="/blog/">
