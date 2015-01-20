@@ -100,10 +100,8 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-12">
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a style="border:none; border-bottom-left-radius:0; border-bottom-right-radius:0;" class="btn btn-primary spl-blue-tint-80">
-        Visit the Digital Branch to download eBooks, music, &amp; more
-        <br>
-        &nbsp;
+      <a style="border:none; border-bottom-left-radius:0; border-bottom-right-radius:0;" class="btn btn-lg btn-primary spl-blue-tint-80">
+        <b>Visit the Digital Branch to download eBooks, music, &amp; more</b>
       </a>
     </div>
 
