@@ -167,7 +167,7 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-7">
     <div class="hidden-xs">
       <h3 class="text-success">
-        <i class="glyphicon glyphicon-comment"></i> 
+        <i class="glyphicon glyphicon-book"></i> 
         What we're reading
       </h3> 
       <p>
