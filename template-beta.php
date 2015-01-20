@@ -144,29 +144,23 @@ if ( !empty($spl_home) ): ;
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
     </h3>
+    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=3]'); ?>
     <p>
       <a class="btn btn-block btn-warning" href="/calendar/">
         Check the library calendar &rarr;
       </a>
-    </p>
-    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=3]'); ?>
-    <p class="text-right">
-      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
-    </p>    
+    </p> 
 
     <h3 class="text-info">
         <i class="glyphicon glyphicon-comment"></i> 
         From the reference desk
       </h3> 
+      <?php echo do_shortcode('[spl_widget recent-posts limit=3]'); ?>
+      <p>&nbsp;</p>
       <p>
         <a class="btn btn-block btn-info" href="/blog/">
         Read the library blog &rarr;
         </a>
-      </p>
-      <?php echo do_shortcode('[spl_widget recent-posts limit=3]'); ?>
-      <p>&nbsp;</p>
-      <p class="text-right">
-        <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
       </p>
 
   </div><!-- /.col -->
