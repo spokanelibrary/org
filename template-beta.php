@@ -156,7 +156,8 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-7 hidden-xs">
       
-    Blog stuff
+    <img src="/assets/img/png/spl-devices.png">
+
   
   </div><!-- /.col -->
 
@@ -166,7 +167,6 @@ if ( !empty($spl_home) ): ;
 
 
 
-<img src="/assets/img/png/spl-devices.png">
 <div class="row" style="background: rgb(255,255,255); padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
 
   <div class="col-md-3">
