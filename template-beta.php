@@ -166,7 +166,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-
+<img class="img-rounded img-responsive" src="/assets/img/png/spl-devices.png">
 <div class="row" style="background: rgb(255,255,255); padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
 
   <div class="col-md-3">
@@ -174,7 +174,7 @@ if ( !empty($spl_home) ): ;
       <a href="/digital/">Digital Branch:</a>
     </h3>
     <br>
-    <img  src="/assets/img/png/spl-devices.png">
+    
   </div><!-- /.col -->
 
   <div class="col-md-3">
