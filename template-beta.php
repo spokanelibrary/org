@@ -161,8 +161,8 @@ if ( !empty($spl_home) ): ;
       From the reference desk
     </h3>
     <?php echo do_shortcode('[spl_widget recent-posts count=3]'); ?>
-    <!--
     <p>&nbsp;</p>
+    <!--
     <p class="text-right">
       <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
     </p>
