@@ -155,7 +155,7 @@ if ( !empty($spl_home) ): ;
     </p>
 
     
-    <h3 class="text-info">
+    <h3 class="">
       <i class="glyphicon glyphicon-comment"></i> 
       From the reference desk
     </h3>
