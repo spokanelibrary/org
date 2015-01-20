@@ -88,8 +88,14 @@ if ( !empty($spl_home) ): ;
 
 
 <div class="row"> 
-    
-  <div class="hidden-xs col-sm-12">
+  
+  <div class="hidden-xs col-sm-2">
+    My Account
+    <br>
+    Get a Card
+  </div><!-- /.col -->
+
+  <div class="hidden-xs col-sm-10">
     <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
   </div><!-- /.col -->
 
