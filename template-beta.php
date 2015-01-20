@@ -86,7 +86,17 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="row">
+
+<div class="row"> 
+    
+  <div class="hidden-xs col-sm-12">
+    <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
+
+
+<div class="row" style="padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(225,225,225); border-bottom: 4px solid rgb(225,225,225);">
 
 
   <div class="col-md-12">
@@ -125,13 +135,6 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="row" style="padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(225,225,225); border-bottom: 4px solid rgb(225,225,225);"> 
-    
-  <div class="hidden-xs col-sm-12">
-    <?php echo do_shortcode('[spl_carousel_hero auto random slug=carousel]'); ?>
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
 
 <div class="row"> 
 
