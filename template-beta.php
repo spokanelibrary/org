@@ -96,6 +96,57 @@ if ( !empty($spl_home) ): ;
 
 <div class="row" style="/*background: rgb(245,245,245);*/ /*background-image:url('http://beta.spokanelibrary.org/assets/img/png/spl-devices.png'); background-repeat:no-repeat;*/ padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
 
+  <div class="btn-group-vertical" role="group" aria-label="...">
+    
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
+        <i class="glyphicon glyphicon-phone"></i>
+        <br>
+        eBooks
+      </a>
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
+        <i class="glyphicon glyphicon-music"></i>
+        <br>
+        Music
+      </a>
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-40">
+        <i class="glyphicon glyphicon-headphones"></i>
+        <br>
+        Audio Books
+      </a>
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-30">
+        <i class="glyphicon glyphicon-book"></i>
+        <br>
+        Magazines
+      </a>
+    </div>
+
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-60">
+        <i class="glyphicon glyphicon-phone"></i>
+        <br>
+        eBooks
+      </a>
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
+        <i class="glyphicon glyphicon-music"></i>
+        <br>
+        Music
+      </a>
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-40">
+        <i class="glyphicon glyphicon-headphones"></i>
+        <br>
+        Audio Books
+      </a>
+      <a style="border:none;" class="btn btn-primary spl-blue-tint-30">
+        <i class="glyphicon glyphicon-book"></i>
+        <br>
+        Magazines
+      </a>
+    </div>
+
+  </div>
+
+
   <div class="col-md-12">
     <div class="panel panel-primary" style="margin-bottom:0;">
       <div class="panel-heading">
