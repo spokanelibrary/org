@@ -92,7 +92,7 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-12">
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a style="border:none; border-bottom-left-radius:0; border-bottom-right-radius:0;" class="btn btn-lg btn-default spl-blue-tint-80">
+      <a style="border-bottom-left-radius:0; border-bottom-right-radius:0;" class="btn btn-lg btn-default">
         <i class="glyphicon glyphicon-cloud-download"></i>
         Visit the <b>Digital Branch</b> to download eBooks, music, &amp; more
       </a>
