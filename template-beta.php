@@ -122,7 +122,7 @@ if ( !empty($spl_home) ): ;
         <br>
         Audio Books
       </a>
-      <a style="border:none;" class="btn btn-primary spl-blue-tint-30" style="border-top-right-radius:0;">
+      <a style="border:none; border:none; border-top-right-radius:0;" class="btn btn-primary spl-blue-tint-30">
         <i class="glyphicon glyphicon-book"></i>
         <br>
         Magazines
