@@ -138,8 +138,8 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-5">
     <h3 class="">
-        <i class="glyphicon glyphicon-book"></i>
-        What we're reading
+        <i class="glyphicon glyphicon-calendar"></i>
+        On our calendar
       </h3>
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
     <!--
