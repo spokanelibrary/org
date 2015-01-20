@@ -101,9 +101,7 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-12">
     <h3 class="text-primary" style="margin:0; padding:0;">
-      <i class="glyphicon glyphicon-cloud-download"></i>
-      <a href="/digital/">Digital Branch</a>
-      <small>eBooks &amp; Downloads</small>
+      <a href="/digital/">Visit the Digital Branch to download eBooks, music, &amp; more</a>
     </h3>
   </div><!-- /.col -->
 
