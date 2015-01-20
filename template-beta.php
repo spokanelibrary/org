@@ -97,7 +97,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row" style="background: rgb(245,245,245); background-img:url('/assets/img/png/spl-devices.png') padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
+<div class="row" style="/*background: rgb(245,245,245);*/ background-image:url('/assets/img/png/spl-devices.png') padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
   <div class="col-sm-12 hidden-xs">
     <h4 class="text-primary" style="margin:0; padding:0;">
       <i class="glyphicon glyphicon-cloud-download"></i>
