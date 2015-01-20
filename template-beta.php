@@ -139,7 +139,7 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-5">
     <h3 class="text-warning">
       <i class="glyphicon glyphicon-calendar"></i>
-      <span class="text-muted">On our calendar</span>
+      On our calendar
     </h3>
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
     <!--
@@ -154,25 +154,28 @@ if ( !empty($spl_home) ): ;
       </a>
     </p>
 
+    <hr>
     
-    <h3 class="">
+    <h3 class="text-muted">
       <i class="glyphicon glyphicon-comment"></i> 
       From the reference desk
     </h3>
     <?php echo do_shortcode('[spl_widget recent-posts count=3]'); ?>
+    <!--
     <p>&nbsp;</p>
+    <p class="text-right">
+      <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
+    </p>
+    -->
     <p>
       <a class="btn btn-block btn-info" href="/blog/">
       <i class="glyphicon glyphicon-comment"></i> 
       <b>Read the library blog</b> <small>&rarr;</small>
       </a>
     </p>
-    <!--
-    <p class="text-right">
-      <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
-    </p>
-    -->
 
+    <hr>
+    
   </div><!-- /.col -->
   
   <div class="col-md-7">
