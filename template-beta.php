@@ -86,10 +86,10 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="row" style="margin-top:0;">
+<div class="row">
 
 
-  <div class="col-md-12">
+  <div class="col-md-12"  style="margin-top:0;">
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none; border-bottom-left-radius:0; border-bottom-right-radius:0;" class="btn btn-lg btn-primary spl-blue-tint-80">
