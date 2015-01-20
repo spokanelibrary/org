@@ -139,28 +139,31 @@ if ( !empty($spl_home) ): ;
 <div class="row">
 
   <div class="col-md-5">
-    
-    <h3 class="text-muted">
-      <i class="glyphicon glyphicon-calendar text-warning"></i> 
-      Coming up at your local library
-    </h3>
-    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=3]'); ?>
+    <p class="text-right">
+      <i class="glyphicon glyphicon-calendar"></i> 
+      <a class="btn btn-link btn-sm" href="/calendar/">Coming up soon</a>
+    </p>  
     <p>
       <a class="btn btn-block btn-warning" href="/calendar/">
         Check the library calendar &rarr;
       </a>
-    </p> 
+    </p>
+    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=3]'); ?>
+      
 
-    <h3 class="text-muted">
-        <i class="glyphicon glyphicon-comment text-info"></i> 
+    <h3 class="text-info">
+        <i class="glyphicon glyphicon-comment"></i> 
         From the reference desk
       </h3> 
-      <?php echo do_shortcode('[spl_widget recent-posts limit=3]'); ?>
-      <p>&nbsp;</p>
       <p>
         <a class="btn btn-block btn-info" href="/blog/">
         Read the library blog &rarr;
         </a>
+      </p>
+      <?php echo do_shortcode('[spl_widget recent-posts limit=3]'); ?>
+      <p>&nbsp;</p>
+      <p class="text-right">
+        <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
       </p>
 
   </div><!-- /.col -->
