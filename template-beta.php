@@ -96,17 +96,15 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="" style="padding: 10px 0; margin: 16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
+<div class="" style="padding: 0px 0; margin: 16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
 
 
   <div class="">
 
-    <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a style="border-color:rgb(0,85,135); border-bottom-left-radius:0; border-bottom-right-radius:0;" class="btn btn-lg btn-default">
-        <i class="glyphicon glyphicon-cloud-download"></i>
-        Visit the <b>Digital Branch</b> to download eBooks, music, &amp; more
-      </a>
-    </div>
+    <a class="btn btn-lg btn-link">
+      <i class="glyphicon glyphicon-cloud-download"></i>
+      Visit the <b>Digital Branch</b> to download eBooks, music, &amp; more
+    </a>
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none; border-top-left-radius:0;" class="btn btn-primary spl-blue-tint-60">
