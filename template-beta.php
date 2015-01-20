@@ -95,6 +95,13 @@ if ( !empty($spl_home) ): ;
 
 
 
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="text-muted text-center" style="margin-top:0;">
+      Visit the  <a href="/digital/">Digital Branch</a> to download eBooks, music, &amp; more
+    </h3>
+  </div>
+</div>
 
 
 <div class="row" style="/*background: rgb(245,245,245);*/ /*background-image:url('http://beta.spokanelibrary.org/assets/img/png/spl-devices.png'); background-repeat:no-repeat;*/ padding: 16px 0; margin:16px 0; border-top: 4px solid rgb(0,85,135); border-bottom: 4px solid rgb(0,85,135);">
