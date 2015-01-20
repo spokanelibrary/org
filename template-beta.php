@@ -138,7 +138,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row">
 
-  <div class="col-md-5">
+  <div class="col-md-5" style="background:#ececec;">
     <h3 class="text-warning">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
