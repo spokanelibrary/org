@@ -117,17 +117,17 @@ if ( !empty($spl_home) ): ;
       <a style="border:none;" class="btn btn-primary spl-blue-tint-50">
         <i class="glyphicon glyphicon-music text-primary"></i>
         <br>
-        Music
+        <b>Music</b>
       </a>
       <a style="border:none;" class="btn btn-primary spl-blue-tint-40">
         <i class="glyphicon glyphicon-headphones text-primary"></i>
         <br>
-        Audio Books
+        <b>Audio Books</b>
       </a>
       <a style="border:none; border:none; border-top-right-radius:0;" class="btn btn-primary spl-blue-tint-30">
         <i class="glyphicon glyphicon-book text-primary"></i>
         <br>
-        Magazines
+        <b>Magazines</b>
       </a>
     </div>
   </div><!-- /.col -->
