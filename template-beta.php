@@ -138,7 +138,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row">
 
-  <div class="col-md-6">
+  <div class="col-md-5">
     <h3 class="text-warning">
       <i class="glyphicon glyphicon-calendar"></i> 
       Coming up at your local library
@@ -154,7 +154,7 @@ if ( !empty($spl_home) ): ;
     </p>    
   </div><!-- /.col -->
   
-  <div class="col-md-6">
+  <div class="col-md-7">
     <div class="hidden-xs">
       <h3 class="text-info">
         <i class="glyphicon glyphicon-comment"></i> 
