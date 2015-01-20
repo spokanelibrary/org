@@ -139,17 +139,16 @@ if ( !empty($spl_home) ): ;
 <div class="row">
 
   <div class="col-md-5">
-    <p class="text-right">
-      <i class="glyphicon glyphicon-calendar"></i> 
-      <a class="btn btn-link btn-sm" href="/calendar/">Coming up soon</a>
-    </p>  
     <p>
       <a class="btn btn-block btn-warning" href="/calendar/">
-        Check the library calendar &rarr;
+        <i class="glyphicon glyphicon-calendar"></i>
+        Coming up soon &rarr;
       </a>
     </p>
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=3]'); ?>
-      
+    <p class="text-right">
+      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
+    </p>    
 
     <h3 class="text-info">
         <i class="glyphicon glyphicon-comment"></i> 
