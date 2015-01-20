@@ -174,7 +174,7 @@ if ( !empty($spl_home) ): ;
       <a href="/digital/">Digital Branch:</a>
     </h3>
     <br>
-    <img class="img-rounded img-responsive" src="/assets/img/png/spl-devices.png">
+    <img  src="/assets/img/png/spl-devices.png">
   </div><!-- /.col -->
 
   <div class="col-md-3">
