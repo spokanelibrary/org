@@ -141,10 +141,10 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-5">
 
     <div class="spl-hero-panel spl-hero-warning">
-      <h3 class="text-center panel-title">
+      <h4 class="text-center">
         <i class="glyphicon glyphicon-calendar"></i>
         On our calendar
-      </h3>
+      </h4>
     </div>
 
     <h3 class="text-muted">
