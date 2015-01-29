@@ -104,22 +104,14 @@ if ( !empty($spl_home) ): ;
 
 
 <div class="spl-hero-panel spl-hero-primary spl-hero-digital">
-    <a class="btn btn-lg btn-block btn-link" style="color:#fff">
-      <i class="glyphicon glyphicon-cloud-download"></i>
-      Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span>
-    </a>
-</div>
-
-<div class="">
 
 
   <div class="">
-    <!--
+
     <a class="btn btn-lg btn-block btn-link" style="color:#fff">
       <i class="glyphicon glyphicon-cloud-download"></i>
       Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span>
     </a>
-  -->
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a style="border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
