@@ -108,7 +108,6 @@ if ( !empty($spl_home) ): ;
     <?php echo do_shortcode('[spl_carousel_beta auto random shuffle news posts promo=learning,digital slug=carousel title="Read. Learn. Discover."]'); ?>
   </div><!-- /.col -->
 
-</div><!-- /.row -->
   <div class="col-sm-12 col-md-pull-12">
 
     <div class="spl-hero-panel spl-hero-primary spl-hero-digital">
