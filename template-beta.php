@@ -52,7 +52,7 @@ if ( !empty($spl_home) ): ;
 </div>
 -->
 
-<div class="row visible-xs">
+<div class="row visible-xs visible-sm">
   <div class="col-xs-12">
     <div class="list-group">
       <a href="/login/" class="list-group-item">
@@ -113,77 +113,64 @@ if ( !empty($spl_home) ): ;
 
 <div class="spl-hero-panel spl-hero-primary spl-hero-digital">
 
+  <a href="/digital/" class="btn btn-lg btn-block btn-link" style="color:#fff">
+    <i class="glyphicon glyphicon-cloud-download"></i>
+    Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span>
+  </a>
 
-  <div class="">
-
-    <a href="/digital/" class="btn btn-lg btn-block btn-link" style="color:#fff">
-      <i class="glyphicon glyphicon-cloud-download"></i>
-      Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span>
+  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+    <a href="/ebooks/" style="height:50px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
+      <i class="glyphicon glyphicon-phone"></i>
+      <br>
+      <span class="hidden-xs"><b>eBooks <small>&rarr;</small></b></span>
     </a>
+    <a href="/emusic/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-50">
+      <i class="glyphicon glyphicon-music"></i>
+      <br>
+      <span class="hidden-xs"><b>Music <small>&rarr;</small></b></span>
+    </a>
+    <a href="/eaudio/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-40">
+      <i class="glyphicon glyphicon-headphones"></i></span>
+      <br>
+      <span class="hidden-xs"><b>Audio Books <small>&rarr;</small></b></span>
+    </a>
+    <a href="/emagazines/" style="height:50px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-30">
+      <i class="glyphicon glyphicon-book"></i>
+      <br>
+      <span class="hidden-xs"><b>Magazines <small>&rarr;</small></b></span>
+    </a>
+  </div>
 
-    <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a href="/ebooks/" style="height:50px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
-        <i class="glyphicon glyphicon-phone"></i>
-        <br>
-        <span class="hidden-xs"><b>eBooks <small>&rarr;</small></b></span>
-      </a>
-      <a href="/emusic/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-50">
-        <i class="glyphicon glyphicon-music"></i>
-        <br>
-        <span class="hidden-xs"><b>Music <small>&rarr;</small></b></span>
-      </a>
-      <a href="/eaudio/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-40">
-        <i class="glyphicon glyphicon-headphones"></i></span>
-        <br>
-        <span class="hidden-xs"><b>Audio Books <small>&rarr;</small></b></span>
-      </a>
-      <a href="/emagazines/" style="height:50px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-30">
-        <i class="glyphicon glyphicon-book"></i>
-        <br>
-        <span class="hidden-xs"><b>Magazines <small>&rarr;</small></b></span>
-      </a>
-    </div>
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
+</div>
 
 
 
 <div class="row">
 
   <div class="col-md-5">
-
     <div class="spl-hero-panel spl-hero-warning">
       <h4 class="text-center">
         <i class="glyphicon glyphicon-calendar"></i>
         <a href="/calendar/">On our calendar</a>
       </h4>
     </div>
-
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
-
     <p class="text-right">
       <a href="/calendar/"><b>Full events calendar</b> <small>&rarr;</small></a>
     </p>
-
   </div><!-- /.col -->
   
   <div class="col-md-7">
-    <div class="">
-      <div class="spl-hero-panel spl-hero-default">
-        <h4 class="text-center">
-          <i class="glyphicon glyphicon-thumbs-up"></i>
-          <a href="/calendar/">What we're reading</a>
-        </h4>
-      </div>
-      
-      <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=5]'); ?>
-      
-      <p class="text-right">
-        <a href="/browse/"><b>More staff picks</b> <small>&rarr;</small></a>
-      </p>
-
+    <div class="spl-hero-panel spl-hero-default">
+      <h4 class="text-center">
+        <i class="glyphicon glyphicon-thumbs-up"></i>
+        <a href="/calendar/">What we're reading</a>
+      </h4>
     </div>
+    <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=5]'); ?>
+    <p class="text-right">
+      <a href="/browse/"><b>More staff picks</b> <small>&rarr;</small></a>
+    </p>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
