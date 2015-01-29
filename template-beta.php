@@ -98,7 +98,7 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="spl-hero-panel spl-hero-panel-alt" style="">
+<div class="spl-hero-panel spl-hero-panel-alt" style="padding:0;">
 
 
   <div class="">
