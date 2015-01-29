@@ -32,9 +32,9 @@ if ( !empty($spl_home) ): ;
     Announcements
   </h3>
 </div>
-<p class="lead">
-  <?php echo $post->post_content; ?>
-</p>
+<blockquote>
+<?php echo $post->post_content; ?>
+</blockquote>
 <?php endif; ?>
 
 <!--
