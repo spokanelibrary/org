@@ -157,7 +157,7 @@ if ( !empty($spl_home) ): ;
     <p class="text-right">
       <a href="/calendar/"><b>Full events calendar</b> <small>&rarr;</small></a>
     </p>
-        
+
   </div><!-- /.col -->
   
   <div class="col-md-7">
@@ -169,7 +169,7 @@ if ( !empty($spl_home) ): ;
         </h4>
       </div>
       
-      <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=4]'); ?>
+      <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=5]'); ?>
       
       <p class="text-right">
         <a href="/browse/"><b>More staff picks</b> <small>&rarr;</small></a>
