@@ -152,18 +152,11 @@ if ( !empty($spl_home) ): ;
       </h4>
     </div>
 
-    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
-    <!--
     <p class="text-right">
-      <a class="btn btn-link btn-sm" href="/calendar/">Full events calendar &rarr;</a>
+      <a href="/calendar/">Full events calendar <small>&rarr;</small></a>
     </p>
-    -->    
-    <p>
-      <a class="btn btn-block btn-warning" href="/calendar/">
-        <i class="glyphicon glyphicon-calendar"></i>
-        <b>Coming up soon</b> <small>&rarr;</small>
-      </a>
-    </p>
+
+    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
     
   </div><!-- /.col -->
   
@@ -175,19 +168,13 @@ if ( !empty($spl_home) ): ;
           What we're reading
         </h4>
       </div>
-      <!--
-      <p>
-        <a class="btn btn-block btn-success" href="/browse/">
-        <i class="glyphicon glyphicon-book"></i> 
-        <b>What we're reading</b> <small>&rarr;</small>
-        </a>
-      </p>
-      -->
-      <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=4]'); ?>
-      <p>&nbsp;</p>
+      
       <p class="text-right">
-        <a class="btn btn-link btn-sm" href="/blog/">More staff picks &rarr;</a>
+        <a href="/browse/">More staff picks <small>&rarr;</small></a>
       </p>
+
+      <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=4]'); ?>
+      
     </div>
   </div><!-- /.col -->
 
