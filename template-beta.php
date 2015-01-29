@@ -164,7 +164,7 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-7">
     <div class="hidden-xs">
-      <div class="spl-hero-panel spl-hero-primary">
+      <div class="spl-hero-panel spl-hero-alt">
         <h4 class="text-center">
           <i class="glyphicon glyphicon-thumbs-up"></i>
           What we're reading
