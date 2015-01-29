@@ -186,10 +186,12 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-7">
     <div class="hidden-xs">
-      <h3 class="text-muted">
-        <a class="btn btn-lg btn-success" href="/browse/"><i class="glyphicon glyphicon-thumbs-up"></i></a>
-        What we're reading
-      </h3>
+      <div class="spl-hero-panel spl-hero-danger">
+        <h3 class="text-center">
+          <i class="glyphicon glyphicon-thumbs-up"></i>
+          What we're reading
+        </h3>
+      </div>
       <!--
       <p>
         <a class="btn btn-block btn-success" href="/browse/">
