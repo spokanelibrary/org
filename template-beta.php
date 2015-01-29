@@ -148,7 +148,7 @@ if ( !empty($spl_home) ): ;
     <div class="spl-hero-panel spl-hero-warning">
       <h4 class="text-center">
         <i class="glyphicon glyphicon-calendar"></i>
-        On our calendar
+        <a href="/calendar/">On our calendar <small>&rarr;</small></a>
       </h4>
     </div>
 
