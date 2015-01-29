@@ -26,7 +26,7 @@ $spl_home = $post->post_content;
 $spl_home = trim($spl_home);
 if ( !empty($spl_home) ): ;
 ?>
-<div class="alert alert-success">
+<div class="spl-hero-panel">
   <?php echo $post->post_content; ?>
 </div>
 <?php endif; ?>
