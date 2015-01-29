@@ -122,25 +122,25 @@ if ( !empty($spl_home) ): ;
     </a>
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a href="/ebooks/" style="border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
+      <a href="/ebooks/" style="min-height:50px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
         <i class="glyphicon glyphicon-phone"></i>
         <br>
-        &nbsp;<span class="hidden-xs"><b>eBooks <small>&rarr;</small></b></span>&nbsp;
+        <span class="hidden-xs"><b>eBooks <small>&rarr;</small></b></span>
       </a>
       <a href="/emusic/" style="border:none;" class="btn btn-primary spl-blue-tint-50">
         <i class="glyphicon glyphicon-music"></i>
         <br>
-        &nbsp;<span class="hidden-xs"><b>Music <small>&rarr;</small></b></span>&nbsp;
+        <span class="hidden-xs"><b>Music <small>&rarr;</small></b></span>
       </a>
       <a href="/eaudio/" style="border:none;" class="btn btn-primary spl-blue-tint-40">
         <i class="glyphicon glyphicon-headphones"></i></span>
         <br>
-        &nbsp;<span class="hidden-xs"><b>Audio Books <small>&rarr;</small></b></span>&nbsp;
+        <span class="hidden-xs"><b>Audio Books <small>&rarr;</small></b></span>
       </a>
       <a href="/emagazines/" style="border:none; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-30">
         <i class="glyphicon glyphicon-book"></i>
         <br>
-        &nbsp;<span class="hidden-xs"><b>Magazines <small>&rarr;</small></b></span>&nbsp;
+        <span class="hidden-xs"><b>Magazines <small>&rarr;</small></b></span>
       </a>
     </div>
   </div><!-- /.col -->
