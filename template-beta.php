@@ -27,7 +27,7 @@ $spl_home = trim($spl_home);
 if ( !empty($spl_home) ): ;
 ?>
 <div class="spl-hero-panel spl-hero-default">
-  <h3>
+  <h3 style="text-center">
     <i class="glyphicon glyphicon-bullhorn"></i>
     Announcements
   </h3>
