@@ -152,9 +152,9 @@ if ( !empty($spl_home) ): ;
       </h4>
     </div>
 
-    <p class="text-right">
+    <div class="text-right">
       <a href="/calendar/">Full events calendar <small>&rarr;</small></a>
-    </p>
+    </div>
 
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
     
@@ -169,9 +169,9 @@ if ( !empty($spl_home) ): ;
         </h4>
       </div>
       
-      <p class="text-right">
+      <div class="text-right">
         <a href="/browse/">More staff picks <small>&rarr;</small></a>
-      </p>
+      </div>
 
       <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=4]'); ?>
       
