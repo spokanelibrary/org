@@ -26,9 +26,15 @@ $spl_home = $post->post_content;
 $spl_home = trim($spl_home);
 if ( !empty($spl_home) ): ;
 ?>
-<div class="spl-hero-panel">
-  <?php echo $post->post_content; ?>
+<div class="spl-hero-panel spl-hero-default">
+  <h3>
+    <i class="glyphicon glyphicon-bullhorn"></i>
+    Announcements
+  </h3>
 </div>
+<p class="lead">
+  <?php echo $post->post_content; ?>
+</p>
 <?php endif; ?>
 
 <!--
