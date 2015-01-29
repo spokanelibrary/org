@@ -104,45 +104,47 @@ if ( !empty($spl_home) ): ;
 
 <div class="row"> 
   
-  <div class=" col-sm-12">
+  <div class="col-sm-12 col-md-push-12">
     <?php echo do_shortcode('[spl_carousel_beta auto random shuffle news posts promo=learning,digital slug=carousel title="Read. Learn. Discover."]'); ?>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
+  <div class="col-sm-12 col-md-pull-12">
 
+    <div class="spl-hero-panel spl-hero-primary spl-hero-digital">
 
-<div class="spl-hero-panel spl-hero-primary spl-hero-digital">
+      <a href="/digital/" class="btn btn-lg btn-block btn-link" style="color:#fff">
+        <i class="glyphicon glyphicon-cloud-download"></i>
+        Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span>
+      </a>
 
-  <a href="/digital/" class="btn btn-lg btn-block btn-link" style="color:#fff">
-    <i class="glyphicon glyphicon-cloud-download"></i>
-    Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span>
-  </a>
+      <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <a href="/ebooks/" style="height:50px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
+          <i class="glyphicon glyphicon-phone"></i>
+          <br>
+          <span class="hidden-xs"><b>eBooks <small>&rarr;</small></b></span>
+        </a>
+        <a href="/emusic/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-50">
+          <i class="glyphicon glyphicon-music"></i>
+          <br>
+          <span class="hidden-xs"><b>Music <small>&rarr;</small></b></span>
+        </a>
+        <a href="/eaudio/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-40">
+          <i class="glyphicon glyphicon-headphones"></i></span>
+          <br>
+          <span class="hidden-xs"><b>Audio Books <small>&rarr;</small></b></span>
+        </a>
+        <a href="/emagazines/" style="height:50px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-30">
+          <i class="glyphicon glyphicon-book"></i>
+          <br>
+          <span class="hidden-xs"><b>Magazines <small>&rarr;</small></b></span>
+        </a>
+      </div>
 
-  <div class="btn-group btn-group-justified" role="group" aria-label="...">
-    <a href="/ebooks/" style="height:50px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
-      <i class="glyphicon glyphicon-phone"></i>
-      <br>
-      <span class="hidden-xs"><b>eBooks <small>&rarr;</small></b></span>
-    </a>
-    <a href="/emusic/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-50">
-      <i class="glyphicon glyphicon-music"></i>
-      <br>
-      <span class="hidden-xs"><b>Music <small>&rarr;</small></b></span>
-    </a>
-    <a href="/eaudio/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-40">
-      <i class="glyphicon glyphicon-headphones"></i></span>
-      <br>
-      <span class="hidden-xs"><b>Audio Books <small>&rarr;</small></b></span>
-    </a>
-    <a href="/emagazines/" style="height:50px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-30">
-      <i class="glyphicon glyphicon-book"></i>
-      <br>
-      <span class="hidden-xs"><b>Magazines <small>&rarr;</small></b></span>
-    </a>
-  </div>
+    </div>
+  </div><!-- /.col -->
 
-</div>
-
+</div><!-- /.row -->
 
 
 <div class="row">
