@@ -29,7 +29,7 @@ if ( !empty($spl_home) ): ;
 <div class="spl-hero-panel spl-hero-danger" style="margin-bottom:10px;">
   <h3 class="text-center">
     <span class="pull-left"><i class="glyphicon glyphicon-bullhorn"></i></span>
-    Please read <small>important library news</small>
+    Please read <small class="hidden-xs">this important announcement</small>
   </h3>
 </div>
 <?php echo $post->post_content; ?>
