@@ -28,6 +28,8 @@ function spl_get_home_url() {
   </ul>
 </header>
 
+<?php include('header-search.php'); ?>
+
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
     <div class="navbar-header">
@@ -118,4 +120,4 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
-<?php include('header-search.php'); ?>
+<?php //include('header-search.php'); ?>
