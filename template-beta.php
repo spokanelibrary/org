@@ -141,10 +141,10 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-5">
 
     <div class="spl-hero-panel spl-hero-warning">
-      <h3 class="text-center">
+      <h4 class="text-center">
         <i class="glyphicon glyphicon-calendar"></i>
         On our calendar
-      </h3>
+      </h4>
     </div>
 
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
@@ -159,38 +159,16 @@ if ( !empty($spl_home) ): ;
         <b>Coming up soon</b> <small>&rarr;</small>
       </a>
     </p>
-
-    <hr>
-    
-    <h3 class="text-muted">
-    <a class="btn btn-lg btn-info" href="/blog/"><i class="glyphicon glyphicon-comment"></i></a>
-      From the reference desk
-    </h3>
-    <?php echo do_shortcode('[spl_widget recent-posts count=3]'); ?>
-    <p>&nbsp;</p>
-    <!--
-    <p class="text-right">
-      <a class="btn btn-link btn-sm" href="/blog/">More on the library blog &rarr;</a>
-    </p>
-    -->
-    <p>
-      <a class="btn btn-block btn-info" href="/blog/">
-      <i class="glyphicon glyphicon-comment"></i> 
-      <b>Read the library blog</b> <small>&rarr;</small>
-      </a>
-    </p>
-
-    <hr class="visible-xs">
     
   </div><!-- /.col -->
   
   <div class="col-md-7">
     <div class="hidden-xs">
       <div class="spl-hero-panel spl-hero-alt">
-        <h3 class="text-center">
+        <h4 class="text-center">
           <i class="glyphicon glyphicon-thumbs-up"></i>
           What we're reading
-        </h3>
+        </h4>
       </div>
       <!--
       <p>
