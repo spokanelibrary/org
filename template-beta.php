@@ -28,13 +28,11 @@ if ( !empty($spl_home) ): ;
 ?>
 <div class="spl-hero-panel spl-hero-danger" style="margin-bottom:10px;">
   <h3 class="text-center">
-    <i class="glyphicon glyphicon-bullhorn"></i>
-    Announcements
+    <span class="pull-left"><i class="glyphicon glyphicon-bullhorn"></i></span>
+    Please read
   </h3>
 </div>
-<blockquote>
 <?php echo $post->post_content; ?>
-</blockquote>
 <?php endif; ?>
 
 <!--
