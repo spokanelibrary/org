@@ -103,7 +103,7 @@ if ( !empty($spl_home) ): ;
 
   <div class="">
 
-    <a class="btn btn-lg btn-block btn-link">
+    <a class="btn btn-lg btn-block btn-primary spl-blue-tint-80">
       <i class="glyphicon glyphicon-cloud-download"></i>
       Visit the <b>Digital Branch</b> <span class="hidden-xs">to download eBooks, music, &amp; more</span>
     </a>
