@@ -105,7 +105,7 @@ if ( !empty($spl_home) ): ;
 
     <a class="btn btn-lg btn-block btn-link">
       <i class="glyphicon glyphicon-cloud-download"></i>
-      Visit the <b>Digital Branch</b> to download eBooks, music, &amp; more
+      Visit the <b>Digital Branch</b> <span class="hidden-xs">to download eBooks, music, &amp; more</span>
     </a>
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
