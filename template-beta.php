@@ -26,7 +26,7 @@ $spl_home = $post->post_content;
 $spl_home = trim($spl_home);
 if ( !empty($spl_home) ): ;
 ?>
-<div class="spl-hero-panel spl-hero-default" style-"margin-bottom:0;">
+<div class="spl-hero-panel spl-hero-default" style="margin-bottom:0;">
   <h3 style="text-center">
     <i class="glyphicon glyphicon-bullhorn"></i>
     Announcements
