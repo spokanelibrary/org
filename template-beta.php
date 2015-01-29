@@ -98,7 +98,7 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="spl-hero-panel spl-hero-alt" style="padding:0;">
+<div class="spl-hero-panel spl-hero-primary" style="padding:0;">
 
 
   <div class="">
@@ -186,7 +186,7 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-7">
     <div class="hidden-xs">
-      <div class="spl-hero-panel spl-hero-primary">
+      <div class="spl-hero-panel spl-hero-alt">
         <h3 class="text-center">
           <i class="glyphicon glyphicon-thumbs-up"></i>
           What we're reading
