@@ -98,12 +98,12 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="" style="padding: 0px 0; margin-top: 20px; border-top: 5px solid rgb(0,85,135); border-bottom: 5px solid rgb(0,85,135);">
+<div class="spl-blue-tint-80" style="padding: 0px 0; margin-top: 20px; border-top: 5px solid rgb(0,85,135); border-bottom: 5px solid rgb(0,85,135);">
 
 
   <div class="">
 
-    <a class="btn btn-lg btn-block btn-primary spl-blue-tint-80">
+    <a class="btn btn-lg btn-block btn-link" style="color:#fff">
       <i class="glyphicon glyphicon-cloud-download"></i>
       Visit the <b>Digital Branch</b> <span class="hidden-xs">to download eBooks, music, &amp; more</span>
     </a>
