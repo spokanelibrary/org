@@ -58,24 +58,31 @@ if ( !empty($spl_home) ): ;
       <a href="/open/" class="list-group-item">
         <span class="text-primary">Is the library open?</span> <small>&rarr;</small>
       </a>
+      <!--
       <a href="/catalog/" class="list-group-item">
         <span class="text-primary">Library catalog</span> <small>&rarr;</small>
       </a>
+      -->
       <a href="/login/" class="list-group-item">
         <span class="text-primary">My account</span> <small>&rarr;</small>
       </a>
       <a href="/storytime/" class="list-group-item">
         <span class="text-primary">Storytime schedules</span> <small>&rarr;</small>
       </a>
+      <!--
       <a href="/calendar/" class="list-group-item">
         <span class="text-primary">Check events calendar</span> <small>&rarr;</small>
       </a>
+      -->
+      <!--
       <a href="/digital/" class="list-group-item">
         <span class="text-primary">Digital branch</span> <small>&rarr;</small>
       </a>
+      -->
       <a href="/apps/" class="list-group-item">
         <span class="text-primary">Mobile apps</span> <small>&rarr;</small>
       </a>
+      <!--
       <a href="/connect/" class="list-group-item">
         <span class="text-primary">Contact the library</span> <small>&rarr;</small>
       </a>
@@ -88,6 +95,7 @@ if ( !empty($spl_home) ): ;
       <a href="/news/" class="list-group-item">
         <span class="text-primary">Read library news</span> <small>&rarr;</small>
       </a>
+      -->
     </div><!-- /.list-group -->
   </div><!-- /.col -->
 </div><!-- /.row -->
