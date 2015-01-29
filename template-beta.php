@@ -186,7 +186,7 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-7">
     <div class="hidden-xs">
-      <div class="spl-hero-panel spl-hero-success">
+      <div class="spl-hero-panel spl-hero-primary">
         <h3 class="text-center">
           <i class="glyphicon glyphicon-thumbs-up"></i>
           What we're reading
