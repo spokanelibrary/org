@@ -31,6 +31,7 @@ if ( !empty($spl_home) ): ;
 </div>
 <?php endif; ?>
 
+<!--
 <div class="visible-sm">
   <div class="navbar navbar-inverse" style="margin-top: 0px; margin-bottom: 0px; background:transparent; border:none;">
     <span class="text-muted">
@@ -44,6 +45,7 @@ if ( !empty($spl_home) ): ;
     </button>     
   </div>
 </div>
+-->
 
 <div class="row visible-xs">
   <div class="col-xs-12">
