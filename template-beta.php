@@ -152,7 +152,7 @@ if ( !empty($spl_home) ): ;
       </h4>
     </div>
 
-    <div class="spl-hero-panel spl-hero-default">
+    <div class="panel panel-warning">
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
     </div>
     <!--
