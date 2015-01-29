@@ -98,7 +98,7 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="" style="padding: 0px 0; margin-top: 20px; border-top: 5px solid rgb(0,85,135); border-bottom: 5px solid rgb(0,85,135);">
+<div class="" style="padding: 0px 0; margin-top: 20px; margin-bottom:20px; border-top: 5px solid rgb(0,85,135); border-bottom: 5px solid rgb(0,85,135);">
 
 
   <div class="">
