@@ -127,17 +127,17 @@ if ( !empty($spl_home) ): ;
         <br>
         <span class="hidden-xs"><b>eBooks <small>&rarr;</small></b></span>
       </a>
-      <a href="/emusic/" style="border:none;" class="btn btn-primary spl-blue-tint-50">
+      <a href="/emusic/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-50">
         <i class="glyphicon glyphicon-music"></i>
         <br>
         <span class="hidden-xs"><b>Music <small>&rarr;</small></b></span>
       </a>
-      <a href="/eaudio/" style="border:none;" class="btn btn-primary spl-blue-tint-40">
+      <a href="/eaudio/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-40">
         <i class="glyphicon glyphicon-headphones"></i></span>
         <br>
         <span class="hidden-xs"><b>Audio Books <small>&rarr;</small></b></span>
       </a>
-      <a href="/emagazines/" style="border:none; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-30">
+      <a href="/emagazines/" style="height:50px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-30">
         <i class="glyphicon glyphicon-book"></i>
         <br>
         <span class="hidden-xs"><b>Magazines <small>&rarr;</small></b></span>
