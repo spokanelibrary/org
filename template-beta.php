@@ -112,7 +112,7 @@ if ( !empty($spl_home) ): ;
 
     <div class="spl-hero-panel spl-hero-primary">
 
-      <a href="/digital/" class="btn btn-lg btn-block btn-link" style="color:#fff">
+      <a href="/digital/" class="spl-hero-link">
         <i class="glyphicon glyphicon-cloud-download"></i>
         Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span>
       </a>
