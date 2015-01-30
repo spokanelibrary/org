@@ -113,8 +113,10 @@ if ( !empty($spl_home) ): ;
     <div class="spl-hero-panel spl-hero-primary">
 
       <a href="/digital/" class="spl-hero-link">
-        <i class="glyphicon glyphicon-cloud-download"></i>
-        Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span>
+        <h4 class="text-center">
+          <i class="glyphicon glyphicon-cloud-download"></i>
+          Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span>
+        </h4>
       </a>
 
       <div class="btn-group btn-group-justified" role="group" aria-label="...">
