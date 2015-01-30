@@ -164,7 +164,7 @@ if ( !empty($spl_home) ): ;
   <div class="col-md-7">
     <div class="spl-hero-panel spl-hero-default">
       <h4 class="text-center">
-        <i class="glyphicon glyphicon-thumbs-up"></i>
+        <i class="glyphicon glyphicon-star"></i>
         <a href="/calendar/">What we're reading</a>
       </h4>
     </div>
