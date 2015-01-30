@@ -152,12 +152,12 @@ if ( !empty($spl_home) ): ;
     <div class="spl-hero-panel spl-hero-warning">
       <h4 class="text-center">
         <i class="glyphicon glyphicon-calendar"></i>
-        <a href="/calendar/">On our calendar <small>&rarr;</small></a>
+        <a href="/calendar/">On our calendar &rarr;</a>
       </h4>
     </div>
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
     <p class="text-right">
-      <a href="/calendar/"><b>Full events calendar</b> <small>&rarr;</small></a>
+      <a href="/calendar/"><b>Full events calendar</b> <small>&rarr;</a>
     </p>
   </div><!-- /.col -->
   
@@ -165,7 +165,7 @@ if ( !empty($spl_home) ): ;
     <div class="spl-hero-panel spl-hero-default">
       <h4 class="text-center">
         <i class="glyphicon glyphicon-star"></i>
-        <a href="/calendar/">What we're reading <small>&rarr;</small></a>
+        <a href="/calendar/">What we're reading &rarr;</a>
       </h4>
     </div>
     <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=5]'); ?>
