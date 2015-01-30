@@ -166,10 +166,12 @@ if ( !empty($spl_home) ): ;
   
   <div class="col-md-7">
     <div class="spl-hero-panel spl-hero-default">
-      <h4 class="text-center">
-        <i class="glyphicon glyphicon-star"></i>
-        <a href="/calendar/">What we're reading &rarr;</a>
-      </h4>
+      <a class="spl-hero-link" href="/calendar/">
+        <h4 class="text-center">
+          <i class="glyphicon glyphicon-star"></i>
+          What we're reading &rarr;
+        </h4>
+      </a>
     </div>
     <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=5]'); ?>
     <p class="text-right">
