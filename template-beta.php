@@ -162,7 +162,7 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
   
   <div class="col-md-7">
-    <div class="spl-hero-panel spl-hero-alt">
+    <div class="spl-hero-panel spl-hero-default">
       <h4 class="text-center">
         <i class="glyphicon glyphicon-thumbs-up"></i>
         <a href="/calendar/">What we're reading</a>
