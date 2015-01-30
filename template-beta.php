@@ -105,7 +105,7 @@ if ( !empty($spl_home) ): ;
 <div class="row"> 
   
   <div class="col-sm-12">
-    <?php echo do_shortcode('[spl_carousel_beta auto pause random shuffle news posts promo=tech slug=carousel title="Read. Learn. Discover." subtitle="news &middot; updates &middot; events"]'); ?>
+    <?php echo do_shortcode('[spl_carousel_beta auto pause random shuffle news posts promo=tech slug=carousel title="Read. Learn. Discover." ]'); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-12">
@@ -123,22 +123,22 @@ if ( !empty($spl_home) ): ;
         <a href="/ebooks/" style="height:50px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
           <i class="glyphicon glyphicon-phone"></i>
           <br>
-          <span class="hidden-xs"><b>eBooks</b> &rarr;</span>
+          <span class="hidden-xs">&nbsp;<b>eBooks</b> &rarr;</span>
         </a>
         <a href="/emusic/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-50">
           <i class="glyphicon glyphicon-music"></i>
           <br>
-          <span class="hidden-xs"><b>Music</b> &rarr;</span>
+          <span class="hidden-xs">&nbsp;<b>Music</b> &rarr;</span>
         </a>
         <a href="/eaudio/" style="height:50px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-40">
           <i class="glyphicon glyphicon-headphones"></i></span>
           <br>
-          <span class="hidden-xs"><b>Audio Books</b> &rarr;</span>
+          <span class="hidden-xs">&nbsp;<b>Audio Books</b> &rarr;</span>
         </a>
         <a href="/emagazines/" style="height:50px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-30">
           <i class="glyphicon glyphicon-book"></i>
           <br>
-          <span class="hidden-xs"><b>Magazines</b> &rarr;</span>
+          <span class="hidden-xs">&nbsp;<b>Magazines</b> &rarr;</span>
         </a>
       </div>
 
