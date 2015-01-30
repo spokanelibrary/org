@@ -119,7 +119,7 @@ if ( !empty($spl_home) ): ;
         </h4>
       </a>
 
-      <div class="btn-group btn-group-justified" role="group" aria-label="...">
+      <div class="spl-hero-digital btn-group btn-group-justified" role="group" aria-label="...">
         <a href="/ebooks/" style="height:50px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
           <i class="glyphicon glyphicon-phone"></i>
           <br>
