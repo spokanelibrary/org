@@ -105,7 +105,7 @@ if ( !empty($spl_home) ): ;
 <div class="row"> 
   
   <div class="col-sm-12">
-    <?php echo do_shortcode('[spl_carousel_beta auto random shuffle news posts promo=tech slug=carousel title="Read. Learn. Discover." subtitle="news &middot; updates &middot; events"]'); ?>
+    <?php echo do_shortcode('[spl_carousel_beta auto pause random shuffle news posts promo=tech slug=carousel title="Read. Learn. Discover." subtitle="news &middot; updates &middot; events"]'); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-12">
