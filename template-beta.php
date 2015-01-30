@@ -150,10 +150,12 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-md-5">
     <div class="spl-hero-panel spl-hero-warning">
-      <h4 class="text-center">
-        <i class="glyphicon glyphicon-calendar"></i>
-        <a href="/calendar/">On our calendar &rarr;</a>
-      </h4>
+      <a class="spl-hero-link" href="/calendar/">
+        <h4 class="text-center">
+          <i class="glyphicon glyphicon-calendar"></i>
+          On our calendar &rarr;
+        </h4>
+      </a>
     </div>
     <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=5]'); ?>
     <p class="text-right">
