@@ -16,7 +16,7 @@ function spl_get_home_url() {
 }(document, 'script', 'facebook-jssdk'));*/</script>  
 
 <header class="navbar-common navbar-fixed-top">
-  <div class="container-fluid">
+  <!--<div class="container">-->
   <ul class="nav nav-justified">
   <?php 
   wp_nav_menu( 
@@ -27,7 +27,7 @@ function spl_get_home_url() {
   )); 
   ?>
   </ul>
-  </div>
+  <!--</div>-->
 </header>
 
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
