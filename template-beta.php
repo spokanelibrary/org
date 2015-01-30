@@ -110,7 +110,7 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-sm-12">
 
-    <div class="spl-hero-panel spl-hero-primary spl-hero-digital">
+    <div class="spl-hero-panel spl-hero-primary">
 
       <a href="/digital/" class="btn btn-lg btn-block btn-link" style="color:#fff">
         <i class="glyphicon glyphicon-cloud-download"></i>
