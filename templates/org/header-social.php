@@ -1,7 +1,7 @@
 <div class="row">
 
   <div class="col-md-4">
-    <div class="btn-group" role="group" aria-label="...">
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <a class="btn btn-link"
               href="http://facebook.com/spokanelibrary" 
               style="opacity:1;"
@@ -17,7 +17,7 @@
   </div>
 
   <div class="col-md-4">
-    <div class="spl-hero-panel spl-hero-primary">
+    <div class="spl-hero-panel spl-hero-warning">
     <a class="spl-hero-link" 
             href="/support/" 
             title="">
@@ -29,7 +29,7 @@
   </div>
 
   <div class="col-md-4">
-    <div class="spl-hero-panel spl-hero-primary">
+    <div class="spl-hero-panel spl-hero-success">
     <a class="spl-hero-link" 
             href="/about/" 
             title="">
