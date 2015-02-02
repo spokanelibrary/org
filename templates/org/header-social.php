@@ -1,4 +1,4 @@
-<div class="btn-toolbar pull-right" style="margin-top: 12px;">
+<div class="pull-right" style="margin-top: 12px;">
   <div class="btn-group" role="group" aria-label="...">
     <a class="btn btn-default" 
             href="/support/" 
