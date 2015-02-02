@@ -195,10 +195,10 @@ var ORG = {
           console.log(direction)
           if ('down' == direction) {
             $('#spl-navbar-common').addClass('navbar-fixed-top');
-            //$('#spl-navbar-primary').addClass('navbar-fixed-top');
+            $('#spl-navbar-primary').addClass('navbar-fixed-top').css('margin-top:30px;');
           } else {
             $('#spl-navbar-common').removeClass('navbar-fixed-top');
-            //$('#spl-navbar-primary').removeClass('navbar-fixed-top');
+            $('#spl-navbar-primary').removeClass('navbar-fixed-top').css('margin-top:0px;');
           }          
         }
       })
