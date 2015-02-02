@@ -46,18 +46,34 @@ function spl_get_home_url() {
     
     <?php if ( is_user_logged_in() ) :?>
       <div class="text-right" style="">
-        <div>
         <?php //include('header-social.php'); ?>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          &nbsp;
         </div>
-        <div class="spl-hero-panel spl-hero-primary" role="group" aria-label="...">
-          <a class="spl-hero-link" href="/login/">
-            <h4>
-              <i class="glyphicon glyphicon-user"></i>
-              My account
-            </h4>
-          </a>
+        <div class="col-md-3">
+          <div class="spl-hero-panel spl-hero-primary" role="group" aria-label="...">
+            <a class="spl-hero-link" href="/login/">
+              <h4>
+                <i class="glyphicon glyphicon-user"></i>
+                My account
+              </h4>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="spl-hero-panel spl-hero-primary" role="group" aria-label="...">
+            <a class="spl-hero-link" href="/login/">
+              <h4>
+                <i class="glyphicon glyphicon-user"></i>
+                My account
+              </h4>
+            </a>
+          </div>
         </div>
       </div>
+      
     <?php endif; ?>
     <?php //include('header-social.php'); ?>
     
