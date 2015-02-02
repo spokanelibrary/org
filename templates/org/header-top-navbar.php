@@ -45,14 +45,6 @@ function spl_get_home_url() {
     <div id="spl-account-profile"></div>
     
     <?php if ( is_user_logged_in() ) :?>
-      <div class="spl-hero-panel spl-hero-alt">
-        <a class="spl-hero-link" href="/calendar/">
-        <h4 class="text-center">
-          <i class="glyphicon glyphicon-calendar"></i>
-          On our calendar &rarr;
-        </h4>
-      </a>
-      </div>
       <div class="text-right" style="padding-top:0;">
       <?php include('header-social.php'); ?>
       </div>
