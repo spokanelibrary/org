@@ -14,18 +14,18 @@
             <span class="">About Us</span></a>
   </div>
 
-  <div class="btn-group btn-group-sm" role="group" aria-label="...">
+  <div class="btn-group" role="group" aria-label="...">
     <a class="btn btn-default"
             href="http://facebook.com/spokanelibrary" 
             style="opacity:1;"
             title="">
-            <img src="/assets/img/icons/16px/facebook.png"></a>
+            <img src="/assets/img/icons/32px/facebook.png"></a>
 
     <a class="btn btn-default text-info" 
             href="http://twitter.com/spokanelibrary" 
             style="opacity:1;"
             title="">
-            <img src="/assets/img/icons/16px/twitter.png"></a>
+            <img src="/assets/img/icons/32px/twitter.png"></a>
   </div>
 </div>
 
