@@ -189,8 +189,8 @@ var ORG = {
       });
 
       // Scroll effects
-      $('body').scroll( function(e) {
-        console.log('scrolling');
+      $( window ).scroll(function() {
+        conlsole.log('scrolling');
       });
 
       // Handle enterprise search selector
