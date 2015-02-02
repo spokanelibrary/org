@@ -47,8 +47,8 @@ function spl_get_home_url() {
     }
     */
     ?>
-    <?php include('header-social.php'); ?>
-    <?php //include('header-search.php'); ?>
+    <?php //include('header-social.php'); ?>
+    <?php echo do_shortcode('[spl_widget enterprise-search]'); ?>
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       {{#if user.sessionToken}}
       <div class="pull-right" id="spl-account-profile">
