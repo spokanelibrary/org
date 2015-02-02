@@ -190,7 +190,7 @@ var ORG = {
 
       // Scroll effects
       $( window ).scroll(function() {
-        conlsole.log('scrolling');
+        console.log('scrolling');
       });
 
       // Handle enterprise search selector
