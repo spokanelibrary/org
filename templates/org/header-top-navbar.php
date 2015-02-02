@@ -33,14 +33,14 @@ function spl_get_home_url() {
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
     <div class="row">
-    <div class="col-md-2">
+    <div class="col-md-5">
     <div class="navbar-header">
       <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
         <span class="text-hide"><?php bloginfo('name'); ?></span>
       </a>
     </div>
     </div>
-    <div class="col-md-10">
+    <div class="col-md-7">
 
     <div id="spl-account-profile"></div>
     
@@ -49,7 +49,7 @@ function spl_get_home_url() {
         <?php //include('header-social.php'); ?>
       </div>
       <div class="row">
-        <div class="col-md-8 col-md-offset-4">
+        <div class="col-md-12">
           <header class="navbar-common navbar-static-top" style="border-left:1px solid rgb(0,85,135); border-right:1px solid rgb(0,85,135);">
             <!--<div class="container">-->
             <ul class="nav nav-justified">
