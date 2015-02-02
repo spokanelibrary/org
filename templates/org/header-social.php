@@ -11,14 +11,14 @@
             title="">
             <img src="/assets/img/icons/16px/twitter.png"></a>
     </div>
-    <div class="btn-group btn-group-sm btn-group-primary" role="group" aria-label="...">
-    <a class="btn " 
+    <div class="btn-group btn-group-sm" role="group" aria-label="...">
+    <a class="btn btn-link" 
             href="/support/" 
             style="opacity:1;"
             title="">
             <span class="label label-success"><i class="glyphicon glyphicon-thumbs-up"></i></span>
             <span class="">Support Us</span></a>
-    <a class="btn btn-default" 
+    <a class="btn btn-link" 
             href="/about/" 
             style="opacity:1;"
             title="">
