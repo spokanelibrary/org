@@ -40,7 +40,7 @@ function spl_get_home_url() {
       </a>
     </div>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 text-right">
     <div id="spl-account-profile"></div>
 
     <?php
