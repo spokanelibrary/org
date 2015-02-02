@@ -49,7 +49,7 @@ function spl_get_home_url() {
         <?php //include('header-social.php'); ?>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-8">
           <header class="navbar-common navbar-static-top">
             <!--<div class="container">-->
             <ul class="nav nav-justified">
