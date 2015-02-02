@@ -2,7 +2,7 @@
 
   <div class="col-md-4">
     <div class="spl-hero-panel spl-hero-primary">
-    <a class="btn btn-default" 
+    <a class="spl-hero-link" 
             href="/support/" 
             style="opacity:1;"
             title="">
