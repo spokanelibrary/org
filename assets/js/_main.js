@@ -192,7 +192,6 @@ var ORG = {
       var waypoint = new Waypoint({
         element: document.getElementById('spl-navbar-primary'),
         handler: function(direction) {
-          console.log(direction)
           if ('down' == direction) {
             $('#spl-navbar-common').addClass('navbar-fixed-top');
             //$('#spl-navbar-primary').addClass('navbar-fixed-top');
