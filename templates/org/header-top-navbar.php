@@ -57,9 +57,7 @@ function spl_get_home_url() {
             <a class="spl-hero-link" href="/login/">
               <h4>
                 <i class="glyphicon glyphicon-user"></i>
-                My account
-              </h4>
-            </a>
+                My account</h4></a>
           </div>
         </div>
         <div class="col-md-3">
