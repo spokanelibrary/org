@@ -1,5 +1,5 @@
 <div class="btn-group" role="group" aria-label="...">
-  <a class="btn btn-default btn-sm"
+  <a class="btn btn-primary btn-sm"
           href="http://facebook.com/spokanelibrary" 
           style="opacity:1;"
           title="">
