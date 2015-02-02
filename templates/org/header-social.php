@@ -1,24 +1,24 @@
 <div class="btn-toolbar pull-right" style="margin-top: 12px;">
   <div class="btn-group" role="group" aria-label="...">
-    <a class="btn btn-default btn-sm"
+    <a class="btn btn-default"
             href="http://facebook.com/spokanelibrary" 
             style="opacity:1;"
             title="">
             <img src="/assets/img/icons/16px/facebook.png"></a>
-    <a class="btn btn-default btn-sm text-info" 
+    <a class="btn btn-defaulttext-info" 
             href="http://twitter.com/spokanelibrary" 
             style="opacity:1;"
             title="">
             <img src="/assets/img/icons/16px/twitter.png"></a>
     </div>
-    <div class="btn-group btn-group-justified" role="group" aria-label="...">
-    <a class="btn btn-default btn-sm" 
+    <div class="btn-group" role="group" aria-label="...">
+    <a class="btn btn-default" 
             href="/support/" 
             style="opacity:1;"
             title="">
             <span class="label label-success"><i class="glyphicon glyphicon-thumbs-up"></i></span>
             <span class="">Support Us</span></a>
-    <a class="btn btn-default btn-sm" 
+    <a class="btn btn-default" 
             href="/about/" 
             style="opacity:1;"
             title="">
