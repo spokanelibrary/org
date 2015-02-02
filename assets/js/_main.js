@@ -192,7 +192,7 @@ var ORG = {
       var waypoint = new Waypoint({
         element: document.getElementById('spl-navbar-primary'),
         handler: function(direction) {
-          console.log('Scrolled to waypoint!')
+          console.log(direction)
         }
       })
 
