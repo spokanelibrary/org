@@ -42,11 +42,11 @@ function spl_get_home_url() {
     </div>
     <div class="col-md-10">
     <div id="spl-account-profile"></div>
-    <div class="text-right" style="padding-top:0; z-index:1001;">
+    <div class="text-right" style="padding-top:0;">
     <?php
     if ( is_user_logged_in() ) {
       include('header-social.php');
-      echo do_shortcode('[spl_widget enterprise-search]');
+      
     }    
     ?>
     <?php //include('header-social.php'); ?>
