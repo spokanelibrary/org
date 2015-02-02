@@ -6,9 +6,9 @@
             href="/support/" 
             style="opacity:1;"
             title="">
-            <h4>
+            <b>
             <i class="glyphicon glyphicon-thumbs-up"></i>
-            <span class="">Support Us</span></h4></a>
+            <span class="">Support Us</span></b></a>
     </div>
   </div>
 
