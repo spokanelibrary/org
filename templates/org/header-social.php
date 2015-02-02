@@ -1,4 +1,4 @@
-<div class="text-right" style="margin-top: 16px;">
+<div class="text-right" style="margin-top: 10px;">
 
   <div class="btn-group" role="group" aria-label="...">
     <a class="btn btn-default btn-sm"
