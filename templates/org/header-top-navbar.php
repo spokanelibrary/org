@@ -45,6 +45,7 @@ function spl_get_home_url() {
     <div class="text-right" style="padding-top:16px;">
     <?php
     if ( is_user_logged_in() ) {
+      echo do_shortcode('[spl_widget enterprise-search]');
       include('header-social.php');
     }    
     ?>
