@@ -1,6 +1,5 @@
-<div class="text-right" style="margin-top: 12px;">
-  <div class="btn-toolbar">
-  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+<div class="btn-toolbar pull-right" style="margin-top: 12px;">
+  <div class="btn-group" role="group" aria-label="...">
     <a class="btn btn-default btn-sm"
             href="http://facebook.com/spokanelibrary" 
             style="opacity:1;"
@@ -25,8 +24,6 @@
             title="">
             <span class="label label-success"><i class="glyphicon glyphicon-info-sign"></i></span>
             <span class="">About Us</span></a>
-
-  </div>
   </div>
 </div>
 
