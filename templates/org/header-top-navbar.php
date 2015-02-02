@@ -48,9 +48,9 @@ function spl_get_home_url() {
       <div class="text-right" style="">
         <?php include('header-social.php'); ?>
         
-        <div class="btn-group" role="group" aria-label="...">
-          <a class="btn btn-sm btn-default">My account</a>
-          <a class="btn btn-sm btn-default">Contact Us</a>
+        <div class="btn-group btn-group-lg" role="group" aria-label="...">
+          <a class="btn btn-default">My account</a>
+          <a class="btn btn-default">Contact Us</a>
         </div>
       </div>
     <?php endif; ?>
