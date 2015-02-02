@@ -109,7 +109,7 @@ function spl_get_home_url() {
         <span class="logotype"><?php bloginfo('name'); ?></span>
       </a>
     </div>
-    <nav class="collapse navbar-collapse" role="navigation">
+    <nav class="collapse navbar-collapse" style="border:none;" role="navigation">
       <?php
         /*
         if ( is_user_logged_in() && has_nav_menu('primary_navigation') ) :
