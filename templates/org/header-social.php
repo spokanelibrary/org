@@ -14,7 +14,6 @@
             <span class="">About Us</span></a>
   </div>
 
-  <div class="btn-group" role="group" aria-label="...">
     <a class=""
             href="http://facebook.com/spokanelibrary" 
             style="opacity:1;"
@@ -26,7 +25,6 @@
             style="opacity:1;"
             title="">
             <img class="img-responsive" src="/assets/img/icons/32px/twitter.png"></a>
-  </div>
 </div>
 
 
