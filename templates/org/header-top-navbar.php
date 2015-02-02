@@ -66,9 +66,8 @@ function spl_get_home_url() {
 
       <?php //echo do_shortcode('[spl_widget enterprise-search]'); ?>
 
-      <div class="text-center" style="margin-top: 16px;">
-        <?php include('header-social.php'); ?>
-      </div>
+      <?php include('header-social.php'); ?>
+      
       
     <?php endif; ?>
     <?php //include('header-social.php'); ?>
