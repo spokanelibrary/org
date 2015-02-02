@@ -190,7 +190,7 @@ var ORG = {
 
       // Scroll effetc
       var waypoint = new Waypoint({
-        element: document.getElementById('#spl-navbar-primary'),
+        element: document.getElementById('spl-navbar-primary'),
         handler: function(direction) {
           console.log('Scrolled to waypoint!')
         }
