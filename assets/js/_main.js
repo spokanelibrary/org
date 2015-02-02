@@ -188,6 +188,11 @@ var ORG = {
         */
       });
 
+      // Scroll effects
+      $('body').on('scroll', function(e) {
+        console.log('scrolling');
+      });
+
       // Handle enterprise search selector
       $('body').on('click', '.spl-enterprise-search-select-catalog', function(e) {
         e.preventDefault();
