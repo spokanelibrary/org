@@ -15,17 +15,17 @@
   </div>
 
   <div class="btn-group" role="group" aria-label="...">
-    <a class="btn btn-default"
+    <a class=""
             href="http://facebook.com/spokanelibrary" 
             style="opacity:1;"
             title="">
-            <img class="img-responsive" src="/assets/img/icons/24px/facebook.png"></a>
+            <img class="img-responsive" src="/assets/img/icons/32px/facebook.png"></a>
 
-    <a class="btn btn-default text-info" 
+    <a class="text-info" 
             href="http://twitter.com/spokanelibrary" 
             style="opacity:1;"
             title="">
-            <img class="img-responsive" src="/assets/img/icons/24px/twitter.png"></a>
+            <img class="img-responsive" src="/assets/img/icons/32px/twitter.png"></a>
   </div>
 </div>
 
