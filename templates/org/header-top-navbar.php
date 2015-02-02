@@ -48,11 +48,7 @@ function spl_get_home_url() {
       <div class="text-right" style="">
       <?php include('header-social.php'); ?>
       </div>
-      <?php
-      if ( has_nav_menu('primary_navigation') ) :
-          wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
-      endif;
-      ?>
+      
     <?php endif; ?>
     <?php //include('header-social.php'); ?>
     
