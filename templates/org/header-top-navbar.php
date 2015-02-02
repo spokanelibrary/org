@@ -50,25 +50,20 @@ function spl_get_home_url() {
       </div>
       <div class="row">
         <div class="col-md-6">
-          &nbsp;
-        </div>
-        <div class="col-md-3">
-          <div class="spl-hero-panel spl-hero-primary" role="group" aria-label="...">
-            <a class="spl-hero-link" href="/login/">
-              <h4>
-                <i class="glyphicon glyphicon-user"></i>
-                My account</h4></a>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="spl-hero-panel spl-hero-primary" role="group" aria-label="...">
-            <a class="spl-hero-link" href="/login/">
-              <h4>
-                <i class="glyphicon glyphicon-user"></i>
-                My account
-              </h4>
-            </a>
-          </div>
+          <header class="navbar-common navbar-static-top">
+            <!--<div class="container">-->
+            <ul class="nav nav-justified">
+            <?php 
+            wp_nav_menu( 
+            array(
+              'menu' => 'Common Navigation'
+            , 'container' => false
+            , 'items_wrap' => '%3$s'
+            )); 
+            ?>
+            </ul>
+            <!--</div>-->
+          </header>
         </div>
       </div>
       
