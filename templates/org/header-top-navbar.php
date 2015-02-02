@@ -30,7 +30,7 @@ function spl_get_home_url() {
   <!--</div>-->
 </header>
 
-<header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
+<header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-sm visible-md visible-lg" role="banner">
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
