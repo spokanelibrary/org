@@ -45,10 +45,6 @@ function spl_get_home_url() {
     <div id="spl-account-profile"></div>
     
     <?php if ( is_user_logged_in() ) :?>
-      <div class="text-right" style="">
-        <?php include('header-social.php'); ?>
-      </div>
-      
       <div class="row">
         <div class="col-md-12">
           <header id="spl-navbar-common" class="navbar-common navbar-static-top" style="border-left:1px solid rgb(0,85,135); border-right:1px solid rgb(0,85,135);">
@@ -66,6 +62,12 @@ function spl_get_home_url() {
             <!--</div>-->
           </header>
         </div>
+      </div>
+
+      <?php echo do_shortcode('[spl_widget enterprise-search]'); ?>
+
+      <div class="text-right" style="">
+        <?php //include('header-social.php'); ?>
       </div>
       
     <?php endif; ?>
