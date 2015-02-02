@@ -11,7 +11,7 @@
             title="">
             <img src="/assets/img/icons/16px/twitter.png"></a>
     </div>
-    <div class="btn-group" role="group" aria-label="...">
+    <div class="btn-group btn-group-sm" role="group" aria-label="...">
     <a class="btn btn-default" 
             href="/support/" 
             style="opacity:1;"
