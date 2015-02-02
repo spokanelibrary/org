@@ -42,15 +42,14 @@ function spl_get_home_url() {
     </div>
     <div class="col-md-11">
     <div id="spl-account-profile"></div>
-
+    <div class="text-right">
     <?php
-    
     if ( is_user_logged_in() ) {
       include('header-social.php');
-    }
-    
+    }    
     ?>
     <?php //include('header-social.php'); ?>
+    </div>
     <?php //echo do_shortcode('[spl_widget enterprise-search]'); ?>
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       {{#if user.sessionToken}}
