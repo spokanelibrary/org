@@ -189,7 +189,7 @@ var ORG = {
       });
 
       // Scroll effects
-      $('body').on('scroll', function(e) {
+      $('body').scroll( function(e) {
         console.log('scrolling');
       });
 
