@@ -193,6 +193,7 @@ var ORG = {
         element: document.getElementById('spl-navbar-primary'),
         handler: function(direction) {
           console.log(direction)
+          $('#spl-navbar-primary').addClass('navbar-fixed-top');
         }
       })
 
