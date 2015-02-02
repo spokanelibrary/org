@@ -9,11 +9,11 @@
           style="opacity:1;"
           title="">
           <img src="/assets/img/icons/16px/twitter.png"></a>
-  <a class="btn btn-default btn-sm text-info" 
+  <a class="btn btn-default btn-sm text-warning" 
           href="/support/" 
           style="opacity:1;"
           title="">
-          Support Us</a>
+          <b>Support Us</b></a>
 
 </div>
 
