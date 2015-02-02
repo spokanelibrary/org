@@ -5,7 +5,7 @@
             style="opacity:1;"
             title="">
             <img src="/assets/img/icons/16px/facebook.png"></a>
-    <a class="btn btn-defaulttext-info" 
+    <a class="btn btn-default text-info" 
             href="http://twitter.com/spokanelibrary" 
             style="opacity:1;"
             title="">
