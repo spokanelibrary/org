@@ -17,6 +17,12 @@
             title="">
             <span class="label label-warning"><i class="glyphicon glyphicon-hand-right"></i></span>
             <span class="">Support Us</span></a>
+    <a class="btn btn-default btn-sm" 
+            href="/about/" 
+            style="opacity:1;"
+            title="">
+            <span class="label label-warning"><i class="glyphicon glyphicon-info-sign"></i></span>
+            <span class="">About Us</span></a>
 
   </div>
 
