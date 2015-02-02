@@ -48,7 +48,7 @@ function spl_get_home_url() {
       <div class="text-right" style="">
         <?php include('header-social.php'); ?>
         
-        <div class="btn-group spl-hero-panel spl-hero-default" role="group" aria-label="...">
+        <div class="btn-group spl-hero-panel spl-hero-primary" role="group" aria-label="...">
           <a class="btn btn-default">My account</a>
           <a class="btn btn-default">Contact Us</a>
         </div>
