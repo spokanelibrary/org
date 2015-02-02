@@ -13,7 +13,7 @@
           href="/support/" 
           style="opacity:1;"
           title="">
-          <b class=""><small class="glyphicon glyphicon-hand-right text-danger"></small> Support Us</b></a>
+          <b class="text-muted"><small class="glyphicon glyphicon-hand-right text-danger"></small> Support Us</b></a>
 
 </div>
 
