@@ -50,7 +50,12 @@ function spl_get_home_url() {
         <?php //include('header-social.php'); ?>
         </div>
         <div class="spl-hero-panel spl-hero-primary" role="group" aria-label="...">
-          <a class="spl-hero-link"><h4>My account</h4></a>
+          <a class="spl-hero-link" href="/login/">
+            <h4>
+              <i class="glyphicon glyphicon-user"></i>
+              My account
+            </h4>
+          </a>
         </div>
       </div>
     <?php endif; ?>
