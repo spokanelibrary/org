@@ -117,7 +117,7 @@ function spl_get_home_url() {
 </header><!-- /.navbar -->
 
 
-<header id="spl-navbar-primary" class="navbar-primary banner navbar navbar-inverse navbar-static-top" style="margin-bottom:0px;" role="banner">
+<header id="spl-navbar-primary" class="navbar-primary banner navbar navbar-inverse navbar-static-top" style="margin-bottom:0px; border-bottom:0;" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
