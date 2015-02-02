@@ -50,7 +50,7 @@ function spl_get_home_url() {
       </div>
       <div class="row">
         <div class="col-md-8 col-md-offset-4">
-          <header class="navbar-common navbar-static-top">
+          <header class="navbar-common navbar-fixed-top">
             <!--<div class="container">-->
             <ul class="nav nav-justified">
             <?php 
