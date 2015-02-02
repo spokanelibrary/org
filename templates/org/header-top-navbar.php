@@ -42,7 +42,7 @@ function spl_get_home_url() {
     </div>
     <div class="col-md-11">
     <div id="spl-account-profile"></div>
-    <div class="text-right">
+    <div class="text-right" style="padding-top:16px;">
     <?php
     if ( is_user_logged_in() ) {
       include('header-social.php');
