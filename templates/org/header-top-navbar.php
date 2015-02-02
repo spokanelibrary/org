@@ -32,12 +32,15 @@ function spl_get_home_url() {
 
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
+    <div class="row">
+    <div class="col-md-4">
     <div class="navbar-header">
       <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
         <span class="text-hide"><?php bloginfo('name'); ?></span>
       </a>
     </div>
-
+    </div>
+    <div class="col-md-8">
     <div id="spl-account-profile"></div>
 
     <?php
@@ -87,7 +90,8 @@ function spl_get_home_url() {
       </div>
       {{/if}}
     </script>
-
+  </div><!-- /.col -->
+  </div><!-- /.row -->
   </div>
 </header><!-- /.navbar -->
 
