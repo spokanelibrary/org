@@ -64,10 +64,10 @@ function spl_get_home_url() {
         </div>
       </div>
 
-      <?php echo do_shortcode('[spl_widget enterprise-search]'); ?>
+      <?php //echo do_shortcode('[spl_widget enterprise-search]'); ?>
 
-      <div class="text-right" style="">
-        <?php //include('header-social.php'); ?>
+      <div class="text-center" style="margin-top: 16px;">
+        <?php include('header-social.php'); ?>
       </div>
       
     <?php endif; ?>
