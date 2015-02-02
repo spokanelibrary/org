@@ -43,12 +43,22 @@ function spl_get_home_url() {
     <div class="col-md-10">
 
     <div id="spl-account-profile"></div>
-    <div class="text-right" style="padding-top:0;">
+    
     <?php if ( is_user_logged_in() ) :?>
+      <div class="spl-hero-panel spl-hero-primary">
+        <a class="spl-hero-link" href="/calendar/">
+        <h4 class="text-center">
+          <i class="glyphicon glyphicon-calendar"></i>
+          On our calendar &rarr;
+        </h4>
+      </a>
+      </div>
+      <div class="text-right" style="padding-top:0;">
       <?php include('header-social.php'); ?>
+      </div>
     <?php endif; ?>
     <?php //include('header-social.php'); ?>
-    </div>
+    
     <?php //echo do_shortcode('[spl_widget enterprise-search]'); ?>
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       {{#if user.sessionToken}}
