@@ -48,7 +48,10 @@ function spl_get_home_url() {
       <div class="text-right" style="">
       <?php include('header-social.php'); ?>
       </div>
-      
+      <div class="btn-group-vertical" role="group" aria-label="...">
+        <a class="btn btn-default">My account</a>
+        <a class="btn btn-default">Contact Us</a>
+      </div>
     <?php endif; ?>
     <?php //include('header-social.php'); ?>
     
