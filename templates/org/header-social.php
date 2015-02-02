@@ -1,4 +1,4 @@
-<div class="pull-right" style="margin-top: 12px;">
+<div class="btn-toolbar pull-right" style="margin-top: 12px;">
   <div class="btn-group" role="group" aria-label="...">
     <a class="btn btn-default" 
             href="/support/" 
@@ -14,17 +14,19 @@
             <span class="">About Us</span></a>
   </div>
 
-    <a class=""
+  <div class="btn-group" role="group" aria-label="...">
+    <a class="btn btn-link"
             href="http://facebook.com/spokanelibrary" 
             style="opacity:1;"
             title="">
             <img class="img-responsive" src="/assets/img/icons/32px/facebook.png"></a>
 
-    <a class="text-info" 
+    <a class="btn btn-link text-info" 
             href="http://twitter.com/spokanelibrary" 
             style="opacity:1;"
             title="">
             <img class="img-responsive" src="/assets/img/icons/32px/twitter.png"></a>
+  </div>
 </div>
 
 
