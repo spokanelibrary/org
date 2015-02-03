@@ -818,13 +818,6 @@ body {
       >li {
         display: table-cell;
         width: auto;
-        a {
-          background:red;
-          margin:0; padding:0;
-        }
-      }
-      >.active {
-        background: red;
       }
     }
     
@@ -866,7 +859,7 @@ body {
       &,
       &:hover,
       &:focus {
-        margin:0; padding:0;
+        margin:0; padding:0; background:red;
         color: @navbar-common-link-active-color;
         background-color: @navbar-common-link-active-bg;
       }
