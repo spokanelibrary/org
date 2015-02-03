@@ -15,11 +15,11 @@
       &nbsp;
       <a class="btn btn-sm btn-default" 
             href="/about/" 
-            title="">About Us</a>
+            title=""><b>About Us</b></a>
       &nbsp;
       <a class="btn btn-sm btn-default" 
             href="/support/" 
-            title="">Support Your Library!</a>
+            title=""><b class="text-danger">Support Your Library!</b></a>
 
   </div>
 </div>
