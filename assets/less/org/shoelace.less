@@ -623,6 +623,15 @@ body {
   }
 }
 
+.btn-alt {
+  .button-variant(@btn-alt-color; @btn-alt-bg; @btn-alt-border);
+  
+  #gradient.vertical(@btn-alt-bg; lighten(@btn-alt-bg, 10%); 0%; 70%);
+  &:hover {
+    background: @btn-alt-bg;
+  }
+}
+
 // Button gradients
 // --------------------------------------------------
 
