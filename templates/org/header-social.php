@@ -19,11 +19,10 @@
   <div class="col-md-4">
     <div class="" style="margin-bottom:0;">
     <a class="spl-hero-link" 
-            href="/support/" 
+            href="/about/" 
             title="">
-            <h5 class="text-right">
-              <i class="glyphicon glyphicon-hand-right"></i>
-              Support Us
+            <h5 class="text-right text-danger">
+              About Us
             </h5></a>
     </div>
   </div>
@@ -31,11 +30,10 @@
   <div class="col-md-4">
     <div class="" style="margin-bottom:0;">
     <a class="spl-hero-link" 
-            href="/about/" 
+            href="/support/" 
             title="">
             <h5 class="text-right">
-              <i class="glyphicon glyphicon-info-sign "></i>
-              About Us
+              Support Your Library
             </h5></a>
     </div>
   </div>
