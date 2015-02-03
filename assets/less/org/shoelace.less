@@ -859,7 +859,9 @@ body {
       &,
       &:hover,
       &:focus {
-        padding-bottom:8px; // prevent extra padding from pushing border-bottom
+        @media (max-width: @screen-tablet) {
+          padding-bottom:8px; // prevent extra padding from pushing border-bottom
+        }
         color: @navbar-common-link-active-color;
         background-color: @navbar-common-link-active-bg;
       }
