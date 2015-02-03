@@ -13,7 +13,7 @@
               title="">
               <img style="width:28px; height:28px;" class="" src="/assets/img/icons/32px/twitter.png"></a>
       &nbsp;
-      <a class="btn btn-sm btn-default" 
+      <a class="btn btn-sm btn-success" 
             href="/about/" 
             title=""><b class="">About Us</b></a>
       &nbsp;
