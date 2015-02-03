@@ -18,6 +18,10 @@
             title=""><b>About Us</b></a>
       &nbsp;
       <a class="btn btn-sm btn-default" 
+            href="/card/" 
+            title=""><b class="text-success">Get a Library Card</b></a>
+      &nbsp;
+      <a class="btn btn-sm btn-default" 
             href="/support/" 
             title=""><b class="text-danger">Support Your Library!</b></a>
 
