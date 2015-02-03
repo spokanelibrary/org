@@ -21,7 +21,7 @@
     <a class="spl-hero-link" 
             href="/about/" 
             title="">
-            <h5 class="text-right text-danger">
+            <h5 class="text-right">
               About Us
             </h5></a>
     </div>
@@ -32,7 +32,7 @@
     <a class="spl-hero-link" 
             href="/support/" 
             title="">
-            <h5 class="text-right">
+            <h5 class="text-right text-danger">
               Support Your Library
             </h5></a>
     </div>
