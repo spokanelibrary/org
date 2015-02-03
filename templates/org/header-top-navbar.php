@@ -40,7 +40,7 @@ function spl_get_home_url() {
         </a>
       </div>
       <?php if ( is_user_logged_in() ) :?>
-      <h3 class="text-success pull-left" style="margin-left: 20px; margin-top:50px;">
+      <h3 class="text-success pull-left" style="margin-left: 10px; margin-top:50px;">
         Read. Learn. Discover.
       </h3>
       <?php endif; ?>
