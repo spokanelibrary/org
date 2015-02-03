@@ -8,18 +8,21 @@
           <img style="" class="" src="/assets/img/icons/16px/facebook.png"></a>
       <a class="btn btn-default" 
           href="http://twitter.com/spokanelibrary" 
-          style="opacity:1;"
+          style="opacity:1; background:#fff;"
           title="">
           <img style="" class="" src="/assets/img/icons/16px/twitter.png"></a>
       <a class="btn btn-default" 
-            href="/about/" 
-            title=""><b class="">About Us</b></a>
+          href="/about/" 
+          style="opacity:1; background:#fff;"
+          title=""><b class="">About Us</b></a>
       <a class="btn btn-default" 
-            href="/card/" 
-            title=""><b class="text-success">Get a Library Card</b></a>
+          href="/card/" 
+          style="opacity:1; background:#fff;"
+          title=""><b class="text-success">Get a Library Card</b></a>
       <a class="btn btn-default" 
-            href="/support/" 
-            title=""><b class="text-danger">Support Your Library!</b></a>
+          href="/support/" 
+          style="opacity:1; background:#fff;"
+          title=""><b class="text-danger">Support Your Library!</b></a>
     </div>
   </div>
 </div>
