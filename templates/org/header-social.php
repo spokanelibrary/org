@@ -12,7 +12,7 @@
           title=""><b class="">About Us</b></a>
       <a class="btn btn-default" 
           href="/card/"
-          title=""><b class="text-success">Get a Library Card</b></a>
+          title=""><b class="">Get a Library Card</b></a>
       <a class="btn btn-default" 
           href="/support/"
           title=""><b class="text-danger">Support Your Library!</b></a>
