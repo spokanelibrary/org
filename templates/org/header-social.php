@@ -19,7 +19,7 @@
       &nbsp;
       <a class="btn btn-sm btn-default" 
             href="/support/" 
-            title=""><b class="">Support Your Library</b></a>
+            title=""><b class="">Support Your Library!</b></a>
 
   </div>
 </div>
