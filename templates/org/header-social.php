@@ -14,7 +14,7 @@
               <img style="margin:auto;" class="" src="/assets/img/icons/24px/twitter.png"></a>
       <a class="" 
             href="/about/" 
-            title=""><b class="text-success">Learn about us</b></a>
+            title=""><b class="text-info">Learn about us</b></a>
       <a class="" 
             href="/support/" 
             title=""><b class="text-danger">Support your library</b></a>
