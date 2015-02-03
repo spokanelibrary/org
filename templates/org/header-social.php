@@ -1,5 +1,4 @@
-<div class="row" style="margin-top: 12px;">
-  <div class="col-md-12  text-right">
+<div class="text-right" style="margin-top: 12px;">
     
     <div class="btn-group" role="group" aria-label="...">
       <a class="btn btn-link"
@@ -27,7 +26,6 @@
             </h5></a>
     </div>
 
-  </div>
 </div>
 
 
