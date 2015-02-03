@@ -5,12 +5,12 @@
           href="http://facebook.com/spokanelibrary" 
           style="opacity:1;"
           title="">
-          <img style="" class="" src="/assets/img/icons/16px/facebook.png"></a>
+          <img style="" class="" src="/assets/img/icons/16px/facebook.png"> </a>
       <a class="btn btn-default" 
               href="http://twitter.com/spokanelibrary" 
               style="opacity:1;"
               title="">
-              <img style="" class="" src="/assets/img/icons/16px/twitter.png"></a>
+              <img style="" class="" src="/assets/img/icons/16px/twitter.png"> </a>
 
       <a class="btn btn-default" 
             href="/about/" 
