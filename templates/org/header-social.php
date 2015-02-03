@@ -2,13 +2,11 @@
   <div class="col-md-12  text-right">
     <div class="btn-group btn-group-sm" role="group" aria-label="Social Library Links">
       <a class="btn btn-default"
-          style="width:16px;"
           href="http://facebook.com/spokanelibrary" 
-          title=""><img style="" class="" src="/assets/img/icons/16px/facebook.png"></a>
+          title=""><img style="width:16px;" class="" src="/assets/img/icons/16px/facebook.png"></a>
       <a class="btn btn-default"
-          style="width:16px;"
           href="http://twitter.com/spokanelibrary" 
-          title=""><img style="" class="" src="/assets/img/icons/16px/twitter.png"></a>
+          title=""><img style="width:16px;" class="" src="/assets/img/icons/16px/twitter.png"></a>
       <a class="btn btn-default" 
           href="/about/"
           title=""><b class="">About Us</b></a>
