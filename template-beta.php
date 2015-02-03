@@ -26,9 +26,9 @@ $spl_home = $post->post_content;
 $spl_home = trim($spl_home);
 if ( !empty($spl_home) ): ;
 ?>
-<div class="spl-hero-panel spl-hero-danger" style="margin-bottom:10px;">
+<div class="spl-hero-panel spl-hero-danger" style="">
   <h3 class="text-center">
-    <span class="pull-left"><i class="glyphicon glyphicon-bullhorn"></i></span>
+    <span class=""><i class="glyphicon glyphicon-bullhorn"></i></span>
     Please read <small class="hidden-xs">this important announcement</small>
   </h3>
 </div>
