@@ -3,15 +3,15 @@
 
       <a class=""
           href="http://facebook.com/spokanelibrary" 
-          style="opacity:1; width:28px; height:28px;"
+          style="opacity:1;"
           title="">
-          <img style="margin:auto;" class="" src="/assets/img/icons/32px/facebook.png"></a>
+          <img style="width:28px; height:28px;" class="" src="/assets/img/icons/32px/facebook.png"></a>
       &nbsp;
       <a class="" 
               href="http://twitter.com/spokanelibrary" 
-              style="opacity:1; width:28px; height:28px;"
+              style="opacity:1;"
               title="">
-              <img style="margin:auto;" class="" src="/assets/img/icons/32px/twitter.png"></a>
+              <img style="width:28px; height:28px;" class="" src="/assets/img/icons/32px/twitter.png"></a>
       &nbsp;
       <a class="btn btn-sm btn-default" 
             href="/about/" 
