@@ -12,7 +12,7 @@
               title="">
               <img style="margin:auto;" class="" src="/assets/img/icons/24px/twitter.png"></a>
       &nbsp;
-      <a class="btn btn-default" 
+      <a class="btn btn-sm btn-default" 
             href="/about/" 
             title=""><b class="">About Us</b></a>
 
