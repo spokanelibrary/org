@@ -12,19 +12,17 @@
               style="opacity:1;"
               title="">
               <img style="width:30px; height:30px;" class="" src="/assets/img/icons/32px/twitter.png"></a>
-      &nbsp;
+      <div class="btn-group" role="group" aria-label="...">
       <a class="btn btn-sm btn-default" 
             href="/about/" 
             title=""><b class="text-info">About Us</b></a>
-      &nbsp;
       <a class="btn btn-sm btn-default" 
             href="/card/" 
             title=""><b class="text-success">Get a Library Card</b></a>
-      &nbsp;
       <a class="btn btn-sm btn-default" 
             href="/support/" 
             title=""><b class="text-danger">Support Your Library!</b></a>
-
+      </div>
   </div>
 </div>
 
