@@ -3,11 +3,11 @@
     
       <a class="" 
             href="/about/" 
-            title=""><b class="text-info">Learn about us</b></a>
+            title=""><b class="text-info">About Us</b></a>
       <a class="" 
             href="/support/" 
-            title=""><b class="text-danger">Support your library</b></a>
-            
+            title=""><b class="text-danger">Support Your Library</b></a>
+
       <a class=""
           href="http://facebook.com/spokanelibrary" 
           style="opacity:1;"
