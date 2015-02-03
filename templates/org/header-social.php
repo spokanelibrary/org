@@ -1,14 +1,14 @@
-<div class="row">
+<div class="row" style="margin-top: 12px;">
 
   <div class="col-md-4">
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
-      <a class="btn btn-link"
+      <a class="btn btn-default"
               href="http://facebook.com/spokanelibrary" 
               style="opacity:1;"
               title="">
               <img class="img-responsive" src="/assets/img/icons/24px/facebook.png"></a>
 
-      <a class="btn btn-link text-info" 
+      <a class="btn btn-default text-info" 
               href="http://twitter.com/spokanelibrary" 
               style="opacity:1;"
               title="">
