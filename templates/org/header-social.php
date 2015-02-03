@@ -22,7 +22,7 @@
             href="/support/" 
             title="">
             <h5 class="text-center">
-              <i class="glyphicon glyphicon-thumbs-up"></i>
+              <i class="glyphicon glyphicon-hand-right"></i>
               Support Us
             </h5></a>
     </div>
@@ -34,7 +34,7 @@
             href="/about/" 
             title="">
             <h5 class="text-center">
-              <i class="glyphicon glyphicon-info-sig "></i>
+              <i class="glyphicon glyphicon-info-sign "></i>
               About Us
             </h5></a>
     </div>
