@@ -783,4 +783,96 @@ body {
 // Common navbar
 // --------------------------------------------------
 
+.navbar-common {
+
+  @media (max-width: @screen-tablet) {
+    min-height: 40px; height: 40px;
+  }
+
+  background-color: @navbar-common-bg;
+  border-color: @navbar-common-border;
+
+  border-bottom: 1px solid @navbar-common-border;
+  margin:0; padding:0;
+  min-height: 30px; height:30px;
+  
+  .navbar-brand {
+    color: @navbar-common-brand-color;
+    &:hover,
+    &:focus {
+      color: @navbar-common-brand-hover-color;
+      background-color: @navbar-common-brand-hover-bg;
+    }
+  }
+  
+
+  .navbar-text {
+    color: @navbar-common-color;
+  }
+  
+  .nav-justified {
+    @media (max-width: @screen-tablet) {
+      display: table;
+      //table-layout: fixed;
+
+      >li {
+        display: table-cell;
+        width: auto;
+      }
+    }
+    
+    > li {
+      float: none;
+    }
+
+    > li:first-child > a {
+      border-left: 0;
+    }
+
+    > li:last-child > a {
+      border-right: 0;
+    }
+
+    > li > a {
+      @media (max-width: @screen-tablet) {
+        padding: 12px 0 8px 0;
+      }
+
+      padding: 4px 0;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 0;
+      border-right: 1px solid rgba(0,0,0,.1);
+      border-left: 1px solid rgba(red(@navbar-common-border)
+                                , green(@navbar-common-border)
+                                , blue(@navbar-common-border), .75);
+        
+      color: @navbar-common-link-color;
+
+      &:hover,
+      &:focus {
+        color: @navbar-common-link-hover-color;
+        background-color: @navbar-common-link-hover-bg;
+      }
+    }
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-common-link-active-color;
+        background-color: @navbar-common-link-active-bg;
+      }
+    }
+    > .disabled > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-common-link-disabled-color;
+        background-color: @navbar-common-link-disabled-bg;
+      }
+    }
+  }
+  
+
+}
 
