@@ -44,7 +44,7 @@ function spl_get_home_url() {
 
     <div id="spl-account-profile"></div>
     
-    <?php if ( is_user_logged_in() ) :?>
+    <?php //if ( is_user_logged_in() ) :?>
       <div class="row">
         <div class="col-md-12">
           <header id="spl-navbar-common" class="navbar-common navbar-static-top" style="border-left:1px solid rgb(0,85,135); border-right:1px solid rgb(0,85,135);">
@@ -65,14 +65,10 @@ function spl_get_home_url() {
       </div>
 
       <?php //echo do_shortcode('[spl_widget enterprise-search]'); ?>
-
       <?php include('header-social.php'); ?>
       
-      
-    <?php endif; ?>
-    <?php //include('header-social.php'); ?>
-    
-    <?php //echo do_shortcode('[spl_widget enterprise-search]'); ?>
+    <?php //endif; ?>
+
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       {{#if user.sessionToken}}
       <div class="pull-right" id="spl-account-profile">
