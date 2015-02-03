@@ -29,7 +29,7 @@
   </div>
 
   <div class="col-md-4">
-    <div class="spl-hero-panel spl-hero-primary" style="margin-bottom:0;">
+    <div class="spl-hero-panel spl-hero-success" style="margin-bottom:0;">
     <a class="spl-hero-link" 
             href="/about/" 
             title="">
