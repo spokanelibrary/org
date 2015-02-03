@@ -34,11 +34,14 @@ function spl_get_home_url() {
   <div class="container">
     <div class="row">
     <div class="col-md-5">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
-        <span class="text-hide"><?php bloginfo('name'); ?></span>
-      </a>
-    </div>
+      <div class="navbar-header">
+        <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
+          <span class="text-hide"><?php bloginfo('name'); ?></span>
+        </a>
+      </div>
+      <?php if ( is_user_logged_in() ) :?>
+      Read. Learn. Discover.
+      <?php endif; ?>
     </div>
     <div class="col-md-7">
 
