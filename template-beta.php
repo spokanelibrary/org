@@ -26,11 +26,13 @@ $spl_home = $post->post_content;
 $spl_home = trim($spl_home);
 if ( !empty($spl_home) ): ;
 ?>
-<div class="spl-hero-panel spl-hero-danger" style="margin-bottom:10px;">
-  <h4 class="text-center">
-    <span class=""><i class="glyphicon glyphicon-bullhorn"></i></span>
-    Please read <small class="hidden-xs">this important announcement</small>
-  </h4>
+<div style="margin-bottom:10px;">
+  <div class="spl-hero-panel spl-hero-danger" style="margin-bottom:10px;">
+    <h4 class="text-center">
+      <span class=""><i class="glyphicon glyphicon-bullhorn"></i></span>
+      Please read <small class="hidden-xs">this important announcement</small>
+    </h4>
+  </div>
 </div>
 <?php echo $post->post_content; ?>
 <!-- <hr> -->
