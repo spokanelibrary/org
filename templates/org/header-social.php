@@ -21,7 +21,7 @@
     <a class="spl-hero-link" 
             href="/support/" 
             title="">
-            <h5 class="text-center">
+            <h5 class="text-right">
               <i class="glyphicon glyphicon-hand-right"></i>
               Support Us
             </h5></a>
@@ -33,7 +33,7 @@
     <a class="spl-hero-link" 
             href="/about/" 
             title="">
-            <h5 class="text-center">
+            <h5 class="text-right">
               <i class="glyphicon glyphicon-info-sign "></i>
               About Us
             </h5></a>
