@@ -33,7 +33,7 @@ if ( !empty($spl_home) ): ;
   </h4>
 </div>
 <?php echo $post->post_content; ?>
-<hr>
+<!-- <hr> -->
 <?php endif; ?>
 
 <!--
