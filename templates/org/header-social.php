@@ -1,7 +1,7 @@
 <div class="row" style="margin-top: 12px;">
-  <div class="col-md-12">
+  <div class="col-md-12  text-right">
     
-    <div class="btn-group text-right" role="group" aria-label="...">
+    <div class="btn-group" role="group" aria-label="...">
       <a class="btn btn-link"
           href="http://facebook.com/spokanelibrary" 
           style="opacity:1;"
