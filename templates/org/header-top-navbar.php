@@ -146,4 +146,8 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
+<?php if ( is_user_logged_in() ) :?>
 <?php include('header-search.php'); ?>
+<?php else: ?>
+<?php include('header-search-orig.php'); ?>
+<?php endif; ?>
