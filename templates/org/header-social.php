@@ -17,7 +17,7 @@
             title=""><b class="">About Us</b></a>
 
       &nbsp;      
-      <a class="" 
+      <a class="btn btn-sm btn-default" 
             href="/support/" 
             title=""><b class="spl-text-alt">Support Your Library</b></a>
 
