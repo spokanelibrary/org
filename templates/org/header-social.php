@@ -1,5 +1,5 @@
 <div class="row" style="margin-top: 12px;">
-  <div class="col-md-4">
+  <div class="col-md-12">
     
     <div class="btn-group" role="group" aria-label="...">
       <a class="btn btn-link"
