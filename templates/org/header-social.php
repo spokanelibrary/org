@@ -14,7 +14,7 @@
 
       <a class="btn btn-sm btn-default" 
             href="/about/" 
-            title=""><b class="text-info">About Us</b></a>
+            title=""><b class="">About Us</b></a>
       <a class="btn btn-sm btn-default" 
             href="/card/" 
             title=""><b class="text-success">Get a Library Card</b></a>
