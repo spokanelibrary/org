@@ -39,11 +39,11 @@ function spl_get_home_url() {
           <span class="text-hide"><?php bloginfo('name'); ?></span>
         </a>
       </div>
-      <?php if ( is_user_logged_in() ) :?>
+      <?php //if ( is_user_logged_in() ) :?>
       <h4 class="text-success pull-left" style="opacity:.9; margin-left: 16px; margin-top:50px;">
         <?php bloginfo('description'); ?>
       </h4>
-      <?php endif; ?>
+      <?php //endif; ?>
     </div>
     <div class="col-md-7">
 
