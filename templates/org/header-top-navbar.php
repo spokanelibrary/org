@@ -36,12 +36,12 @@ function spl_get_home_url() {
     <div class="col-md-5">
       <div class="navbar-header">
         <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
-          <span class="text-hide"><?php bloginfo('description'); ?></span>
+          <span class="text-hide"><?php bloginfo('name'); ?></span>
         </a>
       </div>
       <?php if ( is_user_logged_in() ) :?>
       <h4 class="text-muted serif pull-left" style="margin-left: 20px; margin-top:50px;">
-        <?php bloginfo('name'); ?>
+        <?php bloginfo('description'); ?>
       </h4>
       <?php endif; ?>
     </div>
