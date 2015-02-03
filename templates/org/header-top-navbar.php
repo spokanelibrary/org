@@ -41,7 +41,7 @@ function spl_get_home_url() {
       </div>
       <?php if ( is_user_logged_in() ) :?>
       <h4 class="text-muted serif pull-left" style="margin-left: 20px; margin-top:50px;">
-        Read. Learn. Discover.
+        <?php bloginfo('name'); ?>
       </h4>
       <?php endif; ?>
     </div>
