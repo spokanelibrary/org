@@ -241,32 +241,30 @@ body {
 
 /* Navbar Customizations */
 
-.spl-ribbon {
+@media ( min-width: @screen-desktop ) {
+
+  .spl-ribbon:before, 
+  .spl-ribbon:after {
+      content: '';
+      position: absolute;
+      border-style: solid;
+      border-color: transparent;
+      bottom: -10px;
+  }
+
+  .spl-ribbon:before {
+      border-width: 0 10px 10px 0;
+      border-right-color: darken(@brand-primary,10%);
+      left: 0;
+  }
+
+  .spl-ribbon:after {
+      border-width: 0 0 10px 10px;
+      border-left-color: darken(@brand-primary,10%);
+      right: 0;
+  }
 
 }
-
-.spl-ribbon:before, 
-.spl-ribbon:after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-color: transparent;
-    bottom: -10px;
-}
-
-.spl-ribbon:before {
-    border-width: 0 10px 10px 0;
-    border-right-color: darken(@brand-primary,10%);
-    left: 0;
-}
-
-.spl-ribbon:after {
-    border-width: 0 0 10px 10px;
-    border-left-color: darken(@brand-primary,10%);
-    right: 0;
-}
-
-
 
 .spl-search-bar {
   padding-top: 2px; 
