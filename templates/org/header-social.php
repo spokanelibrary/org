@@ -3,7 +3,7 @@
     <div class="btn-group btn-group-sm" role="group" aria-label="Social Library Links">
       <a class="btn btn-default"
           href="http://facebook.com/spokanelibrary" 
-          style="opacity:1;"
+          style="opacity:1; background:#fff;"
           title="">
           <img style="" class="" src="/assets/img/icons/16px/facebook.png"></a>
       <a class="btn btn-default" 
