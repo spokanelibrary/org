@@ -17,7 +17,7 @@
             href="/about/" 
             title=""><b class="">About Us</b></a>
       &nbsp;
-      <a class="btn btn-sm btn-primary spl-hero-alt" 
+      <a class="btn btn-sm spl-hero-alt" 
             href="/support/" 
             title=""><b class="">Support Your Library</b></a>
 
