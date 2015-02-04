@@ -119,7 +119,7 @@
       <div class="panel-footer">
         <ul class="nav nav-pills nav-justified">
           <li>
-            <a href="/administration/"><small><i class="text-muted glyphicon glyphicon-paperclip"></i> Administration</small> </a>
+            <a href="/about/administration/"><small><i class="text-muted glyphicon glyphicon-paperclip"></i> Administration</small> </a>
           </li>
           <li>
             <a href="/policies/"><small><i class="text-muted glyphicon glyphicon-info-sign"></i> Library Policies</small></a>
