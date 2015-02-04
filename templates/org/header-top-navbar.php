@@ -147,7 +147,7 @@ function spl_get_home_url() {
 </header><!-- /.navbar -->
 
 <div class="container visible-xs visible-sm">
-  <div style="margin:10px 0;">
+  <div class="text-right" style="margin:10px 0;">
     <a class=""
       href="http://facebook.com/spokanelibrary" 
       title=""><img style="width:auto;" class="" src="/assets/img/icons/32px/facebook.png"></a>
