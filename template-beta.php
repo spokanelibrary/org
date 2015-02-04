@@ -54,7 +54,7 @@ if ( !empty($spl_home) ): ;
 -->
 <div class="visible-xs visible-sm">
   <div class="spl-hero-panel spl-hero-alt">
-    <h4>
+    <h4 class="text-center">
       Mobile friendly
     </h4>
   </div>
