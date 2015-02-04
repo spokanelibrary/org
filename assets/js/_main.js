@@ -221,9 +221,6 @@ var ORG = {
         */
       });
 
-      // Normalize Carousel Heights - pass in Bootstrap Carousel items.
-      $('#spl-hero .item').carouselHeights();
-
       // Scroll effect
       var waypoint = new Waypoint({
         element: document.getElementById('spl-navbar-primary'),
@@ -284,6 +281,8 @@ var ORG = {
 , home: {
     init: function() {
       //console.log(config);
+      // Normalize Carousel Heights
+      $('#spl-hero .item').carouselHeights();
     }
   }
 , it_academy: {
