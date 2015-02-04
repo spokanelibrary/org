@@ -57,10 +57,10 @@ if ( !empty($spl_home) ): ;
   <div class="col-xs-12">
     <div class="list-group">
       <a href="/search/" class="list-group-item">
-        <span class="text-primary">Search <small>(mobile-friendly)<small></span> <small>&rarr;</small>
+        <span class="text-primary">Search <small>(mobile-friendly)</small></span> <small>&rarr;</small>
       </a>
       <a href="/account/" class="list-group-item">
-        <span class="text-primary">My account <small>(mobile-friendly)<small></span> <small>&rarr;</small>
+        <span class="text-primary">My account <small>(mobile-friendly)</small></span> <small>&rarr;</small>
       </a>
       <a href="/apps/" class="list-group-item">
         <span class="text-primary">Mobile apps</span> <small>&rarr;</small>
