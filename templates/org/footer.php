@@ -18,7 +18,7 @@
   <footer class="content-info container" role="contentinfo">
 
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <p>
           <strong class="help-block" style="">Spokane Public Library</strong>
         </p>
@@ -30,10 +30,10 @@
           509.444.5300
         </address>
       </div><!-- /.col -->
-      <div class="col-md-4 text-center">
+      <div class="col-sm-4 text-center">
         <img alt="Spokane Public Library logo" style="width:170px; height:80px;" src="/assets/img/SPL-Logo-hidpi.png">
       </div><!-- /.col -->
-      <div class="col-md-4 text-right">
+      <div class="col-sm-4 text-right">
         <img alt="City of Spokane logo" style="width:75px; height: 90px;" src="/assets/img/png/city-spokane-logo.png">
       </div><!-- /.col -->
     </div><!-- /.row -->
