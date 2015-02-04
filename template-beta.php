@@ -54,19 +54,19 @@ if ( !empty($spl_home) ): ;
 -->
 
 <div class="row visible-xs visible-sm">
-  <h4>Mobile-friendly</h4>
+  <h4 class="text-center">Mobile-friendly</h4>
   <div class="col-sm-4">
-    <a href="/search/" class="btn btn-primary">
+    <a href="/search/" class="btn btn-block btn-primary">
         Search <small>&rarr;</small>
     </a>
   </div>
   <div class="col-sm-4">
-    <a href="/account/" class="btn btn-primary">
+    <a href="/account/" class="btn btn-block btn-primary">
         My account <small>&rarr;</small>
     </a>
   </div>
   <div class="col-sm-4">
-    <a href="/apps/" class="btn btn-primary">
+    <a href="/apps/" class="btn btn-block btn-primary">
         Native apps <small>&rarr;</small>
     </a>
   </div>
