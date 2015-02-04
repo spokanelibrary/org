@@ -66,6 +66,30 @@ if ( !empty($spl_home) ): ;
     </div><!-- /.col -->
   </div><!-- /.row -->
 
+  <div class="col-sm-12">
+
+    <div class="spl-hero-panel spl-hero-primary">
+
+      <h4 class="text-center">
+      <i class="glyphicon glyphicon-phone"></i>
+      For mobile devices
+    </h4>
+
+      <div class="spl-hero-digital btn-group btn-group-justified" role="group" aria-label="...">
+        <a href="/search/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
+          <span class="hidden-xs">&nbsp;<b>Catalog</b> Search &rarr;</span>
+        </a>
+        <a href="/account/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-50">
+          <span class="hidden-xs">&nbsp;<b>My</b> Account &rarr;</span>
+        </a>
+        <a href="/apps/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-primary spl-blue-tint-40">
+          <span class="hidden-xs">&nbsp;<b>Native</b> Apps &rarr;</span>
+        </a>
+      </div>
+
+    </div>
+  </div><!-- /.col -->
+
   <div class="spl-hero-panel spl-hero-alt">
     <h4 class="text-center">
       <i class="glyphicon glyphicon-phone"></i>
