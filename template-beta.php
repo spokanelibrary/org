@@ -52,24 +52,16 @@ if ( !empty($spl_home) ): ;
   </div>
 </div>
 -->
+<div class="visible-xs visible-sm">
+  <div class="spl-hero-panel spl-hero-alt">
+    <h4>
+      Mobile friendly
+    </h4>
+  </div>
+</div>
+
 
 <div class="row visible-xs visible-sm">
-  <h4 class="text-center">Mobile-friendly</h4>
-  <div class="col-sm-4">
-    <a href="/search/" class="btn btn-block btn-primary">
-        Search <small>&rarr;</small>
-    </a>
-  </div>
-  <div class="col-sm-4">
-    <a href="/account/" class="btn btn-block btn-primary">
-        My account <small>&rarr;</small>
-    </a>
-  </div>
-  <div class="col-sm-4">
-    <a href="/apps/" class="btn btn-block btn-primary">
-        Native apps <small>&rarr;</small>
-    </a>
-  </div>
 
   <div class="col-xs-12">
     <div class="list-group">
