@@ -131,14 +131,14 @@ function spl_get_home_url() {
         <span class="logotype"><?php bloginfo('name'); ?></span>
       </a>
 
-      <span class="hidden-md hidden-lg" style="margin-left: 20px; margin-top:10px;">
+      <span class="hidden-md hidden-lg pull-right" style="margin-left: 20px; margin-top:10px;">
         <a class=""
           href="http://facebook.com/spokanelibrary" 
-          title=""><img style="width:auto;" class="" src="/assets/img/icons/32px/facebook.png"></a>
+          title=""><img class="" src="/assets/img/icons/32px/facebook.png"></a>
         &nbsp;
         <a class=""
           href="http://twitter.com/spokanelibrary" 
-          title=""><img style="width:auto;" class="" src="/assets/img/icons/32px/twitter.png"></a>
+          title=""><img class="" src="/assets/img/icons/32px/twitter.png"></a>
       </span>
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
