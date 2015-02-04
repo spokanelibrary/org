@@ -19,13 +19,12 @@
 
     <div class="row">
       <div class="col-md-12">
-        
-        <span class="pull-right">
-          <img alt="Spokane Public Library logo" style="width:170px; height:80px;" src="/assets/img/SPL-Logo-hidpi.png">
-        </span>
-
         <span class="pull-right">
           <img alt="City of Spokane logo" style="width:75px; height: 90px;" src="/assets/img/png/city-spokane-logo.png">
+        </span>
+                
+        <span class="pull-right">
+          <img alt="Spokane Public Library logo" style="width:170px; height:80px;" src="/assets/img/SPL-Logo-hidpi.png">
         </span>
 
         <p>
