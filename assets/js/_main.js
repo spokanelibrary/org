@@ -289,7 +289,7 @@ var ORG = {
     init: function() {
       //console.log(config);
       // Normalize Carousel Heights
-      if ( $('.visible-md').is(':visible') ) {
+      if ( $('.visible-md').is(':visible') || $('.visible-lg').is(':visible') ) {
         $('#spl-hero .item').carouselHeights();
       }
     }
