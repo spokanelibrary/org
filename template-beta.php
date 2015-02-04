@@ -103,7 +103,7 @@ if ( !empty($spl_home) ): ;
 
 
 
-<div class="row"> 
+<div class="row" id="spl-hero"> 
   
   <div class="col-sm-12">
     <?php echo do_shortcode('[spl_carousel_beta auto random shuffle news posts promo=tech slug=carousel title="" ]'); ?>
@@ -176,7 +176,7 @@ if ( !empty($spl_home) ): ;
         </h4>
       </a>
     </div>
-    <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=6]'); ?>
+    <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=7]'); ?>
     <p class="text-right">
       <a href="/browse/"><b>More staff picks</b> <small>&rarr;</small></a>
     </p>
@@ -184,9 +184,6 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 
 </div><!-- /.row -->
-
-
-
 
 
 

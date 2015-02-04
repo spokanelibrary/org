@@ -34,7 +34,7 @@
         <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px;" src="/assets/img/SPL-Logo-hidpi.png">
       </div><!-- /.col -->
       <div class="col-xs-4 text-right">
-        <img alt="City of Spokane logo" class="" style="width:75px; height: 90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
+        <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
       </div><!-- /.col -->
     </div><!-- /.row -->
 
