@@ -53,6 +53,19 @@ if ( !empty($spl_home) ): ;
 </div>
 -->
 <div class="visible-xs visible-sm">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="list-group">
+        <a href="/open/" class="list-group-item">
+          <span class="text-primary">Is the library open?</span> <small>&rarr;</small>
+        </a>
+        <a href="/storytime/" class="list-group-item">
+          <span class="text-primary">Storytime schedules</span> <small>&rarr;</small>
+        </a>
+      </div><!-- /.list-group -->
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+
   <div class="spl-hero-panel spl-hero-alt">
     <h4 class="text-center">
       For mobile devices
@@ -62,21 +75,21 @@ if ( !empty($spl_home) ): ;
   <div class="row">
     <div class="col-sm-4">
       <p>
-        <a href="/search/" class="btn btn-block btn-primary">
+        <a href="/search/" class="btn btn-block btn-inverse">
           Search catalog <small>&rarr;</small>
         </a>
       </p>
     </div><!-- /.col -->
     <div class="col-sm-4">
       <p>
-        <a href="/account/" class="btn btn-block btn-primary">
+        <a href="/account/" class="btn btn-block btn-inverse">
           My account <small>&rarr;</small>
         </a>
       </p>
     </div><!-- /.col -->
     <div class="col-sm-4">
       <p>
-        <a href="/apps/" class="btn btn-block btn-primary">
+        <a href="/apps/" class="btn btn-block btn-inverse">
           Native apps <small>&rarr;</small>
         </a>
       </p>
@@ -84,51 +97,6 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.row -->
   <hr>
 </div>
-
-
-<div class="row visible-xs visible-sm">
-
-  <div class="col-xs-12">
-    <div class="list-group">
-      <a href="/open/" class="list-group-item">
-        <span class="text-primary">Is the library open?</span> <small>&rarr;</small>
-      </a>
-      <a href="/storytime/" class="list-group-item">
-        <span class="text-primary">Storytime schedules</span> <small>&rarr;</small>
-      </a>
-      <!--
-      <a href="/catalog/" class="list-group-item">
-        <span class="text-primary">Library catalog</span> <small>&rarr;</small>
-      </a>
-      -->
-      <!--
-      <a href="/calendar/" class="list-group-item">
-        <span class="text-primary">Check events calendar</span> <small>&rarr;</small>
-      </a>
-      -->
-      <!--
-      <a href="/digital/" class="list-group-item">
-        <span class="text-primary">Digital branch</span> <small>&rarr;</small>
-      </a>
-      -->
-      <!--
-      <a href="/connect/" class="list-group-item">
-        <span class="text-primary">Contact the library</span> <small>&rarr;</small>
-      </a>
-      <a href="/new/" class="list-group-item">
-        <span class="text-primary">Browse new arrivals</span> <small>&rarr;</small>
-      </a>
-      <a href="/browse/" class="list-group-item">
-        <span class="text-primary">Staff picks &amp; popular titles</span> <small>&rarr;</small>
-      </a>
-      <a href="/news/" class="list-group-item">
-        <span class="text-primary">Read library news</span> <small>&rarr;</small>
-      </a>
-      -->
-    </div><!-- /.list-group -->
-  </div><!-- /.col -->
-</div><!-- /.row -->
-
 
 
 <div class="row" id="spl-hero"> 
