@@ -72,7 +72,7 @@ if ( !empty($spl_home) ): ;
       <div class="spl-hero-panel spl-hero-primary">
 
         <h4 class="text-center">
-        <i class="glyphicon glyphicon-hand-up"></i>
+        <i class="glyphicon glyphicon-hand-down"></i>
         For mobile devices
       </h4>
 
