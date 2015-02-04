@@ -164,6 +164,7 @@ if ( !empty($spl_home) ): ;
     <p class="text-right">
       <a href="/calendar/"><b>Full events calendar</b> <small>&rarr;</small></a>
     </p>
+    <p>&nbsp;</p>
   </div><!-- /.col -->
   
   <div class="col-md-7">
@@ -179,6 +180,7 @@ if ( !empty($spl_home) ): ;
     <p class="text-right">
       <a href="/browse/"><b>More staff picks</b> <small>&rarr;</small></a>
     </p>
+    <p>&nbsp;</p>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
