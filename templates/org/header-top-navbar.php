@@ -146,15 +146,13 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
-<div class="container visible-xs visible-sm">
-  <p>
-    <a class=""
-      href="http://facebook.com/spokanelibrary" 
-      title=""><img style="width:auto;" class="" src="/assets/img/icons/32px/facebook.png"></a>
-    <a class=""
-      href="http://twitter.com/spokanelibrary" 
-      title=""><img style="width:auto;" class="" src="/assets/img/icons/32px/twitter.png"></a>
-  </p>
+<div class="container visible-xs visible-sm" style="margin:10px 0;">
+  <a class=""
+    href="http://facebook.com/spokanelibrary" 
+    title=""><img style="width:auto;" class="" src="/assets/img/icons/32px/facebook.png"></a>
+  <a class=""
+    href="http://twitter.com/spokanelibrary" 
+    title=""><img style="width:auto;" class="" src="/assets/img/icons/32px/twitter.png"></a>
 </div>
 
 <?php include('header-search.php'); ?>
