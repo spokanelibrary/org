@@ -282,7 +282,9 @@ var ORG = {
     init: function() {
       //console.log(config);
       // Normalize Carousel Heights
-      $('#spl-hero .item').carouselHeights();
+      if ( $('.visible-md').is(':visible') || $('.visible-lg').is(':visible') ) {
+        $('#spl-hero .item').carouselHeights();
+      }
     }
   }
 , stage: {
