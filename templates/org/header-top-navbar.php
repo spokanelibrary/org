@@ -146,11 +146,11 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
-<div class="visible-xs">
-        <a class="btn btn-default"
+<div class="container visible-xs">
+        <a class=""
           href="http://facebook.com/spokanelibrary" 
           title=""><img style="width:16px;" class="" src="/assets/img/icons/16px/facebook.png"></a>
-      <a class="btn btn-default"
+      <a class=""
           href="http://twitter.com/spokanelibrary" 
           title=""><img style="width:16px;" class="" src="/assets/img/icons/16px/twitter.png"></a>
 </div>
