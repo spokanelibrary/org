@@ -289,7 +289,9 @@ var ORG = {
     init: function() {
       //console.log(config);
       // Normalize Carousel Heights
-      $('#spl-hero .item').carouselHeights();
+      if ( $('.visible-md').is(':visible') ) {
+        $('#spl-hero .item').carouselHeights();
+      }
     }
   }
 , it_academy: {
