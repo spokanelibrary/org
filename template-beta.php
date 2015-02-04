@@ -58,6 +58,18 @@ if ( !empty($spl_home) ): ;
       Mobile friendly
     </h4>
   </div>
+
+
+  <a href="/search/" class="btn">
+    Search <small>&rarr;</small>
+  </a>
+  <a href="/account/" class="btn">
+    My account <small>&rarr;</small>
+  </a>
+  <a href="/apps/" class="btn">
+    Native apps <small>&rarr;</small>
+  </a>
+
 </div>
 
 
