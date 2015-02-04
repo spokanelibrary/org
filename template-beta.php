@@ -56,8 +56,11 @@ if ( !empty($spl_home) ): ;
 <div class="row visible-xs visible-sm">
   <div class="col-xs-12">
     <div class="list-group">
-      <a href="/login/" class="list-group-item">
-        <span class="text-primary">My account</span> <small>&rarr;</small>
+      <a href="/search/" class="list-group-item">
+        <span class="text-primary">Search <small>(mobile-friendly)<small></span> <small>&rarr;</small>
+      </a>
+      <a href="/account/" class="list-group-item">
+        <span class="text-primary">My account <small>(mobile-friendly)<small></span> <small>&rarr;</small>
       </a>
       <a href="/apps/" class="list-group-item">
         <span class="text-primary">Mobile apps</span> <small>&rarr;</small>
