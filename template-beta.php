@@ -55,7 +55,7 @@ if ( !empty($spl_home) ): ;
 <div class="visible-xs visible-sm">
   <div class="spl-hero-panel spl-hero-alt">
     <h4 class="text-center">
-      Mobile friendly
+      For mobile devices
     </h4>
   </div>
 
@@ -63,7 +63,7 @@ if ( !empty($spl_home) ): ;
     <div class="col-sm-4">
       <p>
         <a href="/search/" class="btn btn-block btn-primary">
-          Search <small>&rarr;</small>
+          Search catalog <small>&rarr;</small>
         </a>
       </p>
     </div><!-- /.col -->
@@ -82,6 +82,7 @@ if ( !empty($spl_home) ): ;
       </p>
     </div><!-- /.col -->
   </div><!-- /.row -->
+  <hr>
 </div>
 
 
@@ -89,15 +90,6 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-xs-12">
     <div class="list-group">
-      <a href="/search/" class="list-group-item">
-        <span class="text-primary">Search <small>(mobile-friendly)</small></span> <small>&rarr;</small>
-      </a>
-      <a href="/account/" class="list-group-item">
-        <span class="text-primary">My account <small>(mobile-friendly)</small></span> <small>&rarr;</small>
-      </a>
-      <a href="/apps/" class="list-group-item">
-        <span class="text-primary">Mobile apps</span> <small>&rarr;</small>
-      </a>
       <a href="/open/" class="list-group-item">
         <span class="text-primary">Is the library open?</span> <small>&rarr;</small>
       </a>
