@@ -130,7 +130,7 @@ function spl_get_home_url() {
       <a class="navbar-brand hidden-md hidden-lg" href="<?php echo spl_get_home_url(); ?>/">
         <span class="logotype"><?php bloginfo('name'); ?></span>
       </a>
-      <div class="visible-sm pull-right" style="margin-top: 10px; margin-right:20px;">
+      <div class="visible-sm pull-right" style="margin-top: 8px; margin-right:20px;">
         <?php include('header-social.php'); ?>
       </div>
     </div>
@@ -149,7 +149,7 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 <div class="container visible-xs">
-  <divstyle="margin-top: 10px; margin-bottom:10px;">
+  <div style="margin-top: 10px; margin-bottom:10px;">
     <?php include('header-social.php'); ?>
   </div>
 </div>
