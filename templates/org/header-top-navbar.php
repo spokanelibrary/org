@@ -70,7 +70,7 @@ function spl_get_home_url() {
       </div>
 
       <?php //echo do_shortcode('[spl_widget enterprise-search]'); ?>
-      <?php include('header-social.php'); ?>
+      <?php include('header-social-connect.php'); ?>
       
     <?php //endif; ?>
 
@@ -130,15 +130,8 @@ function spl_get_home_url() {
       <a class="navbar-brand hidden-md hidden-lg" href="<?php echo spl_get_home_url(); ?>/">
         <span class="logotype"><?php bloginfo('name'); ?></span>
       </a>
-
       <div class="visible-sm pull-right" style="margin-top: 10px; margin-right:20px;">
-        <a class=""
-          href="http://facebook.com/spokanelibrary" 
-          title=""><img class="" src="/assets/img/icons/32px/facebook.png"></a>
-        &nbsp;
-        <a class=""
-          href="http://twitter.com/spokanelibrary" 
-          title=""><img class="" src="/assets/img/icons/32px/twitter.png"></a>
+        <?php include('header-social.php'); ?>
       </div>
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
@@ -156,14 +149,8 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 <div class="container visible-xs">
-  <div class="" style="margin-top: 10px; margin-bottom:10px;">
-    <a class=""
-      href="http://facebook.com/spokanelibrary" 
-      title=""><img class="" src="/assets/img/icons/32px/facebook.png"></a>
-    &nbsp;
-    <a class=""
-      href="http://twitter.com/spokanelibrary" 
-      title=""><img class="" src="/assets/img/icons/32px/twitter.png"></a>
+  <divstyle="margin-top: 10px; margin-bottom:10px;">
+    <?php include('header-social.php'); ?>
   </div>
 </div>
 <?php include('header-search.php'); ?>
