@@ -61,17 +61,17 @@ if ( !empty($spl_home) ): ;
 
   <div class="row">
     <div class="col-sm-4">
-      <a href="/search/" class="btn">
+      <a href="/search/" class="btn btn-block">
         Search <small>&rarr;</small>
       </a>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <a href="/account/" class="btn">
+      <a href="/account/" class="btn btn-block">
         My account <small>&rarr;</small>
       </a>
     </div><!-- /.col -->
     <div class="col-sm-4">
-      <a href="/apps/" class="btn">
+      <a href="/apps/" class="btn btn-block">
         Native apps <small>&rarr;</small>
       </a>
 
