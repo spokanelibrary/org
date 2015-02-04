@@ -68,6 +68,7 @@ if ( !empty($spl_home) ): ;
 
   <div class="spl-hero-panel spl-hero-alt">
     <h4 class="text-center">
+      <i class="glyphicon glyphicon-phone"></i>
       For mobile devices
     </h4>
   </div>
