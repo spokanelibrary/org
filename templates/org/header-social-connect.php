@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-md-12">
-    <div class="btn-group btn-group-sm" role="group" aria-label="Social Library Links">
+    <div class="btn-group btn-group-sm btn-group-justified" role="group" aria-label="Social Library Links">
       <a class="btn btn-default hidden-sm"
           href="http://facebook.com/spokanelibrary" 
           title=""><img style="width:16px;" class="" src="/assets/img/icons/16px/facebook.png"></a>
