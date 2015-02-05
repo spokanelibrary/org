@@ -14,7 +14,7 @@
     <?php comments_template('/templates/comments.php'); ?>
   </article>
   <?php 
-  $instance = array('title'=>'my title');
+  $instance = array('title'=>"__('Archives')");
   the_widget( 'WP_Widget_Tag_Cloud' ); 
   ?>  
 <?php endwhile; ?>
