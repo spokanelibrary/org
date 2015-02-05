@@ -53,8 +53,30 @@ if ( !empty($spl_home) ): ;
 </div>
 -->
 
-<div class="hidden-md hidden-lg text-center" style="margin-top:-10px; margin-bottom: 10px;">
-  <?php include('templates/org/header-social-connect.php'); ?>
+<div class="visible-xs visible-sm text-center" style="margin-top:-10px; margin-bottom: 10px;">
+  <div class="btn-group btn-group-justified" role="group" aria-label="Social Library Links">
+    <a class="btn btn-default hidden-sm"
+        href="http://facebook.com/spokanelibrary" 
+        title=""><img style="width:16px;" class="" src="/assets/img/icons/16px/facebook.png"></a>
+    <a class="btn btn-default hidden-sm"
+        href="http://twitter.com/spokanelibrary" 
+        title=""><img style="width:16px;" class="" src="/assets/img/icons/16px/twitter.png"></a>
+    <a class="btn btn-default hidden-xs" 
+        href="/news/"
+        title=""><b>News</b></a>
+    <a class="btn btn-default hidden-xs" 
+        href="/blog/"
+        title=""><b>Blog</b></a>
+    <a class="btn btn-default hidden-xs" 
+        href="/about/"
+        title=""><b>About Us</b></a>
+    <a class="btn btn-default" 
+        href="/card/"
+        title=""><b>Get a Library Card</b></a>
+    <a class="btn btn-default hidden-xs" 
+        href="/support/"
+        title=""><b class="text-danger">Support Your Library!</b></a>
+  </div>
 </div>
 
 <div class="visible-xs visible-sm">
