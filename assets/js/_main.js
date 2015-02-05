@@ -322,6 +322,8 @@ var ORG = {
       $('.spl-enterprise-search-selector-text').text('Website');
       $('.spl-enterprise-search-selector').attr('action', '/');
       $('.spl-enterprise-search-input').prop('name', 's');
+
+      $('.spl-catalog-search').hide();
     }
     /*
     init: function() {
@@ -475,6 +477,8 @@ var ORG = {
   }
 , account: {
     init: function() {
+      
+      $('.spl-catalog-search').hide();
       
       Modernizr.load([
         {
