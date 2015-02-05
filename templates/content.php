@@ -9,4 +9,4 @@
   <hr>
 </article>
 
-<?php do_widget('tag_cloud-2'); ?> 
+<?php do_widget('tag_cloud'); ?> 
