@@ -67,7 +67,8 @@ if ( !empty($spl_home) ): ;
           <a href="/storytime/">
             <span class="text-primary">Storytime schedules</span>
           </a>
-          <a href="/calendar/" class="pull-right">
+          &nbsp;
+          <a href="/calendar/">
             <span class="text-primary">More events</span>
           </a>
         </div>
