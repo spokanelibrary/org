@@ -14,7 +14,7 @@
     <?php comments_template('/templates/comments.php'); ?>
   </article>
   <?php 
-  $instance = array('title'=>"__('Archives')");
+  $instance = array('title'=>"Browse by tag", 'taxonomy'=>'category_tag');
   the_widget( 'WP_Widget_Tag_Cloud', $instance); 
   ?>  
 <?php endwhile; ?>
