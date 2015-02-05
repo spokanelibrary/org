@@ -13,5 +13,7 @@
     <hr>
     <?php comments_template('/templates/comments.php'); ?>
   </article>
+
+  <h4>More from the library blog&hellip;</h4>
   <?php wp_tag_cloud( array('taxonomy' => array('post_tag', 'category')) ); ?>  
 <?php endwhile; ?>
