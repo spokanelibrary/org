@@ -70,7 +70,7 @@ function spl_get_home_url() {
       </div>
 
       <?php //echo do_shortcode('[spl_widget enterprise-search]'); ?>
-      <div class="text-right">
+      <div class="text-right" style="margin-top: 12px;">
       <?php include('header-social-connect.php'); ?>
       </div>
     <?php //endif; ?>
