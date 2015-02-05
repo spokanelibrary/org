@@ -15,5 +15,5 @@
   </article>
 
   <h4>More from the library blog&hellip;</h4>
-  <?php wp_tag_cloud( array('taxonomy' => array('post_tag', 'category')) ); ?>  
+  <?php wp_tag_cloud( array('taxonomy' => array('category')) ); ?>  
 <?php endwhile; ?>
