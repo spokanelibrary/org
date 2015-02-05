@@ -14,7 +14,10 @@
     <?php comments_template('/templates/comments.php'); ?>
   </article>
   <?php 
-  $instance = array('title'=>"Browse by tag", 'taxonomy'=>'post_category');
-  the_widget( 'WP_Widget_Category_Cloud', $instance); 
+  the_widget( 'WP_Widget_Tag_Cloud', array('title'=>"Browse by tag")); 
+  $args = array(
+    'taxonomy' => array( 'post_tag', 'category' ), 
+  ); 
+  wp_tag_cloud( $args ); 
   ?>  
 <?php endwhile; ?>
