@@ -323,7 +323,7 @@ var ORG = {
       $('.spl-enterprise-search-selector').attr('action', '/');
       $('.spl-enterprise-search-input').prop('name', 's');
 
-      $('.spl-catalog-search').hide();
+      $('.spl-search-bar').hide();
     }
     /*
     init: function() {
@@ -478,8 +478,8 @@ var ORG = {
 , account: {
     init: function() {
       
-      $('.spl-catalog-search').hide();
-      
+      $('.spl-search-bar').hide();
+
       Modernizr.load([
         {
           load: [config.path.absolute+'/assets/js/org/account.js'
