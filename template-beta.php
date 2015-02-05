@@ -53,10 +53,8 @@ if ( !empty($spl_home) ): ;
 </div>
 -->
 
-<div class="hidden-md hidden-lg">
-  <div class="text-center">
+<div class="hidden-md hidden-lg text-center" style="margin-top:0; margin-bottom: 10px;">
   <?php include('templates/org/header-social-connect.php'); ?>
-  </div>
 </div>
 
 <div class="visible-xs visible-sm">
