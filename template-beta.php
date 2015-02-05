@@ -53,9 +53,9 @@ if ( !empty($spl_home) ): ;
 </div>
 -->
 
-<div class="container hidden-md hidden-lg">
+<div class="hidden-md hidden-lg">
   <div class="text-center">
-  <?php include('../org/header-social-connect.php'); ?>
+  <?php include('org/header-social-connect.php'); ?>
   </div>
 </div>
 
