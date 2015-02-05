@@ -57,10 +57,10 @@ if ( !empty($spl_home) ): ;
   <div class="btn-group" role="group" aria-label="Social Library Links">
     <a class="btn btn-link hidden-sm"
         href="http://facebook.com/spokanelibrary" 
-        title=""><b><img style="width:16px;" class="" src="/assets/img/icons/32px/facebook.png"></b></a>
+        title=""><b><img style="width:32px;" class="" src="/assets/img/icons/32px/facebook.png"></b></a>
     <a class="btn btn-link hidden-sm"
         href="http://twitter.com/spokanelibrary" 
-        title=""><b><img style="width:16px;" class="" src="/assets/img/icons/32px/twitter.png"></b></a>
+        title=""><b><img style="width:32px;" class="" src="/assets/img/icons/32px/twitter.png"></b></a>
     <a class="btn btn-link hidden-xs" 
         href="/news/"
         title=""><b>News</b></a>
