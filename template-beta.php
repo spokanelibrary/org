@@ -54,7 +54,7 @@ if ( !empty($spl_home) ): ;
 -->
 
 <div class="visible-xs visible-sm text-center" style="margin-top:-10px; margin-bottom: 10px;">
-  <div class="btn-group btn-group-justified" role="group" aria-label="Social Library Links">
+  <div class="btn-group" role="group" aria-label="Social Library Links">
     <a class="btn btn-default hidden-sm"
         href="http://facebook.com/spokanelibrary" 
         title=""><img style="width:16px;" class="" src="/assets/img/icons/16px/facebook.png"></a>
