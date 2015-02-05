@@ -9,4 +9,4 @@
   <hr>
 </article>
 
-<?php do_widget('tag_cloud'); ?> 
+<?php the_widget( 'WP_Widget_Categories' ); ?>  
