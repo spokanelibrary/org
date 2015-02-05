@@ -13,5 +13,8 @@
     <hr>
     <?php comments_template('/templates/comments.php'); ?>
   </article>
-  <?php the_widget( 'WP_Widget_Tag_Cloud' ); ?>  
+  <?php 
+  $instance = array('title'=>'my title');
+  the_widget( 'WP_Widget_Tag_Cloud' ); 
+  ?>  
 <?php endwhile; ?>
