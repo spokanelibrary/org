@@ -55,25 +55,25 @@ if ( !empty($spl_home) ): ;
 
 <div class="visible-xs visible-sm text-center" style="margin-top:-10px; margin-bottom: 10px;">
   <div class="btn-group" role="group" aria-label="Social Library Links">
-    <a class="btn btn-default hidden-sm"
+    <a class="btn btn-link hidden-sm"
         href="http://facebook.com/spokanelibrary" 
         title=""><b><img style="width:16px;" class="" src="/assets/img/icons/16px/facebook.png"></b></a>
-    <a class="btn btn-default hidden-sm"
+    <a class="btn btn-link hidden-sm"
         href="http://twitter.com/spokanelibrary" 
         title=""><b><img style="width:16px;" class="" src="/assets/img/icons/16px/twitter.png"></b></a>
-    <a class="btn btn-default hidden-xs" 
+    <a class="btn btn-link hidden-xs" 
         href="/news/"
         title=""><b>News</b></a>
-    <a class="btn btn-default hidden-xs" 
+    <a class="btn btn-link hidden-xs" 
         href="/blog/"
         title=""><b>Blog</b></a>
-    <a class="btn btn-default hidden-xs" 
+    <a class="btn btn-link hidden-xs" 
         href="/about/"
         title=""><b>About Us</b></a>
-    <a class="btn btn-default" 
+    <a class="btn btn-link" 
         href="/card/"
         title=""><b>Get a Library Card</b></a>
-    <a class="btn btn-default hidden-xs" 
+    <a class="btn btn-link hidden-xs" 
         href="/support/"
         title=""><b class="text-danger">Support Your Library!</b></a>
   </div>
