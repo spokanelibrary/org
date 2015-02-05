@@ -15,7 +15,7 @@
   </article>
   <div class="panel panel-primary">
     <div class="panel-heading">
-      <h4>More from the library blog</h4>
+      <h4>Find more on the library blog</h4>
     </div>
     <div class="panel-body">
     <?php wp_tag_cloud( array('taxonomy' => array('post_tag', 'category')) ); ?>  
