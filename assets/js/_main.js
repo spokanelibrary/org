@@ -323,7 +323,7 @@ var ORG = {
       $('.spl-enterprise-search-selector').attr('action', '/');
       $('.spl-enterprise-search-input').prop('name', 's');
 
-      $('.spl-search-bar').html('');
+      $('.spl-search-bar').hide();
     }
     /*
     init: function() {
