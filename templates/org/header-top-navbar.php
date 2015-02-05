@@ -150,7 +150,7 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
-<div class="container hidden-md hidden-lg">
+<div class="container hidden-md hidden-lg" style="margin-top:6px; margin-bottom:6px;">
   <div class="text-center">
   <?php include('header-social-connect.php'); ?>
   </div>
