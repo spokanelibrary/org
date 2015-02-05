@@ -163,6 +163,6 @@ switch ($post->post_name) {
     break;
 }
 ?>
-<div class="hidden-md hidden-lg">
+<div class="container hidden-md hidden-lg">
   <?php include('header-social-connect.php'); ?>
 </div>
