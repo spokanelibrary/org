@@ -7,7 +7,7 @@
       <a class="btn btn-default hidden-sm"
           href="http://twitter.com/spokanelibrary" 
           title=""><img style="width:16px;" class="" src="/assets/img/icons/16px/twitter.png"></a>
-      <a class="btn btn-default" 
+      <a class="btn btn-default hidden-xs" 
           href="/news/"
           title=""><b>News</b></a>
       <a class="btn btn-default hidden-xs" 
