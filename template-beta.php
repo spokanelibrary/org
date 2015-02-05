@@ -56,8 +56,8 @@ if ( !empty($spl_home) ): ;
 <div class="visible-xs visible-sm">
   <div class="row">
     <div class="col-xs-12">
-      <div class="list-group active">
-        <a href="/branches/" class="list-group-item">
+      <div class="list-group">
+        <a href="/branches/" class="list-group-item active">
           <span class="text-primary">Find a branch / Is the library open?</span>
         </a>
         <a href="/storytime/" class="list-group-item">
