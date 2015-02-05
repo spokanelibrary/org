@@ -58,7 +58,7 @@ if ( !empty($spl_home) ): ;
     <div class="col-xs-12">
       <div class="list-group">
         <a href="/branches/" class="list-group-item">
-          <span class="text-primary">Find a branch / Is the library open?</span>
+          <span class="text-primary">Is the library open? Find a branch.</span>
         </a>
         <a href="/storytime/" class="list-group-item">
           <span class="text-primary">Join us: Storytime schedules</span>
