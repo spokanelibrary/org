@@ -155,8 +155,8 @@ function spl_get_home_url() {
 </div>
 <?php 
 switch ($post->post_name) {
-  case 'home':
-  case 'stage':
+  case 'search':
+  case 'account':
     break;
   default:
     include('header-search.php'); 
