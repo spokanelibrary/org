@@ -1,5 +1,4 @@
-<div class="row">
-  <div class="col-md-12">
+
     <div class="btn-group btn-group-sm" role="group" aria-label="Social Library Links">
       <a class="btn btn-default hidden-sm"
           href="http://facebook.com/spokanelibrary" 
@@ -23,7 +22,6 @@
           href="/support/"
           title=""><b class="text-danger">Support Your Library!</b></a>
     </div>
-  </div>
-</div>
+
 
 
