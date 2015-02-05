@@ -149,11 +149,7 @@ function spl_get_home_url() {
     </nav>
   </div>
 </header><!-- /.navbar -->
-<div class="container visible-xs">
-  <div style="margin-top: 10px; margin-bottom:10px;">
-    <?php include('header-social.php'); ?>
-  </div>
-</div>
+
 <?php 
 switch ($post->post_name) {
   case 'search':
@@ -165,5 +161,7 @@ switch ($post->post_name) {
 }
 ?>
 <div class="container hidden-md hidden-lg">
-  <?php //include('header-social-connect.php'); ?>
+  <div class="text-center">
+  <?php include('header-social-connect.php'); ?>
+  </div>
 </div>
