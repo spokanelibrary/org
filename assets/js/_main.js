@@ -24,7 +24,8 @@ $.fn.carouselHeights = function() {
         tallest; //create variable to make note of the tallest slide
 
     var normalizeHeights = function() {
-
+      // don't normalize on smaller screens
+      if ( $('.visible-md').is(':visible') || $('.visible-lg').is(':visible') ) {
         items.each(function() { //add heights to array
             heights.push($(this).height()); 
         });
@@ -32,6 +33,7 @@ $.fn.carouselHeights = function() {
         items.each(function() {
             $(this).css('min-height',tallest + 'px');
         });
+      }
     };
 
     normalizeHeights();
@@ -282,18 +284,14 @@ var ORG = {
     init: function() {
       //console.log(config);
       // Normalize Carousel Heights
-      if ( $('.visible-md').is(':visible') || $('.visible-lg').is(':visible') ) {
-        $('#spl-hero .item').carouselHeights();
-      }
+      $('#spl-hero .item').carouselHeights();
     }
   }
 , stage: {
     init: function() {
       //console.log(config);
       // Normalize Carousel Heights
-      if ( $('.visible-md').is(':visible') || $('.visible-lg').is(':visible') ) {
-        $('#spl-hero .item').carouselHeights();
-      }
+      $('#spl-hero .item').carouselHeights();
     }
   }
 , it_academy: {
