@@ -13,11 +13,5 @@
     <hr>
     <?php comments_template('/templates/comments.php'); ?>
   </article>
-  <?php 
-  the_widget( 'WP_Widget_Tag_Cloud', array('title'=>"Browse by tag")); 
-  $args = array(
-    'taxonomy' => array( 'post_tag', 'category' ), 
-  ); 
-  wp_tag_cloud( $args ); 
-  ?>  
+  <?php wp_tag_cloud( array('taxonomy' => array('post_tag', 'category')) ); ?>  
 <?php endwhile; ?>
