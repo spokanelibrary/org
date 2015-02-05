@@ -69,7 +69,7 @@ if ( !empty($spl_home) ): ;
   <div class="row">
     <div class="col-sm-12">
 
-      <div class="spl-hero-panel spl-hero-alt">
+      <div class="spl-hero-panel spl-hero-primary">
 
         <h4 class="text-center">
         <i class="glyphicon glyphicon-hand-down"></i>
