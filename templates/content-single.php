@@ -13,7 +13,7 @@
     <hr>
     <?php comments_template('/templates/comments.php'); ?>
   </article>
-  <div class="panel panel-default">
+  <div class="panel panel-primary">
     <div class="panel-heading">
       <h4>More from the library blog</h4>
     </div>
