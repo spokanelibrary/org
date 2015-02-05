@@ -11,6 +11,9 @@
           href="/news/"
           title=""><b class="">News</b></a>
       <a class="btn btn-default" 
+          href="/blog/"
+          title=""><b class="">Blog</b></a>
+      <a class="btn btn-default" 
           href="/about/"
           title=""><b class="">About Us</b></a>
       <a class="btn btn-default" 
