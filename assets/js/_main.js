@@ -323,7 +323,7 @@ var ORG = {
       $('.spl-enterprise-search-selector').attr('action', '/');
       $('.spl-enterprise-search-input').prop('name', 's');
 
-      $('.spl-search-bar').hide();
+      //$('.spl-search-bar').hide();
     }
     /*
     init: function() {
@@ -478,7 +478,7 @@ var ORG = {
 , account: {
     init: function() {
       
-      $('.spl-search-bar').hide();
+      //$('.spl-search-bar').hide();
 
       Modernizr.load([
         {

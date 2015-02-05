@@ -53,8 +53,6 @@ if ( !empty($spl_home) ): ;
 </div>
 -->
 
-
-
 <div class="visible-xs visible-sm">
   <div class="row">
     <div class="col-xs-12">

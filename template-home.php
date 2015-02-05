@@ -52,7 +52,7 @@ if ( !empty($spl_home) ): ;
   </div>
 </div>
 -->
-<?php echo $post->post_name; ?>
+
 <div class="visible-xs visible-sm">
   <div class="row">
     <div class="col-xs-12">
