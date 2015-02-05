@@ -5,6 +5,7 @@ Template Name: Home Page
 ?>
 
 
+
 <!--
 <div class="row">
   <div class="col-md-6">
@@ -57,11 +58,11 @@ if ( !empty($spl_home) ): ;
   <div class="row">
     <div class="col-xs-12">
       <div class="list-group">
-        <a href="/open/" class="list-group-item">
-          <span class="text-primary">Is the library open?</span> <small>&rarr;</small>
+        <a href="/branches/" class="list-group-item">
+          <span class="text-primary">Find us: Branches &amp; open hours <small>&rarr;</small></span>
         </a>
         <a href="/storytime/" class="list-group-item">
-          <span class="text-primary">Storytime schedules</span> <small>&rarr;</small>
+          <span class="text-primary">Join us: Storytime schedules <small>&rarr;</small></span>
         </a>
       </div><!-- /.list-group -->
     </div><!-- /.col -->
@@ -72,7 +73,7 @@ if ( !empty($spl_home) ): ;
 
       <div class="spl-hero-panel spl-hero-primary">
 
-        <h4 class="text-center normal">
+        <h4 class="text-center">
         <i class="glyphicon glyphicon-hand-down"></i>
         For mobile devices
       </h4>
