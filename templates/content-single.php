@@ -15,6 +15,6 @@
   </article>
   <?php 
   $instance = array('title'=>"Browse by tag", 'taxonomy'=>'post_category');
-  the_widget( 'WP_Widget_Tag_Cloud', $instance); 
+  the_widget( 'WP_Widget_Category_Cloud', $instance); 
   ?>  
 <?php endwhile; ?>
