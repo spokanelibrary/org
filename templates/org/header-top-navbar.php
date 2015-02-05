@@ -70,8 +70,9 @@ function spl_get_home_url() {
       </div>
 
       <?php //echo do_shortcode('[spl_widget enterprise-search]'); ?>
+      <div class="text-right">
       <?php include('header-social-connect.php'); ?>
-      
+      </div>
     <?php //endif; ?>
 
     <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
@@ -164,5 +165,5 @@ switch ($post->post_name) {
 }
 ?>
 <div class="container hidden-md hidden-lg">
-  <?php include('header-social-connect.php'); ?>
+  <?php //include('header-social-connect.php'); ?>
 </div>

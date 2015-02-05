@@ -1,5 +1,5 @@
 <div class="row" style="margin-top: 12px;">
-  <div class="col-md-12  text-right">
+  <div class="col-md-12">
     <div class="btn-group btn-group-sm" role="group" aria-label="Social Library Links">
       <a class="btn btn-default hidden-xs hidden-sm"
           href="http://facebook.com/spokanelibrary" 
