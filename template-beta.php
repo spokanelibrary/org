@@ -64,7 +64,12 @@ if ( !empty($spl_home) ): ;
           <span class="text-primary">Storytime schedules</span>
         </a>
         <div class="list-group-item">
-          test
+          <a href="/storytime/">
+            <span class="text-primary">Storytime schedules</span>
+          </a>
+          <a href="/calendar/" class="pull-right">
+            <span class="text-primary">More events</span>
+          </a>
         </div>
       </div><!-- /.list-group -->
     </div><!-- /.col -->
