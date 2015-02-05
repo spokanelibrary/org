@@ -53,6 +53,12 @@ if ( !empty($spl_home) ): ;
 </div>
 -->
 
+<div class="container hidden-md hidden-lg" style-=>
+  <div class="text-center">
+  <?php include('header-social-connect.php'); ?>
+  </div>
+</div>
+
 <div class="visible-xs visible-sm">
   <div class="row">
     <div class="col-xs-12">

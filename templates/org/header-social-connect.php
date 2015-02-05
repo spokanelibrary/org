@@ -7,7 +7,7 @@
       <a class="btn btn-default hidden-sm"
           href="http://twitter.com/spokanelibrary" 
           title=""><img style="width:16px;" class="" src="/assets/img/icons/16px/twitter.png"></a>
-      <a class="btn btn-default hidden-xs" 
+      <a class="btn btn-default" 
           href="/news/"
           title=""><b>News</b></a>
       <a class="btn btn-default hidden-xs" 
@@ -16,10 +16,10 @@
       <a class="btn btn-default hidden-xs" 
           href="/about/"
           title=""><b>About Us</b></a>
-      <a class="btn btn-default hidden-xs" 
+      <a class="btn btn-default" 
           href="/card/"
           title=""><b>Get a Library Card</b></a>
-      <a class="btn btn-default hidden-xs" 
+      <a class="btn btn-default" 
           href="/support/"
           title=""><b class="text-danger">Support Your Library!</b></a>
     </div>
