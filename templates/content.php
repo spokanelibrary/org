@@ -8,5 +8,3 @@
   </div>
   <hr>
 </article>
-
-<?php the_widget( 'WP_Widget_Categories' ); ?>  

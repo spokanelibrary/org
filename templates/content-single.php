@@ -13,4 +13,5 @@
     <hr>
     <?php comments_template('/templates/comments.php'); ?>
   </article>
+  <?php the_widget( 'WP_Widget_Categories' ); ?>  
 <?php endwhile; ?>
