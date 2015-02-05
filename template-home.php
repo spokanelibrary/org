@@ -54,6 +54,32 @@ if ( !empty($spl_home) ): ;
 </div>
 -->
 
+<div class="visible-xs visible-sm text-center" style="margin-top:-10px; margin-bottom: 10px;">
+  <div class="btn-group" role="group" aria-label="Social Library Links">
+    <a class="btn btn-link hidden-sm"
+        href="http://facebook.com/spokanelibrary" 
+        title=""><b><img style="width:24px;" class="" src="/assets/img/icons/32px/facebook.png"></b></a>
+    <a class="btn btn-link hidden-sm"
+        href="http://twitter.com/spokanelibrary" 
+        title=""><b><img style="width:24px;" class="" src="/assets/img/icons/32px/twitter.png"></b></a>
+    <a class="btn btn-link hidden-xs" 
+        href="/news/"
+        title=""><b>News</b></a>
+    <a class="btn btn-link hidden-xs" 
+        href="/blog/"
+        title=""><b>Blog</b></a>
+    <a class="btn btn-link hidden-xs" 
+        href="/about/"
+        title=""><b>About Us</b></a>
+    <a class="btn btn-link" 
+        href="/card/"
+        title=""><b>Get a Library Card</b></a>
+    <a class="btn btn-link hidden-xs" 
+        href="/support/"
+        title=""><b class="text-danger">Support Your Library!</b></a>
+  </div>
+</div>
+
 <div class="visible-xs visible-sm">
   <div class="row">
     <div class="col-xs-12">
@@ -179,6 +205,7 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 
 </div><!-- /.row -->
+
 
 
 
