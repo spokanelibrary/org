@@ -153,4 +153,7 @@ function spl_get_home_url() {
     <?php include('header-social.php'); ?>
   </div>
 </div>
-<?php include('header-search.php'); ?>
+<?php 
+  //switch 
+include('header-search.php'); 
+?>
