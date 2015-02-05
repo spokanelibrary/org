@@ -15,6 +15,6 @@
   </article>
   <?php 
   $instance = array('title'=>"__('Archives')");
-  the_widget( 'WP_Widget_Tag_Cloud' ); 
+  the_widget( 'WP_Widget_Tag_Cloud', $instance); 
   ?>  
 <?php endwhile; ?>
