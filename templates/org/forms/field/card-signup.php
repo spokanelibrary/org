@@ -36,9 +36,9 @@
               </label>
             </div>
             <div class="radio">
-              <label class="text-info">
+              <label>
                 <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor">
-                <b>under 18 yeard old</b> and I live in Spokane.
+                <b class="text-info">under 18 yeard old</b> and I live in Spokane.
               </label>
             </div>
             <div class="radio">
