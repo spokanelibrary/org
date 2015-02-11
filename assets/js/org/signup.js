@@ -37,7 +37,7 @@ var org = {
   } // initSignup()
 
 , initEventHandlers: function() {
-
+    $('button').attr('disabled', false);
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
       $('#spl-signup-card-type').collapse('hide');
