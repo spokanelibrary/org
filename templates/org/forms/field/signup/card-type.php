@@ -23,6 +23,12 @@
           </div>
           <div class="radio">
             <label>
+              <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="nonres">
+              <b class="warning">an adult</b> living elsewhere (with no address or residence in Spokane County).
+            </label>
+          </div>
+          <div class="radio">
+            <label>
               <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor">
               <b class="text-info">under 18 yeard old</b> and I live in Spokane.
             </label>
