@@ -15,6 +15,7 @@
 
     <div class="panel-heading">
       <h3 class="panel-title">
+        <i class="glyphicon glyphicon-barcode"></i>
         Let's find out what type of library card you need
       </h3>
     </div><!-- /.panel-body -->
@@ -52,6 +53,15 @@
                 <b>a business or non-profit</b> and I need a cards for myself or my employees.
               </label>
             </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-offset-4 col-sm-8">
+            <button class="btn btn-block btn-primary">
+              <small class="glyphicon glyphicon-check"></small>
+              Next &rarr;
+            </button>
           </div>
         </div>
 
