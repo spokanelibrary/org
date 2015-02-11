@@ -20,8 +20,7 @@
           Let's get started
         </legend>
 
-
-
+        <h3>Please tell us a little bit about yourself:</h3>
 
       </fieldset>
 
@@ -37,8 +36,6 @@
           Let's get started
         </legend>
 
-        <h3>Please tell us a little bit about yourself:</h3>
-        
 
         <div class="form-group">
           <label for="spl-form-name" class="col-sm-4 control-label">My name</label>
