@@ -7,6 +7,14 @@
         Let's get started
       </legend>
 
+
+      <div class="form-group">
+        <label for="spl-form-birthdate" class="col-sm-4 control-label">My date of birth</label>
+        <div class="col-sm-8">
+          <input type="text" class="form-control required" id="spl-form-birthdate" name="spl-form[signup][birthdate]" value="" placeholder="">
+        </div>
+      </div>
+
       <?php include 'card-signup.php'; ?>
 
     </fieldset>
