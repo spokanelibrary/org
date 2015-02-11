@@ -27,7 +27,7 @@
       </fieldset>
 
 
-      <fieldset class="hidden">
+      <fieldset class="">
         
         <legend class="text-muted">
           <small class="glyphicon glyphicon-"></small>
