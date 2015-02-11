@@ -17,8 +17,9 @@
     case 'adult':
       break;
       include 'signup/card-adult.php';
-      default:
+    default:
       include 'signup/card-type.php';
+      break;
   } 
   print_r($_REQUEST);
   ?>
