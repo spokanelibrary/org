@@ -29,13 +29,19 @@
             <div class="radio">
               <label>
                 <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult" checked>
-                An adult
+                <b>An adult</b> with an address or residence in Spokane County
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor" checked>
-                Under 18 yeard old
+                <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor">
+                <b>Under 18 yeard old</b> and I live in Spokane
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-teacher" value="teacher">
+                <b>A teacher</b> and I need a card for my classroom
               </label>
             </div>
           </div>
