@@ -15,7 +15,7 @@
 
     <div class="panel-heading">
       <h3 class="panel-title">
-        Let's find out what type of card you need
+        Let's find out what type of library card you need
       </h3>
     </div><!-- /.panel-body -->
 
@@ -24,7 +24,9 @@
       <fieldset>
 
         <div class="form-group">
-          <label for="spl-form-card-type" class="col-sm-2 control-label">I am:</label>
+          <label for="spl-form-card-type" class="col-sm-2 control-label">
+            <h3>I am:</h3>
+          </label>
           <div class="col-sm-10" id="spl-form-card-type">
             <div class="radio">
               <label>
