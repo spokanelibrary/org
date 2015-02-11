@@ -56,7 +56,7 @@ var org = {
     console.log(date);
   
     $.ajax( { 
-      url: _self.config.api.v2 + '/date/'
+      url: _self.config.api.v2 + '/date'
       ,crossDomain: true
       ,data: { params: {
                         date: date
