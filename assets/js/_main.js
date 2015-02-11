@@ -9,6 +9,8 @@ var config = {
           , syndetics: 'http://api.spokanelibrary.org/v2/syndetics/lookup'
           , overdrive: 'http://api.spokanelibrary.org/v2/overdrive/lookup'
           , msit: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
+          , signup: 'http://api.spokanelibrary.org/v2/barcode'
+          , v2: 'http://api.spokanelibrary.org/v2'
            }
     , path: {
               absolute: {} // ToDo: this should go

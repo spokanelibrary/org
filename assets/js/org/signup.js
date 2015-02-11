@@ -40,7 +40,7 @@ var org = {
     $('button').attr('disabled', false);
 
     $('body').on('blur', '#spl-form-birthdate', function(e) {
-      console.log( $(this).val() );
+      _self.normalizeBirthdate( $(this).val() );
     });
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
@@ -52,5 +52,23 @@ var org = {
     */
   }
 
+, normalizeBirthdate: function() {
+    $.ajax( { 
+      url: _self.config.api.v2 + '/date/'
+      ,crossDomain: true
+      ,data: { params: {
+                        date: date
+                }
+              }
+    } )
+    .done(function(data) {
+      console.log(date);
+    })
+    .fail(function() {
+      //parseNovelistData(null);
+    })
+    .always(function() {  
+    });
+}
 
 };
