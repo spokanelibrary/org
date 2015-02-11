@@ -57,9 +57,9 @@
         </div>
 
         <div class="form-group">
-          <div class="col-sm-offset-4 col-sm-8">
+          <div class="col-sm-offset-2 col-sm-4">
             <button class="btn btn-block btn-primary">
-              <small class="glyphicon glyphicon-check"></small>
+              <small class="glyphicon glyphicon-list-alt"></small>
               Next &rarr;
             </button>
           </div>
