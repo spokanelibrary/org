@@ -64,7 +64,7 @@ var org = {
               }
     } )
     .done(function(data) {
-      console.log(date);
+      console.log(data);
     })
     .fail(function() {
       //parseNovelistData(null);
