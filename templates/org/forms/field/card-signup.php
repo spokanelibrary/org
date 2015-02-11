@@ -58,8 +58,8 @@
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-4">
             <button class="btn btn-block btn-primary">
-              <small class="glyphicon glyphicon-barcode"></small>
-              <b>Next</b> <small>&rarr;</small>
+              <b>Next</b>
+              <small class="glyphicon glyphicon-arrow-right"></small>
             </button>
           </div>
         </div>
