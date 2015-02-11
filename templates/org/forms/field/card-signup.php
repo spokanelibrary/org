@@ -24,8 +24,8 @@
         </legend>
 
         <div class="form-group">
-          <label for="spl-form-card-type" class="col-sm-4 control-label">I am:</label>
-          <div class="col-sm-8" id="spl-form-card-type">
+          <label for="spl-form-card-type" class="col-sm-2 control-label">I am:</label>
+          <div class="col-sm-10" id="spl-form-card-type">
             <div class="radio">
               <label>
                 <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult" checked>
