@@ -36,7 +36,7 @@
               </label>
             </div>
             <div class="radio">
-              <label>
+              <label class="text-info">
                 <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor">
                 <b>under 18 yeard old</b> and I live in Spokane.
               </label>
@@ -44,13 +44,13 @@
             <div class="radio">
               <label>
                 <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-teacher" value="teacher">
-                <b>a teacher</b> and I need a card for my classroom.
+                <b class="text-success">a teacher</b> and I need a card for my classroom.
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-business" value="business">
-                <b>a business or non-profit</b> and I need a cards for myself or my employees.
+                <b class="text-danger">a business or non-profit</b> and I need a cards for myself or my employees.
               </label>
             </div>
           </div>
