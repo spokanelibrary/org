@@ -14,9 +14,9 @@
   <div class="panel panel-primary">
 
     <div class="panel-heading">
-      <h2 class="panel-title">
+      <h3 class="panel-title">
         Let's find out what type of library card you need
-      </h2>
+      </h3>
     </div><!-- /.panel-body -->
 
     <div class="panel-body">
@@ -25,7 +25,7 @@
 
         <div class="form-group">
           <label for="spl-form-card-type" class="col-sm-2 control-label">
-            <h3>I am:</h3>
+            <h2>I am:</h2>
           </label>
           <div class="col-sm-10" id="spl-form-card-type">
             <div class="radio">
