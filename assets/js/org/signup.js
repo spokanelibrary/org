@@ -41,7 +41,7 @@ var org = {
     $('body').on('click', '.spl-card-type-select', function(e) {
       $('#spl-signup-card-type').collapse('hide');
       $('#spl-signup-adult').collapse('show');
-      history.pushState(null, null, '/signup/adult/');
+      history.pushState(null, null, '/signup/');
       e.preventDefault();
     });
   
