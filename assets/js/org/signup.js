@@ -52,7 +52,7 @@ var org = {
     */
   }
 
-, normalizeBirthdate: function() {
+, normalizeBirthdate: function(date) {
     $.ajax( { 
       url: _self.config.api.v2 + '/date/'
       ,crossDomain: true
