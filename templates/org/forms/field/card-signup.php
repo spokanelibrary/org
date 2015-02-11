@@ -15,7 +15,7 @@
 
     <div class="panel-heading">
       <h3 class="panel-title">
-        Let's find out what type of library card you need
+        Let's find out what type of card you need
       </h3>
     </div><!-- /.panel-body -->
 
