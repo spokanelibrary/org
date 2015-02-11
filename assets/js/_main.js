@@ -308,6 +308,20 @@ var ORG = {
       ]);
     }
   }
+, signup: {
+    init: function() {
+      Modernizr.load([
+        {
+          load: [config.path.absolute+'/assets/js/org/signup.js'],
+          complete: function () {
+            if ( org ) { 
+              org.init();
+            } 
+          }
+        }
+      ]);
+    }
+  }
 , calendar: {
     init: function() {
       $('.spl-enterprise-search-selector-text').text('Calendar');
