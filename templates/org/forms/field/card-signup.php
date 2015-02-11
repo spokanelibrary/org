@@ -13,15 +13,15 @@
   <!-- TMAYS -->
   <div class="panel panel-primary">
 
+    <div class="panel-heading">
+      <h3 class="panel-title">
+        Let's find out what type of card you need
+      </h3>
+    </div><!-- /.panel-body -->
 
     <div class="panel-body">
       
       <fieldset>
-
-        <legend class="text-muted">
-          <small class="glyphicon glyphicon-"></small>
-          Let's find out what type of card you need
-        </legend>
 
         <div class="form-group">
           <label for="spl-form-card-type" class="col-sm-2 control-label">I am:</label>
