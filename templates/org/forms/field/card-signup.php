@@ -28,10 +28,35 @@
 
 
       <fieldset class="hidden">
+        
         <legend class="text-muted">
           <small class="glyphicon glyphicon-"></small>
           Let's get started
         </legend>
+
+        <div class="form-group">
+          <label for="spl-form-card-type" class="col-sm-4 control-label">I am</label>
+          <div class="col-sm-8">
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Option one is this and that&mdash;be sure to include why it's great
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Option two can be something else and selecting it will deselect option one
+              </label>
+            </div>
+            <div class="radio disabled">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                Option three is disabled
+              </label>
+            </div>
+          </div>
+        </div>
 
       </fieldset>
     </div><!-- /.panel-body -->
