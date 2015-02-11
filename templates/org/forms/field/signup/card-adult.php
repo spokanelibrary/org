@@ -1,4 +1,4 @@
-<?php //include 'card-adult.php'; ?>
+<?php include 'card-signup.php'; ?>
 
 <div class="panel panel-default">
   <div class="panel-body">
