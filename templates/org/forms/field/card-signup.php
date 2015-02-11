@@ -1,36 +1,49 @@
-
-<div class="panel panel-default">
-  <div class="panel-body">
-    <form class="form-horizontal spl-form" id="spl-form-signup" method="post" role="form">
-      
-      <?php include 'common/crass-response.php'; ?>
+<form class="form-horizontal spl-form" id="spl-form-signup" method="post" role="form">
   
-      <input type="hidden" id="spl-form-id" name="spl-form[id]" value="signup" />
-      
-      <input type="hidden" 
-            id="spl-form-ip" 
-            name="spl-form[ip]" 
-            value="<?php echo $_SERVER['REMOTE_ADDR']; ?>"
-            />
+  <?php include 'common/crass-response.php'; ?>
 
-      <!-- TMAYS -->
+  <input type="hidden" id="spl-form-id" name="spl-form[id]" value="signup" />
+  
+  <input type="hidden" 
+        id="spl-form-ip" 
+        name="spl-form[ip]" 
+        value="<?php echo $_SERVER['REMOTE_ADDR']; ?>"
+        />
+
+  <!-- TMAYS -->
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Let's get started</h3>
+    </div><!-- /.panel-heading -->
+
+    <div class="panel-body">
+      
       <fieldset>
+        <legend class="text-muted">
+          <small class="glyphicon glyphicon-"></small>
+          Please tell us a little bit about yourself
+        </legend>
+
+      </fieldset>
+
+
+      <fieldset class="hidden">
         <legend class="text-muted">
           <small class="glyphicon glyphicon-"></small>
           Let's get started
         </legend>
 
-        <h3>Please tell us a little bit about yourself:</h3>
-
       </fieldset>
+    </div><!-- /.panel-body -->
+  </div><!-- /.panel -->
 
 
 
-      <!-- -->
+  <!-- Adult -->
+  <div class="panel panel-default hidden">
+    <div class="panel-body">
 
-
-
-      <fieldset class="hidden">
+      <fieldset>
         <legend class="text-muted">
           <small class="glyphicon glyphicon-"></small>
           Let's get started
@@ -91,11 +104,8 @@
           </div>
         </div>
 
-        
-        <?php //print_r('<pre>'.$renew->borrower.'</pre>'); ?>
-
       </fieldset>
-    </form>
-  </div><!-- /.panel-body -->
-</div><!-- /.panel -->
+    </div><!-- /.panel-body -->
+  </div><!-- /.panel -->
         
+</form>
