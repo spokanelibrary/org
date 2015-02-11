@@ -12,9 +12,7 @@
 
   <!-- TMAYS -->
   <div class="panel panel-primary">
-    <div class="panel-heading">
-      <h4 class="">Please tell us a little bit about yourself</h4>
-    </div><!-- /.panel-heading -->
+
 
     <div class="panel-body">
       
