@@ -1,3 +1,5 @@
+<?php include 'card-adult.php'; ?>
+
 <div class="panel panel-default">
   <div class="panel-body">
 
