@@ -13,7 +13,7 @@
   <!-- TMAYS -->
   <div class="panel panel-primary">
     <div class="panel-heading">
-      <h3 class="panel-title">Let's get started</h3>
+      <h4 class="">Let's get started</h4>
     </div><!-- /.panel-heading -->
 
     <div class="panel-body">
