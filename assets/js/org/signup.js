@@ -40,7 +40,8 @@ var org = {
     $('button').attr('disabled', false);
 
     $('body').on('blur', '#spl-form-birthdate', function(e) {
-      _self.normalizeBirthdate( $(this).val() );
+      //_self.normalizeBirthdate( $(this).val() );
+      console.log( $(this).attr('id') );
     });
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
