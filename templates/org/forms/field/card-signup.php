@@ -13,7 +13,7 @@
   <!-- TMAYS -->
   <div class="panel panel-primary">
     <div class="panel-heading">
-      <h4 class="">Let's get started</h4>
+      <h4 class="">Please tell us a little bit about yourself</h4>
     </div><!-- /.panel-heading -->
 
     <div class="panel-body">
@@ -22,28 +22,22 @@
 
         <legend class="text-muted">
           <small class="glyphicon glyphicon-"></small>
-          Please tell us a little bit about yourself
+          Let's find out what type of card you need
         </legend>
 
         <div class="form-group">
-          <label for="spl-form-card-type" class="col-sm-4 control-label">I am</label>
-          <div class="col-sm-8">
+          <label for="spl-form-card-type" class="col-sm-4 control-label">I am:</label>
+          <div class="col-sm-8" id="spl-form-card-type">
             <div class="radio">
               <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                Option one is this and that&mdash;be sure to include why it's great
+                <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult" checked>
+                An adult
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                Option two can be something else and selecting it will deselect option one
-              </label>
-            </div>
-            <div class="radio disabled">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-                Option three is disabled
+                <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor" checked>
+                Under 18 yeard old
               </label>
             </div>
           </div>
