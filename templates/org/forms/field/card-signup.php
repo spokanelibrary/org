@@ -12,6 +12,13 @@
         value="<?php echo $_SERVER['REMOTE_ADDR']; ?>"
         />
 
-  <?php include 'signup/card-type.php'; ?>
-      
+  <?php
+  switch ( $_REQUEST['spl-form']['card'['type']] ) {
+    case 'adult':
+      break;
+      include 'signup/card-adult.php';
+      default:
+      include 'signup/card-type.php';
+  } 
+  ?>
 </form>
