@@ -53,6 +53,7 @@ var org = {
   }
 
 , normalizeDate: function(id, date) {
+    //console.log();
     if ( id && date ) {
       $.ajax( { 
         url: _self.config.api.v2 + '/date'
@@ -63,7 +64,7 @@ var org = {
                 }
       } )
       .done(function(data) {
-        $('#'+id).val(date);
+        $('#'+id).val(data);
       })
       .fail(function() {
         //parseNovelistData(null);
