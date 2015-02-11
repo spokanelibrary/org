@@ -40,7 +40,7 @@ var org = {
     $('button').attr('disabled', false);
 
     $('body').on('blur', '#spl-form-birthdate', function(e) {
-      _self.normalizeDate( $(this).attr('id'), $(this).val() );
+      _self.normalizeBirthdate( $(this).attr('id'), $(this).val() );
     });
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
@@ -52,11 +52,11 @@ var org = {
     */
   }
 
-, normalizeDate: function(id, date) {
+, normalizeBirthdate: function(id, date) {
     //console.log();
     if ( id && date ) {
       $.ajax( { 
-        url: _self.config.api.v2 + '/date'
+        url: _self.config.api.v2 + '/birthdate'
         ,crossDomain: true
         ,data: { params: {
                           date: date
