@@ -20,5 +20,6 @@
       default:
       include 'signup/card-type.php';
   } 
+  print_r($_REQUEST);
   ?>
 </form>
