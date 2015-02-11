@@ -17,6 +17,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
   <?php  
   switch ( $_REQUEST['spl-form']['card']['type'] ) {
     case 'adult':
+    case 'nonres':
       include 'common/crass-response.php';
       include 'signup/card-adult.php';
       break;
