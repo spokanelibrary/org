@@ -14,9 +14,9 @@
   <div class="panel panel-primary">
 
     <div class="panel-heading">
-      <h3 class="panel-title">
+      <h2 class="panel-title">
         Let's find out what type of library card you need
-      </h3>
+      </h2>
     </div><!-- /.panel-body -->
 
     <div class="panel-body">
