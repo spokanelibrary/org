@@ -18,6 +18,14 @@
           <small class="glyphicon glyphicon-"></small>
           Let's get started
         </legend>
+
+      </fieldset>
+
+      <fieldset class="hidden">
+        <legend class="text-muted">
+          <small class="glyphicon glyphicon-"></small>
+          Let's get started
+        </legend>
         
 
         <div class="form-group">
