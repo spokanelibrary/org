@@ -15,7 +15,6 @@
 
     <div class="panel-heading">
       <h3 class="panel-title">
-        <i class="glyphicon glyphicon-barcode"></i>
         Let's find out what type of library card you need
       </h3>
     </div><!-- /.panel-body -->
@@ -50,7 +49,7 @@
             <div class="radio">
               <label>
                 <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-business" value="business">
-                <b class="text-danger">a business or non-profit</b> and I need a cards for myself or my employees.
+                <b class="text-danger">a business or non-profit</b> and I need a card for myself or my employees.
               </label>
             </div>
           </div>
@@ -59,7 +58,7 @@
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-4">
             <button class="btn btn-block btn-primary">
-              <small class="glyphicon glyphicon-list-alt"></small>
+              <small class="glyphicon glyphicon-barcode"></small>
               Next &rarr;
             </button>
           </div>
