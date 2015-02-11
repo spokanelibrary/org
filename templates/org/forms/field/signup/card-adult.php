@@ -7,7 +7,7 @@
         Let's get started
       </legend>
 
-      <?php include 'signup/card-signup.php'; ?>
+      <?php include 'card-signup.php'; ?>
 
     </fieldset>
   </div><!-- /.panel-body -->
