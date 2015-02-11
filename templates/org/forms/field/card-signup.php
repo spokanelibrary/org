@@ -19,19 +19,10 @@
     <div class="panel-body">
       
       <fieldset>
+
         <legend class="text-muted">
           <small class="glyphicon glyphicon-"></small>
           Please tell us a little bit about yourself
-        </legend>
-
-      </fieldset>
-
-
-      <fieldset class="">
-        
-        <legend class="text-muted">
-          <small class="glyphicon glyphicon-"></small>
-          Let's get started
         </legend>
 
         <div class="form-group">
@@ -59,6 +50,7 @@
         </div>
 
       </fieldset>
+
     </div><!-- /.panel-body -->
   </div><!-- /.panel -->
 
