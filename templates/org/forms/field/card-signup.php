@@ -14,7 +14,7 @@
 
   <?php
   print_r($_REQUEST);
-  
+  /*
   switch ( $_REQUEST['spl-form']['card'['type'] ) {
     case 'adult':
       include 'signup/card-adult.php';
@@ -23,5 +23,6 @@
       include 'signup/card-type.php';
       break;
   } 
+  */
   ?>
 </form>
