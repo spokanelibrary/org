@@ -15,8 +15,8 @@
   <?php
   switch ( $_REQUEST['spl-form']['card'['type']] ) {
     case 'adult':
-      break;
       include 'signup/card-adult.php';
+      break;
     default:
       include 'signup/card-type.php';
       break;
