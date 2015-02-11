@@ -13,19 +13,31 @@
             value="<?php echo $_SERVER['REMOTE_ADDR']; ?>"
             />
 
+      <!-- TMAYS -->
       <fieldset>
         <legend class="text-muted">
           <small class="glyphicon glyphicon-"></small>
           Let's get started
         </legend>
 
+
+
+
       </fieldset>
+
+
+
+      <!-- -->
+
+
 
       <fieldset class="hidden">
         <legend class="text-muted">
           <small class="glyphicon glyphicon-"></small>
           Let's get started
         </legend>
+
+        <h3>Please tell us a little bit about yourself:</h3>
         
 
         <div class="form-group">
