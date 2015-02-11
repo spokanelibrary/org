@@ -7,7 +7,6 @@
         Let's get started
       </legend>
 
-      <?php include '../common/crass-response.php'; ?>
       <?php include 'card-signup.php'; ?>
 
 
