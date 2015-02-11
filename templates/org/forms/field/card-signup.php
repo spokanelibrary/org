@@ -59,7 +59,7 @@
 
           <div class="form-group">
             <div class="col-sm-offset-2 col-sm-4">
-              <button class="spl-card-type-select" class="btn btn-block btn-primary">
+              <button class="btn btn-block btn-primary spl-card-type-select">
                 <b>Next</b>
                 <small class="glyphicon glyphicon-arrow-right"></small>
               </button>
