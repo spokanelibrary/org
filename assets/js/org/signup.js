@@ -39,8 +39,8 @@ var org = {
 , initEventHandlers: function() {
     $('button').attr('disabled', false);
 
-    $('body').on('blur', '#spl-form-birthdate', function(e)) {
-      console.log($this.val());
+    $('body').on('blur', '#spl-form-birthdate', function(e) {
+      console.log($(this).val());
     }
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
