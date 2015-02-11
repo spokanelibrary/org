@@ -52,7 +52,7 @@ var org = {
     */
   }
 
-, normalizeDate: function(date, id) {
+, normalizeDate: function(id, date) {
     if ( id && date ) {
       $.ajax( { 
         url: _self.config.api.v2 + '/date'
