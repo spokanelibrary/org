@@ -30,10 +30,20 @@ var org = {
 
 , initSignup: function() {
     var netSrc = $('#spl-network-source').data('source');
-    
-    console.log(netSrc);
+    //console.log(netSrc);
+
+    this.initEventHandlers();
 
   } // initSignup()
+
+, initEventHandlers: function() {
+
+    $('body').on('click', '.spl-card-type-select', function(e) {
+      $('#spl-signup-card-type').collapse('hide');
+      $('#spl-signup-adult').collapse('show');
+    });
+  
+  }
 
 
 };
