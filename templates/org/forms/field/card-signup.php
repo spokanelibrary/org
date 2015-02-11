@@ -59,7 +59,7 @@
           <div class="col-sm-offset-2 col-sm-4">
             <button class="btn btn-block btn-primary">
               <small class="glyphicon glyphicon-barcode"></small>
-              Next &rarr;
+              <b>Next</b> <small>&rarr;</small>
             </button>
           </div>
         </div>
