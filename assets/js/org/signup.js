@@ -52,14 +52,14 @@ var org = {
     */
   }
 
-, normalizeBirthdate: function(id, date) {
+, normalizeBirthdate: function(id, birthdate) {
     //console.log();
     if ( id && date ) {
       $.ajax( { 
         url: _self.config.api.v2 + '/birthdate/normalize'
         ,crossDomain: true
         ,data: { params: {
-                          date: date
+                          birthdate: birthdate
                   }
                 }
       } )
