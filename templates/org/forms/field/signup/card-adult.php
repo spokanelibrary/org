@@ -7,8 +7,9 @@
         Let's get started
       </legend>
 
+      <?php include '../common/crass-response.php'; ?>
       <?php include 'card-signup.php'; ?>
-      <?php include '/common/crass-response.php'; ?>
+
 
       <div class="form-group">
         <label for="spl-form-name" class="col-sm-4 control-label">My name</label>
