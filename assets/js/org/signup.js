@@ -56,7 +56,7 @@ var org = {
     //console.log();
     if ( id && date ) {
       $.ajax( { 
-        url: _self.config.api.v2 + '/birthdate'
+        url: _self.config.api.v2 + '/birthdate/normalize'
         ,crossDomain: true
         ,data: { params: {
                           date: date
