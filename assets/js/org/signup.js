@@ -64,6 +64,8 @@ var org = {
                 }
       } )
       .done(function(data) {
+        console.log(data);
+
         $('#'+id).val(data);
       })
       .fail(function() {
