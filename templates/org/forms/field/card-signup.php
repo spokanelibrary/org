@@ -19,6 +19,15 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
     case 'adult':
       include 'signup/card-adult.php';
       break;
+    case 'minor':
+      include 'signup/card-minor.php';
+      break;
+    case 'teacher':
+      include 'signup/card-teacher.php';
+      break;
+    case 'business':
+      include 'signup/card-business.php';
+      break;
     default:
       include 'signup/card-type.php';
       break;
