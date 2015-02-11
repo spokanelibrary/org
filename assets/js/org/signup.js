@@ -53,6 +53,7 @@ var org = {
   }
 
 , normalizeBirthdate: function(date) {
+    console.log(date);
     /*
     $.ajax( { 
       url: _self.config.api.v2 + '/date/'
