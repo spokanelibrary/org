@@ -16,10 +16,6 @@
   <div class="col-sm-4">
     <input type="text" class="form-control required" id="spl-form-email" name="spl-form[contact][email]" value="<?php echo $renew->borrower->email; ?>" placeholder="">
   </div>
-    <label for="spl-form-phone" class="col-sm-4 control-label">My phone number</label>
-  <div class="col-sm-4">
-    <input type="text" class="form-control required" id="spl-form-phone" name="spl-form[contact][phone]" value="<?php echo $renew->borrower->phone; ?>" placeholder="">
-  </div>
 </div>
 
 <div class="form-group">
