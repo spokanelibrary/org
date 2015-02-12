@@ -9,11 +9,11 @@
     </fieldset>
     
     <fieldset>
-      <?php //include 'card-contact.php'; ?>
+      <?php include 'shared/card-contact.php'; ?>
     </fieldset>
 
     <fieldset>
-      <?php include 'card-address.php'; ?>
+      <?php include 'shared/card-address.php'; ?>
     </fieldset>
 
   </div><!-- /.panel-body -->
