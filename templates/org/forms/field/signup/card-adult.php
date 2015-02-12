@@ -8,10 +8,10 @@
       </legend>
     </fieldset>
     
-    <fieldset style="border-bottom:1px solid #ccc;">
+    <fieldset>
       <?php include 'shared/card-contact.php'; ?>
     </fieldset>
-
+    <hr>
     <fieldset>
       <?php include 'shared/card-address.php'; ?>
     </fieldset>
