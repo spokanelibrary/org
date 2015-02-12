@@ -12,5 +12,9 @@
       <?php include 'card-contact.php'; ?>
     </fieldset>
 
+    <fieldset>
+      <?php include 'card-address.php'; ?>
+    </fieldset>
+
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
