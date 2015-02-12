@@ -12,6 +12,8 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
   <?php include '/common/field-login.php'; ?>
   d
   <?php include 'field/common/field-login.php'; ?>
+  e
+  <?php echo dir(__FILE__); ?>
 
   <input type="hidden" id="spl-form-id" name="spl-form[id]" value="signup" />
   
