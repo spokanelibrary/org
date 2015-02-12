@@ -10,14 +10,12 @@
 </div>
 
 <div class="form-group">
-  <div class="col-sm-12">
+  <div class="col-sm-12 col-md-11 col-md-offset-1">
     <span class="help-block">
-    This is a description.
+      <b>Materials Due Reminder Notices, Hold Notices, and Overdue Notices</b> can be delivered by phone or email.
+      These are courtesy notices only.
     </span>
   </div>
-</div>
-
-<div class="form-group">
   <div class="col-sm-6 col-md-5 col-md-offset-1">
     <div class="radio">
       <label>
