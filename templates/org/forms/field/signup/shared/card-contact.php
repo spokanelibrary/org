@@ -10,7 +10,7 @@
 </div>
 
 <div class="form-group">
-  <div class="col-sm-6 col-md-4 col-md-offset-2">
+  <div class="col-sm-6 col-md-5 col-md-offset-1">
     <div class="radio">
       <label>
         <input type="radio" id="spl-form-notice-email" name="spl-form[signup][notice]" value="email" checked>
@@ -18,7 +18,7 @@
       </label>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4 col-md-offset-2">
+  <div class="col-sm-6 col-md-5 col-md-offset-1">
     <div class="radio">
       <label>
         <input type="radio" id="spl-form-notice-phone" name="spl-form[signup][notice]" value="phone">
