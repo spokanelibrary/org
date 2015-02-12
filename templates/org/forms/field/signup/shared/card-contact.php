@@ -11,16 +11,20 @@
 
 <div class="form-group">
   <div class="col-sm-6">
-    <label>
-      <input type="radio" id="spl-form-notice-email" name="spl-form[signup][notice]" value="email" checked>
-      Please send my notices via email
-    </label>
+    <div class="radio">
+      <label>
+        <input type="radio" id="spl-form-notice-email" name="spl-form[signup][notice]" value="email" checked>
+        Please send my notices via email
+      </label>
+    </div>
   </div>
   <div class="col-sm-6">
-    <label>
-      <input type="radio" id="spl-form-notice-phone" name="spl-form[signup][notice]" value="phone" checked>
-      Please automated phone notifications
-    </label>
+    <div class="radio">
+      <label>
+        <input type="radio" id="spl-form-notice-phone" name="spl-form[signup][notice]" value="phone" checked>
+        Please automated phone notifications
+      </label>
+    </div>
   </div>
 </div>
 
