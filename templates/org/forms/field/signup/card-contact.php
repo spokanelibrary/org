@@ -1,9 +1,9 @@
 <div class="form-group">
-	<label for="" class="col-sm-4 control-label">My name</label>
+	<label for="" class="col-sm-3 control-label">My name</label>
   <div class="col-sm-3" id="">
     <input type="text" class="form-control required" id="spl-form-name-first" name="spl-form[signup][name][first]" value="" placeholder="">
   </div>
-  <div class="col-sm-2" id="">
+  <div class="col-sm-3" id="">
     <input type="text" class="form-control required" id="spl-form-name-middle" name="spl-form[signup][name][middle]" value="" placeholder="">
   </div>
   <div class="col-sm-3" id="">
@@ -12,9 +12,13 @@
 </div>
 
 <div class="form-group">
-  <label for="spl-form-email" class="col-sm-4 control-label">My email address</label>
-  <div class="col-sm-4">
+  <label for="spl-form-email" class="col-sm-3 control-label">My email address</label>
+  <div class="col-sm-3">
     <input type="text" class="form-control required" id="spl-form-email" name="spl-form[contact][email]" value="<?php echo $renew->borrower->email; ?>" placeholder="">
+  </div>
+    <label for="spl-form-phone" class="col-sm-3 control-label">My phone number</label>
+  <div class="col-sm-3">
+    <input type="text" class="form-control required" id="spl-form-phone" name="spl-form[contact][phone]" value="<?php echo $renew->borrower->phone; ?>" placeholder="">
   </div>
 </div>
 
