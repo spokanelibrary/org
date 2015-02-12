@@ -10,6 +10,12 @@
 </div>
 
 <div class="form-group">
+  <span class="help-block">
+    This is a description.
+  </span>
+</div>
+
+<div class="form-group">
   <div class="col-sm-6 col-md-5 col-md-offset-1">
     <div class="radio">
       <label>
