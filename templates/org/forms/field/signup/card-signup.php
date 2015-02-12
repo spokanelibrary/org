@@ -3,7 +3,7 @@
   <div class="col-sm-3" id="">
     <input type="text" class="form-control required" id="spl-form-name-first" name="spl-form[signup][name][first]" value="" placeholder="">
   </div>
-  <div class="col-sm-1" id="">
+  <div class="col-sm-2" id="">
     <input type="text" class="form-control required" id="spl-form-name-middle" name="spl-form[signup][name][middle]" value="" placeholder="">
   </div>
   <div class="col-sm-3" id="">
