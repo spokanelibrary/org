@@ -15,26 +15,26 @@
         </div>
       </div>
 
-            <div class="form-group">
-      <label class="control-label col-sm-2">Block name/Number</label>
-      <div class="col-md-4">
-      <input type="text" class="form-control">
-      </div>
-      <label class="control-label col-sm-1">Entrance</label>
-      <div class="col-md-1">
-      <input type="text" class="form-control">
-      </div>
-      <label class="control-label col-sm-1">Floor</label>
-      <div class="col-md-1">
-      <input type="text" class="form-control">
-      </div>
-      <label class="control-label col-sm-1">Apartment</label>
-      <div class="col-md-1">
-      <input type="text" class="form-control">
-      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Block name/Number</label>
+        <div class="col-md-4">
+          <input type="text" class="form-control">
+        </div>
+        <label class="control-label col-sm-1">Entrance</label>
+        <div class="col-md-1">
+          <input type="text" class="form-control">
+        </div>
+        <label class="control-label col-sm-1">Floor</label>
+        <div class="col-md-1">
+          <input type="text" class="form-control">
+        </div>
+        <label class="control-label col-sm-1">Apartment</label>
+        <div class="col-md-1">
+          <input type="text" class="form-control">
+        </div>
       </div>
 
-      <?php //include 'card-contact.php'; ?>
+      <?php include 'card-contact.php'; ?>
 
     </fieldset>
   </div><!-- /.panel-body -->
