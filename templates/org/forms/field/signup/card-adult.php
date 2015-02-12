@@ -8,7 +8,7 @@
       </legend>
     </fieldset>
     
-    <fieldset>
+    <fieldset style="border-bottom:1px solid #ccc;">
       <?php include 'shared/card-contact.php'; ?>
     </fieldset>
 
