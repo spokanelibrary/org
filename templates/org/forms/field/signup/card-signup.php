@@ -1,10 +1,13 @@
 <div class="form-group">
-	<label for="spl-form-name" class="col-sm-4 control-label">My name</label>
-  <div class="col-sm-8">
-    <p class="form-control-static text-muted">
-      Our system stores names LAST FIRST MIDDLE.
-    </p>
-    <input type="text" class="form-control required" id="spl-form-name" name="spl-form[contact][name]" value="<?php echo $renew->borrower->name; ?>" placeholder="">
+	<label for="" class="col-sm-4 control-label">My name</label>
+  <div class="col-sm-3" id="">
+    <input type="text" class="form-control required" id="spl-form-name-first" name="spl-form[signup][name][first]" value="" placeholder="">
+  </div>
+  <div class="col-sm-1" id="">
+    <input type="text" class="form-control required" id="spl-form-name-middle" name="spl-form[signup][name][middle]" value="" placeholder="">
+  </div>
+  <div class="col-sm-3" id="">
+    <input type="text" class="form-control required" id="spl-form-name-last" name="spl-form[signup][name][last]" value="" placeholder="">
   </div>
 </div>
 
@@ -51,4 +54,3 @@
     </button>
   </div>
 </div>
-  
