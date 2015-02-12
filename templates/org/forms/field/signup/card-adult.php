@@ -9,7 +9,7 @@
     </fieldset>
     
     <fieldset>
-      <?php include 'card-contact.php'; ?>
+      <?php //include 'card-contact.php'; ?>
     </fieldset>
 
     <fieldset>
