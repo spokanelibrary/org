@@ -10,17 +10,16 @@
 </div>
 
 <div class="form-group">
-  <label for="spl-form-notice" class="col-sm-3 control-label">Send notices via</label>
-  <div class="col-sm-3 radio">
+  <div class="col-sm-6 radio">
     <label>
       <input type="radio" id="spl-form-notice-email" name="spl-form[signup][notice]" value="email" checked>
-      Email
+      Please send my notices via email
     </label>
   </div>
-  <div class="col-sm-3 col-sm-offset-3 radio">
+  <div class="col-sm-6 radio">
     <label>
       <input type="radio" id="spl-form-notice-phone" name="spl-form[signup][notice]" value="phone" checked>
-      Email
+      Please automated phone notifications
     </label>
   </div>
 </div>
