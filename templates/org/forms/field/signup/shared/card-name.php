@@ -26,7 +26,7 @@
   <div class="col-sm-3">
     <input type="text" class="form-control required" id="spl-form-pin" name="spl-form[signup][pin]" value="" placeholder="">
     <span class="help-block">
-      A four-digit numerical PIN is required to access your library account online and to use our Internet stations.
+      A four-digit <i>numerical</i> PIN is required to access your library account online and to use our Internet stations.
     </span>
   </div>
 </div>
