@@ -13,7 +13,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
   d
   <?php include 'field/common/field-login.php'; ?>
   e
-  <?php echo dirname(__FILE__); ?>
+  <?php echo realpath(__DIR__.'/../common/'); ?>
 
   <input type="hidden" id="spl-form-id" name="spl-form[id]" value="signup" />
   
