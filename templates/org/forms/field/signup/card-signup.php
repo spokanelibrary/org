@@ -5,7 +5,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 <form class="form-inline spl-form" id="spl-form-signup" method="post" role="form">
   
   <?php include '../common/crass-response.php'; ?>
-  <?php echo getcwd(); ?>
+  <?php echo __DIR__ ?>
   <input type="hidden" id="spl-form-id" name="spl-form[id]" value="signup" />
   
   <input type="hidden" 
