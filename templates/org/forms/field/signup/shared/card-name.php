@@ -20,14 +20,14 @@
     <input type="text" class="form-control required" id="spl-form-birthdate" name="spl-form[signup][birthdate]" value="" placeholder="">
     <span class="help-block">
       We use this date to determine Internet access levels and library card expiration.
-    </div>
+    </span>
   </div>
   <label for="spl-form-pin" class="col-sm-3 control-label"><span class="hidden-sm">Choose a</span> 4-digit PIN</label>
   <div class="col-sm-3">
     <input type="text" class="form-control required" id="spl-form-pin" name="spl-form[signup][pin]" value="" placeholder="">
     <span class="help-block">
       A four-digit numerical PIN is required to access your library account online and to use our Internet stations.
-    </div>
+    </span>
   </div>
 </div>
 
