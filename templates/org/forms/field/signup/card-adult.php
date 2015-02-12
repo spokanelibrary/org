@@ -12,7 +12,7 @@
     <fieldset>
       <legend class="text-muted">
         <small class="glyphicon glyphicon-"></small>
-        Your address
+        Your primary mailing address
       </legend>
       <?php include 'shared/card-address.php'; ?>
     </fieldset>
