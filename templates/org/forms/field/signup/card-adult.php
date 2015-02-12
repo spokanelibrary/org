@@ -15,6 +15,7 @@
     <fieldset>
       <?php include 'shared/card-address.php'; ?>
     </fieldset>
+    <hr>
 
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
