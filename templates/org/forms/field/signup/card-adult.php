@@ -15,7 +15,7 @@
         </div>
       </div>
 
-      <?php include 'card-signup.php'; ?>
+      <?php include 'card-contact.php'; ?>
 
     </fieldset>
   </div><!-- /.panel-body -->
