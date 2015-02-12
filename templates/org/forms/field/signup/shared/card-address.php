@@ -8,11 +8,9 @@
   <div class="col-sm-3">
     <input type="text" class="form-control required" id="spl-form-city-st" name="spl-form[contact][city-st]" value="<?php echo $renew->borrower->city_st; ?>" placeholder="">
   </div>
-</div>
-
-<div class="form-group">
-  <label for="spl-form-zip" class="col-sm-3 control-label">ZIP Code</label>
+    <label for="spl-form-zip" class="col-sm-3 control-label">ZIP Code</label>
   <div class="col-sm-3">
     <input type="text" class="form-control required" id="spl-form-zip" name="spl-form[contact][zip]" value="<?php echo $renew->borrower->zip; ?>" placeholder="">
   </div>
 </div>
+
