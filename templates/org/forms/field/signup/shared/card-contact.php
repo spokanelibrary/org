@@ -10,9 +10,11 @@
 </div>
 
 <div class="form-group">
-  <span class="help-block">
+  <div class="col-sm-12">
+    <span class="help-block">
     This is a description.
-  </span>
+    </span>
+  </div>
 </div>
 
 <div class="form-group">
