@@ -4,9 +4,6 @@
   <div class="col-sm-3">
     <textarea rows="3" class="form-control required" id="spl-form-street" name="spl-form[contact][street]"><?php echo $renew->borrower->street; ?></textarea>
   </div>
-</div>
-
-<div class="form-group">
   <label for="spl-form-city-st" class="col-sm-3 control-label">City, ST</label>
   <div class="col-sm-3">
     <input type="text" class="form-control required" id="spl-form-city-st" name="spl-form[contact][city-st]" value="<?php echo $renew->borrower->city_st; ?>" placeholder="">
