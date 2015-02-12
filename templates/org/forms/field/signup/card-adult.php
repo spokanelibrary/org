@@ -6,13 +6,14 @@
         <small class="glyphicon glyphicon-"></small>
         Let's get started
       </legend>
-    </fieldset>
-    
-    <fieldset>
       <?php include 'shared/card-contact.php'; ?>
     </fieldset>
-    <hr>
+
     <fieldset>
+      <legend class="text-muted">
+        <small class="glyphicon glyphicon-"></small>
+        Your address
+      </legend>
       <?php include 'shared/card-address.php'; ?>
     </fieldset>
     <hr>
