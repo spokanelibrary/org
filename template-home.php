@@ -127,7 +127,7 @@ if ( !empty($spl_home) ): ;
 <div class="row" id="spl-hero"> 
   
   <div class="col-sm-12">
-    <?php echo do_shortcode('[spl_carousel_beta auto random shuffle news posts promo=tech slug=carousel title="" ]'); ?>
+    <?php echo do_shortcode('[spl_carousel_beta pause auto random shuffle news posts pages calendar browse promo=tech slug=carousel title="" ]'); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-12">
@@ -181,10 +181,12 @@ if ( !empty($spl_home) ): ;
         </h4>
       </a>
     </div>
-    <?php echo do_shortcode('[spl_widget calendar-view widget-beta limit=6]'); ?>
+    <?php //echo do_shortcode('[spl_widget calendar-view widget-beta limit=6]'); ?>
+    <!--
     <p class="text-right">
       <a href="/calendar/"><b>Full events calendar</b> <small>&rarr;</small></a>
     </p>
+    -->
     <p>&nbsp;</p>
   </div><!-- /.col -->
   
@@ -193,15 +195,17 @@ if ( !empty($spl_home) ): ;
       <a class="spl-hero-link" href="/browse/">
         <h4 class="text-center">
           <i class="glyphicon glyphicon-star"></i>
-          What we're reading &rarr;
+          Browse popular titles &rarr;
         </h4>
       </a>
     </div>
-    <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=7]'); ?>
+    <?php //echo do_shortcode('[spl_widget browse-list list=star widget limit=7]'); ?>
+    <!--
     <p class="text-right">
       <a href="/browse/"><b>More staff picks</b> <small>&rarr;</small></a>
     </p>
     <p>&nbsp;</p>
+    -->
   </div><!-- /.col -->
 
 </div><!-- /.row -->
