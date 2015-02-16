@@ -34,7 +34,7 @@
     <span class="hidden-sm">Choose a</span> 4-digit PIN 
     <br>
     <span class="text-warning normal">
-      <small class="glyphicon glyphicon-info-sign"></small>
+      <small class="glyphicon glyphicon-exclamation-sign"></small>
       Numbers only
     </span>
   </label>
