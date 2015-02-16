@@ -1,5 +1,5 @@
 <div class="form-group">
-  <div class="col-sm-offset-3 col-sm-3">
+  <div class="col-sm-offset-3 col-sm-6">
     <button type="submit" class="btn btn-block btn-success">
       <small class="glyphicon glyphicon-check"></small>
       Apply for library card now
