@@ -12,10 +12,9 @@
     <p>
       Lorem ipsum dolor sit amet.
     </p>
-    <a href="#" 
-    class="btn btn-primary"
-    data-toggle="collapse" 
-    data-target="#signup-address-alt">Add an address <span class="caret"></span></a> 
+    <a href="#signup-address-alt" 
+      class="btn btn-primary"
+      data-toggle="collapse">Add an address <span class="caret"></span></a> 
   </div>
 </div>
 
