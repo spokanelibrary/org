@@ -126,7 +126,7 @@ if ( !empty($spl_home) ): ;
 <div class="row" id="spl-hero"> 
   
   <div class="col-sm-12">
-    <?php echo do_shortcode('[spl_carousel_beta pause auto random shuffle news posts pages calendar promo=tech slug=carousel title="" ]'); ?>
+    <?php echo do_shortcode('[spl_carousel_beta pause auto random shuffle news posts pages calendar promo=tech slug=carousel limit=6 title="" ]'); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-12">
