@@ -12,11 +12,17 @@
     <span class="help-block">
       Lorem ipsum dolor sit amet.
     </span>
+  </div>
+</div>
+
+<div class="form-group">
+  <div class="col-sm-3 col-sm-offset-3">
     <a href="#signup-address-alt" 
       class="btn btn-block btn-default"
       data-toggle="collapse">Add an address <span class="caret"></span></a> 
   </div>
 </div>
+
 
 
 <div class="collapse" id="signup-address-alt">
