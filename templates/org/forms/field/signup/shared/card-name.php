@@ -30,7 +30,7 @@
       </span>
     </div>
   </div>
-  <label for="spl-form-pin" class="col-sm-3 control-label"><span class="hidden-sm">Choose a</span> 4-digit PIN</label>
+  <label for="spl-form-pin" class="col-sm-3 control-label"><span class="hidden-sm">Choose a</span> 4-digit PIN <br><span class="help-block"numbers only!</span></label>
   <div class="col-sm-3">
     <input type="text" class="form-control required" id="spl-form-pin" name="spl-form[signup][pin]" value="" placeholder="">
     <p>
