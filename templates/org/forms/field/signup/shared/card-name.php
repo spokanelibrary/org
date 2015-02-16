@@ -21,7 +21,7 @@
     <p>
       <a href="#" 
           data-toggle="collapse" 
-          data-target="#signup-help-dob">Why?</a> 
+          data-target="#signup-help-dob">Why do we ask?</a> 
           <span class="caret">
     </p>
     <div class="collapse" id="signup-help-dob">
