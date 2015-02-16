@@ -15,11 +15,9 @@
 </div>
 
 <div class="form-group">
-  <div class="col-sm-6">
-    <label for="spl-form-birthdate" class="col-sm-6 control-label">Date of birth</label>
-    <div class="col-sm-6">
-      <input type="text" class="form-control required" id="spl-form-birthdate" name="spl-form[signup][birthdate]" value="" placeholder="">
-    </div>
+  <label for="spl-form-birthdate" class="col-sm-3 control-label">Date of birth</label>
+  <div class="col-sm-3">
+    <input type="text" class="form-control required" id="spl-form-birthdate" name="spl-form[signup][birthdate]" value="" placeholder="">
     <span class="help-block">
       We use this date to determine Internet access levels and library card expiration.
     </span>
