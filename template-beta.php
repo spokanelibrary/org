@@ -166,7 +166,7 @@ if ( !empty($spl_home) ): ;
 
     <div class="spl-hero-panel spl-hero-warning">
 
-      <a href="/digital/" class="spl-hero-link">
+      <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center">
           <i class="glyphicon glyphicon-calendar"></i>
           On our calendar &rarr;
@@ -175,20 +175,17 @@ if ( !empty($spl_home) ): ;
 
       <div class="spl-hero-calendar btn-group btn-group-justified" role="group" aria-label="...">
         <a href="/ebooks/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-80">
-          <i class="glyphicon glyphicon-phone"></i>
+          <i class="glyphicon glyphicon-"></i>
           <span class="hidden-xs">&nbsp;<b>Storytime</b></span>
         </a>
         <a href="/emusic/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-60">
-          <i class="glyphicon glyphicon-music"></i>
+          <i class="glyphicon glyphicon-"></i>
           <span class="hidden-xs">&nbsp;<b>Connected Learning</b></span>
         </a>
-        <a href="/eaudio/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-40">
-          <i class="glyphicon glyphicon-headphones"></i></span>
-          <span class="hidden-xs">&nbsp;<b>Board Meetings</b></span>
         </a>
-        <a href="/emagazines/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-20">
-          <i class="glyphicon glyphicon-book"></i>
-          <span class="hidden-xs">&nbsp;<b>Magazines</b></span>
+        <a href="/emagazines/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-40">
+          <i class="glyphicon glyphicon-"></i>
+          <span class="hidden-xs">&nbsp;<b>Board Meetings</b></span>
         </a>
       </div>
 
