@@ -21,7 +21,8 @@
     <p>
       <a href="#" 
           data-toggle="collapse" 
-          data-target="#signup-help-dob">Why? <span class="caret"></a>
+          data-target="#signup-help-dob">Why?</a> 
+          <span class="caret">
     </p>
     <div class="collapse" id="signup-help-dob">
       <span class="help-block">
@@ -32,9 +33,17 @@
   <label for="spl-form-pin" class="col-sm-3 control-label"><span class="hidden-sm">Choose a</span> 4-digit PIN</label>
   <div class="col-sm-3">
     <input type="text" class="form-control required" id="spl-form-pin" name="spl-form[signup][pin]" value="" placeholder="">
-    <span class="help-block">
-      A four-digit <i>numerical</i> PIN is required to access your library account online and to use our Internet stations.
-    </span>
+    <p>
+      <a href="#" 
+          data-toggle="collapse" 
+          data-target="#signup-help-pin">What is this?</a> 
+          <span class="caret">
+    </p>
+    <div class="collapse" id="signup-help-dob">
+      <span class="help-block">
+        A four-digit <i>numerical</i> PIN is required to access your library account online and to use our Internet stations.
+      </span>
+    </div>
   </div>
 </div>
 
