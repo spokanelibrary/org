@@ -39,7 +39,7 @@
           data-target="#signup-help-pin">What is this?</a> 
           <span class="caret">
     </p>
-    <div class="collapse" id="signup-help-dob">
+    <div class="collapse" id="signup-help-pin">
       <span class="help-block">
         A four-digit <i>numerical</i> PIN is required to access your library account online and to use our Internet stations.
       </span>
