@@ -33,9 +33,9 @@
   <label for="spl-form-pin" class="col-sm-3 control-label">
     <span class="hidden-sm">Choose a</span> 4-digit PIN 
     <br>
-    <span class="text-danger normal">
+    <span class="text-warning normal">
       <small class="glyphicon glyphicon-warning-sign"></small>
-      numbers only
+      Numbers only
     </span>
   </label>
   <div class="col-sm-3">
