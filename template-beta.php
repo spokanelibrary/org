@@ -174,7 +174,7 @@ if ( !empty($spl_home) ): ;
       </a>
       
       <div class="spl-hero-calendar btn-group btn-group-justified" role="group" aria-label="...">
-        <a href="/calendar/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-70">
+        <a href="/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-70">
           <i class="glyphicon glyphicon-picture"></i>
           <span class="hidden-xs">&nbsp;<b>Storytimes</b></span>
         </a>
