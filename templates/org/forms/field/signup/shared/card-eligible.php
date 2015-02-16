@@ -9,12 +9,18 @@
     </select>
   </div>
   <div class="col-sm-6">
-    Lorem ipsum dolor sit amet.
+    <p>
+      Lorem ipsum dolor sit amet.
+    </p>
+    <a href="#" 
+    class="btn btn-primary"
+    data-toggle="collapse" 
+    data-target="#signup-address-alt">Add an address <span class="caret"></span></a> 
   </div>
 </div>
 
 
-<div class="collapse" id="spl-form-alt-street">
+<div class="collapse" id="signup-address-alt">
   <div class="form-group">
     <label for="spl-form-street" class="col-sm-3 control-label">Street address</label>
     <div class="col-sm-3">
