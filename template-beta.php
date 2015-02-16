@@ -208,7 +208,7 @@ if ( !empty($spl_home) ): ;
         </h4>
       </a>
     </div>
-    <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=3]'); ?>
+    <?php echo do_shortcode('[spl_widget browse-list list=star widget-beta limit=3]'); ?>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
