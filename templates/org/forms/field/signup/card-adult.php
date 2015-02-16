@@ -33,6 +33,14 @@
       <?php include 'shared/card-eligible.php'; ?>
     </fieldset>
 
+    <fieldset>
+      <legend class="text-muted">
+        <small class="glyphicon glyphicon-"></small>
+        Complete application
+      </legend>
+      <?php include 'shared/card-apply.php'; ?>
+    </fieldset>
+
 
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
