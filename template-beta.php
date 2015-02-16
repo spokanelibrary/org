@@ -194,7 +194,7 @@ if ( !empty($spl_home) ): ;
         </h4>
       </a>
     </div>
-    <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=7]'); ?>
+    <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=3]'); ?>
     <!--
     <p class="text-right">
       <a href="/browse/"><b>More staff picks</b> <small>&rarr;</small></a>
