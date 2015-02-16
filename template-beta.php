@@ -167,7 +167,7 @@ if ( !empty($spl_home) ): ;
     <div class="spl-hero-panel spl-hero-warning">
 
       <a href="/digital/" class="spl-hero-link">
-        <h4 class="text-center normal">
+        <h4 class="text-center">
           <i class="glyphicon glyphicon-cloud-calendar"></i>
           On our calendar &rarr;
         </h4>
