@@ -136,7 +136,7 @@ if ( !empty($spl_home) ): ;
       <a href="/digital/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-cloud-download"></i>
-          Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span> &rarr;
+          Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span> <i class="glyphicon glyphicon-arrow-right"></i>
         </h4>
       </a>
 
@@ -169,7 +169,7 @@ if ( !empty($spl_home) ): ;
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-calendar"></i>
-          <span class="hidden-xs"><b>Coming up soon</b> on the</span> <b>Library Calendar</b>  &rarr;
+          <span class="hidden-xs"><b>Coming up soon</b> on the</span> <b>Library Calendar</b> <i class="glyphicon glyphicon-arrow-right"></i>
         </h4>
       </a>
       
