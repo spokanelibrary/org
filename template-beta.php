@@ -162,9 +162,6 @@ if ( !empty($spl_home) ): ;
     </div>
   </div><!-- /.col -->
 
-</div><!-- /.row -->
-
-<div class="row"> 
   <div class="col-sm-12">
 
     <div class="spl-hero-panel spl-hero-primary">
@@ -196,7 +193,7 @@ if ( !empty($spl_home) ): ;
       </div>
 
     </div>
-    
+
   </div><!-- /.col -->
 </div><!-- /.row -->
 
