@@ -19,9 +19,9 @@
   </div>
   <div class="col-sm-6 col-md-5 col-md-offset-1">
     <div class="radio">
-      <label class="text-success">
+      <label>
         <input type="radio" id="spl-form-notice-email" name="spl-form[signup][notice]" value="email" checked>
-        Please send me notifications via email
+        <b>Please send me notifications via email</b>
       </label>
     </div>
   </div>
@@ -29,7 +29,7 @@
     <div class="radio">
       <label>
         <input type="radio" id="spl-form-notice-phone" name="spl-form[signup][notice]" value="phone">
-        Please use automated phone notifications
+        <b>Please use automated phone notifications</b>
       </label>
     </div>
   </div>
