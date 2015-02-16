@@ -174,19 +174,19 @@ if ( !empty($spl_home) ): ;
       </a>
 
       <div class="spl-hero-calendar btn-group btn-group-justified" role="group" aria-label="...">
-        <a href="/ebooks/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-70">
+        <a href="/calendar/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-70">
           <i class="glyphicon glyphicon-picture"></i>
-          <span class="hidden-xs">&nbsp;<b>Storytime</b></span>
+          <span class="hidden-xs">&nbsp;<b>Storytimes</b></span>
         </a>
-        <a href="/emusic/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-50">
+        <a href="/calendar/find/connected+learning/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-50">
           <i class="glyphicon glyphicon-facetime-video"></i>
           <span class="hidden-xs">&nbsp;<b>Connected Learning</b></span>
         </a>
-        <a href="/eaudio/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-30">
+        <a href="/calendar/find/board+meeting/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-30">
           <i class="glyphicon glyphicon-paperclip"></i></span>
           <span class="hidden-xs">&nbsp;<b>Board Meetings</b></span>
         </a>
-        <a href="/emagazines/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-10">
+        <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-10">
           <i class="glyphicon glyphicon-plus-sign"></i>
           <span class="hidden-xs">&nbsp;<b>Much More</b></span>
         </a>
