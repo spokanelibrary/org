@@ -20,6 +20,7 @@
     <input type="text" class="form-control required" id="spl-form-birthdate" name="spl-form[signup][birthdate]" value="" placeholder="">
     <p>
       <a href="#" 
+          class="btn btn-link"
           data-toggle="collapse" 
           data-target="#signup-help-dob">Why do we ask?</a> 
           <span class="caret">
