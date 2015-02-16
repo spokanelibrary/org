@@ -24,7 +24,15 @@
       </legend>
       <?php include 'shared/card-address.php'; ?>
     </fieldset>
-    <hr>
+
+    <fieldset>
+      <legend class="text-muted">
+        <small class="glyphicon glyphicon-"></small>
+        Library card eligibility
+      </legend>
+      <?php include 'shared/card-eligible.php'; ?>
+    </fieldset>
+
 
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->

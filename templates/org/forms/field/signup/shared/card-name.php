@@ -18,12 +18,10 @@
   <label for="spl-form-birthdate" class="col-sm-3 control-label">Date of birth</label>
   <div class="col-sm-3">
     <input type="text" class="form-control required" id="spl-form-birthdate" name="spl-form[signup][birthdate]" value="" placeholder="">
-
-      <a href="#" 
-          class="btn btn-link"
-          data-toggle="collapse" 
-          data-target="#signup-help-dob">Why do we ask? <span class="caret"></span></a> 
-
+    <a href="#" 
+        class="btn btn-link"
+        data-toggle="collapse" 
+        data-target="#signup-help-dob">Why do we ask? <span class="caret"></span></a> 
     <div class="collapse" id="signup-help-dob">
       <span class="help-block">
         We use this date to determine Internet access levels and library card expiration.
@@ -40,12 +38,10 @@
   </label>
   <div class="col-sm-3">
     <input type="text" class="form-control required" id="spl-form-pin" name="spl-form[signup][pin]" value="" placeholder="">
-
-      <a href="#" 
-          class="btn btn-link"
-          data-toggle="collapse" 
-          data-target="#signup-help-pin">What is this? <span class="caret"></span></a> 
-
+    <a href="#" 
+        class="btn btn-link"
+        data-toggle="collapse" 
+        data-target="#signup-help-pin">What is this? <span class="caret"></span></a> 
     <div class="collapse" id="signup-help-pin">
       <span class="help-block">
         A four-digit <i>numerical</i> PIN is required to access your library account online and to use our Internet stations.
