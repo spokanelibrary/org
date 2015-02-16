@@ -198,26 +198,8 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 <div class="row">
-
-  <div class="col-md-5">
-    <div class="spl-hero-panel spl-hero-warning">
-      <a class="spl-hero-link" href="/calendar/">
-        <h4 class="text-center">
-          <i class="glyphicon glyphicon-calendar"></i>
-          On our calendar &rarr;
-        </h4>
-      </a>
-    </div>
-    <?php //echo do_shortcode('[spl_widget calendar-view widget-beta limit=6]'); ?>
-    <!--
-    <p class="text-right">
-      <a href="/calendar/"><b>Full events calendar</b> <small>&rarr;</small></a>
-    </p>
-    -->
-    <p>&nbsp;</p>
-  </div><!-- /.col -->
   
-  <div class="col-md-7">
+  <div class="col-md-12">
     <div class="spl-hero-panel spl-hero-default">
       <a class="spl-hero-link" href="/browse/">
         <h4 class="text-center">
@@ -227,12 +209,6 @@ if ( !empty($spl_home) ): ;
       </a>
     </div>
     <?php echo do_shortcode('[spl_widget browse-list list=star widget limit=3]'); ?>
-    <!--
-    <p class="text-right">
-      <a href="/browse/"><b>More staff picks</b> <small>&rarr;</small></a>
-    </p>
-    <p>&nbsp;</p>
-    -->
   </div><!-- /.col -->
 
 </div><!-- /.row -->
