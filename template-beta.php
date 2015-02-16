@@ -173,7 +173,7 @@ if ( !empty($spl_home) ): ;
         </h4>
       </a>
 
-      <div class="spl-hero-digital btn-group btn-group-justified" role="group" aria-label="...">
+      <div class="spl-hero-calendar btn-group btn-group-justified" role="group" aria-label="...">
         <a href="/ebooks/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-60">
           <i class="glyphicon glyphicon-phone"></i>
           <span class="hidden-xs">&nbsp;<b>Storytime</b></span>
