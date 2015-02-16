@@ -9,9 +9,9 @@
     </select>
   </div>
   <div class="col-sm-6">
-    <p>
+    <span class="help-block">
       Lorem ipsum dolor sit amet.
-    </p>
+    </span>
     <a href="#signup-address-alt" 
       class="btn btn-block btn-default"
       data-toggle="collapse">Add an address <span class="caret"></span></a> 
