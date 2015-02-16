@@ -169,7 +169,7 @@ if ( !empty($spl_home) ): ;
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-calendar"></i>
-          Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span> &rarr;
+          <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span> <b>Library Calendar</b>  &rarr;
         </h4>
       </a>
       
