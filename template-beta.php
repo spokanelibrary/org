@@ -186,7 +186,7 @@ if ( !empty($spl_home) ): ;
           <i class="glyphicon glyphicon-paperclip"></i></span>
           <span class="hidden-xs">&nbsp;<b>Board Meetings</b></span>
         </a>
-        <a href="/emagazines/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-20">
+        <a href="/emagazines/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-10">
           <i class="glyphicon glyphicon-plus-sign"></i>
           <span class="hidden-xs">&nbsp;<b>Much More</b></span>
         </a>
