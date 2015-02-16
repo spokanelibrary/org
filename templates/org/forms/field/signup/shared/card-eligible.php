@@ -8,6 +8,9 @@
       <option value="unsure">I'm not sure</option>
     </select>
   </div>
+  <div class="col-sm-6">
+    Lorem ipsum dolor sit amet.
+  </div>
 </div>
 
 
