@@ -15,15 +15,19 @@
 </div>
 
 <div class="form-group">
-  <span class="help-block">
-      We use this date to determine Internet access levels and library card expiration.
-    </span>
   <label for="spl-form-birthdate" class="col-sm-3 control-label">Date of birth</label>
   <div class="col-sm-3">
     <input type="text" class="form-control required" id="spl-form-birthdate" name="spl-form[signup][birthdate]" value="" placeholder="">
-    <span class="help-block">
-      We use this date to determine Internet access levels and library card expiration.
-    </span>
+    <p>
+      <a href="#" 
+          data-toggle="collapse" 
+          data-target="#signup-help-dob">Why? <span class="caret"></a>
+    </p>
+    <div class="collapse" id="signup-help-dob">
+      <span class="help-block">
+        We use this date to determine Internet access levels and library card expiration.
+      </span>
+    </div>
   </div>
   <label for="spl-form-pin" class="col-sm-3 control-label"><span class="hidden-sm">Choose a</span> 4-digit PIN</label>
   <div class="col-sm-3">
