@@ -13,7 +13,7 @@
       Lorem ipsum dolor sit amet.
     </p>
     <a href="#signup-address-alt" 
-      class="btn btn-primary"
+      class="btn btn-block btn-default"
       data-toggle="collapse">Add an address <span class="caret"></span></a> 
   </div>
 </div>
