@@ -174,15 +174,15 @@ if ( !empty($spl_home) ): ;
       </a>
 
       <div class="spl-hero-calendar btn-group btn-group-justified" role="group" aria-label="...">
-        <a href="/ebooks/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-80">
+        <a href="/ebooks/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-70">
           <i class="glyphicon glyphicon-picture"></i>
           <span class="hidden-xs">&nbsp;<b>Storytime</b></span>
         </a>
-        <a href="/emusic/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-60">
+        <a href="/emusic/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-50">
           <i class="glyphicon glyphicon-facetime-video"></i>
           <span class="hidden-xs">&nbsp;<b>Connected Learning</b></span>
         </a>
-        <a href="/eaudio/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-40">
+        <a href="/eaudio/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-30">
           <i class="glyphicon glyphicon-paperclip"></i></span>
           <span class="hidden-xs">&nbsp;<b>Board Meetings</b></span>
         </a>
