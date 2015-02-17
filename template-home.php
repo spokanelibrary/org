@@ -126,7 +126,7 @@ if ( !empty($spl_home) ): ;
 <div class="row" id="spl-hero"> 
   
   <div class="col-sm-12">
-    <?php echo do_shortcode('[spl_carousel_beta pause auto random shuffle news posts pages calendar browse promo=tech slug=carousel title="" ]'); ?>
+    <?php echo do_shortcode('[spl_carousel_beta pause auto random shuffle news posts pages calendar promo=tech slug=carousel limit=6 title="" ]'); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-12">
@@ -136,7 +136,7 @@ if ( !empty($spl_home) ): ;
       <a href="/digital/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-cloud-download"></i>
-          Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span> &rarr;
+          Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span> <small class="glyphicon glyphicon-arrow-right"></small>
         </h4>
       </a>
 
@@ -162,48 +162,57 @@ if ( !empty($spl_home) ): ;
     </div>
   </div><!-- /.col -->
 
-</div><!-- /.row -->
+  <div class="col-sm-12">
 
-
-<div class="row">
-
-  <div class="col-md-5">
     <div class="spl-hero-panel spl-hero-warning">
-      <a class="spl-hero-link" href="/calendar/">
-        <h4 class="text-center">
+
+      <a href="/calendar/" class="spl-hero-link">
+        <h4 class="text-center normal">
           <i class="glyphicon glyphicon-calendar"></i>
-          On our calendar &rarr;
+          <span class="hidden-xs"><b>Coming up soon</b> on the</span> <b>Library Calendar</b> <small class="glyphicon glyphicon-arrow-right"></small>
         </h4>
       </a>
+      
+      <div class="spl-hero-calendar btn-group btn-group-justified" role="group" aria-label="...">
+        <a href="/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-70">
+          <i class="glyphicon glyphicon-picture"></i>
+          <span class="hidden-xs">&nbsp;<b>Storytimes</b></span>
+        </a>
+        <a href="/calendar/find/connected+learning/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-50">
+          <i class="glyphicon glyphicon-facetime-video"></i>
+          <span class="hidden-xs">&nbsp;<b>Connected Learning</b></span>
+        </a>
+        <a href="/calendar/find/board+meeting/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-30">
+          <i class="glyphicon glyphicon-paperclip"></i></span>
+          <span class="hidden-xs">&nbsp;<b>Board Meetings</b></span>
+        </a>
+        <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-10">
+          <i class="glyphicon glyphicon-plus-sign"></i>
+          <span class="hidden-xs">&nbsp;<b>Much More</b></span>
+        </a>
+      </div>
+      
     </div>
-    <?php //echo do_shortcode('[spl_widget calendar-view widget-beta limit=6]'); ?>
-    <!--
-    <p class="text-right">
-      <a href="/calendar/"><b>Full events calendar</b> <small>&rarr;</small></a>
-    </p>
-    -->
-    <p>&nbsp;</p>
+
   </div><!-- /.col -->
+</div><!-- /.row -->
+
+<div class="row">
   
-  <div class="col-md-7">
+  <div class="col-md-12">
     <div class="spl-hero-panel spl-hero-default">
       <a class="spl-hero-link" href="/browse/">
         <h4 class="text-center">
           <i class="glyphicon glyphicon-star"></i>
-          Browse popular titles &rarr;
+          <span class="hidden-xs">On our reading list:</span> <b>Staff picks &amp; popular titles</b> <small class="glyphicon glyphicon-arrow-right"></small>
         </h4>
       </a>
     </div>
-    <?php //echo do_shortcode('[spl_widget browse-list list=star widget limit=7]'); ?>
-    <!--
-    <p class="text-right">
-      <a href="/browse/"><b>More staff picks</b> <small>&rarr;</small></a>
-    </p>
-    <p>&nbsp;</p>
-    -->
+    <?php echo do_shortcode('[spl_widget browse-list list=star widget-beta limit=4]'); ?>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
+
 
 
 
