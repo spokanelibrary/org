@@ -9,8 +9,8 @@ Template Name: Alpha Home Page
     $html = '';
     $html .= '
               <div class="panel panel-default">
-              <div class="panel-body" style="height='.$h.'px;">
-                &nbsp;
+              <div class="panel-body">
+                <div style="height:'.$h.'px;">&nbsp;</div>
               </div>
               </div>
     ';
