@@ -5,12 +5,14 @@ Template Name: Alpha Home Page
 ?>
 
 <?php 
-  function get_alpha_panel($title='', $h=100) {
+  function get_alpha_panel($title='&nbsp;', $h=100) {
     $html = '';
     $html .= '
               <div class="panel panel-default">
               <div class="panel-body">
-                <div style="height:'.$h.'px;">&nbsp;</div>
+                <div style="height:'.$h.'px;">
+                '.$content.'
+                </div>
               </div>
               </div>
     ';
@@ -48,7 +50,7 @@ Template Name: Alpha Home Page
       <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
   <div class="col-sm-3">
-      <?php echo get_alpha_panel(); ?>
+      <?php echo get_alpha_panel('Yearbooks'); ?>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
