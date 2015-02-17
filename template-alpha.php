@@ -30,10 +30,10 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-5">
-    <?php echo get_alpha_panel(); ?>
+    <?php echo get_alpha_panel('calendar'); ?>
   </div><!-- /.col -->
   <div class="col-sm-7">
-      <?php echo get_alpha_panel(); ?>
+      <?php echo get_alpha_panel('digital'); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-12">
