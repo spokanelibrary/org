@@ -29,15 +29,15 @@ Template Name: Alpha Home Page
     <div class="panel panel-default" style="height:180px; background-color:rgb(128,100,60); background-image:url('/assets/img/yearbooks/north-central.png'); background-repeat:no-repeat;">
       <div class="panel-body">
       
-        <div class="col-sm-5">
+        <div class="col-md-5">
           &nbsp;
         </div>
-        <div class="col-sm-7">
+        <div class="col-md-7">
           <h2 class="text-right adamina">
             Spokane High School Yearbooks
           </h2>
         </div>
-        
+
       </div>
     </div>
   </div><!-- /.col -->
