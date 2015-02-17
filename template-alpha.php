@@ -29,8 +29,10 @@ Template Name: Alpha Home Page
     <div class="panel panel-default">
       <div class="panel-body">
       
-        <div class="col-md-5">
+        <div class="col-md-3">
           <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/yearbooks/north-central.png">
+        </div>
+        <div class="col-md-3">
           <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/yearbooks/lc.png">
         </div>
         <div class="col-md-7">
