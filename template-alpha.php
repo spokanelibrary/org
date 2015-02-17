@@ -5,13 +5,13 @@ Template Name: Alpha Home Page
 ?>
 
 <?php 
-  function get_alpha_panel($title='&nbsp;', $h=100) {
+  function get_alpha_panel($filler='&nbsp;', $h=100) {
     $html = '';
     $html .= '
               <div class="panel panel-default">
               <div class="panel-body">
                 <div style="height:'.$h.'px;">
-                '.$content.'
+                '.$filler.'
                 </div>
               </div>
               </div>
