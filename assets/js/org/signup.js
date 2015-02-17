@@ -77,6 +77,7 @@ var org = {
           $zip = $('#spl-form-zip-alt');
           break;
       }
+      
       var address = {};
       address.street = $street.val();
       address.city = $city.val();
@@ -84,7 +85,21 @@ var org = {
       address.zip = $zip.val();
 
       if ( address.zip ) {
-        console.log(address);
+        $.ajax( { 
+          url: _self.config.api.v2 + '/address/validate'
+          ,crossDomain: true
+          ,data: { params: {
+                            address: address
+                    }
+                  }
+        } )
+        .done(function(data) {
+          console.log(data);
+        })
+        .fail(function() {
+        })
+        .always(function() {  
+        });
       }
     } 
 }
@@ -101,12 +116,10 @@ var org = {
                 }
       } )
       .done(function(data) {
-        console.log(data);
-
+        //console.log(data);
         $('#'+id).val(data);
       })
       .fail(function() {
-        //parseNovelistData(null);
       })
       .always(function() {  
       });
