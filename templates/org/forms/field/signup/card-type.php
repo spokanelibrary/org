@@ -17,14 +17,6 @@
             <h2>I am:</h2>
           </label>
           <div class="col-sm-10" id="spl-form-card-type">
-            
-            <div class="radio">
-              <label>
-                <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor">
-                <b class="text-info">under 18 years old</b>.
-              </label>
-            </div>
-
             <div class="radio">
               <label>
                 <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult" checked>
@@ -35,6 +27,12 @@
               <label>
                 <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="nonres">
                 <b class="warning">an adult</b> living elsewhere (no address or property in Spokane County).
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor">
+                <b class="text-info">under 18</b> years old.
               </label>
             </div>
             <div class="radio">
