@@ -44,7 +44,11 @@ var org = {
     });
 
     $('body').on('blur', '.spl-signup-address', function(e) {
-      _self.normalizeAddress('.spl-signup-address');
+      _self.normalizeAddress('address');
+    });
+
+    $('body').on('blur', '.spl-signup-address-alt', function(e) {
+      _self.normalizeAddress('alt');
     });
 
     /*
@@ -58,8 +62,13 @@ var org = {
   }
 
 , normalizeAddress: function(fieldset) {
-    if ( fieldset ) {
-      console.log(fieldset);
+    switch ( fieldset ) {
+      case 'address':
+        console.log('address');
+        break;
+      case 'address-alt':
+        console.log('alt');
+        break;
     }
 }
 
