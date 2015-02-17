@@ -33,7 +33,7 @@ Template Name: Alpha Home Page
           &nbsp;
         </div>
         <div class="col-md-7">
-          <h2 class="text-right adamina">
+          <h2 class="adamina">
             Spokane High School Yearbooks
           </h2>
         </div>
