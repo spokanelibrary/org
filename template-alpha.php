@@ -4,7 +4,7 @@ Template Name: Alpha Home Page
 */
 ?>
 
-
+Alpha testing.
 <!--
 <div class="row">
   <div class="col-md-6">
