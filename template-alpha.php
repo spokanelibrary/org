@@ -33,7 +33,7 @@ Template Name: Alpha Home Page
     <?php echo get_alpha_panel('calendar'); ?>
   </div><!-- /.col -->
   <div class="col-sm-7">
-      <?php echo get_alpha_panel('digital'); ?>
+      Download ebooks, music, and more.
   </div><!-- /.col -->
 
   <div class="col-sm-12">
