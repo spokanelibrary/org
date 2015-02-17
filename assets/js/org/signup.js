@@ -62,7 +62,7 @@ var org = {
   }
 
 , normalizeAddress: function(fieldset) {
-    var address;
+    var address = {};
     switch ( fieldset ) {
       case 'address':
         address.street = $('#spl-form-street');
