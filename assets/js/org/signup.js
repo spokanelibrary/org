@@ -77,7 +77,7 @@ var org = {
           $zip = $('#spl-form-zip-alt');
           break;
       }
-      
+
       var address = {};
       address.street = $street.val();
       address.city = $city.val();
@@ -86,7 +86,7 @@ var org = {
 
       if ( address.zip ) {
         $.ajax( { 
-          url: _self.config.api.v2 + '/address/validate'
+          url: _self.config.api.v2 + '/address/verify'
           ,crossDomain: true
           ,data: { params: {
                             address: address
