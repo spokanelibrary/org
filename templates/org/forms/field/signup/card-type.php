@@ -19,7 +19,7 @@
           <div class="col-sm-10" id="spl-form-card-type">
             
             <div class="radio">
-              <label style="margin-bottom: 20px; font-size:20px;">
+              <label>
                 <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor">
                 <b class="text-info">under 18 years old</b>.
               </label>
