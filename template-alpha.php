@@ -37,7 +37,9 @@ Template Name: Alpha Home Page
     </h1>
   </div>
 
+</div><!-- /.row -->
 
+<div class="row">
 
   <div class="col-sm-5">
     <?php echo get_alpha_panel('Calendar'); ?>
