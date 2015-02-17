@@ -26,7 +26,7 @@ Template Name: Alpha Home Page
 <div class="row">
 
   <div class="col-sm-12">
-    <?php echo get_alpha_panel(); ?>
+    <?php echo get_alpha_panel('Featured', 200); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-5">
