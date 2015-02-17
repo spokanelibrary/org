@@ -4,20 +4,6 @@ Template Name: Alpha Home Page
 */
 ?>
 
-Alpha testing.
-<!--
-<div class="row">
-  <div class="col-md-6">
-    <?php //echo do_shortcode('[spl_widget search-catalog]'); ?>
-  </div>
-  <div class="col-md-6">
-    <div class="hidden-xs">
-      <?php //echo do_shortcode('[spl_widget login-form]'); ?>
-    </div>
-  </div>
-</div>
--->
-
 <?php //get_template_part('templates/content', 'page'); ?>
 
 <?php 
