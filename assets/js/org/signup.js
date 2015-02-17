@@ -62,25 +62,31 @@ var org = {
   }
 
 , normalizeAddress: function(fieldset) {
-    var address = {};
-    switch ( fieldset ) {
-      case 'address':
-        address.street = $('#spl-form-street').val();
-        address.city = $('#spl-form-city').val();
-        address.state = $('#spl-form-state').val();
-        address.zip = $('#spl-form-zip').val();
-        break;
-      case 'alt':
-        address.street = $('#spl-form-street-alt').val();
-        address.city = $('#spl-form-city-alt').val();
-        address.state = $('#spl-form-state-alt').val();
-        address.zip = $('#spl-form-zip-alt').val();
-        break;
-    }
+    if ( fieldset ) {
+      switch ( fieldset ) {
+        case 'address':
+          $street = $('#spl-form-street');
+          $city = $('#spl-form-city');
+          $state = $('#spl-form-state');
+          $zip = $('#spl-form-zip');
+          break;
+        case 'alt':
+          $street = $('#spl-form-street-alt');
+          $city = $('#spl-form-city-alt');
+          $state = $('#spl-form-state-alt');
+          $zip = $('#spl-form-zip-alt');
+          break;
+      }
+      var address = {};
+      address.street = $street.val();
+      address.city = $city.val();
+      address.state = $state.val();
+      address.zip = $zip.val();
 
-    if ( address.zip ) {
-      console.log(address);
-    }
+      if ( address.zip ) {
+        console.log(address);
+      }
+    } 
 }
 
 , normalizeBirthdate: function(id, birthdate) {
