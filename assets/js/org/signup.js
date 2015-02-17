@@ -62,13 +62,24 @@ var org = {
   }
 
 , normalizeAddress: function(fieldset) {
+    var address;
     switch ( fieldset ) {
       case 'address':
-        console.log('address');
+        address.street = $('#spl-form-street');
+        address.city = $('#spl-form-city');
+        address.state = $('#spl-form-state');
+        address.zip = $('#spl-form-zip');
         break;
       case 'alt':
-        console.log('alt');
+        address.street = $('#spl-form-street-alt');
+        address.city = $('#spl-form-city-alt');
+        address.state = $('#spl-form-state-alt');
+        address.zip = $('#spl-form-zip-alt');
         break;
+    }
+
+    if ( address.zip ) {
+      console.log(address);
     }
 }
 
