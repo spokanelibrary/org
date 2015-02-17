@@ -26,11 +26,11 @@ Template Name: Alpha Home Page
 <div class="row">
 
   <div class="col-sm-12">
-    <div class="panel panel-default" style="height:180px; background-color:rgb(128,100,60); background-image:url('/assets/img/yearbooks/north-central.png'); background-repeat:no-repeat;">
+    <div class="panel panel-default">
       <div class="panel-body">
       
         <div class="col-md-5">
-          &nbsp;
+          <img class="img-responsive" style="max-height:180px;" src="/assets/img/yearbooks/north-central.png">
         </div>
         <div class="col-md-7">
           <h2 class="text-center adamina" style="background:#fff;">
