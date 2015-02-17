@@ -36,6 +36,7 @@ Template Name: Alpha Home Page
       Blast from the past
     </h1>
   </div>
+  <div class="clearfix">&nbsp;</div>
 
 </div><!-- /.row -->
 
