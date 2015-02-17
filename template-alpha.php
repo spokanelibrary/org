@@ -26,31 +26,38 @@ Template Name: Alpha Home Page
 <div class="row">
 
   <div class="col-sm-12">
-      <?php echo get_alpha_panel(); ?>
+    <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-5">
     <?php echo get_alpha_panel('calendar'); ?>
   </div><!-- /.col -->
   <div class="col-sm-7">
-      Download ebooks, music, and more.
+    <?php echo get_alpha_panel(); ?>
+  </div><!-- /.col -->
+
+  <div class="col-sm-6">
+    <?php echo get_alpha_panel('calendar'); ?>
+  </div><!-- /.col -->
+  <div class="col-sm-6">
+    <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-12">
-      <?php echo get_alpha_panel(); ?>
+    <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-3">
-      <?php echo get_alpha_panel(); ?>
+    <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
   <div class="col-sm-3">
-      <?php echo get_alpha_panel(); ?>
+    <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
   <div class="col-sm-3">
-      <?php echo get_alpha_panel(); ?>
+    <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
   <div class="col-sm-3">
-      <?php echo get_alpha_panel('Yearbooks'); ?>
+    <?php echo get_alpha_panel('Yearbooks'); ?>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
