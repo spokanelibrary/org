@@ -35,10 +35,10 @@ Template Name: Alpha Home Page
         <div class="col-md-3">
           <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/yearbooks/lc.png">
         </div>
-        <div class="col-md-7">
-          <h2 class="text-center adamina" style="background:#fff;">
+        <div class="col-md-6">
+          <h1 class="text-center adamina" style="background:#fff;">
             Spokane High School Yearbooks
-          </h2>
+          </h1>
         </div>
 
       </div>
