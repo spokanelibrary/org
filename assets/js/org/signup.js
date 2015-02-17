@@ -43,9 +43,10 @@ var org = {
       _self.normalizeBirthdate( $(this).attr('id'), $(this).val() );
     });
 
-    $('body').on('blur', '.spl-signup-address', function() {
-      console.log( $(this).val() );
+    $('body').on('blur', '.spl-signup-address', function(e) {
+      _self.normalizeAddress('.spl-signup-address');
     });
+
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
       $('#spl-signup-card-type').collapse('hide');
@@ -55,6 +56,12 @@ var org = {
     });
     */
   }
+
+, normalizeAddress: function(fieldset) {
+    if ( fieldset ) {
+      console.log(fieldset);
+    }
+}
 
 , normalizeBirthdate: function(id, birthdate) {
     //console.log();
