@@ -5,7 +5,7 @@ Template Name: Alpha Home Page
 ?>
 
 <?php 
-  function get_alpha_panel($h=100) {
+  function get_alpha_panel($h=200) {
     $html = '';
     $html .= '
               <div class="panel panel-default">
