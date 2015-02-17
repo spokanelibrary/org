@@ -65,16 +65,16 @@ var org = {
     var address = {};
     switch ( fieldset ) {
       case 'address':
-        address.street = $('#spl-form-street');
-        address.city = $('#spl-form-city');
-        address.state = $('#spl-form-state');
-        address.zip = $('#spl-form-zip');
+        address.street = $('#spl-form-street').val();
+        address.city = $('#spl-form-city').val();
+        address.state = $('#spl-form-state').val();
+        address.zip = $('#spl-form-zip').val();
         break;
       case 'alt':
-        address.street = $('#spl-form-street-alt');
-        address.city = $('#spl-form-city-alt');
-        address.state = $('#spl-form-state-alt');
-        address.zip = $('#spl-form-zip-alt');
+        address.street = $('#spl-form-street-alt').val();
+        address.city = $('#spl-form-city-alt').val();
+        address.state = $('#spl-form-state-alt').val();
+        address.zip = $('#spl-form-zip-alt').val();
         break;
     }
 
