@@ -204,7 +204,7 @@ if ( !empty($spl_home) ): ;
       <a class="spl-hero-link" href="/browse/">
         <h4 class="text-center">
           <i class="glyphicon glyphicon-star"></i>
-          Browse popular titles &rarr;
+          <span class="hidden-xs">On our reading list:</span> <b>Staff picks &amp; popular titles</b> <small class="glyphicon glyphicon-arrow-right"></small>
         </h4>
       </a>
     </div>
