@@ -26,7 +26,8 @@ Template Name: Alpha Home Page
 <div class="row">
 
   <div class="col-sm-12">
-    <?php echo get_alpha_panel('Featured', 200); ?>
+    <div class="panel panel-default" style="background:url('/assets/img/yearbooks/north-central.png');">
+    </div>
   </div><!-- /.col -->
 
   <div class="col-sm-5">
