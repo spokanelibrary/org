@@ -26,7 +26,7 @@ Template Name: Alpha Home Page
 <div class="row">
 
   <div class="col-sm-12">
-    <div class="panel panel-default" style="background:url('/assets/img/yearbooks/north-central.png');">
+    <div class="panel panel-default" style="height:150px; background:url('/assets/img/yearbooks/north-central.png');">
     </div>
   </div><!-- /.col -->
 
