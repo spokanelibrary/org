@@ -66,7 +66,7 @@ var org = {
       case 'address':
         console.log('address');
         break;
-      case 'address-alt':
+      case 'alt':
         console.log('alt');
         break;
     }
