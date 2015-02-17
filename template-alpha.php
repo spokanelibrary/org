@@ -28,5 +28,8 @@ Template Name: Alpha Home Page
   <div class="col-sm-7">
       <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
+  <div class="col-sm-12">
+      <?php echo get_alpha_panel(); ?>
+  </div><!-- /.col -->
 
 </div><!-- /.row -->
