@@ -30,14 +30,14 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-5">
-    <?php echo get_alpha_panel('calendar'); ?>
+    <?php echo get_alpha_panel('Calendar'); ?>
   </div><!-- /.col -->
   <div class="col-sm-7">
-    <?php echo get_alpha_panel(); ?>
+    <?php echo get_alpha_panel('Digital Branch'); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-6">
-    <?php echo get_alpha_panel('calendar'); ?>
+    <?php echo get_alpha_panel('Connected Learning'); ?>
   </div><!-- /.col -->
   <div class="col-sm-6">
     <?php echo get_alpha_panel(); ?>
