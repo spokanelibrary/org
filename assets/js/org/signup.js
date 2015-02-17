@@ -42,6 +42,10 @@ var org = {
     $('body').on('blur', '#spl-form-birthdate', function(e) {
       _self.normalizeBirthdate( $(this).attr('id'), $(this).val() );
     });
+
+    $('body').on('blur', '.spl-signup-address', function() {
+      console.log( $(this).val() );
+    });
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
       $('#spl-signup-card-type').collapse('hide');
