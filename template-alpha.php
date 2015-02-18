@@ -79,7 +79,9 @@ Template Name: Alpha Home Page
             <li>Online job search</li>
             <li>So much more&hellip;</li>  
           </ul>
-          <a href="/connected-learning">Join us in the lab &rarr;</a>
+          <p class="text-right">
+            <a href="/connected-learning">Join us in the lab &rarr;</a>
+          </p>
         </div>
       </div>
     </div>
