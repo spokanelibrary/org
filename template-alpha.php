@@ -29,7 +29,7 @@ Template Name: Alpha Home Page
 
       <a href="/digital/" class="spl-hero-link">
         <h4 class="text-center normal">
-          <i class="glyphicon glyphicon-cloud-download"></i>
+          <i class="glyphicon glyphicon"></i>
           Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks and more</span> <small class="glyphicon glyphicon-arrow-right"></small>
         </h4>
       </a>
@@ -60,7 +60,7 @@ Template Name: Alpha Home Page
 
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
-          <i class="glyphicon glyphicon-calendar"></i>
+          <i class="glyphicon glyphicon-"></i>
           <span class="hidden-xs"><b>Coming up</b> on the</span> <b>Library Calendar</b> <small class="glyphicon glyphicon-arrow-right"></small>
         </h4>
       </a>
@@ -154,7 +154,7 @@ Template Name: Alpha Home Page
     <div class="spl-hero-panel spl-hero-warning">
       <a class="spl-hero-link" href="/browse/">
         <h4 class="text-center">
-          <i class="glyphicon glyphicon-star"></i>
+          <i class="glyphicon glyphicon-"></i>
           <span class="hidden-xs">On our reading list:</span> <b>Staff picks &amp; popular titles</b> <small class="glyphicon glyphicon-arrow-right"></small>
         </h4>
       </a>
