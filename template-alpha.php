@@ -32,7 +32,9 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-6">
-    <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/promos/spl-apple-devices.png">
+    <div class="panel panel-default">
+      <img class="img-responsive img-rounded" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
+    </div>
   </div><!-- /.col -->
   <div class="col-sm-6">
     <?php echo get_alpha_panel(); ?>
