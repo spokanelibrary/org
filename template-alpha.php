@@ -113,7 +113,7 @@ Template Name: Alpha Home Page
     </div>
   </div><!-- /.col -->
   <div class="col-sm-6">
-    <img class="img-responsive" src=" http://beta.spokanelibrary.org/wordpress/wp-content/uploads/promo-storytime.jpg">
+    <img class="img-responsive img-rounded" src=" http://beta.spokanelibrary.org/wordpress/wp-content/uploads/promo-storytime.jpg">
   </div><!-- /.col -->
 
   <div class="col-sm-12">
