@@ -22,15 +22,6 @@ Template Name: Alpha Home Page
 ?>
 
 
-
-<div class="row">
-
-  <div class="col-sm-12">
-    <img class="img-responsive" style="max-height:240px;" src="/assets/img/promos/spl-yearbooks-promo.png">
-  </div>
-
-</div><!-- /.row -->
-
 <div class="row">
 
   <div class="col-sm-5">
@@ -46,6 +37,11 @@ Template Name: Alpha Home Page
   <div class="col-sm-6">
     <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
+
+  <div class="col-sm-12">
+    <img class="img-responsive" style="max-height:240px;" src="/assets/img/promos/spl-yearbooks-promo.png">
+  </div><!-- /.col -->
+
 
   <div class="col-sm-12">
     <?php echo get_alpha_panel('&nbsp;', 50); ?>
