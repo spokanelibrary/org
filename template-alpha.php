@@ -66,7 +66,7 @@ Template Name: Alpha Home Page
       </a>
       
       <div class=" btn-group btn-group-justified" role="group" aria-label="...">
-        <a href="/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-success spl-green-tint-80">
+        <a href="/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-success spl-green-tint-70">
           <i class="glyphicon glyphicon-picture"></i>
           <span class="hidden-xs">&nbsp;<b>Storytimes</b></span>
         </a>
@@ -74,7 +74,7 @@ Template Name: Alpha Home Page
           <i class="glyphicon glyphicon-facetime-video"></i>
           <span class="hidden-xs">&nbsp;<b>Connected Learning</b></span>
         </a>
-        <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-success spl-green-tint-40">
+        <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-success spl-green-tint-50">
           <i class="glyphicon glyphicon-plus-sign"></i>
           <span class="hidden-xs">&nbsp;<b>Much More</b></span>
         </a>
