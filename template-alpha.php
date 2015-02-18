@@ -111,16 +111,15 @@ Template Name: Alpha Home Page
         </div>
       </div>
       <h4>Technology training &amp; certification</h4>
-      
-        <div class="text-center" style="margin-bottom:10px;">
+      <div class="row">
+        <div class="col-sm-6">
           <a href="/it-academy/"><img style="margin:auto;" class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png"></a>
         </div>
-
-        <div class="text-center">
+        <div class="col-sm-6">
           <a href="/gale-courses/"><img style="margin:auto;" class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png"></a>
         </div>
       </div>
-
+    </div>
   </div><!-- /.col -->
   <div class="col-sm-6">
     <div class="panel panel-primary">
