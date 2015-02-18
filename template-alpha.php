@@ -151,7 +151,7 @@ Template Name: Alpha Home Page
 <div class="row">
   
   <div class="col-md-12">
-    <div class="spl-hero-panel spl-hero-default">
+    <div class="spl-hero-panel spl-hero-warning">
       <a class="spl-hero-link" href="/browse/">
         <h4 class="text-center">
           <i class="glyphicon glyphicon-star"></i>
