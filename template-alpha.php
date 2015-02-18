@@ -31,10 +31,10 @@ Template Name: Alpha Home Page
     <div class="spl-hero-panel spl-hero-primary">
 
       <a href="/digital/" class="spl-hero-link">
-        <h4 class="text-center normal">
+        <h5 class="text-center normal">
           <i class="glyphicon glyphicon-cloud-download"></i>
           Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span> <small class="glyphicon glyphicon-arrow-right"></small>
-        </h4>
+        </h5>
       </a>
 
       <div class="spl-hero-digital btn-group btn-group-justified" role="group" aria-label="...">
