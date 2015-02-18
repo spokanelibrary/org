@@ -32,7 +32,7 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-6">
-    <div class="panel panel-default">
+    <div class="hero-panel">
       <img class="img-responsive img-rounded" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
     </div>
   </div><!-- /.col -->
