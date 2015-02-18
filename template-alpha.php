@@ -97,7 +97,7 @@ Template Name: Alpha Home Page
           <img class="img-responsive" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
         </div>
         <div class="col-sm-6">
-          <ul class="list-unstyled">
+          <ul>
             <li>Video editing</li>
             <li>Social media</li>
             <li>Online job search</li>
@@ -115,7 +115,14 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-12">
-    <div style="margin-bottom: 20px;">
+    <div class="spl-hero-panel spl-hero-alt">
+
+      <a href="/calendar/" class="spl-hero-link">
+        <h4 class="text-center normal">
+          <i class="glyphicon glyphicon-calendar"></i>
+          <span class="hidden-xs"><b>Coming up</b> on the</span> <b>Library Calendar</b> <small class="glyphicon glyphicon-arrow-right"></small>
+        </h4>
+      </a>
       <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/promos/spl-yearbooks-promo.png">
     </div>
   </div><!-- /.col -->
