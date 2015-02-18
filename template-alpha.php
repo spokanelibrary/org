@@ -105,9 +105,9 @@ Template Name: Alpha Home Page
             <li>So much more&hellip;</li>  
           </ul>
           </blockquote>
-          <p class="text-right">
-            <a href="/connected-learning">Join us in the lab &rarr;</a>
-          </p>
+          <div class="text-right">
+            <a class="btn btn-default" href="/connected-learning">Join us in the lab &rarr;</a>
+          </div>
         </div>
       </div>
       <h4>Technology training &amp; certification</h4>
