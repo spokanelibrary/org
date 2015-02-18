@@ -97,14 +97,14 @@ Template Name: Alpha Home Page
           <img class="img-responsive" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
         </div>
         <div class="col-sm-6">
-          <div class="alert alert-success">
+          <blockquote>
           <ul>
             <li>Video editing</li>
             <li>Social media</li>
             <li>Online job search</li>
             <li>So much more&hellip;</li>  
           </ul>
-          </div>
+          </blockquote>
           <p class="text-right">
             <a href="/connected-learning">Join us in the lab &rarr;</a>
           </p>
