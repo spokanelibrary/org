@@ -5,7 +5,7 @@ Template Name: Alpha Home Page
 ?>
 
 <?php 
-  function get_alpha_panel($filler='&nbsp;', $h=100) {
+  function get_alpha_panel($filler='&nbsp;', $h=140) {
     $html = '';
     $html .= '
               <div class="panel panel-default">
@@ -20,6 +20,33 @@ Template Name: Alpha Home Page
     return $html;
   }
 ?>
+
+<div class="row">
+  <div class="col-sm-6">
+    <?php echo get_alpha_panel(); ?>
+  </div>
+  <div class="col-sm-6">
+    <?php echo get_alpha_panel(); ?>
+  </div>
+</div><!-- /.row -->
+
+<div class="row">
+  <div class="col-sm-6">
+    <?php echo get_alpha_panel(); ?>
+  </div>
+  <div class="col-sm-6">
+    <?php echo get_alpha_panel(); ?>
+  </div>
+</div><!-- /.row -->
+
+<div class="row">
+  <div class="col-sm-6">
+    <?php echo get_alpha_panel(); ?>
+  </div>
+  <div class="col-sm-6">
+    <?php echo get_alpha_panel(); ?>
+  </div>
+</div><!-- /.row -->
 
 <div class="row">
   <div class="col-sm-6">
