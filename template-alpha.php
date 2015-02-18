@@ -132,10 +132,10 @@ Template Name: Alpha Home Page
     <div class="spl-hero-panel spl-hero-default">
 
       <a href="/calendar/" class="spl-hero-link">
-        <h4 class="text-center normal">
+        <h3 class="text-center normal">
           <i class="glyphicon glyphicon-"></i>
           <span class="hidden-xs"><b>Check it out</b>: </span> 200+ <b>yearbooks</b> now online <small class="glyphicon glyphicon-arrow-right"></small>
-        </h4>
+        </h3>
       </a>
       <img class="img-responsive" style="max-height:240px;" src="/assets/img/promos/spl-yearbooks-promo.png">
     </div>
