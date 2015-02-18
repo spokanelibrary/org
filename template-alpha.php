@@ -89,9 +89,9 @@ Template Name: Alpha Home Page
 
   <div class="col-sm-6">
     <div style="margin-bottom: 20px;">
-      <h5>
+      <h3>
         Connected Learning
-      </h5>
+      </h3>
       <div class="row">
         <div class="col-sm-6">
           <img class="img-responsive" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
