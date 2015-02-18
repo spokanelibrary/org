@@ -24,33 +24,6 @@ Template Name: Alpha Home Page
 
 <div class="row">
 
-  <div class="col-sm-5">
-    <div class="spl-hero-panel spl-hero-success">
-
-      <a href="/calendar/" class="spl-hero-link">
-        <h4 class="text-center normal">
-          <i class="glyphicon glyphicon-calendar"></i>
-          <span class="hidden-xs"><b>Coming up soon</b> on the</span> <b>Library Calendar</b> <small class="glyphicon glyphicon-arrow-right"></small>
-        </h4>
-      </a>
-      
-      <div class="spl-hero-calendar btn-group btn-group-justified" role="group" aria-label="...">
-        <a href="/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-success spl-green-tint-80">
-          <i class="glyphicon glyphicon-picture"></i>
-          <span class="hidden-xs">&nbsp;<b>Storytimes</b></span>
-        </a>
-        <a href="/calendar/find/connected+learning/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-success spl-green-tint-60">
-          <i class="glyphicon glyphicon-facetime-video"></i>
-          <span class="hidden-xs">&nbsp;<b>Connected Learning</b></span>
-        </a>
-        <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-success spl-green-tint-40">
-          <i class="glyphicon glyphicon-plus-sign"></i>
-          <span class="hidden-xs">&nbsp;<b>Much More</b></span>
-        </a>
-      </div>
-      
-    </div>
-  </div><!-- /.col -->
   <div class="col-sm-7">
     <div class="spl-hero-panel spl-hero-primary">
 
@@ -80,6 +53,33 @@ Template Name: Alpha Home Page
         </a>
       </div>
 
+    </div>
+  </div><!-- /.col -->
+  <div class="col-sm-5">
+    <div class="spl-hero-panel spl-hero-success">
+
+      <a href="/calendar/" class="spl-hero-link">
+        <h4 class="text-center normal">
+          <i class="glyphicon glyphicon-calendar"></i>
+          <span class="hidden-xs"><b>Coming up soon</b> on the</span> <b>Library Calendar</b> <small class="glyphicon glyphicon-arrow-right"></small>
+        </h4>
+      </a>
+      
+      <div class=" btn-group btn-group-justified" role="group" aria-label="...">
+        <a href="/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-success spl-green-tint-80">
+          <i class="glyphicon glyphicon-picture"></i>
+          <span class="hidden-xs">&nbsp;<b>Storytimes</b></span>
+        </a>
+        <a href="/calendar/find/connected+learning/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-success spl-green-tint-60">
+          <i class="glyphicon glyphicon-facetime-video"></i>
+          <span class="hidden-xs">&nbsp;<b>Connected Learning</b></span>
+        </a>
+        <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-success spl-green-tint-40">
+          <i class="glyphicon glyphicon-plus-sign"></i>
+          <span class="hidden-xs">&nbsp;<b>Much More</b></span>
+        </a>
+      </div>
+      
     </div>
   </div><!-- /.col -->
 
