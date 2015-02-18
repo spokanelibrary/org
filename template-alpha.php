@@ -110,6 +110,7 @@ Template Name: Alpha Home Page
           </p>
         </div>
       </div>
+      <h4>Technology training &amp; certification</h4>
     </div>
   </div><!-- /.col -->
   <div class="col-sm-6">
