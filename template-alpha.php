@@ -24,7 +24,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
 
-  <div class="col-sm-7">
+  <div class="col-md-7">
     <div class="spl-hero-panel spl-hero-primary">
 
       <a href="/digital/" class="spl-hero-link">
@@ -55,7 +55,7 @@ Template Name: Alpha Home Page
 
     </div>
   </div><!-- /.col -->
-  <div class="col-sm-5">
+  <div class="col-md-5">
     <div class="spl-hero-panel spl-hero-success">
 
       <a href="/calendar/" class="spl-hero-link">
