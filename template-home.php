@@ -5,7 +5,6 @@ Template Name: Home Page
 ?>
 
 
-
 <!--
 <div class="row">
   <div class="col-md-6">
@@ -213,7 +212,6 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 
 </div><!-- /.row -->
-
 
 
 
