@@ -98,7 +98,7 @@ Template Name: Alpha Home Page
         </div>
         <div class="col-sm-6">
           <blockquote>
-          <ul>
+          <ul class="listy-unstyled">
             <li>Video editing</li>
             <li>Social media</li>
             <li>Online job search</li>
