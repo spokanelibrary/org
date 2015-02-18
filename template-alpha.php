@@ -32,7 +32,7 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-6">
-    <?php echo get_alpha_panel('Connected Learning'); ?>
+    <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/promos/spl-apple-devices.png">
   </div><!-- /.col -->
   <div class="col-sm-6">
     <?php echo get_alpha_panel(); ?>
