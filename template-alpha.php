@@ -107,7 +107,7 @@ Template Name: Alpha Home Page
           </blockquote>
         </div>
       </div>
-      <h4>Technology training &amp; certification</h4>
+      <h4 class="text-center">Technology training &amp; certification</h4>
       <div class="row">
         <div class="col-sm-6">
           <a href="/it-academy/"><img style="margin:auto;" class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png"></a>
