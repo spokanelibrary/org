@@ -32,7 +32,10 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-6">
-    <div class="hero-panel">
+    <div style="margin-bottom: 20px;">
+      <h5>
+        Join Us: Connected Learning
+      </h5>
       <img class="img-responsive img-rounded" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
     </div>
   </div><!-- /.col -->
@@ -41,7 +44,9 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-12">
-    <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/promos/spl-yearbooks-promo.png">
+    <div style="margin-bottom: 20px;">
+      <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/promos/spl-yearbooks-promo.png">
+    </div>
   </div><!-- /.col -->
 
 
