@@ -119,8 +119,8 @@ Template Name: Alpha Home Page
 
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
-          <i class="glyphicon glyphicon-calendar"></i>
-          <span class="hidden-xs"><b>Coming up</b> on the</span> <b>Library Calendar</b> <small class="glyphicon glyphicon-arrow-right"></small>
+          <i class="glyphicon glyphicon-bookmark"></i>
+          <span class="hidden-xs"><b>Check it out</b>: </span> <b>200+ yearbooks</b> now online <small class="glyphicon glyphicon-arrow-right"></small>
         </h4>
       </a>
       <img class="img-responsive" style="max-height:240px;" src="/assets/img/promos/spl-yearbooks-promo.png">
