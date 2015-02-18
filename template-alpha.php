@@ -89,7 +89,7 @@ Template Name: Alpha Home Page
 
   <div class="col-sm-6">
     <div style="margin-bottom: 20px;">
-      <h3>
+      <h3 style="margin-top:0;">
         Connected Learning
       </h3>
       <div class="row">
