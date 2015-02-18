@@ -154,7 +154,7 @@ Template Name: Alpha Home Page
           <span class="hidden-xs">On our reading list:</span> <b>Staff picks &amp; popular titles</b> <small class="glyphicon glyphicon-arrow-right"></small>
         </h4>
       </a>
-      <div style="border:1px solid #ccc; padding-top:16px; padding-bottom:10px;">
+      <div style="border:1px solid #ccc; background:#fff; padding-top:16px; padding-bottom:10px;">
         <?php echo do_shortcode('[spl_widget browse-list list=star widget-alpha limit=4]'); ?>
       </div>
     </div>
