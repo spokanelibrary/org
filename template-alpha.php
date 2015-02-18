@@ -37,6 +37,10 @@ Template Name: Alpha Home Page
         </h4>
       </a>
 
+</div><!-- /.row -->
+
+<div class="row">
+
       <div class="spl-hero-digital btn-group btn-group-justified" role="group" aria-label="...">
         <a href="/ebooks/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-primary spl-blue-tint-60">
           <i class="glyphicon glyphicon-phone"></i>
