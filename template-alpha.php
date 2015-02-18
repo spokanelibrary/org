@@ -113,7 +113,7 @@ Template Name: Alpha Home Page
     </div>
   </div><!-- /.col -->
   <div class="col-sm-6">
-    <?php echo do_shortcode('[spl_carousel_beta pause auto random shuffle news posts pages calendar promo=tech slug=carousel limit=6 title="" ]'); ?>
+    <?php echo do_shortcode('[spl_carousel pause auto random shuffle news posts pages calendar promo=tech slug=carousel limit=6 title="" ]'); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-12">
