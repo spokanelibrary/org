@@ -89,9 +89,9 @@ Template Name: Alpha Home Page
 
   <div class="col-sm-6">
     <div style="margin-bottom: 20px;">
-      <h4>
+      <h5>
         Connected Learning
-      </h4>
+      </h5>
       <div class="row">
         <div class="col-sm-6">
           <img class="img-responsive" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
@@ -114,7 +114,7 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
   <div class="col-sm-6">
     <div class="panel panel-primary">
-      <img class="img-responsive2" src=" http://beta.spokanelibrary.org/wordpress/wp-content/uploads/promo-storytime.jpg">
+      <img class="img-responsive" src=" http://beta.spokanelibrary.org/wordpress/wp-content/uploads/promo-storytime.jpg">
     </div>
   </div><!-- /.col -->
 
