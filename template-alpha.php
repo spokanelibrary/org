@@ -88,7 +88,7 @@ Template Name: Alpha Home Page
 <div class="row">
 
   <div class="col-sm-6">
-    <div style="margin-bottom: 20px;">
+    <div >
       <h3 style="margin-top:0;">
         <a href="/connected-learning/">Connected Learning</a>
       </h3>
