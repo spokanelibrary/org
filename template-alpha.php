@@ -25,18 +25,9 @@ Template Name: Alpha Home Page
 
 <div class="row">
 
-  <div class="col-md-3">
-    <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/yearbooks/north-central.png">
+  <div class="col-sm-12">
+    <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/promos/spl-yearbook-promo.png">
   </div>
-  <div class="col-md-3">
-    <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/yearbooks/lc.png">
-  </div>
-  <div class="col-md-6">
-    <h1 class="text-center adamina" style="background:#fff;">
-      Blast from the past
-    </h1>
-  </div>
-  <div class="clearfix" style="margin-bottom:20px;">&nbsp;</div>
 
 </div><!-- /.row -->
 
