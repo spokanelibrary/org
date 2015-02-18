@@ -118,7 +118,7 @@ Template Name: Alpha Home Page
       </div>
     </div>
     <p>
-      <a class="btn btn-block btn-default" 
+      <a class="btn btn-block btn-primary" 
           href="/tech/">Get started or join us in the lab &rarr;</a>
     </p>
   </div><!-- /.col -->
