@@ -68,11 +68,11 @@ Template Name: Alpha Home Page
       <div class=" btn-group btn-group-justified" role="group" aria-label="...">
         <a href="/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-success spl-green-tint-70">
           <i class="glyphicon glyphicon-picture"></i>
-          <span class="hidden-xs">&nbsp;<b>Storytimes</b></span>
+          <span class="hidden-xs">&nbsp;Storytimes</span>
         </a>
         <a href="/calendar/find/connected+learning/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-success spl-green-tint-60">
           <i class="glyphicon glyphicon-facetime-video"></i>
-          <span class="hidden-xs">&nbsp;<b>Classes</b></span>
+          <span class="hidden-xs">&nbsp;Classes</span>
         </a>
         <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-success spl-green-tint-50">
           <i class="glyphicon glyphicon-plus-sign"></i>
