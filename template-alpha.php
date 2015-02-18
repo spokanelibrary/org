@@ -132,10 +132,10 @@ Template Name: Alpha Home Page
     <div class="spl-hero-panel spl-hero-default">
 
       <a href="/calendar/" class="spl-hero-link">
-        <h3 class="text-center normal">
+        <h4 class="text-center normal">
           <i class="glyphicon glyphicon-"></i>
           <span class="hidden-xs"><b>Check it out</b>: </span> 200+ <b>yearbooks</b> now online <small class="glyphicon glyphicon-arrow-right"></small>
-        </h3>
+        </h4>
       </a>
       <img class="img-responsive" style="max-height:240px;" src="/assets/img/promos/spl-yearbooks-promo.png">
     </div>
@@ -143,10 +143,10 @@ Template Name: Alpha Home Page
 
 </div><!-- /.row -->
 
-<h4 class="text-center">
+<h3 class="text-center">
   <i class="glyphicon glyphicon-"></i>
   <span class="hidden-xs">On our reading list:</span> <b>Staff picks &amp; popular titles</b> <small class="glyphicon glyphicon-arrow-right"></small>
-</h4>
+</h3>
 <?php echo do_shortcode('[spl_widget browse-list list=star widget-alpha limit=4]'); ?>
 
 
