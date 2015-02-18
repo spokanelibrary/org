@@ -173,7 +173,7 @@ Template Name: Alpha Home Page
         </h4>
       </a>
     </div>
-    <?php echo do_shortcode('[spl_widget browse-list list=star widget-beta limit=4]'); ?>
+    <?php echo do_shortcode('[spl_widget browse-list list=star widget-alpha limit=4]'); ?>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
