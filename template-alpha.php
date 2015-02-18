@@ -72,7 +72,7 @@ Template Name: Alpha Home Page
         </a>
         <a href="/calendar/find/connected+learning/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-success spl-green-tint-60">
           <i class="glyphicon glyphicon-facetime-video"></i>
-          <span class="hidden-xs">&nbsp;<b>Connected Learning</b></span>
+          <span class="hidden-xs">&nbsp;<b>Classes</b></span>
         </a>
         <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-success spl-green-tint-50">
           <i class="glyphicon glyphicon-plus-sign"></i>
