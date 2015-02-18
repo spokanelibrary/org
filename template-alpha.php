@@ -94,7 +94,7 @@ Template Name: Alpha Home Page
       </h5>
       <div class="row">
         <div class="col-sm-6">
-          <img class="img-responsive img-rounded" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
+          <img class="img-responsive" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
         </div>
         <div class="col-sm-6">
           <ul>
