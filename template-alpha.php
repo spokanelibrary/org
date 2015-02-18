@@ -65,7 +65,7 @@ Template Name: Alpha Home Page
 
   <div class="col-sm-6">
     <div style="margin-bottom: 20px;">
-      <h4 class="normal">
+      <h4>
         Connected Learning
       </h4>
       <div class="row">
