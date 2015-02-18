@@ -68,9 +68,13 @@ Template Name: Alpha Home Page
       <h4 class="normal">
         Connected Learning
       </h4>
-      <img class="img-responsive img-rounded" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
-      <div style="position:abolute; top:0;">
-        Lorem ipsum dolor sit amet.
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-responsive img-rounded" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
+        </div>
+        <div class="col-md-6">
+          Lorem ipsum
+        </div>
       </div>
     </div>
   </div><!-- /.col -->
