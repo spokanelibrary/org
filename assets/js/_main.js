@@ -296,6 +296,13 @@ var ORG = {
       $('#spl-hero .item').carouselHeights();
     }
   }
+, alpha: {
+    init: function() {
+      //console.log(config);
+      // Normalize Carousel Heights
+      $('#spl-hero .item').carouselHeights();
+    }
+  }
 , it_academy: {
     init: function() {
       Modernizr.load([
