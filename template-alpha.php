@@ -119,7 +119,7 @@ Template Name: Alpha Home Page
     </div>
     <p>
       <a class="btn btn-block btn-primary" 
-          href="/tech/">Get started or join us in the lab &rarr;</a>
+          href="/tech/"><b>Get started or join us in the lab</b> <i class="glyphicon glyphicon-arrow-right"></i></a>
     </p>
   </div><!-- /.col -->
   <div class="col-sm-6">
