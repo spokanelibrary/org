@@ -90,7 +90,7 @@ Template Name: Alpha Home Page
   <div class="col-sm-6">
     <div style="margin-bottom: 20px;">
       <h3 style="margin-top:0;">
-        Connected Learning
+        <a href="/connected-learning/">Connected Learning</a>
       </h3>
       <div class="row">
         <div class="col-sm-6">
@@ -102,11 +102,11 @@ Template Name: Alpha Home Page
             <li>Video editing</li>
             <li>Social media</li>
             <li>Online job search</li>
-            <li>So much more&hellip;</li>  
+            <li>Much, much more&hellip;</li>  
           </ul>
           </blockquote>
           <div class="text-right">
-            <a class="btn btn-default" href="/connected-learning">Join us in the lab &rarr;</a>
+            <a class="btn btn-default" href="/lab/">Join us in the lab &rarr;</a>
           </div>
         </div>
       </div>
@@ -119,6 +119,9 @@ Template Name: Alpha Home Page
           <a href="/gale-courses/"><img style="margin:auto;" class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png"></a>
         </div>
       </div>
+    </div>
+    <div class="text-right">
+      <a class="btn btn-default" href="/tech/">Get started &rarr;</a>
     </div>
   </div><!-- /.col -->
   <div class="col-sm-6">
