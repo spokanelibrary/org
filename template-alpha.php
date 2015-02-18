@@ -35,19 +35,15 @@ Template Name: Alpha Home Page
       </a>
       
       <div class="spl-hero-calendar btn-group btn-group-justified" role="group" aria-label="...">
-        <a href="/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-70">
+        <a href="/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-success spl-green-tint-80">
           <i class="glyphicon glyphicon-picture"></i>
           <span class="hidden-xs">&nbsp;<b>Storytimes</b></span>
         </a>
-        <a href="/calendar/find/connected+learning/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-50">
+        <a href="/calendar/find/connected+learning/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-success spl-green-tint-60">
           <i class="glyphicon glyphicon-facetime-video"></i>
           <span class="hidden-xs">&nbsp;<b>Connected Learning</b></span>
         </a>
-        <a href="/calendar/find/board+meeting/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-orange-tint-30">
-          <i class="glyphicon glyphicon-paperclip"></i></span>
-          <span class="hidden-xs">&nbsp;<b>Board Meetings</b></span>
-        </a>
-        <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-warning spl-orange-tint-10">
+        <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-success spl-green-tint-40">
           <i class="glyphicon glyphicon-plus-sign"></i>
           <span class="hidden-xs">&nbsp;<b>Much More</b></span>
         </a>
@@ -59,10 +55,10 @@ Template Name: Alpha Home Page
     <div class="spl-hero-panel spl-hero-primary">
 
       <a href="/digital/" class="spl-hero-link">
-        <h5 class="text-center normal">
+        <h4 class="text-center normal">
           <i class="glyphicon glyphicon-cloud-download"></i>
           Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span> <small class="glyphicon glyphicon-arrow-right"></small>
-        </h5>
+        </h4>
       </a>
 
       <div class="spl-hero-digital btn-group btn-group-justified" role="group" aria-label="...">
