@@ -141,24 +141,6 @@ Template Name: Alpha Home Page
     </div>
   </div><!-- /.col -->
 
-
-  <div class="col-sm-12">
-    <?php echo get_alpha_panel('&nbsp;', 50); ?>
-  </div><!-- /.col -->
-
-  <div class="col-sm-3">
-    <?php echo get_alpha_panel(); ?>
-  </div><!-- /.col -->
-  <div class="col-sm-3">
-    <?php echo get_alpha_panel(); ?>
-  </div><!-- /.col -->
-  <div class="col-sm-3">
-    <?php echo get_alpha_panel(); ?>
-  </div><!-- /.col -->
-  <div class="col-sm-3">
-    <?php echo get_alpha_panel('Yearbooks'); ?>
-  </div><!-- /.col -->
-
 </div><!-- /.row -->
 
 
