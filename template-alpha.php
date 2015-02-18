@@ -146,7 +146,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
   
-  <div class="col-md-12" style="background:#ccc;">
+  <div class="col-md-12">
     <div class="spl-hero-panel spl-hero-default">
       <a class="spl-hero-link" href="/browse/">
         <h4 class="text-center">
@@ -154,8 +154,10 @@ Template Name: Alpha Home Page
           <span class="hidden-xs">On our reading list:</span> <b>Staff picks &amp; popular titles</b> <small class="glyphicon glyphicon-arrow-right"></small>
         </h4>
       </a>
+      <div style="background:#ececec;">
+        <?php echo do_shortcode('[spl_widget browse-list list=star widget-alpha limit=4]'); ?>
+      </div>
     </div>
-    <?php echo do_shortcode('[spl_widget browse-list list=star widget-alpha limit=4]'); ?>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
