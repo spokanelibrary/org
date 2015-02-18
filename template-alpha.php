@@ -115,7 +115,7 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-12">
-    <div class="spl-hero-panel spl-hero-alt">
+    <div class="spl-hero-panel spl-hero-default">
 
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
