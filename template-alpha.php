@@ -26,7 +26,7 @@ Template Name: Alpha Home Page
 <div class="row">
 
   <div class="col-sm-12">
-    <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/promos/spl-yearbook-promo.png">
+    <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/promos/spl-yearbooks-promo.png">
   </div>
 
 </div><!-- /.row -->
