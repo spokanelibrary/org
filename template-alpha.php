@@ -30,7 +30,7 @@ Template Name: Alpha Home Page
       <a href="/digital/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-cloud-download"></i>
-          Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span> <small class="glyphicon glyphicon-arrow-right"></small>
+          Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks and more</span> <small class="glyphicon glyphicon-arrow-right"></small>
         </h4>
       </a>
 
