@@ -39,7 +39,7 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-12">
-    <img class="img-responsive" style="max-height:240px;" src="/assets/img/promos/spl-yearbooks-promo.png">
+    <img class="img-responsive img-rounded" style="max-height:240px;" src="/assets/img/promos/spl-yearbooks-promo.png">
   </div><!-- /.col -->
 
 
