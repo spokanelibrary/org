@@ -65,10 +65,13 @@ Template Name: Alpha Home Page
 
   <div class="col-sm-6">
     <div style="margin-bottom: 20px;">
-      <h4 class="normal adamina">
+      <h4 class="normal">
         Connected Learning
       </h4>
       <img class="img-responsive img-rounded" style="max-height:200px;" src="/assets/img/promos/spl-apple-devices.png">
+      <div style="position:abolute; top:0;">
+        Lorem ipsum dolor sit amet.
+      </div>
     </div>
   </div><!-- /.col -->
   <div class="col-sm-6">
