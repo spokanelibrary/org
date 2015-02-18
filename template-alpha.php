@@ -22,28 +22,37 @@ Template Name: Alpha Home Page
 ?>
 
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-4">
     <?php echo get_alpha_panel(); ?>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-4">
     <?php echo get_alpha_panel(); ?>
   </div>
-</div><!-- /.row -->
-
-<div class="row">
-  <div class="col-sm-6">
-    <?php echo get_alpha_panel(); ?>
-  </div>
-  <div class="col-sm-6">
+  <div class="col-sm-4">
     <?php echo get_alpha_panel(); ?>
   </div>
 </div><!-- /.row -->
 
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-4">
     <?php echo get_alpha_panel(); ?>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-4">
+    <?php echo get_alpha_panel(); ?>
+  </div>
+  <div class="col-sm-4">
+    <?php echo get_alpha_panel(); ?>
+  </div>
+</div><!-- /.row -->
+
+<div class="row">
+  <div class="col-sm-4">
+    <?php echo get_alpha_panel(); ?>
+  </div>
+  <div class="col-sm-4">
+    <?php echo get_alpha_panel(); ?>
+  </div>
+  <div class="col-sm-4">
     <?php echo get_alpha_panel(); ?>
   </div>
 </div><!-- /.row -->
