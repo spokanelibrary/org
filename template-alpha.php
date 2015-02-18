@@ -76,7 +76,7 @@ Template Name: Alpha Home Page
         </a>
         <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-success spl-green-tint-50">
           <i class="glyphicon glyphicon-plus-sign"></i>
-          <span class="hidden-xs">&nbsp;<b>Much More</b></span>
+          <span class="hidden-xs">&nbsp;<b>More</b></span>
         </a>
       </div>
       
