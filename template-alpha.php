@@ -117,9 +117,10 @@ Template Name: Alpha Home Page
         </div>
       </div>
     </div>
-    <div class="text-right">
-      <a class="btn btn-default" href="/tech/">Get started &rarr;</a>
-    </div>
+    <p>
+      <a class="btn btn-block btn-default" 
+          href="/tech/">Get started or join us in the lab &rarr;</a>
+    </p>
   </div><!-- /.col -->
   <div class="col-sm-6">
     <div class="panel panel-primary">
