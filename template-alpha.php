@@ -111,7 +111,26 @@ Template Name: Alpha Home Page
         </div>
       </div>
       <h4>Technology training &amp; certification</h4>
-    </div>
+      
+        <div class="text-center" style="margin-bottom:10px;">
+          <a href="/it-academy/"><img style="margin:auto;" class="img-responsive img-rounded" src="/assets/img/logos/itacademy.png"></a>
+          <p>     
+            <small>
+              <b>Learn Microsoft products and qualify for certification testing</b>
+            </small>            
+          </p>
+        </div>
+
+        <div class="text-center">
+          <a href="/gale-courses/"><img style="margin:auto;" class="img-responsive img-rounded" src="/assets/img/logos/galecourses.png"></a>
+          <p>
+            <small>
+              <b>Taught by college instructors and industry experts</b>           
+            </small>
+          </p>
+        </div>
+      </div>
+
   </div><!-- /.col -->
   <div class="col-sm-6">
     <div class="panel panel-primary">
