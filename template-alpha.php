@@ -43,7 +43,7 @@ Template Name: Alpha Home Page
           <i class="glyphicon glyphicon-calendar"></i>
           Library Calendar
         </h4>
-        <h6 class="text-center normal">Classes, storytimes, and other events</h6>
+        <h6 class="text-center normal">Classes, events, and storytimes</h6>
       </a>
     </div>
   </div><!-- /.col -->
