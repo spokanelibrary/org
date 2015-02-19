@@ -56,7 +56,7 @@ Template Name: Alpha Home Page
 
     <div class="row">
       <div class="col-sm-4">
-        <?php echo do_shortcode('[spl_widget home-page posts]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page browse]'); ?>
       </div><!-- /.col -->
       <div class="col-sm-8">
         <?php echo do_shortcode('[spl_widget home-page shuffle posts pages slides slug=carousel]'); ?>
