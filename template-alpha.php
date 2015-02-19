@@ -40,7 +40,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
   <div class="col-md-8">
-    <?php echo do_shortcode('[spl_widget home-page news]'); ?>
+    <?php echo do_shortcode('[spl_widget home-page browse]'); ?>
   </div>
 </div><!-- /.row -->
 
