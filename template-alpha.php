@@ -55,10 +55,10 @@ Template Name: Alpha Home Page
   <div class="col-md-9 col-md-pull-3">
     
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-6">
         <?php echo do_shortcode('[spl_widget home-page promo=yearbooks]'); ?>
       </div><!-- /.col -->  
-      <div class="col-md-4">
+      <div class="col-md-6">
         <?php echo do_shortcode('[spl_widget home-page promo=tech]'); ?>
       </div><!-- /.col -->        
     </div><!-- /.row -->
