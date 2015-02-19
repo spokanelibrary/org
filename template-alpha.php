@@ -33,19 +33,19 @@ Template Name: Alpha Home Page
       </a>
     </div>
     <p>
-      Download eBooks, music &amp; more
+      <small>Download eBooks, music, and more</small>
     </p>
     <!-- calendar -->
     <div class="spl-hero-panel spl-hero-success" style="margin-bottom: 4px;">
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
-          <i class="glyphicon glyphicon-calendar text-success"></i>
+          <i class="glyphicon glyphicon-calendar"></i>
           Library Calendar
         </h4>
       </a>
     </div>
     <p>
-      Classes, storytimes &amp; events
+      <small>Classes, storytimes, and other events</small>
     </p>
   </div><!-- /.col -->
   <div class="col-md-9 col-md-pull-3">
