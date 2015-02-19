@@ -36,7 +36,7 @@ Template Name: Alpha Home Page
       Download eBooks, music &amp; more
     </p>
     <!-- calendar -->
-    <div class="spl-hero-panel spl-hero-success">
+    <div class="spl-hero-panel spl-hero-success" style="margin-bottom: 4px;">
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-calendar text-success"></i>
