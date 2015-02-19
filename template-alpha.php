@@ -45,8 +45,8 @@ Template Name: Alpha Home Page
 </div><!-- /.row -->
 
 <div class="row">
-  <div class="col-md-8">
-    <?php echo do_shortcode('[spl_widget home-page browse]'); ?>
+  <div class="col-md-12">
+    <?php echo do_shortcode('[spl_widget home-page browse limit=4]'); ?>
   </div>
 </div><!-- /.row -->
 
