@@ -24,6 +24,14 @@ Template Name: Alpha Home Page
 <div class="row">
   <div class="col-md-8">
     <?php echo get_alpha_panel('&nbsp;', 200); ?>
+    <div class="row">
+      <div class="col-sm-6">
+        <?php echo get_alpha_panel('&nbsp;', 200); ?>
+      </div>
+      <div class="col-sm-6">
+        <?php echo get_alpha_panel('&nbsp;', 200); ?>
+      </div>
+    </div><!-- /.row -->
   </div>
   <div class="col-md-4">
     <?php echo get_alpha_panel(); ?>
