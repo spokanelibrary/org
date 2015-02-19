@@ -35,7 +35,7 @@ Template Name: Alpha Home Page
         <?php echo do_shortcode('[spl_widget home-page calendar]'); ?>
       </div>
       <div class="col-sm-8">
-        <?php echo do_shortcode('[spl_widget home-page slides slug=carousel]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page shuffle slides slug=carousel]'); ?>
       </div>
     </div><!-- /.row -->
   </div>
