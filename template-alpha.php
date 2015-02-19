@@ -29,7 +29,7 @@ Template Name: Alpha Home Page
     <?php echo get_alpha_panel('&nbsp;', 200); ?>
   </div>
   <div class="col-sm-4">
-    <?php echo get_alpha_panel(); ?>
+    <?php echo do_shortcode('[spl_widget home-page news]'); ?>
     
     <?php echo get_alpha_panel('&nbsp;', 400); ?>
     <?php echo get_alpha_panel(); ?>
