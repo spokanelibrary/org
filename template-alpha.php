@@ -49,14 +49,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
   <div class="col-md-3 col-md-push-9">
-    <div class="row">
-      <div class="col-sm-4">
-        <?php echo do_shortcode('[spl_widget home-page calendar]'); ?>
-      </div><!-- /.col -->
-      <div class="col-sm-8">
-        <?php echo do_shortcode('[spl_widget home-page shuffle slides slug=carousel]'); ?>
-      </div><!-- /.col -->
-    </div><!-- /.row -->
+    <?php echo do_shortcode('[spl_widget home-page shuffle slides slug=carousel]'); ?>
   </div><!-- /.col -->
   <div class="col-md-9 col-md-pull-3">
     <?php echo do_shortcode('[spl_widget home-page calendar]'); ?>
