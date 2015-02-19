@@ -28,7 +28,7 @@ Template Name: Alpha Home Page
 </div><!-- /.row -->
 
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-9">
     <?php echo do_shortcode('[spl_widget home-page promo=yearbooks]'); ?>
     <div class="row">
       <div class="col-sm-4">
@@ -39,7 +39,7 @@ Template Name: Alpha Home Page
       </div>
     </div><!-- /.row -->
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3">
     <?php echo do_shortcode('[spl_widget home-page posts]'); ?>
   </div>
 </div><!-- /.row -->
