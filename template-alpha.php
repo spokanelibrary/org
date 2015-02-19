@@ -30,10 +30,11 @@ Template Name: Alpha Home Page
           <i class="glyphicon glyphicon-cloud-download"></i>
           Digital Branch
         </h4>
+      <small>Download eBooks, music, and more</small>
       </a>
     </div>
     <p>
-      <small>Download eBooks, music, and more</small>
+      
     </p>
     <!-- calendar -->
     <div class="spl-hero-panel spl-hero-success" style="margin-bottom: 4px;">
