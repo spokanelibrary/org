@@ -67,33 +67,3 @@ Template Name: Alpha Home Page
 </div><!-- /.row -->
 
 
-
-<div class="row">
-  <div class="col-md-12">
-    <div class="spl-hero-panel spl-hero-default">
-      <a class="spl-hero-link" href="/browse/">
-        <h4 class="text-center">
-          <i class="glyphicon glyphicon-"></i>
-          <span class="hidden-xs">On our reading list:</span> <b>Staff picks &amp; popular titles</b> <small class="glyphicon glyphicon-arrow-right"></small>
-        </h4>
-      </a>
-    </div>
-    <?php echo do_shortcode('[spl_widget home-page browse]'); ?>
-</div><!-- /.row -->
-
-<div class="row">
-  <div class="col-sm-4">
-    <?php //echo get_alpha_panel('&nbsp;', 300); ?>
-    <?php //echo get_alpha_panel('&nbsp;', 200); ?>
-  </div>
-  <div class="col-sm-4">
-    <?php //echo get_alpha_panel('&nbsp;', 400); ?>
-    <?php //echo get_alpha_panel(); ?>
-  </div>
-  <div class="col-sm-4">
-    <?php //echo get_alpha_panel('&nbsp;', 200); ?>
-    <?php //echo get_alpha_panel(); ?>
-  </div>
-</div><!-- /.row -->
-
-
