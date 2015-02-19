@@ -24,6 +24,12 @@ Template Name: Alpha Home Page
 <div class="row">
   <div class="col-md-8">
     <?php echo do_shortcode('[spl_widget home-page news]'); ?>
+  </div>
+</div><!-- /.row -->
+
+<div class="row">
+  <div class="col-md-8">
+    <?php echo do_shortcode('[spl_widget home-page news]'); ?>
     <div class="row">
       <div class="col-sm-6">
         <?php echo do_shortcode('[spl_widget home-page calendar]'); ?>
