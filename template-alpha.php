@@ -24,30 +24,28 @@ Template Name: Alpha Home Page
 <div class="row">
   <div class="col-md-3 col-md-push-9">
     <!-- digital -->
-    <div class="spl-hero-panel spl-hero-primary" style="margin-bottom: 4px;">
+    <div class="spl-hero-panel spl-hero-primary">
       <a href="/digital/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-cloud-download"></i>
           Digital Branch
         </h4>
-      <h6 class="text-center normal">Download eBooks, music, and more</h6>
+        <h6 class="text-center normal">Download eBooks, music, and more</h6>
       </a>
     </div>
     <p>
       
     </p>
     <!-- calendar -->
-    <div class="spl-hero-panel spl-hero-success" style="margin-bottom: 4px;">
+    <div class="spl-hero-panel spl-hero-success">
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-calendar"></i>
           Library Calendar
         </h4>
+        <h6 class="text-center normal">Classes, storytimes, and other events</h6>
       </a>
     </div>
-    <p>
-      <small>Classes, storytimes, and other events</small>
-    </p>
   </div><!-- /.col -->
   <div class="col-md-9 col-md-pull-3">
     <?php echo do_shortcode('[spl_widget home-page news]'); ?>
