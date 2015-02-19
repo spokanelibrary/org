@@ -33,17 +33,20 @@ Template Name: Alpha Home Page
       </a>
     </div>
     <p>
-      Download eBooks and more &rarr;
+      Download eBooks, music &amp; more
     </p>
     <!-- calendar -->
     <div class="spl-hero-panel spl-hero-success">
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-calendar text-success"></i>
-          <span class="hidden-xs">Coming up soon on the</span> <b>Library Calendar</b> <small class="glyphicon glyphicon-arrow-right"></small>
+          Library Calendar
         </h4>
       </a>
     </div>
+    <p>
+      Classes, storytimes &amp; events
+    </p>
   </div><!-- /.col -->
   <div class="col-md-9 col-md-pull-3">
     <?php echo do_shortcode('[spl_widget home-page news]'); ?>
