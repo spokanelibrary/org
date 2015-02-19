@@ -48,20 +48,20 @@ Template Name: Alpha Home Page
 </div><!-- /.row -->
 
 <div class="row">
+  <div class="col-md-5">
+    <?php echo do_shortcode('[spl_widget home-page promo=tech]'); ?>
+  </div><!-- /.col -->  
+  <div class="col-md-7">
+    <?php echo do_shortcode('[spl_widget home-page promo=yearbooks]'); ?>
+  </div><!-- /.col -->        
+</div><!-- /.row -->
+
+<div class="row">
   <div class="col-md-3 col-md-push-9">
     <?php echo do_shortcode('[spl_widget home-page calendar]'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-9 col-md-pull-3">
-    
-    <div class="row">
-      <div class="col-md-6">
-        <?php echo do_shortcode('[spl_widget home-page promo=yearbooks]'); ?>
-      </div><!-- /.col -->  
-      <div class="col-md-6">
-        <?php echo do_shortcode('[spl_widget home-page promo=tech]'); ?>
-      </div><!-- /.col -->        
-    </div><!-- /.row -->
+  <div class="col-md-9 col-md-pull-3">    
 
     <div class="row">
       <div class="col-sm-9 col-sm-push-3">
