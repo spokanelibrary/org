@@ -22,10 +22,10 @@ Template Name: Alpha Home Page
 ?>
 
 <div class="row">
-  <div class="col-md-9 col-md-push-9">
+  <div class="col-md-9 col-md-push-3">
     <?php echo do_shortcode('[spl_widget home-page news]'); ?>
   </div>
-  <div class="col-md-3 col-md-pull-3">
+  <div class="col-md-3 col-md-pull-9">
 
     <div class="spl-hero-panel spl-hero-primary">
       <a href="/digital/" class="spl-hero-link">
