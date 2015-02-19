@@ -24,7 +24,7 @@ Template Name: Alpha Home Page
 <div class="row">
   <div class="col-md-3 col-md-push-9">
     <!-- digital -->
-    <div class="spl-hero-panel spl-hero-primary">
+    <div class="spl-hero-panel spl-hero-primary" style="margin-bottom: 4px;">
       <a href="/digital/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-cloud-download"></i>
