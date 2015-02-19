@@ -62,32 +62,11 @@ Template Name: Alpha Home Page
         <?php echo do_shortcode('[spl_widget home-page shuffle slides slug=carousel]'); ?>
       </div><!-- /.col -->
     </div><!-- /.row -->
-    
+
   </div><!-- /.col -->
 </div><!-- /.row -->
 
 
-
-
-
-
-
-<div class="row">
-  <div class="col-md-9">
-    <?php echo do_shortcode('[spl_widget home-page promo=yearbooks]'); ?>
-    <div class="row">
-      <div class="col-sm-4">
-        <?php echo do_shortcode('[spl_widget home-page calendar]'); ?>
-      </div>
-      <div class="col-sm-8">
-        <?php echo do_shortcode('[spl_widget home-page shuffle slides slug=carousel]'); ?>
-      </div>
-    </div><!-- /.row -->
-  </div>
-  <div class="col-md-3">
-    <?php echo do_shortcode('[spl_widget home-page posts]'); ?>
-  </div>
-</div><!-- /.row -->
 
 <div class="row">
   <div class="col-md-12">
