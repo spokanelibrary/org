@@ -26,7 +26,7 @@ Template Name: Alpha Home Page
     <?php echo do_shortcode('[spl_widget home-page news]'); ?>
   </div>
   <div class="col-md-3">
-    <?php echo get_alpha_panel('&nbsp;', 200); ?>
+    <?php echo get_alpha_panel('&nbsp;', 140); ?>
   </div>
 </div><!-- /.row -->
 
