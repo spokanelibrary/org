@@ -23,13 +23,13 @@ Template Name: Alpha Home Page
 
 <div class="row">
   <div class="col-sm-4">
-    <?php echo do_shortcode('[spl_widget home-page slides slug=carousel calendar]'); ?>
+    <?php echo do_shortcode('[spl_widget home-page slides slug=carousel]'); ?>
 
     <?php echo get_alpha_panel('&nbsp;', 300); ?>
     <?php echo get_alpha_panel('&nbsp;', 200); ?>
   </div>
   <div class="col-sm-4">
-    <?php echo get_alpha_panel('&nbsp;', 100); ?>
+    <?php echo do_shortcode('[spl_widget home-page calendar]'); ?>
     <?php echo get_alpha_panel('&nbsp;', 400); ?>
     <?php echo get_alpha_panel(); ?>
   </div>
