@@ -30,7 +30,7 @@ Template Name: Alpha Home Page
           <i class="glyphicon glyphicon-cloud-download"></i>
           Digital Branch
         </h4>
-      <small>Download eBooks, music, and more</small>
+      <h6 class="normal">Download eBooks, music, and more</h6>
       </a>
     </div>
     <p>
