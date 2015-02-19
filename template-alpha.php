@@ -22,6 +22,16 @@ Template Name: Alpha Home Page
 ?>
 
 <div class="row">
+  <div class="col-md-8">
+    <?php echo get_alpha_panel('&nbsp;', 200); ?>
+  </div>
+  <div class="col-md-4">
+    <?php echo get_alpha_panel(); ?>
+  </div>
+</div><!-- /.row -->
+
+
+<div class="row">
   <div class="col-sm-4">
     <?php echo do_shortcode('[spl_widget home-page slides slug=carousel]'); ?>
 
