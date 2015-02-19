@@ -55,10 +55,10 @@ Template Name: Alpha Home Page
     <?php echo do_shortcode('[spl_widget home-page promo=yearbooks]'); ?>
 
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <?php echo do_shortcode('[spl_widget home-page browse]'); ?>
       </div><!-- /.col -->
-      <div class="col-sm-8">
+      <div class="col-sm-9">
         <?php echo do_shortcode('[spl_widget home-page shuffle posts pages slides slug=carousel]'); ?>
       </div><!-- /.col -->
     </div><!-- /.row -->
