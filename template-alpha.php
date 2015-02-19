@@ -27,9 +27,10 @@ Template Name: Alpha Home Page
     <div class="spl-hero-panel spl-hero-primary">
       <a href="/digital/" class="spl-hero-link">
         <h4 class="text-center normal">
-          <i class="glyphicon glyphicon-cloud-download text-primary"></i>
-          Visit the <b>Digital Branch</b> <span class="hidden-xs">to download eBooks and more</span> <small class="glyphicon glyphicon-arrow-right"></small>
+          <i class="glyphicon glyphicon-cloud-download"></i>
+          Digital Branch
         </h4>
+        Download eBooks and more &rarr;
       </a>
     </div>
     <!-- calendar -->
