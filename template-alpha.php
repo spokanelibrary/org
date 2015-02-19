@@ -37,7 +37,7 @@ Template Name: Alpha Home Page
       
     </p>
     <!-- calendar -->
-    <div class="spl-hero-panel spl-hero-warning">
+    <div class="spl-hero-panel spl-hero-success">
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-calendar"></i>
