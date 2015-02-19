@@ -26,7 +26,16 @@ Template Name: Alpha Home Page
     <?php echo do_shortcode('[spl_widget home-page news]'); ?>
   </div>
   <div class="col-md-3">
-    <?php echo get_alpha_panel('&nbsp;', 140); ?>
+
+    <div class="spl-hero-panel spl-hero-primary">
+      <a href="/digital/" class="spl-hero-link">
+        <h4 class="text-center normal">
+          <i class="glyphicon glyphicon-cloud-download"></i>
+          Visit the <b>Digital Branch</b> <span class="hidden-xs">to <b>download</b> eBooks, music, &amp; more</span> <small class="glyphicon glyphicon-arrow-right"></small>
+        </h4>
+      </a>
+    </div>
+
   </div>
 </div><!-- /.row -->
 
