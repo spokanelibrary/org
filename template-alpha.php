@@ -30,7 +30,7 @@ Template Name: Alpha Home Page
           <i class="glyphicon glyphicon-cloud-download"></i>
           Digital Branch
         </h4>
-        <h6 class="text-center normal">Download eBooks, music, and more</h6>
+        <h6 class="text-center normal uppercase">Download eBooks, music, and more</h6>
       </a>
     </div>
     <p>
@@ -43,7 +43,7 @@ Template Name: Alpha Home Page
           <i class="glyphicon glyphicon-calendar"></i>
           Library Calendar
         </h4>
-        <h6 class="text-center normal">Classes, events, and storytimes</h6>
+        <h6 class="text-center normal uppercase">Classes, events, and storytimes</h6>
       </a>
     </div>
   </div><!-- /.col -->
