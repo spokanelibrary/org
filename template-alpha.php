@@ -65,9 +65,11 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-md-9 col-md-pull-3">    
+    
     <div class="row">
     <?php echo do_shortcode('[spl_widget home-page shuffle slides limit=3]'); ?>
     </div><!-- /.row -->    
+    
     <div class="spl-tile spl-tile-boxed">
       <div class="spl-tile-body">
         <div class="row">
@@ -86,6 +88,8 @@ Template Name: Alpha Home Page
         </div><!-- /.row -->
       </div>
     </div>
+
+    <?php //echo do_shortcode('[spl_widget home-page shuffle posts pages]'); ?>
     
     <div class="row">
       <div class="col-sm-9 col-sm-push-3">
