@@ -73,8 +73,8 @@ Template Name: Alpha Home Page
       <div class="spl-tile-body">
         <h5 class="text-muted uppercase">Reading list</h5>
         <p class="pull-right">
-          <a href="/new/"><small>Newest titles</small></a> &rarr;
-          <a href="/browse/"><small>Popular titles</small></a> &rarr;&nbsp;
+          <a class="btn btn-sm btn-default" href="/new/">Newest titles</a> &rarr;
+          <a class="btn btn-sm btn-default" href="/browse/">Popular titles</a> &rarr;&nbsp;
         </p>
         <div class="row">
           <?php echo do_shortcode('[spl_widget home-page browse]'); ?>
