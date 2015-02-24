@@ -24,7 +24,7 @@ Template Name: Alpha Home Page
 <div class="row">
   <div class="col-md-3 col-md-push-9">
     <!-- digital -->
-    <div class="spl-hero-panel spl-hero-primary">
+    <div class="spl-hero-panel spl-hero-primary" style="margin-bottom:2px;">
       <a href="/digital/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-cloud-download"></i>
@@ -32,8 +32,8 @@ Template Name: Alpha Home Page
         </h4>        
       </a>
     </div>
-    <h6 class="text-center normal uppercase"><span class="hidden-md">Download </span>eBooks, music &amp; more</h6>
-    
+    <h6 class="text-center normal uppercase text-primary"><span class="hidden-md">Download </span>eBooks, music &amp; more</h6>
+
     <!-- calendar -->
     <div class="spl-hero-panel spl-hero-success">
       <a href="/calendar/" class="spl-hero-link">
