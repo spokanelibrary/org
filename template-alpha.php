@@ -24,26 +24,31 @@ Template Name: Alpha Home Page
 <div class="row">
   <div class="col-md-3 col-md-push-9">
     <!-- digital -->
-    <div class="spl-hero-panel spl-hero-primary" style="margin-bottom:2px;">
-      <a href="/digital/" class="spl-hero-link">
-        <h4 class="text-center normal">
-          <i class="glyphicon glyphicon-cloud-download"></i>
-          Digital Branch
-        </h4>        
-      </a>
+    <div class="spl-tile">
+      <div class="spl-hero-panel spl-hero-primary" style="margin-bottom:2px;">
+        <a href="/digital/" class="spl-hero-link">
+          <h4 class="text-center normal">
+            <i class="glyphicon glyphicon-cloud-download"></i>
+            Digital Branch
+          </h4>        
+        </a>
+      </div>
+      <h6 class="text-center normal uppercase text-primary"><span class="hidden-md">Download </span>eBooks, music &amp; more</h6>
     </div>
-    <h6 class="text-center normal uppercase text-primary"><span class="hidden-md">Download </span>eBooks, music &amp; more</h6>
 
     <!-- calendar -->
-    <div class="spl-hero-panel spl-hero-success"  style="margin-bottom:2px;">
-      <a href="/calendar/" class="spl-hero-link">
-        <h4 class="text-center normal">
-          <i class="glyphicon glyphicon-calendar"></i>
-          Library Calendar
-        </h4>        
-      </a>
+    <div class="spl-tile">
+      <div class="spl-hero-panel spl-hero-success"  style="margin-bottom:2px;">
+        <a href="/calendar/" class="spl-hero-link">
+          <h4 class="text-center normal">
+            <i class="glyphicon glyphicon-calendar"></i>
+            Library Calendar
+          </h4>        
+        </a>
+      </div>
+      <h6 class="text-center normal uppercase text-success">Classes, events &amp; storytimes</h6>
     </div>
-    <h6 class="text-center normal uppercase text-success">Classes, events &amp; storytimes</h6>
+
   </div><!-- /.col -->
   <div class="col-md-9 col-md-pull-3">
     <?php echo do_shortcode('[spl_widget home-page news]'); ?>
