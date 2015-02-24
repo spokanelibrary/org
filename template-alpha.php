@@ -34,10 +34,8 @@ Template Name: Alpha Home Page
     </div>
     <h6 class="text-center normal uppercase text-primary"><span class="hidden-md">Download </span>eBooks, music &amp; more</h6>
 
-    <p>&nbsp;</p>
-
     <!-- calendar -->
-    <div class="spl-hero-panel spl-hero-success"  style="margin-bottom:2px;">
+    <div class="spl-hero-panel spl-hero-warning"  style="margin-bottom:2px;">
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-calendar"></i>
@@ -45,7 +43,7 @@ Template Name: Alpha Home Page
         </h4>        
       </a>
     </div>
-    <h6 class="text-center normal uppercase text-success">Classes, events &amp; storytimes</h6>
+    <h6 class="text-center normal uppercase text-warning">Classes, events &amp; storytimes</h6>
   </div><!-- /.col -->
   <div class="col-md-9 col-md-pull-3">
     <?php echo do_shortcode('[spl_widget home-page news]'); ?>
