@@ -666,8 +666,15 @@ body {
 }
 
 .spl-hero-calendar {
+  /*
   a:hover {
     background: @brand-warning !important;
+  }
+  */
+  border-color: @state-warning-text;
+  background: @alert-warning-bg;
+  a:hover {
+    background: darken(@alert-warning-bg, 10%) !important;
   }
 }
 
