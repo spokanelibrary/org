@@ -29,13 +29,11 @@ Template Name: Alpha Home Page
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-cloud-download"></i>
           Digital Branch
-        </h4>
-        <h6 class="text-center normal uppercase"><span class="hidden-md">Download </span>eBooks, music &amp; more</h6>
+        </h4>        
       </a>
     </div>
-    <p>
-      
-    </p>
+    <h6 class="text-center normal uppercase"><span class="hidden-md">Download </span>eBooks, music &amp; more</h6>
+    
     <!-- calendar -->
     <div class="spl-hero-panel spl-hero-success">
       <a href="/calendar/" class="spl-hero-link">
