@@ -72,12 +72,12 @@ Template Name: Alpha Home Page
     <div class="spl-tile spl-tile-boxed">
       <div class="spl-tile-body">
         <h5 class="text-muted">
-          <small class="pull-right">
+          <span class="pull-right normal">
             <a href="/browse/">Popular titles</a> &rarr;&nbsp;
-          </small>
-          <small class="pull-right">
+          </span>
+          <span class="pull-right normal">
             <a href="/new/">Newest titles</a> &rarr;
-          </small>
+          </span>
           <span class="uppercase">Reading list</span>
         </h5>
         <div class="row">
