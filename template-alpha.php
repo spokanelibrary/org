@@ -25,7 +25,7 @@ Template Name: Alpha Home Page
   <div class="col-md-3 col-md-push-9">
     <!-- digital -->
     <div class="spl-tile">
-      <div class="spl-hero-panel spl-hero-primary" style="margin-bottom:2px;">
+      <div class="spl-hero-panel spl-hero-primary" style="margin-bottom:6px;">
         <a href="/digital/" class="spl-hero-link">
           <h4 class="text-center normal">
             <i class="glyphicon glyphicon-cloud-download"></i>
@@ -38,7 +38,7 @@ Template Name: Alpha Home Page
 
     <!-- calendar -->
     <div class="spl-tile">
-      <div class="spl-hero-panel spl-hero-success"  style="margin-bottom:2px;">
+      <div class="spl-hero-panel spl-hero-success"  style="margin-bottom:6px;">
         <a href="/calendar/" class="spl-hero-link">
           <h4 class="text-center normal">
             <i class="glyphicon glyphicon-calendar"></i>
