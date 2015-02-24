@@ -69,15 +69,13 @@ Template Name: Alpha Home Page
     
     <?php echo do_shortcode('[spl_widget home-page shuffle slides slug=carousel limit=2]'); ?>
     
-    <div style="border:1px solid #ccc;">
-    <div class="spl-tile spl-tile-default">
+    <div class="spl-tile spl-tile-default spl-tile-boxed">
       <h5 class="text-muted uppercase">Reading list</h5>
       <div class="row">
         <?php echo do_shortcode('[spl_widget home-page browse]'); ?>
       </div><!-- /.row -->
     </div>
-    </div>
-
+    
     <div class="row">
       <div class="col-sm-9 col-sm-push-3">
         <?php //echo do_shortcode('[spl_widget home-page shuffle posts pages]'); ?>
