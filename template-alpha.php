@@ -72,12 +72,12 @@ Template Name: Alpha Home Page
       <div class="spl-tile-body">
         <div class="row">
           <div class="col-sm-6">
-            <h5 class="text-muted uppercase">Reading list</h5>
+            <h5 class="text-success uppercase">Reading list</h5>
           </div><!-- /.col --> 
           <div class="col-sm-6">
             <p class="text-right">
-              <a class="btn btn-sm btn-success" href="/new/">Newest titles <small>&rarr;</small></a> 
-              <a class="btn btn-sm btn-success" href="/browse/">Popular titles <small>&rarr;</small></a>
+              <a class="btn btn-sm btn-link" href="/new/">Newest titles <small>&rarr;</small></a> 
+              <a class="btn btn-sm btn-link" href="/browse/">Popular titles <small>&rarr;</small></a>
             </p>
           </div><!-- /.col --> 
         </div><!-- /.row -->
