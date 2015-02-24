@@ -72,7 +72,7 @@ Template Name: Alpha Home Page
       <div class="spl-tile-body">
         <div class="row">
           <div class="col-sm-6">
-            <h5 class="text-success uppercase">Reading list</h5>
+            <h5 class="uppercase">Reading list</h5>
           </div><!-- /.col --> 
           <div class="col-sm-6">
             <p class="text-right">
