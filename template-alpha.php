@@ -69,12 +69,14 @@ Template Name: Alpha Home Page
     
     <?php echo do_shortcode('[spl_widget home-page shuffle slides slug=carousel limit=2]'); ?>
     
+    <?php echo do_shortcode('[spl_widget home-page browse]'); ?>
+
     <div class="row">
       <div class="col-sm-9 col-sm-push-3">
-        <?php echo do_shortcode('[spl_widget home-page shuffle posts pages]'); ?>
+        <?php //echo do_shortcode('[spl_widget home-page shuffle posts pages]'); ?>
       </div><!-- /.col -->
       <div class="col-sm-3 col-sm-pull-9">
-        <?php echo do_shortcode('[spl_widget home-page browse]'); ?>
+        <?php //echo do_shortcode('[spl_widget home-page browse]'); ?>
       </div><!-- /.col -->      
     </div><!-- /.row -->
 
