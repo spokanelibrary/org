@@ -59,7 +59,7 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->        
 </div><!-- /.row -->
 
-
+test
 <div class="row">
   <div class="col-md-3 col-md-push-9">
     <?php echo do_shortcode('[spl_widget home-page calendar]'); ?>
