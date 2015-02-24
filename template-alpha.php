@@ -71,7 +71,7 @@ Template Name: Alpha Home Page
     
     <div class="spl-tile spl-tile-boxed">
       <div class="spl-tile-body">
-        <h5 class="text-muted">
+        <h5 class="text-muted" style="margin-bottom:6px;">
           <span class="pull-right normal">
             <a href="/browse/">Popular titles</a> &rarr;&nbsp;
           </span>
