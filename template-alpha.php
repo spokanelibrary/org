@@ -35,7 +35,7 @@ Template Name: Alpha Home Page
     <h6 class="text-center normal uppercase text-primary"><span class="hidden-md">Download </span>eBooks, music &amp; more</h6>
 
     <!-- calendar -->
-    <div class="spl-hero-panel spl-hero-warning"  style="margin-bottom:2px;">
+    <div class="spl-hero-panel spl-hero-calendar"  style="margin-bottom:2px;">
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
           <i class="glyphicon glyphicon-calendar"></i>
