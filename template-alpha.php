@@ -69,8 +69,8 @@ Template Name: Alpha Home Page
     
     <?php echo do_shortcode('[spl_widget home-page shuffle slides slug=carousel limit=2]'); ?>
     
-    <div class="spl-tile">
-      Reading list
+    <div class="spl-tile spl-tile-default">
+      <h4 class="uppercase">Reading list</h4>
       <div class="row">
         <?php echo do_shortcode('[spl_widget home-page browse]'); ?>
       </div><!-- /.row -->
