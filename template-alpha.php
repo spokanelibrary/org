@@ -75,7 +75,7 @@ Template Name: Alpha Home Page
     <?php echo do_shortcode('[spl_widget home-page shuffle slides limit=3]'); ?>
     </div><!-- /.row -->    
 
-    <?php echo do_shortcode('[spl_widget home-page shuffle posts]'); ?>
+    <?php echo do_shortcode('[spl_widget home-page shuffle posts limit=1]'); ?>
     
     <div class="spl-tile spl-tile-boxed">
       <div class="spl-tile-body">
@@ -96,7 +96,7 @@ Template Name: Alpha Home Page
       </div>
     </div>
 
-    <?php echo do_shortcode('[spl_widget home-page shuffle pages]'); ?>
+    <?php echo do_shortcode('[spl_widget home-page shuffle pages limit=1]'); ?>
     
     <div class="row">
       <div class="col-sm-9 col-sm-push-3">
