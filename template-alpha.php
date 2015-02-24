@@ -89,7 +89,7 @@ Template Name: Alpha Home Page
       </div>
     </div>
 
-    <?php //echo do_shortcode('[spl_widget home-page shuffle posts pages]'); ?>
+    <?php echo do_shortcode('[spl_widget home-page shuffle posts pages]'); ?>
     
     <div class="row">
       <div class="col-sm-9 col-sm-push-3">
