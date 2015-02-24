@@ -76,8 +76,8 @@ Template Name: Alpha Home Page
           </div><!-- /.col --> 
           <div class="col-sm-6">
             <p class="text-right">
-              <a class="btn btn-sm btn-default" href="/new/">Newest titles <small>&rarr;</small></a> 
-              <a class="btn btn-sm btn-default" href="/browse/">Popular titles <small>&rarr;</small></a>
+              <a class="btn btn-sm btn-success" href="/new/">Newest titles <small>&rarr;</small></a> 
+              <a class="btn btn-sm btn-success" href="/browse/">Popular titles <small>&rarr;</small></a>
             </p>
           </div><!-- /.col --> 
         </div><!-- /.row -->
