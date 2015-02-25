@@ -66,25 +66,14 @@ function spl_get_home_url() {
 
         <div class="row">
           <div class="col-md-3">
-            <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 16px; margin-top:50px;">
+            <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 16px; margin-top:0px;">
               <?php bloginfo('description'); ?>
             </h4>
           </div>
           <div class="col-md-9">
-            <header id="spl-navbar-common" class="navbar-common navbar-static-top" style="border-left:1px solid rgb(0,85,135); border-right:1px solid rgb(0,85,135);">
-              <!--<div class="container">-->
-              <ul class="nav nav-justified">
-              <?php 
-              wp_nav_menu( 
-              array(
-                'menu' => 'Common Navigation'
-              , 'container' => false
-              , 'items_wrap' => '%3$s'
-              )); 
-              ?>
-              </ul>
-              <!--</div>-->
-            </header>
+            <div class="text-right" style="margin-top: 12px;">
+              <?php include('header-social-connect.php'); ?>
+            </div>
           </div>
         </div>
     
