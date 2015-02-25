@@ -40,9 +40,11 @@ function spl_get_home_url() {
         </a>
       </div>
       <?php //if ( is_user_logged_in() ) :?>
+      <!--
       <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 16px; margin-top:50px;">
         <?php bloginfo('description'); ?>
       </h4>
+      -->
       <?php //endif; ?>
     </div>
     <div class="col-md-7">
