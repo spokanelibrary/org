@@ -164,7 +164,7 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-sm-12">
 
-    <div class="spl-hero-panel spl-hero-warning">
+    <div class="spl-hero-panel spl-hero-success">
 
       <a href="/calendar/" class="spl-hero-link">
         <h4 class="text-center normal">
