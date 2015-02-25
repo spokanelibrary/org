@@ -174,11 +174,11 @@ if ( !empty($spl_home) ): ;
       </a>
       
       <div class="btn-group btn-group-justified" role="group" aria-label="...">
-        <a href="/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-green-tint-90">
+        <a href="/storytime/" style="height:40px; vertical-align:middle; border:none; border-radius:0;" class="btn btn-warning spl-green-tint-70">
           <i class="glyphicon glyphicon-picture"></i>
           <span class="hidden-xs">&nbsp;<b>Storytimes</b></span>
         </a>
-        <a href="/calendar/find/connected+learning/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-green-tint-70">
+        <a href="/calendar/find/connected+learning/" style="height:40px; vertical-align:middle; border:none;" class="btn btn-warning spl-green-tint-60">
           <i class="glyphicon glyphicon-facetime-video"></i>
           <span class="hidden-xs">&nbsp;<b>Connected Learning</b></span>
         </a>
@@ -186,7 +186,7 @@ if ( !empty($spl_home) ): ;
           <i class="glyphicon glyphicon-paperclip"></i></span>
           <span class="hidden-xs">&nbsp;<b>Board Meetings</b></span>
         </a>
-        <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-warning spl-green-tint-30">
+        <a href="/calendar/" style="height:40px; vertical-align:middle; border:none; border:none; border-radius:0;" class="btn btn-warning spl-green-tint-40">
           <i class="glyphicon glyphicon-plus-sign"></i>
           <span class="hidden-xs">&nbsp;<b>Much More</b></span>
         </a>
