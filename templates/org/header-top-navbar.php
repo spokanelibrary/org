@@ -32,6 +32,15 @@ function spl_get_home_url() {
 
 <header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
+
+
+  <?php if ( is_user_logged_in() ) :?>
+        
+  Columns
+
+  <?php endif; ?>
+
+
     <div class="row">
     <div class="col-md-5">
       <div class="navbar-header">
