@@ -65,13 +65,11 @@ function spl_get_home_url() {
         </div>
 
         <div class="row">
-          <div class="col-md-4">
-            <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 0px; margin-top:20px;">
+          <div class="col-md-12">
+            <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 16px; margin-top:20px;">
               <?php bloginfo('description'); ?>
             </h4>
-          </div>
-          <div class="col-md-8">
-            <div class="text-right" style="margin-top: 12px;">
+            <div class="pull-right" style="margin-top: 12px;">
               <?php include('header-social-connect.php'); ?>
             </div>
           </div>
