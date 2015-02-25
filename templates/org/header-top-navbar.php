@@ -36,16 +36,15 @@ function spl_get_home_url() {
 
   <?php if ( is_user_logged_in() ) :?>
   <div class="row">
-    <div class="col-md-12">
-      
-      <div class="pull-left" style="border:1px solid red;">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
-            <span class="text-hide"><?php bloginfo('name'); ?></span>
-          </a>
-        </div>
+    <div class="col-md-2">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
+          <span class="text-hide"><?php bloginfo('name'); ?></span>
+        </a>
       </div>
-      <div class="pull-right" style="border:1px solid red;">
+    </div>
+    <div class="col-md-10" style="border:1px solid red;">
+        
         <div class="row">
           <div class="col-md-12">
             <header id="spl-navbar-common" class="navbar-common navbar-static-top" style="border-left:1px solid rgb(0,85,135); border-right:1px solid rgb(0,85,135);">
@@ -64,7 +63,6 @@ function spl_get_home_url() {
             </header>
           </div>
         </div>
-      </div>
     
     </div>
   </div>
