@@ -38,9 +38,11 @@ function spl_get_home_url() {
   <div class="row">
     <div class="col-md-12">
       <div class="pull-left">
-        <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
-          <span class="text-hide"><?php bloginfo('name'); ?></span>
-        </a>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
+            <span class="text-hide"><?php bloginfo('name'); ?></span>
+          </a>
+        </div>
       </div>
       <div class="pull-right" style="border:1px solid red;">
         <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 16px; margin-top:50px;">
