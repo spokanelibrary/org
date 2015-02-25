@@ -36,7 +36,16 @@ function spl_get_home_url() {
 
   <?php if ( is_user_logged_in() ) :?>
         
-  Columns
+  <div class="pull-left">
+    <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
+      <span class="text-hide"><?php bloginfo('name'); ?></span>
+    </a>
+  </div>
+  <div class="pull-right" style="border:1px solid red;">
+    <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 16px; margin-top:50px;">
+      <?php bloginfo('description'); ?>
+    </h4>
+  </div>
 
   <?php endif; ?>
 
