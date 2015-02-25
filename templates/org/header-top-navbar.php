@@ -41,9 +41,9 @@ function spl_get_home_url() {
       </div>
       <?php if ( is_user_logged_in() ) :?>
       
-      <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 0px; margin-top:50px;">
+      <h5 class="text-success normal pull-left" style="opacity:.9; margin-left: 0px; margin-top:50px;">
         <?php bloginfo('description'); ?>
-      </h4>
+      </h5>
       
       <?php endif; ?>
     </div>
