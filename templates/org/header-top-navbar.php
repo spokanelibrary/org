@@ -47,7 +47,7 @@ function spl_get_home_url() {
       -->
       <?php //endif; ?>
     </div>
-    <div class="col-md-9">
+    <div class="col-md-9" style="border-left:1px solid #eee;">
 
     <div id="spl-account-profile"></div>
     
