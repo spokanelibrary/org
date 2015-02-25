@@ -37,7 +37,8 @@ function spl_get_home_url() {
   <?php if ( is_user_logged_in() ) :?>
   <div class="row">
     <div class="col-md-12">
-      <div class="pull-left">
+      
+      <div class="pull-left" style="border:1px solid red;">
         <div class="navbar-header">
           <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
             <span class="text-hide"><?php bloginfo('name'); ?></span>
@@ -49,9 +50,9 @@ function spl_get_home_url() {
           <?php bloginfo('description'); ?>
         </h4>
       </div>
+    
     </div>
   </div>
-
   <?php endif; ?>
 
 
