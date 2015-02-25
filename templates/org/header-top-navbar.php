@@ -66,7 +66,7 @@ function spl_get_home_url() {
 
         <div class="row">
           <div class="col-md-12">
-            <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 16px; margin-top:20px;">
+            <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 10px; margin-top:20px;">
               <?php bloginfo('description'); ?>
             </h4>
             <div class="pull-right" style="margin-top: 12px;">
