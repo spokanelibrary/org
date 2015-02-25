@@ -36,14 +36,14 @@ function spl_get_home_url() {
 
   <?php if ( is_user_logged_in() ) :?>
   <div class="row">
-    <div class="col-md-3 col-lg-2">
+    <div class="col-md-2 col-lg-2">
       <div class="navbar-header">
         <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
           <span class="text-hide"><?php bloginfo('name'); ?></span>
         </a>
       </div>
     </div>
-    <div class="col-md-9 col-lg-10" style="border:1px solid red;">
+    <div class="col-md-10 col-lg-10" style="border:1px solid red;">
         
         <div class="row">
           <div class="col-md-12">
