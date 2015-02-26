@@ -62,7 +62,7 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="spl-tile" style="background:#eee; color:#444;">
+<div class="spl-tile" style="background:#eee; color:#555;">
   <div class="spl-tile-body">
     <div class="row">
       <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
