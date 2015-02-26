@@ -34,7 +34,7 @@ function spl_get_home_url() {
   <div class="container">
 
 
-  <?php if ( is_user_logged_in() ) :?>
+  <?php //if ( is_user_logged_in() ) :?>
   <div class="row">
     <div class="col-md-2">
       <div class="navbar-header">
@@ -116,7 +116,7 @@ function spl_get_home_url() {
       </div>
       {{/if}}
     </script>
-  <?php endif; ?>
+  <?php //endif; ?>
 
 
   
