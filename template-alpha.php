@@ -23,7 +23,9 @@ Template Name: Alpha Home Page
 
 <div class="row">
   <div class="col-md-3 col-md-push-9">
+    <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
     <!-- digital -->
+    <!--
     <div class="spl-tile">
       <div class="spl-hero-panel spl-hero-primary" style="margin-bottom:6px;">
         <a href="/digital/" class="spl-hero-link">
@@ -35,8 +37,10 @@ Template Name: Alpha Home Page
       </div>
       <h6 class="text-center normal uppercase text-primary"><span class="hidden-md">Download </span>eBooks, music &amp; more</h6>
     </div>
+    -->
 
     <!-- calendar -->
+    <!--
     <div class="spl-tile">
       <div class="spl-hero-panel spl-hero-success"  style="margin-bottom:6px;">
         <a href="/calendar/" class="spl-hero-link">
@@ -48,6 +52,7 @@ Template Name: Alpha Home Page
       </div>
       <h6 class="text-center normal uppercase text-success">Classes, events &amp; storytimes</h6>
     </div>
+    -->
 
   </div><!-- /.col -->
   <div class="col-md-9 col-md-pull-3">
