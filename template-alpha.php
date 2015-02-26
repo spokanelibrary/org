@@ -22,7 +22,9 @@ Template Name: Alpha Home Page
 ?>
 
 <div class="row">
+  <!--
   <div class="col-md-3 col-md-push-9">
+  -->
     <?php //echo do_shortcode('[spl_widget home-page facebook]'); ?>
     <!-- digital -->
     <!--
@@ -54,8 +56,8 @@ Template Name: Alpha Home Page
     </div>
     -->
 
-  </div><!-- /.col -->
-  <div class="col-md-9 col-md-pull-3">
+  <!--</div>--><!-- /.col -->
+  <div class="col-md-12">
     <div class="spl-tile spl-tile-default">
       <?php echo do_shortcode('[spl_widget home-page news]'); ?>
     </div>
