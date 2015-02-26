@@ -92,26 +92,28 @@ Template Name: Alpha Home Page
 
     <?php echo do_shortcode('[spl_widget home-page shuffle posts limit=1]'); ?>
     
+    <!--
     <div class="spl-tile spl-tile-boxed">
       <div class="spl-tile-body">
         <div class="row">
           <div class="col-sm-6">
             <h5 class="uppercase">Reading list</h5>
-          </div><!-- /.col --> 
+          </div>
           <div class="col-sm-6">
             <p class="text-right">
               <a class="btn btn-link" href="/new/">Newest titles <small>&rarr;</small></a> 
               <a class="btn btn-link" href="/browse/">Popular titles <small>&rarr;</small></a>
             </p>
-          </div><!-- /.col --> 
-        </div><!-- /.row -->
+          </div> 
+        </div>
         <div class="row">
-          <?php echo do_shortcode('[spl_widget home-page browse]'); ?>
-        </div><!-- /.row -->
+          <?php //echo do_shortcode('[spl_widget home-page browse]'); ?>
+        </div>
       </div>
     </div>
+    -->
 
-    <?php echo do_shortcode('[spl_widget home-page shuffle pages limit=1]'); ?>
+    <?php //echo do_shortcode('[spl_widget home-page shuffle pages limit=1]'); ?>
     
     <div class="row">
       <div class="col-sm-9 col-sm-push-3">
