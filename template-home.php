@@ -72,7 +72,7 @@ Template Name: Home Page
   <div class="col-md-9 col-md-pull-3">    
     
     <div class="row">
-    <?php echo do_shortcode('[spl_widget home-page shuffle slides limit=3]'); ?>
+    <?php echo do_shortcode('[spl_widget home-page shuffle slides limit=3 slug=alpha]'); ?>
     </div><!-- /.row -->    
 
     <?php echo do_shortcode('[spl_widget home-page shuffle posts limit=1]'); ?>
