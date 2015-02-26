@@ -66,6 +66,7 @@ function spl_get_home_url() {
 
         <div class="row">
           <div class="col-md-12">
+            <div id="spl-account-profile"></div>
             <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 10px; margin-top:20px;">
               <?php bloginfo('description'); ?>
             </h4>
@@ -77,55 +78,7 @@ function spl_get_home_url() {
     
     </div>
   </div>
-  <?php endif; ?>
-
-
-    <div class="row">
-    <div class="col-md-5">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
-          <span class="text-hide"><?php bloginfo('name'); ?></span>
-        </a>
-      </div>
-      <?php //if ( is_user_logged_in() ) :?>
-      
-      <h4 class="text-success normal pull-left" style="opacity:.9; margin-left: 16px; margin-top:50px;">
-        <?php bloginfo('description'); ?>
-      </h4>
-      
-      <?php //endif; ?>
-    </div>
-    <div class="col-md-7">
-
-    <div id="spl-account-profile"></div>
-    
-    <?php //if ( is_user_logged_in() ) :?>
-      <div class="row">
-        <div class="col-md-12">
-          <header id="spl-navbar-common" class="navbar-common navbar-static-top" style="border-left:1px solid rgb(0,85,135); border-right:1px solid rgb(0,85,135);">
-            <!--<div class="container">-->
-            <ul class="nav nav-justified">
-            <?php 
-            wp_nav_menu( 
-            array(
-              'menu' => 'Common Navigation'
-            , 'container' => false
-            , 'items_wrap' => '%3$s'
-            )); 
-            ?>
-            </ul>
-            <!--</div>-->
-          </header>
-        </div>
-      </div>
-
-      <?php //echo do_shortcode('[spl_widget enterprise-search]'); ?>
-      <div class="text-right" style="margin-top: 12px;">
-      <?php include('header-social-connect.php'); ?>
-      </div>
-    <?php //endif; ?>
-
-    <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
+  <script id="spl-account-profile-tmpl" type="text/x-handlebars-template">
       {{#if user.sessionToken}}
       <div class="pull-right" id="spl-account-profile">
         <div class="well well-sm clearfix" style="margin: 6px 0 0 0;  opacity:.9; border-left-width:5px;">
@@ -163,8 +116,10 @@ function spl_get_home_url() {
       </div>
       {{/if}}
     </script>
-  </div><!-- /.col -->
-  </div><!-- /.row -->
+  <?php endif; ?>
+
+
+  
   </div>
 </header><!-- /.navbar -->
 
