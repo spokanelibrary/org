@@ -62,12 +62,10 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="spl-tile spl-tile-boxed">
-  <div class="spl-tile-body">
-<div class="row">
-  <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
-</div><!-- /.row -->
-</div>
+<div class="spl-tile">
+  <div class="row">
+    <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
+  </div><!-- /.row -->
 </div>
 
 <div class="row">
