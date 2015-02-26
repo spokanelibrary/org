@@ -23,7 +23,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
   <div class="col-md-3 col-md-push-9">
-    <?php echo do_shortcode('[spl_widget home-page facebook limit=1]'); ?>
+    <?php //echo do_shortcode('[spl_widget home-page facebook]'); ?>
     <!-- digital -->
     <!--
     <div class="spl-tile">
@@ -63,7 +63,7 @@ Template Name: Alpha Home Page
 </div><!-- /.row -->
 
 <div class="row">
-  <?php //echo do_shortcode('[spl_widget home-page facebook]'); ?>
+  <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
 </div><!-- /.row -->
 
 <div class="row">
