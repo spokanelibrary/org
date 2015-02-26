@@ -63,7 +63,7 @@ Template Name: Alpha Home Page
 </div><!-- /.row -->
 
 <div class="row">
-  <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
+  <?php //echo do_shortcode('[spl_widget home-page facebook]'); ?>
 </div><!-- /.row -->
 
 <div class="row">
