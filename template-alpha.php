@@ -69,10 +69,10 @@ Template Name: Alpha Home Page
     <div class="row">
       <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
     </div><!-- /.row -->
-    <h6 class="text-right"> 
+  </div>
+      <h6 class="text-right"> 
     <a href="https://www.facebook.com/spokanelibrary/">Find us on facebook</a>
     </h6>
-  </div>
 </div>
 
 <div class="row">
