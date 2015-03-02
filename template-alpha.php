@@ -142,6 +142,7 @@ Template Name: Alpha Home Page
       </p>
       <p>
         Reading this book has reminded me of one of my favorite fantasy series set in Japan and also involving a young ninja.
+        Author Lian Hearn begins his trilogy with <a href="#"><i>Across the Nightingale Floor</i></a> in which the orphan Takeo, trained as an assassin, must cross this magical floor in order to confront his destiny.
       </p>
     </div>
   </div><!-- /.col -->
