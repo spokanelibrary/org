@@ -120,7 +120,6 @@ Template Name: Alpha Home Page
     <div class="row">
       <div class="col-sm-9 col-sm-push-3">
         <?php //echo do_shortcode('[spl_widget home-page shuffle posts pages]'); ?>
-        <img style="width:100px; height:100px;"src="/assets/img/promos/spl-fiction-queen.jpg">
       </div><!-- /.col -->
       <div class="col-sm-3 col-sm-pull-9">
         <?php //echo do_shortcode('[spl_widget home-page browse]'); ?>
@@ -130,3 +129,12 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
+<div class="row">
+  <div class="col-sm-9 col-sm-push-3">
+    <?php //echo do_shortcode('[spl_widget home-page shuffle posts pages]'); ?>
+    <img style="width:100px; height:100px;"src="/assets/img/promos/spl-fiction-queen.jpg">
+  </div><!-- /.col -->
+  <div class="col-sm-3 col-sm-pull-9">
+    <?php //echo do_shortcode('[spl_widget home-page browse]'); ?>
+  </div><!-- /.col -->      
+</div><!-- /.row -->
