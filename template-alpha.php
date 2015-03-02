@@ -141,8 +141,8 @@ Template Name: Alpha Home Page
         If you’re not familiar with this series you’ll want to start with <a href="#"><i>The Beekeeper’s Apprentice</i></a>, in which the young Miss Russell meets the retired Mr. Holmes. 
       </p>
       <p>
-        Reading this book has reminded me of one of my favorite fantasy series set in Japan and also involving a young ninja.
-        Author Lian Hearn begins his trilogy with <a href="#"><i>Across the Nightingale Floor</i></a> in which the orphan Takeo, trained as an assassin, must cross this magical floor in order to confront his destiny.
+        Reading this book has reminded me of one of my favorite fantasy series set in Japan and also involving a young ninja:
+        Author Lian Hearn begins his trilogy with <a href="#"><i>Across the Nightingale Floor</i></a>.
       </p>
     </div>
   </div><!-- /.col -->
