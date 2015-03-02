@@ -132,7 +132,7 @@ Template Name: Alpha Home Page
 <div class="row">
   <div class="col-sm-9 col-sm-push-3">
     <h4 class="text-warning">The Fiction Queen</h4>
-    <h6 class="uppercase">Reviews and reccomendations from Spokane Library's Susan Creed</h6>
+    <h6 class="text-muted uppercase">Reviews and reccomendations from Spokane Library's Susan Creed</h6>
     <img style="width:100px; height:100px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
     <p>
       I’m thoroughly enjoying the latest Mary Russell and Sherlock Holmes suspense novel, Dreaming Spies. 
