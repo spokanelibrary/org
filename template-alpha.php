@@ -132,7 +132,10 @@ Template Name: Alpha Home Page
 <div class="row">
   <div class="col-sm-9 col-sm-push-3">
     <h4>The Fiction Queen</h4>
-    <img style="width:100px; height:100px;"src="/assets/img/promos/spl-fiction-queen.jpg">
+    <img style="width:100px; height:100px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
+    <p>
+      I’m thoroughly enjoying the latest Mary Russell and Sherlock Holmes suspense novel, Dreaming Spies. 
+    </p>
   </div><!-- /.col -->
   <div class="col-sm-3 col-sm-pull-9">
   </div><!-- /.col -->      
