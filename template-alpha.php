@@ -134,11 +134,13 @@ Template Name: Alpha Home Page
     <h4 class="text-warning">The Fiction Queen</h4>
     <h6 class="text-muted uppercase">Reviews and reccomendations from Spokane Public Library's Susan Creed</h6>
     <img style="width:100px; height:100px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
-    <h4>Emperors &amp; ninjas in 1920's Japan</h4>
-    <p>
-      I’m thoroughly enjoying the latest Mary Russell and Sherlock Holmes suspense novel, <a href="#"><b class="serif">Dreaming Spies</b></a> by Laurie King. 
-      If you’re not familiar with this series you’ll want to start with The Beekeeper’s Apprentice, in which the young Miss Russell meets the retired Mr. Holmes. 
-    </p>
+    <div class="serif">
+      <h4>Emperors &amp; ninjas in 1920's Japan</h4>
+      <p>
+        I’m thoroughly enjoying the latest Mary Russell and Sherlock Holmes suspense novel, <a href="#"><i>Dreaming Spies</i></a> by Laurie King. 
+        If you’re not familiar with this series you’ll want to start with The Beekeeper’s Apprentice, in which the young Miss Russell meets the retired Mr. Holmes. 
+      </p>
+    </div>
   </div><!-- /.col -->
   <div class="col-sm-3 col-sm-pull-9">
   </div><!-- /.col -->      
