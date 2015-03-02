@@ -134,11 +134,10 @@ Template Name: Alpha Home Page
     <h4 class="text-warning">The Fiction Queen</h4>
     <h6 class="text-muted uppercase">Reviews and reccomendations from Spokane Public Library's Susan Creed</h6>
     <img style="width:100px; height:100px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
+    <h4>Emperors &amp; ninjas in 1920's Japan</h4>
     <p>
-      I’m thoroughly enjoying the latest Mary Russell and Sherlock Holmes suspense novel, Dreaming Spies by Laurie King. 
+      I’m thoroughly enjoying the latest Mary Russell and Sherlock Holmes suspense novel, <a href="#"><b class="serif">Dreaming Spies</b></a> by Laurie King. 
       If you’re not familiar with this series you’ll want to start with The Beekeeper’s Apprentice, in which the young Miss Russell meets the retired Mr. Holmes. 
-      After their romance and marriage, the couple have adventures solving mysteries all over the world.  
-      The latest book takes place primarily in Japan in the 1920’s and involves a family with a long tradition of serving the emperor through their talents as Ninjas.
     </p>
   </div><!-- /.col -->
   <div class="col-sm-3 col-sm-pull-9">
