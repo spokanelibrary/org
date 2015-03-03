@@ -101,14 +101,14 @@ Template Name: Alpha Home Page
 
     <div class="row">
       <div class="col-md-12">
-        <?php echo do_shortcode('[spl_widget home-page carousel auto pause posts limit=3]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page auto pause posts limit=3]'); ?>
       </div><!-- /.col -->      
     </div><!-- /.row -->
 
   </div><!-- /.col -->
   <div class="col-sm-3">
     <div class="spl-tile spl-tile-boxed">
-      <?php echo do_shortcode('[spl_widget home-page pause auto shuffle slides limit=3]'); ?>  
+      <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3]'); ?>  
     </div>
     <div class="spl-hero-panel spl-hero-default">
       <div class="spl-tile-body">
