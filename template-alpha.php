@@ -59,7 +59,9 @@ Template Name: Alpha Home Page
   <!--</div>--><!-- /.col -->
   <div class="col-md-9">
     <div class="spl-tile">
+      <div class="spl-tile-boxed spl-tile-body">
       <?php echo do_shortcode('[spl_widget home-page news]'); ?>
+      </div>
     </div>
   </div><!-- /.col -->
 
