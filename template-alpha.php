@@ -64,7 +64,7 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-md-3">
-    
+    <?php echo do_shortcode('[spl_carousel_beta pause auto calendar'); ?>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
@@ -90,20 +90,14 @@ Template Name: Alpha Home Page
     </div>
   </div><!-- /.col -->
   <div class="col-sm-4 col-sm-pull-8">
-    <div class="spl-tile">
+    <div class="spl-tile" style="background:#f5f5f5; color:#555;">
+      <div class="spl-tile-body">
         <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
+      </div>
     </div>
   </div><!-- /.col -->      
 </div><!-- /.row -->
-
-<div class="spl-tile" style="background:#f5f5f5; color:#555;">
-  <div class="spl-tile-body">
-    <div class="row">
-      <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
-    </div><!-- /.row -->
-  </div>
-</div>
-
+  
 <div class="row">
   <div class="col-sm-7">
     <?php echo do_shortcode('[spl_widget home-page promo=tech]'); ?>
