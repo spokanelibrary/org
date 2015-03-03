@@ -110,11 +110,7 @@ Template Name: Alpha Home Page
     <div class="spl-tile spl-tile-boxed">
       <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3]'); ?>  
     </div>
-    <div class="spl-hero-panel spl-hero-default">
-      <div class="spl-tile-body">
-        <?php echo do_shortcode('[spl_widget home-page facebook limit=2]'); ?>
-      </div>
-    </div>
+      <?php echo do_shortcode('[spl_widget home-page facebook limit=2]'); ?>
   </div><!-- /.col -->      
 </div><!-- /.row -->
   
