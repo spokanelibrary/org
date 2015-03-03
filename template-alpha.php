@@ -69,10 +69,10 @@ Template Name: Alpha Home Page
 </div><!-- /.row -->
 
 <div class="row">
-  <div class="col-sm-7">
+  <div class="col-sm-6 col-md-7">
     <?php echo do_shortcode('[spl_widget home-page promo=tech]'); ?>
   </div><!-- /.col -->  
-  <div class="col-sm-5">
+  <div class="col-sm-6 col-md-5">
     <?php echo do_shortcode('[spl_widget home-page promo=yearbooks]'); ?>
   </div><!-- /.col -->        
 </div><!-- /.row -->
