@@ -69,6 +69,15 @@ Template Name: Alpha Home Page
 </div><!-- /.row -->
 
 <div class="row">
+  <div class="col-sm-7">
+    <?php echo do_shortcode('[spl_widget home-page promo=tech]'); ?>
+  </div><!-- /.col -->  
+  <div class="col-sm-5">
+    <?php echo do_shortcode('[spl_widget home-page promo=yearbooks]'); ?>
+  </div><!-- /.col -->        
+</div><!-- /.row -->
+
+<div class="row">
   <div class="col-sm-9 col-sm-push-3">
     <div class="spl-tile">
       <h4 class="text-warning">The Fiction Queen</h4>
@@ -96,14 +105,6 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->      
 </div><!-- /.row -->
   
-<div class="row">
-  <div class="col-sm-7">
-    <?php echo do_shortcode('[spl_widget home-page promo=tech]'); ?>
-  </div><!-- /.col -->  
-  <div class="col-sm-5">
-    <?php echo do_shortcode('[spl_widget home-page promo=yearbooks]'); ?>
-  </div><!-- /.col -->        
-</div><!-- /.row -->
 
 <div class="row">
   <div class="col-sm-12">
