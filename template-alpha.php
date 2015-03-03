@@ -75,8 +75,8 @@ Template Name: Alpha Home Page
       <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library's <b>Susan Creed</b></h6>
       <div class="spl-tile-boxed spl-tile-body">
       <div class="serif">
-        <h4>Emperors &amp; ninjas in 1920's Japan</h4>
         <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
+        <h4>Emperors &amp; ninjas in 1920's Japan</h4>
         <p>
           I’m thoroughly enjoying the latest Mary Russell and Sherlock Holmes suspense novel, <a href="#"><i>Dreaming Spies</i></a> by Laurie King. 
           If you’re not familiar with this series you’ll want to start with <a href="#"><i>The Beekeeper’s Apprentice</i></a>, in which the young Miss Russell meets the retired Mr. Holmes. 
