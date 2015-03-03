@@ -90,10 +90,8 @@ Template Name: Alpha Home Page
     </div>
   </div><!-- /.col -->
   <div class="col-sm-4 col-sm-pull-8">
-    <div class="spl-tile" style="background:#f5f5f5; color:#555;">
-      <div class="spl-tile-body">
+    <div class="spl-tile">
         <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
-      </div>
     </div>
   </div><!-- /.col -->      
 </div><!-- /.row -->
