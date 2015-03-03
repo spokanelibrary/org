@@ -21,7 +21,7 @@ Template Name: Alpha Home Page
   }
 ?>
 
-<div class="row" style="background:red;">
+<div class="row">
   <!--
   <div class="col-md-3 col-md-push-9">
   -->
