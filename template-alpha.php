@@ -112,7 +112,7 @@ Template Name: Alpha Home Page
     </div>
     <div class="spl-hero-panel spl-hero-default">
       <div class="spl-tile-body">
-        <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page facebook limit=2]'); ?>
       </div>
     </div>
   </div><!-- /.col -->      
