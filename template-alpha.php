@@ -71,7 +71,7 @@ Template Name: Alpha Home Page
 <div class="row">
   <div class="col-sm-8 col-sm-push-4">
     <div class="spl-tile">
-      <h4 class="text-warning">The Fiction Queen</h4>
+      <h4 class="text-warning">The Fiction Queen &amp; her subjects</h4>
       <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library's <b>Susan Creed</b></h6>
       <div class="spl-tile-boxed spl-tile-body">
       <div class="serif">
