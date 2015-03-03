@@ -97,7 +97,7 @@ Template Name: Alpha Home Page
         </div>
       </div>
     </div>
-    <?php echo do_shortcode('[spl_widget home-page shuffle posts limit=1]'); ?>
+    <?php echo do_shortcode('[spl_widget home-page posts limit=1]'); ?>
   </div><!-- /.col -->
   <div class="col-sm-3">
     <div class="spl-tile spl-tile-boxed">
