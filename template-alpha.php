@@ -64,7 +64,6 @@ Template Name: Alpha Home Page
       </div>
     </div>
   </div><!-- /.col -->
-
   <div class="col-md-3">
     <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar]'); ?>
   </div><!-- /.col -->
