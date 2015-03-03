@@ -69,9 +69,9 @@ Template Name: Alpha Home Page
 </div><!-- /.row -->
 
 <div class="row">
-  <div class="col-sm-8 col-sm-push-4">
+  <div class="col-sm-9 col-sm-push-3">
     <div class="spl-tile">
-      <h4 class="text-warning">The Fiction Queen &amp; her subjects</h4>
+      <h4 class="text-warning">The Fiction Queen</h4>
       <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library's <b>Susan Creed</b></h6>
       <div class="spl-tile-boxed spl-tile-body">
       <div class="serif">
@@ -89,10 +89,8 @@ Template Name: Alpha Home Page
       </div>
     </div>
   </div><!-- /.col -->
-  <div class="col-sm-4 col-sm-pull-8">
-    <div class="row">
-    <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3]'); ?>
-    </div><!-- /.row -->   
+  <div class="col-sm-3 col-sm-pull-9">
+    <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3]'); ?>  
   </div><!-- /.col -->      
 </div><!-- /.row -->
   
