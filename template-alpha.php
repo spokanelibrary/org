@@ -58,15 +58,15 @@ Template Name: Alpha Home Page
 
   <!--</div>--><!-- /.col -->
   <div class="col-md-9">
-    <div class="spl-tile">
-      <?php echo do_shortcode('[spl_widget home-page news]'); ?>
+    <div class="spl-tile spl-tile-boxed">
+      <div class="spl-tile-body">
+        <?php echo do_shortcode('[spl_widget home-page news]'); ?>
+      </div>
     </div>
   </div><!-- /.col -->
 
   <div class="col-md-3">
-    <div class="spl-tile spl-tile-boxed spl-tile-body">
     <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar]'); ?>
-    </div>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
