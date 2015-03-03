@@ -80,9 +80,10 @@ Template Name: Alpha Home Page
 <div class="row">
   <div class="col-sm-9">
     <div class="spl-tile">
-      <h4 class="text-warning">The Fiction Queen <small>and her subjects</small></h4>
-      <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library's <b>Susan Creed</b></h6>
       <div class="spl-tile-boxed spl-tile-body">
+        <h4 class="text-warning">The Fiction Queen <small>and her subjects</small></h4>
+        <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library's <b>Susan Creed</b></h6>
+      
         <div class="serif">
           <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
           <h4>Emperors &amp; ninjas in 1920's Japan</h4>
