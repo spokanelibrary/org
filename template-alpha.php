@@ -96,13 +96,7 @@ Template Name: Alpha Home Page
     </div>
   </div><!-- /.col -->
   <div class="col-sm-5 col-sm-pull-7">
-    <div class="spl-tile">
-      <div class="spl-tile-body">
-        <div class="row">
-          <?php //echo do_shortcode('[spl_widget home-page facebook]'); ?>
-        </div><!-- /.row -->
-      </div>
-    </div>
+    <?php echo do_shortcode('[spl_widget home-page calendar]'); ?>
   </div><!-- /.col -->      
 </div><!-- /.row -->
 
