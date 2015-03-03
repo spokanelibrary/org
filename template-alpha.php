@@ -101,7 +101,7 @@ Template Name: Alpha Home Page
 
     <div class="row">
       <div class="col-md-12">
-        <?php echo do_shortcode('[spl_widget home-page posts limit=3]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page carousel posts limit=3]'); ?>
       </div><!-- /.col -->      
     </div><!-- /.row -->
 
