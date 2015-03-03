@@ -300,7 +300,7 @@ var ORG = {
     init: function() {
       //console.log(config);
       // Normalize Carousel Heights
-      //$('#spl-hero .item').carouselHeights();
+      $('#spl-hero .item').carouselHeights();
     }
   }
 , it_academy: {
