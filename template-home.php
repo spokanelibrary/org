@@ -58,7 +58,7 @@ Template Name: Home Page
 
 <div class="row">
   <div class="col-md-3 col-md-push-9">
-    <?php echo do_shortcode('[spl_widget home-page calendar]'); ?>
+    <?php //echo do_shortcode('[spl_widget home-page calendar]'); ?>
   </div><!-- /.col -->
 
   <div class="col-md-9 col-md-pull-3">    
