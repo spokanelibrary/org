@@ -100,7 +100,7 @@ Template Name: Alpha Home Page
     </div>
 
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-10">
         <?php echo do_shortcode('[spl_widget home-page posts limit=3]'); ?>
       </div><!-- /.col -->      
     </div><!-- /.row -->
