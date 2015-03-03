@@ -133,7 +133,7 @@ Template Name: Alpha Home Page
   <div class="col-sm-9 col-sm-push-3">
     <h4 class="text-warning">The Fiction Queen</h4>
     <h6 class="text-muted uppercase">Reviews and reccomendations from Spokane Public Library's Susan Creed</h6>
-    <img style="width:100px; height:100px;" class="pull-left media-object" src="/assets/img/promos/spl-fiction-queen.jpg">
+    <img style="width:100px; height:100px;" class="pull-left media-left" src="/assets/img/promos/spl-fiction-queen.jpg">
     <div class="serif">
       <h4>Emperors &amp; ninjas in 1920's Japan</h4>
       <p>
