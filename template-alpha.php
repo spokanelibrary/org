@@ -64,34 +64,43 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-
 <div class="row">
   <div class="col-sm-7 col-sm-push-5">
-    <h4 class="text-warning">The Fiction Queen</h4>
-    <h6 class="text-muted uppercase">Reviews and recomendations from Spokane Public Library's Susan Creed</h6>
-    <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
-    <div class="serif">
-      <h4>Emperors &amp; ninjas in 1920's Japan</h4>
-      <p>
-        I’m thoroughly enjoying the latest Mary Russell and Sherlock Holmes suspense novel, <a href="#"><i>Dreaming Spies</i></a> by Laurie King. 
-        If you’re not familiar with this series you’ll want to start with <a href="#"><i>The Beekeeper’s Apprentice</i></a>, in which the young Miss Russell meets the retired Mr. Holmes. 
-      </p>
-      <p>
-        Reading this book has reminded me of one of my favorite fantasy series set in Japan and also involving a young ninja:
-        Author Lian Hearn begins his trilogy with <a href="#"><i>Across the Nightingale Floor</i></a>.
-      </p>
+    <div class="spl-tile">
+      <h4 class="text-warning">The Fiction Queen</h4>
+      <h6 class="text-muted uppercase">Reviews and recomendations from Spokane Public Library's Susan Creed</h6>
+      <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
+      <div class="serif">
+        <h4>Emperors &amp; ninjas in 1920's Japan</h4>
+        <p>
+          I’m thoroughly enjoying the latest Mary Russell and Sherlock Holmes suspense novel, <a href="#"><i>Dreaming Spies</i></a> by Laurie King. 
+          If you’re not familiar with this series you’ll want to start with <a href="#"><i>The Beekeeper’s Apprentice</i></a>, in which the young Miss Russell meets the retired Mr. Holmes. 
+        </p>
+        <p>
+          Reading this book has reminded me of one of my favorite fantasy series set in Japan and also involving a young ninja:
+          Author Lian Hearn begins his trilogy with <a href="#"><i>Across the Nightingale Floor</i></a>.
+        </p>
+      </div>
     </div>
   </div><!-- /.col -->
   <div class="col-sm-5 col-sm-pull-7">
     <div class="spl-tile" style="background:#f5f5f5; color:#555;">
       <div class="spl-tile-body">
         <div class="row">
-          <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
+          <?php //echo do_shortcode('[spl_widget home-page facebook]'); ?>
         </div><!-- /.row -->
       </div>
     </div>
   </div><!-- /.col -->      
 </div><!-- /.row -->
+
+<div class="spl-tile" style="background:#f5f5f5; color:#555;">
+  <div class="spl-tile-body">
+    <div class="row">
+      <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
+    </div><!-- /.row -->
+  </div>
+</div>
 
 <div class="row">
   <div class="col-sm-7">
