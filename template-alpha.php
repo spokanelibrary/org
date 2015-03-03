@@ -98,7 +98,7 @@ Template Name: Alpha Home Page
         </div>
       </div>
     </div>
-    <div class="spl-hero-panel spl-hero-primary">
+    <div class="spl-tile spl-tile-boxed">
     <?php echo do_shortcode('[spl_widget home-page posts limit=3]'); ?>
     </div>
   </div><!-- /.col -->
