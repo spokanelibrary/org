@@ -65,10 +65,8 @@ Template Name: Alpha Home Page
     </div>
   </div><!-- /.col -->
 
-  <div class="col-md-3">
-    <div class="spl-tile spl-tile-success">
+  <div class="col-md-3" style="background:red;">
     <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar]'); ?>
-    </div>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
