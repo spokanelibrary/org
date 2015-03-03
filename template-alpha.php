@@ -94,10 +94,16 @@ Template Name: Alpha Home Page
     </div>
   </div><!-- /.col -->
   <div class="col-sm-4 col-sm-pull-8">
-    <?php echo do_shortcode('[spl_carousel_beta pause auto calendar]'); ?>
+
   </div><!-- /.col -->      
 </div><!-- /.row -->
-  
+
+<div class="row">
+  <div class="col-sm-12">
+    <?php echo do_shortcode('[spl_carousel_beta pause auto calendar]'); ?>
+  </div><!-- /.col -->    
+</div><!-- /.row -->
+
 <div class="row">
   <div class="col-sm-7">
     <?php echo do_shortcode('[spl_widget home-page promo=tech]'); ?>
