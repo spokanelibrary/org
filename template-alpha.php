@@ -100,13 +100,13 @@ Template Name: Alpha Home Page
     <?php echo do_shortcode('[spl_widget home-page shuffle posts limit=1]'); ?>
   </div><!-- /.col -->
   <div class="col-sm-3">
+    <div class="spl-tile spl-tile-boxed">
+      <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3]'); ?>  
+    </div>
     <div class="spl-tile" style="background:#f5f5f5; color:#555;">
       <div class="spl-tile-body">
         <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
       </div>
-    </div>
-    <div class="spl-tile spl-tile-boxed">
-      <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3]'); ?>  
     </div>
   </div><!-- /.col -->      
 </div><!-- /.row -->
