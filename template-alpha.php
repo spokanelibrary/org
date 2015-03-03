@@ -81,7 +81,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
   <div class="col-sm-6 col-sm-push-6 col-md-3 col-md-push-9">
-    <div class="spl-tile spl-tile-boxed spl-green-tint-60" style="color:#fff;">
+    <div class="spl-hero-panel spl-hero-primary" style="color:#fff;">
       <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3]'); ?>  
     </div>
       <?php echo do_shortcode('[spl_widget home-page facebook limit=2]'); ?>
