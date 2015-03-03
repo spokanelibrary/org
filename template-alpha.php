@@ -58,7 +58,7 @@ Template Name: Alpha Home Page
 
   <!--</div>--><!-- /.col -->
   <div class="col-md-9">
-    <div class="spl-tile spl-tile-boxed">
+    <div class="spl-tile spl-tile-primary">
       <div class="spl-tile-body">
         <?php echo do_shortcode('[spl_widget home-page news]'); ?>
       </div>
@@ -81,8 +81,8 @@ Template Name: Alpha Home Page
 
 <div class="row">
   <div class="col-sm-9">
-    <div class="">
-      <div class="">
+    <div class="spl-tile spl-tile-boxed">
+      <div class="spl-tile-body">
         <h4 class="text-warning">The Fiction Queen <small>and her subjects</small></h4>
         <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library's <b>Susan Creed</b></h6>
       
