@@ -47,14 +47,6 @@ Template Name: Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="spl-tile" style="background:#f5f5f5; color:#555;">
-  <div class="spl-tile-body">
-    <div class="row">
-      <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
-    </div><!-- /.row -->
-  </div>
-</div>
-
 <div class="row">
   <div class="col-sm-7">
     <?php echo do_shortcode('[spl_widget home-page promo=tech]'); ?>
