@@ -100,6 +100,11 @@ Template Name: Alpha Home Page
     </div>
 
     <div class="row">
+      <div class="col-md-2">
+        <div class="spl-hero-panel spl-hero-success">
+          <h4>Some stuff</h4>
+        </div>
+      </div><!-- /.col -->
       <div class="col-md-10">
         <?php echo do_shortcode('[spl_widget home-page posts limit=3]'); ?>
       </div><!-- /.col -->      
