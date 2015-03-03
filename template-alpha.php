@@ -90,11 +90,9 @@ Template Name: Alpha Home Page
     </div>
   </div><!-- /.col -->
   <div class="col-sm-4 col-sm-pull-8">
-    <div class="spl-tile" style="background:#f5f5f5; color:#555;">
-      <div class="spl-tile-body">
-        <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
-      </div>
-    </div>
+    <div class="row">
+    <?php echo do_shortcode('[spl_widget home-page carousel shuffle slides limit=3]'); ?>
+    </div><!-- /.row -->   
   </div><!-- /.col -->      
 </div><!-- /.row -->
   
@@ -104,6 +102,16 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->  
   <div class="col-sm-5">
     <?php echo do_shortcode('[spl_widget home-page promo=yearbooks]'); ?>
+  </div><!-- /.col -->        
+</div><!-- /.row -->
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class="spl-tile" style="background:#f5f5f5; color:#555;">
+      <div class="spl-tile-body">
+        <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
+      </div>
+    </div>
   </div><!-- /.col -->        
 </div><!-- /.row -->
 
