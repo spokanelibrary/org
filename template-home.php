@@ -15,7 +15,7 @@ Template Name: Home Page
 
   <div class="col-md-3">
     <div id="spl-hero">
-      <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar]'); ?>
+      <?php echo do_shortcode('[spl_widget home-page carousel shuffle pause auto calendar]'); ?>
     </div>
   </div><!-- /.col -->
 </div><!-- /.row -->
