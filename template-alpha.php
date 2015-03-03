@@ -94,7 +94,8 @@ Template Name: Alpha Home Page
     </div>
   </div><!-- /.col -->
   <div class="col-sm-4 col-sm-pull-8">
-    <?php echo do_shortcode('[spl_carousel_beta pause auto calendar]'); ?>
+    <?php //echo do_shortcode('[spl_carousel_beta pause auto calendar]'); ?>
+    test
   </div><!-- /.col -->      
 </div><!-- /.row -->
   
