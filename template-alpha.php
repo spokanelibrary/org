@@ -91,7 +91,7 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
   <div class="col-sm-4 col-sm-pull-8">
     <div class="row">
-    <?php echo do_shortcode('[spl_widget home-page carousel shuffle slides limit=3]'); ?>
+    <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3]'); ?>
     </div><!-- /.row -->   
   </div><!-- /.col -->      
 </div><!-- /.row -->
