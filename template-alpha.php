@@ -55,9 +55,9 @@ Template Name: Alpha Home Page
   <div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3">
     <div class="spl-tile spl-tile-boxed">
       <div class="spl-tile-body">
+        <a class="pull-right" href="/fiction-queen/"><small>More &rarr;</small></a>
         <h4 class="text-warning">The Fiction Queen <small>and her subjects</small></h4>
         <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library's <b>Susan Creed</b></h6>
-        <a class="pull-right" href="/fiction-queen/">More from the Fiction Queen</a>
         <div class="serif spl-fiction-queen">
           <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
           <h4>Emperors &amp; ninjas in 1920's Japan</h4>
