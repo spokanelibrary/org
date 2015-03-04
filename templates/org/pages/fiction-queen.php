@@ -2,7 +2,7 @@
 	global $post;  
   $html = null;
 
-  $count = 6;
+  $count = 3;
   $slug = 'readers-corner';
 
   //query subpages  
@@ -18,12 +18,26 @@
 
   $html .= '<div class="spl-recent-post">'.PHP_EOL;
   if ($posts->have_posts()) : 
-    //$html .= '<div class="row">'.PHP_EOL;
-    //$i = 1;
+  	$i = 1;
     while ($posts->have_posts()) : $posts->the_post(); 
 
-      //$html .= '<div class="col-md-12">'.PHP_EOL;
-
+    	if ( 1 == $i ) {
+    		$html .= '
+    		<div class="spl-tile spl-tile-boxed">
+				  <div class="spl-tile-body">
+				    <h4 class="text-warning">The Fiction Queen <small>and her subjects</small></h4>
+				    <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library\'s <b>Susan Creed</b></h6>
+				  
+				    <div class="serif">
+				      <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
+				      <h4>'.get_the_title().'</h4>
+				      
+				    </div>
+				  </div>
+				</div>
+    		';
+    	}
+    	/*
       $html .= '<div class="media">'.PHP_EOL;
 			
 			$html .= '<h4 class="media-heading"><a href="'.get_permalink().'">'.get_the_title().'</a></h4>'.PHP_EOL;
@@ -36,15 +50,11 @@
 			  $html .= '</a>'.PHP_EOL;
       }
       $html .= '<div class="media-body">'.get_the_excerpt().'</div>'.PHP_EOL;
-      //$html .= get_the_excerpt().PHP_EOL;
-      //$html .= '</div>'.PHP_EOL;
 
-      //$html .= '<hr>'.PHP_EOL;
       $html .= '</div>'.PHP_EOL;
-
-      //$html .= '</div>'.PHP_EOL; // col
+			*/
+      $i++;
     endwhile; 
-    //$html .= '</div>'.PHP_EOL; //row
   endif;
   $html .= '</div>'.PHP_EOL; // widget
 
