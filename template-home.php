@@ -31,8 +31,8 @@ Template Name: Home Page
 
 <div class="row">
   <div class="col-sm-6 col-sm-push-6 col-md-3 col-md-push-9">
-    <div class="spl-hero-panel spl-hero-success" style="color:#fff;">
-      <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3 slug=alpha]'); ?>  
+    <div class="spl-tile spl-tile-boxed">
+      <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3 slug=aplha]'); ?>  
     </div>
       <?php echo do_shortcode('[spl_widget home-page facebook limit=2]'); ?>
   </div><!-- /.col --> 
@@ -66,4 +66,5 @@ Template Name: Home Page
   </div><!-- /.col -->
        
 </div><!-- /.row -->
+  
 
