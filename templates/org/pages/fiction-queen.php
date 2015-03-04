@@ -60,7 +60,7 @@
 }
 ?>
 
-<h4 class="text-warning">The Fiction Queen <small>and her subjects</small></h4>
+<h3 class="text-warning">The Fiction Queen <small>and her subjects</small></h3>
 <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library's <b>Susan Creed</b></h6>
 
 <?php echo spl_get_fiction_queen(); ?>
