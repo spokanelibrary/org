@@ -72,7 +72,7 @@
 	<div class="col-md-4">
 		<div class="clearfix">
 			<img style="width:25px; height:25px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
-			<a href="/blog/topic/readers-corner/">More from the Fiction Queen &rarr;</a>
+			<a href="/blog/topic/readers-corner/"><b>More from the Fiction Queen</b> &rarr;</a>
 		</div>
 
 		<p>&nbsp;</p>
