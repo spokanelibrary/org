@@ -4,7 +4,6 @@ Template Name: Home Page
 */
 ?>
 
-
 <div class="row">
  
   <div class="col-md-9">
@@ -30,13 +29,13 @@ Template Name: Home Page
 </div><!-- /.row -->
 
 <div class="row">
-  <div class="col-sm-6 col-sm-push-6 col-md-3 col-md-push-9">
+  <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-9">
     <div class="spl-tile spl-tile-boxed">
       <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3 slug=alpha]'); ?>  
     </div>
       <?php echo do_shortcode('[spl_widget home-page facebook limit=2]'); ?>
   </div><!-- /.col --> 
-  <div class="col-sm-6 col-sm-pull-6 col-md-9 col-md-pull-3">
+  <div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3">
     <div class="spl-tile spl-tile-boxed">
       <div class="spl-tile-body">
         <h4 class="text-warning">The Fiction Queen <small>and her subjects</small></h4>
@@ -58,13 +57,18 @@ Template Name: Home Page
     </div>
 
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-8 col-md-push-4">
         <?php echo do_shortcode('[spl_widget home-page auto pause posts limit=3]'); ?>
+      </div><!-- /.col --> 
+      <div class="col-md-4 col-md-pull-8">
+        <div class="spl-hero-panel spl-hero-success" style="margin-bottom:10px;">
+          <h4>Is the library open?</h4>
+        </div>
+        <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
       </div><!-- /.col -->      
     </div><!-- /.row -->
 
   </div><!-- /.col -->
        
 </div><!-- /.row -->
-  
 
