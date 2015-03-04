@@ -88,8 +88,7 @@ Template Name: Alpha Home Page
           <h4>What's new?</h4>
         </div>
         <div class="panel panel-default" style="border-left-width:5px;">
-          <div class="panel-body">
-            <p>
+          <p>
               <a class="btn btn-link" href="/new/">
                 <i class="glyphicon glyphicon-plus text-success"></i> New arrivals <small class="text-muted">&rarr;</small></a>
               <br>
@@ -99,6 +98,7 @@ Template Name: Alpha Home Page
               <a class="btn btn-link"  href="/browse/">
                 <i class="glyphicon glyphicon-star text-success"></i> Staff picks &amp; popular <small class="text-muted">&rarr;</small></a>
             </p>
+          <div class="panel-body">
             <?php echo do_shortcode('[spl_widget home-page carousel auto pause shuffle browse limit=5]'); ?>
           </div>
         </div>
