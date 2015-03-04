@@ -36,6 +36,17 @@
 				  </div>
 				</div>
     		';
+    	} else {
+    		$html .= '
+    		<div class="spl-tile spl-tile-boxed">
+				  <div class="spl-tile-body">
+				    <div class="serif">
+				      <h4>'.get_the_title().'</h4>
+				      '.get_the_content().'
+				    </div>
+				  </div>
+				</div>
+    		';
     	}
     	/*
       $html .= '<div class="media">'.PHP_EOL;
