@@ -58,17 +58,34 @@ Template Name: Home Page
 
     <div class="row">
       <div class="col-md-8 col-md-push-4">
-        <?php echo do_shortcode('[spl_widget home-page auto pause posts limit=3]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page shuffle posts limit=3]'); ?>
       </div><!-- /.col --> 
       <div class="col-md-4 col-md-pull-8">
         <div class="spl-hero-panel spl-hero-success" style="margin-bottom:10px;">
           <h4>Is the library open?</h4>
         </div>
         <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+        
+        <p>&nbsp;</p>
+        <div class="spl-hero-panel spl-hero-success" style="margin-bottom:10px;">
+          <h4>What's new?</h4>
+        </div>
+        <div class="panel panel-default" style="border-left-width:5px;">
+          <a class="btn btn-link" href="/new/">
+            <i class="glyphicon glyphicon-plus text-success"></i> New arrivals <small class="text-muted">&rarr;</small></a>
+          <br>
+          <a class="btn btn-link"  href="/request/">
+            <i class="glyphicon glyphicon-thumbs-up text-success"></i> Suggest a new title <small class="text-muted">&rarr;</small></a>
+          <br>
+          <a class="btn btn-link"  href="/browse/">
+            <i class="glyphicon glyphicon-star text-success"></i> Staff picks &amp; popular <small class="text-muted">&rarr;</small></a>
+          <div class="panel-body">
+            <?php echo do_shortcode('[spl_widget home-page carousel auto pause shuffle browse limit=5]'); ?>
+          </div>
+        </div>
       </div><!-- /.col -->      
     </div><!-- /.row -->
 
   </div><!-- /.col -->
        
 </div><!-- /.row -->
-
