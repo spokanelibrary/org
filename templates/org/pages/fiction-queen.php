@@ -61,7 +61,7 @@
 ?>
 
 <div class="row">
-	<div class="col-md-9">
+	<div class="col-md-8">
 	<h3 class="text-warning">The Fiction Queen <small>and her subjects</small></h3>
 	<h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library's <b>Susan Creed</b></h6>
 
@@ -73,7 +73,7 @@
 			More posts by the Fiction Queen &rarr;</a>
 	</p>
 	</div>
-	<div class="col-md-3">
+	<div class="col-md-4">
 		<div class="panel panel-primary">
 	    <div class="panel-heading">
 	      <h4>Find more on the library blog&hellip;</h4>
