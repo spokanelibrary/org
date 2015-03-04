@@ -69,16 +69,17 @@
 	</div>
 
 	<div class="col-md-4">
-		<div>
-			<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/screed.jpg">
-				
+		<blockquote>
+			<div class="pull-left" style="padding-top:6px;">
+				<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/screed.jpg">
+			</div>
 			<p>
 				<b>Susan Creed</b> is an Assistant Manager at the Downtown Library.
 			</p>
 			<p>
 				She is sometimes the voice of Spokane Public Radio's production, <a href="http://spokanepublicradio.org/programs/bookshelf">The Bookshelf</a>, and she is always a hoot.
 			</p>
-		</div>
+		</blockquote>
 		<a href="/blog/topic/readers-corner/"><b>More from the Fiction Queen</b> &rarr;</a>
 		
 	</div>
