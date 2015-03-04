@@ -74,13 +74,13 @@ Template Name: Alpha Home Page
     </div>
 
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-4">
         <div class="spl-hero-panel spl-hero-success">
           <h4>Is the Library open?</h4>
         </div>
         <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
       </div><!-- /.col -->  
-      <div class="col-md-9">
+      <div class="col-md-8">
         <?php echo do_shortcode('[spl_widget home-page auto pause posts limit=3]'); ?>
       </div><!-- /.col -->      
     </div><!-- /.row -->
