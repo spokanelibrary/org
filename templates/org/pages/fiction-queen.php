@@ -71,7 +71,7 @@
 	<div class="col-md-4">
 		<blockquote>
 			<div class="pull-left" style="padding-top:6px;">
-				<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/screed.jpg">
+				<img class="pull-left" style="width:70px; height:70px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/screed.jpg">
 			</div>
 			<p>
 				<b>Susan Creed</b> is an Assistant Manager at the Downtown Library.
