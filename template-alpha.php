@@ -88,9 +88,9 @@ Template Name: Alpha Home Page
           <h4>What's new?</h4>
         </div>
         <div class="btn-group" role="group">
-          <a href="/new/" class="btn btn-default">Browse new arrivals &rarr;</button>
-          <a href="/browse/" class="btn btn-default">Browse popular titles &rarr;</button>
-          <a href="/request/" class="btn btn-default">Suggest a new title &rarr;</button>
+          <a href="/new/" class="btn btn-default">Browse new arrivals &rarr;</a>
+          <a href="/browse/" class="btn btn-default">Browse popular titles &rarr;</a>
+          <a href="/request/" class="btn btn-default">Suggest a new title &rarr;</a>
         </div>
         <?php echo do_shortcode('[spl_widget home-page carousel auto pause shuffle browse limit=5]'); ?>
         
