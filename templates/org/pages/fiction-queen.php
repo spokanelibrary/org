@@ -70,7 +70,10 @@
 
 	<div class="col-md-4">
 		<div class="clearfix">
-			<img style="width:25px; height:25px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
+			<img class="pull-left" style="width:50px; height:50px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
+			Susan Creed is a Librarian and Assistant Manager at the Downtown Library.
+			She is sometimes the voice of Spokane Public Radio's production, <a href="http://spokanepublicradio.org/programs/bookshelf">The Bookshelf</a>.
+			<br>
 			<a href="/blog/topic/readers-corner/"><b>More from the Fiction Queen</b> &rarr;</a>
 		</div>
 
