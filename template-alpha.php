@@ -74,7 +74,10 @@ Template Name: Alpha Home Page
     </div>
 
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-3">
+        <?php echo do_shortcode('[spl_widget branch-hours'); ?>
+      </div><!-- /.col -->  
+      <div class="col-md-9">
         <?php echo do_shortcode('[spl_widget home-page auto pause posts limit=3]'); ?>
       </div><!-- /.col -->      
     </div><!-- /.row -->
