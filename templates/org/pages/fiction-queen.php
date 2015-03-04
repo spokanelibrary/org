@@ -1,3 +1,58 @@
+<?php function spl_get_fiction_queen() {
+	global $post;  
+  $html = null;
+
+  $count = 6;
+  $slug = 'readers-corner';
+
+  //query subpages  
+  $args = array(  
+      'posts_per_page' => $count
+    , 'category_name' => $slug
+    , 'post_type' => 'post'  
+    , 'orderby' => 'post_date'
+    , 'order' => 'DESC'
+  );  
+
+  $posts = new WP_query($args);  
+
+  $html .= '<div class="spl-recent-post">'.PHP_EOL;
+  if ($posts->have_posts()) : 
+    //$html .= '<div class="row">'.PHP_EOL;
+    //$i = 1;
+    while ($posts->have_posts()) : $posts->the_post(); 
+
+      //$html .= '<div class="col-md-12">'.PHP_EOL;
+
+      $html .= '<div class="media">'.PHP_EOL;
+			
+			$html .= '<h4 class="media-heading"><a href="'.get_permalink().'">'.get_the_title().'</a></h4>'.PHP_EOL;
+			
+			//$html .= '<div class="media-body">';
+			if ( has_post_thumbnail() ) { 
+      	$html .= '<a class="pull-left" href="'.get_permalink().'">'.PHP_EOL;
+			  $html .= get_the_post_thumbnail($page->ID, 'thumbnail', array('class'=>'media-object img-responsive spl-featured-thumbnail')).PHP_EOL;
+			  //$html .= get_the_post_thumbnail($page->ID, 'thumbnail', array('class'=>'img-responsive spl-featured-thumbnail')).PHP_EOL;
+			  $html .= '</a>'.PHP_EOL;
+      }
+      $html .= '<div class="media-body">'.get_the_excerpt().'</div>'.PHP_EOL;
+      //$html .= get_the_excerpt().PHP_EOL;
+      //$html .= '</div>'.PHP_EOL;
+
+      //$html .= '<hr>'.PHP_EOL;
+      $html .= '</div>'.PHP_EOL;
+
+      //$html .= '</div>'.PHP_EOL; // col
+    endwhile; 
+    //$html .= '</div>'.PHP_EOL; //row
+  endif;
+  $html .= '</div>'.PHP_EOL; // widget
+
+  wp_reset_postdata(); 
+
+  return $html;
+}
+?>
 <div class="spl-tile spl-tile-boxed">
   <div class="spl-tile-body">
     <h4 class="text-warning">The Fiction Queen <small>and her subjects</small></h4>
@@ -18,8 +73,8 @@
   </div>
 </div>
 
-<?php echo do_shortcode('[spl_widget recent-posts count=3 slug=readers-corner]'); ?>
-
+<?php //echo do_shortcode('[spl_widget recent-posts count=3 slug=readers-corner]'); ?>
+<?php echo spl_get_fiction_queen(); ?>
 <p>&nbsp;</p>
 
 <p>
