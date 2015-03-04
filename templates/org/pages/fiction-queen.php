@@ -82,8 +82,10 @@
 			<p>
 				A one-woman production in her own right, Susan is a voracious reader and always a hoot!
 			</p>
+			<p>
+				<a href="/blog/topic/readers-corner/"><b>More from the Fiction Queen</b> &rarr;</a>
+			</p>
 		</blockquote>
-		<a href="/blog/topic/readers-corner/"><b>More from the Fiction Queen</b> &rarr;</a>
 		
 	</div>
 
