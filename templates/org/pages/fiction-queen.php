@@ -42,7 +42,7 @@
 				  <div class="spl-tile-body">
 				    <div class="serif">
 				      <h4>'.get_the_title().'</h4>
-				      '.get_the_content().'
+				      '.apply_filters('the_content', get_the_content()).'
 				    </div>
 				  </div>
 				</div>
