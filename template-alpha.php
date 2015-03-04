@@ -57,8 +57,8 @@ Template Name: Alpha Home Page
       <div class="spl-tile-body">
         <h4 class="text-warning">The Fiction Queen <small>and her subjects</small></h4>
         <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library's <b>Susan Creed</b></h6>
-      
-        <div class="serif spl-fiction-queen clearfix">
+        <a class="pull-right" href="/fiction-queen/">More from the Fiction Queen</a>
+        <div class="serif spl-fiction-queen">
           <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
           <h4>Emperors &amp; ninjas in 1920's Japan</h4>
           <p>
@@ -69,7 +69,6 @@ Template Name: Alpha Home Page
             Reading this book has reminded me of one of my favorite fantasy series set in Japan and also involving a young ninja:
             Author Lian Hearn begins his trilogy with <a href="/bib/537347">Across the Nightingale Floor</a>.
           </p>
-          <a class="pull-right" href="/fiction-queen/">More from the Fiction Queen</a>
         </div>
 
           
