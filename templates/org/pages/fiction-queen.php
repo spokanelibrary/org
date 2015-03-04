@@ -85,7 +85,7 @@
 	    <?php wp_tag_cloud( array('taxonomy' => array('post_tag', 'category')) ); ?>  
 	    </div>
 	    <div class="panel-footer">
-	      <h4 class="text-right"><a href="/blog/">All blog posts &rarr;</a></h4>
+	      <h4 class="panel-title text-right"><a href="/blog/">All blog posts &rarr;</a></h4>
 	    </div>
 	  </div>
 	</div>
