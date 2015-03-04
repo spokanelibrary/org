@@ -16,7 +16,6 @@
 
   $posts = new WP_query($args);  
 
-  $html .= '<div class="spl-fiction-queen">'.PHP_EOL;
   if ($posts->have_posts()) : 
   	$i = 1;
     while ($posts->have_posts()) : $posts->the_post(); 
@@ -24,7 +23,7 @@
   		$html .= '
   		<div class="spl-tile spl-tile-boxed">
 			  <div class="spl-tile-body">
-			    <div class="serif">
+			    <div class="serif spl-fiction-queen">
 			      <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
 			      <h3>'.get_the_title().'</h3>
 			      '.preg_replace('/<img[^>]+./','', apply_filters('the_content', get_the_content())).'
@@ -36,7 +35,6 @@
       $i++;
     endwhile; 
   endif;
-  $html .= '</div>'.PHP_EOL; // widget
 
   wp_reset_postdata(); 
 
