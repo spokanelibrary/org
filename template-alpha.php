@@ -75,6 +75,8 @@ Template Name: Alpha Home Page
       </div>
     </div>
 
+    <?php echo do_shortcode('[spl_widget home-page fiction-queen]'); ?>
+
     <div class="row">
       <div class="col-md-8 col-md-push-4">
         <?php echo do_shortcode('[spl_widget home-page shuffle posts limit=3]'); ?>
