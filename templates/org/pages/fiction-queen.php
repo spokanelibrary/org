@@ -16,7 +16,7 @@
 
   $posts = new WP_query($args);  
 
-  $html .= '<div class="spl-recent-post">'.PHP_EOL;
+  $html .= '<div class="spl-fiction-queen">'.PHP_EOL;
   if ($posts->have_posts()) : 
   	$i = 1;
     while ($posts->have_posts()) : $posts->the_post(); 
@@ -25,9 +25,7 @@
     		$html .= '
     		<div class="spl-tile spl-tile-boxed">
 				  <div class="spl-tile-body">
-				    <h4 class="text-warning">The Fiction Queen <small>and her subjects</small></h4>
-				    <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library\'s <b>Susan Creed</b></h6>
-				  
+				    
 				    <div class="serif">
 				      <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
 				      <h4>'.get_the_title().'</h4>
@@ -76,6 +74,11 @@
   return $html;
 }
 ?>
+
+<h4 class="text-warning">The Fiction Queen <small>and her subjects</small></h4>
+				    <h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library\'s <b>Susan Creed</b></h6>
+				  
+				  
 <?php //echo do_shortcode('[spl_widget recent-posts count=3 slug=readers-corner]'); ?>
 <?php echo spl_get_fiction_queen(); ?>
 <p>&nbsp;</p>
