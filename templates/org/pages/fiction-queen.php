@@ -71,14 +71,14 @@
 
 	<div class="col-md-4">
 		<p>
-			<a class="btn btn-success" href="/blog/topic/readers-corner/">
+			<a class="btn btn-block btn-success" href="/blog/topic/readers-corner/">
 				<i class="glyphicon glyphicon-comment"></i> 
 				Find all posts by the Fiction Queen &rarr;</a>
 		</p>
 
 		<div class="panel panel-primary">
 	    <div class="panel-heading">
-	      <h4>Read more on the library blog&hellip;</h4>
+	      <h4 class="panel-title">More on the library blog&hellip;</h4>
 	    </div>
 	    <div class="panel-body">
 	    <?php wp_tag_cloud( array('taxonomy' => array('post_tag', 'category')) ); ?>  
