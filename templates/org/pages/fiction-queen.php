@@ -75,17 +75,12 @@
 			<a href="/blog/topic/readers-corner/"> 
 				More from the Fiction Queen &rarr;</a>
 		</p>
-		<p>
-			<a class="btn btn-block btn-success" href="/blog/topic/readers-corner/">
-				<i class="glyphicon glyphicon-comment"></i> 
-				All posts by the Fiction Queen &rarr;</a>
-		</p>
 
 		<p>&nbsp;e</p>
 
 		<div class="panel panel-primary">
 	    <div class="panel-heading">
-	      <h4 class="panel-title">More on the library blog&hellip;</h4>
+	      <h4 class="panel-title">Read the library blog&hellip;</h4>
 	    </div>
 	    <div class="panel-body">
 	    <?php wp_tag_cloud( array('taxonomy' => array('post_tag', 'category')) ); ?>  
