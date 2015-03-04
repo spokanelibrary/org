@@ -75,7 +75,7 @@ Template Name: Alpha Home Page
 
     <div class="row">
       <div class="col-md-4">
-        <div class="spl-hero-panel spl-hero-success">
+        <div class="spl-hero-panel spl-hero-success" style="margin-bottom:10px;">
           <h4>Is the Library open?</h4>
         </div>
         <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
