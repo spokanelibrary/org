@@ -87,11 +87,11 @@ Template Name: Alpha Home Page
         <div class="spl-hero-panel spl-hero-success" style="margin-bottom:10px;">
           <h4>What's new?</h4>
         </div>
-        <p>
-          <a href="/new/">Browse new arrivals &rarr;</a>
-          <a href="/browse/">Browse popular titles &rarr;</a>
-          <a href="/request/">Suggest a new title &rarr;</a>
-        </p>
+        <div class="btn-group" role="group">
+          <a href="/new/" class="btn btn-default">Browse new arrivals &rarr;</button>
+          <a href="/browse/" class="btn btn-default">Browse popular titles &rarr;</button>
+          <a href="/request/" class="btn btn-default">Suggest a new title &rarr;</button>
+        </div>
         <?php echo do_shortcode('[spl_widget home-page carousel auto pause shuffle browse limit=5]'); ?>
         
       </div><!-- /.col -->      
