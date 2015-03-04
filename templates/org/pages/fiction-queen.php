@@ -70,11 +70,10 @@
 	</div>
 
 	<div class="col-md-4">
-		<p>
-		<img style="width:50px; height:50px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
-			<a href="/blog/topic/readers-corner/"> 
-				More from the Fiction Queen &rarr;</a>
-		</p>
+		<div class="clearfix">
+			<img style="width:50px; height:50px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
+			<a href="/blog/topic/readers-corner/">More from the Fiction Queen &rarr;</a>
+		</div>
 
 		<p>&nbsp;</p>
 
