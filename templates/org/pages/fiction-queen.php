@@ -76,7 +76,7 @@
 				More from the Fiction Queen &rarr;</a>
 		</p>
 
-		<p>&nbsp;e</p>
+		<p>&nbsp;</p>
 
 		<div class="panel panel-primary">
 	    <div class="panel-heading">
