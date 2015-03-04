@@ -70,6 +70,11 @@ Template Name: Alpha Home Page
             Author Lian Hearn begins his trilogy with <a href="/bib/537347">Across the Nightingale Floor</a>.
           </p>
         </div>
+
+        <div class="text-right">
+          <a class="/fiction-queen/">More from the Fiction Queen</a>
+        </div>
+
       </div>
     </div>
 
