@@ -2,7 +2,7 @@
 	global $post;  
   $html = null;
 
-  $count = 3;
+  $count = 4;
   $slug = 'readers-corner';
 
   //query subpages  
