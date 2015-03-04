@@ -70,8 +70,10 @@
 
 	<div class="col-md-4">
 		<blockquote>
+			<div class="pull-left">
+				<img style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/screed.jpg">
+			</div>
 			<p>
-				<img class="pull-left" style="width:60px; height:60px; margin-right:10px; padding-top:10px;" class="pull-left" src="/assets/img/jpg/screed.jpg">
 				<b>Susan Creed</b> is an Assistant Manager at the Downtown Library.
 			</p>
 			<p>
