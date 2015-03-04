@@ -90,7 +90,7 @@ Template Name: Alpha Home Page
         <div class="spl-tile spl-tile-boxed">
           <div class="spl-tile-body">
             <a href="/new/">New&nbsp;arrivals&nbsp;&rarr;</a>
-            <a href="/browse/">Popular&nbsp;titles&nbsp;&rarr;</a>
+            <a href="/browse/">Staff&nbsp;picks&amp;&nbsp;popular&nbsp;&rarr;</a>
             <a href="/request/">Suggest&nbsp;a&nbsp;new&nbsp;title&nbsp;&rarr;</a>
           </div>
         </div>
