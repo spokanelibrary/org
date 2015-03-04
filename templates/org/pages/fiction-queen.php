@@ -77,7 +77,7 @@
 
 		<p>&nbsp;</p>
 
-		<div class="panel panel-primary">
+		<div class="panel panel-default">
 	    <div class="panel-heading">
 	      <h4 class="panel-title">Read the library blog&hellip;</h4>
 	    </div>
