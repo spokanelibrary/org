@@ -71,10 +71,17 @@
 
 	<div class="col-md-4">
 		<p>
+		<img style="width:50px; height:50px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
+			<a href="/blog/topic/readers-corner/"> 
+				All posts by the Fiction Queen &rarr;</a>
+		</p>
+		<p>
 			<a class="btn btn-block btn-success" href="/blog/topic/readers-corner/">
 				<i class="glyphicon glyphicon-comment"></i> 
-				Find all posts by the Fiction Queen &rarr;</a>
+				All posts by the Fiction Queen &rarr;</a>
 		</p>
+
+		<p>&nbsp;e</p>
 
 		<div class="panel panel-primary">
 	    <div class="panel-heading">
