@@ -70,10 +70,13 @@
 
 	<div class="col-md-4">
 		<blockquote>
-		<img class="pull-left" style="width:100px; height:100px; margin-right:10px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
-		<b>Susan Creed</b> is an Assistant Manager at the Downtown Library.
-		<br>
-		She is sometimes the voice of Spokane Public Radio's production, <a href="http://spokanepublicradio.org/programs/bookshelf">The Bookshelf</a>, and always a hoot.
+			<p>
+				<img class="pull-left" style="width:100px; height:100px; margin-right:10px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
+				<b>Susan Creed</b> is an Assistant Manager at the Downtown Library.
+			</p>
+			<p>
+				She is sometimes the voice of Spokane Public Radio's production, <a href="http://spokanepublicradio.org/programs/bookshelf">The Bookshelf</a>, and always a hoot.
+			</p>
 		</blockquote>
 		<a href="/blog/topic/readers-corner/"><b>More from the Fiction Queen</b> &rarr;</a>
 		
