@@ -73,24 +73,9 @@
 		<img class="pull-left" style="width:100px; height:100px; margin-right:10px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
 		<b>Susan Creed</b> is a Librarian and Assistant Manager at the Downtown Library.
 		She is sometimes the voice of Spokane Public Radio's production, <a href="http://spokanepublicradio.org/programs/bookshelf">The Bookshelf</a>.
-		<br>
+		</blockquote>
 		<a href="/blog/topic/readers-corner/"><b>More from the Fiction Queen</b> &rarr;</a>
 		
-		</blockquote>
-		<p>
-		</p>
-	
-		<div class="panel panel-default">
-	    <div class="panel-heading">
-	      <h4 class="panel-title">Read the library blog&hellip;</h4>
-	    </div>
-	    <div class="panel-body">
-	    <?php wp_tag_cloud( array('taxonomy' => array('post_tag', 'category')) ); ?>  
-	    </div>
-	    <div class="panel-footer">
-	      <h4 class="panel-title text-right"><a href="/blog/">All blog posts &rarr;</a></h4>
-	    </div>
-	  </div>
 	</div>
 
 </div>
