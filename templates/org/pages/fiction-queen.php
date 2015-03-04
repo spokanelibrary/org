@@ -31,7 +31,7 @@
 				    <div class="serif">
 				      <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
 				      <h4>'.get_the_title().'</h4>
-				      
+				      '.get_the_content().'
 				    </div>
 				  </div>
 				</div>
