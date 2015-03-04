@@ -77,7 +77,10 @@
 				<b>Susan Creed</b> is an Assistant Manager at the Downtown Library.
 			</p>
 			<p>
-				She is sometimes the voice of Spokane Public Radio's production, <a href="http://spokanepublicradio.org/programs/bookshelf">The Bookshelf</a>, and she is always a hoot.
+				She is sometimes the voice of Spokane Public Radio's production, <a href="http://spokanepublicradio.org/programs/bookshelf">The Bookshelf</a>.
+			</p>
+			<p>
+				A one-woman production in her own right, she is always a hoot!
 			</p>
 		</blockquote>
 		<a href="/blog/topic/readers-corner/"><b>More from the Fiction Queen</b> &rarr;</a>
