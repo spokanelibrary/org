@@ -21,32 +21,17 @@
   	$i = 1;
     while ($posts->have_posts()) : $posts->the_post(); 
 
-    	if ( 1 == $i ) {
-    		$html .= '
-    		<div class="spl-tile spl-tile-boxed">
-				  <div class="spl-tile-body">
-				    
-				    <div class="serif">
-				      <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
-				      <h4>'.get_the_title().'</h4>
-				      '.preg_replace('/<img[^>]+./','', apply_filters('the_content', get_the_content())).'
-				    </div>
-				  </div>
-				</div>
-    		';
-    	} else {
-    		$html .= '
-    		<div class="spl-tile spl-tile-boxed">
-				  <div class="spl-tile-body">
-				    <div class="serif">
-				      <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
-				      <h3>'.get_the_title().'</h3>
-				      '.preg_replace('/<img[^>]+./','', apply_filters('the_content', get_the_content())).'
-				    </div>
-				  </div>
-				</div>
-    		';
-    	}
+  		$html .= '
+  		<div class="spl-tile spl-tile-boxed">
+			  <div class="spl-tile-body">
+			    <div class="serif">
+			      <img style="width:120px; height:120px; margin-right:10px; margin-bottom:6px;" class="pull-left" src="/assets/img/promos/spl-fiction-queen.jpg">
+			      <h3>'.get_the_title().'</h3>
+			      '.preg_replace('/<img[^>]+./','', apply_filters('the_content', get_the_content())).'
+			    </div>
+			  </div>
+			</div>
+  		';
 
       $i++;
     endwhile; 
