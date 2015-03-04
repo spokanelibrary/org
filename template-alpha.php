@@ -71,9 +71,7 @@ Template Name: Alpha Home Page
           </p>
         </div>
 
-        <div class="text-right">
-          <a class="/fiction-queen/">More from the Fiction Queen</a>
-        </div>
+          <a class="pull-right" href="/fiction-queen/">More from the Fiction Queen</a>
 
       </div>
     </div>
