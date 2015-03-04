@@ -89,16 +89,16 @@ Template Name: Alpha Home Page
         </div>
         <div class="panel panel-default" style="border-left-width:5px;">
           <div class="panel-body">
-            
-              <a class="" href="/new/">
+            <p>
+              <a class="btn btn-link" href="/new/">
                 <i class="glyphicon glyphicon-plus text-success"></i> New arrivals <small class="text-muted">&rarr;</small></a>
               <br>
-              <a class=""  href="/request/">
+              <a class="btn btn-link"  href="/request/">
                 <i class="glyphicon glyphicon-thumbs-up text-success"></i> Suggest a new title <small class="text-muted">&rarr;</small></a>
               <br>
-              <a class=""  href="/browse/">
+              <a class="btn btn-link"  href="/browse/">
                 <i class="glyphicon glyphicon-star text-success"></i> Staff picks &amp; popular <small class="text-muted">&rarr;</small></a>
-            
+            </p>
             <?php echo do_shortcode('[spl_widget home-page carousel auto pause shuffle browse limit=5]'); ?>
           </div>
         </div>
