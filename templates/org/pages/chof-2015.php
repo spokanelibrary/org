@@ -136,13 +136,24 @@
 	<?php echo get_chof_panel('Inductee Name', 'chof-teal'); ?>
 	<?php echo get_chof_panel('Clocktower', 'chof-teal chof-clocktower'); ?>
 	<?php echo get_chof_panel('Logotype', 'chof-yellow chof-logotype'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-yellow'); ?>
+	<?php echo get_chof_panel('', 'chof-yellow'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-brown chof-text-light'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-blue chof-text-light'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-red chof-text-light'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-yellow'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-gray'); ?>
+	<?php echo get_chof_panel('', 'chof-gray'); ?>
+	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+		<div class="chof-panel" style="border:1px solid #666;">
+			<div class="panel-body">		
+				<h5 style="text-center">Thanks Sponsors</h5>
+				<div>
+					<small>
+					</small>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 
