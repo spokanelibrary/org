@@ -134,7 +134,11 @@
 	<?php echo get_chof_panel('Inductee Name', 'chof-green'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-red chof-text-light'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-teal'); ?>
-	<?php echo get_chof_panel('Clocktower', 'chof-teal chof-clocktower'); ?>
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-narrow">
+			<img class="img-responsive" style="margin:auto;" src="/assets/img/promos/chof-clocktower.png">
+		</div>
+	</div>
 	<?php echo get_chof_panel('Logotype', 'chof-yellow chof-logotype'); ?>
 	<?php echo get_chof_panel('', 'chof-yellow'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray'); ?>
