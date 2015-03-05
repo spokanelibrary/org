@@ -141,7 +141,7 @@
 	</div>
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-narrow chof-yellow">
-			<img class="img-responsive" style="margin:auto;" src="/assets/img/promos/chof-logotype.png">
+			<img class="chof-img" src="/assets/img/promos/chof-logotype.png">
 		</div>
 	</div>
 	<?php echo get_chof_panel('', 'chof-yellow'); ?>
