@@ -105,7 +105,7 @@
 <h4 class="text-center">et cetera</h4>
 
 <?php 
-	function get_chof_panel($title='', $class='', $img=null,) {
+	function get_chof_panel($title='', $class='', $img=null) {
 		if ( $img ) {
 			$img = '<img src="'.$img.'">';
 		}
