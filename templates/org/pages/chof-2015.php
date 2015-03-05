@@ -129,7 +129,7 @@
 ?>
 
 <div class="row">
-	<?php echo get_chof_panel('Inductee Name' 'chof-orange', 'http://lorempixel.com/180/180/people'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-orange', 'http://lorempixel.com/180/180/people'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray'); ?>
 	<?php echo get_chof_panel('', 'chof-green'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-blue chof-text-light'); ?>
