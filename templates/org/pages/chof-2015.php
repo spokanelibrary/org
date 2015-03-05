@@ -102,22 +102,31 @@
 
 </div>
 
-<h4>et cetera</h4>
+<h4 class="text-center">et cetera</h4>
 
-<div class="row">
-
-	<div class="col-sm-6 col-md-3">
-		<div class="chof-panel chof-orange">
-			<div class="panel-body">		
-				<h5>King Forest Cole</h5>
-				<div>
-					<small>
-					</small>
+<?php 
+	function get_chof_panel($title='', $class='chof-gray', $text='') {
+		$html .= '
+			<div class="col-sm-6 col-md-2">
+				<div class="chof-panel '.$class.' '.$text.'">
+					<div class="panel-body">		
+						<h5>'.$title.'</h5>
+						<div>
+							<small>
+							</small>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
+		';
 
+		return $html;
+	}
+?>
+
+<div class="row">
+	<?php echo get_chof_panel('Inductee Name', 'chof-orange'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-gray'); ?>
 </div>
 
 
