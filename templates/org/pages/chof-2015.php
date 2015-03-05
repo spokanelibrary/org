@@ -144,7 +144,6 @@
 			<img class="img-responsive" style="margin:auto;" src="/assets/img/promos/chof-logotype.png">
 		</div>
 	</div>
-	<?php echo get_chof_panel('Logotype', 'chof-yellow chof-logotype'); ?>
 	<?php echo get_chof_panel('', 'chof-yellow'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-brown chof-text-light'); ?>
