@@ -144,6 +144,8 @@
 	<?php echo get_chof_panel('', 'chof-green'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-blue chof-text-light', 'http://lorempixel.com/g/140/140/people?3'); ?>
 	<?php echo get_chof_panel('', 'chof-blue chof-text-light'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-orange', 'http://lorempixel.com/g/140/140/people?4'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-green', 'http://lorempixel.com/g/140/140/people?5'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-red chof-text-light', 'http://lorempixel.com/g/140/140/people?6'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-teal', 'http://lorempixel.com/g/140/140/people?7'); ?>
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
@@ -156,8 +158,6 @@
 			<img class="img-responsive" src="/assets/img/promos/chof-logotype.png">
 		</div>
 	</div>
-	<?php echo get_chof_panel('Inductee Name', 'chof-orange', 'http://lorempixel.com/g/140/140/people?4'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-green', 'http://lorempixel.com/g/140/140/people?5'); ?>
 	<?php echo get_chof_panel('', 'chof-yellow'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray', 'http://lorempixel.com/g/140/140/people?8'); ?>
 	<?php echo get_chof_panel('', 'chof-orange'); ?>
