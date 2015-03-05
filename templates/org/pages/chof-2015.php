@@ -6,7 +6,8 @@
 	<div class="col-md-2">
 		<div class="spl-tile spl-tile-boxed" style="height:140px;">		
 			<div class="spl-tile-body">
-				panel
+				<h5>King Forest Cole</h5>
+				<small style="text-align:justified;">He was teh President of Expo '74, and as such was its main spokesman andpromoter, but his real skill was his ability to get people to come together to achieve the impossible.</small>
 			</div>
 		</div>
 	</div>
