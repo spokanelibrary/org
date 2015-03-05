@@ -150,7 +150,7 @@
 	<?php echo get_chof_panel('Inductee Name', 'chof-teal', 'http://lorempixel.com/g/140/140/people?7'); ?>
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-narrow">
-			<img class="img-responsive" src="/assets/img/promos/chof-clocktower.png">
+			<img class="img-responsive" style="margin-top:10px;" src="/assets/img/promos/chof-clocktower.png">
 		</div>
 	</div>
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
