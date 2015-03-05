@@ -7,7 +7,7 @@
 		<div class="spl-tile spl-tile-boxed" style="min-height:140px;">		
 			<div class="spl-tile-body">
 				<h5>King Forest Cole</h5>
-				<small style="text-align:justified;">He was teh President of Expo '74, and as such was its main spokesman and promoter, but his real skill was his ability to get people to come together to achieve the impossible.</small>
+				<small style="text-justify:justified;">He was teh President of Expo '74, and as such was its main spokesman and promoter, but his real skill was his ability to get people to come together to achieve the impossible.</small>
 			</div>
 		</div>
 	</div>
