@@ -108,6 +108,12 @@
 	function get_chof_panel($title=null, $class='', $img=null) {
 		if ( $img ) {
 			$img = '<img class="img-responsive" src="'.$img.'">';
+
+			$link = '
+						<div style="background:#fff; border-left:1px solid #666; border-bottom:1px solid #666; position:absolute; top:0; right:0;">
+	    			<a class="btn btn-sm btn-link" href="#"><i class="glyphicon glyphicon-share-alt"></i></a>
+	    			</div>
+	    			';
 		}
 		if ( empty($title) ) {
 			$hidden = ' hidden-xs';
@@ -124,6 +130,7 @@
 						<h5>'.$title.'</h5>
 					</div>
 				</div>
+				'.$link.'
 			</div>
 		';
 
