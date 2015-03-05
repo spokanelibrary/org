@@ -129,8 +129,8 @@
 						</div>
 						<h5>'.$title.'</h5>
 					</div>
+					'.$link.'
 				</div>
-				'.$link.'
 			</div>
 		';
 
