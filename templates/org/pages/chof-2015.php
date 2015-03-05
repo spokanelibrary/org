@@ -3,7 +3,7 @@
 
 <div class="row">
 
-	<div class="col-md-2">
+	<div class="col-sm-6 col-md-2">
 		<div class="spl-tile spl-tile-boxed" style="min-height:140px;">		
 			<div class="spl-tile-body">
 				<h5>King Forest Cole</h5>
@@ -16,7 +16,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-2">
+	<div class="col-sm-6 col-md-2">
 		<div class="spl-tile spl-tile-boxed" style="min-height:140px;">		
 			<div class="spl-tile-body">
 				&nbsp;
@@ -24,7 +24,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-2">
+	<div class="col-sm-6 col-md-2">
 		<div class="spl-tile spl-tile-boxed" style="min-height:140px;">		
 			<div class="spl-tile-body">
 				&nbsp;
@@ -32,7 +32,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-2">
+	<div class="col-sm-6 col-md-2">
 		<div class="spl-tile spl-tile-boxed" style="min-height:140px;">		
 			<div class="spl-tile-body">
 				panel
@@ -40,7 +40,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-2">
+	<div class="col-sm-6 col-md-2">
 		<div class="spl-tile spl-tile-boxed" style="min-height:140px;">		
 			<div class="spl-tile-body">
 				&nbsp;
@@ -48,7 +48,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-2">
+	<div class="col-sm-6 col-md-2">
 		<div class="spl-tile spl-tile-boxed" style="min-height:140px;">		
 			<div class="spl-tile-body">
 				&nbsp;
@@ -63,7 +63,7 @@
 
 <div class="row">
 
-	<div class="col-md-3">
+	<div class="col-sm-6 col-md-3">
 		<div class="spl-tile spl-tile-boxed" style="min-height:220px;">		
 			<div class="spl-tile-body">
 				<h5>King Forest Cole</h5>
@@ -76,7 +76,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-3">
+	<div class="col-sm-6 col-md-3">
 		<div class="spl-tile spl-tile-boxed" style="min-height:220px;">		
 			<div class="spl-tile-body">
 				&nbsp;
@@ -84,7 +84,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-3">
+	<div class="col-sm-6 col-md-3">
 		<div class="spl-tile spl-tile-boxed" style="min-height:220px;">		
 			<div class="spl-tile-body">
 				&nbsp;
@@ -92,7 +92,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-3">
+	<div class="col-sm-6 col-md-3">
 		<div class="spl-tile spl-tile-boxed" style="min-height:220px;">		
 			<div class="spl-tile-body">
 				&nbsp;
