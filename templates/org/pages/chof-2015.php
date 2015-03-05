@@ -150,8 +150,9 @@
 	</div>
 	<?php echo get_chof_panel('', 'chof-yellow'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray', 'http://lorempixel.com/g/140/140/people?8'); ?>
-	<?php echo get_chof_panel('', 'chof-orange chof-text-light'); ?>
+	<?php echo get_chof_panel('', 'chof-orange'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-brown chof-text-light', 'http://lorempixel.com/g/140/140/people?9'); ?>
+	<?php echo get_chof_panel('', 'chof-brown chof-text-light'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-blue chof-text-light', 'http://lorempixel.com/g/140/140/people?10'); ?>
 	<?php echo get_chof_panel('', 'chof-red chof-text-light'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-yellow', 'http://lorempixel.com/g/140/140/people?11'); ?>
