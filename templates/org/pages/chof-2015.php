@@ -107,7 +107,7 @@
 <?php 
 	function get_chof_panel($title='', $class='', $img=null) {
 		if ( $img ) {
-			$img = '<img src="'.$img.'">';
+			$img = '<img class="img-responsive" src="'.$img.'">';
 		}
 		$html .= '
 			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
@@ -129,7 +129,7 @@
 ?>
 
 <div class="row">
-	<?php echo get_chof_panel('Inductee Name', 'chof-orange', 'http://lorempixel.com/180/180/people'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-orange', 'http://lorempixel.com/140/140/people'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray'); ?>
 	<?php echo get_chof_panel('', 'chof-green'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-blue chof-text-light'); ?>
