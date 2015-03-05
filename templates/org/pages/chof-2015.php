@@ -130,8 +130,9 @@
 	<?php echo get_chof_panel('Inductee Name', 'chof-green'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-blue', 'chof-text-light'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-teal'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-clocktower'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-logotype'); ?>
+	<?php echo get_chof_panel('', 'chof-teal chof-clocktower'); ?>
+	<?php echo get_chof_panel('', 'chof-yellow chof-logotype'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-yellow); ?>
 </div>
 
 
