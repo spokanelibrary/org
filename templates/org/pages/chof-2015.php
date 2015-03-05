@@ -132,7 +132,7 @@
 	<?php echo get_chof_panel('Inductee Name', 'chof-teal'); ?>
 	<?php echo get_chof_panel('', 'chof-teal chof-clocktower'); ?>
 	<?php echo get_chof_panel('', 'chof-yellow chof-logotype'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-yellow); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-yellow'); ?>
 </div>
 
 
