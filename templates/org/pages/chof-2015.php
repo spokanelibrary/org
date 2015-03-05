@@ -150,11 +150,11 @@
 	</div>
 	<?php echo get_chof_panel('', 'chof-yellow'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray', 'http://lorempixel.com/140/140/people/8'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-brown chof-text-light', 'http://lorempixel.com/140/140/people/8'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-brown chof-text-light', 'http://lorempixel.com/140/140/people/9'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-blue chof-text-light', 'http://lorempixel.com/140/140/people/10'); ?>
 	<?php echo get_chof_panel('', 'chof-red chof-text-light'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-yellow', 'http://lorempixel.com/140/140/people/11'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-green', 'http://lorempixel.com/140/140/people/12'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-yellow', 'http://lorempixel.com/140/140/people/1'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-green', 'http://lorempixel.com/140/140/people/2'); ?>
 
 	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		<div class="chof-panel" style="border:1px solid #666;">
