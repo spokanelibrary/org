@@ -133,7 +133,7 @@
 
 <div class="row">
 	<?php echo get_chof_panel('Inductee Name', 'chof-orange', 'http://lorempixel.com/g/140/140/people?1'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-gray', 'http://lorempixel.com/g/140/140/people?2'); ?>
+	<?php echo get_chof_panel('Inductee Name is fairly long', 'chof-gray', 'http://lorempixel.com/g/140/140/people?2'); ?>
 	<?php echo get_chof_panel('', 'chof-green'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-blue chof-text-light', 'http://lorempixel.com/g/140/140/people?3'); ?>
 	<?php echo get_chof_panel('', 'chof-blue chof-text-light'); ?>
