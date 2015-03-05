@@ -131,9 +131,9 @@
 <div class="row">
 	<?php echo get_chof_panel('Inductee Name', 'chof-orange', 'http://lorempixel.com/g/140/140/people?1'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray', 'http://lorempixel.com/g/140/140/people?2'); ?>
-	<?php echo get_chof_panel('', 'chof-green'); ?>
+	<?php echo get_chof_panel('', 'chof-green hidden-xs'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-blue chof-text-light', 'http://lorempixel.com/g/140/140/people?3'); ?>
-	<?php echo get_chof_panel('', 'chof-blue chof-text-light'); ?>
+	<?php echo get_chof_panel('', 'chof-blue chof-text-light  hidden-xs'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-orange', 'http://lorempixel.com/g/140/140/people?4'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-green', 'http://lorempixel.com/g/140/140/people?5'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-red chof-text-light', 'http://lorempixel.com/g/140/140/people?6'); ?>
@@ -148,13 +148,13 @@
 			<img class="img-responsive" src="/assets/img/promos/chof-logotype.png">
 		</div>
 	</div>
-	<?php echo get_chof_panel('', 'chof-yellow'); ?>
+	<?php echo get_chof_panel('', 'chof-yellow hidden-xs'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray', 'http://lorempixel.com/g/140/140/people?8'); ?>
-	<?php echo get_chof_panel('', 'chof-orange'); ?>
+	<?php echo get_chof_panel('', 'chof-orange hidden-xs'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-brown chof-text-light', 'http://lorempixel.com/g/140/140/people?9'); ?>
-	<?php echo get_chof_panel('', 'chof-brown chof-text-light'); ?>
+	<?php echo get_chof_panel('', 'chof-brown chof-text-light hidden-xs'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-blue chof-text-light', 'http://lorempixel.com/g/140/140/people?10'); ?>
-	<?php echo get_chof_panel('', 'chof-red chof-text-light'); ?>
+	<?php echo get_chof_panel('', 'chof-red chof-text-light hidden-xs'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-yellow', 'http://lorempixel.com/g/140/140/people?11'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-green', 'http://lorempixel.com/g/140/140/people?12'); ?>
 
