@@ -148,9 +148,9 @@
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-brown chof-text-light'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-blue chof-text-light'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-red chof-text-light'); ?>
+	<?php echo get_chof_panel('', 'chof-red chof-text-light'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-yellow'); ?>
-	<?php echo get_chof_panel('', 'chof-gray'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-gray'); ?>
 
 	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		<div class="chof-panel" style="border:1px solid #666;">
