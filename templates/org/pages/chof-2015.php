@@ -59,7 +59,7 @@
 </div>
 
 
-<h4 class="text-center">4 columns</div>
+<h4 class="text-center">4 columns</h4>
 
 <div class="row">
 
