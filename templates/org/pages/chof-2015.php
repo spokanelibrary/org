@@ -102,3 +102,22 @@
 
 </div>
 
+<h4>et cetera</h4>
+
+<div class="row">
+
+	<div class="col-sm-6 col-md-3">
+		<div class="chof-panel">		
+				<h5 class="uppercase">King Forest Cole</h5>
+				<div>
+					<small>
+					</small>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
