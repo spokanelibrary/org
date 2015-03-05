@@ -107,7 +107,7 @@
 <?php 
 	function get_chof_panel($title='', $class='') {
 		$html .= '
-			<div class="col-sm-6 col-md-2">
+			<div class="col-xs-2 col-sm-3 col-md-2">
 				<div class="chof-panel '.$class.'">
 					<div class="panel-body">		
 						<h5>'.$title.'</h5>
