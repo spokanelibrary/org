@@ -127,8 +127,8 @@
 <div class="row">
 	<?php echo get_chof_panel('Inductee Name', 'chof-orange'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-green', 'chof-text-light'); ?>
-	<?php echo get_chof_panel('Inductee Name', 'chof-blue'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-green'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-blue', 'chof-text-light'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-teal'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-clocktower'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-logotype'); ?>
