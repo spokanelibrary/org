@@ -108,7 +108,7 @@
 	function get_chof_panel($title='', $class='') {
 		$html .= '
 			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-				<div class="chof-panel '.$class.'">
+				<div class="chof-panel chof-panel-narrow '.$class.'">
 					<div class="panel-body">		
 						<h5>'.$title.'</h5>
 						<div>
@@ -143,6 +143,7 @@
 	<?php echo get_chof_panel('Inductee Name', 'chof-red chof-text-light'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-yellow'); ?>
 	<?php echo get_chof_panel('', 'chof-gray'); ?>
+
 	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		<div class="chof-panel" style="border:1px solid #666;">
 			<div class="panel-body">		
@@ -154,6 +155,7 @@
 			</div>
 		</div>
 	</div>
+
 </div>
 
 
