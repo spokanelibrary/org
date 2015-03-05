@@ -120,7 +120,7 @@
 		} 
 		$html .= '
 			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2'.$hidden.'">
-				<div class="chof-panel chof-panel-narrow '.$class.'">
+				<div class="chof-panel chof-panel-narrow '.$class.'" style="position:relative;">
 					<div class="panel-body">	
 						'.$img.'
 						<div>
