@@ -107,7 +107,7 @@
 <div class="row">
 
 	<div class="col-sm-6 col-md-3">
-		<div class="chof-panel">		
+		<div class="chof-panel chof-orange">		
 				<h5 class="uppercase">King Forest Cole</h5>
 				<div>
 					<small>
