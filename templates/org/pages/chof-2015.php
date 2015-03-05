@@ -35,7 +35,7 @@
 	<div class="col-sm-6 col-md-2">
 		<div class="spl-tile spl-tile-boxed" style="min-height:140px;">		
 			<div class="spl-tile-body">
-				panel
+				&nbsp;
 			</div>
 		</div>
 	</div>
