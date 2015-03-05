@@ -157,7 +157,7 @@
 	<?php echo get_chof_panel('Inductee Name', 'chof-green', 'http://lorempixel.com/g/140/140/people?12'); ?>
 
 	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-		<div class="chof-panel" style="border:1px solid #666;">
+		<div class="chof-panel" style="border:1px solid #666; height:160px;">
 			<div class="panel-body">		
 				<h5 style="text-center">Thanks Sponsors</h5>
 				<div>
