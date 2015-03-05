@@ -1,5 +1,5 @@
 
-<h4 class="text-center">6 columns</div>
+<h4 class="text-center">6 columns</h4>
 
 <div class="row">
 
