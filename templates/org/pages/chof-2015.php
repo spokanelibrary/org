@@ -105,9 +105,9 @@
 <h4 class="text-center">et cetera</h4>
 
 <?php 
-	function get_chof_panel($title='', $class='chof-gray', $text='') {
+	function get_chof_panel($title='', $class='', $text='') {
 		$html .= '
-			<div class="col-sm-6 col-md-2">
+			<div class="col-sm-6 col-md-3">
 				<div class="chof-panel '.$class.' '.$text.'">
 					<div class="panel-body">		
 						<h5>'.$title.'</h5>
@@ -127,6 +127,11 @@
 <div class="row">
 	<?php echo get_chof_panel('Inductee Name', 'chof-orange'); ?>
 	<?php echo get_chof_panel('Inductee Name', 'chof-gray'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-green'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-blue'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-teal'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-clocktower'); ?>
+	<?php echo get_chof_panel('Inductee Name', 'chof-logotype'); ?>
 </div>
 
 
