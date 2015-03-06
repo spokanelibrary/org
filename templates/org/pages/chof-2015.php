@@ -352,9 +352,9 @@
       	  <h3 class="normal chof-text-orange">Arts &amp; Letters <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
-  			      <p>
+  			      
   		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
-	  	  	    </p>
+	  	  	    
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h3>
