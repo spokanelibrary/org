@@ -60,7 +60,6 @@
 	<?php echo get_chof_panel('Dr. Elizabeth Welty', 'chof-blue chof-text-light', 'http://lorempixel.com/g/200/200/people?10'); ?>
 	<?php echo get_chof_panel('', 'chof-red chof-text-light'); ?>
 	<?php echo get_chof_panel('Vicki McNeill', 'chof-yellow', 'http://lorempixel.com/g/200/200/people?11'); ?>
-	<?php echo get_chof_panel('Peg Hopkins', 'chof-green col-lg-push-12', 'http://lorempixel.com/g/200/200/people?12'); ?>
 
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-pull-2">
 		<div class="chof-panel" style="border:1px solid #666; height:170px;">
@@ -73,6 +72,7 @@
 			</div>
 		</div>
 	</div>
+		<?php echo get_chof_panel('Peg Hopkins', 'chof-green col-lg-push-8', 'http://lorempixel.com/g/200/200/people?12'); ?>
 
 </div>
 
