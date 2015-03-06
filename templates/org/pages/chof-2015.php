@@ -352,12 +352,12 @@
       	  <h3 class="normal chof-text-orange">Arts &amp; Letters <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
-  			      
+  			      <p>
   		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
-	  	  	    
+	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h3>
+	  	  	  	<h3 class="modal-title uppercase" style="margin:0; padding:0;" id="chof-modal-label">Harold Balazs</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
