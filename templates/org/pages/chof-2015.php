@@ -5,7 +5,7 @@
 
 			$link = '
 						<div style="position:absolute; top:0; right:0;">
-	    			<a class="btn btn-sm btn-link" href="#"><i class="glyphicon glyphicon-share-alt text-muted" style="color:#fff;"></i></a>
+	    			<a class="btn btn-sm btn-link" href="#"><i class="glyphicon glyphicon-share-alt text-muted"></i></a>
 	    			</div>
 	    			';
 		}
