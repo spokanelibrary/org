@@ -74,12 +74,12 @@
 						</p>
 					</div>
 					<div class="col-sm-4">
-						<p style="margin-top:5px;">
+						<p style="margin-top:2px;">
 							<a href="http://www.khq.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/khq-logo.png" alt="KHQ" /></a>
 						</p>
 					</div>
 					<div class="col-sm-4">
-						<p style="margin-top:5px;">
+						<p style="margin-top:10px;">
 							<a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/spokesman-logo.png" alt="The Spokesman Review" /></a>
 						</p>
 					</div>
