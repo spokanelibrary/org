@@ -348,8 +348,8 @@
       <div class="modal-body">
         <div class="panel-body" style="background:#fff;">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h5 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h5>
-  	      Induction
+      	  <h3 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h3>
+  	      <h4>Arts &amp; Letters</h4>
 	      </div>
       
       </div>
