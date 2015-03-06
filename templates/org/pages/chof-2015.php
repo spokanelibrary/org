@@ -374,7 +374,7 @@
 <!-- MODAL A -->
 <div class="modal fade chof-modal" id="chof-modal-b" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content chof-orange">
+    <div class="modal-content chof-gray">
       <div class="modal-body">
         
         <div class="panel-body">  
