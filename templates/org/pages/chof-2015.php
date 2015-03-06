@@ -39,16 +39,16 @@
 	
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-orange">
+			<div class="chof-glyph">
+				<small class="glyphicon glyphicon-share-alt"></small>
+			</div>
 			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
 						<h6 class="chof-title">Harold Balazs</h6>
 					</div>
 				</div>
-			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
 			</div>
 		</div>
 	</div>
@@ -57,7 +57,6 @@
 	<?php echo get_chof_panel('', 'chof-green'); ?>
 
 	<!-- PANEL -->
-	<?php //echo get_chof_panel('Chief Spokane Garry', 'chof-gray chof-text-dark', 'http://lorempixel.com/g/200/200/people?2'); ?>
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
 			<div class="panel-body">
