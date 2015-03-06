@@ -211,7 +211,16 @@
 	</div>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-orange'); ?>
+	<?php //echo get_chof_panel('', 'chof-orange'); ?>
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-orange">
+				<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof-city-logo.png">
+				</div>
+			</div>
+		</a>
+	</div>
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
