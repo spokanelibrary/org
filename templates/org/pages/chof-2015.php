@@ -36,12 +36,12 @@
 <div class="row">
 	<?php echo get_chof_panel('Harold Balazs', 'chof-orange', 'http://lorempixel.com/g/200/200/people?1'); ?>
 	<?php echo get_chof_panel('', 'chof-green'); ?>
-	<?php echo get_chof_panel('Chief Spokane Garry', 'chof-gray chof-text-light', 'http://lorempixel.com/g/200/200/people?2'); ?>
-	<?php echo get_chof_panel('Gordon Budke', 'chof-blue chof-text-light', 'http://lorempixel.com/g/200/200/people?3'); ?>
+	<?php echo get_chof_panel('Chief Spokane Garry', 'chof-gray', 'http://lorempixel.com/g/200/200/people?2'); ?>
+	<?php echo get_chof_panel('Gordon Budke', 'chof-blue', 'http://lorempixel.com/g/200/200/people?3'); ?>
 	<?php echo get_chof_panel('', 'chof-blue chof-text-light'); ?>
 	<?php echo get_chof_panel('King Cole', 'chof-orange', 'http://lorempixel.com/g/200/200/people?4'); ?>
 	<?php echo get_chof_panel('Gary A. Livingston', 'chof-green', 'http://lorempixel.com/g/200/200/people?5'); ?>
-	<?php echo get_chof_panel('Thomas S. Foley', 'chof-red chof-text-light', 'http://lorempixel.com/g/200/200/people?6'); ?>
+	<?php echo get_chof_panel('Thomas S. Foley', 'chof-red', 'http://lorempixel.com/g/200/200/people?6'); ?>
 	<?php echo get_chof_panel('', 'chof-teal'); ?>
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-teal">
@@ -54,11 +54,11 @@
 		</div>
 	</div>
 	<?php echo get_chof_panel('Donald F. Kardong', 'chof-yellow', 'http://lorempixel.com/g/200/200/people?7'); ?>
-	<?php echo get_chof_panel('Daniel K. Oliver', 'chof-gray chof-text-light', 'http://lorempixel.com/g/200/200/people?8'); ?>
+	<?php echo get_chof_panel('Daniel K. Oliver', 'chof-gray', 'http://lorempixel.com/g/200/200/people?8'); ?>
 	<?php echo get_chof_panel('', 'chof-orange'); ?>
-	<?php echo get_chof_panel('May Arkwright Hutton', 'chof-brown chof-text-light', 'http://lorempixel.com/g/200/200/people?9'); ?>
+	<?php echo get_chof_panel('May Arkwright Hutton', 'chof-brown', 'http://lorempixel.com/g/200/200/people?9'); ?>
 	<?php echo get_chof_panel('', 'chof-brown chof-text-light'); ?>
-	<?php echo get_chof_panel('Dr. Elizabeth Welty', 'chof-blue chof-text-light', 'http://lorempixel.com/g/200/200/people?10'); ?>
+	<?php echo get_chof_panel('Dr. Elizabeth Welty', 'chof-blue', 'http://lorempixel.com/g/200/200/people?10'); ?>
 	<?php echo get_chof_panel('', 'chof-red chof-text-light'); ?>
 	<?php echo get_chof_panel('Vicki McNeill', 'chof-yellow', 'http://lorempixel.com/g/200/200/people?11'); ?>
 	<?php echo get_chof_panel('Peg Hopkins', 'chof-green', 'http://lorempixel.com/g/200/200/people?12', 'col-lg-push-8'); ?>
@@ -72,23 +72,23 @@
 						<p>
 							<a href="http://www.avistafoundation.com/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
 						</p>
-					</div>
+					</div><!-- /.col -->
 					<div class="col-sm-4">
 						<p style="margin-top:2px;">
 							<a href="http://www.khq.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/khq-logo.png" alt="KHQ" /></a>
 						</p>
-					</div>
+					</div><!-- /.col -->
 					<div class="col-sm-4">
 						<p style="margin-top:6px;">
 							<a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/spokesman-logo.png" alt="The Spokesman Review" /></a>
 						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.panel-body -->
+		</div><!-- /.chof-panel -->
+	</div><!-- /.col -->
 
-</div>
+</div><!-- /.row -->
 
 
 
