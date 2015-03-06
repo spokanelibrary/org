@@ -15,9 +15,9 @@
 		$html .= '
 			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2'.$hidden.'">
 				<div class="chof-panel chof-panel-sized '.$class.'" style="position:relative;">
-					<div class="panel-body" style="position:relative">	
+					<div class="panel-body">	
 						'.$img.'
-						<div>					
+						<div style="position:relative;">					
 							<div style="position:absolute; bottom:0; width:100%; background:#000; opacity:.5; color:#fff;">
 								'.$title.'
 							</div>
