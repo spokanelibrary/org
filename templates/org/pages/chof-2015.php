@@ -63,7 +63,7 @@
 	<?php echo get_chof_panel('Peg Hopkins', 'chof-green', 'http://lorempixel.com/g/180/140/people?12'); ?>
 
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-		<div class="chof-panel" style="border:1px solid #666; height:160px;">
+		<div class="chof-panel" style="border:1px solid #666; height:180px;">
 			<div class="panel-body">		
 				<h5 style="text-center">Thanks Sponsors</h5>
 				<div>
