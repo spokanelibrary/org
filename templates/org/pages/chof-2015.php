@@ -79,7 +79,7 @@
 						</p>
 					</div>
 					<div class="col-sm-4">
-						<p style="margin-top:10px;">
+						<p style="margin-top:8px;">
 							<a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/spokesman-logo.png" alt="The Spokesman Review" /></a>
 						</p>
 					</div>
