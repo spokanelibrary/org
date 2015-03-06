@@ -162,7 +162,21 @@
 	</div>
 	
 	<!-- PANEL -->
-	<?php echo get_chof_panel('Donald F. Kardong', 'chof-yellow chof-text-dark', 'http://lorempixel.com/g/200/200/people?7'); ?>
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
+			<div class="panel-body">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/7">
+				<div class="chof-text-wrapper">			
+					<div class="chof-text-mask">
+						<h6 class="chof-title">Donald F. Kardong</h6>
+					</div>
+				</div>
+			</div>
+			<div class="chof-glyph">
+				<small class="glyphicon glyphicon-share-alt"></small>
+			</div>
+		</div>
+	</div>
 
 	<!-- PANEL -->
 	<?php echo get_chof_panel('Daniel K. Oliver', 'chof-gray chof-text-dark', 'http://lorempixel.com/g/200/200/people?8'); ?>
