@@ -39,7 +39,7 @@
 	<?php echo get_chof_panel('Gordon Budke', 'chof-blue chof-text-light', 'http://lorempixel.com/g/200/200/people?3'); ?>
 	<?php echo get_chof_panel('', 'chof-blue chof-text-light'); ?>
 	<?php echo get_chof_panel('King Cole', 'chof-orange', 'http://lorempixel.com/g/200/200/people?4'); ?>
-	<?php echo get_chof_panel('Gary A. Livingston', 'chof-green chof-text-light', 'http://lorempixel.com/g/200/200/people?5'); ?>
+	<?php echo get_chof_panel('Gary A. Livingston', 'chof-green', 'http://lorempixel.com/g/200/200/people?5'); ?>
 	<?php echo get_chof_panel('Thomas S. Foley', 'chof-red chof-text-light', 'http://lorempixel.com/g/200/200/people?6'); ?>
 	<?php echo get_chof_panel('Donald F. Kardong', 'chof-teal', 'http://lorempixel.com/g/200/200/people?7'); ?>
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
