@@ -78,7 +78,7 @@
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-3">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
@@ -371,7 +371,7 @@
   </div>
 </div>
 
-<!-- MODAL A -->
+<!-- MODAL B -->
 <div class="modal fade chof-modal" id="chof-modal-b" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content chof-gray">
@@ -388,6 +388,36 @@
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Chief Spokane Garry</h3>
+	  	  	  	<p class="lead">
+	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
+	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  	</p>
+  	      	</div><!-- /.col -->
+	  	    </div><!-- /.row -->
+	      </div><!-- /.panel-body -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL C -->
+<div class="modal fade chof-modal" id="chof-modal-c" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content chof-blue">
+      <div class="modal-body">
+        
+        <div class="panel-body">  
+  	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      	  <h3 class="normal chof-text-blue">Economic Development &amp; Business <small>2015</small></h3>
+      	  <div class="row">
+  	      	<div class="col-sm-4 col-md-4">
+  			      <p>
+  		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
+	  	  	    </p>
+	  	  	  </div><!-- /.col -->
+	  	  	  <div class="col-sm-8 col-md-8">
+	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Gordon Budke</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
