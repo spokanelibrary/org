@@ -348,7 +348,7 @@
       <div class="modal-body">
         <div class="panel-body" style="background:#fff;">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-orange">Arts &amp; Letters</h3>
+      	  <h3 class="normal chof-text-orange">Arts &amp; Letters Inductee</h3>
       	  <h3 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h3>
   	      <p>
   	      	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
