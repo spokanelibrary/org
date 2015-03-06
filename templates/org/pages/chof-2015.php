@@ -22,7 +22,7 @@
 							</small>
 						</div>
 						<div style="position:absolute; bottom:0; width:100%; background:#000; opacity:.5; color:#fff;">
-							<h5>'.$title.'</h5>
+							'.$title.'
 						</div>
 					</div>
 					'.$link.'
