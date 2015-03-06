@@ -352,7 +352,7 @@
       	  <h3 class="normal chof-text-orange">Arts &amp; Letters Inductee</h3>
       	  <h3 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h3>
   	      <div class="row">
-  	      	<div class="col-md-4">
+  	      	<div class="col-md-5">
   			      <p>
   		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 	  	  	    </p>
