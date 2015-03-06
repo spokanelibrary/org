@@ -15,16 +15,16 @@
 		$html .= '<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2'.$hidden.'">'.PHP_EOL;
 		$html .= '<div class="chof-panel chof-panel-sized '.$class.'" style="position:relative;">'.PHP_EOL;
 		if ($img) {
-		$html .= '<div class="panel-body">'.PHP_EOL;
-		$html .= $img.PHP_EOL;
-		$html .= '<div style="position:relative;">'.PHP_EOL;				
-		$html .= '<div style="position:absolute; bottom:0; width:100%; background:#000; opacity:.7; color:#fff;">'.PHP_EOL;
-		$html .= '<div>'.PHP_EOL;
-		$html .= '<h6 class="uppercase" style="margin:6px 4px;">'.$title.'</h6>'.PHP_EOL;
-		$html .= '</div>'.PHP_EOL;
-		$html .= '</div>'.PHP_EOL;
-		$html .= '</div>'.PHP_EOL;
-		$html .= '</div>'.PHP_EOL;
+			$html .= '<div class="panel-body">'.PHP_EOL;
+			$html .= $img.PHP_EOL;
+			$html .= '<div style="position:relative;">'.PHP_EOL;				
+			$html .= '<div style="position:absolute; bottom:0; width:100%; background:transparent; opacity:.7; color:#fff;">'.PHP_EOL;
+			$html .= '<div>'.PHP_EOL;
+			$html .= '<h6 class="uppercase" style="margin:6px 4px;">'.$title.'</h6>'.PHP_EOL;
+			$html .= '</div>'.PHP_EOL;
+			$html .= '</div>'.PHP_EOL;
+			$html .= '</div>'.PHP_EOL;
+			$html .= '</div>'.PHP_EOL;
 		$html .= $link.PHP_EOL;
 		}
 		$html .= '</div>'.PHP_EOL;
