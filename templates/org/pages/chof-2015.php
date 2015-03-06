@@ -21,7 +21,7 @@
 							<small>
 							</small>
 						</div>
-						<div style="position:absolute; bottom:0;">
+						<div style="position:absolute; bottom:0;" background:#000; opacity:.5; color:#fff;>
 							<h5>'.$title.'</h5>
 						</div>
 					</div>
