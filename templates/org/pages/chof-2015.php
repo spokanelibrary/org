@@ -60,7 +60,7 @@
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#">
-			<div class="chof-panel chof-panel-sized chof-brown chof-text-dark">
+			<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
 				<div class="panel-body">
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
 					<div class="chof-text-wrapper">			
@@ -304,7 +304,7 @@
 	<!-- PANEL SPL FOUNDATION-->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
 		<a href="http://www.spokanelibraryfoundation.org">
-			<div class="chof-panel chof-panel-sized chof-gray">
+			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn.png">
 				</div>
