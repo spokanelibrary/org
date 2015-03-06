@@ -5,7 +5,7 @@
 
 			$link = '
 						<div style="position:absolute; top:0; right:0;">
-	    			<a class="btn btn-sm btn-link" href="#"><i class="glyphicon glyphicon-share-alt text-muted" style="color:#fff;"></i></a>
+	    			<i class="glyphicon glyphicon-share-alt" style="color:#fff;"></i>
 	    			</div>
 	    			';
 		}
@@ -13,13 +13,13 @@
 			$hidden = 'hidden-xs';
 		} 
 		$html .= '<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 '.$hidden.' '.$col.'">'.PHP_EOL;
-		$html .= '<div class="chof-panel chof-panel-sized '.$class.'" style="">'.PHP_EOL;
+		$html .= '<div class="chof-panel chof-panel-sized '.$class.'">'.PHP_EOL;
 		if ($img) {
 			$html .= '<div class="panel-body">'.PHP_EOL;
 			$html .= $img.PHP_EOL;
-			$html .= '<div style="position:relative;">'.PHP_EOL;				
+			$html .= '<div class="chof-text-wrapper">'.PHP_EOL;				
 			$html .= '<div class="chof-text-mask">'.PHP_EOL;
-			$html .= '<h6 class="uppercase" style="margin:6px 4px; line-height:130%">'.$title.'</h6>'.PHP_EOL;
+			$html .= '<h6 class="chof-title">'.$title.'</h6>'.PHP_EOL;
 			$html .= '</div>'.PHP_EOL;
 			$html .= '</div>'.PHP_EOL;
 			$html .= '</div>'.PHP_EOL;
