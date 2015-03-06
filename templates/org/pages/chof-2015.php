@@ -27,7 +27,7 @@
 		}
 		$html .= '</div>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
-		$html .='';
+		$html ='';
 		return $html;
 	}
 ?>
