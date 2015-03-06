@@ -17,7 +17,7 @@
 		if ($img) {
 			$html .= '<div class="panel-body">'.PHP_EOL;
 			$html .= $img.PHP_EOL;
-			$html .= '<div class="chof-text-wrapper">'.PHP_EOL;				
+			$html .= '<div class="chof-text-wrapper" style="position:relative;">'.PHP_EOL;				
 			$html .= '<div class="chof-text-mask">'.PHP_EOL;
 			$html .= '<h6 class="chof-title">'.$title.'</h6>'.PHP_EOL;
 			$html .= '</div>'.PHP_EOL;
