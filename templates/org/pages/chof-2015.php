@@ -19,7 +19,7 @@
 						'.$img.'
 						<div style="position:relative;">					
 							<div style="position:absolute; bottom:0; width:100%; background:#000; opacity:.5; color:#fff;">
-								<h5 class="upperecase" style="opacity:1; color:#fff; margin:6px 4px;">'.$title.'</h5>
+								<h6 class="uppercase" style="opacity:1; color:#fff; margin:6px 4px;">'.$title.'</h6>
 							</div>
 						</div>
 					</div>
