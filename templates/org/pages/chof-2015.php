@@ -13,7 +13,7 @@
 			$hidden = 'hidden-xs';
 		} 
 		$html .= '<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 '.$hidden.' '.$col.'">'.PHP_EOL;
-		$html .= '<div class="chof-panel chof-panel-sized '.$class.'" style="position:relative;">'.PHP_EOL;
+		$html .= '<div class="chof-panel chof-panel-sized '.$class.'" style="">'.PHP_EOL;
 		if ($img) {
 			$html .= '<div class="panel-body">'.PHP_EOL;
 			$html .= $img.PHP_EOL;
