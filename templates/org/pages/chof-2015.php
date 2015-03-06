@@ -242,7 +242,16 @@
 	</div>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-brown'); ?>
+	<?php echo //get_chof_panel('', 'chof-brown'); ?>
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-brown">
+				<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn.png">
+				</div>
+			</div>
+		</a>
+	</div>
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
