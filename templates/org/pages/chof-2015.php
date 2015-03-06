@@ -165,7 +165,7 @@
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/7">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
 						<h6 class="chof-title">Donald F. Kardong</h6>
@@ -242,7 +242,7 @@
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/11">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/7">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
 						<h6 class="chof-title">Vicki McNeill</h6>
@@ -262,7 +262,7 @@
 				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/11">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
-						<h6 class="chof-title">Vicki McNeill</h6>
+						<h6 class="chof-title">Peg Hopkins</h6>
 					</div>
 				</div>
 			</div>
