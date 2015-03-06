@@ -60,36 +60,40 @@
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
-			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
-				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="chof-title">Chief Spokane Garry</h6>
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Chief Spokane Garry</h6>
+						</div>
 					</div>
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
-			</div>
-		</div>
+		</a>
 	</div>
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-blue">
-			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
-				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="chof-title">Gordon Budke</h6>
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-blue">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Gordon Budke</h6>
+						</div>
 					</div>
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
-			</div>
-		</div>
+		</a>
 	</div>
 
 	<!-- PANEL -->
@@ -97,53 +101,59 @@
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-orange">
-			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
-				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="chof-title">King Cole</h6>
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-orange">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">King Cole</h6>
+						</div>
 					</div>
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
-			</div>
-		</div>
+		</a>
 	</div>
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-green">
-			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/5">
-				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="chof-title">Gary A. Livingston</h6>
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-green">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/5">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Gary A. Livingston</h6>
+						</div>
 					</div>
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
-			</div>
-		</div>
+		</a>
 	</div>
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-red">
-			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/6">
-				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="chof-title">Thomas S. Foley</h6>
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-red">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/6">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Thomas S. Foley</h6>
+						</div>
 					</div>
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
-			</div>
-		</div>
+		</a>
 	</div>
 
 	<!-- PANEL -->
@@ -165,36 +175,40 @@
 	
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
-			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
-				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="chof-title">Donald F. Kardong</h6>
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Donald F. Kardong</h6>
+						</div>
 					</div>
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
-			</div>
-		</div>
+		</a>
 	</div>
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-gray">
-			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
-				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="chof-title">Daniel K. Oliver</h6>
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-gray">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Daniel K. Oliver</h6>
+						</div>
 					</div>
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
-			</div>
-		</div>
+		</a>
 	</div>
 
 	<!-- PANEL -->
@@ -202,19 +216,21 @@
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-brown">
-			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/9">
-				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="chof-title">May Arkwright Hutton</h6>
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-brown">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/9">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">May Arkwright Hutton</h6>
+						</div>
 					</div>
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
-			</div>
-		</div>
+		</a>
 	</div>
 
 	<!-- PANEL -->
@@ -222,19 +238,21 @@
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-blue">
-			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/10">
-				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="chof-title">Dr. Elizabeth Welty</h6>
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-blue">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/10">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Dr. Elizabeth Welty</h6>
+						</div>
 					</div>
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
-			</div>
-		</div>
+		</a>
 	</div>
 
 	<!-- PANEL -->
@@ -242,36 +260,40 @@
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
-			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/7">
-				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="chof-title">Vicki McNeill</h6>
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/7">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Vicki McNeill</h6>
+						</div>
 					</div>
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
-			</div>
-		</div>
+		</a>
 	</div>
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
-		<div class="chof-panel chof-panel-sized chof-green">
-			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/4">
-				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="chof-title">Peg Hopkins</h6>
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-green">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/4">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Peg Hopkins</h6>
+						</div>
 					</div>
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
-			<div class="chof-glyph">
-				<small class="glyphicon glyphicon-share-alt"></small>
-			</div>
-		</div>
+		</a>
 	</div>
 
 	<!-- SPONSORS -->
