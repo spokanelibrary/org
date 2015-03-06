@@ -353,7 +353,7 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive chof-img" src="http://lorempixel.com/g/200/200/people/3">
+  		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
