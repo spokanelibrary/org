@@ -361,6 +361,7 @@
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
