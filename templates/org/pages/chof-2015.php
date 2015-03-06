@@ -349,7 +349,7 @@
         
         <div class="panel-body">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-orange">2015 Arts &amp; Letters <small>Inductee</small></h3>
+      	  <h3 class="normal chof-text-orange">Arts &amp; Letters <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-3 col-md-4">
   			      <p>
