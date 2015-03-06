@@ -347,10 +347,10 @@
     <div class="modal-content chof-orange">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="chof-modal-label">Modal title</h4>
+        <h5 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h5>
       </div>
       <div class="modal-body">
-        ...
+        Induction
       </div>
 
     </div>
