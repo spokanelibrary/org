@@ -343,7 +343,7 @@
 
 <!-- Modal -->
 <div class="modal fade chof-modal" id="chof-modal" tabindex="-1" role="dialog" aria-labelledby="chof-modal-label" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content chof-orange">
       <div class="modal-body">
         
