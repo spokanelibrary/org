@@ -179,19 +179,61 @@
 	</div>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('Daniel K. Oliver', 'chof-gray chof-text-dark', 'http://lorempixel.com/g/200/200/people?8'); ?>
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
+			<div class="panel-body">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
+				<div class="chof-text-wrapper">			
+					<div class="chof-text-mask">
+						<h6 class="chof-title">Daniel K. Oliver</h6>
+					</div>
+				</div>
+			</div>
+			<div class="chof-glyph">
+				<small class="glyphicon glyphicon-share-alt"></small>
+			</div>
+		</div>
+	</div>
 
 	<!-- PANEL -->
 	<?php echo get_chof_panel('', 'chof-orange'); ?>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('May Arkwright Hutton', 'chof-brown', 'http://lorempixel.com/g/200/200/people?9'); ?>
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-brown">
+			<div class="panel-body">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/9">
+				<div class="chof-text-wrapper">			
+					<div class="chof-text-mask">
+						<h6 class="chof-title">May Arkwright Hutton</h6>
+					</div>
+				</div>
+			</div>
+			<div class="chof-glyph">
+				<small class="glyphicon glyphicon-share-alt"></small>
+			</div>
+		</div>
+	</div>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-brown chof-text-light'); ?>
+	<?php echo get_chof_panel('', 'chof-brown'); ?>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('Dr. Elizabeth Welty', 'chof-blue', 'http://lorempixel.com/g/200/200/people?10'); ?>
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-blue">
+			<div class="panel-body">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/10">
+				<div class="chof-text-wrapper">			
+					<div class="chof-text-mask">
+						<h6 class="chof-title">Dr. Elizabeth Welty</h6>
+					</div>
+				</div>
+			</div>
+			<div class="chof-glyph">
+				<small class="glyphicon glyphicon-share-alt"></small>
+			</div>
+		</div>
+	</div>
 
 	<!-- PANEL -->
 	<?php echo get_chof_panel('', 'chof-red chof-text-light'); ?>
