@@ -292,7 +292,7 @@
 
 	<!-- PANEL CITY OF SPOKANE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#">
+		<a href="http://beta.spokanecity.org">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
@@ -303,7 +303,7 @@
 
 	<!-- PANEL SPL FOUNDATION-->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
-		<a href="#">
+		<a href="http://www.spokanelibraryfoundation.org">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn.png">
