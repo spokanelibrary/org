@@ -5,7 +5,7 @@
 
 			$link = '
 						<div style="position:absolute; top:2px; right:4px; opacity:.5;">
-	    			<small class="glyphicon glyphicon-share-alt" style="color:#fff;"></small>
+	    			<small class="glyphicon glyphicon-share-alt" style="color:#000;"></small>
 	    			</div>
 	    			';
 		}
