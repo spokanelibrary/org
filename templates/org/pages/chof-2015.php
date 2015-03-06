@@ -349,7 +349,7 @@
         <div class="panel-body" style="background:#fff;">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       	  <h3 class="normal chof-text-orange">Arts &amp; Letters</h3>
-      	  <h4 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h4>
+      	  <h2 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h2>
   	      <p>
   	      	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
   	      </p>
