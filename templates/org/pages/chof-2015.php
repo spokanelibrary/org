@@ -347,7 +347,7 @@
     <div class="modal-content chof-orange">
       <div class="modal-body">
         
-        <div class="panel-body" style="background:#fff;">  
+        <div class="panel-body">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       	  <h3 class="normal chof-text-orange">Arts &amp; Letters Inductee</h3>
       	  <div class="row">
