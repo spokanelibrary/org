@@ -346,15 +346,20 @@
   <div class="modal-dialog">
     <div class="modal-content chof-orange">
       <div class="modal-body">
+        
         <div class="panel-body" style="background:#fff;">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       	  <h3 class="normal chof-text-orange">Arts &amp; Letters Inductee</h3>
       	  <h3 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h3>
-  	      <p>
-  	      	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
-  	      </p>
-	      </div>
-      
+  	      <div class="row">
+  	      	<div class="col-md-4">
+  			      <p>
+  		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
+	  	  	    </p>
+  	      	</div><!-- /.col -->
+	  	    </div><!-- /.row -->
+	      </div><!-- /.panel-body -->
+
       </div>
     </div>
   </div>
