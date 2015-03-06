@@ -96,9 +96,6 @@
 	</div>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-blue chof-text-light'); ?>
-
-	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#">
 			<div class="chof-panel chof-panel-sized chof-orange">
@@ -116,6 +113,10 @@
 			</div>
 		</a>
 	</div>
+
+	<!-- PANEL -->
+	<?php echo get_chof_panel('', 'chof-blue chof-text-light'); ?>
+
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
