@@ -236,13 +236,41 @@
 	</div>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-red chof-text-light'); ?>
+	<?php echo get_chof_panel('', 'chof-red'); ?>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('Vicki McNeill', 'chof-yellow chof-text-dark', 'http://lorempixel.com/g/200/200/people?11'); ?>
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
+			<div class="panel-body">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/11">
+				<div class="chof-text-wrapper">			
+					<div class="chof-text-mask">
+						<h6 class="chof-title">Vicki McNeill</h6>
+					</div>
+				</div>
+			</div>
+			<div class="chof-glyph">
+				<small class="glyphicon glyphicon-share-alt"></small>
+			</div>
+		</div>
+	</div>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('Peg Hopkins', 'chof-green', 'http://lorempixel.com/g/200/200/people?12', 'col-lg-push-8'); ?>
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
+		<div class="chof-panel chof-panel-sized chof-green">
+			<div class="panel-body">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/11">
+				<div class="chof-text-wrapper">			
+					<div class="chof-text-mask">
+						<h6 class="chof-title">Vicki McNeill</h6>
+					</div>
+				</div>
+			</div>
+			<div class="chof-glyph">
+				<small class="glyphicon glyphicon-share-alt"></small>
+			</div>
+		</div>
+	</div>
 
 	<!-- SPONSORS -->
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-pull-2">
