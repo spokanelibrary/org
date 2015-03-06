@@ -250,23 +250,7 @@
 	</div>
 
 	<!-- PANEL -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#">
-			<div class="chof-panel chof-panel-sized chof-green">
-				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/4">
-					<div class="chof-text-wrapper">			
-						<div class="chof-text-mask">
-							<h6 class="chof-title">Peg Hopkins</h6>
-						</div>
-					</div>
-				</div>
-				<div class="chof-glyph">
-					<small class="glyphicon glyphicon-share-alt"></small>
-				</div>
-			</div>
-		</a>
-	</div>
+	<?php echo get_chof_panel('', 'chof-red'); ?>
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
@@ -288,7 +272,23 @@
 	</div>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-red'); ?>
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<a href="#">
+			<div class="chof-panel chof-panel-sized chof-green">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/4">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Peg Hopkins</h6>
+						</div>
+					</div>
+				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
+			</div>
+		</a>
+	</div>
 
 	<!-- PANEL CITY OF SPOKANE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
