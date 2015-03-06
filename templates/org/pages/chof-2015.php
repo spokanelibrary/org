@@ -66,7 +66,7 @@
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-pull-2">
 		<div class="chof-panel" style="border:1px solid #666; height:170px;">
 			<div class="panel-body">		
-				<h5 style="text-center">Thanks Sponsors</h5>
+				<h5 class="text-center">Thanks Sponsors</h5>
 				<div>
 					<small>
 					</small>
