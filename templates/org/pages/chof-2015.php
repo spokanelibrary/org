@@ -347,7 +347,7 @@
     <div class="modal-content chof-orange">
       <div class="modal-body">
         <div class="panel-body" style="background:#fff;">  
-  	    	<button type="button" style="margin-top:0;" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  	    	<button type="button" style="margin:0; padding:0;" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       	  <h5 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h5>
   	      Induction
 	      </div>
