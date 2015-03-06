@@ -210,12 +210,20 @@
 		</a>
 	</div>
 
-	<!-- PANEL CITY OF SPOKANE -->
+	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#">
-			<div class="chof-panel chof-panel-sized chof-orange">
+			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/7">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Vicki McNeill</h6>
+						</div>
+					</div>
+				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
 				</div>
 			</div>
 		</a>
@@ -281,20 +289,12 @@
 	<!-- PANEL -->
 	<?php echo get_chof_panel('', 'chof-red'); ?>
 
-	<!-- PANEL -->
+	<!-- PANEL CITY OF SPOKANE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#">
-			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
+			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/7">
-					<div class="chof-text-wrapper">			
-						<div class="chof-text-mask">
-							<h6 class="chof-title">Vicki McNeill</h6>
-						</div>
-					</div>
-				</div>
-				<div class="chof-glyph">
-					<small class="glyphicon glyphicon-share-alt"></small>
+					<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
 				</div>
 			</div>
 		</a>
