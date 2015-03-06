@@ -27,7 +27,8 @@
 		}
 		$html .= '</div>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
-		$html ='';
+
+		$html = '<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2'.$hidden.'">test</div>';
 		return $html;
 	}
 ?>
