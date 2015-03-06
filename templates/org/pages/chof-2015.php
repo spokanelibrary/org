@@ -28,7 +28,6 @@
 		$html .= '</div>'.PHP_EOL;
 		$html .= '</div>'.PHP_EOL;
 
-		//$html = '<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2'.$hidden.'"><div class="chof-panel chof-panel-sized">test</div></div>';
 		return $html;
 	}
 ?>
@@ -71,7 +70,7 @@
 					</div>
 				</div>
 				<div class="chof-glyph">
-					<small class="glyphicon glyphicon-share-alt"></small>
+					<small class="glyphicon glyphicon-share"></small>
 				</div>
 			</div>
 		</a>
