@@ -15,13 +15,13 @@
 		$html .= '
 			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2'.$hidden.'">
 				<div class="chof-panel chof-panel-sized '.$class.'" style="position:relative;">
-					<div class="panel-body">	
+					<div class="panel-body" style="position:relative">	
 						'.$img.'
 						<div>
 							<small>
 							</small>
 						</div>
-						<div style="position:absolute: bottom:20px;">
+						<div style="position:absolute: bottom:0;">
 							<h5>'.$title.'</h5>
 						</div>
 					</div>
