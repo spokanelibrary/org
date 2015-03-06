@@ -74,7 +74,7 @@
 						</p>
 					</div>
 					<div class="col-sm-4">
-						<p>
+						<p style="margin-top:10px;">
 							<a href="http://www.khq.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/khq-logo.png" alt="KHQ" /></a>
 						</p>
 					</div>
