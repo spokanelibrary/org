@@ -351,12 +351,12 @@
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       	  <h3 class="normal chof-text-orange">Arts &amp; Letters <small>2015</small></h3>
       	  <div class="row">
-  	      	<div class="col-sm-3 col-md-4">
+  	      	<div class="col-sm-4 col-md-4">
   			      <p>
   		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
-	  	  	  <div class="col-sm-9 col-md-8">
+	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
