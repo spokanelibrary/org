@@ -17,7 +17,7 @@
 		if ($img) {
 			$html .= '<div class="panel-body">'.PHP_EOL;
 			$html .= $img.PHP_EOL;
-			$html .= '<div style="position:relative; background:#000; opacity:.2;">'.PHP_EOL;				
+			$html .= '<div style="position:relative; background:#000; opacity:.5;">'.PHP_EOL;				
 			$html .= '<div style="position:absolute; bottom:0; width:100%;">'.PHP_EOL;
 			$html .= '<div>'.PHP_EOL;
 			$html .= '<h6 class="uppercase" style="margin:6px 4px;">'.$title.'</h6>'.PHP_EOL;
