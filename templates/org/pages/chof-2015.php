@@ -97,7 +97,7 @@
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-orange">
 			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/4">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
 						<h6 class="chof-title">King Cole</h6>
@@ -259,7 +259,7 @@
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
 		<div class="chof-panel chof-panel-sized chof-green">
 			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/11">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/4">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
 						<h6 class="chof-title">Peg Hopkins</h6>
