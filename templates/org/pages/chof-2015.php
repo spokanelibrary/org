@@ -19,7 +19,7 @@
 			$html .= $img.PHP_EOL;
 			$html .= '<div style="position:relative;">'.PHP_EOL;				
 			$html .= '<div class="chof-text-mask" style="position:absolute; bottom:0; width:100%;>'.PHP_EOL;
-			$html .= '<h6 class="uppercase" style="margin:6px 4px;">'.$title.'</h6>'.PHP_EOL;
+			$html .= '<h6 class="uppercase" style="margin:6px 4px; line-height:50%;">'.$title.'</h6>'.PHP_EOL;
 			$html .= '</div>'.PHP_EOL;
 			$html .= '</div>'.PHP_EOL;
 			$html .= '</div>'.PHP_EOL;
