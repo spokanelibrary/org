@@ -5,7 +5,7 @@
 
 			$link = '
 						<div style="position:absolute; top:0; right:0;">
-	    			<a class="btn btn-sm btn-link" href="#"><i class="glyphicon glyphicon-share-alt text-muted"></i></a>
+	    			<a class="btn btn-sm btn-link" href="#"><i class="glyphicon glyphicon-share-alt text-muted" style="color:#fff;"></i></a>
 	    			</div>
 	    			';
 		}
@@ -17,8 +17,8 @@
 		if ($img) {
 			$html .= '<div class="panel-body">'.PHP_EOL;
 			$html .= $img.PHP_EOL;
-			$html .= '<div style="position:relative;">'.PHP_EOL;				
-			$html .= '<div style="position:absolute; bottom:0; width:100%; background:transparent; opacity:1;">'.PHP_EOL;
+			$html .= '<div style="position:relative; background:#000; opacity:.2;">'.PHP_EOL;				
+			$html .= '<div style="position:absolute; bottom:0; width:100%;">'.PHP_EOL;
 			$html .= '<div>'.PHP_EOL;
 			$html .= '<h6 class="uppercase" style="margin:6px 4px;">'.$title.'</h6>'.PHP_EOL;
 			$html .= '</div>'.PHP_EOL;
