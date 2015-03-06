@@ -67,10 +67,18 @@
 		<div class="chof-panel" style="border:1px solid #666; height:170px;">
 			<div class="panel-body">		
 				<h5 class="text-center">Thanks Sponsors</h5>
-				<div>
-					<small>
-					</small>
+				
+
+				<p class="text-center">Thank you to our partner the <b>City of Spokane</b>.</p>
+				<p class="text-center"><a href="http://beta.spokanecity.org"><img style="margin: auto;" src="http://beta.spokanelibrary.org/assets/img/png/city-spokane-logo.png" alt="" /></a></p>
+				<p class="text-center">Thanks also to our generous sponsors of this event:</p>
+
+				<div class="row">
+				<div class="col-md-4"><a href="http://www.avistafoundation.com/"><img style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a></div>
+				<div class="col-md-4"><a href="http://www.khq.com"><img style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/khq-logo.png" alt="KHQ" /></a></div>
+				<div class="col-md-4"><a href="http://www.spokesman.com"><img style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/spokesman-logo.png" alt="The Spokesman Review" /></a></div>
 				</div>
+
 			</div>
 		</div>
 	</div>
