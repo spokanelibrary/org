@@ -21,7 +21,9 @@
 							<small>
 							</small>
 						</div>
-						<h5 style="position:absolute: bottom:0;">'.$title.'</h5>
+						<div style="position:absolute: bottom:0;">
+							<h5>'.$title.'</h5>
+						</div>
 					</div>
 					'.$link.'
 				</div>
