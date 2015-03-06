@@ -356,6 +356,12 @@
   			      <p>
   		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 	  	  	    </p>
+	  	  	  </div><!-- /.col -->
+	  	  	  <div class="col-md-7">
+	  	  	  	<p class="lead">
+	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
+	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
 	      </div><!-- /.panel-body -->
