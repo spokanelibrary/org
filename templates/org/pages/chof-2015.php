@@ -37,7 +37,7 @@
 	<!-- PANEL -->
 	
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
@@ -341,8 +341,8 @@
 </div><!-- /.row -->
 
 
-<!-- Modal -->
-<div class="modal fade chof-modal" id="chof-modal" tabindex="-1" role="dialog" aria-labelledby="chof-modal-label" aria-hidden="true">
+<!-- MODAL A -->
+<div class="modal fade chof-modal" id="chof-modal-a" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content chof-orange">
       <div class="modal-body">
@@ -352,7 +352,7 @@
       	  <h3 class="normal chof-text-orange">Arts &amp; Letters <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
-  			      <p style="padding-top:6px;">
+  			      <p>
   		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
