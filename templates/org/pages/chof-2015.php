@@ -216,7 +216,7 @@
 		<a href="#">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof-city-logo.png">
+					<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
 				</div>
 			</div>
 		</a>
