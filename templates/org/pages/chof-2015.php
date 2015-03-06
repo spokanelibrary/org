@@ -94,8 +94,22 @@
 	<?php echo get_chof_panel('', 'chof-blue chof-text-light'); ?>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('King Cole', 'chof-orange', 'http://lorempixel.com/g/200/200/people?4'); ?>
-	
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-orange">
+			<div class="panel-body">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/4">
+				<div class="chof-text-wrapper">			
+					<div class="chof-text-mask">
+						<h6 class="chof-title">King Cole</h6>
+					</div>
+				</div>
+			</div>
+			<div class="chof-glyph">
+				<small class="glyphicon glyphicon-share-alt"></small>
+			</div>
+		</div>
+	</div>
+
 	<!-- PANEL -->
 	<?php echo get_chof_panel('Gary A. Livingston', 'chof-green', 'http://lorempixel.com/g/200/200/people?5'); ?>
 
