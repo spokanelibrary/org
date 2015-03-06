@@ -585,6 +585,11 @@ body {
   color: #fff;
   opacity:.8;
 }
+a .chof-panel:hover {
+  .chof-glyph {
+    opacity:1;
+  }
+}
 
 .chof-text-wrapper {
   position:relative;  
@@ -612,6 +617,12 @@ body {
 }
 
 @chof-yellow: #D1AA2B;
+a .chof-yellow:hover {
+  background: darken(@chof-yellow, 5%);
+  .chof-text-mask {
+    background: darken(@chof-yellow, 5%);
+  }
+}
 .chof-yellow {
   //color: @chof-yellow; 
   background: @chof-yellow;
@@ -651,9 +662,6 @@ body {
 @chof-orange: #D96234;
 a .chof-orange:hover {
   background: darken(@chof-orange, 5%);
-  .chof-glyph {
-    opacity:1;
-  }
   .chof-text-mask {
     background: darken(@chof-orange, 5%);
   }
