@@ -40,7 +40,7 @@
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-orange">
 			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
 						<h6 class="chof-title">Harold Balazs</h6>
@@ -60,7 +60,7 @@
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
 			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
 						<h6 class="chof-title">Chief Spokane Garry</h6>
@@ -77,7 +77,7 @@
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-blue">
 			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
 						<h6 class="chof-title">Gordon Budke</h6>
@@ -259,7 +259,7 @@
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
 		<div class="chof-panel chof-panel-sized chof-green">
 			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1?test">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/11">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
 						<h6 class="chof-title">Vicki McNeill</h6>
