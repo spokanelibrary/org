@@ -70,7 +70,7 @@
 					</div>
 				</div>
 				<div class="chof-glyph">
-					<small class="glyphicon glyphicon-share"></small>
+					<small class="glyphicon glyphicon-share-alt"></small>
 				</div>
 			</div>
 		</a>
