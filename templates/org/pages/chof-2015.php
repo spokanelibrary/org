@@ -78,7 +78,7 @@
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-3">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-c">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
