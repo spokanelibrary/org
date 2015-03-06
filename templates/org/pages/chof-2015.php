@@ -37,7 +37,7 @@
 	<!-- PANEL -->
 	
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#">
+		<a href="#" data-toggle="modal" data-target="#chof-modal">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
@@ -340,5 +340,24 @@
 
 </div><!-- /.row -->
 
+
+<!-- Modal -->
+<div class="modal fade" id="chof-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
