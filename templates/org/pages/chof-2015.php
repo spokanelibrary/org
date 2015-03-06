@@ -62,7 +62,7 @@
 	<?php echo get_chof_panel('Vicki McNeill', 'chof-yellow', 'http://lorempixel.com/g/180/140/people?11'); ?>
 	<?php echo get_chof_panel('Peg Hopkins', 'chof-green', 'http://lorempixel.com/g/180/140/people?12'); ?>
 
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-lg-offset-4">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
 		<div class="chof-panel" style="border:1px solid #666; height:160px;">
 			<div class="panel-body">		
 				<h5 style="text-center">Thanks Sponsors</h5>
