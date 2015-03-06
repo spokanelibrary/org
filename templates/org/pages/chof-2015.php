@@ -195,7 +195,7 @@
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#">
-			<div class="chof-panel chof-panel-sized chof-orange">
+			<div class="chof-panel chof-panel-sized chof-gray">
 				<div class="panel-body">
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
 					<div class="chof-text-wrapper">			
@@ -293,7 +293,7 @@
 	<!-- PANEL CITY OF SPOKANE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="http://beta.spokanecity.org">
-			<div class="chof-panel chof-panel-sized chof-gray">
+			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
 				</div>
