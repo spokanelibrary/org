@@ -1,5 +1,5 @@
 <?php 
-	function get_chof_panel($title=null, $class='', $img=null) {
+	function get_chof_panel($title=null, $class='', $img=null, $col) {
 		if ( $img ) {
 			$img = '<img class="img-responsive" src="'.$img.'">';
 
@@ -12,7 +12,7 @@
 		if ( empty($title) ) {
 			$hidden = ' hidden-xs';
 		} 
-		$html .= '<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2'.$hidden.'">'.PHP_EOL;
+		$html .= '<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2'.$hidden.' '.$col.'">'.PHP_EOL;
 		$html .= '<div class="chof-panel chof-panel-sized '.$class.'" style="position:relative;">'.PHP_EOL;
 		if ($img) {
 			$html .= '<div class="panel-body">'.PHP_EOL;
@@ -61,7 +61,7 @@
 	<?php echo get_chof_panel('Dr. Elizabeth Welty', 'chof-blue chof-text-light', 'http://lorempixel.com/g/200/200/people?10'); ?>
 	<?php echo get_chof_panel('', 'chof-red chof-text-light'); ?>
 	<?php echo get_chof_panel('Vicki McNeill', 'chof-yellow', 'http://lorempixel.com/g/200/200/people?11'); ?>
-	<?php echo get_chof_panel('Peg Hopkins', 'chof-green col-lg-push-8', 'http://lorempixel.com/g/200/200/people?12'); ?>
+	<?php echo get_chof_panel('Peg Hopkins', 'chof-green', 'http://lorempixel.com/g/200/200/people?12', 'col-push-8'); ?>
 
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-pull-2">
 		<div class="chof-panel" style="border:1px solid #666; height:170px;">
