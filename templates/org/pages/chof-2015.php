@@ -43,7 +43,7 @@
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h5 class="chof-title">Harold Balazs</h5>
+							<h6 class="chof-title">Harold Balazs</h6>
 						</div>
 					</div>
 				</div>
