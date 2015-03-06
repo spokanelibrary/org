@@ -18,7 +18,7 @@
 			$html .= '<div class="panel-body">'.PHP_EOL;
 			$html .= $img.PHP_EOL;
 			$html .= '<div style="position:relative;">'.PHP_EOL;				
-			$html .= '<div style="position:absolute; bottom:0; width:100%; background: rgba(255,255,255, .5);">'.PHP_EOL;
+			$html .= '<div style="position:absolute; bottom:0; width:100%; background: rgba(255,255,255, .7);">'.PHP_EOL;
 			$html .= '<h6 class="uppercase" style="margin:6px 4px;">'.$title.'</h6>'.PHP_EOL;
 			$html .= '</div>'.PHP_EOL;
 			$html .= '</div>'.PHP_EOL;
