@@ -182,7 +182,7 @@
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
 			<div class="panel-body">
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
 						<h6 class="chof-title">Daniel K. Oliver</h6>
