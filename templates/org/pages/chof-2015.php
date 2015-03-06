@@ -35,7 +35,7 @@
 ?>
 
 <div class="row">
-	<?php echo get_chof_panel('Harold Balazs', 'chof-orange', 'http://lorempixel.com/g/180/180/people?1'); ?>
+	<?php echo get_chof_panel('Harold Balazs', 'chof-orange', 'http://lorempixel.com/g/200/200/people?1'); ?>
 	<?php echo get_chof_panel('Chief Spokane Garry', 'chof-gray', 'http://lorempixel.com/g/180/140/people?2'); ?>
 	<?php echo get_chof_panel('', 'chof-green'); ?>
 	<?php echo get_chof_panel('Gordon Budke', 'chof-blue chof-text-light', 'http://lorempixel.com/g/180/140/people?3'); ?>
