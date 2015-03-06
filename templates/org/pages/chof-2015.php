@@ -66,7 +66,7 @@
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-pull-2">
 		<div class="chof-panel" style="">
 			<div class="panel-body">		
-				<h5 class="text-center uppercase">Thanks to our generous sponsors:</h5>
+				<h5 class="text-center uppercase chof-yellow">Thanks to our generous sponsors:</h5>
 				<div class="row">
 					<div class="col-sm-4">
 						<p>
