@@ -54,13 +54,13 @@
 		</div>
 	</div>
 	<?php echo get_chof_panel('Donald F. Kardong', 'chof-yellow', 'http://lorempixel.com/g/200/200/people?7'); ?>
-	<?php echo get_chof_panel('Daniel K. Oliver', 'chof-gray', 'http://lorempixel.com/g/200/200/people?8'); ?>
+	<?php echo get_chof_panel('Daniel K. Oliver', 'chof-gray chof-text-dark', 'http://lorempixel.com/g/200/200/people?8'); ?>
 	<?php echo get_chof_panel('', 'chof-orange'); ?>
 	<?php echo get_chof_panel('May Arkwright Hutton', 'chof-brown', 'http://lorempixel.com/g/200/200/people?9'); ?>
 	<?php echo get_chof_panel('', 'chof-brown chof-text-light'); ?>
 	<?php echo get_chof_panel('Dr. Elizabeth Welty', 'chof-blue', 'http://lorempixel.com/g/200/200/people?10'); ?>
 	<?php echo get_chof_panel('', 'chof-red chof-text-light'); ?>
-	<?php echo get_chof_panel('Vicki McNeill', 'chof-yellow', 'http://lorempixel.com/g/200/200/people?11'); ?>
+	<?php echo get_chof_panel('Vicki McNeill', 'chof-yellow chof-text-dark', 'http://lorempixel.com/g/200/200/people?11'); ?>
 	<?php echo get_chof_panel('Peg Hopkins', 'chof-green', 'http://lorempixel.com/g/200/200/people?12', 'col-lg-push-8'); ?>
 
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-pull-2">
