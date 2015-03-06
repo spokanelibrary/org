@@ -250,9 +250,6 @@
 	</div>
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-red'); ?>
-
-	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#">
 			<div class="chof-panel chof-panel-sized chof-blue">
@@ -270,6 +267,9 @@
 			</div>
 		</a>
 	</div>
+
+	<!-- PANEL -->
+	<?php echo get_chof_panel('', 'chof-red'); ?>
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
