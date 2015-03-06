@@ -43,12 +43,12 @@
 				<small class="glyphicon glyphicon-share-alt"></small>
 			</div>
 			<div class="panel-body">
+				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
 						<h6 class="chof-title">Harold Balazs</h6>
 					</div>
 				</div>
-				<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
 			</div>
 		</div>
 	</div>
