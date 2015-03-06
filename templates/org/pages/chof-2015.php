@@ -66,16 +66,11 @@
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-pull-2">
 		<div class="chof-panel" style="border:1px solid #666; height:170px;">
 			<div class="panel-body">		
-				<h5 class="text-center">Thank you to our partner the <b>City of Spokane</b>.</h5>
-				<p class="text-center"><a href="http://beta.spokanecity.org"><img style="margin: auto;" src="http://beta.spokanelibrary.org/assets/img/png/city-spokane-logo.png" alt="" /></a></p>
-				<h5 class="text-center">Thanks also to our generous sponsors of this event:</h5>
-
 				<div class="row">
-				<div class="col-md-4"><a href="http://www.avistafoundation.com/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a></div>
-				<div class="col-md-4"><a href="http://www.khq.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/khq-logo.png" alt="KHQ" /></a></div>
-				<div class="col-md-4"><a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/spokesman-logo.png" alt="The Spokesman Review" /></a></div>
+					<div class="col-md-4"><a href="http://www.avistafoundation.com/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a></div>
+					<div class="col-md-4"><a href="http://www.khq.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/khq-logo.png" alt="KHQ" /></a></div>
+					<div class="col-md-4"><a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/spokesman-logo.png" alt="The Spokesman Review" /></a></div>
 				</div>
-
 			</div>
 		</div>
 	</div>
