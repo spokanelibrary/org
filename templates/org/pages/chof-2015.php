@@ -345,7 +345,7 @@
 <div class="modal fade" id="chof-modal" tabindex="-1" role="dialog" aria-labelledby="chof-modal-label" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content chof-orange">
-      <div class="modal-body" style-"background:#fff;">
+      <div class="modal-body" style="background:#fff;">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h5 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h5>
         Induction
