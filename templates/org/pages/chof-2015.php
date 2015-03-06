@@ -17,12 +17,10 @@
 				<div class="chof-panel chof-panel-sized '.$class.'" style="position:relative;">
 					<div class="panel-body" style="position:relative">	
 						'.$img.'
-						<div>
-							<small>
-							</small>
-						</div>
-						<div style="position:absolute; bottom:0; width:100%; background:#000; opacity:.5; color:#fff;">
-							'.$title.'
+						<div>					
+							<div style="position:absolute; bottom:0; width:100%; background:#000; opacity:.5; color:#fff;">
+								'.$title.'
+							</div>
 						</div>
 					</div>
 					'.$link.'
