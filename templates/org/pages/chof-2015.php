@@ -4,7 +4,7 @@
 			$img = '<img class="img-responsive" src="'.$img.'">';
 
 			$link = '
-						<div style="position:absolute; top:0; right:0; opacity:.5;">
+						<div style="position:absolute; top:4px; right:4px; opacity:.5;">
 	    			<small class="glyphicon glyphicon-share-alt" style="color:#fff;"></small>
 	    			</div>
 	    			';
