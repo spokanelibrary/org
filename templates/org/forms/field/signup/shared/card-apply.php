@@ -3,14 +3,14 @@
     <p>
       I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees for overdue, lost, or damaged materials.
     </p>
-    <p>
+    <p class="text-center">
       <i class="glyphicon glyphicon-share text-muted"></i>
       <a href="#" data-toggle="modal" data-target="#spl-terms-conditions"><b>Read Library Card <i>Terms &amp; Conditions</i></b></a>
     </p>
   </div>
   <div class="col-sm-9 col-sm-offset-3">
     <div class="checkbox">
-      <p>
+      <p class="text-center">
         <label>
           <input type="checkbox" class="required" value="">
           I agree to these <i>Terms &amp; Conditions</i>.
