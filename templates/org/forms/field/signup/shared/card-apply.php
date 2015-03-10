@@ -1,7 +1,10 @@
 <div class="form-group">
   <div class="col-sm-9 col-sm-offset-3">
     <p>
-      <a href="#" data-toggle="modal" data-target="#spl-terms-conditions"><b>Spokane Public Library <i>Terms &amp; Conditions</i></b></a>
+      I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees for overdue, lost, or damaged materials.
+    </p>
+    <p>
+      <a href="#" data-toggle="modal" data-target="#spl-terms-conditions"><b>Read Library Card <i>Terms &amp; Conditions</i></b></a>
     </p>
   </div>
   <div class="col-sm-9 col-sm-offset-3">
