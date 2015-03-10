@@ -51,7 +51,7 @@ var org = {
       _self.normalizeAddress('alt');
     });
 
-    if ( 'nonres' == $('#spl-card-type-selection').val() ) {
+    if ( 'nonres' == $('#spl-signup-selection').val() ) {
       $('#spl-form-local'.val('other');
     }
     /*
