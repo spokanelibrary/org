@@ -22,7 +22,7 @@
         </span>
   </div>
 
-  <div class="col-sm-9 col-sm-offset-3">
+  <div class="col-sm-6 col-sm-offset-3">
     <p>
     <button type="submit" class="btn btn-block btn-primary">
           <b>Get my library card</b>
