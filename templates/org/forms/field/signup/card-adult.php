@@ -2,7 +2,7 @@
   <div class="panel-heading">
     <h4 class="panel-title">
       Library Card Application
-      <small class="pull-right"><a href="/">start over</a></small>
+      <small class="pull-right"><a href="./">start over</a></small>
     </h4>
   </div>
   <div class="panel-body">
