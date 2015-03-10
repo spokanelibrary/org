@@ -1,5 +1,5 @@
 <div class="form-group">
-  <div class="col-sm-9 col-sm-offset-3">
+  <div class="col-sm-9 col-sm-offset-6">
     <p>
       I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees for overdue, lost, or damaged materials.
     </p>
