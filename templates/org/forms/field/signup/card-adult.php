@@ -36,7 +36,7 @@
     <fieldset>
       <legend class="text-muted">
         <small class="glyphicon glyphicon-"></small>
-        Complete application
+        Complete your application
       </legend>
       <?php include 'shared/card-apply.php'; ?>
     </fieldset>
