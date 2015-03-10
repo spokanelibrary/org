@@ -1,10 +1,10 @@
 <div class="form-group">
+  <p>
+    <span class="help-block">
+      <a href="#"><b>Spokane Public Library Terms &amp; Conditions</b></a>.
+    </span>
+  </p>
   <div class="col-sm-6">
-    <p>
-      <span class="help-block">
-        <a href="#"><b>Spokane Public Library Terms &amp; Conditions</b></a>.
-      </span>
-    </p>
     <div class="row">
       <div class="col-sm-6 col-sm-offset-6">
         <div class="checkbox">
