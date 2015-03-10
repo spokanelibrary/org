@@ -1,5 +1,5 @@
 <div class="form-group">
-  <div class="col-sm-offset-3 col-sm-3">
+  <div class="col-sm-6">
     <div class="checkbox">
       <label>
         <input type="checkbox" value="">
@@ -8,7 +8,7 @@
     </div>
     <p>
       <span class="help-block">
-        Use of your library card constitutes and acceptance of <a href="#">Spokane Public Library Terms &amp; Conditions</a>.
+        Use of your library card constitutes an acceptance of <a href="#">Spokane Public Library Terms &amp; Conditions</a>.
       </span>
     </p>
   </div>
