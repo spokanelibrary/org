@@ -14,7 +14,7 @@
           </label>
         </div>
         <span class="help-block">
-          Use of your library card constitutes an acceptance of our Terms &amp; Conditions.
+          Use of your library card constitutes an acceptance of our <a href="#">Terms &amp; Conditions</a>.
         </span>
       </div><!-- /.col -->  
     </div><!-- /.row -->
