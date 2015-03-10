@@ -1,6 +1,6 @@
 <div class="panel panel-info">
 	<div class="panel-heading">
-		<h4 class="panel-title">Kids Library Card</h4>
+		<h4 class="panel-title">Kids Library Card Application</h4>
 	</div>
   <div class="panel-body">
 
