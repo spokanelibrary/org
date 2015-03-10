@@ -16,7 +16,7 @@
         Let's get started
       </legend>
       <?php include 'shared/card-name.php'; ?>
-      <?php include 'shared/card-pin.php'; ?>
+      <?php include 'shared/card-pin-only.php'; ?>
     </fieldset>
 
     <fieldset>
