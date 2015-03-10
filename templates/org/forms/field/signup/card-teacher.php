@@ -1,6 +1,8 @@
 <div class="panel panel-success">
   <div class="panel-body">
-
+  	<div class="panel-heading">
+		<h4 class="panel-title">Library Card for teachers</h4>
+	</div>
     <fieldset>
       <legend class="text-muted">
         <small class="glyphicon glyphicon-"></small>
