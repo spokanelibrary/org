@@ -7,7 +7,9 @@
       </label>
     </div>
     <p>
-      Use of your library card constitutes and acceptance of Spokane Public Library Terms &amp; Conditions.
+      <span class="help-block">
+        Use of your library card constitutes and acceptance of Spokane Public Library Terms &amp; Conditions.
+      </span>
     </p>
   </div>
   <div class="col-sm-6 col-md-3">
