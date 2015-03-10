@@ -1,6 +1,9 @@
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h4 class="panel-title">Library Card Application</h4>
+    <h4 class="panel-title">
+      Library Card Application
+      <a class="pull-right">start over</a>
+    </h4>
   </div>
   <div class="panel-body">
 
