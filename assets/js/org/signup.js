@@ -39,6 +39,8 @@ var org = {
 , initEventHandlers: function() {
     $('button').attr('disabled', false);
 
+    //spl-form-card-type - form enable on change (back button)
+
     $('body').on('blur', '#spl-form-birthdate', function(e) {
       _self.normalizeBirthdate( $(this).attr('id'), $(this).val() );
     });
@@ -52,7 +54,7 @@ var org = {
     });
 
     //if ( 'nonres' == $('#spl-signup-selection').val() ) {
-      $('#spl-form-local'.val('other');
+      $('#spl-form-local').val('other');
     //}
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
