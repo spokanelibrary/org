@@ -39,7 +39,7 @@ var org = {
 , initEventHandlers: function() {
     $('button').attr('disabled', false);
 
-    //spl-form-card-type - form enable on change (back button)
+    _self.checkAddressLocale();
 
     $('body').on('blur', '#spl-form-birthdate', function(e) {
       _self.normalizeBirthdate( $(this).attr('id'), $(this).val() );
@@ -53,9 +53,6 @@ var org = {
       _self.normalizeAddress('alt');
     });
 
-    if ( 'nonres' == $('#spl-signup-selection').val() ) {
-      $('#spl-form-local').val('other');
-    }
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
       $('#spl-signup-card-type').collapse('hide');
@@ -64,6 +61,12 @@ var org = {
       e.preventDefault();
     });
     */
+  }
+
+, checkAddressLocale: function() {
+    if ( 'nonres' == $('#spl-signup-selection').val() ) {
+      $('#spl-form-local').val('other');
+    }
   }
 
 , normalizeAddress: function(fieldset) {
