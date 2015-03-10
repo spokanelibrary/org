@@ -1,7 +1,7 @@
 <div class="form-group">
   <div class="col-sm-9 col-sm-offset-3">
     <p>
-      <a href="#">Spokane Public Library <b>Terms &amp; Conditions</b></a>
+      <a href="#"><b>Spokane Public Library <i>Terms &amp; Conditions</i></b></a>
     </p>
   </div>
   <div class="col-sm-9 col-sm-offset-3">
