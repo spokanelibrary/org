@@ -51,6 +51,8 @@ var org = {
       _self.normalizeAddress('alt');
     });
 
+    console.log( $('#spl-card-type-selection').val() );
+
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
       $('#spl-signup-card-type').collapse('hide');
