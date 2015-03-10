@@ -1,7 +1,7 @@
-<div class="panel panel-danger">
+<div class="panel panel-default">
   <div class="panel-heading">
-		<h4 class="panel-title">Library Card Application for Businesses &amp; Non-Profits</h4>
-	</div>
+    <h4 class="panel-title">Library Card Application for Non-Residents</h4>
+  </div>
   <div class="panel-body">
 
     <fieldset>
@@ -42,7 +42,8 @@
         Complete your application
       </legend>
       <?php include 'shared/card-apply.php'; ?>
-    </fieldset>  	
+    </fieldset>
+
 
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->

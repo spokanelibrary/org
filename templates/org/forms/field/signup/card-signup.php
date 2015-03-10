@@ -23,8 +23,10 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
   <?php  
   switch ( $_REQUEST['spl-form']['card']['type'] ) {
     case 'adult':
-    case 'nonres':
       include 'card-adult.php';
+      break;
+    case 'nonres':
+      include 'card-nonres.php';
       break;
     case 'minor':
       include 'card-minor.php';
