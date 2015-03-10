@@ -3,9 +3,12 @@
     <div class="checkbox">
       <label>
         <input type="checkbox" value="">
-        I accept and agree to Spokane Public Library Terms &amp; Conditions.
+        I accept.
       </label>
     </div>
+    <p>
+      Use of your library card constitutes and acceptance of Spokane Public Library Terms &amp; Conditions.
+    </p>
   </div>
   <div class="col-sm-6 col-md-3">
     <button type="submit" class="btn btn-block btn-primary">
