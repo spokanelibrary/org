@@ -1,7 +1,7 @@
 <div class="panel panel-info">
 	<div class="panel-heading">
 		<h4 class="panel-title">
-			Kids Library Card Application
+			Kids Library Card
 			<small class="pull-right">
         <i class="glyphicon glyphicon-refresh"></i>
         <a href="./">Start over</a>
