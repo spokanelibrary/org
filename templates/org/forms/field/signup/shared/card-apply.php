@@ -6,10 +6,12 @@
   </div>
   <div class="col-sm-9 col-sm-offset-3">
         <div class="checkbox">
+          <p>
           <label>
             <input type="checkbox" class="required" value="">
             I agree to these terms and conditions.
           </label>
+        </p>
         </div>
 
         
