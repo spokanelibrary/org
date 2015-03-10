@@ -1,12 +1,10 @@
 <div class="form-group">
-  <p>
-    <span class="help-block">
-      <a href="#"><b>Spokane Public Library Terms &amp; Conditions</b></a>.
-    </span>
-  </p>
-  <div class="col-sm-6">
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-6">
+  <div class="col-sm-12">
+    <p>
+      <a href="#"><b>Spokane Public Library Terms &amp; Conditions</b></a>
+    </p>
+  </div>
+  <div class="col-sm-3 col-sm-offset-3">
         <div class="checkbox">
           <label>
             <input type="checkbox" value="">
@@ -16,8 +14,6 @@
         <span class="help-block">
           Use of your library card constitutes an acceptance of our <a href="#">Terms &amp; Conditions</a>.
         </span>
-      </div><!-- /.col -->  
-    </div><!-- /.row -->
   </div>
   <div class="col-sm-6 col-md-3">
     <button type="submit" class="btn btn-block btn-primary">
