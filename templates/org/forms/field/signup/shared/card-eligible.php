@@ -23,6 +23,7 @@
   </div>
   <div class="col-sm-6">
     <span class="help-block">
+      What is this?
     </span>
   </div>
 </div>
