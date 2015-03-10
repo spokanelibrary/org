@@ -7,7 +7,7 @@
     </p>
     <p>
       <i class="glyphicon glyphicon-share text-muted"></i>
-      <a href="#" data-toggle="modal" data-target="#spl-terms-conditions"><b>Read Library Card <i>Terms &amp; Conditions</i></b></a>
+      <a href="#" data-toggle="modal" data-target="#spl-terms-conditions">Read Library Card <i>Terms &amp; Conditions</i></a>
     </p>
   </div>
   <div class="col-sm-9 col-sm-offset-3">
