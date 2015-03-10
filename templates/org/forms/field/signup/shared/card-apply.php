@@ -10,7 +10,7 @@
   </div>
   <div class="col-sm-9 col-sm-offset-3">
     <div class="checkbox">
-      <p class="text-center">
+      <p>
         <label>
           <input type="checkbox" class="required" value="">
           I agree to these <i>Terms &amp; Conditions</i>.
