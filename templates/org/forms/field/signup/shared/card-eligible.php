@@ -21,6 +21,11 @@
       class="btn btn-block btn-default"
       data-toggle="collapse">Add an address <span class="caret"></span></a> 
   </div>
+  <div class="col-sm-6">
+    <span class="help-block">
+      Why add an address?
+    </span>
+  </div>
 </div>
 
 
