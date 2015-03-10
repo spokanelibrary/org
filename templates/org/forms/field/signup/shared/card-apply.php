@@ -16,7 +16,7 @@
 
         
   </div>
-  <div class="col-sm-6 col-md-3">
+  <div class="col-sm-6">
       <span class="help-block">
           Use of your library card constitutes an acceptance of our <a href="#">Terms &amp; Conditions</a>.
         </span>
