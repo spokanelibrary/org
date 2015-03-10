@@ -64,9 +64,17 @@ var org = {
   }
 
 , checkAddressLocale: function() {
-    if ( 'nonres' == $('#spl-signup-selection').val() ) {
-      $('#spl-form-local').val('other');
+    switch ( $('#spl-signup-selection').val() ) {
+      case 'nonres':
+        $('#spl-form-local').val('other');
+        break;
+      case 'minor':
+        $('#spl-form-local').val('unsure');
+        break;
+      default:
+        break;
     }
+
   }
 
 , normalizeAddress: function(fieldset) {
