@@ -3,14 +3,15 @@
     <p>
       <a href="#"><b>Spokane Public Library Terms &amp; Conditions</b></a>
     </p>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="">
+        I accept.
+      </label>
+    </div>
   </div>
   <div class="col-sm-3 col-sm-offset-3">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="">
-            I accept.
-          </label>
-        </div>
+        
         <span class="help-block">
           Use of your library card constitutes an acceptance of our <a href="#">Terms &amp; Conditions</a>.
         </span>
