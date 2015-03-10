@@ -4,7 +4,7 @@
       Library Card Application
       <small class="pull-right">
         <i class="glyphicon glyphicon-refresh"></i>
-        <a href="./">start over</a>
+        <a href="./">Start over</a>
       </small>
     </h4>
   </div>
