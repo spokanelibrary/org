@@ -53,9 +53,9 @@ var org = {
       _self.normalizeAddress('alt');
     });
 
-    //if ( 'nonres' == $('#spl-signup-selection').val() ) {
+    if ( 'nonres' == $('#spl-signup-selection').val() ) {
       $('#spl-form-local').val('other');
-    //}
+    }
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
       $('#spl-signup-card-type').collapse('hide');
