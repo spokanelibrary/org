@@ -8,7 +8,7 @@
         <div class="checkbox">
           <label>
             <input type="checkbox" value="">
-            I accept.
+            I agree to these terms and conditions.
           </label>
         </div>
 
