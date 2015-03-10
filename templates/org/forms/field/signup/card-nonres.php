@@ -1,6 +1,12 @@
 <div class="panel panel-warning">
   <div class="panel-heading">
-    <h4 class="panel-title">Library Card Application for Non-Residents</h4>
+    <h4 class="panel-title">
+      Library Card Application for Non-Residents
+      <small class="pull-right">
+        <i class="glyphicon glyphicon-refresh"></i>
+        <a href="./">Start over</a>
+      </small>
+    </h4>
   </div>
   <div class="panel-body">
 
