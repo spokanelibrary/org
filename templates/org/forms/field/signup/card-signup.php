@@ -14,6 +14,9 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         value="<?php echo $_SERVER['REMOTE_ADDR']; ?>"
         />
 
+  <input type="text" id="spl-card-type-selection" name="spl-form[card-type]" value="<?php  echo $_REQUEST['spl-form']['card']['type'];?>" />
+  
+
   <?php  
   switch ( $_REQUEST['spl-form']['card']['type'] ) {
     case 'adult':
