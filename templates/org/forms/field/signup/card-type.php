@@ -1,7 +1,8 @@
+<!--
 <div class="page-header">
   <h1>Sign up for a library card</h1>
 </div>
-
+-->
 <form class="form-horizontal spl-form" id="spl-form-card-type" method="post" role="form">
 
   <div class="panel panel-primary">
