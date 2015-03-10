@@ -3,7 +3,7 @@
     <div class="checkbox">
       <label>
         <input type="checkbox" value="">
-        I agree to Spokane Public Library Terms &amp; Conditions.
+        I a accept and agree to follow Spokane Public Library Terms &amp; Conditions.
       </label>
     </div>
   </div>
