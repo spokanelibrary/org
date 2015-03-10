@@ -15,8 +15,8 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         />
 
   <input type="hidden" 
-        id="spl-card-type-selection" 
-        name="spl-form[card-type][selection]" 
+        id="spl-signup-selection" 
+        name="spl-form[signup][selection]" 
         value="<?php  echo $_REQUEST['spl-form']['card']['type'];?>" 
         />
 
