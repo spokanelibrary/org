@@ -3,7 +3,7 @@
     <h4 class="panel-title">
       Library Card Application
       <small class="pull-right">
-        <i class="glyphicon glyphicon-refresh"></a>
+        <i class="glyphicon glyphicon-refresh"></i>
         <a href="./">start over</a>
       </small>
     </h4>
