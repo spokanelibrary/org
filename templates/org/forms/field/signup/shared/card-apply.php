@@ -1,5 +1,5 @@
 <div class="form-group">
-  <div class="col-sm-12">
+  <div class="col-sm-9 col-sm-offset-3">
     <p>
       <a href="#"><b>Spokane Public Library Terms &amp; Conditions</b></a>
     </p>
