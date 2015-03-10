@@ -1,4 +1,7 @@
 <div class="panel panel-info">
+	<div class="panel-header">
+		<h4>Kids Library Card</h4>
+	</div>
   <div class="panel-body">
 
   	<fieldset>
