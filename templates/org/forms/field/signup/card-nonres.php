@@ -1,4 +1,4 @@
-<div class="panel panel-default">
+<div class="panel panel-warning">
   <div class="panel-heading">
     <h4 class="panel-title">Library Card Application for Non-Residents</h4>
   </div>
