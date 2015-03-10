@@ -1,4 +1,4 @@
 <div class="form-group">
-  <?php include './card-pin.php'; ?>
+  <?php include 'shared/card-pin.php'; ?>
 </div>
 
