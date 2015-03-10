@@ -2,7 +2,7 @@
 	<label for="" class="col-sm-3 control-label">My name</label>
   <div class="col-sm-3" id="">
     <span class="help-block">Fist</span>
-    <input type="text" class="form-control required" id="spl-form-name-first" name="spl-form[signup][name][first]" value="" placeholder="">
+    <input type="text" class="form-control required uppercase" id="spl-form-name-first" name="spl-form[signup][name][first]" value="" placeholder="">
   </div>
   <div class="col-sm-3" id="">
     <span class="help-block">Middle</span>
