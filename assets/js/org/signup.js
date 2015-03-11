@@ -51,27 +51,7 @@ var org = {
 
     $('body').on('blur', '.spl-signup-address-alt', function(e) {
       _self.normalizeAddress('alt');
-    });
-
-    //$form.validate();
-    
-    //$('body').on('submit', '#spl-form-signup', function(e) {
-      //e.preventDefault();
-      //if ( $(this).valid() ) {
-        //console.log('valid');
-      //}
-    //});
-    /*
-    $form.on('submit', function(e) {
-      e.preventDefault();     
-      if ( $form.valid() ) {
-        console.log('valid');  
-      } else {
-        console.log('invalid');
-      }
-    });
-    */
-    
+    });    
 
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
