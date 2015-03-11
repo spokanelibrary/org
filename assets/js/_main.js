@@ -226,7 +226,7 @@ var ORG = {
       });
 
       // Scroll effect
-      if ( !($('#spl-form-signup').length > 0) ) {
+      if ( !($('.spl-waypoint-hide').length > 0) ) {
         var waypoint = new Waypoint({
           element: document.getElementById('spl-navbar-primary'),
           handler: function(direction) {
