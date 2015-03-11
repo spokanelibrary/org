@@ -1,6 +1,6 @@
 <div class="form-group">
   <label for="spl-form-location" class="col-sm-3 control-label">My library branch</label>
-  <div class="col-sm-2">
+  <div class="col-sm-3">
     <select class="form-control required" id="spl-form-cards" name="spl-form[signup][cards]">
       <option value="dt" selected>Downtown</option>
       <option value="es">East Side</option>
