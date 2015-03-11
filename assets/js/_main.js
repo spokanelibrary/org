@@ -226,7 +226,7 @@ var ORG = {
       });
 
       // Scroll effect
-      //if ( !$('#spl-form-signup') ) {
+      if ( !($('#spl-form-signup').length > 0) ) {
         var waypoint = new Waypoint({
           element: document.getElementById('spl-navbar-primary'),
           handler: function(direction) {
@@ -239,7 +239,7 @@ var ORG = {
             }          
           }
         })
-      //}
+      }
 
       // Handle enterprise search selector
       $('body').on('click', '.spl-enterprise-search-select-catalog', function(e) {
