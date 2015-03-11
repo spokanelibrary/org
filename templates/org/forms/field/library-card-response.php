@@ -1,6 +1,6 @@
 <?php
 echo '<pre>';
-print_r($crass->response);
+print_r($crass->result);
 echo '</pre>';
 ?>
 
