@@ -59,9 +59,9 @@ var org = {
     console.log('test');
     console.log($form);
     
-    $('body').on('submit', '#spl-form-signup', function(e)) {
+    $('body').on('submit', '#spl-form-signup', function(e) {
       e.preventDefault();
-    }
+    });
     /*
     $form.on('submit', function(e) {
       e.preventDefault();     
