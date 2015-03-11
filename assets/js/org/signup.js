@@ -55,12 +55,12 @@ var org = {
 
     //$form.validate();
     
-    $('body').on('submit', '#spl-form-signup', function(e) {
-      e.preventDefault();
-      if ( $(this).valid() ) {
-        console.log('valid');
-      }
-    });
+    //$('body').on('submit', '#spl-form-signup', function(e) {
+      //e.preventDefault();
+      //if ( $(this).valid() ) {
+        //console.log('valid');
+      //}
+    //});
     /*
     $form.on('submit', function(e) {
       e.preventDefault();     
