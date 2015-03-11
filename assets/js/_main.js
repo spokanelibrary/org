@@ -226,18 +226,20 @@ var ORG = {
       });
 
       // Scroll effect
-      var waypoint = new Waypoint({
-        element: document.getElementById('spl-navbar-primary'),
-        handler: function(direction) {
-          if ('down' == direction) {
-            $('#spl-navbar-common').addClass('navbar-fixed-top');
-            //$('#spl-navbar-primary').addClass('navbar-fixed-top');
-          } else {
-            $('#spl-navbar-common').removeClass('navbar-fixed-top');
-            //$('#spl-navbar-primary').removeClass('navbar-fixed-top');
-          }          
-        }
-      })
+      if ( !$('#spl-form-signup') ) {
+        var waypoint = new Waypoint({
+          element: document.getElementById('spl-navbar-primary'),
+          handler: function(direction) {
+            if ('down' == direction) {
+              $('#spl-navbar-common').addClass('navbar-fixed-top');
+              //$('#spl-navbar-primary').addClass('navbar-fixed-top');
+            } else {
+              $('#spl-navbar-common').removeClass('navbar-fixed-top');
+              //$('#spl-navbar-primary').removeClass('navbar-fixed-top');
+            }          
+          }
+        })
+      }
 
       // Handle enterprise search selector
       $('body').on('click', '.spl-enterprise-search-select-catalog', function(e) {
