@@ -6,7 +6,7 @@
         <i class="glyphicon glyphicon-refresh"></i>
         <a href="./">Start over</a>
       </small>
-		</h4>e
+		</h4>
 	</div>
   <div class="panel-body">
 
