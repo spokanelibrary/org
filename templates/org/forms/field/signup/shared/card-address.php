@@ -9,7 +9,7 @@
   </div>
   <label for="spl-form-state" class="col-sm-1 control-label">State</label>
   <div class="col-sm-2">
-    <input type="text" class="form-control required spl-signup-address" id="spl-form-state" name="spl-form[signup][address][state]" value="" placeholder="">
+    <input type="text" class="form-control required spl-signup-address uppercase" id="spl-form-state" name="spl-form[signup][address][state]" value="" placeholder="">
   </div>
   <label for="spl-form-zip" class="col-sm-1 col-sm-offset-3 control-label">ZIP</label>
   <div class="col-sm-2">

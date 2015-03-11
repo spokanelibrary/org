@@ -20,7 +20,7 @@
   </div>
   <label for="spl-form-school-state" class="col-sm-1 control-label text-success">State</label>
   <div class="col-sm-2">
-    <input type="text" class="form-control required spl-signup-address" id="spl-form-school-state" name="spl-form[signup][school][address][state]" value="" placeholder="">
+    <input type="text" class="form-control required spl-signup-address uppercase" id="spl-form-school-state" name="spl-form[signup][school][address][state]" value="" placeholder="">
   </div>
   <label for="spl-form-school-zip" class="col-sm-1 col-sm-offset-3 control-label text-success">ZIP</label>
   <div class="col-sm-2">
