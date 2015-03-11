@@ -14,7 +14,7 @@
   </div>
   <div class="col-sm-9 col-sm-offset-3">
     <span class="help-block">
-      If under 18
+      <b>If you are under 18, please provide the name of your parent or guardian.</b>
     </span>
   </div>
 </div>
