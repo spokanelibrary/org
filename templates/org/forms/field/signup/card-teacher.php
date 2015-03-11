@@ -17,6 +17,7 @@
       </legend>
       <?php include 'shared/card-name.php'; ?>
       <?php include 'shared/card-pin-bday.php'; ?>
+      <?php include 'shared/card-location.php'; ?>
     </fieldset>
 
     <fieldset>
