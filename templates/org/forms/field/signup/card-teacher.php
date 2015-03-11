@@ -30,17 +30,17 @@
     <fieldset>
       <legend class="text-muted">
         <small class="glyphicon glyphicon-"></small>
-        Your primary mailing address
+        Tell us about your school
       </legend>
-      <?php include 'shared/card-address.php'; ?>
+      <?php include 'shared/card-school.php'; ?>
     </fieldset>
 
     <fieldset>
       <legend class="text-muted">
         <small class="glyphicon glyphicon-"></small>
-        Library card eligibility
+        Your home address
       </legend>
-      <?php include 'shared/card-eligible.php'; ?>
+      <?php include 'shared/card-address.php'; ?>
     </fieldset>
 
     <fieldset>
