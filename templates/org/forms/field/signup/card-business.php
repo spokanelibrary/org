@@ -32,7 +32,7 @@
         <small class="glyphicon glyphicon-"></small>
         Tell us about your business
       </legend>
-      <?php include 'shared/card-businfo.php'; ?>
+      <?php include 'shared/card-bus-info.php'; ?>
     </fieldset>
 
     <fieldset>
