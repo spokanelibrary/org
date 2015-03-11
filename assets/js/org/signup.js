@@ -53,6 +53,19 @@ var org = {
       _self.normalizeAddress('alt');
     });
 
+    var $form = $('#spl-form-profile-email');
+
+    $form.validate();
+    
+    /*
+    $form.on('submit', function(e) {
+      e.preventDefault();     
+      if ( $form.valid() ) {
+        console.log();  
+      }
+    });
+    */
+
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
       $('#spl-signup-card-type').collapse('hide');
