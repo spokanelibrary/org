@@ -40,6 +40,7 @@ var org = {
     $('button').attr('disabled', false);
 
     _self.checkAddressLocale();
+    _self.checkAgeGuardian();
 
     $('body').on('blur', '#spl-form-birthdate', function(e) {
       _self.normalizeBirthdate( $(this).attr('id'), $(this).val() );
@@ -61,6 +62,17 @@ var org = {
       e.preventDefault();
     });
     */
+  }
+
+, checkAgeGuardian: function() {
+    switch ( $('#spl-signup-selection').val() ) {
+      case 'minor':
+        $('#spl-form-guardian').collapse('show');
+        break;
+      default:
+        break;
+    }
+
   }
 
 , checkAddressLocale: function() {
