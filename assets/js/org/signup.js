@@ -55,16 +55,18 @@ var org = {
 
     var $form = $('#spl-form-signup');
 
-    $form.validate();
+    //$form.validate();
     
-    /*
+    
     $form.on('submit', function(e) {
       e.preventDefault();     
       if ( $form.valid() ) {
-        console.log();  
+        console.log('valid');  
+      } else {
+        console.log('invalid');
       }
     });
-    */
+    
 
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
