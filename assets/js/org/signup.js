@@ -53,10 +53,10 @@ var org = {
       _self.normalizeAddress('alt');
     });
 
-    var $form = $('#spl-form-signup');
+    $form = $('#spl-form-signup');
 
     //$form.validate();
-    
+    console.log('test');
     console.log($form);
     $form.on('submit', function(e) {
       e.preventDefault();     
