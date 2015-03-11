@@ -1,8 +1,8 @@
 <div class="form-group">
   <?php include 'card-pin.php'; ?>
-  <label for="spl-form-birthdate" class="col-sm-3 control-label">Date of birth</label>
+  <label for="spl-form-birthdate" class="col-sm-3 control-label">My birthday</label>
   <div class="col-sm-3">
-    <input type="text" class="form-control required" id="spl-form-birthdate" name="spl-form[signup][birthdate]" value="" placeholder="">
+    <input type="text" class="form-control required" id="spl-form-birthdate" name="spl-form[signup][birthdate]" value="" placeholder="yyyy-mm-dd">
     <a href="#signup-help-dob" 
         class="btn btn-link"
         data-toggle="collapse">Why do we ask? <span class="caret"></span></a> 
