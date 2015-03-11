@@ -25,7 +25,7 @@
             <div class="radio">
               <label>
                 <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult" checked>
-                <b>an adult</b> with an address or residence in Spokane County.
+                <b>an adult</b> with an address or residence in Spokane (City or County).
               </label>
             </div>
             <div class="radio">
