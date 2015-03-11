@@ -32,7 +32,7 @@
         <small class="glyphicon glyphicon-"></small>
         Tell us about your school
       </legend>
-      <?php include 'shared/card-school.php'; ?>
+      <?php include 'shared/card-school-info.php'; ?>
     </fieldset>
 
     <fieldset>
