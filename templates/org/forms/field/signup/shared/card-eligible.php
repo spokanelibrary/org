@@ -29,7 +29,6 @@
 </div>
 
 
-
 <div class="collapse" id="signup-address-alt">
   <div class="form-group">
     <label for="spl-form-street" class="col-sm-3 control-label">Street address</label>
@@ -40,7 +39,7 @@
     <div class="col-sm-2">
       <input type="text" class="form-control required spl-signup-address-alt" id="spl-form-city-alt" name="spl-form[signup][address-alt][city]" value="" placeholder="">
     </div>
-    <label for="spl-form-state" class="col-sm-1 control-label">State</label>
+    <label for="spl-form-state" class="col-sm-1 control-label uppercase">State</label>
     <div class="col-sm-2">
       <input type="text" class="form-control required spl-signup-address-alt" id="spl-form-state-alt" name="spl-form[signup][address-alt][state]" value="" placeholder="">
     </div>

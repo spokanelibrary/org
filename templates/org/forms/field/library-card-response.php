@@ -1,10 +1,10 @@
 <?php
 echo '<pre>';
-print_r($crass);
+print_r($crass->response);
 echo '</pre>';
 ?>
 
-<?php if ( isset( $crass->result['date'] ) ) : ?>
+<?php if ( isset( $crass->response ) ) : ?>
 
 <div class="alert alert-success">
   
