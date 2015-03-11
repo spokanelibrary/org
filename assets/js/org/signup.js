@@ -57,7 +57,7 @@ var org = {
 
     //$form.validate();
     
-    
+    console.log($form);
     $form.on('submit', function(e) {
       e.preventDefault();     
       if ( $form.valid() ) {
