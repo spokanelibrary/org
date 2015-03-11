@@ -15,7 +15,7 @@
     <div class="checkbox">
       <p>
         <label>
-          <input type="checkbox" class="required" value="">
+          <input type="checkbox" value="">
           I agree to these <i>Terms &amp; Conditions</i>.
         </label>
       </p>
