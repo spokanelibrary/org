@@ -53,7 +53,7 @@ var org = {
       _self.normalizeAddress('alt');
     });
 
-    var $form = $('#spl-form-profile-email');
+    var $form = $('#spl-form-signup');
 
     $form.validate();
     
