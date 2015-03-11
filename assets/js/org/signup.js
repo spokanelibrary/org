@@ -58,6 +58,10 @@ var org = {
     $form.validate();
     console.log('test');
     console.log($form);
+    
+    $('body').on('submit', '#spl-form-signup', function(e)) {
+      e.preventDefault();
+    }
     /*
     $form.on('submit', function(e) {
       e.preventDefault();     
