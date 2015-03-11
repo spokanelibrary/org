@@ -55,9 +55,10 @@ var org = {
 
     $form = $('#spl-form-signup');
 
-    //$form.validate();
+    $form.validate();
     console.log('test');
     console.log($form);
+    /*
     $form.on('submit', function(e) {
       e.preventDefault();     
       if ( $form.valid() ) {
@@ -66,6 +67,7 @@ var org = {
         console.log('invalid');
       }
     });
+    */
     
 
     /*
