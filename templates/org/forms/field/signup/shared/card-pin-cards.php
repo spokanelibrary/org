@@ -1,7 +1,7 @@
 <div class="form-group">
   <?php include 'card-pin.php'; ?>
   <label for="spl-form-cards" class="col-sm-3 control-label">Number of cards</label>
-  <div class="col-sm-3">
+  <div class="col-sm-1">
     <select class="form-control required" id="spl-form-cards" name="spl-form[signup][cards]">
       <option value="1" selected>1</option>
       <option value="2">2</option>
