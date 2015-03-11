@@ -10,10 +10,11 @@
       <option value="5">5</option>
     </select>
   </div>
-
-  <span class="help-block">
-    PIN is the same for all cards. You can change these later.
-  </span>
+  <div class="col-sm-6">
+    <span class="help-block">
+      PIN is the same for all cards. You can change these later.
+    </span>
+  </div>
 
 </div>
 
