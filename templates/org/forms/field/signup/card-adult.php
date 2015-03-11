@@ -16,7 +16,7 @@
         Let's get started
       </legend>
       <?php include 'shared/card-name.php'; ?>
-      <?php include 'shared/card-pin-bday.php'; ?>
+      <?php //include 'shared/card-pin-bday.php'; ?>
     </fieldset>
 
     <fieldset>
@@ -24,7 +24,7 @@
         <small class="glyphicon glyphicon-"></small>
         Tell us how to reach you
       </legend>
-      <?php include 'shared/card-contact.php'; ?>
+      <?php //include 'shared/card-contact.php'; ?>
     </fieldset>
 
     <fieldset>
@@ -32,7 +32,7 @@
         <small class="glyphicon glyphicon-"></small>
         Your primary mailing address
       </legend>
-      <?php include 'shared/card-address.php'; ?>
+      <?php //include 'shared/card-address.php'; ?>
     </fieldset>
 
     <fieldset>
@@ -40,7 +40,7 @@
         <small class="glyphicon glyphicon-"></small>
         Library card eligibility
       </legend>
-      <?php include 'shared/card-eligible.php'; ?>
+      <?php //include 'shared/card-eligible.php'; ?>
     </fieldset>
 
     <fieldset>
