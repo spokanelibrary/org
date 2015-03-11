@@ -30,9 +30,9 @@
     <fieldset>
       <legend class="text-muted">
         <small class="glyphicon glyphicon-"></small>
-        Business address
+        Tell us about your business
       </legend>
-      <?php include 'shared/card-address.php'; ?>
+      <?php include 'shared/card-businfo.php'; ?>
     </fieldset>
 
     <fieldset>
