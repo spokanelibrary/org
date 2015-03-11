@@ -6,7 +6,7 @@
         <i class="glyphicon glyphicon-refresh"></i>
         <a href="./">Start over</a>
       </small>
-		</h4>
+		</h4>e
 	</div>
   <div class="panel-body">
 
@@ -30,7 +30,7 @@
     <fieldset>
       <legend class="text-muted">
         <small class="glyphicon glyphicon-"></small>
-        Your primary mailing address
+        Business address
       </legend>
       <?php include 'shared/card-address.php'; ?>
     </fieldset>
