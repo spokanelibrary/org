@@ -1,8 +1,6 @@
-<?php 
-$spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']); 
-?>
-<div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
 <form class="form-horizontal spl-form spl-waypoint-hide" id="spl-form-signup" method="post" role="form">
+  <?php $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']); ?>
+  <div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
 
   <?php include realpath(__DIR__.'/../common/crass-response.php'); ?>
 
