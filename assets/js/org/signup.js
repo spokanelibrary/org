@@ -25,7 +25,7 @@ var org = {
 		}
 		this.user = ORG.user;
 
-    //this.initSignup();
+    this.initSignup();
 }
 
 , initSignup: function() {
