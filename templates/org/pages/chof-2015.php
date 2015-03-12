@@ -40,8 +40,10 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<div class="chof-icon" style="position:absolute; top:0; right:0;">
-						<h5>AL</h5>
+					<div style="position:relative;">
+						<div class="chof-icon" style="position:absolute; top:0; right:0;">
+							<h5>AL</h5>
+						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 					<div class="chof-text-wrapper">			
