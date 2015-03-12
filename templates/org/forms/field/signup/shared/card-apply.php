@@ -1,7 +1,7 @@
 <div class="form-group">
   <div class="col-sm-6 col-sm-offset-3">
     <div class="well well-sm">
-      <p>
+      <p class="text-muted">
         <b>
         I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees for overdue, lost, or damaged materials.
         </b>
