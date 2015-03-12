@@ -92,13 +92,13 @@
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
+						<div class="chof-icon-mask chof-icon-light">
 							<h5 class="chof-title">BU</h5>
 						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
 					<div class="chof-text-wrapper">			
-						<div class="chof-text-mask chof-icon-light">
+						<div class="chof-text-mask">
 							<h6 class="chof-title">Gordon Budke</h6>
 						</div>
 					</div>
