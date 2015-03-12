@@ -75,7 +75,7 @@
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Chief Spokane Garry</h6>
+							<h5 class="chof-title">Chief Spokane Garry</h5>
 						</div>
 					</div>
 				</div>
@@ -93,7 +93,7 @@
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
 						<div class="chof-icon-mask chof-icon-light">
-							<h6 class="chof-title chof-text-blue">BU</h6>
+							<h5 class="chof-title chof-text-blue">BU</h5>
 						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
