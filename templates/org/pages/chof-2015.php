@@ -40,9 +40,9 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<div class="chof-text-">			
+					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Harold Balazs</h6>
+							<h6 class="chof-title">AL</h6>
 						</div>
 					</div>
 					<!--
