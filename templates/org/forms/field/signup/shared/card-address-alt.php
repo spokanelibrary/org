@@ -9,12 +9,12 @@
   <div class="col-sm-2">
     <input type="text" class="form-control required spl-signup-address-alt" id="spl-form-city-alt" name="spl-form[signup][address-alt][city]" value="" placeholder="">
   </div>
-  <label for="spl-form-state" class="col-sm-1 control-label uppercase">State</label>
+  <label for="spl-form-state" class="col-sm-1 control-label">State</label>
   <div class="col-sm-2">
-    <input type="text" class="form-control required spl-signup-address-alt" id="spl-form-state-alt" name="spl-form[signup][address-alt][state]" value="" placeholder="">
+    <input type="text" class="form-control required spl-signup-address-alt uppercase" id="spl-form-state-alt" name="spl-form[signup][address-alt][state]" value="" placeholder="">
   </div>
   <label for="spl-form-zip" class="col-sm-1 col-sm-offset-3 control-label">ZIP</label>
   <div class="col-sm-2">
-    <input type="text" class="form-control required spl-signup-address-alt" id="spl-form-zip-alt" name="spl-form[signup][address-alt][zip]" value="" placeholder="">
+    <input type="text" class="form-control required spl-signup-address-alt uppercase" id="spl-form-zip-alt" name="spl-form[signup][address-alt][zip]" value="" placeholder="">
   </div>
 </div>
