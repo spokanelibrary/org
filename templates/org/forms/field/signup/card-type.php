@@ -22,7 +22,7 @@
             <h2>I am:</h2>
           </label>
           <div class="col-sm-10" id="spl-form-card-type">
-            <div class="well well-sm">
+            <div class="alert">
               <div class="radio">
                 <label>
                   <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult" checked>
