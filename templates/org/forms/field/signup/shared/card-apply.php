@@ -42,16 +42,22 @@
         <h4 class="modal-title" id="spl-terms-conditions-title">Library Card Terms &amp; Conditions</h4>
       </div>
       <div class="modal-body">
-        <p>
-          I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees, including attorney fees, assessed by Spokane Public Library or its collection agency for overdue, lost, or damaged materials.
-          I understand that I am responsibile for all use of my account, with or without my consent.
-        </p>
-        <p>
+        <ul>
+          <li>
+            I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees, including attorney fees, assessed by Spokane Public Library or its collection agency for overdue, lost, or damaged materials.
+          </li>
+          <li>
+            I understand that I am responsibile for all use of my account, with or without my consent.
+          </li>
+          <li>
           I understand that failure to follow library rules may result in suspension of my library priveleges and/or referral to a collection agency.
           Spokane Public Library refers delinquent accounts to a commercial collection agency.
+          </li>
+          <li>
           I understand and agree that I am responsible for all additional collection fees.
           Any court action will be in Spokane County.
-        </p>
+          </li>
+        </ul>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success">I agree!</button>
