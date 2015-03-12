@@ -55,7 +55,7 @@ var org = {
     });    
 
     $('body').on('change', "[name='spl-form[card][type]']", function(e) {
-      alert( $(this).val() );
+      $(this).nearest('form').submit();
     });
 
     /*
