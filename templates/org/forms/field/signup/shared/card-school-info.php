@@ -8,3 +8,5 @@
     <input type="text" class="form-control" id="spl-form-school-phone required" name="spl-form[signup][school][phone]" value="" placeholder="">
   </div>
 </div>
+
+<?php include 'card-address-alt.php'; ?>
