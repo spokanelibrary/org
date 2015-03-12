@@ -19,7 +19,7 @@
 
         <div class="form-group">
           <label for="spl-form-card-type" class="col-sm-2 control-label">
-            <h2>I am:</h2>
+            <h2 class="text-muted">I am:</h2>
           </label>
           <div class="col-sm-10 col-md-8 col-lg-7" id="spl-form-card-type">
             <div class="panel panel-default">
