@@ -54,7 +54,7 @@ var org = {
       _self.normalizeAddress('alt');
     });    
 
-    $('body').on('change', "[attribute*='[card][type]']", function(e) {
+    $('body').on('change', "[attribute*='spl-form[card][type]']", function(e) {
       alert( $(this).val() );
     });
 
