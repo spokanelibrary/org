@@ -42,7 +42,7 @@
 				<div class="panel-body">
 					<div class="chof-orange chof-text-light" style="position:relative;">
 						<div class="chof-icon" style=" position:absolute; top:0; right:0;">
-							<h5 class="chof-text-light" style="margin:5px;">AL</h5>
+							<h5 class="" style="margin:5px;">AL</h5>
 						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
