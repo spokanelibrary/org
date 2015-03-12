@@ -98,7 +98,7 @@
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
 					<div class="chof-text-wrapper">			
-						<div class="chof-text-mask">
+						<div class="chof-text-mask chof-icon-light">
 							<h6 class="chof-title">Gordon Budke</h6>
 						</div>
 					</div>
@@ -281,7 +281,7 @@
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
+						<div class="chof-icon-mask chof-icon-light">
 							<h5 class="chof-title">HI</h5>
 						</div>
 					</div>
@@ -305,7 +305,7 @@
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
+						<div class="chof-icon-mask chof-icon-light">
 							<h5 class="chof-title">PS</h5>
 						</div>
 					</div>
