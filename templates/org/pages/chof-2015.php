@@ -208,6 +208,11 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-g">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
+					<div class="chof-text-wrapper">			
+						<div class="chof-icon-mask chof-icon-dark">
+							<h5 class="chof-title chof-text-yellow">IL</h5>
+						</div>
+					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
