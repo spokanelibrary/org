@@ -41,7 +41,7 @@
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
+						<div class="chof-icon-mask chof-icon-dark">
 							<h5 class="chof-title chof-text-orange">AL</h5>
 						</div>
 					</div>
