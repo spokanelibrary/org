@@ -66,8 +66,8 @@
         </div>
 
         <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-4">
-            <button type="submit" class="btn btn-xl btn-block btn-primary">
+          <div class="col-sm-offset-2 col-sm-10 col-md-8">
+            <button type="submit" class="btn btn-lg btn-block btn-primary">
               <b>Next</b>
               <small class="glyphicon glyphicon-arrow-right"></small>
             </button>
