@@ -67,6 +67,11 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-b">
 			<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
 				<div class="panel-body">
+					<div class="chof-text-wrapper">			
+						<div class="chof-icon-mask">
+							<h6 class="chof-title chof-text-gray">H</h6>
+						</div>
+					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
