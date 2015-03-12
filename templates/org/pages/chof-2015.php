@@ -68,8 +68,8 @@
 			<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask chof-icon-dark">
-							<h5 class="chof-title chof-text-gray">HI</h5>
+						<div class="chof-icon-mask">
+							<h5 class="chof-title">HI</h5>
 						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
@@ -93,7 +93,7 @@
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
 						<div class="chof-icon-mask">
-							<h5 class="chof-title chof-text-blue">BU</h5>
+							<h5 class="chof-title">BU</h5>
 						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
@@ -116,8 +116,8 @@
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask chof-icon-dark">
-							<h5 class="chof-title chof-text-orange">HI</h5>
+						<div class="chof-icon-mask">
+							<h5 class="chof-title">HI</h5>
 						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
@@ -144,8 +144,8 @@
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask chof-icon-dark">
-							<h5 class="chof-title chof-text-green">ED</h5>
+						<div class="chof-icon-mask">
+							<h5 class="chof-title">ED</h5>
 						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/5">
@@ -168,8 +168,8 @@
 			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask chof-icon-dark">
-							<h5 class="chof-title chof-text-red">HI</h5>
+						<div class="chof-icon-mask">
+							<h5 class="chof-title">HI</h5>
 						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/6">
@@ -209,8 +209,8 @@
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask chof-icon-dark">
-							<h5 class="chof-title chof-text-yellow">IL</h5>
+						<div class="chof-icon-mask">
+							<h5 class="chof-title">IL</h5>
 						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
