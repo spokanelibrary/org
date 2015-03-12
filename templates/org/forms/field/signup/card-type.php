@@ -25,7 +25,7 @@
             <div class="alert well">
               <div class="radio">
                 <label>
-                  <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult">
+                  <input type="radio" class="required" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult">
                   <b>an adult</b> with an address or residence in Spokane (City or County).
                 </label>
               </div>
