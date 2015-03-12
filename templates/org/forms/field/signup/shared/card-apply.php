@@ -2,7 +2,7 @@
   <div class="col-sm-6 col-sm-offset-3">
     <div class="well well-sm">
       <p>
-          I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees for overdue, lost, or damaged materials.
+        I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees for overdue, lost, or damaged materials.
       </p>
       <p class="text-center">
         <i class="glyphicon glyphicon-share text-muted"></i>
