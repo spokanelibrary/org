@@ -40,7 +40,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<div style="position:relative;">
+					<div class="chof-orange" style="position:relative;">
 						<div class="chof-icon" style="background:#fff; position:absolute; top:0; right:0;">
 							<h5 style="margin:5px;">AL</h5>
 						</div>
