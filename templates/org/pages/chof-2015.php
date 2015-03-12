@@ -91,6 +91,11 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-c">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
+					<div class="chof-text-wrapper">			
+						<div class="chof-icon-mask">
+							<h6 class="chof-title chof-text-blue">BU</h6>
+						</div>
+					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
@@ -110,10 +115,6 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-d">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<div class="chof-text-wrapper">			
-					<div class="chof-icon-mask">
-						<h6 class="chof-title chof-text-blue">BU</h6>
-					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
