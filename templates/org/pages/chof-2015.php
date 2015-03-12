@@ -52,7 +52,7 @@
 						</div>
 					</div>
 					-->
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
+					<img class="img-responsive" style="min-height:100px;" src="http://lorempixel.com/g/200/200/people/3">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Harold Balazs</h6>
