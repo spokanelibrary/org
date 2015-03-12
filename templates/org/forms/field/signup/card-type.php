@@ -38,11 +38,13 @@
                 </label>
               </div>
             </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor">
-                <b class="text-info">under 18</b> years old.
-              </label>
+            <div class="alert alert-info">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor">
+                  <b class="text-info">under 18</b> years old.
+                </label>
+              </div>
             </div>
             <div class="radio">
               <label>
