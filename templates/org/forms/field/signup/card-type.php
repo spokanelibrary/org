@@ -42,28 +42,34 @@
                 </div>
               </div>
             </div>
-            <div class="alert alert-info">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor">
-                  <b class="text-info">under 18</b> years old.
-                </label>
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-minor" value="minor">
+                    <b class="text-info">under 18</b> years old.
+                  </label>
+                </div>
               </div>
             </div>
-            <div class="alert alert-success">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-teacher" value="teacher">
-                  <b class="text-success">a teacher</b> and I need a card for my classroom.
-                </label>
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-teacher" value="teacher">
+                    <b class="text-success">a teacher</b> and I need a card for my classroom.
+                  </label>
+                </div>
               </div>
             </div>
-            <div class="alert alert-danger">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-business" value="business">
-                  <b class="text-danger">a business or non-profit</b> and I need a card for myself or my employees.
-                </label>
+            <div class="panel panel-danger">
+              <div class="panel-heading">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-business" value="business">
+                    <b class="text-danger">a business or non-profit</b> and I need a card for myself or my employees.
+                  </label>
+                </div>
               </div>
             </div>
             <button type="submit" class="btn btn-lg btn-block btn-primary">
