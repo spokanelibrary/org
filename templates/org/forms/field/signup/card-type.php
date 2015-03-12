@@ -22,17 +22,21 @@
             <h2>I am:</h2>
           </label>
           <div class="col-sm-10" id="spl-form-card-type">
-            <div class="radio">
-              <label>
-                <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult" checked>
-                <b>an adult</b> with an address or residence in Spokane (City or County).
-              </label>
+            <div class="well">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult" checked>
+                  <b>an adult</b> with an address or residence in Spokane (City or County).
+                </label>
+              </div>
             </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="nonres">
-                <b class="text-warning">an adult</b> living elsewhere (no address or property in Spokane County).
-              </label>
+            <div class="alert alert-warning">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-adult" value="nonres">
+                  <b class="text-warning">an adult</b> living elsewhere (no address or property in Spokane County).
+                </label>
+              </div>
             </div>
             <div class="radio">
               <label>
