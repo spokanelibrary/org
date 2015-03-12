@@ -33,7 +33,7 @@
             <div class="alert alert-warning">
               <div class="radio">
                 <label>
-                  <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-nonres" value="nonres">
+                  <input type="radio" class="required" name="spl-form[card][type]" id="spl-form-card-type-nonres" value="nonres">
                   <b class="text-warning">an adult</b> living elsewhere (no address or property in Spokane County).
                 </label>
               </div>
