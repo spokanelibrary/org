@@ -4,7 +4,7 @@
 			Kids Library Card
 			<small class="pull-right">
         <i class="glyphicon glyphicon-refresh"></i>
-        <a href="./">Start over</a>
+        <a href="./"><span class="text-muted">Start over</span></a>
       </small>
 		</h4>
 	</div>
