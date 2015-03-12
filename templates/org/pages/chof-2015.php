@@ -41,17 +41,10 @@
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask" style="width:auto; right:0;">
+						<div class="chof-icon-mask">
 							<h6 class="chof-title chof-text-orange">AL</h6>
 						</div>
 					</div>
-					<!--
-					<div class="chof-orange" style="position:relative;">
-						<div class="chof-icon chof-orange chof-text-light" style=" position:absolute; top:0; right:0;">
-							<h5 class="" style="margin:5px;">AL</h5>
-						</div>
-					</div>
-					-->
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
