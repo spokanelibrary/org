@@ -64,6 +64,10 @@
                 </label>
               </div>
             </div>
+            <button type="submit" class="btn btn-lg btn-block btn-primary">
+              <b>Next</b>
+              <small class="glyphicon glyphicon-arrow-right"></small>
+            </button>
           </div>
         </div>
 
