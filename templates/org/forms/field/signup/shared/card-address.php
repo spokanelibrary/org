@@ -3,7 +3,7 @@
   <div class="col-sm-3">
     <!--<textarea rows="3" class="form-control required spl-signup-address" id="spl-form-street" name="spl-form[signup][address][street]"></textarea>-->
     <input type="text" class="form-control required spl-signup-address" id="spl-form-street-1" name="spl-form[signup][address][street][1]" value="" placeholder="">
-    <input type="text" class="form-control required spl-signup-address" id="spl-form-street-2" name="spl-form[signup][address][street][2]" value="" placeholder="">
+    <input type="text" class="form-control spl-signup-address" id="spl-form-street-2" name="spl-form[signup][address][street][2]" value="" placeholder="">
   </div>
   <label for="spl-form-city" class="col-sm-1 control-label">City</label>
   <div class="col-sm-2">

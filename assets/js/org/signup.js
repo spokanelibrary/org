@@ -94,7 +94,6 @@ var org = {
   }
 
 , normalizeAddress: function(fieldset) {
-    console.log('test');
     if ( fieldset ) {
       switch ( fieldset ) {
         case 'address':
