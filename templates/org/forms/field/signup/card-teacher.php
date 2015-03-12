@@ -34,6 +34,7 @@
         Tell us about your school
       </legend>
       <?php include 'shared/card-school-info.php'; ?>
+      <?php include 'shared/card-address-alt.php'; ?>
     </fieldset>
 
     <fieldset>
