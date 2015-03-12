@@ -24,20 +24,22 @@
           <div class="col-sm-10 col-md-8 col-lg-7" id="spl-form-card-type">
             <div class="panel panel-default">
               <div class="panel-heading">
-              <div class="radio">
-                <label>
-                  <input type="radio" class="" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult">
-                  <b>an adult</b> with an address or residence in Spokane (City or County).
-                </label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" class="" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult">
+                    <b>an adult</b> with an address or residence in Spokane (City or County).
+                  </label>
                 </div>
               </div>
             </div>
-            <div class="alert alert-warning">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-nonres" value="nonres">
-                  <b class="text-warning">an adult</b> living elsewhere (no address or property in Spokane County).
-                </label>
+            <div class="panel panel-warning">
+              <div class="panel-heading">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="spl-form[card][type]" id="spl-form-card-type-nonres" value="nonres">
+                    <b class="text-warning">an adult</b> living elsewhere (no address or property in Spokane County).
+                  </label>
+                </div>
               </div>
             </div>
             <div class="alert alert-info">
@@ -64,15 +66,6 @@
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-lg btn-block btn-primary">
-              <b>Next</b>
-              <small class="glyphicon glyphicon-arrow-right"></small>
-            </button>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10 col-md-8 col-lg-7">
             <button type="submit" class="btn btn-lg btn-block btn-primary">
               <b>Next</b>
               <small class="glyphicon glyphicon-arrow-right"></small>
