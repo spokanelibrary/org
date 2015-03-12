@@ -68,7 +68,7 @@
 			<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
+						<div class="chof-icon-mask chof-icon-light">
 							<h5 class="chof-title chof-text-gray">HI</h5>
 						</div>
 					</div>
