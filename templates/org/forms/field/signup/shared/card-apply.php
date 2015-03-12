@@ -1,10 +1,12 @@
 <div class="form-group">
   <div class="col-sm-6 col-sm-offset-3">
     <div class="well well-sm">
-      <p class="text-muted">
-        <b>
-        I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees for overdue, lost, or damaged materials.
-        </b>
+      <p>
+        <span class="help-block">
+          <b>
+          I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees for overdue, lost, or damaged materials.
+          </b>
+        </span>
       </p>
       <p class="text-center">
         <i class="glyphicon glyphicon-share text-muted"></i>
