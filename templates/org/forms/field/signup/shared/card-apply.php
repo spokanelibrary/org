@@ -1,9 +1,12 @@
 <div class="form-group">
-  <div class="col-sm-6 col-sm-offset-3">
-    <div class="well well-sm">
-      <p>
+  <div class="col-sm-9">
+    <p>
         I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees for overdue, lost, or damaged materials.
       </p>
+  </div>
+  <div class="col-sm-6 col-sm-offset-3">
+    <div class="well well-sm">
+      
       <p class="text-center">
         <i class="glyphicon glyphicon-share text-muted"></i>
         <a href="#" data-toggle="modal" data-target="#spl-terms-conditions">Read Library Card <i>Terms &amp; Conditions</i></a>
