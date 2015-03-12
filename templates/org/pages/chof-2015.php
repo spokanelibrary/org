@@ -69,13 +69,13 @@
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
 						<div class="chof-icon-mask">
-							<h6 class="chof-title chof-text-gray">HI</h6>
+							<h5 class="chof-title chof-text-gray">HI</h5>
 						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h5 class="chof-title">Chief Spokane Garry</h5>
+							<h6 class="chof-title">Chief Spokane Garry</h6>
 						</div>
 					</div>
 				</div>
