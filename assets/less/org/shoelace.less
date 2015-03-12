@@ -625,8 +625,7 @@ a .chof-panel:hover {
   position:absolute; 
   
   color:#333;
-  //background: fade(@chof-gray, 80%);
-  background: fade(#fff, 80%);
+  background: fade(#000, 70%);
 }
 
 .chof-text-mask {
@@ -635,10 +634,6 @@ a .chof-panel:hover {
   position:absolute; 
   
   color:#eee;
-  background: fade(#000, 70%);
-}
-
-.chof-icon-dark {
   background: fade(#000, 70%);
 }
 
@@ -760,6 +755,9 @@ a .chof-green:hover {
   .chof-icon-mask {
     border-left: 1px solid @chof-orange;
     border-bottom: 1px solid @chof-orange;
+    .chof-title {
+      color: @chof-orange;
+    }
   }
 }
 a .chof-orange:hover {
