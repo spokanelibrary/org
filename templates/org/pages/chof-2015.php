@@ -41,7 +41,7 @@
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<div style="position:relative;">
-						<div class="chof-icon" style="position:absolute; top:0; right:0;">
+						<div class="chof-icon" style="background:#fff; position:absolute; top:0; right:0;">
 							<h5>AL</h5>
 						</div>
 					</div>
