@@ -41,8 +41,8 @@
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<div class="chof-orange" style="position:relative;">
-						<div class="chof-icon chof-text-mask" style="background:#fff; position:absolute; top:0; right:0;">
-							<h5 class="chof=text-orange" style="margin:5px;">AL</h5>
+						<div class="chof-icon" style="background:#fff; position:absolute; top:0; right:0;">
+							<h5 class="chof-text-orange" style="margin:5px;">AL</h5>
 						</div>
 					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
