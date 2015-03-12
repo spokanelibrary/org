@@ -11,6 +11,14 @@
           <small>You won't lose the information you have entered.</small>
         </span>
       </p>
+      <div class="checkbox">
+      <p>
+        <label>
+          <input type="checkbox" class="required" id="spl-signup-agree" name="spl-form[signup][agree]" value="">
+          I agree to these <i>Terms &amp; Conditions</i>.
+        </label>
+      </p>
+    </div>
     </div>
   </div>
   <div class="col-sm-9 col-sm-offset-3">
