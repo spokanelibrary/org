@@ -92,7 +92,7 @@
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
+						<div class="chof-icon-mask chof-icon-light">
 							<h6 class="chof-title chof-text-blue">BU</h6>
 						</div>
 					</div>
