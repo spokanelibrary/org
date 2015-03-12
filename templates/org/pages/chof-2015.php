@@ -42,7 +42,7 @@
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
 						<div class="chof-icon-mask" style="width:auto; right:0;">
-							<h6 class="chof-title">AL</h6>
+							<h6 class="chof-title chof-text-orange">AL</h6>
 						</div>
 					</div>
 					<!--
