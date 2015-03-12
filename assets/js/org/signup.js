@@ -97,13 +97,15 @@ var org = {
     if ( fieldset ) {
       switch ( fieldset ) {
         case 'address':
-          $street = $('#spl-form-street');
+          $street_1 = $('#spl-form-street-1');
+          $street_2 = $('#spl-form-street-2');
           $city = $('#spl-form-city');
           $state = $('#spl-form-state');
           $zip = $('#spl-form-zip');
           break;
         case 'alt':
-          $street = $('#spl-form-street-alt');
+          $street_1 = $('#spl-form-street-alt-2');
+          $street_2 = $('#spl-form-street-alt-2');
           $city = $('#spl-form-city-alt');
           $state = $('#spl-form-state-alt');
           $zip = $('#spl-form-zip-alt');
@@ -111,7 +113,7 @@ var org = {
       }
 
       var address = {};
-      address.street = $street.val();
+      address.street = $street_1.val() + '\n' + $street_2.val();
       address.city = $city.val();
       address.state = $state.val();
       address.zip = $zip.val();
