@@ -23,7 +23,7 @@
           </label>
           <div class="col-sm-10 col-md-8 col-lg-7" id="spl-form-card-type">
             <div class="panel panel-default">
-              <div class="panel-body">
+              <div class="panel-heading">
               <div class="radio">
                 <label>
                   <input type="radio" class="" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult">
