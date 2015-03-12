@@ -22,12 +22,14 @@
             <h2>I am:</h2>
           </label>
           <div class="col-sm-10 col-md-8 col-lg-7" id="spl-form-card-type">
-            <div class="alert well">
+            <div class="panel panel-default">
+              <div class="panel-body">
               <div class="radio">
                 <label>
                   <input type="radio" class="" name="spl-form[card][type]" id="spl-form-card-type-adult" value="adult">
                   <b>an adult</b> with an address or residence in Spokane (City or County).
                 </label>
+                </div>
               </div>
             </div>
             <div class="alert alert-warning">
