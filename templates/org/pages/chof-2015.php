@@ -144,7 +144,7 @@
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
 					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask chof-icon-light">
+						<div class="chof-icon-mask chof-icon-dark">
 							<h5 class="chof-title chof-text-green">ED</h5>
 						</div>
 					</div>
