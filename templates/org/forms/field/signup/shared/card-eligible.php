@@ -1,7 +1,7 @@
 <div class="form-group">
   <label for="spl-form-local" class="col-sm-3 control-label">My address is in</label>
   <div class="col-sm-3">
-    <select class="form-control required" id="spl-form-local" name="spl-form[signup][local]">
+    <select class="form-control required" id="spl-form-locale" name="spl-form[signup][locale]">
       <option value="city" selected>The City of Spokane</option>
       <option value="county">Spokane County</option>
       <option value="other">Outside the area</option>

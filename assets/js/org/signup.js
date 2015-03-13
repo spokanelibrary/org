@@ -93,6 +93,21 @@ var org = {
 
   }
 
+, setAddressLocale: function(locale) {
+    switch ( locale ) {
+      case 'city':
+        $('#spl-form-locale').val('city');
+        break;
+      case 'county':
+        $('#spl-form-locale').val('county');
+        break;
+      default:
+        $('#spl-form-locale').val('other');
+        break;
+    }
+
+  }
+
 , normalizeAddress: function(fieldset) {
     if ( fieldset ) {
       switch ( fieldset ) {
@@ -117,9 +132,9 @@ var org = {
       if ( $street_2.val().trim().length > 0 ) {
         address.street += "\n" + $street_2.val().trim();
       } 
-      address.city = $city.val();
-      address.state = $state.val();
-      address.zip = $zip.val();
+      address.city = $city.val().trim();
+      address.state = $state.val().trim();
+      address.zip = $zip.val().trim();
 
       if ( address.state ) {
         console.log(address.state);
@@ -136,7 +151,8 @@ var org = {
                   }
         } )
         .done(function(data) {
-          console.log(data);
+          //console.log(data);
+          _self.setAddressLocale(data);
         })
         .fail(function() {
         })
