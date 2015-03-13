@@ -11,14 +11,13 @@
     $container = 'container';
     do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
-    if ( isset($_REQUEST['station']) ) {
-      
-    }
     if ( !isset($_REQUEST['kiosk']) ) {
-      if (current_theme_supports('bootstrap-top-navbar')) {
-        get_template_part('templates/header-top-navbar');
-      } else {
-        get_template_part('templates/header');
+      if ( !isset($_REQUEST['station']) )  {
+        if (current_theme_supports('bootstrap-top-navbar')) {
+          get_template_part('templates/header-top-navbar');
+        } else {
+          get_template_part('templates/header');
+        }
       }
     } else {
       $container = 'container-fluid';
