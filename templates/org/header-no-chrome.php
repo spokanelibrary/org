@@ -31,7 +31,7 @@ function spl_get_home_url() {
 </header>
 
 <?php //if ( is_user_logged_in() ) :?>
-<header class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
+<header style="border:none;" class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
     <div class="row">
       <div class="col-md-2">
