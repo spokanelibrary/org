@@ -17,6 +17,7 @@
       } else {
         get_template_part('templates/header');
       }
+    } elseif ( isset($_REQUEST['station']) ) {
     } else {
       $container = 'container-fluid';
     }
@@ -25,7 +26,7 @@
   <?php if ( isset($_REQUEST['kiosk']) ) : ?>
   
     <?php include roots_template_path(); ?>
-    
+
   <?php else: ?>
   
   <div class="wrap <?php echo $container;?>" role="document">
