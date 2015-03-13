@@ -113,7 +113,8 @@ var org = {
       }
 
       var address = {};
-      address.street = $street_1.val() + '\n' + $street_2.val();
+      //address.street = $street_1.val() + '\n' + $street_2.val();
+      address.street = $street_1.val();
       address.city = $city.val();
       address.state = $state.val();
       address.zip = $zip.val();
