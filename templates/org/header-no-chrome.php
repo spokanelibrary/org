@@ -8,7 +8,7 @@ function spl_get_home_url() {
 
 ?>
 
-<header style="border:none; margin-bottom:40px;" class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
+<header style="border:none; margin-top: 10px; margin-bottom:30px;" class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
     <div class="row">
       <div class="col-md-2">
