@@ -108,10 +108,6 @@ var org = {
 
   }
 
-, setAddressState: function($state, code) {
-    $state.val(code);
-}
-
 , normalizeAddress: function(fieldset) {
     if ( fieldset ) {
       switch ( fieldset ) {
@@ -139,28 +135,6 @@ var org = {
       address.city = $city.val().trim();
       address.state = $state.val().trim();
       address.zip = $zip.val().trim();
-
-      if ( address.state ) {
-        //console.log(address.state);
-        $.ajax( { 
-          url: _self.config.api.v2 + '/address/state'
-          ,crossDomain: true
-          ,data: { params: {
-                            address: address
-                    }
-                  }
-        } )
-        .done(function(data) {
-          console.log(data);
-          if ( data ) {
-            _self.setAddressState($state, data);
-          }
-        })
-        .fail(function() {
-        })
-        .always(function() {  
-        });
-      }
 
       if ( address.street && address.city && address.state && address.zip ) {
         //console.log(address);

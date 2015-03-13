@@ -11,7 +11,10 @@
   </div>
   <label for="spl-form-state" class="col-sm-1 control-label">State</label>
   <div class="col-sm-2">
-    <input type="text" class="form-control required spl-signup-address-alt uppercase" id="spl-form-state-alt" name="spl-form[signup][address-alt][state]" value="" placeholder="">
+    <!-- <input type="text" class="form-control required spl-signup-address-alt uppercase" id="spl-form-state-alt" name="spl-form[signup][address-alt][state]" value="" placeholder=""> -->
+    <select class="form-control required spl-signup-address-alt" id="spl-form-state-alt" name="spl-form[signup][address-alt][state]">
+      <?php include 'card-states.php'; ?>
+    </select>
   </div>
   <label for="spl-form-zip" class="col-sm-1 col-sm-offset-3 control-label">ZIP</label>
   <div class="col-sm-2">
