@@ -8,12 +8,12 @@ function spl_get_home_url() {
 
 ?>
 
-<header style="border:none; margin-bottom:20px;" class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
+<header style="border:none; margin-bottom:40px;" class="navbar-masthead banner navbar navbar-inverse navbar-static-top visible-md visible-lg" role="banner">
   <div class="container">
     <div class="row">
       <div class="col-md-2">
         <div class="navbar-header">
-          <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
+          <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>">
             <span class="text-hide"><?php bloginfo('name'); ?></span>
           </a>
         </div>
