@@ -149,13 +149,4 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
-<?php 
-switch ($post->post_name) {
-  case 'search':
-  case 'account':
-    break;
-  default:
-    include('header-search.php'); 
-    break;
-}
-?>
+
