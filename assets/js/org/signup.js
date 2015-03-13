@@ -118,6 +118,10 @@ var org = {
       address.state = $state.val();
       address.zip = $zip.val();
 
+      if ( address.state ) {
+        alert(address.state);
+      }
+
       if ( address.street && address.city && address.state && address.zip ) {
         $.ajax( { 
           url: _self.config.api.v2 + '/address/verify'
