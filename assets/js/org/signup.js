@@ -119,7 +119,7 @@ var org = {
           $zip = $('#spl-form-zip');
           break;
         case 'alt':
-          $street_1 = $('#spl-form-street-alt-2');
+          $street_1 = $('#spl-form-street-alt-1');
           $street_2 = $('#spl-form-street-alt-2');
           $city = $('#spl-form-city-alt');
           $state = $('#spl-form-state-alt');
