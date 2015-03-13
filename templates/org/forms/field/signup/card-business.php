@@ -4,7 +4,7 @@
 			Library Card Application for Businesses &amp; Non-Profits
 			<small class="pull-right">
         <i class="glyphicon glyphicon-refresh"></i>
-        <a href="./"><span class="text-muted">Start over</span></a>
+        <a href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><span class="text-muted">Start over</span></a>
       </small>
 		</h4>
 	</div>
