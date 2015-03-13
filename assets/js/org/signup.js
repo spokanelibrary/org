@@ -119,7 +119,7 @@ var org = {
       address.zip = $zip.val();
 
       if ( address.state ) {
-        alert(address.state);
+        console.log(address.state);
       }
 
       if ( address.street && address.city && address.state && address.zip ) {
