@@ -18,6 +18,8 @@
         } else {
           get_template_part('templates/header');
         }
+      } else {
+        get_template_part('templates/header-no-chrome');
       }
     } else {
       $container = 'container-fluid';
