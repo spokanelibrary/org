@@ -36,7 +36,7 @@ function spl_get_home_url() {
     <div class="row">
       <div class="col-md-2">
         <div class="navbar-header">
-          <a class="navbar-brand" href="<?php echo spl_get_home_url(); 6
+          <a class="navbar-brand" href="<?php echo spl_get_home_url(); ?>/">
             <span class="text-hide"><?php bloginfo('name'); ?></span>
           </a>
         </div>
