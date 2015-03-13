@@ -108,6 +108,10 @@ var org = {
 
   }
 
+, setAddressState: function($state, code) {
+    $state.val(code);
+}
+
 , normalizeAddress: function(fieldset) {
     if ( fieldset ) {
       switch ( fieldset ) {
@@ -148,7 +152,9 @@ var org = {
         } )
         .done(function(data) {
           console.log(data);
-          //_self.setAddressState(data);
+          if ( data ) {
+            _self.setAddressState($state, data);
+          }
         })
         .fail(function() {
         })
@@ -168,7 +174,9 @@ var org = {
         } )
         .done(function(data) {
           //console.log(data);
-          _self.setAddressLocale(data);
+          if ( data ) {
+            _self.setAddressLocale(data);
+          }
         })
         .fail(function() {
         })
