@@ -114,7 +114,7 @@ var org = {
 
       var address = {};
       address.street = $street_1.val();
-      if ( $street_2.val().length > 0 ) {
+      if ( trim($street_2.val()).length > 0 ) {
         address.street += "\n" + $street_2.val();
       } 
       address.city = $city.val();
