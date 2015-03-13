@@ -137,11 +137,27 @@ var org = {
       address.zip = $zip.val().trim();
 
       if ( address.state ) {
-        console.log(address.state);
+        //console.log(address.state);
+        $.ajax( { 
+          url: _self.config.api.v2 + '/address/state'
+          ,crossDomain: true
+          ,data: { params: {
+                            address: address
+                    }
+                  }
+        } )
+        .done(function(data) {
+          console.log(data);
+          //_self.setAddressState(data);
+        })
+        .fail(function() {
+        })
+        .always(function() {  
+        });
       }
 
       if ( address.street && address.city && address.state && address.zip ) {
-        console.log(address);
+        //console.log(address);
         $.ajax( { 
           url: _self.config.api.v2 + '/address/verify'
           ,crossDomain: true
