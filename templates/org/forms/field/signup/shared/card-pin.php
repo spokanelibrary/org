@@ -7,7 +7,7 @@
   </span>
 </label>
 <div class="col-sm-3">
-  <input type="text" class="form-control required" minlength="4" maxlength="4" id="spl-form-pin" name="spl-form[signup][pin]" value="" placeholder="">
+  <input type="text" class="form-control required" data-rule-number="true" minlength="4" maxlength="4" id="spl-form-pin" name="spl-form[signup][pin]" value="" placeholder="">
   <a href="#signup-help-pin" 
       class="btn btn-link"
       data-toggle="collapse">What is this? <span class="caret"></span></a> 
