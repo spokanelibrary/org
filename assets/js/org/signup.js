@@ -113,8 +113,7 @@ var org = {
       }
 
       var address = {};
-      //address.street = $street_1.val() + '\n' + $street_2.val();
-      address.street = $street_1.val();
+      address.street = $street_1.val() + '\n' + $street_2.val();
       address.city = $city.val();
       address.state = $state.val();
       address.zip = $zip.val();
@@ -124,6 +123,7 @@ var org = {
       }
 
       if ( address.street && address.city && address.state && address.zip ) {
+        console.log(address);
         $.ajax( { 
           url: _self.config.api.v2 + '/address/verify'
           ,crossDomain: true
