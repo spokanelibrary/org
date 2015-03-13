@@ -18,6 +18,6 @@
   </div>
   <label for="spl-form-zip" class="col-sm-1 col-sm-offset-3 control-label">ZIP</label>
   <div class="col-sm-2">
-    <input type="text" class="form-control required spl-signup-address-alt uppercase" id="spl-form-zip-alt" name="spl-form[signup][address-alt][zip]" value="" placeholder="">
+    <input type="text" class="form-control required spl-signup-address-alt uppercase" minlength="5" id="spl-form-zip-alt" name="spl-form[signup][address-alt][zip]" value="" placeholder="">
   </div>
 </div>
