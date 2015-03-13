@@ -10,7 +10,7 @@
 </footer>
 
 <?php
-if ( !isset($_REQUEST['kiosk']) ) {
+if ( !isset($_REQUEST['kiosk']) && !isset($_REQUEST['station']) ) {
 	include('org/footer.php');
 }
 ?>
