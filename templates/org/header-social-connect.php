@@ -19,7 +19,7 @@
       title=""><b>Get a Library Card</b></a>
   <a class="btn btn-default" 
       href="/support/"
-      title=""><b class="text-danger">Support Your Library!</b></a>
+      title=""><b class="text-success">Support Your Library!</b></a>
 </div>
 
 
