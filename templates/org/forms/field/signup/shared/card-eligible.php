@@ -2,6 +2,9 @@
   <div class="col-sm-9 col-sm-offset-3">
     <span class="help-block">
       Library card privileges are based on the address you provide.
+      All-access cards are available to City of Spokane residents.
+      Limited-access cards are available to Spokane County residents as part of a reciprocal program with <a href="http://www.scld.org">Spokane County Library District</a>.
+      Non-residents may purchase all-access cards for a fee of $3.00 per month.
     </span>
   </div>
 </div>
