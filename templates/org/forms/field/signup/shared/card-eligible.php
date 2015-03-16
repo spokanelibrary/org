@@ -32,7 +32,7 @@
   </div>
   <div class="col-sm-6">
     <span class="help-block">
-      If you have an address <i>other than your mailing address</a> that you would like to use for library card eligibility please add it here.
+      If you have an address <i>other than your mailing address</i> that you would like to use for library card eligibility please add it here.
     </span>
   </div>
 </div>
