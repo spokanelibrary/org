@@ -41,6 +41,8 @@ var org = {
       location = netSrc;
     }
 
+    location = 'external';
+
     if ( 'external' != location ) {
       $.ajax( { 
           url: _self.config.api.msit
