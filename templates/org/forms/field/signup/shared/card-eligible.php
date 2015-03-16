@@ -17,7 +17,7 @@
     </select>
   </div>
   <div class="col-sm-6">
-    <p class="text-center">
+    <p>
       <i class="glyphicon glyphicon-share text-muted"></i>
       <a href="#" data-toggle="modal" data-target="#spl-card-eligible">More about library card eligibility</i></a>
       <span class="help-block">
