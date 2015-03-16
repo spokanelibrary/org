@@ -19,7 +19,7 @@
   <div class="col-sm-6">
     <p>
       <i class="glyphicon glyphicon-share text-muted"></i>
-      <a href="#" data-toggle="modal" data-target="#spl-card-eligible">More about library card eligibility</i></a>
+      <a href="#" data-toggle="modal" data-target="#spl-card-eligible">Read more about library card eligibility</i></a>
     </p>
   </div>
 </div>
