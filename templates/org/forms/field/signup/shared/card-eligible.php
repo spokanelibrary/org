@@ -59,6 +59,9 @@
             Non-residents may purchase all-access cards for a fee of $3.00 per month.
           </li>
         </ul>
+        <p>
+          You can read our policy on <a rel="external" href="/card/#eligibility">library card eligibility</a>.
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
