@@ -41,7 +41,9 @@ var org = {
       location = netSrc;
     }
 
-    location = 'external';
+    //if () {
+    location = 'dt';
+    //}
 
     if ( 'external' != location ) {
       $.ajax( { 
