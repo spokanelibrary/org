@@ -26,6 +26,10 @@ function spl_get_home_url() {
   , 'items_wrap' => '%3$s'
   )); 
   ?>
+  <?php if ( isset($_SESSION['spl']['user']) && !empty($_SESSION['spl']['user']) ) {
+    echo '<li class="menu-logout"><a href="./?logout"><i class="glyphicon glyphicon-log-out text-danger"></i></a></li>';
+  }
+  ?>
   </ul>
   <!--</div>-->
 </header>
