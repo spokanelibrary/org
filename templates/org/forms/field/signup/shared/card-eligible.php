@@ -62,10 +62,10 @@
         </ul>
         <h4>More information</h4>
         <p>
-          <a rel="external" href="/card/#eligibility">Policy on Library Card Eligibility</a> <small class-"text-muted">(new window)</small>
+          <a rel="external" href="/card/#eligibility">Policy on Library Card Eligibility</a> <small class="text-muted">(new window)</small>
         </p>
         <p>
-          <a rel="external" href="/card/#non-resident">Policy on Fees &amp; Services to Non-Residents</a>
+          <a rel="external" href="/card/#non-resident">Policy on Fees &amp; Services to Non-Residents</a> <small class="text-muted">(new window)</small>
         </p>
       </div>
       <div class="modal-footer">
