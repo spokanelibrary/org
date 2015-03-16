@@ -41,9 +41,11 @@ var org = {
       location = netSrc;
     }
 
-    //if () {
-    location = 'dt';
-    //}
+    // sign in no longer required. 
+    // fallback to dt.
+    if ( 'external' == location ) {
+      location = 'dt';
+    }
 
     if ( 'external' != location ) {
       $.ajax( { 
