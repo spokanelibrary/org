@@ -378,19 +378,24 @@
 			<div class="panel-body">		
 				<h5 class="text-center uppercase text-muted">Thanks to our generous sponsors:</h5>
 				<div class="row">
-					<div class="col-sm-4">
+					<div class="col-sm-3">
 						<p>
 							<a href="http://www.avistafoundation.com/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
 						</p>
 					</div><!-- /.col -->
-					<div class="col-sm-4">
+					<div class="col-sm-3">
 						<p style="margin-top:2px;">
 							<a href="http://www.khq.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/khq-logo.png" alt="KHQ" /></a>
 						</p>
 					</div><!-- /.col -->
-					<div class="col-sm-4">
+					<div class="col-sm-3">
 						<p style="margin-top:6px;">
 							<a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/spokesman-logo.png" alt="The Spokesman Review" /></a>
+						</p>
+					</div><!-- /.col -->
+					<div class="col-sm-3">
+						<p style="margin-top:6px;">
+							<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
 						</p>
 					</div><!-- /.col -->
 				</div><!-- /.row -->
