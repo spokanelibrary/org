@@ -1,7 +1,7 @@
 <div class="form-group">
   <div class="col-sm-9 col-sm-offset-3">
     <span class="help-block">
-      Library card privledges are based on the address you provide.
+      Library card privileges are based on the address you provide.
     </span>
   </div>
 </div>
