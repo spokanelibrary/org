@@ -18,15 +18,9 @@
       <fieldset>
 
         <div class="form-group">
-          <label for="spl-form-card-type" class="col-sm-2 hidden-xs control-label">
+          <label for="spl-form-card-type" class="col-sm-2 control-label">
             <h1 class="text-muted normal">I am:</h1>
           </label>
-          <div class="col-xs-2 visible-xs">
-            <button type="submit" class="btn btn-lg btn-block btn-primary">
-              <b>Next</b>
-              <small class="glyphicon glyphicon-arrow-right"></small>
-            </button>
-          </div>
           <div class="col-sm-10 col-md-8 col-lg-7" id="spl-form-card-type">
             <div class="panel panel-default">
               <div class="panel-heading">
