@@ -66,6 +66,7 @@ var org = {
   } // initITAcademy()
 
 , parseITAcademyLinks: function(mode, codes) {
+    console.log(codes);
     var msit = { codes:codes };
     msit.login = false;
 
