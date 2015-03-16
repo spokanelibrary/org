@@ -1,8 +1,8 @@
 <div class="form-group">
   <div class="col-sm-9 col-sm-offset-3">
-    <p>
-      We attempt to determine your library card eligibility based on the address you provide.
-    </p>
+    <span class="help-block">
+      Library card privledges are based on the address you provide.
+    </span>
   </div>
 </div>
 
@@ -17,9 +17,13 @@
     </select>
   </div>
   <div class="col-sm-6">
-    <span class="help-block">
-      <a href="#">Tell me more about library card eligibility</a>
-    </span>
+    <p class="text-center">
+      <i class="glyphicon glyphicon-share text-muted"></i>
+      <a href="#" data-toggle="modal" data-target="#spl-card-eligible">More about library card eligibility</i></a>
+      <span class="help-block">
+        <small>You won't lose the information you have entered.</small>
+      </span>
+    </p>
   </div>
 </div>
 
