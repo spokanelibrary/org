@@ -20,9 +20,6 @@
     <p>
       <i class="glyphicon glyphicon-share text-muted"></i>
       <a href="#" data-toggle="modal" data-target="#spl-card-eligible">More about library card eligibility</i></a>
-      <span class="help-block">
-        <small>You won't lose the information you have entered.</small>
-      </span>
     </p>
   </div>
 </div>
