@@ -59,7 +59,7 @@
         </ul>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-success">I agree!</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal">Close!</button>
       </div>
     </div>
   </div>
