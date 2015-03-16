@@ -10,7 +10,9 @@
   </div>
   <div class="col-sm-6">
     <span class="help-block">
-      Lorem ipsum dolor sit amet.
+      We attempt to determine your library card eligibility based on the address you provide.
+      <br>
+      <a href="#">Tell me more about library card eligibility</a>
     </span>
   </div>
 </div>
