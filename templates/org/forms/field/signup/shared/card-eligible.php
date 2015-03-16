@@ -54,7 +54,7 @@
           </li>
           <li>
             Limited-access cards are available to Spokane County residents as part of a reciprocal program with <a href="http://www.scld.org">Spokane County Library District</a>.
-            Remote subscription database access and interlibrary loans are not available with free reciprocal cards
+            Remote subscription database access and interlibrary loans are not available with free reciprocal cards.
           </li>
           <li>
             Non-residents may purchase all-access cards for a fee of $3.50 per month or $42.00 per year.
