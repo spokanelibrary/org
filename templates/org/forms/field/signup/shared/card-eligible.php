@@ -37,7 +37,34 @@
   </div>
 </div>
 
-
+<!-- Modal -->
+<div class="modal fade" id="spl-card-eligible" tabindex="-1" role="dialog" aria-labelledby="spl-card-eligible-title" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="spl-terms-conditions-title">Library Card Eligibility &amp; Requirements</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>
+            All-access cards are available to City of Spokane residents.
+          </li>
+          <li>
+            Limited-access cards are available to Spokane County residents as part of a reciprocal program with <a href="http://www.scld.org">Spokane County Library District</a>.
+          </li>
+          <li>
+            Non-residents may purchase all-access cards for a fee of $3.00 per month.
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success">I agree!</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
 <div class="collapse" id="signup-address-alt">
   <?php include 'card-address-alt.php'; ?>
 </div>
