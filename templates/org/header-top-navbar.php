@@ -26,10 +26,6 @@ function spl_get_home_url() {
   , 'items_wrap' => '%3$s'
   )); 
   ?>
-  <?php if ( isset($_SESSION['spl']['user']) ) {
-    echo '<li class="menu-logout"><a href="./?logout"><i class="glyphicon glyphicon-log-out"></i> <span class="hidden-xs">Logout</span></a></li>';
-  }
-  ?>
   </ul>
   <!--</div>-->
 </header>
@@ -59,6 +55,10 @@ function spl_get_home_url() {
                 , 'container' => false
                 , 'items_wrap' => '%3$s'
                 )); 
+                ?>
+                <?php if ( isset($_SESSION['spl']['user']) ) {
+                  echo '<li class="menu-logout"><a href="./?logout"><i class="glyphicon glyphicon-log-out"></i> <span class="hidden-xs">Logout</span></a></li>';
+                }
                 ?>
                 </ul>
                 <!--</div>-->
