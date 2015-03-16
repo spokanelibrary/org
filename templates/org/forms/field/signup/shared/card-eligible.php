@@ -1,7 +1,9 @@
 <div class="form-group">
   <div class="col-sm-9 col-sm-offset-3">
     <p>
-      Library card privileges are based on the address you provide.
+      Library card privileges are based on your residency status.
+      We attempt to determine residency using the address you provide above. 
+      If you think we have it wrong, please indicate using the pulldown menu below.
     </p>
   </div>
 </div>
