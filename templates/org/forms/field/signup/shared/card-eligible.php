@@ -1,4 +1,12 @@
 <div class="form-group">
+  <div class="col-sm-9 col-sm-offset-3">
+    <p>
+      We attempt to determine your library card eligibility based on the address you provide.
+    </p>
+  </div>
+</div>
+
+<div class="form-group">
   <label for="spl-form-local" class="col-sm-3 control-label">My address is in</label>
   <div class="col-sm-3">
     <select class="form-control required" id="spl-form-locale" name="spl-form[signup][locale]">
@@ -10,8 +18,6 @@
   </div>
   <div class="col-sm-6">
     <span class="help-block">
-      We attempt to determine your library card eligibility based on the address you provide.
-      <br>
       <a href="#">Tell me more about library card eligibility</a>
     </span>
   </div>
