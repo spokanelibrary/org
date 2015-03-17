@@ -28,19 +28,29 @@ Template Name: Alpha Home Page
     
     <div class="spl-hero-panel spl-hero-primary">
       <a href="#">
-      <h4 class="text-center">
-        <i class="glyphicon glyphicon-cloud-download"></i>
-        Digital Branch
-      </h4>
-      <div class="panel-body spl-blue-tint-60">
-        Download ebooks, music, movies, &amp; more
-      </div>
+        <h4 class="text-center">
+          <i class="glyphicon glyphicon-cloud-download"></i>
+          Digital Branch
+        </h4>
+        <div class="panel-body spl-blue-tint-60">
+          Download ebooks, music, movies, &amp; more
+        </div>
       </a>
     </div>
     
 
     <div class="hidden-xs">
-      <?php echo get_alpha_panel('Staff Picks'); ?>
+      <div class="spl-hero-panel spl-hero-primary">
+        <a href="#">
+          <h4 class="text-center">
+            <i class="glyphicon glyphicon-star"></i>
+            Staff Picks
+          </h4>
+          <div class="panel-body">
+            Reviews &amp; recomendations from library staff
+          </div>
+        </a>
+      </div>
     </div>
   </div><!-- /.col -->
 
