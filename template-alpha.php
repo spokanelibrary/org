@@ -33,9 +33,9 @@ Template Name: Alpha Home Page
           Digital Branch
         </h4>
         <div class="panel-body spl-blue-tint-60">
-          <div class="panel-body spl-blue-tint-80" style="border:1px solid #fff;">
+          <!-- <div class="panel-body spl-blue-tint-80" style="border:1px solid #fff;"> -->
             Download ebooks, music, magazines, &amp; more
-          </div>
+          <!--</div>-->
         </div>
       </a>
     </div>
@@ -49,9 +49,9 @@ Template Name: Alpha Home Page
             Staff Picks
           </h4>
           <div class="panel-body" style="background:#eee;">
-            <div class="panel-body" style="background:#ddd; border:1px solid #666;">
+            <!-- <div class="panel-body" style="background:#ddd; border:1px solid #666;">-->
              Recomendations &amp; reviews from library staff
-            </div>
+            <!--</div>-->
           </div>
         </a>
       </div>
