@@ -62,12 +62,7 @@ Template Name: Alpha Home Page
         </li>
         <li>
           <h5>
-            <a href="#">Digital research &amp; learning</a>
-          </h5>
-        </li>
-        <li>
-          <h5>
-            <a href="#">Mobile apps</a>
+            <a href="#">Library apps</a>
           </h5>
         </li>
       </ul>
