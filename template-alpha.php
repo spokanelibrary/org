@@ -33,7 +33,7 @@ Template Name: Alpha Home Page
           Digital Branch
         </h4>
         <div class="panel-body spl-blue-tint-60">
-          Download ebooks, music, movies, &amp; more
+          Download ebooks, music, magazines, &amp; more
         </div>
       </a>
     </div>
