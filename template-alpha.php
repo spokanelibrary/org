@@ -125,7 +125,7 @@ Template Name: Alpha Home Page
 <div class="row">
  
   <div class="col-md-9">
-    <div class="spl-tile spl-tile-default" style="padding-left:10px;">
+    <div class="spl-tile spl-tile-primary" style="padding-left:10px;">
       <?php echo do_shortcode('[spl_widget home-page news]'); ?>
     </div>
   </div><!-- /.col -->
@@ -159,7 +159,7 @@ Template Name: Alpha Home Page
 
     <div class="row">
       <div class="col-md-8 col-md-push-4">
-        <?php echo do_shortcode('[spl_widget home-page shuffle posts limit=3]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page posts limit=3]'); ?>
       </div><!-- /.col --> 
       <div class="col-md-4 col-md-pull-8">
         <div class="spl-hero-panel spl-hero-success" style="margin-bottom:10px;">
