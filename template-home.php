@@ -40,7 +40,7 @@ Template Name: Home Page
       <ul class="list-unstyled">
         <li>
           <h5>
-            <a href="/download/"><span class="text-primary">Download eBooks, music, magazines, &amp; more</span></a>
+            <a href="/download/"><span class="text-primary">Download ebooks, music, magazines, &amp; more</span></a>
           </h5>
         </li>
         <li>
