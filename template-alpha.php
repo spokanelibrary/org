@@ -24,7 +24,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
  
-  <div class="col-md-3">
+  <div class="col-md-2">
     <?php echo get_alpha_panel(320); ?>
   </div><!-- /.col -->
 
@@ -33,7 +33,7 @@ Template Name: Alpha Home Page
     <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-3">
+  <div class="col-md-2">
     <?php echo get_alpha_panel(); ?>
     <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
