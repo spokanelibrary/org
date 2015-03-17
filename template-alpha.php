@@ -47,7 +47,7 @@ Template Name: Alpha Home Page
             Staff Picks
           </h4>
           <div class="panel-body">
-            Reviews &amp; recomendations from library staff
+            Recomendations &amp; reviews from library staff
           </div>
         </a>
       </div>
