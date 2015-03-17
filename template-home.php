@@ -90,12 +90,12 @@ Template Name: Home Page
         </li>
         <li>
           <h5>
-            <a href="/news/"><span class="text-warning">See what's new</span></a>
+            <a href="/services"><span class="text-warning">Library services</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="/services"><span class="text-warning">Library services</span></a>
+            <a href="/news/"><span class="text-warning">News &amp; updates</span></a>
           </h5>
         </li>
       </ul>
