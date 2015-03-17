@@ -26,7 +26,9 @@ Template Name: Alpha Home Page
 
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-info" style="padding-left:10px;">
-      <h4>Library Catalog</h4>
+      <h4>
+        <a href="#"><span class="text-info">Library Catalog</span></a>
+      </h4>
       <ul class="list-unstyled">
         <li>
           <h5 class="uppercase">
@@ -54,7 +56,9 @@ Template Name: Alpha Home Page
 
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-primary" style="padding-left:10px;">
-      <h4>Digital Branch</h4>
+      <h4>
+        <a href="#"><span class="text-primary">Digital Branch</span></a>
+      </h4>
       <ul class="list-unstyled">
         <li>
           <h5 class="uppercase">
@@ -87,7 +91,9 @@ Template Name: Alpha Home Page
 
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-warning" style="padding-left:10px;">
-      <h4>Classes &amp; Events</h4>
+      <h4>
+        <a href="#"><span class="text-warning">Classes &amp; Events</span></a>
+      </h4>
       <ul class="list-unstyled">
         <li>
           <h5 class="uppercase">
@@ -115,7 +121,9 @@ Template Name: Alpha Home Page
 
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-success" style="padding-left:10px;">
-      <h4>Library News</h4>
+      <h4>
+        <a href="#"><span class="text-success">Library News</span></a>
+      </h4>
     </div>
   </div><!-- /.col -->
 
