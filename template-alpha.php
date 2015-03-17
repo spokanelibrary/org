@@ -25,7 +25,7 @@ Template Name: Alpha Home Page
 <div class="row">
 
   <div class="col-md-3">
-    <div class="spl-tile spl-tile-default" style="padding-left:10px;">
+    <div class="spl-tile spl-tile-info" style="padding-left:10px;">
       <h4>Library Catalog</h4>
     </div>
   </div><!-- /.col -->
