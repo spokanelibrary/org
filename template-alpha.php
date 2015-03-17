@@ -70,24 +70,24 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-md-3 col-sm-6">
-    <div class="spl-tile spl-tile-warning" style="padding-left:10px;">
+    <div class="spl-tile spl-tile-success" style="padding-left:10px;">
       <h4 class="uppercase">
-        <a href="#"><span class="text-warning">Classes &amp; Events</span></a>
+        <a href="#"><span class="text-success">Classes &amp; Events</span></a>
       </h4>
       <ul class="list-unstyled">
         <li>
           <h5>
-            <a href="#"><span class="text-warning">Storytime schedules</span></a>
+            <a href="#"><span class="text-success">Storytime schedules</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#"><span class="text-warning">Computers &amp; technology</span></a>
+            <a href="#"><span class="text-success">Computers &amp; technology</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#"><span class="text-warning">Complete calendar of events</span></a>
+            <a href="#"><span class="text-success">Complete calendar of events</span></a>
           </h5>
         </li>
       </ul>
@@ -95,24 +95,24 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-md-3 col-sm-6">
-    <div class="spl-tile spl-tile-success" style="padding-left:10px;">
+    <div class="spl-tile spl-tile-warning" style="padding-left:10px;">
       <h4 class="uppercase">
-        <a href="#"><span class="text-success">My Library</span></a>
+        <a href="#"><span class="text-warning">My Library</span></a>
       </h4>
       <ul class="list-unstyled">
         <li>
           <h5>
-            <a href="#"><span class="text-success">Find a branch</span></a>
+            <a href="#"><span class="text-warning">Find a branch</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#"><span class="text-success">See what's new</span></a>
+            <a href="#"><span class="text-warning">See what's new</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#"><span class="text-success">Library services</span></a>
+            <a href="#"><span class="text-warning">Library services</span></a>
           </h5>
         </li>
       </ul>
