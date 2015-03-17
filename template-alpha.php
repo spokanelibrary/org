@@ -38,14 +38,29 @@ Template Name: Alpha Home Page
             <a href="#">My Account</a>
           </h5>
         </li>
+        <li>
+          <h5 class="uppercase">
+            <a href="#">Browse New Arrivals</a>
+          </h5>
+        </li>
+        <li>
+          <h5 class="uppercase">
+            <a href="#">Staff Picks &amp; Popular Titles</a>
+          </h5>
+        </li>
       </ul>
     </div>
   </div><!-- /.col -->
 
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-primary" style="padding-left:10px;">
-      <h4>eBooks &amp; Downloads</h4>
+      <h4>Digital Branch</h4>
       <ul class="list-unstyled">
+        <li>
+          <h5 class="uppercase">
+            <a href="#">All Downloads &amp; Apps</a>
+          </h5>
+        </li>
         <li>
           <h5 class="uppercase">
             <a href="#">eBooks</a>
