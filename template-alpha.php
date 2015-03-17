@@ -126,6 +126,14 @@ Template Name: Alpha Home Page
 
 </div><!-- /.row -->
 
+<div class="row">
+  
+  <div class="col-md-6">
+    <?php echo do_shortcode('[spl_carousel auto random slug=carousel]'); ?>
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
+
 
 <br>
 <br>
