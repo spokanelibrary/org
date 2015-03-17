@@ -32,17 +32,17 @@ Template Name: Alpha Home Page
       <ul class="list-unstyled">
         <li>
           <h5>
-            <a href="#">Search</a>
+            <a href="#"><span class="text-info">Search</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">My account</a>
+            <a href="#"><span class="text-info">My account</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">Browse new arrivals</a>
+            <a href="#"><span class="text-info">Browse new arrivals</span></a>
           </h5>
         </li>
       </ul>
@@ -57,12 +57,12 @@ Template Name: Alpha Home Page
       <ul class="list-unstyled">
         <li>
           <h5>
-            <a href="#">eBooks, music, magazines &amp; more</a>
+            <a href="#"><span class="text-primary">eBooks, music, magazines &amp; more</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">Library apps</a>
+            <a href="#"><span class="text-primary">Library apps</span></a>
           </h5>
         </li>
       </ul>
@@ -77,17 +77,17 @@ Template Name: Alpha Home Page
       <ul class="list-unstyled">
         <li>
           <h5>
-            <a href="#">Storytime schedules</a>
+            <a href="#"><span class="text-warning">Storytime schedules</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">Computers &amp; technology</a>
+            <a href="#"><span class="text-warning">Computers &amp; technology</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">Complete calendar of events</a>
+            <a href="#"><span class="text-warning">Complete calendar of events</span></a>
           </h5>
         </li>
       </ul>
@@ -102,17 +102,17 @@ Template Name: Alpha Home Page
       <ul class="list-unstyled">
         <li>
           <h5>
-            <a href="#">Find a branch</a>
+            <a href="#"><span class="text-success">Find a branch</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">See what's new</a>
+            <a href="#"><span class="text-success">See what's new</span></a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">Library services</a>
+            <a href="#"><span class="text-success">Library services</span></a>
           </h5>
         </li>
       </ul>
