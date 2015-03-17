@@ -25,6 +25,7 @@ Template Name: Alpha Home Page
 <div class="row">
  
   <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-10">
+    <a href="#">
     <div class="spl-hero-panel spl-hero-primary">
       <h5 class="text-center">
         <i class="glyphicon glyphicon-cloud-download"></i>
@@ -34,7 +35,8 @@ Template Name: Alpha Home Page
         Download ebooks, music, movies, &amp; more
       </div>
     </div>
-    
+    </a>
+
     <div class="hidden-xs">
       <?php echo get_alpha_panel('Staff Picks'); ?>
     </div>
