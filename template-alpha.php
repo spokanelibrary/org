@@ -58,7 +58,7 @@ Template Name: Alpha Home Page
       <ul class="list-unstyled">
         <li>
           <h5 class="uppercase">
-            <a href="#">All Downloads &amp; Apps</a>
+            <a href="#">Library Apps</a>
           </h5>
         </li>
         <li>
@@ -88,6 +88,28 @@ Template Name: Alpha Home Page
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-warning" style="padding-left:10px;">
       <h4>Classes &amp; Events</h4>
+      <ul class="list-unstyled">
+        <li>
+          <h5 class="uppercase">
+            <a href="#">Computer &amp; Technology Workshops</a>
+          </h5>
+        </li>
+        <li>
+          <h5 class="uppercase">
+            <a href="#">Training & Certification</a>
+          </h5>
+        </li>
+        <li>
+          <h5 class="uppercase">
+            <a href="#">Storytime Schedules</a>
+          </h5>
+        </li>
+        <li>
+          <h5 class="uppercase">
+            <a href="#">Complete Calendar of Events</a>
+          </h5>
+        </li>
+      </ul>
     </div>
   </div><!-- /.col -->
 
