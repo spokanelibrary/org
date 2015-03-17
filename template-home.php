@@ -5,7 +5,7 @@ Template Name: Home Page
 ?>
 
 
-<div class="row" style="margin-bottom:20px;">
+<div class="row">
 
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-info" style="padding-left:10px;">
@@ -103,6 +103,9 @@ Template Name: Home Page
   </div><!-- /.col -->
 
 </div><!-- /.row -->
+
+<hr>
+<div class="visible-md visible-lg">&nbsp;</div>
 
 <div class="row">
  
