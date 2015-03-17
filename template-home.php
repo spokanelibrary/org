@@ -52,6 +52,8 @@ Template Name: Home Page
     </div>
   </div><!-- /.col -->
 
+  <div class="clearfix visible-md-block"></div>
+
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-success" style="padding-left:10px;">
       <h4 class="uppercase">
