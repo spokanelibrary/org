@@ -105,7 +105,6 @@ Template Name: Home Page
 </div><!-- /.row -->
 
 <hr>
-<div class="visible-md visible-lg">&nbsp;</div>
 
 <div class="row">
  
