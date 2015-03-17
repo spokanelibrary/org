@@ -1,6 +1,6 @@
-<?php
+ <?php
 /*
-Template Name: Home Page
+Template Name: Home Page v5
 */
 ?>
 
