@@ -33,11 +33,11 @@ Template Name: Alpha Home Page
     <?php echo get_alpha_panel('This week'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-2 col-md-pull-7">
+  <div class="col-md-3 col-md-pull-7">
     <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-2">
+  <div class="col-md-3">
     <?php echo get_alpha_panel('Staff Picks'); ?>
   </div><!-- /.col -->
 
