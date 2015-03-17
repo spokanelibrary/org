@@ -57,17 +57,17 @@ Template Name: Alpha Home Page
       <ul class="list-unstyled">
         <li>
           <h5>
-            <a href="#">eBooks</a>
+            <a href="#">eBooks, music, magazines &amp; more</a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">Free music downloads</a>
+            <a href="#">Digital research &amp; learning</a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">Mobile apps &amp; more</a>
+            <a href="#">Mobile apps</a>
           </h5>
         </li>
       </ul>
