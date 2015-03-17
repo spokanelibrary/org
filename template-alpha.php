@@ -26,7 +26,6 @@ Template Name: Alpha Home Page
  
   <div class="col-md-2 col-md-push-8">
     <?php echo get_alpha_panel('Digital Branch'); ?>
-    <?php echo get_alpha_panel('Staff Picks'); ?>
   </div><!-- /.col -->
 
   <div class="col-md-6">
@@ -38,6 +37,9 @@ Template Name: Alpha Home Page
     <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
   </div><!-- /.col -->
 
+  <div class="col-md-2 col-md-push-8">
+    <?php echo get_alpha_panel('Staff Picks'); ?>
+  </div><!-- /.col -->
 
 </div><!-- /.row -->
 
