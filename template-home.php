@@ -52,7 +52,7 @@ Template Name: Home Page
     </div>
   </div><!-- /.col -->
 
-  <div class="col-md-3 col-sm-4 col-sm-offset-2">
+  <div class="col-md-3 col-sm-4">
     <div class="spl-tile spl-tile-success" style="padding-left:10px;">
       <h4 class="uppercase">
         <a href="/calendar/"><span class="text-success">Classes &amp; Events</span></a>
