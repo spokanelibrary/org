@@ -24,7 +24,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
  
-  <div class="col-sm-3 col-sm-offset-3 col-md-2 col-md-push 10">
+  <div class="col-sm-3 col-sm-offset-3 col-md-2 col-md-push-10">
     <?php echo get_alpha_panel('Digital Branch'); ?>
     <?php echo get_alpha_panel('Staff Picks'); ?>
   </div><!-- /.col -->
