@@ -32,8 +32,10 @@ Template Name: Alpha Home Page
           <i class="glyphicon glyphicon-cloud-download"></i>
           Digital Branch
         </h4>
-        <div class="panel-body spl-blue-tint-60" style="border:1px solid #fff;">
+        <div class="panel-body spl-blue-tint-60">
+          <div class="panel-body" style="border:1px solid #fff;">
           Download ebooks, music, magazines, &amp; more
+          </div>
         </div>
       </a>
     </div>
