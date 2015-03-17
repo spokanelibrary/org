@@ -28,7 +28,9 @@ Template Name: Alpha Home Page
     <div class="spl-hero-panel spl-hero-primary">
       <h5 class="text-center">Digital Branch</h5>
     </div>
+    <div class="panel-body spl-blue-tint-80">
     <?php echo get_alpha_panel('Digital Branch'); ?>
+    </div>
     <div class="hidden-xs">
       <?php echo get_alpha_panel('Staff Picks'); ?>
     </div>
@@ -42,7 +44,6 @@ Template Name: Alpha Home Page
   <div class="col-sm-12 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
     <div class="spl-hero-panel spl-hero-success" style="margin-bottom:10px;">
       <h5 class="text-center">Is the library open?</h5>
-      <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
     </div>
   </div><!-- /.col -->
 
