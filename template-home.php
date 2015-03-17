@@ -57,7 +57,7 @@ Template Name: Home Page
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-success" style="padding-left:10px;">
       <h4 class="uppercase">
-        <a href="/calendar/"><span class="text-success">Classes &amp; Events</span></a>
+        <a href="/calendar/"><span class="text-success">Classes &amp; Programs</span></a>
       </h4>
       <ul class="list-unstyled">
         <li>
