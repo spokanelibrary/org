@@ -40,4 +40,4 @@ Template Name: Alpha Home Page
 </div><!-- /.row -->
 
   
-
+<?php echo get_alpha_panel('Staff Picks'); ?>
