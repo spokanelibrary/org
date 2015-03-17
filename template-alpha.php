@@ -46,7 +46,7 @@ Template Name: Alpha Home Page
             <i class="glyphicon glyphicon-star"></i>
             Staff Picks
           </h4>
-          <div class="panel-body" style="background:#ccc;">
+          <div class="panel-body" style="background:#eee;">
             Recomendations &amp; reviews from library staff
           </div>
         </a>
