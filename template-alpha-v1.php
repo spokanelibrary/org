@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Alpha Home Page
+Template Name: Alpha Home Page v1
 */
 ?>
 
