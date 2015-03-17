@@ -45,44 +45,29 @@ Template Name: Alpha Home Page
             <a href="#">Browse New Arrivals</a>
           </h5>
         </li>
-        <li>
-          <h5>
-            <a href="#">Staff Picks &amp; Popular Titles</a>
-          </h5>
-        </li>
       </ul>
     </div>
   </div><!-- /.col -->
 
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-primary" style="padding-left:10px;">
-      <h4>
+      <h4 class="uppercase">
         <a href="#"><span class="text-primary">Digital Branch</span></a>
       </h4>
       <ul class="list-unstyled">
         <li>
-          <h5 class="uppercase">
-            <a href="#">Library Apps</a>
-          </h5>
-        </li>
-        <li>
-          <h5 class="uppercase">
+          <h5>
             <a href="#">eBooks</a>
           </h5>
         </li>
         <li>
-          <h5 class="uppercase">
-            <a href="#">Digital Magazines</a>
-          </h5>
-        </li>
-        <li>
-          <h5 class="uppercase">
+          <h5>
             <a href="#">Free Music Downloads</a>
           </h5>
         </li>
         <li>
-          <h5 class="uppercase">
-            <a href="#">Digital Audiobooks</a>
+          <h5>
+            <a href="#">Mobile Apps &amp; More</a>
           </h5>
         </li>
       </ul>
@@ -91,27 +76,22 @@ Template Name: Alpha Home Page
 
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-warning" style="padding-left:10px;">
-      <h4>
+      <h4 class="uppercase">
         <a href="#"><span class="text-warning">Classes &amp; Events</span></a>
       </h4>
       <ul class="list-unstyled">
         <li>
-          <h5 class="uppercase">
-            <a href="#">Computer &amp; Technology Workshops</a>
-          </h5>
-        </li>
-        <li>
-          <h5 class="uppercase">
-            <a href="#">Training & Certification</a>
-          </h5>
-        </li>
-        <li>
-          <h5 class="uppercase">
+          <h5>
             <a href="#">Storytime Schedules</a>
           </h5>
         </li>
         <li>
-          <h5 class="uppercase">
+          <h5>
+            <a href="#">Computer &amp; Technology Training</a>
+          </h5>
+        </li>
+        <li>
+          <h5>
             <a href="#">Complete Calendar of Events</a>
           </h5>
         </li>
