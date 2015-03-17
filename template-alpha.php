@@ -5,7 +5,7 @@ Template Name: Alpha Home Page
 ?>
 
 <?php 
-  function get_alpha_panel($h=140, $filler='&nbsp;') {
+  function get_alpha_panel($filler='&nbsp;', $h=140) {
     $html = '';
     $html .= '
               <div class="panel panel-default">
@@ -25,7 +25,7 @@ Template Name: Alpha Home Page
 <div class="row">
  
   <div class="col-md-2">
-    <?php echo get_alpha_panel(320); ?>
+    <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
   </div><!-- /.col -->
 
   <div class="col-md-6">
