@@ -28,12 +28,12 @@ Template Name: Alpha Home Page
     <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-6">
+  <div class="col-sm-6 col-md-6">
     <?php echo get_alpha_panel('Carousel'); ?>
     <?php echo get_alpha_panel('This week'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-2">
+  <div class="col-sm-3 col-md-2">
     <?php echo get_alpha_panel('Digital Branch'); ?>
     <?php echo get_alpha_panel('Staff Picks'); ?>
   </div><!-- /.col -->
