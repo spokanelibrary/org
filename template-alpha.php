@@ -49,7 +49,9 @@ Template Name: Alpha Home Page
             Staff Picks
           </h4>
           <div class="panel-body" style="background:#eee;">
-            Recomendations &amp; reviews from library staff
+            <div class="panel-body spl-hero-default" style="border:1px solid #fff;">
+             Recomendations &amp; reviews from library staff
+            </div>
           </div>
         </a>
       </div>
