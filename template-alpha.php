@@ -102,37 +102,17 @@ Template Name: Alpha Home Page
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-success" style="padding-left:10px;">
       <h4 class="uppercase">
-        <a href="#"><span class="text-success">My Library Branch</span></a>
+        <a href="#"><span class="text-success">My Library</span></a>
       </h4>
       <ul class="list-unstyled">
         <li>
           <h5>
-            <a href="#">Downtown</a>
+            <a href="#">Find a branch</a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">East Side</a>
-          </h5>
-        </li>
-        <li>
-          <h5>
-            <a href="#">Hillyard</a>
-          </h5>
-        </li>
-        <li>
-          <h5>
-            <a href="#">Indian Trail</a>
-          </h5>
-        </li>
-        <li>
-          <h5>
-            <a href="#">Shadle</a>
-          </h5>
-        </li>
-        <li>
-          <h5>
-            <a href="#">South Hill</a>
+            <a href="#">See what's new</a>
           </h5>
         </li>
       </ul>
