@@ -5,7 +5,7 @@ Template Name: Home Page
 ?>
 
 
-<div class="row" style="margin-bottom:10px;">
+<div class="row" style="margin-bottom:20px;">
 
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-info" style="padding-left:10px;">
