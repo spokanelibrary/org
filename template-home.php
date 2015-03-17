@@ -5,7 +5,7 @@ Template Name: Home Page
 ?>
 
 
-<div class="row">
+<div class="row" style="margin-bottom:10px;">
 
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-info" style="padding-left:10px;">
@@ -103,12 +103,6 @@ Template Name: Home Page
   </div><!-- /.col -->
 
 </div><!-- /.row -->
-
-<div class="spl-hero-panel spl-hero-default" style="border:none;">
-  <h4 class="text-center">
-  &nbsp;
-  </h4>
-</div>
 
 <div class="row">
  
