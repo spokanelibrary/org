@@ -26,27 +26,27 @@ Template Name: Alpha Home Page
 
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-info" style="padding-left:10px;">
-      <h4>
+      <h4 class="uppercase">
         <a href="#"><span class="text-info">Library Catalog</span></a>
       </h4>
       <ul class="list-unstyled">
         <li>
-          <h5 class="uppercase">
+          <h5>
             <a href="#">Search</a>
           </h5>
         </li>
         <li>
-          <h5 class="uppercase">
+          <h5>
             <a href="#">My Account</a>
           </h5>
         </li>
         <li>
-          <h5 class="uppercase">
+          <h5>
             <a href="#">Browse New Arrivals</a>
           </h5>
         </li>
         <li>
-          <h5 class="uppercase">
+          <h5>
             <a href="#">Staff Picks &amp; Popular Titles</a>
           </h5>
         </li>
