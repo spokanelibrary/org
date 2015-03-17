@@ -37,6 +37,9 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-12 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
+    <div class="spl-hero-panel spl-hero-success" style="margin-bottom:10px;">
+      <h4>Is the library open?</h4>
+    </div>
     <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
   </div><!-- /.col -->
 
