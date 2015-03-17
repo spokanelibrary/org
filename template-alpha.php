@@ -87,7 +87,7 @@ Template Name: Alpha Home Page
         </li>
         <li>
           <h5>
-            <a href="#">Computer &amp; Technology Training</a>
+            <a href="#">Computers &amp; Technology</a>
           </h5>
         </li>
         <li>
