@@ -40,7 +40,7 @@ Template Name: Alpha Home Page
     
 
     <div class="hidden-xs">
-      <div class="spl-hero-panel spl-hero-default">
+      <div class="spl-hero-panel spl-hero-success">
         <a href="#">
           <h4 class="text-center">
             <i class="glyphicon glyphicon-star"></i>
