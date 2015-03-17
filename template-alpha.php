@@ -27,15 +27,15 @@ Template Name: Alpha Home Page
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-info" style="padding-left:10px;">
       <h4>Library Catalog</h4>
-      <ul>
+      <ul class="list-unstyled">
         <li>
           <h5 class="uppercase">
-            Search
+            <a href="#">Search</a>
           </h5>
         </li>
         <li>
           <h5 class="uppercase">
-            My Account
+            <a href="#">My Account</a>
           </h5>
         </li>
       </ul>
