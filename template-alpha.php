@@ -45,8 +45,7 @@ Template Name: Alpha Home Page
   <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-primary" style="padding-left:10px;">
       <h4>eBooks &amp; Downloads</h4>
-    </div>
-    <ul class="list-unstyled">
+      <ul class="list-unstyled">
         <li>
           <h5 class="uppercase">
             <a href="#">eBooks</a>
@@ -68,6 +67,7 @@ Template Name: Alpha Home Page
           </h5>
         </li>
       </ul>
+    </div>
   </div><!-- /.col -->
 
   <div class="col-md-3 col-sm-6">
