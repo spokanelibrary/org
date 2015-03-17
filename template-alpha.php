@@ -27,7 +27,7 @@ Template Name: Alpha Home Page
   <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-10">
     <div class="spl-hero-panel spl-hero-primary">
       <h5 class="text-center">Digital Branch</h5>
-      <div class="panel-body spl-blue-tint-80">
+      <div class="panel-body spl-blue-tint-60">
         <?php echo get_alpha_panel('Digital Branch'); ?>
       </div>
     </div>
