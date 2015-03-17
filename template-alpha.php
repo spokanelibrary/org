@@ -46,6 +46,28 @@ Template Name: Alpha Home Page
     <div class="spl-tile spl-tile-primary" style="padding-left:10px;">
       <h4>eBooks &amp; Downloads</h4>
     </div>
+    <ul class="list-unstyled">
+        <li>
+          <h5 class="uppercase">
+            <a href="#">eBooks</a>
+          </h5>
+        </li>
+        <li>
+          <h5 class="uppercase">
+            <a href="#">Digital Magazines</a>
+          </h5>
+        </li>
+        <li>
+          <h5 class="uppercase">
+            <a href="#">Free Music Downloads</a>
+          </h5>
+        </li>
+        <li>
+          <h5 class="uppercase">
+            <a href="#">Digital Audiobooks</a>
+          </h5>
+        </li>
+      </ul>
   </div><!-- /.col -->
 
   <div class="col-md-3 col-sm-6">
