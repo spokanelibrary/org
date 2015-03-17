@@ -63,7 +63,7 @@ Template Name: Alpha Home Page
     <?php echo get_alpha_panel('This week', 240); ?>
   </div><!-- /.col -->
 
-  <div class="col-sm-12 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
+  <div class="col-sm-3 col-sm-pull-9 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
       <h4 class="text-center text-success" style="margin-top:0;">Is the library open?</h4>
     <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
   </div><!-- /.col -->
