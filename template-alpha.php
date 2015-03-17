@@ -149,7 +149,7 @@ Template Name: Alpha Home Page
 <div class="row">
   <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-9">
     <div class="spl-tile spl-tile-boxed">
-      <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=3 slug=alpha]'); ?>  
+      <?php echo do_shortcode('[spl_widget home-page carousel pause auto shuffle slides limit=1 slug=alpha]'); ?>  
     </div>
       <?php echo do_shortcode('[spl_widget home-page facebook limit=2]'); ?>
   </div><!-- /.col --> 
