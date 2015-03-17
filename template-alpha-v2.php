@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Alpha Home Page
+Template Name: Alpha Home Page v2
 */
 ?>
 
@@ -21,32 +21,6 @@ Template Name: Alpha Home Page
   }
 ?>
 
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <div class="row">
  
   <div class="col-md-9">
