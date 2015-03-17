@@ -34,7 +34,7 @@ Template Name: Alpha Home Page
     <?php echo get_alpha_panel('This week'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-3 col-md-pull-9" style="background:green;">
+  <div class="col-sm-12 col-md-3 col-md-pull-9" style="background:green;">
     <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
   </div><!-- /.col -->
 
