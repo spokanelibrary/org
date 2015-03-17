@@ -24,25 +24,25 @@ Template Name: Alpha Home Page
 
 <div class="row">
 
-  <div class="col-md-3">
+  <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-info" style="padding-left:10px;">
       <h4>Library Catalog</h4>
     </div>
   </div><!-- /.col -->
 
-  <div class="col-md-3">
+  <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-primary" style="padding-left:10px;">
       <h4>eBooks &amp; Downloads</h4>
     </div>
   </div><!-- /.col -->
 
-  <div class="col-md-3">
+  <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-warning" style="padding-left:10px;">
       <h4>Classes &amp; Events</h4>
     </div>
   </div><!-- /.col -->
 
-  <div class="col-md-3">
+  <div class="col-md-3 col-sm-6">
     <div class="spl-tile spl-tile-success" style="padding-left:10px;">
       <h4>Library News</h4>
     </div>
