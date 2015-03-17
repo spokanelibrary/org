@@ -124,7 +124,7 @@ Template Name: Alpha Home Page
       <h4>
         <a href="#"><span class="text-success">My Library Branch</span></a>
       </h4>
-      <ul class="nav nav-pills">
+      <ul class="list-unstyled">
         <li>
           <h5 class="uppercase">
             <a href="#">Downtown</a>
