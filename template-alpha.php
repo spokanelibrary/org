@@ -33,7 +33,7 @@ Template Name: Alpha Home Page
     <?php echo get_alpha_panel('This week'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-3 col-md-push-9">
+  <div class="col-md-3">
     <?php echo get_alpha_panel('Staff Picks'); ?>
   </div><!-- /.col -->
 
