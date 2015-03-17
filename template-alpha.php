@@ -24,7 +24,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
  
-  <div class="col-md-2">
+  <div class="col-sm-3 col-md-2">
     <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
   </div><!-- /.col -->
 
