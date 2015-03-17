@@ -104,6 +104,11 @@ Template Name: Home Page
 
 </div><!-- /.row -->
 
+<div class="spl-hero-panel spl-hero-default">
+  <h4 class="text-center">
+  &nbsp;
+  </h4>
+</div>
 
 <div class="row">
  
