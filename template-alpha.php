@@ -30,9 +30,15 @@ Template Name: Alpha Home Page
     </div>
   </div><!-- /.col -->
 
-    <div class="col-md-4">
-    <div class="spl-tile spl-tile-success" style="padding-left:10px;">
+  <div class="col-md-4">
+    <div class="spl-tile spl-tile-warning" style="padding-left:10px;">
       <h4>Classes &amp; Events</h4>
+    </div>
+  </div><!-- /.col -->
+
+  <div class="col-md-4">
+    <div class="spl-tile spl-tile-success" style="padding-left:10px;">
+      <h4>Library News</h4>
     </div>
   </div><!-- /.col -->
 
