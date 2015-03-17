@@ -25,7 +25,7 @@ Template Name: Alpha Home Page
 <div class="row">
  
   <div class="col-md-3">
-    <?php echo get_alpha_panel(280); ?>
+    <?php echo get_alpha_panel(300); ?>
   </div><!-- /.col -->
 
   <div class="col-md-6">
