@@ -43,7 +43,7 @@ Template Name: Alpha Home Page
       <div class="spl-hero-panel spl-hero-default">
         <a href="#">
           <h4 class="text-center">
-            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-thumbs-up"></i>
             Staff Picks
           </h4>
           <div class="panel-body" style="background:#eee;">
