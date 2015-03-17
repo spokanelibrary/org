@@ -26,7 +26,9 @@ Template Name: Alpha Home Page
  
   <div class="col-sm-4 col-md-3 col-md-push-9">
     <?php echo get_alpha_panel('Digital Branch'); ?>
-    <?php echo get_alpha_panel('Staff Picks'); ?>
+    <div class="hidden-xs">
+      <?php echo get_alpha_panel('Staff Picks'); ?>
+    </div>
   </div><!-- /.col -->
 
   <div class="col-sm-8 col-md-6">
