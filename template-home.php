@@ -123,6 +123,8 @@ Template Name: Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
+<p class="visible-md visible-lg">&nbsp;</p>
+
 <div class="row">
   <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-9">
     <div class="spl-tile spl-tile-boxed">
