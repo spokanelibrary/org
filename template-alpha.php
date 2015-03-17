@@ -25,15 +25,15 @@ Template Name: Alpha Home Page
 <div class="row">
  
   <div class="col-md-3">
-    <?php get_alpha_panel(); ?>
+    <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
 
   <div class="col-md-6">
-    <?php get_alpha_panel(); ?>
+    <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
 
   <div class="col-md-3">
-    <?php get_alpha_panel(); ?>
+    <?php echo get_alpha_panel(); ?>
   </div><!-- /.col -->
 
 </div><!-- /.row -->
