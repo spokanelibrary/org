@@ -24,12 +24,12 @@ Template Name: Alpha Home Page
 
 <div class="row">
  
-  <div class="col-md-3 col-md-push-9">
+  <div class="col-sm-4 col-md-3 col-md-push-9">
     <?php echo get_alpha_panel('Digital Branch'); ?>
     <?php echo get_alpha_panel('Staff Picks'); ?>
   </div><!-- /.col -->
 
-  <div class="col-md-6">
+  <div class="col-sm-8 col-md-6">
     <?php echo get_alpha_panel('Carousel'); ?>
     <?php echo get_alpha_panel('This week'); ?>
   </div><!-- /.col -->
