@@ -7,7 +7,7 @@ Template Name: Home Page
 
 <div class="row">
 
-  <div class="col-md-3 col-sm-6">
+  <div class="col-md-3 col-sm-4">
     <div class="spl-tile spl-tile-info" style="padding-left:10px;">
       <h4 class="uppercase">
         <a href="/catalog/"><span class="text-info">Library Catalog</span></a>
@@ -32,7 +32,7 @@ Template Name: Home Page
     </div>
   </div><!-- /.col -->
 
-  <div class="col-md-3 col-sm-6">
+  <div class="col-md-3 col-sm-4 col-sm-offset-2">
     <div class="spl-tile spl-tile-primary" style="padding-left:10px;">
       <h4 class="uppercase">
         <a href="/digital/"><span class="text-primary">Digital Branch</span></a>
@@ -52,7 +52,7 @@ Template Name: Home Page
     </div>
   </div><!-- /.col -->
 
-  <div class="col-md-3 col-sm-6  clearfix">
+  <div class="col-md-3 col-sm-4 col-sm-offset-2">
     <div class="spl-tile spl-tile-success" style="padding-left:10px;">
       <h4 class="uppercase">
         <a href="/calendar/"><span class="text-success">Classes &amp; Events</span></a>
@@ -77,7 +77,7 @@ Template Name: Home Page
     </div>
   </div><!-- /.col -->
 
-  <div class="col-md-3 col-sm-6">
+  <div class="col-md-3 col-sm-4 col-sm-offset-2">
     <div class="spl-tile spl-tile-warning" style="padding-left:10px;">
       <h4 class="uppercase">
         <a href="/faq/"><span class="text-warning">My Library</span></a>
