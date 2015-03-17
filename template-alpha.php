@@ -57,7 +57,7 @@ Template Name: Alpha Home Page
       <ul class="list-unstyled">
         <li>
           <h5>
-            <a href="#"><span class="text-primary">eBooks, music, magazines &amp; more</span></a>
+            <a href="#"><span class="text-primary">Download eBooks, music &amp; more</span></a>
           </h5>
         </li>
         <li>
