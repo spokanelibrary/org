@@ -37,12 +37,12 @@ Template Name: Alpha Home Page
         </li>
         <li>
           <h5>
-            <a href="#">My Account</a>
+            <a href="#">My account</a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">Browse New Arrivals</a>
+            <a href="#">Browse new arrivals</a>
           </h5>
         </li>
       </ul>
@@ -62,12 +62,12 @@ Template Name: Alpha Home Page
         </li>
         <li>
           <h5>
-            <a href="#">Free Music Downloads</a>
+            <a href="#">Free music downloads</a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">Mobile Apps &amp; More</a>
+            <a href="#">Mobile apps &amp; more</a>
           </h5>
         </li>
       </ul>
@@ -82,17 +82,17 @@ Template Name: Alpha Home Page
       <ul class="list-unstyled">
         <li>
           <h5>
-            <a href="#">Storytime Schedules</a>
+            <a href="#">Storytime schedules</a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">Computers &amp; Technology</a>
+            <a href="#">Computers &amp; technology</a>
           </h5>
         </li>
         <li>
           <h5>
-            <a href="#">Complete Calendar of Events</a>
+            <a href="#">Complete calendar of events</a>
           </h5>
         </li>
       </ul>
@@ -113,6 +113,11 @@ Template Name: Alpha Home Page
         <li>
           <h5>
             <a href="#">See what's new</a>
+          </h5>
+        </li>
+        <li>
+          <h5>
+            <a href="#">Library services</a>
           </h5>
         </li>
       </ul>
