@@ -24,7 +24,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
  
-  <div class="col-sm-4 col-md-3 col-md-push-9">
+  <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-10">
     
     <div class="panel spl-hero-panel spl-hero-primary">
       <a class="spl-hero-link" href="/download/">
@@ -55,7 +55,7 @@ Template Name: Alpha Home Page
     </div>-->
   </div><!-- /.col -->
 
-  <div class="col-sm-8 col-md-6">
+  <div class="col-sm-8 col-md-6 col-lg-8">
     <div class="spl-tile">
       <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
     </div>
@@ -63,7 +63,7 @@ Template Name: Alpha Home Page
     <?php //echo get_alpha_panel('This week', 240); ?>
   </div><!-- /.col -->
 
-  <div class="col-sm-12 col-md-3 col-md-pull-9">
+  <div class="col-sm-12 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
 
     <div class="panel spl-hero-open">
         <h4 class="text-center">
@@ -91,7 +91,7 @@ Template Name: Alpha Home Page
 <br>
 <br>
 
-<hr
+<hr>
 
 <div class="row">
     
