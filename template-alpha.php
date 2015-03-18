@@ -60,7 +60,7 @@ Template Name: Alpha Home Page
       <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
     </div>
 
-    <?php echo get_alpha_panel('This week', 240); ?>
+    <?php //echo get_alpha_panel('This week', 240); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-6 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
