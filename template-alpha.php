@@ -68,7 +68,7 @@ Template Name: Alpha Home Page
     <div class="panel spl-hero-open">
         <h4 class="text-center">
           <i class="glyphicon glyphicon-time"></i>
-          Library open hours
+          Open Hours
         </h4>
         <div class="panel-body" style="padding:6px;">
           <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
