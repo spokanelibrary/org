@@ -33,7 +33,9 @@ Template Name: Alpha Home Page
           Digital Branch
         </h4>
         <div class="panel-body">
+          <p>
           <img class="img-rounded img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
+          </p>
           <!-- <div class="panel-body spl-blue-tint-80" style="border:1px solid #fff;"> -->
             Download ebooks, music, magazines, &amp; more
           <!--</div>-->
