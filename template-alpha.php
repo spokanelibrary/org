@@ -24,10 +24,10 @@ Template Name: Alpha Home Page
 
 <div class="row">
  
-  <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-3 col-lg-push-9">
+  <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-10">
     
     <div class="panel spl-hero-panel spl-hero-primary">
-      <a href="#">
+      <a class="spl-hero-link" href="/download/">
         <h4 class="text-center">
           <i class="glyphicon glyphicon-cloud-download"></i>
           Digital Branch
