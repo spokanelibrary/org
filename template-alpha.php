@@ -24,7 +24,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
  
-  <div class="col-sm-4 col-md-2 col-md-push-10 col-lg-2 col-lg-push-10">
+  <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-10">
     
     <div class="panel spl-hero-panel spl-hero-primary">
       <a class="spl-hero-link" href="/download/">
@@ -63,7 +63,7 @@ Template Name: Alpha Home Page
     <?php //echo get_alpha_panel('This week', 240); ?>
   </div><!-- /.col -->
 
-  <div class="col-sm-6 col-md-2 col-md-pull-9 col-lg-2 col-lg-pull-9">
+  <div class="col-sm-6 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
 
     <div class="panel spl-hero-open">
         <h4 class="text-center">
