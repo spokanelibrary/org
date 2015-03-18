@@ -28,10 +28,10 @@ Template Name: Alpha Home Page
     
     <div class="panel spl-hero-panel spl-hero-primary">
       <a class="spl-hero-link" href="/download/">
-        <h5 class="text-center">
-          <small class="glyphicon glyphicon-cloud-download"></small>
+        <h4 class="text-center">
+          <i class="glyphicon glyphicon-cloud-download"></i>
           Digital Branch
-        </h5>
+        </h4>
           <img class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
         <div class="panel-body" style="padding:6px;">
           <b>Download</b> ebooks, music, magazines, and more <small>&rarr;</small>
@@ -66,16 +66,13 @@ Template Name: Alpha Home Page
   <div class="col-sm-6 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
 
     <div class="panel spl-hero-panel spl-hero-success">
-      <a class="spl-hero-link" href="/open/">
-        <h5 class="text-center">
-          <small class="glyphicon glyphicon-time"></small>
+        <h4 class="text-center">
           Is the library open?
-        </h5>
-          <img class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
+        </h4>
+        <img class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
         <div class="panel-body" style="padding:6px;">
           <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
         </div>
-      </a>
     </div>
 
   </div><!-- /.col -->

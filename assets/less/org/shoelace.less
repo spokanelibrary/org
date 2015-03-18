@@ -1048,10 +1048,10 @@ a .chof-red:hover {
     color: #fff;
   }
   border-color: darken(@brand-primary, 4%);
+  background: lighten(@brand-primary, 4%);
   .panel-body {
     background: lighten(@brand-primary, 10%);
   }
-  background: lighten(@brand-primary, 4%);
   .spl-hero-link:hover,
   .panel-body:hover {
     background: darken(@brand-primary, 4%);
@@ -1061,6 +1061,13 @@ a .chof-red:hover {
 .spl-hero-success {
   border-color: darken(@brand-success, 4%);
   background: lighten(@brand-success, 4%);
+  .panel {
+    border:none;
+    box-shadow: none;
+  }
+  .panel-body {
+    background: #fff;
+  }
   .spl-hero-link:hover {
     text-decoration: underline;
     //background: darken(@brand-success, 4%);
