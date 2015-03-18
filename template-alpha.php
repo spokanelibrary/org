@@ -36,7 +36,7 @@ Template Name: Alpha Home Page
           <p>
           <img class="img-rounded img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
           </p>
-          Download</b> ebooks, music, magazines, &amp; more
+          <b>Download</b> ebooks, music, magazines, &amp; more
         </div>
       </a>
     </div>
