@@ -32,9 +32,7 @@ Template Name: Alpha Home Page
           <i class="glyphicon glyphicon-cloud-download"></i>
           Digital Branch
         </h4>
-        <p>
           <img class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
-          </p>
         <div class="panel-body">
           
           <b>Download</b> ebooks, music, magazines, &amp; more
