@@ -41,7 +41,7 @@ Template Name: Alpha Home Page
     </div>
     
 
-    <div class="hidden-xs">
+    <!--<div class="hidden-xs">
       <div class="spl-hero-panel spl-hero-default">
         <a href="#">
           <h4 class="text-center">
@@ -49,14 +49,12 @@ Template Name: Alpha Home Page
             Staff Picks
           </h4>
           <div class="panel-body" style="background:#eee;">
-            <!-- <div class="panel-body" style="background:#ddd; border:1px solid #666;">-->
-             Recomendations &amp; reviews from library staff
-            <!--</div>-->
+            Recomendations &amp; reviews from library staff
           </div>
         </a>
       </div>
     </div>
-  </div><!-- /.col -->
+  </div>--><!-- /.col -->
 
   <div class="col-sm-8 col-md-6 col-lg-offset-1">
     
