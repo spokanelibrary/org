@@ -65,7 +65,7 @@ Template Name: Alpha Home Page
 
   <div class="col-sm-6 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
 
-    <div class="panel spl-hero-panel spl-hero-open">
+    <div class="panel spl-hero-open">
         <h4 class="text-center">
           Is the library open?
         </h4>
