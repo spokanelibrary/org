@@ -444,8 +444,10 @@ body {
     position: absolute; 
     bottom: 0; 
     width: 100%;
-    border: 1px solid #666;
-    border-left: 1px solid #666;
+    @media (min-width: @screen-md-min) { 
+      border-top: 1px solid #666;
+      border-left: 1px solid #666;
+    }
   }
 }
 
