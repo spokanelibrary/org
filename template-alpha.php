@@ -34,7 +34,7 @@ Template Name: Alpha Home Page
         </h4>
           <img class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
         <div class="panel-body" style="padding:6px;">
-          <b>Download</b> ebooks, music, magazines, &amp; more
+          <b>Download</b> ebooks, music, magazines, &amp; more <i class="glyphicon glyphicon-arrow-right"></i>
         </div>
       </a>
     </div>
