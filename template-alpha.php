@@ -82,7 +82,7 @@ Template Name: Alpha Home Page
 <div class="row">
 
   <div class="col-sm-3 col-md-3 col-lg-2 col-lg-offset-1">
-    img
+    
   </div><!-- /.col -->
 
   <div class="col-sm-5 col-md-6 col-lg-6">
