@@ -79,6 +79,8 @@ Template Name: Alpha Home Page
 
 </div><!-- /.row -->
 
+<?php 
+/*
 
 <br>
 <br>
@@ -128,3 +130,7 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
 </div><!-- /.row -->
+
+*/
+
+?>
