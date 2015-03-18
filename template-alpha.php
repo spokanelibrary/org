@@ -55,7 +55,7 @@ Template Name: Alpha Home Page
     </div>-->
   </div><!-- /.col -->
 
-  <div class="col-sm-8 col-md-6 col-lg-8">
+  <div class="col-sm-8 col-md-6 col-lg-6">
     <div class="spl-tile">
       <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
     </div>
