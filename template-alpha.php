@@ -79,6 +79,19 @@ Template Name: Alpha Home Page
 
 </div><!-- /.row -->
 
+<div class="row">
+
+  <div class="col-sm-4 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8">
+    <?php echo get_alpha_panel('Events'); ?>
+  </div><!-- /.col -->
+
+  <div class="col-sm-8 col-md-9 col-md-push-3 col-lg-9 col-lg-push-2">
+    <?php echo get_alpha_panel('This Week'); ?>
+  </div><!-- /.col -->
+
+
+</div><!-- /.row -->
+
 <?php 
 /*
 
