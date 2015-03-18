@@ -26,7 +26,7 @@ Template Name: Alpha Home Page
  
   <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-10">
     
-    <div class="spl-hero-panel spl-hero-primary">
+    <div class="panel spl-hero-panel spl-hero-primary">
       <a href="#">
         <h4 class="text-center">
           <i class="glyphicon glyphicon-cloud-download"></i>
