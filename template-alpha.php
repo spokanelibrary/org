@@ -21,6 +21,9 @@ Template Name: Alpha Home Page
   }
 ?>
 
+<div class="row">
+ 
+  <div class="col-lg-10 col-lg-offset-1">
 
 <div class="row">
  
@@ -79,6 +82,10 @@ Template Name: Alpha Home Page
 
 </div><!-- /.row -->
 
+
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
 
 <br>
 <br>
