@@ -53,8 +53,8 @@ Template Name: Alpha Home Page
           </div>
         </a>
       </div>
-    </div>
-  </div>--><!-- /.col -->
+    </div>-->
+  </div><!-- /.col -->
 
   <div class="col-sm-8 col-md-6 col-lg-offset-1">
     
