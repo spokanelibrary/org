@@ -30,11 +30,11 @@ Template Name: Alpha Home Page
       <a class="spl-hero-link" href="/download/">
         <h4 class="text-center">
           <i class="glyphicon glyphicon-cloud-download"></i>
-          Digital Branch
+          Download
         </h4>
           <img class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
         <div class="panel-body" style="padding:6px;">
-          <b>Download</b> ebooks, music, magazines, and more <small>&rarr;</small>
+          ebooks, music, magazines, and more <small>&rarr;</small>
         </div>
       </a>
     </div>
