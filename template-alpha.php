@@ -81,12 +81,12 @@ Template Name: Alpha Home Page
 
 <div class="row">
 
-  <div class="col-sm-4 col-sm-pull-8">
-    <?php echo get_alpha_panel('Events'); ?>
+  <div class="col-sm-8">
+    <?php echo get_alpha_panel('This Week'); ?>
   </div><!-- /.col -->
 
-  <div class="col-sm-8 sm-push-4">
-    <?php echo get_alpha_panel('This Week'); ?>
+  <div class="col-sm-4">
+    <?php echo get_alpha_panel('Events'); ?>
   </div><!-- /.col -->
 
 
