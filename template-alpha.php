@@ -58,7 +58,7 @@ Template Name: Alpha Home Page
 
   <div class="col-sm-8 col-md-6 col-lg-offset-1">
     
-    <div class="">
+    <div class="spl-tile">
       <img class="img-responsive" src="/assets/img/promos/photos/IMG_3272.jpg">
     </div>
 
