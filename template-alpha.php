@@ -95,16 +95,15 @@ Template Name: Alpha Home Page
 
 <div class="row">
     
-  <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-8">
+  <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-6">
     <?php echo get_alpha_panel('Digital Branch'); ?>
   </div><!-- /.col -->
 
   <div class="col-sm-8 col-md-6 col-lg-8">
     <?php echo get_alpha_panel('Carousel'); ?>
-    <?php echo get_alpha_panel('This Week'); ?>
   </div><!-- /.col -->
 
-  <div class="col-sm-12 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8">
+  <div class="col-sm-12 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-10">
     <?php echo get_alpha_panel('Open Hours'); ?>
   </div><!-- /.col -->
 
