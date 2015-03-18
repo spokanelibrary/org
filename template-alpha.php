@@ -82,15 +82,15 @@ Template Name: Alpha Home Page
 <div class="row">
 
   <div class="col-sm-3 col-md-3 col-lg-2 col-lg-offset-1">
-    <?php echo get_alpha_panel('Image'); ?>
+    img
   </div><!-- /.col -->
 
   <div class="col-sm-5 col-md-6 col-lg-6">
-    <?php echo get_alpha_panel('This Week'); ?>
+    this week
   </div><!-- /.col -->
 
   <div class="col-sm-4 col-md-3 col-lg-2">
-    <?php echo get_alpha_panel('Events'); ?>
+    events
   </div><!-- /.col -->
 
 
