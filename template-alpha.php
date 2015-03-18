@@ -59,7 +59,11 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-8 col-md-6 col-lg-offset-1">
-    <?php echo get_alpha_panel('Carousel', 240); ?>
+    
+    <div class="">
+      <img class="img-responsive" src="/assets/img/promos/photos/IMG_3272.jpg">
+    </div>
+
     <?php echo get_alpha_panel('This week', 240); ?>
   </div><!-- /.col -->
 
