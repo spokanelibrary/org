@@ -64,8 +64,20 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-6 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
-      <h4 class="text-center text-success" style="margin-top:0;">Is the library open?</h4>
-    <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+
+    <div class="panel spl-hero-panel spl-hero-success">
+      <a class="spl-hero-link" href="/open/">
+        <h4 class="text-center">
+          <i class="glyphicon glyphicon-time"></i>
+          Is the library open?
+        </h4>
+          <img class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
+        <div class="panel-body" style="padding:6px;">
+          <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+        </div>
+      </a>
+    </div>
+
   </div><!-- /.col -->
 
 </div><!-- /.row -->
