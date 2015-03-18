@@ -64,15 +64,18 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-12 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
-
-    <div class="panel spl-hero-open">
-        <h4 class="text-center">
-          <i class="glyphicon glyphicon-time"></i>
-          Open Hours
-        </h4>
-        <div class="panel-body" style="padding:4px;">
-          <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel spl-hero-open">
+            <h4 class="text-center">
+              <i class="glyphicon glyphicon-time"></i>
+              Open Hours
+            </h4>
+            <div class="panel-body" style="padding:4px;">
+              <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+            </div>
         </div>
+      </div>
     </div>
 
   </div><!-- /.col -->
