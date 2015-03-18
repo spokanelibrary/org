@@ -79,3 +79,34 @@ Template Name: Alpha Home Page
 
 </div><!-- /.row -->
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h3 class="text-center">
+  Grids
+</h3>
+
+<div class="row">
+    
+  <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-10">
+    <?php echo get_alpha_panel('Digital'); ?>
+  </div><!-- /.col -->
+
+  <div class="col-sm-8 col-md-6 col-lg-offset-1">
+    <?php echo get_alpha_panel('Slides'); ?>
+  </div><!-- /.col -->
+
+  <div class="col-sm-12 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-9">
+    <?php echo get_alpha_panel('Open'); ?>
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
