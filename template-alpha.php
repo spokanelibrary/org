@@ -90,9 +90,7 @@ Template Name: Alpha Home Page
   </div><!-- /.col -->
 
   <div class="col-sm-4 col-md-3 col-lg-2">
-    <div id="spl-hero">
-      <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar]'); ?>
-    </div>
+    events
   </div><!-- /.col -->
 
 
