@@ -21,8 +21,7 @@ Template Name: Alpha Home Page
   }
 ?>
 
-<div class="row">
-<div class="col-lg-11">
+
 
 <div class="row">
  
@@ -79,9 +78,6 @@ Template Name: Alpha Home Page
 
   </div><!-- /.col -->
 
-</div><!-- /.row -->
-
-</div><!-- /.col -->
 </div><!-- /.row -->
 
 
