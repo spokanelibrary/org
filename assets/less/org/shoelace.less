@@ -438,28 +438,6 @@ body {
 
 /* Carousel Customizations */
 
-.carousel-photo {
-  img {
-    border: 1px solid @gray-light;
-    border-top-width: 5px;
-  }
-  .carousel-photo-caption {
-    position:relative;
-    .carousel-photo-overlay {
-      background: fade(#ececec, 90%);
-      position: absolute; 
-      bottom: 1px; right: 1px; 
-      width: 100%;
-      @media (min-width: @screen-sm-min) { 
-        border-top: 1px solid @gray-light;
-        border-left: 1px solid @gray-light;
-        border-top-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-      }
-    }
-  }
-}
-
 .carousel {  
   /*border: 1px solid @brand-primary;*/
 
@@ -579,6 +557,30 @@ body {
     //border: 1px solid red !important;
   }
 }
+
+
+.carousel-photo {
+  img {
+    border: 1px solid @gray-light;
+    border-top-width: 5px;
+  }
+  .carousel-photo-caption {
+    position:relative;
+    .carousel-photo-overlay {
+      background: fade(#ececec, 90%);
+      position: absolute; 
+      bottom: 1px; right: 1px; 
+      width: 100%;
+      @media (min-width: @screen-sm-min) { 
+        border-top: 1px solid @gray-light;
+        border-left: 1px solid @gray-light;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    }
+  }
+}
+
 
 /* Citizen Hall of Fame */
 
