@@ -437,17 +437,22 @@ body {
 
 /* Carousel Customizations */
 
-.carousel-photo-caption {
-  position:relative;
-  .carousel-photo-overlay {
-    background: fade(#ececec, 90%);
-    position: absolute; 
-    bottom: 0; 
-    width: 100%;
-    @media (min-width: @screen-sm-min) { 
-      border-top: 1px solid #ccc;
-      border-left: 1px solid #ccc;
-      border-top-left-radius: 4px;
+.carousel-photo {
+  img {
+    border: 1px solid @brand-primary;
+  }
+  .carousel-photo-caption {
+    position:relative;
+    .carousel-photo-overlay {
+      background: fade(#ececec, 90%);
+      position: absolute; 
+      bottom: 0; 
+      width: 100%;
+      @media (min-width: @screen-sm-min) { 
+        border-top: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-top-left-radius: 4px;
+      }
     }
   }
 }
