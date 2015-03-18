@@ -70,7 +70,7 @@ Template Name: Alpha Home Page
           <i class="glyphicon glyphicon-time"></i>
           Open Hours
         </h4>
-        <div class="panel-body" style="padding:4px;">
+        <div class="panel-body">
           <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
         </div>
     </div>
