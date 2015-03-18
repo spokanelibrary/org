@@ -69,7 +69,6 @@ Template Name: Alpha Home Page
         <h4 class="text-center">
           Is the library open?
         </h4>
-        <img class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
         <div class="panel-body" style="padding:6px;">
           <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
         </div>
