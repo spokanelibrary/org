@@ -22,7 +22,7 @@ Template Name: Alpha Home Page
 ?>
 
 
-<div class="row">
+<div class="row" style="background:#ececec;">
  
   <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-9">
     
