@@ -61,7 +61,13 @@ Template Name: Alpha Home Page
         <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
       </div>
       <div class="col-sm-4 col-md-4 col-lg-3">
-        <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
+        <div class="panel spl-hero-panel spl-hero-muted">
+          <h4 class="text-center" style="">
+            <i class="glyphicon glyphicon-calendar"></i> 
+            Join Us
+          </h4>
+          <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
+        </div>
       </div>
     </div>
     
