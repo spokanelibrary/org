@@ -53,7 +53,12 @@ Template Name: Alpha Home Page
 
     </div><!-- /.row -->
 
-    <?php echo get_alpha_panel('This week'); ?>
+    <div class="panel spl-hero-panel spl-hero-primary">
+      <h4 class="text-center">
+        <i class="glyphicon glyphicon-calendar"></i>
+        This week at the library
+      </h4>    
+    </div>
 
     <div class="row">
       
