@@ -96,9 +96,8 @@ Template Name: Alpha Home Page
 
 </div><!-- /.row -->
 
-<?php 
+<?php ?>
 /*
-
 <br>
 <br>
 <br>
@@ -111,6 +110,23 @@ Template Name: Alpha Home Page
 <br>
 
 <hr>
+
+<div class="row">
+    
+  <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-9">
+    <?php echo get_alpha_panel('Digital Branch'); ?>
+  </div><!-- /.col -->
+
+  <div class="col-sm-8 col-md-8 col-lg-offset-1">
+    <?php echo get_alpha_panel('Carousel'); ?>
+    <?php echo get_alpha_panel('This Week'); ?>
+  </div><!-- /.col -->
+
+
+</div><!-- /.row -->
+
+<hr>
+
 
 <div class="row">
     
@@ -150,4 +166,4 @@ Template Name: Alpha Home Page
 
 */
 
-?>
+<?php ?>
