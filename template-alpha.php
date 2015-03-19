@@ -24,13 +24,10 @@ Template Name: Alpha Home Page
 <div class="row">
     
   <div class="col-md-9 col-md-push-3 col-lg-8">
+    
     <div class="row">
-      <div class="col-sm-8 col-md-8 col-lg-9">
-        <div class="spl-tile">
-          <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
-        </div>
-      </div><!-- /.col -->
-      <div class="col-sm-4 col-md-4 col-lg-3">
+      <div class="col-sm-4 col-sm-pull-8 col-md-4 col-md-pull-8 col-lg-3 col-lg-pull-9">
+        
         <div class="panel spl-hero-panel spl-hero-primary">
           <a class="spl-hero-link" href="/download/">
             <h4 class="text-center">
@@ -43,11 +40,22 @@ Template Name: Alpha Home Page
             </div>
           </a>
         </div>
+
       </div><!-- /.col -->
+       <div class="col-sm-8 col-sm-push-4 col-md-8 col-md-push-4 col-lg-9 col-lg-push-3">
+
+        <div class="spl-tile">
+          <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
+        </div>
+
+      </div><!-- /.col -->
+
     </div><!-- /.row -->
+
   </div><!-- /.col -->
 
   <div class="col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8 col-lg-offset-1">
+    
     <div class="panel spl-hero-open">
       <h4 class="text-center">
         <i class="glyphicon glyphicon-time"></i>
@@ -57,6 +65,7 @@ Template Name: Alpha Home Page
         <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
       </div>
     </div>
+
   </div><!-- /.col -->
 
 </div><!-- /.row -->
