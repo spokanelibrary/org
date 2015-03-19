@@ -53,19 +53,18 @@ Template Name: Alpha Home Page
 
     </div><!-- /.row -->
 
-    <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
+    <?php //echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
 
-    <!--
+    
     <div class="row">
       <div class="col-sm-8 col-md-8 col-lg-9">
-        <?php //echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
       </div>
       <div class="col-sm-4 col-md-4 col-lg-3">
-        <?php //echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
       </div>
     </div>
-    -->
-
+    
   </div><!-- /.col -->
 
   <div class="col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8 col-lg-offset-1">
