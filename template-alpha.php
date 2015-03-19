@@ -53,25 +53,23 @@ Template Name: Alpha Home Page
 
     </div><!-- /.row -->
 
-    <div class="panel spl-hero-panel spl-hero-default">
-      <h4 class="">
-        <i class="glyphicon glyphicon-th-list"></i>
-        Events and programs 
-      </h4>   
+    <h4 class="">
+      <i class="glyphicon glyphicon-th-list"></i>
+      Classes and programs 
+    </h4>   
 
-      <div class="row">
-      
-        <div class="col-sm-8 col-md-8 col-lg-9">
-          Narrative
-        </div><!-- /.col -->
+    <div class="row">
+    
+      <div class="col-sm-8 col-md-8 col-lg-9">
+        Narrative
+      </div><!-- /.col -->
 
-        <div class="col-sm-4 col-md-4 col-lg-3">
-          Events
-        </div><!-- /.col -->
+      <div class="col-sm-4 col-md-4 col-lg-3">
+        Events
+      </div><!-- /.col -->
 
-      </div><!-- /.row -->
+    </div><!-- /.row -->
 
-    </div>
 
   </div><!-- /.col -->
 
