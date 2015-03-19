@@ -53,7 +53,7 @@ Template Name: Alpha Home Page
 
     </div><!-- /.row -->
 
-    <h3 class="">
+    <h3 class="" style="margin-top:0;">
       Classes and programs 
     </h3>   
 
