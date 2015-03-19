@@ -72,7 +72,7 @@ Template Name: Alpha Home Page
 
       </div><!-- /.col -->
 
-      <div class="col-sm-8 col-md-12">
+      <div class="col-sm-4 col-md-12">
         Staff Picks
       </div><!-- /.col -->
 
