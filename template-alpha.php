@@ -57,20 +57,21 @@ Template Name: Alpha Home Page
       <h4 class="">
         <i class="glyphicon glyphicon-th-list"></i>
         Events and programs 
-      </h4>    
-    </div>
+      </h4>   
 
-    <div class="row">
+      <div class="row">
       
-      <div class="col-sm-8 col-md-8 col-lg-9">
-        <?php echo get_alpha_panel('Narrative'); ?>
-      </div><!-- /.col -->
+        <div class="col-sm-8 col-md-8 col-lg-9">
+          <?php echo get_alpha_panel('Narrative'); ?>
+        </div><!-- /.col -->
 
-      <div class="col-sm-4 col-md-4 col-lg-3">
-        <?php echo get_alpha_panel('Events'); ?>
-      </div><!-- /.col -->
+        <div class="col-sm-4 col-md-4 col-lg-3">
+          <?php echo get_alpha_panel('Events'); ?>
+        </div><!-- /.col -->
 
-    </div><!-- /.row -->
+      </div><!-- /.row -->
+
+    </div>
 
   </div><!-- /.col -->
 
