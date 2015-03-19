@@ -22,6 +22,7 @@ Template Name: Alpha Home Page
 ?>
 
 <div class="panel panel-default">
+<div class="panel-body">
 
 <div class="row">
     
@@ -117,6 +118,7 @@ Template Name: Alpha Home Page
 
 </div><!-- /.row -->
 
+</div>
 </div>
 
 
