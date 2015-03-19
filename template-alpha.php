@@ -105,7 +105,6 @@ Template Name: Alpha Home Page
             <div class="text-right">
               <a href="#"><small>Continue</small></a> <small class="text-muted">&rarr;</small>
             </div>
-            <h5>Suggested Reading:</h5>
           </div>
         </div>
       </div><!-- /.col -->
