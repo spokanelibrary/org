@@ -66,7 +66,9 @@ Template Name: Alpha Home Page
             <i class="glyphicon glyphicon-calendar"></i> 
             Join Us
           </h4>
-          <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
+          <div class="panel-body">
+            <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
+          </div>
         </div>
       </div>
     </div>
