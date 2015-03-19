@@ -58,7 +58,7 @@ Template Name: Alpha Home Page
   <div class="col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8 col-lg-offset-1">
     
     <div class="row">
-      <div class="col-sm-6 col-md-12">
+      <div class="col-sm-8 col-md-12">
     
         <div class="panel spl-hero-open">
           <h4 class="text-center">
@@ -70,6 +70,10 @@ Template Name: Alpha Home Page
           </div>
         </div>
 
+      </div><!-- /.col -->
+
+      <div class="col-sm-8 col-md-12">
+        Staff Picks
       </div><!-- /.col -->
 
     </div><!-- /.row -->
