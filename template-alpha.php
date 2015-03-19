@@ -53,10 +53,9 @@ Template Name: Alpha Home Page
 
     </div><!-- /.row -->
 
-    <h4 class="">
-      <i class="glyphicon glyphicon-bullhorn"></i>
+    <h3 class="">
       Classes and programs 
-    </h4>   
+    </h3>   
 
     <div class="row">
     
