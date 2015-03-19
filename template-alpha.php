@@ -51,6 +51,8 @@ Template Name: Alpha Home Page
 
       </div><!-- /.col -->
 
+      This week
+
     </div><!-- /.row -->
 
   </div><!-- /.col -->
