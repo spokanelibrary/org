@@ -98,6 +98,7 @@ Template Name: Alpha Home Page
             <i class="glyphicon glyphicon-thumbs-up"></i> 
             Staff Picks
           </h4>
+          <img src="/assets/img/promos/spl-fiction-queen.jpg">
           <div class="panel-body">
             Lorem ipsum dolor sit amet
           </div>
