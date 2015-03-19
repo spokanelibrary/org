@@ -113,7 +113,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
     
-  <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-9">
+  <div class="col-sm-4 col-md-3 col-md-push-9 col-lg-2 col-lg-push-7">
     <?php echo get_alpha_panel('Digital Branch'); ?>
   </div><!-- /.col -->
 
