@@ -1102,11 +1102,26 @@ a .chof-red:hover {
   }
 }
 
-.spl-hero-muted {
-  //border-color: darken(@gray, 4%);
-  //background: lighten(@gray-light, 4%);
+.spl-hero-callout {
   background: lighten(@brand-warning, 6%);
   border-color: darken(@brand-warning, 8%);
+  h4 {
+    color: #fff;
+  }
+  color: @gray;
+  .panel-body {
+    padding: 2px;
+    background: lighten(@gray-light, 35%);
+  }
+  .spl-hero-link:hover,
+  .spl-hero-link:hover .panel-body {
+    background: darken(@gray, 4%);
+  }
+}
+
+.spl-hero-muted {
+  border-color: darken(@gray, 4%);
+  background: lighten(@gray-light, 4%);
   h4 {
     color: #fff;
   }
