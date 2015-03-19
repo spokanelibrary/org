@@ -100,8 +100,11 @@ Template Name: Alpha Home Page
           </h4>
           <img class="img-responsive hidden-xs" style="margin:auto;" src="/assets/img/promos/spl-staff-avatar.jpg">
           <div class="panel-body">
-            <h5>Reviews:</h5>
+            <h5>Recent Reviews:</h5>
             <h5 class="serif">Emperors & ninjas in 1920’s Japan</h5>
+            <p class="text-right">
+              <a href="#">Continue</a> <small class="text-muted">&rarr;</small>
+            </p>
             <h5>Suggested Reading:</h5>
           </div>
         </div>
