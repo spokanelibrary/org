@@ -98,7 +98,7 @@ Template Name: Alpha Home Page
             <i class="glyphicon glyphicon-thumbs-up"></i> 
             Staff Picks
           </h4>
-          <img class="img-responsive" style="margin:auto;" src="/assets/img/promos/spl-staff-avatar.jpg">
+          <img class="img-responsive hidden-xs" style="margin:auto;" src="/assets/img/promos/spl-staff-avatar.jpg">
           <div class="panel-body">
             Lorem ipsum dolor sit amet
           </div>
