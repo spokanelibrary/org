@@ -62,11 +62,11 @@ Template Name: Alpha Home Page
       <div class="row">
       
         <div class="col-sm-8 col-md-8 col-lg-9">
-          <?php echo do_shortcode('[spl_widget home-page posts limit=1]'); ?>
+          Narrative
         </div><!-- /.col -->
 
         <div class="col-sm-4 col-md-4 col-lg-3">
-          <?php echo get_alpha_panel('Events'); ?>
+          Events
         </div><!-- /.col -->
 
       </div><!-- /.row -->
