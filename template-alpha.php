@@ -54,7 +54,7 @@ Template Name: Alpha Home Page
     </div><!-- /.row -->
 
     <div class="panel spl-hero-panel spl-hero-default">
-      <h4 class="text-center">
+      <h4 class="">
         <i class="glyphicon glyphicon-th-list"></i>
         Events and programs 
       </h4>    
