@@ -23,7 +23,7 @@ Template Name: Alpha Home Page
 
 <div class="row">
     
-  <div class="col-sm-8 col-md-9 col-md-push-3 col-lg-8">
+  <div class="col-md-9 col-md-push-3 col-lg-8">
     <div class="row">
       <div class="col-md-8 col-lg-9">
         <div class="spl-tile">
@@ -47,7 +47,7 @@ Template Name: Alpha Home Page
     </div><!-- /.row -->
   </div><!-- /.col -->
 
-  <div class="col-sm-4 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8 col-lg-offset-1">
+  <div class="col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8 col-lg-offset-1">
     <div class="panel spl-hero-open">
       <h4 class="text-center">
         <i class="glyphicon glyphicon-time"></i>
