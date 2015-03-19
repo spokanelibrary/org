@@ -26,6 +26,7 @@ Template Name: Alpha Home Page
   <div class="col-md-9 col-md-push-3 col-lg-8">
     
     <div class="row">
+
       <div class="col-sm-4 col-sm-push-8 col-md-4 col-md-push-8 col-lg-3 col-lg-push-9">
         
         <div class="panel spl-hero-panel spl-hero-primary">
@@ -56,15 +57,22 @@ Template Name: Alpha Home Page
 
   <div class="col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8 col-lg-offset-1">
     
-    <div class="panel spl-hero-open">
-      <h4 class="text-center">
-        <i class="glyphicon glyphicon-time"></i>
-        Open Hours
-      </h4>
-      <div class="panel-body">
-        <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
-      </div>
-    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-12">
+    
+        <div class="panel spl-hero-open">
+          <h4 class="text-center">
+            <i class="glyphicon glyphicon-time"></i>
+            Open Hours
+          </h4>
+          <div class="panel-body">
+            <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+          </div>
+        </div>
+
+      </div><!-- /.col -->
+
+    </div><!-- /.row -->
 
   </div><!-- /.col -->
 
