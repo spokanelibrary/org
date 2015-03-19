@@ -21,7 +21,7 @@ Template Name: Alpha Home Page
   }
 ?>
 
-<div class="panel panel-default">
+<div class="panel panel-default" style="background-color:#eee;">
 <div class="panel-body">
 
 <div class="row">
