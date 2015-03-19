@@ -21,6 +21,53 @@ Template Name: Alpha Home Page
   }
 ?>
 
+<div class="row">
+    
+  <div class="col-sm-8 col-md-9 col-md-push-3 col-lg-8">
+    <div class="row">
+      <div class="col-md-8 col-lg-9">
+        <div class="spl-tile">
+          <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
+        </div>
+      </div><!-- /.col -->
+      <div class="col-md-4 col-lg-3">
+        <div class="panel spl-hero-panel spl-hero-primary">
+          <a class="spl-hero-link" href="/download/">
+            <h4 class="text-center">
+              <i class="glyphicon glyphicon-cloud-download"></i>
+              Digital Branch
+            </h4>
+              <img style="margin:auto;" class="img-responsive hidden-xs" src="/assets/img/promos/photos/spl-handheld.jpg">
+            <div class="panel-body" style="padding:8px;">
+              <b>Download</b> ebooks, music, magazines, and more <small>&rarr;</small>
+            </div>
+          </a>
+        </div>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.col -->
+
+  <div class="col-sm-4 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8 col-lg-offset-1">
+    <div class="panel spl-hero-open">
+      <h4 class="text-center">
+        <i class="glyphicon glyphicon-time"></i>
+        Open Hours
+      </h4>
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget branch-hours]'); ?>
+      </div>
+    </div>
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
+
+
+
+
+
+
+
+
 
 <div class="row">
  
@@ -96,7 +143,7 @@ Template Name: Alpha Home Page
 
 </div><!-- /.row -->
 
-<?php ?>
+<?php 
 /*
 <br>
 <br>
@@ -113,7 +160,6 @@ Template Name: Alpha Home Page
 
 <div class="row">
     
-
   <div class="col-sm-8 col-md-9 col-md-push-3 col-lg-8">
     <div class="row">
       <div class="col-md-8 col-lg-9">
@@ -125,10 +171,9 @@ Template Name: Alpha Home Page
     </div><!-- /.row -->
   </div><!-- /.col -->
 
-    <div class="col-sm-4 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8 col-lg-offset-1">
+  <div class="col-sm-4 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8 col-lg-offset-1">
     <?php echo get_alpha_panel('Open Hours'); ?>
   </div><!-- /.col -->
-
 
 </div><!-- /.row -->
 
@@ -173,4 +218,4 @@ Template Name: Alpha Home Page
 
 */
 
-<?php ?>
+?>
