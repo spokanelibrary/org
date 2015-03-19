@@ -114,7 +114,7 @@ Template Name: Alpha Home Page
 <div class="row">
     
 
-  <div class="col-sm-8 col-md-9 col-md-push-3">
+  <div class="col-sm-8 col-md-9 col-md-push-3 col-lg-8">
     <?php echo get_alpha_panel('Carousel & Digi'); ?>
   </div><!-- /.col -->
 
