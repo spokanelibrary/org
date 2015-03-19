@@ -100,7 +100,7 @@ Template Name: Alpha Home Page
           </h4>
           <img class="img-responsive hidden-xs" style="margin:auto;" src="/assets/img/promos/spl-staff-avatar.jpg">
           <div class="panel-body">
-            Lorem ipsum dolor sit amet
+            <h5 class="serif">Emperors & ninjas in 1920’s Japan</h5>
           </div>
         </div>
       </div><!-- /.col -->
