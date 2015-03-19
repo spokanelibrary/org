@@ -53,10 +53,10 @@ Template Name: Alpha Home Page
 
     </div><!-- /.row -->
 
-    <div class="panel spl-hero-panel spl-hero-primary">
+    <div class="panel spl-hero-panel spl-hero-default">
       <h4 class="text-center">
-        <i class="glyphicon glyphicon-calendar"></i>
-        This week at the library
+        <i class="glyphicon glyphicon-th-list"></i>
+        Events and programs 
       </h4>    
     </div>
 
