@@ -93,7 +93,15 @@ Template Name: Alpha Home Page
       </div><!-- /.col -->
 
       <div class="col-sm-4 col-md-12">
-        <?php //echo get_alpha_panel('Staff picks'); ?>
+        <div class="panel spl-hero-panel spl-hero-muted">
+          <h4 class="text-center" style="">
+            <i class="glyphicon glyphicon-thumbs-up"></i> 
+            Staff Picks
+          </h4>
+          <div class="panel-body">
+            Lorem ipsum dolor sit amet
+          </div>
+        </div>
       </div><!-- /.col -->
 
     </div><!-- /.row -->
