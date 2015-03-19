@@ -119,7 +119,7 @@ Template Name: Alpha Home Page
       <div class="col-md-9">
         <?php echo get_alpha_panel('Carousel'); ?>
       </div><!-- /.col -->
-      <div class="col-md-34">
+      <div class="col-md-3">
         <?php echo get_alpha_panel('Digital Branch'); ?>
       </div><!-- /.col -->
     </div><!-- /.row -->
