@@ -1000,7 +1000,8 @@ a .chof-red:hover {
     border-radius: 5px;
     //border: 1px solid @gray-light;
     //background: lighten(@gray-light, 35%);
-    background: rgb(250,250,250);
+    //background: rgb(250,250,250);
+    background: lighten(@alert-warning-bg, 4%);
   }
 
   @media (min-width: @screen-lg-min) {  }
@@ -1118,22 +1119,22 @@ a .chof-red:hover {
 }
 
 .spl-hero-callout {
-  //background: lighten(@brand-warning, 6%);
-  //border-color: darken(@brand-warning, 8%);
-  border-color: @state-warning-text;
-  background: darken(@alert-warning-bg, 4%);
+  background: lighten(@brand-warning, 6%);
+  border-color: darken(@brand-warning, 8%);
+  //border-color: @state-warning-text;
+  //background: darken(@alert-warning-bg, 4%);
   
   h4 {
-    //color: #fff;
-    color: @state-warning-text;
+    color: #fff;
+    //color: @state-warning-text;
   }
   color: @gray;
   .panel-body {
     padding: 2px;
-    background: lighten(@alert-warning-bg, 4%);
+    //background: lighten(@alert-warning-bg, 4%);
     //background: lighten(@brand-warning, 35%);
     //background: lighten(@gray-light, 35%);
-    //background: #fff;
+    background: #fff;
   }
   .spl-hero-link:hover,
   .spl-hero-link:hover .panel-body {
