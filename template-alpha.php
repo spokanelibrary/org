@@ -60,7 +60,9 @@ Template Name: Alpha Home Page
       </div><!-- /.col -->
 
       <div class="col-sm-4 col-md-4 col-lg-3">
-        <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
+        <div style="background:#ececec;">
+          <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
+        </div>
       </div><!-- /.col -->
 
     </div><!-- /.row -->
