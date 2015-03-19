@@ -21,8 +21,7 @@ Template Name: Alpha Home Page
   }
 ?>
 
-<div class="panel panel-default" style="background-color:#eee;">
-<div class="panel-body">
+<div class="spl-hero-wrapper">
 
 <div class="row">
     
@@ -118,7 +117,6 @@ Template Name: Alpha Home Page
 
 </div><!-- /.row -->
 
-</div>
 </div>
 
 
