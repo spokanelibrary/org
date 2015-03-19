@@ -60,7 +60,7 @@ Template Name: Alpha Home Page
     <div class="row">
     
       <div class="col-sm-8 col-md-8 col-lg-9">
-        Image and narrative
+        <?php echo do_shortcode('[spl_widget home-page posts limit=1]'); ?>
       </div><!-- /.col -->
 
       <div class="col-sm-4 col-md-4 col-lg-3">
