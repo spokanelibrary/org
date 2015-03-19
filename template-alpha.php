@@ -60,11 +60,11 @@ Template Name: Alpha Home Page
     <div class="row">
     
       <div class="col-sm-8 col-md-8 col-lg-9">
-        Narrative
+        Image and narrative
       </div><!-- /.col -->
 
       <div class="col-sm-4 col-md-4 col-lg-3">
-        Events
+        <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar]'); ?>
       </div><!-- /.col -->
 
     </div><!-- /.row -->
