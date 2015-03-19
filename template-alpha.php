@@ -21,6 +21,8 @@ Template Name: Alpha Home Page
   }
 ?>
 
+<div class="panel panel-default">
+
 <div class="row">
     
   <div class="col-md-9 col-md-push-3 col-lg-8">
@@ -115,8 +117,7 @@ Template Name: Alpha Home Page
 
 </div><!-- /.row -->
 
-
-
+</div>
 
 
 <?php 
