@@ -78,7 +78,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-g">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/abstract/1">
+					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/1">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Donald F. Kardong</h6>
@@ -98,7 +98,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
+					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/3">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Harold Balazs</h6>
@@ -140,7 +140,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-c">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
+					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/2">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Gordon Budke</h6>
@@ -182,7 +182,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-e">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/5">
+					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/5">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Gary A. Livingston</h6>
@@ -299,7 +299,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-l">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/4">
+					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/4">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Peg Hopkins</h6>
