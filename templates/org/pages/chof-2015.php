@@ -373,32 +373,36 @@
 	  	  	  	<p class="lead">
 	  	  	  		The Spokane Citizen Hall of Fame recognizes individuals in Spokane for their achievement in one of six categories while providing an opportunity to raise funds for the Spokane Public Library.
 	  	  	  	</p>
-	  	  	  	<h5>Economic Development and Business</h5>
-							<blockquote>
-								For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
-							</blockquote>
-							<h5>Education</h5>
-							<blockquote>
-								For enriching and inspiring lifelong learning in our community
-							</blockquote>
-							<h5>Public Service and Philanthropy</h5>
-							<blockquote>
-								For exemplary voluntary and public service activities that benefit the community
-							</blockquote>
-							<h5>Innovation and Leadership</h5>
-							<blockquote>
-								For activities that cultivate strong innovation and leadership city-wide
-							</blockquote>
-							<h5>Arts and Letters</h5>
-							<blockquote>
-								For activities that enhance and support the artistic/cultural and literary life and well-being of the community
-							</blockquote>
-							<h5>Science, Health and Medicine</h5>
-							<blockquote>
-								For individuals who have made significant contributions in the area of science, health or medicine
-							</blockquote>
+	  	  	  	
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
+	  	    <h4>
+	  	    	Categories in which the citizens will be honored for their achievements may include:
+	  	    </h4>
+	  	    <h5>Economic Development and Business</h5>
+					<blockquote>
+						For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
+					</blockquote>
+					<h5>Education</h5>
+					<blockquote>
+						For enriching and inspiring lifelong learning in our community
+					</blockquote>
+					<h5>Public Service and Philanthropy</h5>
+					<blockquote>
+						For exemplary voluntary and public service activities that benefit the community
+					</blockquote>
+					<h5>Innovation and Leadership</h5>
+					<blockquote>
+						For activities that cultivate strong innovation and leadership city-wide
+					</blockquote>
+					<h5>Arts and Letters</h5>
+					<blockquote>
+						For activities that enhance and support the artistic/cultural and literary life and well-being of the community
+					</blockquote>
+					<h5>Science, Health and Medicine</h5>
+					<blockquote>
+						For individuals who have made significant contributions in the area of science, health or medicine
+					</blockquote>
 	      </div><!-- /.panel-body -->
 
       </div>
