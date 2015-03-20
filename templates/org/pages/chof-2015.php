@@ -369,7 +369,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Spokane's Citizen Hall of Fame</h3>
+	  	  	  	<h3 class="modal-title uppercase chof-text-yellow">Spokane's Citizen Hall of Fame</h3>
 	  	  	  	<p class="lead">
 	  	  	  		The Spokane Citizen Hall of Fame recognizes individuals in Spokane for their achievement in one of six categories while providing an opportunity to raise funds for the Spokane Public Library.
 	  	  	  	</p>
