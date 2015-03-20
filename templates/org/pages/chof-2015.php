@@ -365,7 +365,7 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof-logotype.png">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof-clocktower.png">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
