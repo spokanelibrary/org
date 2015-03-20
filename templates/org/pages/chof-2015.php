@@ -377,16 +377,17 @@
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
 	  	    <dl class="">
-	  	    <dt>Economic Development and Business</dt>
-					<dd>
-						For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
-					</dd>
+		  	    <dt>Economic Development and Business</dt>
+						<dd>
+							For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
+						</dd>
+						<dt>Education</dt>
+						<dd>
+							For enriching and inspiring lifelong learning in our community
+						</dd>
 					</dl>
 
-					<h4>Education</h4>
-					<h5>
-						For enriching and inspiring lifelong learning in our community
-					</h5>
+					
 					
 					<h4>Public Service and Philanthropy</h4>
 					<h5>
