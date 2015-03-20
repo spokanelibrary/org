@@ -181,7 +181,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-f">
 			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/6">
+					<img class="img-responsive" src="/assets/img/promos/chof/Foley_Tom-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Thomas S. Foley</h6>
