@@ -119,7 +119,7 @@
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-b">
-			<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
+			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
 					<div class="chof-text-wrapper">			
