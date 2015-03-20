@@ -55,11 +55,6 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
-							<h5 class="chof-title">AL</h5>
-						</div>
-					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
@@ -82,11 +77,6 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-b">
 			<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
 				<div class="panel-body">
-					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
-							<h5 class="chof-title">HI</h5>
-						</div>
-					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
@@ -106,11 +96,6 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-c">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
-					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask chof-icon-light">
-							<h5 class="chof-title">BU</h5>
-						</div>
-					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
@@ -130,11 +115,6 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-d">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
-							<h5 class="chof-title">HI</h5>
-						</div>
-					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
@@ -158,11 +138,6 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-e">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
-					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
-							<h5 class="chof-title">ED</h5>
-						</div>
-					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/5">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
@@ -182,11 +157,6 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-f">
 			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
-					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
-							<h5 class="chof-title">HI</h5>
-						</div>
-					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/6">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
@@ -213,11 +183,6 @@
 	
 	<!-- LOGOTYPE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<!--
-		<div class="chof-panel chof-panel-sized chof-yellow">
-			<img class="img-responsive" src="/assets/img/promos/chof-logotype.png">
-		</div>
-		-->
 		<a href="#" data-toggle="modal" data-target="#chof-modal-about">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
@@ -228,7 +193,6 @@
 				</div>
 			</div>
 		</a>
-
 	</div>
 	
 	<!-- PANEL -->
@@ -236,11 +200,6 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-g">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
-					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
-							<h5 class="chof-title">IL</h5>
-						</div>
-					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
@@ -260,11 +219,6 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-h">
 			<div class="chof-panel chof-panel-sized chof-gray">
 				<div class="panel-body">
-					<div class="chof-text-wrapper">			
-						<div class="chof-icon-mask">
-							<h5 class="chof-title">HI</h5>
-						</div>
-					</div>
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
