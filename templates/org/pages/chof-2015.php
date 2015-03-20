@@ -238,7 +238,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-j">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/9">
+					<img class="img-responsive" src="/assets/img/promos/chof/Hutton_May-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">May Arkwright Hutton</h6>
