@@ -112,7 +112,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-balazs_harold">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-balazs-harold">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Balazs_Harold-sm.jpg">
@@ -555,7 +555,7 @@
 </div>
 
 <!-- MODAL C -->
-<div class="modal fade chof-modal" id="chof-modal-c" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+<div class="modal fade chof-modal" id="chof-modal-a" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content chof-blue">
       <div class="modal-body">
