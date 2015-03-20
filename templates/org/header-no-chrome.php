@@ -3,7 +3,11 @@
 function spl_get_home_url() {
   //return home_url();
   //return 'http://www.spokanelibrary.org';
-  return '/signup/?station&location='.$_REQUEST['location'];
+  //return '/signup/?station&location='.$_REQUEST['location'];
+  $url = './?station';
+  if ( $_REQUEST['location'] ) {
+    $url .= '&location='.$_REQUEST['location'];
+  }
 }
 
 ?>
