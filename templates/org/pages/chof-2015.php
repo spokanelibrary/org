@@ -173,7 +173,7 @@
 			</div>
 		</a>
 	</div>
-	
+
 	<!-- PANEL -->
 	<?php echo get_chof_panel('', 'chof-blue chof-text-light'); ?>
 
@@ -278,7 +278,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-k">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/10">
+					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/10">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Dr. Elizabeth Welty, MD</h6>
