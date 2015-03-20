@@ -1,44 +1,12 @@
-<?php 
-	function get_chof_panel($title=null, $class='', $img=null, $col=null) {
-		if ( $img ) {
-			$img = '<img class="img-responsive" src="'.$img.'">';
-
-			$link = '
-						<div class="chof-glyph">
-	    				<small class="glyphicon glyphicon-share-alt"></small>
-	    			</div>
-	    			';
-		}
-		if ( empty($title) ) {
-			$hidden = 'hidden-xs';
-		} 
-		$html .= '<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 '.$hidden.' '.$col.'">'.PHP_EOL;
-		$html .= '<div class="chof-panel chof-panel-sized '.$class.'">'.PHP_EOL;
-		if ($img) {
-			$html .= '<div class="panel-body">'.PHP_EOL;
-			$html .= $img.PHP_EOL;
-			$html .= '<div class="chof-text-wrapper">'.PHP_EOL;				
-			$html .= '<div class="chof-text-mask">'.PHP_EOL;
-			$html .= '<h6 class="chof-title">'.$title.'</h6>'.PHP_EOL;
-			$html .= '</div>'.PHP_EOL;
-			$html .= '</div>'.PHP_EOL;
-			$html .= '</div>'.PHP_EOL;
-		$html .= $link.PHP_EOL;
-		}
-		$html .= '</div>'.PHP_EOL;
-		$html .= '</div>'.PHP_EOL;
-
-		return $html;
-	}
-?>
-
 <style>
+  /*
   @font-face {
     font-family: 'Salish2Salish2SILDoulosRegular';
     src: url('/assets/fonts/salish/Salish2Salish2SILDoulosRegular.eot?#iefix') format('embedded-opentype'),  url('/assets/fonts/salish/Salish2Salish2SILDoulosRegular.woff') format('woff'), url('/assets/fonts/salish/Salish2Salish2SILDoulosRegular.ttf')  format('truetype'), url('/assets/fonts/salish/Salish2Salish2SILDoulosRegular.svg#Salish2Salish2SILDoulosRegular') format('svg');
     font-weight: normal;
     font-style: normal;
   }
+  */
   @font-face {
 	  font-family: 'Salish2Salish2SILDoulosBold';
 	  src: url('/assets/fonts/salish/Salish2Salish2SILDoulosBold.eot?#iefix') format('embedded-opentype'),  url('/assets/fonts/salish/Salish2Salish2SILDoulosBold.woff') format('woff'), url('/assets/fonts/salish/Salish2Salish2SILDoulosBold.ttf')  format('truetype'), url('/assets/fonts/salish/Salish2Salish2SILDoulosBold.svg#Salish2Salish2SILDoulosBold') format('svg');
