@@ -369,7 +369,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Lorem ipsum</h3>
+	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Spokane's Citizen Hall of Fame</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
