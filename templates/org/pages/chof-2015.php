@@ -219,7 +219,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-i">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/7">
+					<img class="img-responsive" src="/assets/img/promos/chof/McNeill_Vicki-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Vicki McNeill</h6>
