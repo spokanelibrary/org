@@ -374,7 +374,9 @@
 	  	  	  		The Spokane Citizen Hall of Fame recognizes individuals in Spokane for their achievement in one of six categories while providing an opportunity to raise funds for the Spokane Public Library.
 	  	  	  	</p>
 	  	  	  	<h5>Economic Development and Business</h5>
-							<blockquote><p>For entrepreneurial activity or significant contributions toward the economic betterment of Spokane</p></blockquote>
+							<blockquote>
+								For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
+							</blockquote>
 							<h5>Education</h5>
 							<blockquote><p>For enriching and inspiring lifelong learning in our community</p></blockquote>
 							<h5>Public Service and Philanthropy</h5>
