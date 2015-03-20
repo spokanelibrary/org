@@ -1,4 +1,4 @@
-<p>
+<p class="lead">
 	This is a comprehensive record of obituaries since 2008, with some addional records dating back to the early 1900s.
 </p>
 <p>
