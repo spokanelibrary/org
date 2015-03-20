@@ -219,10 +219,10 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-i">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Livingston_Gary-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Oliver_Daniel-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Gary A. Livingston, Ph. D.</h6>
+							<h6 class="chof-title">Daniel K. Oliver</h6>
 						</div>
 					</div>
 				</div>
@@ -258,10 +258,10 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-h">
 			<div class="chof-panel chof-panel-sized chof-gray">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Oliver_Daniel-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Livingston_Gary-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Daniel K. Oliver</h6>
+							<h6 class="chof-title">Gary A. Livingston, Ph. D.</h6>
 						</div>
 					</div>
 				</div>
