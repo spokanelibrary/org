@@ -381,27 +381,27 @@
 	  	    </h3>
 	  	    <dl class="">
 		  	    <dt>Economic Development and Business</dt>
-						<dd>
+						<dd class="help-block">
 							For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
 						</dd>
 						<dt>Education</dt>
-						<dd>
+						<dd class="help-block">
 							For enriching and inspiring lifelong learning in our community
 						</dd>
 						<dt>Public Service and Philanthropy</dt>
-						<dd>
+						<dd class="help-block">
 							For exemplary voluntary and public service activities that benefit the community
 						</dd>
 						<dt>Innovation and Leadership</dt>
-						<dd>
+						<dd class="help-block">
 							For activities that cultivate strong innovation and leadership city-wide
 						</dd>
 						<dt>Arts and Letters</dt>
-						<dd>
+						<dd class="help-block">
 							For activities that enhance and support the artistic/cultural and literary life and well-being of the community
 						</dd>
 						<dt>Science, Health and Medicine</dt>
-						<dd>
+						<dd class="help-block">
 							For individuals who have made significant contributions in the area of science, health or medicine
 						</dd>
 					</dl>
