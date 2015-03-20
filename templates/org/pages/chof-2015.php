@@ -371,11 +371,14 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase chof-text-yellow">Spokane's Citizen Hall of Fame</h3>
 	  	  	  	<p class="lead">
-	  	  	  		The Spokane Citizen Hall of Fame recognizes individuals in Spokane for their achievement in one of six categories while providing an opportunity to raise funds for the Spokane Public Library.
+	  	  	  		The Spokane Citizen Hall of Fame recognizes individuals who have made outstanding contributions to the quality of life and development of Spokane.
 	  	  	  	</p>
 	  	  	  	
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
+	  	    <h3>
+	  	    	Categories in which citizens are honored for their achievements include:
+	  	    </h3>
 	  	    <dl class="">
 		  	    <dt>Economic Development and Business</dt>
 						<dd>
