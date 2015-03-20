@@ -218,13 +218,13 @@
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-h">
-			<div class="chof-panel chof-panel-sized chof-gray">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-k">
+			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
+					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/10">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Daniel K. Oliver</h6>
+							<h6 class="chof-title">Dr. Elizabeth Welty, MD</h6>
 						</div>
 					</div>
 				</div>
@@ -273,15 +273,16 @@
 		</a>
 	</div>
 
+
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-k">
-			<div class="chof-panel chof-panel-sized chof-blue">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-h">
+			<div class="chof-panel chof-panel-sized chof-gray">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/10">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Dr. Elizabeth Welty, MD</h6>
+							<h6 class="chof-title">Daniel K. Oliver</h6>
 						</div>
 					</div>
 				</div>
@@ -291,7 +292,7 @@
 			</div>
 		</a>
 	</div>
-
+	
 	<!-- PANEL -->
 	<?php echo get_chof_panel('', 'chof-red'); ?>
 
