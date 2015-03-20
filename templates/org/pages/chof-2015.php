@@ -45,7 +45,7 @@
 		</a>
 	</div>
 	
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-g">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
@@ -64,12 +64,12 @@
 		</a>
 	</div>
 
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-d">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
+					<img class="img-responsive" src="/assets/img/promos/chof/Cole_King_sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">King Cole</h6>
@@ -91,7 +91,7 @@
 	</div>
 
 
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-b">
 			<div class="chof-panel chof-panel-sized chof-brown">
@@ -110,7 +110,7 @@
 		</a>
 	</div>
 
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-c">
 			<div class="chof-panel chof-panel-sized chof-blue">
@@ -130,7 +130,7 @@
 	</div>
 
 
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
 			<div class="chof-panel chof-panel-sized chof-orange">
@@ -157,7 +157,7 @@
 	</div>
 
 
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-e">
 			<div class="chof-panel chof-panel-sized chof-green">
@@ -176,7 +176,7 @@
 		</a>
 	</div>
 
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-f">
 			<div class="chof-panel chof-panel-sized chof-red">
@@ -195,7 +195,7 @@
 		</a>
 	</div>
 
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-k">
 			<div class="chof-panel chof-panel-sized chof-blue">
@@ -214,7 +214,7 @@
 		</a>
 	</div>
 
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-i">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
@@ -233,7 +233,7 @@
 		</a>
 	</div>
 
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-j">
 			<div class="chof-panel chof-panel-sized chof-brown">
@@ -253,7 +253,7 @@
 	</div>
 
 
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-h">
 			<div class="chof-panel chof-panel-sized chof-gray">
@@ -279,7 +279,7 @@
 		</div>
 	</div>
 
-	<!-- PANEL -->
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-l">
 			<div class="chof-panel chof-panel-sized chof-green">
@@ -298,7 +298,7 @@
 		</a>
 	</div>
 
-	<!-- PANEL CITY OF SPOKANE -->
+	<!-- TILE CITY OF SPOKANE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="http://beta.spokanecity.org">
 			<div class="chof-panel chof-panel-sized chof-orange">
@@ -309,7 +309,7 @@
 		</a>
 	</div>
 
-	<!-- PANEL SPL FOUNDATION-->
+	<!-- TILE SPL FOUNDATION-->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
 		<a href="http://www.spokanelibraryfoundation.org">
 			<div class="chof-panel chof-panel-sized chof-brown">
