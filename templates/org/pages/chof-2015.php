@@ -48,7 +48,7 @@
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-g">
-			<div class="chof-panel chof-panel-sized chof-yellow">
+			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-sm.jpg">
 					<div class="chof-text-wrapper">			
