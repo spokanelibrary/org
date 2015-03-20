@@ -425,7 +425,7 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Cole_King-sm.jpg">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Cole_King-lg.jpg">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
