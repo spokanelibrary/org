@@ -376,7 +376,7 @@
 	  	  	  	
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
-	  	    <dl class="dl-horizontal">
+	  	    <dl class="">
 	  	    <dt>Economic Development and Business</dt>
 					<dd>
 						For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
