@@ -385,29 +385,23 @@
 						<dd>
 							For enriching and inspiring lifelong learning in our community
 						</dd>
+						<dt>Public Service and Philanthropy</dt>
+						<dd>
+							For exemplary voluntary and public service activities that benefit the community
+						</dd>
+						<dt>Innovation and Leadership</dt>
+						<dd>
+							For activities that cultivate strong innovation and leadership city-wide
+						</dd>
+						<dt>Arts and Letters</dt>
+						<dd>
+							For activities that enhance and support the artistic/cultural and literary life and well-being of the community
+						</dd>
+						<dt>Science, Health and Medicine</dt>
+						<dd>
+							For individuals who have made significant contributions in the area of science, health or medicine
+						</dd>
 					</dl>
-
-					
-					
-					<h4>Public Service and Philanthropy</h4>
-					<h5>
-						For exemplary voluntary and public service activities that benefit the community
-					</h5>
-
-					<h4>Innovation and Leadership</h4>
-					<h5>
-						For activities that cultivate strong innovation and leadership city-wide
-					</h5>
-
-					<h4>Arts and Letters</h4>
-					<h5>
-						For activities that enhance and support the artistic/cultural and literary life and well-being of the community
-					</h5>
-
-					<h4>Science, Health and Medicine</h4>
-					<h5>
-						For individuals who have made significant contributions in the area of science, health or medicine
-					</h5>
 
 	      </div><!-- /.panel-body -->
 
