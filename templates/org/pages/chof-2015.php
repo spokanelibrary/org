@@ -376,13 +376,10 @@
 	  	  	  	
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
-	  	    <h4>
-	  	    	Categories in which the citizens will be honored for their achievements may include:
-	  	    </h4>
-	  	    <h5>Economic Development and Business</h5>
-					<blockquote>
+	  	    <h4>Economic Development and Business</h4>
+					<h5>
 						For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
-					</blockquote>
+					</h5>
 					<h5>Education</h5>
 					<blockquote>
 						For enriching and inspiring lifelong learning in our community
