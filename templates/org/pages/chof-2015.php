@@ -93,15 +93,14 @@
 	</div>
 
 	<!-- PANEL -->
-	
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-d">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/3">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Harold Balazs</h6>
+							<h6 class="chof-title">King Cole</h6>
 						</div>
 					</div>
 				</div>
@@ -154,15 +153,17 @@
 		</a>
 	</div>
 
+
 	<!-- PANEL -->
+	
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-d">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
+					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/3">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">King Cole</h6>
+							<h6 class="chof-title">Harold Balazs</h6>
 						</div>
 					</div>
 				</div>
@@ -172,7 +173,7 @@
 			</div>
 		</a>
 	</div>
-
+	
 	<!-- PANEL -->
 	<?php echo get_chof_panel('', 'chof-blue chof-text-light'); ?>
 
