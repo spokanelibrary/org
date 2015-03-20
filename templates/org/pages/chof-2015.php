@@ -395,7 +395,7 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-sm.jpg">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
