@@ -32,6 +32,15 @@
 	}
 ?>
 
+<style>
+  @font-face {
+    font-family: 'Salish2Salish2SILDoulosRegular';
+    src: url('/assets/fonts/Salish2Salish2SILDoulosRegular.eot?#iefix') format('embedded-opentype'),  url('/assets/fonts/Salish2Salish2SILDoulosRegular.woff') format('woff'), url('/assets/fonts/Salish2Salish2SILDoulosRegular.ttf')  format('truetype'), url('/assets/fonts/Salish2Salish2SILDoulosRegular.svg#Salish2Salish2SILDoulosRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+</style>
+
 <div class="row">
 
 	<!-- PANEL -->
