@@ -373,11 +373,9 @@
 	  	  	  	<p class="lead">
 	  	  	  		The Spokane Citizen Hall of Fame recognizes individuals who have made outstanding contributions to the quality of life in our city and the development of Spokane.
 	  	  	  	</p>
-	  	  	  	<blockquote>
-	  	  	  		<p>
-	  	  	  			Learn more about the selection criteria and annual Citizen Hall of Fame event at the <a rel="external" href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/">Spokane Public Library Foundation</a>.
- 	  	  	  		</p>
- 	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  		You can learn more about the selection criteria and annual Citizen Hall of Fame event at the <a rel="external" href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/">Spokane Public Library Foundation</a>.
+ 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
 	  	    <h3>
@@ -386,6 +384,7 @@
 	  	    <dl class="">
 		  	    <dt>Economic Development and Business</dt>
 						<dd class="help-block">
+							<i class"glyphicon glyphicon-info-sign"></i>
 							For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
 						</dd>
 						<dt>Education</dt>
