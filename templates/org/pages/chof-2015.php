@@ -73,6 +73,49 @@
 	<?php echo get_chof_panel('', 'chof-green'); ?>
 
 	<!-- PANEL -->
+	<?php echo get_chof_panel('', 'chof-teal'); ?>
+
+	<!-- CLOCKTOWER -->
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-teal">
+			<img class="img-responsive" src="/assets/img/promos/chof-clocktower.png">
+		</div>
+	</div>
+	
+	<!-- LOGOTYPE -->
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-about">
+			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
+				<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof-logotype-crop.png">
+				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
+			</div>
+		</a>
+	</div>
+	
+	<!-- PANEL -->
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-g">
+			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
+				<div class="panel-body">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Donald F. Kardong</h6>
+						</div>
+					</div>
+				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
+			</div>
+		</a>
+	</div>
+
+	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-b">
 			<div class="chof-panel chof-panel-sized chof-gray chof-text-dark">
@@ -161,49 +204,6 @@
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Thomas S. Foley</h6>
-						</div>
-					</div>
-				</div>
-				<div class="chof-glyph">
-					<small class="glyphicon glyphicon-share-alt"></small>
-				</div>
-			</div>
-		</a>
-	</div>
-
-	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-teal'); ?>
-
-	<!-- CLOCKTOWER -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-teal">
-			<img class="img-responsive" src="/assets/img/promos/chof-clocktower.png">
-		</div>
-	</div>
-	
-	<!-- LOGOTYPE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-about">
-			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
-				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof-logotype-crop.png">
-				</div>
-				<div class="chof-glyph">
-					<small class="glyphicon glyphicon-share-alt"></small>
-				</div>
-			</div>
-		</a>
-	</div>
-	
-	<!-- PANEL -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-g">
-			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
-				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
-					<div class="chof-text-wrapper">			
-						<div class="chof-text-mask">
-							<h6 class="chof-title">Donald F. Kardong</h6>
 						</div>
 					</div>
 				</div>
