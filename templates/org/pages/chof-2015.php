@@ -115,10 +115,10 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-c">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/2">
+					<img class="img-responsive" src="/assets/img/promos/chof/Balazs_Harold-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Gordon Budke</h6>
+							<h6 class="chof-title">Harold Balazs</h6>
 						</div>
 					</div>
 				</div>
@@ -135,10 +135,10 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Balazs_Harold-sm.jpg">
+					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/2">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Harold Balazs</h6>
+							<h6 class="chof-title">Gordon Budke</h6>
 						</div>
 					</div>
 				</div>
