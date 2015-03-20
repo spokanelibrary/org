@@ -373,9 +373,9 @@
 	  	  	  	<p class="lead">
 	  	  	  		The Spokane Citizen Hall of Fame recognizes individuals who have made outstanding contributions to the quality of life in our city and the development of Spokane.
 	  	  	  	</p>
-	  	  	  	<p>
+	  	  	  	<blockquote>
 	  	  	  		You can learn more about the selection criteria and annual Citizen Hall of Fame event at the <a rel="external" href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/">Spokane Public Library Foundation</a>.
- 	  	  	  	</p>
+ 	  	  	  	</blockquote>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
 	  	    <h3>
