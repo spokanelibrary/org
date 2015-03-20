@@ -9,7 +9,7 @@
 <?php //echo do_shortcode('[spl_widget obit-lookup search]'); ?>
 
 <div class="row">
-<div class="col-md-6 col-offset-3">
+<div class="col-md-6 col-md-offset-3">
 <p class="text-center">
 	<a class="btn btn-block btn-default" href="/obits/">
 		<i class="glyphicon glyphicon-search"></i>
