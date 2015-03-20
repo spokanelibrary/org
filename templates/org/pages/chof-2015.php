@@ -221,7 +221,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-about">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof-logotype.png">
+					<img class="img-responsive" src="/assets/img/promos/chof-logotype-crop.png">
 				</div>
 				<div class="chof-glyph">
 					<small class="glyphicon glyphicon-share-alt"></small>
