@@ -78,7 +78,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-g">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/1">
+					<img class="img-responsive" src="http://lorempixel.com/g/200/200/abstract/1">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Donald F. Kardong</h6>
