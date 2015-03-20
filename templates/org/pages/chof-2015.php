@@ -69,7 +69,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-d">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Cole_King_sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Cole_King-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">King Cole</h6>
