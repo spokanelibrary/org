@@ -200,12 +200,12 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-k">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/10">
+					<img class="img-responsive" src="/assets/img/promos/chof/McNeill_Vicki-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Dr. Elizabeth Welty, MD</h6>
+							<h6 class="chof-title">Vicki McNeill</h6>
 						</div>
-					</div>
+					</div>	
 				</div>
 				<div class="chof-glyph">
 					<small class="glyphicon glyphicon-share-alt"></small>
@@ -219,10 +219,10 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-i">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/McNeill_Vicki-sm.jpg">
+					<img class="img-responsive" src="http://lorempixel.com/200/200/abstract/10">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Vicki McNeill</h6>
+							<h6 class="chof-title">Dr. Elizabeth Welty, MD</h6>
 						</div>
 					</div>
 				</div>
