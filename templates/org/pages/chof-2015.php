@@ -49,8 +49,7 @@
 
 <div class="row">
 
-	<!-- PANEL -->
-	<!-- PANEL -->
+	<!-- BLANK TILE -->
 	<div class="hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-teal">
 			&nbsp;
@@ -116,8 +115,12 @@
 		</a>
 	</div>
 
-	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-green'); ?>
+	<!-- BLANK TILE -->
+	<div class="hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-green">
+			&nbsp;
+		</div>
+	</div>
 
 
 	<!-- PANEL -->
@@ -160,7 +163,6 @@
 
 
 	<!-- PANEL -->
-	
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
 			<div class="chof-panel chof-panel-sized chof-orange">
@@ -179,8 +181,12 @@
 		</a>
 	</div>
 
-	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-blue chof-text-light'); ?>
+	<!-- BLANK TILE -->
+	<div class="hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-blue">
+			&nbsp;
+		</div>
+	</div>
 
 
 	<!-- PANEL -->
@@ -298,8 +304,12 @@
 		</a>
 	</div>
 
-	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-red'); ?>
+	<!-- BLANK TILE -->
+	<div class="hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-red">
+			&nbsp;
+		</div>
+	</div>
 
 	<!-- PANEL -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
