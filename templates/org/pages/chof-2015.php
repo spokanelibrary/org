@@ -371,9 +371,20 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Spokane's Citizen Hall of Fame</h3>
 	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  		The Spokane Citizen Hall of Fame recognizes individuals in Spokane for their achievement in one of six categories while providing an opportunity to raise funds for the Spokane Public Library.
 	  	  	  	</p>
+	  	  	  	<h5>Economic Development and Business</h5>
+							<blockquote><p>For entrepreneurial activity or significant contributions toward the economic betterment of Spokane</p></blockquote>
+							<h5>Education</h5>
+							<blockquote><p>For enriching and inspiring lifelong learning in our community</p></blockquote>
+							<h5>Public Service and Philanthropy</h5>
+							<blockquote><p>For exemplary voluntary and public service activities that benefit the community</p></blockquote>
+							<h5>Innovation and Leadership</h5>
+							<blockquote><p>For activities that cultivate strong innovation and leadership city-wide</p></blockquote>
+							<h5>Arts and Letters</h5>
+							<blockquote><p>For activities that enhance and support the artistic/cultural and literary life and well-being of the community</p></blockquote>
+							<h5>Science, Health and Medicine</h5>
+							<blockquote><p>For individuals who have made significant contributions in the area of science, health or medicine</p></blockquote>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
 	      </div><!-- /.panel-body -->
