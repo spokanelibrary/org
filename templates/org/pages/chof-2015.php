@@ -360,7 +360,7 @@
       <div class="modal-body">
         
         <div class="panel-body">  
-  	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times; close</span></button>
       	  <h3 class="normal chof-text-teal">Founded <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
