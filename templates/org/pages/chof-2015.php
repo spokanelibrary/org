@@ -50,7 +50,12 @@
 <div class="row">
 
 	<!-- PANEL -->
-	<?php echo get_chof_panel('', 'chof-teal'); ?>
+	<!-- PANEL -->
+	<div class="hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-teal">
+			&nbsp;
+		</div>
+	</div>
 
 	<!-- CLOCKTOWER -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
@@ -292,7 +297,7 @@
 			</div>
 		</a>
 	</div>
-	
+
 	<!-- PANEL -->
 	<?php echo get_chof_panel('', 'chof-red'); ?>
 
