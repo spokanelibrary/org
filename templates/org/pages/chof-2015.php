@@ -93,7 +93,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-Spokan_ChiefGarry">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-spokan-chief-garry">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Spokan_ChiefGarry-sm.jpg">
@@ -112,7 +112,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-c">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-balazs_harold">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Balazs_Harold-sm.jpg">
@@ -438,7 +438,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Donald F. Kardong</h3>
+	  	  	  	<h3 class="modal-title uppercase">Donald F. Kardong</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
@@ -468,7 +468,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">King Cole</h3>
+	  	  	  	<h3 class="modal-title uppercase">King Cole</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
@@ -495,7 +495,7 @@
 </div>
 
 <!-- MODAL -->
-<div class="modal fade chof-modal" id="chof-modal-Spokan_ChiefGarry" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+<div class="modal fade chof-modal" id="chof-modal-spokan-chief-garry" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content chof-brown">
       <div class="modal-body">
@@ -510,7 +510,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Chief Spokane Garry</h3>
+	  	  	  	<h3 class="modal-title uppercase">Chief Spokane Garry</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
@@ -524,10 +524,10 @@
   </div>
 </div>
 
-<!-- MODAL A -->
-<div class="modal fade chof-modal" id="chof-modal-a" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+<!-- MODAL -->
+<div class="modal fade chof-modal" id="chof-modal-balazs-harold" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content chof-orange">
+    <div class="modal-content chof-blue">
       <div class="modal-body">
         
         <div class="panel-body">  
@@ -540,7 +540,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Harold Balazs</h3>
+	  	  	  	<h3 class="modal-title uppercase">Harold Balazs</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
@@ -553,8 +553,6 @@
     </div>
   </div>
 </div>
-
-
 
 <!-- MODAL C -->
 <div class="modal fade chof-modal" id="chof-modal-c" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
@@ -572,7 +570,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Gordon Budke</h3>
+	  	  	  	<h3 class="modal-title uppercase">Gordon Budke</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
@@ -602,7 +600,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Gary A. Livingston</h3>
+	  	  	  	<h3 class="modal-title uppercase">Gary A. Livingston</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
@@ -632,7 +630,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Thomas S. Foley</h3>
+	  	  	  	<h3 class="modal-title uppercase">Thomas S. Foley</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
@@ -662,7 +660,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Daniel K. Oliver</h3>
+	  	  	  	<h3 class="modal-title uppercase">Daniel K. Oliver</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
@@ -692,7 +690,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Vicki McNeill</h3>
+	  	  	  	<h3 class="modal-title uppercase">Vicki McNeill</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
@@ -722,7 +720,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">May Arkwright Hutton</h3>
+	  	  	  	<h3 class="modal-title uppercase">May Arkwright Hutton</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
@@ -752,7 +750,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Dr. Elizabeth Welty</h3>
+	  	  	  	<h3 class="modal-title uppercase">Dr. Elizabeth Welty</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
@@ -782,7 +780,7 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase" id="chof-modal-label">Peg Hopkins</h3>
+	  	  	  	<h3 class="modal-title uppercase">Peg Hopkins</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
