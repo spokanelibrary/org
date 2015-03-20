@@ -75,7 +75,7 @@
 					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title chof-salish">Chief Spokane Garry</h6>
+							<h6 class="chof-title chof-salish">ilmz sPQNi/</h6>
 						</div>
 					</div>
 				</div>
