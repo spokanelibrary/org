@@ -384,7 +384,7 @@
 	  	    <dl class="">
 		  	    <dt>Economic Development and Business</dt>
 						<dd class="help-block">
-							<i class="glyphicon glyphicon-asterisk"></i>
+							<i class="glyphicon glyphicon-ok"></i>
 							For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
 						</dd>
 						<dt>Education</dt>
