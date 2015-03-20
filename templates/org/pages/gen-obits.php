@@ -6,7 +6,7 @@
 	You can then use the results to make an accurate search in the appropriate publication.
 </p>
 
-<?php echo do_shortcode('[spl_widget obit-lookup search]'); ?>
+<?php //echo do_shortcode('[spl_widget obit-lookup search]'); ?>
 
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
