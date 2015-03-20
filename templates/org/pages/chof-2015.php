@@ -376,10 +376,12 @@
 	  	  	  	
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
-	  	    <h4>Economic Development and Business</h4>
-					<h5>
+	  	    <dl class="dl-horizontal">
+	  	    <dt>Economic Development and Business</dt>
+					<dd>
 						For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
-					</h5>
+					</dd>
+					</dl>
 
 					<h4>Education</h4>
 					<h5>
@@ -405,7 +407,7 @@
 					<h5>
 						For individuals who have made significant contributions in the area of science, health or medicine
 					</h5>
-					
+
 	      </div><!-- /.panel-body -->
 
       </div>
