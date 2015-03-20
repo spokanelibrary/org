@@ -356,12 +356,12 @@
 <!-- MODAL ABOUT -->
 <div class="modal fade chof-modal" id="chof-modal-about" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content chof-teal">
+    <div class="modal-content chof-blue">
       <div class="modal-body">
         
         <div class="panel-body">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-blue">Founded <small>2015</small></h3>
+      	  <h3 class="normal chof-text-teal">Founded <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
