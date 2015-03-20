@@ -96,7 +96,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-b">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
-					<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
+					<img class="img-responsive" src="/assets/img/promos/chof/Spokan_ChiefGarry-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title"><span class="chof-salish-bold">ilmz sPQNi/</span></h6>
