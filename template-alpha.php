@@ -21,7 +21,7 @@ Template Name: Alpha Home Page
   }
 ?>
 
-<div class="spl-hero-wrapper">
+<div class="spl-hero-wrapper" style="background:rgb(245,245,245); padding: 10px;">
 
 <div class="row">
     
