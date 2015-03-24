@@ -489,7 +489,7 @@
 	  	  	  		And with any organism, no matter how healthy the extremities and other members are, if the heart is sick, the total community is going to get sick.
 	  	  	  		&rdquo;
 	  	  	  	</blockquote>
-	  	  	  	<p class="lead">
+	  	  	  	<p>
 	  	  	  		King Cole, President of Expo &lsquo;74, was a 20<sup>th</sup> century visionary who changed the face of downtown Spokane.
 	  	  	  		Cole was born in Colorado and served with the Navy during World War II before attending college and law school in California. 
 	  	  	  		He was working as director of San Leandro, California’s development program when he came to Spokane in 1963 to assume leadership of Spokane Unlimited. 
