@@ -12,7 +12,7 @@
 <h3 class="text-success">Scheduled open hours</h3>
 <dl class="dl-horizontal">
 <dt>Tuesday</dt>
-<dd>5&ndash;8pm</dd>
+<dd>5&ndash;8pm <b>@ <a href="/shadle/">Shadle Library</a></b></dd>
 <dt>Wednesday</dt>
 <dd>5&ndash;8pm</dd>
 <dt>Saturday</dt>
