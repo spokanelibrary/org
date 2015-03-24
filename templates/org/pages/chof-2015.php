@@ -538,7 +538,7 @@
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  		Chief Spokan Garry, Indian leader, educator, missionary and farmer, was born around 1811.  
-	  	  	  		His real name was Slough-Keetcha, and he was the son of the Spokan Chief Illm-Spokanee (<span class="chof-salish-normal">ilmz sPQNi/</span>). 
+	  	  	  		His real name was Slough-Keetcha, and he was the son of the Spokan Chief Illm-Spokanee (<span class="chof-salish-regular">ilmz sPQNi/</span>). 
 	  	  	  		In 1825, his father sent him to the Red River missionary society school established by the Hudson’s Bay Company where he was given the name Spokan Garry. 
 	  	  	  		Garry spent five years at Red River, where he learned to speak, read and write both English and French. 
 	  	  	  		When he returned, he taught both children and adults Christianity, as well as English and agricultural techniques. 
