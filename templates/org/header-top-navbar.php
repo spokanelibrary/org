@@ -78,7 +78,7 @@ function spl_get_home_url() {
               </h4>
               -->
               <div class="pull-right" style="margin-top: 12px;">
-                <?PHP if ( 'learn.spokanelibrary.org' != $_SERVER['SERVER_NAME'] ) : ?>
+                <?php if ( 'learn.spokanelibrary.org' != $_SERVER['SERVER_NAME'] ) : ?>
                   <?php include('header-social-connect.php'); ?>
                 <?php endif; ?>
               </div>

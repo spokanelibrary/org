@@ -11,7 +11,9 @@
     }
     */
     ?>
-    <?php include('footer-bottom-navbar.php'); ?>
+    <?php if ( 'learn.spokanelibrary.org' != $_SERVER['SERVER_NAME'] ) : ?>
+      <?php include('footer-bottom-navbar.php'); ?>
+    <?php endif; ?>
   </footer>
   </div>
 
