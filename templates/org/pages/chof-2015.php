@@ -453,6 +453,9 @@
 	  	  	  		From 2002-2004 he served as executive director of the Children’s Museum of Spokane. 
 	  	  	  		In August of 2004, after many years as a member of Bloomsday’s Board of Directors, he took over as Race Director. 
 	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He is married (wife Bridgid), and has two grown daughters.
+	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
 	      </div><!-- /.panel-body -->
