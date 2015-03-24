@@ -542,6 +542,8 @@
 	  	  	  		In 1825, his father sent him to the Red River missionary society school established by the Hudson’s Bay Company where he was given the name Spokan Garry. 
 	  	  	  		Garry spent five years at Red River, where he learned to speak, read and write both English and French. 
 	  	  	  		When he returned, he taught both children and adults Christianity, as well as English and agricultural techniques. 
+	  	  	  	</p>
+	  	  	  	<p>
 	  	  	  		Because of his role as leader of the Middle and Upper bands of the Spokane tribe, along with his English language skills, Garry represented his people in treaty negotiations in the extraordinary times of military conflict with the white settlers. 
 	  	  	  		Garry was a man of peace who tried to persuade the Spokane Indians not to fight the U. S. Army. 
 	  	  	  		From 1859 until his death, Garry worked unsuccessfully to establish a reservation for the Spokane tribe on their homeland. 
