@@ -434,7 +434,7 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-sm.jpg">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-lg.jpg">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
