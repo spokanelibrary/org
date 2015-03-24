@@ -648,10 +648,19 @@
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Dr. Elizabeth Welty</h3>
-	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;Decisions, you know, are made of a mosaic. A little influence here, a little influence there and suddenly you wake up, and there it is. And you feel good about it. And certain.&rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  		Elizabeth Welty, MD, practiced medicine in Spokane from 1949 until her retirement in 1985 in a joint practice with her late husband, Robert. 
+	  	  	  		She has consistently advocated for and generously supported both public and private educational institutions, a broad spectrum of the arts and humanities, health-care institutions, human service organizations and, indeed, is involved in numerous activities that enhance the quality of life in Spokane. 
+	  	  	  		In addition to financial support, she has given generously of her time as a volunteer board member to organizations across the community. 
 	  	  	  	</p>
+		  	  	  <p>
+		  	  	  	Though raised and educated in the eastern US, she fully adopted her husband’s hometown, Spokane, when they moved here in 1945. 
+		  	  	  	Her consistent and generous interest in doing all she can possibly do to enhance quality of life in Spokane has made a great difference in multiple programs in Spokane and in the region while Dr. Welty has remained quite modest about her outstanding accomplishments. 
+		  	  	  	She will celebrate her 100th birthday in March, 2015.
+			  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
 	      </div><!-- /.panel-body -->
