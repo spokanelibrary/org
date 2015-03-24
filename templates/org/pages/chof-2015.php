@@ -133,7 +133,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-budke-gordon">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Budke_Gordon-sm.jpg">
@@ -592,19 +592,19 @@
   </div>
 </div>
 
-<!-- MODAL C -->
-<div class="modal fade chof-modal" id="chof-modal-a" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+<!-- MODAL -->
+<div class="modal fade chof-modal" id="chof-modal-budke-gordon" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content chof-blue">
+    <div class="modal-content chof-orange">
       <div class="modal-body">
         
         <div class="panel-body">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-blue">Economic Development &amp; Business <small>2015</small></h3>
+      	  <h3 class="normal chof-text-orange">Economic Development &amp; Business <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Balazs_Harold-lg.jpg">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Budke_Gordon-lg.jpg">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
