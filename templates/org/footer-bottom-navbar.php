@@ -79,7 +79,7 @@
                 <a href="/computers/">Reserve a Computer</a>
               </li>
               <li>
-                <a href="/printing/">Printing <small>(10&#162; per page)</small></a>
+                <a href="/printing/">Print / Fax / Scan</a>
               </li>
               <li>
                 <a href="/meeting-rooms/">Public Meeting Rooms</a>
