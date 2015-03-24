@@ -135,7 +135,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-a">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Budkey_Gordon-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Budke_Gordon-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Gordon Budke</h6>
