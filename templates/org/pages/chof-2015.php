@@ -99,7 +99,7 @@
 					<img class="img-responsive" src="/assets/img/promos/chof/Spokan_ChiefGarry-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title"><span class="chof-salish-bold">ilmz sPQNi/</span></h6>
+							<h6 class="chof-title">Chief Spokan Garry</h6>
 						</div>
 					</div>
 				</div>
@@ -529,10 +529,22 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase">Chief Spokane Garry</h3>
-	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  	<h3 class="modal-title uppercase">Chief Spokan Garry, ca. 1811&ndash;1892</h3>
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;
+	  	  	  		I am very sorry the war has begun. Like the fire in a dry prairie, it will spread all over the country, until now so peaceful.
+	  	  	  		&rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  		Chief Spokan Garry, Indian leader, educator, missionary and farmer, was born around 1811.  
+	  	  	  		His real name was Slough-Keetcha, and he was the son of the Spokan Chief Illm-Spokanee (<span class="chof-salish-bold">ilmz sPQNi/</span>). 
+	  	  	  		In 1825, his father sent him to the Red River missionary society school established by the Hudson’s Bay Company where he was given the name Spokan Garry. 
+	  	  	  		Garry spent five years at Red River, where he learned to speak, read and write both English and French. 
+	  	  	  		When he returned, he taught both children and adults Christianity, as well as English and agricultural techniques. 
+	  	  	  		Because of his role as leader of the Middle and Upper bands of the Spokane tribe, along with his English language skills, Garry represented his people in treaty negotiations in the extraordinary times of military conflict with the white settlers. 
+	  	  	  		Garry was a man of peace who tried to persuade the Spokane Indians not to fight the U. S. Army. 
+	  	  	  		From 1859 until his death, Garry worked unsuccessfully to establish a reservation for the Spokane tribe on their homeland. 
+	  	  	  		After white settlers dispossessed Garry and his family of his farm in 1888, Garry lived in poverty in Indian Canyon until his death in 1892.
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
