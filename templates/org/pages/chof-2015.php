@@ -440,9 +440,10 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Donald F. Kardong</h3>
 	  	  	  	<blockquote>
-	  	  	  		<span class="xl">&ldquo;</span>
-	  	  	  		The birth of Bloomsday was largely accidental, but is growth has been no accident. It has grown because people have been willing to commit energy, resources and vision.
-	  	  	  		<span class="xl">&rdquo;</span>
+	  	  	  		&ldquo;
+	  	  	  		The birth of Bloomsday was largely accidental, but is growth has been no accident. 
+	  	  	  		It has grown because people have been willing to commit energy, resources and vision.
+	  	  	  		&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  		Don Kardong grew up in the Seattle area, graduated from Stanford University in 1971, received a second bachelor's degree and a teaching certificate from the University of Washington in 1974, and moved to Spokane that year to take a job as an elementary school teacher. 
@@ -481,22 +482,27 @@
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase">King Cole</h3>
+	  	  	  	<h3 class="modal-title uppercase">King Cole, 1922&ndash;2010</h3>
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;
+	  	  	  		&hellip;the center of the city is its heart. 
+	  	  	  		And with any organism, no matter how healthy the extremities and other members are, if the heart is sick, the total community is going to get sick.
+	  	  	  		&rdquo;
+	  	  	  	</blockquote>
 	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  		King Cole, President of Expo &lsquo;74, was a 20<sup>th</sup> century visionary who changed the face of downtown Spokane.
+	  	  	  		Cole was born in Colorado and served with the Navy during World War II before attending college and law school in California. 
+	  	  	  		He was working as director of San Leandro, California’s development program when he came to Spokane in 1963 to assume leadership of Spokane Unlimited. 
+	  	  	  		His mission was to revitalize the downtown business district and help Spokane’s sluggish economy. 
 	  	  	  	</p>
 	  	  	  	<p>
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  		When he arrived in Spokane, railroad yards obscured the polluted Spokane River as it flowed through downtown.  
+	  	  	  		Cole brought community groups together to clean up the river and the city’s image. Under Cole’s leadership, a business and citizens’ coalition came up with the idea of hosting a World’s Fair, but Expo was a means to an end to revitalize the river and downtown. 
+	  	  	  		Cole coordinated local, state and national leaders and was instrumental in brokering the deal with the city and railroad officials for a land swap. 
 	  	  	  	</p>
 	  	  	  	<p>
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
-	  	  	  	</p>
-	  	  	  	<p>
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  		Expo &lsquo;74 was a huge success with Spokane becoming the smallest city ever to host a world’s fair, but its real achievement was the transformation of the river and the falls along with the creation of Riverfront Park. 
+	  	  	  		He continued to support community partnerships for urban planning until his death in 2010. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
