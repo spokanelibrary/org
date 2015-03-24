@@ -604,14 +604,23 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Balazs_Harold-lg.jpg">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Gordon Budke</h3>
-	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;I grew up in a family that for generations had been hard-working laborers. I was the first person in all the generations to gain a college education with a four-year college degree.&rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  		Gordon Budke worked his way through college and earned his Bachelor’s in Business Administration in 1963 from Eastern Washington University. 
+	  	  	  		He became a CPA, working for Coopers & Lybrand for 34 years and serving as managing partner for half of that. 
+	  	  	  		After retiring from there, he formed Budke Consulting and provides assistance to small and growing companies. 
+	  	  	  		He has served Spokane with his contributions to numerous boards and societies and nonprofit organizations including Kiwanis, Spokane Arts Commission, Goodwill, Leadership Spokane (Class of 83), Heart Institute of Spokane, YMCA, United Way, Spokane Jazz Society, Spokane Club, Spokane Jaycees, American Red Cross, Cheney Cowles Museum, Spokane Area Economic Development Council, MOMENTUM, FOCUS 21, Spokane Club, Spokane Symphony, The Ministry Institute, Eastern Washington University (Board of Trustees, Foundation and College of Business Dean’s Advisory Council) and Junior Achievement. 
+	  	  	  		Gordon currently serves on boards of Banner Bank and Yoke’s Foods, Inc.
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He and wife Rhoda, both EWU Alumni, have been married for 53+ years and have three great sons, three wonderful daughters-in-law and four fantastic grandchildren. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
