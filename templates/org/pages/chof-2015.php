@@ -445,8 +445,7 @@
 	  	  	  		<span class="xl">&rdquo;</span>
 	  	  	  	</blockquote>
 	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  		Don Kardong grew up in the Seattle area, graduated from Stanford University in 1971, received a second bachelor's degree and a teaching certificate from the University of Washington in 1974, and moved to Spokane that year to take a job as an elementary school teacher. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
