@@ -439,12 +439,15 @@
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Donald F. Kardong</h3>
-	  	  	  	<blockquote>
+	  	  	  	<p>
 	  	  	  		<span class="xl">&ldquo;</span>
 	  	  	  		The birth of Bloomsday was largely accidental, but is growth has been no accident. It has grown because people have been willing to commit energy, resources and vision.
 	  	  	  		<span class="xl">&rdquo;</span>
 	  	  	  	</blockquote>
-	  	  	  	<p class="lead">
+	  	  	  	<p>
+	  	  	  		Don Kardong grew up in the Seattle area, graduated from Stanford University in 1971, received a second bachelor's degree and a teaching certificate from the University of Washington in 1974, and moved to Spokane that year to take a job as an elementary school teacher. 
+	  	  	  	</p>
+	  	  	  	<p>
 	  	  	  		Don Kardong grew up in the Seattle area, graduated from Stanford University in 1971, received a second bachelor's degree and a teaching certificate from the University of Washington in 1974, and moved to Spokane that year to take a job as an elementary school teacher. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
