@@ -1,18 +1,19 @@
 <style>
-  /*
+  
   @font-face {
     font-family: 'Salish2Salish2SILDoulosRegular';
     src: url('/assets/fonts/salish/Salish2Salish2SILDoulosRegular.eot?#iefix') format('embedded-opentype'),  url('/assets/fonts/salish/Salish2Salish2SILDoulosRegular.woff') format('woff'), url('/assets/fonts/salish/Salish2Salish2SILDoulosRegular.ttf')  format('truetype'), url('/assets/fonts/salish/Salish2Salish2SILDoulosRegular.svg#Salish2Salish2SILDoulosRegular') format('svg');
     font-weight: normal;
     font-style: normal;
   }
-  */
+  /*
   @font-face {
 	  font-family: 'Salish2Salish2SILDoulosBold';
 	  src: url('/assets/fonts/salish/Salish2Salish2SILDoulosBold.eot?#iefix') format('embedded-opentype'),  url('/assets/fonts/salish/Salish2Salish2SILDoulosBold.woff') format('woff'), url('/assets/fonts/salish/Salish2Salish2SILDoulosBold.ttf')  format('truetype'), url('/assets/fonts/salish/Salish2Salish2SILDoulosBold.svg#Salish2Salish2SILDoulosBold') format('svg');
 	  font-weight: normal;
 	  font-style: normal;
 	}
+	*/
 </style>
 
 <div class="row">
@@ -537,7 +538,7 @@
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  		Chief Spokan Garry, Indian leader, educator, missionary and farmer, was born around 1811.  
-	  	  	  		His real name was Slough-Keetcha, and he was the son of the Spokan Chief Illm-Spokanee (<span class="chof-salish-bold">ilmz sPQNi/</span>). 
+	  	  	  		His real name was Slough-Keetcha, and he was the son of the Spokan Chief Illm-Spokanee (<span class="chof-salish-normal">ilmz sPQNi/</span>). 
 	  	  	  		In 1825, his father sent him to the Red River missionary society school established by the Hudson’s Bay Company where he was given the name Spokan Garry. 
 	  	  	  		Garry spent five years at Red River, where he learned to speak, read and write both English and French. 
 	  	  	  		When he returned, he taught both children and adults Christianity, as well as English and agricultural techniques. 
