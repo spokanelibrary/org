@@ -569,9 +569,19 @@
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Harold Balazs</h3>
-	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;The lesson of the artist is to rejoice in mystery, in questions. I don’t want answers.&rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  		Harold Balazs, artist and visionary, has been creating art in Washington since he was a student at WSU in the 1940s. 
+	  	  	  		Growing up on a farm in Ohio during the depression, he learned to make do with what was on hand. 
+	  	  	  		He developed an interest in art as a child before moving to Washington. 
+	  	  	  		He has created art in every medium, including murals, jewelry, painting, sculptures from wood, enamel, and every kind of metal. 
+	  	  	  		In Spokane, he has produced massive public art projects including the Rotary Riverfront Fountain, the Centennial Sculpture, along with projects in churches, schools and banks too numerous to list. 
+	  	  	  		He has produced countless public art projects in Seattle, Alaska and throughout the Northwest. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He has elevated the quality of life for our community by bringing his senses of beauty, humanity and joy into our daily lives.
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
