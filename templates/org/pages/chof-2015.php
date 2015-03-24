@@ -440,7 +440,9 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Donald F. Kardong</h3>
 	  	  	  	<blockquote>
-	  	  	  		<sup>&ldquo;</sup>The birth of Bloomsday was largely accidental, but is growth has been no accident. It has grown because people have been willing to commit energy, resources and vision.<sup>&rdquo;</sup>
+	  	  	  		<span class="xxl">&ldquo;</span>
+	  	  	  		The birth of Bloomsday was largely accidental, but is growth has been no accident. It has grown because people have been willing to commit energy, resources and vision.
+	  	  	  		<span class="xxl">&rdquo;</span>
 	  	  	  	</blockquote>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
