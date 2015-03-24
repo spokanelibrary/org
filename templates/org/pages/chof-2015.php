@@ -448,7 +448,10 @@
 	  	  	  		Don Kardong grew up in the Seattle area, graduated from Stanford University in 1971, received a second bachelor's degree and a teaching certificate from the University of Washington in 1974, and moved to Spokane that year to take a job as an elementary school teacher. 
 	  	  	  	</p>
 	  	  	  	<p>
-	  	  	  		Don Kardong grew up in the Seattle area, graduated from Stanford University in 1971, received a second bachelor's degree and a teaching certificate from the University of Washington in 1974, and moved to Spokane that year to take a job as an elementary school teacher. 
+	  	  	  		In 1976, Don finished fourth in the Olympic marathon in Montreal, and the next spring (1977) he founded the Lilac Bloomsday Run (Bloomsday). 
+	  	  	  		In 1977 he left teaching to open a retail sporting goods store in downtown Spokane (1977-1986), and after selling the business in 1986 he pursued a career as a writer, primarily for Runner's World magazine, for the next 16 years. 
+	  	  	  		From 2002-2004 he served as executive director of the Children’s Museum of Spokane. 
+	  	  	  		In August of 2004, after many years as a member of Bloomsday’s Board of Directors, he took over as Race Director. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
