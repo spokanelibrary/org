@@ -526,7 +526,7 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/8">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Spokan_ChiefGarry-sq.jpg">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
