@@ -634,12 +634,12 @@
 <!-- MODAL -->
 <div class="modal fade chof-modal" id="chof-modal-welty-elizabeth" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content chof-blue">
+    <div class="modal-content chof-green">
       <div class="modal-body">
         
         <div class="panel-body">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-blue">Public Service &amp; Philanthropy <small>2015</small></h3>
+      	  <h3 class="normal chof-text-green">Public Service &amp; Philanthropy <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
