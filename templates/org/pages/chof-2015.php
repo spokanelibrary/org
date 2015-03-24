@@ -441,10 +441,8 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Donald F. Kardong</h3>
 	  	  	  	<blockquote>
-	  	  	  		&ldquo;
-	  	  	  		The birth of Bloomsday was largely accidental, but is growth has been no accident. 
-	  	  	  		It has grown because people have been willing to commit energy, resources and vision.
-	  	  	  		&rdquo;
+	  	  	  		&ldquo;The birth of Bloomsday was largely accidental, but is growth has been no accident. 
+	  	  	  		It has grown because people have been willing to commit energy, resources and vision.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  		Don Kardong grew up in the Seattle area, graduated from Stanford University in 1971, received a second bachelor's degree and a teaching certificate from the University of Washington in 1974, and moved to Spokane that year to take a job as an elementary school teacher. 
@@ -485,10 +483,8 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">King Cole, 1922&ndash;2010</h3>
 	  	  	  	<blockquote>
-	  	  	  		&ldquo;
-	  	  	  		&hellip;the center of the city is its heart. 
-	  	  	  		And with any organism, no matter how healthy the extremities and other members are, if the heart is sick, the total community is going to get sick.
-	  	  	  		&rdquo;
+	  	  	  		&ldquo;&hellip;the center of the city is its heart. 
+	  	  	  		And with any organism, no matter how healthy the extremities and other members are, if the heart is sick, the total community is going to get sick.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  		King Cole, President of Expo &lsquo;74, was a 20<sup>th</sup> century visionary who changed the face of downtown Spokane.
@@ -532,9 +528,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Chief Spokan Garry, ca. 1811&ndash;1892</h3>
 	  	  	  	<blockquote>
-	  	  	  		&ldquo;
-	  	  	  		I am very sorry the war has begun. Like the fire in a dry prairie, it will spread all over the country, until now so peaceful.
-	  	  	  		&rdquo;
+	  	  	  		&ldquo;I am very sorry the war has begun. Like the fire in a dry prairie, it will spread all over the country, until now so peaceful.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  		Chief Spokan Garry, Indian leader, educator, missionary and farmer, was born around 1811.  
@@ -570,7 +564,7 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/3">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Balazs_Harold-lg.jpg">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
