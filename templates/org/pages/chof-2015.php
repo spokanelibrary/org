@@ -439,7 +439,7 @@
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Donald F. Kardong</h3>
-	  	  	  	<p>
+	  	  	  	<blockquote>
 	  	  	  		<span class="xl">&ldquo;</span>
 	  	  	  		The birth of Bloomsday was largely accidental, but is growth has been no accident. It has grown because people have been willing to commit energy, resources and vision.
 	  	  	  		<span class="xl">&rdquo;</span>
