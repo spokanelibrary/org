@@ -863,6 +863,8 @@
 	  	  	  	<p>
 	  	  	  		Gary A. Livingston, a champion of equal education, served as the chancellor for Community Colleges of Spokane from 2002 to 2010. 
 	  	  	  		Prior to his term with the community colleges, he served as superintendent for the Spokane Public Schools from 1993 to 2001. 
+  	  	  		</p>
+  	  	  		<p>
 	  	  	  		He began his career in education in 1970 as a special education teacher in the Topeka, Kansas public school district. 
 	  	  	  		He became superintendent of the Topeka district in 1988 and served in that position for five years before moving to Spokane. 
 	  	  	  		He has served on the boards of numerous educational and civic organizations, including KSPS, United Way, Spokane Regional Chamber of Commerce, Spokane Regional Economic Development Council (chair 2005-06), Providence Health Care, Educational Service District 101, Spokane Mental Health, and the Northwest Museum of Arts and Culture.
