@@ -671,7 +671,7 @@
 </div>
 
 <!-- MODAL -->
-<div class="modal fade chof-modal" id="chof-modal-foley-tom" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+<div class="modal fade chof-modal" id="chof-modal-i" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content chof-gray">
       <div class="modal-body">
@@ -731,7 +731,7 @@
 </div>
 
 <!-- MODAL F -->
-<div class="modal fade chof-modal" id="chof-modal-f" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+<div class="modal fade chof-modal" id="chof-modal-foley-tom" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content chof-red">
       <div class="modal-body">
