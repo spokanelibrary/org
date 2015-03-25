@@ -879,7 +879,7 @@
 </div>
 
 <!-- MODAL -->
-<div class="modal fade chof-modal" id="chof-modal-l" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+<div class="modal fade chof-modal" id="chof-modal-hopkins-peg" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content chof-green">
       <div class="modal-body">
