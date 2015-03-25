@@ -714,12 +714,12 @@
 <!-- MODAL -->
 <div class="modal fade chof-modal" id="chof-modal-mcneill-vicki" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content chof-yellow">
+    <div class="modal-content chof-blue">
       <div class="modal-body">
         
         <div class="panel-body">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-yellow">Historic Inductee <small>2015</small></h3>
+      	  <h3 class="normal chof-text-blue">Historic Inductee <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
@@ -728,9 +728,19 @@
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Vicki McNeill</h3>
-	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;I believe we all have the same goals: to make Spokane a better place to live for everybody.&rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  		Vicki McNeill, Spokane’s first woman mayor, was appointed to the city council in 1982 to complete the term of Jim Chase, who had been elected mayor. 
+	  	  	  		She won the seat a year later and successfully ran for mayor in 1985, serving a four year term. 
+	  	  	  		Before she began her political career, she was known for her fund raising talents, raising money for numerous charitable and cultural organizations. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		McNeil arrived in Spokane in 1962 and began volunteering her time for organizations in which she believed. 
+	  	  	  		After her time as mayor, she served on the state’s Higher Education Board, and chairwoman of the Davenport Neighborhood Development Committee. 
+	  	  	  		McNeill also served on the Sacred Heart Medical Center Foundation Board and was a founding member of Women Helping Women. 
+	  	  	  		She died in Spokane in 1997. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
