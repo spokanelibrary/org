@@ -236,7 +236,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-j">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-hutton-may">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Hutton_May-sm.jpg">
@@ -793,6 +793,53 @@
   </div>
 </div>
 
+<!-- MODAL -->
+<div class="modal fade chof-modal" id="chof-modal-hutton-may" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content chof-brown">
+      <div class="modal-body">
+        
+        <div class="panel-body">  
+  	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      	  <h3 class="normal chof-text-brown">Historic Inductee <small>2015</small></h3>
+      	  <div class="row">
+  	      	<div class="col-sm-4 col-md-4">
+  			      <p>
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Hutton_May-lg.jpg">
+	  	  	    </p>
+	  	  	  </div><!-- /.col -->
+	  	  	  <div class="col-sm-8 col-md-8">
+	  	  	  	<h3 class="modal-title uppercase">May Arkwright Hutton</h3>
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;Man is not woman’s keeper, and has no more inherent right to think and vote for her than he has to suffer punishment for her crimes.&rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  		May Arkwright Hutton, working woman and suffragette, is still widely known in Spokane almost a hundred years after her death. 
+	  	  	  		May was born in Ohio and migrated to Idaho in 1883 to take part in the gold rush.  
+	  	  	  		Settling in Wardner Junction, she worked as a cook in a saloon before opening her own boardinghouse. 
+	  	  	  		In 1887, she met and married Levi Hutton, a train engineer and they moved to Wallace, Idaho. 
+	  	  	  		May worked running the restaurant in the Wallace hotel and was a union activist in violent times. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		In 1897, the Huttons bought a small interest in the Hercules mine and in 1901, the mine began producing silver. 
+	  	  	  		Within ten years, they were millionaires but May’s lack of social skills, brusque manner and strong opinions did not fit into the social life of the wives of mine owners. 
+	  	  	  		In 1904, she decided to run for the Idaho state legislature. 
+	  	  	  		She won the Democratic ticket, but lost the election. 
+	  	  	  		The Huttons moved to Spokane in 1906 and in moving to Washington, May lost her right to vote. 
+	  	  	  		She quickly became active in the suffrage movement until Washington voters granted women the right to vote in 1910. 
+	  	  	  		She was the first woman juror in Spokane County. 
+	  	  	  		She remained active in Democratic politics, the peace movement and many charitable organizations supporting women and children. 
+	  	  	  		When she died in 1915 at the age of 55, she was eulogized as an “author, suffragist, philosopher, humanitarian… who always fought on the moral side of all questions, and never forgot the poor and unfortunate.” 
+	  	  	  	</p>
+  	      	</div><!-- /.col -->
+	  	    </div><!-- /.row -->
+	      </div><!-- /.panel-body -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- MODAL E -->
 <div class="modal fade chof-modal" id="chof-modal-e" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
@@ -810,36 +857,6 @@
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Gary A. Livingston</h3>
-	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
-	  	  	  	</p>
-  	      	</div><!-- /.col -->
-	  	    </div><!-- /.row -->
-	      </div><!-- /.panel-body -->
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- MODAL J -->
-<div class="modal fade chof-modal" id="chof-modal-j" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content chof-brown">
-      <div class="modal-body">
-        
-        <div class="panel-body">  
-  	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-brown">Historic Inductee <small>2015</small></h3>
-      	  <div class="row">
-  	      	<div class="col-sm-4 col-md-4">
-  			      <p>
-  		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/7">
-	  	  	    </p>
-	  	  	  </div><!-- /.col -->
-	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase">May Arkwright Hutton</h3>
 	  	  	  	<p class="lead">
 	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
 	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
