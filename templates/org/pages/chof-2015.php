@@ -256,7 +256,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-h">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-livingston-gary">
 			<div class="chof-panel chof-panel-sized chof-gray">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Livingston_Gary-sm.jpg">
@@ -840,26 +840,32 @@
   </div>
 </div>
 
-<!-- MODAL E -->
-<div class="modal fade chof-modal" id="chof-modal-e" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+<!-- MODAL -->
+<div class="modal fade chof-modal" id="chof-modal-livingston-gary" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content chof-green">
+    <div class="modal-content chof-gray">
       <div class="modal-body">
         
         <div class="panel-body">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-green">Education <small>2015</small></h3>
+      	  <h3 class="normal chof-text-gray">Education <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/5">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Livingston_Gary-lg.jpg">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Gary A. Livingston</h3>
-	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;The only way you’re successful is if you communicate your issues and provide opportunities for people to communicate their issues to you.&rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  		Gary A. Livingston, a champion of equal education, served as the chancellor for Community Colleges of Spokane from 2002 to 2010. 
+	  	  	  		Prior to his term with the community colleges, he served as superintendent for the Spokane Public Schools from 1993 to 2001. 
+	  	  	  		He began his career in education in 1970 as a special education teacher in the Topeka, Kansas public school district. 
+	  	  	  		He became superintendent of the Topeka district in 1988 and served in that position for five years before moving to Spokane. 
+	  	  	  		He has served on the boards of numerous educational and civic organizations, including KSPS, United Way, Spokane Regional Chamber of Commerce, Spokane Regional Economic Development Council (chair 2005-06), Providence Health Care, Educational Service District 101, Spokane Mental Health, and the Northwest Museum of Arts and Culture.
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
