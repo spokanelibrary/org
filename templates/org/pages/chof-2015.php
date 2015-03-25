@@ -217,7 +217,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-i">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-oliver-daniel">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Oliver_Daniel-sm.jpg">
@@ -752,25 +752,37 @@
 </div>
 
 <!-- MODAL -->
-<div class="modal fade chof-modal" id="chof-modal-i" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+<div class="modal fade chof-modal" id="chof-modal-oliver-daniel" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content chof-gray">
+    <div class="modal-content chof-yellow">
       <div class="modal-body">
         
         <div class="panel-body">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-gray">Historic Inductee <small>2015</small></h3>
+      	  <h3 class="normal chof-text-yellow">Historic Inductee <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/2">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Oliver_Daniel-sq.jpg">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Daniel K. Oliver</h3>
-	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  	<blockquote>
+	  	  	  		Mainstream history has largely forgotten his accomplishments, but Oliver was integral to the development of Spokane as we know it today.
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  		Daniel K. Oliver was a thirty-three year old Civil War veteran from Pennsylvania who arrived in 1878 to what would later become the City of Spokane. 
+	  	  	  		A skilled carpenter, he was also an entrepreneur who invested in a wood mill and became a manager in a planning company. 
+	  	  	  		He later branched out into mining and real estate. 
+	  	  	  		In 1896, Oliver was elected to serve a two-year term on the city council in Ward 2 (currently lower South Hill), making him the highest-ranking African American official in Washington at that time. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Oliver was also an entrepreneur with investments in the timber industry, mining and real estate; all crucial industries in Spokane's early history. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		In 1892, he built Oliver Hall, a two-story brick building with a society hall on the second floor. 
+	  	  	  		He was involved in numerous civic organizations and died in Spokane in 1906. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
