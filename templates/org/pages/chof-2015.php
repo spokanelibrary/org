@@ -282,7 +282,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-l">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-hopkins-peg">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Hopkins_Peg-sm.jpg">
@@ -878,7 +878,7 @@
   </div>
 </div>
 
-<!-- MODAL L -->
+<!-- MODAL -->
 <div class="modal fade chof-modal" id="chof-modal-l" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content chof-green">
@@ -890,14 +890,30 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="http://lorempixel.com/g/200/200/people/4">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Hopkins_Peg-lg.jpg">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Peg Hopkins</h3>
-	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;Working in healthcare is like working on a solvable puzzle. It seems that providing quality health care to all individuals is something that can be accomplished. That’s what keeps me motivated to get to work every day.&rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  		Peg has served as Executive Director/CEO of Community Health Association of Spokane (CHAS) since the organization’s inception in 1994. 
+	  	  	  		She has dedicated her career to improving the quality of life for Spokane residents most in need. 
+	  	  	  		From 1991-1995, Peg designed and implemented a housing development program for special needs populations in Spokane. 
+	  	  	  		During this time, she worked closely with local health programs ranging from mental health, HIV/AIDS, development disabilities, and substance abuse. 
+	  	  	  		Her experience and reputation as a project supervisor and advocate for the underserved led to her being recruited to lead Spokane’s first and only health care for the homeless program.
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Over the past 20 years, CHAS has grown from a two-room clinic to now operating four clinics in the City of Spokane. 
+	  	  	  		These four sites served more than 38,000 patients in 2014, including 6,000 homeless patients. 
+	  	  	  		CHAS is a critical part of Spokane, serving everyone in need, regardless of insurance status or ability to pay. 
+	  	  	  		Peg’s service to Spokane has resulted in access to basic health care services for residents who would otherwise have gone without. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Peg Hopkins has made significant contributions to the development of Spokane’s health care infrastructure and the quality of life for all Spokane residents. 
+	  	  	  		She has built a solid organization that meets a critical need in our city. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
