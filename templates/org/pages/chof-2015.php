@@ -671,6 +671,47 @@
 </div>
 
 <!-- MODAL -->
+<div class="modal fade chof-modal" id="chof-modal-foley-tom" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content chof-red">
+      <div class="modal-body">
+        
+        <div class="panel-body">  
+  	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      	  <h3 class="normal chof-text-red">Historic Inductee <small>2015</small></h3>
+      	  <div class="row">
+  	      	<div class="col-sm-4 col-md-4">
+  			      <p>
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Foley_Tom-lg.jpg">
+	  	  	    </p>
+	  	  	  </div><!-- /.col -->
+	  	  	  <div class="col-sm-8 col-md-8">
+	  	  	  	<h3 class="modal-title uppercase">Thomas S. Foley</h3>
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;If I had one compelling concern in the time that I have been speaker, but previous to that as well, it is that we not idly tamper with the Constitution of the United States.&rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  		Tom Foley was born in Spokane in 1929 and attended Gonzaga Prep and Gonzaga before transferring to the University of Washington where he received his B. A. and his law degree in 1957. 
+	  	  	  		He began his career with the Spokane County prosecutor’s office, taught constitutional law at Gonzaga’s law school and worked in the office of the Washington State attorney general. 
+	  	  	  		In 1960, he joined Henry “Scoop” Jackson’s staff. 
+	  	  	  		Foley won in his first run for Congress in 1964. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Rising steadily through the ranks, aided by his widely-noted charm and good humor, Foley was elected Speaker of the House in 1989, the first Speaker from west of the Rocky Mountains. 
+	  	  	  		He felt that his biggest achievements were in the areas of farm bills, hunger programs, civil liberties, environmental legislation and civil rights bills. 
+	  	  	  		He earned Washington State’s highest recognition, the Washington Medal of Merit for his service in the House of Representatives. 
+	  	  	  		After leaving office, he went on to be the U. S. Ambassador to Japan from 1997 to 2001 and was the North American chairman of the American Trilateral Commission from 2001 to 2008. 
+	  	  	  	</p>
+  	      	</div><!-- /.col -->
+	  	    </div><!-- /.row -->
+	      </div><!-- /.panel-body -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL -->
 <div class="modal fade chof-modal" id="chof-modal-i" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content chof-gray">
@@ -730,35 +771,7 @@
   </div>
 </div>
 
-<!-- MODAL F -->
-<div class="modal fade chof-modal" id="chof-modal-foley-tom" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content chof-red">
-      <div class="modal-body">
-        
-        <div class="panel-body">  
-  	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-red">Historic Inductee <small>2015</small></h3>
-      	  <div class="row">
-  	      	<div class="col-sm-4 col-md-4">
-  			      <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Welty_Elizabeth-sq.jpg">
-	  	  	    </p>
-	  	  	  </div><!-- /.col -->
-	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase">Thomas S. Foley</h3>
-	  	  	  	<p class="lead">
-	  	  	  		Lead the development of the North South freeway and the revitalization of the Logan neighborhood. 
-	  	  	  		Born in Brown’s Addition, Mr. North also attended and later instructed at Spokane Falls Community College in the engineering department.
-	  	  	  	</p>
-  	      	</div><!-- /.col -->
-	  	    </div><!-- /.row -->
-	      </div><!-- /.panel-body -->
 
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- MODAL I -->
 <div class="modal fade chof-modal" id="chof-modal-i" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
