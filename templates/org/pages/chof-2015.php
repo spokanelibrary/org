@@ -312,60 +312,39 @@
 		</a>
 	</div>
 
-	<!-- TILE CITY OF SPOKANE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="http://beta.spokanecity.org">
-			<div class="chof-panel chof-panel-sized chof-orange">
-				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
-				</div>
-			</div>
-		</a>
-	</div>
-
-	<!-- TILE SPL FOUNDATION-->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
-		<a href="http://www.spokanelibraryfoundation.org">
-			<div class="chof-panel chof-panel-sized chof-brown">
-				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn.png">
-				</div>
-			</div>
-		</a>
-	</div>
-
-	<!-- SPONSORS -->
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-pull-2">
-		<div class="chof-panel" style="">
-			<div class="panel-body">		
-				<h5 class="text-center uppercase text-muted">Thanks to our generous sponsors:</h5>
-				<div class="row">
-					<div class="col-sm-3 col-lg-6">
-						<p>
-							<a href="http://www.avistafoundation.com/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
-						</p>
-					</div><!-- /.col -->
-					<div class="col-sm-3 col-lg-6">
-						<p style="margin-top:2px;">
-							<a href="http://www.khq.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/khq-logo.png" alt="KHQ" /></a>
-						</p>
-					</div><!-- /.col -->
-					<div class="col-sm-3 col-lg-6">
-						<p style="margin-top:6px;">
-							<a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/spokesman-logo.png" alt="The Spokesman Review" /></a>
-						</p>
-					</div><!-- /.col -->
-					<div class="col-sm-3 col-lg-6">
-						<p style="margin-top:6px;">
-							<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
-						</p>
-					</div><!-- /.col -->
-				</div><!-- /.row -->
-			</div><!-- /.panel-body -->
-		</div><!-- /.chof-panel -->
-	</div><!-- /.col -->
-
 </div><!-- /.row -->
+
+<!-- SPONSORS -->
+	
+<h5 class="text-center uppercase text-muted">Thanks to our generous sponsors:</h5>
+<div class="row chof-row">
+	<div class="col-sm-2 col-sm-offset-1">
+		<p>
+			<a href="http://www.avistafoundation.com/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
+		</p>
+	</div><!-- /.col -->
+	<div class="col-sm-2">
+		<p>
+			<a href="http://www.avistafoundation.com/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
+		</p>
+	</div><!-- /.col -->
+	<div class="col-sm-2">
+		<p style="margin-top:2px;">
+			<a href="http://www.khq.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/khq-logo.png" alt="KHQ" /></a>
+		</p>
+	</div><!-- /.col -->
+	<div class="col-sm-2">
+		<p style="margin-top:6px;">
+			<a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/spokesman-logo.png" alt="The Spokesman Review" /></a>
+		</p>
+	</div><!-- /.col -->
+	<div class="col-sm-2">
+		<p style="margin-top:6px;">
+			<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
+		</p>
+	</div><!-- /.col -->
+</div><!-- /.row -->
+
 
 <!-- MODAL ABOUT -->
 <div class="modal fade chof-modal" id="chof-modal-about" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
