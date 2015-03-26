@@ -458,7 +458,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">City of Spokane</h3>
 	  	  	  	<blockquote>
-	  	  	  		The City of Spokane is a founding partner of the Spokane Citizen's Hall of Fame.
+	  	  	  		Thanks to the City of Spokane for helping to create this community resource.
 	  	  	  	</blockquote>
 	  	  	  	<p>
   		  	  		<a rel="external" href="https://my.spokanecity.org/"><b>Visit the City of Spokane website</b></a>
@@ -492,7 +492,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Spokane Public Library Foundation</h3>
 	  	  	  	<blockquote>
-	  	  	  		The Spokane Public Library Foundation is a founding partner of the Spokane Citizen's Hall of Fame.
+	  	  	  		The Spokane Public Library Foundation created the Citizen's Hall of Fame to recognize individuals for their contributions to our city while also providing an opportunity to raise funds for the library.
 	  	  	  	</blockquote>
 	  	  	  	<p>
   		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/"><b>Visit the Spokane Public Library Foundation website</b></a>
