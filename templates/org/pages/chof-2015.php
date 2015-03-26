@@ -381,8 +381,8 @@
 	  	    </h3>
 	  	    <dl class="">
 		  	    <dt class="chof-text-orange">Economic Development and Business</dt>
-						<dd class="chof-text-gray">
-							<i class="glyphicon glyphicon-chevron-right"></i>
+						<dd class="help-block">
+							<i class="glyphicon glyphicon-chevron-right chof-text-green"></i>
 							For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
 						</dd>
 						<dt class="chof-text-orange">Education</dt>
@@ -405,7 +405,7 @@
 							<i class="glyphicon glyphicon-chevron-right chof-text-green"></i>
 							For activities that enhance and support the artistic/cultural and literary life and well-being of the community
 						</dd>
-						<dt> class="chof-text-orange"Science, Health and Medicine</dt>
+						<dt class="chof-text-orange">Science, Health and Medicine</dt>
 						<dd class="help-block">
 							<i class="glyphicon glyphicon-chevron-right chof-text-green"></i>
 							For individuals who have made significant contributions in the area of science, health or medicine
