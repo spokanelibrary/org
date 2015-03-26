@@ -397,7 +397,7 @@
  	  	  			</p>
  	  	  		</div><!-- /.col -->
 	  	    </div><!-- /.row -->
-	  	    <h3 class="chof-text-blue">
+	  	    <h3 class="normal chof-text-blue">
 	  	    	Categories in which citizens are honored for their achievements include:
 	  	    </h3>
 	  	    <dl class="">
