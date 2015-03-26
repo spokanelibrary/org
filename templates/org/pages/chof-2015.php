@@ -16,24 +16,24 @@
 	*/
 </style>
 
-<div class="row">
+<div class="row" class="chof-row">
 
 	<!-- BLANK TILE -->
-	<div class="hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-teal">
 			&nbsp;
 		</div>
 	</div>
 
 	<!-- CLOCKTOWER -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-teal">
 			<img class="img-responsive" src="/assets/img/promos/chof-clocktower.png">
 		</div>
 	</div>
 	
 	<!-- LOGOTYPE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-about">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
@@ -47,14 +47,14 @@
 	</div>
 	
 	<!-- BLANK TILE -->
-	<div class="hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-yellow">
 			&nbsp;
 		</div>
 	</div>
 
 	<!-- TILE CITY OF SPOKANE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a  href="#" data-toggle="modal" data-target="#chof-modal-spokane-city">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
@@ -68,7 +68,7 @@
 	</div>
 
 	<!-- TILE SPL FOUNDATION-->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a  href="#" data-toggle="modal" data-target="#chof-modal-spl-fdtn">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
@@ -82,7 +82,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-spokan-chief-garry">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
@@ -101,7 +101,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-balazs-harold">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
@@ -121,7 +121,7 @@
 
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-budke-gordon">
 			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
@@ -140,7 +140,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-kardong-donald">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
@@ -160,7 +160,7 @@
 
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-welty-elizabeth">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
@@ -179,7 +179,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-foley-tom">
 			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
@@ -198,7 +198,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-mcneill-vicki">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
@@ -217,7 +217,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-oliver-daniel">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
@@ -236,7 +236,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-hutton-may">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
@@ -256,7 +256,7 @@
 
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-livingston-gary">
 			<div class="chof-panel chof-panel-sized chof-gray">
 				<div class="panel-body">
@@ -275,7 +275,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-cole-king">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
@@ -294,7 +294,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-hopkins-peg">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
@@ -313,7 +313,7 @@
 	</div>
 
 	<!-- TILE CITY OF SPOKANE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="http://beta.spokanecity.org">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
@@ -324,7 +324,7 @@
 	</div>
 
 	<!-- TILE SPL FOUNDATION-->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
+	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
 		<a href="http://www.spokanelibraryfoundation.org">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
@@ -335,7 +335,7 @@
 	</div>
 
 	<!-- SPONSORS -->
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-pull-2">
+	<div class="chof-col col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-pull-2">
 		<div class="chof-panel" style="">
 			<div class="panel-body">		
 				<h5 class="text-center uppercase text-muted">Thanks to our generous sponsors:</h5>
