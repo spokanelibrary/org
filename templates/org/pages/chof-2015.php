@@ -486,7 +486,7 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn-horz.png">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn-horiz.png">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
