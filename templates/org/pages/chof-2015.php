@@ -120,15 +120,16 @@
 		</a>
 	</div>
 
+
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-budke-gordon">
-			<div class="chof-panel chof-panel-sized chof-red">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-cole-king">
+			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Budke_Gordon-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Cole_King-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Gordon Budke</h6>
+							<h6 class="chof-title">King Cole</h6>
 						</div>
 					</div>
 				</div>
@@ -138,8 +139,8 @@
 			</div>
 		</a>
 	</div>
-
-		<!-- TILE -->
+	
+	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-oliver-daniel">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
@@ -215,7 +216,7 @@
 		</a>
 	</div>
 
-	
+
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-kardong-donald">
@@ -276,13 +277,13 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-cole-king">
-			<div class="chof-panel chof-panel-sized chof-orange">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-budke-gordon">
+			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Cole_King-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Budke_Gordon-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">King Cole</h6>
+							<h6 class="chof-title">Gordon Budke</h6>
 						</div>
 					</div>
 				</div>
