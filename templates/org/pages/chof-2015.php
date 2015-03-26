@@ -72,6 +72,9 @@
 					<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn.png">
 				</div>
 			</div>
+			<div class="chof-glyph">
+				<small class="glyphicon glyphicon-share-alt"></small>
+			</div>
 		</a>
 	</div>
 
