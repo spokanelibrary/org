@@ -458,10 +458,10 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">City of Spokane</h3>
 	  	  	  	<blockquote>
-	  	  	  		Thanks to the City of Spokane for helping to create this community resource.
+	  	  	  		Thanks to the City of Spokane for helping to develop the Citizen's Hall of Fame.
 	  	  	  	</blockquote>
 	  	  	  	<p>
-  		  	  		<a rel="external" href="https://my.spokanecity.org/"><b>Visit the City of Spokane website</b></a>
+  		  	  		<a rel="external" href="https://my.spokanecity.org/">Visit the <b>City of Spokane</b> website</a>
 	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
  	  	  			</p>
  	  	  			
@@ -492,10 +492,10 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Spokane Public Library Foundation</h3>
 	  	  	  	<blockquote>
-	  	  	  		The Spokane Public Library Foundation created the Citizen's Hall of Fame to recognize individuals for their contributions to our city while also providing an opportunity to raise funds for the library.
+	  	  	  		The Spokane Public Library Foundation created the Citizen's Hall of Fame to recognize individuals for their contributions to our community, while also providing an opportunity to raise funds for the library.
 	  	  	  	</blockquote>
 	  	  	  	<p>
-  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/"><b>Visit the Spokane Public Library Foundation website</b></a>
+  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/">Visit the <b>Spokane Public Library Foundation</b> website</a>
 	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
  	  	  			</p>
  	  	  			
