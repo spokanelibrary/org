@@ -139,7 +139,7 @@
 			</div>
 		</a>
 	</div>
-	
+
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-oliver-daniel">
@@ -158,16 +158,16 @@
 			</div>
 		</a>
 	</div>
-
+	
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-welty-elizabeth">
-			<div class="chof-panel chof-panel-sized chof-green">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-hutton-may">
+			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Welty_Elizabeth-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Hutton_May-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Dr. Elizabeth Welty, MD</h6>
+							<h6 class="chof-title">May Arkwright Hutton</h6>
 						</div>
 					</div>
 				</div>
@@ -176,7 +176,7 @@
 				</div>
 			</div>
 		</a>
-	</div>
+	</div>	
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
@@ -238,13 +238,13 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-hutton-may">
-			<div class="chof-panel chof-panel-sized chof-brown">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-welty-elizabeth">
+			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Hutton_May-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Welty_Elizabeth-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">May Arkwright Hutton</h6>
+							<h6 class="chof-title">Dr. Elizabeth Welty, MD</h6>
 						</div>
 					</div>
 				</div>
@@ -254,7 +254,6 @@
 			</div>
 		</a>
 	</div>
-
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
