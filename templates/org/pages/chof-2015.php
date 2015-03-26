@@ -21,7 +21,7 @@
 	<!-- BLANK TILE -->
 	<div class="chof-col hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-teal">
-			&nbsp;
+			<img class="img-responsive" style="width:200px; height:200px;" src="/assets/img/promos/chof-shim.png">
 		</div>
 	</div>
 
@@ -49,7 +49,7 @@
 	<!-- BLANK TILE -->
 	<div class="chof-col hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-yellow">
-			&nbsp;
+			<img class="img-responsive" style="width:200px; height:200px;" src="/assets/img/promos/chof-shim.png">
 		</div>
 	</div>
 
