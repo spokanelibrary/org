@@ -392,7 +392,7 @@
 	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
  	  	  			</p>
  	  	  			<p class="text-center">
-  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/nominees/"><b>See a list of nominees and Honorable Mentions</b></a>
+  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/nominees/"><b>See the list of all nominees and Honorable Mentions</b></a>
 	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
  	  	  			</p>
  	  	  		</div><!-- /.col -->
