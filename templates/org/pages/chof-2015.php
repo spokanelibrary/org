@@ -385,7 +385,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase chof-text-yellow">Spokane's Citizen Hall of Fame</h3>
 	  	  	  	<blockquote>
-	  	  	  		The Spokane Citizen Hall of Fame recognizes individuals who have made outstanding contributions to the quality of life in our city and the development of Spokane.
+	  	  	  		The Spokane Citizen's Hall of Fame recognizes individuals who have made outstanding contributions to the quality of life in our city and the development of Spokane.
 	  	  	  	</blockquote>
 	  	  	  	<p>
   		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/"><b>Learn more about Spokane's Citizen Hall of Fame</b></a>
@@ -397,7 +397,7 @@
  	  	  			</p>
  	  	  		</div><!-- /.col -->
 	  	    </div><!-- /.row -->
-	  	    <h3>
+	  	    <h3 style="chof-text-blue">
 	  	    	Categories in which citizens are honored for their achievements include:
 	  	    </h3>
 	  	    <dl class="">
