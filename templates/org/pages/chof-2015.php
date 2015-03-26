@@ -19,7 +19,7 @@
 <div class="row chof-row">
 
 	<!-- BLANK TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
 		<div class="chof-panel chof-panel-sized chof-teal">
 			<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 		</div>
@@ -47,7 +47,7 @@
 	</div>
 	
 	<!-- BLANK TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
 		<div class="chof-panel chof-panel-sized chof-yellow">
 			<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 		</div>
