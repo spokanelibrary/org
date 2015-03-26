@@ -381,7 +381,7 @@
 	  	    </h3>
 	  	    <dl class="">
 		  	    <dt class="chof-text-orange">Economic Development and Business</dt>
-						<dd class="help-block">
+						<dd class="chof-text-gray">
 							<i class="glyphicon glyphicon-chevron-right"></i>
 							For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
 						</dd>
@@ -392,22 +392,22 @@
 						</dd>
 						<dt class="chof-text-orange">Public Service and Philanthropy</dt>
 						<dd class="help-block">
-							<i class="glyphicon glyphicon-chevron-right"></i>
+							<i class="glyphicon glyphicon-chevron-right chof-text-green"></i>
 							For exemplary voluntary and public service activities that benefit the community
 						</dd>
-						<dt>Innovation and Leadership</dt>
+						<dt class="chof-text-orange">Innovation and Leadership</dt>
 						<dd class="help-block">
-							<i class="glyphicon glyphicon-chevron-right"></i>
+							<i class="glyphicon glyphicon-chevron-right chof-text-green"></i>
 							For activities that cultivate strong innovation and leadership city-wide
 						</dd>
-						<dt>Arts and Letters</dt>
+						<dt class="chof-text-orange">Arts and Letters</dt>
 						<dd class="help-block">
-							<i class="glyphicon glyphicon-chevron-right"></i>
+							<i class="glyphicon glyphicon-chevron-right chof-text-green"></i>
 							For activities that enhance and support the artistic/cultural and literary life and well-being of the community
 						</dd>
-						<dt>Science, Health and Medicine</dt>
+						<dt> class="chof-text-orange"Science, Health and Medicine</dt>
 						<dd class="help-block">
-							<i class="glyphicon glyphicon-chevron-right"></i>
+							<i class="glyphicon glyphicon-chevron-right chof-text-green"></i>
 							For individuals who have made significant contributions in the area of science, health or medicine
 						</dd>
 					</dl>
