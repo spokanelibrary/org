@@ -397,7 +397,7 @@
  	  	  			</p>
  	  	  		</div><!-- /.col -->
 	  	    </div><!-- /.row -->
-	  	    <h3 class="chof-text-teal">
+	  	    <h3 class="chof-text-brown">
 	  	    	Categories in which citizens are honored for their achievements include:
 	  	    </h3>
 	  	    <dl class="">
@@ -458,7 +458,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">City of Spokane</h3>
 	  	  	  	<blockquote>
-	  	  	  		Thanks to the City of Spokane for helping to develop the Citizen's Hall of Fame.
+	  	  	  		Thanks to the City of Spokane for helping to develop the Spokane Citizen's Hall of Fame.
 	  	  	  	</blockquote>
 	  	  	  	<p>
   		  	  		<a rel="external" href="https://my.spokanecity.org/">Visit the <b>City of Spokane</b> website</a>
@@ -492,7 +492,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Spokane Public Library Foundation</h3>
 	  	  	  	<blockquote>
-	  	  	  		The Spokane Public Library Foundation created the Citizen's Hall of Fame to recognize individuals for their contributions to our community, while also providing an opportunity to raise funds for the library.
+	  	  	  		The Foundation created the Citizen's Hall of Fame to recognize individuals for their contributions to our community, while also providing an opportunity to raise funds for the library.
 	  	  	  	</blockquote>
 	  	  	  	<p>
   		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/">Visit the <b>Spokane Public Library Foundation</b> website</a>
