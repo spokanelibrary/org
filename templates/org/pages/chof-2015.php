@@ -537,12 +537,6 @@
   			      <p>
   		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Spokan_ChiefGarry-lg.jpg">
 	  	  	    </p>
-	  	  	    <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Spokan_ChiefGarry-a.jpg">
-	  	  	    </p>
-	  	  	    <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Spokan_ChiefGarry-b.jpg">
-	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Chief Spokan Garry, ca. 1811&ndash;1892</h3>
@@ -550,6 +544,7 @@
 	  	  	  		&ldquo;I am very sorry the war has begun. Like the fire in a dry prairie, it will spread all over the country, until now so peaceful.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
+	  	  	  		<img class="pull-right" src="/assets/img/promos/chof/Spokan_ChiefGarry-a.jpg">
 	  	  	  		Chief Spokan Garry, Indian leader, educator, missionary and farmer, was born around 1811.  
 	  	  	  		His real name was Slough-Keetcha, and he was the son of the Spokan Chief Illm-Spokanee (<span class="chof-salish-regular">ilmz sPQNi/</span>). 
 	  	  	  		In 1825, his father sent him to the Red River missionary society school established by the Hudson’s Bay Company where he was given the name Spokan Garry. 
@@ -557,6 +552,7 @@
 	  	  	  		When he returned, he taught both children and adults Christianity, as well as English and agricultural techniques. 
 	  	  	  	</p>
 	  	  	  	<p>
+	  	  	  		<img class="pull-left" src="/assets/img/promos/chof/Spokan_ChiefGarry-b.jpg">
 	  	  	  		Because of his role as leader of the Middle and Upper bands of the Spokane tribe, along with his English language skills, Garry represented his people in treaty negotiations in the extraordinary times of military conflict with the white settlers. 
 	  	  	  		Garry was a man of peace who tried to persuade the Spokane Indians not to fight the U. S. Army. 
 	  	  	  		From 1859 until his death, Garry worked unsuccessfully to establish a reservation for the Spokane tribe on their homeland. 
