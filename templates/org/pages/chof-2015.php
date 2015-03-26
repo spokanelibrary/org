@@ -437,13 +437,20 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">City of Spokane</h3>
 	  	  	  	<blockquote>
-	  	  	  		Thanks to the City of Spokane for helping to develop the Citizen's Hall of Fame.
+	  	  	  		Thanks to the City of Spokane for helping to develop the Citizen's Hall of Fame!
 	  	  	  	</blockquote>
 	  	  	  	<p>
   		  	  		<a rel="external" href="https://my.spokanecity.org/"><b>Visit the City of Spokane website</b></a>
 	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
  	  	  			</p>
- 	  	  			
+ 	  	  			<p>
+  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/"><b>Learn more about Spokane's Citizen Hall of Fame</b></a>
+	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
+ 	  	  			</p>
+ 	  	  			<p>
+  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/nominees/"><b>See the list of nominees and Honorable Mentions</b></a>
+	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
+ 	  	  			</p>
  	  	  		</div><!-- /.col -->
 	  	    </div><!-- /.row -->
 	      </div><!-- /.panel-body -->
@@ -477,7 +484,14 @@
   		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/"><b>Visit the Spokane Public Library Foundation website</b></a>
 	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
  	  	  			</p>
- 	  	  			
+ 	  	  			<p>
+  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/"><b>Learn more about Spokane's Citizen Hall of Fame</b></a>
+	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
+ 	  	  			</p>
+ 	  	  			<p>
+  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/nominees/"><b>See the list of nominees and Honorable Mentions</b></a>
+	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
+ 	  	  			</p>
  	  	  		</div><!-- /.col -->
 	  	    </div><!-- /.row -->
 	      </div><!-- /.panel-body -->
