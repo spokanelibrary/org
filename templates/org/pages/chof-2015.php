@@ -65,7 +65,7 @@
 	</div>
 
 	<!-- TILE SPL FOUNDATION-->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="http://www.spokanelibraryfoundation.org">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
