@@ -480,10 +480,10 @@
 	  	  	  	<blockquote>
 	  	  	  		The Foundation created the Citizen's Hall of Fame to recognize individuals for their contributions to our community, while also providing an opportunity to raise funds for the library.
 	  	  	  	</blockquote>
-	  	  	  	<p>
-  		  	  		<a rel="external" class="btn btn-default" href="http://www.spokanelibraryfoundation.org/">Visit the Foundation's website</a>
+	  	  	  	<h3>
+  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/">Visit the Foundation's website</a>
 	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
- 	  	  			</p>
+ 	  	  			</h3>
  	  	  			<p>
   		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/"><b>Learn more about Spokane's Citizen Hall of Fame</b></a>
 	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
