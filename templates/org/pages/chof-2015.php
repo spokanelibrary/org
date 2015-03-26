@@ -16,7 +16,7 @@
 	*/
 </style>
 
-<div class="row" class="chof-row">
+<div class="row chof-row">
 
 	<!-- BLANK TILE -->
 	<div class="chof-col hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
