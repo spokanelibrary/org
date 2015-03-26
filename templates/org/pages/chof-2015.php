@@ -440,7 +440,7 @@
 	  	  	  		Thanks to the City of Spokane for helping to develop the Spokane Citizen's Hall of Fame.
 	  	  	  	</blockquote>
 	  	  	  	<p>
-  		  	  		<a rel="external" href="https://my.spokanecity.org/">Visit the <b>City of Spokane</b> website</a>
+  		  	  		<a rel="external" href="https://my.spokanecity.org/"><b>Visit the City of Spokane website</b></a>
 	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
  	  	  			</p>
  	  	  			
@@ -474,7 +474,7 @@
 	  	  	  		The Foundation created the Citizen's Hall of Fame to recognize individuals for their contributions to our community, while also providing an opportunity to raise funds for the library.
 	  	  	  	</blockquote>
 	  	  	  	<p>
-  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/">Visit the <b>Spokane Public Library Foundation</b> website</a>
+  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/"><b>Visit the Spokane Public Library Foundation website</b></a>
 	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
  	  	  			</p>
  	  	  			
