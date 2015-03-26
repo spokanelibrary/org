@@ -60,6 +60,9 @@
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
 				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
 			</div>
 		</a>
 	</div>
