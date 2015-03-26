@@ -19,21 +19,21 @@
 <div class="row chof-row">
 
 	<!-- BLANK TILE -->
-	<div class="chof-col hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 hidden-xs">
 		<div class="chof-panel chof-panel-sized chof-teal">
 			<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 		</div>
 	</div>
 
 	<!-- CLOCKTOWER -->
-	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-teal">
 			<img class="img-responsive" src="/assets/img/promos/chof-clocktower.png">
 		</div>
 	</div>
 	
 	<!-- LOGOTYPE -->
-	<div class="chof-col col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-about">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
@@ -47,7 +47,7 @@
 	</div>
 	
 	<!-- BLANK TILE -->
-	<div class="chof-col hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 hidden-xs">
 		<div class="chof-panel chof-panel-sized chof-yellow">
 			<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 		</div>
