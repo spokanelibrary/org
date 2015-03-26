@@ -83,25 +83,6 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-spokan-chief-garry">
-			<div class="chof-panel chof-panel-sized chof-brown">
-				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Spokan_ChiefGarry-sm.jpg">
-					<div class="chof-text-wrapper">			
-						<div class="chof-text-mask">
-							<h6 class="chof-title">Chief Spokan Garry</h6>
-						</div>
-					</div>
-				</div>
-				<div class="chof-glyph">
-					<small class="glyphicon glyphicon-share-alt"></small>
-				</div>
-			</div>
-		</a>
-	</div>
-
-	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-balazs-harold">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
@@ -168,6 +149,25 @@
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Dr. Elizabeth Welty, MD</h6>
+						</div>
+					</div>
+				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
+			</div>
+		</a>
+	</div>
+
+	<!-- TILE -->
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-spokan-chief-garry">
+			<div class="chof-panel chof-panel-sized chof-brown">
+				<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof/Spokan_ChiefGarry-sm.jpg">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Chief Spokan Garry</h6>
 						</div>
 					</div>
 				</div>
