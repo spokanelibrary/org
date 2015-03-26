@@ -544,7 +544,7 @@
 	  	  	  		&ldquo;I am very sorry the war has begun. Like the fire in a dry prairie, it will spread all over the country, until now so peaceful.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
-	  	  	  		<img class="pull-right media-object" src="/assets/img/promos/chof/Spokan_ChiefGarry-a.jpg">
+	  	  	  		<img class="pull-right media-img" src="/assets/img/promos/chof/Spokan_ChiefGarry-a.jpg">
 	  	  	  		Chief Spokan Garry, Indian leader, educator, missionary and farmer, was born around 1811.  
 	  	  	  		His real name was Slough-Keetcha, and he was the son of the Spokan Chief Illm-Spokanee (<span class="chof-salish-regular">ilmz sPQNi/</span>). 
 	  	  	  		In 1825, his father sent him to the Red River missionary society school established by the Hudson’s Bay Company where he was given the name Spokan Garry. 
