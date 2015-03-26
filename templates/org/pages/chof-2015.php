@@ -100,7 +100,7 @@
 		</a>
 	</div>
 
-	
+
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-mcneill-vicki">
@@ -139,15 +139,15 @@
 		</a>
 	</div>
 
-	<!-- TILE -->
+		<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-kardong-donald">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-oliver-daniel">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Oliver_Daniel-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Donald F. Kardong</h6>
+							<h6 class="chof-title">Daniel K. Oliver</h6>
 						</div>
 					</div>
 				</div>
@@ -157,7 +157,6 @@
 			</div>
 		</a>
 	</div>
-
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
@@ -216,15 +215,16 @@
 		</a>
 	</div>
 
+	
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-oliver-daniel">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-kardong-donald">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Oliver_Daniel-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Daniel K. Oliver</h6>
+							<h6 class="chof-title">Donald F. Kardong</h6>
 						</div>
 					</div>
 				</div>
