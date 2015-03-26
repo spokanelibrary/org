@@ -452,8 +452,7 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
-	  	  	    </p>
+  		    	  </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">City of Spokane</h3>
