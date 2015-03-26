@@ -389,11 +389,11 @@
 	  	  	  	</blockquote>
   	  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/"><b>Learn more about Spokane's Citizen Hall of Fame</b></a>
   	  	  		<small class="glyphicon glyphicon-arrow-right text-muted">&rarr;</small>
+ 	  	  			<h3>
+			  	    	Categories in which citizens are honored for their achievements include:
+			  	    </h3>
  	  	  	  </div><!-- /.col -->
 	  	    </div><!-- /.row -->
-	  	    <h3>
-	  	    	Categories in which citizens are honored for their achievements include:
-	  	    </h3>
 	  	    <dl class="">
 		  	    <dt>Economic Development and Business</dt>
 						<dd class="help-block">
