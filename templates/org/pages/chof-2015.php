@@ -318,7 +318,7 @@
 	
 <h5 class="text-center uppercase text-muted">Thanks to our generous sponsors:</h5>
 <div class="row chof-row">
-	<div class="col-sm-2">
+	<div class="col-sm-2 col-sm-offset-1">
 		<p>
 			<a href="http://www.avistafoundation.com/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
 		</p>
@@ -338,7 +338,7 @@
 			<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
 		</p>
 	</div><!-- /.col -->
-	<div class="col-sm-2 col-sm-offset-1">
+	<div class="col-sm-2">
 		<p>
 			<a href="http://www.avistafoundation.com/"><img class="img-responsive" style="margin: auto;" src="/assets/img/promos/chof/logos/numerica-logo.png" alt="Avista Foundation" /></a>
 		</p>
