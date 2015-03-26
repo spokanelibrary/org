@@ -551,7 +551,7 @@
 	  	  	  		When he returned, he taught both children and adults Christianity, as well as English and agricultural techniques. 
 	  	  	  	</p>
 	  	  	  	<p>
-	  	  	  		<img class="alignleft" src="/assets/img/promos/chof/Spokan_ChiefGarry-b.jpg">
+	  	  	  		<img class="alignright" src="/assets/img/promos/chof/Spokan_ChiefGarry-b.jpg">
 	  	  	  		Because of his role as leader of the Middle and Upper bands of the Spokane tribe, along with his English language skills, Garry represented his people in treaty negotiations in the extraordinary times of military conflict with the white settlers. 
 	  	  	  		Garry was a man of peace who tried to persuade the Spokane Indians not to fight the U. S. Army. 
 	  	  	  		From 1859 until his death, Garry worked unsuccessfully to establish a reservation for the Spokane tribe on their homeland. 
