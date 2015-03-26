@@ -46,23 +46,11 @@
 		</a>
 	</div>
 	
-	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-kardong-donald">
-			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
-				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-sm.jpg">
-					<div class="chof-text-wrapper">			
-						<div class="chof-text-mask">
-							<h6 class="chof-title">Donald F. Kardong</h6>
-						</div>
-					</div>
-				</div>
-				<div class="chof-glyph">
-					<small class="glyphicon glyphicon-share-alt"></small>
-				</div>
-			</div>
-		</a>
+	<!-- BLANK TILE -->
+	<div class="hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-yellow">
+			&nbsp;
+		</div>
 	</div>
 
 	<!-- TILE -->
@@ -150,11 +138,23 @@
 		</a>
 	</div>
 
-	<!-- BLANK TILE -->
-	<div class="hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-blue">
-			&nbsp;
-		</div>
+	<!-- TILE -->
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-kardong-donald">
+			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
+				<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-sm.jpg">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Donald F. Kardong</h6>
+						</div>
+					</div>
+				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
+			</div>
+		</a>
 	</div>
 
 
