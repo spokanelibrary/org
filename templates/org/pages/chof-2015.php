@@ -440,6 +440,40 @@
   </div>
 </div>
 
+<!-- MODAL SPOKANE CITY -->
+<div class="modal fade chof-modal" id="chof-modal-spokane-city" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content chof-orange">
+      <div class="modal-body">
+        
+        <div class="panel-body">  
+  	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      	  <h3 class="normal chof-text-orange">Founding Partner <small>2015</small></h3>
+      	  <div class="row">
+  	      	<div class="col-sm-4 col-md-4">
+  			      <p>
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
+	  	  	    </p>
+	  	  	  </div><!-- /.col -->
+	  	  	  <div class="col-sm-8 col-md-8">
+	  	  	  	<h3 class="modal-title uppercase">City of Spokane</h3>
+	  	  	  	<blockquote>
+	  	  	  		The City of Spokane
+	  	  	  	</blockquote>
+	  	  	  	<p>
+  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/"><b>Learn more about Spokane's Citizen Hall of Fame</b></a>
+	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
+ 	  	  			</p>
+ 	  	  			
+ 	  	  		</div><!-- /.col -->
+	  	    </div><!-- /.row -->
+	      </div><!-- /.panel-body -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- MODAL -->
 <div class="modal fade chof-modal" id="chof-modal-kardong-donald" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
