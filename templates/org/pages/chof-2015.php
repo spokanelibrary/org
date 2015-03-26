@@ -452,7 +452,7 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn.png">
+  		    	  	<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
