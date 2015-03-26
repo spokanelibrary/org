@@ -437,7 +437,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">City of Spokane</h3>
 	  	  	  	<blockquote>
-	  	  	  		Thanks to the City of Spokane for helping to develop the Spokane Citizen's Hall of Fame.
+	  	  	  		Thanks to the City of Spokane for helping to develop the Citizen's Hall of Fame.
 	  	  	  	</blockquote>
 	  	  	  	<p>
   		  	  		<a rel="external" href="https://my.spokanecity.org/"><b>Visit the City of Spokane website</b></a>
