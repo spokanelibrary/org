@@ -83,13 +83,13 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-balazs-harold">
-			<div class="chof-panel chof-panel-sized chof-blue">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-spokan-chief-garry">
+			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Balazs_Harold-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Spokan_ChiefGarry-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Harold Balazs</h6>
+							<h6 class="chof-title">Chief Spokan Garry</h6>
 						</div>
 					</div>
 				</div>
@@ -100,6 +100,25 @@
 		</a>
 	</div>
 
+	
+	<!-- TILE -->
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-mcneill-vicki">
+			<div class="chof-panel chof-panel-sized chof-blue">
+				<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof/McNeill_Vicki-sm.jpg">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Vicki McNeill</h6>
+						</div>
+					</div>	
+				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
+			</div>
+		</a>
+	</div>
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
@@ -161,25 +180,6 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-spokan-chief-garry">
-			<div class="chof-panel chof-panel-sized chof-brown">
-				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Spokan_ChiefGarry-sm.jpg">
-					<div class="chof-text-wrapper">			
-						<div class="chof-text-mask">
-							<h6 class="chof-title">Chief Spokan Garry</h6>
-						</div>
-					</div>
-				</div>
-				<div class="chof-glyph">
-					<small class="glyphicon glyphicon-share-alt"></small>
-				</div>
-			</div>
-		</a>
-	</div>
-
-	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-foley-tom">
 			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
@@ -199,15 +199,15 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-mcneill-vicki">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-balazs-harold">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/McNeill_Vicki-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Balazs_Harold-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Vicki McNeill</h6>
+							<h6 class="chof-title">Harold Balazs</h6>
 						</div>
-					</div>	
+					</div>
 				</div>
 				<div class="chof-glyph">
 					<small class="glyphicon glyphicon-share-alt"></small>
