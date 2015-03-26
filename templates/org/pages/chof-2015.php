@@ -19,21 +19,21 @@
 <div class="row chof-row">
 
 	<!-- BLANK TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 hidden-xs">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs">
 		<div class="chof-panel chof-panel-sized chof-teal">
 			<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 		</div>
 	</div>
 
 	<!-- CLOCKTOWER -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-teal">
 			<img class="img-responsive" src="/assets/img/promos/chof-clocktower.png">
 		</div>
 	</div>
 	
 	<!-- LOGOTYPE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-about">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
@@ -47,14 +47,14 @@
 	</div>
 	
 	<!-- BLANK TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 hidden-xs">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs">
 		<div class="chof-panel chof-panel-sized chof-yellow">
 			<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 		</div>
 	</div>
 
 	<!-- TILE CITY OF SPOKANE -->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<a  href="#" data-toggle="modal" data-target="#chof-modal-spokane-city">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
@@ -68,7 +68,7 @@
 	</div>
 
 	<!-- TILE SPL FOUNDATION-->
-	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<a  href="#" data-toggle="modal" data-target="#chof-modal-spl-fdtn">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
