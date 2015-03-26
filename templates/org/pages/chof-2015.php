@@ -55,7 +55,7 @@
 
 	<!-- TILE CITY OF SPOKANE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="http://beta.spokanecity.org">
+		<a  href="#" data-toggle="modal" data-target="#chof-modal-spokane-city">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
@@ -69,7 +69,7 @@
 
 	<!-- TILE SPL FOUNDATION-->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<a href="http://www.spokanelibraryfoundation.org">
+		<a  href="#" data-toggle="modal" data-target="#chof-modal-spl-fdtn">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn.png">
