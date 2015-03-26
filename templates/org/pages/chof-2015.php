@@ -380,17 +380,17 @@
 	  	    	Categories in which citizens are honored for their achievements include:
 	  	    </h3>
 	  	    <dl class="">
-		  	    <dt class="chof-text-red">Economic Development and Business</dt>
+		  	    <dt class="chof-text-green">Economic Development and Business</dt>
 						<dd class="help-block">
 							<i class="glyphicon glyphicon-chevron-right"></i>
 							For entrepreneurial activity or significant contributions toward the economic betterment of Spokane
 						</dd>
-						<dt class="chof-text-red">Education</dt>
+						<dt class="chof-text-green">Education</dt>
 						<dd class="help-block">
 							<i class="glyphicon glyphicon-chevron-right"></i>
 							For enriching and inspiring lifelong learning in our community
 						</dd>
-						<dt class="chof-text-red">Public Service and Philanthropy</dt>
+						<dt class="chof-text-green">Public Service and Philanthropy</dt>
 						<dd class="help-block">
 							<i class="glyphicon glyphicon-chevron-right"></i>
 							For exemplary voluntary and public service activities that benefit the community
