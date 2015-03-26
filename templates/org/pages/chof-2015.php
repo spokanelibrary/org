@@ -391,11 +391,15 @@
   		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/"><b>Learn more about Spokane's Citizen Hall of Fame</b></a>
 	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
  	  	  			</p>
+ 	  	  			<p>
+  		  	  		<a rel="external" href="http://www.spokanelibraryfoundation.org/nominees/"><b>See a list of nominees and Honorable Mentions</b></a>
+	  	  	  		<small class="glyphicon glyphicon-arrow-right text-muted"></small>
+ 	  	  			</p>
  	  	  		</div><!-- /.col -->
 	  	    </div><!-- /.row -->
-	  	    <h4>
+	  	    <h3>
 	  	    	Categories in which citizens are honored for their achievements include:
-	  	    </h4>
+	  	    </h3>
 	  	    <dl class="">
 		  	    <dt>Economic Development and Business</dt>
 						<dd class="help-block">
