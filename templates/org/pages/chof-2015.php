@@ -56,7 +56,7 @@
 	<!-- TILE CITY OF SPOKANE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="http://beta.spokanecity.org">
-			<div class="chof-panel chof-panel-sized chof-red">
+			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
 				</div>
@@ -117,7 +117,7 @@
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-budke-gordon">
-			<div class="chof-panel chof-panel-sized chof-orange">
+			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Budke_Gordon-sm.jpg">
 					<div class="chof-text-wrapper">			
