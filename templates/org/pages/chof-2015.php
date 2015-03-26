@@ -64,13 +64,16 @@
 		</a>
 	</div>
 
-	<!-- BLANK TILE -->
-	<div class="hidden-xs col-xs-6 col-sm-3 col-md-3 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-green">
-			&nbsp;
-		</div>
+	<!-- TILE SPL FOUNDATION-->
+	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 col-lg-push-8">
+		<a href="http://www.spokanelibraryfoundation.org">
+			<div class="chof-panel chof-panel-sized chof-brown">
+				<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn.png">
+				</div>
+			</div>
+		</a>
 	</div>
-
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
