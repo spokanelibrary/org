@@ -67,7 +67,7 @@ Template Name: Alpha Home Page
           </div>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-3">
-          <div class="panel spl-hero-panel spl-hero-callout">
+          <div class="panel spl-hero-panel spl-hero-calendar">
             <h4 class="text-center" style="">
               <i class="glyphicon glyphicon-calendar"></i> 
               You're Invited
