@@ -110,7 +110,7 @@ Template Name: Alpha Home Page
               <h5>Recently Reviewed:</h5>
               <h5 class="serif">Emperors & ninjas in 1920’s Japan</h5>
               <div class="text-right">
-                <a href="#"><small>Continue</small></a> <small class="text-muted">&rarr;</small>
+                <a href="#"><small>Read More</small></a> <small class="text-muted">&rarr;</small>
               </div>
             </div>
           </div>
