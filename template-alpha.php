@@ -107,7 +107,7 @@ Template Name: Alpha Home Page
             </h4>
             <img class="img-responsive hidden-xs" style="margin:auto;" src="/assets/img/promos/spl-bookshelf-avatar.jpg">
             <div class="panel-body">
-              <h5>Recently Reviewed:</h5>
+              <h5>Reviews &amp; Recommendations:</h5>
               <h5 class="serif">Emperors & ninjas in 1920’s Japan</h5>
               <h6 class="text-right">
                 <a href="#">Read More</a> <span class="text-muted">&rarr;</span>
