@@ -108,9 +108,9 @@ Template Name: Alpha Home Page
             <div class="panel-body">
               <h5>Reviews &amp; Recommendations:</h5>
               <h5 class="serif">Emperors & ninjas in 1920’s Japan</h5>
-              <h6 class="text-right">
+              <h5 class="text-right">
                 <a href="#">Read More</a> <span class="text-muted">&rarr;</span>
-              </h6>
+              </h5>
             </div>
           </div>
         </div><!-- /.col -->
