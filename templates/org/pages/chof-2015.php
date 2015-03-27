@@ -498,7 +498,6 @@
   	      	<div class="col-sm-4 col-md-4">
   			      <p>
   		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-lg.jpg">
-	  	  	  		<br>
 	  	  	  		<small>Photo by Young Kwak. Courtesy of The Inlander</small>
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
