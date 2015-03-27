@@ -72,7 +72,7 @@
 		<a  href="#" data-toggle="modal" data-target="#chof-modal-spl-fdtn">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn.png">
+					<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn-horiz.png">
 				</div>
 				<div class="chof-glyph">
 					<small class="glyphicon glyphicon-share-alt"></small>
