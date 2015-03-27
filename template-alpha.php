@@ -100,7 +100,7 @@ Template Name: Alpha Home Page
         </div><!-- /.col -->
 
         <div class="col-sm-4 col-md-12">
-          <div class="panel spl-hero-panel spl-hero-muted">
+          <div class="panel spl-hero-panel spl-hero-muted spl-hero-staff-picks">
             <h4 class="text-center" style="">
               <i class="glyphicon glyphicon-thumbs-up"></i> 
               Staff Picks
