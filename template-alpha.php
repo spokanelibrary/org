@@ -39,7 +39,9 @@ Template Name: Alpha Home Page
               </h4>
                 <img style="margin:auto;" class="img-responsive hidden-xs" src="/assets/img/promos/photos/spl-handheld.jpg">
               <div class="panel-body">
-                <b>Download</b> ebooks, music, magazines, and more&hellip;
+                <div style="border-top: 1px solid #fff; border-bottom: 1px solid #fff;">
+                  <b>Download</b> ebooks, music, magazines, and more&hellip;
+                </div>
               </div>
             </a>
           </div>
