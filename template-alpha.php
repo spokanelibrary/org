@@ -71,7 +71,7 @@ Template Name: Alpha Home Page
         <div class="col-sm-4 col-md-4 col-lg-3">
           <div class="panel spl-hero-panel spl-hero-calendar">
             <h4 class="text-center" style="">
-              <i class="glyphicon glyphicon-calendar"></i> 
+              <i class="glyphicon glyphicon-pin"></i> 
               You're Invited
             </h4>
             <div class="panel-body">
