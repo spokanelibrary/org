@@ -496,10 +496,8 @@
       	  <h3 class="normal chof-text-yellow">Innovation &amp; Leadership <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
-  			      <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-lg.jpg">
-	  	  	  		<small>Photo by Young Kwak. Courtesy of The Inlander</small>
-	  	  	    </p>
+  			      <img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-lg.jpg">
+  			      <h6>Photo by Young Kwak. Courtesy of The Inlander</h6>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Donald F. Kardong</h3>
