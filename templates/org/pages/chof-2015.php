@@ -629,9 +629,10 @@
       	  <h3 class="normal chof-text-blue">Arts &amp; Letters <small>2015</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
-  			      <p>
-  		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Balazs_Harold-lg.jpg">
-	  	  	    </p>
+  			      <img class="img-responsive" src="/assets/img/promos/chof/Balazs_Harold-lg.jpg">
+	  	  	    <h6>
+  			      	Photo credit: CreativeLifeSpokane.com
+  			      </h6>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Harold Balazs</h3>
