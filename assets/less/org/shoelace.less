@@ -1147,24 +1147,27 @@ a .chof-red:hover {
 }
 
 .spl-hero-calendar {
-  /*
-  a:hover {
-    background: @brand-warning !important;
-  }
-  */
-  /*
-  border-color: @state-warning-text;
-  color: @state-warning-text;
-  a {
+  background: lighten(@brand-warning, 6%);
+  border-color: darken(@brand-warning, 8%);
+  //border-color: @state-warning-text;
+  //background: darken(@alert-warning-bg, 4%);
+  
+  h4 {
+    color: #fff;
     //color: @state-warning-text;
-    color: #fff;
   }
-  background: @alert-warning-bg;
-  a:hover {
-    background: @state-warning-text !important;
-    color: #fff;
+  color: @gray;
+  .panel-body {
+    //padding: 0px;
+    //background: lighten(@alert-warning-bg, 4%);
+    //background: lighten(@brand-warning, 35%);
+    //background: lighten(@gray-light, 35%);
+    background: #fff;
   }
-  */
+  .spl-hero-link:hover,
+  .spl-hero-link:hover .panel-body {
+    background: darken(@gray, 4%);
+  }
 }
 
 
