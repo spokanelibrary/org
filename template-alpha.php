@@ -60,7 +60,11 @@ Template Name: Alpha Home Page
       
       <div class="row">
         <div class="col-sm-8 col-md-8 col-lg-9">
-          <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
+          <div class="panel spl-hero-panel spl-hero-callout">
+            <div class="panel-body">
+              <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
+            </div>
+          </div>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-3">
           <div class="panel spl-hero-panel spl-hero-callout">
