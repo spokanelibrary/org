@@ -1149,7 +1149,9 @@ a .chof-red:hover {
 .spl-hero-calendar {
   .carousel {
     border: 1px solid red !important;
-    margin:0; padding:0;
+    .carousel-inner {
+      margin:0; padding:0;
+    }
   }
 
   background: lighten(@brand-warning, 6%);
