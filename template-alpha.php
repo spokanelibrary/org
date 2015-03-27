@@ -75,7 +75,7 @@ Template Name: Alpha Home Page
               You're Invited
             </h4>
             <div class="panel-body">
-              <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded vertical refresh]'); ?>
+              <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
             </div>
           </div>
         </div>
