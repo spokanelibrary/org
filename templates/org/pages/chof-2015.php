@@ -497,7 +497,11 @@
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <img class="img-responsive" src="/assets/img/promos/chof/Kardong_Don-lg.jpg">
-  			      <h6>Photo by Young Kwak. Courtesy of The Inlander</h6>
+  			      <h6>
+  			      	Photo by Young Kwak.
+  			       	<br>
+  			       	Courtesy of The Inlander
+  			      </h6>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Donald F. Kardong</h3>
