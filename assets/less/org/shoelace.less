@@ -1096,6 +1096,34 @@ a .chof-red:hover {
   }
 }
 
+.spl-hero-open {
+  //border-width:0;
+  //box-shadow:none;
+  border-top-width: 5px;
+  border-color: darken(@brand-success, 4%);
+  background: lighten(@brand-success, 4%);
+  h1, h2, h3, h4 {
+    color: #fff;
+    margin:0;
+    padding: 8px 4px;
+  }
+  .panel {
+    border:none;
+    box-shadow: none;
+  }
+  .panel-body {
+    background: #fff;
+    padding: 2px;
+  }
+  .spl-holiday-link {
+    display:none;
+  }
+
+  @media (min-width: @screen-lg-min) {
+    padding-bottom: 20px;
+  }
+}
+
 .spl-hero-digital {
   /*
   a {
@@ -1112,7 +1140,7 @@ a .chof-red:hover {
   @media (min-width: @screen-lg-min) { 
     .panel-body {
       padding-top: 10px !important;
-      padding-bottom: 80px !important; 
+      padding-bottom: 90px !important; 
     }
   }
 }
@@ -1138,9 +1166,6 @@ a .chof-red:hover {
   */
 }
 
-.spl-hero-open-hours {
-  
-}
 
 .spl-hero-staff-picks {
   
@@ -1222,30 +1247,6 @@ a .chof-red:hover {
   .spl-hero-link:hover,
   .spl-hero-link:hover .panel-body {
     background: darken(@gray, 4%);
-  }
-}
-
-.spl-hero-open {
-  //border-width:0;
-  //box-shadow:none;
-  border-top-width: 5px;
-  border-color: darken(@brand-success, 4%);
-  background: lighten(@brand-success, 4%);
-  h1, h2, h3, h4 {
-    color: #fff;
-    margin:0;
-    padding: 8px 4px;
-  }
-  .panel {
-    border:none;
-    box-shadow: none;
-  }
-  .panel-body {
-    background: #fff;
-    padding: 2px;
-  }
-  .spl-holiday-link {
-    display:none;
   }
 }
 
