@@ -31,7 +31,7 @@ Template Name: Alpha Home Page
 
         <div class="col-sm-4 col-sm-push-8 col-md-4 col-md-push-8 col-lg-3 col-lg-push-9">
           
-          <div class="panel spl-hero-panel spl-hero-primary">
+          <div class="panel spl-hero-panel spl-hero-primary spl-hero-digital">
             <a class="spl-hero-link" href="/download/">
               <h4 class="text-center">
                 <i class="glyphicon glyphicon-cloud-download"></i>
