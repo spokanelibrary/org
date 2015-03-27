@@ -66,7 +66,7 @@ Template Name: Alpha Home Page
         <div class="panel spl-hero-panel spl-hero-callout">
           <h4 class="text-center" style="">
             <i class="glyphicon glyphicon-calendar"></i> 
-            Join Us
+            Your Invited
           </h4>
           <div class="panel-body">
             <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
