@@ -61,10 +61,7 @@ Template Name: Alpha Home Page
       <div class="row">
         <div class="col-sm-8 col-md-8 col-lg-9">
           <div class="panel spl-hero-panel spl-hero-calendar">
-            <h4 class="text-center" style="">
-              <i class="glyphicon glyphicon-calendar"></i> 
-              This Week at the Library
-            </h4>
+            
             <div class="panel-body">
               <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
             </div>
