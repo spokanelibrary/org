@@ -106,7 +106,7 @@ Template Name: Alpha Home Page
               <i class="glyphicon glyphicon-thumbs-up"></i> 
               Staff Picks
             </h4>
-            <img class="img-responsive hidden-xs" style="margin:auto;" src="/assets/img/promos/spl-bookshelf-avatar.jpg">
+            <img class="img-responsive hidden-xs" style="margin:auto;" src="/assets/img/promos/photos/IMG_3430_crop.jpg">
             <div class="panel-body">
               <h5>Reviews &amp; Recommendations:</h5>
               <h5 class="serif">Emperors & ninjas in 1920’s Japan</h5>
