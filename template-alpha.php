@@ -109,7 +109,7 @@ Template Name: Alpha Home Page
             <img class="img-responsive hidden-xs" style="margin:auto;" src="/assets/img/promos/photos/IMG_3430_crop.jpg">
             <div class="panel-body">
               <h5>Reviews &amp; Recommendations:</h5>
-              <h5 class="serif">Emperors & ninjas in 1920’s Japan</h5>
+              <h4 class="serif">Emperors & ninjas in 1920’s Japan</h4>
               <h5 class="text-right">
                 <a href="#">Read More</a> <span class="text-muted">&rarr;</span>
               </h5>
