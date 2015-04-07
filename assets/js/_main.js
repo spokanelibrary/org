@@ -116,7 +116,7 @@ var ORG = {
         name = user.name;
       }
       if ( user.firstName ) {
-        name = user.firstName + ' - ' + name;
+        //name = user.firstName + ' - ' + name;
       }
       $('#spl-form-name').val(name);
       
