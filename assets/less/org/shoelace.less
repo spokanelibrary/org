@@ -1185,10 +1185,14 @@ a .chof-red:hover {
     background: @alert-warning-bg;
   }
   //@media (min-width: @screen-sm-min) {  }
-  //@media (min-width: @screen-md-min) {  }
+  @media (min-width: @screen-md-min) { 
+    .panel-body {
+      min-height: 180px;
+    }
+  }
   @media (min-width: @screen-lg-min) { 
     .panel-body {
-      min-height: 200px;
+      min-height: 180px;
     }
   }
   .spl-hero-link:hover,
