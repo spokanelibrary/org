@@ -73,7 +73,7 @@ if ( !empty($spl_home) ): ;
 
         
       </div><!-- /.col -->
-      <div class="col-sm-6">
+      <div class="col-sm-8 col-md-6">
 
         <div class="spl-tile">
           <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
@@ -82,7 +82,7 @@ if ( !empty($spl_home) ): ;
         
       </div><!-- /.col -->
 
-      <div class="col-sm-3">
+      <div class="col-sm-4 col-md-3">
         
         <div class="panel spl-hero-panel spl-hero-calendar">
           <h4 class="text-center" style="">
