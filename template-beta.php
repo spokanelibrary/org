@@ -36,10 +36,10 @@ if ( !empty($spl_home) ): ;
           Digital Branch
         </h4>
         <div class="panel-body">
-          <div class="digital-promo" style="margin-bottom: 10px;">
+          <div class="digital-promo">
             <h4 class="text-center">Always open, always on</h4>
           </div>
-          <div class="row">
+          <div class="row" style="margin-top: 10px;">
             <div class="col-md-6">
               <ul>
                 <li>eBooks &amp; downloads</li>
@@ -47,7 +47,7 @@ if ( !empty($spl_home) ): ;
               </ul>
             </div>
             <div class="col-md-6">
-              <li>eBooks &amp; downloads</li>
+              <li>Mobile Apps</li>
               <li>Technology training</li>
             </div>
           </div>        
