@@ -27,7 +27,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row">
 
-  <div class="col-sm-6 col-sm-push-6">
+  <div class="col-sm-3 col-sm-push-3">
     
     <div class="panel spl-hero-panel spl-hero-primary spl-hero-digital">
       <a class="spl-hero-link" href="/download/">
@@ -57,6 +57,25 @@ if ( !empty($spl_home) ): ;
       </a>
     </div>
 
+    
+
+  </div><!-- /.col -->
+  <div class="col-sm-6 col-sm-pull-6">
+
+    <div class="spl-tile">
+      <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
+    </div>
+
+    
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
+
+
+<div class="row">
+
+  <div class="col-sm-6 col-sm-push-6">
+    
     <div class="panel spl-hero-panel spl-hero-calendar spl-hero-this-week">
           
       <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
@@ -67,28 +86,9 @@ if ( !empty($spl_home) ): ;
   <div class="col-sm-6 col-sm-pull-6">
 
     <div class="spl-tile">
-      <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
-    </div>
-
-    <div class="spl-tile">
       <?php echo do_shortcode('[spl_widget home-page news]'); ?>
     </div>
 
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
-
-
-<div class="row">
-
-  <div class="col-sm-6 col-sm-push-6">
-    
-    
-
-  </div><!-- /.col -->
-  <div class="col-sm-6 col-sm-pull-6">
-
-    
 
   </div><!-- /.col -->
 
