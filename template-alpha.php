@@ -47,7 +47,7 @@ if ( !empty($spl_home) ): ;
     
     <div class="row">
 
-      <div class="col-md-3">
+      <div class="col-sm-8 col-md-3">
         
         <div class="panel spl-hero-panel spl-hero-primary spl-hero-digital">
           <a class="spl-hero-link" href="/download/">
@@ -70,9 +70,13 @@ if ( !empty($spl_home) ): ;
             </div> 
           </a>
         </div>
-
         
       </div><!-- /.col -->
+
+      <div class="col-sm-4 visible-sm visible-xs">
+        Open hours
+      </div>
+
       <div class="col-sm-8 col-md-6">
 
         <div class="panel spl-hero-panel spl-hero-muted">
