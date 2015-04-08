@@ -37,10 +37,11 @@ if ( !empty($spl_home) ): ;
         <div style="height: 140px; overflow:auto;">
           <img style="margin:auto;" class="img-responsive hidden-xs" src="/assets/img/promos/photos/spl-handheld.jpg">
         </div>
-        <div class="panel-body">
-          <div class="digital-promo">
+        <div class="digital-promo">
             <h5 class="text-center uppercase">Always open, always on</h5>
           </div>
+        <div class="panel-body">
+          
           <div style="margin-top:8px;">
             <h6>eBooks &amp; downloads</h6>
             <h6>Research databases</h6>
