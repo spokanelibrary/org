@@ -8,18 +8,6 @@
   <a class="btn btn-default" 
       href="/news/"
       title=""><b>News</b></a>
-  <a class="btn btn-default" 
-      href="/blog/"
-      title=""><b>Blog</b></a>
-  <a class="btn btn-default" 
-      href="/about/"
-      title=""><b>About Us</b></a>
-  <a class="btn btn-default" 
-      href="/card/"
-      title=""><b>Get a Library Card</b></a>
-  <a class="btn btn-default" 
-      href="/support/"
-      title=""><b class="text-success">Support Your Library!</b></a>
 </div>
 
 
