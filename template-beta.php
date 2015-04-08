@@ -30,17 +30,21 @@ if ( !empty($spl_home) ): ;
   <div class="col-sm-6 col-sm-push-6">
     
     <div class="panel spl-hero-panel spl-hero-primary spl-hero-digital">
-      <a class="spl-hero-link" href="/download/">
-        <h4 class="text-center">
-          <i class="glyphicon glyphicon-cloud-download"></i>
-          Digital Branch
-        </h4>
-        <div class="panel-body">
-          <div class="digital-promo">
-              <b>Always open, always on</b> – discover apps, books, music, magazines, and more.
-          </div>
+      <h4 class="text-center">
+        <i class="glyphicon glyphicon-cloud-download"></i>
+        Digital Branch
+      </h4>
+      <div class="panel-body">
+        <div class="digital-promo">
+          <b>Always open, always on</b> – discover apps, books, music, magazines, and more.
         </div>
-      </a>
+        <ul class="nav nav-pills">
+          <li><a href="#">Download ebooks, music, &amp; more</a></li>
+          <li><a href="#">Mobile Apps</a></li>
+          <li><a href="#">Classes &amp; Certifications</a></li>
+          <li><a href="#">Online research</a></li>
+        </ul>
+      </div>
     </div>
 
     <div class="panel spl-hero-panel spl-hero-calendar spl-hero-this-week">
