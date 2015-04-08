@@ -71,6 +71,10 @@ if ( !empty($spl_home) ): ;
       </h4>
       <div class="panel-body"  style="height:320px;">
         <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded vertical refresh]'); ?>
+        
+        <h5><a href="#">This week</a></h5>
+        <h5><a href="#">Calendar</a></h5>
+      
       </div>
     </div>
 
