@@ -43,9 +43,9 @@ if ( !empty($spl_home) ): ;
         <div class="panel-body hidden-xs hidden-sm" style="background-image:url('/assets/img/spl-touch-bg.png');">
           <h5>eBooks &amp; downloads</h5>
           <h5 class="text-right">Research databases</h5>
-          <h6>Mobile apps</h6>
-          <h6 class="text-right">Technology training</h6>        
-          <h6>Microsoft Certification</h6>
+          <h5>Mobile apps</h5>
+          <h5 class="text-right">Technology training</h5>        
+          <h5>Microsoft Certification</h5>
         </div> 
       </a>
     </div>
