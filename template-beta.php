@@ -41,7 +41,7 @@ if ( !empty($spl_home) ): ;
           <div class="digital-promo">
             <h5 class="text-center uppercase">Always open, always on</h5>
           </div>
-          <divstyle="margin-top:8px;">
+          <div style="margin-top:8px;">
             <h6>eBooks &amp; downloads</h6>
             <h6>Research databases</h6>
             <h6>Mobile apps</h6>
