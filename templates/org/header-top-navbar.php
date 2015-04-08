@@ -146,7 +146,7 @@ function spl_get_home_url() {
         <?php include('header-social.php'); ?>
       </div>
     </div>
-    <nav class="collapse navbar-collapse" style="margin:auto;" role="navigation">
+    <nav class="collapse navbar-collapse" style="width:auto; margin:auto;" role="navigation">
       <?php
         /*
         if ( is_user_logged_in() && has_nav_menu('primary_navigation') ) :
