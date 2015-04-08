@@ -39,7 +39,7 @@ if ( !empty($spl_home) ): ;
           <div class="digital-promo">
             <h4 class="text-center">Always open, always on</h4>
           </div>
-          <div class="row" style="margin-top: 10px;">
+          <div class="row">
             <div class="col-md-6">
               <ul>
                 <li>eBooks &amp; downloads</li>
@@ -50,7 +50,7 @@ if ( !empty($spl_home) ): ;
               <li>Mobile Apps</li>
               <li>Technology training</li>
             </div>
-          </div>        
+          </div>           
         </div>
       </a>
     </div>
