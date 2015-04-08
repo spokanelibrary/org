@@ -47,7 +47,7 @@ if ( !empty($spl_home) ): ;
     
     <div class="row">
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         
         <div class="panel spl-hero-panel spl-hero-primary spl-hero-digital">
           <a class="spl-hero-link" href="/download/">
