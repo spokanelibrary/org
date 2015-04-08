@@ -66,8 +66,8 @@ if ( !empty($spl_home) ): ;
     
     <div class="panel spl-hero-panel spl-hero-calendar">
       <h4 class="text-center" style="">
-        <i class="glyphicon glyphicon-pushpin"></i> 
-        This Week
+        <i class="glyphicon glyphicon-calendar"></i> 
+        Coming Up
       </h4>
       <div class="panel-body">
         <div style="height:260px;">
@@ -81,13 +81,13 @@ if ( !empty($spl_home) ): ;
 
 </div><!-- /.row -->
 
-<div class="panel spl-hero-panel spl-hero-calendar spl-hero-this-week">
-  <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
-</div>
-
 
 <div class="spl-tile">
   <?php echo do_shortcode('[spl_widget home-page news]'); ?>
+</div>
+
+<div class="panel spl-hero-panel spl-hero-calendar spl-hero-this-week">
+  <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
 </div>
 
 
