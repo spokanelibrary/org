@@ -64,7 +64,7 @@ if ( !empty($spl_home) ): ;
 
   <div class="col-sm-2">
     
-    <div class="panel spl-hero-panel spl-hero-calendar" style="height:400px;">
+    <div class="panel spl-hero-panel spl-hero-calendar" style="height:380px;">
       <h4 class="text-center" style="">
         <i class="glyphicon glyphicon-pushpin"></i> 
         This Week
