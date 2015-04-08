@@ -41,13 +41,11 @@ if ( !empty($spl_home) ): ;
           <div class="digital-promo">
             <h5 class="text-center uppercase">Always open, always on</h5>
           </div>
-          <div class="row" style="margin-top:8px;">
-            <div class="col-md-8 col-md-offset-2">
-              <h6>eBooks &amp; downloads</h6>
-              <h6>Research databases</h6>
-              <h6>Mobile apps</h6>
-              <h6>Technology training</h6>
-            </div>
+          <divstyle="margin-top:8px;">
+            <h6>eBooks &amp; downloads</h6>
+            <h6>Research databases</h6>
+            <h6>Mobile apps</h6>
+            <h6>Technology training</h6>
           </div>          
         </div> 
       </a>
