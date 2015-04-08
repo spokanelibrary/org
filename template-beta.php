@@ -63,7 +63,17 @@ if ( !empty($spl_home) ): ;
   </div><!-- /.col -->
 
   <div class="col-sm-2">
-    test
+    
+    <div class="panel spl-hero-panel spl-hero-calendar">
+      <h4 class="text-center" style="">
+        <i class="glyphicon glyphicon-pushpin"></i> 
+        You're Invited
+      </h4>
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded vertical refresh]'); ?>
+      </div>
+    </div>
+
   </div>
 
 </div><!-- /.row -->
