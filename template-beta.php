@@ -55,5 +55,33 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
+<div class="row">
+
+  <div class="col-sm-6 col-sm-push-6">
+    
+    <div class="panel spl-hero-panel spl-hero-primary spl-hero-digital">
+      <a class="spl-hero-link" href="/download/">
+        <h4 class="text-center">
+          <i class="glyphicon glyphicon-cloud-download"></i>
+          Digital Branch
+        </h4>
+        <div class="panel-body">
+          <?php echo do_shortcode('[spl_widget home-page news]'); ?>
+        </div>
+      </a>
+    </div>
+
+  </div><!-- /.col -->
+   <div class="col-sm-6 col-sm-pull-6">
+
+    <div class="spl-tile">
+      <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
+    </div>
+
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
+
+
 
 
