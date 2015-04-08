@@ -34,13 +34,13 @@ if ( !empty($spl_home) ): ;
         <h4 class="text-center">
           Digital Branch
         </h4>
-        <div style="height: 140px; overflow:auto;">
-          <img style="margin:auto;" class="img-responsive hidden-xs" src="/assets/img/promos/photos/spl-handheld.jpg">
+        <div class="hidden-xs" style="height: 140px; overflow:hidden;">
+          <img style="margin:auto;" class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
         </div>
         <div class="digital-promo">
             <h5 class="text-center uppercase">Always open, always on</h5>
-          </div>
-        <div class="panel-body">
+        </div>
+        <div class="panel-body hidden-xs hidden-sm">
           <h6>eBooks &amp; downloads</h6>
           <h6 class="text-right">Research databases</h6>
           <h6>Mobile apps</h6>
