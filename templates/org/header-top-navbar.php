@@ -130,7 +130,7 @@ function spl_get_home_url() {
 </script>
 <?php //endif; ?>
 
-<header id="spl-navbar-primary" class="banner navbar navbar-primary navbar-inverse navbar-static-top spl-ribbon" style="margin-bottom:0px;" role="banner">
+<header id="spl-navbar-primary" class="banner navbar navbar-primary navbar-inverse navbar-static-top spl-ribbon" style="width:auto; margin:auto; margin-bottom:0px;" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -146,7 +146,7 @@ function spl_get_home_url() {
         <?php include('header-social.php'); ?>
       </div>
     </div>
-    <nav class="collapse navbar-collapse" style="width:auto; margin:auto;" role="navigation">
+    <nav class="collapse navbar-collapse" role="navigation">
       <?php
         /*
         if ( is_user_logged_in() && has_nav_menu('primary_navigation') ) :
