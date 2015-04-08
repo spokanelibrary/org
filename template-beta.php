@@ -69,7 +69,7 @@ if ( !empty($spl_home) ): ;
         <i class="glyphicon glyphicon-pushpin"></i> 
         This Week
       </h4>
-      <div class="panel-body"  style="height:340px;">
+      <div class="panel-body"  style="height:320px;">
         <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded vertical refresh]'); ?>
       </div>
     </div>
