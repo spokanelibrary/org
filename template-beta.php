@@ -42,9 +42,9 @@ if ( !empty($spl_home) ): ;
           </div>
         <div class="panel-body">
           <h6>eBooks &amp; downloads</h6>
-          <h6>Research databases</h6>
+          <h6 class="text-right">Research databases</h6>
           <h6>Mobile apps</h6>
-          <h6>Technology training</h6>        
+          <h6 class="text-right">Technology training</h6>        
         </div> 
       </a>
     </div>
