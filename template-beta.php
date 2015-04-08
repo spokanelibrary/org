@@ -35,7 +35,7 @@ if ( !empty($spl_home) ): ;
           <i class="glyphicon glyphicon-cloud hidden-sm"></i>
           Digital Branch
         </h4>
-        <div class="hidden-xs" style="height: 140px; overflow:hidden;">
+        <div class="hidden-xs" style="height: 110px; overflow:hidden;">
           <img style="margin:auto;" class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
         </div>
         <div class="digital-promo">
