@@ -45,6 +45,7 @@ if ( !empty($spl_home) ): ;
           <h6 class="text-right">Research databases</h6>
           <h6>Mobile apps</h6>
           <h6 class="text-right">Technology training</h6>        
+          <h6>Microsoft Certification</h6>
         </div> 
       </a>
     </div>
