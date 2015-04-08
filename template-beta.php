@@ -41,7 +41,7 @@ if ( !empty($spl_home) ): ;
         <div class="digital-promo">
             <h5 class="text-center uppercase">Always open, always on</h5>
         </div>
-        <div class="panel-body hidden-xs hidden-sm" style="background-image:url('/assets/img/spl-touch-bg.png');">
+        <div class="panel-body hidden-xs hidden-sm" style="background-image:url('/assets/img/spl-touch-bg.png'); background-position:-20px -20px;">
           <h5>eBooks &amp; downloads</h5>
           <h5 class="text-right">Research databases</h5>
           <h5>Mobile apps</h5>
