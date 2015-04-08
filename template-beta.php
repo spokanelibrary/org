@@ -44,8 +44,8 @@ if ( !empty($spl_home) ): ;
           <div class="row" style="margin-top:8px;">
             <div class="col-md-6">
               <ul style="margin-bottom:0;">
-                <li>eBooks &amp; downloads</li>
-                <li>Research databases</li>
+                <h6>eBooks &amp; downloads</h6>
+                <h6>Research databases</h6>
               </ul>
             </div>
             <div class="col-md-6">
