@@ -74,7 +74,15 @@ if ( !empty($spl_home) ): ;
       </div><!-- /.col -->
 
       <div class="col-sm-4 visible-sm visible-xs">
-        Open hours
+        <div class="panel spl-hero-open">
+            <h4 class="text-center">
+              <i class="glyphicon glyphicon-time"></i>
+              Open Hours
+            </h4>
+            <div class="panel-body">
+              Lorem ipsum
+            </div>
+          </div>
       </div>
 
       <div class="col-sm-8 col-md-6">
