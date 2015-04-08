@@ -43,16 +43,12 @@ if ( !empty($spl_home) ): ;
           </div>
           <div class="row" style="margin-top:8px;">
             <div class="col-md-6">
-              <ul style="margin-bottom:0;">
-                <h6>eBooks &amp; downloads</h6>
-                <h6>Research databases</h6>
-              </ul>
+              <h6>eBooks &amp; downloads</h6>
+              <h6>Research databases</h6>
             </div>
             <div class="col-md-6">
-              <ul style="margin-bottom:0;">
-                <li>Mobile apps</li>
-                <li>Technology training</li>
-              </ul>
+              <h6>Mobile apps</h6>
+              <h6>Technology training</h6>
             </div>
           </div>          
         </div> 
