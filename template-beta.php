@@ -34,8 +34,8 @@ if ( !empty($spl_home) ): ;
         <h4 class="text-center">
           Digital Branch
         </h4>
+        <img style="margin:auto;" class="img-responsive hidden-xs" src="/assets/img/promos/photos/spl-handheld.jpg">
         <div class="panel-body">
-          <img style="margin:auto;" class="img-responsive hidden-xs" src="/assets/img/promos/photos/spl-handheld.jpg">
           <div class="digital-promo">
             <h5 class="text-center uppercase">Always open, always on</h5>
           </div>          
