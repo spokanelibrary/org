@@ -85,7 +85,7 @@ if ( !empty($spl_home) ): ;
 
 
 <div class="panel spl-hero-panel spl-hero-success">
-  <div class="panel-body">
+  <div class="panel-body" style="background:transparent;">
     <?php echo do_shortcode('[spl_widget home-page news]'); ?>
   </div>
 </div>
