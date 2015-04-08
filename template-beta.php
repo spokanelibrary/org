@@ -39,10 +39,10 @@ if ( !empty($spl_home) ): ;
           <h4 class="text-center">Always open, always on</h4>
         </div>
 
-        <a class="btn btn-primary" href="#">Download ebooks, music, &amp; more <small>&rarr;</small></a>
-        <a class="btn btn-primary" class="btn btn-primary" href="#">Mobile Apps <small>&rarr;</small></a>
-        <a class="btn btn-primary" href="#">Classes &amp; Certifications <small>&rarr;</small></a>
-        <a class="btn btn-primary" href="#">Research Tools <small>&rarr;</small></a>
+        <a href="#">Download ebooks, music, &amp; more <small>&rarr;</small></a>
+        <a href="#">Mobile Apps <small>&rarr;</small></a>
+        <a href="#">Classes &amp; Certifications <small>&rarr;</small></a>
+        <a href="#">Research Tools <small>&rarr;</small></a>
       
       </div>
     </div>
