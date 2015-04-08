@@ -27,7 +27,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row">
 
-  <div class="col-sm-4 col-sm-push-8">
+  <div class="col-sm-3 col-sm-push-9">
     
     <div class="panel spl-hero-panel spl-hero-primary spl-hero-digital">
       <a class="spl-hero-link" href="/download/">
@@ -53,7 +53,7 @@ if ( !empty($spl_home) ): ;
 
     
   </div><!-- /.col -->
-  <div class="col-sm-8 col-sm-pull-4">
+  <div class="col-sm-9 col-sm-pull-3">
 
     <div class="spl-tile">
       <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
