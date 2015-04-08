@@ -40,21 +40,21 @@ if ( !empty($spl_home) ): ;
         <div class="panel-body">
           <div class="digital-promo">
             <h5 class="text-center uppercase">Always open, always on</h5>
+          </div>
+          <div class="row" style="margin-top:8px;">
+            <div class="col-md-6">
+              <ul style="margin-bottom:0;">
+                <li>eBooks &amp; downloads</li>
+                <li>Research databases</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul style="margin-bottom:0;">
+                <li>Mobile apps</li>
+                <li>Technology training</li>
+              </ul>
+            </div>
           </div>          
-        </div>
-        <div class="row" style="margin-top:8px;">
-          <div class="col-md-6">
-            <ul style="margin-bottom:0;">
-              <li>eBooks &amp; downloads</li>
-              <li>Research databases</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <ul style="margin-bottom:0;">
-              <li>Mobile apps</li>
-              <li>Technology training</li>
-            </ul>
-          </div>
         </div> 
       </a>
     </div>
