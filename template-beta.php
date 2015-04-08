@@ -37,7 +37,7 @@ if ( !empty($spl_home) ): ;
         </h4>
         <div class="panel-body">
           <div class="digital-promo">
-            <h4 class="text-center">Always open, always on</h4>
+            <h5 class="text-center">Always open, always on</h5>
           </div>          
         </div>
         <div class="row" style="margin-top:8px;">
@@ -49,7 +49,7 @@ if ( !empty($spl_home) ): ;
             </div>
             <div class="col-md-6">
               <ul style="margin-bottom:0;">
-                <li>Mobile Apps</li>
+                <li>Mobile apps</li>
                 <li>Technology training</li>
               </ul>
             </div>
