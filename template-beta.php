@@ -69,7 +69,7 @@ if ( !empty($spl_home) ): ;
         <i class="glyphicon glyphicon-calendar"></i> 
         Coming Up
       </h4>
-      <div class="panel-body" style="background-image:url('/assets/img/spl-touch-bg.png'); background-position:-20px -20px;">
+      <div class="panel-body" style="background-image:url('/assets/img/spl-touch-bg.png'); background-position:100px -20px;">
         <div style="height:260px;">
           <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded vertical refresh]'); ?>
         </div>
