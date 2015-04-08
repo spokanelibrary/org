@@ -38,8 +38,9 @@ if ( !empty($spl_home) ): ;
         <div class="panel-body">
           <div class="digital-promo">
             <h4 class="text-center">Always open, always on</h4>
-          </div>
-          <div class="row" style="margin-top:8px;">
+          </div>          
+        </div>
+        <div class="row" style="margin-top:8px;">
             <div class="col-md-6">
               <ul style="margin-bottom:0;">
                 <li>eBooks &amp; downloads</li>
@@ -52,8 +53,7 @@ if ( !empty($spl_home) ): ;
                 <li>Technology training</li>
               </ul>
             </div>
-          </div>           
-        </div>
+          </div> 
       </a>
     </div>
 
