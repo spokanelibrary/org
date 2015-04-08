@@ -34,7 +34,7 @@ if ( !empty($spl_home) ): ;
         <i class="glyphicon glyphicon-cloud-download"></i>
         Digital Branch
       </h4>
-      <div class="panel-body">
+      <div class="panel-body" style="margin-bottom:6px;">
         <div class="digital-promo">
           <h4 class="text-center">Always open, always on</h4>
         </div>
