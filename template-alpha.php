@@ -57,7 +57,7 @@ if ( !empty($spl_home) ): ;
           <img style="margin:auto;" class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
         </div>
         <div class="digital-promo">
-            <h5 class="text-center uppercase">Always open, always on</h5>
+          <h5 class="text-center uppercase">Always open, always on</h5>
         </div>
         <div class="panel-body hidden-xs hidden-sm" style="background-image:url('/assets/img/spl-touch-bg.png'); background-position:-20px -20px;">
           <h5>eBooks &amp; downloads</h5>
