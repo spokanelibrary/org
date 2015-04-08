@@ -35,7 +35,7 @@ if ( !empty($spl_home) ): ;
           <i class="glyphicon glyphicon-cloud hidden-sm"></i>
           Digital Branch
         </h4>
-        <div class="hidden-xs" style="height: 110px; overflow:hidden;">
+        <div class="hidden-xs" style="height: 100px; overflow:hidden;">
           <img style="margin:auto;" class="img-responsive" src="/assets/img/promos/photos/spl-handheld.jpg">
         </div>
         <div class="digital-promo">
@@ -70,7 +70,7 @@ if ( !empty($spl_home) ): ;
         Coming Up
       </h4>
       <div class="panel-body" style="background-image:url('/assets/img/spl-touch-bg.png'); background-position:120px 120px;">
-        <div style="height:240px;">
+        <div style="height:220px;">
           <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded vertical refresh]'); ?>
         </div>
         <h5 class="text-center">
