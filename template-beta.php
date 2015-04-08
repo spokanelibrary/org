@@ -41,13 +41,10 @@ if ( !empty($spl_home) ): ;
             <h5 class="text-center uppercase">Always open, always on</h5>
           </div>
         <div class="panel-body">
-          
-          <div style="margin-top:8px;">
-            <h6>eBooks &amp; downloads</h6>
-            <h6>Research databases</h6>
-            <h6>Mobile apps</h6>
-            <h6>Technology training</h6>
-          </div>          
+          <h6>eBooks &amp; downloads</h6>
+          <h6>Research databases</h6>
+          <h6>Mobile apps</h6>
+          <h6>Technology training</h6>        
         </div> 
       </a>
     </div>
