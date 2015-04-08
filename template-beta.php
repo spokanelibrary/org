@@ -36,7 +36,7 @@ if ( !empty($spl_home) ): ;
           Digital Branch
         </h4>
         <div class="panel-body">
-          <div class="digital-promo">
+          <div class="digital-promo" style="margin-bottom: 10px;">
             <h4 class="text-center">Always open, always on</h4>
           </div>
           <div class="row">
