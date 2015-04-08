@@ -36,7 +36,7 @@ if ( !empty($spl_home) ): ;
       </h4>
       <div class="panel-body">
         <div class="digital-promo">
-          <b>Always open, always on</b> – discover apps, books, music, magazines, and more.
+          <h5 class="text-center">Always open, always on</h5>
         </div>
         <ul class="nav nav-pills">
           <li><a href="#">Download ebooks, music, &amp; more</a></li>
