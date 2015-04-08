@@ -9,6 +9,9 @@
       href="/news/"
       title=""><b>News</b></a>
   <a class="btn btn-default" 
+      href="/card/"
+      title=""><b>Get a Library Card</b></a>
+  <a class="btn btn-default" 
       href="/support/"
       title=""><b class="">Support Your Library!</b></a>
 </div>
