@@ -70,7 +70,7 @@ if ( !empty($spl_home) ): ;
         Coming Up
       </h4>
       <div class="panel-body" style="background-image:url('/assets/img/spl-touch-bg.png'); background-position:120px 120px;">
-        <div style="height:260px;">
+        <div style="height:240px;">
           <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded vertical refresh]'); ?>
         </div>
         <h5 class="text-center">
