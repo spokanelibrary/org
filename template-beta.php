@@ -67,28 +67,14 @@ if ( !empty($spl_home) ): ;
 
 </div><!-- /.row -->
 
+<div class="spl-tile">
+  <?php echo do_shortcode('[spl_widget home-page news]'); ?>
+</div>
 
-<div class="row">
+<div class="panel spl-hero-panel spl-hero-calendar spl-hero-this-week">
+  <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
+</div>
 
-  <div class="col-sm-6 col-sm-push-6">
-    
-    <div class="panel spl-hero-panel spl-hero-calendar spl-hero-this-week">
-          
-      <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
-
-    </div>
-
-  </div><!-- /.col -->
-  <div class="col-sm-6 col-sm-pull-6">
-
-    <div class="spl-tile">
-      <?php echo do_shortcode('[spl_widget home-page news]'); ?>
-    </div>
-
-
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
 
 
 
