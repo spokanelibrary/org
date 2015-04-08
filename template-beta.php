@@ -4,6 +4,7 @@ Template Name: Beta Home Page
 */
 ?>
 
+<?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
 
 <!--
 <div class="row">

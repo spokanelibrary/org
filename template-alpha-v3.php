@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Alpha Home Page
+Template Name: Alpha Home Page v3
 */
 ?>
 
@@ -20,14 +20,6 @@ Template Name: Alpha Home Page
     return $html;
   }
 ?>
-
-
-
-
-
-
-
-
 
 <div class="spl-hero-wrapper">
 
