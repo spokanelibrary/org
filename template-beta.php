@@ -82,12 +82,10 @@ if ( !empty($spl_home) ): ;
 </div><!-- /.row -->
 
 
-<div class="spl-tile">
-  <?php echo do_shortcode('[spl_widget home-page news]'); ?>
-</div>
-
-<div class="panel spl-hero-panel spl-hero-calendar spl-hero-this-week">
-  <?php echo do_shortcode('[spl_widget home-page refresh this-week limit=1]'); ?>
+<div class="panel spl-hero-panel spl-hero-default">
+  <div class="panel-body">
+    <?php echo do_shortcode('[spl_widget home-page news]'); ?>
+  </div>
 </div>
 
 
