@@ -27,7 +27,7 @@ if ( !empty($spl_home) ): ;
 
 <div class="row">
 
-  <div class="col-sm-3 col-sm-push-3">
+  <div class="col-sm-3 col-sm-push-6">
     
     <div class="panel spl-hero-panel spl-hero-primary spl-hero-digital">
       <a class="spl-hero-link" href="/download/">
@@ -41,24 +41,23 @@ if ( !empty($spl_home) ): ;
           </div>          
         </div>
         <div class="row" style="margin-top:8px;">
-            <div class="col-md-6">
-              <ul style="margin-bottom:0;">
-                <li>eBooks &amp; downloads</li>
-                <li>Research databases</li>
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <ul style="margin-bottom:0;">
-                <li>Mobile apps</li>
-                <li>Technology training</li>
-              </ul>
-            </div>
-          </div> 
+          <div class="col-md-6">
+            <ul style="margin-bottom:0;">
+              <li>eBooks &amp; downloads</li>
+              <li>Research databases</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul style="margin-bottom:0;">
+              <li>Mobile apps</li>
+              <li>Technology training</li>
+            </ul>
+          </div>
+        </div> 
       </a>
     </div>
 
     
-
   </div><!-- /.col -->
   <div class="col-sm-6 col-sm-pull-6">
 
