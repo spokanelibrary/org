@@ -38,12 +38,12 @@ if ( !empty($spl_home) ): ;
         <div class="digital-promo">
           <h4 class="text-center">Always open, always on</h4>
         </div>
-        <ul class="nav nav-pills" style="margin-top:6px;">
-          <li><a href="#">Download ebooks, music, &amp; more <small>&rarr;</small></a></li>
-          <li><a href="#">Mobile Apps <small>&rarr;</small></a></li>
-          <li><a href="#">Classes &amp; Certifications <small>&rarr;</small></a></li>
-          <li><a href="#">Research Tools <small>&rarr;</small></a></li>
-        </ul>
+
+        <a class="btn btn-primary" href="#">Download ebooks, music, &amp; more <small>&rarr;</small></a>
+        <a class="btn btn-primary" class="btn btn-primary" href="#">Mobile Apps <small>&rarr;</small></a>
+        <a class="btn btn-primary" href="#">Classes &amp; Certifications <small>&rarr;</small></a>
+        <a class="btn btn-primary" href="#">Research Tools <small>&rarr;</small></a>
+      
       </div>
     </div>
 
