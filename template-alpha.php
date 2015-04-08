@@ -91,7 +91,7 @@ if ( !empty($spl_home) ): ;
           </h4>
           <div class="panel-body" style="background-image:url('/assets/img/spl-touch-bg.png'); background-position:120px 120px;">
             <div style="height:220px;">
-              <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded vertical refresh]'); ?>
+              <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
             </div>
             <h5 class="text-center">
               <a href="#">Calendar of Events <span class="text-muted">&rarr;</span></a>
