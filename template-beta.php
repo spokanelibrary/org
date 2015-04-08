@@ -37,7 +37,7 @@ if ( !empty($spl_home) ): ;
         </h4>
         <div class="panel-body">
           <div class="digital-promo">
-            <h5 class="text-center">Always open, always on</h5>
+            <h5 class="text-center uppercase">Always open, always on</h5>
           </div>          
         </div>
         <div class="row" style="margin-top:8px;">
