@@ -87,6 +87,8 @@ if ( !empty($spl_home) ): ;
         </div>
       </div>
 
+      <div class="clearfix visible-sm"></div>
+
       <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-6">
         
         <div class="panel spl-hero-panel spl-hero-calendar">
