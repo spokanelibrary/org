@@ -81,7 +81,7 @@ if ( !empty($spl_home) ): ;
               Open Hours
             </h4>
             <div class="panel-body" style="height: auto;">
-              <h5 class="text-center text-success uppercase">Check library schedule</h5>
+              <h5 class="text-center text-success uppercase" style="margin:0;">Check library schedule</h5>
             </div>
           </a>
         </div>
