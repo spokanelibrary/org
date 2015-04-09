@@ -97,7 +97,7 @@ if ( !empty($spl_home) ): ;
       <div class="col-sm-4 col-md-3">
         
         <div class="panel spl-hero-panel spl-hero-calendar">
-          <h4 class="text-center" style="">
+          <h4 class="text-center hero-heading" style="">
             <i class="glyphicon glyphicon-calendar"></i> 
             Coming Up
           </h4>
