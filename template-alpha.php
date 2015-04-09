@@ -101,8 +101,8 @@ if ( !empty($spl_home) ): ;
             <i class="glyphicon glyphicon-calendar"></i> 
             Coming Up
           </h4>
-          <div class="panel-body" style="">
-            <div style="height:220px;">
+          <div class="panel-body">
+            <div style="">
               <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
             </div>
             <h5 class="text-center">
