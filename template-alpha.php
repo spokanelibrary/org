@@ -76,7 +76,7 @@ if ( !empty($spl_home) ): ;
       <div class="col-sm-4 visible-sm visible-xs">
         <div class="panel spl-hero-open">
           <a class="spl-hero-link" href="/open/">  
-            <h4 class="text-center">
+            <h4 class="text-center hero-heading">
               <i class="glyphicon glyphicon-time"></i>
               Open Hours
             </h4>
