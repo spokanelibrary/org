@@ -79,7 +79,7 @@ if ( !empty($spl_home) ): ;
               <i class="glyphicon glyphicon-time"></i>
               Open Hours
             </h4>
-            <div class="panel-body" style="height: 180px;">
+            <div class="panel-body" style="height: 190px;">
               Lorem ipsum
             </div>
           </div>
