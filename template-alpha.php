@@ -80,7 +80,7 @@ if ( !empty($spl_home) ): ;
               Open Hours
             </h4>
             <div class="panel-body" style="height: auto;">
-              Lorem ipsum
+              <h5 class="text-center text-success">Check library hours <small>&rarr;</small></h5>
             </div>
           </div>
       </div>
