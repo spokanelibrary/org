@@ -75,6 +75,7 @@ if ( !empty($spl_home) ): ;
 
       <div class="col-sm-4 visible-sm visible-xs">
         <div class="panel spl-hero-open">
+          <a class="spl-hero-link" href="/download/">  
             <h4 class="text-center">
               <i class="glyphicon glyphicon-time"></i>
               Open Hours
@@ -82,7 +83,8 @@ if ( !empty($spl_home) ): ;
             <div class="panel-body" style="height: auto;">
               <h5 class="text-center text-success">Check library hours <small>&rarr;</small></h5>
             </div>
-          </div>
+          </a>
+        </div>
       </div>
 
       <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-6">
