@@ -102,9 +102,7 @@ if ( !empty($spl_home) ): ;
             Coming Up
           </h4>
           <div class="panel-body">
-            <div style="">
-              <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
-            </div>
+            <?php echo do_shortcode('[spl_widget home-page carousel pause auto calendar embedded refresh]'); ?>
             <h5 class="text-center">
               <a href="#">Calendar of Events <span class="text-muted">&rarr;</span></a>
             </h5>      
