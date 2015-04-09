@@ -61,7 +61,7 @@ if ( !empty($spl_home) ): ;
             <div class="digital-promo">
               <h5 class="text-center uppercase">Always open, always on</h5>
             </div>
-            <div class="panel-body hidden-xs" style="">
+            <div class="panel-body hidden-xs hidden-sm" style="">
               <h5>eBooks &amp; downloads</h5>
               <h5 class="text-right">Research databases</h5>
               <h5>Mobile apps</h5>
@@ -79,7 +79,7 @@ if ( !empty($spl_home) ): ;
               <i class="glyphicon glyphicon-time"></i>
               Open Hours
             </h4>
-            <div class="panel-body" style="height: 190px;">
+            <div class="panel-body" style="height: auto;">
               Lorem ipsum
             </div>
           </div>
