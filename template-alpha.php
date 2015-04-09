@@ -52,7 +52,7 @@ if ( !empty($spl_home) ): ;
         <div class="panel spl-hero-panel spl-hero-primary spl-hero-digital">
           <a class="spl-hero-link" href="/download/">
             <h4 class="text-center hero-heading">
-              <i class="glyphicon glyphicon-cloud hidden-sm"></i>
+              <i class="glyphicon glyphicon-cloud"></i>
               Digital Branch
             </h4>
             <div class="hidden-xs hidden-sm" style="height: 80px; overflow:hidden;">
