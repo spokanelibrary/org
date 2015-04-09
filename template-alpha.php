@@ -85,16 +85,7 @@ if ( !empty($spl_home) ): ;
           </div>
       </div>
 
-      <div class="col-sm-8 col-md-6">
-
-        <div class="panel spl-hero-panel spl-hero-muted">
-          <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
-        </div>
-
-        
-      </div><!-- /.col -->
-
-      <div class="col-sm-4 col-md-3">
+      <div class="col-sm-4 col-md-3 col-md-push-6">
         
         <div class="panel spl-hero-panel spl-hero-calendar">
           <h4 class="text-center hero-heading" style="">
@@ -112,6 +103,14 @@ if ( !empty($spl_home) ): ;
         </div>
 
       </div>
+
+      <div class="col-sm-8 col-md-6 col-md-pull-3">
+
+        <div class="panel spl-hero-panel spl-hero-muted">
+          <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
+        </div>
+        
+      </div><!-- /.col -->
 
     </div><!-- /.row -->
 
