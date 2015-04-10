@@ -36,10 +36,18 @@
         <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px;" src="/assets/img/SPL-Logo-hidpi.png">
       </div><!-- /.col -->
       <div class="col-sm-3 hidden-xs text-center">
-        <img alt="Federal Depository Library Program logo" class="" style="width:92px; height:82px;" src="/assets/img/png/fdlp-emblem-color.png">
+        <a href="http://www.fdlp.gov">
+          <img alt="Federal Depository Library Program logo" 
+                title="This library is a congressionally designated depository for U.S. Government documents. Public access to the government documents collection is guaranteed by public law. (Title 44 United States Code)" 
+                class="" 
+                style="width:92px; height:82px;" 
+                src="/assets/img/png/fdlp-emblem-color.png">
+        </a>
       </div><!-- /.col -->
       <div class="col-xs-4 col-sm-3 text-right">
-        <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
+        <a href="https://my.spokanecity.org/">
+          <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
+        </a>
       </div><!-- /.col -->
     </div><!-- /.row -->
 
