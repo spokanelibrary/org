@@ -56,7 +56,7 @@
                 <a href="/news/">Read our Newsletter</a>
               </li>
               <li>
-                <a href="/faq/">Library Tips</a>
+                <a href="/faq/">Library FAQ</a>
               </li>
             </ul>
           </div><!-- /.col -->
