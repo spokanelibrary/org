@@ -33,7 +33,9 @@
         </address>
       </div><!-- /.col -->
       <div class="col-sm-3 hidden-xs text-center">
-        <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px;" src="/assets/img/SPL-Logo-hidpi.png">
+        <a href="/">
+          <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px;" src="/assets/img/SPL-Logo-hidpi.png">
+        </a>
       </div><!-- /.col -->
       <div class="col-sm-3 hidden-xs text-center">
         <a href="http://www.fdlp.gov">
