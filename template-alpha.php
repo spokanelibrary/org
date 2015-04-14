@@ -50,7 +50,7 @@ if ( !empty($spl_home) ): ;
       <div class="col-sm-8 col-md-3">
         
         <div class="panel spl-hero-panel spl-hero-primary spl-hero-digital">
-          <a class="spl-hero-link" href="/download/">
+          <a class="spl-hero-link" href="/digital/">
             <h4 class="text-center hero-heading">
               <i class="glyphicon glyphicon-cloud"></i>
               Digital Branch
