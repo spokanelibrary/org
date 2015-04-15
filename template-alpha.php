@@ -127,5 +127,11 @@ if ( !empty($spl_home) ): ;
       </div>
     </div>
 
+    <div class="panel spl-hero-panel spl-hero-browse">
+      <div class="panel-body">
+        Browse List
+      </div>
+    </div>
+
   </div><!-- /.col -->
 </div><!-- /.row -->
