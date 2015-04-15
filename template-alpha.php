@@ -129,7 +129,7 @@ if ( !empty($spl_home) ): ;
 
     <div class="panel spl-hero-panel spl-hero-browse">
       <div class="panel-body">
-        Browse List
+        <?php echo do_shortcode('[spl_widget home-page carousel pause auto browse embedded refresh]'); ?>
       </div>
     </div>
 
