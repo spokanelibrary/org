@@ -162,12 +162,14 @@ function spl_get_home_url() {
 </header><!-- /.navbar -->
 
 <?php 
-switch ($post->post_name) {
-  case 'search':
-  case 'account':
-    break;
-  default:
-    include('header-search.php'); 
-    break;
+if ( 'learn.spokanelibrary.org' != $_SERVER['SERVER_NAME'] ) {
+  switch ($post->post_name) {
+    case 'search':
+    case 'account':
+      break;
+    default:
+      include('header-search.php'); 
+      break;
+  }
 }
 ?>
