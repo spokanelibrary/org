@@ -128,7 +128,10 @@ if ( !empty($spl_home) ): ;
     </div>
 
     <div class="panel spl-hero-panel spl-hero-browse">
-      <h4>New &amp; Popular Titles</h4>
+      <h4>
+        <i class="glyphicon glyphicon-book"></i>
+        New &amp; Popular Titles
+      </h4>
       <div class="panel-body">
         <?php echo do_shortcode('[spl_widget home-page carousel pause auto browse-group refresh]'); ?>
       </div>
