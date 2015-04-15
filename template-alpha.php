@@ -128,7 +128,7 @@ if ( !empty($spl_home) ): ;
     </div>
 
     <div class="panel spl-hero-panel spl-hero-browse">
-      <h3>New &amp; Popular Titles</h3>
+      <h4>New &amp; Popular Titles</h4>
       <div class="panel-body">
         <?php echo do_shortcode('[spl_widget home-page carousel pause auto browse embedded refresh]'); ?>
       </div>
