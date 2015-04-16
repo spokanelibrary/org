@@ -137,7 +137,9 @@ if ( !empty($spl_home) ): ;
       <div class="panel-body" style="/*padding-left: 40px; padding-right: 40px;*/">
         <div class="text-center browse-promo">
           <a class="" href="/browse/">Browse popular titles <small>&rarr;</small></a>
+          &nbsp;
           <a class="" href="/new/">Browse new materials <small>&rarr;</small></a>
+          &nbsp;
           <a class="" href="/request/">Request something we don't have <small>&rarr;</small></a>
         </div>
         <?php echo do_shortcode('[spl_widget home-page carousel pause control browse-group refresh]'); ?>
