@@ -1234,6 +1234,34 @@ a .chof-red:hover {
       margin-bottom: 6px;
 
     }
+
+    .carousel-controls {
+      position: absolute;
+      bottom:20%;
+      //bottom:40px; 
+      width:100%;
+    }
+
+    .carousel-control {
+      color: @brand-warning;
+      z-index: 15;
+      .opacity(.8);
+      &:hover,
+      &:focus {
+        .opacity(1);
+      }
+    }
+
+    .carousel-indicators {
+      top:0;
+      li{ 
+        border-color: @brand-warning;
+      }
+      li.active{ 
+        background: @brand-warning;
+      }
+    }
+
   }
 
   a:hover {
