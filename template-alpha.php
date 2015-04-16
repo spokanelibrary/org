@@ -134,7 +134,11 @@ if ( !empty($spl_home) ): ;
         Read. Learn. Discover.
       </h4>
       -->
-      Browse new materials Browse popular titles Request something we don't have
+      <h4>
+        <a href="#">Browse new materials</a>
+        <a href="#">Browse popular titles</a>
+        <a href="#">Request something we don't have</a>
+      </h4>
       <div class="panel-body" style="padding-left: 40px; padding-right: 40px;">
         <?php echo do_shortcode('[spl_widget home-page carousel pause control browse-group refresh]'); ?>
       </div>
