@@ -133,7 +133,7 @@ if ( !empty($spl_home) ): ;
         Read. Learn. Discover.
       </h4>
       <div class="panel-body">
-        <?php echo do_shortcode('[spl_widget home-page carousel pause auto browse-group refresh]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page carousel pause browse-group refresh]'); ?>
       </div>
     </div>
 
