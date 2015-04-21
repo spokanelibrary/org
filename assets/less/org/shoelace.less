@@ -1233,7 +1233,66 @@ a .chof-red:hover {
   .hero-heading {
     color: @alert-warning-bg;
   }
+  .calendar-promo {
+    padding-top: 4px;
+    //border-top: 1px solid darken(@brand-warning, 8%); 
+    //border-bottom: 1px solid darken(@brand-warning, 8%);
+    margin-bottom: 8px;
+  }
+
   
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  padding-bottom: 5px;
+
+  background: lighten(@brand-warning, 6%);
+  border-color: darken(@brand-warning, 8%);
+  //border-color: @state-warning-text;
+  //background: darken(@alert-warning-bg, 4%);
+  
+  h4 {
+    color: #fff;
+    //color: @state-warning-text;
+  }
+  color: @gray;
+  .panel-body {
+    //padding: 0px;
+    //background: lighten(@alert-warning-bg, 4%);
+    //background: lighten(@brand-warning, 35%);
+    //background: lighten(@gray-light, 35%);
+    //background: #fff;
+    background: @alert-warning-bg;
+  }
+  @media (min-width: @screen-sm-min) { 
+    .panel-body {
+      //min-height: 170px;
+      background-image:url('/assets/img/spl-touch-bg.png'); 
+      background-position:120px 105px;
+      .carousel {
+        height:226px;
+      }
+    }
+  }
+  @media (min-width: @screen-md-min) { 
+    .panel-body {
+      //min-height: 170px;
+      .carousel {
+        height:218px;
+      }
+    }
+  }
+  @media (min-width: @screen-lg-min) { 
+    .panel-body {
+      //min-height: 190px;
+    }
+  }
+  .spl-hero-link:hover,
+  .spl-hero-link:hover .panel-body {
+    background: darken(@gray, 4%);
+  }
 }
 
 
