@@ -1240,7 +1240,33 @@ a .chof-red:hover {
     margin-bottom: 8px;
   }
 
-  
+  .carousel {
+    h5, h6 { 
+      margin:0; padding:0; 
+      margin-bottom: 6px;
+
+    }
+
+    
+
+    .carousel-indicators {
+      top:0;
+      li{ 
+        border-color: @brand-warning;
+      }
+      li.active{ 
+        background: @brand-warning;
+      }
+    }
+
+    .left {
+      left: -4px;
+    }
+    .right {
+      right: -4px;
+    }
+
+  }
 
   a:hover {
     text-decoration: underline;
