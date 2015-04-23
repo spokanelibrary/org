@@ -842,7 +842,7 @@
 	  	  	  		Daniel K. Oliver was a thirty-three year old Civil War veteran from Pennsylvania who arrived in 1878 to what would later become the City of Spokane. 
 	  	  	  		A skilled carpenter, he was also an entrepreneur who invested in a wood mill and became a manager in a planning company. 
 	  	  	  		He later branched out into mining and real estate. 
-	  	  	  		In 1896, Oliver was elected to serve a two-year term on the city council in Ward 2 (currently lower South Hill), making him the highest-ranking African American official in Washington at that time. 
+	  	  	  		In 1896, Oliver was elected to serve a two-year term on the city council in Ward 2 (currently lower South Hill). 
 	  	  	  	</p>
 	  	  	  	<p>
 	  	  	  		Oliver was also an entrepreneur with investments in the timber industry, mining and real estate; all crucial industries in Spokane's early history. 
