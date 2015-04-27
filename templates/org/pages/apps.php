@@ -223,6 +223,11 @@
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/printeron/id406584999">iOS &rarr;</a>
           <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.printeron.droid.phone">Android &rarr;</a>
         </p>
+        <a rel="external" href="http://appworld.blackberry.com/webstore/content/36248891/?lang=en&countrycode=CA">Blackberry</a>
+        |
+        <a rel="external" href="http://www.printeron.com/apps/mobile-printing-apps/kindle-printing-app.html">Kindle</a>
+        | 
+        <a rel="external" href="http://www.barnesandnoble.com/w/printeron-printeron-inc/1117005187?ean=2940147151310">Nook</a>
       </div>
     </div><!-- /.media -->
 
