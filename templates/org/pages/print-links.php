@@ -9,7 +9,7 @@
       </button>
       <a class="navbar-brand visible-xs visible-sm" href="#">Choose a location:</a>
     </div>
-    <div class="collapse navbar-collapse" id="spl-nav-print-links">
+    <div class="" id="spl-nav-print-links">
       <ul class="nav navbar-nav">
         <li><a href="/printing/downtown/">Downtown</a></li>
         <li><a href="/printing/east-side/">East Side</a></li>
@@ -18,6 +18,6 @@
         <li><a href="/printing/shadle/">Shadle</a></li>
         <li><a href="/printing/south-hill/">South Hill</a></li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
