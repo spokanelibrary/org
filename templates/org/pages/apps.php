@@ -210,7 +210,7 @@
     <p id="printeron">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
-        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/printeron.jpg">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/printeron.png">
       </span>
       <div class="media-body">
         <h4 class="media-heading">
