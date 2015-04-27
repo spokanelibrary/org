@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#spl-nav-print-links">
@@ -7,6 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      <a class="navbar-brand visible-xs visible-sm" href="#">Choose a location:</a>
     </div>
     <div class="collapse navbar-collapse" id="spl-nav-print-links">
       <ul class="nav navbar-nav">
