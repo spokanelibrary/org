@@ -32,7 +32,7 @@
           509.444.5300
         </address>
       </div><!-- /.col -->
-      <div class="col-xs-4 col-sm-3 text-left">
+      <div class="col-xs-4 col-sm-3 text-center">
         <a href="https://my.spokanecity.org/">
           <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
         </a>
@@ -52,7 +52,7 @@
           <a href="http://www.fdlp.gov">Federal Depository Library</a>
         </h6>
       </div><!-- /.col -->
-      <div class="col-sm-3 hidden-xs text-right">
+      <div class="col-sm-3 hidden-xs text-center">
         <a href="/">
           <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
         </a>
