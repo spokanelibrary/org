@@ -52,7 +52,7 @@
           <a href="http://www.fdlp.gov">Federal Depository Library</a>
         </h6>
       </div><!-- /.col -->
-      <div class="col-sm-3 hidden-xs text-center">
+      <div class="col-sm-3 hidden-xs text-right">
         <a href="/">
           <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
         </a>
