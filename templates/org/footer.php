@@ -32,14 +32,14 @@
           509.444.5300
         </address>
       </div><!-- /.col -->
-      <div class="col-xs-4 col-sm-3 text-center">
-        <a href="https://my.spokanecity.org/">
-          <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
+      <div class="col-sm-3 hidden-xs text-center">
+        <a href="/">
+          <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
         </a>
-        <h6 class="help-block">
-          <a href="https://my.spokanecity.org/">Division of the<br>City of Spokane</a>
-        </h6>
-      </div><!-- /.col -->
+        <h5 class="text-success">
+          Read. Learn. Discover.
+        </h5>
+      </div><!-- /.col -->  
       <div class="col-sm-3 hidden-xs text-center">
         <a href="http://www.fdlp.gov">
           <img alt="Federal Depository Library Program logo" 
@@ -52,14 +52,16 @@
           <a href="http://www.fdlp.gov">Federal Depository Library</a>
         </h5>
       </div><!-- /.col -->
-      <div class="col-sm-3 hidden-xs text-right">
-        <a href="/">
-          <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
+      <div class="col-xs-4 col-sm-3 text-center">
+        <a href="https://my.spokanecity.org/">
+          <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
         </a>
-        <h5 class="text-success">
-          Read. Learn. Discover.
-        </h5>
-      </div><!-- /.col -->      
+        <h6 class="help-block">
+          <a href="https://my.spokanecity.org/">Division of the<br>City of Spokane</a>
+        </h6>
+      </div><!-- /.col -->
+      
+          
     </div><!-- /.row -->
 
     <div class="row">
