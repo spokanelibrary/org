@@ -37,7 +37,7 @@
           <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
         </a>
         <h6 class="help-block">
-          <a href="https://my.spokanecity.org/">Division of the City of Spokane</a>
+          <a href="https://my.spokanecity.org/">Division of the<br>City of Spokane</a>
         </h6>
       </div><!-- /.col -->
       <div class="col-sm-3 hidden-xs text-center">
