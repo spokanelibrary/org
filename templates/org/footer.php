@@ -32,7 +32,7 @@
           509.444.5300
         </address>
       </div><!-- /.col -->
-      <div class="col-sm-3 hidden-xs text-center">
+      <div class="col-sm-3 hidden-xs text-left">
         <a href="/">
           <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
         </a>
