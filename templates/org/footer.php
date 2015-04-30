@@ -49,7 +49,7 @@
                 src="/assets/img/png/fdlp-emblem-color.png">
         </a>
         <h6 class="help-block">
-          A Federal Depository Library
+          <a href="http://www.fdlp.gov">A Federal Depository Library</a>
         </h6>
       </div><!-- /.col -->
       <div class="col-xs-4 col-sm-3 text-right">
@@ -57,7 +57,7 @@
           <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
         </a>
         <h6 class="help-block">
-          A division of the City of Spokane
+          <a href="https://my.spokanecity.org/">A division of the City of Spokane</a>
         </h6>
       </div><!-- /.col -->
     </div><!-- /.row -->
