@@ -32,7 +32,7 @@
           509.444.5300
         </address>
       </div><!-- /.col -->
-      <div class="col-xs-4 col-sm-3 text-right">
+      <div class="col-xs-4 col-sm-3 text-left">
         <a href="https://my.spokanecity.org/">
           <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
         </a>
