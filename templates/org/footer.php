@@ -56,9 +56,9 @@
         <a href="/">
           <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
         </a>
-        <h6 class="text-success">
+        <h5 class="text-success">
           Read. Learn. Discover.
-        </h6>
+        </h5>
       </div><!-- /.col -->      
     </div><!-- /.row -->
 
