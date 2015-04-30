@@ -49,7 +49,7 @@
                 src="/assets/img/png/fdlp-emblem-color.png">
         </a>
         <h6 class="help-block">
-          <a href="http://www.fdlp.gov">Federal<br>Depository<br>Library</a>
+          <a href="http://www.fdlp.gov">Federal Depository Library</a>
         </h6>
       </div><!-- /.col -->
       <div class="col-sm-3 hidden-xs text-right">
