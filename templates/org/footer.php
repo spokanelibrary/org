@@ -45,7 +45,7 @@
           <img alt="Federal Depository Library Program logo" 
                 title="This library is a congressionally designated depository for U.S. Government documents. Public access to the government documents collection is guaranteed by public law. (Title 44 United States Code)" 
                 class="" 
-                style="width:300px; margin:auto;" 
+                style="width:200px; margin:auto;" 
                 src="/assets/img/png/fdlp-emblem-logo-text-color">
         </a>
       </div><!-- /.col -->
