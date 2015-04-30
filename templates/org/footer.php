@@ -36,7 +36,7 @@
         <a href="/">
           <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
         </a>
-        <h6>
+        <h6 class="uppercase text-muted">
           Read. Learn. Discover.
         </h6>
       </div><!-- /.col -->
@@ -48,7 +48,7 @@
                 style="width:92px; height:82px; margin:auto;" 
                 src="/assets/img/png/fdlp-emblem-color.png">
         </a>
-        <h6>
+        <h6 class="uppercase text-muted">
           A Federal Depository Library
         </h6>
       </div><!-- /.col -->
@@ -56,7 +56,7 @@
         <a href="https://my.spokanecity.org/">
           <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
         </a>
-        <h6>
+        <h6 class="uppercase text-muted">
           A division of the City of Spokane
         </h6>
       </div><!-- /.col -->

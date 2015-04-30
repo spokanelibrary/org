@@ -29,9 +29,9 @@
 		  <div class="col-md-9 col-md-pull-3">
 	    	<?php //the_excerpt(); ?>
 	    	<?php the_content(); ?> 
-	  	</div>
-	  </div><!-- /.col -->
-  </div><!-- /.row -->
+	  	</div><!-- /.col -->
+	  </div><!-- /.row -->
+  </div>
   <?php get_template_part('templates/entry-meta'); ?>
   <hr>
 </article>
