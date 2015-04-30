@@ -48,9 +48,9 @@
                 style="width:92px; height:82px; margin:auto;" 
                 src="/assets/img/png/fdlp-emblem-color.png">
         </a>
-        <h6 class="help-block">
+        <h5 class="help-block">
           <a href="http://www.fdlp.gov">Federal Depository Library</a>
-        </h6>
+        </h5>
       </div><!-- /.col -->
       <div class="col-sm-3 hidden-xs text-right">
         <a href="/">
