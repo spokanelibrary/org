@@ -32,26 +32,6 @@
           509.444.5300
         </address>
       </div><!-- /.col -->
-      <div class="col-sm-3 hidden-xs text-center">
-        <a href="/">
-          <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
-        </a>
-        <h5 class="text-success">
-          Read. Learn. Discover.
-        </h5>
-      </div><!-- /.col -->  
-      <div class="col-sm-3 hidden-xs text-center">
-        <a href="http://www.fdlp.gov">
-          <img alt="Federal Depository Library Program logo" 
-                title="This library is a congressionally designated depository for U.S. Government documents. Public access to the government documents collection is guaranteed by public law. (Title 44 United States Code)" 
-                class="" 
-                style="width:92px; height:82px; margin:auto;" 
-                src="/assets/img/png/fdlp-emblem-color.png">
-        </a>
-        <h5 class="help-block">
-          <a href="http://www.fdlp.gov">Federal Depository Library</a>
-        </h5>
-      </div><!-- /.col -->
       <div class="col-xs-4 col-sm-3 text-center">
         <a href="https://my.spokanecity.org/">
           <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
@@ -60,8 +40,23 @@
           <a href="https://my.spokanecity.org/">Division of the<br>City of Spokane</a>
         </h6>
       </div><!-- /.col -->
-      
-          
+      <div class="col-sm-3 hidden-xs text-center">
+        <a href="http://www.fdlp.gov">
+          <img alt="Federal Depository Library Program logo" 
+                title="This library is a congressionally designated depository for U.S. Government documents. Public access to the government documents collection is guaranteed by public law. (Title 44 United States Code)" 
+                class="" 
+                style="width:92px; height:82px; margin:auto;" 
+                src="/assets/img/png/fdlp-emblem-color.png">
+        </a>
+        <h6 class="help-block">
+          <a href="http://www.fdlp.gov">Federal<br>Depository<br>Library</a>
+        </h6>
+      </div><!-- /.col -->
+      <div class="col-sm-3 hidden-xs text-right">
+        <a href="/">
+          <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
+        </a>
+      </div><!-- /.col -->      
     </div><!-- /.row -->
 
     <div class="row">
