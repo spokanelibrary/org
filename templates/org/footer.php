@@ -49,11 +49,11 @@
                 src="/assets/img/png/fdlp-emblem-logo-text-color">
         </a>
       </div>--><!-- /.col -->
-      <div class="col-sm-3 hidden-xs text-right">
+      <!--<div class="col-sm-3 hidden-xs text-right">
         <a href="/">
           <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
         </a>
-      </div><!-- /.col -->      
+      </div>--><!-- /.col -->      
     </div><!-- /.row -->
 
     <div class="row">
