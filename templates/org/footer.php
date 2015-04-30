@@ -36,6 +36,9 @@
         <a href="/">
           <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
         </a>
+        <h6>
+          Read. Learn. Discover.
+        </h6>
       </div><!-- /.col -->
       <div class="col-sm-3 hidden-xs text-center">
         <a href="http://www.fdlp.gov">
@@ -45,11 +48,17 @@
                 style="width:92px; height:82px; margin:auto;" 
                 src="/assets/img/png/fdlp-emblem-color.png">
         </a>
+        <h6>
+          A Federal Depository Library
+        </h6>
       </div><!-- /.col -->
       <div class="col-xs-4 col-sm-3 text-right">
         <a href="https://my.spokanecity.org/">
           <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
         </a>
+        <h6>
+          A division of the City of Spokane
+        </h6>
       </div><!-- /.col -->
     </div><!-- /.row -->
 
