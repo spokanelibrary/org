@@ -1,6 +1,3 @@
-<div class="alert alert-warning">
-	We ask that all users accessing Spokane Public Library's computer network familiarize themselves with our <a href="/policies/inet/">Internet Use Policy</a>.
-</div>
 
 <div class="panel panel-primary">
 	<div class="panel-heading">
@@ -60,7 +57,7 @@
 		</dl>
 		-->
 		<p>
-			<a href="/printing/">Printing is available</a> for 10 cents per page.</p>
+			<a href="/printing/">Printing is available</a> for 5 cents per page.</p>
 		</p>
 		
 	</div><!-- /.panel-body -->
@@ -84,7 +81,7 @@
 		</p>
 
 		<p>
-			<a href="/printing/">Printing is available</a> for 10 cents per page.</p>
+			<a href="/printing/">Printing is available</a> for 5 cents per page.</p>
 		</p>
 		
 
