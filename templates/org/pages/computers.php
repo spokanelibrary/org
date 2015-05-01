@@ -21,7 +21,7 @@
 		</p>
 
 		<p>
-			<a href="/printing/">Printing is available</a> for 5 cents per page.</p>
+			<a href="/printing/">Printing is available</a> for 5 cents per page.
 			<a class="" href="/faq/inet/">Learn more about public internet computers</a>
 		</p>
 
