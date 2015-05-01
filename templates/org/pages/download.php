@@ -116,7 +116,7 @@
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<i class="glyphicon glyphicon-cloud-download"></i> 
-					Audio Books
+					Audiobooks
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
@@ -128,7 +128,7 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="/eaudio/"><em>OneClick:</em> Audio Book Downloads</a>
+				    	<a href="/eaudio/"><em>OneClick:</em> Audiobook Downloads</a>
 				    </h4>
 				    <p>
 				    	Download audio books directly to your computer or portable music player. 
