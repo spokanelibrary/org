@@ -100,7 +100,7 @@ Template Name: Home Page
       <div class="browse-promo text-center">
           <a class="" href="/browse/">Browse&nbsp;popular&nbsp;titles&nbsp;<small>&rarr;</small></a>
           <a class="" href="/new/">Browse&nbsp;new&nbsp;materials&nbsp;<small>&rarr;</small></a>
-          <a class="" href="/request/">Request&nbsp;something&nbsp;we&nbsp;don't&nbsp;have&nbsp;<small>&rarr;</small></a>
+          <a class="hidden-xs" href="/request/">Request&nbsp;something&nbsp;we&nbsp;don't&nbsp;have&nbsp;<small>&rarr;</small></a>
         </div>
       <div class="panel-body" style="/*padding-left: 40px; padding-right: 40px;*/">
         
