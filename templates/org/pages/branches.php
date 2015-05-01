@@ -27,6 +27,12 @@ Open hours, directions, contact information, upcoming events, and other details 
 </p>
 
 <p>
+<a class="btn btn-success" href="/computer/">
+	<i class="glyphicon glyphicon-time"></i>
+	Reserve a computer&rarr;</a>
+</p>
+
+<p>
 <a class="btn btn-warning" href="/calendar/">
 	<i class="glyphicon glyphicon-calendar"></i>
 	Complete calendar of events &rarr;</a>
