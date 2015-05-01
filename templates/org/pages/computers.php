@@ -13,6 +13,12 @@
 		</p>
 
 		<p>
+			<a class="btn btn-info" href="http://beta.spokanelibrary.org/reserve/">
+			<small class="glyphicon glyphicon-time"></small>
+			Reserve an internet computer now <small>&rarr;</small></a>
+		</p>
+		
+		<p>
 			Some locations also offer 30-minute walk-up internet stations with no appointment required.
 			Walk-up computers are available on a first-come, first-served basis.
 		</p>
@@ -21,9 +27,6 @@
 			<a class="" href="/faq/inet/">Learn more about using public internet computers</a>.
 		</p>
 
-		<a class="btn btn-info" href="http://beta.spokanelibrary.org/reserve/">
-			<small class="glyphicon glyphicon-time"></small>
-			Reserve a computer now <small>&rarr;</small></a>
 
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
