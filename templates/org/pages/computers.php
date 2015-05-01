@@ -18,7 +18,6 @@
 		</p>
 
 		<p>
-			<a href="/printing/">Printing is available</a> for 5 cents per page.
 			<a class="" href="/faq/inet/">Learn more about using public internet computers</a>.
 		</p>
 
@@ -40,25 +39,6 @@
 		<p>
 			All library locations offer computers with Microsoft Office 2013 word processing, spreadsheet, and presentation software.
 		</p>
-		<!--
-		<dl class="dl-horizontal">
-			<dt>Downtown library</dt>
-			<dd>8 computers on the third floor</dd>
-			<dt>East Side library</dt>
-			<dd>4 computers</dd>
-			<dt>Hillyard library</dt>
-			<dd>3 computers</dd>
-			<dt>Indian Trail library</dt>
-			<dd>2 computers</dd>
-			<dt>Shadle library</dt>
-			<dd>4 computers</dd>
-			<dt>South Hill library</dt>
-			<dd>2 computers</dd>
-		</dl>
-		-->
-		<p>
-			<a href="/printing/">Printing is available</a> for 5 cents per page.</p>
-		</p>
 		
 	</div><!-- /.panel-body -->
 	<div class="panel-footer">
@@ -79,11 +59,6 @@
 		<p>
 			Additional computers are available at each library location for searching <a href="/catalog/">our collection</a>, <a href="/subscriptions/">our databases</a>, and limited internet sites, including all .gov and .edu web sites. 
 		</p>
-
-		<p>
-			<a href="/printing/">Printing is available</a> for 5 cents per page.</p>
-		</p>
-		
 
 	</div><!-- /.panel-body -->
 	<div class="panel-footer">
