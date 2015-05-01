@@ -22,12 +22,12 @@
 
 		<p>
 			<a href="/printing/">Printing is available</a> for 5 cents per page.
-			<a class="" href="/faq/inet/">Learn more about public internet computers</a>
+			<a class="" href="/faq/inet/">Learn more about using public internet computers</a>.
 		</p>
 
 		<a class="btn btn-info" href="http://beta.spokanelibrary.org/reserve/">
 			<small class="glyphicon glyphicon-time"></small>
-			Reserve a computer <small>&rarr;</small></a>
+			Reserve a computer now <small>&rarr;</small></a>
 
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
