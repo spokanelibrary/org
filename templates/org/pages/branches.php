@@ -27,7 +27,7 @@ Open hours, directions, contact information, upcoming events, and other details 
 </p>
 
 <p>
-<a class="btn btn-success" href="/computer/">
+<a class="btn btn-info" href="/computer/">
 	<i class="glyphicon glyphicon-time"></i>
 	Reserve a computer&rarr;</a>
 </p>
