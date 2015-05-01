@@ -21,24 +21,13 @@
 		</p>
 
 		<p>
-			<a href="/printing/">Printing is available</a> for 10 cents per page.</p>
+			<a href="/printing/">Printing is available</a> for 5 cents per page.</p>
+			<a class="" href="/faq/inet/">Learn more about public internet computers</a>
 		</p>
 
-		<a class="btn btn-primary" href="/faq/inet/">More about public internet computers <small>&rarr;</small></a>
-		
-		<h3>
-			Reserve a computer
+		<a class="btn btn-info" href="http://beta.spokanelibrary.org/reserve/">
 			<small class="glyphicon glyphicon-time"></small>
-		</h3>
-
-		<div class="btn-group">
-			<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=DT_3">Downtown <small>&rarr;</small></a>
-			<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=ES">East Side <small>&rarr;</small></a>
-			<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=HY">Hillyard <small>&rarr;</small></a>
-			<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=IT">Indian Trail <small>&rarr;</small></a>
-			<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SH">Shadle <small>&rarr;</small></a>
-			<a class="btn btn-info" href="http://sam.spokanelibrary.org/sam/sampatronreservationmanager.asp?branch=SO">South Hill <small>&rarr;</small></a>
-		</div>
+			Reserve a computer <small>&rarr;</small></a>
 
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
