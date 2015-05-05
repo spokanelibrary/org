@@ -21,14 +21,10 @@
 
     <div class="row">
       <div class="col-xs-8 col-sm-3">
-        <p>
           <img alt="Spokane Public Library logo" class="" style="width:50px; height:40px; margin:auto;" src="/assets/img/spl-touch-hidpi.png">
-            
-          <b class="help-block" style="">
-            Spokane Public Library
-          </b>
-        </p>
         <address class="help-block" style="">
+          <b>Spokane Public Library</b>
+          <br>
           906 West Main Avenue
           <br>
           Spokane, WA 99201
