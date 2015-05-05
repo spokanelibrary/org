@@ -138,6 +138,6 @@
 
     </div><!-- /.panel -->
 
-    <h6 class="text-center uppercase">
+    <h6 class="text-center uppercase" style="color:#fff;">
         This library is a <a href="http://www.fdlp.gov">congressionally designated depository</a> for U.S. Government documents. 
     </h6>
