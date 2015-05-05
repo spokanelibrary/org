@@ -29,15 +29,15 @@
             </a>
           </div>
           <div class="media-body">
-            <h6 class="media-heading"><a href="/">Spokane Public Library</a></h6>
+            <h5 class="media-heading"><a href="/">Spokane Public Library</a></h5>
             <address class="help-block" style="">
-              <h5>
+              <h6>
                 906 West Main Avenue
                 <br>
                 Spokane, WA 99201
                 <br>
                 509.444.5300
-              </h5>
+              </h6>
           </address>
           </div>
         </div>
