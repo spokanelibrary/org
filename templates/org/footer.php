@@ -87,8 +87,10 @@
     </div><!-- /.row -->
 
     <hr>
-    <p>
-    Lorem ipsum dolor sit amet
+    <p class="text-center">
+      <span class="help-block">
+        This library is a congressionally designated depository for U.S. Government documents. 
+      </span>
     </p>
   
     <div class="row">
