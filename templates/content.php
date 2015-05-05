@@ -4,7 +4,7 @@
   </header>
   <div class="entry-summary">
     <?php the_excerpt(); ?>
-  	<?php get_template_part('templates/entry-meta'); ?>
+  	<?php //get_template_part('templates/entry-meta'); ?>
   </div>
   <hr>
 </article>
