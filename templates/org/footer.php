@@ -23,8 +23,8 @@
       <div class="col-xs-8 col-sm-3">
         <p>
           <b class="help-block" style="">
-            Spokane Public Library
             <img alt="Spokane Public Library logo" class="" style="width:50px; height:40px; margin:auto;" src="/assets/img/spl-touch-hidpi.png">
+            Spokane Public Library
           </b>
         </p>
         <address class="help-block" style="">
