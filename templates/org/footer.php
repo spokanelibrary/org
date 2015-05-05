@@ -53,7 +53,7 @@
             </a>
           </div>
           <div class="media-body pull-right">
-              <h6 class="media-heading"><a href="https://my.spokanecity.org/">my.spokanecity.org</h6>
+              <h6 class="media-heading"><a href="https://my.spokanecity.org/">my.spokanecity.org</a></h6>
             <h5 class="media-heading help-block">A division of the<br>City of Spokane</h5>
           </div>
         </div>
