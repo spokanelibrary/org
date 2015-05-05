@@ -39,7 +39,7 @@
             </address>
             <h5 class="help-block">
               509.444.5300
-            </h5fd>
+            </h5>
           </div>
         </div>
 
