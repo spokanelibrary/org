@@ -45,7 +45,7 @@
       <div class="col-xs-8 col-sm-6">
 
         <div class="media">
-          <div class="media-left pull-left">
+          <div class="media-right pull-right">
             <a href="/">
               <img class="media-object" style="width:width:75px; height:90px; margin:auto;" src="/assets/img/png/city-spokane-logo-hidpi.png" alt="City of Spokane logo">
             </a>
