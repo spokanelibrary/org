@@ -35,10 +35,11 @@
                 906 West Main Avenue
                 <br>
                 Spokane, WA 99201
-                <br>
-                509.444.5300
               </h6>
-          </address>
+            </address>
+            <p>
+              509.444.5300
+            </p>
           </div>
         </div>
 
