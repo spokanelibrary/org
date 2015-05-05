@@ -21,7 +21,26 @@
 
     <div class="row">
       <div class="col-xs-8 col-sm-3">
-          <img alt="Spokane Public Library logo" class="pull-left" style="width:50px; height:40px; margin:auto;" src="/assets/img/spl-touch-hidpi.png">
+
+        <div class="media">
+          <div class="media-left pull-left">
+            <a href="#">
+              <img class="media-object" style="width:50px; height:40px; margin:auto;" src="/assets/img/spl-touch-hidpi.png" alt="Spokane Public Library logo">
+            </a>
+          </div>
+          <div class="media-body">
+            <h5 class="media-heading">Spokane Public Library</h5>
+            <address class="help-block" style="">
+            906 West Main Avenue
+            <br>
+            Spokane, WA 99201
+            <br>
+            509.444.5300
+          </address>
+          </div>
+        </div>
+        <!--
+        <img alt="Spokane Public Library logo" class="pull-left" style="width:50px; height:40px; margin:auto;" src="/assets/img/spl-touch-hidpi.png">
         <address class="help-block" style="">
           <b>Spokane Public Library</b>
           <br>
@@ -31,6 +50,7 @@
           <br>
           509.444.5300
         </address>
+      -->
       </div><!-- /.col -->
       <!--<div class="col-xs-4 col-sm-3 text-center">
         <a href="https://my.spokanecity.org/">
