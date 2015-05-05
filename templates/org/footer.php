@@ -39,18 +39,6 @@
           </address>
           </div>
         </div>
-        <!--
-        <img alt="Spokane Public Library logo" class="pull-left" style="width:50px; height:40px; margin:auto;" src="/assets/img/spl-touch-hidpi.png">
-        <address class="help-block" style="">
-          <b>Spokane Public Library</b>
-          <br>
-          906 West Main Avenue
-          <br>
-          Spokane, WA 99201
-          <br>
-          509.444.5300
-        </address>
-      -->
       </div><!-- /.col -->
       <!--<div class="col-xs-4 col-sm-3 text-center">
         <a href="https://my.spokanecity.org/">
@@ -60,7 +48,7 @@
           <a href="https://my.spokanecity.org/">Division of the<br>City of Spokane</a>
         </h6>
       </div>--><!-- /.col -->
-      <!--<div class="col-sm-3 hidden-xs text-center">
+      <div class="col-sm-3 hidden-xs text-center">
         <a href="http://www.fdlp.gov">
           <img alt="Federal Depository Library Program logo" 
                 title="This library is a congressionally designated depository for U.S. Government documents. Public access to the government documents collection is guaranteed by public law. (Title 44 United States Code)" 
@@ -68,7 +56,7 @@
                 style="width:200px; margin:auto;" 
                 src="/assets/img/png/fdlp-emblem-logo-text-color">
         </a>
-      </div>--><!-- /.col -->
+      </div><!-- /.col -->
       <!--<div class="col-sm-3 hidden-xs text-right">
         <a href="/">
           <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
