@@ -94,11 +94,10 @@
       <?php //echo date('Y'); ?>
     </p>
 
-    <p class="text-center text-muted">
-      &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>
-    </p>
-
-    <p class="text-center text-muted">
+    <p class="text-center">
+      <span class="help-block">
+        &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>
+      </span>
       <a href="/contact/"><b>Contact Us</b></a>
     </p>
   
