@@ -138,7 +138,7 @@
 
     </div><!-- /.panel -->
 
-    <h6 class="text-center uppercase" style="color:#fff;">
+    <a class="btn btn-sm btn-success" href="http://www.fdlp.gov"><h6 class="text-center uppercase" style="color:#fff;">
         This library is a congressionally designated depository for U.S. Government documents.
-        <a class="btn btn-sm btn-success" href="http://www.fdlp.gov">Learn More &rarr;</a> 
-    </h6>
+        Learn More &rarr;
+    </h6></a> 
