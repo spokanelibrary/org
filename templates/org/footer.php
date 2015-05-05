@@ -89,7 +89,7 @@
     <hr>
     <p class="text-center">
       <span class="help-block">
-        This library is a congressionally designated depository for U.S. Government documents. 
+        This library is a <a href="http://www.fdlp.gov">congressionally designated depository</a> for U.S. Government documents. 
       </span>
     </p>
   
