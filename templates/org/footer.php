@@ -50,8 +50,8 @@
               <img class="media-object" style="width:width:75px; height:90px; margin:auto;" src="/assets/img/png/city-spokane-logo-hidpi.png" alt="City of Spokane logo">
             </a>
           </div>
-          <div class="media-body">
-            <h5 class="media-heading">A division of the<br>City of Spokane</h5>
+          <div class="media-body text-right">
+            <h5 class="media-heading help-block">A division of the<br>City of Spokane</h5>
             <h6 class="media-heading"><a href="https://my.spokanecity.org/">my.spokanecity.org</h6>
           </div>
         </div>
