@@ -86,7 +86,7 @@ Template Name: Home Page
 
     <div class="panel spl-hero-panel spl-hero-news">
       <div class="panel-body">
-        <?php echo do_shortcode('[spl_widget home-page news]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page news refresh]'); ?>
       </div>
     </div>
 
