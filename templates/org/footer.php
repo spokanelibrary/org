@@ -51,7 +51,8 @@
             </a>
           </div>
           <div class="media-body">
-            <h5 class="media-heading"><a href="https://my.spokanecity.org/">A division of the<br>City of Spokane</a></h5>
+            <h5 class="media-heading">A division of the<br>City of Spokane</h5>
+            <h6 class="media-heading"><a href="https://my.spokanecity.org/">my.spokanecity.org</h6>
           </div>
         </div>
 
