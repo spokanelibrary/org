@@ -37,9 +37,9 @@
                 Spokane, WA 99201
               </h6>
             </address>
-            <span class="help-block">
+            <h5 class="help-block">
               509.444.5300
-            </span>
+            </h5>
           </div>
         </div>
 
