@@ -88,12 +88,16 @@
 
     <hr>
 
-    <p class="text-center help-block">
+    <p class="text-center">
         This library is a <a href="http://www.fdlp.gov">congressionally designated depository</a> for U.S. Government documents. 
-        <br>
+    </p>
+
+    <p class="text-center">
+      <span class="help-block">
         &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>
         <br>
         <a href="/contact/"><b>Contact Us</b></a>
+      </span>
     </p>
   
 
