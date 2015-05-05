@@ -39,7 +39,7 @@
             </address>
             <h5 class="help-block">
               509.444.5300
-            </h5>
+            </h5fd>
           </div>
         </div>
 
@@ -86,6 +86,11 @@
       </div>--><!-- /.col -->      
     </div><!-- /.row -->
 
+    <hr>
+    <p>
+    Lorem ipsum dolor sit amet
+    </p>
+  
     <div class="row">
       <div class="col-md-12">
         <!--
