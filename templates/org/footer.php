@@ -91,8 +91,11 @@
       <span class="help-block">
         This library is a <a href="http://www.fdlp.gov">congressionally designated depository</a> for U.S. Government documents. 
       </span>
-      <?php echo date('Y'); ?>
     </p>
+
+    <p class="text-center text-muted">
+          &copy; <?php echo date('Y'); ?> <?php //bloginfo('name'); ?>
+        </p>
   
     <div class="row">
       <div class="col-md-12">
