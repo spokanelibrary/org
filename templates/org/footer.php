@@ -20,7 +20,7 @@
   <footer class="content-info container" role="contentinfo">
 
     <div class="row">
-      <div class="col-xs-8 col-sm-3">
+      <div class="col-xs-8 col-sm-4">
         <p>
           <strong class="help-block" style="">Spokane Public Library</strong>
         </p>
@@ -32,7 +32,7 @@
           509.444.5300
         </address>
       </div><!-- /.col -->
-      <div class="col-xs-4 col-sm-3 text-center">
+      <div class="col-xs-4 col-sm-4 text-center">
         <a href="https://my.spokanecity.org/">
           <img alt="City of Spokane logo" class="" style="width:75px; height:90px;" src="/assets/img/png/city-spokane-logo-hidpi.png">
         </a>
@@ -40,6 +40,7 @@
           <a href="https://my.spokanecity.org/">Division of the<br>City of Spokane</a>
         </h6>
       </div><!-- /.col -->
+      <!--
       <div class="col-sm-3 hidden-xs text-center">
         <a href="http://www.fdlp.gov">
           <img alt="Federal Depository Library Program logo" 
@@ -48,8 +49,8 @@
                 style="width:200px; margin:auto;" 
                 src="/assets/img/png/fdlp-emblem-logo-text-color">
         </a>
-      </div><!-- /.col -->
-      <div class="col-sm-3 hidden-xs text-right">
+      </div>--><!-- /.col -->
+      <div class="col-sm-4 hidden-xs text-right">
         <a href="/">
           <img alt="Spokane Public Library logo" class="" style="width:170px; height:80px; margin:auto;" src="/assets/img/SPL-Logo-hidpi.png">
         </a>
