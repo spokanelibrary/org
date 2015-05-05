@@ -20,7 +20,7 @@
   <footer class="content-info container" role="contentinfo">
 
     <div class="row">
-      <div class="col-xs-8 col-sm-6">
+      <div class="col-sm-6">
 
         <div class="media">
           <div class="media-left pull-left">
@@ -42,7 +42,7 @@
 
       </div><!-- /.col -->
 
-      <div class="col-xs-8 col-sm-6">
+      <div class="col-sm-6">
 
         <div class="media">
           <div class="media-right pull-right">
