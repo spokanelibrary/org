@@ -99,8 +99,8 @@
     </p>
 
     <p class="text-center text-muted">
-          //&copy; 
-        </p>
+      <a href="/contact/"><b>Contact Us</b></a>
+    </p>
   
     <div class="row">
       <div class="col-md-12">
