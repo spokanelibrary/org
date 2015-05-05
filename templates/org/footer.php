@@ -87,25 +87,16 @@
     </div><!-- /.row -->
 
     <hr>
+
     <p class="text-center">
       <span class="help-block">
         This library is a <a href="http://www.fdlp.gov">congressionally designated depository</a> for U.S. Government documents. 
       </span>
+      <span class="help-block">
+        This library is a <a href="http://www.fdlp.gov">congressionally designated depository</a> for U.S. Government documents. 
+      </span>
+      <?php //echo date('Y'); ?>
     </p>
-
-    <p class="text-center text-muted">
-          &copy; <?php echo date('Y'); ?> <?php //bloginfo('name'); ?>
-        </p>
-  
-    <div class="row">
-      <div class="col-md-12">
-        <!--
-        <p class="text-muted">
-          &copy; <?php echo date('Y'); ?> <?php //bloginfo('name'); ?>
-        </p>
-        -->
-      </div><!-- /.col -->
-    </div><!-- /.row -->
 
     <?php echo do_shortcode('[spl_widget login-form modal label]'); ?>
     <?php echo do_shortcode('[spl_widget my-account profile]'); ?>
