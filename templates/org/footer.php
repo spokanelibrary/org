@@ -88,9 +88,9 @@
 
     <hr>
 
-    <p class="text-center">
+    <h5 class="uppercase">
         This library is a <a href="http://www.fdlp.gov">congressionally designated depository</a> for U.S. Government documents. 
-    </p>
+    </h5>
 
     <p class="text-center">
       <span class="help-block">
