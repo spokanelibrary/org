@@ -24,12 +24,12 @@
 
         <div class="media">
           <div class="media-left pull-left">
-            <a href="#">
+            <a href="/">
               <img class="media-object" style="width:50px; height:40px; margin:auto;" src="/assets/img/spl-touch-hidpi.png" alt="Spokane Public Library logo">
             </a>
           </div>
           <div class="media-body">
-            <h5 class="media-heading help-block">Spokane Public Library</h5>
+            <h5 class="media-heading"><a href="/">Spokane Public Library</a></h5>
             <address class="help-block" style="">
             906 West Main Avenue
             <br>
