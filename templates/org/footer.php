@@ -92,6 +92,7 @@
         This library is a <a href="http://www.fdlp.gov">congressionally designated depository</a> for U.S. Government documents. 
     </h6>
 
+    <!--
     <p class="text-center">
       <span class="help-block">
         &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>
@@ -99,7 +100,7 @@
         <a href="/contact/"><b>Contact Us</b></a>
       </span>
     </p>
-  
+    -->
 
     <?php echo do_shortcode('[spl_widget login-form modal label]'); ?>
     <?php echo do_shortcode('[spl_widget my-account profile]'); ?>
