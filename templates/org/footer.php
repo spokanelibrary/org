@@ -86,9 +86,9 @@
       </div>--><!-- /.col -->      
     </div><!-- /.row -->
 
-    <hr>
 
     <!--
+    <hr>
     <p class="text-center">
       <span class="help-block">
         &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>
