@@ -55,7 +55,7 @@
             </a>
           </div>
           <div class="media-body pull-right">
-            <h5 class="media-heading help-block">City of Spokane</h5>
+            <h5 class="media-heading">City of Spokane</h5>
             <address class="help-block">
               <h6 class="media-heading normal"><a href="https://my.spokanecity.org/">my.spokanecity.org</a></h6>
             </address>
