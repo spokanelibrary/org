@@ -29,7 +29,7 @@
             </a>
           </div>
           <div class="media-body">
-            <h5 class="media-heading">Spokane Public Library</h5>
+            <h5 class="media-heading help-block">Spokane Public Library</h5>
             <address class="help-block" style="">
             906 West Main Avenue
             <br>
