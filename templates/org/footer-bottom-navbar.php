@@ -140,5 +140,6 @@
 
     <h6 class="text-center uppercase" style="color:#fff;">
         This library is a congressionally designated depository for U.S. Government documents.
+        <br class="visible-xs visible-sm">
         <a rel="external" style="border-color:#fff;" class="btn btn-sm btn-success" href="http://www.fdlp.gov"><b>Learn More &rarr;</b></a> 
     </h6>
