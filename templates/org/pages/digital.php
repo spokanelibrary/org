@@ -66,10 +66,10 @@
 
 		  <div class="media-body">
 		    <h4 class="media-heading">
-		    	<a href="/subscriptions/">Subscription databases</a>
+		    	<a href="/research/">Subscription databases</a>
 		    </h4>
-	    	Wide ranging topics, from <a href="/subscriptions/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
-	    	<a href="/subscriptions/#all"><b>View all</b> &rarr;</a>
+	    	Wide ranging topics, from <a href="/research/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
+	    	<a href="/research/#all"><b>View all</b> &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
 
