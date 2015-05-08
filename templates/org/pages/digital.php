@@ -54,7 +54,7 @@
 		</div>
 		
 		<div class="media">
-		  <a class="pull-left btn btn-success btn-xs" href="/subscriptions/">
+		  <a class="pull-left btn btn-success btn-xs" href="/databases/">
 		  	<div class="media-object">
 		  		<h4 class="spl-btn-icon">
 		  			<span class="label label-primary">
