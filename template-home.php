@@ -63,7 +63,7 @@ Template Name: Home Page
             Coming Up
           </h4>
           <div class="panel-body" style="padding-bottom:0;">
-            <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded refresh]'); ?>
+            <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded]'); ?>
             <div class="calendar-promo">
               <h5 class="text-center">
                 <a href="/calendar/">Full Calendar <span class="text-muted">&rarr;</span></a>
@@ -86,7 +86,7 @@ Template Name: Home Page
 
     <div class="panel spl-hero-panel spl-hero-news">
       <div class="panel-body">
-        <?php echo do_shortcode('[spl_widget home-page news refresh]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page news]'); ?>
       </div>
     </div>
 
