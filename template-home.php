@@ -104,7 +104,7 @@ Template Name: Home Page
         </div>
       <div class="panel-body" style="/*padding-left: 40px; padding-right: 40px;*/">
         
-        <?php echo do_shortcode('[spl_widget home-page carousel pause control browse-group refresh]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page carousel pause control browse-group]'); ?>
       </div>
     </div>
 
