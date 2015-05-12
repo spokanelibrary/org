@@ -10,8 +10,8 @@
   <!-- <meta property="fb:page_id" content="221388865081" /> -->
   <meta property="og:title" content="Spokane Public Library" />
   <meta property="og:type" content="non_profit" />
-  <meta property="og:url" content="http://splweb.spokanelibrary.org/" />
-  <meta property="og:image" content="http://www.spokanelibrary.org/fb/fb-avatar.png" />
+  <meta property="og:url" content="http://www.spokanelibrary.org/" />
+  <meta property="og:image" content="http://www.spokanelibrary.org/assets/img/spl-touch-hidpi.png" />
   <meta property="og:site_name" content="Spokane Public Library" />
   
   <meta property="og:description" content=""/>
