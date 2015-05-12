@@ -7,16 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <!-- <meta property="fb:page_id" content="221388865081" /> -->
-  <meta property="og:title" content="Spokane Public Library" />
-  <meta property="og:type" content="non_profit" />
-  <meta property="og:url" content="http://www.spokanelibrary.org/" />
-  <meta property="og:image" content="http://www.spokanelibrary.org/assets/img/spl-touch-hidpi.png" />
-  <meta property="og:site_name" content="Spokane Public Library" />
-  
-  <meta property="og:description" content=""/>
-  <!-- <meta property="fb:admins" content="662763295" /> -->
-
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
