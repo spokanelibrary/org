@@ -68,6 +68,17 @@
 			<a class="btn btn-default btn-block" rel="external" href="https://familysearch.org/">More &rarr;</a>
 		</p>
 	</div><!-- /.col -->
+	<div class="col-md-6">
+		<h4>
+			<a rel="external" href="http://www.digitalarchives.wa.gov/Home">Washington State Digial Archives</a>
+		</h4>
+		<p>
+			The Washington State Digial Archives contain electronic indexes and records from both State and Local databases, including Marriage Records, Naturalization Records, Census Records, Death Records, Birth Records, Military Records, and Institution Records. 
+		</p>
+		<p>
+			<a class="btn btn-default btn-block" rel="external" href="http://www.digitalarchives.wa.gov/Home">More &rarr;</a>
+		</p>
+	</div><!-- /.col -->
 
 </div><!-- /.row -->
 
