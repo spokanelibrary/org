@@ -106,7 +106,7 @@
 		
 		<p>
 			<a class="btn btn-default" 
-					href="/subscriptions/">View all <b>subscription databases</b> &rarr;</a>
+					href="/research/">View all <b>subscription databases</b> &rarr;</a>
 		</p>
 
 	</div><!-- /.panel-body -->
