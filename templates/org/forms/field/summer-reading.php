@@ -23,7 +23,7 @@
             </legend>
             
             <?php include 'common/shared/field-contact-name.php'; ?>
-            
+
             <?php include 'common/field-submit.php'; ?>
 
           </fieldset>
@@ -31,9 +31,11 @@
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
-  </div><!-- /.row -->
+  </div><!-- /.col -->
 
 
+  <div class="col-md-4">
+    A sidebar
   </div><!-- /.col -->
 
 </div><!-- /.row -->
