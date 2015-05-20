@@ -29,7 +29,7 @@
               </div>
             </div>
 
-            <div class="form-group">
+            <div class="form-group form-group-lg">
               <label for="spl-form-name" class="col-sm-4 control-label">How old are you?</label>
               <div class="col-sm-8 col-md-6">
                 <select 
@@ -59,7 +59,7 @@
               </div>
             </div>
 
-            <div class="form-group">
+            <div class="form-group form-group-lg">
               <label for="spl-form-name" class="col-sm-4 control-label">Which branch do you visit most?</label>
               <div class="col-sm-8 col-md-6">
                 <select 
