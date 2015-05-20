@@ -22,7 +22,47 @@
               Get your summer reading log
             </legend>
             
-            <?php include 'common/shared/field-contact-name.php'; ?>
+            <div class="form-group">
+              <label for="spl-form-name" class="col-sm-4 control-label">What is your name?</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control required" id="spl-form-name" name="spl-form[name]" placeholder="">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="spl-form-name" class="col-sm-4 control-label">How old are you?</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control required" id="spl-form-age" name="spl-form[age]" placeholder="">
+              
+                <select 
+                    name="spl-form[age]" 
+                    id="spl-form-age"
+                    class=""
+                    title="Please select your age."
+                    >
+                <option value="0">Your Age...</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="adult">Over 16 years old</option>
+            </select>
+
+              </div>
+            </div>
+
+
 
             <?php include 'common/field-submit.php'; ?>
 
