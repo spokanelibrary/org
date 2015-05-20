@@ -5,7 +5,7 @@ if ( !empty($crass->request) ) {
   echo 'test';
   include 'field/summer-reading-response.php';
   } else {
-  include 'field/summer-reading.php';
+  //include 'field/summer-reading.php';
 }
 ?>
 
