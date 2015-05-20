@@ -4,14 +4,15 @@
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
-    
-    <?php if( 'adult' == $crass->request['age'] ) : ?>
-    <a href="/assets/pdf/spl-summer-reading-log-2015-adult.pdf">
-    <?php else: ?>
-    <a href="/assets/pdf/spl-summer-reading-log-2015.pdf">
-    <?php endif; ?>
-    <h4>Get your summer reading log now &rarr;</h4>
-    </a>
+    <p>
+      <?php if( 'adult' == $crass->request['age'] ) : ?>
+      <a href="/assets/pdf/spl-summer-reading-log-2015-adult.pdf">
+      <?php else: ?>
+      <a href="/assets/pdf/spl-summer-reading-log-2015.pdf">
+      <?php endif; ?>
+      <b>Get your summer reading log now &rarr;</b>
+      </a>
+    </p>
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
 
