@@ -79,9 +79,14 @@
               </div>
             </div>
 
-
-
-            <?php include 'common/field-submit.php'; ?>
+            <div class="form-group">
+              <div class="col-sm-offset-4 col-sm-8 col-md-6">
+                <button type="submit" class="btn btn-block btn-success">
+                  <small class="glyphicon glyphicon-check"></small>
+                  Get Your Reading Log Now &rarr;
+                </button>
+              </div>
+            </div>
 
           </fieldset>
         </form>
