@@ -1,6 +1,6 @@
 <div class="panel panel-success">
   <div class="panel-heading">
-    <h3>Thank You!</h3>
+    <h3>Thank You <?php if( !empty($crass->request['name']) ) : ?> <?php echo ' '.$crass->request['name']; ?><?php endif; ?>!</h3>
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
