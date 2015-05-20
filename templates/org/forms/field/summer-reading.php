@@ -18,12 +18,12 @@
 
           <fieldset>
             <legend class="text-muted">
-              <small class="glyphicon glyphicon-question-sign"></small>
+              <small class="glyphicon glyphicon-download-alt"></small>
               Get your summer reading log
             </legend>
             <div class="form-group">
 
-            <?php include 'common/field-submit.php'; ?>
+            <?php //include 'common/field-submit.php'; ?>
 
           </fieldset>
         </form>
