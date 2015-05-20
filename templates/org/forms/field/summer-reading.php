@@ -23,7 +23,7 @@
             </legend>
             <div class="form-group">
 
-            <?php //include 'common/field-submit.php'; ?>
+            <?php include 'common/field-submit.php'; ?>
 
           </fieldset>
         </form>
