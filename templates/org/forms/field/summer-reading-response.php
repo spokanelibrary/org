@@ -20,7 +20,7 @@
       <dt>Your Age</dt>
       <dd>
         <p>
-          <?php echo $crass->request['age']; ?>
+          <?php echo ucfirst($crass->request['age']); ?>
         </p>
       </dd>
       <?php endif; ?>
