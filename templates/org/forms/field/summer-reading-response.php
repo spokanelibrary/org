@@ -4,7 +4,7 @@
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
-    <h4>We received your request:</h4>
+    <h4>We received your Summer Reading Signup:</h4>
     <dl class="dl-horizontal">
 
       <?php if( !empty($crass->request['name']) ) : ?>
@@ -16,29 +16,20 @@
       </dd>
       <?php endif; ?>
 
-      <?php if( !empty($crass->request['barcode']) ) : ?>
-      <dt>Your Library Card</dt>
+      <?php if( !empty($crass->request['age']) ) : ?>
+      <dt>Your Age</dt>
       <dd>
         <p>
-          <?php echo $crass->request['barcode']; ?>
+          <?php echo $crass->request['age']; ?>
         </p>
       </dd>
       <?php endif; ?>
 
-      <?php if( !empty($crass->request['email']) ) : ?>
-      <dt>Your Email</dt>
+      <?php if( !empty($crass->request['branch']) ) : ?>
+      <dt>Your Library Branch</dt>
       <dd>
         <p>
-          <?php echo $crass->request['email']; ?>
-        </p>
-      </dd>
-      <?php endif; ?>
-
-      <?php if( !empty($crass->request['question']) ) : ?>
-      <dt>Your Question</dt>
-      <dd>
-        <p>
-          <?php echo $crass->request['question']; ?>
+          <?php echo $crass->request['branch']; ?>
         </p>
       </dd>
       <?php endif; ?>
