@@ -18,8 +18,8 @@
 
           <fieldset>
             <legend class="text-muted">
-              <small class="glyphicon glyphicon-download-alt"></small>
-              Get your summer reading log
+              <small class="glyphicon glyphicon-user"></small>
+              Please tell us about yourself
             </legend>
             
             <div class="form-group">
