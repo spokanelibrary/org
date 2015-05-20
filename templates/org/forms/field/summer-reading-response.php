@@ -10,8 +10,9 @@
       <?php else: ?>
       <a href="/assets/pdf/spl-summer-reading-log-2015.pdf">
       <?php endif; ?>
-      <b>Get your summer reading log now &rarr;</b>
+      <b>Get your summer reading log now</b>
       </a>
+      &rarr;
     </p>
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
