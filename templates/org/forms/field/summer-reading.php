@@ -29,13 +29,13 @@
               </div>
             </div>
 
-            <div class="form-group form-group-lg">
+            <div class="form-group">
               <label for="spl-form-name" class="col-sm-4 control-label">How old are you?</label>
               <div class="col-sm-8 col-md-6">
                 <select 
                     name="spl-form[age]" 
                     id="spl-form-age"
-                    class="form-control"
+                    class="form-control input-lg"
                     title="Please select your age."
                     >
                     <option value="0">Your Age...</option>
