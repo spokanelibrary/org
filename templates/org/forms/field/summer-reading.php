@@ -1,6 +1,6 @@
 <div class="row">
 
-  <div class="col-md-12">
+  <div class="col-md-8">
     
     <div class="panel panel-default">
       <div class="panel-body">
@@ -21,10 +21,9 @@
               <small class="glyphicon glyphicon-download-alt"></small>
               Get your summer reading log
             </legend>
-            <div class="form-group">
-
+            
             <?php include 'common/shared/field-contact-name.php'; ?>
-
+            
             <?php include 'common/field-submit.php'; ?>
 
           </fieldset>
