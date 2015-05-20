@@ -25,7 +25,7 @@
             <div class="form-group">
               <label for="spl-form-name" class="col-sm-4 control-label">What is your name?</label>
               <div class="col-sm-8 col-md-6">
-                <input type="text" class="form-control required" id="spl-form-name" name="spl-form[name]" placeholder="">
+                <input type="text" class="form-control input-lg required" id="spl-form-name" name="spl-form[name]" placeholder="">
               </div>
             </div>
 
@@ -65,7 +65,7 @@
                 <select 
                     name="spl-form[branch]" 
                     id="spl-form-branch"
-                    class="form-control"
+                    class="form-control input-lg"
                     title="Please select a library branch."
                     >
                     <option value="">Your Library Branch...</option>
