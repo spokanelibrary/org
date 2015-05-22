@@ -322,15 +322,13 @@ var org = {
 		        // it may need to be removed!!!!!
 		        ######################################
 		        */
-		        //_self.login = {};
+		        //_self.login = {}; // this breaks autocallbacks
 
 
 
 		        //$('#spl-login-modal').modal('hide');
 		        $('.spl-login-modal-response').addClass('hide');
-		        if ( console && console.log ) {
-		        		console.log( _self.user );
-		        	}
+
 		        if ( _self.user && _self.user.sessionToken ) {
 		        	if ( _self.login.callbackFunction && _self.login.callbackTrigger ) {
 		        		_self.login.callbackFunction(_self.login.callbackTrigger);
