@@ -77,7 +77,7 @@ Template Name: Home Page
       <div class="col-sm-8 col-sm-pull-4 col-md-6 col-md-pull-3">
 
         <div class="panel spl-hero-panel spl-hero-muted">
-          <?php echo do_shortcode('[spl_carousel_photo auto random slug=carousel refresh]'); ?>
+          <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage refresh]'); ?>
         </div>
         
       </div><!-- /.col -->
