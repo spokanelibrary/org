@@ -98,7 +98,7 @@ if ( !empty($spl_home) ): ;
       <div class="col-sm-8 col-sm-pull-4 col-md-6 col-md-pull-3">
 
         <div class="panel spl-hero-panel spl-hero-muted">
-          <?php echo do_shortcode('[spl_carousel_photo auto random slug=carousel]'); ?>
+          <?php echo do_shortcode('[spl_carousel_photo auto random refresh]'); ?>
         </div>
         
       </div><!-- /.col -->
