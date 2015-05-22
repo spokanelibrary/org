@@ -1,7 +1,4 @@
-<div class="row">
 
-  <div class="col-md-8">
-    
     <div class="panel panel-default">
       <div class="panel-body">
         <form class="form-horizontal spl-form" id="spl-form-summer" method="post" role="form">
@@ -93,11 +90,4 @@
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
-  </div><!-- /.col -->
 
-
-  <div class="col-md-4">
-    A sidebar
-  </div><!-- /.col -->
-
-</div><!-- /.row -->
