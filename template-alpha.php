@@ -41,6 +41,7 @@ if ( !empty($spl_home) ): ;
 
 
 
+
 <div class="row">
 
   <div class="col-lg-10 col-lg-offset-1">
@@ -99,7 +100,7 @@ if ( !empty($spl_home) ): ;
             Coming Up
           </h4>
           <div class="panel-body" style="padding-bottom:0;">
-            <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded refresh]'); ?>
+            <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded]'); ?>
             <div class="calendar-promo">
               <h5 class="text-center">
                 <a href="/calendar/">Full Calendar <span class="text-muted">&rarr;</span></a>
@@ -113,13 +114,12 @@ if ( !empty($spl_home) ): ;
       <div class="col-sm-8 col-sm-pull-4 col-md-6 col-md-pull-3">
 
         <div class="panel spl-hero-panel spl-hero-muted">
-          <?php echo do_shortcode('[spl_carousel_photo auto random slug=stage]'); ?>
+          <?php echo do_shortcode('[spl_carousel_photo auto random slug=carousel]'); ?>
         </div>
         
       </div><!-- /.col -->
 
     </div><!-- /.row -->
-
 
     <div class="panel spl-hero-panel spl-hero-news">
       <div class="panel-body">
@@ -135,13 +135,13 @@ if ( !empty($spl_home) ): ;
       </h4>
       -->
       <div class="browse-promo text-center">
-          <a class="" href="/browse/">Browse&nbsp;popular&nbsp;titles&nbsp;<small>&rarr;</small></a>
+          <a class="hidden-xs" href="/browse/">Browse&nbsp;popular&nbsp;titles&nbsp;<small>&rarr;</small></a>
           <a class="" href="/new/">Browse&nbsp;new&nbsp;materials&nbsp;<small>&rarr;</small></a>
-          <a class="" href="/request/">Request&nbsp;something&nbsp;we&nbsp;don't&nbsp;have&nbsp;<small>&rarr;</small></a>
+          <a class="hidden-xs" href="/request/">Request&nbsp;something&nbsp;we&nbsp;don't&nbsp;have&nbsp;<small>&rarr;</small></a>
         </div>
       <div class="panel-body" style="/*padding-left: 40px; padding-right: 40px;*/">
         
-        <?php echo do_shortcode('[spl_widget home-page carousel pause control browse-group refresh]'); ?>
+        <?php echo do_shortcode('[spl_widget home-page carousel pause control browse-group]'); ?>
       </div>
     </div>
 
