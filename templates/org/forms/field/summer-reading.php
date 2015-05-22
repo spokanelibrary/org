@@ -14,11 +14,12 @@
                 />
 
           <fieldset>
+            <!--
             <legend class="text-muted">
               <small class="glyphicon glyphicon-user"></small>
               Please tell us about yourself
             </legend>
-            
+            -->
             <div class="form-group">
               <label for="spl-form-name" class="col-sm-4 control-label">What is your name?</label>
               <div class="col-sm-8 col-md-6">
