@@ -1,8 +1,11 @@
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h4 class=" clearfix">
-        <a class="btn btn-default pull-right" href="<?php echo $_SERVER['REQUEST_URI'] ;?>">Start over</a>
+    <h4 class="panel-title">
       Library Card Application
+      <small class="pull-right">
+        <i class="glyphicon glyphicon-refresh"></i>
+        <a class="" href="<?php echo $_SERVER['REQUEST_URI'] ;?>">Start over</a>
+      </small>
     </h4>
   </div>
   <div class="panel-body">
