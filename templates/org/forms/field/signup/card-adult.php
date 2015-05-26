@@ -1,9 +1,9 @@
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="clearfix">
+    <h4 class="clearfix">
       Library Card Application
       <a class="btn btn-sm btn-default pull-right" style="margin:0;" href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><i class="glyphicon glyphicon-refresh"></i> Start over</a>
-    </h3>
+    </h4>
   </div>
   <div class="panel-body">
 
