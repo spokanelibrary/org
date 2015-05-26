@@ -2,7 +2,7 @@
   <div class="panel-heading clearfix">
     <a class="btn btn-sm btn-warning pull-right" href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><i class="glyphicon glyphicon-refresh"></i> Start over</a>
     <h4 class="panel-title">
-      Library Card Application
+      Library Card Application for Non-Residents
     </h4>
   </div>
   <div class="panel-body">
