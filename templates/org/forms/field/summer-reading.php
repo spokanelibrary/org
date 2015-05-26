@@ -17,7 +17,7 @@
             
             <legend class="text-muted">
               <small class="glyphicon glyphicon-pencil"></small>
-              Fill out this form to get started
+              Sign up for Summer Reading
             </legend>
             
             <div class="form-group">
