@@ -268,6 +268,15 @@ var org = {
 				$btn.text($btn.data('complete-text'));
 				// ToDo: show note about 24hr timing.
 				//console.log(obj);
+
+				if ( $('#spl-hold-confirm-tmpl') ) {
+					console.log(obj);					
+				}
+				/*
+				$titles = $('#spl-related-titles-'+isbn);
+    		tmpl = Handlebars.compile( $("#related-titles-tmpl").html() );
+		    $titles.html( tmpl({novelist:data}) );
+				*/
 	  	} else {
 	  		//$btn.button('error');
 	  		$btn.addClass('btn-danger').text($btn.data('error-text'));
