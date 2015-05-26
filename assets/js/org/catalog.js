@@ -270,7 +270,7 @@ var org = {
 				//console.log(obj);
 
 				if ( $('#spl-hold-confirm-tmpl') ) {
-					console.log(obj);					
+					//console.log(obj);					
 					$confirm = $('#spl-hold-confirm-'+obj.titleKey);
   	  		tmpl = Handlebars.compile( $("#spl-hold-confirm-tmpl").html() );
 			    $confirm.html( tmpl({request:obj}) );
