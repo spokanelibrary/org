@@ -1,6 +1,6 @@
 <div class="panel panel-success">
   <div class="panel-heading clearfix">
-    <a class="btn btn-sm btn-warning pull-right" href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><i class="glyphicon glyphicon-refresh"></i> Start over</a>
+    <a class="btn btn-sm btn-success pull-right" href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><i class="glyphicon glyphicon-refresh"></i> Start over</a>
     <h4 class="panel-title">
       Library Card Application for Teachers &amp; Librarians
     </h4>
