@@ -2,10 +2,7 @@
   <div class="panel-heading">
     <h4 class="panel-title">
       Library Card Application
-      <small class="pull-right">
-        <i class="glyphicon glyphicon-refresh"></i>
-        <a class="" href="<?php echo $_SERVER['REQUEST_URI'] ;?>">Start over</a>
-      </small>
+      <a class="pull-right" href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><i class="glyphicon glyphicon-refresh"></i> Start over</a>
     </h4>
   </div>
   <div class="panel-body">
