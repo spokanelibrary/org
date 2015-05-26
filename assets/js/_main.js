@@ -191,7 +191,7 @@ var ORG = {
       });
 
       $('body').on('submit', '.spl-form', function(e) {
-        $('button').attr('disabled', true);
+        //$('button').attr('disabled', true);
       });
 
       $('.spl-form').validate({
