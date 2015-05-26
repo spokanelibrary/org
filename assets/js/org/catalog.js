@@ -271,12 +271,11 @@ var org = {
 
 				if ( $('#spl-hold-confirm-tmpl') ) {
 					console.log(obj);					
+					$confirm = $('#spl-hold-confirm-'+obj.titleKey);
+  	  		tmpl = Handlebars.compile( $("#spl-hold-confirm-tmpl").html() );
+			    $confirm.html( tmpl({request:obj}) );
 				}
-				/*
-				$titles = $('#spl-related-titles-'+isbn);
-    		tmpl = Handlebars.compile( $("#related-titles-tmpl").html() );
-		    $titles.html( tmpl({novelist:data}) );
-				*/
+				
 	  	} else {
 	  		//$btn.button('error');
 	  		$btn.addClass('btn-danger').text($btn.data('error-text'));
