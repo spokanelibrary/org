@@ -1,13 +1,10 @@
 <div class="panel panel-success">
-  <div class="panel-heading">
-		<h4 class="panel-title">
-			Library Card Application for Teachers &amp; Librarians
-			<small class="pull-right">
-        <i class="glyphicon glyphicon-refresh"></i>
-        <a href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><span class="text-muted">Start over</span></a>
-      </small>
-		</h4>
-	</div>
+  <div class="panel-heading clearfix">
+    <a class="btn btn-sm btn-warning pull-right" href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><i class="glyphicon glyphicon-refresh"></i> Start over</a>
+    <h4 class="panel-title">
+      Library Card Application for Teachers &amp; Librarians
+    </h4>
+  </div>
 	<div class="panel-body">
   	
     <fieldset>
