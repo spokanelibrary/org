@@ -4,7 +4,7 @@
       Library Card Application
       <small class="pull-right">
         <i class="glyphicon glyphicon-refresh"></i>
-        <a href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><span class="text-muted">Start over</span></a>
+        <a class="btn btn-default" href="<?php echo $_SERVER['REQUEST_URI'] ;?>">Start over</a>
       </small>
     </h4>
   </div>
