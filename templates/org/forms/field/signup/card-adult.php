@@ -1,6 +1,6 @@
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h4 class="panel-title">
+    <h4 class="panel-title clearfix">
         <a class="btn btn-default pull-right" href="<?php echo $_SERVER['REQUEST_URI'] ;?>">Start over</a>
       Library Card Application
     </h4>
