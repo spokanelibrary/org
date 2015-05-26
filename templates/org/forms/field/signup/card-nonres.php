@@ -1,11 +1,8 @@
 <div class="panel panel-warning">
   <div class="panel-heading">
-    <h4 class="panel-title">
-      Library Card Application for Non-Residents
-      <small class="pull-right">
-        <i class="glyphicon glyphicon-refresh"></i>
-        <a href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><span class="text-muted">Start over</span></a>
-      </small>
+    <h4 class="panel-title clearfix">
+      Library Card Application
+      <a class="btn btn-sm btn-warning pull-right" href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><i class="glyphicon glyphicon-refresh"></i> Start over</a>
     </h4>
   </div>
   <div class="panel-body">
