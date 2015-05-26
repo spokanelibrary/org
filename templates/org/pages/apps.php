@@ -158,10 +158,6 @@
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/zinio-for-libraries/id952437054?mt=8">iOS &rarr;</a>
           <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.zinio.mobile.android.libraries">Android &rarr;</a>
         </p>
-        <a rel="external" href="http://apps.microsoft.com/webpdp/en-US/app/zinio/790e1b04-01f7-4c06-a0d6-07d8501b53b6">Windows 8</a>
-        | 
-        <a rel="external" href="http://www.zinio.com/www/apps/desktop.jsp">Desktop <small>(Mac or Windows)</small></a>
-        | 
         <a rel="external" href="https://www.rbdigital.com/files/ZinioForLibraries.1.0.2.20150415-arm-RELEASE.apk">Kindle HD/HDX <small>(sideload)</small></a>
       </div>
     </div><!-- /.media -->
