@@ -41,11 +41,12 @@
 
 
 <?php
-/*
+
 echo '<pre>';
+print_r($_REQUEST['spl-form']);
 print_r($crass);
 print_r($crass->result);
 print_r($crass->request); 
 echo '</pre>';
-*/
+
 ?>
