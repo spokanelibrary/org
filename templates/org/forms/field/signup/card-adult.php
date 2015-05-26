@@ -1,8 +1,8 @@
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      Library Card Application
         <a class="btn btn-default pull-right" href="<?php echo $_SERVER['REQUEST_URI'] ;?>">Start over</a>
+      Library Card Application
     </h4>
   </div>
   <div class="panel-body">
