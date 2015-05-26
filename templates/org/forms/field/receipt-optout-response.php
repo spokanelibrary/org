@@ -38,3 +38,14 @@
 </div>
 
 <?php endif; ?>
+
+
+<?php
+
+echo '<pre>';
+print_r($crass);
+print_r($crass->result);
+print_r($crass->request); 
+echo '</pre>';
+
+?>
