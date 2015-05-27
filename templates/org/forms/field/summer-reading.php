@@ -1,5 +1,8 @@
 
     <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Sign up for Summer Reading</h3>
+      </div><!-- /.panel-heading -->
       <div class="panel-body">
         <form class="form-horizontal spl-form" id="spl-form-summer" method="post" role="form">
           
@@ -15,10 +18,6 @@
 
           <fieldset>
             
-            <legend class="text-muted">
-              <small class="glyphicon glyphicon-pencil"></small>
-              Sign up for Summer Reading
-            </legend>
             
             <div class="form-group">
               <label for="spl-form-name" class="col-sm-4 control-label">What is your name?</label>
