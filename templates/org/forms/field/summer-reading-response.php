@@ -5,7 +5,7 @@
 
   <div class="panel-body">
     <p>
-      <i class="glyphicon glyphicon-alt"></i>
+      <i class="glyphicon glyphicon-download-alt"></i>
       <?php if( 'adult' == $crass->request['age'] ) : ?>
       <a href="/assets/pdf/spl-summer-reading-log-2015-adult.pdf">
       <?php else: ?>
