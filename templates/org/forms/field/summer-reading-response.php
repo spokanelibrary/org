@@ -1,4 +1,4 @@
-<div class="panel panel-success">
+<div class="panel panel-default">
   <div class="panel-heading">
     <h3>Thank You <?php if( !empty($crass->request['name']) ) : ?> <?php echo ' '.ucfirst($crass->request['name']); ?><?php endif; ?>!</h3>
   </div><!-- /.panel-heading -->
