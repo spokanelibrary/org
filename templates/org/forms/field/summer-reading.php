@@ -1,5 +1,5 @@
 
-    <div class="panel panel-primary" style="background-image:url('/assets/img/spl-touch-bg.png');background-position:-20px -20px;background-repeat:no-repeat">
+    <div class="panel panel-primary" style="background-image:url('/assets/img/spl-touch-bg.png');background-position:0px 200px;background-repeat:no-repeat">
       <div class="panel-body">
         <form class="form-horizontal spl-form" id="spl-form-summer" method="post" role="form">
           
