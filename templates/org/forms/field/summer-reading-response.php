@@ -1,4 +1,4 @@
-<div class="panel panel-primary">
+<div class="panel panel-primary"  style="background-image:url('/assets/img/spl-touch-bg.png');background-position:400px 0px;background-repeat:no-repeat">
   <div class="panel-heading">
     <h3 class="panel-title">Thank You <?php if( !empty($crass->request['name']) ) : ?> <?php echo ' '.ucfirst($crass->request['name']); ?><?php endif; ?>!</h3>
   </div><!-- /.panel-heading -->
