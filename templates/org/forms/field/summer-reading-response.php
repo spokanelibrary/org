@@ -4,6 +4,7 @@
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
+    <p>&nbsp;</p>
     <p>
       <i class="glyphicon glyphicon-download-alt"></i>
       <?php if( 'adult' == $crass->request['age'] ) : ?>
@@ -11,9 +12,10 @@
       <?php else: ?>
       <a href="/assets/pdf/spl-summer-reading-log-2015.pdf">
       <?php endif; ?>
-      <b>Get your summer reading log now</b>
+      <b>Open your summer reading log</b>
       </a>
     </p>
+    <p>&nbsp;</p>
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
 
