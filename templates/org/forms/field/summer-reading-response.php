@@ -12,7 +12,7 @@
       <?php else: ?>
       <a href="/assets/pdf/spl-summer-reading-log-2015.pdf">
       <?php endif; ?>
-      <b>Open your summer reading log&hellip;</b>
+      <h3>Open your summer reading log&hellip;</h3>
       </a>
     </p>
     <p>&nbsp;</p>
