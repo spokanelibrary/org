@@ -1,7 +1,7 @@
 <?php
 function spl_get_location_by_ip() {
   $ip = $_SERVER['REMOTE_ADDR'];
-  $loc = 'dt';
+  $loc = 'es';
 
   if (strpos ($ip, "10.14.21") === 0) {
     $loc = 'es';
