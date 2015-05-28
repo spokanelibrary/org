@@ -14,6 +14,7 @@
       </legend>
       <?php include 'shared/card-name.php'; ?>
       <?php include 'shared/card-pin-cards.php'; ?>
+      <?php include 'shared/card-online-only.php'; ?>
       <?php include 'shared/card-location.php'; ?>
     </fieldset>
 
