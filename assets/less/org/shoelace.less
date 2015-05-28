@@ -384,7 +384,12 @@ body {
       width: 170px; height: 85px;
       //background: transparent @logo-path-inverse no-repeat center center;
       background: transparent @logo-path no-repeat center center;
-      background-size: 170px 80px; 
+      background-size: 170px 80px !important; 
+
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@logo-path-inverse', sizingMethod='scale');
+
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@logo-path-inverse', sizingMethod='scale')";
+
     }
   }
 
