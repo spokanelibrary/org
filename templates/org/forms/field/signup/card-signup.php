@@ -77,7 +77,7 @@ function spl_get_location_by_ip() {
         />
 
   <input type="hidden" 
-        id="spl-signup-selection" 
+        id="spl-signup-netloc" 
         name="spl-form[signup][netloc]" 
         value="<?php  echo spl_get_location_by_ip();?>" 
         />
