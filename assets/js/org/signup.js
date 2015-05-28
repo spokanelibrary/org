@@ -41,6 +41,7 @@ var org = {
 
     _self.checkAddressLocale();
     _self.checkAgeGuardian();
+    _self.checkNetworkLocation();
 
     $('body').on('blur', '#spl-form-birthdate', function(e) {
       _self.normalizeBirthdate( $(this).attr('id'), $(this).val() );
@@ -75,6 +76,11 @@ var org = {
 , modalAgree: function(btn) {
   //console.log(btn);
   $('#spl-signup-agree').prop('checked', true);
+}
+
+,checkNetworkLocation: function() {
+  var netloc = $('#spl-signup-netloc');
+  console.log(netloc);
 }
 
 , checkAgeGuardian: function() {
