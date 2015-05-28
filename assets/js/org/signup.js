@@ -80,7 +80,9 @@ var org = {
 
 ,checkNetworkLocation: function() {
   $netloc = $('#spl-signup-netloc');
-  console.log( $netloc.val() );
+  if ( $netloc ) {
+    console.log( $netloc.val() );
+  }
 }
 
 , checkAgeGuardian: function() {
