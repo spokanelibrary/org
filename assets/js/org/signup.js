@@ -59,7 +59,7 @@ var org = {
     });
 
     $('body').on('click', '#spl-terms-modal-agree', function(e) {
-      console.log('modal agree');
+      _self.modalAgree(this);
     });
 
     /*
@@ -71,6 +71,10 @@ var org = {
     });
     */
   }
+
+, modalAgree: function(obj) {
+  console.log(obj);
+}
 
 , checkAgeGuardian: function() {
     switch ( $('#spl-signup-selection').val() ) {
