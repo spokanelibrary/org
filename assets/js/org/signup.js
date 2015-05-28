@@ -72,8 +72,9 @@ var org = {
     */
   }
 
-, modalAgree: function(obj) {
-  console.log(obj);
+, modalAgree: function(btn) {
+  //console.log(btn);
+  $('#spl-signup-agree').prop('checked');
 }
 
 , checkAgeGuardian: function() {

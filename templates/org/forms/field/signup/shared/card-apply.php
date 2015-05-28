@@ -58,7 +58,7 @@
         </ul>
       </div>
       <div class="modal-footer">
-        <button id="spl-terms-modal-agree" type="button" class="btn btn-success">I agree!</button>
+        <button id="spl-terms-modal-agree" data-dismiss="modal" type="button" class="btn btn-success">I agree!</button>
       </div>
     </div>
   </div>
