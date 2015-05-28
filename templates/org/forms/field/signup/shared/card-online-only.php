@@ -1,5 +1,5 @@
 <div class="form-group">
-  <label for="spl-form-location" class="col-sm-3 control-label">My library branch</label>
+  <label for="spl-form-location" class="col-sm-3 control-label">Card type</label>
   <div class="col-sm-3">
     <div class="checkbox">
       <label>
