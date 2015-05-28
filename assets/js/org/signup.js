@@ -81,7 +81,8 @@ var org = {
 ,checkNetworkLocation: function() {
   $netloc = $('#spl-signup-netloc');
   if ( $netloc.val() ) {
-    console.log( $netloc.val() );
+    $('#spl-form-location').val($netloc.val());
+    //console.log( $netloc.val() );
   }
 }
 
