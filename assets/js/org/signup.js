@@ -79,8 +79,8 @@ var org = {
 }
 
 ,checkNetworkLocation: function() {
-  var netloc = $('#spl-signup-netloc');
-  console.log(netloc);
+  $netloc = $('#spl-signup-netloc');
+  console.log( $netloc.val() );
 }
 
 , checkAgeGuardian: function() {
