@@ -80,7 +80,7 @@ var org = {
 
 ,checkNetworkLocation: function() {
   $netloc = $('#spl-signup-netloc');
-  if ( $netloc ) {
+  if ( $netloc.val() ) {
     console.log( $netloc.val() );
   }
 }
