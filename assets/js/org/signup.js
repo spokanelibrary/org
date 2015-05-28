@@ -58,6 +58,10 @@ var org = {
       $(this).parents('form').submit();
     });
 
+    $('body').on('click', '#spl-terms-modal-agree', function(e) {
+      console.log('modal agree');
+    });
+
     /*
     $('body').on('click', '.spl-card-type-select', function(e) {
       $('#spl-signup-card-type').collapse('hide');
