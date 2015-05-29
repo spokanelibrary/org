@@ -4,29 +4,6 @@
 </div>
 -->
 <div class="row">
-  <div class="col-md-12">
-    
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Welcome to the library! Here is your new card number:</h3>
-      </div>
-      <div class="panel-body">
-        <?php
-        if ( is_array($crass->result) ) {
-          foreach ( $crass->result as $c => $card ) {
-            echo '<h4>'.$card['barcode'].'</h4>';
-          }
-        }
-        ?>
-      </div>
-    </div><!-- /.panel -->
-
-  </div><!-- /.col -->
-</div><!-- /.row -->
-
-<h2 class="text-muted">What's next?</h2>
-
-<div class="row">
   <div class="col-md-8">
 
     <blockquote>
@@ -61,7 +38,10 @@
       </div>
       <div class="panel-body">
         <p>
-
+          Your parent or guardian will need to come to the circulation desk to sign off your library card.
+        </p>
+        <p>
+          Will will also mail a waiver to the address you provide which your parent or guardian can sign for you to return.
         </p>
       </div>
     </div><!-- /.panel -->
@@ -86,7 +66,7 @@
       </div>
       <div class="panel-body">
         <p>
-          Please bring proof of your employment (e.g. a staff ID or pay stub) when you visit us for your permanent card.
+          Please bring proof of your employment (staff ID, pay stub, etc.) when you visit us for your permanent card.
         </p>
       </div>
     </div><!-- /.panel -->

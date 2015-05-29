@@ -3,7 +3,7 @@
 
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title">Here is your new library card number</h3>
+    <h3 class="panel-title">Welcome to the library! Here is your new card number:</h3>
   </div>
   <div class="panel-body">
     <?php
@@ -16,10 +16,23 @@
   </div>
 </div><!-- /.panel -->
 
-<h3>What's next?</h3>
+<h2 class="text-muted">What's next?</h2>
 
-<h4></h4>
+<?php if ( isset($_REQUEST['station']) )  : ?>
+<blockquote>
+  <h4>This is a temporary card. It expires in 30 days.</h4>
+  <p>
+    Please visit the circulation desk to verify your identy and get a permanent card.
+  </p>
+  <p>
+    <a class="btn btn-primary" href="<?php echo $_SERVER['REQUEST_URI'] ;?>"><i class="glyphicon glyphicon-ok"></i> I'm finished</a>
+  </p>
+</blockquote>
 
+<?php else: ?>
+
+  
+<?php endif; ?>
 
 
 <?php else: ?>
@@ -39,7 +52,6 @@
 
 </div><!-- /.alert -->
 
-<?php endif; ?>
 
 <?php
 

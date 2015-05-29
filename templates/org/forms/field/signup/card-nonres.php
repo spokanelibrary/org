@@ -11,9 +11,6 @@
       <p class="text-center">
         Please note that there is a fee for non-resident cards.
       </p>
-      <p class="text-center">
-        <a href="/card/#non-resident">Non-resident card information &rarr;</a>
-      </p>
     </div>
 
     <fieldset>
