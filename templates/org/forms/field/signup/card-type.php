@@ -97,7 +97,8 @@
       </div>
       <div class="panel-body">
         <p>
-          
+          Please bring a copy of your current year's City of Spokane business license.
+          Or, if the card is for a non-profit agency, please bring a copy of your Washington State license.
         </p>
       </div>
     </div><!-- /.panel -->
