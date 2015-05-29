@@ -57,7 +57,7 @@
 
     <div class="panel panel-info">
       <div class="panel-heading">
-        <h3 class="panel-title">For Kids</h3>
+        <h3 class="panel-title">If you are under 18</h3>
       </div>
       <div class="panel-body">
         <p>
@@ -72,7 +72,10 @@
       </div>
       <div class="panel-body">
         <p>
-          
+          Please note that there is a fee for non-resident cards.
+        </p>
+        <p>
+          <a href="/card/#non-resident">Non-resident card information &rarr;</a>
         </p>
       </div>
     </div><!-- /.panel -->
@@ -83,7 +86,7 @@
       </div>
       <div class="panel-body">
         <p>
-          
+          Please bring proof of your employment when you visit us for your permanent card.
         </p>
       </div>
     </div><!-- /.panel -->
