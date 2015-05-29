@@ -3,7 +3,7 @@
 
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title">Here is your new library card</h3>
+    <h3 class="panel-title">Here is your new library card number</h3>
   </div>
   <div class="panel-body">
     <?php
@@ -15,6 +15,12 @@
     ?>
   </div>
 </div><!-- /.panel -->
+
+<h3>What's next?</h3>
+
+<h4></h4>
+
+
 
 <?php else: ?>
 

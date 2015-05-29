@@ -3,6 +3,26 @@
   <h1>Sign up for a library card</h1>
 </div>
 -->
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Here is your new library card number</h3>
+  </div>
+  <div class="panel-body">
+    <?php
+    if ( is_array($crass->result) ) {
+      foreach ( $crass->result as $c => $card ) {
+        echo '<h4>'.$card['barcode'].'</h4>';
+      }
+    }
+    ?>
+  </div>
+</div><!-- /.panel -->
+
+<h3>What's next?</h3>
+
+<h4></h4>
+
 <form class="form-horizontal spl-form" id="spl-form-card-type" method="post" role="form">
 
   <div class="panel panel-primary">
