@@ -6,7 +6,7 @@
 
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title">Here is your new library card number</h3>
+    <h3 class="panel-title">Welcome! Here is your new library card number:</h3>
   </div>
   <div class="panel-body">
     <?php
@@ -21,20 +21,27 @@
 
 <h2>What's next?</h2>
 
-<h4>This is a temporary card. It expires in 30 days.</h4>
-<p>
-  Please visit the circulation desk at any <a href="/branches/">library branch</a> to verify your identy and get a permanent card number.
-</p>
-<p>
-  <a href="/card/#apply"><b>Learn more about what kind of identification you will need</b> &rarr;</a>
-</p>
-<h4>You can start using your new card at our digital branch today!</h4>
-<p>
-  Download books, music, and magazines or access our subscription research databases and resources.
-</p>
-<p>
-  <a href="/digital/"><b>Visit the digital branch now</b> &rarr;</a>
-</p>
+<blockquote>
+  <h4>This is a temporary card. It expires in 30 days.</h4>
+  <p>
+    Please visit the circulation desk at any <a href="/branches/">library branch</a> to verify your identy and get a permanent card.
+  </p>
+  <p>
+    <a href="/card/#apply"><b>Learn more about what kind of identification you will need</b> &rarr;</a>
+  </p>
+</blockquote>
+
+<blockquote>
+  <h4>You can start using your new card at our digital branch today!</h4>
+  <p>
+    Download books, music, and magazines or access our subscription research databases.
+  </p>
+  <p>
+    <a href="/digital/"><b>Visit the digital branch now</b> &rarr;</a>
+  </p>
+</blockquote>
+
+
 <br>
 <br>
 <br>
