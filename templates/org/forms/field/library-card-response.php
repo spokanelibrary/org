@@ -1,20 +1,29 @@
 
 <?php if ( isset( $crass->result ) && ( !isset($crass->result['error']) ) ) : ?>
 
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Welcome to the library! Here is your new card number:</h3>
-  </div>
-  <div class="panel-body">
-    <?php
-    if ( is_array($crass->result) ) {
-      foreach ( $crass->result as $c => $card ) {
-        echo '<h4>'.$card['barcode'].'</h4>';
-      }
-    }
-    ?>
-  </div>
-</div><!-- /.panel -->
+<div class="row">
+  <div class="col-md-4">
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Welcome to the library!</h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          Here is your new card number:
+        </p>
+        <?php
+        if ( is_array($crass->result) ) {
+          foreach ( $crass->result as $c => $card ) {
+            echo '<h4>'.$card['barcode'].'</h4>';
+          }
+        }
+        ?>
+      </div>
+    </div><!-- /.panel -->
+
+  </div><!-- /.col -->
+</div><!-- /.row -->
 
 <h2 class="text-muted">What's next?</h2>
 
@@ -67,7 +76,7 @@
           Your parent or guardian will need to come to the circulation desk to sign off on your library card.
         </p>
         <p>
-          Will will also mail a waiver to the address you provide which your parent or guardian can sign for you to return to the library.
+          We will also mail a form to the address you provide which your parent or guardian can sign for you to return to the library.
         </p>
       </div>
     </div><!-- /.panel -->
