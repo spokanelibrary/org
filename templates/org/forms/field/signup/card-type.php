@@ -19,9 +19,17 @@
   </div>
 </div><!-- /.panel -->
 
-<h3>What's next?</h3>
+<h2>What's next?</h2>
 
-<h4></h4>
+<h4>This is a temporary card.</h4>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <form class="form-horizontal spl-form" id="spl-form-card-type" method="post" role="form">
 
