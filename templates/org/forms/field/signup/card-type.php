@@ -26,14 +26,14 @@
   Please visit the circulation desk at any <a href="/branches/">library branch</a> to verify your identy and get a permanent card number.
 </p>
 <p>
-  <a href="/card/#apply">Learn more about what kind of identification you will need &rarr;</a>
+  <a href="/card/#apply"><b>Learn more about what kind of identification you will need</b> &rarr;</a>
 </p>
 <h4>You can start using your new card at our digital branch today!</h4>
 <p>
   Download books, music, and magazines or access our subscription research databases and resources.
 </p>
 <p>
-  <a href="/digital/">Visit the digital branch &rarr;</a>
+  <a href="/digital/"><b>Visit the digital branch now</b> &rarr;</a>
 </p>
 <br>
 <br>
