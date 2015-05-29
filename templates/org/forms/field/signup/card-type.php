@@ -19,7 +19,7 @@
   </div>
 </div><!-- /.panel -->
 
-<h2>What's next?</h2>
+<h2 class="text-muted">What's next?</h2>
 
 <blockquote>
   <h4>This is a temporary card. It expires in 30 days.</h4>
