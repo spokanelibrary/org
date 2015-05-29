@@ -86,7 +86,7 @@
       </div>
       <div class="panel-body">
         <p>
-          Please bring proof of your employment when you visit us for your permanent card.
+          Please bring proof of your employment (e.g. a staff ID or pay stub) when you visit us for your permanent card.
         </p>
       </div>
     </div><!-- /.panel -->
@@ -97,8 +97,8 @@
       </div>
       <div class="panel-body">
         <p>
-          Please bring a copy of your current year's City of Spokane business license.
-          Or, if the card is for a non-profit agency, please bring a copy of your Washington State license.
+          Please bring a copy of your current year's <b>City of Spokane business license</b>.
+          Or, if the card is for a non-profit agency, please bring a copy of your <b>Washington State license</b>.
         </p>
       </div>
     </div><!-- /.panel -->
