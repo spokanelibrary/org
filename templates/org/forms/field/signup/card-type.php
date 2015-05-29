@@ -4,7 +4,7 @@
 </div>
 -->
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-8 col-md-offset-2">
     
     <div class="panel panel-primary">
       <div class="panel-heading">
@@ -21,7 +21,13 @@
       </div>
     </div><!-- /.panel -->
 
-    <h2 class="text-muted">What's next?</h2>
+  </div><!-- /.col -->
+</div><!-- /.row -->
+
+<h2 class="text-muted">What's next?</h2>
+
+<div class="row">
+  <div class="col-md-8">
 
     <blockquote>
       <h4>This is a temporary card. It expires in 30 days.</h4>
@@ -48,7 +54,6 @@
   <div class="col-md-4">
     for kids
   </div><!-- /.col -->
-
 </div><!-- /.row -->
 
 <br>
