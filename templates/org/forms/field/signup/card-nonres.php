@@ -7,7 +7,7 @@
   </div>
   <div class="panel-body">
 
-    <div class="alert alert-error">
+    <div class="alert alert-warning">
       <p class="text-center">
         Please note that there is a fee for non-resident cards.
       </p>
