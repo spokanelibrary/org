@@ -29,7 +29,12 @@
   <a href="/card/#apply">Learn more about what kind of identification you will need &rarr;</a>
 </p>
 <h4>You can start using your new card at our digital branch today!</h4>
-
+<p>
+  Download books, music, and magazines or access our subscription research databases and resources.
+</p>
+<p>
+  <a href="/digital/">Visit the digital branch &rarr;</a>
+</p>
 <br>
 <br>
 <br>
