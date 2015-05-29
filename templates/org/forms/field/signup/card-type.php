@@ -29,8 +29,6 @@
   </div><!-- /.col -->
 
   <div class="col-md-4">
-    
-    <p>&nbsp;</p>
 
     <div class="panel panel-info">
       <div class="panel-heading">
@@ -38,10 +36,10 @@
       </div>
       <div class="panel-body">
         <p>
-          Your parent or guardian will need to come to the circulation desk to sign off your library card.
+          Your parent or guardian will need to come to the circulation desk to sign off on your library card.
         </p>
         <p>
-          Will will also mail a waiver to the address you provide which your parent or guardian can sign for you to return.
+          Will will also mail a waiver to the address you provide which your parent or guardian can sign for you to return to the library.
         </p>
       </div>
     </div><!-- /.panel -->
