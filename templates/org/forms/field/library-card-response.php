@@ -9,9 +9,16 @@
 
 <?php else: ?>
 
-<div class="alert alert-error">
+<div class="alert alert-danger">
 
   <h2>Oops!</h2>
+
+  <p>
+    We ran into a problem creating your new card and apologize for the hassle. 
+    You can <a href="/contact/">contact us</a> or see a staff member at the circulation desk.
+  </p>
+
+
 
 </div><!-- /.alert -->
 
