@@ -23,12 +23,12 @@
 
 <h4>This is a temporary card. It expires in 30 days.</h4>
 <p>
-  Please visit the circulation desk at any library branch to verify your identy and get a permanent card number.
+  Please visit the circulation desk at any <a href="/branches/">library branch</a> to verify your identy and get a permanent card number.
 </p>
 <p>
-  <a href="/card/">Learn more about what kind of identification we need &rarr;</a>
+  <a href="/card/#apply">Learn more about what kind of identification you will need &rarr;</a>
 </p>
-
+<h4>You can start using your new card at our digital branch today!</h4>
 
 <br>
 <br>
