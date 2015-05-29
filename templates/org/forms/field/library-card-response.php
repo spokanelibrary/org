@@ -1,18 +1,17 @@
 
-<?php if ( isset( $crass->result ) ) : ?>
+<?php if ( isset( $crass->result ) && ( !isset($crass->result['error']) ) ) : ?>
 
-<div class="alert alert-success">
-  
-  <h2>Success!</h2>
-
-</div><!-- /.alert -->
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Here is your new library card</h3>
+  </div>
+</div><!-- /.panel -->
 
 <?php else: ?>
 
 <div class="alert alert-error">
 
   <h2>Oops!</h2>
-
 
 </div><!-- /.alert -->
 
