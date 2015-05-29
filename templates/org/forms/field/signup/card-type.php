@@ -59,6 +59,44 @@
       <div class="panel-heading">
         <h3 class="panel-title">For Kids</h3>
       </div>
+      <div class="panel-body">
+        <p>
+
+        </p>
+      </div>
+    </div><!-- /.panel -->
+
+    <div class="panel panel-warning">
+      <div class="panel-heading">
+        <h3 class="panel-title">For Non-residents</h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          
+        </p>
+      </div>
+    </div><!-- /.panel -->
+
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">For Teachers</h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          
+        </p>
+      </div>
+    </div><!-- /.panel -->
+
+    <div class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title">For Businesses</h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          
+        </p>
+      </div>
     </div><!-- /.panel -->
 
   </div><!-- /.col -->
