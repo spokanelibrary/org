@@ -53,6 +53,9 @@
 
   <div class="col-md-4">
     
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
     <div class="panel panel-info">
       <div class="panel-heading">
         <h3 class="panel-title">For Kids</h3>
