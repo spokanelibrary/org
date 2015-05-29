@@ -7,6 +7,13 @@
   </div>
   <div class="panel-body">
 
+    <p>
+      Please note that there is a fee for non-resident cards.
+    </p>
+    <p>
+      <a href="/card/#non-resident">Non-resident card information &rarr;</a>
+    </p>
+
     <fieldset>
       <legend class="text-muted">
         <small class="glyphicon glyphicon-"></small>
