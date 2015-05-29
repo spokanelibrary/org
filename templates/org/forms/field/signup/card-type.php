@@ -8,7 +8,7 @@
     
     <div class="panel panel-primary">
       <div class="panel-heading">
-        <h3 class="panel-title">Welcome! Here is your new library card number:</h3>
+        <h3 class="panel-title">Welcome to the library! Here is your new card number:</h3>
       </div>
       <div class="panel-body">
         <?php
@@ -52,7 +52,13 @@
   </div><!-- /.col -->
 
   <div class="col-md-4">
-    for kids
+    
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">For Kids</h3>
+      </div>
+    </div><!-- /.panel -->
+
   </div><!-- /.col -->
 </div><!-- /.row -->
 
