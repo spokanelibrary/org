@@ -2,7 +2,7 @@
 <?php if ( isset( $crass->result ) && ( !isset($crass->result['error']) ) ) : ?>
 
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-12">
 
     <div class="panel panel-primary">
       <div class="panel-heading">
@@ -144,13 +144,12 @@
 <?php endif; ?>
 
 <?php
-
-
+/*
 echo '<pre>';
 echo 'Result';
 print_r($crass->result);
 echo 'Request';
 print_r($crass->request); 
 echo '</pre>';
-
+*/
 ?>
