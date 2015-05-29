@@ -21,7 +21,14 @@
 
 <h2>What's next?</h2>
 
-<h4>This is a temporary card.</h4>
+<h4>This is a temporary card. It expires in 30 days.</h4>
+<p>
+  Please visit the circulation desk at any library branch to verify your identy and get a permanent card number.
+</p>
+<p>
+  <a href="/card/">Learn more about what kind of identification we need &rarr;</a>
+</p>
+
 
 <br>
 <br>
