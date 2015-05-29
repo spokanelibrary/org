@@ -3,24 +3,23 @@
   <h1>Sign up for a library card</h1>
 </div>
 -->
-
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Welcome! Here is your new library card number:</h3>
-  </div>
-  <div class="panel-body">
-    <?php
-    if ( is_array($crass->result) ) {
-      foreach ( $crass->result as $c => $card ) {
-        echo '<h4>'.$card['barcode'].'</h4>';
-      }
-    }
-    ?>
-  </div>
-</div><!-- /.panel -->
-
 <div class="row">
   <div class="col-md-8">
+    
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Welcome! Here is your new library card number:</h3>
+      </div>
+      <div class="panel-body">
+        <?php
+        if ( is_array($crass->result) ) {
+          foreach ( $crass->result as $c => $card ) {
+            echo '<h4>'.$card['barcode'].'</h4>';
+          }
+        }
+        ?>
+      </div>
+    </div><!-- /.panel -->
 
     <h2 class="text-muted">What's next?</h2>
 
@@ -44,8 +43,13 @@
       </p>
     </blockquote>
 
-  </div>
-</div>
+  </div><!-- /.col -->
+
+  <div class="col-md-8">
+    for kids
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
 
 <br>
 <br>
