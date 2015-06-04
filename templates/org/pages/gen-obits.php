@@ -70,7 +70,7 @@
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<h4>
-			<a rel="external" href="http://www.digitalarchives.wa.gov/Home">Washington State Digial Archives</a>
+			<a rel="external" href="http://www.digitalarchives.wa.gov/Home">Washington State Digital Archives</a>
 		</h4>
 		<p>
 			The Washington State Digital Archives contain electronic indexes and records from both State and Local databases, including Marriage Records, Naturalization Records, Census Records, Death Records, Birth Records, Military Records, and Institution Records. 
