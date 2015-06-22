@@ -1,4 +1,4 @@
-<!--
+
 <div class="media">
   <a class="pull-left" href="#">
     <span class="media-object">
@@ -10,7 +10,7 @@
       <a href="/streaming/"><em>Hoopla:</em> Movies &amp; more</a>
     </h5>
   </div>
-</div>--><!-- /.media -->
+</div><!-- /.media -->
 
 <div class="media">
   <a class="pull-left" href="#">
