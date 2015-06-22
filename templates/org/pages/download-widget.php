@@ -1,6 +1,19 @@
 <div class="media">
   <a class="pull-left" href="#">
     <span class="media-object">
+      <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/hoopla.png">
+    </span>
+  </a>
+  <div class="media-body">
+    <h5 class="media-heading">
+      <a href="/streaming/"><em>Hoopla:</em> Movies &amp; more</a>
+    </h5>
+  </div>
+</div><!-- /.media -->
+
+<div class="media">
+  <a class="pull-left" href="#">
+    <span class="media-object">
       <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/overdrive.png">
     </span>
   </a>
