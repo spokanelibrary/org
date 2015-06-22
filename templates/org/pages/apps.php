@@ -34,7 +34,7 @@
     <p id="hoopla">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
-        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/hoopla.jpg">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/hoopla.png">
       </span>
       <div class="media-body">
         <h4 class="media-heading">
