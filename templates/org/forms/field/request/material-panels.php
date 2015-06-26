@@ -234,7 +234,7 @@
           <div class="checkbox">
             <label>
               <input type="checkbox" class="" id="spl-form-ill-confirm" name="spl-form[ill]" checked>
-              Please check Interlibray Loan for me 
+              Please check Interlibrary Loan for me 
             </label>
             <span class="help-block">
               If we are do not purchase this title for some reason, we will make an Interlibrary Loan Request.
