@@ -53,7 +53,7 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="/ebooks/"><em>Hoopla:</em> Streaming media</a>
+				    	<a href="/streaming/"><em>Hoopla:</em> Streaming media</a>
 				    </h4>
 				    <p>
 				    	 is the library’s streaming media service. 
