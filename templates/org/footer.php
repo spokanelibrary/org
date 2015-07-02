@@ -25,7 +25,7 @@
 
         <div class="media">
           <div class="media-left pull-left">
-            <a href="/">
+            <a href="<?php echo spl_get_home_url(); ?>/">
               <img class="media-object" style="width:100px; height:80px; margin:auto;" src="/assets/img/spl-touch-hidpi.png" alt="Spokane Public Library logo">
             </a>
           </div>
