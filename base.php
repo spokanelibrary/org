@@ -1,6 +1,6 @@
 <?php get_template_part('templates/head'); ?>
 
-<body <?php body_class( stristr('learn.spokanelibrary.org', '.', true) ); ?>>
+<body <?php body_class( stristr($_SERVER['SERVER_NAME'], '.', true) ); ?>>
 
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
