@@ -162,7 +162,7 @@ function spl_get_home_url() {
 </header><!-- /.navbar -->
 
 <?php 
-if ( 'learn.spokanelibrary.org' != $_SERVER['SERVER_NAME'] ) {
+if ( 'learn.spokanelibrary.org' != $_SERVER['SERVER_NAME'] || 'staff.spokanelibrary.org' != $_SERVER['SERVER_NAME'] ) {
   switch ($post->post_name) {
     case 'search':
     case 'account':
