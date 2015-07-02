@@ -50,7 +50,7 @@
 
         <div class="media">
           <div class="media-right pull-right">
-            <a href="/">
+            <a href="https://my.spokanecity.org/">
               <img class="media-object" style="width:width:75px; height:90px; margin:auto;" src="/assets/img/png/city-spokane-logo-hidpi.png" alt="City of Spokane logo">
             </a>
           </div>
