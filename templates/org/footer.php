@@ -11,7 +11,7 @@
     }
     */
     ?>
-    <?php if ( 'learn.spokanelibrary.org' != $_SERVER['SERVER_NAME'] ) : ?>
+    <?php if ( 'learn.spokanelibrary.org' != $_SERVER['SERVER_NAME'] && 'staff.spokanelibrary.org' != $_SERVER['SERVER_NAME'] ) : ?>
       <?php include('footer-bottom-navbar.php'); ?>
     <?php endif; ?>
   </footer>
