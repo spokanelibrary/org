@@ -20,7 +20,7 @@ Template Name: Beta Home Page
       if ( $post->post_excerpt): ; 
       ?>
       <h4 class="text-center hero-heading">
-        <i class="glyphicon glyphicon-bullhorn"></i>
+        <i class="glyphicon glyphicon-bullhorn text-danger"></i>
         <?php echo $post->post_excerpt; ?>
       </h4>
       <?php endif; ?>
