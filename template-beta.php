@@ -16,9 +16,9 @@ Template Name: Beta Home Page
     if ( !empty($spl_home) ): ;
     ?>
     <div class="panel spl-hero-panel spl-hero-announce">
-      <h4 class="text-center hero-heading" style="">
+      <h4 class="text-center hero-heading text-left">
         <i class="glyphicon glyphicon-bullhorn"></i>
-        Important announcement
+        Important Announcement
       </h4>
       <div class="panel-body">
         <?php echo $post->post_content; ?>
