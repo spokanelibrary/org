@@ -1432,8 +1432,16 @@ a .chof-red:hover {
 .spl-hero-announce {
   border-color: @brand-danger !important;
   border-bottom-width: 5px;
-  color: @brand-danger;
-  background: #fff;
+
+  background: lighten(@brand-danger, 4%);
+  .spl-hero-link:hover {
+    background: darken(@brand-danger, 4%);
+  }
+
+  .panel-body {
+    color: @brand-danger;
+    background: #fff;
+  }
 }
 
 .spl-hero-browse {
