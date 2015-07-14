@@ -16,7 +16,14 @@ Template Name: Beta Home Page
     if ( !empty($spl_home) ): ;
     ?>
     <div class="panel spl-hero-panel spl-hero-announce">
-      
+      <?php 
+      if ( $post->post_excerpt): ; 
+      ?>
+      <h4 class="text-center hero-heading">
+        <i class="glyphicon glyphicon-bullhorn"></i>
+        <?php echo $post->post_excerpt; ?>
+      </h4>
+      <?php endif; ?>
       <div class="panel-body">
         <?php echo $post->post_content; ?>
       </div>
