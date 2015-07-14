@@ -3,13 +3,20 @@
 Template Name: Beta Home Page
 */
 ?>
-
+ 
 <?php 
 // conditionally display page content
 $spl_home = $post->post_content;
 $spl_home = trim($spl_home);
 if ( !empty($spl_home) ): ;
 ?>
+
+<div class="panel spl-hero-panel spl-hero-announce">
+  <div class="panel-body">
+    <?php echo $post->post_content; ?>
+  </div>
+</div>
+
 <div class="spl-hero-panel spl-hero-danger" style="margin-bottom:10px;">
   <h4 class="text-center">
     <span class=""><i class="glyphicon glyphicon-bullhorn"></i></span>
