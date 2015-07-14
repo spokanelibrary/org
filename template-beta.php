@@ -20,7 +20,7 @@ Template Name: Beta Home Page
       if ( $post->post_excerpt): ; 
       ?>
       <h4 class="text-center hero-heading">
-        <i class="glyphicon glyphicon-exlamation-sign"></i>
+        <i class="glyphicon glyphicon-exclamation-sign"></i>
         <?php echo $post->post_excerpt; ?>
       </h4>
       <?php endif; ?>
