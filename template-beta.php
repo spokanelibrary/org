@@ -17,7 +17,7 @@ Template Name: Beta Home Page
     ?>
     <div class="panel spl-hero-panel spl-hero-announce">
       <h4 class="text-center hero-heading">
-        <i class="glyphicon glyphicon-info-sign"></i>
+        <i class="glyphicon glyphicon-exclamation-sign"></i>
         Important Announcement
       </h4>
       <div class="panel-body">
