@@ -24,7 +24,7 @@ Template Name: Home Page
         <?php echo $post->post_excerpt; ?>
       </h4>
       <?php endif; ?>
-      <div class="panel-body text-danger">
+      <div class="panel-body">
         <?php echo $post->post_content; ?>
       </div>
     </div>
