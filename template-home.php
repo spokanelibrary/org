@@ -8,6 +8,27 @@ Template Name: Home Page
 <div class="row">
 
   <div class="col-lg-10 col-lg-offset-1">
+
+    <?php 
+    // conditionally display page content
+    $spl_home = $post->post_content;
+    $spl_home = trim($spl_home);
+    if ( !empty($spl_home) ): ;
+    ?>
+    <div class="panel spl-hero-panel spl-hero-announce">
+      <?php 
+      if ( $post->post_excerpt): ; 
+      ?>
+      <h4 class="text-center hero-heading">
+        <i class="glyphicon glyphicon-bullhorn"></i>
+        <?php echo $post->post_excerpt; ?>
+      </h4>
+      <?php endif; ?>
+      <div class="panel-body text-danger">
+        <?php echo $post->post_content; ?>
+      </div>
+    </div>
+    <?php endif; ?>
     
     <div class="row">
 
