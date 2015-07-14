@@ -17,8 +17,8 @@ Template Name: Beta Home Page
     ?>
     <div class="panel spl-hero-panel spl-hero-announce">
       <h4 class="text-center hero-heading">
-        <i class="glyphicon glyphicon-exclamation-sign"></i>
-        Important Announcement
+        <i class="glyphicon glyphicon-bullhorn"></i>
+        Please Read
       </h4>
       <div class="panel-body">
         <?php echo $post->post_content; ?>
