@@ -16,8 +16,8 @@ Template Name: Beta Home Page
     if ( !empty($spl_home) ): ;
     ?>
     <div class="panel spl-hero-panel spl-hero-announce">
-      <h4 class="text-center hero-heading text-left">
-        <i class="glyphicon glyphicon-bullhorn"></i>
+      <h4 class="text-center hero-heading">
+        <i class="glyphicon glyphicon-exlamation-sign"></i>
         Important Announcement
       </h4>
       <div class="panel-body">
