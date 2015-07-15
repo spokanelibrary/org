@@ -7,7 +7,8 @@ Template Name: Intranet Home Page
 
 <div class="row">
 
-  <div class="col-lg-10 col-lg-offset-1">
+  <!--<div class="col-lg-10 col-lg-offset-1">-->
+  <div class="col-sm-12">
 
     <?php 
     // conditionally display page content
