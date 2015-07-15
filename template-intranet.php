@@ -59,9 +59,9 @@ Template Name: Intranet Home Page
       </div><!-- /.col -->
 
       <div class="col-sm-4 visible-sm visible-xs">
-
+        Test
         <?php dynamic_sidebar('sidebar-primary'); ?>
-        
+
         <div class="panel spl-hero-open">
           <a class="spl-hero-link" href="/open/">  
             <h4 class="text-center hero-heading">
