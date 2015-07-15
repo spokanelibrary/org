@@ -59,8 +59,6 @@ Template Name: Intranet Home Page
       </div><!-- /.col -->
 
       <div class="col-sm-4 visible-sm visible-xs">
-        Test
-        <?php dynamic_sidebar('sidebar-primary'); ?>
 
         <div class="panel spl-hero-open">
           <a class="spl-hero-link" href="/open/">  
@@ -81,6 +79,8 @@ Template Name: Intranet Home Page
 
       <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-6">
         
+        <?php dynamic_sidebar('sidebar-primary'); ?>
+
         <div class="panel spl-hero-panel spl-hero-calendar">
           <h4 class="text-center hero-heading" style="">
             <i class="glyphicon glyphicon-calendar"></i> 
