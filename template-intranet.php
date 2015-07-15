@@ -84,7 +84,7 @@ Template Name: Intranet Home Page
 
         <div class="panel spl-hero-panel spl-hero-muted">
           <h4>From the Director's Desk</h4>
-          <div class="panel">
+          <div class="panel-body">
             Lorem ipsum dolor sit amet.
           </div>
         </div>
