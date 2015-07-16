@@ -82,7 +82,7 @@
               <i class="glyphicon glyphicon-search text-muted"></i> 
               <a class="" 
                 href="/vitals/" 
-                title="">Research vital records</a>
+                title="">Request vital records</a>
               <span class="text-muted">&rarr;</span>
             </h4>
           </div><!-- /.panel-heading -->
