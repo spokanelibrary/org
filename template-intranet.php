@@ -48,7 +48,9 @@ Template Name: Intranet Home Page
       
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet">
-          <h4>Director's Notes</h4>
+          <h4>
+            <i class="glyphicon glyphicon-list"></i>
+            Director's Notes</h4>
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
@@ -57,6 +59,7 @@ Template Name: Intranet Home Page
 
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet">
+          <i class="glyphicon glyphicon-cog"></i>
           <h4>Tech Notes &amp; Alerts</h4>
           <div class="panel-body">
             hlhklhk
@@ -68,7 +71,9 @@ Template Name: Intranet Home Page
 
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet">
-          <h4>Public Services Desk</h4>
+          <h4>
+            <i class="glyphicon glyphicon-edit"></i>
+            Public Services Desk</h4>
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
@@ -77,7 +82,9 @@ Template Name: Intranet Home Page
 
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet">
-          <h4>Support Services Desk</h4>
+          <h4>
+            <i class="glyphicon glyphicon-barcode"></i>
+            Support Services Desk</h4>
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
@@ -88,7 +95,9 @@ Template Name: Intranet Home Page
 
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet">
-          <h4>Other Library News</h4>
+          <h4>
+            <i class="glyphicon glyphicon-barcode"></i>
+            Other Library News</h4>
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
@@ -97,7 +106,9 @@ Template Name: Intranet Home Page
 
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet">
-          <h4>Gold Star Thingies</h4>
+          <h4>
+            <i class="glyphicon glyphicon-thumbs-up"></i>
+            Gold Star Thingies</h4>
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
