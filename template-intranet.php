@@ -10,6 +10,10 @@ Template Name: Intranet Home Page
   <!--<div class="col-lg-10 col-lg-offset-1">-->
   <div class="col-sm-12">
 
+    <div class="spl-enterprise-search">
+    <?php dynamic_sidebar('sidebar-footer'); ?>
+    </div>
+
     <nav class="navbar navbar-default">
       <ul class="nav nav-justified">
       <?php 
@@ -22,9 +26,6 @@ Template Name: Intranet Home Page
       ?>
       </ul>
     </nav>
-
-    <?php dynamic_sidebar('sidebar-footer'); ?>
-
 
     <?php 
     // conditionally display page content
