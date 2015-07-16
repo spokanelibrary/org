@@ -53,8 +53,37 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
+
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-news">
+          <div class="panel-body">
+            hlhklhk
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-calendar">
+          <div class="panel-body">
+            hlhklhk
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+
+      <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-info">
+          <div class="panel-body">
+            hlhklhk
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-12">
+        <div class="panel spl-hero-panel spl-hero-muted">
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
