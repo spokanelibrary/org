@@ -95,20 +95,22 @@ Template Name: Intranet Home Page
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
-      <div class="panel spl-hero-panel spl-hero-calendar">
-        <h4 class="text-center hero-heading" style="">
-          <i class="glyphicon glyphicon-calendar"></i> 
-          Coming Up
-        </h4>
-        <div class="panel-body" style="padding-bottom:0;">
-          <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded]'); ?>
-          <div class="calendar-promo">
-            <h5 class="text-center">
-              <a href="/calendar/">Full Calendar <span class="text-muted">&rarr;</span></a>
-            </h5>      
+      <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-calendar">
+          <h4 class="text-center hero-heading" style="">
+            <i class="glyphicon glyphicon-calendar"></i> 
+            Coming Up
+          </h4>
+          <div class="panel-body" style="padding-bottom:0;">
+            <?php echo do_shortcode('[spl_widget home-page carousel control calendar embedded]'); ?>
+            <div class="calendar-promo">
+              <h5 class="text-center">
+                <a href="/calendar/">Full Calendar <span class="text-muted">&rarr;</span></a>
+              </h5>      
+            </div>
           </div>
         </div>
-      </div>
+      </div><!-- /.col -->
 
       <div class="clearfix"></div>
 
