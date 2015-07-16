@@ -5,6 +5,6 @@
     <p class="form-control-static">
       Please let us know if you have additional information that might help us locate this item.
     </p>
-    <textarea rows="4" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
+    <textarea rows="4" class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
   </div>
 </div><!-- /.form-group -->

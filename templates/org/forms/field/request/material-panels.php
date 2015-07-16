@@ -172,9 +172,11 @@
 
 {{#if periodical}}
 <?php include 'material-panel-periodical.php'; ?>
+<?php include 'material-panel-title-periodical.php'; ?>
+{{else}}
+<?php include 'material-panel-title.php'; ?>
 {{/if}}
 
-<?php include 'material-panel-title.php'; ?>
 <?php include 'material-panel-author.php'; ?>
 
 {{#if content}}
