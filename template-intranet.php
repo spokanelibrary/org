@@ -9,29 +9,23 @@ Template Name: Intranet Home Page
 
   <!--<div class="col-lg-10 col-lg-offset-1">-->
   <div class="col-sm-12">
-
-    <div class="panel spl-hero-panel spl-hero-success">
-      <div class="panel-body">
         
-        <nav class="navbar navbar-default">
-          <ul class="nav nav-justified">
-          <?php 
-          wp_nav_menu( 
-          array(
-            'menu' => 'Quick Links'
-          , 'container' => false
-          , 'items_wrap' => '%3$s'
-          )); 
-          ?>
-          </ul>
-        </nav>
+    <nav class="navbar navbar-default">
+      <ul class="nav nav-justified">
+      <?php 
+      wp_nav_menu( 
+      array(
+        'menu' => 'Quick Links'
+      , 'container' => false
+      , 'items_wrap' => '%3$s'
+      )); 
+      ?>
+      </ul>
+    </nav>
 
-        <div>
-        <?php dynamic_sidebar('sidebar-footer'); ?>
-        </div>
-
-      </div><!-- /.panel-body -->
-    </div><!-- /.panel -->
+    <div>
+    <?php dynamic_sidebar('sidebar-footer'); ?>
+    </div>
 
     <?php 
     // conditionally display page content
