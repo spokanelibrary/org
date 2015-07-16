@@ -23,7 +23,7 @@ Template Name: Intranet Home Page
       </ul>
     </nav>
 
-    <div>
+    <div style="margin-bottom:16px;">
     <?php dynamic_sidebar('sidebar-footer'); ?>
     </div>
 
