@@ -23,10 +23,6 @@ Template Name: Intranet Home Page
       </ul>
     </nav>
 
-    <div style="margin-bottom:16px;">
-    <?php dynamic_sidebar('sidebar-footer'); ?>
-    </div>
-
     <?php 
     // conditionally display page content
     $spl_home = $post->post_content;
