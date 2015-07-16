@@ -46,8 +46,6 @@ function spl_get_home_url() {
         </div>
       </div><!-- /.col -->
       <div class="col-md-10">
-          
-          <?php dynamic_sidebar('sidebar-footer'); ?>
 
           <div class="row">
             <div class="col-md-11 col-md-offset-1">
@@ -83,6 +81,9 @@ function spl_get_home_url() {
                 <?php if ( 'learn.spokanelibrary.org' != $_SERVER['SERVER_NAME'] && 'staff.spokanelibrary.org' != $_SERVER['SERVER_NAME'] ) : ?>
                   <?php include('header-social-connect.php'); ?>
                 <?php endif; ?>
+                <?php if ( 'staff.spokanelibrary.org' == $_SERVER['SERVER_NAME'] ) :; ?>
+                  <?php dynamic_sidebar('sidebar-footer'); ?>
+                <?php endif;?>
               </div>
               <div id="spl-account-profile"></div>
             </div><!-- /.col -->
