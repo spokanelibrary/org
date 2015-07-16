@@ -10,6 +10,18 @@ Template Name: Intranet Home Page
   <!--<div class="col-lg-10 col-lg-offset-1">-->
   <div class="col-sm-12">
 
+    <ul class="nav nav-justified">
+    <?php 
+    wp_nav_menu( 
+    array(
+      'menu' => 'Quick Links'
+    , 'container' => false
+    , 'items_wrap' => '%3$s'
+    )); 
+    ?>
+    </ul>
+
+
     <?php 
     // conditionally display page content
     $spl_home = $post->post_content;
@@ -84,7 +96,7 @@ Template Name: Intranet Home Page
       <div class="col-sm-8 col-sm-pull-4 col-md-6 col-md-pull-3">
 
         <div class="panel spl-hero-panel spl-hero-muted">
-          <h4>From the Director's Desk</h4>
+          <h4>Director's Notes</h4>
           <div class="panel-body">
             Lorem ipsum dolor sit amet.
           </div>
