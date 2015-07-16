@@ -82,7 +82,7 @@ Template Name: Intranet Home Page
       </div><!-- /.col -->
 
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-suppert">
+        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-support">
           <h4>
             <i class="glyphicon glyphicon-barcode"></i>
             Support Services Desk</h4>
