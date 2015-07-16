@@ -21,7 +21,7 @@ Template Name: Intranet Home Page
       )); 
       ?>
       </ul>
-    </nav
+    </nav>
 
     <?php 
     // conditionally display page content
