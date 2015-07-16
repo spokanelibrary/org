@@ -10,7 +10,7 @@ Template Name: Intranet Home Page
   <!--<div class="col-lg-10 col-lg-offset-1">-->
   <div class="col-sm-12">
 
-    <div style="margin:10px 0;">
+    <div style="margin-bottom:10px;">
     <?php dynamic_sidebar('sidebar-footer'); ?>
     </div>
 
