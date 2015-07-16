@@ -47,7 +47,7 @@ Template Name: Intranet Home Page
     <div class="row">
       
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-news">
+        <div class="panel spl-hero-panel spl-hero-browse">
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
