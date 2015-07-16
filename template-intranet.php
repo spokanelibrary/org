@@ -47,7 +47,7 @@ Template Name: Intranet Home Page
     <div class="row">
       
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet">
+        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-director">
           <h4>
             <i class="glyphicon glyphicon-list"></i>
             Director's Notes</h4>
@@ -58,7 +58,7 @@ Template Name: Intranet Home Page
       </div><!-- /.col -->
 
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet">
+        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-tech">
           <h4>
             <i class="glyphicon glyphicon-cog"></i>
             Tech Notes &amp; Alerts</h4>
@@ -71,7 +71,7 @@ Template Name: Intranet Home Page
       <div class="clearfix"></div>
 
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet">
+        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-public">
           <h4>
             <i class="glyphicon glyphicon-edit"></i>
             Public Services Desk</h4>
@@ -82,7 +82,7 @@ Template Name: Intranet Home Page
       </div><!-- /.col -->
 
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet">
+        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-suppert">
           <h4>
             <i class="glyphicon glyphicon-barcode"></i>
             Support Services Desk</h4>
@@ -106,7 +106,7 @@ Template Name: Intranet Home Page
       </div><!-- /.col -->
 
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet">
+        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-star">
           <h4>
             <i class="glyphicon glyphicon-thumbs-up"></i>
             Gold Star Thingies</h4>
