@@ -47,6 +47,8 @@ function spl_get_home_url() {
       </div><!-- /.col -->
       <div class="col-md-10">
           
+          <?php dynamic_sidebar('sidebar-footer'); ?>
+
           <div class="row">
             <div class="col-md-11 col-md-offset-1">
               <header id="spl-navbar-common" class="navbar-common navbar-static-top" style="border-left:1px solid rgb(0,85,135); border-right:1px solid rgb(0,85,135);">
