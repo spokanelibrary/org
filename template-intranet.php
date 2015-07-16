@@ -59,8 +59,9 @@ Template Name: Intranet Home Page
 
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet">
-          <i class="glyphicon glyphicon-cog"></i>
-          <h4>Tech Notes &amp; Alerts</h4>
+          <h4>
+            <i class="glyphicon glyphicon-cog"></i>
+            Tech Notes &amp; Alerts</h4>
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
@@ -96,7 +97,7 @@ Template Name: Intranet Home Page
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet">
           <h4>
-            <i class="glyphicon glyphicon-barcode"></i>
+            <i class="glyphicon glyphicon-bullhorn"></i>
             Other Library News</h4>
           <div class="panel-body">
             hlhklhk
