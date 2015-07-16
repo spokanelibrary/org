@@ -65,7 +65,7 @@ Template Name: Intranet Home Page
       <div class="clearfix"></div>
 
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-calendar">
+        <div class="panel spl-hero-panel spl-hero-alt">
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
