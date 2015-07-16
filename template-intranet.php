@@ -66,6 +66,52 @@ Template Name: Intranet Home Page
 
       <div class="clearfix"></div>
 
+      <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-intranet">
+          <h4>Public Services Desk</h4>
+          <div class="panel-body">
+            hlhklhk
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+
+      <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-intranet">
+          <h4>Support Services Desk</h4>
+          <div class="panel-body">
+            hlhklhk
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-intranet">
+          <h4>Other Library News</h4>
+          <div class="panel-body">
+            hlhklhk
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+
+      <div class="panel spl-hero-panel spl-hero-calendar">
+        <h4 class="text-center hero-heading" style="">
+          <i class="glyphicon glyphicon-calendar"></i> 
+          Coming Up
+        </h4>
+        <div class="panel-body" style="padding-bottom:0;">
+          <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded]'); ?>
+          <div class="calendar-promo">
+            <h5 class="text-center">
+              <a href="/calendar/">Full Calendar <span class="text-muted">&rarr;</span></a>
+            </h5>      
+          </div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
     </div><!-- /.row -->
 
   </div><!-- /.col -->
