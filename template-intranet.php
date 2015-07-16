@@ -49,6 +49,27 @@ Template Name: Intranet Home Page
     <?php endif; ?>
     
     <div class="row">
+      
+      <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-news">
+          <div class="panel-body">
+            hlhklhk
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+      <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-news">
+          <div class="panel-body">
+            hlhklhk
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+
+    </div><!-- /.row -->
+
+
+
+    <div class="row">
 
       <div class="col-sm-8 col-md-3">
         
