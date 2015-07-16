@@ -47,7 +47,8 @@ Template Name: Intranet Home Page
     <div class="row">
       
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-browse">
+        <div class="panel spl-hero-panel spl-hero-news">
+          <h4>Director's Notes</h4>
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
@@ -55,6 +56,7 @@ Template Name: Intranet Home Page
       </div><!-- /.col -->
 
       <div class="col-md-6">
+        <h4>Tech Notes</h4>
         <div class="panel spl-hero-panel spl-hero-news">
           <div class="panel-body">
             hlhklhk
@@ -63,32 +65,6 @@ Template Name: Intranet Home Page
       </div><!-- /.col -->
 
       <div class="clearfix"></div>
-
-      <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-alt">
-          <div class="panel-body">
-            hlhklhk
-          </div><!-- /.panel-body -->
-        </div><!-- /.panel -->
-      </div><!-- /.col -->
-
-      <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-info">
-          <div class="panel-body">
-            hlhklhk
-          </div><!-- /.panel-body -->
-        </div><!-- /.panel -->
-      </div><!-- /.col -->
-
-      <div class="clearfix"></div>
-
-      <div class="col-md-12">
-        <div class="panel spl-hero-panel spl-hero-muted">
-          <div class="panel-body">
-            hlhklhk
-          </div><!-- /.panel-body -->
-        </div><!-- /.panel -->
-      </div><!-- /.col -->
 
     </div><!-- /.row -->
 
