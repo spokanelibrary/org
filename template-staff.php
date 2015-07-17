@@ -22,7 +22,7 @@ class SPL_StaffDirectoryShortcode {
     add_shortcode('spl-staff-directory', array('SPL_StaffDirectoryShortcode', 'shortcode'));
   }
   static function shortcode($params) {
-    return 'test';
+
     extract(shortcode_atts(array(
       'id' => '',
       'cat' => '',
