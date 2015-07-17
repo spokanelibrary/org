@@ -274,7 +274,7 @@ EOT;
       } else {
         $staff_category = "";
       }
-      $staff_slug = get_permalink();
+      $staff_slug = str_ireplace('http://'.$_SERVER['SERVER_NAME'], '', get_permalink());
       $accepted_single_tags = array("[name]", "[photo_url]", "[bio]", "[category]", "[slug]");
       $replace_single_values = array($staff_name, $photo_url, $staff_bio, $staff_category, $staff_slug);
       $accepted_formatted_tags = array("[name_header]", "[photo]", "[email_link]", "[bio_paragraph]", "[website_link]");
