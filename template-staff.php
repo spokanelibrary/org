@@ -37,13 +37,13 @@ class SPL_StaffDirectoryShortcode {
     if ( is_array($categories) ) {
       foreach ( $categories as $c=>$category ) {
 
-        //$menu[$category['category_parent']][] = $category; 
+        $menu[$category->category_parent][] = $category; 
       }
     }
 
     
 
-    return '<pre>'.print_r($categories,true).'</pre>';
+    return '<pre>'.print_r($menu,true).'</pre>';
     /*
     $wp_query = new WP_Query($query_args);
     return '<pre>'.print_r($wp_query,true).'</pre>';
