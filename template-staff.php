@@ -54,16 +54,8 @@ class SPL_StaffDirectoryShortcode {
 
     }
 
-    //if ( !empty($menu) ) {
-      return 'testing';
-      //return SPL_StaffDirectoryShortcode::formatCategoryMenu($menu);
-    //}
 
-  }
-
-  static function formatCategoryMenu($menu) {
-    return 'test';
-    //return 'Test'.'<pre>'.print_r($menu,true).'</pre>';
+    return '<pre>'.print_r($menu,true).'</pre>';
   }
 
   static function shortcode($params) {
