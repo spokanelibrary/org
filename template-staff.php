@@ -66,7 +66,11 @@ class SPL_StaffDirectoryShortcode {
       $html .= '<h3>'.$dept->name.'</h3>'.PHP_EOL;
       if ( is_array($dept->category_children) ) {
         foreach ( $dept->category_children as $o => $org ) {
-          $html .= '<h4>'.$org->name.'</h4>'.PHP_EOL;
+          $html .= '<h4>';
+          $html .= '<a href="/staff-categories/"'.$org->slug.'/>';
+          $html .= $org->name;
+          $html .= '</h4>'
+          $html .= PHP_EOL;
         }
       }
     }
