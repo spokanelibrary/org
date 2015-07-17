@@ -47,7 +47,7 @@ class SPL_StaffDirectoryShortcode {
         if ( 0 !=  $category->category_parent ) {
           foreach ( $menu as $m => $item ) {
             if ( $m == $category->category_parent ) {
-              $menu[$m]->category_children[$category->cat_ID][] = $category;
+              $menu[$m]->category_children[$category->cat_ID] = $category;
             }
           }
         }
