@@ -11,7 +11,7 @@ Template Name: Intranet Home Page
   <div class="col-sm-12">
         
     <header class="navbar-common">
-      <nav class="navbar">
+      <nav class="navbar navbar-default">
         <ul class="nav nav-justified">
         <?php 
         wp_nav_menu( 
