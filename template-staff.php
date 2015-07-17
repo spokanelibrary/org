@@ -30,8 +30,11 @@ class SPL_StaffDirectoryShortcode {
       'post_type' => 'staff_category',
       'posts_per_page' => -1
     );
-    $staff_cat_query = new WP_Query($query_args);
-    return '<pre>'.print_r($staff_cat_query).'</pre>';
+    $wp_query = new WP_Query($query_args);
+   while($wp_query->have_posts()) {
+      $wp_query->the_post();
+      $name = get_the_title();
+      return '<pre>'.$name.'</pre>';
   }
 
   static function shortcode($params) {
