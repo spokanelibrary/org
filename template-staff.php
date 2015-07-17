@@ -61,7 +61,7 @@ class SPL_StaffDirectoryShortcode {
   }
 
   static function formatCategoryMenu($menu) {
-    return 'Test'.'<pre>'.print_r($menu,true).'</pre>'
+    return 'Test'.'<pre>'.print_r($menu,true).'</pre>';
   }
 
   static function shortcode($params) {
