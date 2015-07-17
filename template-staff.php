@@ -4,7 +4,8 @@ Template Name: Staff Page
 */
 ?>
 
-<?php echo  $post->post_content; ?>
+<?php get_template_part('templates/page', 'header'); ?>
+<?php get_template_part('templates/content', 'page'); ?>
 
 Staff stuff
 
