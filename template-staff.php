@@ -36,7 +36,7 @@ class SPL_StaffDirectoryShortcode {
     $menu = array();
     if ( is_array($categories) ) {
       foreach ( $categories as $c=>$category ) {
-        $menu[$category['category_parent']][] = $category; 
+        //$menu[$category['category_parent']][] = $category; 
       }
     }
 
