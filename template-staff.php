@@ -69,6 +69,7 @@ class SPL_StaffDirectoryShortcode {
           $html .= '<h4>';
           $html .= '<a href="/staff-categories/"'.$org->slug.'/>';
           $html .= $org->name;
+          $html .= '</a>';
           $html .= '</h4>';
           $html .= PHP_EOL;
         }
