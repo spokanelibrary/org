@@ -27,9 +27,13 @@ class SPL_StaffDirectoryShortcode {
   static function shortcodeList($params) {
 
     $query_args = array(
-      'taxonomy' => 'staff_category'
+      'post_type' => 'staff'
+      ,'taxonomy' => 'staff_category'
       ,'posts_per_page' => -1
     );
+    $categories = get_categories($query_args);
+    return '<pre>'.$categories.'</pre>';
+    /*
     $wp_query = new WP_Query($query_args);
     return '<pre>'.print_r($wp_query,true).'</pre>';
     while($wp_query->have_posts()) {
@@ -37,6 +41,7 @@ class SPL_StaffDirectoryShortcode {
       $name = get_the_title();
       return '<pre>'.$name.'</pre>';
     }
+    */
   }
 
   static function shortcode($params) {
