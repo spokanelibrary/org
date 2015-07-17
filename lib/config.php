@@ -65,6 +65,7 @@ function roots_display_sidebar() {
     array(
       'template-custom.php'
     , 'template-intranet.php'
+    , 'template-staff.php'
     , 'template-home.php'
     , 'template-beta.php'
     , 'template-alpha.php'

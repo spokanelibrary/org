@@ -4,7 +4,8 @@ Template Name: Staff Page
 */
 ?>
 
+<?php echo  $post->post_content; ?>
 
-This is a staff page.
+Staff stuff
 
 
