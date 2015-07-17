@@ -44,8 +44,8 @@ class SPL_StaffDirectoryShortcode {
       
       foreach ( $categories as $c => $category ) {
         foreach ( $menu as $m => $item ) {
-          $menu['test'][] = true;
-          if ( 0 !=  $category->category_parent && $m ==  $category->cat_ID ) {
+          if ( 0 !=  $category->category_parent ) {
+            $menu['test'][] = true;
             
             $menu[$category->category_parent]['children'][$category->cat_ID][] = $category;
           }
