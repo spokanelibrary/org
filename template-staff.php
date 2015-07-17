@@ -42,6 +42,7 @@ class SPL_StaffDirectoryShortcode {
         }
       }
       
+      /*
       foreach ( $categories as $c => $category ) {
         if ( 0 !=  $category->category_parent ) {
           foreach ( $menu as $m => $item ) {
@@ -51,6 +52,7 @@ class SPL_StaffDirectoryShortcode {
           }
         }
       }
+      */
       
 
     }
