@@ -10,9 +10,8 @@ Template Name: Intranet Home Page
   <!--<div class="col-lg-10 col-lg-offset-1">-->
   <div class="col-sm-12">
         
-    <header class="navbar-common">
-      <nav class="navbar navbar-default">
-        <ul class="nav nav-justified">
+      <nav class="navbar-common">
+          <ul class="nav nav-justified">
         <?php 
         wp_nav_menu( 
         array(
@@ -23,7 +22,6 @@ Template Name: Intranet Home Page
         ?>
         </ul>
       </nav>
-    </header>
 
     <?php 
     // conditionally display page content
