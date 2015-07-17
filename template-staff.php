@@ -27,8 +27,7 @@ class SPL_StaffDirectoryShortcode {
   static function shortcodeList($params) {
 
     $query_args = array(
-      'post_type' => 'category'
-      ,'taxonomy' => 'staff_category'
+      'taxonomy' => 'staff_category'
       ,'posts_per_page' => -1
     );
     $wp_query = new WP_Query($query_args);
