@@ -57,12 +57,12 @@ class SPL_StaffDirectoryShortcode {
 
     
 
-    return '<pre>'.print_r($menu,true).'</pre>';
+    return SPL_StaffDirectoryShortcode::formatCategoryMenu($menu);
   }
 
 
   static function formatCategoryMenu($menu) {
-    return 'testing';
+    return '<pre>'.print_r($menu,true).'</pre>';
   }
 
   static function shortcode($params) {
