@@ -42,8 +42,8 @@ class SPL_StaffDirectoryShortcode {
         }
       }
 
-      foreach ( $categories as $c => $category ) {
-        foreach ( $menu as $m => $item ) {
+      foreach ( $menu as $m => $item ) {
+        foreach ( $categories as $c => $category ) {
           if ( 0 < $m && $m ==  $category->category_parent ) {
             $menu[$category->category_parent]['children'][$category->cat_ID] = $category;
           }
