@@ -42,34 +42,26 @@ class SPL_StaffDirectoryShortcode {
         }
       }
       
-      
-      foreach ( $categories as $c => $category ) {
+      foreach ( $categories as $c => $category ) 
         if ( 0 !=  $category->category_parent ) {
           foreach ( $menu as $m => $item ) {
             if ( $m == $category->category_parent ) {
               $menu[$m]->category_children[$category->cat_ID][] = $category;
-              $menu['test'][$m][$category->cat_ID][] = $category;
             }
           }
         }
       }
-      
-      
 
     }
 
-    
-
-    return '<pre>'.print_r($menu,true).'</pre>';
-    /*
-    $wp_query = new WP_Query($query_args);
-    return '<pre>'.print_r($wp_query,true).'</pre>';
-    while($wp_query->have_posts()) {
-      $wp_query->the_post();
-      $name = get_the_title();
-      return '<pre>'.$name.'</pre>';
+    if ( !empty($menu) ) {
+      return SPL_StaffDirectoryShortcode::formatCategoryMenu($menu);
     }
-    */
+
+  }
+
+  static function formatCategoryMenu($menu) {
+    return 'Test'.'<pre>'.print_r($menu,true).'</pre>'
   }
 
   static function shortcode($params) {
