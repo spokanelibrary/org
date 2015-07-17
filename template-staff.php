@@ -55,7 +55,8 @@ class SPL_StaffDirectoryShortcode {
     }
 
     if ( !empty($menu) ) {
-      return SPL_StaffDirectoryShortcode::formatCategoryMenu($menu);
+      return 'testing';
+      //return SPL_StaffDirectoryShortcode::formatCategoryMenu($menu);
     }
 
   }
