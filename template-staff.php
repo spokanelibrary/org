@@ -32,7 +32,13 @@ class SPL_StaffDirectoryShortcode {
       ,'posts_per_page' => -1
     );
     $categories = get_categories($query_args);
-    return '<pre>'.print_r($categories,true).'</pre>';
+    foreach ( $categories as $c=>$category ) {
+      $menu[$category['category_parent']][] = $category; 
+    }
+
+    $menu = array();
+
+    return '<pre>'.print_r($menu,true).'</pre>'.'<pre>'.print_r($categories,true).'</pre>';
     /*
     $wp_query = new WP_Query($query_args);
     return '<pre>'.print_r($wp_query,true).'</pre>';
