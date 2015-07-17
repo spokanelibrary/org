@@ -270,7 +270,7 @@ EOT;
         foreach ( $staff_categories as $category ) {
           $staff_category .= $category->name.', ';
         }
-        $staff_category = trim(rtrim($staff_category, ','));
+        $staff_category = trim(rtrim($staff_category, ', '));
       } else {
         $staff_category = "";
       }
