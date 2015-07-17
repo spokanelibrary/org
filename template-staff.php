@@ -63,7 +63,12 @@ class SPL_StaffDirectoryShortcode {
     $html = '';
 
     foreach ( $menu as $d => $dept ) {
-      $html .= '<h4>'.$dept->name.'</h4>';
+      $html .= '<h3>'.$dept->name.'</h3>'.PHP_EOL;
+      if ( $dept->category_children ) {
+        foreach ( $dept->category_children as $o => $org ) {
+          $html .= '<h3>'.$org->name.'</h3>'.PHP_EOL;
+        }
+      }
     }
 
     $html .= '<pre>'.print_r($menu,true).'</pre>';
