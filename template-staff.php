@@ -55,14 +55,20 @@ class SPL_StaffDirectoryShortcode {
 
     }
 
-    
-
     return SPL_StaffDirectoryShortcode::formatCategoryMenu($menu);
   }
 
 
   static function formatCategoryMenu($menu) {
-    return 'Test'.'<pre>'.print_r($menu,true).'</pre>';
+    $html = '';
+
+    foreach ( $menu as $d => $dept ) {
+      $html .= '<h4>'.$dept->name.'</h4>';
+    }
+
+    $html .= '<pre>'.print_r($menu,true).'</pre>';
+
+    return $html;
   }
 
   static function shortcode($params) {
