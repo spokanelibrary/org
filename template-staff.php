@@ -42,17 +42,17 @@ class SPL_StaffDirectoryShortcode {
         }
       }
       
-      /*
+      
       foreach ( $categories as $c => $category ) {
         if ( 0 !=  $category->category_parent ) {
-          foreach ( $menu as $m => $item ) {
-            if ( $m == $category->category_parent ) {
-              $menu[$m]['children'][$category->cat_ID][] = $category;
-            }
-          }
+          //foreach ( $menu as $m => $item ) {
+            //if ( $m == $category->category_parent ) {
+              //$menu[$m]['children'][$category->cat_ID][] = $category;
+            //}
+          //}
         }
       }
-      */
+      
       
 
     }
