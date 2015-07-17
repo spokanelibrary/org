@@ -15,6 +15,9 @@ Template Name: Staff Page
 
 
 <?php
+
+SPL_StaffDirectoryShortcode::register_shortcode();
+
 class SPL_StaffDirectoryShortcode {
   static function register_shortcode() {
     add_shortcode('spl-staff-directory', array('SPL_StaffDirectoryShortcode', 'shortcode'));
