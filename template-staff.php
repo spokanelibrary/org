@@ -250,7 +250,6 @@ EOT;
     while($wp_query->have_posts()) {
       $wp_query->the_post();
       $staff_name = get_the_title();
-      $staff_name = 'my name';
       if (has_post_thumbnail()) {
         $attachment_array = wp_get_attachment_image_src(get_post_thumbnail_id());
         $photo_url = $attachment_array[0];
@@ -271,7 +270,7 @@ EOT;
       } else {
         $staff_category = "";
       }
-      $staff_slug = $post->post_name;
+      $staff_slug = 'my slug';
       $accepted_single_tags = array("[name]", "[photo_url]", "[bio]", "[category]", "[slug]");
       $replace_single_values = array($staff_name, $photo_url, $staff_bio, $staff_category, $staff_slug);
       $accepted_formatted_tags = array("[name_header]", "[photo]", "[email_link]", "[bio_paragraph]", "[website_link]");
