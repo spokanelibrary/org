@@ -266,7 +266,11 @@ EOT;
       $staff_website_link = $staff_website != '' ? "<a href=\"$staff_website\" target=\"_blank\">View website</a>" : "";
       $staff_categories = wp_get_post_terms(get_the_ID(), 'staff_category');
       if (count($staff_categories) > 0) {
-        $staff_category = $staff_categories[0]->name;
+        //$staff_category = $staff_categories[0]->name;
+        foreach ( $staff_categories as $category ) {
+          $staff_category .= $category->name.', ';
+        }
+        trim(rtrim($staff_category, ','));
       } else {
         $staff_category = "";
       }
