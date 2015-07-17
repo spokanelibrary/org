@@ -31,10 +31,11 @@ class SPL_StaffDirectoryShortcode {
       'posts_per_page' => -1
     );
     $wp_query = new WP_Query($query_args);
-   while($wp_query->have_posts()) {
+    while($wp_query->have_posts()) {
       $wp_query->the_post();
       $name = get_the_title();
       return '<pre>'.$name.'</pre>';
+    }
   }
 
   static function shortcode($params) {
