@@ -10,18 +10,20 @@ Template Name: Intranet Home Page
   <!--<div class="col-lg-10 col-lg-offset-1">-->
   <div class="col-sm-12">
         
-    <nav class="navbar navbar-common navbar-inverse">
-      <ul class="nav nav-justified">
-      <?php 
-      wp_nav_menu( 
-      array(
-        'menu' => 'Quick Links'
-      , 'container' => false
-      , 'items_wrap' => '%3$s'
-      )); 
-      ?>
-      </ul>
-    </nav>
+    <header class="navbar-common">
+      <nav class="navbar navbar-inverse">
+        <ul class="nav nav-justified">
+        <?php 
+        wp_nav_menu( 
+        array(
+          'menu' => 'Quick Links'
+        , 'container' => false
+        , 'items_wrap' => '%3$s'
+        )); 
+        ?>
+        </ul>
+      </nav>
+    </header>
 
     <?php 
     // conditionally display page content
