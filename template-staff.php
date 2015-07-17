@@ -38,7 +38,7 @@ class SPL_StaffDirectoryShortcode {
     }
     // get all staff
     $param = "id=$id&cat=$cat&orderby=$orderby&order=$order";
-    return StaffDirectoryShortcode::show_staff_directory($param, $template);
+    return SPL_StaffDirectoryShortcode::show_staff_directory($param, $template);
   }
   static function show_staff_directory($param = null, $template = NULL){
     parse_str($param);
