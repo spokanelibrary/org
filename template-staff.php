@@ -52,15 +52,17 @@ class SPL_StaffDirectoryShortcode {
           }
         }
       }
-      
-      
 
     }
 
     
 
     return '<pre>'.print_r($menu,true).'</pre>';
+  }
 
+
+  static function formatCategoryMenu($menu) {
+    return 'testing';
   }
 
   static function shortcode($params) {
