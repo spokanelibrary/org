@@ -10,7 +10,7 @@ Template Name: Intranet Home Page
   <!--<div class="col-lg-10 col-lg-offset-1">-->
   <div class="col-sm-12">
         
-    <header class="navbar-common">
+    <header class="navbar-common panel-primary">
         <ul class="nav nav-justified">
         <?php 
         wp_nav_menu( 
@@ -123,23 +123,4 @@ Template Name: Intranet Home Page
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
