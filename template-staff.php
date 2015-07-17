@@ -250,6 +250,7 @@ EOT;
     while($wp_query->have_posts()) {
       $wp_query->the_post();
       $staff_name = get_the_title();
+      $staff_name = 'my name';
       if (has_post_thumbnail()) {
         $attachment_array = wp_get_attachment_image_src(get_post_thumbnail_id());
         $photo_url = $attachment_array[0];
