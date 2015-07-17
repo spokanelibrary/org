@@ -270,11 +270,11 @@ EOT;
         foreach ( $staff_categories as $category ) {
           $staff_category .= $category->name.', ';
         }
-        $staff_category = trim(rtrim($staff_category, ', '));
+        $staff_category = rtrim($staff_category, ', ');
       } else {
         $staff_category = "";
       }
-      $staff_slug = 'my slug';
+      $staff_slug = get_the_name();
       $accepted_single_tags = array("[name]", "[photo_url]", "[bio]", "[category]", "[slug]");
       $replace_single_values = array($staff_name, $photo_url, $staff_bio, $staff_category, $staff_slug);
       $accepted_formatted_tags = array("[name_header]", "[photo]", "[email_link]", "[bio_paragraph]", "[website_link]");
