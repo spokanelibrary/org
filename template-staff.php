@@ -31,6 +31,7 @@ class SPL_StaffDirectoryShortcode {
       'posts_per_page' => -1
     );
     $wp_query = new WP_Query($query_args);
+    return '<pre>'.print_r($wp_query,true).'</pre>';
     while($wp_query->have_posts()) {
       $wp_query->the_post();
       $name = get_the_title();
