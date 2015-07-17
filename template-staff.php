@@ -20,7 +20,20 @@ Template Name: Staff Page
 class SPL_StaffDirectoryShortcode {
   static function register_shortcode() {
     add_shortcode('spl-staff-directory', array('SPL_StaffDirectoryShortcode', 'shortcode'));
+    add_shortcode('spl-staff-directory-list', array('SPL_StaffDirectoryShortcode', 'shortcodeList'));
+  
   }
+
+  static function shortcodeList($params) {
+
+    $query_args = array(
+      'post_type' => 'staff_category',
+      'posts_per_page' => -1
+    );
+    $staff_cat_query = new WP_Query($query_args);
+    return '<pre>'.print_r($staff_cat_query).'</pre>';
+  }
+
   static function shortcode($params) {
 
     extract(shortcode_atts(array(
@@ -253,7 +266,7 @@ EOT;
       if (has_post_thumbnail()) {
         $attachment_array = wp_get_attachment_image_src(get_post_thumbnail_id());
         $photo_url = $attachment_array[0];
-        $photo_tag = '<img src="' . $photo_url . '" />';
+        $photo_tag = '<img src="' . $photo_url . '" class="img-rounded">';
       } else {
         $photo_url = "";
         $photo_tag = "";
