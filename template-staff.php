@@ -67,7 +67,7 @@ class SPL_StaffDirectoryShortcode {
       if ( is_array($dept->category_children) ) {
         foreach ( $dept->category_children as $o => $org ) {
           $html .= '<h4>';
-          $html .= '<a href="/staff-categories/"'.$org->slug.'/>';
+          $html .= '<a href="/staff-categories/'.$org->slug.'/">';
           $html .= $org->name;
           $html .= '</a>';
           $html .= '</h4>';
