@@ -81,7 +81,7 @@ class SPL_StaffDirectoryShortcode {
         $output = StaffDirectoryShortcode::html_for_grid_template($staff_query);
         break;
       default:
-        $output = StaffDirectoryShortcode::html_for_custom_template($template, $staff_query);
+        $output = SPL_StaffDirectoryShortcode::html_for_custom_template($template, $staff_query);
         break;
     }
     wp_reset_query();
