@@ -4,8 +4,15 @@
   </h1>
 </div>
 
-<?php //do_widget('[spl_mailgun_current format=toc link_posts=true]'); ?>
-
+<div class="panel spl-hero-panel spl-hero-news" style="margin-top:20px;">
+  <h4>
+    <i class="glyphicon glyphicon-bullhorn"></i>
+    Read Library News
+  </h4>
+  <div class="panel-body">
+  <?php echo do_shortcode('[spl_mailgun_current format=toc link_posts=true]'); ?>
+  </div>
+</div>
 
 <h2 class="text-success">Read Past Issues</h2>
 
