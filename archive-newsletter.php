@@ -5,10 +5,10 @@
 </div>
 
 <div class="panel spl-hero-panel spl-hero-news" style="margin-top:20px;">
-  <h4>
+  <h3>
     <i class="glyphicon glyphicon-bullhorn"></i>
     In the current issue
-  </h4>
+  </h3>
   <div class="panel-body">
   <?php echo do_shortcode('[spl_mailgun_current format=toc link_posts=true]'); ?>
   <hr>
