@@ -4,12 +4,31 @@
   </h1>
 </div>
 
-  <h3 class="text-success">
-    <i class="glyphicon glyphicon-bullhorn"></i>
-    In the current issue
-  </h3>
-  <?php echo do_shortcode('[spl_mailgun_current format=toc link_posts=true]'); ?>
-  <?php echo do_shortcode('[spl_mailgun_current title="Read the current issue &rarr;" class="btn btn-block btn-success"]'); ?>
+<div class="row">
+
+  <div class="col-md-6">
+    <p class="lead">
+      <b>We’ll keep you informed</b> of new service offerings, as well as upcoming events and activities at your local library.
+    </p>
+    <p class="lead">
+      Library staff and customers also suggest some great reading and listening ideas you won’t want to miss!
+    </p>
+  </div>
+  <div class="col-md-6">
+    <div class="panel spl-hero-panel spl-hero-news" style="margin-top:20px;">
+      <h3 class="text-success">
+        <i class="glyphicon glyphicon-bullhorn"></i>
+        In the current issue
+      </h3>
+      <div class="panel-body">
+      <?php echo do_shortcode('[spl_mailgun_current format=toc link_posts=true]'); ?>
+      <hr>
+      <?php echo do_shortcode('[spl_mailgun_current title="Read the current issue &rarr;" class="btn btn-block btn-success"]'); ?>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 <h2 class="text-success">Read Past Issues</h2>
 
