@@ -37,7 +37,7 @@
     */
     ?>
 
-    <h2 class="entry-title">
+    <h3 class="entry-title">
       <!--
       <small>
         <time class="published" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date('F, Y'); ?></time>
@@ -47,7 +47,7 @@
       <a class="" href="<?php the_permalink(); ?>">
         <?php the_title(); ?>
       </a>
-    </h2>
+    </h3>
 
   </header>
   <div class="entry-summary">
