@@ -4,7 +4,7 @@
   </h1>
 </div>
 
-<?php do_widget('[spl_mailgun_current format=toc link_posts=true]'); ?>
+<?php //do_widget('[spl_mailgun_current format=toc link_posts=true]'); ?>
 
 
 <h2>Read Past Issues</h2>
