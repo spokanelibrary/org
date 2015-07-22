@@ -4,17 +4,12 @@
   </h1>
 </div>
 
-<div class="panel spl-hero-panel spl-hero-news" style="margin-top:20px;">
-  <h3>
+  <h3 class="text-success">
     <i class="glyphicon glyphicon-bullhorn"></i>
     In the current issue
   </h3>
-  <div class="panel-body">
   <?php echo do_shortcode('[spl_mailgun_current format=toc link_posts=true]'); ?>
-  <hr>
   <?php echo do_shortcode('[spl_mailgun_current title="Read the current issue &rarr;" class="btn btn-block btn-success"]'); ?>
-  </div>
-</div>
 
 <h2 class="text-success">Read Past Issues</h2>
 
