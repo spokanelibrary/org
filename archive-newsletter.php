@@ -4,12 +4,12 @@
   </h1>
 </div>
 
-<?php echo do_shortcode('[spl_mailgun_current title="Read the current issue &rarr;" class="btn btn-block btn-success"]'); ?>
-
 <div class="row">
 
   <div class="col-md-6">
-    <?php echo do_shortcode('[spl_mailgun_current title="Read the current issue &rarr;" class="btn btn-block btn-success"]'); ?>
+    <p>
+      <?php echo do_shortcode('[spl_mailgun_current title="Read the current issue &rarr;" class="btn btn-block btn-success"]'); ?>
+    </p>
   </div>
   <div class="col-md-6">
     <p>
