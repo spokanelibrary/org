@@ -1,10 +1,13 @@
 <div class="page-header">
   <h1>
-    Library News
+    Library News <small>Past Issues</small>
   </h1>
 </div>
 
-<h2 class="text-success">Read Past Issues</h2>
+<?php echo do_shortcode('[spl_mailgun_current title="Read the current issue &rarr;" class="btn btn-block btn-success"]'); ?>
+
+
+<h2 class="text-success">Past Issues</h2>
 
 <div class="panel panel-default">
   <div class="panel-body">
