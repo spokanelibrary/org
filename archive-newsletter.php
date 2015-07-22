@@ -11,9 +11,9 @@
   </h4>
   <div class="panel-body">
   <?php echo do_shortcode('[spl_mailgun_current format=toc link_posts=true]'); ?>
-  </div>
   <hr>
   <?php echo do_shortcode('[spl_mailgun_current title="Read the current issue &rarr;" class="btn btn-block btn-success"]'); ?>
+  </div>
 </div>
 
 <h2 class="text-success">Read Past Issues</h2>
