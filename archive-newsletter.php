@@ -4,7 +4,9 @@
     <small>Past Issues</small>
   </h1>
 </div>
-<hr>
+
+<div class="panel panel-default" style="border-left-width:5px;">
+  <div class="panel-body">
 
 <?php while (have_posts()) : the_post(); ?>
 <article <?php post_class(); ?>>
@@ -57,3 +59,6 @@
     </ul>
   </nav>
 <?php endif; ?>
+
+</div>
+</div>
