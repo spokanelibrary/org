@@ -5,9 +5,6 @@
   </h1>
 </div>
 
-<p>
-  Issues of Library News published prior to 2014 are <a title="Archived Issues" href="/archive">available in our archive</a>.
-</p>
 
 <?php while (have_posts()) : the_post(); ?>
 <article <?php post_class(); ?>>
