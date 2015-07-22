@@ -5,7 +5,7 @@
   </h1>
 </div>
 
-<div class="panel panel-default" style="border-left-width:5px;">
+<div class="panel panel-default">
   <div class="panel-body">
 
 <?php while (have_posts()) : the_post(); ?>
