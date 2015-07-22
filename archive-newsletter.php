@@ -31,7 +31,7 @@
       </small>
       <br>
       -->
-      <a class="text-success" href="<?php the_permalink(); ?>">
+      <a class="" href="<?php the_permalink(); ?>">
         <?php the_title(); ?>
       </a>
     </h2>
