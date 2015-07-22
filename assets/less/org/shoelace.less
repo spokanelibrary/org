@@ -1473,9 +1473,13 @@ a .chof-red:hover {
 }
 
 .spl-hero-news {
+  color: @gray;
+  background-color: lighten(@brand-success, 10%);
   border-color: @brand-success !important;
   border-bottom-width: 5px;
-  background: #fff;
+  .panel-body {
+    background: #fff;
+  }
 }
 
 .spl-hero-announce {
