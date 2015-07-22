@@ -13,7 +13,7 @@
   </div>
   <div class="col-md-6">
     <p>
-      <a class="btn btn-default btn-block" href="/subscribe/">Subscribe to Library News</a>
+      <a class="btn btn-primary btn-block" href="/subscribe/">Subscribe to Library News &rarr;</a>
     </p>
   </div>
 
