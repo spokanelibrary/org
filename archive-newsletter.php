@@ -1,11 +1,23 @@
 <div class="page-header">
   <h1>
-    Library News <small>Past Issues</small>
+    Library News
   </h1>
 </div>
 
 <?php echo do_shortcode('[spl_mailgun_current title="Read the current issue &rarr;" class="btn btn-block btn-success"]'); ?>
 
+<div class="row">
+
+  <div class="col-md-6">
+    <?php echo do_shortcode('[spl_mailgun_current title="Read the current issue &rarr;" class="btn btn-block btn-success"]'); ?>
+  </div>
+  <div class="col-md-6">
+    <p>
+      <a class="btn btn-default btn-block" href="/subscribe/">Subscribe to Library News</a>
+    </p>
+  </div>
+
+</div>
 
 <h2 class="text-success">Past Issues</h2>
 
