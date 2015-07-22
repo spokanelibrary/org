@@ -7,7 +7,7 @@
 <?php //do_widget('[spl_mailgun_current format=toc link_posts=true]'); ?>
 
 
-<h2>Read Past Issues</h2>
+<h2 class="text-success">Read Past Issues</h2>
 
 <div class="panel panel-default">
   <div class="panel-body">
