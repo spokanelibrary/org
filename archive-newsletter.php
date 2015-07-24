@@ -4,77 +4,67 @@
   </h1>
 </div>
 
-<div class="row">
-
-  <div class="col-md-6">
-    <p>
-      <?php echo do_shortcode('[spl_mailgun_current title="Read the current issue &rarr;" class="btn btn-block btn-success"]'); ?>
-    </p>
-  </div>
-  <div class="col-md-6">
-    <p>
-      <a class="btn btn-primary btn-block" href="/subscribe/">Subscribe to Library News &rarr;</a>
-    </p>
-  </div>
-
-</div>
-
 <h2 class="text-success">Past Issues</h2>
 
 <div class="panel panel-default">
-  <div class="panel-body">
-
-<?php while (have_posts()) : the_post(); ?>
-<article <?php post_class(); ?>>
-  <header>
-    <?php
-    /*
-    <h2 class="entry-title">
-    	<a href="<?php the_permalink(); ?>">
-    		<time class="published" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date('F, Y'); ?></time>
-    	</a>
-    	<small>
-    		<?php the_title(); ?>
-    	</small>
-    </h2>
-    */
-    ?>
-
-    <h3 class="entry-title">
-      <!--
-      <small>
-        <time class="published" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date('F, Y'); ?></time>
-      </small>
-      <br>
-      -->
-      <a class="" href="<?php the_permalink(); ?>">
-        <?php the_title(); ?>
-      </a>
-    </h3>
-
-  </header>
-  <div class="entry-summary">
-  	<blockquote>
-  	  <?php the_excerpt(); ?>
-	  </blockquote>
+  <div class="panel-heading">
+    <div class="text-right">
+        <i class="glyphicon glyphicon-envelope text-primary"></i>
+        <a href="/subscribe">Subscribe</a>
+    </div>
   </div>
-</article>
+  <div class="panel-body">
+    <?php while (have_posts()) : the_post(); ?>
+    <article <?php post_class(); ?>>
+      <header>
+        <?php
+        /*
+        <h2 class="entry-title">
+        	<a href="<?php the_permalink(); ?>">
+        		<time class="published" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date('F, Y'); ?></time>
+        	</a>
+        	<small>
+        		<?php the_title(); ?>
+        	</small>
+        </h2>
+        */
+        ?>
 
-<footer>
-  <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
-</footer>
+        <h3 class="entry-title">
+          <!--
+          <small>
+            <time class="published" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date('F, Y'); ?></time>
+          </small>
+          <br>
+          -->
+          <a class="" href="<?php the_permalink(); ?>">
+            <?php the_title(); ?>
+          </a>
+        </h3>
 
-<?php endwhile; ?>
+      </header>
+      <div class="entry-summary">
+      	<blockquote>
+      	  <?php the_excerpt(); ?>
+    	  </blockquote>
+      </div>
+    </article>
 
-<?php if ($wp_query->max_num_pages > 1) : ?>
-  <hr>
-  <nav class="post-nav">
-    <ul class="pager">
-      <li class="previous"><?php next_posts_link(__('&larr; Older Newsletters', 'roots')); ?></li>
-      <li class="next"><?php previous_posts_link(__('Newer Newsletters &rarr;', 'roots')); ?></li>
-    </ul>
-  </nav>
-<?php endif; ?>
+    <footer>
+      <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
+    </footer>
 
-</div>
+    <?php endwhile; ?>
+
+    <?php if ($wp_query->max_num_pages > 1) : ?>
+      <hr>
+      <nav class="post-nav">
+        <ul class="pager">
+          <li class="previous"><?php next_posts_link(__('&larr; Older Newsletters', 'roots')); ?></li>
+          <li class="next"><?php previous_posts_link(__('Newer Newsletters &rarr;', 'roots')); ?></li>
+        </ul>
+      </nav>
+    <?php endif; ?>
+
+  </div>
 </div>
