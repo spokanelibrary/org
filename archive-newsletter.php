@@ -54,6 +54,7 @@
     	  </blockquote>
       </div>
     </article>
+    <hr>
 
     <footer>
       <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
@@ -62,7 +63,7 @@
     <?php endwhile; ?>
 
     <?php if ($wp_query->max_num_pages > 1) : ?>
-      <hr>
+      <!--<hr>-->
       <nav class="post-nav">
         <ul class="pager">
           <li class="previous"><?php next_posts_link(__('&larr; Older Newsletters', 'roots')); ?></li>
