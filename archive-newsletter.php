@@ -13,6 +13,12 @@
   </div>
   <div class="panel-body">
     <?php while (have_posts()) : the_post(); ?>
+    <?php
+    $subtitle = get_post_meta($post->ID
+                ,'_spl_mailgun_newsletter_subtitle'
+                ,true 
+                );
+    ?>
     <article <?php post_class(); ?>>
       <header>
         <?php
@@ -27,6 +33,7 @@
         </h2>
         */
         ?>
+        <h5 class="text-muted">$subtitle</h5>
 
         <h3 class="entry-title">
           <!--
