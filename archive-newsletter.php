@@ -1,10 +1,8 @@
 <div class="page-header">
   <h1>
-    Library News
+    Library News <small>Past Issues</small>
   </h1>
 </div>
-
-<h2 class="text-success">Past Issues</h2>
 
 <div class="panel panel-default">
   <div class="panel-heading">
