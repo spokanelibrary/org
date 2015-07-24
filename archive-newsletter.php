@@ -33,7 +33,7 @@
         </h2>
         */
         ?>
-        <h5 class="text-muted">$subtitle</h5>
+        <h5 class="text-muted"><?php echo($subtitle); ?></h5>
 
         <h3 class="entry-title">
           <!--
