@@ -12,7 +12,6 @@
     </div>
   </div>
   <div class="panel-body">
-    <div class="spl-news">
     <?php while (have_posts()) : the_post(); ?>
     <?php
     $subtitle = get_post_meta($post->ID
@@ -93,7 +92,7 @@
           $html .= 'also in this issue:';
           $html .= '</h3>';
 
-          $html .= '<ul class="">';
+          $html .= '<ul class="" style="color:#666;">';
           foreach ( $articles as $article ) {
             //$html .= '<li><b><a href="'.$article->link.'">'.$article->title.'</a></b></li>';
             $html .= '<li><b>'.$article->title.'</b></li>';
@@ -128,7 +127,6 @@
         </ul>
       </nav>
     <?php endif; ?>
-    </div>
 
   </div>
 </div>
