@@ -22,14 +22,16 @@ foreach ( $categories as $category ) {
 			  	//$categories = get_the_category($post->ID);
 					if ( is_array($categories)) { 
 						foreach ( $categories as $category ) {
-							echo '<li>';
-							echo '<a class="" href="' . get_category_link($category->cat_ID) . '">';
-							echo '<small class="text-success">';
-							echo '<small class="glyphicon glyphicon-pushpin"></small> ';
-							echo '<b>'.$category->name.'</b>';
-							echo '</small>';
-							echo '</a>';
-							echo '</li>';
+							if ( 'library-news' != $category->slug ) {
+								echo '<li>';
+								echo '<a class="" href="' . get_category_link($category->cat_ID) . '">';
+								echo '<small class="text-success">';
+								echo '<small class="glyphicon glyphicon-pushpin"></small> ';
+								echo '<b>'.$category->name.'</b>';
+								echo '</small>';
+								echo '</a>';
+								echo '</li>';
+							}
 						}
 					}		
 					?>
