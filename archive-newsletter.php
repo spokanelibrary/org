@@ -88,7 +88,7 @@
           
           $html .= '<div class="row">';
           $html .= '<div class="col col-sm-11 col-sm-offset-1">';
-          $html .= '<h3 class="normal text-muted">';
+          $html .= '<h3 class="normal text-muted" style="padding-top:0;">';
           $html .= 'also in this issue:';
           $html .= '</h3>';
 
