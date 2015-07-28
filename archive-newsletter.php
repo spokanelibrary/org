@@ -75,6 +75,43 @@
         <?php the_excerpt(); ?>
         </blockquote>
         <?php endif; ?> 
+
+        <?php
+        $posts = array();
+        for ( $i=1; $i<= 12; $i++ ) {
+          $select = SPL_Mailgun_Newsletter::getPostSelect($q->post->ID, $i);
+          if ( !empty($select) ) {
+            $posts[$i] = $select;
+          }
+        }
+        if ( !empty($posts) ) {
+          $html = '';
+          $html .= '<div class="row">';
+          $html .= '<div class="col col-sm-11 col-sm-offset-1">';
+          $html .= '<h3 class="normal">';
+          $html .= 'also in this issue:';
+          $html .= '</h3>';
+
+          if ( isset($params['link_posts']) ) {
+            $html .= '<ul class="">';
+            foreach ( $posts as $post ) {
+              $html .= '<li><b><a href="'.$post->link.'">'.$post->title.'</a></b></li>';
+            }
+            $html .= '</ul>';
+          } else {
+            $html .= '<ul class="list-unstyled">';
+            foreach ( $posts as $post ) {
+              $html .= '<li>';
+              $html .= ''.$post->title.'</strong> ';
+              $html .= '</li>';
+            }
+            $html .= '</ul>';
+          }
+          $html .= '</div>';
+          $html .= '</div>';
+          echo $html;
+        }
+        ?>
       	  
       </div>
     </article>
