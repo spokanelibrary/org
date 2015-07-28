@@ -53,7 +53,7 @@
         $img_src = null;
         if ( has_post_thumbnail() ) { 
           $img = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium');
-          $img_src = $img[0];
+          //$img_src = $img[0];
         }
         ?>
       	<blockquote>
