@@ -63,7 +63,9 @@
             <img class="img-responsive img-rounded pull-left" style="max-height:200px;" src="<?php echo $img_src; ?>">
           </div>
           <div class="col-sm-8">
+            <blockquote>
             <?php the_excerpt(); ?>
+            </blockquote>
           </div>
         </div>
         <?php else:; ?>
