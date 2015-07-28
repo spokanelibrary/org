@@ -41,7 +41,7 @@
         <br>
         -->
         <a class="" href="<?php the_permalink(); ?>">
-          <h3 class="entry-title text-success">
+          <h3 class="text-success">
             <?php the_title(); ?>
           </h3>
         </a>
