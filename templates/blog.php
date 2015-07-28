@@ -3,7 +3,7 @@ $spl_post_is_news_only = FALSE;
 $categories = get_the_category($post->ID); 
 foreach ( $categories as $category ) {
 	if ( 'library_news' == $category->slug && 1 == count($categories) ) {
-		//$spl_post_is_news_only = true;
+		$spl_post_is_news_only = TRUE;
 	}
 }
 ?>
