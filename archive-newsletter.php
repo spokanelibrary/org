@@ -8,7 +8,7 @@
   <div class="panel-heading">
     <div class="text-right">
         
-        <a class="btn btn-sm btn-default" href="/subscribe/"><i class="glyphicon glyphicon-envelope"></i> Subscribe</a>
+        <a class="btn btn-default" href="/subscribe/"><i class="glyphicon glyphicon-envelope"></i> Subscribe</a>
     </div>
   </div>
   <div class="panel-body">
