@@ -40,11 +40,11 @@
         </small>
         <br>
         -->
-        <h3 class="entry-title">
+        <h2 class="entry-title">
           <a class="" href="<?php the_permalink(); ?>">
               <?php the_title(); ?>
           </a>
-        </h3>
+        </h2>
 
       </header>
       <div class="entry-summary">
@@ -88,7 +88,7 @@
           
           $html .= '<div class="row">';
           $html .= '<div class="col col-sm-11 col-sm-offset-1">';
-          $html .= '<h3 class="normal">';
+          $html .= '<h3 class="normal text-muted">';
           $html .= 'also in this issue:';
           $html .= '</h3>';
 
