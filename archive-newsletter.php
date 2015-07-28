@@ -92,7 +92,7 @@
           $html .= 'also in this issue:';
           $html .= '</h3>';
 
-          $html .= '<ul class="" style="color:#666;">';
+          $html .= '<ul class="">';
           foreach ( $articles as $article ) {
             //$html .= '<li><b><a href="'.$article->link.'">'.$article->title.'</a></b></li>';
             $html .= '<li><b>'.$article->title.'</b></li>';
