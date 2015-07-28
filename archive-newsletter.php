@@ -95,7 +95,7 @@
           $html .= '<ul class="">';
           foreach ( $articles as $article ) {
             //$html .= '<li><b><a href="'.$article->link.'">'.$article->title.'</a></b></li>';
-            $html .= '<li><b>'.$article->title.'</b></li>';
+            $html .= '<li>'.$article->title.'</li>';
           }
           $html .= '</ul>';
           
