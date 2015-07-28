@@ -33,5 +33,15 @@
 	  </div><!-- /.row -->
   </div>
   <?php get_template_part('templates/entry-meta'); ?>
+
+  <?php
+  $categories = get_the_category();
+  echo '<pre>';
+	print_r($categories);
+	echo '</pre>';
+	//foreach ( $categories as $category ) { 
+	  //echo '<img src="' . esc_url( 'http://example.com/images/' . intval( $category->term_id ) . '.jpg' ) . '" alt="' . esc_attr( $category->name ) . '" />'; 
+	//}
+	?>
   <hr>
 </article>
