@@ -77,7 +77,7 @@
         <?php endif; ?> 
 
         <?php
-        /*
+        
         $posts = array();
         for ( $i=1; $i<= 12; $i++ ) {
           $select = SPL_Mailgun_Newsletter::getPostSelect($post->ID, $i);
@@ -93,26 +93,17 @@
           $html .= 'also in this issue:';
           $html .= '</h3>';
 
-          if ( isset($params['link_posts']) ) {
             $html .= '<ul class="">';
-            foreach ( $posts as $post ) {
-              $html .= '<li><b><a href="'.$post->link.'">'.$post->title.'</a></b></li>';
+            foreach ( $posts as $article ) {
+              $html .= '<li><b><a href="'.$article->link.'">'.$article->title.'</a></b></li>';
             }
             $html .= '</ul>';
-          } else {
-            $html .= '<ul class="list-unstyled">';
-            foreach ( $posts as $post ) {
-              $html .= '<li>';
-              $html .= ''.$post->title.'</strong> ';
-              $html .= '</li>';
-            }
-            $html .= '</ul>';
-          }
+          
           $html .= '</div>';
           $html .= '</div>';
           echo $html;
         }
-        */
+
         ?>
       	  
       </div>
