@@ -7,8 +7,8 @@
 <div class="panel spl-hero-panel spl-hero-news">
   <div class="panel-heading">
     <div class="text-right">
-        <i class="glyphicon glyphicon-envelope text-primary"></i>
-        <a href="/subscribe/">Subscribe</a>
+        
+        <a class="btn btn-success" href="/subscribe/"><i class="glyphicon glyphicon-envelope"></i> Subscribe</a>
     </div>
   </div>
   <div class="panel-body">
