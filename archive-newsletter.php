@@ -95,10 +95,12 @@
           $html .= '<ul class="">';
           foreach ( $articles as $article ) {
             //$html .= '<li><b><a href="'.$article->link.'">'.$article->title.'</a></b></li>';
-            $html .= '<li>'.$article->title.'</li>';
+            $html .= '<li><b>'.$article->title.'</b></li>';
           }
           $html .= '</ul>';
-          
+
+          $html .= '<a class="btn btn-success" href="'.$article->link.'">Read this issue &rarr;</a>';
+
           $html .= '</div>';
           $html .= '</div>';
           echo $html;
