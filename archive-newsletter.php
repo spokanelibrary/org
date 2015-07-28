@@ -8,7 +8,7 @@
   <div class="panel-heading">
     <div class="text-right">
         <i class="glyphicon glyphicon-envelope text-primary"></i>
-        <a href="/subscribe">Subscribe</a>
+        <a href="/subscribe/">Subscribe</a>
     </div>
   </div>
   <div class="panel-body">
@@ -49,7 +49,16 @@
 
       </header>
       <div class="entry-summary">
+        <?php
+        if ( has_post_thumbnail() ) { 
+          $img = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium');
+          $img_src = $img[0];
+        }
+        ?>
       	<blockquote>
+          <?php if ($img_src) :; ?>
+          <img class="img-responsive img-rounded pull-left" style="max-height:200px;" src="<?php echo $img_src; ?>">
+          <?php endif; ?> 
       	  <?php the_excerpt(); ?>
     	  </blockquote>
       </div>
