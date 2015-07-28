@@ -12,6 +12,7 @@
     </div>
   </div>
   <div class="panel-body">
+    <div class="spl-news">
     <?php while (have_posts()) : the_post(); ?>
     <?php
     $subtitle = get_post_meta($post->ID
@@ -127,6 +128,7 @@
         </ul>
       </nav>
     <?php endif; ?>
+    </div>
 
   </div>
 </div>
