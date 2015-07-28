@@ -60,7 +60,9 @@
         <?php if ($img_src) :; ?>
         <div class="row">
           <div class="col-sm-4">
+            <a class="" href="<?php the_permalink(); ?>">
             <img class="img-responsive img-rounded pull-left" style="max-height:200px;" src="<?php echo $img_src; ?>">
+            </a>
           </div>
           <div class="col-sm-8">
             <blockquote>
