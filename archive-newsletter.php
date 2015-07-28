@@ -33,19 +33,18 @@
         </h2>
         */
         ?>
-        <h5 class="text-muted"><?php echo($subtitle); ?></h5>
-
-        <h3 class="entry-title">
-          <!--
-          <small>
-            <time class="published" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date('F, Y'); ?></time>
-          </small>
-          <br>
-          -->
-          <a class="" href="<?php the_permalink(); ?>">
+        <h5 class="text-muted"><?php echo($subtitle); ?></h5>        
+        <!--
+        <small>
+          <time class="published" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date('F, Y'); ?></time>
+        </small>
+        <br>
+        -->
+        <a class="" href="<?php the_permalink(); ?>">
+          <h3 class="entry-title text-success">
             <?php the_title(); ?>
-          </a>
-        </h3>
+          </h3>
+        </a>
 
       </header>
       <div class="entry-summary">
