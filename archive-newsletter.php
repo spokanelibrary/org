@@ -56,12 +56,22 @@
           $img_src = $img[0];
         }
         ?>
-      	<blockquote>
-          <?php if ($img_src) :; ?>
-          <img class="img-responsive img-rounded pull-left" style="max-height:200px;" src="<?php echo $img_src; ?>">
-          <?php endif; ?> 
-      	  <?php the_excerpt(); ?>
-    	  </blockquote>
+      	
+        <?php if ($img_src) :; ?>
+        <div class="row">
+          <div class="col-sm-4">
+            <img class="img-responsive img-rounded pull-left" style="max-height:200px;" src="<?php echo $img_src; ?>">
+          </div>
+          <div class="col-sm-8">
+            <?php the_excerpt(); ?>
+          </div>
+        </div>
+        <?php else:; ?>
+        <blockquote>
+        <?php the_excerpt(); ?>
+        </blockquote>
+        <?php endif; ?> 
+      	  
       </div>
     </article>
     <hr>
