@@ -60,7 +60,7 @@
         <div class="row">
           <div class="col-sm-4">
             <a class="" href="<?php the_permalink(); ?>">
-            <img class="img-responsive img-rounded" style="max-height:200px;" src="<?php echo $img_src; ?>">
+            <img class="img-responsive img-rounded" style="max-height:200px; margin-bottom:10px;" src="<?php echo $img_src; ?>">
             </a>
           </div>
           <div class="col-sm-8">
@@ -88,7 +88,7 @@
           
           $html .= '<div class="row">';
           $html .= '<div class="col col-sm-11 col-sm-offset-1">';
-          $html .= '<h3 class="normal text-muted" style="padding-top:0; margin-top:10px;">';
+          $html .= '<h3 class="normal text-muted" style="padding-top:0; margin-top:0px;">';
           $html .= 'also in this issue:';
           $html .= '</h3>';
 
