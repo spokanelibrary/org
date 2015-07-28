@@ -1,5 +1,5 @@
 <?php $categories = get_the_category($post->ID); ?>
-<?php if ( !array_search('library-news', $categories) ) :; ?>
+<?php if ( !in_array('library-news', $categories) ) :; ?>
 <article <?php post_class(); ?>>
   <header>
     <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
