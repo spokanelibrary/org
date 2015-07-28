@@ -4,7 +4,7 @@
   </h1>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default spl-hero-news">
   <div class="panel-heading">
     <div class="text-right">
         <i class="glyphicon glyphicon-envelope text-primary"></i>
