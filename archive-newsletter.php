@@ -82,7 +82,7 @@
         for ( $i=1; $i<= 12; $i++ ) {
           $select = SPL_Mailgun_Newsletter::getPostSelect($post->ID, $i);
           if ( !empty($select) ) {
-            $$articles[$i] = $select;
+            $articles[$i] = $select;
           }
         }
         if ( !empty($articles) ) {
