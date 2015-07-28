@@ -77,33 +77,33 @@
         <?php endif; ?> 
 
         <?php
-        /*
-        $posts = array();
+        $html = '';
+        $articles = array();
         for ( $i=1; $i<= 12; $i++ ) {
           $select = SPL_Mailgun_Newsletter::getPostSelect($post->ID, $i);
           if ( !empty($select) ) {
-            $posts[$i] = $select;
+            $$articles[$i] = $select;
           }
         }
-        if ( !empty($posts) ) {
-          $html = '';
+        if ( !empty($articles) ) {
+          
           $html .= '<div class="row">';
           $html .= '<div class="col col-sm-11 col-sm-offset-1">';
           $html .= '<h3 class="normal">';
           $html .= 'also in this issue:';
           $html .= '</h3>';
 
-            $html .= '<ul class="">';
-            foreach ( $posts as $article ) {
-              $html .= '<li><b><a href="'.$article->link.'">'.$article->title.'</a></b></li>';
-            }
-            $html .= '</ul>';
+          $html .= '<ul class="">';
+          foreach ( $articles as $article ) {
+            $html .= '<li><b><a href="'.$article->link.'">'.$article->title.'</a></b></li>';
+          }
+          $html .= '</ul>';
           
           $html .= '</div>';
           $html .= '</div>';
           echo $html;
         }
-        */
+        
         ?>
       	  
       </div>
