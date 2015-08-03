@@ -78,7 +78,7 @@
             </button>
           </div>
 
-          <?php if ( isset($_REQUEST['station']) ) :; ?>
+          <?php if ( !isset($_REQUEST['station']) ) :; ?>
           <div class="col-md-2 col-lg-3">
             <p style="margin-top:16px;">
               <a href="/card/"><b>More about library cards</b></a>&nbsp;<small class="text-muted glyphicon glyphicon-arrow-right"></small>
