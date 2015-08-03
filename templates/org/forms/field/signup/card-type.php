@@ -79,11 +79,11 @@
           </div>
 
           <div class="col-md-2 col-lg-3">
-            <p>
-              <a href="/card/">More about library cards &rarr;</a>
+            <p class="margin-top:16px;">
+              <a href="/card/"><b>More about library cards</b> <small>&rarr;</small></a>
             </p>
           </div>
-          
+
         </div>
 
       </fieldset>
