@@ -39,7 +39,7 @@
 			Learn 80 languages, including English for foreign speakers, with special courses for children and health care workers.
 		</p>
 		<p>
-			<a class="btn btn-block btn-error" 
+			<a class="btn btn-block btn-danger" 
 					href="/pronunciator/">More about <b>Pronunciator</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
