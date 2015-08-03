@@ -80,7 +80,7 @@
 
           <div class="col-md-2 col-lg-3">
             <p class="margin-top:16px;">
-              <a href="/card/"><b>More about library cards</b> <small>&rarr;</small></a>
+              <a href="/card/"><b>More about library cards</b></a>
             </p>
           </div>
 
