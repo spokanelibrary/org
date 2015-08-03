@@ -9,7 +9,7 @@
       href="/news/"
       title=""><b>News</b></a>
   <a class="btn btn-default" 
-      href="/card/"
+      href="/signup/"
       title=""><b>Get a Library Card</b></a>
   <a class="btn btn-default" 
       href="/support/"
