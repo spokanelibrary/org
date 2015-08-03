@@ -27,7 +27,9 @@
 					href="/gale-courses/">More about <b>Gale Courses</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
-	<div class="clearfix"><hr></div>
+</div><!-- /.row -->
+<hr>
+<div class="row">
 	<div class="col-md-6">
 		<p>
 			<a href="/pronunciator/"><img src="/assets/img/db/pronunciator_logo_330x68.png"></a>
