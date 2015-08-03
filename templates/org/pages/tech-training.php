@@ -27,6 +27,20 @@
 					href="/gale-courses/">More about <b>Gale Courses</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
+	<div class="clearfix"></div>
+	<div class="col-md-6">
+		<p>
+			<a href="/pronunciator/"><img src="/assets/img/db/pronunciator_logo_330x68.png"></a>
+		</p>
+		<h5>Pronunciator</h5>
+		<p>
+			Learn 80 languages, including English for foreign speakers, with special courses for children and health care workers.
+		</p>
+		<p>
+			<a class="btn btn-block btn-error" 
+					href="/pronunciator/">More about <b>Pronunciator</b> &rarr;</a>
+		</p>
+	</div><!-- /.col -->
 </div><!-- /.row -->
 
 <hr>
