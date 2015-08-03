@@ -79,6 +79,12 @@
           </div>
         </div>
 
+        <div class="col-md-2 col-lg-3">
+          <p>
+            <a href="/card/">More about library cards &rarr;</a>
+          </p>
+        </div>
+
       </fieldset>
 
     </div><!-- /.panel-body -->
