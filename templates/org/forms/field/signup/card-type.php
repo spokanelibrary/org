@@ -80,7 +80,7 @@
 
           <?php if ( !isset($_REQUEST['station']) ) :; ?>
           <div class="col-md-2 col-lg-3">
-            <div style="margin-top:16px;">
+            <div style="padding-top:16px;">
               <p>
                 <a href="/card/"><b>More about library cards</b></a>&nbsp;<small class="text-muted glyphicon glyphicon-arrow-right"></small>
               </p>
