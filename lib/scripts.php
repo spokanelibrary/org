@@ -62,6 +62,6 @@ function roots_google_analytics() { ?>
 </script>
 
 <?php }
-if (GOOGLE_ANALYTICS_ID && !current_user_can('manage_options')) {
+if (GOOGLE_ANALYTICS_ID && !isset($_REQUEST['kiosk']) && !current_user_can('manage_options')) {
   add_action('wp_footer', 'roots_google_analytics', 20);
 }
