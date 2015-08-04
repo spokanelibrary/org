@@ -87,7 +87,7 @@ Template Name: Beta Home Page
             Coming Up
           </h4>
           <div class="panel-body" style="padding-bottom:0;">
-            <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded]'); ?>
+            <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded refresh]'); ?>
             <div class="calendar-promo">
               <h5 class="text-center">
                 <a href="/calendar/">Full Calendar <span class="text-muted">&rarr;</span></a>
