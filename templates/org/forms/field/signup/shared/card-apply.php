@@ -18,16 +18,17 @@
             <b class="text-success">I agree to these <i>Terms &amp; Conditions</b></i>.
           </label>
         </p>
+        <p>
+          <button type="submit" class="btn btn-block btn-primary">
+            <b>Get my library card</b>
+            <small class="glyphicon glyphicon-arrow-right"></small>
+          </button>
+        </p>
       </div>
     </div>
   </div>
   <div class="col-sm-6 col-sm-offset-3">
-    <p>
-      <button type="submit" class="btn btn-block btn-primary">
-        <b>Get my library card</b>
-        <small class="glyphicon glyphicon-arrow-right"></small>
-      </button>
-    </p>
+    
   </div>
 </div>
 
