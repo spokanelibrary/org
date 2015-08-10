@@ -191,7 +191,9 @@ var org = {
       } )
       .done(function(data) {
         //console.log(data);
-        if ( !data.error ) {
+        if ( data.error ) {
+          $('#'+id).val('');
+        } else {
           $('#'+id).val(data);
         }
       })
