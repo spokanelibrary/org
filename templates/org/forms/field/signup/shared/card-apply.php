@@ -11,17 +11,17 @@
           <small>You won't lose the information you have entered.</small>
         </span>
       </p>
-      <div class="checkbox">
-        <p>
-          <label>
-            <input type="checkbox" class="required" id="spl-signup-agree" name="spl-form[signup][agree]" value="">
-            <b>I agree to these <i>Terms &amp; Conditions</b></i>.
-          </label>
-        </p>
-      </div>
     </div>
   </div>
   <div class="col-sm-6 col-sm-offset-3">
+    <div class="checkbox">
+      <p>
+        <label>
+          <input type="checkbox" class="required" id="spl-signup-agree" name="spl-form[signup][agree]" value="">
+          <b>I agree to these <i>Terms &amp; Conditions</b></i>.
+        </label>
+      </p>
+    </div>
     <p>
       <button type="submit" class="btn btn-block btn-primary">
         <b>Get my library card</b>
