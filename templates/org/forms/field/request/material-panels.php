@@ -286,6 +286,9 @@
   <!-- submit -->
   <div class="form-group">
     <div class="col-sm-8 col-md-9 col-sm-offset-4 col-md-offset-3">
+      <p>
+        <b>Please be sure you have <a rel="external" href="/catalog/">checked our catalog</a> before sending your request. Thanks!</b>
+      </p>
       <button type="submit" class="btn btn-block btn-success">
         <small class="glyphicon glyphicon-check"></small>
         Request Now &rarr;
