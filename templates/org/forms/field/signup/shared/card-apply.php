@@ -14,7 +14,7 @@
       <div class="checkbox">
         <p>
           <label>
-            <input type="checkbox" style="transform:scale(2, 2);" class="required" id="spl-signup-agree" name="spl-form[signup][agree]" value="">
+            <input type="checkbox" style="transform:scale(1.5, 1.5);" class="required" id="spl-signup-agree" name="spl-form[signup][agree]" value="">
             <b class="text-success">I agree to these <i>Terms &amp; Conditions</b></i>.
           </label>
         </p>
