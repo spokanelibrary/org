@@ -215,7 +215,7 @@
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/access-my-library/id920817861">iOS &rarr;</a>
-          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.cengage.mobile.amlpublic.android">Android &rarr;</a>
+          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.cengage.android.accessmylibrary">Android &rarr;</a>
         </p>
       </div>
     </div><!-- /.media -->
