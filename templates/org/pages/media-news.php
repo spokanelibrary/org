@@ -60,7 +60,7 @@
 		</p>
 
 		<p>
-			<a href="/blog/topic/media/">More libary press</a> <small class="text-muted">&rarr;</small>
+			<a href="/blog/topic/media/">Library press archive</a> <small class="text-muted">&rarr;</small>
 		</p>
 		
 	</div>
