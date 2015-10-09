@@ -55,12 +55,12 @@
 		<div class="pull-left" style="">
 			<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/">
 		</div>
-		<p>
+		<p class="clearfix">
 			Lorem ipsum
 		</p>
 
 		<p>
-			<a href="/blog/topic/media/">More</a> <small>&rarr;</small>
+			<a href="/blog/topic/media/">More</a> <small class="text-muted">&rarr;</small>
 		</p>
 		
 	</div>
