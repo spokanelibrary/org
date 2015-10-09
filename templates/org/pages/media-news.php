@@ -53,7 +53,7 @@
 
 	<div class="col-md-4">
 		<blockquote>
-			<div class="pull-left" style="padding-top:8px;">
+			<div class="pull-left" style="">
 				<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/">
 			</div>
 			<p>
