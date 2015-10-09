@@ -53,9 +53,8 @@
 	<div class="col-md-3 col-lg-4">
 
 		<div class="alert alert-info">
-			<h4 class="text-center text-success">Spokane Public Library</h4>
 			<h4 class="text-center">
-				<a href="/blog/topic/media/">News &amp; Press Archive</a> <small class="text-muted hidden-md">&rarr;</small>
+				<a href="/blog/topic/media/"><span class="hidden-md">Library</span> News &amp; Press Archive</a> <small class="text-muted hidden-md">&rarr;</small>
 			</h4>
 		</div>
 		
