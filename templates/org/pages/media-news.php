@@ -51,17 +51,10 @@
 	</div>
 
 	<div class="col-md-3 col-lg-4">
-	
-		<div class="pull-left" style="">
-			<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/">
-		</div>
-		<p class="clearfix">
-			Lorem ipsum
-		</p>
 
-		<p>
+		<h4>
 			<a href="/blog/topic/media/">Library press archive</a> <small class="text-muted">&rarr;</small>
-		</p>
+		</h4>
 		
 	</div>
 
