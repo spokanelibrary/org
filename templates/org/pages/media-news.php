@@ -54,9 +54,9 @@
 	<div class="col-md-3 col-lg-4">
 
 		<div class="">
-			<h4 class="text-center">
+			<h5 class="text-center">
 				<a href="/blog/topic/media/"><span>Library</span> News &amp; Press Archive</a> <small class="text-muted">&rarr;</small>
-			</h4>
+			</h5>
 		</div>
 		
 	</div>
