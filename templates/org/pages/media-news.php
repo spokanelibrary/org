@@ -41,7 +41,7 @@
 }
 ?>
 
-<h2 class="" style="color:#F79734;">In the News <small></small></h2>
+<h2 class="" style="color:#F79734; margin-top:0;">In the News <small></small></h2>
 <h6 class="text-success uppercase">Spokane Public Library media mentions and press releases</h6>
 
 <div class="row">
