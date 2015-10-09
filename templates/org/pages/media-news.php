@@ -60,7 +60,7 @@
 			</p>
 
 			<p>
-				<a href="/blog/topic/media/">More  &rarr;</a>
+				<a href="/blog/topic/media/">More</a> <small>&rarr;</small>
 			</p>
 		</blockquote>
 		
