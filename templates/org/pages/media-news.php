@@ -46,11 +46,11 @@
 
 <div class="row" style="margin-top: 16px;">
 	
-	<div class="col-md-10 col-md-8">
+	<div class="col-md-9 col-lg-8">
 	<?php echo spl_get_media_news(); ?>
 	</div>
 
-	<div class="col-md-2 col-md-4">
+	<div class="col-md-3 col-lg-4">
 		<blockquote>
 			<div class="pull-left" style="">
 				<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/">
