@@ -44,7 +44,7 @@
 <h2 class="" style="color:#F79734; margin-top:0;">In the News <small></small></h2>
 <h6 class="text-success uppercase">Spokane Public Library media mentions and press releases</h6>
 
-<div class="row">
+<div class="row" style="margin-top: 16px;">
 	
 	<div class="col-md-8">
 	<?php echo spl_get_media_news(); ?>
