@@ -21,7 +21,7 @@
     while ($posts->have_posts()) : $posts->the_post(); 
 
   		$html .= '
-  		<div class="spl-tile spl-tile-boxed" style="background-image:url('/assets/img/png/spl-tile-banner.png'); background-repeat:no-repeat; background-position:bottom left;">
+  		<div class="spl-tile spl-tile-boxed" style="background-image:url(/assets/img/png/spl-tile-banner.png); background-repeat:no-repeat; background-position:bottom left;">
 			  <div class="spl-tile-body">
 			    <div class="">
 			      <h3>'.get_the_title().'</h3>
