@@ -51,18 +51,17 @@
 	</div>
 
 	<div class="col-md-3 col-lg-4">
-		<blockquote>
-			<div class="pull-left" style="">
-				<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/">
-			</div>
-			<p>
-				Lorem ipsum
-			</p>
+	
+		<div class="pull-left" style="">
+			<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/">
+		</div>
+		<p>
+			Lorem ipsum
+		</p>
 
-			<p>
-				<a href="/blog/topic/media/">More</a> <small>&rarr;</small>
-			</p>
-		</blockquote>
+		<p>
+			<a href="/blog/topic/media/">More</a> <small>&rarr;</small>
+		</p>
 		
 	</div>
 
