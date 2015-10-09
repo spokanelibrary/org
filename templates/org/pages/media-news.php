@@ -42,7 +42,7 @@
 }
 ?>
 
-<h2 class="text-warning">In the News <small>and her subjects</small></h2>
+<h2 class="text-warning">In the News <small></small></h2>
 <h6 class="text-success uppercase">Spokane Public Library media mentions and press releases</h6>
 
 <div class="row">
@@ -54,17 +54,12 @@
 	<div class="col-md-4">
 		<blockquote>
 			<div class="pull-left" style="padding-top:8px;">
-				<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/screed.jpg">
+				<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/">
 			</div>
 			<p>
 				Lorem ipsum
 			</p>
-			<p>
-				She is sometimes the voice of Spokane Public Radio's production, <a href="http://spokanepublicradio.org/programs/bookshelf">The Bookshelf</a>.
-			</p>
-			<p>
-				A one-woman production in her own right, Susan is a voracious reader and always a hoot!
-			</p>
+
 			<p>
 				<a href="/blog/topic/media/">More  &rarr;</a>
 			</p>
