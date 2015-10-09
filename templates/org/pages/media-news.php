@@ -53,7 +53,7 @@
 	<div class="col-md-3 col-lg-4">
 
 		<div class="alert alert-info">
-		<h4>
+		<h4 class="text-center">
 			<a href="/blog/topic/media/">News &amp; press archive</a> <small class="text-muted hidden-md">&rarr;</small>
 		</h4>
 		</div>
