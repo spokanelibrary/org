@@ -54,7 +54,7 @@
 
 		<div class="alert alert-info">
 		<h4>
-			<a href="/blog/topic/media/">Library press archive</a> <small class="text-muted">&rarr;</small>
+			<a href="/blog/topic/media/">News &amp; press archive</a> <small class="text-muted hidden-md">&rarr;</small>
 		</h4>
 		</div>
 		
