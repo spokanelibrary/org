@@ -23,7 +23,7 @@
   		$html .= '
   		<div class="spl-tile spl-tile-boxed" style="background-image:url(\'/assets/img/png/spl-tile-banner.png\'); background-repeat:no-repeat;">
 			  <div class="spl-tile-body">
-			    <div class="">
+			    <div class="" style="padding-top:20px;">
 			      <h3>'.get_the_title().'</h3>
 			      '.preg_replace('/<img[^>]+./','', apply_filters('the_content', get_the_content())).'
 			    </div>
