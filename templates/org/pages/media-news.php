@@ -1,8 +1,8 @@
-<?php function spl_get_fiction_queen() {
+<?php function spl_get_media_news() {
 	global $post;  
   $html = null;
 
-  $count = 4;
+  $count = 10;
   $slug = 'media';
 
   //query subpages  
@@ -42,31 +42,26 @@
 }
 ?>
 
-<h2 class="text-warning">The Fiction Queen <small>and her subjects</small></h2>
-<h6 class="text-success uppercase">Reviews and recomendations from Spokane Public Library's <b>Susan Creed</b></h6>
+<h2 class="text-warning">In the News <small></small></h2>
+<h6 class="text-success uppercase">Spokane Public Library media mentions and press releases</h6>
 
 <div class="row">
 	
 	<div class="col-md-8">
-	<?php echo spl_get_fiction_queen(); ?>
+	<?php echo spl_get_media_news(); ?>
 	</div>
 
 	<div class="col-md-4">
 		<blockquote>
-			<div class="pull-left" style="padding-top:8px;">
-				<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/screed.jpg">
+			<div class="pull-left" style="">
+				<img class="pull-left" style="width:60px; height:60px; margin-right:10px;" class="pull-left" src="/assets/img/jpg/">
 			</div>
 			<p>
-				<b>Susan Creed</b> is an Assistant Manager at the Downtown Library.
+				Lorem ipsum
 			</p>
+
 			<p>
-				She is sometimes the voice of Spokane Public Radio's production, <a href="http://spokanepublicradio.org/programs/bookshelf">The Bookshelf</a>.
-			</p>
-			<p>
-				A one-woman production in her own right, Susan is a voracious reader and always a hoot!
-			</p>
-			<p>
-				<a href="/blog/topic/readers-corner/">More from the Fiction Queen &rarr;</a>
+				<a href="/blog/topic/media/">More  &rarr;</a>
 			</p>
 		</blockquote>
 		
