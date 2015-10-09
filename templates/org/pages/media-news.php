@@ -52,9 +52,11 @@
 
 	<div class="col-md-3 col-lg-4">
 
+		<div class="alert alert-info">
 		<h4>
 			<a href="/blog/topic/media/">Library press archive</a> <small class="text-muted">&rarr;</small>
 		</h4>
+		</div>
 		
 	</div>
 
