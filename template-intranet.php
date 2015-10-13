@@ -94,7 +94,7 @@ Template Name: Intranet Home Page
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-thumbs-up"></i>
-            Deserves a star</h4>
+            You deserve a star</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             hlhklhk
