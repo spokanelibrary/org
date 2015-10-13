@@ -48,10 +48,12 @@ Template Name: Intranet Home Page
       
       <div class="col-md-6">
         <div class="panel spl-hero-intranet spl-hero-intranet-director">
-          <h4>
+          <div class="panel-heading">
+            <h4>
             <i class="glyphicon glyphicon-list"></i>
             Director's Notes</h4>
-
+          </div>
+          
           <div class="" style="/*padding-top:20px; background-image:url('/assets/img/png/spl-tile-banner.png'); background-repeat:no-repeat;*/">
             <div class="panel-body">
             <?php echo do_shortcode('[spl_widget category-posts slug=director count=1 format=full]'); ?>
