@@ -52,7 +52,7 @@ Template Name: Intranet Home Page
             <i class="glyphicon glyphicon-list"></i>
             Director's Notes</h4>
           <div class="panel-body">
-            hlhklhk
+            <?php echo do_shortcode('[spl_widget category-posts]'); ?>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
