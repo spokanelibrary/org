@@ -66,7 +66,7 @@ Template Name: Intranet Home Page
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-cog"></i>
-            Tech Notes &amp; Alerts</h4>
+            Tech Alerts</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             hlhklhk
@@ -81,28 +81,13 @@ Template Name: Intranet Home Page
           <div class="panel-heading">
               <h4>
             <i class="glyphicon glyphicon-bullhorn"></i>
-            Library News &amp; Announcements</h4>
+            News &amp; Announcements</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
-
-      <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-star">
-          <div class="panel-heading">
-            <h4>
-            <i class="glyphicon glyphicon-thumbs-up"></i>
-            You deserve a star</h4>
-          </div><!-- /.panel-heading -->
-          <div class="panel-body">
-            hlhklhk
-          </div><!-- /.panel-body -->
-        </div><!-- /.panel -->
-      </div><!-- /.col -->
-
-      <div class="clearfix"></div>
 
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-public">
@@ -117,6 +102,21 @@ Template Name: Intranet Home Page
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
+      <div class="clearfix"></div>
+
+      <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-star">
+          <div class="panel-heading">
+            <h4>
+            <i class="glyphicon glyphicon-thumbs-up"></i>
+            You deserve a star</h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">
+            hlhklhk
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+      
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-support">
           <div class="panel-heading">
