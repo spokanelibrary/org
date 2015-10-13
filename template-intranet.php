@@ -52,20 +52,22 @@ Template Name: Intranet Home Page
             <h4>
             <i class="glyphicon glyphicon-list"></i>
             Director's Notes</h4>
-          </div>
+          </div><!-- /.panel-heading -->
           
           <div class="panel-body">
             <?php echo do_shortcode('[spl_widget category-posts slug=director count=1 format=full]'); ?>
-            </div><!-- /.panel-body -->
+          </div><!-- /.panel-body -->
           
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-tech">
-          <h4>
+        <div class="panel spl-hero-intranet spl-hero-intranet-tech">
+          <div class="panel-heading">
+            <h4>
             <i class="glyphicon glyphicon-cog"></i>
             Tech Notes &amp; Alerts</h4>
+          </div><!-- /.panel-heading -->
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
@@ -76,9 +78,11 @@ Template Name: Intranet Home Page
 
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-public">
-          <h4>
+          <div class="panel-heading">
+            <h4>
             <i class="glyphicon glyphicon-edit"></i>
             Public Services Desk</h4>
+          </div><!-- /.panel-heading -->
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
@@ -87,9 +91,11 @@ Template Name: Intranet Home Page
 
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-support">
-          <h4>
+          <div class="panel-heading">
+            <h4>
             <i class="glyphicon glyphicon-barcode"></i>
             Support Services Desk</h4>
+          </div><!-- /.panel-heading -->
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
@@ -100,9 +106,11 @@ Template Name: Intranet Home Page
 
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-news">
-          <h4>
+          <div class="panel-heading">
+              <h4>
             <i class="glyphicon glyphicon-bullhorn"></i>
             Other Library News</h4>
+          </div><!-- /.panel-heading -->
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
@@ -111,9 +119,11 @@ Template Name: Intranet Home Page
 
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-star">
-          <h4>
+          <div class="panel-heading">
+            <h4>
             <i class="glyphicon glyphicon-thumbs-up"></i>
-            Gold Star Thingies</h4>
+            Deserves a star</h4>
+          </div><!-- /.panel-heading -->
           <div class="panel-body">
             hlhklhk
           </div><!-- /.panel-body -->
