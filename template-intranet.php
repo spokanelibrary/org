@@ -77,6 +77,34 @@ Template Name: Intranet Home Page
       <div class="clearfix"></div>
 
       <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-news">
+          <div class="panel-heading">
+              <h4>
+            <i class="glyphicon glyphicon-bullhorn"></i>
+            Library News &amp; Announcements</h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">
+            hlhklhk
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+
+      <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-star">
+          <div class="panel-heading">
+            <h4>
+            <i class="glyphicon glyphicon-thumbs-up"></i>
+            Deserves a star</h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">
+            hlhklhk
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+      </div><!-- /.col -->
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-public">
           <div class="panel-heading">
             <h4>
@@ -95,34 +123,6 @@ Template Name: Intranet Home Page
             <h4>
             <i class="glyphicon glyphicon-barcode"></i>
             Support Services Desk</h4>
-          </div><!-- /.panel-heading -->
-          <div class="panel-body">
-            hlhklhk
-          </div><!-- /.panel-body -->
-        </div><!-- /.panel -->
-      </div><!-- /.col -->
-
-      <div class="clearfix"></div>
-
-      <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-news">
-          <div class="panel-heading">
-              <h4>
-            <i class="glyphicon glyphicon-bullhorn"></i>
-            Other Library News</h4>
-          </div><!-- /.panel-heading -->
-          <div class="panel-body">
-            hlhklhk
-          </div><!-- /.panel-body -->
-        </div><!-- /.panel -->
-      </div><!-- /.col -->
-
-      <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-star">
-          <div class="panel-heading">
-            <h4>
-            <i class="glyphicon glyphicon-thumbs-up"></i>
-            Deserves a star</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             hlhklhk
