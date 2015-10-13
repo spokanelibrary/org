@@ -51,9 +51,13 @@ Template Name: Intranet Home Page
           <h4>
             <i class="glyphicon glyphicon-list"></i>
             Director's Notes</h4>
-          <div class="" style="background:#fff">
+
+          <div class="" style="padding-top:20px; background-image:url('/assets/img/png/spl-tile-banner.png'); background-repeat:no-repeat;">
+            <div class="panel-body">
             <?php echo do_shortcode('[spl_widget category-posts slug=director count=1 format=full]'); ?>
-          </div><!-- /.panel-body -->
+            </div><!-- /.panel-body -->
+          </div>
+          
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
