@@ -47,7 +47,7 @@ Template Name: Intranet Home Page
     <div class="row">
       
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-director">
+        <div class="panel spl-hero-intranet spl-hero-intranet-director">
           <h4>
             <i class="glyphicon glyphicon-list"></i>
             Director's Notes</h4>
@@ -57,7 +57,7 @@ Template Name: Intranet Home Page
             <?php echo do_shortcode('[spl_widget category-posts slug=director count=1 format=full]'); ?>
             </div><!-- /.panel-body -->
           </div>
-          
+
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
