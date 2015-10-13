@@ -51,8 +51,8 @@ Template Name: Intranet Home Page
           <h4>
             <i class="glyphicon glyphicon-list"></i>
             Director's Notes</h4>
-          <div class="panel-body">
-            <?php echo do_shortcode('[spl_widget category-posts category=director]'); ?>
+          <div class="">
+            <?php echo do_shortcode('[spl_widget category-posts slug=director count=1 format=full]'); ?>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
