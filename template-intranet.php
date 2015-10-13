@@ -44,6 +44,8 @@ Template Name: Intranet Home Page
     </div>
     <?php endif; ?>
     
+    <hr>
+
     <div class="row">
       
       <div class="col-md-6">
@@ -116,7 +118,7 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
-      
+
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-support">
           <div class="panel-heading">
