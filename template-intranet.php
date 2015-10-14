@@ -58,6 +58,10 @@ Template Name: Intranet Home Page
           <div class="panel-body">
             <?php echo do_shortcode('[spl_widget category-posts slug=director count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
+
+          <div class="panel-footer">
+            More 
+          </div><!-- /.panel-footer -->
           
         </div><!-- /.panel -->
       </div><!-- /.col -->
