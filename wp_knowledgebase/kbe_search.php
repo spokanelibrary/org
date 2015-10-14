@@ -117,6 +117,6 @@ if(!empty($_GET['ajax']) ? $_GET['ajax'] : null) {
     
 </div>
 <?php
-    get_footer();
+    //get_footer();
 }
 ?>
