@@ -13,6 +13,7 @@
   $bio = get_the_content();
   
   $staff_categories = wp_get_post_terms(get_the_ID(), 'staff_category');
+  $staff_category = null;
   if (count($staff_categories) > 0) {
     //$staff_category = $staff_categories[0]->name;
     foreach ( $staff_categories as $category ) {
