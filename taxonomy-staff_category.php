@@ -59,6 +59,7 @@
 
       <div class="media-object">
       <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small>x<?php echo $phone; ?></small></h3>
+      <h4><?php echo $position; ?></h4>
       <p>
       <img class="img-rounded" src="<?php echo $photo_url; ?>">
       </p>
