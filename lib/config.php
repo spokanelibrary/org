@@ -74,7 +74,7 @@ function roots_display_sidebar() {
     , 'template-no-headline.php'
     , 'template-scrollspy.php'
     , 'template-kiosk.php'
-    , 'kbe_knowledgebase'
+    , 'wp_knowledgebase/kbe_knowledgebase'
     )
   );
 
