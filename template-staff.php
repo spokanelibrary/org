@@ -10,7 +10,7 @@ Template Name: Staff Page
 <div class="panel spl-hero-intranet spl-hero-intranet-star">
 <div class="panel-heading">
 <h4>
-  <i class="glyphicon glyphicon-list"></i> Staff Directory</h4>
+  <i class="glyphicon glyphicon-list"></i> <?php echo get_the_title(); ?></h4>
 </div>
 <div class="panel-body">
 <?php get_template_part('templates/content', 'page'); ?>
