@@ -53,13 +53,13 @@
     </div>
     <div class="panel-body" style="padding-top:0;">
       <h4><?php echo $position; ?></h4>
+      <h6><?php echo $staff_category; ?></h6>
       <div class="row">
         <div class="col-md-5 col-lg-4">
           <p>
           <?php echo $photo; ?>
           </p>
           <h5><?php echo $email; ?></h5>
-          <h6><?php echo $staff_category; ?></h6>
         </div>
         <div class="col-md-7 col-lg-6">
           <?php echo $bio; ?>
