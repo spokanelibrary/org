@@ -16,10 +16,10 @@
       <h5>[category]</h5>
       </div>
 
-      <?php echo get_post_meta(get_the_ID(), 'position', true) ?>;
+      <?php echo get_post_meta(get_the_ID(), 'position', true) ?>
 
 
-      <?php print_r( get_post_meta( get_the_ID(), 'phone_number', true ) ); ?>
+      <?php //print_r( get_post_meta( get_the_ID(), 'phone_number', true ) ); ?>
   </div>
 
   <header>
