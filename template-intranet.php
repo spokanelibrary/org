@@ -42,10 +42,9 @@ Template Name: Intranet Home Page
         <?php echo $post->post_content; ?>
       </div>
     </div>
+        
     <?php endif; ?>
     
-    <hr>
-
     <div class="row">
       
       <div class="col-md-6">
