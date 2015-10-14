@@ -65,14 +65,18 @@ class SPL_StaffDirectoryShortcode {
     foreach ( $menu as $d => $dept ) {
       $html .= '<h3>'.$dept->name.'</h3>'.PHP_EOL;
       if ( is_array($dept->category_children) ) {
+        $html .= '<ul class="nav nav-pills">';
         foreach ( $dept->category_children as $o => $org ) {
+          $html .= '<li>';
           $html .= '<h4>';
           $html .= '<a href="/staff-categories/'.$org->slug.'/">';
           $html .= $org->name;
           $html .= '</a>';
           $html .= '</h4>';
+          $html .= '<li>';
           $html .= PHP_EOL;
         }
+        $html .= '<ul>';
       }
     }
 
