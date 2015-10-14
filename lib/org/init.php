@@ -32,6 +32,14 @@ update_option('image_default_link_type', 'none' );
 add_filter('widget_text', 'do_shortcode'); 
 
 
+function spl_staff_queries( $query ) {
+  if(is_tax('staff_category')){
+      $query->set('posts_per_page', 200);
+    }
+  }
+add_action( 'pre_get_posts', 'spl_staff_queries' );
+
+
 function spl_get_network_source($ip=null) {
   $source = null;
 
