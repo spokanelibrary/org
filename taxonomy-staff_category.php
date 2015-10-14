@@ -55,8 +55,8 @@
   ?>
 
   <div class="panel spl-hero-intranet staff-directory">
-    <div class="panel-heading" style="padding-left:0; padding-right:0; margin-bottom:0;">
-      <h3 style="margin-top:0;"><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small>x<b><?php echo $phone; ?></b></small></h3>
+    <div class="panel-heading" style="padding-left:0; padding-right:0;">
+      <h3 style="padding-top:0;"><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small>x<b><?php echo $phone; ?></b></small></h3>
     </div>
     <div class="panel-body">
     <h4 class="text-success"><?php echo $position; ?></h4>
