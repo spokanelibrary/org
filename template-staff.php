@@ -69,8 +69,10 @@ class SPL_StaffDirectoryShortcode {
         foreach ( $dept->category_children as $o => $org ) {
           $html .= '<li>';
           $html .= '<a class="" href="/staff-categories/'.$org->slug.'/">';
+          $html .= '<b>';
           $html .= $org->name;
-          $html .= '<small class="text-muted">&rarr;</small>';
+          $html .= '</b>';
+          $html .= ' <small class="text-muted">&rarr;</small>';
           $html .= '</a>';
           $html .= '<li>';
           $html .= PHP_EOL;
