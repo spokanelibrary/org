@@ -24,8 +24,8 @@
   } else {
     $email_html = '';
   }
-  if(get_post_meta(get_the_ID(), 'phone', true) != '') {
-    $phone = get_post_meta(get_the_ID(), 'phone', true);
+  if(get_post_meta(get_the_ID(), 'phone_number', true) != '') {
+    $phone = get_post_meta(get_the_ID(), 'phone_number', true);
   } else {
     $phone = '';
   }
