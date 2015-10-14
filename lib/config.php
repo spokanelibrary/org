@@ -73,6 +73,7 @@ function roots_display_sidebar() {
     , 'template-no-headline.php'
     , 'template-scrollspy.php'
     , 'template-kiosk.php'
+    , 'taxonomy-staff_category.php'
     )
   );
 
