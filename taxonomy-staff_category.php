@@ -15,7 +15,7 @@
       <h5>[category]</h5>
       </div>
 
-      <?php print_r(the_post()); ?>
+      <?php print_r($post); ?>
   </div>
 
   <header>
