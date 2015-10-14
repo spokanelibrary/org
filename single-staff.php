@@ -65,7 +65,7 @@
         <?php echo $photo; ?>
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4">asdf
         <?php echo $bio; ?>
       </div>
     </div>
