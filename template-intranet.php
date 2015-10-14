@@ -8,7 +8,7 @@ Template Name: Intranet Home Page
 <div class="row">
 
   <!--<div class="col-lg-10 col-lg-offset-1">-->
-  <div class="col-sm-12">
+  <div class="col-sm-12" style="background-image:url('/assets/img/png/spl-tile-banner.png');">
         
     <nav class="navbar-common panel panel-primary" style="margin-bottom:16px;">
         <ul class="nav nav-justified">
