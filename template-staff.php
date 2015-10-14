@@ -76,7 +76,7 @@ class SPL_StaffDirectoryShortcode {
           $html .= '<li>';
           $html .= PHP_EOL;
         }
-        $html .= '<ul>';
+        $html .= '</ul>';
       }
     }
 
