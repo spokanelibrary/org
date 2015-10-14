@@ -59,8 +59,9 @@
 
       <div class="media-object">
       <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small>x<?php echo $phone; ?></small></h3>
-      <h4><?php echo $name; ?></h4>
-      <?php echo $photo_url; ?>
+      <p>
+      <img class="img-rounded" src="<?php echo $photo_url; ?>">
+      </p>
       <h5><?php echo $staff_category; ?></h5>
       </div>
 
