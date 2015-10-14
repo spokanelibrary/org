@@ -50,9 +50,9 @@ Template Name: Intranet Home Page
       <div class="col-md-6">
         <div class="panel spl-hero-intranet spl-hero-intranet-director">
           <div class="panel-heading">
-            <h3>
+            <h4>
             <i class="glyphicon glyphicon-list"></i>
-            Director's Notes</h3>
+            Director's Notes</h4>
           </div><!-- /.panel-heading -->
           
           <div class="panel-body">
