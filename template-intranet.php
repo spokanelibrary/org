@@ -8,9 +8,9 @@ Template Name: Intranet Home Page
 <div class="row">
 
   <!--<div class="col-lg-10 col-lg-offset-1">-->
-  <div class="col-sm-12" style="background-image:url('/assets/img/png/spl-tile-banner.png');">
+  <div class="col-sm-12">
         
-    <nav class="navbar-common panel panel-primary" style="margin-bottom:16px;">
+    <nav class="navbar-common panel panel-primary" style="margin-bottom:16px; background-image:url('/assets/img/png/spl-tile-banner.png');">
         <ul class="nav nav-justified">
         <?php 
         wp_nav_menu( 
