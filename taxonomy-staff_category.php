@@ -54,7 +54,7 @@
 
   ?>
 
-  <div class="staff-directory">
+  <div class="panel panel-default staff-directory">
 
       <div class="media-object">
       <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small>x<b><?php echo $phone; ?></b></small></h3>
