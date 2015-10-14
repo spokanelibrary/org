@@ -59,11 +59,11 @@
       <div class="media-object">
       <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small>x<b><?php echo $phone; ?></b></small></h3>
       <h4><?php echo $position; ?></h4>
-      <h4><?php echo $email; ?></h4>
       <p>
       <?php echo $photo; ?>
       </p>
-      <h5><?php echo $staff_category; ?></h5>
+      <h5><?php echo $email; ?></h5>
+      <h6><?php echo $staff_category; ?></h6>
       </div>
 
   </div>
