@@ -56,7 +56,7 @@ function roots_display_sidebar() {
     array(
       'is_404'
       //,'is_front_page'
-      ,array('is_tax', array('staff_category','kbe_taxonomy'))
+      ,array('is_tax', array('staff_category','kbe_knowledgebase'))
       ,array('is_singular', array('newsletter', 'newsletters'))
     ),
     /**
