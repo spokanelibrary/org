@@ -224,7 +224,6 @@ EOT;
       }
       $output .= <<<EOT
         <div class="single-staff">
-          test
           $photo_html
           <div class="name">$name</div>
           <div class="position">$position</div>
@@ -361,7 +360,7 @@ EOT;
     if(isset($after_loop_markup)) {
       $output .= $after_loop_markup;
     }
-    return $output;
+    return 'test'.$output;
   }
 }
 
