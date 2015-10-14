@@ -1,10 +1,10 @@
 <?php get_template_part('templates/page', 'header'); ?>
 
 
-<hr>
+<div class="row">
 
 <?php while (have_posts()) : the_post(); ?>
-
+<div class="col-md-3 col-lg-4">
 <article <?php post_class(); ?>>
   <?php
   $permalink = get_the_permalink();
@@ -69,5 +69,7 @@
   </div>
 
 </article>
-
+</div><!-- ./col -->
 <?php endwhile; ?>
+
+</div><!-- ./row -->
