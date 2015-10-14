@@ -34,7 +34,7 @@ add_filter('widget_text', 'do_shortcode');
 
 function spl_staff_queries( $query ) {
   if(is_tax('staff_category')){
-      $query->set('posts_per_page', 200);
+      $query->set('posts_per_page', -1);
     }
   }
 add_action( 'pre_get_posts', 'spl_staff_queries' );
