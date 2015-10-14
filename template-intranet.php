@@ -58,11 +58,9 @@ Template Name: Intranet Home Page
           <div class="panel-body">
             <?php echo do_shortcode('[spl_widget category-posts slug=director count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
-
           <div class="panel-footer text-right">
             <a class="" href="/news/director/"><b>More</b> Director's Notes</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
-          
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
@@ -76,6 +74,9 @@ Template Name: Intranet Home Page
           <div class="panel-body">
             <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
+          <div class="panel-footer text-right">
+            <a class="" href="/news/tech/"><b>More</b> Tech Alerts</a>&nbsp;<small class="text-muted">&rarr;</small> 
+          </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
