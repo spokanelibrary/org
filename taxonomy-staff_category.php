@@ -1,5 +1,11 @@
 <?php get_template_part('templates/page', 'header'); ?>
 
+
+
+<?php echo do_shortcode( '[staff-directory]' ); ?>
+
+
+
 <hr>
 
 <?php while (have_posts()) : the_post(); ?>
