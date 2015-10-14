@@ -1,6 +1,6 @@
 <div class="page-header">
   <h1>
-    Library Staff
+    Staff Profile
   </h1>
 </div>
 
@@ -59,9 +59,18 @@
     </div>
     <div class="panel-body" style="padding-top:0;">
     <h4><?php echo $position; ?></h4>
-    <p>
-    <?php echo $photo; ?>
-    </p>
+    <div class="row">
+      <div class="col-md-4">
+        <p>
+        <?php echo $photo; ?>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <blockquote>
+        <?php echo $bio; ?>
+        </blockquote>
+      </div>
+    </div>
     <h5><?php echo $email; ?></h5>
     <h6><?php echo $staff_category; ?></h6>
     </div>
