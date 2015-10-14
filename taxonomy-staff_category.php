@@ -1,11 +1,6 @@
 <?php get_template_part('templates/page', 'header'); ?>
 
 
-
-<?php echo do_shortcode( '[staff-directory]' ); ?>
-
-
-
 <hr>
 
 <?php while (have_posts()) : the_post(); ?>
@@ -21,7 +16,7 @@
       <h5>[category]</h5>
       </div>
 
-      <?php print_r($post); ?>
+      <?php print_r(get_post_meta()); ?>
   </div>
 
   <header>
