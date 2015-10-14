@@ -108,6 +108,9 @@ Template Name: Intranet Home Page
           <div class="panel-body">
             <?php echo do_shortcode('[spl_widget category-posts slug=ps count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
+          <div class="panel-footer text-right">
+            <a class="" href="/news/ps/"><b>More</b> From Public Services</a>&nbsp;<small class="text-muted">&rarr;</small> 
+          </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
@@ -123,6 +126,9 @@ Template Name: Intranet Home Page
           <div class="panel-body">
             <?php echo do_shortcode('[spl_widget category-posts slug=star count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
+          <div class="panel-footer text-right">
+            <a class="" href="/news/star/"><b>More</b> Stars</a>&nbsp;<small class="text-muted">&rarr;</small> 
+          </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
@@ -136,6 +142,9 @@ Template Name: Intranet Home Page
           <div class="panel-body">
             <?php echo do_shortcode('[spl_widget category-posts slug=ss count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
+          <div class="panel-footer text-right">
+            <a class="" href="/news/ss/"><b>More</b> From Support Services</a>&nbsp;<small class="text-muted">&rarr;</small> 
+          </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
