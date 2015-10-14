@@ -19,7 +19,7 @@ Template Name: Staff Page
 
 class SPL_StaffDirectoryShortcode {
   static function register_shortcode() {
-    add_shortcode('spl-staff-directory', array('SPL_StaffDirectoryShortcode', 'shortcode'));
+    //add_shortcode('spl-staff-directory', array('SPL_StaffDirectoryShortcode', 'shortcode'));
     add_shortcode('spl-staff-directory-list', array('SPL_StaffDirectoryShortcode', 'shortcodeList'));
   
   }
@@ -86,6 +86,7 @@ class SPL_StaffDirectoryShortcode {
     return $html;
   }
 
+  /*
   static function shortcode($params) {
 
     extract(shortcode_atts(array(
@@ -105,7 +106,9 @@ class SPL_StaffDirectoryShortcode {
     $param = "id=$id&cat=$cat&orderby=$orderby&order=$order";
     return SPL_StaffDirectoryShortcode::show_staff_directory($param, $template);
   }
+  */
   
+  /*
   static function show_staff_directory($param = null, $template = NULL){
     parse_str($param);
     global $wpdb;
@@ -154,6 +157,8 @@ class SPL_StaffDirectoryShortcode {
     wp_reset_query();
     return $output;
   }
+  */
+  /*
   static function html_for_list_template($wp_query) {
     $output = <<<EOT
       <style type="text/css">
@@ -245,6 +250,8 @@ EOT;
     $output .= "</div>";
     return $output;
   }
+  */
+  /*
   static function html_for_grid_template($wp_query) {
     $output = <<<EOT
       <style type="text/css">
@@ -299,6 +306,8 @@ EOT;
     $output .= "</div>";
     return $output;
   }
+  */
+  /*
   static function html_for_custom_template($template_slug, $wp_query) {
     $staff_settings = StaffSettings::sharedInstance();
     $output = '';
@@ -369,6 +378,7 @@ EOT;
     }
     return $output;
   }
+  */
 }
 
 
