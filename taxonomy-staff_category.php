@@ -5,6 +5,19 @@
 <?php while (have_posts()) : the_post(); ?>
 
 <article <?php post_class(); ?>>
+
+  <div class="staff-directory">
+
+      <div class="media-object">
+      <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <small>x[phone_number]</small></h3>
+      <h4>[position]</h4>
+      [photo]
+      <h5>[category]</h5>
+      </div>
+
+      <?php print_r(the_post()); ?>
+  </div>
+
   <header>
     <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
   </header>
