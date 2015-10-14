@@ -42,7 +42,7 @@ Template Name: Intranet Home Page
         <?php echo $post->post_content; ?>
       </div>
     </div>
-        
+
     <?php endif; ?>
     
     <div class="row">
@@ -110,7 +110,7 @@ Template Name: Intranet Home Page
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-thumbs-up"></i>
-            You deserve a star</h4>
+            &hellip; Deserves a Star</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             hlhklhk
