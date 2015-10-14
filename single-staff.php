@@ -49,7 +49,7 @@
 
   ?>
 
-  <div class="panel spl-hero-intranet staff-directory">
+  <div class="panel spl-hero-intranet staff-directory" style="box-shadow:none;">
     <div class="panel-heading" style="padding-left:0; padding-right:0;">
       <h3 class="text-primary"><?php echo $name; ?> <small class="text-success">x<b><?php echo $phone; ?></b></small></h3>
     </div>
