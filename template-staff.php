@@ -65,7 +65,7 @@ class SPL_StaffDirectoryShortcode {
     $html = '';
 
     foreach ( $menu as $d => $dept ) {
-      $html .= '<h3>'.$dept->name.'</h3>'.PHP_EOL;
+      $html .= '<h3 class="text-muted">'.$dept->name.'</h3>'.PHP_EOL;
       if ( is_array($dept->category_children) ) {
         $html .= '<ul class="nav nav-pills">';
         foreach ( $dept->category_children as $o => $org ) {
