@@ -50,7 +50,7 @@ Template Name: Intranet Home Page
       <div class="col-md-6">
         <div class="panel spl-hero-intranet spl-hero-intranet-director">
           <div class="panel-heading">
-            <h4>
+            <h4 class="serif">
             <i class="glyphicon glyphicon-list"></i>
             Director's Notes</h4>
           </div><!-- /.panel-heading -->
@@ -93,7 +93,7 @@ Template Name: Intranet Home Page
             <?php echo do_shortcode('[spl_widget category-posts slug=spl count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
-            <a class="" href="/news/spl/"><b>More</b> News &amp; Announcements</a>&nbsp;<small class="text-muted">&rarr;</small> 
+            <a class="" href="/news/spl/"><b>More</b> Library News</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
@@ -109,7 +109,7 @@ Template Name: Intranet Home Page
             <?php echo do_shortcode('[spl_widget category-posts slug=ps count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
-            <a class="" href="/news/ps/"><b>More</b> From Public Services</a>&nbsp;<small class="text-muted">&rarr;</small> 
+            <a class="" href="/news/ps/"><b>More</b> from Public Services</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
@@ -143,7 +143,7 @@ Template Name: Intranet Home Page
             <?php echo do_shortcode('[spl_widget category-posts slug=ss count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
-            <a class="" href="/news/ss/"><b>More</b> From Support Services</a>&nbsp;<small class="text-muted">&rarr;</small> 
+            <a class="" href="/news/ss/"><b>More</b> from Support Services</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
