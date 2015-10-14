@@ -27,7 +27,7 @@
   if(has_post_thumbnail()) {
     $attachment_array = wp_get_attachment_image_src(get_post_thumbnail_id());
     $photo_url = $attachment_array[0];
-    $photo = '<img class="img-rounded" src="'.$photo_url.'">';
+    $photo = '<a href="'.$permalink.'"><img class="img-rounded" src="'.$photo_url.'"></a>';
   } else {
     $photo = '';
   }
