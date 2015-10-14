@@ -49,11 +49,11 @@
 
   <div class="panel spl-hero-intranet staff-directory" style="box-shadow:none;">
     <div class="panel-heading" style="padding-left:0; padding-right:0;">
-      <h3 class="text-primary"><?php echo $name; ?> <small class="text-success">x<b><?php echo $phone; ?></b></small></h3>
+      <h2 class="text-primary"><?php echo $name; ?> <small class="text-success">x<b><?php echo $phone; ?></b></small></h2>
     </div>
     <div class="panel-body" style="padding-top:0;">
-      <h4><?php echo $position; ?></h4>
-      <h6><?php echo $staff_category; ?></h6>
+      <h3><?php echo $position; ?></h3>
+      <h4><?php echo $staff_category; ?></h4>
       <div class="row">
         <div class="col-md-5 col-lg-4">
           <p>
