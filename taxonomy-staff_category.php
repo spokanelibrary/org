@@ -59,7 +59,7 @@
       <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small>x<b><?php echo $phone; ?></b></small></h3>
     </div>
     <div class="panel-body">
-    <h4><?php echo $position; ?></h4>
+    <h4 class="text-success"><?php echo $position; ?></h4>
     <p>
     <?php echo $photo; ?>
     </p>
