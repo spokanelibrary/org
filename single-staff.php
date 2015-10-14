@@ -25,8 +25,8 @@
   }
 
   if(has_post_thumbnail()) {
-    $attachment_array = wp_get_attachment_image_src(get_post_thumbnail_id());
-    $photo_url = $attachment_array[1];
+    $attachment_array = wp_get_attachment_image_src(get_post_thumbnail_id(), 'medium');
+    $photo_url = $attachment_array[0];
     $photo = '<img class="img-responsive img-rounded" src="'.$photo_url.'">';
   } else {
     $photo = '';
