@@ -1,3 +1,7 @@
+ <header class="page-header">
+      <h1 class=""><?php the_title(); ?></h1>
+    </header>
+
 <?php while (have_posts()) : the_post(); ?>
 
 <article <?php post_class(); ?>>
