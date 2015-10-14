@@ -39,20 +39,13 @@ function spl_staff_queries( $query ) {
   }
 add_action( 'pre_get_posts', 'spl_staff_queries' );
 
-function include_post_types_in_search($query) {
-  if(is_search()) {
-    $post_types = get_post_types(array('public' => true, 'exclude_from_search' => false), 'objects');
-    $searchable_types = array();
-    if($post_types) {
-      foreach( $post_types as $type) {
-        $searchable_types[] = $type->name;
-      }
-    }
-    $query->set('post_type', $searchable_types);
-  }
-  return $query;
-}
-add_action('pre_get_posts', 'include_post_types_in_search');
+function filter_search($query) {
+    if ($query->is_search) {
+  $query->set('post_type', array('post', 'page', 'kbe_knowledgebase'));
+    };
+    return $query;
+};
+add_filter('pre_get_posts', 'filter_search');
 
 
 function spl_get_network_source($ip=null) {
