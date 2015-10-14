@@ -6,14 +6,16 @@ Template Name: Staff Page
 
 <?php SPL_StaffDirectoryShortcode::register_shortcode(); ?>
 <?php //get_template_part('templates/page', 'header'); ?>
+
+<div class="panel spl-hero-intranet spl-hero-intranet-star">
+<div class="panel-heading">
+<h4>
+  <i class="glyphicon glyphicon-list"></i> Staff Directory</h4>
+</div>
+<div class="panel-body">
 <?php get_template_part('templates/content', 'page'); ?>
-
-
-<hr>
-
-
-
-
+</div>
+</div>
 
 <?php
 
