@@ -135,10 +135,12 @@ class SPL_StaffDirectoryShortcode {
     $staff_query = new WP_Query($query_args);
     switch($template){
       case 'list':
-        $output = StaffDirectoryShortcode::html_for_list_template($staff_query);
+        //$output = StaffDirectoryShortcode::html_for_list_template($staff_query);
+        $output = SPL_StaffDirectoryShortcode::html_for_custom_template($template, $staff_query);
         break;
       case 'grid':
-        $output = StaffDirectoryShortcode::html_for_grid_template($staff_query);
+        //$output = StaffDirectoryShortcode::html_for_grid_template($staff_query);
+        $output = SPL_StaffDirectoryShortcode::html_for_custom_template($template, $staff_query);
         break;
       default:
         $output = SPL_StaffDirectoryShortcode::html_for_custom_template($template, $staff_query);
@@ -360,7 +362,7 @@ EOT;
     if(isset($after_loop_markup)) {
       $output .= $after_loop_markup;
     }
-    return 'test'.$output;
+    return $output;
   }
 }
 
