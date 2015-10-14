@@ -1,3 +1,5 @@
+<?php get_template_part('templates/page', 'header'); ?>
+
 <div class="page-header">
   <h1>
     Library News <small>Past Issues</small>
