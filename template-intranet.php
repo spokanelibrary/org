@@ -60,7 +60,7 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-body -->
 
           <div class="panel-footer text-right">
-            <a class="btn btn-primary" href="#">More</a> 
+            <a class="btn btn-default" href="#">More</a> 
           </div><!-- /.panel-footer -->
           
         </div><!-- /.panel -->
