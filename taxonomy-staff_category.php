@@ -27,18 +27,16 @@
   if(has_post_thumbnail()) {
     $attachment_array = wp_get_attachment_image_src(get_post_thumbnail_id());
     $photo_url = $attachment_array[0];
-    //$photo_html = '<img src='e;
+    $photo = '<img class="img-rounded" src="'.$photo_url.'">';
   } else {
-    $photo_url = '';
-    $photo_html = '';
+    $photo = '';
   }
   
   if(get_post_meta(get_the_ID(), 'email', true) != '') {
     $email = get_post_meta(get_the_ID(), 'email', true);
-    $email_html = '<a href="mailto:' . $email . '">' . $email . '</a>';
+    $email = '<a href="mailto:' . $email . '">' . $email . '</a>';
   } else {
     $email = '';
-    $email_html = '';
   }
   
   if(get_post_meta(get_the_ID(), 'phone_number', true) != '') {
@@ -59,10 +57,11 @@
   <div class="staff-directory">
 
       <div class="media-object">
-      <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small>x<?php echo $phone; ?></small></h3>
+      <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small>x<b><?php echo $phone; ?></b></small></h3>
       <h4><?php echo $position; ?></h4>
+      <h4><?php echo $email; ?></h4>
       <p>
-      <img class="img-rounded" src="<?php echo $photo_url; ?>">
+      <?php echo $photo; ?>
       </p>
       <h5><?php echo $staff_category; ?></h5>
       </div>
