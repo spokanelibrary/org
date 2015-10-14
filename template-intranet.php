@@ -56,7 +56,7 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-heading -->
           
           <div class="panel-body">
-            <?php echo do_shortcode('[spl_widget category-posts slug=director count=1 format=full]'); ?>
+            <?php echo do_shortcode('[spl_widget category-posts slug=director count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           
         </div><!-- /.panel -->
@@ -70,7 +70,7 @@ Template Name: Intranet Home Page
             Tech Alerts</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            hlhklhk
+            <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
@@ -85,7 +85,7 @@ Template Name: Intranet Home Page
             News &amp; Announcements</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            hlhklhk
+            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
@@ -98,7 +98,7 @@ Template Name: Intranet Home Page
             Public Services Desk</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            hlhklhk
+            <?php echo do_shortcode('[spl_widget category-posts slug=ps count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
@@ -113,7 +113,7 @@ Template Name: Intranet Home Page
             ___ Deserves a Star</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            hlhklhk
+            <?php echo do_shortcode('[spl_widget category-posts slug=star count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
@@ -126,7 +126,7 @@ Template Name: Intranet Home Page
             Support Services Desk</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            hlhklhk
+            <?php echo do_shortcode('[spl_widget category-posts slug=ss count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
