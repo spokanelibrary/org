@@ -59,8 +59,8 @@ Template Name: Intranet Home Page
             <?php echo do_shortcode('[spl_widget category-posts slug=director count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
 
-          <div class="panel-footer">
-            More 
+          <div class="panel-footer text-right">
+            <a href="">More</a> 
           </div><!-- /.panel-footer -->
           
         </div><!-- /.panel -->
