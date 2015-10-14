@@ -55,16 +55,16 @@
   ?>
 
   <div class="panel spl-hero-intranet staff-directory">
-    <div class="panel-heading">
+    <div class="panel-heading" style="padding-left:0; padding-right:0;">
       <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small>x<b><?php echo $phone; ?></b></small></h3>
-      <h4><?php echo $position; ?></h4>
     </div>
     <div class="panel-body">
-      <p>
-      <?php echo $photo; ?>
-      </p>
-      <h5><?php echo $email; ?></h5>
-      <h6><?php echo $staff_category; ?></h6>
+    <h4><?php echo $position; ?></h4>
+    <p>
+    <?php echo $photo; ?>
+    </p>
+    <h5><?php echo $email; ?></h5>
+    <h6><?php echo $staff_category; ?></h6>
     </div>
 
   </div>
