@@ -66,9 +66,7 @@
         </p>
       </div>
       <div class="col-md-4">
-        <blockquote>
         <?php echo $bio; ?>
-        </blockquote>
       </div>
     </div>
     <h5><?php echo $email; ?></h5>
