@@ -17,7 +17,7 @@
   if (count($staff_categories) > 0) {
     //$staff_category = $staff_categories[0]->name;
     foreach ( $staff_categories as $category ) {
-      $staff_category .= $category->slug.', ';
+      $staff_category .= '<a href="/staff-categories/'.$category->slug.'/">'.$category->name.'</a>, ';
     }
     $staff_category = rtrim($staff_category, ', ');
   } else {
