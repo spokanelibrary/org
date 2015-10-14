@@ -38,7 +38,7 @@ if(!empty($_GET['ajax']) ? $_GET['ajax'] : null) {
 <?php
     }
 } else {
-    get_header();
+    //get_header();
 ?>
     <div id="kbe_container">
 

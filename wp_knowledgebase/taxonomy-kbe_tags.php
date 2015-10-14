@@ -1,5 +1,5 @@
 <?php
-    get_header();
+    //get_header();
     
     // Classes For main content div
     if(KBE_SIDEBAR_INNER == 0) {
