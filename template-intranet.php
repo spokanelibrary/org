@@ -110,7 +110,7 @@ Template Name: Intranet Home Page
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-thumbs-up"></i>
-            &#95; Deserves a Star</h4>
+            ___ Deserves a Star</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             hlhklhk
