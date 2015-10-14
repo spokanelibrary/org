@@ -68,12 +68,10 @@ class SPL_StaffDirectoryShortcode {
         $html .= '<ul class="nav nav-pills">';
         foreach ( $dept->category_children as $o => $org ) {
           $html .= '<li>';
-          //$html .= '<h4>';
           $html .= '<a class="" href="/staff-categories/'.$org->slug.'/">';
           $html .= $org->name;
-          $html .= '</a>';
           $html .= '<small class="text-muted">&rarr;</small>';
-          //$html .= '</h4>';
+          $html .= '</a>';
           $html .= '<li>';
           $html .= PHP_EOL;
         }
