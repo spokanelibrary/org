@@ -4,6 +4,8 @@
   </h1>
 </div>
 
+<hr>
+
 <?php while (have_posts()) : the_post(); ?>
 <article <?php post_class(); ?>>
   <?php
@@ -27,7 +29,7 @@
   if(has_post_thumbnail()) {
     $attachment_array = wp_get_attachment_image_src(get_post_thumbnail_id());
     $photo_url = $attachment_array[0];
-    $photo = '<a href="'.$permalink.'"><img class="img-rounded" src="'.$photo_url.'"></a>';
+    $photo = '<img class="img-responsive img-rounded" src="'.$photo_url.'">';
   } else {
     $photo = '';
   }
@@ -45,18 +47,11 @@
     $phone = '';
   }
 
-  if(get_post_meta(get_the_ID(), 'website', true) != '') {
-    $website = get_post_meta(get_the_ID(), 'website', true);
-    $website_html = '<div class="website">Website: <a href="' . $website . '">' . $website . '</a></div>';
-  } else {
-    $website_html = '';
-  }
-
   ?>
 
   <div class="panel spl-hero-intranet staff-directory">
     <div class="panel-heading" style="padding-left:0; padding-right:0;">
-      <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small class="text-success">x<b><?php echo $phone; ?></b></small></h3>
+      <h3><?php echo $name; ?> <small class="text-success">x<b><?php echo $phone; ?></b></small></h3>
     </div>
     <div class="panel-body" style="padding-top:0;">
     <h4><?php echo $position; ?></h4>

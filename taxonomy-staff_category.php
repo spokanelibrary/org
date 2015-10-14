@@ -27,7 +27,7 @@
   if(has_post_thumbnail()) {
     $attachment_array = wp_get_attachment_image_src(get_post_thumbnail_id());
     $photo_url = $attachment_array[0];
-    $photo = '<a href="'.$permalink.'"><img class="img-rounded" src="'.$photo_url.'"></a>';
+    $photo = '<a href="'.$permalink.'"><img class="img-responsive img-rounded" src="'.$photo_url.'"></a>';
   } else {
     $photo = '';
   }
@@ -43,13 +43,6 @@
     $phone = get_post_meta(get_the_ID(), 'phone_number', true);
   } else {
     $phone = '';
-  }
-
-  if(get_post_meta(get_the_ID(), 'website', true) != '') {
-    $website = get_post_meta(get_the_ID(), 'website', true);
-    $website_html = '<div class="website">Website: <a href="' . $website . '">' . $website . '</a></div>';
-  } else {
-    $website_html = '';
   }
 
   ?>
