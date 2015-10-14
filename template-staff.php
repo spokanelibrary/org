@@ -224,6 +224,7 @@ EOT;
       }
       $output .= <<<EOT
         <div class="single-staff">
+          test
           $photo_html
           <div class="name">$name</div>
           <div class="position">$position</div>
