@@ -66,9 +66,8 @@
         <?php echo $photo; ?>
         </p>
       </div>
-      <div class="col-md-7 col-lg-6">asdf
+      <div class="col-md-7 col-lg-6">
         <?php echo $bio; ?>
-        <?php the_content(); ?>
       </div>
     </div>
     <h5><?php echo $email; ?></h5>
