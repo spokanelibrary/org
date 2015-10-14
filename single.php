@@ -1,5 +1,5 @@
 <?php if ( 'staff.spokanelibrary.org' == $_SERVER['SERVER_NAME'] ) :; ?>
-  Single post on staff site
+  <?php get_template_part('templates/content-staff', 'single'); ?>
 <?PHP else: ?>
-<?php get_template_part('templates/content', 'single'); ?>
+	<?php get_template_part('templates/content', 'single'); ?>
 <?php endif;?>
