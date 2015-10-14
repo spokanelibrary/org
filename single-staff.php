@@ -60,13 +60,14 @@
     <div class="panel-body" style="padding-top:0;">
     <h4><?php echo $position; ?></h4>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-5 col-lg-4">
         <p>
         <?php echo $photo; ?>
         </p>
       </div>
-      <div class="col-md-4">asdf
+      <div class="col-md-7 col-lg-6">asdf
         <?php echo $bio; ?>
+        <?php the_content(); ?>
       </div>
     </div>
     <h5><?php echo $email; ?></h5>
