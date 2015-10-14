@@ -5,7 +5,7 @@ Template Name: Staff Page
 ?>
 
 <?php SPL_StaffDirectoryShortcode::register_shortcode(); ?>
-<?php get_template_part('templates/page', 'header'); ?>
+<?php //get_template_part('templates/page', 'header'); ?>
 <?php get_template_part('templates/content', 'page'); ?>
 
 
