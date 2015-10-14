@@ -4,6 +4,7 @@
   </h1>
 </div>
 
+<?php while (have_posts()) : the_post(); ?>
 <article <?php post_class(); ?>>
   <?php
   $permalink = get_the_permalink();
@@ -77,3 +78,5 @@
   </div>
 
 </article>
+
+<?php endwhile; ?>
