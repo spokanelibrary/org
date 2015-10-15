@@ -91,7 +91,7 @@ foreach($kbe_terms as $kbe_taxonomy) :
                     ?>
                                 <li>
                                     <a href="<?php the_permalink(); ?>" rel="bookmark">
-                                        <?php the_title(); ?>
+                                        CHILD POST: <?php the_title(); ?>
                                     </a>
                                 </li>
                     <?php
@@ -139,7 +139,7 @@ foreach($kbe_terms as $kbe_taxonomy) :
             ?>
                         <li>
                             <a href="<?php the_permalink(); ?>" rel="bookmark">
-                                <?php the_title(); ?>
+                                REGULAR POST: <?php the_title(); ?>
                             </a>
                         </li>
             <?php
