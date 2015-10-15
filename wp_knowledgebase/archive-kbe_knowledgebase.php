@@ -64,8 +64,8 @@
                     $kbe_term_name = $kbe_taxonomy->name;
             ?>
                     <div class="kbe_category">
-                        <h2>
-                            <span class="label pull-right kbe_count">
+                        <h2>Test
+                            <span class="kbe_count">
                                 <?php
                                     echo $kbe_taxonomy->count;
                                     _e(' Articles','kbe');
