@@ -35,7 +35,7 @@ function spl_kbe_get_kb_cat_by_term_id($id) {
   //$html .= '<pre>'.print_r($terms, true).'</pre>';
   if ( is_array($terms) && !empty($terms[0]) ) {
     //$html .= '<h6 class="uppercase">Subcategories</h6>'; 
-    $html .= '<ul>';
+    $html .= '<ul class="list-unstyled">';
     foreach ( $terms as $term ) {
       $html .= '<li>';
       $html .= '<h5 class="uppercase">';
