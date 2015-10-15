@@ -14,7 +14,7 @@
   </div><!-- /.col -->
   <div class="col-md-4 col-lg-3">
 
-    <div class="spl-hero-intranet spl-hero-brand-blue-c">
+    <div class="panel spl-hero-intranet spl-hero-brand-blue-c">
       <div class="panel-heading">
         <h4 class="">Related Articles</h4>
       </div>

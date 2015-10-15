@@ -9,7 +9,7 @@
     <?php echo spl_kbe_get_kb_list_by_slug(get_queried_object()->slug); ?>
   </div><!-- /.col -->
   <div class="col-md-4 col-lg-3">
-    <div class="panel panel-primary">
+    <div class="panel spl-hero-intranet spl-hero-brand-blue-c">
       <div class="panel-heading">
         <h4 class="panel-title">Subcategories</h4>
       </div>
