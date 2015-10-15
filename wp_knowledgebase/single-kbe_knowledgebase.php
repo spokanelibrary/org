@@ -34,7 +34,56 @@
 <?php
 
 function spl_kbe_get_related_articles_by_id($id) {
-  return print_r(wp_get_post_terms($id, 'kbe_taxonomy'), true);
+  //return print_r(wp_get_post_terms($id, 'kbe_taxonomy'), true);
+  $html = null;
+  $args = array(
+                'orderby'       => 'terms_order', 
+                'order'         => 'ASC',
+                'hide_empty'    => true,
+                'parent'        => $id
+                );
+  $terms = get_terms(KBE_POST_TAXONOMY, $args);
+  if ( is_array($terms) ) {
+    $i = 1;
+    $html .= '<div class="row">';
+    foreach ( $terms as $term ) {
+      $html .= '<div class="col-md-6">';
+      $html .= '<div class="panel panel-primary">';
+      $html .= '<div class="panel-heading">';
+      $html .= '<h4 class="uppercase">';
+      //$html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= $term->name;
+      //$html .= '</a>';
+      $html .= '<span class="label label-success pull-right">';
+      $html .= $term->count;
+      $html .= '</span>';
+      $html .= '</h4>';
+      $html .= '</div>';  
+      $html .= '<div class="panel-body">'; 
+      $html .= '<h6 class="text-muted">';
+      $html .= 'All articles in ';
+      $html .= '<a class="uppercase" href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= $term->name;
+      $html .= '</a>';
+      $html .= '</h6>';
+      //$html .= '<pre>'.print_r($term, true).'</pre>';
+      //$html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
+      $html .= '</div>'; 
+      //$html .= '<div class="panel-footer">'; 
+      //$html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
+      //$html .= '</div>'; 
+      $html .= '</div>'; 
+      $html .= '</div>'; 
+      if ( 0 == $i % 2 ) {
+        $html .= '<div class="clearfix"></div>';
+      }
+      $i++;
+    }
+    $html .= '</div>';
+
+  }
+
+  return $html;
 }
 
 ?>
