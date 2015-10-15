@@ -5,6 +5,7 @@
 </div>
 
 <div class="row">
+
 <?php
 $kbe_cat_args = array(
                     'orderby'       => 'terms_order', 
@@ -12,9 +13,10 @@ $kbe_cat_args = array(
                     'hide_empty'    => true,
                     'parent'        => 0
                 );
-$kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
+?>
+<?php $kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args); ?>
 
-foreach($kbe_terms as $kbe_taxonomy) : ?>
+<?php foreach($kbe_terms as $kbe_taxonomy) : ?>
   <div class="col-md-6">
     <h3>
       <a href="<?php echo get_term_link($kbe_taxonomy->slug, 'kbe_taxonomy') ?>">
@@ -34,8 +36,8 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
                           'parent'        => $kbe_taxonomy->term_id,
                           'hide_empty'    => true, 
                       );
-  $kbe_child_terms = get_terms(KBE_POST_TAXONOMY, $kbe_child_cat_args);
   ?>
+  <?php $kbe_child_terms = get_terms(KBE_POST_TAXONOMY, $kbe_child_cat_args); ?>
 
   <?php if($kbe_child_terms) : ?>
     <?php foreach($kbe_child_terms as $kbe_child_term) : ?>
@@ -90,9 +92,9 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
 <?php endif; ?>
 
 
+
   <ul class="nav nav-stacked">
   <?php
-
   $kbe_tax_post_args = array(
                               'post_type' => KBE_POST_TYPE,
                               'posts_per_page' => KBE_ARTICLE_QTY,
@@ -107,8 +109,9 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
                                       )
                               )
                       );
-  $kbe_tax_post_qry = new WP_Query($kbe_tax_post_args);
   ?>
+  <?php $kbe_tax_post_qry = new WP_Query($kbe_tax_post_args); ?>
+
   <?php if($kbe_tax_post_qry->have_posts()) : ?>
   <?php while($kbe_tax_post_qry->have_posts()) : ?>
   <?php $kbe_tax_post_qry->the_post(); ?>
@@ -118,15 +121,14 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
         </a>
     </li>
   <?php
-      endwhile;
-      else :
-      endif;
+  endwhile;
+  else :
+  endif;
   ?>
   </ul>
 
 
-
-</div>
+</div><!-- /.col -->
 
 <?php endforeach; ?>
 </div><!-- /.row -->
