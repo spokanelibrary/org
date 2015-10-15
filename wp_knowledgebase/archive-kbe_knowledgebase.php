@@ -1,7 +1,6 @@
 Archive page
 <h1><?php echo get_the_title(KBE_PAGE_TITLE) ?></h1>
-
-<div class="kbe_categories">
+<div class="row">
 <?php
 $kbe_cat_args = array(
                     'orderby'       => 'terms_order', 
@@ -11,11 +10,11 @@ $kbe_cat_args = array(
                 );
 
 $kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
-
+/*
 echo '<pre>';
 print_r($kbe_terms);
 echo '</pre>';
-
+*/
 foreach($kbe_terms as $kbe_taxonomy){
   $kbe_term_id = $kbe_taxonomy->term_id;
   $kbe_term_slug = $kbe_taxonomy->slug;
@@ -141,7 +140,6 @@ foreach($kbe_terms as $kbe_taxonomy){
 <?php
     }
  ?>
-</div>
-
+</div><!-- /.row -->
     
     
