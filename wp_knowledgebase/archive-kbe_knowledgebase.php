@@ -36,7 +36,7 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '<div class="panel-body">'; 
       $html .= '<h4>';
       $html .= 'All articles in ';
-      $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= '<a class="uppercase" href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
       $html .= '</a>';
       $html .= '</h4>';
