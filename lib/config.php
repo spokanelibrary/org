@@ -59,7 +59,7 @@ function roots_display_sidebar() {
       ,array('is_tax', 'staff_category')
       //,array('is_posttype', 'kbe_knowledgebase')
       ,array('is_archive', 'kbe_knowledgebase')
-      ,array('is_singular', array('newsletter', 'newsletters'))
+      ,array('is_singular', array('newsletter', 'newsletters', 'kbe_knowledgebase'))
     ),
     /**
      * Page template checks (via is_page_template())
