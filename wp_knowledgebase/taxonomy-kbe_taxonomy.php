@@ -4,7 +4,7 @@ $spl_kbe_cat_name = get_queried_object()->name;
 ?>
 <div class="page-header">
   <h1>
-    $spl_kbe_cat_name
+    <?php echo $spl_kbe_cat_name; ?>
   </h1>
 </div>
 
