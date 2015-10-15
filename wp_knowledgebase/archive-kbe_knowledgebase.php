@@ -39,12 +39,7 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
 
   <?php if($kbe_child_terms) : ?>
   <div class="kbe_child_category" style="">
-  <?php
-      foreach($kbe_child_terms as $kbe_child_term){
-          //$kbe_child_term_id = $kbe_child_term->term_id;
-          //$kbe_child_term_slug = $kbe_child_term->slug;
-          //$kbe_child_term_name = $kbe_child_term->name;
-  ?>
+  <?php foreach($kbe_child_terms as $kbe_child_term) : ?>
                       <h3>
                           <span class="kbe_count">
                               <?php
@@ -107,7 +102,7 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
 
                   </ul>
               <?php
-                  }
+                  endforeach;
               ?>
 
               </div>
