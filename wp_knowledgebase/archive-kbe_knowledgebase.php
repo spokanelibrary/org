@@ -127,7 +127,7 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
       $html .= $term->name;
       $html .= '</a>';
       $html .= '<span class="label label-success pull-right">';
-      $html .= $kbe_taxonomy->count;
+      $html .= $term->count;
       $html .= '</span>';
       $html .= '</h3>';
       $html .= '</div>'; 
