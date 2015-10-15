@@ -48,7 +48,7 @@ Template Name: Intranet Home Page
     <div class="row">
       
       <div class="col-md-6">
-        <div class="panel spl-hero-intranet spl-hero-brand-blue-a">
+        <div class="panel spl-hero-intranet spl-hero-brand-blue-b">
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-list"></i>
