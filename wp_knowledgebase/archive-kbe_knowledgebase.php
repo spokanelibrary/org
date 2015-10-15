@@ -89,7 +89,7 @@ Archive page
                                         </li>
                             <?php
                                     endwhile;
-                                    wp_reset_postdata();
+
                                 else :
                                     echo "No posts";
                                 endif;
@@ -130,6 +130,7 @@ Archive page
                                 </li>
                     <?php
                             endwhile;
+                            wp_reset_postdata();
                         else :
                             echo "No posts";
                         endif;
