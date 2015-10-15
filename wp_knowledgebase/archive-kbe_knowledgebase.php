@@ -20,11 +20,7 @@ echo '<pre>';
 print_r($kbe_terms);
 echo '</pre>';
 */
-foreach($kbe_terms as $kbe_taxonomy) :
-  //$kbe_term_id = $kbe_taxonomy->term_id;
-  //$kbe_term_slug = $kbe_taxonomy->slug;
-  $kbe_term_name = $kbe_taxonomy->name;
-?>
+foreach($kbe_terms as $kbe_taxonomy) : ?>
 <div class="col-md-6">
   <h3>
     <a href="<?php echo get_term_link($kbe_taxonomy->slug, 'kbe_taxonomy') ?>">
