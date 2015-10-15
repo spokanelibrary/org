@@ -11,7 +11,7 @@ $kbe_cat_args = array(
                 );
 
 $kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
-wp_reset_postdata();
+//wp_reset_postdata();
 /*
 echo '<pre>';
 print_r($kbe_terms);
@@ -48,7 +48,7 @@ foreach($kbe_terms as $kbe_taxonomy) :
                                     );
 
                 $kbe_child_terms = get_terms(KBE_POST_TAXONOMY, $kbe_child_cat_args);
-                
+                wp_reset_postdata();
                 /*
                 echo '<pre>';
                 print_r($kbe_child_terms);
