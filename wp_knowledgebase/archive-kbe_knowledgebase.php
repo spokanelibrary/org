@@ -34,12 +34,12 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '</h4>';
       $html .= '</div>';  
       $html .= '<div class="panel-body">'; 
-      $html .= '<h5 class="text-muted">';
+      $html .= '<h6 class="text-muted">';
       $html .= 'All articles in ';
       $html .= '<a class="uppercase" href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
       $html .= '</a>';
-      $html .= '</h5>';
+      $html .= '</h6>';
       //$html .= '<pre>'.print_r($term, true).'</pre>';
       $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
       $html .= '</div>'; 
