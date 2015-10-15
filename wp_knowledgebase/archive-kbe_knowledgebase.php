@@ -13,9 +13,8 @@ $kbe_cat_args = array(
                     'parent'        => 0
                 );
 $kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
-?>
 
-<?php foreach($kbe_terms as $kbe_taxonomy) : ?>
+foreach($kbe_terms as $kbe_taxonomy) : ?>
   <div class="col-md-6">
     <h3>
       <a href="<?php echo get_term_link($kbe_taxonomy->slug, 'kbe_taxonomy') ?>">
@@ -36,7 +35,7 @@ $kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
                           'hide_empty'    => true, 
                       );
   $kbe_child_terms = get_terms(KBE_POST_TAXONOMY, $kbe_child_cat_args);
-  ?>
+
 
   if($kbe_child_terms) :
   ?>
