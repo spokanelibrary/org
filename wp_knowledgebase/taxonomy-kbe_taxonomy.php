@@ -33,8 +33,8 @@ function spl_kbe_get_kb_list_by_slug($slug) {
       array(
           'taxonomy' => KBE_POST_TAXONOMY,
           'field' => 'slug',
-          'terms' => $slug,
-          'include_children' => false
+          'terms' => $slug
+          //'include_children' => false
         )
       )
     );
