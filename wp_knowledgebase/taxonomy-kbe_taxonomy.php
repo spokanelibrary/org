@@ -40,7 +40,7 @@ function spl_kbe_get_kb_cat_by_term_id($id) {
       $html .= '</span>';
       $html .= '</h5>';
       //$html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
-      $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
+      $html .= spl_kbe_get_kb_cat_by_term_id($term->term_id);
       $html .= '</li>';
     }
     $html .= '</ul>';
