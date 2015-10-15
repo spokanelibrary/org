@@ -64,16 +64,16 @@
                     $kbe_term_name = $kbe_taxonomy->name;
             ?>
                     <div class="col-md-6">
-                        <span class="label label-success pull-right">
-                            <?php
-                                echo $kbe_taxonomy->count;
-                                _e(' Articles','kbe');
-                            ?>
-                        </span>
                         <h3>
                             <a href="<?php echo get_term_link($kbe_term_slug, 'kbe_taxonomy') ?>">
                                 <?php echo $kbe_term_name; ?>
                             </a>
+                            <span class="label label-success pull-right">
+                            <?php
+                                echo $kbe_taxonomy->count;
+                                _e(' Articles','kbe');
+                            ?>
+                            </span>
                         </h3>
                         
                         <?php
