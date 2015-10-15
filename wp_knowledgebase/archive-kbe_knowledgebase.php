@@ -168,7 +168,7 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
       $html .= '</li>';
       //$html .= '</div>'; 
     }
-    $html .= '</ul';
+    $html .= '</ul>';
 
   }
 
