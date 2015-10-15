@@ -19,7 +19,7 @@
         <h4 class="panel-title">Related Articles</h4>
       </div>
       <div class="panel-body">
-        <?php echo spl_kbe_get_related_articles_by_id(get_the_ID()); ?>    
+        <?php echo spl_kbe_get_related_categories_by_post_id(get_the_ID()); ?>    
       </div>
     </div>
 
@@ -31,7 +31,7 @@
 
 <?php
 
-function spl_kbe_get_related_articles_by_id($id) {
+function spl_kbe_get_related_categories_by_post_id($id) {
   $html = null;
 
   $terms = wp_get_post_terms($id, KBE_POST_TAXONOMY);
@@ -46,11 +46,46 @@ function spl_kbe_get_related_articles_by_id($id) {
       $html .= $term->count;
       $html .= '</span>';
       $html .= '</h4>';
+      $html .= spl_kbe_get_related_articles_by_term_id($term->term_id, 10);
     }
  
   }
 
   return $html;
+}
+
+function spl_kbe_get_related_articles_by_term_id($id, $limit=-1) {
+  if ( $id ) { 
+    $args = array(
+                  'post_type' => KBE_POST_TYPE,
+                  'posts_per_page' => $limit,
+                  'orderby' => 'menu_order',
+                  'order' => 'ASC',
+                  'tax_query' => array(
+                    array(
+                          'taxonomy' => KBE_POST_TAXONOMY,
+                          'field' => 'term_id',
+                          'terms' => $id,
+                          'include_children' => false
+                    )
+                  )
+              );
+    $query = new WP_Query($args);
+
+    if($query->have_posts()) {
+      $html .= '<ul class="nav nav-pills">';
+      while( $query->have_posts() ) {
+        $query->the_post();
+        $html .= '<li>';
+        $html .= '<a href="'.get_the_permalink().'" rel="bookmark">';
+        $html .= '<small class="text-muted glyphicon glyphicon-list-alt"></small> ';
+        $html .= get_the_title();
+        $html .= '</a>';
+        $html .= '</li>';
+      }
+      $html .= '</ul>';
+    }
+  }
 }
 
 ?>
