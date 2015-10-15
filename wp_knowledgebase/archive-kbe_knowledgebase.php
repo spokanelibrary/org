@@ -71,7 +71,7 @@
                             <span class="label label-success pull-right">
                             <?php
                                 echo $kbe_taxonomy->count;
-                                _e(' Articles','kbe');
+                                _e('','kbe');
                             ?>
                             </span>
                         </h3>
