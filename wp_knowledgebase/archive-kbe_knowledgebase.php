@@ -156,9 +156,9 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
     foreach ( $terms as $term ) {
       $html .= '<li>';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
-      $html .= '<h4>';
+      //$html .= '<h4>';
       $html .= $term->name;
-      $html .= '</h4>';
+      //$html .= '</h4>';
       $html .= '</a>';
       $html .= '<span class="label label-warning pull-right">';
       $html .= $term->count;
