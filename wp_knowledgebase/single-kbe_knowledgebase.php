@@ -13,9 +13,18 @@
     <?php the_content(); ?>
   </div><!-- /.col -->
   <div class="col-md-4 col-lg-3">
-    <pre>
-    <?php print_r(wp_get_post_terms(get_the_ID(), 'kbe_taxonomy')); ?>
-    </pre>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h4 class="panel-title">Subcategories</h4>
+      </div>
+      <div class="panel-body">
+        <pre>
+        <?php echo spl_kbe_get_related_articles_by_id(get_the_ID()); ?>    
+        </pre>
+      </div>
+    </div>
+
   </div><!-- /.col -->
 </div><!-- /.row -->
 
@@ -25,7 +34,7 @@
 <?php
 
 function spl_kbe_get_related_articles_by_id($id) {
-
+  return print_r(wp_get_post_terms($id, 'kbe_taxonomy'), true);
 }
 
 ?>
