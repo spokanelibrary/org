@@ -8,8 +8,9 @@
   </h1>
 </div>
 
-<?php print_r(get_terms('kbe_taxonomy')); ?>
-
+<pre>
+<?php print_r(wp_get_post_terms(get_the_ID(), 'kbe_taxonomy')); ?>
+</pre>
 
 <?php the_content(); ?>
 
