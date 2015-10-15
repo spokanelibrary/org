@@ -33,6 +33,9 @@ foreach($kbe_terms as $kbe_taxonomy) :
 
 
             <?php
+                echo '<pre>';
+                print_r($kbe_term_id);
+                echo '</pre>';
                 $kbe_child_cat_args = array(
                                         'orderby'       => 'terms_order', 
                                         'order'         => 'ASC',
