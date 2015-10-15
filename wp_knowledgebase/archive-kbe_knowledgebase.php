@@ -124,14 +124,14 @@ function spl_kb_get_kb_category($id=0) {
       $html .= '<div class="col-md-6">';
       $html .= '<div class="panel panel-default">';
       $html .= '<div class="panel-heading">';
-      $html .= '<h3 class="panel-title">';
+      $html .= '<h4>';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
       $html .= '</a>';
       $html .= '<span class="label label-success pull-right">';
       $html .= $term->count;
       $html .= '</span>';
-      $html .= '</h3>';
+      $html .= '</h4>';
       $html .= '</div>';  
       $html .= '<div class="panel-body">'; 
       
