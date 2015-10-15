@@ -4,11 +4,11 @@
   </h1>
 </div>
 
-<?php echo spl_kb_get_kb_category(); ?>
+<?php echo spl_kbe_get_kb_category(); ?>
 
 <?php 
 
-function spl_kb_get_kb_category($id=0) {
+function spl_kbe_get_kb_category($id=0) {
   $html = null;
   $args = array(
                 'orderby'       => 'terms_order', 
