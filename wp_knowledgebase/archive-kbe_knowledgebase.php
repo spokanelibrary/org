@@ -1,11 +1,8 @@
-Archive page
-<?php
-echo '<pre>';
-print_r($post);
-echo '</pre>';
-?>
-<?php wp_reset_postdata(); ?>
-<h1><?php echo get_the_title() ?></h1>
+<div class="page-header">
+  <h1>
+    Knowledge Base
+  </h1>
+</div>
 
 <div class="row">
 <?php
