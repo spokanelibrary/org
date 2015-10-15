@@ -160,7 +160,7 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
                 );
   $terms = get_terms(KBE_POST_TAXONOMY, $args);
   if ( is_array($terms) ) {
-    $html .= '<h4>Subcategories</h4>'; 
+    $html .= '<h5 class="uppercase">Subcategories</h5>'; 
     $html .= '<ul>';
     foreach ( $terms as $term ) {
       $html .= '<li>';
