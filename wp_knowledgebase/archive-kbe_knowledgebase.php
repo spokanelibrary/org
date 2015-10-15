@@ -72,7 +72,7 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
   //$html .= '<pre>'.print_r($terms, true).'</pre>';
   if ( is_array($terms) && !empty($terms[0]) ) {
     //$html .= '<h6 class="uppercase">Subcategories</h6>'; 
-    $html .= '<ul class="list-unstyled" style="margin-left:8px;">';
+    $html .= '<ul class="list-unstyled" style="">';
     foreach ( $terms as $term ) {
       $html .= '<li>';
       $html .= '<h5 class="uppercase">';
