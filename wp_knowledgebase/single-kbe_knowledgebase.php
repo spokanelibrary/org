@@ -1,3 +1,4 @@
+<?php print_r(get_the_category()); ?>
 <?php while(have_posts()) : ?>
 <?php the_post(); ?>
 <?php kbe_set_post_views(get_the_ID()); ?>
