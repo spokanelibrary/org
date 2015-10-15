@@ -122,6 +122,8 @@ function spl_kb_get_kb_category($id=0) {
     $html .= '<div class="row">';
     foreach ( $terms as $term ) {
       $html .= '<div class="col-md-6">';
+      $html .= '<div class="panel panel-default">';
+      $html .= '<div class="panel-heading">';
       $html .= '<h3>';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
@@ -130,13 +132,14 @@ function spl_kb_get_kb_category($id=0) {
       $html .= $term->count;
       $html .= '</span>';
       $html .= '</h3>';
-      //$html .= '<pre>'.print_r($term, true).'</pre>';
-      $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
-      $html .= '<div class="panel panel-default">';
-      $html .= '<div class="panel-heading">';
-      $html .= '<h4 class="panel-title">Categories</h4>'; 
       $html .= '</div>';  
       $html .= '<div class="panel-body">'; 
+      
+      //$html .= '<pre>'.print_r($term, true).'</pre>';
+      $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
+      
+      $html .= '<h>Categories</h4>'; 
+      
       $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
       $html .= '</div>'; 
       $html .= '</div>'; 
