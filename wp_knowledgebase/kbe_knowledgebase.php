@@ -1,8 +1,12 @@
+Template test
+
 <?php
     /*=========
     Template Name: KBE
     =========*/
     //get_header();
+
+
     
     // Classes For main content div
     if(KBE_SIDEBAR_HOME == 0) {
