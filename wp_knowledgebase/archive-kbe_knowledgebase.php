@@ -22,12 +22,12 @@ echo '</pre>';
 */
 foreach($kbe_terms as $kbe_taxonomy) :
   //$kbe_term_id = $kbe_taxonomy->term_id;
-  $kbe_term_slug = $kbe_taxonomy->slug;
+  //$kbe_term_slug = $kbe_taxonomy->slug;
   $kbe_term_name = $kbe_taxonomy->name;
 ?>
 <div class="col-md-6">
   <h3>
-    <a href="<?php echo get_term_link($kbe_term_slug, 'kbe_taxonomy') ?>">
+    <a href="<?php echo get_term_link($kbe_taxonomy->slug, 'kbe_taxonomy') ?>">
         <?php echo $kbe_taxonomy->name; ?>
     </a>
     <span class="label label-success pull-right">
