@@ -119,6 +119,7 @@ function spl_kb_get_kb_category($id=0) {
                 );
   $terms = get_terms(KBE_POST_TAXONOMY, $args);
   if ( is_array($terms) ) {
+    $i = 1;
     $html .= '<div class="row">';
     foreach ( $terms as $term ) {
       $html .= '<div class="col-md-6">';
@@ -142,6 +143,10 @@ function spl_kb_get_kb_category($id=0) {
       $html .= '</div>'; 
       $html .= '</div>'; 
       $html .= '</div>'; 
+      if ( 0 == $i % 2 ) {
+        $html .= '<div class="clearfix"></div>';
+      }
+      $i++;
     }
     $html .= '</div>';
 
