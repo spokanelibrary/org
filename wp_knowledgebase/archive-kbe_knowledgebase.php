@@ -15,34 +15,30 @@ $kbe_cat_args = array(
 $kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
 
 foreach($kbe_terms as $kbe_taxonomy) : ?>
-<div class="col-md-6">
-  <h3>
-    <a href="<?php echo get_term_link($kbe_taxonomy->slug, 'kbe_taxonomy') ?>">
-        <?php echo $kbe_taxonomy->name; ?>
-    </a>
-    <span class="label label-success pull-right">
-    <?php echo $kbe_taxonomy->count; ?>
-    </span>
-  </h3>
-            
+  <div class="col-md-6">
+    <h3>
+      <a href="<?php echo get_term_link($kbe_taxonomy->slug, 'kbe_taxonomy') ?>">
+          <?php echo $kbe_taxonomy->name; ?>
+      </a>
+      <span class="label label-success pull-right">
+      <?php echo $kbe_taxonomy->count; ?>
+      </span>
+    </h3>
+              
 
 
-<?php
-$kbe_child_cat_args = array(
-                        'orderby'       => 'terms_order', 
-                        'order'         => 'ASC',
-                        'parent'        => $kbe_taxonomy->term_id,
-                        'hide_empty'    => true, 
-                    );
-$kbe_child_terms = get_terms(KBE_POST_TAXONOMY, $kbe_child_cat_args);
+  <?php
+  $kbe_child_cat_args = array(
+                          'orderby'       => 'terms_order', 
+                          'order'         => 'ASC',
+                          'parent'        => $kbe_taxonomy->term_id,
+                          'hide_empty'    => true, 
+                      );
+  $kbe_child_terms = get_terms(KBE_POST_TAXONOMY, $kbe_child_cat_args);
 
-/*
-echo '<pre>';
-print_r($kbe_child_terms);
-echo '</pre>';
-*/
-if($kbe_child_terms) {
-?>
+
+  if($kbe_child_terms) :
+  ?>
     <div class="kbe_child_category" style="">
     <?php
         foreach($kbe_child_terms as $kbe_child_term){
@@ -117,7 +113,7 @@ if($kbe_child_terms) {
 
                 </div>
             <?php
-                }
+                endif;
             ?>
 
 
@@ -168,6 +164,7 @@ if($kbe_child_terms) {
 
 
         </div>
+
 <?php endforeach; ?>
 </div><!-- /.row -->
     
