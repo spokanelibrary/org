@@ -34,7 +34,7 @@
 function spl_kbe_get_related_articles_by_id($id) {
   $html = null;
 
-  $terms = (wp_get_post_terms($id, KBE_POST_TAXONOMY), true);
+  $terms = wp_get_post_terms($id, KBE_POST_TAXONOMY);
   
   if ( is_array($terms) ) {
     $i = 1;
