@@ -1,4 +1,4 @@
-    
+Archive page
 <!--content-->
 <div id="kbe_content" <?php echo $kbe_content_class; ?>>
     <h1><?php //echo get_the_title(KBE_PAGE_TITLE) ?></h1>
