@@ -12,14 +12,8 @@ $kbe_cat_args = array(
                     'hide_empty'    => true,
                     'parent'        => 0
                 );
-
 $kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
 
-/*
-echo '<pre>';
-print_r($kbe_terms);
-echo '</pre>';
-*/
 foreach($kbe_terms as $kbe_taxonomy) : ?>
 <div class="col-md-6">
   <h3>
@@ -33,35 +27,29 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
             
 
 
-            <?php
-                /*
-                echo '<pre>';
-                print_r($kbe_taxonomy->term_id);
-                echo '</pre>';
-                */
-                $kbe_child_cat_args = array(
-                                        'orderby'       => 'terms_order', 
-                                        'order'         => 'ASC',
-                                        'parent'        => $kbe_taxonomy->term_id,
-                                        'hide_empty'    => true, 
-                                    );
+<?php
+$kbe_child_cat_args = array(
+                        'orderby'       => 'terms_order', 
+                        'order'         => 'ASC',
+                        'parent'        => $kbe_taxonomy->term_id,
+                        'hide_empty'    => true, 
+                    );
+$kbe_child_terms = get_terms(KBE_POST_TAXONOMY, $kbe_child_cat_args);
 
-                $kbe_child_terms = get_terms(KBE_POST_TAXONOMY, $kbe_child_cat_args);
-
-                /*
-                echo '<pre>';
-                print_r($kbe_child_terms);
-                echo '</pre>';
-                */
-                if($kbe_child_terms) {
-            ?>
-                <div class="kbe_child_category" style="">
-                <?php
-                    foreach($kbe_child_terms as $kbe_child_term){
-                        $kbe_child_term_id = $kbe_child_term->term_id;
-                        $kbe_child_term_slug = $kbe_child_term->slug;
-                        $kbe_child_term_name = $kbe_child_term->name;
-                ?>
+/*
+echo '<pre>';
+print_r($kbe_child_terms);
+echo '</pre>';
+*/
+if($kbe_child_terms) {
+?>
+    <div class="kbe_child_category" style="">
+    <?php
+        foreach($kbe_child_terms as $kbe_child_term){
+            $kbe_child_term_id = $kbe_child_term->term_id;
+            $kbe_child_term_slug = $kbe_child_term->slug;
+            $kbe_child_term_name = $kbe_child_term->name;
+    ?>
                         <h3>
                             <span class="kbe_count">
                                 <?php
