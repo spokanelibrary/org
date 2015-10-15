@@ -48,7 +48,7 @@ function spl_kbe_get_kb_list_by_slug($slug) {
         $html .= '<div class="col-md-6">';
         $html .= '<h4>';
         $html .= '<a href="'.get_the_permalink().'" rel="bookmark">';
-        $html .= '<i class="glyphicon glyphicon-list-alt"></i> '.get_the_title();
+        $html .= '<small class="glyphicon glyphicon-list-alt"></small> '.get_the_title();
         $html .= '</a>';
         $html .= '</h4>';
         $html .= '</div>';
