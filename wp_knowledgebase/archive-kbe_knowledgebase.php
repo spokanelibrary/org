@@ -132,7 +132,14 @@ function spl_kb_get_kb_category($id=0) {
       $html .= '</h3>';
       //$html .= '<pre>'.print_r($term, true).'</pre>';
       $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
+      $html .= '<div class="panel panel-default">';
+      $html .= '<div class="panel-heading">';
+      $html .= '<h4 class="panel-title">Categories</h4>'; 
+      $html .= '</div>';  
+      $html .= '<div class="panel-body">'; 
       $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
+      $html .= '</div>'; 
+      $html .= '</div>'; 
       $html .= '</div>'; 
     }
     $html .= '</div>';
