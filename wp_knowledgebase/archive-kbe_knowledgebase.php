@@ -1,4 +1,5 @@
 Archive page
+<?php wp_reset_postdata(); ?>
 <h1><?php echo get_the_title() ?></h1>
 
 <div class="row">
@@ -48,7 +49,7 @@ foreach($kbe_terms as $kbe_taxonomy) :
                                     );
 
                 $kbe_child_terms = get_terms(KBE_POST_TAXONOMY, $kbe_child_cat_args);
-                wp_reset_postdata();
+
                 /*
                 echo '<pre>';
                 print_r($kbe_child_terms);
