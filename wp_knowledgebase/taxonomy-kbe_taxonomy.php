@@ -1,6 +1,10 @@
 <?php 
 $spl_kbe_cat_slug = get_queried_object()->slug;
 $spl_kbe_cat_name = get_queried_object()->name;
+
+echo '<pre>';
+print_r(get_queried_object());
+echo '</pre>';
 ?>
 <div class="page-header">
   <h1>
@@ -19,6 +23,10 @@ $spl_kbe_cat_name = get_queried_object()->name;
 
 
 <?php
+
+function spl_kbe_get_kb_cat_by_slug($slug) {
+
+}
 
 function spl_kbe_get_kb_list_by_slug($slug) {
   $html = null;
