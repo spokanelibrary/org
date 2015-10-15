@@ -120,7 +120,7 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
   $terms = get_terms(KBE_POST_TAXONOMY, $args);
   if ( is_array($terms) ) {
     //$html .= '<pre>'.print_r($terms, true).'</pre>';
-    foreach ( $terms as $terms ) {
+    foreach ( $terms as $term ) {
       $html .= '<div class="col-md-6">';
       $html .= '<h3>';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
