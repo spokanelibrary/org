@@ -1,4 +1,4 @@
-<?php get_queried_object(); ?>
+<?php print_r(get_queried_object()); ?>
 
 <?php while(have_posts()) : ?>
 <?php the_post(); ?>
