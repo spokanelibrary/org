@@ -1,31 +1,52 @@
-<?php 
-$spl_kbe_cat_slug = get_queried_object()->slug;
-$spl_kbe_cat_name = get_queried_object()->name;
-
-echo '<pre>';
-print_r(get_queried_object());
-echo '</pre>';
-?>
 <div class="page-header">
   <h1>
-    <?php echo $spl_kbe_cat_name; ?>
+    <?php echo get_queried_object()->name; ?>
   </h1>
 </div>
 
 <div class="row">
   <div class="col-md-8 col-md-9">
-    <?php echo spl_kbe_get_kb_list_by_slug($spl_kbe_cat_slug); ?>
+    <?php echo spl_kbe_get_kb_list_by_slug(get_queried_object()->slug); ?>
   </div><!-- /.col -->
-    <div class="col-md-4 col-md-3">
-      Sidebar
+  <div class="col-md-4 col-md-3">
+    <?php echo spl_kbe_get_kb_cat_by_term_id(get_queried_object()->term_id); ?>    
   </div><!-- /.col -->
 </div><!-- /.row -->
 
 
 <?php
 
-function spl_kbe_get_kb_cat_by_slug($slug) {
+function spl_kbe_get_kb_cat_by_term_id($id) {
+  $html = null;
+  $args = array(
+                'orderby'       => 'terms_order', 
+                'order'         => 'ASC',
+                'hide_empty'    => true,
+                'parent'        => $id
+                );
+  $terms = get_terms(KBE_POST_TAXONOMY, $args);
+  //$html .= '<pre>'.print_r($terms, true).'</pre>';
+  if ( is_array($terms) && !empty($terms[0]) ) {
+    //$html .= '<h6 class="uppercase">Subcategories</h6>'; 
+    $html .= '<ul>';
+    foreach ( $terms as $term ) {
+      $html .= '<li>';
+      $html .= '<h5 class="uppercase">';
+      $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= $term->name;
+      $html .= '</a>';
+      $html .= '<span class="label label-warning pull-right">';
+      $html .= $term->count;
+      $html .= '</span>';
+      $html .= '</h5>';
+      //$html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
+      $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
+      $html .= '</li>';
+    }
+    $html .= '</ul>';
+  }
 
+  return $html;
 }
 
 function spl_kbe_get_kb_list_by_slug($slug) {
