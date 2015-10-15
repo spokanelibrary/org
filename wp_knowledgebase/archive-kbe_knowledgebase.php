@@ -42,8 +42,8 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
   <?php
       foreach($kbe_child_terms as $kbe_child_term){
           //$kbe_child_term_id = $kbe_child_term->term_id;
-          $kbe_child_term_slug = $kbe_child_term->slug;
-          $kbe_child_term_name = $kbe_child_term->name;
+          //$kbe_child_term_slug = $kbe_child_term->slug;
+          //$kbe_child_term_name = $kbe_child_term->name;
   ?>
                       <h3>
                           <span class="kbe_count">
@@ -52,8 +52,8 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
                                   _e(' Articles','kbe');
                               ?>
                           </span>
-                          <a href="<?php echo get_term_link($kbe_child_term_slug, 'kbe_taxonomy') ?>">
-                              <?php echo $kbe_child_term_name; ?>
+                          <a href="<?php echo get_term_link($kbe_child_term->slug, 'kbe_taxonomy') ?>">
+                              <?php echo $kbe_child_term->name; ?>
                           </a>
                       </h3>
                       <ul class="kbe_child_article_list">
