@@ -10,6 +10,7 @@ $spl_kbe_cat_name = get_queried_object()->name;
 
 <div class="row">
   <div class="col-md-8 col-md-9">
+    <?php echo spl_kbe_get_kb_list_by_slug($spl_kbe_cat_slug); ?>
   </div><!-- /.col -->
     <div class="col-md-4 col-md-3">
       Sidebar
@@ -33,8 +34,8 @@ function spl_kbe_get_kb_list_by_slug($slug) {
       array(
           'taxonomy' => KBE_POST_TAXONOMY,
           'field' => 'slug',
-          'terms' => $slug
-          //'include_children' => false
+          'terms' => $slug,
+          'include_children' => false
         )
       )
     );
