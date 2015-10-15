@@ -135,6 +135,12 @@ function spl_kb_get_kb_category($id=0) {
       $html .= '</h4>';
       $html .= '</div>';  
       $html .= '<div class="panel-body">'; 
+      $html .= '<h4>';
+      $html .= 'All articles in: ';
+      $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= $term->name;
+      $html .= '</a>';
+      $html .= '</h4>';
       //$html .= '<pre>'.print_r($term, true).'</pre>';
       $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
       $html .= '</div>'; 
