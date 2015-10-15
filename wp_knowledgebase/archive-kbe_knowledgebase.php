@@ -155,14 +155,15 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
     $html .= '<ul>';
     foreach ( $terms as $term ) {
       $html .= '<li>';
-      $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= '<h4>';
+      $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      
       $html .= $term->name;
-      $html .= '</h4>';
       $html .= '</a>';
       $html .= '<span class="label label-warning pull-right">';
       $html .= $term->count;
       $html .= '</span>';
+      $html .= '</h4>';
       //$html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
       $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
       $html .= '</li>';
