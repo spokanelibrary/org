@@ -38,77 +38,71 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
   ?>
 
   <?php if($kbe_child_terms) : ?>
-  <div class="kbe_child_category" style="">
-  <?php foreach($kbe_child_terms as $kbe_child_term) : ?>
-                      <h3>
-                          <span class="kbe_count">
-                              <?php
-                                  echo $kbe_child_term->count;
-                                  _e(' Articles','kbe');
-                              ?>
-                          </span>
-                          <a href="<?php echo get_term_link($kbe_child_term->slug, 'kbe_taxonomy') ?>">
-                              <?php echo $kbe_child_term->name; ?>
-                          </a>
-                      </h3>
-                      <ul class="kbe_child_article_list">
-                  
-
-                  <?php
-                    /*
-                      echo '<pre>';
-                      print_r($kbe_child_term->term_id);
-                      echo '</pre>';
-
-                      $kbe_child_post_args = array(
-                                                  'post_type' => KBE_POST_TYPE,
-                                                  'posts_per_page' => KBE_ARTICLE_QTY,
-                                                  'orderby' => 'menu_order',
-                                                  'order' => 'ASC',
-                                                  'tax_query' => array(
-                                                          array(
-                                                                  'taxonomy' => KBE_POST_TAXONOMY,
-                                                                  'field' => 'term_id',
-                                                                  'terms' => $kbe_child_term->term_id
-                                                          )
-                                                  )
-                                          );  
-
-                      $kbe_child_post_qry = new WP_Query($kbe_child_post_args);
-                      if($kbe_child_post_qry->have_posts()) :
-                          while($kbe_child_post_qry->have_posts()) :
-                              $kbe_child_post_qry->the_post();
-                    */
-                  ?>
-                              <!--
-                              <li>
-                                  <a href="<?php the_permalink(); ?>" rel="bookmark">
-                                      CHILD POST: <?php the_title(); ?>
-                                  </a>
-                              </li>
-                            -->
-                  <?php
-                      /*
-                          endwhile;
-
-                      else :
-                          echo "No posts";
-                      endif;
-                      */
-                  ?>
+    <?php foreach($kbe_child_terms as $kbe_child_term) : ?>
+      <h4>
+        <a href="<?php echo get_term_link($kbe_child_term->slug, 'kbe_taxonomy') ?>">
+          <?php echo $kbe_child_term->name; ?>
+        </a>
+        <span class="label label-warning pull-right">
+          <?php echo $kbe_child_term->count; ?>
+        </span>
+      </h4>
 
 
 
+          <ul class="kbe_child_article_list">
+      
 
-                  </ul>
-              <?php
-                  endforeach;
-              ?>
+      <?php
+        /*
+          echo '<pre>';
+          print_r($kbe_child_term->term_id);
+          echo '</pre>';
 
-              </div>
-          <?php
-              endif;
-          ?>
+          $kbe_child_post_args = array(
+                                      'post_type' => KBE_POST_TYPE,
+                                      'posts_per_page' => KBE_ARTICLE_QTY,
+                                      'orderby' => 'menu_order',
+                                      'order' => 'ASC',
+                                      'tax_query' => array(
+                                              array(
+                                                      'taxonomy' => KBE_POST_TAXONOMY,
+                                                      'field' => 'term_id',
+                                                      'terms' => $kbe_child_term->term_id
+                                              )
+                                      )
+                              );  
+
+          $kbe_child_post_qry = new WP_Query($kbe_child_post_args);
+          if($kbe_child_post_qry->have_posts()) :
+              while($kbe_child_post_qry->have_posts()) :
+                  $kbe_child_post_qry->the_post();
+        */
+      ?>
+                  <!--
+                  <li>
+                      <a href="<?php the_permalink(); ?>" rel="bookmark">
+                          CHILD POST: <?php the_title(); ?>
+                      </a>
+                  </li>
+                -->
+      <?php
+          /*
+              endwhile;
+
+          else :
+              echo "No posts";
+          endif;
+          */
+      ?>
+
+
+
+
+      </ul>
+  <?php endforeach; ?>
+
+<?php endif; ?>
 
 
 
