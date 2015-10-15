@@ -159,8 +159,9 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
                 'parent'        => $id
                 );
   $terms = get_terms(KBE_POST_TAXONOMY, $args);
+  $html .= '<pre>'.print_r($terms, true).'</pre>';
   if ( is_array($terms) ) {
-    $html .= '<h5 class="uppercase">Subcategories</h5>'; 
+    $html .= '<h6 class="uppercase">Subcategories</h6>'; 
     $html .= '<ul>';
     foreach ( $terms as $term ) {
       $html .= '<li>';
