@@ -1,3 +1,4 @@
+Taxonomy page
 <?php
     //get_header();
     
