@@ -88,7 +88,6 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
       $html .= '</li>';
     }
     $html .= '</ul>';
-
   }
 
   return $html;
@@ -98,16 +97,16 @@ function spl_kbe_get_kb_list_by_term_id($id) {
   $html = null;
   $args = array(
                 'post_type' => KBE_POST_TYPE,
-                'posts_per_page' => KBE_ARTICLE_QTY,
+                'posts_per_page' => -1,
                 'orderby' => 'menu_order',
                 'order' => 'ASC',
                 'tax_query' => array(
-                            array(
-                                  'taxonomy' => KBE_POST_TAXONOMY,
-                                  'field' => 'term_id',
-                                  'terms' => $id,
-                                  'include_children' => false
-                            )
+                  array(
+                        'taxonomy' => KBE_POST_TAXONOMY,
+                        'field' => 'term_id',
+                        'terms' => $id,
+                        'include_children' => false
+                  )
                 )
             );
   $query = new WP_Query($args);

@@ -1,4 +1,12 @@
-Taxonomy page
+
+
+
+
+
+
+
+
+
 <?php
     //get_header();
 
@@ -21,30 +29,6 @@ Taxonomy page
     );
     $kbe_tax_post_qry = new WP_Query($kbe_tax_post_args);
 ?>
-<div id="kbe_container">
-    <!--Breadcrum-->
-    <?php
-        if(KBE_BREADCRUMBS_SETTING == 1){
-    ?>
-            <div class="kbe_breadcrum">
-                <?php echo kbe_breadcrumbs(); ?>
-            </div>
-    <?php
-        }
-    ?>
-    <!--/Breadcrum-->
-        
-    <!--search field-->
-    <?php
-        if(KBE_SEARCH_SETTING == 1){
-            kbe_search_form();
-        }
-    ?>
-    <!--/search field-->
-        
-    <!--content-->
-    <div id="kbe_content" <?php echo $kbe_content_class; ?>>
-        <!--leftcol--> 
         <div class="kbe_leftcol">
 
             <!--<articles>-->
@@ -72,9 +56,3 @@ Taxonomy page
         </div>
         <!--/leftcol-->
 
-    </div>
-    <!--/content-->
-    
-
-    
-</div>
