@@ -46,7 +46,7 @@ Archive page
                         
                         if($kbe_child_terms) {
                     ?>
-                        <div class="kbe_child_category" style="display:none;">
+                        <div class="kbe_child_category" style="">
                         <?php
                             foreach($kbe_child_terms as $kbe_child_term){
                                 $kbe_child_term_id = $kbe_child_term->term_id;
