@@ -70,7 +70,7 @@
                                     echo $kbe_taxonomy->count;
                                     _e(' Articles','kbe');
                                 ?>
-                            </>
+                            </div>
                             <a href="<?php echo get_term_link($kbe_term_slug, 'kbe_taxonomy') ?>">
                                 <?php echo $kbe_term_name; ?>
                             </a>
