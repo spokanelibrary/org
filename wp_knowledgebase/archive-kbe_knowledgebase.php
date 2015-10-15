@@ -20,18 +20,15 @@ foreach($kbe_terms as $kbe_taxonomy){
   $kbe_term_slug = $kbe_taxonomy->slug;
   $kbe_term_name = $kbe_taxonomy->name;
 ?>
-        <div class="col-md-6">
-            <h3>
-                <a href="<?php echo get_term_link($kbe_term_slug, 'kbe_taxonomy') ?>">
-                    <?php echo $kbe_term_name; ?>
-                </a>
-                <span class="label label-success pull-right">
-                <?php
-                    echo $kbe_taxonomy->count;
-                    _e('','kbe');
-                ?>
-                </span>
-            </h3>
+<div class="col-md-6">
+  <h3>
+    <a href="<?php echo get_term_link($kbe_term_slug, 'kbe_taxonomy') ?>">
+        <?php echo $kbe_taxonomy->name; ?>
+    </a>
+    <span class="label label-success pull-right">
+    <?php echo $kbe_taxonomy->count; ?>
+    </span>
+  </h3>
             
             <?php
                 $kbe_child_cat_args = array(
