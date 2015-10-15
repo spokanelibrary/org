@@ -204,7 +204,7 @@ function spl_kbe_get_kb_list_by_term_id($id) {
   $query = new WP_Query($args);
 
   if($query->have_posts()) {
-    $html .= '<ul class="nav nav-list">';
+    $html .= '<ul class="nav nav-pills">';
     while( $query->have_posts() ) {
       $query->the_post();
       $html .= '<li>';
