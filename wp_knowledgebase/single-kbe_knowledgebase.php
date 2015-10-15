@@ -14,9 +14,9 @@
   </div><!-- /.col -->
   <div class="col-md-4 col-lg-3">
 
-    <div class="panel panel-primary">
+    <div class="spl-hero-intranet spl-hero-brand-blue-c">
       <div class="panel-heading">
-        <h4 class="panel-title">Related Articles</h4>
+        <h4 class="">Related Articles</h4>
       </div>
       <div class="panel-body">
         <?php echo spl_kbe_get_related_categories_by_post_id(get_the_ID()); ?>    
