@@ -63,41 +63,10 @@ foreach($kbe_terms as $kbe_taxonomy) :
                             </a>
                         </h3>
                         <ul class="kbe_child_article_list">
-                    <?php
-                        $kbe_child_post_args = array(
-                                                    'post_type' => KBE_POST_TYPE,
-                                                    'posts_per_page' => KBE_ARTICLE_QTY,
-                                                    'orderby' => 'menu_order',
-                                                    'order' => 'ASC',
-                                                    'tax_query' => array(
-                                                            array(
-                                                                    'taxonomy' => KBE_POST_TAXONOMY,
-                                                                    'field' => 'term_id',
-                                                                    'terms' => $kbe_child_term_id
-                                                            )
-                                                    )
-                                            );
-                        $kbe_child_post_qry = new WP_Query($kbe_child_post_args);
-                        if($kbe_child_post_qry->have_posts()) :
-                            while($kbe_child_post_qry->have_posts()) :
-                                $kbe_child_post_qry->the_post();
-                    ?>
-                                <li>
-                                    <a href="<?php the_permalink(); ?>" rel="bookmark">
-                                        <?php the_title(); ?>
-                                    </a>
-                                </li>
-                    <?php
-                            endwhile;
+                    
 
-                        else :
-                            echo "No posts";
-                        endif;
-                    ?>
-                    </ul>
-                <?php
-                    }
-                ?>
+
+                    
                 </div>
             <?php
                 }
