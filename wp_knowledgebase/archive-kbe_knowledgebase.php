@@ -119,7 +119,18 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
                 );
   $terms = get_terms(KBE_POST_TAXONOMY, $args);
   if ( is_array($terms) ) {
-    $html .= '<pre>'.print_r($terms, true).'</pre>';
+    //$html .= '<pre>'.print_r($terms, true).'</pre>';
+    foreach ( $terms as $terms ) {
+      $html .= '<div class="col-md-6">';
+      $html .= '<h3>';
+      $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= $term->name;
+      $html .= '</a>';
+      $html .= '<span class="label label-success pull-right">';
+      $html .= $kbe_taxonomy->count;
+      $html .= '</span>';
+      $html .= '</h3>';
+    }
   }
 
   return $html;
