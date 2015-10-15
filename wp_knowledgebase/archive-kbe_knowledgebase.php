@@ -6,6 +6,10 @@
 
 <div class="row">
 
+<?php echo spl_kbe_get_kb_cat_by_parent_id(0); ?>
+<?php exit; ?>
+
+
 <?php
 $kbe_cat_args = array(
                     'orderby'       => 'terms_order', 
@@ -98,7 +102,18 @@ $kbe_cat_args = array(
 <?php endforeach; ?>
 </div><!-- /.row -->
 
+
+
+
+
+
 <?php 
+
+function spl_kbe_get_kb_cat_by_parent_id($id) {
+  return 'parents';
+
+}
+
 function spl_kbe_get_kb_list_by_term_id($id) {
   $html = null;
   $args = array(
@@ -132,6 +147,7 @@ function spl_kbe_get_kb_list_by_term_id($id) {
   }
   return $html;
 }
+
 
 ?>
     
