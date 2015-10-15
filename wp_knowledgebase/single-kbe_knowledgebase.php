@@ -1,3 +1,4 @@
+Article page
 <?php
     //get_header();
     
