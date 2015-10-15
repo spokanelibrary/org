@@ -3,19 +3,23 @@ Archive page
 
 <div class="kbe_categories">
 <?php
-   $kbe_cat_args = array(
-                        'orderby'       => 'terms_order', 
-                        'order'         => 'ASC',
-                        'hide_empty'    => true,
-                        'parent'        => 0
-                    );
+$kbe_cat_args = array(
+                    'orderby'       => 'terms_order', 
+                    'order'         => 'ASC',
+                    'hide_empty'    => true,
+                    'parent'        => 0
+                );
 
-    $kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
+$kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
 
-    foreach($kbe_terms as $kbe_taxonomy){
-        $kbe_term_id = $kbe_taxonomy->term_id;
-        $kbe_term_slug = $kbe_taxonomy->slug;
-        $kbe_term_name = $kbe_taxonomy->name;
+echo '<pre>';
+print_r($kbe_terms);
+echo '</pre>';
+
+foreach($kbe_terms as $kbe_taxonomy){
+  $kbe_term_id = $kbe_taxonomy->term_id;
+  $kbe_term_slug = $kbe_taxonomy->slug;
+  $kbe_term_name = $kbe_taxonomy->name;
 ?>
         <div class="col-md-6">
             <h3>
