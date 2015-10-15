@@ -125,7 +125,7 @@ foreach($kbe_terms as $kbe_taxonomy) :
                                             'posts_per_page' => KBE_ARTICLE_QTY,
                                             'orderby' => 'menu_order',
                                             'order' => 'ASC',
-                                            'include_children' => 0,
+                                            'include_children' => 'false',
                                             'tax_query' => array(
                                                     array(
                                                             'taxonomy' => KBE_POST_TAXONOMY,
