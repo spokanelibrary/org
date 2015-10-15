@@ -86,6 +86,8 @@ function spl_kbe_get_related_articles_by_term_id($id, $limit=-1) {
       $html .= '</ul>';
     }
   }
+
+  return $html;
 }
 
 ?>
