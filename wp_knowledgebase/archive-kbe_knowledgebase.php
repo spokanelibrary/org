@@ -1,5 +1,5 @@
 Archive page
-    <h1><?php echo get_the_title() ?></h1>
+    <h1><?php echo get_the_title(KBE_PAGE_TITLE) ?></h1>
 
     <!--leftcol-->
     <div class="kbe_leftcol">
@@ -89,6 +89,7 @@ Archive page
                                         </li>
                             <?php
                                     endwhile;
+                                    wp_reset_postdata();
                                 else :
                                     echo "No posts";
                                 endif;
