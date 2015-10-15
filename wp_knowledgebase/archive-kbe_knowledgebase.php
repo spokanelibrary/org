@@ -11,10 +11,11 @@ $kbe_cat_args = array(
 
 $kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
 
+/*
 echo '<pre>';
 print_r($kbe_terms);
 echo '</pre>';
-
+*/
 foreach($kbe_terms as $kbe_taxonomy) :
   $kbe_term_id = $kbe_taxonomy->term_id;
   $kbe_term_slug = $kbe_taxonomy->slug;
@@ -33,9 +34,11 @@ foreach($kbe_terms as $kbe_taxonomy) :
 
 
             <?php
+                /*
                 echo '<pre>';
                 print_r($kbe_term_id);
                 echo '</pre>';
+                */
                 $kbe_child_cat_args = array(
                                         'orderby'       => 'terms_order', 
                                         'order'         => 'ASC',
@@ -45,10 +48,11 @@ foreach($kbe_terms as $kbe_taxonomy) :
 
                 $kbe_child_terms = get_terms(KBE_POST_TAXONOMY, $kbe_child_cat_args);
                 
+                /*
                 echo '<pre>';
                 print_r($kbe_child_terms);
                 echo '</pre>';
-
+                */
                 if($kbe_child_terms) {
             ?>
                 <div class="kbe_child_category" style="">
@@ -136,9 +140,11 @@ foreach($kbe_terms as $kbe_taxonomy) :
 
             <ul class="kbe_article_list">
             <?php
+                /*
                 echo '<pre>';
                 print_r($kbe_term_id);
                 echo '</pre>';
+                */
                 $kbe_tax_post_args = array(
                                             'post_type' => KBE_POST_TYPE,
                                             'posts_per_page' => KBE_ARTICLE_QTY,
