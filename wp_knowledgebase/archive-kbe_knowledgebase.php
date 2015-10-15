@@ -109,19 +109,20 @@ $kbe_cat_args = array(
 
 <?php 
 
-function spl_kbe_get_kb_cat_by_parent_id($id) {
+function spl_kbe_get_kb_cat_by_parent_id($id=0) {
   $html = null;
   $args = array(
                 'orderby'       => 'terms_order', 
                 'order'         => 'ASC',
                 'hide_empty'    => true,
-                'parent'        => 0
+                'parent'        => $id
                 );
   $terms = get_terms(KBE_POST_TAXONOMY, $args);
   if ( is_array($terms) ) {
     $html .= '<pre>'.print_r($terms, true).'</pre>';
   }
 
+  return $html;
 }
 
 function spl_kbe_get_kb_list_by_term_id($id) {
