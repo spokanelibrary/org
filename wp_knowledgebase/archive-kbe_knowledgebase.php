@@ -22,7 +22,7 @@ function spl_kbe_get_kb_category($id=0) {
     $html .= '<div class="row">';
     foreach ( $terms as $term ) {
       $html .= '<div class="col-md-6">';
-      $html .= '<div class="panel panel-primary">';
+      $html .= '<div class="panel spl-hero-intranet spl-hero-brand-f">';
       $html .= '<div class="panel-heading">';
       $html .= '<h4 class="uppercase">';
       //$html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
