@@ -92,39 +92,34 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
 
   <ul class="nav nav-stacked">
   <?php
-      /*
-      echo '<pre>';
-      print_r($kbe_taxonomy->term_id);
-      echo '</pre>';
-      */
-      $kbe_tax_post_args = array(
-                                  'post_type' => KBE_POST_TYPE,
-                                  'posts_per_page' => KBE_ARTICLE_QTY,
-                                  'orderby' => 'menu_order',
-                                  'order' => 'ASC',
-                                  'tax_query' => array(
-                                          array(
-                                                  'taxonomy' => KBE_POST_TAXONOMY,
-                                                  'field' => 'term_id',
-                                                  'terms' => $kbe_taxonomy->term_id,
-                                                  'include_children' => false
-                                          )
-                                  )
-                          );
-      $kbe_tax_post_qry = new WP_Query($kbe_tax_post_args);
-      if($kbe_tax_post_qry->have_posts()) :
-          while($kbe_tax_post_qry->have_posts()) :
-              $kbe_tax_post_qry->the_post();
+
+  $kbe_tax_post_args = array(
+                              'post_type' => KBE_POST_TYPE,
+                              'posts_per_page' => KBE_ARTICLE_QTY,
+                              'orderby' => 'menu_order',
+                              'order' => 'ASC',
+                              'tax_query' => array(
+                                      array(
+                                              'taxonomy' => KBE_POST_TAXONOMY,
+                                              'field' => 'term_id',
+                                              'terms' => $kbe_taxonomy->term_id,
+                                              'include_children' => false
+                                      )
+                              )
+                      );
+  $kbe_tax_post_qry = new WP_Query($kbe_tax_post_args);
   ?>
-              <li>
-                  <a href="<?php the_permalink(); ?>" rel="bookmark">
-                      REGULAR POST: <?php the_title(); ?>
-                  </a>
-              </li>
+  <?php if($kbe_tax_post_qry->have_posts()) : ?>
+  <?php while($kbe_tax_post_qry->have_posts()) : ?>
+  <?php $kbe_tax_post_qry->the_post(); ?>
+    <li>
+        <a href="<?php the_permalink(); ?>" rel="bookmark">
+            <i class="glyphicon glyphicon-bookmark"></i> <?php the_title(); ?>
+        </a>
+    </li>
   <?php
-          endwhile;
+      endwhile;
       else :
-          echo "No posts";
       endif;
   ?>
   </ul>
