@@ -64,13 +64,13 @@
                     $kbe_term_name = $kbe_taxonomy->name;
             ?>
                     <div class="kbe_category">
-                        <h2>Test
-                            <span class="kbe_count">
+                        <h2>
+                            <div class="label pull-right">
                                 <?php
                                     echo $kbe_taxonomy->count;
                                     _e(' Articles','kbe');
                                 ?>
-                            </span>
+                            </>
                             <a href="<?php echo get_term_link($kbe_term_slug, 'kbe_taxonomy') ?>">
                                 <?php echo $kbe_term_name; ?>
                             </a>
