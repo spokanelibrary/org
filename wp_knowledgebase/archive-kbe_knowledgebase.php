@@ -138,7 +138,6 @@ function spl_kb_get_kb_category($id=0) {
       $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
       $html .= '</div>'; 
       $html .= '<div class="panel-footer">'; 
-      $html .= '<h4>Subcategories</h4>'; 
       $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
       $html .= '</div>'; 
       $html .= '</div>'; 
@@ -161,6 +160,7 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
                 );
   $terms = get_terms(KBE_POST_TAXONOMY, $args);
   if ( is_array($terms) ) {
+    $html .= '<h4>Subcategories</h4>'; 
     $html .= '<ul>';
     foreach ( $terms as $term ) {
       $html .= '<li>';
@@ -208,10 +208,9 @@ function spl_kbe_get_kb_list_by_term_id($id) {
       $query->the_post();
       $html .= '<li>';
       $html .= '<a href="'.get_the_permalink().'" rel="bookmark">';
-      $html .= '<i class="glyphicon glyphicon-bookmark"></i> '.get_the_title();
+      $html .= '<i class="glyphicon glyphicon-list-alt"></i> '.get_the_title();
       $html .= '</a>';
       $html .= '</li>';
-
     }
     $html .= '</ul>';
   }
