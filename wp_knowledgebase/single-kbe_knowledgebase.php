@@ -1,3 +1,5 @@
+<?php echo get_queried_object(); ?>
+
 <?php while(have_posts()) : ?>
 <?php the_post(); ?>
 <?php kbe_set_post_views(get_the_ID()); ?>
