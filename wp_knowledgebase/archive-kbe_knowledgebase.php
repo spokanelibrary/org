@@ -67,11 +67,6 @@ foreach($kbe_terms as $kbe_taxonomy) :
 
 
                     
-                </div>
-            <?php
-                }
-            ?>
-
 
 
 
