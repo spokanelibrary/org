@@ -127,7 +127,7 @@ foreach($kbe_terms as $kbe_taxonomy) :
             <ul class="kbe_article_list">
             <?php
                 echo '<pre>';
-                print_r($kbe_child_term_id);
+                print_r($kbe_term_id);
                 echo '</pre>';
                 $kbe_tax_post_args = array(
                                             'post_type' => KBE_POST_TYPE,
