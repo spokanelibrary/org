@@ -8,7 +8,7 @@
   </h1>
 </div>
 
-<?php print_r(get_the_category_list()); ?>
+<?php print_r(get_the_category()); ?>
 
 
 <?php the_content(); ?>
