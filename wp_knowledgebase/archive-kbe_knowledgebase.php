@@ -4,12 +4,12 @@
   </h1>
 </div>
 
-<div class="row">
+
 
 <?php echo spl_kbe_get_kb_cat_by_parent_id(0); ?>
 <?php exit; ?>
 
-
+<div class="row">
 <?php
 $kbe_cat_args = array(
                     'orderby'       => 'terms_order', 
@@ -119,7 +119,7 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
                 );
   $terms = get_terms(KBE_POST_TAXONOMY, $args);
   if ( is_array($terms) ) {
-    //$html .= '<pre>'.print_r($terms, true).'</pre>';
+    $html .= '<div class="row">';
     foreach ( $terms as $term ) {
       $html .= '<div class="col-md-6">';
       $html .= '<h3>';
@@ -132,6 +132,10 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
       $html .= '</h3>';
       $html .= '</div>'; 
     }
+    $html .= '</div>';
+
+    $html .= spl_kbe_get_kb_list_by_term_id($term->id);
+
   }
 
   return $html;
