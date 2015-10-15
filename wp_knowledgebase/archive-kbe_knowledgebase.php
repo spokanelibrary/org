@@ -117,7 +117,7 @@ function spl_kbe_get_kb_cat_by_parent_id($id) {
                 'hide_empty'    => true,
                 'parent'        => 0
                 );
-  $terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
+  $terms = get_terms(KBE_POST_TAXONOMY, $args);
   if ( is_array($terms) ) {
     $html .= '<pre>'.print_r($terms, true).'</pre>';
   }
