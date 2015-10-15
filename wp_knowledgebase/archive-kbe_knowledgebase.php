@@ -152,9 +152,9 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
                 );
   $terms = get_terms(KBE_POST_TAXONOMY, $args);
   if ( is_array($terms) ) {
-    $html .= '<div class="row">';
+    //$html .= '<div class="row">';
     foreach ( $terms as $term ) {
-      $html .= '<div class="col-md-6">';
+      //$html .= '<div class="col-md-6">';
       $html .= '<h3>';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
@@ -164,11 +164,11 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
       $html .= '</span>';
       $html .= '</h3>';
       //$html .= '<pre>'.print_r($term, true).'</pre>';
-      $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
-      //$html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
-      $html .= '</div>'; 
+      //$html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
+      $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
+      //$html .= '</div>'; 
     }
-    $html .= '</div>';
+    //$html .= '</div>';
 
   }
 
