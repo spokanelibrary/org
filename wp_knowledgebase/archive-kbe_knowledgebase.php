@@ -83,7 +83,8 @@ foreach($kbe_terms as $kbe_taxonomy) :
                                                                     'terms' => $kbe_child_term_id
                                                             )
                                                     )
-                                            );
+                                            );  
+
                         $kbe_child_post_qry = new WP_Query($kbe_child_post_args);
                         if($kbe_child_post_qry->have_posts()) :
                             while($kbe_child_post_qry->have_posts()) :
@@ -124,7 +125,7 @@ foreach($kbe_terms as $kbe_taxonomy) :
                                             'posts_per_page' => KBE_ARTICLE_QTY,
                                             'orderby' => 'menu_order',
                                             'order' => 'ASC',
-                                            'include_children' => false,
+                                            'include_children' => 0,
                                             'tax_query' => array(
                                                     array(
                                                             'taxonomy' => KBE_POST_TAXONOMY,
