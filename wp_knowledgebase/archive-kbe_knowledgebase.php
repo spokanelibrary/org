@@ -126,9 +126,9 @@ function spl_kb_get_kb_category($id=0) {
       $html .= '<div class="panel panel-primary">';
       $html .= '<div class="panel-heading">';
       $html .= '<h4>';
-      $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      //$html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
-      $html .= '</a>';
+      //$html .= '</a>';
       $html .= '<span class="label label-success pull-right">';
       $html .= $term->count;
       $html .= '</span>';
