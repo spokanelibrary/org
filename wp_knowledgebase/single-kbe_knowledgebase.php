@@ -16,7 +16,7 @@
 
     <div class="panel panel-primary">
       <div class="panel-heading">
-        <h4 class="panel-title">Subcategories</h4>
+        <h4 class="panel-title">Related Articles</h4>
       </div>
       <div class="panel-body">
         <pre>
