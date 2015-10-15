@@ -136,7 +136,7 @@ function spl_kb_get_kb_category($id=0) {
       $html .= '</div>';  
       $html .= '<div class="panel-body">'; 
       $html .= '<h4>';
-      $html .= 'All articles in: ';
+      $html .= 'All articles in ';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
       $html .= '</a>';
@@ -172,13 +172,12 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
   $terms = get_terms(KBE_POST_TAXONOMY, $args);
   //$html .= '<pre>'.print_r($terms, true).'</pre>';
   if ( is_array($terms) && !empty($terms[0]) ) {
-    $html .= '<h6 class="uppercase">Subcategories</h6>'; 
+    //$html .= '<h6 class="uppercase">Subcategories</h6>'; 
     $html .= '<ul>';
     foreach ( $terms as $term ) {
       $html .= '<li>';
-      $html .= '<h4>';
+      $html .= '<h4 class="uppercase">';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
-      
       $html .= $term->name;
       $html .= '</a>';
       $html .= '<span class="label label-warning pull-right">';
