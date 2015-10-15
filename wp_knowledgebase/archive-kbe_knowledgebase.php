@@ -11,7 +11,7 @@ $kbe_cat_args = array(
                 );
 
 $kbe_terms = get_terms(KBE_POST_TAXONOMY, $kbe_cat_args);
-
+wp_reset_postdata();
 /*
 echo '<pre>';
 print_r($kbe_terms);
