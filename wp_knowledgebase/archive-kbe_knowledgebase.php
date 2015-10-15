@@ -73,7 +73,8 @@ foreach($kbe_terms as $kbe_taxonomy) :
                                                             array(
                                                                     'taxonomy' => KBE_POST_TAXONOMY,
                                                                     'field' => 'term_id',
-                                                                    'terms' => $kbe_child_term_id
+                                                                    //'terms' => $kbe_child_term_id
+                                                                    'terms' => $kbe_term_id
                                                             )
                                                     )
                                             );
