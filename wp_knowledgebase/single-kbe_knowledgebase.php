@@ -19,9 +19,7 @@
         <h4 class="panel-title">Related Articles</h4>
       </div>
       <div class="panel-body">
-        <pre>
         <?php echo spl_kbe_get_related_articles_by_id(get_the_ID()); ?>    
-        </pre>
       </div>
     </div>
 
@@ -34,15 +32,10 @@
 <?php
 
 function spl_kbe_get_related_articles_by_id($id) {
-  //return print_r(wp_get_post_terms($id, 'kbe_taxonomy'), true);
   $html = null;
-  $args = array(
-                'orderby'       => 'terms_order', 
-                'order'         => 'ASC',
-                'hide_empty'    => true,
-                'parent'        => $id
-                );
-  $terms = get_terms(KBE_POST_TAXONOMY, $args);
+
+  $terms = (wp_get_post_terms($id, KBE_POST_TAXONOMY), true);
+  
   if ( is_array($terms) ) {
     $i = 1;
     $html .= '<div class="row">';
