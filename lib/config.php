@@ -58,7 +58,7 @@ function roots_display_sidebar() {
       //,'is_front_page'
       ,array('is_tax', 'staff_category')
       ,array('is_archive', 'kbe_knowledgebase')
-      ,array('is_singular', array('newsletter', 'newsletters'))
+      ,array('is_singular', array('newsletter', 'newsletters', 'kb'))
     ),
     /**
      * Page template checks (via is_page_template())
