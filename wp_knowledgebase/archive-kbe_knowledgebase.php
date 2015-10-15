@@ -132,7 +132,7 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
       $html .= '</h3>';
       //$html .= '<pre>'.print_r($term, true).'</pre>';
       $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
-      $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id)
+      $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
       $html .= '</div>'; 
     }
     $html .= '</div>';
