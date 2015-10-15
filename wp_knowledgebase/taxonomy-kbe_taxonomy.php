@@ -9,7 +9,14 @@
     <?php echo spl_kbe_get_kb_list_by_slug(get_queried_object()->slug); ?>
   </div><!-- /.col -->
   <div class="col-md-4 col-md-3">
-    <?php echo spl_kbe_get_kb_cat_by_term_id(get_queried_object()->term_id); ?>    
+    <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">Subcategories</h4>
+    </div>
+    <div class="panel-body">
+      <?php echo spl_kbe_get_kb_cat_by_term_id(get_queried_object()->term_id); ?>    
+    </div>
+    </div>
   </div><!-- /.col -->
 </div><!-- /.row -->
 
