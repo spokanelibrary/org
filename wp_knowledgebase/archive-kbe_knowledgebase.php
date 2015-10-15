@@ -142,7 +142,7 @@ foreach($kbe_terms as $kbe_taxonomy) :
             ?>
             </ul>
         </div>
-<?php end foreach; ?>
+<?php endforeach; ?>
 </div><!-- /.row -->
     
     
