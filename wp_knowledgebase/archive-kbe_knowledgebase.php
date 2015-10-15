@@ -37,7 +37,7 @@ foreach($kbe_terms as $kbe_taxonomy) : ?>
   $kbe_child_terms = get_terms(KBE_POST_TAXONOMY, $kbe_child_cat_args);
   ?>
 
-  <php if($kbe_child_terms) :
+  <?php if($kbe_child_terms) :
   ?>
     <div class="kbe_child_category" style="">
     <?php
