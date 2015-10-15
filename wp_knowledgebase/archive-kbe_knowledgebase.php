@@ -136,10 +136,10 @@ function spl_kb_get_kb_category($id=0) {
       $html .= '<div class="panel-body">'; 
       //$html .= '<pre>'.print_r($term, true).'</pre>';
       $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
-      $html .= '<div class="panel-footer">'; 
-      $html .= '<h4>Categories</h4>'; 
-      $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
       $html .= '</div>'; 
+      $html .= '<div class="panel-footer">'; 
+      $html .= '<h4>Subcategories</h4>'; 
+      $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
       $html .= '</div>'; 
       $html .= '</div>'; 
       $html .= '</div>'; 
