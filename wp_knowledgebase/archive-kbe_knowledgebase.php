@@ -1,4 +1,3 @@
-Archive page
     
 <!--content-->
 <div id="kbe_content" <?php echo $kbe_content_class; ?>>
