@@ -83,7 +83,7 @@ Template Name: Intranet Home Page
       <div class="clearfix"></div>
 
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-intranet-news">
+        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-brand-blue-h">
           <div class="panel-heading">
               <h4>
             <i class="glyphicon glyphicon-bullhorn"></i>
