@@ -6,7 +6,7 @@
 
 
 
-<?php echo spl_kbe_get_kb_cat_by_parent_id(0); ?>
+<?php echo spl_kb_get_kb_category(); ?>
 <?php exit; ?>
 
 <div class="row">
@@ -109,7 +109,7 @@ $kbe_cat_args = array(
 
 <?php 
 
-function spl_kbe_get_kb_cat_by_parent_id($id=0) {
+function spl_kb_get_kb_category($id=0) {
   $html = null;
   $args = array(
                 'orderby'       => 'terms_order', 
@@ -133,6 +133,39 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
       //$html .= '<pre>'.print_r($term, true).'</pre>';
       $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
       $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
+      $html .= '</div>'; 
+    }
+    $html .= '</div>';
+
+  }
+
+  return $html;
+}
+
+function spl_kbe_get_kb_cat_by_parent_id($id=0) {
+  $html = null;
+  $args = array(
+                'orderby'       => 'terms_order', 
+                'order'         => 'ASC',
+                'hide_empty'    => true,
+                'parent'        => $id
+                );
+  $terms = get_terms(KBE_POST_TAXONOMY, $args);
+  if ( is_array($terms) ) {
+    $html .= '<div class="row">';
+    foreach ( $terms as $term ) {
+      $html .= '<div class="col-md-6">';
+      $html .= '<h3>';
+      $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= $term->name;
+      $html .= '</a>';
+      $html .= '<span class="label label-warning pull-right">';
+      $html .= $term->count;
+      $html .= '</span>';
+      $html .= '</h3>';
+      //$html .= '<pre>'.print_r($term, true).'</pre>';
+      $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
+      //$html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
       $html .= '</div>'; 
     }
     $html .= '</div>';
