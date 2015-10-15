@@ -116,9 +116,11 @@ function spl_kbe_get_kb_list_by_term_id($id) {
     while( $query->have_posts() ) {
       $query->the_post();
       $html .= '<li>';
+      $html .= '<h4>';
       $html .= '<a href="'.get_the_permalink().'" rel="bookmark">';
       $html .= '<i class="glyphicon glyphicon-list-alt"></i> '.get_the_title();
       $html .= '</a>';
+      $html .= '</h4>';
       $html .= '</li>';
     }
     $html .= '</ul>';
