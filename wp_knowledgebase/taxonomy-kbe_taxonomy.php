@@ -1,8 +1,15 @@
+<?php 
+$spl_kbe_cat_slug = get_queried_object()->slug;
+$spl_kbe_cat_name = get_queried_object()->name;
+?>
+<div class="page-header">
+  <h1>
+    $spl_kbe_cat_name
+  </h1>
+</div>
 
 
-
-
-
+<?php exit; ?>
 
 
 
