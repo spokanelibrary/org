@@ -69,8 +69,11 @@ foreach($kbe_terms as $kbe_taxonomy) :
                         <ul class="kbe_child_article_list">
                     
 
-
                     <?php
+                        echo '<pre>';
+                        print_r($kbe_child_term_id);
+                        echo '</pre>';
+
                         $kbe_child_post_args = array(
                                                     'post_type' => KBE_POST_TYPE,
                                                     'posts_per_page' => KBE_ARTICLE_QTY,
@@ -120,6 +123,9 @@ foreach($kbe_terms as $kbe_taxonomy) :
 
             <ul class="kbe_article_list">
             <?php
+                echo '<pre>';
+                print_r($kbe_child_term_id);
+                echo '</pre>';
                 $kbe_tax_post_args = array(
                                             'post_type' => KBE_POST_TYPE,
                                             'posts_per_page' => KBE_ARTICLE_QTY,
