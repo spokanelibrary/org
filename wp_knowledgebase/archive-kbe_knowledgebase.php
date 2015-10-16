@@ -23,7 +23,7 @@ function spl_kbe_get_kb_category($id=0) {
     $html .= '<div class="row">';
     foreach ( $terms as $term ) {
       $html .= '<div class="col-md-6">';
-      $html .= '<div class="panel spl-hero-intranet spl-hero-brand-blue-c">';
+      $html .= '<div class="panel spl-hero-intranet spl-hero-brand-blue-f">';
       $html .= '<div class="panel-heading">';
       $html .= '<h4 class="uppercase">';
       $html .= '<span class="pull-right label label-success">';
