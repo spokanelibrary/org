@@ -10,7 +10,7 @@ Template Name: Intranet Home Page
   <!--<div class="col-lg-10 col-lg-offset-1">-->
   <div class="col-sm-12">
         
-    <nav class="navbar-common panel panel-primary" style="margin-bottom:16px; background:#54C7E9;">
+    <nav class="navbar-common panel panel-primary" style="margin-bottom:16px; background:rgb(170,215,240);">
         <ul class="nav nav-justified">
         <?php 
         wp_nav_menu( 
