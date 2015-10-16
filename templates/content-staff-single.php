@@ -29,10 +29,10 @@
       ?>
       <?php if ($taglist) : ?>
       <?php echo $taglist; ?>
-      </h4>
       <?php endif; ?>
-      
-      <h4 class="text-success serif"><?php echo get_the_date();?></h4>
+      </h4>
+      <hr>
+      <h3 class="text-success serif"><?php echo get_the_date();?></h3>
       <?php the_content(); ?>
       
       <?php //get_template_part('templates/entry-meta'); ?>
