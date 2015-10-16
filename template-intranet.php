@@ -55,11 +55,11 @@ Template Name: Intranet Home Page
             News &amp; Announcements</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <p>
+            
               <a class="btn btn-block btn-default" href="mailto:commsupport@spokanelibrary.org">
               <span class="text-danger"><small class="glyphicon glyphicon-plus-sign"></small> 
               Make a Communications Request</span></a>
-            </p>
+            <hr>
             <?php echo do_shortcode('[spl_widget category-posts slug=spl count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
