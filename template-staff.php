@@ -7,7 +7,7 @@ Template Name: Staff Page
 <?php SPL_StaffDirectoryShortcode::register_shortcode(); ?>
 <?php //get_template_part('templates/page', 'header'); ?>
 
-<div class="panel spl-hero-intranet spl-hero-brand-gray-b">
+<div class="panel spl-hero-intranet spl-hero-brand-orange-a">
 <div class="panel-heading">
 <h4>
   <i class="glyphicon glyphicon-user"></i> <?php echo get_the_title(); ?></h4>
