@@ -29,7 +29,7 @@ function spl_kbe_get_kb_category($id=0) {
       //$html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       //$html .= $term->name;
       //$html .= '</a>';
-      $html .= '<p>';
+      $html .= '<p class="text-right">';
       $html .= '<span class="label label-success">';
       $html .= $term->count;
       $html .= '</span>';
