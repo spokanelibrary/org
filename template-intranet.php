@@ -77,7 +77,7 @@ Template Name: Intranet Home Page
             <a class="btn btn-sm btn-block btn-danger" href="mailto:commsupport@spokanelibrary.org">
               <small class="glyphicon glyphicon-plus-sign"></small> 
               <b>Make a Communications Request</b></a>
-            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=3 format=excerpt]'); ?>
+            <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
             <a class="" href="/news/spl/"><b>More</b> Library News</a>&nbsp;<small class="text-muted">&rarr;</small> 
