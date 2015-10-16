@@ -75,10 +75,11 @@ Template Name: Intranet Home Page
             Tech Alerts</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
+            <div class="well well-sm">
             <a class="btn btn-block btn-default" href="mailto:itsupport@spokanelibrary.org">
             <span class="text-danger"><small class="glyphicon glyphicon-plus-sign"></small> 
             Make a Tech Request</span></a>
-            <hr>
+            </div>
             <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
