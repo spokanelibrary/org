@@ -27,14 +27,11 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '<div class="panel-heading">';
       $html .= '<h4 class="uppercase">';
       //$html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
-      $html .= $term->name;
+      //$html .= $term->name;
       //$html .= '</a>';
-      $html .= '<a class="btn btn-success pull-right " href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
-      $html .= ' View all ';
-      $html .= '<span class="label label-success">';
+      $html .= '<span class="label label-success pull-right">';
       $html .= $term->count;
       $html .= '</span>';
-      $html .= '</a>';
       $html .= '</h4>';
       $html .= '</div>';  
       $html .= '<div class="panel-body">'; 
