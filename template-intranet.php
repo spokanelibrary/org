@@ -50,7 +50,7 @@ Template Name: Intranet Home Page
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-brand-blue-h">
           <div class="panel-heading">
-              <h4>
+            <h4>
             <i class="glyphicon glyphicon-bullhorn"></i>
             News &amp; Announcements</h4>
           </div><!-- /.panel-heading -->
