@@ -33,10 +33,10 @@
       </h4>
       <hr>
       <h3 class="text-success serif"><?php echo get_the_date();?></h3>
-      <?php the_content(); ?>
-      
       <h4 class="byline author vcard"><?php echo __('~', 'roots'); ?> <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>" rel="author" class="fn"><?php echo get_the_author(); ?></a></h4>
       
+      <?php the_content(); ?>
+
       <?php //get_template_part('templates/entry-meta'); ?>
     </div>
     <footer>
