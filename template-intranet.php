@@ -47,7 +47,7 @@ Template Name: Intranet Home Page
     
     <div class="row">
       
-      <div class="col-md-6">
+      <div class="col-sm-6">
         <div class="panel spl-hero-intranet spl-hero-brand-blue-h">
           <div class="panel-heading">
             <h4>
@@ -67,7 +67,7 @@ Template Name: Intranet Home Page
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
-      <div class="col-md-6">
+      <div class="col-sm-6">
         <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
           <div class="panel-heading">
             <h4>
