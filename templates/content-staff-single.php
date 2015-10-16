@@ -16,7 +16,23 @@
       <?php if( $resolved ) : ?>
       <span class="pull-right label label-danger">Resolved</span>
       <?php endif; ?> 
+      <?php
+      $taglist = null;
+      $tags = get_the_tags();
+      if ($tags) {
+        foreach($tags as $tag) {
+          $taglist .= '<a href="'.get_tag_link($tag->term_id).'">'.$tag->name . '</a>, '; 
+        }
+      }
+      $taglist = rtrim($taglist, ', ');
+      ?>
+      <?php if ($taglist) : ?>
+      <p>
+        <small><?php echo $taglist; ?></small>
+      </p>
+      <?php endif; ?>
       <?php the_content(); ?>
+      
       <?php //get_template_part('templates/entry-meta'); ?>
     </div>
     <footer>
