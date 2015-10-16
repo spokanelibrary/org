@@ -52,7 +52,7 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '</h6>';
       $html .= '</div>'; 
       $html .= '<div class="panel-footer">'; 
-      $html .= '<a class="btn btn-primary btn-block" href="#spl-kbe-subcat-'.$term->term_id.'" role="button" data-toggle="collapse"><small class="glyphicon glyphicon-list"></small> Show subcategories</a>'; 
+      $html .= '<a class="btn btn-primary btn-block" href="#spl-kbe-subcat-'.$term->term_id.'" role="button" data-toggle="collapse"><i class="glyphicon glyphicon-list"></i> Show subcategories</a>'; 
       $html .= '<div class="collapse" id="spl-kbe-subcat-'.$term->term_id.'">'; 
       $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
       $html .= '</div>'; 
