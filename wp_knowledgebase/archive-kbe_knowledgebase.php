@@ -1,9 +1,10 @@
+<!--
 <div class="page-header">
   <h1>
     Knowledge Base
   </h1>
 </div>
-
+-->
 <?php echo spl_kbe_get_kb_category(); ?>
 
 <?php 
