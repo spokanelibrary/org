@@ -25,12 +25,12 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '<div class="col-md-6">';
       $html .= '<div class="panel spl-hero-intranet spl-hero-brand-blue-c">';
       $html .= '<div class="panel-heading">';
-      //$html .= '<h4 class="uppercase">';
+      $html .= '<h4 class="uppercase">';
       $html .= '<span class="pull-right label label-success">';
       $html .= $term->count;
       $html .= '</span>';
       //$html .= '<i class="glyphicon glyphicon-list-alt"></i> ';
-      //$html .= '</h4>';
+      $html .= '</h4>';
       //$html .= '<h4 class="uppercase">';
       //$html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
