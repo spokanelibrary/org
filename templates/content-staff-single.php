@@ -4,6 +4,7 @@
       <h1 class=""><?php the_title(); ?></h1>
     </header>
     <div class="entry-content">
+    <h4>
     <?php
     $categories = get_the_category(  );
       $resolved = false;
@@ -27,10 +28,10 @@
       $taglist = rtrim($taglist, ', ');
       ?>
       <?php if ($taglist) : ?>
-      <p>
-        <?php echo $taglist; ?>
-      </p>
+      <?php echo $taglist; ?>
+      </h4>
       <?php endif; ?>
+      
       <h4 class="text-success serif"><?php echo get_the_date();?></h4>
       <?php the_content(); ?>
       
