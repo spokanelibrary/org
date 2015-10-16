@@ -48,18 +48,17 @@ Template Name: Intranet Home Page
     <div class="row">
       
       <div class="col-md-6">
-        <div class="panel spl-hero-intranet spl-hero-brand-blue-b">
+        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-brand-blue-h">
           <div class="panel-heading">
-            <h4>
-            <i class="glyphicon glyphicon-list"></i>
-            Director's Notes</h4>
+              <h4>
+            <i class="glyphicon glyphicon-bullhorn"></i>
+            News &amp; Announcements</h4>
           </div><!-- /.panel-heading -->
-          
           <div class="panel-body">
-            <?php echo do_shortcode('[spl_widget category-posts slug=director count=3 format=excerpt]'); ?>
+            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
-            <a class="" href="/news/director/"><b>More</b> Director's Notes</a>&nbsp;<small class="text-muted">&rarr;</small> 
+            <a class="" href="/news/spl/"><b>More</b> Library News</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
@@ -83,21 +82,22 @@ Template Name: Intranet Home Page
       <div class="clearfix"></div>
 
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-intranet spl-hero-brand-blue-h">
+        <div class="panel spl-hero-intranet spl-hero-brand-blue-b">
           <div class="panel-heading">
-              <h4>
-            <i class="glyphicon glyphicon-bullhorn"></i>
-            News &amp; Announcements</h4>
+            <h4>
+            <i class="glyphicon glyphicon-list"></i>
+            Director's Notes</h4>
           </div><!-- /.panel-heading -->
+          
           <div class="panel-body">
-            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=3 format=excerpt]'); ?>
+            <?php echo do_shortcode('[spl_widget category-posts slug=director count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
-            <a class="" href="/news/spl/"><b>More</b> Library News</a>&nbsp;<small class="text-muted">&rarr;</small> 
+            <a class="" href="/news/director/"><b>More</b> Director's Notes</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
-
+      
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-brand-green-a">
           <div class="panel-heading">
