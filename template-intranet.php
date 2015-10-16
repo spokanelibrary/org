@@ -55,9 +55,11 @@ Template Name: Intranet Home Page
             News &amp; Announcements</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <a class="btn btn-sm btn-block btn-danger" href="mailto:commsupport@spokanelibrary.org">
+            <p>
+              <a class="btn btn-sm btn-block btn-danger" href="mailto:commsupport@spokanelibrary.org">
               <small class="glyphicon glyphicon-plus-sign"></small> 
               <b>Make a Communications Request</b></a>
+            </p>
             <?php echo do_shortcode('[spl_widget category-posts slug=spl count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
@@ -74,9 +76,11 @@ Template Name: Intranet Home Page
             Tech Alerts</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <a class="btn btn-sm btn-block btn-danger" href="mailto:itsupport@spokanelibrary.org">
+            <p>
+              <a class="btn btn-sm btn-block btn-danger" href="mailto:itsupport@spokanelibrary.org">
               <small class="glyphicon glyphicon-plus-sign"></small> 
               <b>Make a Tech Request</b></a>
+            </p>
             <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
