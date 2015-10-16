@@ -77,7 +77,7 @@ Template Name: Intranet Home Page
           <div class="panel-body">
             <a class="btn btn-block btn-info" href="mailto:itsupport@spokanelibrary.org">
             <small class="glyphicon glyphicon-plus-sign"></small> 
-            <b>Tech Request</b></a>
+            Tech Request</a>
             <hr>
             <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
