@@ -52,10 +52,7 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '</h6>';
       $html .= '</div>'; 
       $html .= '<div class="panel-footer">'; 
-      $html .= '<a class="btn btn-primary btn-block" href="#spl-kbe-subcat-'.$term->term_id.'" role="button" data-toggle="collapse"><i class="glyphicon glyphicon-list"></i> Show subcategories</a>'; 
-      $html .= '<div class="collapse" id="spl-kbe-subcat-'.$term->term_id.'">'; 
       $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
-      $html .= '</div>'; 
       $html .= '</div>'; 
       $html .= '</div>'; 
       $html .= '</div>'; 
@@ -83,6 +80,8 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
   //$html .= '<pre>'.print_r($terms, true).'</pre>';
   if ( is_array($terms) && !empty($terms[0]) ) {
     //$html .= '<h6 class="uppercase">Subcategories</h6>'; 
+    $html .= '<a class="btn btn-primary btn-block" href="#spl-kbe-subcat-'.$term->term_id.'" role="button" data-toggle="collapse"><i class="glyphicon glyphicon-list"></i> Show subcategories</a>'; 
+    $html .= '<div class="collapse" id="spl-kbe-subcat-'.$term->term_id.'">'; 
     $html .= '<ul class="list-unstyled" style="margin-left:8px; margin-top:8px;">';
     foreach ( $terms as $term ) {
       $html .= '<li>';
@@ -100,6 +99,7 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
       $html .= '</li>';
     }
     $html .= '</ul>';
+    $html .= '</div>';
   }
 
   return $html;
