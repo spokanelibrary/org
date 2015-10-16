@@ -29,7 +29,7 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '<span class="pull-right label label-success">';
       $html .= $term->count;
       $html .= '</span>';
-      $html .= '<i class="glyphicon glyphicon-list-alt"></i> ';
+      //$html .= '<i class="glyphicon glyphicon-list-alt"></i> ';
       //$html .= '</h4>';
       //$html .= '<h4 class="uppercase">';
       //$html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
@@ -43,7 +43,7 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '</h4>';
       $html .= '</div>';  
       $html .= '<div class="panel-body">'; 
-      $html .= '<a class="btn btn-block btn-success" href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= '<a class="btn btn-block btn-primary" href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= 'View all articles <small>&rarr;</small>';
       $html .= '</a>';
       //$html .= '<h4 class="text-muted">';
@@ -102,7 +102,7 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0, $reveal=false) {
   if ( is_array($terms) && !empty($terms[0]) ) {
     //$html .= '<h6 class="uppercase">Subcategories</h6>'; 
     if ( $reveal ) {
-      $html .= '<a class="btn btn-primary btn-block" href="#spl-kbe-subcat-'.$term->term_id.'" role="button" data-toggle="collapse"><i class="glyphicon glyphicon-list"></i> Show subcategories</a>'; 
+      $html .= '<a class="btn btn-default btn-block" href="#spl-kbe-subcat-'.$term->term_id.'" role="button" data-toggle="collapse"><i class="glyphicon glyphicon-list"></i> Show subcategories</a>'; 
       $html .= '<div class="collapse" id="spl-kbe-subcat-'.$term->term_id.'">'; 
     }
     $html .= '<ul class="list-unstyled" style="margin-left:8px; margin-top:8px;">';
