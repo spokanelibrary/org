@@ -55,7 +55,7 @@ Template Name: Intranet Home Page
             News &amp; Announcements</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
-            <a class="btn btn-block btn-warning" href="mailto:commsupport@spokanelibrary.org">
+            <a class="btn btn-block btn-info" href="mailto:commsupport@spokanelibrary.org">
             <small class="glyphicon glyphicon-plus-sign"></small> 
             <b>Communications Request</b></a>
             <hr>
@@ -75,7 +75,7 @@ Template Name: Intranet Home Page
             Tech Alerts</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <a class="btn btn-block btn-warning" href="mailto:itsupport@spokanelibrary.org">
+            <a class="btn btn-block btn-info" href="mailto:itsupport@spokanelibrary.org">
             <small class="glyphicon glyphicon-plus-sign"></small> 
             <b>Tech Request</b></a>
             <hr>
