@@ -131,7 +131,7 @@ Template Name: Intranet Home Page
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-thumbs-up"></i>
-            ___ Deserves a Star</h4>
+            ___ Deserves a Star!</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <?php echo do_shortcode('[spl_widget category-posts slug=star count=3 format=excerpt]'); ?>
