@@ -76,7 +76,7 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <div class="alert alert-warning">
-            <a class="btn btn-block btn-primary" href="mailto:itsupport@spokanelibrary.org">
+            <a class="btn btn-block btn-warning" href="mailto:itsupport@spokanelibrary.org">
             <span class=""><small class="glyphicon glyphicon-plus-sign"></small> 
             Make a Tech Request</span></a>
             </div>
