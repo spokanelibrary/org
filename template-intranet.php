@@ -55,6 +55,8 @@ Template Name: Intranet Home Page
             News &amp; Announcements</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
+            <a class="btn btn-block btn-default" href="mailto:commsupport@spokanelibrary.org">
+              Make a Communications Request</a>
             <?php echo do_shortcode('[spl_widget category-posts slug=spl count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
@@ -97,7 +99,7 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
       </div><!-- /.col -->
-      
+
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-brand-green-a">
           <div class="panel-heading">
