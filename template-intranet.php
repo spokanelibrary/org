@@ -70,8 +70,8 @@ Template Name: Intranet Home Page
         <div class="panel spl-hero-panel spl-hero-intranet spl-hero-brand-gray-a">
           <div class="panel-heading">
             <h4>
-            <i class="glyphicon glyphicon-bullhorn"></i>
-            News &amp; Announcements</h4>
+            <i class="glyphicon glyphicon-cog"></i>
+            Tech Alerts</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <a class="btn btn-sm btn-block btn-danger" href="mailto:commsupport@spokanelibrary.org">
