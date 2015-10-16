@@ -35,13 +35,14 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '</div>';  
       $html .= '<div class="panel-body">'; 
       $html .= '<h6 class="text-muted">';
-      $html .= 'All articles in ';
+      $html .= 'View all articles in ';
       $html .= '<a class="uppercase" href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
       $html .= '</a>';
+      $html .= ' <small>&rarr;</small>';
       $html .= '</h6>';
       //$html .= '<pre>'.print_r($term, true).'</pre>';
-      $html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
+      $html .= spl_kbe_get_kb_list_by_term_id($term->term_id, 10);
       $html .= '</div>'; 
       $html .= '<div class="panel-footer">'; 
       $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
@@ -94,11 +95,11 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
   return $html;
 }
 
-function spl_kbe_get_kb_list_by_term_id($id) {
+function spl_kbe_get_kb_list_by_term_id($id, $count=-1) {
   $html = null;
   $args = array(
                 'post_type' => KBE_POST_TYPE,
-                'posts_per_page' => -1,
+                'posts_per_page' => $count,
                 'orderby' => 'menu_order',
                 'order' => 'ASC',
                 'tax_query' => array(
