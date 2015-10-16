@@ -30,7 +30,7 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= $term->count;
       $html .= '</span>';
       //$html .= '<i class="glyphicon glyphicon-list-alt"></i> ';
-      $html .= '</h4>';
+      //$html .= '</h4>';
       //$html .= '<h4 class="uppercase">';
       //$html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
@@ -40,7 +40,7 @@ function spl_kbe_get_kb_category($id=0) {
       //$html .= $term->count;
       //$html .= '</span>';
       //$html .= '</p>';
-      //$html .= '</h4>';
+      $html .= '</h4>';
       $html .= '</div>';  
       $html .= '<div class="panel-body">'; 
       $html .= '<h4 class="uppercase">';
