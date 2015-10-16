@@ -75,7 +75,7 @@ Template Name: Intranet Home Page
             Tech Alerts</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <div class="well well-sm">
+            <div class="alert alert-warning">
             <a class="btn btn-block btn-default" href="mailto:itsupport@spokanelibrary.org">
             <span class="text-danger"><small class="glyphicon glyphicon-plus-sign"></small> 
             Make a Tech Request</span></a>
