@@ -76,12 +76,12 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0) {
     foreach ( $terms as $term ) {
       //$html .= '<li>';
       $html .= '<h5 class="uppercase">';
-      $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
-      $html .= $term->name;
-      $html .= '</a>';
       $html .= '<span class="label label-warning pull-right">';
       $html .= $term->count;
       $html .= '</span>';
+      $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= $term->name;
+      $html .= '</a>';
       $html .= '</h5>';
       //$html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
       $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
