@@ -56,7 +56,7 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              <a class="btn btn-sm btn-block btn-default" href="mailto:commsupport@spokanelibrary.org">
+              <a class="btn btn-block btn-default" href="mailto:commsupport@spokanelibrary.org">
               <span class="text-danger"><small class="glyphicon glyphicon-plus-sign"></small> 
               Make a Communications Request</span></a>
             </p>
@@ -77,9 +77,9 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              <a class="btn btn-sm btn-block btn-default" href="mailto:itsupport@spokanelibrary.org">
-              <small class="glyphicon glyphicon-plus-sign"></small> 
-              Make a Tech Request</a>
+              <a class="btn btn-block btn-default" href="mailto:itsupport@spokanelibrary.org">
+              <span class="text-danger"><small class="glyphicon glyphicon-plus-sign"></small> 
+              Make a Tech Request</span></a>
             </p>
             <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
