@@ -42,8 +42,10 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '</a>';
       $html .= ' <small>&rarr;</small>';
       $html .= '</h5>';
+      $html .= '<hr>';
       //$html .= '<pre>'.print_r($term, true).'</pre>';
       $html .= spl_kbe_get_kb_list_by_term_id($term->term_id, 10);
+      $html .= '<hr>';
       $html .= '<h5 class="text-muted">';
       $html .= 'View all articles in ';
       $html .= '<a class="uppercase" href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
