@@ -56,7 +56,7 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              <a class="btn btn-sm btn-block btn-primary" href="mailto:commsupport@spokanelibrary.org">
+              <a class="btn btn-sm btn-block btn-warning" href="mailto:commsupport@spokanelibrary.org">
               <small class="glyphicon glyphicon-plus-sign"></small> 
               <b>Make a Communications Request</b></a>
             </p>
@@ -77,7 +77,7 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <p>
-              <a class="btn btn-sm btn-block btn-primary" href="mailto:itsupport@spokanelibrary.org">
+              <a class="btn btn-sm btn-block btn-danger" href="mailto:itsupport@spokanelibrary.org">
               <small class="glyphicon glyphicon-plus-sign"></small> 
               <b>Make a Tech Request</b></a>
             </p>
