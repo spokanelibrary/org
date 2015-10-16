@@ -4,6 +4,18 @@
       <h1 class=""><?php the_title(); ?></h1>
     </header>
     <div class="entry-content">
+    <?php
+    $categories = get_the_category(  );
+      $resolved = false;
+      foreach ( $categories as $category ) {
+        if ( 'Resolved' == $category->name ) {
+          $resolved = true;
+        }
+      }
+      ?>
+      <?php if( $resolved ) : ?>
+      <span class="pull-right label label-danger">Resolved</span>
+      <?php endif; ?> 
       <?php the_content(); ?>
       <?php //get_template_part('templates/entry-meta'); ?>
     </div>
