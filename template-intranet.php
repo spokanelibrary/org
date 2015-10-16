@@ -54,11 +54,10 @@ Template Name: Intranet Home Page
             <i class="glyphicon glyphicon-bullhorn"></i>
             News &amp; Announcements</h4>
           </div><!-- /.panel-heading -->
-          <div class="panel-body">
-            
-              <a class="btn btn-block btn-default" href="mailto:commsupport@spokanelibrary.org">
-              <span class="text-danger"><small class="glyphicon glyphicon-plus-sign"></small> 
-              Make a Communications Request</span></a>
+          <div class="panel-body">            
+            <a class="btn btn-block btn-default" href="mailto:commsupport@spokanelibrary.org">
+            <span class="text-danger"><small class="glyphicon glyphicon-plus-sign"></small> 
+            Make a Communications Request</span></a>
             <hr>
             <?php echo do_shortcode('[spl_widget category-posts slug=spl count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
@@ -76,11 +75,10 @@ Template Name: Intranet Home Page
             Tech Alerts</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <p>
-              <a class="btn btn-block btn-default" href="mailto:itsupport@spokanelibrary.org">
-              <span class="text-danger"><small class="glyphicon glyphicon-plus-sign"></small> 
-              Make a Tech Request</span></a>
-            </p>
+            <a class="btn btn-block btn-default" href="mailto:itsupport@spokanelibrary.org">
+            <span class="text-danger"><small class="glyphicon glyphicon-plus-sign"></small> 
+            Make a Tech Request</span></a>
+            <hr>
             <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
