@@ -31,7 +31,7 @@ function spl_kbe_get_kb_category($id=0) {
       //$html .= '</a>';
       $html .= '<a class="btn btn-success pull-right " href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= ' View all ';
-      $html .= '<span class="label label-success pull-right">';
+      $html .= '<span class="label label-success">';
       $html .= $term->count;
       $html .= '</span>';
       $html .= '</a>';
