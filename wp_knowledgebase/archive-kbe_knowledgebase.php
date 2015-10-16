@@ -25,7 +25,7 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '<div class="col-md-6">';
       $html .= '<div class="panel spl-hero-intranet spl-hero-brand-blue-c">';
       $html .= '<div class="panel-heading">';
-      $html .= '<h4 class="uppercase">';
+      //$html .= '<h4 class="uppercase">';
       $html .= '<span class="pull-right label label-success">';
       $html .= $term->count;
       $html .= '</span>';
@@ -40,12 +40,14 @@ function spl_kbe_get_kb_category($id=0) {
       //$html .= $term->count;
       //$html .= '</span>';
       //$html .= '</p>';
-      $html .= '</h4>';
+      //$html .= '</h4>';
       $html .= '</div>';  
       $html .= '<div class="panel-body">'; 
-      $html .= '<a class="btn btn-block btn-primary" href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= '<h4 class="uppercase">';
+      $html .= '<a class="" href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= 'View all articles <small>&rarr;</small>';
       $html .= '</a>';
+      $html .= '</h4>';
       //$html .= '<h4 class="text-muted">';
       //$html .= 'View all articles in ';
       //$html .= '<a class="uppercase" href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
