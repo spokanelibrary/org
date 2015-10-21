@@ -24,7 +24,7 @@ function spl_kbe_get_kb_category($id=0) {
     foreach ( $terms as $term ) {
       $html .= '<div class="col-md-6">';
       $html .= '<div class="panel spl-hero-intranet spl-hero-brand-blue-g">';
-      $html .= '<div class="panel-heading">';
+      $html .= '<div class="panel-heading" style="background:#fff;">';
       $html .= '<h4 class="uppercase">';
       $html .= '<span class="pull-right label label-success">';
       $html .= $term->count;
