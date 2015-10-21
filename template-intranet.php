@@ -54,7 +54,7 @@ Template Name: Intranet Home Page
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-bullhorn"></i>
-            The Lens <small class="uppercase" style="color:#fff;">Library Employee News Service</small></h4>
+            The Lens <small class="uppercase hidden-xs" style="color:#fff;">Library Employee News Service</small></h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <?php echo do_shortcode('[spl_widget category-posts slug=spl count=6 format=full]'); ?>
@@ -68,7 +68,7 @@ Template Name: Intranet Home Page
 
       <div class="col-sm-5 col-md-4 col-lg-3">
 
-        <div class="panel spl-hero-intranet spl-hero-brand-blue-b">
+        <div class="panel spl-hero-intranet spl-hero-brand-blue-b hidden-xs">
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-list"></i>
