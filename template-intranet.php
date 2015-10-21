@@ -105,7 +105,7 @@ Template Name: Intranet Home Page
         <div class="panel spl-hero-intranet spl-hero-brand-purple-a">
           <div class="panel-heading">
             <h4>
-            <i class="glyphicon glyphicon-barcode"></i>
+            <i class="glyphicon glyphicon-edit"></i>
             Customer Service Tips</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
@@ -119,6 +119,5 @@ Template Name: Intranet Home Page
       </div><!-- /.col -->
 
     </div><!-- /.row -->
-
 
 
