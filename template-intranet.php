@@ -47,7 +47,7 @@ Template Name: Intranet Home Page
     
     <div class="row">
       
-      <div class="col-sm-6">
+      <div class="col-sm-7">
         <div class="panel spl-hero-intranet spl-hero-brand-blue-h">
           <div class="panel-heading">
             <h4>
@@ -67,7 +67,7 @@ Template Name: Intranet Home Page
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
-      <div class="col-sm-6">
+      <div class="col-sm-5">
         <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
           <div class="panel-heading">
             <h4>
@@ -89,7 +89,7 @@ Template Name: Intranet Home Page
 
       <div class="clearfix"></div>
 
-      <div class="col-sm-6">
+      <div class="col-sm-7">
         <div class="panel spl-hero-intranet spl-hero-brand-blue-b">
           <div class="panel-heading">
             <h4>
@@ -106,7 +106,7 @@ Template Name: Intranet Home Page
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
-      <div class="col-sm-6">
+      <div class="col-sm-5">
         <div class="panel spl-hero-intranet spl-hero-brand-green-a">
           <div class="panel-heading">
             <h4>
@@ -124,7 +124,7 @@ Template Name: Intranet Home Page
 
       <div class="clearfix"></div>
 
-      <div class="col-sm-6">
+      <div class="col-sm-7">
         <div class="panel spl-hero-intranet spl-hero-brand-orange-a">
           <div class="panel-heading">
             <h4>
@@ -140,7 +140,7 @@ Template Name: Intranet Home Page
         </div><!-- /.panel -->
       </div><!-- /.col -->
 
-      <div class="col-sm-6">
+      <div class="col-sm-5">
         <div class="panel spl-hero-intranet spl-hero-brand-purple-a">
           <div class="panel-heading">
             <h4>
