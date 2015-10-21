@@ -109,7 +109,7 @@ Template Name: Intranet Home Page
             The Lens <small class="uppercase pull-right hidden-xs" style="color:#fff;">Library Employee News Service</small></h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
-            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=6 format=full]'); ?>
+            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=6 format=full author]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
             <a class="" href="/news/spl/"><b>More</b> Library News &amp; Updates</a>&nbsp;<small class="text-muted">&rarr;</small> 
