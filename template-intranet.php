@@ -78,8 +78,7 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             
-            <nav class="hidden-xs" style="margin-bottom:16px; background:rgb(170,215,240);">
-              <ul class="nav nav-stacked">
+              <ul class="">
               <?php 
               wp_nav_menu( 
               array(
@@ -89,8 +88,7 @@ Template Name: Intranet Home Page
               )); 
               ?>
               </ul>
-            </nav>
-          
+            
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
 
