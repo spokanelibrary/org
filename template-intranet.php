@@ -72,7 +72,8 @@ Template Name: Intranet Home Page
 
       <div class="col-sm-5 col-md-4 col-lg-3">
 
-        <div class="panel-heading">
+        <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
+          <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-cog"></i>
             Tech Alerts</h4>
