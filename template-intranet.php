@@ -47,26 +47,8 @@ Template Name: Intranet Home Page
     
 
     <div class="row">
-      
-      <div class="col-sm-7 col-md-8 col-lg-9">
-        
-        <div class="panel spl-hero-intranet spl-hero-brand-blue-h">
-          <div class="panel-heading">
-            <h4>
-            <i class="glyphicon glyphicon-bullhorn"></i>
-            The Lens <small class="uppercase hidden-xs" style="color:#fff;">Library Employee News Service</small></h4>
-          </div><!-- /.panel-heading -->
-          <div class="panel-body">            
-            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=6 format=full]'); ?>
-          </div><!-- /.panel-body -->
-          <div class="panel-footer text-right">
-            <a class="" href="/news/spl/"><b>More</b> Library News</a>&nbsp;<small class="text-muted">&rarr;</small> 
-          </div><!-- /.panel-footer -->
-        </div><!-- /.panel -->
 
-      </div><!-- /.col -->
-
-      <div class="col-sm-5 col-md-4 col-lg-3">
+      <div class="col-sm-5 col-md-4 col-lg-3 col-sm-push-7 col-md-push-8 col-lg-push-9">
 
         <div class="panel spl-hero-intranet spl-hero-brand-blue-b hidden-xs">
           <div class="panel-heading">
@@ -92,13 +74,13 @@ Template Name: Intranet Home Page
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-cog"></i>
-            Tech Alerts</h4>
+            Tech Bulletins</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt size=sm]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
-            <a class="" href="/news/tech/"><b>More</b> Tech Alerts</a>&nbsp;<small class="text-muted">&rarr;</small> 
+            <a class="" href="/news/tech/"><b>More</b> Tech Bulletins</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
 
@@ -113,6 +95,24 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
             <a class="" href="/news/cs/"><b>More</b> Customer Service Tips</a>&nbsp;<small class="text-muted">&rarr;</small> 
+          </div><!-- /.panel-footer -->
+        </div><!-- /.panel -->
+
+      </div><!-- /.col -->
+
+      <div class="col-sm-7 col-md-8 col-lg-9 col-sm-pull-5 col-md-pull-4 col-lg-pull-3">
+        
+        <div class="panel spl-hero-intranet spl-hero-brand-blue-h">
+          <div class="panel-heading">
+            <h4>
+            <i class="glyphicon glyphicon-bullhorn"></i>
+            The Lens <small class="uppercase hidden-xs" style="color:#fff;">Library Employee News Service</small></h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">            
+            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=6 format=full]'); ?>
+          </div><!-- /.panel-body -->
+          <div class="panel-footer text-right">
+            <a class="" href="/news/spl/"><b>More</b> Library News &amp; Updates</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
 
