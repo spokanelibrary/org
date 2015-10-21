@@ -10,6 +10,7 @@ Template Name: Intranet Home Page
   <!--<div class="col-lg-10 col-lg-offset-1">-->
   <div class="col-sm-12">
         
+    <!--
     <nav class="navbar-common panel panel-primary hidden-xs" style="margin-bottom:16px; background:rgb(170,215,240);">
         <ul class="nav nav-justified">
         <?php 
@@ -22,6 +23,7 @@ Template Name: Intranet Home Page
         ?>
         </ul>
     </nav>
+    -->
 
     <?php 
     // conditionally display page content
@@ -75,8 +77,9 @@ Template Name: Intranet Home Page
             Quick Links</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <nav class="navbar-common panel panel-primary hidden-xs" style="margin-bottom:16px; background:rgb(170,215,240);">
-              <ul class="nav nav-justified">
+            
+            <nav class="hidden-xs" style="margin-bottom:16px; background:rgb(170,215,240);">
+              <ul class="nav nav-stacked">
               <?php 
               wp_nav_menu( 
               array(
@@ -87,6 +90,7 @@ Template Name: Intranet Home Page
               ?>
               </ul>
             </nav>
+          
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
 
