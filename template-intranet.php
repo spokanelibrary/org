@@ -78,7 +78,7 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-heading -->
           <div class="panel-body">
             
-              <ul class="list-unstyled">
+              <ul class="">
               <?php 
               wp_nav_menu( 
               array(
