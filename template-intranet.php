@@ -61,7 +61,7 @@ Template Name: Intranet Home Page
             <small class="glyphicon glyphicon-plus-sign"></small> 
             Communications Request</a>
             <hr>
-            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=3 format=excerpt]'); ?>
+            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=3 format=full]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
             <a class="" href="/news/spl/"><b>More</b> Library News</a>&nbsp;<small class="text-muted">&rarr;</small> 
