@@ -75,7 +75,7 @@ Template Name: Intranet Home Page
             Tech Alerts</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt]'); ?>
+            <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt size=sm]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
             <a class="" href="/news/tech/"><b>More</b> Tech Alerts</a>&nbsp;<small class="text-muted">&rarr;</small> 
@@ -89,7 +89,7 @@ Template Name: Intranet Home Page
             Customer Service Tips</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <?php echo do_shortcode('[spl_widget category-posts slug=cs count=3 format=excerpt]'); ?>
+            <?php echo do_shortcode('[spl_widget category-posts slug=cs count=3 format=excerpt size=sm]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
             <a class="" href="/news/cs/"><b>More</b> Customer Service Tips</a>&nbsp;<small class="text-muted">&rarr;</small> 
