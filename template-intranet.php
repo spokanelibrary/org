@@ -68,6 +68,28 @@ Template Name: Intranet Home Page
 
       <div class="col-sm-5 col-md-4 col-lg-3">
 
+        <div class="panel spl-hero-intranet spl-hero-brand-blue-b">
+          <div class="panel-heading">
+            <h4>
+            <i class="glyphicon glyphicon-list"></i>
+            Quick Links</h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">
+            <nav class="navbar-common panel panel-primary hidden-xs" style="margin-bottom:16px; background:rgb(170,215,240);">
+              <ul class="nav nav-justified">
+              <?php 
+              wp_nav_menu( 
+              array(
+                'menu' => 'Quick Links'
+              , 'container' => false
+              , 'items_wrap' => '%3$s'
+              )); 
+              ?>
+              </ul>
+            </nav>
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+
         <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
           <div class="panel-heading">
             <h4>
