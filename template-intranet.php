@@ -75,10 +75,11 @@ Template Name: Intranet Home Page
             Help Desk</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <a class="btn btn-block btn-info" href="mailto:itsupport@spokanelibrary.org">
+            <a class="" href="mailto:itsupport@spokanelibrary.org">
             <small class="glyphicon glyphicon-plus-sign"></small> 
             Tech Request</a>
-            <a class="btn btn-block btn-info" href="mailto:commsupport@spokanelibrary.org">
+            <br>
+            <a class="" href="mailto:commsupport@spokanelibrary.org">
             <small class="glyphicon glyphicon-plus-sign"></small> 
             Communications Request</a>
           </div><!-- /.panel-body -->
