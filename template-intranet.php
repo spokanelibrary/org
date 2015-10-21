@@ -57,7 +57,7 @@ Template Name: Intranet Home Page
             Help Desk</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-              <ul class="">
+              <ul class="list-unstyled">
               <?php 
               wp_nav_menu( 
               array(
