@@ -90,6 +90,20 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
 
+        <div class="panel spl-hero-intranet spl-hero-brand-purple-a">
+          <div class="panel-heading">
+            <h4>
+            <i class="glyphicon glyphicon-barcode"></i>
+            Customer Service Notes</h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">
+            <?php echo do_shortcode('[spl_widget category-posts slug=ss count=3 format=excerpt]'); ?>
+          </div><!-- /.panel-body -->
+          <div class="panel-footer text-right">
+            <a class="" href="/news/ss/"><b>More</b> from Support Services</a>&nbsp;<small class="text-muted">&rarr;</small> 
+          </div><!-- /.panel-footer -->
+        </div><!-- /.panel -->
+
       </div><!-- /.col -->
 
     </div><!-- /.row -->
