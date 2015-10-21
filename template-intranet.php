@@ -77,8 +77,8 @@ Template Name: Intranet Home Page
             Quick Links</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            
-              <ul class="" style="font-size:12px;">
+              <small>
+              <ul class="">
               <?php 
               wp_nav_menu( 
               array(
@@ -88,6 +88,7 @@ Template Name: Intranet Home Page
               )); 
               ?>
               </ul>
+              </small>
             
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
