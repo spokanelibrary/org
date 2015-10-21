@@ -77,7 +77,6 @@ Template Name: Intranet Home Page
             Quick Links</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-              <small>
               <ul class="">
               <?php 
               wp_nav_menu( 
@@ -87,9 +86,7 @@ Template Name: Intranet Home Page
               , 'items_wrap' => '%3$s'
               )); 
               ?>
-              </ul>
-              </small>
-            
+              </ul>            
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
 
