@@ -10,7 +10,6 @@ Template Name: Intranet Home Page
   <!--<div class="col-lg-10 col-lg-offset-1">-->
   <div class="col-sm-12">
         
-    <!--
     <nav class="navbar-common panel panel-primary hidden-xs" style="margin-bottom:16px; background:rgb(170,215,240);">
         <ul class="nav nav-justified">
         <?php 
@@ -23,8 +22,7 @@ Template Name: Intranet Home Page
         ?>
         </ul>
     </nav>
-    -->
-
+    
     <?php 
     // conditionally display page content
     $spl_home = $post->post_content;
@@ -74,14 +72,14 @@ Template Name: Intranet Home Page
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-list"></i>
-            Quick Links</h4>
+            Help Desk</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
               <ul class="">
               <?php 
               wp_nav_menu( 
               array(
-                'menu' => 'Quick Links'
+                'menu' => 'Help Desk'
               , 'container' => false
               , 'items_wrap' => '%3$s'
               )); 
