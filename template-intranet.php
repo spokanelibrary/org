@@ -86,13 +86,13 @@ Template Name: Intranet Home Page
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-barcode"></i>
-            Customer Service Notes</h4>
+            Customer Service Tips</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <?php echo do_shortcode('[spl_widget category-posts slug=ss count=3 format=excerpt]'); ?>
+            <?php echo do_shortcode('[spl_widget category-posts slug=cs count=3 format=excerpt]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
-            <a class="" href="/news/ss/"><b>More</b> from Support Services</a>&nbsp;<small class="text-muted">&rarr;</small> 
+            <a class="" href="/news/ss/"><b>More</b> Customer Service Tips</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
 
