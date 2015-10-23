@@ -62,7 +62,7 @@
     </div>
     <div class="panel-body">
       <?php if ( isset($cell) ) : ?>
-      <h4>Cell: <?php echo $cell; ?></h4>
+      <h4 style="margin-top:0">Cell: <?php echo $cell; ?></h4>
       <?php endif; ?>
       <h3><?php echo $position; ?></h3>
       <h4><?php echo $staff_category; ?></h4>
