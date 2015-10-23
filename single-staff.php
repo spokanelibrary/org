@@ -57,7 +57,7 @@
   <div class="panel spl-hero-intranet staff-directory" style="box-shadow:none;">
     <div class="panel-heading" style="padding-left:0; padding-right:0;">
       <h2 class="text-primary" style="margin-top:0;"><?php echo $name; ?> 
-        <small>x <b class="text-success"><?php echo $phone; ?></b>
+        <small>x<b class="text-success"><?php echo $phone; ?></b>
         <?php if ( !empty($cell) ) : ?>
         &nbsp;&nbsp;<span class="">cell: <b class="text-success"><?php echo $cell; ?></b></span>
         <?php endif; ?>
