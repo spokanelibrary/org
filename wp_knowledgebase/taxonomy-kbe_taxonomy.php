@@ -6,6 +6,12 @@
 
 <div class="row">
   <div class="col-md-8 col-md-9">
+    <?php if ( !empty(get_queried_object()->description) : ?>
+    <p>
+      <?php echo get_queried_object()->description; ?>
+    </p>
+    <?php endif; ?>
+
     <?php echo spl_kbe_get_kb_list_by_slug(get_queried_object()->slug); ?>
   </div><!-- /.col -->
   <div class="col-md-4 col-lg-3">
