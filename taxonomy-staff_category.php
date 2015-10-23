@@ -45,11 +45,23 @@
     $phone = '';
   }
 
+  if(get_post_meta(get_the_ID(), 'cell_phone', true) != '') {
+    $cell = get_post_meta(get_the_ID(), 'cell_phone', true);
+  } else {
+    $cell = '';
+  }
+
   ?>
 
   <div class="panel spl-hero-intranet staff-directory" style="box-shadow:none;">
     <div class="panel-heading" style="padding-left:0; padding-right:0;">
-      <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> <small class="text-success">x<b><?php echo $phone; ?></b></small></h3>
+      <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> 
+        <small>x<b class="text-success"><?php echo $phone; ?></b>
+        <?php if ( isset($cell) ) : ?>
+        &nbsp;&nbsp;<span class="">cell: <b class="text-success"><?php echo $cell; ?></b></span>
+        <?php endif; ?>
+        </small>
+      </h3>
     </div>
     <div class="panel-body" style="padding-top:0;">
     <h4><?php echo $position; ?></h4>
