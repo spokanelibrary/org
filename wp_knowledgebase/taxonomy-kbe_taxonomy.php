@@ -6,7 +6,7 @@
 
 <div class="row">
   <div class="col-md-8 col-md-9">
-    <?php if ( !empty(get_queried_object()->description) : ?>
+    <?php if ( !empty(get_queried_object()->description) ) : ?>
     <p>
       <?php echo get_queried_object()->description; ?>
     </p>
