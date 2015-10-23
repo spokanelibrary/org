@@ -59,7 +59,7 @@
       <h2 class="text-primary" style="margin-top:0;"><?php echo $name; ?> 
         <small><span class="text-success">x<b><?php echo $phone; ?></b></span>
         <?php if ( isset($cell) ) : ?>
-        <span>Cell: <?php echo $cell; ?></span>
+        &nbsp;&nbsp;<span class="uppercase">Cell: <b class="text-success"><?php echo $cell; ?></b></span>
         <?php endif; ?>
         </small>
       </h2>
