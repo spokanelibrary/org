@@ -59,10 +59,11 @@
       <h2 class="text-primary" style="margin-top:0;"><?php echo $name; ?> <small class="text-success">x<b><?php echo $phone; ?></b></small></h2>
     </div>
     <div class="panel-body">
+      <h3><?php echo $position; ?></h3>
       <?php if ( isset($cell) ) : ?>
       <h4><span class="text-muted">Cell:</span> <?php echo $cell; ?></h4>
       <?php endif; ?>
-      <h3><?php echo $position; ?></h3>
+
       <h4><?php echo $staff_category; ?></h4>
       <div class="row">
         <div class="col-md-5 col-lg-4">
