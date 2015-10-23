@@ -39,8 +39,8 @@
     $email = '';
   }
   
-  if(get_post_meta(get_the_ID(), 'desk_phone', true) != '') {
-    $phone = get_post_meta(get_the_ID(), 'desk_phone', true);
+  if(get_post_meta(get_the_ID(), 'phone_number', true) != '') {
+    $phone = get_post_meta(get_the_ID(), 'phone_number', true);
   } else {
     $phone = '';
   }
