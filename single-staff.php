@@ -68,7 +68,7 @@
           </p>
           <h5><?php echo $email; ?></h5>
           <?php if ( isset($cell) ) : ?>
-          <h5><small class="uppercase">Cell:</small> <?php echo $cell; ?></h5>
+          <h5><span class="text-muted">Cell:</span> <?php echo $cell; ?></h5>
           <?php endif; ?>
         </div>
         <div class="col-md-7 col-lg-6">
