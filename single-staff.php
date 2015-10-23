@@ -39,11 +39,18 @@
     $email = '';
   }
   
-  if(get_post_meta(get_the_ID(), 'phone_number', true) != '') {
-    $phone = get_post_meta(get_the_ID(), 'phone_number', true);
+  if(get_post_meta(get_the_ID(), 'desk_phone', true) != '') {
+    $phone = get_post_meta(get_the_ID(), 'desk_phone', true);
   } else {
     $phone = '';
   }
+
+  if(get_post_meta(get_the_ID(), 'cell_phone', true) != '') {
+    $cell = get_post_meta(get_the_ID(), 'cell_phone', true);
+  } else {
+    $cell = '';
+  }
+
 
   ?>
 
