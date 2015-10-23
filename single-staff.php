@@ -56,14 +56,16 @@
 
   <div class="panel spl-hero-intranet staff-directory" style="box-shadow:none;">
     <div class="panel-heading" style="padding-left:0; padding-right:0;">
-      <h2 class="text-primary" style="margin-top:0;"><?php echo $name; ?> <small class="text-success">x<b><?php echo $phone; ?></b></small></h2>
+      <h2 class="text-primary" style="margin-top:0;"><?php echo $name; ?> 
+        <small class="text-success">x<b><?php echo $phone; ?></b>
+        <?php if ( isset($cell) ) : ?>
+        <span>Cell: <?php echo $cell; ?></span>
+        <?php endif; ?>
+        </small>
+      </h2>
     </div>
     <div class="panel-body">
-      <h3><?php echo $position; ?>
-      <?php if ( isset($cell) ) : ?>
-      <small class="text-warning">Cell: <?php echo $cell; ?></small>
-      <?php endif; ?>
-      </h3>
+      <h3><?php echo $position; ?></h3>
       <h4><?php echo $staff_category; ?></h4>
       <div class="row">
         <div class="col-md-5 col-lg-4">
