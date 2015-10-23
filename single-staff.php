@@ -67,6 +67,9 @@
           <?php echo $photo; ?>
           </p>
           <h5><?php echo $email; ?></h5>
+          <?php if ( isset($cell) ) : ?>
+          <h5><?php echo $cell; ?></h5>
+          <?php endif; ?>
         </div>
         <div class="col-md-7 col-lg-6">
           <?php echo $bio; ?>
