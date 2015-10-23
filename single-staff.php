@@ -57,14 +57,13 @@
   <div class="panel spl-hero-intranet staff-directory" style="box-shadow:none;">
     <div class="panel-heading" style="padding-left:0; padding-right:0;">
       <h2 class="text-primary" style="margin-top:0;"><?php echo $name; ?> 
-        <small class="text-success">x<b><?php echo $phone; ?></b>
-        <?php if ( isset($cell) ) : ?>
-        <span>Cell: <?php echo $cell; ?></span>
-        <?php endif; ?>
-        </small>
+        <small class="text-success">x<b><?php echo $phone; ?></b></small>
       </h2>
     </div>
     <div class="panel-body">
+      <?php if ( isset($cell) ) : ?>
+      <h4>Cell: <?php echo $cell; ?></h4>
+      <?php endif; ?>
       <h3><?php echo $position; ?></h3>
       <h4><?php echo $staff_category; ?></h4>
       <div class="row">
