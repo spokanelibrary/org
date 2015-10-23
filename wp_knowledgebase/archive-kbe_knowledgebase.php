@@ -43,7 +43,12 @@ function spl_kbe_get_kb_category($id=0) {
       $html .= '</h4>';
       $html .= '</div>';  
       $html .= '<div class="panel-body">'; 
-      $html .= '<pre>'.print_r($term, true).'</pre>';
+      if ( !empty($term->description) ) {
+        $html .= '<p>';
+        $html .= $term->description;
+        $html .= '</p>';
+      }
+      //$html .= '<pre>'.print_r($term, true).'</pre>';
       //$html .= '<h4 class="uppercase">';
       //$html .= '<a class="" href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       //$html .= 'View all articles <small>&rarr;</small>';
