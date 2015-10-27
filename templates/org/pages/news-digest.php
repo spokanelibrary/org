@@ -42,24 +42,30 @@
 				    	This world-class resource is now available in the library, and made possible through a cooperation between PAML (Pathology Associates Medical Laboratories) and the Spokane Public Library Foundation.
 				    </p>
 
-				    <p><a href="#">Head over to out website</a> to learn more about Statista and how PAML stepped up to make this resource available to Spokane, through the library. 
+				    <p><a href="#">Head over to out website</a> to learn more about Statista, and how PAML stepped up to make this resource available to everyone through the library. 
 
 						<hr />
 
 						<h3>Friends of the Library Fall Booksale is coming up</h3>
-						<h5>Why you should attend, the by the numbers:</h5>
+						<h5>Why should you attend?</h5>
 						<ul>
 							<li>You might take home <em>Barns of California</em>, <em>Dinosaurs Like Underpants</em>, and <em>Angle of Repose</em> all for less than $1.</li>
 							<li>33% of high school graduates will never read another book after high school - don’t let this happen to you!</li>
-							<li>There will be more than 10,000 books available. Be early and choose wisely; you can’t carry them all home.</li>
+							<li>More than 10,000 books available, sorted by subject. Be early and choose wisely; you can’t carry them all home.</li>
 							<li>100% of the proceeds are reinvested in the library to <a href="#">support important initiatives</a>.</li>
 						</ul>
-						The Friends of the Library Fall Booksale will be held Downtown, October 21 - 24th.
-
-						<a class="btn btn-warning" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
+						<p>
+							The Friends of the Library Fall Booksale will be held Downtown, October 21 - 24th.
+						</p>
+						<p>
+							<a class="btn btn-warning" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
+						</p>
 
 						<hr>
 
+						<h3>Spokane is Reading</h3>
+						<h4>Meet Author Emily St. John Mandel</h4>
+						
 			    </div>
 
 			  </div>
