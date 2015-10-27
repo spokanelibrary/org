@@ -24,7 +24,7 @@
 						    </p>
 					    </div>
 					    <div class="col-md-6">
-					    	<h4>Infographics we could have shared</h4>:
+					    	<h4>Infographics we could have shared</h4>
 					    	<ul>
 					    		<li><a href="http://www.statista.com/chart/3909/the-cities-with-the-highest-rents-for-prime-office-space/">The Cities With the Hightest Rents for Prime Office Space</a></li>
 					    		<li><a href="http://www.statista.com/chart/3866/where-syria-and-iraqs-foreign-fighters-come-from/">Where Syria & Iraq's Foreign Fighters Come From</a></li>
