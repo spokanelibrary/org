@@ -79,7 +79,7 @@
 						<p>
 							The Spokane is Reading program will host 2 author events on <b>October 29th</b>.
 						</p>
-						<div class="panel panel-hero-intranet spl-hero-brand-orange-a">
+						<div class="alert alert-warning">
 						<p>
 							<a class="btn btn-primary" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
 						</p>
