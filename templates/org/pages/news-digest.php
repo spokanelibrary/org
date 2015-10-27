@@ -87,7 +87,7 @@
 						<hr>
 
 						<h3>Classes and community events</h3>
-						<div class="panel panel-default">
+						<div class="panel panel-default" style="border-color:#ed9c28;">
 						<div class="panel-body" style="background:#fcf8e3;">
 						<h4>A few highlights from our calendar</h4>
 						
