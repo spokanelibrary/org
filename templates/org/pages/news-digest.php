@@ -86,7 +86,10 @@
 						<div class="clearfix"></div>
 						<hr>
 
-						<h3>Just a few of the many classes and community events coming up</h3>
+						<h3>Classes and community events coming up</h3>
+
+						<h4>Join us at your local branch</h4>
+						<a href="">Downtown</a> | <a href="">East Side</a> | <a href="">Hillyard</a> | <a href="">Indian Trail</a> | <a href="">Shadle</a> | <a href="">South Hill</a>
 
 			    </div>
 
