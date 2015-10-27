@@ -19,20 +19,23 @@
 
 			    	<div class="row">
 			    		<div class="col-md-6">
+					    	<p>
 					    	<img class="img-responsive" src="https://d28wbuch0jlv7v.cloudfront.net/images/infografik/normal/chartoftheday_3512_internet_adoption_in_2015_n.jpg" alt="Infographic: The Digital Divide Is Still a Thing | Statista" />
+						    </p>
 					    </div>
 					    <div class="col-md-6">
-					    	Infographics we decided not to share:
+					    	<h4>Infographics we could have shared</h4>:
 					    	<ul>
-					    		<li>The Cities With the Hightest Rents for Prime Office Space (nope, Spokane didn't make the list)</li>
-					    		<li>Where Syria & Iraq's Foreign Fighters Come From</li>
-					    		<li>The "Slow iPhone" Phenomenon</li>
+					    		<li><a href="http://www.statista.com/chart/3909/the-cities-with-the-highest-rents-for-prime-office-space/">The Cities With the Hightest Rents for Prime Office Space</a></li>
+					    		<li><a href="http://www.statista.com/chart/3866/where-syria-and-iraqs-foreign-fighters-come-from/">Where Syria & Iraq's Foreign Fighters Come From</a></li>
+					    		<li><a href="http://www.statista.com/chart/2514/iphone-releases/">The "Slow iPhone" Phenomenon</a></li>
+					    		<li><a href="http://www.statista.com/chart/1967/startups-valued-at-one-billion-or-more/">The World's Top 10 Startups</a></li>
 					    	</ul>
 					    </div>
 				    </div>
 
 				    <p>
-				    	Statista is a powerful market research tool made possible through a cooperation between PAML (Pathology Associates Medical Laboratories) and the Spokane Public Library Foundation.
+				    	Statista is a powerful market research tool used by organizations like Forbes and VentureBeat. This world class resource is now available in the library, and made possible through a cooperation between PAML (Pathology Associates Medical Laboratories) and the Spokane Public Library Foundation.
 				    </p>
 
 				    <h4>Do you want to access industry reports and dossiers, including infographics like this one?</h4>
