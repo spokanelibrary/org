@@ -111,8 +111,8 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0, $reveal=false) {
   if ( is_array($terms) && !empty($terms[0]) ) {
     //$html .= '<h6 class="uppercase">Subcategories</h6>'; 
     if ( $reveal ) {
-      $html .= '<a class="btn btn-default btn-block" href="#spl-kbe-subcat-'.$term->term_id.'" role="button" data-toggle="collapse"><i class="glyphicon glyphicon-list"></i> Show subcategories</a>'; 
-      $html .= '<div class="collapse" id="spl-kbe-subcat-'.$term->term_id.'">'; 
+      $html .= '<a class="btn btn-default btn-block" href="#spl-kbe-subcat-'.$id.'" role="button" data-toggle="collapse"><i class="glyphicon glyphicon-list"></i> Show subcategories</a>'; 
+      $html .= '<div class="collapse" id="spl-kbe-subcat-'.$id.'">'; 
     }
     $html .= '<ul class="list-unstyled" style="margin-left:8px; margin-top:8px;">';
     foreach ( $terms as $term ) {
