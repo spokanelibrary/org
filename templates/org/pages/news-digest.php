@@ -88,6 +88,20 @@
 
 						<h3>Classes and community events coming up</h3>
 
+						<ul class="nav nav-pills">
+							<li><a href="#">Discover Dinosaurs and other Prehistoric Fossils!</a></li>
+							<li><a href="#">Paranormal Investigations</a></li>
+							<li><a href="#">Adult Coloring</a></li>
+							<li><a href="#">Horrorgami!</a></li>
+							<li><a href="#">Storytelling Workshop: Ghostly Tales</a></li>
+							<li><a href="#">Jewish Cultural Series for Adults – History</a></li>
+							<li><a href="#">Beetlejuice</a></li>
+						</ul>
+						<p>
+							<a class="btn btn-default" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
+						</p>
+						
+
 						<h4>Join us at your local branch</h4>
 						<a href="#">Downtown</a> | <a href="#">East Side</a> | <a href="#">Hillyard</a> | <a href="#">Indian Trail</a> | <a href="#">Shadle</a> | <a href="#">South Hill</a>
 
