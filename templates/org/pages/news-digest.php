@@ -66,7 +66,8 @@
 						<h3>Spokane is Reading</h3>
 						<h4>Meet Author Emily St. John Mandel</h4>
 						<p>
-							<img class="alignleft" src="http://www.spokanelibrary.org/wordpress/wp-content/uploads/Spokane_is_Reading150X250ad.jpg">
+							<img class="alignleft img-rounded" src="http://www.spokanelibrary.org/wordpress/wp-content/uploads/Spokane_is_Reading150X250ad.jpg">
+							<img class="alignright img-rounded" src="http://www.spokanelibrary.org/wordpress/wp-content/uploads/http://www.spokanelibrary.org/wordpress/wp-content/uploads/Mandel_300px-128x160.jpg">
 							Spokane’s annual community reading event is underway. 
 							This year we’re reading <a href="">Station Eleven</a>s. 
 							Please <a href="#">join us for a reading and discussion</a> with Emily St. Jonh Mandel.
