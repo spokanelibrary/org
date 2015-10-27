@@ -88,7 +88,7 @@
 
 						<h3>Classes and community events</h3>
 						<div class="panel spl-hero-panel spl-hero-calendar">
-						<h5>A few highlights from our calendar</h5>
+						<h4 class="hero-heading">A few highlights from our calendar</h4>
 						<div class="panel-body">
 						<ul class="nav nav-pills">
 							<li><a href="#">Discover Dinosaurs and other Prehistoric Fossils!</a></li>
