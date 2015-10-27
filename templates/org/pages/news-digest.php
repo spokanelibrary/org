@@ -86,7 +86,7 @@
 						<div class="clearfix"></div>
 						<hr>
 
-						<h3>Classes and community events coming up soon</h3>
+						<h3>Classes and community events</h3>
 						<h5>A few highlights from our calendar</h5>
 						<ul class="nav nav-pills">
 							<li><a href="#">Discover Dinosaurs and other Prehistoric Fossils!</a></li>
