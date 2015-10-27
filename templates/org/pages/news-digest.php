@@ -17,7 +17,14 @@
 			    <div class="panel-body">
 			    	<h1 style="margin-top:0;">Introducing Statista: The Statistics Portal</h1>
 
-			    	<img class="aligncenter" style="max-width: 600px;" src="https://d28wbuch0jlv7v.cloudfront.net/images/infografik/normal/chartoftheday_3512_internet_adoption_in_2015_n.jpg" alt="Infographic: The Digital Divide Is Still a Thing | Statista" />
+			    	<div class="row">
+			    		<div class="col-md-4">
+					    	<img class="aligncenter" style="max-width: 600px;" src="https://d28wbuch0jlv7v.cloudfront.net/images/infografik/normal/chartoftheday_3512_internet_adoption_in_2015_n.jpg" alt="Infographic: The Digital Divide Is Still a Thing | Statista" />
+					    </div>
+					    <div class="col-md-8">
+					    	Lorem ipsum.
+					    </div>
+				    </div>
 
 						<hr />
 
