@@ -83,6 +83,7 @@
 							<a class="btn btn-default" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
 						</p>
 
+						<div class="clearfix"></div>
 						<hr>
 
 						<h3>Just a few of the many classes and community events coming up</h3>
