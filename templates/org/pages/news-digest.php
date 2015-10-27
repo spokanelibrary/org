@@ -87,8 +87,7 @@
 						<hr>
 
 						<h3>Classes and community events</h3>
-						<div class="panel panel-default" style="border-color:#ed9c28;">
-						<div class="panel-body" style="background:#fcf8e3;">
+						<div class="alert alert-warning">
 						<h4>A few highlights from our calendar</h4>
 						
 						<ul class="nav nav-pills">
@@ -108,7 +107,6 @@
 
 						<h4>Join us at your local branch</h4>
 						<a href="#">Downtown</a> | <a href="#">East Side</a> | <a href="#">Hillyard</a> | <a href="#">Indian Trail</a> | <a href="#">Shadle</a> | <a href="#">South Hill</a>
-						</div>
 						</div>
 
 
