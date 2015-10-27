@@ -88,7 +88,7 @@
 
 						<h3>Classes and community events</h3>
 						<div class="alert alert-warning">
-						<h5>A few highlights from our calendar</h5>
+						<h4>A few highlights from our calendar</h4>
 						
 						<ul class="nav nav-pills">
 							<li><a href="#">Discover Dinosaurs and other Prehistoric Fossils!</a></li>
@@ -105,7 +105,7 @@
 						</p>
 						<p>&nbsp;</p>
 
-						<h4>Join us at your local branch</h4>
+						<h5>Join us at your local branch</h5>
 						<a href="#">Downtown</a> | <a href="#">East Side</a> | <a href="#">Hillyard</a> | <a href="#">Indian Trail</a> | <a href="#">Shadle</a> | <a href="#">South Hill</a>
 						</div>
 
