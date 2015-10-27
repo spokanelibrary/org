@@ -58,7 +58,7 @@
 							The Friends of the Library Fall Booksale will be held Downtown, <b>October 21&mdash;24th</b>.
 						</p>
 						<p>
-							<a class="btn btn-default" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
+							<a class="btn btn-primary" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
 						</p>
 
 						<hr>
@@ -80,7 +80,7 @@
 							The Spokane is Reading program will host 2 author events on <b>October 29th</b>.
 						</p>
 						<p>
-							<a class="btn btn-default" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
+							<a class="btn btn-primary" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
 						</p>
 
 
