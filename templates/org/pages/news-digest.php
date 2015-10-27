@@ -22,9 +22,22 @@
 					    	<img class="img-responsive" src="https://d28wbuch0jlv7v.cloudfront.net/images/infografik/normal/chartoftheday_3512_internet_adoption_in_2015_n.jpg" alt="Infographic: The Digital Divide Is Still a Thing | Statista" />
 					    </div>
 					    <div class="col-md-6">
-					    	Lorem ipsum.
+					    	Infographics we decided not to share:
+					    	<ul>
+					    		<li>The Cities With the Hightest Rents for Prime Office Space (nope, Spokane didn't make the list)</li>
+					    		<li>Where Syria & Iraq's Foreign Fighters Come From</li>
+					    		<li>The "Slow iPhone" Phenomenon</li>
+					    	</ul>
 					    </div>
 				    </div>
+
+				    <p>
+				    	Statista is a powerful market research tool made possible through a cooperation between PAML (Pathology Associates Medical Laboratories) and the Spokane Public Library Foundation.
+				    </p>
+
+				    <h4>Do you want to access industry reports and dossiers, including infographics like this one?</h4>
+
+				    <p><a href="#">Head over to out website</a> to learn more about Statista and how PAML stepped up to make this resource available to Spokane, through the library. 
 
 						<hr />
 
