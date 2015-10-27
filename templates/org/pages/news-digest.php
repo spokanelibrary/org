@@ -86,8 +86,8 @@
 						<div class="clearfix"></div>
 						<hr>
 
-						<h3>More classes and community events coming up soon</h3>
-
+						<h3>Classes and community events coming up soon</h3>
+						<h5>A few highlights from our calendar</h5>
 						<ul class="nav nav-pills">
 							<li><a href="#">Discover Dinosaurs and other Prehistoric Fossils!</a></li>
 							<li><a href="#">Paranormal Investigations</a></li>
@@ -97,7 +97,7 @@
 							<li><a href="#">Jewish Cultural Series for Adults – History</a></li>
 							<li><a href="#">Beetlejuice</a></li>
 						</ul>
-						<h5>Plus a whole lot more</h5>
+						
 						<p>
 							<a class="btn btn-default" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
 						</p>
