@@ -18,10 +18,10 @@
 			    	<h1 style="margin-top:0;">Introducing Statista: The Statistics Portal</h1>
 
 			    	<div class="row">
-			    		<div class="col-md-4">
+			    		<div class="col-md-6">
 					    	<img class="img-responsive" src="https://d28wbuch0jlv7v.cloudfront.net/images/infografik/normal/chartoftheday_3512_internet_adoption_in_2015_n.jpg" alt="Infographic: The Digital Divide Is Still a Thing | Statista" />
 					    </div>
-					    <div class="col-md-8">
+					    <div class="col-md-6">
 					    	Lorem ipsum.
 					    </div>
 				    </div>
