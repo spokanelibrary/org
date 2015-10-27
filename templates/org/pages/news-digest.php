@@ -89,6 +89,7 @@
 						<h3>Classes and community events</h3>
 						<div class="panel spl-hero-panel spl-hero-calendar">
 						<h5>A few highlights from our calendar</h5>
+						<div class="panel-body">
 						<ul class="nav nav-pills">
 							<li><a href="#">Discover Dinosaurs and other Prehistoric Fossils!</a></li>
 							<li><a href="#">Paranormal Investigations</a></li>
@@ -106,6 +107,7 @@
 
 						<h4>Join us at your local branch</h4>
 						<a href="#">Downtown</a> | <a href="#">East Side</a> | <a href="#">Hillyard</a> | <a href="#">Indian Trail</a> | <a href="#">Shadle</a> | <a href="#">South Hill</a>
+						</div>
 						</div>
 
 
