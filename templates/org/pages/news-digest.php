@@ -99,17 +99,15 @@
 							<li><a href="#">Jewish Cultural Series for Adults – History</a></li>
 							<li><a href="#">Beetlejuice</a></li>
 						</ul>
-						
+						<p>&nbsp;</p>
+
+						<h5>Join us at your local branch</h5>
+						<a href="#">Downtown</a> | <a href="#">East Side</a> | <a href="#">Hillyard</a> | <a href="#">Indian Trail</a> | <a href="#">Shadle</a> | <a href="#">South Hill</a>
+
 						<p style="border: 1px solid #f5961e; display:inline-block; padding: 8px;">
 							<a class="" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
 						</p>
-						<p>&nbsp;</p>
-
-						<div class="alert alert-info">
-						<h5>Join us at your local branch</h5>
-						<a href="#">Downtown</a> | <a href="#">East Side</a> | <a href="#">Hillyard</a> | <a href="#">Indian Trail</a> | <a href="#">Shadle</a> | <a href="#">South Hill</a>
-						</div>
-
+						
 
 			    </div>
 
