@@ -92,6 +92,10 @@
 						<h3>Classes and community events</h3>
 						
 						<h4>A few highlights from our calendar</h4>
+
+						<p style="border: 1px solid #f5961e; display:inline-block; border-radius:4px; background:rgb(170,215,240); padding: 8px;">
+							<a class="" href="#"><b>Get dates, times, and more information</b></a>  <small class="text-muted">&rarr;<small>
+						</p>
 						
 						<ul class="nav nav-pills">
 							<li><a href="#">Discover Dinosaurs and other Prehistoric Fossils!</a></li>
@@ -117,11 +121,7 @@
 							| 
 							<a href="#">South Hill</a>
 						</p>
-						<p style="border: 1px solid #f5961e; display:inline-block; border-radius:4px; background:rgb(170,215,240); padding: 8px;">
-							<a class="" href="#"><b>Get dates, times, and more information</b></a>  <small class="text-muted">&rarr;<small>
-						</p>
 						
-
 			    </div>
 
 			  </div>
