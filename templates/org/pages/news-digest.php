@@ -101,8 +101,8 @@
 							<li><a href="#">Beetlejuice</a></li>
 						</ul>
 						
-						<p>
-							<a class="btn btn-default" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
+						<p style="border-color: #f5961e;">
+							<a class="" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
 						</p>
 						<p>&nbsp;</p>
 
