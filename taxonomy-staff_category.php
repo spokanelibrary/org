@@ -3,6 +3,7 @@
 
 <div class="row">
 
+<?php query_posts($query_string . '&orderby=title&order=ASC'); ?>
 <?php while (have_posts()) : the_post(); ?>
 <div class="col-md-4">
 <article <?php post_class(); ?>>
