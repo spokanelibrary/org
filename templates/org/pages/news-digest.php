@@ -94,7 +94,7 @@
 						<h4>A few highlights from our calendar</h4>
 
 						<p style="border: 1px solid #f5961e; display:inline-block; border-radius:4px; background:rgb(170,215,240); padding: 8px;">
-							<a class="" href="#"><b>Learn more:</b> Get dates, times &amp; information</b></a>  <small class="text-muted">&rarr;</small>
+							<a class="" href="#"><b>Learn more:</b> dates, times, information</b></a>  <small class="text-muted">&rarr;</small>
 						</p>
 						
 						<ul class="nav nav-pills">
