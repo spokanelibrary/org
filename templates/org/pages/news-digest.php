@@ -48,11 +48,11 @@
 
 						<h3>Friends of the Library Fall Booksale is coming up</h3>
 						<p>
-							Twice a year, the Friends of the Library put on a huge book sale, featuring donated and out-of-circulation material.
+							Twice a year, the Friends of the Library put on a huge book sale featuring donated and out-of-circulation material.
 						</p>
 						<h5>Why should you attend?</h5>
 						<ul>
-							<li>You might take home <em>Barns of California</em>, <em>Dinosaurs Like Underpants</em>, and <em>Angle of Repose</em> all for less than $1.</li>
+							<li>You might take home <em>Barns of California</em>, <em>Dinosaurs Like Underpants</em>, and <em>Angle of Repose</em> all for $1.</li>
 							<li>33% of high school graduates will never read another book after high school - don’t let this happen to you!</li>
 							<li>More than 10,000 books available, sorted by subject. Be early and choose wisely; you can’t carry them all home.</li>
 							<li>100% of the proceeds are reinvested in the library to <a href="#">support important initiatives</a>.</li>
@@ -117,7 +117,7 @@
 							| 
 							<a href="#">South Hill</a>
 						</p>
-						<p style="border: 1px solid #f5961e; display:inline-block; padding: 8px;">
+						<p style="border: 1px solid #f5961e; display:inline-block; background:background:rgb(170,215,240); padding: 8px;">
 							<a class="" href="#"><b>Get dates, times, and more information</b></a>  <small class="text-muted">&rarr;<small>
 						</p>
 						
