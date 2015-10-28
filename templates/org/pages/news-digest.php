@@ -100,8 +100,8 @@
 							<li><a href="#">Beetlejuice</a></li>
 						</ul>
 
-						<h5 class="text-center">Join us for an event at your local branch</h5>
-						<p class="text-center">
+						<h5>Join us for an event at your local branch</h5>
+						<p>
 							<a href="#">Downtown</a> 
 							| 
 							<a href="#">East Side</a> 
