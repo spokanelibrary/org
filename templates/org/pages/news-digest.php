@@ -81,7 +81,7 @@
 							Author discussions are always entertaining and insightful &ndash; even if you haven't <i>yet</i> read the book!
 						</p>
 						<p>
-							Also, take a look at <a href="#">previous years’ titles</a> for a great list of titles you’ve read, Spokane.
+							Also, take a look at <a href="#">previous years</a> for a great list of titles you’ve been reading, Spokane.
 						</p>
 						<p>
 							The Spokane is Reading program will host <b>two</b> author events on <b>October 29th</b>.
