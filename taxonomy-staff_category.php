@@ -6,7 +6,7 @@
 <?php query_posts($query_string . '&orderby=title&order=ASC'); ?>
 <?php $i = 1; ?>
 <?php while (have_posts()) : the_post(); ?>
-<div class="col-md-4">
+<div class="col-sm-4">
 <article <?php post_class(); ?>>
   <?php
   $permalink = get_the_permalink();
