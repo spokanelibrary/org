@@ -60,8 +60,8 @@
 						<p>
 							The Friends of the Library Fall Booksale will be held Downtown, <b>October 21&mdash;24th</b>.
 						</p>
-						<p>
-							<a class="btn btn-default" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
+						<p class="news-digest-info-link">
+							<a href="#"><b>Learn more:</b> dates, times, information</b></a>  <small class="text-muted">&rarr;</small>
 						</p>
 
 						<hr>
@@ -82,8 +82,8 @@
 						<p>
 							The Spokane is Reading program will host <b>two</b> author events on <b>October 29th</b>.
 						</p>
-						<p>
-							<a class="btn btn-default" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
+						<p class="news-digest-info-link">
+							<a href="#"><b>Learn more:</b> dates, times, information</b></a>  <small class="text-muted">&rarr;</small>
 						</p>
 
 						<div class="clearfix"></div>
@@ -93,8 +93,8 @@
 						
 						<h4>A few highlights from our calendar</h4>
 
-						<p style="font-size: 14px; border: 1px solid #f5961e; display:inline-block; border-radius:4px; background:rgb(170,215,240); padding: 8px;">
-							<a class="" href="#"><b>Learn more:</b> dates, times, information</b></a>  <small class="text-muted">&rarr;</small>
+						<p class="news-digest-info-link">
+							<a href="#"><b>Learn more:</b> dates, times, information</b></a>  <small class="text-muted">&rarr;</small>
 						</p>
 						
 						<ul class="nav nav-pills">
