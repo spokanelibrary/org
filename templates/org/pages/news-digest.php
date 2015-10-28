@@ -111,8 +111,8 @@
 							<li><a href="#">Beetlejuice</a></li>
 						</ul>
 
-						<h4>There's something happening every day</h4>
-						<h5>Join us at your local branch</h5>
+						<h4>Join us at your local branch</h4>
+						<h5>There's something happening every day</h5>
 						<p>
 							<a href="#">Downtown</a> 
 							| 
