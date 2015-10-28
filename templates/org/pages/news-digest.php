@@ -34,7 +34,7 @@
 					    </div>
 				    </div>
 
-				    <h4>Do you want to access industry reports and analysis, including infographics like this one?</h4>
+				    <h4>Do you want access to industry reports and analysis, including infographics like this one?</h4>
 
 				    <p>
 				    	<img class="alignright" src="http://www.spokanelibrary.org/wordpress/wp-content/uploads/paml-160x64.jpg">
@@ -42,11 +42,14 @@
 				    	This world-class resource is now available in the library, and made possible through a cooperation between PAML (Pathology Associates Medical Laboratories) and the Spokane Public Library Foundation.
 				    </p>
 
-				    <p><a href="#">Head over to out website</a> to learn more about Statista, and how PAML stepped up to make this resource available to everyone through the library. 
+				    <p><a href="#">Head over to our website</a> to learn more about Statista, and how PAML stepped up to make this resource available to everyone in Spokane. 
 
 						<hr />
 
 						<h3>Friends of the Library Fall Booksale is coming up</h3>
+						<p>
+							Twice a year, the Friends of the Library put on a huge book sale, featuring donated and out-of-circulation material.
+						</p>
 						<h5>Why should you attend?</h5>
 						<ul>
 							<li>You might take home <em>Barns of California</em>, <em>Dinosaurs Like Underpants</em>, and <em>Angle of Repose</em> all for less than $1.</li>
