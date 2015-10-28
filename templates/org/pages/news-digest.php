@@ -45,7 +45,7 @@
 				    <p><a href="#">Head over to our website</a> to learn more about Statista, and how PAML stepped up to make this resource available to everyone in Spokane. 
 
 				    <p class="news-digest-info-link">
-							<a href="#"><b>Learn more</b> about Statista</a>  <small class="hidden-xs">&rarr;</small>
+							<a href="#"><b>Learn more:</b> about Statista</a>  <small class="hidden-xs">&rarr;</small>
 						</p>
 
 						<hr />
