@@ -38,7 +38,7 @@
 
 				    <p>
 				    	<img class="alignright" src="http://www.spokanelibrary.org/wordpress/wp-content/uploads/paml-160x64.jpg">
-				    	Statista is a market research tool used by organizations like Forbes and VentureBeat. 
+				    	Statista is a market research tool used by organizations such as Forbes and VentureBeat. 
 				    	This world-class resource is now available in the library, and made possible through a cooperation between PAML (Pathology Associates Medical Laboratories) and the Spokane Public Library Foundation.
 				    </p>
 
