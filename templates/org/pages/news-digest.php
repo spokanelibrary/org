@@ -99,7 +99,6 @@
 							<li><a href="#">Jewish Cultural Series for Adults – History</a></li>
 							<li><a href="#">Beetlejuice</a></li>
 						</ul>
-						<p>&nbsp;</p>
 
 						<h5>Join us at your local branch</h5>
 						<p>
