@@ -117,14 +117,14 @@ function spl_kbe_get_kb_cat_by_parent_id($id=0, $reveal=false) {
     $html .= '<ul class="list-unstyled" style="margin-left:8px; margin-top:8px;">';
     foreach ( $terms as $term ) {
       $html .= '<li>';
-      $html .= '<h5 class="uppercase">';
+      $html .= '<b class="uppercase">';
       $html .= '<span class="label label-warning pull-right">';
       $html .= $term->count;
       $html .= '</span>';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
       $html .= '</a>';
-      $html .= '</h5>';
+      $html .= '</b>';
       $html .= '<div class="clearfix"></div>';
       //$html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
       $html .= spl_kbe_get_kb_cat_by_parent_id($term->term_id);
