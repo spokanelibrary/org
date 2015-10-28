@@ -117,7 +117,7 @@
 							| 
 							<a href="#">South Hill</a>
 						</p>
-						<p style="border: 1px solid #f5961e; display:inline-block; background:rgb(170,215,240); padding: 8px;">
+						<p style="border: 1px solid #f5961e; display:inline-block; border-radius:4px; background:rgb(170,215,240); padding: 8px;">
 							<a class="" href="#"><b>Get dates, times, and more information</b></a>  <small class="text-muted">&rarr;<small>
 						</p>
 						
