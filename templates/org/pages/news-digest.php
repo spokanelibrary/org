@@ -101,7 +101,7 @@
 							<li><a href="#">Beetlejuice</a></li>
 						</ul>
 						
-						<p style="border: 1px solid #f5961e;">
+						<p style="border: 1px solid #f5961e; display:inline-block; padding: 8px;">
 							<a class="" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
 						</p>
 						<p>&nbsp;</p>
