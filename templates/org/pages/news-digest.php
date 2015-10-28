@@ -80,7 +80,7 @@
 							Also, take a look at <a href="#">previous years’ titles</a> for a great list of titles you’ve read, Spokane.
 						</p>
 						<p>
-							The Spokane is Reading program will host 2 author events on <b>October 29th</b>.
+							The Spokane is Reading program will host <b>two</b> author events on <b>October 29th</b>.
 						</p>
 						<p>
 							<a class="btn btn-default" href="#"><b>Learn more:</b> Get dates, times, and more information &rarr;</a>
@@ -94,7 +94,7 @@
 						<h4>A few highlights from our calendar</h4>
 
 						<p style="border: 1px solid #f5961e; display:inline-block; border-radius:4px; background:rgb(170,215,240); padding: 8px;">
-							<a class="" href="#"><b>Get dates, times, and more information</b></a>  <small class="text-muted">&rarr;<small>
+							<a class="" href="#"><b>Learn more:</b> Get dates, times, and information</b></a>  <small class="text-muted">&rarr;<small>
 						</p>
 						
 						<ul class="nav nav-pills">
