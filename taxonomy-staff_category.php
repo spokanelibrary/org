@@ -4,6 +4,7 @@
 <div class="row">
 
 <?php query_posts($query_string . '&orderby=title&order=ASC'); ?>
+<?php $i = 1; ?>
 <?php while (have_posts()) : the_post(); ?>
 <div class="col-md-4">
 <article <?php post_class(); ?>>
@@ -77,6 +78,11 @@
 
 </article>
 </div><!-- ./col -->
+
+<?php if ( 0 == $i % 3 ) : ?>
+<div class="clearfix"></div>
+<?php endif; ?>
+<?php $i++; ?>
 <?php endwhile; ?>
 
 </div><!-- ./row -->
