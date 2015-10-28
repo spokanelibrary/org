@@ -44,6 +44,10 @@
 
 				    <p><a href="#">Head over to our website</a> to learn more about Statista, and how PAML stepped up to make this resource available to everyone in Spokane. 
 
+				    <p class="news-digest-info-link">
+							<a href="#"><b>Learn more</b> about Statista</a>  <small class="text-muted">&rarr;</small>
+						</p>
+
 						<hr />
 
 						<h3>Friends of the Library Fall Booksale is coming up</h3>
@@ -61,7 +65,7 @@
 							The Friends of the Library Fall Booksale will be held Downtown, <b>October 21&mdash;24th</b>.
 						</p>
 						<p class="news-digest-info-link">
-							<a href="#"><b>Learn more:</b> dates, times, information</b></a>  <small class="text-muted">&rarr;</small>
+							<a href="#"><b>Learn more:</b> dates, times, information</a>  <small class="text-muted">&rarr;</small>
 						</p>
 
 						<hr>
@@ -83,7 +87,7 @@
 							The Spokane is Reading program will host <b>two</b> author events on <b>October 29th</b>.
 						</p>
 						<p class="news-digest-info-link">
-							<a href="#"><b>Learn more:</b> dates, times, information</b></a>  <small class="text-muted">&rarr;</small>
+							<a href="#"><b>Learn more:</b> dates, times, information</a>  <small class="text-muted">&rarr;</small>
 						</p>
 
 						<div class="clearfix"></div>
@@ -94,7 +98,7 @@
 						<h4>A few highlights from our calendar</h4>
 
 						<p class="news-digest-info-link">
-							<a href="#"><b>Learn more:</b> dates, times, information</b></a>  <small class="text-muted">&rarr;</small>
+							<a href="#"><b>Learn more:</b> dates, times, information</a>  <small class="text-muted">&rarr;</small>
 						</p>
 						
 						<ul class="nav nav-pills">
