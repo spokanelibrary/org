@@ -48,9 +48,11 @@ function spl_kbe_get_kb_cat_by_term_id($id) {
       $html .= '<span class="label label-warning pull-right">';
       $html .= $term->count;
       $html .= '</span>';
+      $html .= '<small>';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
       $html .= $term->name;
       $html .= '</a>';
+      $html .= '</small>';
       $html .= '</b>';
       $html .= '<div class="clearfix"></div>';
       //$html .= spl_kbe_get_kb_list_by_term_id($term->term_id);
