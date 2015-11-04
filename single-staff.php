@@ -54,8 +54,8 @@
 
   ?>
 
-  <div class="panel spl-hero-intranet staff-directory" style="box-shadow:none;">
-    <div class="panel-heading" style="padding-left:0; padding-right:0;">
+  <div class="panel spl-hero-intranet spl-hero spl-hero-brand-orange-a staff-directory" style="min-height:340px; background-color:#fff;">
+    <div class="panel-heading">
       <h2 class="text-primary" style="margin-top:0;"><?php echo $name; ?> 
         <small>x<b class="text-success"><?php echo $phone; ?></b>
         <?php if ( !empty($cell) ) : ?>
