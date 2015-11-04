@@ -55,15 +55,15 @@
 
   ?>
 
-  <div class="panel spl-hero-intranet spl-hero spl-hero-brand-blue-c staff-directory">
+  <div class="panel spl-hero-intranet spl-hero spl-hero-brand-blue-c staff-directory" style="min-height:300px;">
     <div class="panel-heading"  style="background-color:#fff;">
-      <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> 
+      <h4><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> 
         <small>x<b class="text-success"><?php echo $phone; ?></b>
         <?php if ( !empty($cell) ) : ?>
         &nbsp;&nbsp;<span class="">cell <b class="text-success"><?php echo $cell; ?></b></span>
         <?php endif; ?>
         </small>
-      </h3>
+      </h4>
     </div>
     <div class="panel-body" style="padding-top:0;">
     <h4><?php echo $position; ?></h4>
