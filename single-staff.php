@@ -76,7 +76,7 @@
         </div>
         <div class="col-md-7 col-lg-6">
           <?php if ( !empty($cell) ) : ?>
-          <h4><small>cell <b class="text-success"><?php echo $cell; ?></b></small></h4>
+          <h3><small>cell <b class="text-success"><?php echo $cell; ?></b></small></h3>
           <?php endif; ?>
           <?php echo $bio; ?>
         </div>
