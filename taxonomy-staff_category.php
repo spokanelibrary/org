@@ -55,7 +55,7 @@
 
   ?>
 
-  <div class="panel spl-hero-intranet spl-hero spl-hero-brand-blue-c staff-directory" style="min-height:300px;">
+  <div class="panel spl-hero-intranet spl-hero spl-hero-brand-orange-a staff-directory" style="min-height:300px;">
     <div class="panel-heading"  style="background-color:#fff;">
       <h4><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> 
         <small>x<b class="text-success"><?php echo $phone; ?></b>
