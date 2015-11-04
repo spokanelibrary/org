@@ -12,7 +12,7 @@
   $permalink = get_the_permalink();
   $name = get_the_title();
   $position = get_post_meta(get_the_ID(), 'position', true);
-  $bio = get_the_content();
+  $bio = wpautop(get_the_content());
   
   $staff_categories = wp_get_post_terms(get_the_ID(), 'staff_category');
   $staff_category = null;
