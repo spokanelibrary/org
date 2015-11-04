@@ -64,7 +64,7 @@
       </h4>
     </div>
     <div class="panel-body">
-    <h4 style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"><?php echo $position; ?></h4>
+    <h4 style="padding-top:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"><?php echo $position; ?></h4>
     <?php if ( !empty($cell) ) : ?>
     <h4 class="pull-right"><small>cell <b class="text-success"><?php echo $cell; ?></b></small></h4>
     <?php endif; ?>
