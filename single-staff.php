@@ -74,7 +74,7 @@
           </p>
           <h5><?php echo $email; ?></h5>
         </div>
-        <div class="col-md-7 col-lg-6">
+        <div class="col-md-7 col-lg-8">
           <?php if ( !empty($cell) ) : ?>
           <h3><small>cell <b class="text-success"><?php echo $cell; ?></b></small></h3>
           <?php endif; ?>
