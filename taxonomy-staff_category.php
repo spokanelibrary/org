@@ -55,8 +55,8 @@
 
   ?>
 
-  <div class="panel spl-hero-intranet spl-hero spl-hero-brand-blue-c staff-directory" style="box-shadow:none;">
-    <div class="panel-heading" style="padding-left:0; padding-right:0;">
+  <div class="panel spl-hero-intranet spl-hero spl-hero-brand-blue-c staff-directory">
+    <div class="panel-heading"  style="background-color:#fff;">
       <h3><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> 
         <small>x<b class="text-success"><?php echo $phone; ?></b>
         <?php if ( !empty($cell) ) : ?>
