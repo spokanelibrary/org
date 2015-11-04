@@ -58,7 +58,6 @@
   <div class="panel spl-hero-intranet spl-hero spl-hero-brand-orange-a staff-directory" style="min-height:340px; background-color:#fff;">
     <div class="panel-heading"  style="">
       <h4><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> 
-        <small>x<b class="text-success"><?php echo $phone; ?></b>
         <?php if ( !empty($phone) ) : ?>
         <small>x<b class="text-success"><?php echo $phone; ?></b></small>
         <?php endif; ?>
