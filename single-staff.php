@@ -59,11 +59,9 @@
   <div class="panel spl-hero-intranet spl-hero spl-hero-brand-orange-a staff-directory" style="min-height:340px; background-color:#fff;">
     <div class="panel-heading">
       <h3 class="text-primary" style="padding-top:8px;"><?php echo $name; ?> 
-        <small>x<b class="text-success"><?php echo $phone; ?></b>
-        <?php if ( !empty($cell) ) : ?>
-        &nbsp;&nbsp;<span class="">cell <b class="text-success"><?php echo $cell; ?></b></span>
+        <?php if ( !empty($phone) ) : ?>
+        <small>x<b class="text-success"><?php echo $phone; ?></b></small>
         <?php endif; ?>
-        </small>
       </h3>
     </div>
     <div class="panel-body">
@@ -77,6 +75,9 @@
           <h5><?php echo $email; ?></h5>
         </div>
         <div class="col-md-7 col-lg-6">
+          <?php if ( !empty($cell) ) : ?>
+          <h4><small>cell <b class="text-success"><?php echo $cell; ?></b></small></h4>
+          <?php endif; ?>
           <?php echo $bio; ?>
         </div>
       </div>
