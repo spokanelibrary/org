@@ -65,14 +65,14 @@
     </div>
     <div class="panel-body" style="padding-top:0;">
     <h4><?php echo $position; ?></h4>
+    <?php if ( !empty($cell) ) : ?>
+    <h4 class="pull-right"><small>cell <b class="text-success"><?php echo $cell; ?></b></small></h4>
+    <?php endif; ?>
     <p>
     <?php echo $photo; ?>
     </p>
     <h5><?php echo $email; ?></h5>
     <h6><?php echo $staff_category; ?></h6>
-    <?php if ( !empty($cell) ) : ?>
-    <h4><small>cell <b class="text-success"><?php echo $cell; ?></b></small></h4>
-    <?php endif; ?>
     </div>
 
   </div>
