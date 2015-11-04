@@ -58,13 +58,13 @@
 
   <div class="panel spl-hero-intranet spl-hero spl-hero-brand-orange-a staff-directory" style="min-height:340px; background-color:#fff;">
     <div class="panel-heading">
-      <h4 class="text-primary" style="margin-top:0;"><?php echo $name; ?> 
+      <h3 class="text-primary" style="margin-top:0;"><?php echo $name; ?> 
         <small>x<b class="text-success"><?php echo $phone; ?></b>
         <?php if ( !empty($cell) ) : ?>
         &nbsp;&nbsp;<span class="">cell <b class="text-success"><?php echo $cell; ?></b></span>
         <?php endif; ?>
         </small>
-      </h4>
+      </h3>
     </div>
     <div class="panel-body">
       <h3><?php echo $position; ?></h3>
