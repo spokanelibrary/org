@@ -60,12 +60,12 @@
       <h4><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> 
         <small>x<b class="text-success"><?php echo $phone; ?></b>
         <?php if ( !empty($phone) ) : ?>
-        <small>x<b class="text-success"><?php echo $phone; ?></b>
+        <small>x<b class="text-success"><?php echo $phone; ?></b></small>
         <?php endif; ?>
         <?php if ( !empty($cell) ) : ?>
-        &nbsp;&nbsp;<span class="">cell <b class="text-success"><?php echo $cell; ?></b></span>
+        &nbsp;&nbsp;<small>cell <b class="text-success"><?php echo $cell; ?></b></small>
         <?php endif; ?>
-        </small>
+        
       </h4>
     </div>
     <div class="panel-body" style="padding-top:0;">
