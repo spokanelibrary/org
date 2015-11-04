@@ -59,6 +59,9 @@
     <div class="panel-heading"  style="">
       <h4><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> 
         <small>x<b class="text-success"><?php echo $phone; ?></b>
+        <?php if ( !empty($phone) ) : ?>
+        <small>x<b class="text-success"><?php echo $phone; ?></b>
+        <?php endif; ?>
         <?php if ( !empty($cell) ) : ?>
         &nbsp;&nbsp;<span class="">cell <b class="text-success"><?php echo $cell; ?></b></span>
         <?php endif; ?>
