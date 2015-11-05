@@ -22,7 +22,7 @@ Library card holders who reside within the city limits of Spokane and people who
 </p>
 <ul>
   <li>Card must be <b>verified</b> (proof of address and identity must be shown).</li>
-  <li>Fines must be under <b>$10.00</b>.</li>
+  <li>Fines must be under <b>$50.00</b>.</li>
   <li>Card must be <b>current</b> (no expired cards, please).</li>
 </ul>
 <p>
@@ -51,9 +51,8 @@ Library card holders who reside within the city limits of Spokane and people who
 
 <h4>How Many Items Can I Request?</h4>
 <ul>
-  <li>Only <b>four items</b> can be in process at a time. This includes items that could only be used in the library and microfilm.  For each item that has been returned another item can be requested.</li>
+  <li>Only <b>four items</b> can be in process at a time. This includes items that can only be used in the library and microfilm.  For each item that has been returned another item can be requested.</li>
   <li>Microfilm requests must be for a reasonable date range in order to be processed.</li>
-  <li>Requests must be submitted on Spokane Public Library forms. No photocopies of the form will be accepted.</li>
 </ul>
 
 <h4>How Long Will It Take?</h4>
@@ -61,12 +60,12 @@ Library card holders who reside within the city limits of Spokane and people who
   Interlibrary Loan items are borrowed from across the United States and Canada. 
 </p>
 <p>
-  It can take <b>4&ndash;6 weeks</b> to receive an item.
+  It can take <b>4&ndash;8 weeks</b> to receive an item.
 </p>
 
 <h4>How Do I Find Out When the Item Arrives?</h4>
 <ul>
-  <li>When the item arrives a hold will be placed on the item and a <b>hold notice</b> (mail, e-mail or telephone) <b>will be generated as soon as the item reaches the branch</b> specified as the pick-up location.</li>
+  <li>You will be notified when your interlibrary loan arrives automatically through email, phone, or mail, depending on how you have your library card notifications set up.</li>
   <li>Since only 20 items can be "On Hold" at any given time, please reserve space on your hold list for interlibrary loan items.</li>
   <li>Interlibrary loan materials will be held <b>behind the circulation desk</b>, not on the regular hold shelf. </li>
   <li>You will have <b>five days</b> to pick up your items before they will be sent back to the lending library.</li>
@@ -82,5 +81,5 @@ Library card holders who reside within the city limits of Spokane and people who
 
 <h4>Will I Find Out If You Cannot Locate an Item?</h4>
 <p>
-  The Interlibrary Loan department will let you know <b>by placing a block on the library card used to request the item</b> if we are unable to borrow the item you requested.
+  The Interlibrary Loan department will let you know <b>by either email or placing a block on the library card used to request the item</b> if we are unable to borrow the item you requested.
 </p>
