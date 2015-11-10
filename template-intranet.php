@@ -167,7 +167,9 @@ Template Name: Intranet Home Page
    </div>
   </div>
 
-  <div class="hidden-sm col-md-3 col-md-pull-3 col-lg-2 col-lg-pull-3">
+  <div class="clearfix visible-sm hidden-md hidden-lg"
+
+  <div class="col-sm-5 col-sm-push-7 col-md-3 col-md-pull-3 col-lg-2 col-lg-pull-3">
     <div style="border:1px solid black; height: 300px;">
       events
     </div>
