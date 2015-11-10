@@ -173,7 +173,7 @@ Template Name: Intranet Home Page
     </div>
   </div>
   
-  <div class="col-md-6 col-md-pull-3 col-lg-7 col-lg-pull-3">
+  <div class="col-sm-12 col-md-6 col-md-pull-3 col-lg-7 col-lg-pull-3">
     <div style="border:1px solid black; height: 600px;">
       posts
     </div>
