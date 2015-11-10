@@ -170,7 +170,7 @@ Template Name: Intranet Home Page
       b
     </div>
   </div>
-  <div class="col-md-2 col-lg-2 col-md-pull-10 col-lg-pull-10">
+  <div class="col-sm-12 col-md-2 col-lg-2 col-md-pull-10 col-lg-pull-10">
     <div style="border:1px solid black; height: 300px;">
       c
     </div>
