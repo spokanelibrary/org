@@ -160,20 +160,24 @@ Template Name: Intranet Home Page
 </div><!-- /.row -->
 
 <div class="row">
-  <div class="col-sm-5 col-md-4 col-lg-3 col-sm-push-7 col-md-push-8 col-lg-push-9">
+
+  <div class="col-lg-3 col-lg-push-9">
     <div style="border:1px solid black; height: 300px;">
-     a
+     bulletin
    </div>
   </div>
-  <div class="col-sm-7 col-md-6 col-lg-7 col-sm-pull-5 col-md-pull-2 col-lg-pull-1">
-    <div style="border:1px solid black; height: 600px;">
-      b
-    </div>
-  </div>
-  <div class="col-sm-12 col-md-2 col-lg-2 col-md-pull-10 col-lg-pull-10">
+
+  <div class="col-lg-2 col-lg-pull-10">
     <div style="border:1px solid black; height: 300px;">
-      c
+      events
     </div>
   </div>
+
+  <div class="col-lg-7 col-lg-pull-5">
+    <div style="border:1px solid black; height: 600px;">
+      posts
+    </div>
+  </div>
+  
 </div>
 
