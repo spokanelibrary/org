@@ -102,7 +102,7 @@ Template Name: Intranet Home Page
       </div><!-- /.col -->
 
       <!-- <div class="col-sm-7 col-md-8 col-lg-9 col-sm-pull-5 col-md-pull-4 col-lg-pull-3"> -->
-      <div class="col-sm-7 col-md-6 col-lg-7 col-sm-pull-5 col-md-pull-2 col-lg-pull-1">
+      <div class="col-sm-7 col-md-7 col-lg-7 col-sm-pull-5 col-md-pull-1 col-lg-pull-1">
         
         <div class="panel spl-hero-intranet spl-hero-brand-blue-h">
           <div class="panel-heading">
@@ -131,7 +131,7 @@ Template Name: Intranet Home Page
             <?php echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
             <h4 style="margin-bottom:6px;">
               <i class="glyphicon glyphicon-star text-success"></i>
-              <a href="http://www.spokanelibrary.org/">Library Calendar</a>
+              <a href="http://www.spokanelibrary.org/">Library Activities</a>
             </h4>
             <script src="https://www.trumba.com/scripts/spuds.js"></script>
             <script type="text/javascript">
@@ -147,7 +147,7 @@ Template Name: Intranet Home Page
             <a class="" href="http://www.spokanelibrary.org/calendar"><b>More</b> Events</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
-      </div>
+      </div><!-- /.col -->
 
     </div><!-- /.row -->
 
