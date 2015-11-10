@@ -110,7 +110,9 @@ Template Name: Intranet Home Page
         Social Media</h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">            
-        <?php echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
+        <?php //echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
+        <div id="fb-root"></div>
+        <div class="fb-page" data-href="https://www.facebook.com/spokanelibrary" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/spokanelibrary"><a href="https://www.facebook.com/spokanelibrary">Spokane Public Library</a></blockquote></div></div>
 
         <a class="twitter-timeline"  href="https://twitter.com/spokanelibrary" data-widget-id="664129522216755200">Tweets by @spokanelibrary</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
