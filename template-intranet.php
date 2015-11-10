@@ -129,7 +129,7 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <?php echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
-            <script src="http://www.trumba.com/scripts/spuds.js"></script>
+            <script src="https://www.trumba.com/scripts/spuds.js"></script>
             <script type="text/javascript">
             $Trumba.addSpud({
               webName: "spls-calendar",
