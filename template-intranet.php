@@ -129,6 +129,15 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <?php echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
+            <script src="http://www.trumba.com/scripts/spuds.js"></script>
+            <script type="text/javascript">
+            $Trumba.addSpud({
+              webName: "spls-calendar",
+              spudType : "upcoming",
+              teaserBase : "http://www.spokanelibrary.org/calendar/",
+              url: { }
+            });
+            </script>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
             <a class="" href="http://www.spokanelibrary.org/calendar"><b>More</b> Events</a>&nbsp;<small class="text-muted">&rarr;</small> 
