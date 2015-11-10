@@ -161,13 +161,19 @@ Template Name: Intranet Home Page
 
 <div class="row">
   <div class="col-sm-5 col-md-4 col-lg-3 col-sm-push-7 col-md-push-8 col-lg-push-9">
-    a
+    <div style="border:1px solid black; height: 300px;">
+     a
+   </div>
   </div>
   <div class="col-sm-7 col-md-6 col-lg-7 col-sm-pull-5 col-md-pull-2 col-lg-pull-1">
-    b
+    <div style="border:1px solid black; height: 600px;">
+      b
+    </div>
   </div>
   <div class="col-md-2 col-lg-2 col-md-pull-10 col-lg-pull-10">
-    c
+    <div style="border:1px solid black; height: 300px;">
+      c
+    </div>
   </div>
 </div>
 
