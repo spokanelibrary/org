@@ -111,19 +111,6 @@ Template Name: Intranet Home Page
       </div><!-- /.panel-heading -->
       <div class="panel-body">            
         <?php echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
-        <h4 style="margin-bottom:6px;">
-          <i class="glyphicon glyphicon-star text-success"></i>
-          <a href="http://www.spokanelibrary.org/">At our branches</a>
-        </h4>
-        <script src="https://www.trumba.com/scripts/spuds.js"></script>
-        <script type="text/javascript">
-        $Trumba.addSpud({
-          webName: "spls-calendar",
-          spudType : "upcoming",
-          teaserBase : "http://www.spokanelibrary.org/calendar/",
-          url: { }
-        });
-        </script>
       </div><!-- /.panel-body -->
       <div class="panel-footer text-right">
         <a class="" href="http://facebook.com/spokanelibrary"><b>On</b> Facebook</a>&nbsp;<small class="text-muted">&rarr;</small> 
@@ -131,7 +118,7 @@ Template Name: Intranet Home Page
     </div><!-- /.panel -->
 
 
-    <div class="panel spl-hero-intranet spl-hero-brand-blue-e">
+    <div class="panel spl-hero-intranet spl-hero-brand-orange-a">
       <div class="panel-heading">
         <h4>
         <i class="glyphicon glyphicon-calendar"></i>
