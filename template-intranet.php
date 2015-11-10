@@ -96,7 +96,7 @@ Template Name: Intranet Home Page
         <?php echo do_shortcode('[spl_widget category-posts slug=cs count=3 format=excerpt size=sm]'); ?>
       </div><!-- /.panel-body -->
       <div class="panel-footer text-right">
-        <a class="" href="/news/cs/"><b>More</b> Customer Service Tips</a>&nbsp;<small class="text-muted">&rarr;</small> 
+        <a class="" href="/news/cs/"><b>More</b> <span class="hidden-md">Customer Service</span> Tips</a>&nbsp;<small class="text-muted">&rarr;</small> 
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
   </div>
