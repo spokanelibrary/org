@@ -172,12 +172,12 @@ Template Name: Intranet Home Page
       events
     </div>
   </div>
-  <!--
+  
   <div class="col-lg-7 col-lg-pull-3">
     <div style="border:1px solid black; height: 600px;">
       posts
     </div>
   </div>
-  -->
+  
 </div>
 
