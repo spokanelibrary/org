@@ -161,13 +161,13 @@ Template Name: Intranet Home Page
 
 <div class="row">
 
-  <div class="col-md-3 col-md-push-9 col-lg-3 col-lg-push-9">
+  <div class="col-sm-6 col-md-3 col-md-push-9 col-lg-3 col-lg-push-9">
     <div style="border:1px solid black; height: 300px;">
      bulletin
    </div>
   </div>
 
-  <div class="col-md-3 col-md-pull-3 col-lg-2 col-lg-pull-3">
+  <div class="col-sm-6 col-md-3 col-md-pull-3 col-lg-2 col-lg-pull-3">
     <div style="border:1px solid black; height: 300px;">
       events
     </div>
