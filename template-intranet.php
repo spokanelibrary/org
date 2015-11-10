@@ -128,7 +128,7 @@ Template Name: Intranet Home Page
             Today @ SPL</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
-            <?php echo do_shortcode('[spl_widget home-page facebook]'); ?>
+            <?php echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
             <a class="" href="http://www.spokanelibrary.org/calendar"><b>More</b> Events</a>&nbsp;<small class="text-muted">&rarr;</small> 
