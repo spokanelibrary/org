@@ -112,8 +112,19 @@ Template Name: Intranet Home Page
       <div class="panel-body">            
         <?php echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
       </div><!-- /.panel-body -->
-      <div class="panel-footer text-right">
-        <a class="" href="http://facebook.com/spokanelibrary"><b>On</b> Facebook</a>&nbsp;<small class="text-muted">&rarr;</small> 
+      <div class="panel-footer text-center">
+        <div class="row">
+          <div class="col-sm-6">
+            <a class=""
+                href="http://facebook.com/spokanelibrary" 
+                title=""><img class="" src="/assets/img/icons/32px/facebook.png"></a>
+          </div>
+          <div class="col-sm-6">
+            <a class=""
+              href="http://twitter.com/spokanelibrary" 
+              title=""><img class="" src="/assets/img/icons/32px/twitter.png"></a>
+          </div>
+        </div> 
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
 
@@ -136,7 +147,7 @@ Template Name: Intranet Home Page
         </script>
       </div><!-- /.panel-body -->
       <div class="panel-footer text-right">
-        <a class="" href="http://www.spokanelibrary.org/calendar"><b>On</b> Our Schedule</a>&nbsp;<small class="text-muted">&rarr;</small> 
+        <a class="" href="http://www.spokanelibrary.org/calendar"><b>Our</b> Calendar</a>&nbsp;<small class="text-muted">&rarr;</small> 
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
 
