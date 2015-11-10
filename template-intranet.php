@@ -120,6 +120,21 @@ Template Name: Intranet Home Page
 
       </div><!-- /.col -->
 
+      <div class="col-md-2 col-lg-2 col-md-pull-10 col-lg-pull-10">
+        <div class="panel spl-hero-intranet spl-hero-brand-blue-e">
+          <h4>
+            <i class="glyphicon glyphicon-calendar"></i>
+            Today @ SPL</h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">            
+            <?php e//cho do_shortcode('[spl_widget category-posts slug=spl count=6 format=full author]'); ?>
+          </div><!-- /.panel-body -->
+          <div class="panel-footer text-right">
+            <a class="" href="http://www.spokanelibrary.org/calendar"><b>More</b> Library Events</a>&nbsp;<small class="text-muted">&rarr;</small> 
+          </div><!-- /.panel-footer -->
+        </div><!-- /.panel -->
+      </div>
+
     </div><!-- /.row -->
 
   </div><!-- /.col -->
