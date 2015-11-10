@@ -118,7 +118,7 @@ Template Name: Intranet Home Page
     </div><!-- /.panel -->
 
 
-    <div class="panel spl-hero-intranet spl-hero-brand-orange-a">
+    <div class="panel spl-hero-intranet spl-hero-brand-green-a">
       <div class="panel-heading">
         <h4>
         <i class="glyphicon glyphicon-calendar"></i>
