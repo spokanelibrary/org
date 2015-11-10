@@ -102,17 +102,14 @@ Template Name: Intranet Home Page
   </div>
 
   <div class="hidden-xs col-sm-6 col-md-3 col-md-pull-3 col-lg-2 col-lg-pull-3">
+    
     <div class="panel spl-hero-intranet spl-hero-brand-blue-e">
       <div class="panel-heading">
         <h4>
-        <i class="glyphicon glyphicon-calendar"></i>
-        SPL Today</h4>
+        <i class="glyphicon glyphicon-thumbs-up"></i>
+        Social Media</h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">            
-        <h4 style="margin-bottom:6px;">
-          <i class="glyphicon glyphicon-star text-success"></i>
-          <a href="http://www.spokanelibrary.org/">On Facebook</a>
-        </h4>
         <?php echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
         <h4 style="margin-bottom:6px;">
           <i class="glyphicon glyphicon-star text-success"></i>
@@ -129,9 +126,33 @@ Template Name: Intranet Home Page
         </script>
       </div><!-- /.panel-body -->
       <div class="panel-footer text-right">
-        <a class="" href="http://www.spokanelibrary.org/calendar"><b>More</b> Events</a>&nbsp;<small class="text-muted">&rarr;</small> 
+        <a class="" href="http://facebook.com/spokanelibrary"><b>On</b> Facebook</a>&nbsp;<small class="text-muted">&rarr;</small> 
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
+
+
+    <div class="panel spl-hero-intranet spl-hero-brand-blue-e">
+      <div class="panel-heading">
+        <h4>
+        <i class="glyphicon glyphicon-calendar"></i>
+        SPL Today</h4>
+      </div><!-- /.panel-heading -->
+      <div class="panel-body">            
+        <script src="https://www.trumba.com/scripts/spuds.js"></script>
+        <script type="text/javascript">
+        $Trumba.addSpud({
+          webName: "spls-calendar",
+          spudType : "upcoming",
+          teaserBase : "http://www.spokanelibrary.org/calendar/",
+          url: { }
+        });
+        </script>
+      </div><!-- /.panel-body -->
+      <div class="panel-footer text-right">
+        <a class="" href="http://www.spokanelibrary.org/calendar"><b>On</b> Schedule</a>&nbsp;<small class="text-muted">&rarr;</small> 
+      </div><!-- /.panel-footer -->
+    </div><!-- /.panel -->
+
   </div>
   
   <div class="col-sm-12 col-md-6 col-md-pull-3 col-lg-7 col-lg-pull-3">
