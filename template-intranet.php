@@ -101,24 +101,6 @@ Template Name: Intranet Home Page
 
       </div><!-- /.col -->
 
-      <!-- <div class="col-sm-7 col-md-8 col-lg-9 col-sm-pull-5 col-md-pull-4 col-lg-pull-3"> -->
-      <div class="col-sm-7 col-md-6 col-lg-7 col-sm-pull-5 col-md-pull-2 col-lg-pull-1">
-        
-        <div class="panel spl-hero-intranet spl-hero-brand-blue-h">
-          <div class="panel-heading">
-            <h4>
-            <i class="glyphicon glyphicon-search"></i>
-            The Lens <small class="uppercase pull-right hidden-xs" style="color:#fff;">Library Employee News Service</small></h4>
-          </div><!-- /.panel-heading -->
-          <div class="panel-body">            
-            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=6 format=full author]'); ?>
-          </div><!-- /.panel-body -->
-          <div class="panel-footer text-right">
-            <a class="" href="/news/spl/"><b>More</b> Library News &amp; Updates</a>&nbsp;<small class="text-muted">&rarr;</small> 
-          </div><!-- /.panel-footer -->
-        </div><!-- /.panel -->
-
-      </div><!-- /.col -->
 
       <div class="col-sm-5 col-sm-push-7 col-md-2 col-lg-2 col-md-pull-10 col-lg-pull-10">
         <div class="panel spl-hero-intranet spl-hero-brand-blue-e">
@@ -147,6 +129,26 @@ Template Name: Intranet Home Page
             <a class="" href="http://www.spokanelibrary.org/calendar"><b>More</b> Events</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
+      </div><!-- /.col -->
+
+      
+      <!-- <div class="col-sm-7 col-md-8 col-lg-9 col-sm-pull-5 col-md-pull-4 col-lg-pull-3"> -->
+      <div class="col-sm-7 col-md-6 col-lg-7 col-sm-pull-5 col-md-pull-2 col-lg-pull-1">
+        
+        <div class="panel spl-hero-intranet spl-hero-brand-blue-h">
+          <div class="panel-heading">
+            <h4>
+            <i class="glyphicon glyphicon-search"></i>
+            The Lens <small class="uppercase pull-right hidden-xs" style="color:#fff;">Library Employee News Service</small></h4>
+          </div><!-- /.panel-heading -->
+          <div class="panel-body">            
+            <?php echo do_shortcode('[spl_widget category-posts slug=spl count=6 format=full author]'); ?>
+          </div><!-- /.panel-body -->
+          <div class="panel-footer text-right">
+            <a class="" href="/news/spl/"><b>More</b> Library News &amp; Updates</a>&nbsp;<small class="text-muted">&rarr;</small> 
+          </div><!-- /.panel-footer -->
+        </div><!-- /.panel -->
+
       </div><!-- /.col -->
 
     </div><!-- /.row -->
