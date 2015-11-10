@@ -131,7 +131,7 @@ Template Name: Intranet Home Page
             <?php //echo do_shortcode('[spl_widget category-posts slug=spl count=6 format=full author]'); ?>
           </div><!-- /.panel-body -->
           <div class="panel-footer text-right">
-            <a class="" href="http://www.spokanelibrary.org/calendar"><b>More</b> Library Events</a>&nbsp;<small class="text-muted">&rarr;</small> 
+            <a class="" href="http://www.spokanelibrary.org/calendar"><b>More</b> Events</a>&nbsp;<small class="text-muted">&rarr;</small> 
           </div><!-- /.panel-footer -->
         </div><!-- /.panel -->
       </div>
