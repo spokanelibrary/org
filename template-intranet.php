@@ -104,7 +104,7 @@ Template Name: Intranet Home Page
 
       <!-- <div class="col-sm-7 col-md-8 col-lg-9 col-sm-pull-5 col-md-pull-4 col-lg-pull-3"> -->
       <!-- <div class="col-sm-7 col-md-6 col-lg-7 col-sm-pull-5 col-md-pull-2 col-lg-pull-1"> -->
-      <div class="col-sm-7 col-md-6 col-lg-6 col-sm-pull-5 col-md-pull-1 col-lg-pull-1">
+      <div class="col-sm-7 col-md-6 col-lg-6 col-sm-pull-5">
         
         <div class="panel spl-hero-intranet spl-hero-brand-blue-h">
           <div class="panel-heading">
