@@ -111,7 +111,13 @@ Template Name: Intranet Home Page
       </div><!-- /.panel-heading -->
       <div class="panel-body">            
         <?php //echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
-        
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=405130432857559";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <div class="fb-page" data-href="https://www.facebook.com/spokanelibrary" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/spokanelibrary"><a href="https://www.facebook.com/spokanelibrary">Spokane Public Library</a></blockquote></div></div>
 
         <a class="twitter-timeline"  href="https://twitter.com/spokanelibrary" data-widget-id="664129522216755200">Tweets by @spokanelibrary</a>
