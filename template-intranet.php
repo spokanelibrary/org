@@ -136,7 +136,7 @@ Template Name: Intranet Home Page
         </script>
       </div><!-- /.panel-body -->
       <div class="panel-footer text-right">
-        <a class="" href="http://www.spokanelibrary.org/calendar"><b>On</b> Schedule</a>&nbsp;<small class="text-muted">&rarr;</small> 
+        <a class="" href="http://www.spokanelibrary.org/calendar"><b>On</b> Our Schedule</a>&nbsp;<small class="text-muted">&rarr;</small> 
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
 
