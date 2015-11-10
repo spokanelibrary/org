@@ -128,10 +128,14 @@ Template Name: Intranet Home Page
             Today @ SPL</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
+            <h4 style="margin-bottom:6px;">
+              <i class="glyphicon glyphicon-star text-success"></i>
+              <a href="http://www.spokanelibrary.org/">Facebook</a>
+            </h4>
             <?php echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
             <h4 style="margin-bottom:6px;">
               <i class="glyphicon glyphicon-star text-success"></i>
-              <a href="http://www.spokanelibrary.org/">Library Activities</a>
+              <a href="http://www.spokanelibrary.org/">Activities</a>
             </h4>
             <script src="https://www.trumba.com/scripts/spuds.js"></script>
             <script type="text/javascript">
