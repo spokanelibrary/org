@@ -167,13 +167,13 @@ Template Name: Intranet Home Page
    </div>
   </div>
 
-  <div class="col-lg-2 col-lg-pull-10">
+  <div class="col-lg-2 col-lg-pull-9">
     <div style="border:1px solid black; height: 300px;">
       events
     </div>
   </div>
 
-  <div class="col-lg-7 col-lg-pull-5">
+  <div class="col-lg-7 col-lg-pull-3">
     <div style="border:1px solid black; height: 600px;">
       posts
     </div>
