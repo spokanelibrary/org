@@ -125,7 +125,7 @@ Template Name: Intranet Home Page
           <div class="panel-heading">
             <h4>
             <i class="glyphicon glyphicon-calendar"></i>
-            Today @ SPL</h4>
+            SPL Today</h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <h4 style="margin-bottom:6px;">
