@@ -120,7 +120,7 @@ Template Name: Intranet Home Page
 
       </div><!-- /.col -->
 
-      <div class="col-sm-12 col-md-2 col-lg-2 col-md-pull-10 col-lg-pull-10">
+      <div class="col-sm-7 col-md-2 col-lg-2 col-md-pull-10 col-lg-pull-10">
         <div class="panel spl-hero-intranet spl-hero-brand-blue-e">
           <div class="panel-heading">
             <h4>
