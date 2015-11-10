@@ -124,3 +124,12 @@ Template Name: Intranet Home Page
 
 </div><!-- /.row -->
 
+<div class="row">
+  <div class="col-sm-5 col-md-4 col-lg-3 col-sm-push-7 col-md-push-8 col-lg-push-9">
+    a
+  </div>
+  <div class="col-sm-7 col-md-8 col-lg-9 col-sm-pull-5 col-md-pull-4 col-lg-pull-3">
+    b
+  </div>
+</div>
+
