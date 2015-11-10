@@ -120,4 +120,7 @@ Template Name: Intranet Home Page
 
     </div><!-- /.row -->
 
+  </div><!-- /.col -->
+
+</div><!-- /.row -->
 
