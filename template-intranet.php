@@ -90,7 +90,7 @@ Template Name: Intranet Home Page
       <div class="panel-heading">
         <h4>
         <i class="glyphicon glyphicon-edit"></i>
-        Customer Service Tips</h4>
+        Customer Service <span class="hidden-md">Tips</span></h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">
         <?php echo do_shortcode('[spl_widget category-posts slug=cs count=3 format=excerpt size=sm]'); ?>
