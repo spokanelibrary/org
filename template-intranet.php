@@ -129,10 +129,10 @@ Template Name: Intranet Home Page
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <?php echo do_shortcode('[spl_widget home-page facebook refresh]'); ?>
-            <h5 style="margin-bottom:6px;">
-              <i class="glyphicon glyphicon-star"></i>
+            <h4 style="margin-bottom:6px;">
+              <i class="glyphicon glyphicon-star text-success"></i>
               <a href="http://www.spokanelibrary.org/">Library Calendar</a>
-            </h5>
+            </h4>
             <script src="https://www.trumba.com/scripts/spuds.js"></script>
             <script type="text/javascript">
             $Trumba.addSpud({
