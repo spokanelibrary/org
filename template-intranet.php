@@ -128,8 +128,11 @@ Template Name: Intranet Home Page
   <div class="col-sm-5 col-md-4 col-lg-3 col-sm-push-7 col-md-push-8 col-lg-push-9">
     a
   </div>
-  <div class="col-sm-7 col-md-8 col-lg-9 col-sm-pull-5 col-md-pull-4 col-lg-pull-3">
+  <div class="col-sm-7 col-md-8 col-lg-7 col-sm-pull-5 col-md-pull-4 col-lg-pull-1">
     b
+  </div>
+  <div class="col-lg-2 col-lg-pull-3">
+    c
   </div>
 </div>
 
