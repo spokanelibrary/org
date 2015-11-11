@@ -10,8 +10,9 @@ Template Name: Comments
 	<div class="col-sm-12">
 		<?php get_template_part('templates/page', 'header'); ?>
 		<?php get_template_part('templates/content', 'page'); ?>
-	</div>
 
-	<?php comments_template('/templates/comments.php'); ?>
+
+		<?php comments_template('/templates/comments.php'); ?>
+	</div>
 
 </div>
