@@ -71,6 +71,7 @@ function roots_display_sidebar() {
     , 'template-home.php'
     , 'template-beta.php'
     , 'template-alpha.php'
+    , 'template-comment.php'
     , 'template-application.php'
     , 'template-no-headline.php'
     , 'template-scrollspy.php'
