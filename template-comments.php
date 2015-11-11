@@ -9,7 +9,7 @@ Template Name: Comments
 
 	<div class="col-sm-12">
 
-		<div class="panel spl-hero-intranet spl-hero-brand-blue-f">
+		<div class="panel spl-hero-intranet spl-hero-brand-blue-a">
 			<div class="panel-heading">
 				<h4><?php the_title(); ?></h4>
 			</div>
