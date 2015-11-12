@@ -15,7 +15,7 @@ function spl_get_home_url() {
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));*/</script>  
 
-<header class="navbar-common navbar-fixed-top visible-xs visible-sm">
+<header class="navbar-common navbar-fixed-top visible-xs visible-sm hidden-print">
   <!--<div class="container">-->
   <ul class="nav nav-justified">
   <?php 
