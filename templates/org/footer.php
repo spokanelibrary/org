@@ -17,7 +17,7 @@
   </footer>
   </div>
 
-  <footer class="content-info container" role="contentinfo">
+  <footer class="content-info container hidden-print" role="contentinfo">
 
     <div class="row">
       
