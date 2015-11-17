@@ -55,6 +55,10 @@
 
   ?>
 
+  <h4><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a></h4>
+
+  <?php
+  /*
   <div class="panel spl-hero-intranet spl-hero spl-hero-brand-orange-a staff-directory" style="min-height:340px; background-color:#fff;">
     <div class="panel-heading"  style="">
       <h4><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a> 
@@ -74,8 +78,9 @@
     <h5><?php echo $email; ?></h5>
     <h6><?php echo $staff_category; ?></h6>
     </div>
-
   </div>
+  */
+  ?>
 
 </article>
 </div><!-- ./col -->
