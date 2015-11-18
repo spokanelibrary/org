@@ -15,7 +15,7 @@ Template Name: Home Page
     $spl_home = trim($spl_home);
     if ( !empty($spl_home) ): ;
     ?>
-    <div class="panel spl-hero-panel spl-hero-announce">
+    <!-- <div class="panel spl-hero-panel spl-hero-announce"> -->
       <?php 
       if ( $post->post_excerpt): ; 
       ?>
@@ -27,7 +27,7 @@ Template Name: Home Page
       <div class="panel-body">
         <?php echo $post->post_content; ?>
       </div>
-    </div>
+    <!-- </div> -->
     <?php endif; ?>
     
     <div class="row">
