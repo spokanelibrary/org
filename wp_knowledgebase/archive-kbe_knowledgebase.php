@@ -5,6 +5,9 @@
   </h1>
 </div>
 -->
+
+KB Description
+
 <?php echo spl_kbe_get_kb_category(); ?>
 
 <?php 
