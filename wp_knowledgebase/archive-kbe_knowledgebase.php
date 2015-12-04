@@ -1,12 +1,16 @@
-<!--
+
 <div class="page-header">
   <h1>
     Knowledge Base
   </h1>
 </div>
--->
 
-KB Description
+The Knowledge Base is the place to go for informative articles useful to staff across departments or branches. 
+Articles include brief instructions which will link to more detailed documents or other websites.
+
+<h5>
+  <a href="/kb/knowledge-base-guidelines-editing/">More information on KB Guidelines &amp; Editing</a> <small>&rarr;</small>
+</h5>
 
 <?php echo spl_kbe_get_kb_category(); ?>
 
