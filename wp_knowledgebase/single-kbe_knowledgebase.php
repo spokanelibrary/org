@@ -14,9 +14,10 @@
  *  lifted from this great SO question:
  *  http://stackoverflow.com/questions/18156164/parse-html-and-get-all-h3s-after-an-h2-before-the-next-h2-using-php
  */
+$content = get_the_content();
 $toc = null;
 $dom = new DOMDocument;
-$dom->loadHTML(get_the_content());
+$dom->loadHTML($content);
 /*
 foreach($dom->getElementsByTagName('h2') as $node) {
     $matches['heading-two'][] = $dom->saveHtml($node);
@@ -36,10 +37,12 @@ foreach($dom->getElementsByTagName('h2') as $node) {
     }
 }
 */
+$toc = '';
 if ( $matches && $matches['h3'] ){
   foreach ( $matches['h3'] as $h => $three ) {
-    $id = substr_replace('<h3', '<h3 id="'.$h.'"');
-    $toc = '<a href="#'.$h.'">'.$three.'</a>';
+    $str = '<h3 id="h3-'.$h.'"';
+    $id = substr_replace('<h3', $str);
+    $toc .= '<a href="#h3-'.$h.'">'.$three.'</a>';
   }
   //print_r($matches);
 }
@@ -47,7 +50,7 @@ if ( $matches && $matches['h3'] ){
 
 <div class="row">
   <div class="col-md-8 col-md-9">
-    <?php the_content(); ?>
+    <?php echo $content; ?>
     <?php echo $toc; ?>
   </div><!-- /.col -->
   <div class="col-md-4 col-lg-3">
