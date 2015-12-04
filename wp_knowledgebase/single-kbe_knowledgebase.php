@@ -8,6 +8,43 @@
   </h1>
 </div>
 
+<?php
+/*
+ *  Build a simple TOC
+ *  lifted from this great SO question:
+ *  http://stackoverflow.com/questions/18156164/parse-html-and-get-all-h3s-after-an-h2-before-the-next-h2-using-php
+ */
+$toc = null;
+$dom = new DOMDocument;
+$dom->loadHTML(get_the_content());
+/*
+foreach($dom->getElementsByTagName('h2') as $node) {
+    $matches['heading-two'][] = $dom->saveHtml($node);
+}
+*/
+foreach($dom->getElementsByTagName('h3') as $node) {
+    $matches['h3'][] = $dom->saveHtml($node);
+}
+/*
+foreach($dom->getElementsByTagName('h2') as $node) {
+    $key = $dom->saveHtml($node);
+    $matches[$key] = array();
+    while(($node = $node->nextSibling) && $node->nodeName !== 'h2') {
+        if($node->nodeName == 'h3') {
+            $matches[$key][] = $dom->saveHtml($node);   
+        }
+    }
+}
+*/
+if ( $matches && $matches['h3'] ){
+  foreach ( $matches['h3'] as $h => $three ) {
+    $id = substr_replace('<h3', '<h3 id="'.$h.'"');
+    $toc = '<a href="#'.$h.'">'.$three.'</a>';
+  }
+  //print_r($matches);
+}
+?>
+
 <div class="row">
   <div class="col-md-8 col-md-9">
     <?php the_content(); ?>
@@ -26,33 +63,7 @@
   </div><!-- /.col -->
 </div><!-- /.row -->
 
-<?php
-$content = get_the_content();
-$dom = new DOMDocument;
-$dom->loadHTML($content);
-/*
-foreach($dom->getElementsByTagName('h2') as $node) {
-    $matches['heading-two'][] = $dom->saveHtml($node);
-}
-foreach($dom->getElementsByTagName('h3') as $node) {
-    $matches['heading-three'][] = $dom->saveHtml($node);
-}
-*/
-foreach($dom->getElementsByTagName('h2') as $node) {
-    $key = $dom->saveHtml($node);
-    $matches[$key] = array();
-    while(($node = $node->nextSibling) && $node->nodeName !== 'h2') {
-        if($node->nodeName == 'h3') {
-            $matches[$key][] = $dom->saveHtml($node);   
-        }
-    }
-}
 
-
-if($matches){
-    print_r($matches);
-}
-?>
 
 <?php endwhile; ?>
 <?php kbe_get_post_views(get_the_ID()); ?>
