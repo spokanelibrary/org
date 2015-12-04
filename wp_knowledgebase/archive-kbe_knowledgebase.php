@@ -5,7 +5,7 @@
   </h1>
 </div>
 
-The Knowledge Base is the place to go for informative articles useful to staff across departments or branches. 
+The Knowledge Base is the place to go for articles useful to staff across departments or branches. 
 Articles include brief instructions which will link to more detailed documents or other websites.
 
 <h5>
