@@ -30,12 +30,25 @@
 $content = get_the_content();
 $dom = new DOMDocument;
 $dom->loadHTML($content);
+/*
 foreach($dom->getElementsByTagName('h2') as $node) {
     $matches['heading-two'][] = $dom->saveHtml($node);
 }
 foreach($dom->getElementsByTagName('h3') as $node) {
     $matches['heading-three'][] = $dom->saveHtml($node);
 }
+*/
+foreach($dom->getElementsByTagName('h2') as $node) {
+    $key = $dom->saveHtml($node);
+    $matches[$key] = array();
+    while(($node = $node->nextSibling) && $node->nodeName !== 'h2') {
+        if($node->nodeName == 'h3') {
+            $matches[$key][] = $dom->saveHtml($node);   
+        }
+    }
+}
+
+
 if($matches){
     print_r($matches);
 }
