@@ -26,6 +26,21 @@
   </div><!-- /.col -->
 </div><!-- /.row -->
 
+<?php
+$content = get_the_content();
+$dom = new DOMDocument;
+$dom->loadHTML($content);
+foreach($dom->getElementsByTagName('h2') as $node) {
+    $matches['heading-two'][] = $dom->saveHtml($node);
+}
+foreach($dom->getElementsByTagName('h3') as $node) {
+    $matches['heading-three'][] = $dom->saveHtml($node);
+}
+if($matches){
+    print_r($matches);
+}
+?>
+
 <?php endwhile; ?>
 <?php kbe_get_post_views(get_the_ID()); ?>
 
