@@ -42,6 +42,7 @@ if ( $matches && $matches['h3'] ){
   foreach ( $matches['h3'] as $h => $three ) {
     $str = '<h3 id="h3-'.$h.'"';
     $id = substr_replace('<h3', $str);
+    //$content = substr_replace(string, replacement, start)
     $toc .= '<a href="#h3-'.$h.'">'.$three.'</a>';
   }
   //print_r($matches);
@@ -50,7 +51,7 @@ if ( $matches && $matches['h3'] ){
 
 <div class="row">
   <div class="col-md-8 col-md-9">
-    <?php echo $content; ?>
+    <?php get_the_content(); ?>
     <?php echo $toc; ?>
   </div><!-- /.col -->
   <div class="col-md-4 col-lg-3">
