@@ -14,6 +14,7 @@
  *  lifted from this great SO question:
  *  http://stackoverflow.com/questions/18156164/parse-html-and-get-all-h3s-after-an-h2-before-the-next-h2-using-php
  */
+/*
 $content = get_the_content();
 $toc = null;
 $dom = new DOMDocument;
@@ -47,6 +48,7 @@ if ( $matches && $matches['h3'] ){
   }
   //print_r($matches);
 }
+*/
 ?>
 
 <div class="row">
