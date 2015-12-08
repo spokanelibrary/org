@@ -51,7 +51,7 @@ if ( $matches && $matches['h3'] ){
 
 <div class="row">
   <div class="col-md-8 col-md-9">
-    <?php get_the_content(); ?>
+    <?php echo get_the_content(); ?>
     <?php echo $toc; ?>
   </div><!-- /.col -->
   <div class="col-md-4 col-lg-3">
