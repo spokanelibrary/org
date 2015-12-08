@@ -19,14 +19,23 @@ $content = get_the_content();
 $toc = null;
 $dom = new DOMDocument;
 $dom->loadHTML($content);
+*/
+
+
 /*
 foreach($dom->getElementsByTagName('h2') as $node) {
     $matches['heading-two'][] = $dom->saveHtml($node);
 }
 */
+
+
+
+/*
 foreach($dom->getElementsByTagName('h3') as $node) {
     $matches['h3'][] = $dom->saveHtml($node);
 }
+*/
+
 /*
 foreach($dom->getElementsByTagName('h2') as $node) {
     $key = $dom->saveHtml($node);
@@ -38,6 +47,8 @@ foreach($dom->getElementsByTagName('h2') as $node) {
     }
 }
 */
+
+/*
 $toc = '';
 if ( $matches && $matches['h3'] ){
   foreach ( $matches['h3'] as $h => $three ) {
