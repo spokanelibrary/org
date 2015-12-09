@@ -36,7 +36,7 @@ class SPL_Heading_Level_DOM_TOC {
     //return $this->getHeadings();
   }
 
-  /*
+  
   public function getHeadings() {
     
     foreach( $this->levels as $tag) {
@@ -48,7 +48,7 @@ class SPL_Heading_Level_DOM_TOC {
 
     return $matches;
   }
-  */
+
   
   
 } // SPL_Heading_Level_DOM_TOC
