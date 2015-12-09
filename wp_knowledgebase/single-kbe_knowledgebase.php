@@ -14,7 +14,7 @@
  *  lifted from this great SO question:
  *  http://stackoverflow.com/questions/18156164/parse-html-and-get-all-h3s-after-an-h2-before-the-next-h2-using-php
  */
-
+error_reporting(1);
 $content = get_the_content();
 
 $domtoc = new SPL_Heading_Level_DOM_TOC($content);
