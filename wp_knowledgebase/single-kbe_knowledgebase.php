@@ -16,7 +16,7 @@
  */
 $content = get_the_content();
 
-$domtoc = new SPL_Heading_Level_DOM_TOC($content);
+//$domtoc = new SPL_Heading_Level_DOM_TOC($content);
 
 class SPL_Heading_Level_DOM_TOC {
 
