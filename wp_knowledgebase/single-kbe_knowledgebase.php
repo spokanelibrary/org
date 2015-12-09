@@ -33,7 +33,7 @@ class SPL_Heading_Level_DOM_TOC {
     $this->dom = new DOMDocument;
     $this->dom->loadHTML($content);
 
-    //return $this->getHeadings();
+    return $this->getHeadings();
   }
 
   
