@@ -14,6 +14,63 @@
  *  lifted from this great SO question:
  *  http://stackoverflow.com/questions/18156164/parse-html-and-get-all-h3s-after-an-h2-before-the-next-h2-using-php
  */
+
+$content = get_the_content();
+
+$domtoc = new SPL_Heading_Level_DOM_TOC($content);
+
+class SPL_Heading_Level_DOM_TOC {
+
+  var $toc;
+  var $dom;
+  var $levels = array(1=>'h1'
+                    , 2=>'h2'
+                    , 3=>'h3'
+                    , 4=>'h4'
+                    , 5=>'h5'
+                    , 6=>'h6');
+    
+  function __construct($content) {
+    $this->dom = new DOMDocument;
+    $this->dom->loadHTML($content);
+
+    return $this->getHeadings;
+  }
+
+  public function getHeadings() {
+    /*
+    foreach ( $this->levels as $l => $level ) {
+      $this->toc[$l] = $this->getHeadingLevel($l);    
+    }
+    */
+    foreach( $this->levels as $tag) {
+      foreach($dom->getElementsByTagName($tag) as $node) {
+          $matches[$node->getLineNo()] = $dom->saveHtml($node);
+      }
+    }
+    ksort($matches);
+
+    return $matches;
+  }
+
+  /*
+  protected function getHeadingLevel($l) {
+    foreach($this->dom->getElementsByTagName($this->level[$l]) as $node) {
+      $key = $this->dom->saveHtml($node);
+      $matches[$key] = array();
+      while( ($node = $node->nextSibling) && $node->nodeName == $l+1 ) {
+        $matches[$key][] = $this->dom->saveHtml($node); 
+        $matches[$key][''] = $this->dom->saveHtml($node);   
+      }
+    }
+
+    return $matches;
+  }
+  */
+  
+  
+} // SPL_Heading_Level_DOM_TOC
+
 /*
 $content = get_the_content();
 $toc = null;
