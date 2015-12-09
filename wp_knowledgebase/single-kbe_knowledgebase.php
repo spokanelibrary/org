@@ -17,7 +17,7 @@
 $content = get_the_content();
 
 //$domtoc = new SPL_Heading_Level_DOM_TOC($content);
-/*
+
 class SPL_Heading_Level_DOM_TOC {
 
   var $toc;
@@ -33,9 +33,10 @@ class SPL_Heading_Level_DOM_TOC {
     $this->dom = new DOMDocument;
     $this->dom->loadHTML($content);
 
-    return $this->getHeadings;
+    //return $this->getHeadings();
   }
 
+  /*
   public function getHeadings() {
     
     foreach( $this->levels as $tag) {
@@ -47,10 +48,11 @@ class SPL_Heading_Level_DOM_TOC {
 
     return $matches;
   }
+  */
   
   
 } // SPL_Heading_Level_DOM_TOC
-*/
+
 
 
 /*
