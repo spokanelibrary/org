@@ -16,8 +16,8 @@
  */
 $content = get_the_content();
 
-$domtoc = new SPL_Heading_Level_DOM_TOC($content);
-
+//$domtoc = new SPL_Heading_Level_DOM_TOC($content);
+/*
 class SPL_Heading_Level_DOM_TOC {
 
   var $toc;
@@ -37,11 +37,7 @@ class SPL_Heading_Level_DOM_TOC {
   }
 
   public function getHeadings() {
-    /*
-    foreach ( $this->levels as $l => $level ) {
-      $this->toc[$l] = $this->getHeadingLevel($l);    
-    }
-    */
+    
     foreach( $this->levels as $tag) {
       foreach($this->dom->getElementsByTagName($tag) as $node) {
           $matches[$node->getLineNo()] = $this->dom->saveHtml($node);
@@ -51,24 +47,11 @@ class SPL_Heading_Level_DOM_TOC {
 
     return $matches;
   }
-
-  /*
-  protected function getHeadingLevel($l) {
-    foreach($this->dom->getElementsByTagName($this->level[$l]) as $node) {
-      $key = $this->dom->saveHtml($node);
-      $matches[$key] = array();
-      while( ($node = $node->nextSibling) && $node->nodeName == $l+1 ) {
-        $matches[$key][] = $this->dom->saveHtml($node); 
-        $matches[$key][''] = $this->dom->saveHtml($node);   
-      }
-    }
-
-    return $matches;
-  }
-  */
   
   
 } // SPL_Heading_Level_DOM_TOC
+*/
+
 
 /*
 $content = get_the_content();
