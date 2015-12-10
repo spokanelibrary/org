@@ -10,49 +10,93 @@
 
 <?php
 /*
- *  Build a simple TOC
+ *  Build a simple TOC w/ DOM replacement
  *  lifted from this great SO question:
  *  http://stackoverflow.com/questions/18156164/parse-html-and-get-all-h3s-after-an-h2-before-the-next-h2-using-php
  */
-$content = get_the_content();
 
-//$domtoc = new SPL_Heading_Level_DOM_TOC($content);
-
-class SPL_Heading_Level_DOM_TOC {
+class SPL_DOM_TOC {
 
   var $toc;
   var $dom;
-  var $levels = array(1=>'h1'
-                    , 2=>'h2'
-                    , 3=>'h3'
-                    , 4=>'h4'
-                    , 5=>'h5'
-                    , 6=>'h6');
+  var $menu;
+  var $html;
+  var $levels;
+  var $prefix;
+  var $content;
+  var $headings;
     
-  function __construct($content) {
-    $this->dom = new DOMDocument;
-    $this->dom->loadHTML($content);
+  function __construct($content, $prefix='spl-dom-toc') {
+    $this->content = $content;
+    $this->prefix = $prefix;
 
-    return $this->getHeadings();
+    $this->dom = new DOMDocument;
+    $this->dom->loadHTML($this->content);
+
+    $this->levels = array(1=>'h1'
+                        , 2=>'h2'
+                        , 3=>'h3'
+                        , 4=>'h4'
+                        , 5=>'h5'
+                        , 6=>'h6');
+
+    $this->setHeadings();
+    $this->parseDOM();
+    $this->renderHTML();
+    $this->renderMenu();
+
+    $domtoc = new StdClass();
+    $domtoc->menu = $this->menu;
+    $domtoc->html = $this->html;
+
+    return $domtoc;
   }
 
-  
-  public function getHeadings() {
-    
+  protected function getHeadings() {    
     foreach( $this->levels as $tag) {
       foreach($this->dom->getElementsByTagName($tag) as $node) {
           $matches[$node->getLineNo()] = $this->dom->saveHtml($node);
       }
     }
     ksort($matches);
-
-    return $matches;
+    $this->headings = $matches;
   }
 
-  
+  protected function parseDOM() {
+    if ( is_array($this->headings) ){
+      foreach ( $this->headings as $h => $heading ) {
+        // does DOMDocument support injecting ids, anchors, etc?
+        foreach ( $this->levels as $l => $level ) {
+          if ( stristr($heading, '<'.$level) ) {
+            $id = str_ireplace('<'.$level
+                              ,'<'.$level.' id="'.$this->prefix.'-'.$level.'-'.$h.'"'
+                              ,$heading);
+            $this->html = str_ireplace($heading, $id, $this->html);
+            
+            $this->toc[] = '<a href="#'.$this->prefix.'-'.$level.'-'.$h.'">'.$heading.'</a>';
+
+          }  
+        }       
+      }
+    }
+  }
+
+  protected function renderHTML() {
+    if ( function_exists('wpautop') ) {
+      $this->html = wpautop($this->html);  
+    }
+  }
+
+  protected function renderMenu() {
+    $this->menu = null;
+    foreach ( $this->toc as $toc ) {
+      $this->menu .= $toc.PHP_EOL;
+    }
+  }
   
 } // SPL_Heading_Level_DOM_TOC
 
+$domtoc = new SPL_DOM_TOC(get_the_content());
 
 
 /*
