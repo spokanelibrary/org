@@ -96,7 +96,7 @@ class SPL_DOM_TOC {
   
 } // SPL_Heading_Level_DOM_TOC
 
-$domtoc = new SPL_DOM_TOC(get_the_content());
+//$domtoc = new SPL_DOM_TOC(get_the_content());
 
 
 /*
