@@ -41,7 +41,7 @@ class SPL_StaffDirectoryShortcode {
     $staff = null;
     if ( is_array($posts) ) {
       foreach ( $posts as $post ) {
-        $staff .= '<h4>'.$post->post_title.'</h4>'.PHP_EOL;
+        $staff .= '<h4>'.'<a href="'.'/staff/'.$post->post_slug.'/'.'">'.$post->post_title.'</a>'.'</h4>'.PHP_EOL;
       }
     }
     return $staff;
