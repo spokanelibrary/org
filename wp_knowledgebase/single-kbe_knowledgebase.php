@@ -76,9 +76,23 @@ class SPL_DOM_TOC {
     if ( is_array($this->toc) && !empty($this->toc) ) {
       $this->menu .= '<div class="panel panel-primary">'.PHP_EOL;
       $this->menu .= '<div class="panel-body">'.PHP_EOL;
+      $this->menu .= '
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="'.$this->prefix.'-menu'.'" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Dropdown
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="'.$this->prefix.'-menu'.'">
+      ';
       foreach ( $this->toc as $toc ) {
-        $this->menu .= $toc.PHP_EOL;
+        $this->menu .= '<li>'.$toc.'</li>'.PHP_EOL;
       }
+      $this->menu .= '
+        </ul>
+      </div>
+      ';
+
+      
       $this->menu .= '</div>'.PHP_EOL;
       $this->menu .= '</div>'.PHP_EOL;
     }
