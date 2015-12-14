@@ -74,11 +74,12 @@ class SPL_DOM_TOC {
   protected function renderMenu() {
     $this->menu = null;
     if ( is_array($this->toc) && !empty($this->toc) ) {
-      $this->menu .= '<div class="panel panel-primary">'.PHP_EOL;
-      $this->menu .= '<div class="panel-body">'.PHP_EOL;
+      //$this->menu .= '<div class="panel panel-primary">'.PHP_EOL;
+      //$this->menu .= '<div class="panel-body">'.PHP_EOL;
       $this->menu .= '
       <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" id="'.$this->prefix.'-menu'.'" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="'.$this->prefix.'-menu'.'" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <i class="glyphicon glyphicon-list"></i> 
           Quick Links
           <span class="caret"></span>
         </button>
@@ -91,10 +92,9 @@ class SPL_DOM_TOC {
         </ul>
       </div>
       ';
-
       
-      $this->menu .= '</div>'.PHP_EOL;
-      $this->menu .= '</div>'.PHP_EOL;
+      //$this->menu .= '</div>'.PHP_EOL;
+      //$this->menu .= '</div>'.PHP_EOL;
     }
   }
   
