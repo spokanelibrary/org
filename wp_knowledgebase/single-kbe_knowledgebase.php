@@ -1,13 +1,3 @@
-<?php while(have_posts()) : ?>
-<?php the_post(); ?>
-<?php kbe_set_post_views(get_the_ID()); ?>
-
-<div class="page-header">
-  <h1>
-    <?php the_title(); ?>
-  </h1>
-</div>
-
 <?php
 /*
  *  Build a simple TOC w/ DOM replacement
@@ -95,7 +85,18 @@ class SPL_DOM_TOC {
   }
   
 } // SPL_Heading_Level_DOM_TOC
+?>
+<?php while(have_posts()) : ?>
+<?php the_post(); ?>
+<?php kbe_set_post_views(get_the_ID()); ?>
 
+<div class="page-header">
+  <h1>
+    <?php the_title(); ?>
+  </h1>
+</div>
+
+<?php
 //$domtoc = new SPL_DOM_TOC(get_the_content());
 
 
