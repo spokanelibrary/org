@@ -54,15 +54,17 @@ class SPL_StaffDirectoryShortcode {
 
         $staff .= '<h4>'.'<a href="'.$permalink.'">'.$post->post_title.'</a>'.'</h4>'.PHP_EOL;
         $staff .= '<p>'.$photo.'</p>'.PHP_EOL;
+      
+        $staff .= '</div>'.PHP_EOL;
+        if ( 0 == $i % 3 ) {
+          $staff .= '<div class="clearfix"></div>'.PHP_EOL;
+        }
+        $i++;
       }
+      
       $staff .= '</div>'.PHP_EOL;
-
-      if ( 0 == $i % 3 ) {
-        $staff .= '<div class="clearfix"></div>'.PHP_EOL;
-      }
-      $i++;
     }
-    $staff .= '</div>'.PHP_EOL;
+    
 
     //return '<pre>'.print_r($posts, true).'</pre>';
     return $staff;
