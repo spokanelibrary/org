@@ -50,7 +50,7 @@ function spl_kbe_get_kb_category_menu($id=0) {
       $html .= '<b>';
       $html .= $term->name;
       $html .= '</b>';
-      $html .= '<small>&rarr;</small>';
+      $html .= ' <small>&rarr;</small>';
       $html .= '</a>';
       $html .= '</li>';
     }
