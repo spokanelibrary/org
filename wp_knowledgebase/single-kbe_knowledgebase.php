@@ -56,7 +56,7 @@ class SPL_DOM_TOC {
                               ,$heading);
             $this->html = str_ireplace($heading, $id, $this->html);
             
-            $this->toc[] = '<a href="#'.$this->prefix.'-'.$level.'-'.$h.'">'.$heading.'</a>';
+            $this->toc[] = '<a href="#'.$this->prefix.'-'.$level.'-'.$h.'">'.str_ireplace('<'.$level, '<'.$level.' style="margin:0; padding:0;"', $heading).'</a>';
 
           }  
         }       
