@@ -6,11 +6,7 @@
  */
 
 class SPL_DOM_TOC {
-  function __construct($content, $prefix='spl-dom-toc') {
-    return 'test';
-  }
   
-  /*
   var $toc;
   var $dom;
   var $menu;
@@ -19,6 +15,24 @@ class SPL_DOM_TOC {
   var $prefix;
   var $content;
   var $headings;
+
+  function __construct($content, $prefix='spl-dom-toc') {
+    $this->content = $content;
+    $this->prefix = $prefix;
+
+    $this->dom = new DOMDocument;
+    $this->dom->loadHTML($this->content);
+
+    $this->levels = array(1=>'h1'
+                        , 2=>'h2'
+                        , 3=>'h3'
+                        , 4=>'h4'
+                        , 5=>'h5'
+                        , 6=>'h6');
+  }
+  
+  /*
+  
     
   function __construct($content, $prefix='spl-dom-toc') {
     $this->content = $content;
