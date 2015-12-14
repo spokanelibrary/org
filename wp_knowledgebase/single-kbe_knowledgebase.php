@@ -60,6 +60,8 @@ class SPL_DOM_TOC {
         }       
       }
     }
+
+    $this->html = $this->content;
   }
 
   protected function renderHTML() {
