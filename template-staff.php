@@ -41,10 +41,20 @@ class SPL_StaffDirectoryShortcode {
     $staff = null;
     if ( is_array($posts) ) {
       foreach ( $posts as $post ) {
-        $staff .= '<h4>'.'<a href="'.'/staff/'.$post->post_name.'/'.'">'.$post->post_title.'</a>'.'</h4>'.PHP_EOL;
+        $permalink = '/staff/'.$post->post_name.'/';
+
+
+        $attachment_array = wp_get_attachment_image_src($post->ID));
+        $photo_url = $attachment_array[0];
+        $photo = '<a href="'.$permalink.'"><img style="height:80px;" class="img-responsive img-rounded" src="'.$photo_url.'"></a>';
+
+
+        $staff .= '<h4>'.'<a href="'.$permalink.'">'.$post->post_title.'</a>'.'</h4>'.PHP_EOL;
+        $staff .= '<p>'.$photo.'</p>';
       }
     }
-    return '<pre>'.print_r($posts, true).'</pre>';
+
+    //return '<pre>'.print_r($posts, true).'</pre>';
     return $staff;
   }
 
