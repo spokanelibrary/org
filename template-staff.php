@@ -38,7 +38,14 @@ class SPL_StaffDirectoryShortcode {
 
     $posts = get_posts($query_args);
 
-    return '<pre>'.print_r($posts, true).'</pre>';
+    $staff = null;
+    if ( is_array($posts) ) {
+      foreach ( $posts as $post ) {
+        $staff .= '<h4>'.$post->post_title.'</h4>'.PHP_EOL;
+      }
+    }
+    return $staff;
+    //return '<pre>'.print_r($posts, true).'</pre>';
   }
 
   static function shortcodeList($params) {
