@@ -12,6 +12,7 @@ Articles include brief instructions which will link to more detailed documents o
 </p>
 
 <?php echo spl_kbe_get_kb_category_menu(); ?>
+<hr>
 <?php echo spl_kbe_get_kb_category(); ?>
 
 
@@ -32,7 +33,14 @@ function spl_kbe_get_kb_category_menu($id=0) {
   
   $html = null;
   if ( is_array($terms) ) {
-    $html .= '<ul>';
+    $html .= '<div class="dropdown">';
+    $html .= '
+    <button class="btn btn-default dropdown-toggle" type="button" id="spl-kbe-category-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Knowledge Base Categories
+    <span class="caret"></span>
+    </button>'
+    ;
+    $html .= '<ul class="dropdown-menu" aria-labelledby="spl-kbe-category-menu">';
     foreach ( $terms as $term ) {
       $html .= '<li>';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
@@ -41,6 +49,7 @@ function spl_kbe_get_kb_category_menu($id=0) {
       $html .= '</li>';
     }
     $html .= '</ul>';
+    $html .= '</div>';
   }
 
   return $html;
