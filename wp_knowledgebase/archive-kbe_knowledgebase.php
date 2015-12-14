@@ -12,7 +12,6 @@ Articles include brief instructions which will link to more detailed documents o
 </p>
 
 <?php echo spl_kbe_get_kb_category_menu(); ?>
-<hr>
 <?php echo spl_kbe_get_kb_category(); ?>
 
 
@@ -53,6 +52,7 @@ function spl_kbe_get_kb_category_menu($id=0) {
       $html .= '</li>';
     }
     $html .= '</ul>';
+    $html .= '</div>';
     $html .= '</div>';
     $html .= '</div>';
     $html .= '</div>';
