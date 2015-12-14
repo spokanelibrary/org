@@ -73,8 +73,14 @@ class SPL_DOM_TOC {
 
   protected function renderMenu() {
     $this->menu = null;
-    foreach ( $this->toc as $toc ) {
-      $this->menu .= $toc.PHP_EOL;
+    if ( is_array($this->toc) && !empty($this->toc) ) {
+      $this->menu .= '<div class="panel panel-primary">'.PHP_EOL;
+      $this->menu .= '<div class="panel-body">'.PHP_EOL;
+      foreach ( $this->toc as $toc ) {
+        $this->menu .= $toc.PHP_EOL;
+      }
+      $this->menu .= '</div>'.PHP_EOL;
+      $this->menu .= '</div>'.PHP_EOL;
     }
   }
   
