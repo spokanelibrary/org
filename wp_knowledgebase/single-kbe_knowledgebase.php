@@ -6,7 +6,7 @@
  */
 
 class SPL_DOM_TOC {
-  
+  /*
   var $toc;
   var $dom;
   var $menu;
@@ -30,8 +30,8 @@ class SPL_DOM_TOC {
                         , 5=>'h5'
                         , 6=>'h6');
   }
+  */
   
-  /*
   
     
   function __construct($content, $prefix='spl-dom-toc') {
@@ -60,7 +60,7 @@ class SPL_DOM_TOC {
     return $domtoc;
   }
 
-  protected function getHeadings() {    
+  protected function setHeadings() {    
     foreach( $this->levels as $tag) {
       foreach($this->dom->getElementsByTagName($tag) as $node) {
           $matches[$node->getLineNo()] = $this->dom->saveHtml($node);
@@ -101,7 +101,7 @@ class SPL_DOM_TOC {
       $this->menu .= $toc.PHP_EOL;
     }
   }
-  */
+  
   
 } // SPL_Heading_Level_DOM_TOC
 ?>
