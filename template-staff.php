@@ -17,6 +17,8 @@ Template Name: Staff Page
 </div>
 </div>
 
+<h3>All Staff</h3>
+
 <?php
 
 class SPL_StaffDirectoryShortcode {
