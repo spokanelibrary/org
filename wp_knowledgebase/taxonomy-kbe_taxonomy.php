@@ -14,16 +14,21 @@
 
     <?php echo spl_kbe_get_kb_list_by_slug(get_queried_object()->slug); ?>
   </div><!-- /.col -->
+
+  <?php $subcategories = spl_kbe_get_kb_cat_by_term_id(get_queried_object()->term_id); ?>
+  <?php if ( !empty($subcategories) ) : ?> 
   <div class="col-md-4 col-lg-3">
     <div class="panel spl-hero-intranet spl-hero-brand-blue-c">
       <div class="panel-heading">
         <h4 class="">Subcategories</h4>
       </div>
       <div class="panel-body">
-        <?php echo spl_kbe_get_kb_cat_by_term_id(get_queried_object()->term_id); ?>    
+        <?php echo $subcategories; ?>    
       </div>
     </div>
   </div><!-- /.col -->
+  <?php endif; ?>
+
 </div><!-- /.row -->
 
 
