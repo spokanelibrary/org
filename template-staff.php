@@ -31,7 +31,7 @@ class SPL_StaffDirectoryShortcode {
     $query_args = array(
       'post_type' => 'staff'
       //,'taxonomy' => 'staff_category'
-      ,'order_by' => 'ASC'
+      ,'order_by' => 'DESC'
       ,'orderby' => 'title'
       ,'posts_per_page' => 10
     );
