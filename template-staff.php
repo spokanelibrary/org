@@ -32,7 +32,7 @@ class SPL_StaffDirectoryShortcode {
       'post_type' => 'staff'
       //,'taxonomy' => 'staff_category'
       ,'order_by' => 'title'
-      ,'posts_per_page' => 1
+      ,'posts_per_page' => 10
     );
 
     $posts = get_posts($query_args);
