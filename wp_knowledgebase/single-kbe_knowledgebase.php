@@ -79,12 +79,12 @@ class SPL_DOM_TOC {
       && $this->trigger <= count($this->toc) ) {
       //$this->menu .= '<div class="panel panel-primary">'.PHP_EOL;
       //$this->menu .= '<div class="panel-body">'.PHP_EOL;
-      $this->menu .= '<div class="alert alert-info">'.PHP_EOL;
+      $this->menu .= '<div class="well well-sm">'.PHP_EOL;
       $this->menu .= '<div class="row">'.PHP_EOL;
       $this->menu .= '<div class="col-sm-6 col-md-4">'.PHP_EOL;
       $this->menu .= '
       <div class="dropdown">
-        <button class="btn btn-inverse btn-info dropdown-toggle" type="button" id="'.$this->prefix.'-menu'.'" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <button class="btn btn-block btn-inverse dropdown-toggle" type="button" id="'.$this->prefix.'-menu'.'" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
           <i class="glyphicon glyphicon-list"></i> 
           Quick Links
           <span class="caret"></span>
