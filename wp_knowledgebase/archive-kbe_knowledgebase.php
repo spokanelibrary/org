@@ -13,7 +13,33 @@ Articles include brief instructions which will link to more detailed documents o
 
 <?php echo spl_kbe_get_kb_category(); ?>
 
+
+
+
+
 <?php 
+
+function spl_kbe_get_kb_category_menu($id=0) {
+  $html = null;
+  $args = array(
+                'orderby'       => 'terms_order', 
+                'order'         => 'ASC',
+                'hide_empty'    => true,
+                'parent'        => $id
+                );
+  $terms = get_terms(KBE_POST_TAXONOMY, $args);
+  if ( is_array($terms) ) {
+    $html .= '<ul>';
+    foreach ( $terms as $term ) {
+      $html .= '<li>';
+      $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= $term->name;
+      $html .= '</a>';
+      $html .= '</li>';
+    }
+    $html .= '</ul>';
+  }
+}
 
 function spl_kbe_get_kb_category($id=0) {
   $html = null;
