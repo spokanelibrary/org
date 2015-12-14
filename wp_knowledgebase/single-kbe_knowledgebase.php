@@ -56,7 +56,7 @@ class SPL_DOM_TOC {
                               ,$heading);
             $this->html = str_ireplace($heading, $id, $this->html);
             
-            $this->toc[] = '<a href="#'.$this->prefix.'-'.$level.'-'.$h.'">'.str_ireplace('<'.$level, '<'.$level.' style="margin:10px 0; padding:0;"', $heading).'</a>';
+            $this->toc[] = '<a href="#'.$this->prefix.'-'.$level.'-'.$h.'">'.str_ireplace('<'.$level, '<'.$level.' style="margin:6px 0; padding:0;"', $heading).'</a>';
 
           }  
         }       
@@ -76,9 +76,11 @@ class SPL_DOM_TOC {
     if ( is_array($this->toc) && !empty($this->toc) ) {
       //$this->menu .= '<div class="panel panel-primary">'.PHP_EOL;
       //$this->menu .= '<div class="panel-body">'.PHP_EOL;
+      $this->menu .= '<div class="row">'.PHP_EOL;
+      $this->menu .= '<div class="col-sm-6">'.PHP_EOL;
       $this->menu .= '
       <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" id="'.$this->prefix.'-menu'.'" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <button class="btn btn-block btn-primary dropdown-toggle" type="button" id="'.$this->prefix.'-menu'.'" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
             <i class="glyphicon glyphicon-list"></i> 
           Quick Links
           <span class="caret"></span>
@@ -92,7 +94,8 @@ class SPL_DOM_TOC {
         </ul>
       </div>
       ';
-      
+      $this->menu .= '</div>'.PHP_EOL;
+      $this->menu .= '</div>'.PHP_EOL;
       //$this->menu .= '</div>'.PHP_EOL;
       //$this->menu .= '</div>'.PHP_EOL;
       $this->menu .= '<hr>'.PHP_EOL;
