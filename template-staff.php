@@ -17,7 +17,7 @@ Template Name: Staff Page
 </div>
 </div>
 
-<h3>All Staff</h3>
+<h2>All Staff <small>A&mdash;Z</small></h2>
 
 <?php
 
