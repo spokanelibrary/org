@@ -7,8 +7,9 @@
 
 class SPL_DOM_TOC {
   
-  function __construct($content, $prefix='spl-dom-toc') {
+  function __construct($content, $trigger=3, $prefix='spl-dom-toc') {
     $this->content = $content;
+    $this->trigger = $trigger;
     $this->prefix = $prefix;
 
     $this->dom = new DOMDocument;
@@ -73,7 +74,7 @@ class SPL_DOM_TOC {
 
   protected function renderMenu() {
     $this->menu = null;
-    if ( is_array($this->toc) && !empty($this->toc) ) {
+    if ( is_array($this->toc) && !empty($this->toc) && $this->trigger <= count($this->toc) ) {
       //$this->menu .= '<div class="panel panel-primary">'.PHP_EOL;
       //$this->menu .= '<div class="panel-body">'.PHP_EOL;
       $this->menu .= '<div class="row">'.PHP_EOL;
