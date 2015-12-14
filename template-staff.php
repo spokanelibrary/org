@@ -17,15 +17,18 @@ Template Name: Staff Page
 </div>
 </div>
 
-<h2>All Staff <small>A&mdash;Z</small></h2>
-
 <?php
 
 class SPL_StaffDirectoryShortcode {
   static function register_shortcode() {
     //add_shortcode('spl-staff-directory', array('SPL_StaffDirectoryShortcode', 'shortcode'));
     add_shortcode('spl-staff-directory-list', array('SPL_StaffDirectoryShortcode', 'shortcodeList'));
+    add_shortcode('spl-staff-directory-all', array('SPL_StaffDirectoryShortcode', 'shortcodeAll'));
   
+  }
+
+  static function shortcodeAll($params) {
+
   }
 
   static function shortcodeList($params) {

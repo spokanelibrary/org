@@ -29,7 +29,7 @@
   if(has_post_thumbnail()) {
     $attachment_array = wp_get_attachment_image_src(get_post_thumbnail_id());
     $photo_url = $attachment_array[0];
-    $photo = '<a href="'.$permalink.'"><img style="height:70px;" class="img-responsive img-rounded" src="'.$photo_url.'"></a>';
+    $photo = '<a href="'.$permalink.'"><img style="height:80px;" class="img-responsive img-rounded" src="'.$photo_url.'"></a>';
   } else {
     $photo = '';
   }
@@ -58,7 +58,7 @@
   <h4><a href="<?php echo $permalink; ?>"><?php echo $name; ?></a></h4>
   <p><a href="<?php echo $permalink; ?>"><?php echo $photo; ?></a></p>
   <hr>
-  
+
   <?php
   /*
   <div class="panel spl-hero-intranet spl-hero spl-hero-brand-orange-a staff-directory" style="min-height:340px; background-color:#fff;">
