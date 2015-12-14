@@ -47,10 +47,10 @@ function spl_kbe_get_kb_category_menu($id=0) {
     foreach ( $terms as $term ) {
       $html .= '<li>';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
-      $html .= '<h5>';
+      $html .= '<b>';
       $html .= $term->name;
+      $html .= '</b>';
       $html .= '<small>&rarr;</small>';
-      $html .= '</h5>';
       $html .= '</a>';
       $html .= '</li>';
     }
