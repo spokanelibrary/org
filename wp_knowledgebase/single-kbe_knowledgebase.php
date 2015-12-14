@@ -6,7 +6,11 @@
  */
 
 class SPL_DOM_TOC {
-
+  function __construct($content, $prefix='spl-dom-toc') {
+    return 'test';
+  }
+  
+  /*
   var $toc;
   var $dom;
   var $menu;
@@ -83,6 +87,7 @@ class SPL_DOM_TOC {
       $this->menu .= $toc.PHP_EOL;
     }
   }
+  */
   
 } // SPL_Heading_Level_DOM_TOC
 ?>
@@ -97,7 +102,7 @@ class SPL_DOM_TOC {
 </div>
 
 <?php
-//$domtoc = new SPL_DOM_TOC(get_the_content());
+$domtoc = new SPL_DOM_TOC(get_the_content());
 
 
 /*
