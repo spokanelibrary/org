@@ -43,15 +43,16 @@ class SPL_StaffDirectoryShortcode {
       foreach ( $posts as $post ) {
         $permalink = '/staff/'.$post->post_name.'/';
 
-
+        /*
         $attachment_array = wp_get_attachment_image_src($post->ID);
         if ( is_array($attachment_array) ) {
           $photo_url = $attachment_array[0];
           $photo = '<a href="'.$permalink.'"><img style="height:80px;" class="img-responsive img-rounded" src="'.$photo_url.'"></a>';
         }
+        */
 
         $staff .= '<h4>'.'<a href="'.$permalink.'">'.$post->post_title.'</a>'.'</h4>'.PHP_EOL;
-        $staff .= '<p>'.$photo.'</p>';
+        $staff .= '<p>'.$post->ID.'</p>';
       }
     }
 
