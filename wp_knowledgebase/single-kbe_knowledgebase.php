@@ -50,7 +50,7 @@ class SPL_DOM_TOC {
       foreach ( $this->headings as $h => $heading ) {
         // does DOMDocument support injecting ids, anchors, etc?
         foreach ( $this->levels as $l => $level ) {
-          if ( stristr($heading, '<'.$level && !stristr($heading, 'href') ) ) {
+          if ( stristr($heading, '<'.$level ) && !stristr($heading, 'href') ) {
             $id = str_ireplace('<'.$level
                               ,'<'.$level.' style="padding-top:30px;" id="'.$this->prefix.'-'.$level.'-'.$h.'"'
                               ,$heading);
