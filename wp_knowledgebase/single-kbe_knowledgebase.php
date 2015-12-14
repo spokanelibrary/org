@@ -84,7 +84,7 @@ class SPL_DOM_TOC {
       $this->menu .= '<div class="col-sm-6 col-md-4">'.PHP_EOL;
       $this->menu .= '
       <div class="dropdown">
-        <button class="btn btn-block btn-success dropdown-toggle" type="button" id="'.$this->prefix.'-menu'.'" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <button class="btn btn-block btn-info dropdown-toggle" type="button" id="'.$this->prefix.'-menu'.'" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
             <i class="glyphicon glyphicon-list"></i> 
           Quick Links
           <span class="caret"></span>
