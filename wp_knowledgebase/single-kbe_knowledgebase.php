@@ -97,7 +97,7 @@ class SPL_DOM_TOC {
 </div>
 
 <?php
-//$domtoc = new SPL_DOM_TOC(get_the_content());
+$domtoc = new SPL_DOM_TOC(get_the_content());
 
 
 /*
