@@ -6,34 +6,7 @@
  */
 
 class SPL_DOM_TOC {
-  /*
-  var $toc;
-  var $dom;
-  var $menu;
-  var $html;
-  var $levels;
-  var $prefix;
-  var $content;
-  var $headings;
-
-  function __construct($content, $prefix='spl-dom-toc') {
-    $this->content = $content;
-    $this->prefix = $prefix;
-
-    $this->dom = new DOMDocument;
-    $this->dom->loadHTML($this->content);
-
-    $this->levels = array(1=>'h1'
-                        , 2=>'h2'
-                        , 3=>'h3'
-                        , 4=>'h4'
-                        , 5=>'h5'
-                        , 6=>'h6');
-  }
-  */
   
-  
-    
   function __construct($content, $prefix='spl-dom-toc') {
     $this->content = $content;
     $this->prefix = $prefix;
@@ -116,11 +89,7 @@ class SPL_DOM_TOC {
 </div>
 
 <?php
-$domtoc = new SPL_DOM_TOC(get_the_content());
 
-echo '<pre>';
-print_r($domtoc);
-echo '</pre>';
 /*
 $content = get_the_content();
 $toc = null;
@@ -171,8 +140,17 @@ if ( $matches && $matches['h3'] ){
 
 <div class="row">
   <div class="col-md-8 col-md-9">
+    <?php
+    $domtoc = new SPL_DOM_TOC(get_the_content());
+
+    echo $domtoc->toc;
+    echo $domtoc->html;
+    //echo '<pre>';
+    //print_r($domtoc);
+    //echo '</pre>';
+    ?>
     <?php //echo wpautop(get_the_content()); ?>
-    <?php the_content(); ?>
+    <?php //the_content(); ?>
     <?php //echo $toc; ?>
   </div><!-- /.col -->
   <div class="col-md-4 col-lg-3">
