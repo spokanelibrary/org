@@ -79,7 +79,7 @@ class SPL_DOM_TOC {
       && $this->trigger <= count($this->toc) ) {
       //$this->menu .= '<div class="panel panel-primary">'.PHP_EOL;
       //$this->menu .= '<div class="panel-body">'.PHP_EOL;
-      $this->menu .= '<div class="alert alert-primary">'.PHP_EOL;
+      $this->menu .= '<div class="alert alert-info">'.PHP_EOL;
       $this->menu .= '<div class="row">'.PHP_EOL;
       $this->menu .= '<div class="col-sm-6 col-md-4">'.PHP_EOL;
       $this->menu .= '
