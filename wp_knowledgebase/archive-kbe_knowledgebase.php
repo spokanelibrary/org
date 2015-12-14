@@ -33,9 +33,13 @@ function spl_kbe_get_kb_category_menu($id=0) {
   
   $html = null;
   if ( is_array($terms) ) {
+    $html .= '<div class="well well-sm">'.PHP_EOL;
+    $html .= '<div class="row">'.PHP_EOL;
+    $html .= '<div class="col-sm-6 col-md-4">'.PHP_EOL;
     $html .= '<div class="dropdown">';
     $html .= '
-    <button class="btn btn-default dropdown-toggle" type="button" id="spl-kbe-category-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    <button class="btn btn-block btn-inverse dropdown-toggle" type="button" id="spl-kbe-category-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    <i class="glyphicon glyphicon-list"></i> 
     Knowledge Base Categories
     <span class="caret"></span>
     </button>'
@@ -49,6 +53,8 @@ function spl_kbe_get_kb_category_menu($id=0) {
       $html .= '</li>';
     }
     $html .= '</ul>';
+    $html .= '</div>';
+    $html .= '</div>';
     $html .= '</div>';
   }
 
