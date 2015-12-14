@@ -28,7 +28,16 @@ class SPL_StaffDirectoryShortcode {
   }
 
   static function shortcodeAll($params) {
+    $query_args = array(
+      'post_type' => 'staff'
+      //,'taxonomy' => 'staff_category'
+      ,'order_by' => 'title'
+      ,'posts_per_page' => 1
+    );
 
+    $posts = get_posts($query_args);
+
+    return '<pre>'.print_r($posts, true).'</pre>';
   }
 
   static function shortcodeList($params) {
