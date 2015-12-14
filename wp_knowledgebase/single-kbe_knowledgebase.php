@@ -118,7 +118,9 @@ class SPL_DOM_TOC {
 <?php
 $domtoc = new SPL_DOM_TOC(get_the_content());
 
-
+echo '<pre>';
+print_r($domtoc);
+echo '<pre>';
 /*
 $content = get_the_content();
 $toc = null;
