@@ -33,7 +33,7 @@ class SPL_StaffDirectoryShortcode {
       //,'taxonomy' => 'staff_category'
       ,'order' => 'ASC'
       ,'orderby' => 'title'
-      ,'posts_per_page' => 10
+      ,'posts_per_page' => -1
     );
 
     $posts = get_posts($query_args);
@@ -61,7 +61,7 @@ class SPL_StaffDirectoryShortcode {
         }
         $i++;
       }
-      
+
       $staff .= '</div>'.PHP_EOL;
     }
     
