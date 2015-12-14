@@ -96,7 +96,7 @@ function spl_kbe_get_kb_list_by_slug($slug) {
         $html .= '<h4>';
         $html .= '<small class="glyphicon glyphicon-list-alt"></small> ';
         $html .= '<a href="'.get_the_permalink().'" rel="bookmark">';
-        $html .= get_the_title();
+        $html .= get_the_title() . ' test';
         $html .= '</a>';
         $html .= '</h4>';
         $html .= '</div>';
