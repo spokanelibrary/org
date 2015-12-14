@@ -52,7 +52,7 @@ class SPL_DOM_TOC {
         foreach ( $this->levels as $l => $level ) {
           if ( stristr($heading, '<'.$level ) && !stristr($heading, 'href') ) {
             $id = str_ireplace('<'.$level
-                              ,'<'.$level.' style="padding-top:30px;" id="'.$this->prefix.'-'.$level.'-'.$h.'"'
+                              ,'<'.$level.' style="margin:0; padding-top:30px 0 0 0;" id="'.$this->prefix.'-'.$level.'-'.$h.'"'
                               ,$heading);
             $this->html = str_ireplace($heading, $id, $this->html);
             
