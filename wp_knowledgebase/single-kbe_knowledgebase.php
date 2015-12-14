@@ -44,6 +44,8 @@ class SPL_DOM_TOC {
   }
 
   protected function parseDOM() {
+    $this->html = $this->content;
+    
     if ( is_array($this->headings) ){
       foreach ( $this->headings as $h => $heading ) {
         // does DOMDocument support injecting ids, anchors, etc?
@@ -52,16 +54,15 @@ class SPL_DOM_TOC {
             $id = str_ireplace('<'.$level
                               ,'<'.$level.' id="'.$this->prefix.'-'.$level.'-'.$h.'"'
                               ,$heading);
-            //$this->html = str_ireplace($heading, $id, $this->html);
+            $this->html = str_ireplace($heading, $id, $this->html);
             
             $this->toc[] = '<a href="#'.$this->prefix.'-'.$level.'-'.$h.'">'.$heading.'</a>';
 
           }  
         }       
       }
-    }
+    } 
 
-    $this->html = $this->content;
   }
 
   protected function renderHTML() {
