@@ -45,14 +45,14 @@ class SPL_DOM_TOC {
 
   protected function parseDOM() {
     $this->html = $this->content;
-    
+
     if ( is_array($this->headings) ){
       foreach ( $this->headings as $h => $heading ) {
         // does DOMDocument support injecting ids, anchors, etc?
         foreach ( $this->levels as $l => $level ) {
           if ( stristr($heading, '<'.$level) ) {
             $id = str_ireplace('<'.$level
-                              ,'<'.$level.' id="'.$this->prefix.'-'.$level.'-'.$h.'"'
+                              ,'<'.$level.' style="padding-top:30px;" id="'.$this->prefix.'-'.$level.'-'.$h.'"'
                               ,$heading);
             $this->html = str_ireplace($heading, $id, $this->html);
             
