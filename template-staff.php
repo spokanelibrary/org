@@ -57,7 +57,7 @@ class SPL_StaffDirectoryShortcode {
       }
       $staff .= '</div>'.PHP_EOL;
 
-      if ( 0 == $i % 3 ) 
+      if ( 0 == $i % 3 ) {
         $staff .= '<div class="clearfix"></div>'.PHP_EOL;
       }
       $i++;
