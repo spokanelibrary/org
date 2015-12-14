@@ -12,6 +12,8 @@ Articles include brief instructions which will link to more detailed documents o
 </p>
 
 <?php echo spl_kbe_get_kb_category_menu(); ?>
+
+<h3>Frequently Used Articles</h3>
 <?php echo spl_kbe_get_kb_category(); ?>
 
 
