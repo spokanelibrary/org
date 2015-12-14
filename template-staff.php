@@ -44,7 +44,7 @@ class SPL_StaffDirectoryShortcode {
         $staff .= '<h4>'.'<a href="'.'/staff/'.$post->post_name.'/'.'">'.$post->post_title.'</a>'.'</h4>'.PHP_EOL;
       }
     }
-    //return '<pre>'.print_r($posts, true).'</pre>';
+    return '<pre>'.print_r($posts, true).'</pre>';
     return $staff;
   }
 
