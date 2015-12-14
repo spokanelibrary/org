@@ -143,7 +143,7 @@ if ( $matches && $matches['h3'] ){
     <?php
     $domtoc = new SPL_DOM_TOC(get_the_content());
 
-    echo $domtoc->toc;
+    echo $domtoc->menu;
     echo $domtoc->html;
     //echo '<pre>';
     //print_r($domtoc);
