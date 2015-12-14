@@ -108,8 +108,9 @@ class SPL_DOM_TOC {
   }
   
   
-} // SPL_Heading_Level_DOM_TOC
+} // SPL_DOM_TOC
 ?>
+
 <?php while(have_posts()) : ?>
 <?php the_post(); ?>
 <?php kbe_set_post_views(get_the_ID()); ?>
@@ -120,70 +121,16 @@ class SPL_DOM_TOC {
   </h1>
 </div>
 
-<?php
-
-/*
-$content = get_the_content();
-$toc = null;
-$dom = new DOMDocument;
-$dom->loadHTML($content);
-*/
-
-
-/*
-foreach($dom->getElementsByTagName('h2') as $node) {
-    $matches['heading-two'][] = $dom->saveHtml($node);
-}
-*/
-
-
-
-/*
-foreach($dom->getElementsByTagName('h3') as $node) {
-    $matches['h3'][] = $dom->saveHtml($node);
-}
-*/
-
-/*
-foreach($dom->getElementsByTagName('h2') as $node) {
-    $key = $dom->saveHtml($node);
-    $matches[$key] = array();
-    while(($node = $node->nextSibling) && $node->nodeName !== 'h2') {
-        if($node->nodeName == 'h3') {
-            $matches[$key][] = $dom->saveHtml($node);   
-        }
-    }
-}
-*/
-
-/*
-$toc = '';
-if ( $matches && $matches['h3'] ){
-  foreach ( $matches['h3'] as $h => $three ) {
-    $str = '<h3 id="h3-'.$h.'"';
-    $id = substr_replace('<h3', $str);
-    //$content = substr_replace(string, replacement, start)
-    $toc .= '<a href="#h3-'.$h.'">'.$three.'</a>';
-  }
-  //print_r($matches);
-}
-*/
-?>
 
 <div class="row">
   <div class="col-md-8 col-md-9">
     <?php
     $domtoc = new SPL_DOM_TOC(get_the_content());
-
     echo $domtoc->menu;
     echo $domtoc->html;
-    //echo '<pre>';
-    //print_r($domtoc);
-    //echo '</pre>';
     ?>
     <?php //echo wpautop(get_the_content()); ?>
     <?php //the_content(); ?>
-    <?php //echo $toc; ?>
   </div><!-- /.col -->
   <div class="col-md-4 col-lg-3">
 
