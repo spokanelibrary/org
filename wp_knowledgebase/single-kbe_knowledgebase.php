@@ -95,6 +95,7 @@ class SPL_DOM_TOC {
       
       //$this->menu .= '</div>'.PHP_EOL;
       //$this->menu .= '</div>'.PHP_EOL;
+      $this->menu .= '<hr>'.PHP_EOL;
     }
   }
   
