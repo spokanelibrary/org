@@ -32,8 +32,8 @@
 function spl_kbe_get_kb_cat_by_term_id($id) {
   $html = null;
   $args = array(
-                'orderby'       => 'terms_order', 
-                //'orderby'       => 'title', 
+                //'orderby'       => 'terms_order', 
+                'orderby'       => 'title', 
                 'order'         => 'ASC',
                 'hide_empty'    => true,
                 'parent'        => $id
@@ -47,7 +47,7 @@ function spl_kbe_get_kb_cat_by_term_id($id) {
       $html .= '<li>';
       $html .= '<b class="uppercase">';
       $html .= '<span class="label label-warning pull-right">';
-      $html .= $term->count . ' test';
+      $html .= $term->count;
       $html .= '</span>';
       $html .= '<small>';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
@@ -73,7 +73,8 @@ function spl_kbe_get_kb_list_by_slug($slug) {
     $args = array(
     'post_type' => KBE_POST_TYPE,
     'posts_per_page' => -1,
-    'orderby' => 'menu_order',
+    //'orderby' => 'menu_order',
+    'orderby' => 'title',
     'order' => 'ASC',
     'tax_query' => array(
       array(
