@@ -46,11 +46,11 @@ function spl_kbe_get_kb_category_menu($id=0) {
     $html .= '<ul class="dropdown-menu" aria-labelledby="spl-kbe-category-menu">';
     foreach ( $terms as $term ) {
       $html .= '<li>';
-      $html .= '<h4>';
       $html .= '<a href="'.get_term_link($term->slug, 'kbe_taxonomy').'">';
+      $html .= '<h4>';
       $html .= $term->name;
-      $html .= '</a>';
       $html .= '</h4>';
+      $html .= '</a>';
       $html .= '</li>';
     }
     $html .= '</ul>';
