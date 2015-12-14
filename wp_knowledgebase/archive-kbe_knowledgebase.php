@@ -11,6 +11,7 @@ Articles include brief instructions which will link to more detailed documents o
 <a href="/kb/knowledge-base-guidelines-editing/"><b>More information on KB Guidelines &amp; Editing</b></a> <small>&rarr;</small>
 </p>
 
+<?php echo spl_kbe_get_kb_category_menu(); ?>
 <?php echo spl_kbe_get_kb_category(); ?>
 
 
@@ -28,6 +29,8 @@ function spl_kbe_get_kb_category_menu($id=0) {
                 'parent'        => $id
                 );
   $terms = get_terms(KBE_POST_TAXONOMY, $args);
+  
+  $html = null;
   if ( is_array($terms) ) {
     $html .= '<ul>';
     foreach ( $terms as $term ) {
@@ -39,6 +42,8 @@ function spl_kbe_get_kb_category_menu($id=0) {
     }
     $html .= '</ul>';
   }
+
+  return $html;
 }
 
 function spl_kbe_get_kb_category($id=0) {
