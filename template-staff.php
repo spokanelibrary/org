@@ -47,6 +47,8 @@ class SPL_StaffDirectoryShortcode {
         $staff .= '<div class="col-sm-4">'.PHP_EOL;
         $permalink = '/staff/'.$post->post_name.'/';
         $attachment_array = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID));
+        $photo = null;
+        $photo_url = null;
         if ( is_array($attachment_array) ) {
           $photo_url = $attachment_array[0];
           $photo = '<a href="'.$permalink.'"><img style="height:80px;" class="img-responsive img-rounded" src="'.$photo_url.'"></a>';
