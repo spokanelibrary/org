@@ -45,7 +45,7 @@
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<p>
-			<a href="/learningexpress/"><img src="/assets/img/db/LearningExpressLibrary.png"></a>
+			<a href="/learningexpress/"><img src="/assets/img/db/LearningExpressLibrary.gif"></a>
 		</p>
 		<h5>Learning Express</h5>
 		<p>
