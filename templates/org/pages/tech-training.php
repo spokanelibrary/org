@@ -49,7 +49,7 @@
 		</p>
 		<h5>Learning Express</h5>
 		<p>
-			Online test preparation tutorials, practice tests, and ebooks, including GED, SAT, and occupational exams .
+			Online test preparation tutorials, practice tests, and ebooks, including GED, SAT, and occupational exams.
 		</p>
 		<p>
 			<a class="btn btn-block btn-primary" 
