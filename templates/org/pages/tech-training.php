@@ -43,6 +43,19 @@
 					href="/pronunciator/">More about <b>Pronunciator</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
+	<div class="col-md-6">
+		<p>
+			<a href="/learningexpress/"><img src="/assets/img/db/LearningExpressLibrary.png"></a>
+		</p>
+		<h5>Learning Express</h5>
+		<p>
+			Online test preparation tutorials, practice tests, and ebooks, including GED, SAT, and occupational exams .
+		</p>
+		<p>
+			<a class="btn btn-block btn-primary" 
+					href="/learningexpress/">More about <b>Learning Express</b> &rarr;</a>
+		</p>
+	</div><!-- /.col -->
 </div><!-- /.row -->
 
 <hr>
