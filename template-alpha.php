@@ -123,7 +123,7 @@ if ( !empty($spl_home) ): ;
 
     <div class="panel spl-hero-panel spl-hero-muted">
       <div class="panel-body">
-        <?php echo do_shortcode('[spl_widget home-page news-mailgun]'); ?>
+        <img class="img-responsive" style="margin:auto; width:300px;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">
       </div>
     </div>
 
