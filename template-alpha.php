@@ -134,14 +134,14 @@ if ( !empty($spl_home) ): ;
               Are you inspired by someone in the city of Spokane who has made significant contributions to the development and quality of life in our community?
               We invite you to tell us.
               <br>
-              <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominate someone for the Spokane Citize Hall of Fame</b> &rarr;</a>
+              <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominate someone for the Spokane Citizen Hall of Fame</b></a> <small class="text-muted">&rarr;</small>
             </p>
           </div>
           <div class="col-md-6">
             <p>
               There will be a breakfast on Thursday, April 14th at 7:30 am. in the Grand Pennington Ballroom of the Davenport Hotel to announce the names of the honored individuals.
               <br>
-              <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Get your tickets today</b> &rarr;</a>
+              <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Get your tickets today</b></a> <small class="text-muted">&rarr;</small>
             </p>
           </div>
         </div>
