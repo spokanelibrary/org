@@ -127,6 +127,7 @@ if ( !empty($spl_home) ): ;
         <a href="http://www.spokanelibraryfoundation.org/nominate/">
           <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">
         </a>
+        <hr>
         <div class="row">
           <div class="col-md-6">
             <p>
@@ -144,6 +145,7 @@ if ( !empty($spl_home) ): ;
             </p>
           </div>
         </div>
+        </hr>
         <p class="text-center">
           <a class="btn btn-danger" href="/chof/"><b>See the 2015 Inductees</b> &rarr;</a>
         </p>
