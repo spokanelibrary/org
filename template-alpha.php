@@ -123,7 +123,14 @@ if ( !empty($spl_home) ): ;
 
     <div class="panel spl-hero-panel spl-hero-muted">
       <div class="panel-body">
-        <img class="img-responsive" style="margin:auto; width:300px;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">
+        <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">
+        <h4 class="text-center">Nominations now open!</h4>
+        <p>
+          Are you inspired by someone in the city of Spokane who has made significant contributions to the development and quality of life in our community?
+        </p>
+        <p>
+          <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominate someone now</b> &rarr;</a>
+        </p>
       </div>
     </div>
 
