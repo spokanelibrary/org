@@ -127,7 +127,6 @@ if ( !empty($spl_home) ): ;
         <a href="http://www.spokanelibraryfoundation.org/nominate/">
           <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">
         </a>
-        <hr>
         <p>
           Are you inspired by someone in the city of Spokane who has made significant contributions to the development and quality of life in our community?
           We invite you to tell us.
