@@ -123,8 +123,9 @@ if ( !empty($spl_home) ): ;
 
     <div class="panel spl-hero-panel spl-hero-muted">
       <div class="panel-body">
-        <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">
-        <b class="text-center text-warning">Nominations now open!</b>
+        <a href="http://www.spokanelibraryfoundation.org/nominate/">
+          <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">
+        </a>
         <p>
           Are you inspired by someone in the city of Spokane who has made significant contributions to the development and quality of life in our community?
           We invite you to tell us.
