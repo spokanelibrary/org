@@ -127,20 +127,25 @@ if ( !empty($spl_home) ): ;
         <a href="http://www.spokanelibraryfoundation.org/nominate/">
           <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">
         </a>
-        <p>
-          Are you inspired by someone in the city of Spokane who has made significant contributions to the development and quality of life in our community?
-          We invite you to tell us.
-          <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominate someone for the Spokane Citize Hall of Fame</b> &rarr;</a>
-        </p>
-        <hr>
-        <p>
-          There will be a breakfast on Thursday, April 14th at 7:30 am. in the Grand Pennington Ballroom of the Davenport Hotel to announce the names of the honored individuals.
-          <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Get your tickets today</b> &rarr;</a>
-        </p>
-        <hr>
-        <p class="text-center">
-          <a class="btn btn-danger" href="/chof/"><b>See the 2015 Inductees</b> &rarr;</a>
-        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              Are you inspired by someone in the city of Spokane who has made significant contributions to the development and quality of life in our community?
+              We invite you to tell us.
+              <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominate someone for the Spokane Citize Hall of Fame</b> &rarr;</a>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              There will be a breakfast on Thursday, April 14th at 7:30 am. in the Grand Pennington Ballroom of the Davenport Hotel to announce the names of the honored individuals.
+              <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Get your tickets today</b> &rarr;</a>
+            </p>
+            <hr>
+            <p class="text-center">
+              <a class="btn btn-danger" href="/chof/"><b>See the 2015 Inductees</b> &rarr;</a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
