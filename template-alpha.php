@@ -123,7 +123,7 @@ if ( !empty($spl_home) ): ;
 
     <div class="panel spl-hero-panel spl-hero-muted">
       <div class="panel-body">
-        <h5>Citizen Hall of Fame</h5>
+        <h5>Spokane Citizen Hall of Fame</h5>
         <a href="http://www.spokanelibraryfoundation.org/nominate/">
           <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">
         </a>
@@ -131,6 +131,10 @@ if ( !empty($spl_home) ): ;
           Are you inspired by someone in the city of Spokane who has made significant contributions to the development and quality of life in our community?
           We invite you to tell us.
           <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominate someone for the Spokane Citize Hall of Fame</b> &rarr;</a>
+        </p>
+        <p>
+          There will be a breakfast on Thursday, April 14th at 7:30 am. in the Grand Pennington Ballroom of the Davenport Hotel to announce the names of the honored individuals.
+          <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Get your tickets today</b> &rarr;</a>
         </p>
       </div>
     </div>
