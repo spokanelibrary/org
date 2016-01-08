@@ -139,7 +139,7 @@ if ( !empty($spl_home) ): ;
         </p>
         <hr>
         <p class="text-center">
-          <a class="btn btn-default" href="/chof/"><b>See the 2015 Inductees</b> &rarr;</a>
+          <a class="btn btn-danger" href="/chof/"><b>See the 2015 Inductees</b> &rarr;</a>
         </p>
       </div>
     </div>
