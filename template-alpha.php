@@ -130,23 +130,24 @@ if ( !empty($spl_home) ): ;
             <div class="row">
               <div class="col-md-6">
                 <a href="http://www.spokanelibraryfoundation.org/nominate/">
-                  <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-clocktower.png">
-                  <br>
                   <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-logotype-crop.png">
                 </a>
               </div>
               <div class="col-md-6">
-                <p>
-                  <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominate are open</b></a> <small class="text-muted">&rarr;</small>
-                </p>
-                <p>
-                  <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Attend the awards breakfast</b></a> <small class="text-muted">&rarr;</small>
-                </p>
-                <p class="text-center">
-                  <a class="btn btn-alt" href="/chof/"><b>See the 2015 Inductees</b> &rarr;</a>
-                </p>
+                <a href="http://www.spokanelibraryfoundation.org/nominate/">
+                  <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-clocktower.png">
+                </a>
               </div>
             </div>
+            <p>
+              <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominate are open</b></a> <small class="text-muted">&rarr;</small>
+            </p>
+            <p>
+              <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Attend the awards breakfast</b></a> <small class="text-muted">&rarr;</small>
+            </p>
+            <p class="text-center">
+              <a class="btn btn-alt" href="/chof/"><b>See the 2015 Inductees</b> &rarr;</a>
+            </p>
           </div>
         </div>
       </div><!-- /.col -->
