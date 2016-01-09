@@ -156,7 +156,7 @@ if ( !empty($spl_home) ): ;
           </div>
         </div>
       </div><!-- /.col -->
-      <div class="col-md-8">
+      <div class="col-md-9">
         <div class="panel spl-hero-panel spl-hero-news">
           <div class="panel-body">
             <?php echo do_shortcode('[spl_widget home-page news-mailgun]'); ?>
