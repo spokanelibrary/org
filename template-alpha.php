@@ -137,7 +137,7 @@ if ( !empty($spl_home) ): ;
                 </p>
               </div>
               <div class="col-md-6">
-                <a href="http://www.spokanelibraryfoundation.org/nominate/">
+                <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302">
                   <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-clocktower.png">
                 </a>
                 <p class="text-center">
