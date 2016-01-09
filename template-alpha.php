@@ -141,7 +141,7 @@ if ( !empty($spl_home) ): ;
                   <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Attend the awards breakfast</b></a> <small class="text-muted">&rarr;</small>
                 </p>
                 <p class="text-center">
-                  <a class="btn btn-danger" href="/chof/"><b>See the 2015 Inductees</b> &rarr;</a>
+                  <a class="btn btn-alt" href="/chof/"><b>See the 2015 Inductees</b> &rarr;</a>
                 </p>
               </div>
             </div>
