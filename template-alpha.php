@@ -170,7 +170,8 @@ if ( !empty($spl_home) ): ;
       <div class="panel-body">
         <h5>Spokane Citizen Hall of Fame</h5>
         <a href="http://www.spokanelibraryfoundation.org/nominate/">
-          <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">
+          <!-- <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">-->
+          <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-logotype-crop.png">
         </a>
         <hr>
         <div class="row">
