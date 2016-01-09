@@ -139,15 +139,12 @@ if ( !empty($spl_home) ): ;
                 </a>
               </div>
             </div>
-            <p class="text-center">
-              <a class="btn btn-alt btn-block" href="/chof/">See the 2015 Inductees &rarr;</a>
-            </p>
             <p>
               <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominations are open</b></a> <small class="text-muted">&rarr;</small>
               &nbsp;
               <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Attend the awards breakfast</b></a> <small class="text-muted">&rarr;</small>
             </p>
-            
+            <a class="btn btn-alt btn-block" href="/chof/">See the 2015 Inductees &rarr;</a>
           </div>
         </div>
       </div><!-- /.col -->
