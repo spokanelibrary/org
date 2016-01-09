@@ -132,18 +132,19 @@ if ( !empty($spl_home) ): ;
                 <a href="http://www.spokanelibraryfoundation.org/nominate/">
                   <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-logotype-crop.png">
                 </a>
+                <p class="text-center">
+                  <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominations are open</b></a> <small class="text-muted">&rarr;</small>
+                </p>
               </div>
               <div class="col-md-6">
                 <a href="http://www.spokanelibraryfoundation.org/nominate/">
                   <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-clocktower.png">
                 </a>
+                <p class="text-center">
+                  <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Attend the awards</b></a> <small class="text-muted">&rarr;</small>
+                </p>
               </div>
             </div>
-            <p>
-              <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominations are open</b></a> <small class="text-muted">&rarr;</small>
-              &nbsp;
-              <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Attend the awards breakfast</b></a> <small class="text-muted">&rarr;</small>
-            </p>
             <a class="btn btn-alt btn-block" href="/chof/">See the 2015 Inductees &rarr;</a>
           </div>
         </div>
@@ -157,6 +158,44 @@ if ( !empty($spl_home) ): ;
       </div><!-- /.col -->
     </div><!-- /.row -->
 
+    <!--
+    <div class="panel spl-hero-panel spl-hero-muted">
+      <div class="panel-body">
+        <h5>Spokane Citizen Hall of Fame</h5>
+        <a href="http://www.spokanelibraryfoundation.org/nominate/">
+          <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibraryfoundation.org/wordpress/wp-content/uploads/SCHoF-logo.png">
+        </a>
+        <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              Are you inspired by someone in the city of Spokane who has made significant contributions to the development and quality of life in our community?
+              We invite you to tell us.
+              <br>
+              <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominate someone for the Spokane Citizen Hall of Fame</b></a> <small class="text-muted">&rarr;</small>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              There will be a breakfast on Thursday, April 14th at 7:30 am. in the Grand Pennington Ballroom of the Davenport Hotel to announce the names of the honored individuals.
+              <br>
+              <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Get your tickets today</b></a> <small class="text-muted">&rarr;</small>
+            </p>
+          </div>
+        </div>
+        <hr>
+        <p class="text-center">
+          <a class="btn btn-danger" href="/chof/"><b>See the 2015 Inductees</b> &rarr;</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="panel spl-hero-panel spl-hero-news">
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget home-page news-mailgun]'); ?>
+      </div>
+    </div>
+    -->
 
     <div class="panel spl-hero-panel spl-hero-browse">
       <!--
