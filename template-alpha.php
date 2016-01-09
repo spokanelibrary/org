@@ -156,6 +156,13 @@ if ( !empty($spl_home) ): ;
           </div>
         </div>
       </div><!-- /.col -->
+      <div class="col-md-3">
+        <div class="panel spl-hero-panel spl-hero-news">
+          <div class="panel-body">
+            Test
+          </div>
+        </div>
+      </div><!-- /.col -->
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-news">
           <div class="panel-body">
