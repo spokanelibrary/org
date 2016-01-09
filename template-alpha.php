@@ -130,6 +130,8 @@ if ( !empty($spl_home) ): ;
             <div class="row">
               <div class="col-md-6">
                 <a href="http://www.spokanelibraryfoundation.org/nominate/">
+                  <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-clocktower.png">
+                  <br>
                   <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-logotype-crop.png">
                 </a>
               </div>
