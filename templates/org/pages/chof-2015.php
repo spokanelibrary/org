@@ -316,7 +316,7 @@
 
 <!-- SPONSORS -->
 	
-<h5 class="text-center uppercase text-muted">Thanks to our generous sponsors:</h5>
+<h5 class="text-center uppercase text-muted">Thanks to our generous 2015 sponsors:</h5>
 <div class="row chof-row">
 	<div class="col-sm-2 col-sm-offset-1">
 		<p>
