@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home Page
+Template Name: Home Page v7
 */
 ?>
 
@@ -105,40 +105,11 @@ Template Name: Home Page
 
     </div><!-- /.row -->
 
-    <div class="row">
-      <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-muted">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-6">
-                <a href="http://www.spokanelibraryfoundation.org/nominate/">
-                  <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-logotype-crop.png">
-                </a>
-                <p class="text-center">
-                  <a href="http://www.spokanelibraryfoundation.org/nominate/"><b>Nominations are open</b></a> <small class="text-muted">&rarr;</small>
-                </p>
-              </div>
-              <div class="col-md-6">
-                <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302">
-                  <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-clocktower.png">
-                </a>
-                <p class="text-center">
-                  <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Attend the awards</b></a> <small class="text-muted">&rarr;</small>
-                </p>
-              </div>
-            </div>
-            <a class="btn btn-alt btn-block" href="/chof/">See the 2015 Inductees &rarr;</a>
-          </div>
-        </div>
-      </div><!-- /.col -->
-      <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-news">
-          <div class="panel-body">
-            <?php echo do_shortcode('[spl_widget home-page news-mailgun]'); ?>
-          </div>
-        </div>
-      </div><!-- /.col -->
-    </div><!-- /.row -->
+    <div class="panel spl-hero-panel spl-hero-news">
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget home-page news-mailgun]'); ?>
+      </div>
+    </div>
 
     <div class="panel spl-hero-panel spl-hero-browse">
       <!--
