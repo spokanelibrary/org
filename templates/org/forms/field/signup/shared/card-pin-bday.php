@@ -2,7 +2,7 @@
   <?php include 'card-pin.php'; ?>
   <label for="spl-form-birthdate" class="col-sm-3 control-label">My birthday</label>
   <div class="col-sm-3">
-    <input type="text" class="form-control required" id="spl-form-birthdate" name="spl-form[signup][birthdate]" value="" placeholder="mm/dd/yy">
+    <input type="text" class="form-control required" id="spl-form-birthdate" name="spl-form[signup][birthdate]" value="" placeholder="mm/dd/yyyy">
     <a href="#signup-help-dob" 
         class="btn btn-link"
         data-toggle="collapse">Why do we ask? <span class="caret"></span></a> 
