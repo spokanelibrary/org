@@ -68,7 +68,7 @@
 		    <h4 class="media-heading">
 		    	<a href="/research/">Subscription databases</a>
 		    </h4>
-	    	Wide ranging topics, from <a href="/research/#aps">scientific journals</a> and <a href="/subscriptions/#aarc">auto repair</a> to <a href="/subscriptions/#morn">investment research</a> and <a href="/subscriptions/#wslf">legal forms</a>.
+	    	Wide ranging topics, from <a href="/research/#aps">scientific journals</a> and <a href="/research/#aarc">auto repair</a> to <a href="/research/#morn">investment research</a> and <a href="/research/#wslf">legal forms</a>.
 	    	<a href="/research/#all"><b>View all</b> &rarr;</a>
 		  </div>
 		</div><!-- /.media -->
