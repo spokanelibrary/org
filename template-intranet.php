@@ -83,7 +83,7 @@ Template Name: Intranet Home Page
           href="http://files.spokanelibrary.org/Meeting-Minutes/">
           Browse Meeting Minutes &rarr;</a>
           <hr>
-          
+
         <?php echo do_shortcode('[spl_widget category-posts slug=meeting-minutes count=3 format=excerpt size=sm]'); ?>
       </div><!-- /.panel-body -->
       <div class="panel-footer text-right">
@@ -91,19 +91,21 @@ Template Name: Intranet Home Page
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
 
+    <!--
     <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
       <div class="panel-heading">
         <h4>
         <i class="glyphicon glyphicon-cog"></i>
         Tech Bulletins</h4>
-      </div><!-- /.panel-heading -->
+      </div>
       <div class="panel-body">
-        <?php echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt size=sm]'); ?>
-      </div><!-- /.panel-body -->
+        <?php //echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt size=sm]'); ?>
+      </div>
       <div class="panel-footer text-right">
         <a class="" href="/news/tech/"><b>More</b> Tech Bulletins</a>&nbsp;<small class="text-muted">&rarr;</small> 
-      </div><!-- /.panel-footer -->
-    </div><!-- /.panel -->
+      </div>
+    </div>
+    -->
 
     <div class="panel spl-hero-intranet spl-hero-brand-purple-a">
       <div class="panel-heading">
