@@ -79,7 +79,7 @@ Template Name: Intranet Home Page
         Meeting Minutes</h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">
-        <a class="btn btn-default" 
+        <a class="btn btn-inverse btn-block" 
           href="http://files.spokanelibrary.org/Meeting-Minutes/">
           Find Meeting Minutes &rarr;</a>
         <?php echo do_shortcode('[spl_widget category-posts slug=meeting-minutes count=3 format=excerpt size=sm]'); ?>
