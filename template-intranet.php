@@ -76,6 +76,20 @@ Template Name: Intranet Home Page
       <div class="panel-heading">
         <h4>
         <i class="glyphicon glyphicon-cog"></i>
+        Meeting Minutes</h4>
+      </div><!-- /.panel-heading -->
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget category-posts slug=meeting-minutes count=3 format=excerpt size=sm]'); ?>
+      </div><!-- /.panel-body -->
+      <div class="panel-footer text-right">
+        <a class="" href="/news/meeting-minutes/"><b>More</b> Meeting Minutes</a>&nbsp;<small class="text-muted">&rarr;</small> 
+      </div><!-- /.panel-footer -->
+    </div><!-- /.panel -->
+
+    <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
+      <div class="panel-heading">
+        <h4>
+        <i class="glyphicon glyphicon-cog"></i>
         Tech Bulletins</h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">
@@ -123,7 +137,7 @@ Template Name: Intranet Home Page
         <div class="fb-page" data-href="https://www.facebook.com/spokanelibrary" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/spokanelibrary"><a href="https://www.facebook.com/spokanelibrary">Spokane Public Library</a></blockquote></div></div>
 
         <hr>
-        
+
         <a class="twitter-timeline"  href="https://twitter.com/spokanelibrary" data-widget-id="664129522216755200">Tweets by @spokanelibrary</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       
