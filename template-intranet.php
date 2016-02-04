@@ -79,7 +79,8 @@ Template Name: Intranet Home Page
         Solutions Teams</h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">
-          <a href="/teams/">Find a team &rarr;</a>          
+          <i class="glyphicon glyphicon-ok-sign"></i>
+          <a href="/teams/">Join a team &rarr;</a>          
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
