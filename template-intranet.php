@@ -72,6 +72,17 @@ Template Name: Intranet Home Page
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
+    <div class="panel spl-hero-intranet spl-hero-brand-blue-d hidden-xs">
+      <div class="panel-heading">
+        <h4>
+        <i class="glyphicon glyphicon-list"></i>
+        Solutions Teams</h4>
+      </div><!-- /.panel-heading -->
+      <div class="panel-body">
+          <a href="/teams/">Find a team &rarr;</a>          
+      </div><!-- /.panel-body -->
+    </div><!-- /.panel -->
+
     <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
       <div class="panel-heading">
         <h4>
