@@ -80,7 +80,7 @@ Template Name: Intranet Home Page
       </div><!-- /.panel-heading -->
       <div class="panel-body">
           <a href="/teams/">
-            <i class="glyphicon glyphicon-ok-sign"></i>
+            <small class="glyphicon glyphicon-ok-sign"></small>
             Join a team &rarr;</a>          
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
