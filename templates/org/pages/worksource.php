@@ -9,14 +9,14 @@
 </p>
 
 <img class="alignright" src="/assets/img/logos/Worksource_Spokane.jpg">
-<h3 class="text-success">Scheduled open hours</h3>
+<h3 class="text-success">Scheduled WorkSource hours</h3>
 <dl class="dl-horizontal">
 <dt>Tuesday</dt>
 <dd>4&ndash;8pm <b>@ <a href="/shadle/">Shadle Library</a></b></dd>
-<dt>Wednesday</dt>
-<dd>5&ndash;8pm</dd>
+<dt>Friday</dt>
+<dd>2&ndash;6pm <b>@ <a href="/hillyard/">Hillyard Library</a></b></dd>
 <dt>Saturday</dt>
-<dd>1&ndash;6pm</dd>
+<dd>1&ndash;6pm <b>@ <a href="/downtown/">Downtown Library</a></b></dd>
 <dl>
 
 <hr>
