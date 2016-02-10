@@ -111,11 +111,11 @@ Template Name: Home Page
           <div class="panel-body">
             <div class="row">
               <div class="col-md-6">
-                <a href="http://www.spokanelibraryfoundation.org/chof/">
+                <a href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/">
                   <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-logotype-crop.png">
                 </a>
                 <p class="text-center">
-                  <a href="http://www.spokanelibraryfoundation.org/chof/"><b>Learn more</b></a> <small class="text-muted">&rarr;</small>
+                  <a href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/"><b>Learn more</b></a> <small class="text-muted">&rarr;</small>
                 </p>
               </div>
               <div class="col-md-6">
