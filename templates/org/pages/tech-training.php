@@ -49,7 +49,7 @@
 		</p>
 		<h5>lynda.com</h5>
 		<p>
-			Online test preparation tutorials, practice tests, and ebooks, including GED, SAT, and occupational exams.On-demand technology, creative, and business training taught by industry experts.
+			On-demand technology, creative, and business training taught by industry experts.
 		</p>
 		<p>
 			<a class="btn btn-block btn-inverse" 
