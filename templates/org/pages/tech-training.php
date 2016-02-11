@@ -45,7 +45,7 @@
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<p>
-			<a href="/lynda/"><img src="/assets/img/db/lynda.png"></a>
+			<a href="/lynda"><img src="/assets/img/db/lynda.png"></a>
 		</p>
 		<h5>lynda.com</h5>
 		<p>
@@ -53,7 +53,7 @@
 		</p>
 		<p>
 			<a class="btn btn-block btn-inverse" 
-					href="/lynda/">More about <b>lynda.com</b> &rarr;</a>
+					href="/lynda">More about <b>lynda.com</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
 </div><!-- /.row -->
