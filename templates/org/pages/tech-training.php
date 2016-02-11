@@ -45,6 +45,22 @@
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<p>
+			<a href="/lynda/"><img src="/assets/img/db/lynda.png"></a>
+		</p>
+		<h5>lynda.com</h5>
+		<p>
+			Online test preparation tutorials, practice tests, and ebooks, including GED, SAT, and occupational exams.On-demand technology, creative, and business training taught by industry experts.
+		</p>
+		<p>
+			<a class="btn btn-block btn-primary" 
+					href="/lynda/">More about <b>lynda.com</b> &rarr;</a>
+		</p>
+	</div><!-- /.col -->
+</div><!-- /.row -->
+<hr>
+<div class="row">
+	<div class="col-md-6">
+		<p>
 			<a href="/learningexpress/"><img src="/assets/img/db/LearningExpressLibrary.gif"></a>
 		</p>
 		<h5>Learning Express</h5>
