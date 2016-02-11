@@ -52,7 +52,7 @@
 			Online test preparation tutorials, practice tests, and ebooks, including GED, SAT, and occupational exams.On-demand technology, creative, and business training taught by industry experts.
 		</p>
 		<p>
-			<a class="btn btn-block btn-primary" 
+			<a class="btn btn-block btn-inverse" 
 					href="/lynda/">More about <b>lynda.com</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
