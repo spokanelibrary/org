@@ -13,7 +13,7 @@
 			<a href="/yearbooks/">
 				<img class="img-responsive img-rounded alignleft" alt="Yearbooks" src="/assets/img/digicol/nw-yearbook-thumb.jpg" />
 			</a>
-			Several hundred Spokane high scool yearbooks are now available online.
+			Several hundred Spokane high school yearbooks are now available online.
 			You can view these yearbooks in your web browser without downloading any files or additional software.
 		</p>
 		<p>
