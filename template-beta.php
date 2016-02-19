@@ -110,16 +110,21 @@ Template Name: Home Page
         <div class="panel spl-hero-panel spl-hero-brand-blue-g" style="background: url('http://www.spokanelibrary.org/assets/img/promos/photos/future-study-planning.jpg') no-repeat;">
           <a href="/future-study/">
             <div style="background: #fff; opacity: .85;">
-              <h1 style="text-transform:uppercase; color:orange;">You're invited to</h1>
+              <h1 style="text-transform:uppercase; color:orange; text-decoration:none;">You're invited to</h1>
               </div>
               <div style="padding:16px; height:176px;">
               
                   <ul style="color:#fff;">
-                    <li><span style="color:#000; background:#fff;">read the study</span></li>
-                    <li>join the community conversation
-                    <li>and &hellip;</li>
+                    <li>
+                      <span style="color:#000; background:#fff;">read the study</span>
+                    </li>
+                    <li>
+                      <span style="color:#000; background:#fff;">join the community conversation</span>
+                    <li>
+                      <span style="color:#000; background:#fff;">and &hellip;</span>
+                    </li>
                   </ul>
-                  <h1 class="uppercase" style="color:#000;">help us build</h1>
+                  <h1 class="uppercase" style="color:#fff;">help us build</h1>
                   
                 
                 <div class="row">
