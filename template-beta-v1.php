@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name: Home Page
+Template Name: Beta Home Page - v1
 */
 ?>
-
-
+ 
 <div class="row">
 
   <div class="col-lg-10 col-lg-offset-1">
+
 
     <?php 
     // conditionally display page content
@@ -15,7 +15,7 @@ Template Name: Home Page
     $spl_home = trim($spl_home);
     if ( !empty($spl_home) ): ;
     ?>
-    <div class="panel spl-hero-panel spl-hero-news">
+    <div class="panel spl-hero-panel spl-hero-announce">
       <?php 
       if ( $post->post_excerpt): ; 
       ?>
@@ -29,6 +29,9 @@ Template Name: Home Page
       </div>
     </div>
     <?php endif; ?>
+
+
+
     
     <div class="row">
 
@@ -84,7 +87,7 @@ Template Name: Home Page
             Coming Up
           </h4>
           <div class="panel-body" style="padding-bottom:0;">
-            <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded]'); ?>
+            <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded refresh]'); ?>
             <div class="calendar-promo">
               <h5 class="text-center">
                 <a href="/calendar/">Full Calendar <span class="text-muted">&rarr;</span></a>
@@ -98,47 +101,18 @@ Template Name: Home Page
       <div class="col-sm-8 col-sm-pull-4 col-md-6 col-md-pull-3">
 
         <div class="panel spl-hero-panel spl-hero-muted">
-          <?php echo do_shortcode('[spl_carousel_photo auto random]'); ?>
+          <?php echo do_shortcode('[spl_carousel_photo auto random refresh]'); ?>
         </div>
         
       </div><!-- /.col -->
 
     </div><!-- /.row -->
 
-    <div class="row">
-      <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-muted">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-6">
-                <a href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/">
-                  <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-logotype-crop.png">
-                </a>
-                <p class="text-center">
-                  <a href="http://www.spokanelibraryfoundation.org/citizen-hall-of-fame/"><b>Learn more</b></a> <small class="text-muted">&rarr;</small>
-                </p>
-              </div>
-              <div class="col-md-6">
-                <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302">
-                  <img class="img-responsive" style="margin:auto;" src="http://www.spokanelibrary.org/assets/img/promos/chof-clocktower.png">
-                </a>
-                <p class="text-center">
-                  <a href="https://www.eventbrite.com/e/spokane-citizen-hall-of-fame-breakfast-tickets-20594031302"><b>Attend the awards</b></a> <small class="text-muted">&rarr;</small>
-                </p>
-              </div>
-            </div>
-            <a class="btn btn-alt btn-block" href="/chof/">See the 2015 Inductees &rarr;</a>
-          </div>
-        </div>
-      </div><!-- /.col -->
-      <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-news">
-          <div class="panel-body">
-            <?php echo do_shortcode('[spl_widget home-page news-mailgun]'); ?>
-          </div>
-        </div>
-      </div><!-- /.col -->
-    </div><!-- /.row -->
+    <div class="panel spl-hero-panel spl-hero-news">
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget home-page news-mailgun refresh]'); ?>
+      </div>
+    </div>
 
     <div class="panel spl-hero-panel spl-hero-browse">
       <!--
@@ -160,4 +134,5 @@ Template Name: Home Page
 
   </div><!-- /.col -->
 </div><!-- /.row -->
+
 
