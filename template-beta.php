@@ -112,8 +112,8 @@ Template Name: Home Page
             <div style="background: #fff; opacity: .85;">
               <h1 style="text-transform:uppercase; color:orange; text-decoration:none !important;">You're invited to</h1>
               </div>
-              <div style="padding:16px; height:176px;">
-            0
+              <div style="padding:6px 16px; height:176px;">
+    
                   <ul style="color:#fff;">
                     <li>
                       <span style="padding:0 4px; color:#000; background:#fff;"><b>read the study</b></span>
@@ -125,7 +125,6 @@ Template Name: Home Page
                     </li>
                   </ul>
                   <h1 class="uppercase" style="color:#fff; text-shadow: 2px 2px #237ca8">help us build</h1>
-                  
                 
                 <div class="row">
                   <div class="col-md-6">
