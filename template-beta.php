@@ -109,23 +109,26 @@ Template Name: Home Page
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-muted" style="background: url('http://www.spokanelibrary.org/assets/img/promos/photos/future-study-planning.jpg') no-repeat center center;">
           <a href="/future-study/">
-            <div style="background: #fff; opacity: .9;">
-            <h1 style="text-transform:uppercase;">Help us build</h1>
-            </div>
-            <div style="padding:16px;">
-            
-                <p>&nbsp;</p>
-                <h2 style="background:#fff;">Your 21<sup>st</sup> century library!</h2>
-              
-              <div class="row">
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6">
-                </div>
+            <div style="background: #fff; opacity: .85;">
+              <h1 style="text-transform:uppercase;">Help us build&hellip;</h1>
               </div>
-            </a>
-            <a class="btn btn-alt btn-block" href="/future-study/">Learn more &rarr;</a>
-          </div>
+              <div style="padding:16px;">
+              
+                  <p>&nbsp;</p>
+                  
+                
+                <div class="row">
+                  <div class="col-md-6">
+                  </div>
+                  <div class="col-md-6">
+                  </div>
+                </div>
+
+            </div>
+            <div style="background: #fff; opacity: .85;">
+              <h2>Your 21<sup>st</sup> century library</h2>
+            </div>
+          </a>
         </div>
       </div><!-- /.col -->
       <div class="col-md-6">
