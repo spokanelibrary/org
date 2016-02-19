@@ -109,11 +109,13 @@ Template Name: Home Page
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-muted" style="background-image: url('http://www.spokanelibrary.org/assets/img/promos/photos/future-study-planning.jpg');">
           <div style="padding:16px;">
-            <h1 style="background:#fff;">Help us build</h1>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <h2 style="background:#fff;">Your 21<sup>st</sup> century library!</h2>
+            <a href="/future-study/">
+              <h1 style="background:#fff;">Help us build</h1>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <h2 style="background:#fff;">Your 21<sup>st</sup> century library!</h2>
+            </a>
             <div class="row">
               <div class="col-md-6">
               </div>
