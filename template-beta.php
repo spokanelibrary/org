@@ -114,8 +114,8 @@ Template Name: Home Page
               </div>
               <div style="padding:16px; height:176px;">
               
-                  <ul>
-                    <li style="background:#fff;">read the study</li>
+                  <ul style="color:#fff;">
+                    <li><span style="color:#000; background:#fff;">read the study</span></li>
                     <li>join the community conversation
                     <li>and &hellip;</li>
                   </ul>
