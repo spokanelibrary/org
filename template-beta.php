@@ -116,7 +116,7 @@ Template Name: Home Page
               
                   <ul style="color:#fff;">
                     <li>
-                      <span style="color:#000; background:#fff;">read the study</span>
+                      <span style="padding:0 10px; color:#000; background:#fff;">read the study</span>
                     </li>
                     <li>
                       <span style="color:#000; background:#fff;">join the community conversation</span>
