@@ -114,7 +114,7 @@ Template Name: Home Page
               </div>
               <div style="padding:16px 16px; height:170px;">
     
-                  <ul style="color:#fff;">
+                  <ul style="color:#fff; font-size:20px;">
                     <li>
                       <span style="padding:0 4px; color:#000; background:#fff;"><b>read the study</b></span>
                     </li>
