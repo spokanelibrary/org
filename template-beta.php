@@ -113,7 +113,7 @@ Template Name: Home Page
               <h1 style="text-transform:uppercase; color:orange; text-decoration:none !important;">You're invited to</h1>
               </div>
               <div style="padding:16px; height:176px;">
-              
+            0
                   <ul style="color:#fff;">
                     <li>
                       <span style="padding:0 4px; color:#000; background:#fff;"><b>read the study</b></span>
@@ -121,7 +121,7 @@ Template Name: Home Page
                     <li>
                       <span style="padding:0 4px; color:#000; background:#fff;"><b>join the community conversation</b></span>
                     <li>
-                      <span style="padding:0 4px; color:#000; background:#fff;"><b>and &hellip;</b></span>
+                      <span style="padding:0 4px; color:#000; background:#fff;"><b>and&hellip;</b></span>
                     </li>
                   </ul>
                   <h1 class="uppercase" style="color:#fff; text-shadow: 2px 2px #237ca8">help us build</h1>
