@@ -112,7 +112,7 @@ Template Name: Home Page
             <a href="/future-study/">
               <h1 class="hero-brand" style="text-transform:uppercase;">Help us build</h1>
               <p>&nbsp;</p>
-              <h2 style="background:fff;">Your 21<sup>st</sup> century library!</h2>
+              <h2 style="background:#fff;">Your 21<sup>st</sup> century library!</h2>
             </a>
             <div class="row">
               <div class="col-md-6">
