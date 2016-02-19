@@ -115,6 +115,8 @@ Template Name: Home Page
               <div style="padding:16px;">
               
                   <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
                   
                 
                 <div class="row">
