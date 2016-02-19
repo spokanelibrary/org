@@ -135,7 +135,7 @@ Template Name: Home Page
 
             </div>
             <div style="background: #fff; opacity: .85;">
-              <h2 class="text-center" style="color:#237ca8;">our 21<sup>st</sup> century library</h2>
+              <h2 class="text-center" style="color:#237ca8;">your 21<sup>st</sup> century library</h2>
             </div>
           </a>
         </div>
