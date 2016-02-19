@@ -112,12 +112,12 @@ Template Name: Home Page
             <div style="background: #fff; opacity: .85;">
               <h1 style="text-transform:uppercase; color:orange;">You're invited to &hellip;</h1>
               </div>
-              <div style="padding:16px; height:170px;">
+              <div style="padding:16px; height:176px;">
               
-                  <p style="color:#fff;">
+                  <h2 style="color:#fff;">
                     read the study, join the community conversation, and
-                  </p>
-                  <h1 style="color:#fff;">help us build</h1>
+                  </h2>
+                  <h1 class="uppercase" style="color:#fff;">help us build</h1>
                   
                 
                 <div class="row">
