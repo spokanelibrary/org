@@ -124,7 +124,7 @@ Template Name: Home Page
                       <span style="padding:0 4px; color:#000; background:#fff;"><b>and &hellip;</b></span>
                     </li>
                   </ul>
-                  <h1 class="uppercase" style="color:#4bc8eb;">help us build</h1>
+                  <h1 class="uppercase" style="color:#fff; text-shadow: 2px 2px #4bc8eb">help us build</h1>
                   
                 
                 <div class="row">
@@ -136,7 +136,7 @@ Template Name: Home Page
 
             </div>
             <div style="background: #fff; opacity: .85;">
-              <h2 class="text-center">our 21<sup>st</sup> century library</h2>
+              <h2 class="text-center" style="color:#4bc8eb;">our 21<sup>st</sup> century library</h2>
             </div>
           </a>
         </div>
