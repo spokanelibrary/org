@@ -114,10 +114,10 @@ Template Name: Home Page
               </div>
               <div style="padding:16px; height:176px;">
               
-                  <h2 style="color:#fff;">
+                  <h2 style="color:#000;">
                     read the study, join the community conversation, and
                   </h2>
-                  <h1 class="uppercase" style="color:#fff;">help us build</h1>
+                  <h1 class="uppercase" style="color:#000;">help us build</h1>
                   
                 
                 <div class="row">
