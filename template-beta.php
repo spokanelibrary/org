@@ -112,7 +112,7 @@ Template Name: Home Page
             <div style="background: #fff; opacity: .85;">
               <h1 style="text-transform:uppercase; color:orange; text-decoration:none !important;">You're invited to</h1>
               </div>
-              <div style="padding:16px 16px; height:168px;">
+              <div style="padding:16px 16px; height:170px;">
     
                   <ul style="color:#fff;">
                     <li>
