@@ -107,7 +107,7 @@ Template Name: Home Page
 
     <div class="row">
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-brand-blue-g" style="border-width:4px 1px; background: url('http://www.spokanelibrary.org/assets/img/promos/photos/future-study-planning.jpg') no-repeat;">
+        <div class="panel spl-hero-panel spl-hero-brand-blue-b" style="border-width:4px 1px; background: url('http://www.spokanelibrary.org/assets/img/promos/photos/future-study-planning.jpg') no-repeat;">
           <a href="/future-study/">
             <div style="background: #fff; opacity: .85;">
               <h1 style="text-transform:uppercase; color:orange; text-decoration:none !important;">You're invited to</h1>
