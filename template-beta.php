@@ -114,7 +114,10 @@ Template Name: Home Page
               </div>
               <div style="padding:16px; height:170px;">
               
-                  <h1>Help us build</h1>
+                  <p style="color:#fff;">
+                    read the study, join the community conversation, and
+                  </p>
+                  <h1 style="color:#fff;">help us build</h1>
                   
                 
                 <div class="row">
@@ -126,7 +129,7 @@ Template Name: Home Page
 
             </div>
             <div style="background: #fff; opacity: .85;">
-              <h2>our 21<sup>st</sup> century library</h2>
+              <h2 class="text-center">our 21<sup>st</sup> century library</h2>
             </div>
           </a>
         </div>
