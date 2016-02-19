@@ -112,10 +112,8 @@ Template Name: Home Page
             <div style="background: #fff; opacity: .85;">
               <h1 style="text-transform:uppercase; color:orange;">Help us build&hellip;</h1>
               </div>
-              <div style="padding:16px;">
+              <div style="padding:16px; height:200px;">
               
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
                   <p>&nbsp;</p>
                   
                 
