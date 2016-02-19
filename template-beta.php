@@ -116,12 +116,12 @@ Template Name: Home Page
     
                   <ul style="color:#fff; font-size:20px;">
                     <li>
-                      <span style="padding:0 4px; color:#000; background:#fff;">read the study</span>
+                      <span style="padding:0 4px; color:#444; background:#fff;">read the study</span>
                     </li>
                     <li>
-                      <span style="padding:0 4px; color:#000; background:#fff;"><b>join the community conversation</b></span>
+                      <span style="padding:0 4px; color:#444; background:#fff;">join the community conversation</span>
                     <li>
-                      <span style="padding:0 4px; color:#000; background:#fff;"><b>and&hellip;</b></span>
+                      <span style="padding:0 4px; color:#444; background:#fff;">and&hellip;</span>
                     </li>
                   </ul>
                   <h1 class="uppercase" style="color:#fff; text-shadow: 2px 2px #237ca8">help us build</h1>
