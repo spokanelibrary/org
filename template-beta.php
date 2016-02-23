@@ -110,36 +110,6 @@ Template Name: Home Page
         <div class="panel spl-hero-panel spl-hero-brand-blue-e" style="border-width:1px 1px; /*background: url('http://www.spokanelibrary.org/assets/img/promos/photos/future-study-planning.jpg') no-repeat;*/">
           <a href="/future-study/">
             <img class="img-responsive" src="http://www.spokanelibrary.org/assets/img/promos/21stCenturyLibrary.png">
-            <!--
-            <div style="background: #fff; opacity: .85;">
-              <h1 style="text-transform:uppercase; color:#237ca8; text-decoration:none !important;">You're invited to</h1>
-              </div>
-              <div style="padding:16px 16px; height:170px;">
-    
-                  <ul style="color:#fff; font-size:20px;">
-                    <li>
-                      <span style="padding:0 4px; color:#444; background:#fff;">read the study</span>
-                    </li>
-                    <li>
-                      <span style="padding:0 4px; color:#444; background:#fff;">join the community conversation</span>
-                    <li>
-                      <span style="padding:0 4px; color:#444; background:#fff;">and&hellip;</span>
-                    </li>
-                  </ul>
-                  <h1 class="uppercase" style="color:#fff; text-shadow: 2px 2px #237ca8">help us build</h1>
-                
-                <div class="row">
-                  <div class="col-md-6">
-                  </div>
-                  <div class="col-md-6">
-                  </div>
-                </div>
-
-            </div>
-            <div style="background: #fff; opacity: .85;">
-              <h2 class="text-center" style="color:#237ca8;">your 21<sup>st</sup> century library</h2>
-            </div>
-            -->
           </a>
         </div>
       </div><!-- /.col -->
