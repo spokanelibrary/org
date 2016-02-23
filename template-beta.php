@@ -107,7 +107,7 @@ Template Name: Home Page
 
     <div class="row">
       <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-brand-blue-e" style="border-width:4px 1px; /*background: url('http://www.spokanelibrary.org/assets/img/promos/photos/future-study-planning.jpg') no-repeat;*/">
+        <div class="panel spl-hero-panel spl-hero-brand-blue-e" style="border-width:1px 1px; /*background: url('http://www.spokanelibrary.org/assets/img/promos/photos/future-study-planning.jpg') no-repeat;*/">
           <a href="/future-study/">
             <img class="img-responsive" src="http://www.spokanelibrary.org/assets/img/promos/21stCenturyLibrary.png">
             <!--
