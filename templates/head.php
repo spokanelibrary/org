@@ -32,7 +32,7 @@
   <meta name="msapplication-TileColor" content="#2b5797">
   <meta name="msapplication-TileImage" content="/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
-
+  <meta name="p:domain_verify" content="89f89f732a303f778b6f68ff58ab5d03"/>
   <?php wp_head(); ?>
 
 	<link href='//fonts.googleapis.com/css?family=Adamina' rel='stylesheet' type='text/css'>
