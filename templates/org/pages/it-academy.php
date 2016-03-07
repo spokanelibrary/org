@@ -13,7 +13,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
           rel="external"
           class="btn btn-block btn-info"
           title="For returning users"
-          ><b>I have already signed up for Microsoft Imagine Academy</b>
+          ><b>I have already signed up<span class="hidden-xs"> for Microsoft Imagine Academy</span></b>
           &rarr;</a>
       </p>
       <span class="help-block">
@@ -50,7 +50,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
           rel="external"
           class="btn btn-block btn-success"
           title="Microsoft Imagine Academy Login"
-          ><b>I would like to register for Microsoft Imagine Academy &rarr;</b>
+          ><b>I would like to register<span class="hidden-xs"> for Microsoft Imagine Academy</span> &rarr;</b>
           </a>
         </p>
       {{/each}}
