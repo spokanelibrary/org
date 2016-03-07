@@ -6,14 +6,14 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 	<div class="col-sm-6">
 		<div class="alert alert-info">
 			<p class="lead">
-				<b>Returning Users:</b> IT Academy Login
+				<b>Returning Users:</b> Imagine Academy Login
 			</p>
 			<p>
-        <a href="https://itacademy.microsoft.com?whr=uri:MicrosoftAccount"
+        <a href="https://imagineacademy.microsoft.com?whr=uri:MicrosoftAccount"
           rel="external"
           class="btn btn-block btn-info"
           title="For returning users"
-          ><b>I have already signed up for Microsoft IT Academy</b>
+          ><b>I have already signed up for Microsoft Imagine Academy</b>
           &rarr;</a>
       </p>
       <span class="help-block">
@@ -31,7 +31,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 <div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
 <script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
   <p class="lead">
-    <b>New Users:</b> IT Academy Registration
+    <b>New Users:</b> Imagine Academy Registration
   </p>
   {{#with msit}}
     {{#if login}}
@@ -46,11 +46,11 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
     {{else}}
       {{#each codes}}
         <p>
-          <a href="https://itacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&key={{code}}"
+          <a href="https://imagineacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&key={{code}}"
           rel="external"
           class="btn btn-block btn-success"
-          title="Microsoft IT Academy Login"
-          ><b>I would like to register for Microsoft IT Academy &rarr;</b>
+          title="Microsoft Imagine Academy Login"
+          ><b>I would like to register for Microsoft Imagine Academy &rarr;</b>
           </a>
         </p>
       {{/each}}
@@ -63,10 +63,10 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 
 <!-- END REGISTRATION -->
 
-<img src="/assets/img/logos/mslogo.png" alt="MS Logo"/>
+<img src="/assets/img/logos/imagineacademy.png" alt="Imagine Academy Logo"/>
 
 <p class="lead">
-  <b>IT Academy:</b>
+  <b>Imagine Academy:</b>
   digital curriculum &amp; training on fundamental technology skills
 </p>
 
@@ -74,18 +74,18 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
   <div class="col-sm-6">
     <blockquote>
       <p>
-        <em>Microsoft IT Academy</em> provides libraries and their patrons access to online courseware for technology training at <strong class="text-success">no cost</strong>.
+        <em>Microsoft Imagine Academy</em> provides libraries and their patrons access to online courseware for technology training at <strong class="text-success">no cost</strong>.
       </p>
       <p>
       Courses cover a variety of Microsoft products and skill levels &ndash; ranging from beginner users to advanced technical courses that qualify for Microsoft Certification testing.
       </p>
     </blockquote>
     <p class="lead">
-      How do I access IT Academy?
+      How do I access Imagine Academy?
     </p>
     <p>
-      Register for IT Academy using the <strong class="text-success">New Users</strong> link at the top of this page.
-      Follow the instructions provided at IT Academy to select courses that interest you.
+      Register for Imagine Academy using the <strong class="text-success">New Users</strong> link at the top of this page.
+      Follow the instructions provided at Imagine Academy to select courses that interest you.
     </p>
     <p>
       <a href="/uploads/Patron-Steps-ITA-Online-Learning-via-Enrollment-Link.pdf"
@@ -94,11 +94,11 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
       </a>
     </p>
     <p>
-      The IT Academy Help page also provides instructions for registering and accessing your courses, as well as answers to many frequently asked questions.
+      The Imagine Academy Help page also provides instructions for registering and accessing your courses, as well as answers to many frequently asked questions.
     </p>
     <p>
       <a href="http://itacademy.microsoft.com/home/help"
-        class="btn btn-warning"><strong>Read the IT Academy Help page</strong>
+        class="btn btn-warning"><strong>Read the Imagine Academy Help page</strong>
         <i class="icon-white icon-arrow-right"></i>
       </a>
     </p>
@@ -135,7 +135,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
         <strong class="text-error">Did you know:</strong>
         <a href="http://www.microsoft.com/about/corporatecitizenship/citizenship/giving/programs/up/digitalliteracy/default.mspx"><strong>Microsoft's Digital Literacy program</strong></a> 
         has easy multimedia courses on computer basics, the Internet, and online safety &ndash; no sign-in required.
-        If you are new to using computers you may wish to start here and return to IT Academy later.
+        If you are new to using computers you may wish to start here and return to Imagine Academy later.
       </span>
     </div>
 
@@ -238,7 +238,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
       Certifications &amp; Test Centers
     </p>
     <p>
-      IT Academy training courses will prepare you for certification in several areas, including:
+      Imagine Academy training courses will prepare you for certification in several areas, including:
     </p>
     <ul>
       <li>MOS Certification
