@@ -66,8 +66,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 <img src="/assets/img/logos/imagineacademy.png" alt="Imagine Academy Logo"/>
 
 <p class="lead">
-  <b>Imagine Academy:</b>
-  digital curriculum &amp; training on fundamental technology skills
+  Digital curriculum &amp; training on fundamental technology skills
 </p>
 
 <div class="row">
