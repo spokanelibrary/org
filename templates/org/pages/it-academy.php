@@ -6,7 +6,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 	<div class="col-sm-6">
 		<div class="alert alert-info">
 			<p class="lead">
-				<b>Returning Users:</b> Imagine Academy Login
+				<b>Returning Users:</b> Login
 			</p>
 			<p>
         <a href="https://imagineacademy.microsoft.com?whr=uri:MicrosoftAccount"
@@ -31,7 +31,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
 <div id="spl-network-source" data-source="<?php echo $spl_network_source; ?>"></div>
 <script id="spl-it-academy-link-tmpl" type="text/x-handlebars-template">
   <p class="lead">
-    <b>New Users:</b> Imagine Academy Registration
+    <b>New Users:</b> Register
   </p>
   {{#with msit}}
     {{#if login}}
