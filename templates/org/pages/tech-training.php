@@ -3,15 +3,15 @@
 <div class="row">
 	<div class="col-md-6">
 		<p class="center-block">
-			<a href="/it-academy/"><img style="margin-top:10px; margin-bottom:10px;" src="/assets/img/logos/itacademy.png"></a>
+			<a href="/it-academy/"><img style="margin-top:10px; margin-bottom:10px;" src="/assets/img/logos/imagineacademy.png"></a>
 		</p>
-		<h5>Microsoft IT Academy</h5>
+		<h5>Microsoft Imagine Academy</h5>
 		<p>
 			Courses cover a variety of Microsoft products and skill levels – ranging from beginner users to advanced technical courses that qualify for <a href="/mos/">Microsoft Certification</a> testing. 
 		</p>
 		<p>
 			<a class="btn btn-block btn-warning" 
-					href="/it-academy/">More about <b>Microsoft IT Academy</b> &rarr;</a>
+					href="/it-academy/">More about <b>Microsoft Imagine Academy</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
 	<div class="col-md-6">
