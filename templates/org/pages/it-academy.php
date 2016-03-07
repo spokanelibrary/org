@@ -97,7 +97,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
       The Imagine Academy Help page also provides instructions for registering and accessing your courses, as well as answers to many frequently asked questions.
     </p>
     <p>
-      <a href="http://itacademy.microsoft.com/home/help"
+      <a href="http://imagineacademy.microsoft.com/home/help"
         class="btn btn-warning"><strong>Read the Imagine Academy Help page</strong>
         <i class="icon-white icon-arrow-right"></i>
       </a>
