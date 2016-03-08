@@ -85,20 +85,6 @@ Template Name: Intranet Home Page
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
-    <div class="panel spl-hero-intranet spl-hero-brand-blue-f">
-      <div class="panel-heading">
-        <h4>
-        <i class="glyphicon glyphicon-usd"></i>
-        Grant Opportunities</h4>
-      </div><!-- /.panel-heading -->
-      <div class="panel-body">
-        <?php echo do_shortcode('[spl_widget category-posts slug=grants count=3 format=excerpt size=sm]'); ?>
-      </div><!-- /.panel-body -->
-      <div class="panel-footer text-right">
-        <a class="" href="/news/grants/"><b>More</b> Grant Opportunities</a>&nbsp;<small class="text-muted">&rarr;</small> 
-      </div><!-- /.panel-footer -->
-    </div><!-- /.panel -->
-
     <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
       <div class="panel-heading">
         <h4>
@@ -118,6 +104,21 @@ Template Name: Intranet Home Page
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
 
+
+    <div class="panel spl-hero-intranet spl-hero-brand-blue-f">
+      <div class="panel-heading">
+        <h4>
+        <i class="glyphicon glyphicon-usd"></i>
+        Grant Opportunities</h4>
+      </div><!-- /.panel-heading -->
+      <div class="panel-body">
+        <?php echo do_shortcode('[spl_widget category-posts slug=grants count=3 format=excerpt size=sm]'); ?>
+      </div><!-- /.panel-body -->
+      <div class="panel-footer text-right">
+        <a class="" href="/news/grants/"><b>More</b> Grant Opportunities</a>&nbsp;<small class="text-muted">&rarr;</small> 
+      </div><!-- /.panel-footer -->
+    </div><!-- /.panel -->
+    
     <!--
     <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
       <div class="panel-heading">
