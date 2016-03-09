@@ -874,7 +874,7 @@
   			      <p>
   		    	  	<img class="img-responsive" src="/assets/img/promos/chof/Hutton_May-lg.jpg">
 	  	  	    	<br>
-	  	  	    	<small>Courtesy of the Northwest Museum of Arts and Culture</small>
+	  	  	    	<small><b>Photo:</b> Courtesy of the Northwest Museum of Arts and Culture</small>
 	  	  	    </p>
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
