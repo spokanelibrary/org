@@ -1,6 +1,6 @@
 
 <div class="media">
-  <a class="pull-left" href="#">
+  <a class="pull-left" href="/streaming/">
     <span class="media-object">
       <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/hoopla.png">
     </span>
@@ -13,7 +13,7 @@
 </div><!-- /.media -->
 
 <div class="media">
-  <a class="pull-left" href="#">
+  <a class="pull-left" href="/ebooks/">
     <span class="media-object">
       <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/overdrive.png">
     </span>
@@ -26,7 +26,7 @@
 </div><!-- /.media -->
 
 <div class="media">
-  <a class="pull-left" href="#">
+  <a class="pull-left" href="/emusic/">
   	<span class="media-object">
   		<img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/freegal.png">
   	</span>
@@ -39,7 +39,7 @@
 </div><!-- /.media -->
 
 <div class="media">
-  <a class="pull-left" href="#">
+  <a class="pull-left" href="/eaudio/">
     <span class="media-object">
       <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/oneclick.png">
     </span>
@@ -52,7 +52,7 @@
 </div><!-- /.media -->
 
 <div class="media">
-  <a class="pull-left" href="#">
+  <a class="pull-left" href="/emagazines/">
   	<span class="media-object">
   		<img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/zinio.png">
   	</span>
