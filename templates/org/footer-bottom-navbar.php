@@ -131,7 +131,7 @@
             <a href="/about/mission/"><small><i class="text-muted glyphicon glyphicon-road"></i> Strategic Plan</small></a>
           </li>
           <li>
-            <a href="/support/"><small><i class="text-muted glyphicon glyphicon-hand-right"></i> Support Your Library</small></a>
+            <a href="/press/"><small><i class="text-muted glyphicon glyphicon-bullhorn"></i> Press & Media</small></a>
           </li>
         </ul>
       </div><!-- /.panel-footer -->
