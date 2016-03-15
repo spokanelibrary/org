@@ -113,8 +113,10 @@ Template Name: Intranet Home Page
       </div><!-- /.panel-heading -->
       <div class="panel-body">
         <div class="alert alert-info">
+          <p>
           All grants must be submitted through the SPL procedure. 
           Documents and instructions on the procedure can be found on the shared drive under <a rel="external" href="http://files.spokanelibrary.org/Grants/">Grants</a>.
+          </p>
         </div>
         <?php echo do_shortcode('[spl_widget category-posts slug=grants count=3 format=excerpt size=sm]'); ?>
       </div><!-- /.panel-body -->
