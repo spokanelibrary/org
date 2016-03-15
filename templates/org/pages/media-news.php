@@ -51,6 +51,7 @@
 	<?php echo spl_get_media_news(); ?>
 	</div>
 
+  <!--
 	<div class="col-md-3 col-lg-4">
 
 		<div class="alert alert-info" style="border: 4px solid #F79734;">
@@ -60,5 +61,5 @@
 		</div>		
 		
 	</div>
-
+  -->
 </div>
