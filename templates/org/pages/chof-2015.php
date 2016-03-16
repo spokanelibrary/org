@@ -315,36 +315,95 @@
 </div><!-- /.row -->
 
 <!-- SPONSORS -->
+
+<hr />
+<p class="lead text-center">We would like to thank our generous sponsors of this event:</p>
+
+<!--
+<div class="row">
+	<div class="col-md-12">
+		<p>
+			<a href="http://www.numericacu.org/"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/numerica-logo.png" alt="Numerica Credit Union" /></a>
+		</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-9 col-md-offset-2">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-1">
+				<div class="row">
+					<div class="col-md-6">
+						<a href="http://www.kxly.com"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/kxly4-news.png" alt="KXLY 4 News" /></a>
+					</div>
+					<div class="col-md-6">
+						<a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/spokesman-logo-no-line.png" alt="The Spokesman Review" /></a>
+					</div>
+				</div>
+		<div class="row">
+			<div class="col-md-6">
+				<a href="http://avistafoundation.org"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
+			</div>
+			<div class="col-md-6">
+				<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
+			</div>
+		</div>
+	</div>
 	
+	<div class="col-md-2">
+		<a href="http://www.globalcu.org/"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/global-cu-logo.png" alt="Global Credit Union" /></a>
+	</div>
+		</div>
+	</div>
+</div>
+
+<p>&nbsp;</p>
+
+<p class="lead text-center">in partnership with</p>
+<div class="row">
+	<div class="col-md-2 col-md-offset-3">
+		<p class="text-center"><a href="http://www.spokanelibrary.org"><img style="width:180px; margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/SPL-Logo-Blue.png" alt="" /></a></p>
+	</div>
+	<div class="col-md-2">
+		<p class="text-center"><a href="http://my.spokanecity.org"><img style="margin: auto;" src="http://www.spokanelibrary.org/assets/img/png/city-spokane-logo.png" alt="" /></a></p>
+	</div>
+	<div class="col-md-2">
+		<p class="text-center" style="padding-top:10px"><a href="http://www.spokanelibraryfoundation.org"><img style="width:180px; margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/SPL-FDTN-Logo.png" alt="" /></a></p>
+	</div>
+</div>
+
+-->
+	
+<!--
 <h5 class="text-center uppercase text-muted">Thanks to our generous 2015 sponsors:</h5>
 <div class="row chof-row">
 	<div class="col-sm-2 col-sm-offset-1">
 		<p>
 			<a href="http://www.avistafoundation.com/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
 		</p>
-	</div><!-- /.col -->
+	</div>
 	<div class="col-sm-2">
 		<p style="margin-top:2px;">
 			<a href="http://www.khq.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/khq-logo.png" alt="KHQ" /></a>
 		</p>
-	</div><!-- /.col -->
+	</div>
 	<div class="col-sm-2">
 		<p style="margin-top:6px;">
 			<a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/spokesman-logo.png" alt="The Spokesman Review" /></a>
 		</p>
-	</div><!-- /.col -->
+	</div>
 	<div class="col-sm-2">
 		<p style="margin-top:6px;">
 			<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org//assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
 		</p>
-	</div><!-- /.col -->
+	</div>
 	<div class="col-sm-2">
 		<p>
 			<a href="http://www.numericacu.com/"><img class="img-responsive" style="margin: auto;" src="/assets/img/promos/chof/logos/numerica-logo.png" alt="Avista Foundation" /></a>
 		</p>
-	</div><!-- /.col -->
-</div><!-- /.row -->
-
+	</div>
+</div>
+-->
 
 <!-- MODAL ABOUT -->
 <div class="modal fade chof-modal" id="chof-modal-about" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
