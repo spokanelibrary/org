@@ -321,6 +321,7 @@
 <p class="lead text-center">We would like to thank our generous sponsors of this event:</p>
 -->
 
+<hr />
 <div class="row">
 	<div class="col-md-12">
 		<p>
