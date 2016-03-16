@@ -316,8 +316,18 @@
 
 <!-- SPONSORS -->
 
+<!--
 <hr />
 <p class="lead text-center">We would like to thank our generous sponsors of this event:</p>
+-->
+
+<div class="row">
+	<div class="col-md-12">
+		<p>
+			<a href="http://www.numericacu.org/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/numerica-logo.png" alt="Numerica Credit Union" /></a>
+		</p>
+	</div><!-- /.col -->
+</div><!-- /.row -->
 
 <!--
 <div class="row">
