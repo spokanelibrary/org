@@ -361,7 +361,7 @@
 
 <p class="lead text-center">in partnership with</p>
 <div class="row">
-	<div class="col-md-2 col-md-offset-3">
+	<div class="col-md-3 col-md-offset-2">
 		<p class="text-center"><a href="http://www.spokanelibrary.org"><img style="width:180px; margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/SPL-Logo-Blue.png" alt="" /></a></p>
 	</div>
 	<div class="col-md-2">
