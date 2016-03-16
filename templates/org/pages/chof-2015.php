@@ -357,7 +357,7 @@
 </div>
 
 
-<p>&nbsp;</p>
+<div class="clearfix">&nbsp;</div>
 
 <p class="lead text-center">in partnership with</p>
 <div class="row">
