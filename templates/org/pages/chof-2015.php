@@ -320,7 +320,7 @@
 
 <p class="lead text-center">We would like to thank our generous 2016 sponsors:</p>
 
-<div class="row">
+<div class="row" style="margin-bottom:20px;">
 	<div class="col-md-12">
 		<p>
 			<a href="http://www.numericacu.org/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/numerica-logo.png" alt="Numerica Credit Union" /></a>
@@ -328,39 +328,40 @@
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
-<div class="row">
+<div class="row" style="margin-bottom:20px;">
 	<div class="col-md-9 col-md-offset-2">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-1">
 				<div class="row">
 					<div class="col-md-6">
 						<a href="http://www.kxly.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/kxly4-news.png" alt="KXLY 4 News" /></a>
-					</div>
+					</div><!-- /.col -->
 					<div class="col-md-6">
 						<a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/spokesman-logo-no-line.png" alt="The Spokesman Review" /></a>
-					</div>
-				</div>
-			<div class="row">
-				<div class="col-md-6">
-					<a href="http://avistafoundation.org"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
-				</div>
-				<div class="col-md-6">
-					<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
-				</div>
-			</div>
-		</div>
-	
-		<div class="col-md-2">
-			<a href="http://www.globalcu.org/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/global-cu-logo.png" alt="Global Credit Union" /></a>
-		</div>
-	</div>
-</div>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+				<div class="row">
+					<div class="col-md-6">
+						<a href="http://avistafoundation.org"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
+					</div><!-- /.col -->
+					<div class="col-md-6">
+						<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.col -->
+			<div class="col-md-2">
+				<a href="http://www.globalcu.org/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/global-cu-logo.png" alt="Global Credit Union" /></a>
+			</div><!-- /.col -->
+		</div><!-- /.row -->
+	</div><!-- /.col -->
+</div><!-- /.row -->
 
 
 <div class="clearfix">&nbsp;</div>
 
-<p class="lead text-center">in partnership with</p>
-<div class="row">
+<p class="lead text-center">in partnership with:</p>
+
+<div class="row" style="margin-bottom:20px;">
 	<div class="col-md-3 col-md-offset-2">
 		<p class="text-center"><a href="http://www.spokanelibrary.org"><img style="width:180px; margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/SPL-Logo-Blue.png" alt="" /></a></p>
 	</div>
