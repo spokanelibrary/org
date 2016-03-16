@@ -344,7 +344,7 @@
 					<div class="col-md-6" style="padding-top:10px;">
 						<a href="http://avistafoundation.org"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
 					</div><!-- /.col -->
-					<div class="col-md-6" style="padding-top:10px;">
+					<div class="col-md-6" style="padding-top:20px;">
 						<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
 					</div><!-- /.col -->
 				</div><!-- /.row -->
