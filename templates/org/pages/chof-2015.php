@@ -353,7 +353,7 @@
 		</div>
 	
 		<div class="col-md-2">
-			<a href="http://www.globalcu.org/"><img class="img-responsive" style="margin: auto; max-width:160px;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/global-cu-logo.png" alt="Global Credit Union" /></a>
+			<a href="http://www.globalcu.org/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/global-cu-logo.png" alt="Global Credit Union" /></a>
 		</div>
 	</div>
 </div>
