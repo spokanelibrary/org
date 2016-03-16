@@ -330,6 +330,34 @@
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
+<div class="row">
+	<div class="col-md-9 col-md-offset-2">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-1">
+				<div class="row">
+					<div class="col-md-6">
+						<a href="http://www.kxly.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/kxly4-news.png" alt="KXLY 4 News" /></a>
+					</div>
+					<div class="col-md-6">
+						<a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/spokesman-logo-no-line.png" alt="The Spokesman Review" /></a>
+					</div>
+				</div>
+			<div class="row">
+				<div class="col-md-6">
+					<a href="http://avistafoundation.org"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
+				</div>
+				<div class="col-md-6">
+					<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
+				</div>
+			</div>
+		</div>
+	
+		<div class="col-md-2">
+			<a href="http://www.globalcu.org/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/global-cu-logo.png" alt="Global Credit Union" /></a>
+		</div>
+	</div>
+</div>
+
 <!--
 <div class="row">
 	<div class="col-md-12">
@@ -351,19 +379,18 @@
 						<a href="http://www.spokesman.com"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/spokesman-logo-no-line.png" alt="The Spokesman Review" /></a>
 					</div>
 				</div>
-		<div class="row">
-			<div class="col-md-6">
-				<a href="http://avistafoundation.org"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
-			</div>
-			<div class="col-md-6">
-				<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
+			<div class="row">
+				<div class="col-md-6">
+					<a href="http://avistafoundation.org"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
+				</div>
+				<div class="col-md-6">
+					<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
+				</div>
 			</div>
 		</div>
-	</div>
 	
-	<div class="col-md-2">
-		<a href="http://www.globalcu.org/"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/global-cu-logo.png" alt="Global Credit Union" /></a>
-	</div>
+		<div class="col-md-2">
+			<a href="http://www.globalcu.org/"><img class="img-responsive" style="margin: auto;" src="/assets/img/logos/global-cu-logo.png" alt="Global Credit Union" /></a>
 		</div>
 	</div>
 </div>
