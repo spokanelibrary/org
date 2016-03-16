@@ -359,7 +359,7 @@
 
 <div class="clearfix">&nbsp;</div>
 
-<p class="lead text-center">in partnership with:</p>
+<p class="lead text-center">In partnership with:</p>
 
 <div class="row" style="margin-bottom:20px;">
 	<div class="col-md-3 col-md-offset-2">
