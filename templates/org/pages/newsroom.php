@@ -12,11 +12,11 @@
 	<div class="col-md-5 col-lg-4">
 		<h2 style="margin-top:0;">In the media</h2>
 		<p>
-			Stories and videos featuring Spokane Public Library.
+			Stories and videos featuring the library.
 		</p>
 		<p>
 			<a class="btn btn-primary" 
-				href="/press/"><i class="glyphicon glyphicon-film"></i> Videos & media mentions &rarr;</a>
+				href="/press/"><i class="glyphicon glyphicon-film"></i> See videos & media mentions &rarr;</a>
 		</p>
 	</div><!-- /.col -->
 </div><!-- /.row -->
