@@ -1,11 +1,13 @@
 <div class="row">
 	<div class="col-md-7 col-lg-8">
+		<!--
 		<img class="img-responsive img-rounded pull-right" style="width:140px;" src="/assets/img/jpg/Teen_card-300x228.jpg">
+		-->
 		<p class="lead">
 			Stay current with library news and events. 
 		</p>
 		<p>
-			For the very latest, please follow us on <a href="https://facebook.com">facebook</a> and <a href="https://twitter.com">twitter</a>.
+			For the very latest, please follow us on <a href="https://facebook.com">facebook</a> and <a href="https://twitter.com">twitter</a> or <a href="/blog/">read our blog</a>.
 		</p>
 		
 	</div><!-- /.col -->
