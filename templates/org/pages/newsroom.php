@@ -1,3 +1,12 @@
+<blockquote>
+	Stay current with library news and events.
+</blockquote>
+
+<p>
+	<a class="btn btn-warning" 
+		href="/press/"><i class="glyphicon glyphicon-film"></i> Videos & media mentions</a>
+</p>
+
 <div class="row">
 	<div class="col-md-7 col-lg-8">
 		<h2>Press releases</h2>
