@@ -6,10 +6,10 @@
 	<div class="col-md-4">
 		<div class="panel spl-hero-panel spl-hero-news">
 			<h4><i class="glyphicon glyphicon-bullhorn"></i> 
-				[spl_mailgun_current format=subtitle default_subtitle="In the current issue"]
+				<?php echo do_shortcode('[spl_mailgun_current format=subtitle default_subtitle="In the current issue"]'); ?>
 			</h4>
 			<div class="panel-body">
-				[spl_mailgun_current format=toc link_button=true excerpt]
+				<?php echo do_shortcode('[spl_mailgun_current format=toc link_button=true excerpt]'); ?>
 			</div>
 		</div>
 	</div><!-- /.col -->
