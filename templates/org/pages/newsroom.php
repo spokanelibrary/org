@@ -16,10 +16,10 @@
 					<b>We’ll keep you informed</b> of new service offerings, as well as upcoming events and activities at your local library.
 				</p>
 				<p>
-					<i class="glyphicon glyphicon-envelope text-muted"></i> <a href="/subscribe/">Subscribe to Library News →</a>
+					<i class="glyphicon glyphicon-envelope text-muted"></i> <a href="/subscribe/">Subscribe to Library News</a> <small class="text-muted">&rarr;</small>
 				</p>
 				<p>
-					<i class="glyphicon glyphicon-list-alt text-muted"></i> <a href="/newsletter/">Read past issues →</a>
+					<i class="glyphicon glyphicon-list-alt text-muted"></i> <a href="/newsletter/">Read past issues</a> <small class="text-muted">&rarr;</small>
 				</p>
 			</div>
 		</div>
