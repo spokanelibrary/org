@@ -15,7 +15,7 @@
 			Stories and videos featuring the library.
 		</p>
 		<p>
-			<a class="btn btn-primary" 
+			<a class="btn btn-primary btn-block" 
 				href="/press/"><i class="glyphicon glyphicon-film"></i> See videos & media mentions &rarr;</a>
 		</p>
 	</div><!-- /.col -->
