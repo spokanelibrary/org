@@ -1,10 +1,10 @@
 <div class="row">
 	<div class="col-md-7 col-lg-8">
-		<h3>Press releases</h3>
+		<h2>Press releases</h2>
 		<?php echo do_shortcode('[spl_widget list-files prefix="" icon="file"]'); ?>
 	</div><!-- /.col -->
 	<div class="col-md-5 col-lg-4">
-		<h3>Read our newsletter</h3>
+		<h2>Read our newsletter</h2>
 		<div class="panel spl-hero-panel spl-hero-news">
 			<h4><i class="glyphicon glyphicon-bullhorn"></i> 
 				<?php echo do_shortcode('[spl_mailgun_current format=subtitle default_subtitle="In the current issue"]'); ?>
