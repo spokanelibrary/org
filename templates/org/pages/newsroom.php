@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-md-7 col-lg-8">
-		<img class="img-responsive img-rounded pull-right" style="width:160px;" src="/assets/img/jpg/Teen_card-300x228.jpg">
+		<img class="img-responsive img-rounded pull-right" style="width:140px;" src="/assets/img/jpg/Teen_card-300x228.jpg">
 		<p class="lead">
 			Stay current with library news and events. 
 		</p>
