@@ -1,6 +1,8 @@
 <p class="lead">
 	Stay current with library news and events. 
-	For up-to-the-minute news please follow us on <a href="https://twitter.com">facebook</p> and <a href="https://twitter.com">twitter</a>.
+</p>
+<p>
+	For up-to-the-minute news please follow us on <a href="https://twitter.com">facebook</a> and <a href="https://twitter.com">twitter</a>.
 </p>
 
 
