@@ -1,9 +1,9 @@
 <div class="row">
-	<div class="col-md-8">
+	<div class="col-md-7 col-lg-8">
 		<h3>Press releases</h3>
 		<?php echo do_shortcode('[spl_widget list-files prefix="" icon="file"]'); ?>
 	</div><!-- /.col -->
-	<div class="col-md-4">
+	<div class="col-md-5 col-lg-4">
 		<h3>Read our newsletter</h3>
 		<div class="panel spl-hero-panel spl-hero-news">
 			<h4><i class="glyphicon glyphicon-bullhorn"></i> 
