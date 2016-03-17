@@ -12,12 +12,12 @@
 			<div class="panel-body">
 				<?php echo do_shortcode('[spl_mailgun_current format=toc link_button=true excerpt]'); ?>
 				<hr>
-				<p class="lead">
+				<p>
 					<b>We’ll keep you informed</b> of new service offerings, as well as upcoming events and activities at your local library.
 					<br>
-					<a class="btn btn-lg btn-link" href="/subscribe/"><i class="glyphicon glyphicon-envelope"></i> Subscribe to Library News →</a>
+					<a href="/subscribe/"><i class="glyphicon glyphicon-envelope"></i> Subscribe to Library News →</a>
 					<br>
-					<a class="btn btn-lg btn-link" href="/newsletter/"><i class="glyphicon glyphicon-list-alt"></i> Read past issues →</a>
+					<a href="/newsletter/"><i class="glyphicon glyphicon-list-alt"></i> Read past issues →</a>
 				</p>
 			</div>
 		</div>
