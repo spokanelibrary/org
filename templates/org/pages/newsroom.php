@@ -1,11 +1,15 @@
-<blockquote>
-	Stay current with library news and events.
-</blockquote>
+<p class="lead">
+	Stay current with library news and events. 
+	For up-to-the-minute news please follow us on <a href="https://twitter.com">facebook</p> and <a href="https://twitter.com">twitter</a>.
+</p>
+
 
 <p>
 	<a class="btn btn-warning" 
 		href="/press/"><i class="glyphicon glyphicon-film"></i> Videos & media mentions</a>
 </p>
+
+<hr>
 
 <div class="row">
 	<div class="col-md-7 col-lg-8">
