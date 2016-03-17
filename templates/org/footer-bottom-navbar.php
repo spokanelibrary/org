@@ -131,7 +131,7 @@
             <a href="/about/mission/"><small><i class="text-muted glyphicon glyphicon-road"></i> Strategic Plan</small></a>
           </li>
           <li>
-            <a href="/press/"><small><i class="text-muted glyphicon glyphicon-bullhorn"></i> Press & Media</small></a>
+            <a href="/news/"><small><i class="text-muted glyphicon glyphicon-bullhorn"></i> Press & Media</small></a>
           </li>
         </ul>
       </div><!-- /.panel-footer -->
