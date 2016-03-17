@@ -7,14 +7,13 @@
 		<p>
 			For up-to-the-minute news please follow us on <a href="https://twitter.com">facebook</a> and <a href="https://twitter.com">twitter</a>.
 		</p>
-
-
+		
+	</div><!-- /.col -->
+	<div class="col-md-5 col-lg-4">
 		<p>
 			<a class="btn btn-warning" 
 				href="/press/"><i class="glyphicon glyphicon-film"></i> Videos & media mentions</a>
 		</p>
-	</div><!-- /.col -->
-	<div class="col-md-5 col-lg-4">
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
