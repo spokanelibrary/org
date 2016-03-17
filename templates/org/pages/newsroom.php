@@ -5,15 +5,18 @@
 			Stay current with library news and events. 
 		</p>
 		<p>
-			For up-to-the-minute news please follow us on <a href="https://twitter.com">facebook</a> and <a href="https://twitter.com">twitter</a>.
+			For the very latest, please follow us on <a href="https://twitter.com">facebook</a> and <a href="https://twitter.com">twitter</a>.
 		</p>
 		
 	</div><!-- /.col -->
 	<div class="col-md-5 col-lg-4">
 		<h2 style="margin-top:0;">In the media</h2>
 		<p>
+			Stories and videos featuring Spokane Public Library.
+		</p>
+		<p>
 			<a class="btn btn-primary" 
-				href="/press/"><i class="glyphicon glyphicon-film"></i> Videos & media mentions</a>
+				href="/press/"><i class="glyphicon glyphicon-film"></i> Videos & media mentions &rarr;</a>
 		</p>
 	</div><!-- /.col -->
 </div><!-- /.row -->
