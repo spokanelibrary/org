@@ -10,8 +10,9 @@
 		
 	</div><!-- /.col -->
 	<div class="col-md-5 col-lg-4">
+		<h2>In the media</h2>
 		<p>
-			<a class="btn btn-warning" 
+			<a class="btn btn-primary" 
 				href="/press/"><i class="glyphicon glyphicon-film"></i> Videos & media mentions</a>
 		</p>
 	</div><!-- /.col -->
