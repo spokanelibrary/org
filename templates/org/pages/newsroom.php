@@ -5,4 +5,4 @@
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
-<?php echo do_shortcode('[spl_widget list-files prefix="Press Release" icon="list"]'); ?>
+<?php echo do_shortcode('[spl_widget list-files prefix="Press Release" icon="bullhorn"]'); ?>
