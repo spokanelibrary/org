@@ -4,6 +4,7 @@
 		<?php echo do_shortcode('[spl_widget list-files prefix="" icon="file"]'); ?>
 	</div><!-- /.col -->
 	<div class="col-md-4">
+		<h3>Read Library News</h3>
 		<div class="panel spl-hero-panel spl-hero-news">
 			<h4><i class="glyphicon glyphicon-bullhorn"></i> 
 				<?php echo do_shortcode('[spl_mailgun_current format=subtitle default_subtitle="In the current issue"]'); ?>
