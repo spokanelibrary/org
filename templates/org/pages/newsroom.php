@@ -5,4 +5,4 @@
 	</div><!-- /.col -->
 </div><!-- /.row -->
 
-<?php echo do_shortcode('[spl_widget list-files prefix="" wrapper="h4" divider="true" icon="file"]'); ?>
+<?php echo do_shortcode('[spl_widget list-files prefix="" wrapper="b" divider="true" icon="file"]'); ?>
