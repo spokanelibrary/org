@@ -14,10 +14,12 @@
 				<hr>
 				<p>
 					<b>We’ll keep you informed</b> of new service offerings, as well as upcoming events and activities at your local library.
-					<br>
-					<a href="/subscribe/"><i class="glyphicon glyphicon-envelope"></i> Subscribe to Library News →</a>
-					<br>
-					<a href="/newsletter/"><i class="glyphicon glyphicon-list-alt"></i> Read past issues →</a>
+				</p>
+				<p>
+					<i class="glyphicon glyphicon-envelope text-muted"></i> <a href="/subscribe/">Subscribe to Library News →</a>
+				</p>
+				<p>
+					<i class="glyphicon glyphicon-list-alt text-muted"></i> <a href="/newsletter/">Read past issues →</a>
 				</p>
 			</div>
 		</div>
