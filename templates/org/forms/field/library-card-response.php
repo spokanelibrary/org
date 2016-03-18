@@ -144,12 +144,12 @@
 <?php endif; ?>
 
 <?php
-
+/*
 echo '<pre>';
 echo 'Result';
 print_r($crass->result);
 echo 'Request';
 print_r($crass->request); 
 echo '</pre>';
-
+*/
 ?>
