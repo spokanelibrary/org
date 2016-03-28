@@ -16,35 +16,34 @@
 	*/
 </style>
 
-<form class="form-horizontal">
-	<div class="row">
-		<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-			<div class="chof-panel chof-panel-sized chof-teal">
-				<h4>Year</h4>
-				<select class="form-control" id="chof-control-years">
-					<option>All years</option>
-					<option>2016</option>
-					<option>2015</option>
-				</select>
-			</div>
-		</div><!-- /.col -->
-		<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
-			...
-		</div><!-- /.col -->
-		<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-			<h4>Category</h4>
-		</div><!-- /.col -->
-		<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
-			...
-		</div><!-- /.col -->
-		<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-			<h4>Historic</h4>
-		</div><!-- /.col -->
-		<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
-			...
-		</div><!-- /.col-->			
-	</div><!-- /.row -->
-</div>
+<div class="row chof-row">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-teal">
+			<h4>Year</h4>
+			<select class="form-control" id="chof-control-years">
+				<option>All years</option>
+				<option>2016</option>
+				<option>2015</option>
+			</select>
+		</div>
+	</div><!-- /.col -->
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
+		...
+	</div><!-- /.col -->
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+		<h4>Category</h4>
+	</div><!-- /.col -->
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
+		...
+	</div><!-- /.col -->
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+		<h4>Historic</h4>
+	</div><!-- /.col -->
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
+		...
+	</div><!-- /.col-->			
+</div><!-- /.row -->
+
 
 <div class="row chof-row">
 
