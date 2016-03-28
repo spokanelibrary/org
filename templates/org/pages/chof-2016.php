@@ -34,7 +34,7 @@
 		</div>
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
-		<div class="chof-panel chof-panel-sized chof-panel-control chof-yellow">
+		<div class="chof-panel chof-panel-sized chof-panel-control chof-brown">
 			&nbsp;
 		</div>
 	</div><!-- /.col -->
@@ -42,13 +42,17 @@
 		<h4>Category</h4>
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
-		...
+		<div class="chof-panel chof-panel-sized chof-panel-control chof-gray">
+			&nbsp;
+		</div>
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<h4>Historic</h4>
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
-		...
+		<div class="chof-panel chof-panel-sized chof-panel-control chof-teal">
+			&nbsp;
+		</div>
 	</div><!-- /.col-->			
 </div><!-- /.row -->
 
