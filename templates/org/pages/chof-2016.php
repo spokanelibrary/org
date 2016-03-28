@@ -69,7 +69,7 @@
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<a href="#" >
 			<div class="chof-panel chof-panel-sized chof-blue">
-				<div class="panel-body">
+				<div class="panel-body" style="background:#fff;">
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
