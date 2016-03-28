@@ -18,10 +18,10 @@
 
 <div class="row chof-row">
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-orange" style="height:">
+		<div class="chof-panel chof-panel-sized chof-orange">
 			<div class="panel-body">
 				<div class="chof-text-wrapper">			
-					<div class="">
+					<div class="chof-text-mask">
 						<h6 class="chof-title">Year</h6>
 					</div>
 					<select class="form-control" id="chof-control-years">
