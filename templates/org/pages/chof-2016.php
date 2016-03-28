@@ -67,21 +67,17 @@
 	</div><!-- /.col -->
 	
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<a href="#" >
 			<div class="chof-panel chof-panel-sized chof-blue">
-				<div class="panel-body" style="background:#fff;">
+				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Filter</h6>
 						</div>
 					</div>	
-				</div>
-				<div class="chof-glyph">
-					<small class="glyphicon glyphicon-share-alt"></small>
+					Some stuff
 				</div>
 			</div>
-		</a>
 	</div><!-- /.col-->	
 
 </div><!-- /.row -->
