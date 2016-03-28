@@ -70,7 +70,7 @@
 		<div class="chof-panel chof-panel-sized chof-blue">
 			<div class="panel-body">
 				<div style="background:#ccc;">
-					<div style="position:absolute; top:0;">
+					<div style="position:absolute;">
 						Some stuff
 					</div>
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
