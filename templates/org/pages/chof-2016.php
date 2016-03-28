@@ -70,16 +70,15 @@
 		<div class="chof-panel chof-panel-sized chof-blue">
 			<div class="panel-body">
 				<div style="background:#ccc;">
+					<div style="position:absolute; top:0;">
+						Some stuff
+					</div>
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Filter</h6>
 						</div>
-						<div style="position:absolute; top:0;">
-						Some stuff
-					</div>
 					</div>	
-					
 				</div>
 			</div>
 		</div>
