@@ -16,6 +16,20 @@
 	*/
 </style>
 
+<form class="form-horizontal">
+	<div class="row">
+		<div class="col-xs-12 col-sm-3">
+			Year
+		</div><!-- /.row -->
+		<div class="col-xs-12 col-sm-3">
+			Category
+		</div><!-- /.row -->
+		<div class="col-xs-12 col-sm-3">
+			Historic
+		</div><!-- /.row -->			
+	</div><!-- /.row -->
+</div>
+
 <div class="row chof-row">
 
 	<!-- BLANK TILE -->
