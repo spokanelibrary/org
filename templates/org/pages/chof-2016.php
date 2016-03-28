@@ -64,7 +64,7 @@
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Filter: Category</h6>
+							<h6 class="chof-title">Filter by Category</h6>
 						</div>
 					</div>	
 				</div>
@@ -89,7 +89,7 @@
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Filter: Year</h6>
+							<h6 class="chof-title">Filter by Year</h6>
 						</div>
 					</div>	
 				</div>
