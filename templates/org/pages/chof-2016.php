@@ -34,7 +34,9 @@
 		</div>
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
-		...
+		<div class="chof-panel chof-panel-sized chof-teal">
+			&nbsp;
+		</div>
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<h4>Category</h4>
