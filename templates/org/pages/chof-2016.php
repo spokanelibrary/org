@@ -39,23 +39,6 @@
 		</a>
 	</div>
 
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
-		<div class="chof-panel chof-panel-sized chof-panel-control chof-brown">
-			&nbsp;
-		</div>
-	</div><!-- /.col -->
-	
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
-		<div class="chof-panel chof-panel-sized chof-panel-control chof-gray">
-			&nbsp;
-		</div>
-	</div><!-- /.col -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-panel-control chof-green">
-			&nbsp;
-		</div>
-	</div><!-- /.col -->
-	
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-blue">
 			<div class="panel-body">
@@ -77,8 +60,59 @@
 				</div>
 			</div>
 		</div>
-	</div><!-- /.col-->	
+	</div><!-- /.col-->
 
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-blue">
+			<div class="panel-body">
+				<div class="chof-control-panel" style="/*background:#D1AA2B;*/">
+					<div class="chof-control-widget">
+						<p>&nbsp;</p>
+						<select class="form-control" id="chof-control-category">
+							<option>All categories</option>
+							<option>Historic Inductees</option>
+							<option>Arts &amp; Letters</option>
+						</select>
+					</div>
+					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Categories</h6>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div><!-- /.col-->
+	
+	<!-- TILE CITY OF SPOKANE -->
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+		<a  href="#" data-toggle="modal" data-target="#chof-modal-spokane-city">
+			<div class="chof-panel chof-panel-sized chof-orange">
+				<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof-city-spokane.png">
+				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
+			</div>
+		</a>
+	</div>
+
+	<!-- TILE SPL FOUNDATION-->
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+		<a  href="#" data-toggle="modal" data-target="#chof-modal-spl-fdtn">
+			<div class="chof-panel chof-panel-sized chof-brown">
+				<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof-spl-fdtn.png">
+				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
+				</div>
+			</div>
+		</a>
+	</div>
+	
 </div><!-- /.row -->
 
 
