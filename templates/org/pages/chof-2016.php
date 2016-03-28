@@ -63,7 +63,7 @@
 	</div><!-- /.col-->
 
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-red">
+		<div class="chof-panel chof-panel-sized chof-orange">
 			<div class="panel-body">
 				<div class="chof-control-panel">
 					<div class="chof-control-widget">
