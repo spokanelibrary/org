@@ -28,7 +28,7 @@
 	<!-- LOGOTYPE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-about">
-			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
+			<div class="chof-panel chof-panel-sized chof-red chof-text-dark">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof-logotype-2016.png">
 				</div>
@@ -44,22 +44,7 @@
 			&nbsp;
 		</div>
 	</div><!-- /.col -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-panel-control chof-blue">
-			<div class="panel-body">
-				<div class="chof-text-wrapper">			
-					<div class="">
-						<h6 class="chof-title" style="color:#fff;">Filter By: Category</h6>
-					</div>
-					<select class="form-control" id="chof-control-category">
-						<option>All categories</option>
-						<option>Historic Inductees</option>
-						<option>Arts &amp; Letters</option>
-					</select>
-				</div>
-			</div>
-		</div>
-	</div><!-- /.col -->
+	
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
 		<div class="chof-panel chof-panel-sized chof-panel-control chof-gray">
 			&nbsp;
