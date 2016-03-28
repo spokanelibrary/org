@@ -40,29 +40,6 @@
 	</div>
 
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-red">
-			<div class="panel-body">
-				<div class="chof-control-panel">
-					<div class="chof-control-widget">
-						<p>&nbsp;</p>
-						<select class="form-control" id="chof-control-category">
-							<option>All categories</option>
-							<option>Historic Inductees</option>
-							<option>Arts &amp; Letters</option>
-						</select>
-					</div>
-					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
-					<div class="chof-text-wrapper">			
-						<div class="chof-text-mask">
-							<h6 class="chof-title">Categories</h6>
-						</div>
-					</div>	
-				</div>
-			</div>
-		</div>
-	</div><!-- /.col-->
-
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-blue">
 			<div class="panel-body">
 				<div class="chof-control-panel">
@@ -77,7 +54,30 @@
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Categories</h6>
+							<h6 class="chof-title">Category</h6>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div><!-- /.col-->
+
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+		<div class="chof-panel chof-panel-sized chof-red">
+			<div class="panel-body">
+				<div class="chof-control-panel">
+					<div class="chof-control-widget">
+						<p>&nbsp;</p>
+						<select class="form-control" id="chof-control-category">
+							<option>All Years</option>
+							<option>2016</option>
+							<option>2015</option>
+						</select>
+					</div>
+					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">Year</h6>
 						</div>
 					</div>	
 				</div>
