@@ -21,8 +21,8 @@
 		<div class="chof-panel chof-panel-sized chof-orange">
 			<div class="panel-body">
 				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
-						<h6 class="" style="color:#fff;">Year</h6>
+					<div class="">
+						<h6 class="chof-title" style="color:#fff;">Year</h6>
 					</div>
 					<select class="form-control" id="chof-control-years">
 						<option>All years</option>
