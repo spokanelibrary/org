@@ -47,12 +47,13 @@
 						<p>&nbsp;</p>
 						<select class="form-control" id="chof-control-category">
 							<option value="all">All categories</option>
-							<optgroup>
-								<option value="">Historic Inductees</option>
-							</optgroup>
-							<optgroup>
-								<option value="">Arts &amp; Letters</option>
-							</optgroup>
+							<option value="his">Historic Inductees</option>
+							<option value="aal">Arts &amp; Letters</option>
+							<option value="ial">Innovation &amp; Leadership</option>
+							<option value="psp">Public Service &amp; Philanthropy </option>
+							<option value="edu">Education</option>
+							<option value="edb">Economic Development &amp; Business</option>
+							<option value="shm">Science, Health, &amp; Medicine</option>
 						</select>
 					</div>
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
@@ -74,6 +75,7 @@
 						<p>&nbsp;</p>
 						<select class="form-control" id="chof-control-year">
 							<option value="all">All Years</option>
+							
 							<option value="2016">2016</option>
 							<option value="2015">2015</option>
 						</select>
