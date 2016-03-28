@@ -17,6 +17,7 @@
 </style>
 
 <div class="row chof-row">
+
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-panel-control chof-orange">
 			<div class="panel-body">
@@ -64,22 +65,25 @@
 			&nbsp;
 		</div>
 	</div><!-- /.col -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
-		<div class="chof-panel chof-panel-sized chof-red">
-			<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Cole_King-sm.jpg">
+	
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+		<a href="#" >
+			<div class="chof-panel chof-panel-sized chof-blue">
+				<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">King Cole</h6>
+							<h6 class="chof-title">Filter</h6>
 						</div>
-					</div>
+					</div>	
 				</div>
 				<div class="chof-glyph">
 					<small class="glyphicon glyphicon-share-alt"></small>
 				</div>
 			</div>
-		</div>
-	</div><!-- /.col-->			
+		</a>
+	</div><!-- /.col-->	
+
 </div><!-- /.row -->
 
 
