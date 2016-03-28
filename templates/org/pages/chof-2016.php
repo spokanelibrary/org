@@ -47,13 +47,17 @@
 						<p>&nbsp;</p>
 						<select class="form-control" id="chof-control-category">
 							<option value="all">All categories</option>
-							<option value="his">Historic Inductees</option>
-							<option value="aal">Arts &amp; Letters</option>
-							<option value="ial">Innovation &amp; Leadership</option>
-							<option value="psp">Public Service &amp; Philanthropy </option>
-							<option value="edu">Education</option>
-							<option value="edb">Economic Development &amp; Business</option>
-							<option value="shm">Science, Health, &amp; Medicine</option>
+							<optgroup label="Special Categories">
+								<option value="his">Historic Inductees</option>
+								<option value="aal">Arts &amp; Letters</option>
+							</optgroup>
+							<optgroup label="Achievement Awards">
+								<option value="ial">Innovation &amp; Leadership</option>
+								<option value="psp">Public Service &amp; Philanthropy </option>
+								<option value="edu">Education</option>
+								<option value="edb">Economic Development &amp; Business</option>
+								<option value="shm">Science, Health, &amp; Medicine</option>
+							</optgroup>
 						</select>
 					</div>
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
