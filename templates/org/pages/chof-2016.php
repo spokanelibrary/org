@@ -18,22 +18,27 @@
 
 <div class="row chof-row">
 
+	<!-- CLOCKTOWER -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-panel-control chof-orange">
-			<div class="panel-body">
-				<div class="chof-text-wrapper">			
-					<div class="">
-						<h6 class="chof-title" style="color:#fff;">Filter By: Year</h6>
-					</div>
-					<select class="form-control" id="chof-control-year">
-						<option>All years</option>
-						<option>2016</option>
-						<option>2015</option>
-					</select>
+		<div class="chof-panel chof-panel-sized chof-teal">
+			<img class="img-responsive" src="/assets/img/promos/chof-clocktower-2016.png">
+		</div>
+	</div>
+	
+	<!-- LOGOTYPE -->
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-about">
+			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
+				<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof-logotype-2016.png">
+				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
 				</div>
 			</div>
-		</div>
-	</div><!-- /.col -->
+		</a>
+	</div>
+
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
 		<div class="chof-panel chof-panel-sized chof-panel-control chof-brown">
 			&nbsp;
@@ -90,6 +95,15 @@
 	</div><!-- /.col-->	
 
 </div><!-- /.row -->
+
+
+
+
+
+
+
+
+
 
 
 <div class="row chof-row">
