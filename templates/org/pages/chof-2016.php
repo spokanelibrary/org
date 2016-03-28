@@ -71,6 +71,7 @@
 			<div class="panel-body">
 				<div class="chof-control-panel">
 					<div class="chof-control-widget">
+						<h6>Filter</h6>
 						<select class="form-control" id="chof-control-category">
 							<option>All categories</option>
 							<option>Historic Inductees</option>
@@ -80,7 +81,7 @@
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Filter</h6>
+							<h6 class="chof-title">Categories</h6>
 						</div>
 					</div>	
 				</div>
