@@ -47,11 +47,12 @@
 						<p>&nbsp;</p>
 						<select class="form-control" id="chof-control-category">
 							<option value="all">All categories</option>
-							<optgroup label="Special Categories">
+							<optgroup label="Special Awards">
 								<option value="his">Historic Inductees</option>
-								<option value="aal">Arts &amp; Letters</option>
+								<option value="cia">Citizen Impact Award</option>
 							</optgroup>
 							<optgroup label="Achievement Awards">
+								<option value="aal">Arts &amp; Letters</option>
 								<option value="ial">Innovation &amp; Leadership</option>
 								<option value="psp">Public Service &amp; Philanthropy </option>
 								<option value="edu">Education</option>
