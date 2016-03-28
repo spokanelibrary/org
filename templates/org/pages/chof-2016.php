@@ -39,7 +39,7 @@
 		</div>
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-panel-control chof-orange">
+		<div class="chof-panel chof-panel-sized chof-panel-control chof-blue">
 			<div class="panel-body">
 				<div class="chof-text-wrapper">			
 					<div class="">
@@ -60,10 +60,12 @@
 		</div>
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<h4>Historic</h4>
+		<div class="chof-panel chof-panel-sized chof-panel-control chof-green">
+			&nbsp;
+		</div>
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
-		<div class="chof-panel chof-panel-sized chof-panel-control chof-teal">
+		<div class="chof-panel chof-panel-sized chof-panel-control chof-red">
 			&nbsp;
 		</div>
 	</div><!-- /.col-->			
