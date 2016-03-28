@@ -69,9 +69,13 @@
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
 		<div class="chof-panel chof-panel-sized chof-blue">
 			<div class="panel-body">
-				<div style="background:#ccc;">
-					<div>
-						Some stuff
+				<div style="chof-control-panel">
+					<div class="chof-control-widget">
+						<select class="form-control" id="chof-control-category">
+							<option>All categories</option>
+							<option>Historic Inductees</option>
+							<option>Arts &amp; Letters</option>
+						</select>
 					</div>
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 					<div class="chof-text-wrapper">			
