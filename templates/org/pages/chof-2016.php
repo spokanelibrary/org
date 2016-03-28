@@ -81,7 +81,7 @@
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Categories</h6>
+							<h6 class="chof-title" style="background:#fff;">Categories</h6>
 						</div>
 					</div>	
 				</div>
