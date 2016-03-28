@@ -165,10 +165,10 @@
 				    	<a href="/eaudio/"><em>OneClick:</em> Audiobook Downloads</a>
 				    </h4>
 				    <p>
-				    	Download audio books directly to your computer or portable music player. 
+				    	Download audiobooks directly to your computer, mobile device, or iPod. 
 				  	</p>
 				  	<p>
-							These recordings are a great alternative to books on CD and are compatible with virtually all mp3 players, smartphones, and tablets.
+							These recordings are a great alternative to books on CD and are compatible with iPods, smartphones, and tablets.
  						</p>
  						<div class="btn-group btn-group-justified">
  							<a class="btn btn-primary" href="/eaudio/">Learn more &rarr;</a>
