@@ -46,9 +46,13 @@
 					<div class="chof-control-widget">
 						<p>&nbsp;</p>
 						<select class="form-control" id="chof-control-category">
-							<option>All categories</option>
-							<option>Historic Inductees</option>
-							<option>Arts &amp; Letters</option>
+							<option value="all">All categories</option>
+							<optgroup>
+								<option value="">Historic Inductees</option>
+							</optgroup>
+							<optgroup>
+								<option value="">Arts &amp; Letters</option>
+							</optgroup>
 						</select>
 					</div>
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
@@ -63,15 +67,15 @@
 	</div><!-- /.col-->
 
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-orange">
+		<div class="chof-panel chof-panel-sized chof-red">
 			<div class="panel-body">
 				<div class="chof-control-panel">
 					<div class="chof-control-widget">
 						<p>&nbsp;</p>
-						<select class="form-control" id="chof-control-category">
-							<option>All Years</option>
-							<option>2016</option>
-							<option>2015</option>
+						<select class="form-control" id="chof-control-year">
+							<option value="all">All Years</option>
+							<option value="2016">2016</option>
+							<option value="2015">2015</option>
 						</select>
 					</div>
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
