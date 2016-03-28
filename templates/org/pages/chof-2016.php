@@ -75,10 +75,11 @@
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Filter</h6>
 						</div>
-					</div>	
-					<div style="position:absolute">
+						<div style="position:absolute; top:0;">
 						Some stuff
 					</div>
+					</div>	
+					
 				</div>
 			</div>
 		</div>
