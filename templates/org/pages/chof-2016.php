@@ -66,10 +66,16 @@
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
 		<div class="chof-panel chof-panel-sized chof-red">
-			<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
-			<div class="chof-text-wrapper">			
-				<div class="chof-text-mask">
-					<h6 class="chof-title">Filter</h6>
+			<div class="panel-body">
+					<img class="img-responsive" src="/assets/img/promos/chof/Cole_King-sm.jpg">
+					<div class="chof-text-wrapper">			
+						<div class="chof-text-mask">
+							<h6 class="chof-title">King Cole</h6>
+						</div>
+					</div>
+				</div>
+				<div class="chof-glyph">
+					<small class="glyphicon glyphicon-share-alt"></small>
 				</div>
 			</div>
 		</div>
