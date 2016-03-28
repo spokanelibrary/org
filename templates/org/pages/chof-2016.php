@@ -71,13 +71,11 @@
 			<div class="panel-body">
 				<div class="chof-control-panel">
 					<div class="chof-control-widget">
-						<div style="position:relative;">
 						<select class="form-control" id="chof-control-category">
 							<option>All categories</option>
 							<option>Historic Inductees</option>
 							<option>Arts &amp; Letters</option>
 						</select>
-						</div>
 					</div>
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
 					<div class="chof-text-wrapper">			
