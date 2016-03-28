@@ -70,8 +70,8 @@
 		<div class="chof-panel chof-panel-sized chof-blue">
 			<div class="panel-body">
 				<div class="chof-control-panel" style="background:#D1AA2B;">
-					<p>&nbsp;</p>
 					<div class="chof-control-widget">
+						<p>&nbsp;</p>
 						<select class="form-control" id="chof-control-category">
 							<option>All categories</option>
 							<option>Historic Inductees</option>
