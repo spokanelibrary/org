@@ -22,15 +22,13 @@
 			<div class="panel-body">
 				<div class="chof-text-wrapper">			
 					<div class="chof-text-mask">
-						<h6 class="chof-title">Year</h6>
+						<h6 class="" style="color:#fff;">Year</h6>
 					</div>
 					<select class="form-control" id="chof-control-years">
 						<option>All years</option>
 						<option>2016</option>
 						<option>2015</option>
 					</select>
-					<p style="background:#fff;">&nbsp;</p>
-					<p style="background:#fff;">&nbsp;</p>
 				</div>
 			</div>
 		</div>
