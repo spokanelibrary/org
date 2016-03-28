@@ -71,7 +71,6 @@
 			<div class="panel-body">
 				<div class="chof-control-panel">
 					<div class="chof-control-widget">
-						<h6>Filter</h6>
 						<select class="form-control" id="chof-control-category">
 							<option>All categories</option>
 							<option>Historic Inductees</option>
