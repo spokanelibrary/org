@@ -22,9 +22,9 @@
 			<div class="panel-body">
 				<div class="chof-text-wrapper">			
 					<div class="">
-						<h6 class="chof-title" style="color:#fff;">Year</h6>
+						<h6 class="chof-title" style="color:#fff;">Filter By: Year</h6>
 					</div>
-					<select class="form-control" id="chof-control-years">
+					<select class="form-control" id="chof-control-year">
 						<option>All inductees</option>
 						<option>2016</option>
 						<option>2015</option>
@@ -39,7 +39,20 @@
 		</div>
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<h4>Category</h4>
+		<div class="chof-panel chof-panel-sized chof-panel-control chof-orange">
+			<div class="panel-body">
+				<div class="chof-text-wrapper">			
+					<div class="">
+						<h6 class="chof-title" style="color:#fff;">Filter By: Category</h6>
+					</div>
+					<select class="form-control" id="chof-control-category">
+						<option>All categories</option>
+						<option>Historic Inductees</option>
+						<option>Arts &amp; Letters</option>
+					</select>
+				</div>
+			</div>
+		</div>
 	</div><!-- /.col -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 hidden-xs hidden-sm">
 		<div class="chof-panel chof-panel-sized chof-panel-control chof-gray">
