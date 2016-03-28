@@ -18,14 +18,14 @@
 
 <div class="row chof-row">
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-		<div class="chof-panel chof-panel-sized chof-orange">
+		<div class="chof-panel chof-panel-sized chof-panel-control chof-orange">
 			<div class="panel-body">
 				<div class="chof-text-wrapper">			
 					<div class="">
 						<h6 class="chof-title" style="color:#fff;">Year</h6>
 					</div>
 					<select class="form-control" id="chof-control-years">
-						<option>All years</option>
+						<option>All inductees</option>
 						<option>2016</option>
 						<option>2015</option>
 					</select>
