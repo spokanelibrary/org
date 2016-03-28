@@ -80,9 +80,10 @@
 						<p>&nbsp;</p>
 						<select class="form-control" id="chof-control-year">
 							<option value="all">All Years</option>
-							
-							<option value="2016">2016</option>
-							<option value="2015">2015</option>
+							<optgroup>
+								<option value="2016">2016</option>
+								<option value="2015">2015</option>
+							</optgroup>
 						</select>
 					</div>
 					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
