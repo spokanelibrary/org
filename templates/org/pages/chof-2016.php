@@ -21,7 +21,7 @@
 		<div class="chof-panel chof-panel-sized chof-orange" style="height:">
 			<div class="panel-body">
 				<div class="chof-text-wrapper">			
-					<div class="chof-text-mask">
+					<div class="">
 						<h6 class="chof-title">Year</h6>
 					</div>
 					<select class="form-control" id="chof-control-years">
@@ -29,7 +29,7 @@
 						<option>2016</option>
 						<option>2015</option>
 					</select>
-					<p>&nbsp;</p>
+					<p style="background:#fff;">&nbsp;</p>
 				</div>
 			</div>
 		</div>
