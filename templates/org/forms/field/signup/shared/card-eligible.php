@@ -20,10 +20,8 @@
   </div>
   <div class="col-sm-6">
     <p>
-      <?php if ( !isset($_REQUEST['station']) )  : ?>
       <i class="glyphicon glyphicon-share text-muted"></i>
       <a href="#" data-toggle="modal" data-target="#spl-card-eligible">Read more about library card eligibility</i></a>
-      <?php endif; ?>
     </p>
   </div>
 </div>
@@ -62,6 +60,7 @@
             Non-residents may purchase all-access cards for a fee of $3.50 per month or $42.00 per year.
           </li>
         </ul>
+        <?php if ( !isset($_REQUEST['station']) )  : ?>
         <h4>More information</h4>
         <p>
           <a rel="external" href="/card/#eligibility">Policy on Library Card Eligibility</a> <small class="text-muted">(new window)</small>
@@ -69,6 +68,7 @@
         <p>
           <a rel="external" href="/card/#non-resident">Policy on Fees &amp; Services to Non-Residents</a> <small class="text-muted">(new window)</small>
         </p>
+        <?php endif; ?>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
