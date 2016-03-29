@@ -191,7 +191,7 @@ var org = {
       } )
       .done(function(data) {
         //console.log(data);
-        if ( data.error || data.empty ) {
+        if ( data.error ) {
           //$('#'+id).blur();
           //$('#'+id).val('');
         } else {
