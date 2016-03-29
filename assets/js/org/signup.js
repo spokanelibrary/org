@@ -191,11 +191,9 @@ var org = {
       } )
       .done(function(data) {
         //console.log(data);
-        if ( data.error ) {
-          //$('#'+id).blur();
-          //$('#'+id).val('');
-        } else if ( data.empty ) {
-          
+        if ( data.error || data.empty ) {
+          $('#'+id).blur();
+          $('#'+id).val('');
         } else {
           $('#'+id).val(data);
         }
