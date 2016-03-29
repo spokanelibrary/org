@@ -20,8 +20,10 @@
   </div>
   <div class="col-sm-6">
     <p>
+      <?php if ( !isset($_REQUEST['station']) )  : ?>
       <i class="glyphicon glyphicon-share text-muted"></i>
       <a href="#" data-toggle="modal" data-target="#spl-card-eligible">Read more about library card eligibility</i></a>
+      <?php endif; ?>
     </p>
   </div>
 </div>
