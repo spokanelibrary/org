@@ -53,7 +53,7 @@
             All-access cards are available to City of Spokane residents.
           </li>
           <li>
-            Limited-access cards are available to Spokane County residents as part of a reciprocal program with <a href="http://www.scld.org">Spokane County Library District</a>.
+            Limited-access cards are available to Spokane County residents as part of a reciprocal program with <?php if ( !isset($_REQUEST['station']) )  : ?><a href="http://www.scld.org"><?php endif; ?>Spokane County Library District<?php if ( !isset($_REQUEST['station']) )  : ?></a><?php endif; ?>.
             Remote subscription database access and interlibrary loans are not available with free reciprocal cards.
           </li>
           <li>
