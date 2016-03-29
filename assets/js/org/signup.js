@@ -194,6 +194,8 @@ var org = {
         if ( data.error ) {
           //$('#'+id).blur();
           //$('#'+id).val('');
+        } else if ( data.empty ) {
+          
         } else {
           $('#'+id).val(data);
         }
