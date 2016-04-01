@@ -114,11 +114,18 @@ Template Name: Home Page
         </div>
       </div><!-- /.col -->
       <div class="col-md-6">
+        <div class="panel spl-hero-panel spl-hero-brand-blue-d" style="border-width:4px 1px;">
+          <a href="/about/annual-report/">
+            <img class="img-responsive" src="http://www.spokanelibrary.org/assets/img/promos/AnnualReport-tile.jpg">
+          </a>
+        </div>
+        <!--
         <div class="panel spl-hero-panel spl-hero-news">
           <div class="panel-body">
-            <?php echo do_shortcode('[spl_widget home-page news-mailgun]'); ?>
+            <?php //echo do_shortcode('[spl_widget home-page news-mailgun]'); ?>
           </div>
         </div>
+        -->
       </div><!-- /.col -->
     </div><!-- /.row -->
 
