@@ -41,7 +41,7 @@ add_action( 'pre_get_posts', 'spl_staff_queries' );
 
 function filter_search($query) {
   if ($query->is_search) {
-    $query->set('post_type', array('post', 'page', 'kbe_knowledgebase', 'staff', 'staff-category'));
+    $query->set('post_type', array('post', 'page', 'kbe_knowledgebase', 'staff', 'category', 'staff_category'));
   };
   return $query;
 }
