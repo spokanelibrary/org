@@ -14,7 +14,7 @@
     <span class="help-block">
       <b>Materials Due Reminder Notices, Hold Notices, and Overdue Notices</b> can be delivered by phone or email.
       These are courtesy notices only.
-      We strongly encourage everyone to keep an email address on file with the Library, and find that email is usually the most convenient notification method.
+      We find that email is usually the most convenient notification method, and we strongly encourage everyone to keep an email address on file with the Library.
     </span>
   </div>
   <div class="col-sm-6 col-md-5 col-md-offset-1">
