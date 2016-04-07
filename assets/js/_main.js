@@ -196,6 +196,10 @@ var ORG = {
         }
       });
 
+      $('body').on('change', '.chof-control-year', function() {
+        console.log( $(this).val() );
+      });
+
       $('.spl-form').validate({
         highlight: function(element) {
             $(element).closest('.form-group').addClass('has-error');

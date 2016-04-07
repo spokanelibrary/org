@@ -130,7 +130,7 @@
 
 	
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-category-historic chof-year-2015">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-spokan-chief-garry">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
