@@ -196,11 +196,12 @@ var ORG = {
         }
       });
 
-      $('body').on('change', '.chof-control-year', function(e) {
+      $('body').on('change', '#chof-control-year', function(e) {
         console.log( $(this).val() );
+        console.log('year');
       });
 
-      $('body').on('change', '.chof-control-category', function(e) {
+      $('body').on('change', '#chof-control-category', function(e) {
         console.log( $(this).val() );
       });
 
