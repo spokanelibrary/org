@@ -199,8 +199,14 @@ var ORG = {
       $('body').on('change', '#chof-control-year', function(e) {
         var chof_year =  $(this).val();
         if ( chof_year ) {
-          $('.chof-tile-inductee').hide();
-          $('.chof-tile-year'+chof_year).show();
+          if ( 'all' == chof_year ) {
+            ('.chof-tile-inductee').hide();
+          } else {
+            chof_year_tiles = '.chof-tile-year'+chof_year;
+            $('.chof-tile-inductee').hide();
+            $(chof_year_tiles).show();
+            console.log(chof_year_tiles);
+          }
         }
       });
 
