@@ -215,7 +215,7 @@ var ORG = {
           if ( 'all' == chof_year && 'all' == chof_category ) {
             $chof_inductee_tiles.show();
           } else {
-              $chof_indctee_tiles.hide();
+              $chof_inductee_tiles.hide();
               if ( 'all' == chof_year && 'all' != chof_category ) {
                 $chof_category_tiles.show(); 
               } else if ( 'all' != chof_year && 'all' == chof_category ) {
