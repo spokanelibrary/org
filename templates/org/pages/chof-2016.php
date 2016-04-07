@@ -150,7 +150,7 @@
 
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015 chof-tile-category-his">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-mcneill-vicki">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
@@ -170,7 +170,7 @@
 
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015 chof-tile-category-his">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-cole-king">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
@@ -189,7 +189,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015 chof-tile-category-his">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-oliver-daniel">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
@@ -208,7 +208,7 @@
 	</div>
 	
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015 chof-tile-category-his">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-hutton-may">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
@@ -227,7 +227,7 @@
 	</div>	
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015 chof-tile-category-his">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-foley-tom">
 			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
