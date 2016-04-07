@@ -200,10 +200,9 @@ var ORG = {
         var chof_year =  $('#chof-control-year').val();
         var chof_category = $('#chof-control-category').val();
 
-        console.log(chof_year);
-        console.log(chof_category);
-
-        console.log('.chof-tile-year-'+chof_year+'.chof-tile-category-'+chof_category );
+        //console.log(chof_year);
+        //console.log(chof_category);
+        //console.log('.chof-tile-year-'+chof_year+'.chof-tile-category-'+chof_category );
 
         if ( chof_year && chof_category ) {
 
