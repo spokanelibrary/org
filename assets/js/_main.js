@@ -200,7 +200,7 @@ var ORG = {
         var chof_year =  $(this).val();
         if ( chof_year ) {
           if ( 'all' == chof_year ) {
-            ('.chof-tile-inductee').hide();
+            ('.chof-tile-inductee').show();
           } else {
             chof_year_tiles = '.chof-tile-year-'+chof_year;
             $('.chof-tile-inductee').hide();
