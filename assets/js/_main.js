@@ -199,14 +199,29 @@ var ORG = {
       $('body').on('change', '.chof-control', function(e) {
         var chof_year =  $('#chof-control-year').val();
         var chof_category = $('#chof-control-category').val();
-        if ( chof_year ) {
-          if ( 'all' == chof_year ) {
-            $('.chof-tile-inductee').show();
+
+        console.log(chof_year);
+        console.log(chof_category);
+
+        if ( chof_year && chof_category ) {
+
+          $chof_year_tiles = $('.chof-tile-year-'+chof_year);
+          $chof_category_tiles = $('.chof-tile-category-'+chof_category);
+          $chof_year_category_tiles = $('.chof-tile-year-'+chof_year+'.chof-tile-category-'+chof_category);
+          $chof_indctee_tiles = $('.chof-tile-inductee');
+
+          if ( 'all' == chof_year && 'all' == chof_category ) {
+            $chof_indctee_tiles.show();
           } else {
-            chof_year_tiles = '.chof-tile-year-'+chof_year;
-            $('.chof-tile-inductee').hide();
-            $(chof_year_tiles).show();
-            console.log(chof_year_tiles);
+              $chof_indctee_tiles.hide();
+              if ( 'all' == chof_year && 'all' != chof_category ) {
+                $chof_category_tiles.show(); 
+              } else if ( 'all' != chof_year && 'all' == chof_category ) {
+                $chof_year_tiles.show();        
+              } else if ( 'all' != chof_year && 'all' != chof_category   ) {
+
+              }
+            
           }
         }
       });
