@@ -130,7 +130,7 @@
 
 	
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-category-historic chof-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-category-his chof-tile-year-2015">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-spokan-chief-garry">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
@@ -150,7 +150,7 @@
 
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-mcneill-vicki">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
@@ -170,7 +170,7 @@
 
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-cole-king">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
@@ -189,7 +189,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-oliver-daniel">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
@@ -208,7 +208,7 @@
 	</div>
 	
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-hutton-may">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
@@ -227,7 +227,7 @@
 	</div>	
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-foley-tom">
 			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
@@ -246,7 +246,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-balazs-harold">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
@@ -266,7 +266,7 @@
 
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-kardong-donald">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
@@ -285,7 +285,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-welty-elizabeth">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
@@ -304,7 +304,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-livingston-gary">
 			<div class="chof-panel chof-panel-sized chof-gray">
 				<div class="panel-body">
@@ -323,7 +323,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-budke-gordon">
 			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
@@ -342,7 +342,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-hopkins-peg">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">

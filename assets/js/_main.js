@@ -197,8 +197,11 @@ var ORG = {
       });
 
       $('body').on('change', '#chof-control-year', function(e) {
-        console.log( $(this).val() );
-        console.log('year');
+        var chof_year =  $(this).val();
+        if ( chof_year ) {
+          $('.chof-tile-inductee').hide;
+          $('.chof-tile-year'+chof_year).show();
+        }
       });
 
       $('body').on('change', '#chof-control-category', function(e) {
