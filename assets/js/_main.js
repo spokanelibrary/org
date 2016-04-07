@@ -203,6 +203,8 @@ var ORG = {
         console.log(chof_year);
         console.log(chof_category);
 
+        console.log('.chof-tile-year-'+chof_year+'.chof-tile-category-'+chof_category );
+
         if ( chof_year && chof_category ) {
 
           $chof_year_tiles = $('.chof-tile-year-'+chof_year);
