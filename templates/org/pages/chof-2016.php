@@ -246,7 +246,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015 chof-tile-category-aal">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-balazs-harold">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
@@ -266,7 +266,7 @@
 
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015 chof-tile-category-ial">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-kardong-donald">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
@@ -285,7 +285,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015 chof-tile-category-psp">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-welty-elizabeth">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
@@ -304,7 +304,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015 chof-tile-category-edu">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-livingston-gary">
 			<div class="chof-panel chof-panel-sized chof-gray">
 				<div class="panel-body">
@@ -323,7 +323,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015 chof-tile-category-edb">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-budke-gordon">
 			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
@@ -342,7 +342,7 @@
 	</div>
 
 	<!-- TILE -->
-	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015">
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2015 chof-tile-category-shm">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-hopkins-peg">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
