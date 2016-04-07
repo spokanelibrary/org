@@ -199,7 +199,7 @@ var ORG = {
       $('body').on('change', '#chof-control-year', function(e) {
         var chof_year =  $(this).val();
         if ( chof_year ) {
-          $('.chof-tile-inductee').hide;
+          $('.chof-tile-inductee').hide();
           $('.chof-tile-year'+chof_year).show();
         }
       });
