@@ -210,10 +210,10 @@ var ORG = {
           $chof_year_tiles = $('.chof-tile-year-'+chof_year);
           $chof_category_tiles = $('.chof-tile-category-'+chof_category);
           $chof_year_category_tiles = $('.chof-tile-year-'+chof_year+'.chof-tile-category-'+chof_category);
-          $chof_indctee_tiles = $('.chof-tile-inductee');
+          $chof_inductee_tiles = $('.chof-tile-inductee');
 
           if ( 'all' == chof_year && 'all' == chof_category ) {
-            $chof_indctee_tiles.show();
+            $chof_inductee_tiles.show();
           } else {
               $chof_indctee_tiles.hide();
               if ( 'all' == chof_year && 'all' != chof_category ) {
@@ -221,7 +221,7 @@ var ORG = {
               } else if ( 'all' != chof_year && 'all' == chof_category ) {
                 $chof_year_tiles.show();        
               } else if ( 'all' != chof_year && 'all' != chof_category   ) {
-
+                $chof_year_category_tiles.show();
               }
             
           }
