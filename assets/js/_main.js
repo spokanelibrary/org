@@ -202,7 +202,7 @@ var ORG = {
           if ( 'all' == chof_year ) {
             ('.chof-tile-inductee').hide();
           } else {
-            chof_year_tiles = '.chof-tile-year'+chof_year;
+            chof_year_tiles = '.chof-tile-year-'+chof_year;
             $('.chof-tile-inductee').hide();
             $(chof_year_tiles).show();
             console.log(chof_year_tiles);
