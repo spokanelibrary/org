@@ -45,7 +45,7 @@
 				<div class="chof-control-panel">
 					<div class="chof-control-widget">
 						<p>&nbsp;</p>
-						<select class="form-control" id="chof-control-category">
+						<select class="form-control chof-control" id="chof-control-category">
 							<option value="all">All categories</option>
 							<optgroup label="Special Awards">
 								<option value="his">Historic Inductees</option>
@@ -78,7 +78,7 @@
 				<div class="chof-control-panel">
 					<div class="chof-control-widget">
 						<p>&nbsp;</p>
-						<select class="form-control" id="chof-control-year">
+						<select class="form-control chof-control" id="chof-control-year">
 							<option value="all">All Years</option>
 							<optgroup>
 								<option value="2016">2016</option>

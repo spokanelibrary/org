@@ -196,11 +196,12 @@ var ORG = {
         }
       });
 
-      $('body').on('change', '#chof-control-year', function(e) {
-        var chof_year =  $(this).val();
+      $('body').on('change', '.chof-control', function(e) {
+        var chof_year =  $('#chof-control-year').val();
+        var chof_category = $('#chof-control-category').val();
         if ( chof_year ) {
           if ( 'all' == chof_year ) {
-            ('.chof-tile-inductee').show();
+            $('.chof-tile-inductee').show();
           } else {
             chof_year_tiles = '.chof-tile-year-'+chof_year;
             $('.chof-tile-inductee').hide();
@@ -208,10 +209,6 @@ var ORG = {
             console.log(chof_year_tiles);
           }
         }
-      });
-
-      $('body').on('change', '#chof-control-category', function(e) {
-        console.log( $(this).val() );
       });
 
       $('.spl-form').validate({
