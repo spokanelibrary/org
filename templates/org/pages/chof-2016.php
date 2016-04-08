@@ -267,7 +267,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Darin_Nevin-sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Darin_Neven-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Dr. Darin Neven</h6>
