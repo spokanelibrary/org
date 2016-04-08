@@ -16,7 +16,7 @@
 	*/
 </style>
 
-<p style="font-size: 16px;">
+<p style="font-size: 18px;">
 	The Spokane Citizen Hall of Fame, created in 2015, honors great citizens of Spokane while providing funding toward the business and entrepreneurial services at Spokane Public Library. 
 </p>
 	<h4 class="text-center">We welcome your gifts and support.</h4>
