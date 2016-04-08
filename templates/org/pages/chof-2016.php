@@ -16,6 +16,14 @@
 	*/
 </style>
 
+<p class="lead">
+	The Spokane Citizen Hall of Fame, created in 2015, honors great citizens of Spokane while providing funding toward the business and entrepreneurial services at Spokane Public Library. 
+	We welcome your gifts and support.
+</p>
+<p>
+	<a class="btn btn-default">Donate now <small>&rarr;</small></a>
+</p>
+
 <div class="row chof-row">
 
 	<!-- CLOCKTOWER -->
