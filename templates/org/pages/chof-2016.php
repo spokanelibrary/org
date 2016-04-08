@@ -172,7 +172,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
+					<img class="img-responsive" src="/assets/img/promos/chof/Elanor_Chase-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Eleanor Barrow Chase</h6>
