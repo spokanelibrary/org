@@ -23,6 +23,7 @@
 <p class="text-center">
 	<a class="btn btn-warning btn-small">Donate now &rarr;</a>
 </p>
+<hr>
 
 <div class="row chof-row">
 
