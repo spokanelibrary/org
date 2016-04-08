@@ -16,15 +16,6 @@
 	*/
 </style>
 
-<blockquote>
-	The Spokane Citizen Hall of Fame, created in 2015, honors great citizens of Spokane while providing funding toward the business and entrepreneurial services at Spokane Public Library. 
-</blockquote>
-<h4 class="text-center">We welcome your gifts and support.</h4>
-<p class="text-center">
-	<a href="http://www.spokanelibraryfoundation.org/donate/" class="btn btn-warning">Donate now &rarr;</a>
-</p>
-<hr>
-
 <div class="row chof-row">
 
 	<!-- CLOCKTOWER -->
@@ -162,7 +153,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-">
 			<div class="chof-panel chof-panel-sized chof-teal">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/chof-shim.gif">
+					<img class="img-responsive" src="/assets/img/promos/chof/James_Chase-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">James Chase</h6>
@@ -619,6 +610,18 @@
 	</div>
 
 </div><!-- /.row -->
+
+<!-- ABOUT -->
+
+<hr>
+
+<blockquote>
+	The Spokane Citizen Hall of Fame, created in 2015, honors great citizens of Spokane while providing funding toward the business and entrepreneurial services at Spokane Public Library. 
+</blockquote>
+<h4 class="text-center">We welcome your gifts and support.</h4>
+<p class="text-center">
+	<a href="http://www.spokanelibraryfoundation.org/donate/" class="btn btn-warning">Donate now &rarr;</a>
+</p>
 
 <!-- SPONSORS -->
 
