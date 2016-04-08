@@ -151,7 +151,7 @@
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-his">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-">
-			<div class="chof-panel chof-panel-sized chof-green">
+			<div class="chof-panel chof-panel-sized chof-teal">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/James_Chase-sm.jpg">
 					<div class="chof-text-wrapper">			
@@ -170,7 +170,7 @@
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-his">
 		<a href="#" data-toggle="modal" data-target="#chof-modal-">
-			<div class="chof-panel chof-panel-sized chof-teal">
+			<div class="chof-panel chof-panel-sized chof-gray">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Eleanor_Chase-sm.jpg">
 					<div class="chof-text-wrapper">			
