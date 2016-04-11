@@ -1339,7 +1339,7 @@ a .chof-red:hover {
 
 .spl-hero-calendar {
   .hero-heading {
-    color: @alert-warning-bg;
+    //color: @alert-warning-bg; // orange -sg
   }
   .calendar-promo {
     padding-top: 4px;
@@ -1363,7 +1363,8 @@ a .chof-red:hover {
     }
 
     .carousel-control {
-      color: @brand-warning;
+      //color: @brand-warning; // orange -sg
+      color: @brand-primary; // orange -sg
       padding:0 !important;
       z-index: 15;
       .opacity(.8);
@@ -1376,10 +1377,12 @@ a .chof-red:hover {
     .carousel-indicators {
       top:0;
       li{ 
-        border-color: @brand-warning;
+        //border-color: @brand-warning; // orange -sg
+        border-color: @brand-primary;  // orange -sg
       }
       li.active{ 
-        background: @brand-warning;
+        //background: @brand-warning; // orange -sg 
+        background: @brand-primary; // orange -sg
       }
     }
 
@@ -1400,8 +1403,11 @@ a .chof-red:hover {
 
   padding-bottom: 5px;
 
-  background: lighten(@brand-warning, 6%);
-  border-color: darken(@brand-warning, 8%);
+  //background: lighten(@brand-warning, 6%); // orange -sg
+  //border-color: darken(@brand-warning, 8%); // orange -sg
+  background: #fff;  // orange -sg
+  border-color: darken(@brand-primary, 8%); // orange -sg
+
   //border-color: @state-warning-text;
   //background: darken(@alert-warning-bg, 4%);
   
@@ -1416,7 +1422,9 @@ a .chof-red:hover {
     //background: lighten(@brand-warning, 35%);
     //background: lighten(@gray-light, 35%);
     //background: #fff;
-    background: @alert-warning-bg;
+    
+    //background: @alert-warning-bg; // orange -sg
+    background: #fff; // orange -sg
   }
   @media (min-width: @screen-sm-min) { 
     .panel-body {
