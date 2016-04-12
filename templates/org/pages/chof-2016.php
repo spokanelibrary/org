@@ -248,7 +248,7 @@
 		<a href="#" data-toggle="modal" data-target="#chof-modal-">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
-					<img class="img-responsive" src="/assets/img/promos/chof/Jess_Walter_sm.jpg">
+					<img class="img-responsive" src="/assets/img/promos/chof/Jess_Walter-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
 							<h6 class="chof-title">Jess Walter</h6>
