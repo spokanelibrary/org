@@ -861,7 +861,7 @@
         
         <div class="panel-body">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-yellow">Historic Inductee <small>2016</small></h3>
+      	  <h3 class="normal chof-text-brown">Historic Inductee <small>2016</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <img class="img-responsive" src="/assets/img/promos/chof/Joseph_Cataldo-lg.jpg">
