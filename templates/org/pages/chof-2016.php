@@ -131,7 +131,7 @@
 	
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-his">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-joseph-cataldo">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Father_Joseph_Cataldo-sm.jpg">
