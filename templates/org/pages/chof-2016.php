@@ -1150,6 +1150,35 @@
 </div>
 
 <!-- MODAL -->
+<div class="modal fade chof-modal" id="chof-modal-alan-hendrickson" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content chof-blue">
+      <div class="modal-body">
+        
+        <div class="panel-body">  
+  	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      	  <h3 class="normal chof-text-blue">Science, Health, &amp; Medicine <small>2016</small></h3>
+      	  <div class="row">
+  	      	<div class="col-sm-4 col-md-4">
+  			      <img class="img-responsive" src="/assets/img/promos/chof/Alan_Hendrickson-lg.jpg">
+	  	  	  </div><!-- /.col -->
+	  	  	  <div class="col-sm-8 col-md-8">
+	  	  	  	<h3 class="modal-title uppercase">Dr. Alan Hendrickson</h3>
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;  &rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  	</p>
+  	      	</div><!-- /.col -->
+	  	    </div><!-- /.row -->
+	      </div><!-- /.panel-body -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL -->
 <div class="modal fade chof-modal" id="chof-modal-elson-floyd" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content chof-yellow">
