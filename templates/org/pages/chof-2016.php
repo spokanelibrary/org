@@ -302,7 +302,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-edu">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-patrick-jones">
 			<div class="chof-panel chof-panel-sized chof-green">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Patrick_Jones-sm.jpg">
@@ -321,7 +321,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-edb">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-stacey-cowles">
 			<div class="chof-panel chof-panel-sized chof-teal">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Stacey_Cowles-sm.jpg">
@@ -340,7 +340,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-shm">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-alan-hendrickson">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Alan_Hendrickson-sm.jpg">
@@ -1019,6 +1019,35 @@
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Jess Walter</h3>
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;  &rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  	</p>
+  	      	</div><!-- /.col -->
+	  	    </div><!-- /.row -->
+	      </div><!-- /.panel-body -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal fade chof-modal" id="chof-modal-darin-nevin" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content chof-orange">
+      <div class="modal-body">
+        
+        <div class="panel-body">  
+  	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      	  <h3 class="normal chof-text-orange">Innovation &amp; Leadership <small>2016</small></h3>
+      	  <div class="row">
+  	      	<div class="col-sm-4 col-md-4">
+  			      <img class="img-responsive" src="/assets/img/promos/chof/Darin_Nevin-lg.jpg">
+	  	  	  </div><!-- /.col -->
+	  	  	  <div class="col-sm-8 col-md-8">
+	  	  	  	<h3 class="modal-title uppercase">Dr. Darin Nevin</h3>
 	  	  	  	<blockquote>
 	  	  	  		&ldquo;  &rdquo;
 	  	  	  	</blockquote>
