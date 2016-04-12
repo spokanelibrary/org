@@ -245,7 +245,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-aal">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-elson-floyd">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Jess_Walter-sm.jpg">
@@ -359,7 +359,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-cia">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-elson-floyd">
 			<div class="chof-panel chof-panel-sized chof-yellow chof-text-dark">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Elson_Floyd-sm.jpg">
