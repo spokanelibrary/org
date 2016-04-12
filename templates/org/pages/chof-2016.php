@@ -131,7 +131,7 @@
 	
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-his">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-joseph-cataldo">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-father-joseph-cataldo">
 			<div class="chof-panel chof-panel-sized chof-brown">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Father_Joseph_Cataldo-sm.jpg">
@@ -854,7 +854,7 @@
 
 <!-- MODAL 2016 -->
 
-<div class="modal fade chof-modal" id="chof-modal-joseph-cataldo" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+<div class="modal fade chof-modal" id="chof-modal-father-joseph-cataldo" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content chof-brown">
       <div class="modal-body">
@@ -864,7 +864,7 @@
       	  <h3 class="normal chof-text-brown">Historic Inductee <small>2016</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
-  			      <img class="img-responsive" src="/assets/img/promos/chof/Joseph_Cataldo-lg.jpg">
+  			      <img class="img-responsive" src="/assets/img/promos/chof/Father_Joseph_Cataldo-lg.jpg">
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Father Joseph Cataldo</h3>
