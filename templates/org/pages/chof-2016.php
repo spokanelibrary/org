@@ -245,7 +245,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-aal">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-jess-walter">
 			<div class="chof-panel chof-panel-sized chof-blue">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Jess_Walter-sm.jpg">
@@ -264,7 +264,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-ial">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-darin-neven">
 			<div class="chof-panel chof-panel-sized chof-orange">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Darin_Neven-sm.jpg">
@@ -283,7 +283,7 @@
 
 	<!-- TILE -->
 	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2016 chof-tile-category-psp">
-		<a href="#" data-toggle="modal" data-target="#chof-modal-">
+		<a href="#" data-toggle="modal" data-target="#chof-modal-jeanne-ager">
 			<div class="chof-panel chof-panel-sized chof-red">
 				<div class="panel-body">
 					<img class="img-responsive" src="/assets/img/promos/chof/Jeanne_Ager-sm.jpg">
@@ -992,6 +992,35 @@
 	  	  	  	<h3 class="modal-title uppercase">Carl Maxey</h3>
 	  	  	  	<blockquote>
 	  	  	  		&ldquo;I have a basically competitive nature against the establishment. It’s a challenge to me, but on the other hand, these were important causes that we should make the moral commitments to resolve.&rdquo;
+	  	  	  	</blockquote>
+	  	  	  	<p>
+	  	  	  	</p>
+  	      	</div><!-- /.col -->
+	  	    </div><!-- /.row -->
+	      </div><!-- /.panel-body -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal fade chof-modal" id="chof-modal-jess-walter" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content chof-blue">
+      <div class="modal-body">
+        
+        <div class="panel-body">  
+  	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      	  <h3 class="normal chof-text-blue">Arts &amp; Letters <small>2016</small></h3>
+      	  <div class="row">
+  	      	<div class="col-sm-4 col-md-4">
+  			      <img class="img-responsive" src="/assets/img/promos/chof/Jess_Walter-lg.jpg">
+	  	  	  </div><!-- /.col -->
+	  	  	  <div class="col-sm-8 col-md-8">
+	  	  	  	<h3 class="modal-title uppercase">Jess Walter</h3>
+	  	  	  	<blockquote>
+	  	  	  		&ldquo;  &rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  	</p>
