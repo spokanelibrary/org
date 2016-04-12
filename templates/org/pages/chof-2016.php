@@ -365,7 +365,7 @@
 					<img class="img-responsive" src="/assets/img/promos/chof/Elson_Floyd-sm.jpg">
 					<div class="chof-text-wrapper">			
 						<div class="chof-text-mask">
-							<h6 class="chof-title">Elson S. Floyd</h6>
+							<h6 class="chof-title">Dr. Elson S. Floyd</h6>
 						</div>
 					</div>
 				</div>
