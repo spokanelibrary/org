@@ -928,7 +928,7 @@
       	  <h3 class="normal chof-text-orange">Historic Inductee <small>2016</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
-  			      <img class="img-responsive" src="/assets/img/promos/chof/Father_Francis_Cook-lg.jpg">
+  			      <img class="img-responsive" src="/assets/img/promos/chof/Francis_Cook-lg.jpg">
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Francis Cook</h3>
