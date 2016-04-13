@@ -910,16 +910,40 @@
   			      <img class="img-responsive" src="/assets/img/promos/chof/James_and_Eleanor_Chase-lg.jpg">
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase">James &amp; Eleanor Chase </h3>
+	  	  	  	<h3 class="modal-title uppercase">James Chase, 1914 &ndash; 1987</h3>
 	  	  	  	<blockquote>
 	  	  	  		&ldquo;I always believed in group participation and it followed me all through my life. I’ve always wanted to be of service to my community – to turn the tide and make changes.&rdquo;
 	  	  	  		<small>James Chase</small>
 	  	  	  	</blockquote>
+	  	  	  	<h3 class="modal-title uppercase">Eleanor Chase 1918 &ndash; 2002</h3>
 	  	  	  	<blockquote>
 	  	  	  		&ldquo;In some cities I would have experienced prejudice, but Spokane is just about the finest city there is.&rdquo;
 	  	  	  		<small>Eleanor Chase</small>
 	  	  	  	</blockquote>
 	  	  	  	<p>
+	  	  	  		James E. Chase, Spokane mayor and civic leader, grew up in a poor family in segregated Texas. 
+	  	  	  		He attended high school at an all-black high school in Ballinger, Texas but his schooling ended when the school closed at the height of the Great Depression. 
+	  	  	  		He never received a high school diploma. 
+	  	  	  		With two friends, he hopped on a freight train in 1934 and settled in Spokane. 
+	  	  	  		His first job in Spokane was as a porter and shoe-shiner at a hotel, the only job available for a black man. 
+	  	  	  		With another hotel porter, Chase helped form the Negro Active League, a social networking organization, to advance the cause of better opportunities for African Americans. 
+	  	  	  		In 1939, he and a friend started an auto repair business, which remained in business until 1981 when Chase ran for mayor. 
+	  	  	  		In 1942, he married Eleanor Barrow, a descendant of black pioneers in Spokane. 
+	  	  	  		James later said that Eleanor was "the person who influenced my life the most" and that "all of my goals, desires and accomplishments are geared with her happiness in mind.” 
+	  	  	  		Eleanor stayed at home until their son was 11 and then worked for sixteen years as a social worker and then for nine years as an adoption and juvenile court officer. 
+	  	  	  		Eleanor was a classically trained singer and was a soloist at Westminster Congregational Church for thirty years. 
+	  	  	  	</p>
+	  	  	  	<p>
+				 In 1950, James was elected president of the Spokane Chapter of the National Association for the Advancement of Colored People (NAACP). 
+				 He served as president for 17 of the next 19 years, with a two-year hiatus as vice-president. 
+				 He first ran for city council in 1969 and was defeated. 
+				 He ran again in 1975 and became Spokane’s first black city council member. 
+				 Chase ran for mayor in 1981 and won by a landslide. 
+				 During his term in office, Chase was known for pulling people together to effect change. 
+				 Eleanor attended every city council meeting during all of James’ years in office and they were considered a strong team. 
+				 Eleanor also served as a trustee for Whitworth and Eastern Universities along with many other civic boards.  
+				 Due to health problems, James did not seek re-election in 1985 and died in 1987. 
+				 Eleanor died in 2002. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
