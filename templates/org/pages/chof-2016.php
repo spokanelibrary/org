@@ -868,11 +868,24 @@
   			      <img class="img-responsive" src="/assets/img/promos/chof/Father_Joseph_Cataldo-lg.jpg">
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase">Father Joseph Cataldo</h3>
+	  	  	  	<h3 class="modal-title uppercase">Father Joseph Cataldo, 1837 &ndash; 1928</h3>
 	  	  	  	<blockquote>
 	  	  	  		&ldquo;Spokane was just a little shanty town then and many criticized me for building such a large house in the wilderness.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
+	  	  	  		Joseph M. Cataldo, Jesuit priest and missionary, was born in Sicily in 1837 and joined the Jesuits in Palermo in 1852. 
+	  	  	  		After a long illness, Cataldo recovered his health, and was sent to Eastern Washington to minister to the Spokane Indians. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Cataldo first opened a small school at Saint Joseph, where he taught both Indian and White students. 
+	  	  	  		To expand the mission, Cataldo purchased two parcels of land. 
+	  	  	  		The first was north of Spokane and was used for the relocation of St. Michael’s mission, becoming Mount Saint Michael. 
+	  	  	  		The second parcel was located on the Spokane River, purchased in 1881 and in 1887, he established Gonzaga College at that site. 
+	  	  	  	</p>
+	  	  	  	<p>	
+	  	  	  		He continued to serve at missions all over the Northwest, including Idaho, Montana, Oregon, Alaska and Wyoming. 
+	  	  	  		He never retired and died while saying Mass on the Umatilla Indian Reservation when he was 92. 
+
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
