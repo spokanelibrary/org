@@ -1045,6 +1045,8 @@
 	  	  	  	<p>
 	  	  	  		Bing started singing with various bands in local theaters in Spokane before leaving for Los Angeles with his friend Al Rinker in 1925. 
 	  	  	  		He and Rinker made some recordings together and Bing sang with various incarnations of bands before getting his solo recording contract in 1931 as well as landing his own radio show. 
+	  	  	  	</p>
+	  	  	  	<p>
 	  	  	  		Debuting in 1931, his radio program became a big success, attracting as many as 50 million listeners during its peak, and lasting nearly grew 30 years on the airwaves. 
 	  	  	  		He also signed a movie contract in early 1930s and made a number of musical comedies. 
 	  	  	  		In the 1940s, he teamed with Bob Hope for the incredibly popular “Road” movies. 
@@ -1081,11 +1083,29 @@
   			      <img class="img-responsive" src="/assets/img/promos/chof/Carl_Maxey-lg.jpg">
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase">Carl Maxey</h3>
+	  	  	  	<h3 class="modal-title uppercase">Carl Maxey, 1922 &ndash; 1997</h3>
 	  	  	  	<blockquote>
 	  	  	  		&ldquo;I have a basically competitive nature against the establishment. It’s a challenge to me, but on the other hand, these were important causes that we should make the moral commitments to resolve.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
+	  	  	  		Carl Maxey, civil rights leader, criminal defense attorney, and national collegiate boxing champion, was credited with “virtually singlehandedly desegregating much of the inland Northwest.” 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Maxey spent most of his childhood at the Spokane Children’s Home before being expelled at the age of 11 because the board voted to stop harboring “colored children.” 
+	  	  	  		He lived briefly in the juvenile detention center before a Jesuit priest rescued him and took him to live on an Indian reservation in Idaho where Maxey learned to box. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		His athletic skills won him a scholarship to Gonzaga Prep. 
+	  	  	  		After serving during World War II, Maxey came home and won scholarships to attend the University of Oregon and Gonzaga Law School where he was the only black student.  
+					While attending Gonzaga, he won the collegiate light heavyweight boxing championship. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		In Spokane, he became the first black lawyer in Eastern Washington. 
+	  	  	  		As an attorney, he used litigation to break down racial barriers at restaurants, private clubs and schools. 
+	  	  	  		Maxey spent Freedom Summer (1964) in Mississippi and defended the Seattle Seven, an anti-Vietnam-War group.  
+	  	  	  		In 1970, he represented the anti-war wing of the Democratic Party when he challenged Washington’s longtime incumbent Senator Henry M. (Scoop) Jackson. 
+
+	  	  	  		At the time of his death in 1997, the Rev. Percy “Happy” Watkins, president of the Spokane County chapter of the NAACP said, “Carl Maxey, like Martin Luther King, was a drum major peace, a drum major for social justice, a drum major for equality and fairness.”
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
