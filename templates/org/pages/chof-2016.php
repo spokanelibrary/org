@@ -924,26 +924,34 @@
 	  	  	  		James E. Chase, Spokane mayor and civic leader, grew up in a poor family in segregated Texas. 
 	  	  	  		He attended high school at an all-black high school in Ballinger, Texas but his schooling ended when the school closed at the height of the Great Depression. 
 	  	  	  		He never received a high school diploma. 
+	  	  	  	</p>
+	  	  	  	<p>
 	  	  	  		With two friends, he hopped on a freight train in 1934 and settled in Spokane. 
 	  	  	  		His first job in Spokane was as a porter and shoe-shiner at a hotel, the only job available for a black man. 
 	  	  	  		With another hotel porter, Chase helped form the Negro Active League, a social networking organization, to advance the cause of better opportunities for African Americans. 
 	  	  	  		In 1939, he and a friend started an auto repair business, which remained in business until 1981 when Chase ran for mayor. 
 	  	  	  		In 1942, he married Eleanor Barrow, a descendant of black pioneers in Spokane. 
+	  	  	  	</p>
+	  	  	  	<p>
 	  	  	  		James later said that Eleanor was "the person who influenced my life the most" and that "all of my goals, desires and accomplishments are geared with her happiness in mind.” 
 	  	  	  		Eleanor stayed at home until their son was 11 and then worked for sixteen years as a social worker and then for nine years as an adoption and juvenile court officer. 
 	  	  	  		Eleanor was a classically trained singer and was a soloist at Westminster Congregational Church for thirty years. 
 	  	  	  	</p>
 	  	  	  	<p>
-				 In 1950, James was elected president of the Spokane Chapter of the National Association for the Advancement of Colored People (NAACP). 
-				 He served as president for 17 of the next 19 years, with a two-year hiatus as vice-president. 
-				 He first ran for city council in 1969 and was defeated. 
-				 He ran again in 1975 and became Spokane’s first black city council member. 
-				 Chase ran for mayor in 1981 and won by a landslide. 
-				 During his term in office, Chase was known for pulling people together to effect change. 
-				 Eleanor attended every city council meeting during all of James’ years in office and they were considered a strong team. 
-				 Eleanor also served as a trustee for Whitworth and Eastern Universities along with many other civic boards.  
-				 Due to health problems, James did not seek re-election in 1985 and died in 1987. 
-				 Eleanor died in 2002. 
+					In 1950, James was elected president of the Spokane Chapter of the National Association for the Advancement of Colored People (NAACP). 
+					He served as president for 17 of the next 19 years, with a two-year hiatus as vice-president. 
+				</p>
+				<p>
+				 	He first ran for city council in 1969 and was defeated. 
+					He ran again in 1975 and became Spokane’s first black city council member. 
+					Chase ran for mayor in 1981 and won by a landslide. 
+					During his term in office, Chase was known for pulling people together to effect change. 
+				</p>
+				<p>
+					Eleanor attended every city council meeting during all of James’ years in office and they were considered a strong team. 
+					Eleanor also served as a trustee for Whitworth and Eastern Universities along with many other civic boards.  
+					Due to health problems, James did not seek re-election in 1985 and died in 1987. 
+					Eleanor died in 2002. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
@@ -997,11 +1005,35 @@
   			      <img class="img-responsive" src="/assets/img/promos/chof/Bing_Crosby-lg.jpg">
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase">Bing Crosby</h3>
+	  	  	  	<h3 class="modal-title uppercase">Bing Crosby, 1903 &ndash; 1977</h3>
 	  	  	  	<blockquote>
 	  	  	  		&ldquo;Love is the important thing: love and the right sense of values, which include a respect for people, a love of God, and a pride in achievement.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
+	  	  	  		Bing Crosby, international singing and acting star, was born as Harry L. Crosby, Jr. in Tacoma in 1903, the fourth of seven children. 
+	  	  	  		The family moved to Spokane in 1906 and Crosby's father built a house at 508 E. Sharp Avenue in 1913. 
+	  	  	  		That house now sits on the campus of Gonzaga University. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He got the nickname “Bing” from a comic strip which appeared in the Spokesman Review when he was a child. 
+	  	  	  		Crosby graduated from Gonzaga High School (now Gonzaga Prep) in 1920 and enrolled at Gonzaga University. 
+	  	  	  		He attended Gonzaga for three years, but did not earn a degree. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Bing started singing with various bands in local theaters in Spokane before leaving for Los Angeles with his friend Al Rinker in 1925. 
+	  	  	  		He and Rinker made some recordings together and Bing sang with various incarnations of bands before getting his solo recording contract in 1931 as well as landing his own radio show. 
+	  	  	  		Debuting in 1931, his radio program became a big success, attracting as many as 50 million listeners during its peak, and lasting nearly grew 30 years on the airwaves. 
+	  	  	  		He also signed a movie contract in early 1930s and made a number of musical comedies. 
+	  	  	  		In the 1940s, he teamed with Bob Hope for the incredibly popular “Road” movies. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		In 1930, he married singer and actress Dixie Lee and they had four sons. 
+	  	  	  		She died in 1952. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He married the actress Kathryn Grant in 1957 and they had three children. 
+	  	  	  		In the mid-fifties, he semi-retired and spent a lot of time hunting, fishing and golfing. 
+	  	  	  		He died of a heart attack while golfing in Spain in 1977. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
