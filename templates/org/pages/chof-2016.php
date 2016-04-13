@@ -976,11 +976,34 @@
   			      <img class="img-responsive" src="/assets/img/promos/chof/Francis_Cook-lg.jpg">
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase">Francis Cook</h3>
+	  	  	  	<h3 class="modal-title uppercase">Francis Cook, 1851 &ndash; 1920</h3>
 	  	  	  	<blockquote>
 	  	  	  		&ldquo;I gave Spokane its first real publicity and believe that I had some part, at least, in shaping the future of the city.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
+	  	  	  		Francis H. Cook, newspaper editor, town booster, farmer, inventor, land developer and visionary, arrived in Spokane in 1879. 
+	  	  	  		He started Spokane’s first newspaper, The Spokan Times upon his arrival and published the paper until 1882. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Cook then set his sights on developing an area on Spokane’s South Hill. 
+ 	  	  	  		He purchased 680 acres and platted it out for development, including planning for a Montrose Park (now Manito). 
+	  	  	  		In 1888, Cook started the first steam powered street railroad, the Spokane and Montrose Motor Railroad, to move residents up and down the hill. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Francis Cook lost everything in the Panic of 1893, losing all his property and his streetcar line but he did not give up on Spokane. 
+	  	  	  		Around 1897, Cook and his family moved to property north of town that he had purchased before his financial collapse. 
+	  	  	  		This 640 acre farm on the Little Spokane River contained an artificial lake, a mill and an ice house.  
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		During this period, Cook set his sights on “Old Baldy,” the mountain that was later renamed Mt. Spokane. 
+	  	  	  		Cook believed that the city should build a road to the top of Mt. Spokane but could not get any support for his plan. 
+	  	  	  		He purchased the top of the mountain in 1908 and set about securing the rights of way. 
+	  	  	  		With the help of his sons, he began building the road himself. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		In 1912, a delegation from Spokane, including Washington State Governor Marion Hay and Spokane Mayor W. J. Hundley made a trip up the new road and named the mountain Mt. Spokane. 
+	  	  	  		Cook sold the property to the county in 1920 and died a month later. 
+	  	  	  		Others continued with Cook’s vision and Mount Spokane State Park was officially dedicated in 1927, becoming the first state park east of the Cascades and realized Cook’s vision for the mountain. 
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
