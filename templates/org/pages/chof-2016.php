@@ -1132,7 +1132,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Jess Walter</h3>
 	  	  	  	<blockquote>
-	  	  	  		&ldquo;  &rdquo;
+	  	  	  		&ldquo;I write novels because I love the form, because it’s my favorite kind of storytelling to encounter and to practice, because I want to create for readers the experience of reading that I’ve had reading novels&mdash;that complete immersion and emotional connection.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  	</p>
@@ -1161,7 +1161,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Dr. Darin Nevin</h3>
 	  	  	  	<blockquote>
-	  	  	  		&ldquo;  &rdquo;
+	  	  	  		&ldquo;Crime and health are closely related by substance abuse and mental illness. We can build stronger communities by forming teams from medicine and law to help ill offenders help themselves.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  	</p>
@@ -1190,7 +1190,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Jeanne Ager</h3>
 	  	  	  	<blockquote>
-	  	  	  		&ldquo;  &rdquo;
+	  	  	  		&ldquo;Since my siblings and I were young, we were encouraged to give back to the community, and to share our talents with those around us. Spokane has been a great place to raise our families, and we enjoy seeing our descendants to continue to contributing to our city.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  	</p>
@@ -1219,7 +1219,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Patrick Jones, Ph.D.</h3>
 	  	  	  	<blockquote>
-	  	  	  		&ldquo;  &rdquo;
+	  	  	  		&ldquo;My career at Eastern Washington University combines pulling together academic insights to address the needs of Eastern Washington. That’s a wonderful combination and very meaningful to me.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  	</p>
@@ -1246,9 +1246,9 @@
   			      <img class="img-responsive" src="/assets/img/promos/chof/Stacey_Cowles-lg.jpg">
 	  	  	  </div><!-- /.col -->
 	  	  	  <div class="col-sm-8 col-md-8">
-	  	  	  	<h3 class="modal-title uppercase">Stacey Cowles</h3>
+	  	  	  	<h3 class="modal-title uppercase">William Stacey Cowles</h3>
 	  	  	  	<blockquote>
-	  	  	  		&ldquo;  &rdquo;
+	  	  	  		&ldquo;Decay and dissolution have been replaced by renovation, excitement and opportunity &ndash; and we've built an organization that will continue the momentum forward for decades to come.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  	</p>
@@ -1277,7 +1277,7 @@
 	  	  	  <div class="col-sm-8 col-md-8">
 	  	  	  	<h3 class="modal-title uppercase">Dr. Alan Hendrickson</h3>
 	  	  	  	<blockquote>
-	  	  	  		&ldquo;  &rdquo;
+	  	  	  		&ldquo;The whole idea of dealing with this is as a team. The physician is not the god in this. He’s just a contributor.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
 	  	  	  	</p>
