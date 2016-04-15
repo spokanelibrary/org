@@ -626,7 +626,7 @@
 
 <hr>
 
-<p class="lead text-center">We would like to thank our generous 2016 sponsors:</p>
+<p class="lead text-center" id="chof-sponsors">We would like to thank our generous 2016 sponsors:</p>
 
 <div class="row" style="margin-bottom:20px;">
 	<div class="col-md-12">
