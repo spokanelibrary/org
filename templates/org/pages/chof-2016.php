@@ -1257,18 +1257,7 @@
 	  	  	  	<blockquote>
 	  	  	  		&ldquo;My career at Eastern Washington University combines pulling together academic insights to address the needs of Eastern Washington. That’s a wonderful combination and very meaningful to me.&rdquo;
 	  	  	  	</blockquote>
-	  	  	  	<p>
-	  	  	  		Jeanne Ager, owner of Ager Consulting Company since 1995, has worked for the past 20 years mentoring non-profit organizations volunteer boards and staffs with an emphasis on growing funds for Spokane area non-profit organizations.  
-	  	  	  	</p>
-	  	  	  	<p>
-	  	  	  		Prior to creating her own consulting company, she was the development director for Dominican Outreach Services &amp; Foundation and the Executive Director for the Spokane Inland Northwest Community Foundation. She has served on numerous boards and foundations including the Community Colleges of Spokane, Sisters of Holy Names, and the Radiation Health Effect Archives among many others. 
-	  	  	  	</p>
-	  	  	  	<p>	  	  	  
-	  	  	  		In 2005, the YWCA awarded Jeanne as the Women of Achievement winner. 
-	  	  	  	</p>
-	  	  	  	<p>
-	  	  	  		Also in 2008, the Junior League of Spokane selected her as Outstanding Sustainer for her exemplary service.
-	  	  	  	</p>
+	  	  	  	
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
 	      </div><!-- /.panel-body -->
