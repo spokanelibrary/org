@@ -1400,7 +1400,46 @@
 	  	  	  		&ldquo;An investment in higher education is an investment in the future of Washington. Our state will be stronger as a consequence.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
+	  	  	  		Elson S. Floyd was named Washington State University’s 10th president on December 13, 2006. 
+	  	  	  		He took office on May 21, 2007 and died on June 20, 2015, of complications from colon cancer.
 	  	  	  	</p>
+	  	  	  	<p>
+					Floyd transformed WSU into a top-tier research university while navigating some of the worst fiscal challenges in the institution’s history. 
+					Under his leadership:
+	  	  	  	</p>
+	  	  	  	<ul>
+		  	  	  	<li>Overall student enrollment grew to record highs, reaching 28,686 in fall 2014. The number of students of color nearly doubled.</li>
+					<li>Annual research expenditures grew by 57.5 percent from approximately $213.2 million in 2007 to more than $335.9 million in 2015, placing WSU in the top 11 percent of public universities for research funding.</li>
+					<li>All of WSU’s health sciences programs were consolidated on its Spokane campus, including the colleges of nursing and pharmacy, and the new College of Medical Sciences.</li>
+					<li>WSU won bipartisan support in the Washington state legislature to create its own, separately accredited medical school at WSU Health Sciences Spokane.</li>
+					<li>WSU completed 30 major construction projects from 2007–2015, including one of the world’s most technologically advanced wine science centers at WSU Tri- Cities.</li>
+					<li>The Paul G. Allen School for Global Animal Health opened with anchor gifts from Microsoft co-founder Paul G. Allen and the Bill &amp; Melinda Gates Foundation.</li>
+					<li>The University successfully completed the $1 billion fundraising <i>Campaign for Washington State University: Because the World Needs Big Ideas</i>.</li>
+  	      		</ul>
+  	      		<p>
+	  	      		Affectionately known as “E Flo,” President Floyd was a favorite among WSU students. 
+				</p>
+				<p>
+	  	      		He always went out of his way to greet and visit with the students he encountered and knew many of them by name. 
+	  	      		He once told a student reporter that as a college student he often felt invisible and didn’t want any WSU student to feel that way. 
+	  	      	</p>
+				<p>
+					He and his wife, Carmento, attended many student-centered activities, including WSU sports events where they were known to cheer from the student section. 
+	  	      	</p>
+				<p>
+	  	      		Thousands of students followed a Twitter account Dr. Floyd started as a way to better connect with them. 
+	  	      		He gave many students his personal cell phone number and encouraged them to contact him if they needed anything.
+				</p>
+				<p>	
+					President Floyd was deeply committed to WSU’s land-grant mission. 
+					He was a visionary with enormous understanding of the modern land-grant university and the manner in which it should serve the public. 
+				</p>
+				<p>
+					He pursued educational programs and research efforts that aligned the resources of WSU with the needs of Washington State and its people. 
+				</p>
+				<p>
+					A champion of broadening access to higher education, President Floyd expanded WSU’s campuses in Spokane, Tri Cities, and Vancouver, and established the Global Campus and WSU North Puget Sound at Everett.
+  	      		</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
 	      </div><!-- /.panel-body -->
