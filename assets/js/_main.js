@@ -367,20 +367,6 @@ var ORG = {
       ]);
     }
   }
-, notice: {
-    init: function() {
-      Modernizr.load([
-        {
-          load: [config.path.absolute+'/assets/js/org/notice.js'],
-          complete: function () {
-            if ( org ) { 
-              org.init();
-            } 
-          }
-        }
-      ]);
-    }
-  }
 , calendar: {
     init: function() {
       $('.spl-enterprise-search-selector-text').text('Calendar');
