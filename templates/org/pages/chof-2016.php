@@ -1359,6 +1359,18 @@
 	  	  	  		&ldquo;The whole idea of dealing with this is as a team. The physician is not the god in this. He’s just a contributor.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
+	  	  	  		Dr. Alan Hendrickson, pediatrician and children’s advocate, completed his medical degree at the University of Wisconsin and settled in Spokane in 1977. 
+	  	  	  		He served families through the Rockwood Clinic from 1985 until his retirement in 2008. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He saw the need for a new approach to the problem of child abuse after seeing too many cases of “failure to thrive” and treating serious injuries from abuse. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		In 1987, over lunch with CPS staff, Dr. Hendrickson diagrammed on a napkin a multidisciplinary approach to child abuse and neglect. 
+	  	  	  		The organization which Dr. Hendrickson founded based on that sketch became Spokane Area Regional Center for Child Abuse and Neglect (RCCAN), a public-private partnership aimed at filling the gap in service to families. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Since his retirement, he has continued to work two days a week to the organization that is now called Partners with Families &amp; Children.
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
