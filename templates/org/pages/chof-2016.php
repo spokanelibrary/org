@@ -1137,12 +1137,12 @@
 	  	  	  	<p>
 	  	  	  		Jess Walter, Spokane author, has written six novels, a collection of short stories, and one work of non-fiction. 
 	  	  	  		He grew up in Spokane and studied both journalism and creative writing at Eastern Washington University. 
-	  	  	  		He began work at The Spokesman Review at the age of 19. 
+	  	  	  		He began work at <i>The Spokesman Review</i> at the age of 19. 
 	  	  	  	</p>
 	  	  	  	<p>
-	  	  	  		He worked at the paper for eight years and left to write his first book, Every Knee Shall Bow, the story of the standoff at Ruby Ridge in 1995, which developed from his newspaper reporting. 
-	  	  	  		He published his first novel, Over Tumbled Graves in 2001. 
-	  	  	  		He has published five other novels since then with his 2012 Beautiful Ruins receiving acclaimed reviews and appearing on the top of the New York Times bestseller list. 
+	  	  	  		He worked at the paper for eight years and left to write his first book, <i>Every Knee Shall Bow</i>, the story of the standoff at Ruby Ridge in 1995, which developed from his newspaper reporting. 
+	  	  	  		He published his first novel, <i>Over Tumbled Graves</i> in 2001. 
+	  	  	  		He has published five other novels since then with his 2012 <i>Beautiful Ruins</i> receiving acclaimed reviews and appearing on the top of the New York Times bestseller list. 
 	  	  	  	</p>
 	  	  	  	<p>
 	  	  	  		He is also a founder of Spokane’s INK Space, which develops workshops, classes and events for Spokane writers and artists of all ages. 
