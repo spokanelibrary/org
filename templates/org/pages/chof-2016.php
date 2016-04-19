@@ -1268,6 +1268,23 @@
 	  	  	  		&ldquo;My career at Eastern Washington University combines pulling together academic insights to address the needs of Eastern Washington. That’s a wonderful combination and very meaningful to me.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
+	  	  	  		Patrick Jones has been the Executive Director of EWU's Institute for Public Policy &amp; Economic Analysis since its inception in 2002. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		The institute provides data on a variety of critical issues facing local governments, businesses and non-profit groups around the Northwest. 
+					Jones strives to make the Institute a model for how EWU makes connections to surrounding communities. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He was formerly the director of External Affairs at the Spokane Intercollegiate Research and Technology Institute (Sirti), where he worked with business development, community outreach and government relations. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He has been the executive director of the Biotechnology Association of the Spokane Region (BASR), chair of the St. Luke's Rehabilitation Institute community advisory board, a member of the Spokane Economic Development Council, chair of the Spokane Entertainment Arts Convention Advisory Board (SEACAB), member of the board of the Association of University Business &amp; Economic Research bureaus and board member of the Spokane Convention and Visitors Bureau (CVB). 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He is currently the chair of the City of Spokane Council on Economic Policy and Forecasting. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Dr. Jones has a Ph.D. in applied and agricultural economics from the University of Wisconsin-Madison.
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
