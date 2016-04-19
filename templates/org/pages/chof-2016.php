@@ -1142,7 +1142,7 @@
 	  	  	  	<p>
 	  	  	  		He worked at the paper for eight years and left to write his first book, <i>Every Knee Shall Bow</i>, the story of the standoff at Ruby Ridge in 1995, which developed from his newspaper reporting. 
 	  	  	  		He published his first novel, <i>Over Tumbled Graves</i> in 2001. 
-	  	  	  		He has published five other novels since then with his 2012 <i>Beautiful Ruins</i> receiving acclaimed reviews and appearing on the top of the New York Times bestseller list. 
+	  	  	  		He has published five other novels since then with his 2012 <i>Beautiful Ruins</i> receiving acclaimed reviews and appearing on the top of the <i>New York Times</i> bestseller list. 
 	  	  	  	</p>
 	  	  	  	<p>
 	  	  	  		He is also a founder of Spokane’s INK Space, which develops workshops, classes and events for Spokane writers and artists of all ages. 
@@ -1178,6 +1178,28 @@
 	  	  	  		&ldquo;Crime and health are closely related by substance abuse and mental illness. We can build stronger communities by forming teams from medicine and law to help ill offenders help themselves.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
+	  	  	  		Darin Neven is an emergency physician who has been practicing at Providence Sacred Heart Medical Center since 2005.  
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He serves as the medical director of ED care coordination programs in Spokane, Yakima, Everett, and the Tri-Cities.  
+	  	  	  		He is also the medical director for the Inland Northwest Respite Program and the Spokane Hot Spotters Community Action Group. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Darin was born and raised in Marshalltown, Iowa where he developed an appreciation for the outdoors through hunting and fishing. 
+	  	  	  		He attended Iowa State for his B.S. before earning a master’s degree in biomedical engineering and completing medical school at the University of Iowa. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		After medical school, he completed a residency in emergency medicine at the Medical College of Wisconsin before working as an emergency physician in two small hospitals in the Lake Tahoe area for 4 years before coming to Spokane. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		In Spokane, Dr. Neven was one of those leading the effort to create a “Hot Spotters” program, a collaborative effort to help the chronically homeless who end up in emergency rooms and jails constantly. 
+	  	  	  		The Hot Spotters moved into an organization run by the Empire Health Foundation known as Better Health Tomorrow, an umbrella of programs and services. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Dr. Neven has worked with the Spokane Community Court since its inception and according to his Citizen Hall of Fame nomination, “His innovative leadership brought together different organizations in Eastern Washington to solve the problems of homelessness, mental health and chemical dependency addiction among the poor and the dispossessed in downtown Spokane.” 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		Dr. Neven and his wife, Stacee live on the north side of Spokane in Nine Mile Falls where they enjoy the outdoors.
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
