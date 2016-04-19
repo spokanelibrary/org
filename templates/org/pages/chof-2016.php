@@ -1314,6 +1314,22 @@
 	  	  	  		&ldquo;Decay and dissolution have been replaced by renovation, excitement and opportunity &ndash; and we've built an organization that will continue the momentum forward for decades to come.&rdquo;
 	  	  	  	</blockquote>
 	  	  	  	<p>
+	  	  	  		Stacey Cowles is president of <i>The Spokesman Review</i> and president of the Cowles Company, a family-owned Spokane based firm engaged in media, forestry, insurance, real estate development and growth capital investment. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He joined <i>The Spokesman Review</i> in 1989 and worked in the marketing and advertising departments before succeeding his father as publisher in 1992. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He formerly worked for The Associated Press in London and as a mergers and acquisitions specialist in the New York office of the KPMG Peat Marwick accounting firm. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He earned his B. A. in Economics at Yale University and received an M.B.A. degree from Columbia.  
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He is the fourth generation of the Cowles family to run <i>The Spokesman Review</i>. 
+	  	  	  	</p>
+	  	  	  	<p>
+	  	  	  		He and his wife Anne are the parents of John, 23 and Margaret, 21.  
 	  	  	  	</p>
   	      	</div><!-- /.col -->
 	  	    </div><!-- /.row -->
