@@ -114,17 +114,18 @@ $username = ( false == $mobile ) ? $branch : $branch.'_'.'mobile';
         
         <input type="hidden" name="username" value="<?php echo $username; ?>" />
         <input type="hidden" name="password" value="wireless" />
-        <button type="submit" class="btn btn-block btn-lg btn-success">
+        <p>
+            <button type="submit" class="btn btn-block btn-lg btn-success">
         	<small class="glyphicon glyphicon-ok"></small>
         	I agree. Proceed &rarr;
-        </button>
-
+            </button>
+        </p>
         <p>
         All Library customers are expected to access the Internet in compliance with the <a href="/policies/inet/">Internet Use Policy</a> and <a href="/uploads/rules_of_conduct.pdf">Rules of Conduct</a>, and within the boundaries of the law.
         Viewing or downloading illegal or copyright-protected materials, obscenity, child pornography, or materials harmful to minors is prohibited.
         <em>Please be considerate of other Library patrons.</em>
         </p>
-        
+
     </form>
 
 	</div><!-- /.panel-body -->
