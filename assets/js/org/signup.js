@@ -192,7 +192,7 @@ var org = {
       .done(function(data) {
         //console.log(data);
         if ( data.error ) {
-          $('#'+id).blur();
+          //$('#'+id).blur();
           //$('#'+id).val('');
         } else if (data) {
           $('#'+id).val(data);
