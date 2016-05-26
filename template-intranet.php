@@ -85,6 +85,22 @@ Template Name: Intranet Home Page
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
+
+    <div class="panel spl-hero-intranet spl-hero-brand-orange-a">
+      <div class="panel-heading">
+        <h4>
+        <i class="glyphicon glyphicon-cog"></i>
+        HR Updates</h4>
+      </div><!-- /.panel-heading -->
+      <div class="panel-body" style="word-wrap:break-word !important;">
+
+        <?php echo do_shortcode('[spl_widget category-posts slug=hr-updates count=2 format=excerpt size=sm]'); ?>
+      </div><!-- /.panel-body -->
+      <div class="panel-footer text-right">
+        <a class="" href="/news/hr-updates/"><b>More</b> HR Updates</a>&nbsp;<small class="text-muted">&rarr;</small> 
+      </div><!-- /.panel-footer -->
+    </div><!-- /.panel -->
+
     <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
       <div class="panel-heading">
         <h4>
@@ -148,7 +164,7 @@ Template Name: Intranet Home Page
         Customer Service <span class="hidden-md">Tips</span></h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body" style="word-wrap:break-word !important;">
-        <?php echo do_shortcode('[spl_widget category-posts slug=cs count=3 format=excerpt size=sm]'); ?>
+        <?php echo do_shortcode('[spl_widget category-posts slug=cs count=2 format=excerpt size=sm]'); ?>
       </div><!-- /.panel-body -->
       <div class="panel-footer text-right">
         <a class="" href="/news/cs/"><b>More</b> <span class="hidden-md">Customer Service</span> Tips</a>&nbsp;<small class="text-muted">&rarr;</small> 
