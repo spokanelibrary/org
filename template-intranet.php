@@ -89,7 +89,7 @@ Template Name: Intranet Home Page
     <div class="panel spl-hero-intranet spl-hero-brand-orange-a">
       <div class="panel-heading">
         <h4>
-        <i class="glyphicon glyphicon-cog"></i>
+        <i class="glyphicon glyphicon-user"></i>
         HR Updates</h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body" style="word-wrap:break-word !important;">
