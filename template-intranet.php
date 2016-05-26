@@ -91,7 +91,7 @@ Template Name: Intranet Home Page
         <i class="glyphicon glyphicon-cog"></i>
         Meeting Minutes</h4>
       </div><!-- /.panel-heading -->
-      <div class="panel-body">
+      <div class="panel-body" style="word-wrap:break-word !important;">
         <a class="btn btn-inverse btn-block" 
           href="http://files.spokanelibrary.org/Meeting-Minutes/">
           Browse Meeting Minutes &rarr;</a>
@@ -147,7 +147,7 @@ Template Name: Intranet Home Page
         <i class="glyphicon glyphicon-edit"></i>
         Customer Service <span class="hidden-md">Tips</span></h4>
       </div><!-- /.panel-heading -->
-      <div class="panel-body">
+      <div class="panel-body" style="word-wrap:break-word !important;">
         <?php echo do_shortcode('[spl_widget category-posts slug=cs count=3 format=excerpt size=sm]'); ?>
       </div><!-- /.panel-body -->
       <div class="panel-footer text-right">
