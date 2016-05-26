@@ -97,7 +97,7 @@ Template Name: Intranet Home Page
           Browse Meeting Minutes &rarr;</a>
           <hr>
 
-        <?php echo do_shortcode('[spl_widget category-posts slug=meeting-minutes count=3 format=excerpt size=sm]'); ?>
+        <?php echo do_shortcode('[spl_widget category-posts slug=meeting-minutes count=2 format=excerpt size=sm]'); ?>
       </div><!-- /.panel-body -->
       <div class="panel-footer text-right">
         <a class="" href="/news/meeting-minutes/"><b>More</b> Meeting Minutes</a>&nbsp;<small class="text-muted">&rarr;</small> 
@@ -118,7 +118,7 @@ Template Name: Intranet Home Page
           Documents and instructions on the procedure can be found on the shared drive under <a rel="external" href="http://files.spokanelibrary.org/Grants/">Grants</a>.
           </p>
         </div>
-        <?php echo do_shortcode('[spl_widget category-posts slug=grants count=3 format=excerpt size=sm]'); ?>
+        <?php echo do_shortcode('[spl_widget category-posts slug=grants count=2 format=excerpt size=sm]'); ?>
       </div><!-- /.panel-body -->
       <div class="panel-footer text-right">
         <a class="" href="/news/grants/"><b>More</b> Grant Opportunities</a>&nbsp;<small class="text-muted">&rarr;</small> 
