@@ -111,7 +111,7 @@ Template Name: Intranet Home Page
         <i class="glyphicon glyphicon-usd"></i>
         Grant Opportunities</h4>
       </div><!-- /.panel-heading -->
-      <div class="panel-body">
+      <div class="panel-body" style="word-wrap:break-word !important;">
         <div class="alert alert-info">
           <p>
           All grants must be submitted through the SPL procedure. 
