@@ -81,7 +81,13 @@ Template Name: Intranet Home Page
       <div class="panel-body">
           <a href="/teams/">
             <small class="glyphicon glyphicon-plus-sign"></small>
-            Join a team &rarr;</a>          
+            Join a team &rarr;</a>   
+          <a href="/teams-in-progress/">
+            <small class="glyphicon glyphicon-plus-sign"></small>
+            In-Progress Teams &rarr;</a>   
+          <a href="/teams-completed/">
+            <small class="glyphicon glyphicon-plus-sign"></small>
+            Completed Teams &rarr;</a>          
       </div><!-- /.panel-body -->
     </div><!-- /.panel -->
 
