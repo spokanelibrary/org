@@ -82,9 +82,11 @@ Template Name: Intranet Home Page
           <a href="/teams/">
             <small class="glyphicon glyphicon-plus-sign"></small>
             Join a team &rarr;</a>   
+          <br>
           <a href="/teams-in-progress/">
             <small class="glyphicon glyphicon-plus-sign"></small>
             In-Progress Teams &rarr;</a>   
+          <br>
           <a href="/teams-completed/">
             <small class="glyphicon glyphicon-plus-sign"></small>
             Completed Teams &rarr;</a>          
