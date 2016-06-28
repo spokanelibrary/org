@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar">
   <div class="container-fluid">
       <ul class="nav navbar-nav">
         <li><a class="btn btn-primary" href="/printing/downtown/">Downtown</a></li>
