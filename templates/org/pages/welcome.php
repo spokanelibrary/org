@@ -12,7 +12,6 @@
 		<a class="btn btn-success" href="http://www.spokanelibrary.org"><i class="glyphicon glyphicon-home"></i> Go to the Library website &rarr;</a>
 	</div>
 </div>
-<hr>
 <div class="row">
 	<div class="col-sm-12">
 		<a rel="external" href="http://read.spokanelibrary.org"><h2 class="text-center">Have you signed up for Summer Reading?</h2></a>
@@ -21,7 +20,7 @@
 		<a rel="external" href="http://read.spokanelibrary.org"><img src="http://www.spokanelibrary.org/wordpress/wp-content/uploads/Summer_Reading_pac-promo.jpg" alt="Summer_Reading_pac-promo" class="aligncenter size-full img-responsive" /></a>
 	</div>
 </div>
-</hr>
+<hr>
 <div class="row">
 	<div class="col-sm-6">
 		<h3 class="text-muted normal">Popular Websites <small>Search & Social</small></h3>
