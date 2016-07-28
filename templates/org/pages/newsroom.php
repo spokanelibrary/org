@@ -6,8 +6,23 @@
 		<p class="lead">
 			Stay current with library news and events. 
 		</p>
+		<h4>Follow Us!</h4>
 		<p>
-			For the very latest, please follow us on <a href="https://facebook.com/spokanelibrary">facebook</a>, <a href="https://twitter.com/spokanelibrary">twitter</a>, and <a href="https://instagram.com/spokanepubliclibrary">instagram</a>, or <a href="/blog/">read our blog</a>.
+			<a class="btn btn-default"
+		      href="https://facebook.com/spokanelibrary" 
+		      title=""><img style="width:16px;" class="" src="/assets/img/icons/32px/facebook.png"></a>
+    		<a class="btn btn-default"
+		      href="https://twitter.com/spokanelibrary" 
+		      title=""><img style="width:16px;" class="" src="/assets/img/icons/32px/twitter.png"></a>
+		    <a class="btn btn-default"
+		      href="https://instagram.com/spokanepubliclibrary" 
+		      title=""><img style="width:16px;" class="" src="/assets/img/icons/32px/instagram.png"></a>
+			<!--
+			For the very latest, please follow us on <a href="https://facebook.com/spokanelibrary">facebook</a>, <a href="https://twitter.com/spokanelibrary">twitter</a>, and <a href="https://instagram.com/spokanepubliclibrary">instagram</a>!
+			-->
+		</p>
+		<p>
+			You can also <a href="/blog/">read our blog</a>.
 		</p>
 		
 	</div><!-- /.col -->
