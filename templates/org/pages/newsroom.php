@@ -6,8 +6,8 @@
 		<p class="lead">
 			Stay current with library news and events. 
 		</p>
-		<h2 class="text-center">Follow us!</h2>
-		<p class="text-center">
+		<h2>Follow us!</h2>
+		<p>
 			<a class="btn btn-lg btn-default"
 		      href="https://facebook.com/spokanelibrary" 
 		      title=""><img style="width:32px;" class="" src="/assets/img/icons/32px/facebook.png"></a>
