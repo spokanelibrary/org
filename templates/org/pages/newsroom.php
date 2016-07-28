@@ -10,7 +10,7 @@
 		<p class="text-center">
 			<a class="btn btn-lg btn-default"
 		      href="https://facebook.com/spokanelibrary" 
-		      title=""><img style="width:3216px;" class="" src="/assets/img/icons/32px/facebook.png"></a>
+		      title=""><img style="width:32px;" class="" src="/assets/img/icons/32px/facebook.png"></a>
     		&nbsp;
     		<a class="btn btn-lg btn-default"
 		      href="https://twitter.com/spokanelibrary" 
