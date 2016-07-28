@@ -6,14 +6,16 @@
 		<p class="lead">
 			Stay current with library news and events. 
 		</p>
-		<h4 class="text-center">Please follow us!</h4>
+		<h3 class="text-center">Follow us!</h3>
 		<p class="text-center">
 			<a class="btn btn-default"
 		      href="https://facebook.com/spokanelibrary" 
 		      title=""><img style="width:16px;" class="" src="/assets/img/icons/32px/facebook.png"></a>
+    		&bnsp;
     		<a class="btn btn-default"
 		      href="https://twitter.com/spokanelibrary" 
 		      title=""><img style="width:16px;" class="" src="/assets/img/icons/32px/twitter.png"></a>
+		    &bnsp;
 		    <a class="btn btn-default"
 		      href="https://instagram.com/spokanepubliclibrary" 
 		      title=""><img style="width:16px;" class="" src="/assets/img/icons/32px/instagram.png"></a>
