@@ -7,7 +7,7 @@
 			Stay current with library news and events. 
 		</p>
 		<p>
-			For the very latest, please follow us on <a href="https://facebook.com">facebook</a> and <a href="https://twitter.com">twitter</a>, or <a href="/blog/">read our blog</a>.
+			For the very latest, please follow us on <a href="https://facebook.com/spokanelibrary">facebook</a>, <a href="https://twitter.com/spokanelibrary">twitter</a>, and <a href="https://instagram.com/spokanepubliclibrary">instagram</a>, or <a href="/blog/">read our blog</a>.
 		</p>
 		
 	</div><!-- /.col -->
