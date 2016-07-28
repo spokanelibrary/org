@@ -6,8 +6,8 @@
 		<p class="lead">
 			Stay current with library news and events. 
 		</p>
-		<h4>Follow Us!</h4>
-		<p>
+		<h4 class="text-center">Please follow us!</h4>
+		<p class="text-center">
 			<a class="btn btn-default"
 		      href="https://facebook.com/spokanelibrary" 
 		      title=""><img style="width:16px;" class="" src="/assets/img/icons/32px/facebook.png"></a>
@@ -21,6 +21,7 @@
 			For the very latest, please follow us on <a href="https://facebook.com/spokanelibrary">facebook</a>, <a href="https://twitter.com/spokanelibrary">twitter</a>, and <a href="https://instagram.com/spokanepubliclibrary">instagram</a>!
 			-->
 		</p>
+		<hr>
 		<p>
 			You can also <a href="/blog/">read our blog</a>.
 		</p>
