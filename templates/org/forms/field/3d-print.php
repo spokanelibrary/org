@@ -38,7 +38,7 @@
 
             <div class="form-group">
               <label for="spl-form-appt-location" class="col-sm-4 control-label">
-                I would like to pickup at
+                I will pickup at
               </label>
               <div class="col-sm-8">
                 <select class="form-control" id="spl-form-pickup-location" name="spl-form[pickup-location]">
