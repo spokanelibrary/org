@@ -62,7 +62,6 @@
                   <option value="Red-Translucent">Red, Translucent</option>
                   <option value="Violet">Violet</option>
                 </select>
-                <hr>
               </div>
             </div>
             <hr>
@@ -98,7 +97,7 @@
             </div>
 
             <p>
-              We will contact you when your print is finished or if we have any questions.
+              We will contact you when your print is finished, or if we have any questions.
             </p>
 
             <?php include 'common/field-submit.php'; ?>
