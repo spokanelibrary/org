@@ -91,15 +91,15 @@
                 &nbsp;
               </label>
               <div class="col-sm-8">
-                <p>
+                <span class="help-block">
                   <b>Reminder:</b> we only accept .stl files. 
-                  <br>
-                  <small>We will contact you when your print is finished or if we have any questions.</small>
-                </p>
+                </span>
               </div>
             </div>
 
-            
+            <p>
+              We will contact you when your print is finished or if we have any questions.
+            </p>
 
             <?php include 'common/field-submit.php'; ?>
             
