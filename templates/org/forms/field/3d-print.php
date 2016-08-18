@@ -94,7 +94,7 @@
                 <p>
                   <b>Reminder:</b> we only accept .stl files. 
                   <br>
-                  We will contact you when your print is finished or if we have any questions.
+                  <small>We will contact you when your print is finished or if we have any questions.</small>
                 </p>
               </div>
             </div>
