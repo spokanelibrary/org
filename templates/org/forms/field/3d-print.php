@@ -35,7 +35,7 @@
                 </span>
               </div>
             </div>
-            
+
             <div class="form-group">
               <label for="spl-form-appt-location" class="col-sm-4 control-label">
                 I would like to pickup at
@@ -53,7 +53,7 @@
             </div>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                Please use this filament color
+                Use this filament color
               </label>
               <div class="col-sm-8">
                 <select class="form-control" id="spl-form-pla-color" name="spl-form[pla-color]">
