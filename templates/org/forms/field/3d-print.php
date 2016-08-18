@@ -19,9 +19,11 @@
               Send us your .stl file
             </legend>
 
+            <!--
             <p>
-              Please let us know where you would like to pickup your print and what color filament to use.
+              Please let us know where you would like to pickup your print, and what color filament to use.
             </p>
+          -->
             <div class="form-group">
               <label for="spl-form-appt-location" class="col-sm-4 control-label">
                 I would like to pickup at
@@ -65,19 +67,22 @@
             </div>
 
             
+            <!--
             <p>
               Enter you library barcode and pin and we'll fill out your contact information.
             </p>
-            <?php include 'common/field-login.php'; ?>
+            -->
+            <?php //include 'common/field-login.php'; ?>
             <?php include 'common/field-contact-no-mail.php'; ?>
             <?php include 'common/field-contact-method-no-mail.php'; ?>
-            
+            <!--
             <p>
               Let us know if you have any questions or special instructions.
             </p>
+          -->
             <div class="form-group">
               <label for="spl-form-message" class="col-sm-4 control-label">
-                &nbsp;
+                Questions or special instructions
               </label>
               <div class="col-sm-8">
                 <textarea rows="6" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
