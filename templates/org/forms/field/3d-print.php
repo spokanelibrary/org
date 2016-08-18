@@ -76,8 +76,7 @@
             <?php include 'common/field-contact-no-mail.php'; ?>
             <hr>
             <?php include 'common/field-contact-method-no-mail.php'; ?>
-            <hr>
-            
+
             <div class="form-group">
               <label for="spl-form-message" class="col-sm-4 control-label">
                 Questions or special instructions

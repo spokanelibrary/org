@@ -1,5 +1,5 @@
 <div class="form-group">
-  <label class="col-sm-4 control-label">My contact information</label>
+  <label class="col-sm-4 control-label">Contact information</label>
   <div class="col-sm-8">
   	<label for="spl-form-email" class="control-label">My email address</label>
   	<input type="text" class="form-control" id="spl-form-email" name="spl-form[email]" placeholder="">
