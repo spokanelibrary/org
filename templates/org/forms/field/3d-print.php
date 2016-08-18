@@ -98,7 +98,7 @@
             </div>
 
             <p>
-              <br>We'll contact you when your print is finished, or if we have any questions.</b>
+              <b>We'll contact you when your print is finished, or if we have any questions.</b>
             </p>
 
             <?php include 'common/field-submit.php'; ?>
