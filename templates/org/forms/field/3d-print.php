@@ -78,9 +78,9 @@
               </div>
             </div>
             
-            <?php include 'common/field-contact-method.php'; ?>
+            <?php include 'common/field-contact-method-no-mail.php'; ?>
             <?php include 'common/field-login.php'; ?>
-            <?php include 'common/field-contact.php'; ?>
+            <?php include 'common/field-contact-no-mail.php'; ?>
 
             <hr>
 
