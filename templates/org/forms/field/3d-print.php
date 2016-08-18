@@ -83,7 +83,6 @@
               </label>
               <div class="col-sm-8">
                 <textarea rows="6" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
-                <hr>
               </div>
             </div>
 
@@ -93,9 +92,9 @@
               </label>
               <div class="col-sm-8">
                 <p>
-                  Appointments are subject to staff availability. 
+                  Reminder: we only accept .stl files. 
                   <br>
-                  <b>We will contact you to confirm your appointment.</b>
+                  <b>We will contact you when your print is finished or if we have any questions.</b>
                 </p>
               </div>
             </div>
