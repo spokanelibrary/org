@@ -15,12 +15,12 @@
 
           <fieldset>
             <legend class="text-muted">
-              <small class="glyphicon glyphicon-calendar"></small>
-              Schedule an appointment
+              <small class="glyphicon glyphicon-file"></small>
+              Send us your .stl file
             </legend>
 
             <p>
-              Please let us know where you would like to meet and a general topic, so we can route your request.
+              Please let us know where you would like to pickup your print and what color filament to use.
             </p>
             <div class="form-group">
               <label for="spl-form-appt-location" class="col-sm-4 control-label">
@@ -39,7 +39,7 @@
             </div>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                Choose a filament color
+                Please use this filament color
               </label>
               <div class="col-sm-8">
                 <select class="form-control" id="spl-form-pla-color" name="spl-form[pla-color]">
@@ -64,24 +64,27 @@
               </div>
             </div>
 
-
+            
             <p>
-              Please give us a brief idea of what you would like to accomplish in a one-hour session.
+              Enter you library barcode and pin and we'll fill out your contact information.
+            </p>
+            <?php include 'common/field-login.php'; ?>
+            <?php include 'common/field-contact-no-mail.php'; ?>
+            <?php include 'common/field-contact-method-no-mail.php'; ?>
+            
+            <p>
+              Let us know if you have any questions or special instructions.
             </p>
             <div class="form-group">
               <label for="spl-form-message" class="col-sm-4 control-label">
-                I would like to discuss
+                &nbsp;
               </label>
               <div class="col-sm-8">
                 <textarea rows="6" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
                 <hr>
               </div>
             </div>
-            
-            <?php include 'common/field-login.php'; ?>
-            <?php include 'common/field-contact-no-mail.php'; ?>
-            <?php include 'common/field-contact-method-no-mail.php'; ?>
-            
+
             <hr>
 
             <div class="form-group">
