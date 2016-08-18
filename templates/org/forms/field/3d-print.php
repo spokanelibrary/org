@@ -65,7 +65,7 @@
                 <hr>
               </div>
             </div>
-
+            <hr>
             
             <!--
             <p>
@@ -74,12 +74,10 @@
             -->
             <?php //include 'common/field-login.php'; ?>
             <?php include 'common/field-contact-no-mail.php'; ?>
+            <hr>
             <?php include 'common/field-contact-method-no-mail.php'; ?>
-            <!--
-            <p>
-              Let us know if you have any questions or special instructions.
-            </p>
-          -->
+            <hr>
+            
             <div class="form-group">
               <label for="spl-form-message" class="col-sm-4 control-label">
                 Questions or special instructions
@@ -89,8 +87,6 @@
                 <hr>
               </div>
             </div>
-
-            <hr>
 
             <div class="form-group">
               <label for="" class="col-sm-4 control-label">
