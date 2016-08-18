@@ -25,6 +25,18 @@
             </p>
           -->
             <div class="form-group">
+              <label for="" class="col-sm-4 control-label">
+                Select a file
+              </label>
+              <div class="col-sm-8">
+                <input type="file" id="spl-form-stl-file" name="spl-form[stl-file]">
+                <span class="help-block">
+                  <b>Reminder:</b> we only accept .stl files. 
+                </span>
+              </div>
+            </div>
+            
+            <div class="form-group">
               <label for="spl-form-appt-location" class="col-sm-4 control-label">
                 I would like to pickup at
               </label>
@@ -85,20 +97,8 @@
               </div>
             </div>
 
-            <div class="form-group">
-              <label for="" class="col-sm-4 control-label">
-                Select a file
-              </label>
-              <div class="col-sm-8">
-                <input type="file" id="spl-form-stl-file" name="spl-form[stl-file]">
-                <span class="help-block">
-                  <b>Reminder:</b> we only accept .stl files. 
-                </span>
-              </div>
-            </div>
-
             <p>
-              We will contact you when your print is finished, or if we have any questions.
+              <br>We'll contact you when your print is finished, or if we have any questions. Thanks!</b>
             </p>
 
             <?php include 'common/field-submit.php'; ?>
