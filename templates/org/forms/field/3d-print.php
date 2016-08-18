@@ -92,9 +92,9 @@
               </label>
               <div class="col-sm-8">
                 <p>
-                  Reminder: we only accept .stl files. 
+                  <b>Reminder:</b> we only accept .stl files. 
                   <br>
-                  <b>We will contact you when your print is finished or if we have any questions.</b>
+                  We will contact you when your print is finished or if we have any questions.
                 </p>
               </div>
             </div>
