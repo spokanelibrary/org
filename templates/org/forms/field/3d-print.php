@@ -87,9 +87,10 @@
 
             <div class="form-group">
               <label for="" class="col-sm-4 control-label">
-                &nbsp;
+                Select a file
               </label>
               <div class="col-sm-8">
+                <input type="file" id="spl-form-stl-file" name="spl-form[stl-file]">
                 <span class="help-block">
                   <b>Reminder:</b> we only accept .stl files. 
                 </span>
