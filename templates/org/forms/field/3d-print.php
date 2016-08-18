@@ -138,7 +138,7 @@
             <?php include 'common/field-login.php'; ?>
             <?php include 'common/field-contact.php'; ?>
 
-            <?php include 'common/field-location.php'; ?>
+            <?php include 'common/field-contact-location.php'; ?>
 
             <hr>
 
