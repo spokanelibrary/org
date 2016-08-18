@@ -24,10 +24,10 @@
             </p>
             <div class="form-group">
               <label for="spl-form-appt-location" class="col-sm-4 control-label">
-                I would like to meet at
+                I would like to pickup at
               </label>
               <div class="col-sm-8">
-                <select class="form-control" id="spl-form-appt-location" name="spl-form[appt-location]">
+                <select class="form-control" id="spl-form-pickup-location" name="spl-form[pickup-location]">
                   <option value="Downtown" selected>Downtown Library</option>
                   <option value="East Side">East Side Library</option>
                   <option value="Hillyard">Hillyard Library</option>
@@ -39,87 +39,31 @@
             </div>
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                My question is about
+                Choose a filament color
               </label>
               <div class="col-sm-8">
-                <select class="form-control" id="spl-form-query-type" name="spl-form[query-type]">
-                  <option value="library">Using the library</option>
-                  <option value="download">eBooks and downloads</option>
-                  <option value="business">Business research</option>
-                  <option value="genealogy">Genealogy research</option>
-                  <option value="account">My account</option>
-                  <option value="other">Something else</option>
+                <select class="form-control" id="spl-form-pla-color" name="spl-form[pla-color]">
+                  <option value="Black">Black</option>
+                  <option value="Blue">Blue</option>
+                  <option value="Blue-Fluorescence">Blue, Fluorescence</option>
+                  <option value="Blue-Opaque">Blue, Opaque</option>
+                  <option value="Brown-Dark">Brown, Dark</option>
+                  <option value="Glow-Dark">Glow in the Dark</option>
+                  <option value="Glow-Green">Glow in the Green</option>
+                  <option value="Green">Green</option>
+                  <option value="Green-Grass">Green, Grass</option>
+                  <option value="Grey">Grey</option>
+                  <option value="Orange">Orange</option>
+                  <option value="Purple-Dark">Purple, Dark</option>
+                  <option value="Purple-Solid">Purple, Solid</option>
+                  <option value="Red">Red</option>
+                  <option value="Red-Translucent">Red, Translucent</option>
+                  <option value="Violet">Violet</option>
                 </select>
                 <hr>
               </div>
             </div>
 
-            <p>
-              Please let us know your <em>preferred date</em> to meet, and select two time slots that would work.
-              You might want to <a href="/branches/">check branch hours</a> &rarr;
-            </p>
-            <div class="form-group">
-              <label for="spl-form-query-type" class="col-sm-4 control-label">
-                Date <span class="text-success">(First choice)</span>
-              </label>
-              <div class="col-sm-8">
-                <div class="input-group date">
-                  <input type="text" 
-                          class="form-control required" 
-                          name="spl-form[datetime][first][date]"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
-                </div>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <label class="text-success">Preferred time</label>
-                    <select class="form-control required"
-                            name="spl-form[datetime][first][time][a]">
-                      <?php include 'common/field-book-librarian-hours.php'; ?>
-                    </select>
-                  </div>
-                  <div class="col-sm-6">
-                    <label class="text-warning">Alternate time</label>
-                    <select class="form-control required"
-                            name="spl-form[datetime][first][time][b]">
-                      <?php include 'common/field-book-librarian-hours.php'; ?>
-                    </select>
-                  </div>
-                </div>
-                <hr>
-              </div>
-            </div>
-            
-            <p>
-              Please let us know an <em>alternate date</em> you can meet, and select two time slots that would work.
-            <p>
-            <div class="form-group">
-              <label for="spl-form-query-type" class="col-sm-4 control-label">
-                Date <span class="text-warning">(Second choice)</span>
-              </label>
-              <div class="col-sm-8">
-                <div class="input-group date">
-                  <input type="text" 
-                          class="form-control required" 
-                          name="spl-form[datetime][second][date]"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
-                </div>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <label class="text-success">Preferred time</label>
-                    <select class="form-control required"
-                            name="spl-form[datetime][second][time][a]">
-                      <?php include 'common/field-book-librarian-hours.php'; ?>
-                    </select>
-                  </div>
-                  <div class="col-sm-6">
-                    <label class="text-warning">Alternate time</label>
-                    <select class="form-control required"
-                            name="spl-form[datetime][second][time][b]">
-                      <?php include 'common/field-book-librarian-hours.php'; ?>
-                    </select>
-                  </div>
-                </div>
-                <hr>
-              </div>
-            </div>
 
             <p>
               Please give us a brief idea of what you would like to accomplish in a one-hour session.
@@ -137,8 +81,6 @@
             <?php include 'common/field-contact-method.php'; ?>
             <?php include 'common/field-login.php'; ?>
             <?php include 'common/field-contact.php'; ?>
-
-            <?php include 'common/field-contact-location.php'; ?>
 
             <hr>
 
