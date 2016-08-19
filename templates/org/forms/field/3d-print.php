@@ -5,7 +5,7 @@
           
           <?php include 'common/crass-response.php'; ?>
       
-          <input type="hidden" id="spl-form-id" name="spl-form[id]" value="3d" />
+          <input type="hidden" id="spl-form-id" name="spl-form[id]" value="stl-file" />
           
           <input type="hidden" 
                 id="spl-form-ip" 
