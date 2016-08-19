@@ -1,7 +1,7 @@
       
     <div class="panel panel-default">
       <div class="panel-body">
-        <form class="form-horizontal spl-form" id="spl-form-3d" method="post" role="form">
+        <form class="form-horizontal spl-form" id="spl-form-stl-file" enctype="multipart/form-data" method="post" role="form">
           
           <?php include 'common/crass-response.php'; ?>
       
