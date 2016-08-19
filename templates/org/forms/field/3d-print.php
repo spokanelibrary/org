@@ -80,10 +80,10 @@
             
             <!--
             <p>
-              Enter you library barcode and pin and we'll fill out your contact information.
+              Enter your library barcode and pin and we'll fill out your contact information.
             </p>
             -->
-            <?php //include 'common/field-login.php'; ?>
+            <?php include 'common/field-login.php'; ?>
             <?php include 'common/field-contact-no-mail.php'; ?>
             <hr>
             <?php include 'common/field-contact-method-no-mail.php'; ?>
