@@ -101,7 +101,7 @@
 
             <?php include 'common/field-submit.php'; ?>
 
-            <p>
+            <p class="text-center">
               We'll contact you when your print is finished, or if we have any questions.
             </p>
 
