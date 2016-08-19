@@ -93,12 +93,12 @@
                 Questions or special instructions
               </label>
               <div class="col-sm-8">
-                <textarea rows="6" class="form-control required" id="spl-form-message" name="spl-form[message]"></textarea>
+                <textarea rows="6" class="form-control" id="spl-form-message" name="spl-form[message]"></textarea>
               </div>
             </div>
 
             <hr>
-            
+
             <p>
               <b>We'll contact you when your print is finished, or if we have any questions.</b>
             </p>
