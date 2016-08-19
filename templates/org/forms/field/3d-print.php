@@ -29,7 +29,7 @@
                 Select a file
               </label>
               <div class="col-sm-8">
-                <input type="file" id="spl-form-stl-file" name="spl-form[stl-file]">
+                <input type="file" class="required" id="spl-form-stl-file" name="spl-form[stl-file]">
                 <span class="help-block">
                   <b>Reminder:</b> we only accept .stl files. 
                 </span>
