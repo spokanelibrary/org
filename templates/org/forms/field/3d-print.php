@@ -97,6 +97,8 @@
               </div>
             </div>
 
+            <hr>
+            
             <p>
               <b>We'll contact you when your print is finished, or if we have any questions.</b>
             </p>
