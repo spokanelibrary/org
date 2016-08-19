@@ -102,9 +102,9 @@
             <?php include 'common/field-submit.php'; ?>
 
             <p>
-              <b>We'll contact you when your print is finished, or if we have any questions.</b>
+              We'll contact you when your print is finished, or if we have any questions.
             </p>
-                        
+
           </fieldset>
         </form>
       </div><!-- /.panel-body -->
