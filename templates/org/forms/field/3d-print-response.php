@@ -10,6 +10,8 @@
       <b>Please note:</b>
       Your print should be ready in 1-2 weeks. 
       We will contact you when it is finished, or if we have any questions.
+
+      <a href="./">Send another file &rarr;</a>
     </div>
 
     <dl class="dl-horizontal">
