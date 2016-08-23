@@ -1,3 +1,8 @@
+<?php if( isset($crass->stl['error']) ) : ?>
+
+  Oh no!
+
+<?php else: ?>
 <div class="panel panel-default">
 
   <div class="panel-body">
@@ -90,14 +95,15 @@
     </dl>
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
+<?php endif; ?>
 
 <?php
-
+/*
 echo '<pre>';
 //print_r($crass);
 //print_r($crass->result);
 //print_r($crass->request); 
 print_r($crass->stl);
 echo '</pre>';
-
+*/
 ?>
