@@ -7,11 +7,12 @@
     <h4>We received your 3D Printing request.</h4>
 
     <div class="alert alert-warning">
-      <b>Please note:</b>
-      Your print should be ready in 1-2 weeks. 
-      We will contact you when it is finished, or if we have any questions.
-      <br>
-      <a href="./">Send another file &rarr;</a>
+      <p>
+        <b>Please note:</b>
+        Your print should be ready in 1-2 weeks. 
+        We will contact you when it is finished, or if we have any questions.
+      </p>
+      <a href="./"><b>Send another file</b> &rarr;</a>
     </div>
 
     <dl class="dl-horizontal">
