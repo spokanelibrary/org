@@ -4,13 +4,12 @@
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
-    <h4>We received your appointment request.</h4>
+    <h4>We received your 3D Printing request.</h4>
 
     <div class="alert alert-warning">
       <b>Please note:</b>
-      This is <em>not</em> a meeting confirmation. 
-      Appointments are subject to staff availability.
-      A librarian will contact you to confirmation your appointment.
+      Your print should be ready in 1-2 weeks. 
+      We will contact you when it is finished, or if we have any questions.
     </div>
 
     <dl class="dl-horizontal">
@@ -42,47 +41,45 @@
       </dd>
       <?php endif; ?>
 
-      <?php if( !empty($crass->request['datetime']['first']['date']) ) : ?>
-      <dt>Date (First Choice)</dt>
+      <?php if( !empty($crass->request['phone']) ) : ?>
+      <dt>Your Phone</dt>
       <dd>
         <p>
-          <?php echo $crass->request['datetime']['first']['date']; ?>
-        </p>
-        <p>
-          Preferred Time: <?php echo $crass->request['datetime']['first']['time']['a']; ?>
-        </p>
-        <p>
-          Alternate Time: <?php echo $crass->request['datetime']['first']['time']['b']; ?>
+          <?php echo $crass->request['phone']; ?>
         </p>
       </dd>
       <?php endif; ?>
 
-      <?php if( !empty($crass->request['datetime']['second']['date']) ) : ?>
-      <dt>Date (Second Choice)</dt>
+
+      <?php if( !empty($crass->request['pla-color']) ) : ?>
+      <dt>PLA Color</dt>
       <dd>
         <p>
-          <?php echo $crass->request['datetime']['second']['date']; ?>
-        </p>
-        <p>
-          Preferred Time: <?php echo $crass->request['datetime']['second']['time']['a']; ?>
-        </p>
-        <p>
-          Alternate Time: <?php echo $crass->request['datetime']['second']['time']['b']; ?>
+          <?php echo $crass->request['pla-color']; ?>
         </p>
       </dd>
       <?php endif; ?>
 
-      <?php if( !empty($crass->request['appt-location']) ) : ?>
-      <dt>Library location</dt>
+      <?php if( !empty($_FILES['spl-form']['name']['stl-file']) ) : ?>
+      <dt>File name</dt>
       <dd>
         <p>
-          <?php echo $crass->request['appt-location']; ?>
+          <?php echo $_FILES['spl-form']['name']['stl-file']; ?>
+        </p>
+      </dd>
+      <?php endif; ?>
+
+      <?php if( !empty($crass->request['pickup-location']) ) : ?>
+      <dt>Pickup location</dt>
+      <dd>
+        <p>
+          <?php echo $crass->request['pickup-location']; ?>
         </p>
       </dd>
       <?php endif; ?>
 
       <?php if( !empty($crass->request['message']) ) : ?>
-      <dt>Your agenda</dt>
+      <dt>Your message</dt>
       <dd>
         <p>
           <?php echo $crass->request['message']; ?>
