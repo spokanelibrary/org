@@ -1,7 +1,19 @@
 <?php if( isset($crass->stl['error']) ) : ?>
+<div class="panel panel-default">
 
-  Oh no!
-
+  <div class="panel-body">
+    <h3 class="text-danger">Error!</h3>
+      <p>
+        There was a problem processing your file, or you did not upload a <b>.stl</b> file.
+      </p>
+      <p>
+        Please <a href="./">try again</a>.
+      </p>
+      <p>
+        If you continue to experience problems, please email <a href="mailto:gsayer@spokanelibrary.org">Gillian Sayer</a>.
+      </p>
+  </div><!-- /.panel-body -->
+</div><!-- /.panel -->
 <?php else: ?>
 <div class="panel panel-default">
 
