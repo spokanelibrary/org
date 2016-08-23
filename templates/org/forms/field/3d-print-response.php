@@ -1,5 +1,7 @@
+<div class="panel panel-default">
 
-    <h4 class="text-success">We received your 3D Printing request.</h4>
+  <div class="panel-body">
+    <h3 class="text-success">We received your 3D Printing request.</h3>
 
     <div class="alert alert-warning">
       <p>
@@ -86,6 +88,8 @@
       <?php endif; ?>
 
     </dl>
+  </div><!-- /.panel-body -->
+</div><!-- /.panel -->
 
 <?php
 /*
