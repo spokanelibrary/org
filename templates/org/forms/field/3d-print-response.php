@@ -1,6 +1,6 @@
 <div class="panel panel-success">
   <div class="panel-heading">
-    <h3>Thank You!</h3>
+    <h3 class="panel-title">Thank You!</h3>
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
@@ -10,7 +10,7 @@
       <b>Please note:</b>
       Your print should be ready in 1-2 weeks. 
       We will contact you when it is finished, or if we have any questions.
-
+      <br>
       <a href="./">Send another file &rarr;</a>
     </div>
 
