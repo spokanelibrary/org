@@ -22,7 +22,7 @@ Template Name: Staff Page
 class SPL_StaffDirectoryShortcode {
   static function register_shortcode() {
     //add_shortcode('spl-staff-directory', array('SPL_StaffDirectoryShortcode', 'shortcode'));
-    add_shortcode('spl-staff-directory-list', array('SPL_StaffDirectoryShortcode', 'shortcodeList'));
+    add_shortcode('spl-staff-directory-list', array('SPL_StaffDirectoryShortcode', 'shortcodeListStaff'));
     add_shortcode('spl-staff-directory-all', array('SPL_StaffDirectoryShortcode', 'shortcodeAll'));
   
   }
@@ -73,7 +73,7 @@ class SPL_StaffDirectoryShortcode {
     return $staff;
   }
 
-  static function shortcodeList($params) {
+  static function shortcodeListStaff($params) {
 
     $query_args = array(
       'post_type' => 'staff'
