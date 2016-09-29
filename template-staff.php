@@ -131,7 +131,7 @@ class SPL_StaffDirectoryShortcode {
       }
     }
 
-    //$html .= '<pre>'.print_r($menu,true).'</pre>';
+    $html .= '<pre>'.print_r($menu,true).'</pre>';
 
     return $html;
   }
