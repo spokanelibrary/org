@@ -123,12 +123,23 @@ $passphrase = spl_get_passphrase();
         
         <input type="hidden" name="username" value="<?php echo $username; ?>" />
         <input type="hidden" name="password" value="wireless" />
-        <p>
-            <button type="submit" class="btn btn-block btn-lg btn-success">
-        	<small class="glyphicon glyphicon-ok"></small>
-        	I agree. Proceed &rarr;
-            </button>
-        </p>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="passphrase">Passphrase</label>
+                    <input type="text" class="form-control" id="passphrase" placeholder="">
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    <button type="submit" class="btn btn-block btn-lg btn-success">
+                	<small class="glyphicon glyphicon-ok"></small>
+                	Login Now &rarr;
+                    </button>
+                </p>
+            </div>    
+        </div>
 
     </form>
 
