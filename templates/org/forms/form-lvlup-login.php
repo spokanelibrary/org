@@ -24,7 +24,7 @@ function spl_wireless_params() {
     $login = NULL;
     
     $branch = 'lvl';
-    
+
     $sip = isset($_REQUEST['sip']) ? $_REQUEST['sip'] : NULL;
     $mac = isset($_REQUEST['mac']) ? $_REQUEST['mac'] : NULL;
     $uip = isset($_REQUEST['uip']) ? $_REQUEST['uip'] : NULL;
@@ -94,7 +94,7 @@ $passphrase = spl_get_passphrase();
     ?>
     >
     
-        <input type="hidden" name="username" value="<?php echo $username; ?>" />
+        <input type="hidden" name="username" value="lvl" />
         <input type="hidden" name="password" value="wireless" />
         
         <div class="form-group">
