@@ -129,13 +129,13 @@ $passphrase = spl_get_passphrase();
                     
                     <div class="form-group">
                         <label for="passphrase" class="col-md-4 control-label">Passphrase:</label>
-                        <div class="col-md-8">
+                        <div class="col-md-6">
                             <input type="text" class="form-control" id="passphrase" placeholder="">
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <div class="col-md-offset-4 col-md-8">
+                        <div class="col-md-offset-4 col-md-6">
                             <button type="submit" class="btn btn-block btn-default">
                             <small class="glyphicon glyphicon-info-signok"></small>
                             Login Now &rarr;
