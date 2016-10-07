@@ -1,7 +1,7 @@
 <?php
 
 function spl_get_passphrase() {
-    return 'mypass';
+    return 'bypass';
 }
 
 function is_mobile($useragent) {
@@ -74,42 +74,6 @@ $passphrase = spl_get_passphrase();
 ?>
 
 
-<form 
-    action="http://10.14.50.2:9997/login" 
-    method="post" 
-    class="form-horizontal"
-    id="spl-wireless" 
-    <?php
-    if ( is_array($params) ) {
-    echo 'data-spl="true" ';
-    echo 'data-ua="'.$params['ua'].'" ';
-    echo 'data-sip="'.$params['sip'].'" ';
-    echo 'data-mac="'.$params['mac'].'" ';
-    echo 'data-uip="'.$params['uip'].'" ';
-    echo 'data-url="'.$params['url'].'" ';
-    echo 'data-loc="'.$params['loc'].'" ';
-    echo 'data-ssid="'.$params['ssid'].'" ';
-    echo 'data-stamp="'.$params['stamp'].'" ';
-    echo 'data-branch="'.$params['branch'].'" ';
-    }
-    ?>
-    >
-
-        <input type="hidden" name="username" value="lvl" />
-        <input type="hidden" name="password" value="wireless" />
-        
-        <div class="form-group">
-            <div class="col-md-offset-4 col-md-6">
-                <button type="submit" class="btn btn-block btn-default">
-                <small class="glyphicon glyphicon-info-signok"></small>
-                Test &rarr;
-                </button>
-            </div>
-        </div>
-
-    </form>
-
-
 <div class="page-header">
     <h1>Level UP <small>at Spokane Public Library</small></h1>
 </div>
@@ -145,8 +109,8 @@ $passphrase = spl_get_passphrase();
                 ?>
                 >
                 
-                    <input type="text" name="username" value="<?php echo $username; ?>" />
-                    <input type="text" name="password" value="wireless" />
+                    <input type="hidden" name="username" value="<?php echo $username; ?>" />
+                    <input type="hidden" name="password" value="wireless" />
                     
                     <p>
                         Passphrase is correct.
