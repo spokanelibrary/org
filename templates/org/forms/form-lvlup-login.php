@@ -91,62 +91,62 @@ $passphrase = spl_get_passphrase();
 	<h1>Level UP <small>at Spokane Public Library</small></h1>
 </div>
 
-<div class="panel panel-info">
-	<div class="panel-heading">
-		<small class="glyphicon glyphicon-info-sign"></small>
-		Please enter today's passphrase to access Level UP WiFi:
-	</div><!-- /.panel-heading -->
-	<div class="panel-body">
+<div class="row">
+    <div class="col-md-4 col-md-offset-2">
 
-		<form 
-        action="http://10.14.50.2:9997/login" 
-        method="post" 
-        class="form-horizontal"
-        id="spl-wireless" 
-        <?php
-        if ( is_array($params) ) {
-        echo 'data-spl="true" ';
-        echo 'data-ua="'.$params['ua'].'" ';
-        echo 'data-sip="'.$params['sip'].'" ';
-        echo 'data-mac="'.$params['mac'].'" ';
-        echo 'data-uip="'.$params['uip'].'" ';
-        echo 'data-url="'.$params['url'].'" ';
-        echo 'data-loc="'.$params['loc'].'" ';
-        echo 'data-ssid="'.$params['ssid'].'" ';
-        echo 'data-stamp="'.$params['stamp'].'" ';
-        echo 'data-branch="'.$params['branch'].'" ';
-        }
-        ?>
-    >
-        
-        <input type="hidden" name="username" value="<?php echo $username; ?>" />
-        <input type="hidden" name="password" value="wireless" />
-        
-        <div class="row">
-            <div class="col-md-4 col-md-offset-2">
+        <div class="panel panel-info">
+        	<div class="panel-heading">
+        		<small class="glyphicon glyphicon-info-sign"></small>
+        		Please enter today's passphrase to access Level UP WiFi:
+        	</div><!-- /.panel-heading -->
+        	<div class="panel-body">
+
+        		<form 
+                action="http://10.14.50.2:9997/login" 
+                method="post" 
+                class="form-horizontal"
+                id="spl-wireless" 
+                <?php
+                if ( is_array($params) ) {
+                echo 'data-spl="true" ';
+                echo 'data-ua="'.$params['ua'].'" ';
+                echo 'data-sip="'.$params['sip'].'" ';
+                echo 'data-mac="'.$params['mac'].'" ';
+                echo 'data-uip="'.$params['uip'].'" ';
+                echo 'data-url="'.$params['url'].'" ';
+                echo 'data-loc="'.$params['loc'].'" ';
+                echo 'data-ssid="'.$params['ssid'].'" ';
+                echo 'data-stamp="'.$params['stamp'].'" ';
+                echo 'data-branch="'.$params['branch'].'" ';
+                }
+                ?>
+                >
                 
-                <div class="form-group">
-                    <label for="passphrase" class="col-md-4 control-label">Passphrase:</label>
-                    <div class="col-md-8">
-                      <input type="text" class="form-control" id="passphrase" placeholder="">
+                    <input type="hidden" name="username" value="<?php echo $username; ?>" />
+                    <input type="hidden" name="password" value="wireless" />
+                    
+                    
+                    
+                    <div class="form-group">
+                        <label for="passphrase" class="col-md-4 control-label">Passphrase:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="passphrase" placeholder="">
+                        </div>
                     </div>
-                  </div>
 
-                  <div class="form-group">
-                    <div class="col-md-offset-4 col-md-8">
-                      <button type="submit" class="btn btn-block btn-default">
-                        <small class="glyphicon glyphicon-ok"></small>
-                        Login Now &rarr;
-                    </button>
+                    <div class="form-group">
+                        <div class="col-md-offset-4 col-md-8">
+                            <button type="submit" class="btn btn-block btn-default">
+                            <small class="glyphicon glyphicon-info-signok"></small>
+                            Login Now &rarr;
+                            </button>
+                        </div>
                     </div>
-                  </div>
 
-            </div>
-        </div>
+                </form>
 
-    </form>
+	       </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
 
-	</div><!-- /.panel-body -->
-</div><!-- /.panel -->
-
-
+    </div>
+</div>
