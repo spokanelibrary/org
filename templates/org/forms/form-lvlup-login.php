@@ -193,7 +193,7 @@ $passphrase = spl_get_passphrase();
                     <div class="form-group">
                         <label for="passphrase" class="col-md-4 control-label">Passphrase:</label>
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="passphrase" placeholder="">
+                            <input type="text" class="form-control" name="passphrase" id="passphrase" placeholder="">
                         </div>
                     </div>
 
