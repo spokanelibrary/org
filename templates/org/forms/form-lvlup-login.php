@@ -185,8 +185,8 @@ $passphrase = spl_get_passphrase();
                     <input type="hidden" name="loc" value="<?php echo $_REQUEST['loc'] ?>" />
                     <input type="hidden" name="ssid" value="<?php echo $_REQUEST['ssid'] ?>" />
 
-                    <input type="text" name="branch" value="<?php echo $branch ?>" />
-                    <input type="text" name="username" value="<?php echo $username ?>" />
+                    <input type="hidden" name="branch" value="<?php echo $branch ?>" />
+                    <input type="hidden" name="username" value="<?php echo $username ?>" />
                     
                     
                     
