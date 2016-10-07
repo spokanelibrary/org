@@ -6,6 +6,7 @@ function spl_get_passphrase() {
     $response = json_decode(Crass_Response::curlPostProxy($endpoint, 
                                                             array( 'apikey'=>getenv('SPL_KEY')
                                                             )));
+    print_r($response);
     $passphrase = $response->passphrase;
 
 }
