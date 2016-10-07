@@ -82,7 +82,7 @@ $passphrase = spl_get_passphrase();
 <div class="page-header">
     <h1>Level UP <small>at Spokane Public Library</small></h1>
 </div>
-<h4><?php echo $passphrase; ?></h4>
+
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
 
