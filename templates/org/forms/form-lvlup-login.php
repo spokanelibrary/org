@@ -174,7 +174,7 @@ $passphrase = spl_get_passphrase();
                 ?>
                 >
 
-                    <?php isset($_REQUEST['passphrase']) : ?>
+                    <?php if ( isset($_REQUEST['passphrase']) ): ?>
                         <h3 class="text-danger">Incorrect passphrase</h3>
                     <?php endif; ?>
                 
