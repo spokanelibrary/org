@@ -23,11 +23,13 @@ function is_mobile($useragent) {
 function spl_wireless_params() {
     $login = NULL;
     
+    $branch = 'lvl';
+    
     $sip = isset($_REQUEST['sip']) ? $_REQUEST['sip'] : NULL;
     $mac = isset($_REQUEST['mac']) ? $_REQUEST['mac'] : NULL;
     $uip = isset($_REQUEST['uip']) ? $_REQUEST['uip'] : NULL;
     $url = isset($_REQUEST['url']) ? $_REQUEST['url'] : 'http://www.spokanelibrary.org';
-    $loc = isset($_REQUEST['loc']) ? $_REQUEST['loc'] : NULL;
+    $loc = $branch;
     $ssid = isset($_REQUEST['ssid'])?$_REQUEST['ssid']: NULL;
 
     if ( isset($sip) 
@@ -41,8 +43,6 @@ function spl_wireless_params() {
         $dt = new DateTime();
         $now = $dt->format('m/d/Y H:i:s');
 
-        
-        $branch = 'lvl';
         
         $login = array(
                     'ua'=>$_SERVER['HTTP_USER_AGENT'],
@@ -63,8 +63,6 @@ function spl_wireless_params() {
 
 $params = spl_wireless_params();
 $mobile = is_mobile($_SERVER['HTTP_USER_AGENT']);
-
-$branch = ( isset($params['branch']) ) ? $params['branch'] : 'lvl';
 
 $username = ( false == $mobile ) ? $branch : $branch.'_'.'mobile';  
 
