@@ -123,7 +123,7 @@ $passphrase = spl_get_passphrase();
         <input type="hidden" name="password" value="wireless" />
         
         <div class="row">
-            <div class="col-md-4 col-md-offset-3">
+            <div class="col-md-4 col-md-offset-2">
                 
                 <div class="form-group">
                     <label for="passphrase" class="col-sm-2 control-label">Passphrase</label>
