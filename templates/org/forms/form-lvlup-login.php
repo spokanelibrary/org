@@ -95,7 +95,7 @@ $passphrase = spl_get_passphrase();
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
 
-    <?php if ( isset($_REQUEST['passphrase']) ) : ?>
+    <?php if ( isset($_REQUEST['passphrase']) && $_REQUEST['passphrase'] == $passphrase ) : ?>
         <div class="panel panel-info">
             <div class="panel-heading">
                 <small class="glyphicon glyphicon-info-sign"></small>
@@ -173,6 +173,10 @@ $passphrase = spl_get_passphrase();
                 }
                 ?>
                 >
+
+                    <?php isset($_REQUEST['passphrase']) : ?>
+                        <h3 class="text-danger">Incorrect passphrase</h3>
+                    <?php endif; ?>
                 
                     <input type="hidden" name="sip" value="<?php echo $_REQUEST['sip'] ?>" />
                     <input type="hidden" name="mac" value="<?php echo $_REQUEST['mac'] ?>" />
