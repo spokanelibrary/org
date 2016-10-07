@@ -101,7 +101,7 @@ $passphrase = spl_get_passphrase();
 		<form 
         action="http://10.14.50.2:9997/login" 
         method="post" 
-        class=""
+        class="form-inline"
         id="spl-wireless" 
         <?php
         if ( is_array($params) ) {
