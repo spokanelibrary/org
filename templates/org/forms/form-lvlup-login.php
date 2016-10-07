@@ -33,7 +33,7 @@ function spl_wireless_params() {
     if ( isset($sip) 
         && isset($mac) 
         && isset($uip) 
-        //&& isset($url) 
+        && isset($url) 
         && isset($loc) 
         && isset($ssid) 
         ) {
@@ -41,21 +41,8 @@ function spl_wireless_params() {
         $dt = new DateTime();
         $now = $dt->format('m/d/Y H:i:s');
 
-        if( stristr($loc, 'Downtown') == TRUE || stristr($loc, 'Computer') == TRUE ) {
-            $branch = 'dt';
-        } elseif ( stristr($loc, 'East Side') == TRUE ) {
-            $branch = 'es';
-        } elseif ( stristr($loc, 'Hillyard') == TRUE ) {
-            $branch = 'hy';
-        } elseif ( stristr($loc, 'Indian Trail') == TRUE ) {
-            $branch = 'it';
-        } elseif ( stristr($loc, 'Shadle') == TRUE ) {
-            $branch = 'sh';
-        } elseif ( stristr($loc, 'South Hill') == TRUE ) {
-            $branch = 'so';
-        } else {
-            $branch = 'spl';
-        }
+        
+        $branch = 'lvl';
         
         $login = array(
                     'ua'=>$_SERVER['HTTP_USER_AGENT'],
@@ -77,10 +64,9 @@ function spl_wireless_params() {
 $params = spl_wireless_params();
 $mobile = is_mobile($_SERVER['HTTP_USER_AGENT']);
 
-$branch = ( isset($params['branch']) ) ? $params['branch'] : 'spl';
+$branch = ( isset($params['branch']) ) ? $params['branch'] : 'lvl';
 
-$lvl = 'lvl';
-$username = ( false == $mobile ) ? $lvl : $lvl.'_'.'mobile';  
+$username = ( false == $mobile ) ? $branch : $branch.'_'.'mobile';  
 
 //trace($username);
 
@@ -180,7 +166,7 @@ $passphrase = spl_get_passphrase();
                 
                     <input type="hidden" name="sip" value="<?php echo $_REQUEST['sip'] ?>" />
                     <input type="hidden" name="mac" value="<?php echo $_REQUEST['mac'] ?>" />
-                    <input type="hidden" name="up" value="<?php echo $_REQUEST['uip'] ?>" />
+                    <input type="hidden" name="uip" value="<?php echo $_REQUEST['uip'] ?>" />
                     <input type="hidden" name="url" value="<?php echo $_REQUEST['url'] ?>" />
                     <input type="hidden" name="loc" value="<?php echo $_REQUEST['loc'] ?>" />
                     <input type="hidden" name="ssid" value="<?php echo $_REQUEST['ssid'] ?>" />
