@@ -6,9 +6,7 @@ function spl_get_passphrase() {
     $response = json_decode(Crass_Response::curlPostProxy($endpoint, 
                                                             array( 'apikey'=>getenv('SPL_KEY')
                                                             )));
-    $passphrase = $response->passphrase;
-
-    return $passphrase;
+    return $response->passphrase;
 }
 
 function is_mobile($useragent) {
@@ -148,7 +146,7 @@ $passphrase = spl_get_passphrase();
 
                 <form 
                 action="./" 
-                method="get" 
+                method="post" 
                 class="form-horizontal"
                 id="spl-wireless" 
                 <?php
