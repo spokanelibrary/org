@@ -141,7 +141,7 @@ $passphrase = spl_get_passphrase();
 
                 <form 
                 action="./" 
-                method="post" 
+                method="get" 
                 class="form-horizontal"
                 id="spl-wireless" 
                 <?php
