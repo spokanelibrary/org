@@ -73,6 +73,7 @@ function spl_wireless_params() {
     return $login;
 }
 
+
 $params = spl_wireless_params();
 $mobile = is_mobile($_SERVER['HTTP_USER_AGENT']);
 
@@ -87,21 +88,22 @@ $passphrase = spl_get_passphrase();
 
 ?>
 
-<div class="page-header">
-	<h1>Level UP <small>at Spokane Public Library</small></h1>
-</div>
 
+<div class="page-header">
+    <h1>Level UP <small>at Spokane Public Library</small></h1>
+</div>
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
 
+    <?php if ( isset($_REQUEST['passphrase']) ) : ?>
         <div class="panel panel-info">
-        	<div class="panel-heading">
-        		<small class="glyphicon glyphicon-info-sign"></small>
-        		Please enter today's passphrase to access Level UP WiFi:
-        	</div><!-- /.panel-heading -->
-        	<div class="panel-body">
+            <div class="panel-heading">
+                <small class="glyphicon glyphicon-info-sign"></small>
+                Please enter today's passphrase to access Level UP WiFi:
+            </div><!-- /.panel-heading -->
+            <div class="panel-body">
 
-        		<form 
+                <form 
                 action="http://10.14.50.2:9997/login" 
                 method="post" 
                 class="form-horizontal"
@@ -145,8 +147,69 @@ $passphrase = spl_get_passphrase();
 
                 </form>
 
-	       </div><!-- /.panel-body -->
+           </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+    <?php else: ?>
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <small class="glyphicon glyphicon-info-sign"></small>
+                Please enter today's passphrase to access Level UP WiFi:
+            </div><!-- /.panel-heading -->
+            <div class="panel-body">
+
+                <form 
+                action="./" 
+                method="post" 
+                class="form-horizontal"
+                id="spl-wireless" 
+                <?php
+                if ( is_array($params) ) {
+                echo 'data-spl="true" ';
+                echo 'data-ua="'.$params['ua'].'" ';
+                echo 'data-sip="'.$params['sip'].'" ';
+                echo 'data-mac="'.$params['mac'].'" ';
+                echo 'data-uip="'.$params['uip'].'" ';
+                echo 'data-url="'.$params['url'].'" ';
+                echo 'data-loc="'.$params['loc'].'" ';
+                echo 'data-ssid="'.$params['ssid'].'" ';
+                echo 'data-stamp="'.$params['stamp'].'" ';
+                echo 'data-branch="'.$params['branch'].'" ';
+                }
+                ?>
+                >
+                
+                    <input type="text" name="sip" value="<?php echo $_REQUEST['sip'] ?>" />
+                    <input type="text" name="sip" value="<?php echo $_REQUEST['mac'] ?>" />
+                    <input type="text" name="sip" value="<?php echo $_REQUEST['uip'] ?>" />
+                    <input type="text" name="sip" value="<?php echo $_REQUEST['url'] ?>" />
+                    <input type="text" name="sip" value="<?php echo $_REQUEST['loc'] ?>" />
+                    <input type="text" name="sip" value="<?php echo $_REQUEST['ssid'] ?>" />
+                    
+                    
+                    
+                    <div class="form-group">
+                        <label for="passphrase" class="col-md-4 control-label">Passphrase:</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="passphrase" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-4 col-md-6">
+                            <button type="submit" class="btn btn-block btn-default">
+                            <small class="glyphicon glyphicon-info-signok"></small>
+                            Login Now &rarr;
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+
+           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
 
+    <?php endif; ?>
+        
     </div>
 </div>
