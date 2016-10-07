@@ -1,7 +1,13 @@
 <?php
 
 function spl_get_passphrase() {
-    return 'bypass';
+    
+    $endpoint = 'https://app.spokanelibrary.org/v3/level-up';
+    $response = json_decode(Crass_Response::curlPostProxy($endpoint, 
+                                                            array( 'apikey'=>getenv('SPL_KEY')
+                                                            )));
+    $passphrase = $response->passphrase;
+
 }
 
 function is_mobile($useragent) {
