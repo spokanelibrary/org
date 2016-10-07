@@ -97,8 +97,6 @@ $passphrase = spl_get_passphrase();
 		Please enter today's passphrase to access Level UP WiFi:
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
-		
-        <h3><?php echo $passphrase; ?></h3>
 
 		<form 
         action="http://10.14.50.2:9997/login" 
@@ -125,7 +123,7 @@ $passphrase = spl_get_passphrase();
         <input type="hidden" name="password" value="wireless" />
         
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-md-offset-3">
                 <div class="form-group">
                     <label for="passphrase">Passphrase</label>
                     <input type="text" class="form-control" id="passphrase" placeholder="">
