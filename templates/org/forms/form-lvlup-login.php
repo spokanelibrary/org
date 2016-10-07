@@ -1,5 +1,9 @@
 <?php
 
+function spl_get_passphrase() {
+    return 'mypass';
+}
+
 function is_mobile($useragent) {
     $mobile = false;
     if ( !empty($useragent) ) {
@@ -74,9 +78,12 @@ $mobile = is_mobile($_SERVER['HTTP_USER_AGENT']);
 
 $branch = ( isset($params['branch']) ) ? $params['branch'] : 'spl';
 
-$username = ( false == $mobile ) ? $branch : $branch.'_'.'mobile';  
+$lvl = 'lvl';
+$username = ( false == $mobile ) ? $lvl : $lvl.'_'.'mobile';  
 
 //trace($username);
+
+$passphrase = spl_get_passphrase();
 
 ?>
 
@@ -91,6 +98,8 @@ $username = ( false == $mobile ) ? $branch : $branch.'_'.'mobile';
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
 		
+        <h3><?php echo $passphrase; ?></h3>
+
 		<form 
         action="http://10.14.50.2:9997/login" 
         method="post" 
