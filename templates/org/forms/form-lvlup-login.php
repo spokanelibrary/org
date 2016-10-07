@@ -33,7 +33,7 @@ function spl_wireless_params() {
     if ( isset($sip) 
         && isset($mac) 
         && isset($uip) 
-        && isset($url) 
+        //&& isset($url) 
         && isset($loc) 
         && isset($ssid) 
         ) {
@@ -99,7 +99,7 @@ $passphrase = spl_get_passphrase();
         <div class="panel panel-info">
             <div class="panel-heading">
                 <small class="glyphicon glyphicon-info-sign"></small>
-                Please enter today's passphrase to access Level UP WiFi:
+                Thank you!
             </div><!-- /.panel-heading -->
             <div class="panel-body">
 
@@ -127,20 +127,15 @@ $passphrase = spl_get_passphrase();
                     <input type="hidden" name="username" value="<?php echo $username; ?>" />
                     <input type="hidden" name="password" value="wireless" />
                     
-                    
-                    
-                    <div class="form-group">
-                        <label for="passphrase" class="col-md-4 control-label">Passphrase:</label>
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" id="passphrase" placeholder="">
-                        </div>
-                    </div>
+                    <p>
+                        Passphrase is correct.
+                    </p>
 
                     <div class="form-group">
                         <div class="col-md-offset-4 col-md-6">
                             <button type="submit" class="btn btn-block btn-default">
                             <small class="glyphicon glyphicon-info-signok"></small>
-                            Login Now &rarr;
+                            Proceed &rarr;
                             </button>
                         </div>
                     </div>
@@ -179,12 +174,15 @@ $passphrase = spl_get_passphrase();
                 ?>
                 >
                 
-                    <input type="text" name="sip" value="<?php echo $_REQUEST['sip'] ?>" />
-                    <input type="text" name="sip" value="<?php echo $_REQUEST['mac'] ?>" />
-                    <input type="text" name="sip" value="<?php echo $_REQUEST['uip'] ?>" />
-                    <input type="text" name="sip" value="<?php echo $_REQUEST['url'] ?>" />
-                    <input type="text" name="sip" value="<?php echo $_REQUEST['loc'] ?>" />
-                    <input type="text" name="sip" value="<?php echo $_REQUEST['ssid'] ?>" />
+                    <input type="hidden" name="sip" value="<?php echo $_REQUEST['sip'] ?>" />
+                    <input type="hidden" name="mac" value="<?php echo $_REQUEST['mac'] ?>" />
+                    <input type="hidden" name="up" value="<?php echo $_REQUEST['uip'] ?>" />
+                    <input type="hidden" name="url" value="<?php echo $_REQUEST['url'] ?>" />
+                    <input type="hidden" name="loc" value="<?php echo $_REQUEST['loc'] ?>" />
+                    <input type="hidden" name="ssid" value="<?php echo $_REQUEST['ssid'] ?>" />
+
+                    <input type="hidden" name="branch" value="<?php echo $branch ?>" />
+                    <input type="hidden" name="username" value="<?php echo $username ?>" />
                     
                     
                     
