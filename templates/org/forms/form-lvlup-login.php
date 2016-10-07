@@ -144,8 +144,8 @@ $passphrase = spl_get_passphrase();
                 ?>
                 >
                 
-                    <input type="hidden" name="username" value="<?php echo $username; ?>" />
-                    <input type="hidden" name="password" value="wireless" />
+                    <input type="text" name="username" value="<?php echo $username; ?>" />
+                    <input type="text" name="password" value="wireless" />
                     
                     <p>
                         Passphrase is correct.
