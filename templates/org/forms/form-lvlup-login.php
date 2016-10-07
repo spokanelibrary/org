@@ -88,13 +88,13 @@ $passphrase = spl_get_passphrase();
 ?>
 
 <div class="page-header">
-	<h1>Welcome to the library <small>we're glad you're here</small></h1>
+	<h1>Level UP <small>at Spokane Public Library</small></h1>
 </div>
 
 <div class="panel panel-warning">
 	<div class="panel-heading">
-		<small class="glyphicon glyphicon-exclamation-sign"></small>
-		Use of the library computer network constitutes an agreement that you accept the following terms and conditions:
+		<small class="glyphicon glyphicon-arrow-up"></small>
+		Please enter today's passphrase to access Level UP WiFi:
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
 		
