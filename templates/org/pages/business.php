@@ -1,5 +1,5 @@
 <p class="lead">
-	Competitive <b>analysis</b>, technology <b>training</b>, and market <b>research</b>: tools and support for the Spokane regional business community, including our <a href="/levelup/">Level Up coworking space</a>.
+	Competitive <b>analysis</b>, technology <b>training</b>, and market <b>research</b>: tools and support for the Spokane regional business community, including our <a href="/levelup/">Level Up</a> coworking space.
 </p>
 
 <div class="panel panel-primary">
