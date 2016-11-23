@@ -1,5 +1,5 @@
 <p>
-	The WorkSource Spokane computer lab is located on the third floor in the <a href="/levelup/">Level Up Coworking Space</a> at the <a href="/downtown/">Downtown library</a>.
+	The WorkSource Spokane computer lab is located on the third floor of the <a href="/downtown/">Downtown library</a> in the <a href="/levelup/">Level Up Coworking Space</a>.
 </p>
 
 <p>
