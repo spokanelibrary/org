@@ -115,7 +115,7 @@ Template Name: Home Page
       </div><!-- /.col -->
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-brand-blue-d" style="border-width:4px 1px;">
-          <a href="/about/annual-report/">
+          <a href="/levy">
             <img class="img-responsive" src="http://www.spokanelibrary.org/assets/img/promos/LFP2.png">
           </a>
         </div>
