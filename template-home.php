@@ -109,14 +109,14 @@ Template Name: Home Page
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-brand-blue-d" style="border-width:4px 1px;">
           <a href="/future-study/">
-            <img class="img-responsive" src="http://www.spokanelibrary.org/assets/img/promos/lfp2.png">
+            <img class="img-responsive" src="http://www.spokanelibrary.org/assets/img/promos/21stCenturyLibrary.png">
           </a>
         </div>
       </div><!-- /.col -->
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-brand-blue-d" style="border-width:4px 1px;">
           <a href="/about/annual-report/">
-            <img class="img-responsive" src="http://www.spokanelibrary.org/assets/img/promos/AnnualReport-tile.jpg">
+            <img class="img-responsive" src="http://www.spokanelibrary.org/assets/img/promos/LFP2.png">
           </a>
         </div>
         <!--
