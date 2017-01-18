@@ -231,7 +231,7 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
-				  <a class="pull-left" href="/ebooks/">
+				  <a class="pull-left" href="/tumblebook/">
 				  	<span class="media-object">
 				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/tumblebook.png">
 				  	</span>
@@ -255,3 +255,5 @@
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
+    
+    <div class="clearfix"></div>
