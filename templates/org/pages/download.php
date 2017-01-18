@@ -217,11 +217,9 @@
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
 	
-</div><!-- /.row -->
-
-
-
-	<div class="col-md-6">
+    
+    
+    	<div class="col-md-6">
 		<div class="panel panel-primary" style="border-width-left:5px;">
 			<div class="panel-heading">
 				<h4 class="panel-title">
@@ -238,7 +236,7 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="/ebooks/"><em>Tumblebook:</em> Streaming Children's Books</a>
+				    	<a href="/tumblebook/"><em>Tumblebook:</em> Streaming Children's Books</a>
 				    </h4>
 				    <p>
 				    	Stream animated, talking children's books from any internet enabled device. 
@@ -257,3 +255,11 @@
 	</div><!-- /.col -->
     
     <div class="clearfix"></div>
+    
+    
+    
+    
+</div><!-- /.row -->
+
+
+
