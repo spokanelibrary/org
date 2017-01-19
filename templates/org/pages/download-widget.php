@@ -1,6 +1,6 @@
 
 <div class="media">
-  <a class="pull-left" href="/streaming/">
+  <a class="pull-left" href="https://www.hoopladigital.com/home">
     <span class="media-object">
       <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/hoopla.png">
     </span>
