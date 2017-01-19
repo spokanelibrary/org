@@ -88,7 +88,7 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="/ebooks/"><em>OverDrive:</em> eBook Downloads</a>
+				    	<a href="https://spokanelibrary.overdrive.com"><em>OverDrive:</em> eBook Downloads</a>
 				    </h4>
 				    <p>
 				    	We have several options for books you can read on your computer, smart phone, tablet, or dedicated eBook reader. 
@@ -126,7 +126,7 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="/emusic/"><em>Freegal:</em> Music Downloads</a> <small>(.mp3)</small>
+				    	<a href="http://www.spokanelibrary.org/freegal"><em>Freegal:</em> Music Downloads</a> <small>(.mp3)</small>
 				    </h4>
 				    <p>
 				    	<strong>Download 5 free songs every week</strong> – yours to keep! 
@@ -162,7 +162,7 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="/eaudio/"><em>OneClick:</em> Audiobook Downloads</a>
+				    	<a href="https://spokanewa.oneclickdigital.com"><em>OneClick:</em> Audiobook Downloads</a>
 				    </h4>
 				    <p>
 				    	Download audiobooks directly to your computer, mobile device, or iPod. 
@@ -199,7 +199,7 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="/emagazines/"><em>Zinio:</em> Magazine Downloads</a>
+				    	<a href="https://www.rbdigital.com/spokanelibrarywa/service/zinio/landing/"><em>Zinio:</em> Magazine Downloads</a>
 				    </h4>
 				    <p>
 				    	Download current magazines from the Library's digital collection using your desktop or mobile device. 
@@ -236,7 +236,7 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="/tumblebook/"><em>Tumblebook:</em> Streaming Children's Books</a>
+				    	<a href="http://www.tumblebooklibrary.com/autologin.aspx?userid=NljvaAHfTSkSZvMjikB5Fg%3d%3d"><em>Tumblebook:</em> Streaming Children's Books</a>
 				    </h4>
 				    <p>
 				    	Stream animated, talking children's books from any internet enabled device. 
