@@ -29,7 +29,7 @@
 
 <?php if ( isset($_REQUEST['station']) )  : ?>
 <blockquote>
-  <h4>This is a temporary card. It expires in 30 days.</h4>
+  <h4>This is a temporary card. It expires in 30 days. This number allows you to place holds on items using this temporary number. To check items out, you will need a permanent card. Your library card will allow you to borrow materials, access website services, and use the internet computers.</h4>
   <p>
     Please visit the circulation desk to verify your identity and get a permanent card.
   </p>
@@ -44,7 +44,7 @@
   <div class="col-md-8">
 
     <blockquote>
-      <h4>This is a temporary card. It expires in 30 days.</h4>
+      <h4>This is a temporary card. It expires in 30 days. This number allows you to place holds on items using this temporary number. To check items out, you will need a permanent card. Your library card will allow you to borrow materials, access website services, and use the internet computers.</h4>
       <p>
         Please visit the circulation desk at any <a href="/branches/">library branch</a> to verify your identity and get a permanent card.
       </p>
@@ -54,13 +54,23 @@
     </blockquote>
 
     <blockquote>
-      <h4>You can start using your new card at our digital branch today!</h4>
+      <h4 class="text-primary">City of Spokane residents</h4>
+      <p>
+        You can start using your new card at our digital branch today!
+      </p>
       <p>
         Download books, music, and magazines or access our subscription research databases.
       </p>
       <p>
         <a href="/digital/"><b>Visit the digital branch now</b> &rarr;</a>
       </p>
+    </blockquote>
+
+    <blockquote>
+      <h4 class="text-primary">Spokane County residents</h4>
+      <p>
+        Spokane Public Library’s reciprocal agreement with Spokane County Library District allows County residents a library card at no charge. Reciprocal cards do not allow access to some library services including Inter-library loan and subscription database access. For access to subscription databases, a non-resident card fee is available. See any staff member to learn more about this option.
+    </p>
     </blockquote>
 
   </div><!-- /.col -->
