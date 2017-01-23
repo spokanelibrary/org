@@ -236,7 +236,7 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="http://www.tumblebooklibrary.com/autologin.aspx?userid=NljvaAHfTSkSZvMjikB5Fg=="><em>Tumblebook:</em> Streaming Children's Books</a>
+				    	<a href="http://www.tumblebooklibrary.com/autologin.aspx?userid=NIjvaAHfTSkSZvMJikB5Fg%3d%3d"><em>Tumblebook:</em> Streaming Children's Books</a>
 				    </h4>
 				    <p>
 				    	Stream animated, talking children's books from any internet enabled device. 
