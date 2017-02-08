@@ -31,7 +31,7 @@
                     <strong>Obituary</strong> &ndash;
                     Most obituaries are classified ads; not everyone who dies has one. 
                     Death notices are more common and are sometimes submitted by funeral homes. 
-                    Be sure to search our <a href="http://old.spokanelibrary.org/obituaries/">Obituary Search</a> first to see if you can find exact publication information.
+                    Be sure to search our <a href="http://connect.spokanelibrary.org/obits/">Obituary Search</a> first to see if you can find exact publication information.
                   </label>
                 </div>
                 <div class="radio">

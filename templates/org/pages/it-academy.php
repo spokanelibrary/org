@@ -46,7 +46,7 @@ $spl_network_source = spl_get_network_source($_SERVER['REMOTE_ADDR']);
     {{else}}
       {{#each codes}}
         <p>
-          <a href="https://imagineacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&key={{code}}"
+          <a href="https://imagineacademy.microsoft.com/AccessCodeRedemption/EnrollmentCode?whr=uri:MicrosoftAccount&amp;key=2UL25DSNB9USZ9"
           rel="external"
           class="btn btn-block btn-success"
           title="Microsoft Imagine Academy Login"

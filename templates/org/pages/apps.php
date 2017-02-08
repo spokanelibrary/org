@@ -183,7 +183,7 @@
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/zinio-for-libraries/id952437054?mt=8">iOS &rarr;</a>
           <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.zinio.mobile.android.libraries">Android &rarr;</a>
         </p>
-        <a rel="external" href="https://www.rbdigital.com/files/ZinioForLibraries.1.0.2.20150415-arm-RELEASE.apk">Kindle HD/HDX <small>(sideload)</small></a>
+        <a rel="external" href="http://imgs.zinio.com/faq/ZinioForLibraries_latest.apk">Kindle HD/HDX <small>(sideload)</small></a>
       </div>
     </div><!-- /.media -->
 
