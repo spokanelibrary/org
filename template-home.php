@@ -108,8 +108,8 @@ Template Name: Home Page
     <div class="row">
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-brand-blue-d" style="border-width:4px 1px;">
-          <a href="/future-study/">
-            <img class="img-responsive" src="http://www.spokanelibrary.org/assets/img/promos/21stCenturyLibrary.png">
+          <a href="http://www.spokanelibrary.org/uploads/SPL-Annual Report 2016 8x8 v1.0.pdf">
+            <img class="img-responsive" src="http://www.spokanelibrary.org/uploads/annual-report-web-graphic.jpg">
           </a>
         </div>
       </div><!-- /.col -->
