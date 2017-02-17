@@ -116,7 +116,7 @@ Template Name: Home Page
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-brand-blue-d" style="border-width:4px 1px;">
           <a href="/levy">
-            <img class="img-responsive" src="/assets/img/promos/levyrenewal.png">
+            <img class="img-responsive" src="/uploads/levyrenewal-webgraphic.png">
           </a>
         </div>
         <!--
