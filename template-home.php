@@ -108,15 +108,15 @@ Template Name: Home Page
     <div class="row">
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-brand-blue-d" style="border-width:4px 1px;">
-          <a href="http://www.spokanelibrary.org/uploads/SPL-Annual Report 2016 8x8 v1.0.pdf">
-            <img class="img-responsive" src="http://www.spokanelibrary.org/uploads/annual-report-web-graphic.jpg">
+          <a href="/uploads/SPL-Annual Report 2016 8x8 v1.0.pdf">
+            <img class="img-responsive" src="/uploads/annual-report-web-graphic.jpg">
           </a>
         </div>
       </div><!-- /.col -->
       <div class="col-md-6">
         <div class="panel spl-hero-panel spl-hero-brand-blue-d" style="border-width:4px 1px;">
           <a href="/levy">
-            <img class="img-responsive" src="http://www.spokanelibrary.org/assets/img/promos/levyrenewal.png">
+            <img class="img-responsive" src="/assets/img/promos/levyrenewal.png">
           </a>
         </div>
         <!--
