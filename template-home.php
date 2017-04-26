@@ -105,30 +105,6 @@ Template Name: Home Page
 
     </div><!-- /.row -->
 
-    <div class="row">
-      <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-brand-blue-d" style="border-width:4px 1px;">
-          <a href="/uploads/SPL-Annual Report 2016 8x8 v1.0.pdf">
-            <img class="img-responsive" src="/uploads/annual-report-web-graphic.jpg">
-          </a>
-        </div>
-      </div><!-- /.col -->
-      <div class="col-md-6">
-        <div class="panel spl-hero-panel spl-hero-brand-blue-d" style="border-width:4px 1px;">
-          <a href="/levy">
-            <img class="img-responsive" src="/uploads/levyrenewal-webgraphic.png">
-          </a>
-        </div>
-        <!--
-        <div class="panel spl-hero-panel spl-hero-news">
-          <div class="panel-body">
-            <?php //echo do_shortcode('[spl_widget home-page news-mailgun]'); ?>
-          </div>
-        </div>
-        -->
-      </div><!-- /.col -->
-    </div><!-- /.row -->
-
     <div class="panel spl-hero-panel spl-hero-browse">
       <!--
       <h4>
