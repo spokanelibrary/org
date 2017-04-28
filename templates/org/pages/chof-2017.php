@@ -265,10 +265,10 @@
 
     <!-- TILE -->
     <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 chof-tile-inductee chof-tile-year-2017 chof-tile-category-his ">
-        <a href="#" data-toggle="modal" data-target="#chof-modal-ned-m.-barnes">
+        <a href="#" data-toggle="modal" data-target="#chof-modal-ned-m-barnes">
             <div class="chof-panel chof-panel-sized chof-brown">
                 <div class="panel-body">
-                    <img class="img-responsive" src="/assets/img/promos/chof/Ned_M._Barnes-sm.jpg">
+                    <img class="img-responsive" src="/assets/img/promos/chof/Ned_M_Barnes-sm.jpg">
                     <div class="chof-text-wrapper">
                         <div class="chof-text-mask">
                             <h6 class="chof-title">Ned M. Barnes</h6>
