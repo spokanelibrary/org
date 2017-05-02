@@ -631,7 +631,7 @@
 
 <hr>
 
-<p class="lead text-center" id="chof-sponsors">We would like to thank our generous 2016 sponsors:</p>
+<p class="lead text-center" id="chof-sponsors">We would like to thank our generous 2017 sponsors:</p>
 
 <div class="row" style="margin-bottom:20px;">
 	<div class="col-md-12">
@@ -654,8 +654,11 @@
 					</div><!-- /.col -->
 				</div><!-- /.row -->
 				<div class="row">
-					<div class="col-md-6" style="padding-top:10px;">
+					<!-- <div class="col-md-6" style="padding-top:10px;">
 						<a href="http://avistafoundation.org"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/avista-foundation-logo.png" alt="Avista Foundation" /></a>
+					</div> --><!-- /.col -->
+					<div class="col-md-6" style="padding-top:10px;">
+						<a href="http://www.betterhealthtogether.org/"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/betterhealthtogether-logo.png" alt="Better Health Together" /></a>
 					</div><!-- /.col -->
 					<div class="col-md-6" style="padding-top:20px; padding-bottom: 10px;">
 						<a href="http://spokane.wsu.edu"><img class="img-responsive" style="margin: auto;" src="http://www.spokanelibraryfoundation.org/assets/img/logos/wsu-health-sci-logo.png" alt="WSU Health Sciences Spokane" /></a>
