@@ -9,8 +9,8 @@
       href="https://instagram.com/spokanepubliclibrary" 
       title=""><img style="width:16px;" class="" src="/assets/img/icons/32px/instagram.png"></a>
   <a class="btn btn-default" 
-      href="/levy/"
-      title=""><b>2017 Library Levy</b></a>
+      href="http://spl.northwestreads.org"
+      title=""><b>Summer Reading</b></a>
   <a class="btn btn-default" 
       href="/news/"
       title=""><b>News</b></a>
