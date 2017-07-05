@@ -137,7 +137,37 @@
       </div>
     </div><!-- /.media -->
 
-    <p id="oneclick">&nbsp;</p>
+        <p id="oneclick">&nbsp;</p>
+    <div class="media">
+      <span class="media-object pull-left">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/oneclick.png">
+      </span>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <em>RB Digital:</em> Audio Books
+        </h4>
+        <p>
+        <!-- https://rbdigital.com/ -->
+          Download audio books and magazines directly to your computer, phone, or portable music player. 
+          Listen at home or on the go. 
+          <a href="/eaudio/">More about eAudio at the library &rarr;</a><br/>
+          <a href="/emagazines/">More about eMagazines at the library &rarr;</a>
+        </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/oneclickdigital/id515311743">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.ocd&hl=en">Android &rarr;</a>
+        </p>
+        <a rel="external" href="http://spokanewa.oneclickdigital.com/DesktopAppInstaller/oneclickdigitalmedia/OneClickdigital%20Media%20Manager%20Installer.exe">Windows Desktop</a>
+        | 
+        <a rel="external" href="https://itunes.apple.com/us/app/oneclickdigital-media-manager/id491365225?ls=1&mt=12">Mac Desktop</a>
+        | 
+        <a rel="external" href="http://www.amazon.com/Recorded-Books-OneClickdigital/dp/B009GLFOL4/">Kindle Fire</a>
+        <!-- | 
+        <a rel="external" href="http://www.barnesandnoble.com/w/oneclickdigital-recorded-books/1115073231?ean=2940147119860">Nook</a> -->
+      </div>
+    </div> <!-- /.media -->
+
+<!--     <p id="oneclick">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
         <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/oneclick.png">
@@ -163,9 +193,9 @@
         | 
         <a rel="external" href="http://www.barnesandnoble.com/w/oneclickdigital-recorded-books/1115073231?ean=2940147119860">Nook</a>
       </div>
-    </div><!-- /.media -->
+    </div> --><!-- /.media -->
 
-    <p id="zinio">&nbsp;</p>
+    <!-- <p id="zinio">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
         <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/zinio.png">
@@ -185,7 +215,7 @@
         </p>
         <a rel="external" href="http://imgs.zinio.com/faq/ZinioForLibraries_latest.apk">Kindle HD/HDX <small>(sideload)</small></a>
       </div>
-    </div><!-- /.media -->
+    </div -->><!-- /.media -->
 
     <p id="referenceusa">&nbsp;</p>
     <div class="media">
