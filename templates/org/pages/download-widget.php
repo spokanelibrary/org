@@ -41,12 +41,12 @@
 <div class="media">
   <a class="pull-left" href="/eaudio/">
     <span class="media-object">
-      <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/oneclick.png">
+      <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/rbdigital.png">
     </span>
   </a>
   <div class="media-body">
     <h5 class="media-heading">
-      <a href="/eaudio/"><em>OneClick:</em> eAudiobooks</a>
+      <a href="/eaudio/"><em>RBDigital:</em> eAudiobooks</a>
     </h5>
   </div>
 </div><!-- /.media -->
@@ -54,12 +54,12 @@
 <div class="media">
   <a class="pull-left" href="/emagazines/">
   	<span class="media-object">
-  		<img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/zinio.png">
+  		<img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/rbdigital.png">
   	</span>
 	</a>
   <div class="media-body">
     <h5 class="media-heading">
-    	<a href="/emagazines/"><em>Zinio:</em> Digital magazines</a>
+    	<a href="/emagazines/"><em>RBDigital:</em> Magazines</a>
     </h5>
   </div>
 </div><!-- /.media -->

@@ -165,7 +165,7 @@
       </span>
       <div class="media-body">
         <h4 class="media-heading">
-          <em>RB Digital:</em> Audio Books
+          <em>RB Digital:</em> Audio Books and Magazines
         </h4>
         <p>
         <!-- https://rbdigital.com/ -->
