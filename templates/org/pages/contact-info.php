@@ -3,15 +3,15 @@
     <h4>Spokane Public Library</h4>
   </div><!-- /.panel-heading -->
   <div class="panel-body">
-    <p>     
+    <!-- <p>     
       <blockquote>
       906 West Main Street 
       <br />
       Spokane, WA 99201
       </blockquote>
-    </p>
+    </p> -->
     <h4>
-      <abbr title="Phone">Ph.</abbr> 509.444.5300
+      Customer Service: 509.444.5300
     </h4>
     <p>
       <a class="" href="/branches/">Branch Locations &amp; Hours</a> &rarr;

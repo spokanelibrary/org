@@ -39,7 +39,7 @@
               </h6>
             </address>
             <h5 class="help-block">
-              509.444.5300
+              Customer Service: 509.444.5300
             </h5>
           </div>
         </div>
