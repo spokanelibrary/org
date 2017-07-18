@@ -603,17 +603,17 @@ function spl_menupage($params) {
     global $post;  
     
     $orderby = 'menu_order'; //title
-    if ( $params['orderby'] ) {
+    if ( isset( $params['orderby'] )) {
       $orderby = $params['orderby'];
     }
 
     $sort = 'ASC';
-    if ( $params['sort'] ) {
+    if ( isset( $params['sort'] )) {
       $sort = $params['sort'];
     }
 
     $id = $post->ID;
-    if ( $params['page'] ) {
+    if ( isset( $params['page'] )) {
       //$parent = new WP_query(array('pagename'=>$params['page']));
       $parent = get_page_by_path($params['page']);
       //print_r($parent);
@@ -662,7 +662,7 @@ function spl_menupage($params) {
               <a href="#'.$post->post_name.'">'.get_the_title().' <small class="text-muted">&rarr;</small></a>
             </li>'.PHP_EOL;
 
-            if ( in_array('nochrome', $params) ) {
+            if ( isset($params['nochrome'] ) ) {
               $page .= '
               <p id="'.$post->post_name.'">&nbsp;</p>
               <h4 class="">'.get_the_title().'</h4>
