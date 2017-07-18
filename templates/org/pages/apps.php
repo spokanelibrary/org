@@ -215,7 +215,7 @@
         </p>
         <a rel="external" href="http://imgs.zinio.com/faq/ZinioForLibraries_latest.apk">Kindle HD/HDX <small>(sideload)</small></a>
       </div>
-    </div -->><!-- /.media -->
+    </div> --><!-- /.media -->
 
     <p id="referenceusa">&nbsp;</p>
     <div class="media">
