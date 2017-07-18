@@ -113,6 +113,27 @@
       </div>
     </div><!-- /.media -->
 
+    <p id="libby">&nbsp;</p>
+    <div class="media">
+      <span class="media-object pull-left">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/libby.png">
+      </span>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <em>Libby:</em> eBooks
+        </h4>
+        <p>
+          Get Libby, a fresh and easy way to borrow and read OverDrive ebooks.
+          <a href="/ebooks/">More about eBooks at the library &rarr;</a>
+        </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/libby-by-overdrive-labs/id1076402606?mt=8&utm_medium=lightning_banner&utm_source=lightning&utm_campaign=libby">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.overdrive.mobile.android.libby&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&utm_medium=lightning_banner&utm_source=lightning&utm_campaign=libby">Android &rarr;</a>
+        </p>
+        <a rel="external" href="https://www.microsoft.com/en-us/store/p/libby-by-overdrive/9p6g3tcr4hzr?utm_medium=lightning_banner&utm_source=lightning&utm_campaign=libby&utm_content=microsoft_app_store_libby">Windows</a>
+      </div>
+    </div><!-- /.media -->
+
     <p id="freegal">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
