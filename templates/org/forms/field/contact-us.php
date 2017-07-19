@@ -46,6 +46,7 @@
                   <option value="library">Using the library</option>
                   <option value="account">My Account</option>
                   <option value="website">The library website</option>
+                  <option value="exam_proctoring">Exam Proctoring</option>
                   <option value="other">Something else</option>
                 </select>
                 <span class="help-block collapse" id="spl-explain-query-type">
