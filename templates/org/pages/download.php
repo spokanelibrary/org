@@ -157,12 +157,12 @@
 				<div class="media">
 				  <a class="pull-left" href="/eaudio/">
 				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/oneclick.png">
+				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/rbdigital.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="https://spokanewa.oneclickdigital.com"><em>OneClick:</em> Audiobook Downloads</a>
+				    	<a href="https://spokanewa.oneclickdigital.com"><em>RBDigital:</em> Audiobook Downloads</a>
 				    </h4>
 				    <p>
 				    	Download audiobooks directly to your computer, mobile device, or iPod. 
@@ -194,12 +194,12 @@
 				<div class="media">
 				  <a class="pull-left" href="/emagazines/">
 				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/zinio.png">
+				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/rbdigital.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="https://www.rbdigital.com/spokanelibrarywa/service/zinio/landing/"><em>Zinio:</em> Magazine Downloads</a>
+				    	<a href="https://www.rbdigital.com/spokanelibrarywa/service/zinio/landing/"><em>RBDigital:</em> Magazine Downloads</a>
 				    </h4>
 				    <p>
 				    	Download current magazines from the Library's digital collection using your desktop or mobile device. 
