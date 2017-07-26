@@ -277,7 +277,7 @@
 				    	Get Libby, a fresh and easy way to borrow and read OverDrive ebooks 
 				  	</p>
  						<div class="btn-group btn-group-justified">
- 							<a class="btn btn-primary" href="/tumblebook/">Learn more &rarr;</a>
+ 							<a class="btn btn-primary" href="https://meet.libbyapp.com/">Learn more &rarr;</a>
  							<a class="btn btn-success" href="/apps#libby">Get the app &rarr;</a> 
  						</div>
 				  </div>
