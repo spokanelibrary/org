@@ -46,8 +46,31 @@
                   <option value="library">Using the library</option>
                   <option value="account">My Account</option>
                   <option value="website">The library website</option>
+                  <option value="research">Research question</option>
                   <option value="exam_proctoring">Exam Proctoring</option>
                   <option value="other">Something else</option>
+                </select>
+                <span class="help-block collapse" id="spl-explain-query-type">
+                  We use this information to route your inquiry.
+                </span>
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <label for="spl-form-query-type" class="col-sm-4 control-label">
+                <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-query-type">
+                  <i class="glyphicon glyphicon-info-sign"></i>
+                </button>
+                Is there branch that would best answer
+              </label>
+              <div class="col-sm-8">
+                <select class="form-control" id="spl-form-query-type" name="spl-form[branch]">
+                  <option value="downtown">Downtown</option>
+                  <option value="eastside">Eastside</option>
+                  <option value="indian-trail">Indian Trail</option>
+                  <option value="south-hill">South Hill</option>
+                  <option value="shadle">Shadle</option>
                 </select>
                 <span class="help-block collapse" id="spl-explain-query-type">
                   We use this information to route your inquiry.
