@@ -2,7 +2,7 @@
 
   <div class="col-md-8">
     
-    <div class="panel panel-primary">
+    <!-- <div class="panel panel-primary">
       <div class="panel-body">
         <p class="lead text-center" style="margin-bottom:0;">
         <a href="/ask">
@@ -10,8 +10,8 @@
           For research questions, please <strong>ask a librarian</strong> &rarr;
         </a>
         </p>
-      </div><!-- /.panel-body -->
-    </div><!-- /.panel -->
+      </div> --><!-- /.panel-body -->
+    <!-- </div> --><!-- /.panel -->
     
     <?php //echo do_shortcode('[spl_widget login-form label]'); ?>
     
