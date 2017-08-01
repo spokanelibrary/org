@@ -59,7 +59,7 @@
 
             <div class="form-group">
               <label for="spl-form-query-type" class="col-sm-4 control-label">
-                <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-query-type">
+                <button type="button" class="btn btn-xs btn-info hidden-xs" data-toggle="collapse" data-target="#spl-explain-location">
                   <i class="glyphicon glyphicon-info-sign"></i>
                 </button>
                 Is there branch that would best answer
@@ -68,11 +68,12 @@
                 <select class="form-control" id="spl-form-query-type" name="spl-form[branch]">
                   <option value="downtown">Downtown</option>
                   <option value="eastside">Eastside</option>
+                  <option value="hillyard">Hillyard</option>
                   <option value="indian-trail">Indian Trail</option>
                   <option value="south-hill">South Hill</option>
                   <option value="shadle">Shadle</option>
                 </select>
-                <span class="help-block collapse" id="spl-explain-query-type">
+                <span class="help-block collapse" id="spl-explain-location">
                   We use this information to route your inquiry.
                 </span>
               </div>
