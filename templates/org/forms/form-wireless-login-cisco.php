@@ -109,9 +109,9 @@ function loadAction(){
           var value = pairs[i].substring(pos+1);
           args[argname] = unescape(value);
       }
-      //alert( "AP MAC Address is " + args.ap_mac);
-      //alert( "The controller URL is " + args.switch_url);
-      document.forms[0].action = args.switch_url;
+      alert( "AP MAC Address is " + args.AP_Mac_Address);
+      alert( "The controller URL is " + args.action_URL);
+      document.forms[0].action = args.action_URL;
 }
 $().ready(loadAction)
 
