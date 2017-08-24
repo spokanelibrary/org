@@ -80,40 +80,43 @@ $username = ( false == $mobile ) ? $branch : $branch.'_'.'mobile';
 
 ?>
 <SCRIPT>
+
+function parseQuery(search) {
+    var args = search.substring(1).split('&');
+    var argsParsed = {};
+    var i, arg, kvp, key, value;
+    for (i=0; i < args.length; i++) {
+        arg = args[i];
+        if (-1 === arg.indexOf('=')) {
+            argsParsed[decodeURIComponent(arg).trim()] = true;
+        }
+        else {
+            kvp = arg.split('=');
+            key = decodeURIComponent(kvp[0]).trim();
+            value = decodeURIComponent(kvp[1]).trim();
+            argsParsed[key] = value;
+        }
+    }
+    return argsParsed;
+}
+
 function submitAction(){
-      var link = document.location.href;
-      var searchString = "redirect=";
-      var equalIndex = link.indexOf(searchString);
-      var redirectUrl = "";
-      if(equalIndex >= 0) {
-            equalIndex += searchString.length;
-            redirectUrl = "http://";
-            redirectUrl += link.substring(equalIndex);
-      }
-      if(redirectUrl.length > 255)
-      redirectUrl = redirectUrl.substring(0,255);
-      $('#spl-wireless input[name="redirectUrl"]').val(redirectUrl);
+      args = parseQuery(document.location.search);
+      //console.log(args);
+      $('#spl-wireless input[name="redirectUrl"]').val(args.redirect);
       $('#spl-wireless input[name="buttonClicked"]').val(4);
       $('#spl-wireless').submit();
 }
 
 function loadAction(){
-      var url = window.location.href;
-      var args = new Object();
-      var query = location.search.substring(1);
-      var pairs = query.split("&");
-      for(var i=0;i<pairs.length;i++){
-          var pos = pairs[i].indexOf('=');
-          if(pos == -1) continue;
-          var argname = pairs[i].substring(0,pos);
-          var value = pairs[i].substring(pos+1);
-          args[argname] = unescape(value);
-      }
-      alert( "AP MAC Address is " + args.AP_Mac_Address);
-      alert( "The controller URL is " + args.action_URL);
-      document.forms[0].action = args.action_URL;
+      args = parseQuery(document.location.search);
+      //console.log(args);
+      //alert( "AP MAC Address is " + args.ap_mac);
+      //alert( "The controller URL is " + args.switch_url);
+      $('#spl-wireless').attr('action', args.switch_url);
 }
-$().ready(loadAction)
+
+$().ready(loadAction);
 
 </SCRIPT>
 
