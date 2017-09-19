@@ -12,7 +12,7 @@
 <?php endif; ?>
   <a class="btn btn-default" 
       href="http://spokaneisreading.org"
-      title=""><b>Spokane is Reading</b></a>
+      title=""><b>Spokane Is Reading</b></a>
   <a class="btn btn-default" 
       href="/news/"
       title=""><b>News</b></a>
