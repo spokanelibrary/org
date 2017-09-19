@@ -11,8 +11,8 @@
       title=""><img style="width:16px;" class="" src="/assets/img/icons/32px/instagram.png"></a>
 <?php endif; ?>
   <a class="btn btn-default" 
-      href="http://spl.northwestreads.org"
-      title=""><b>Summer Reading</b></a>
+      href="http://spokaneisreading.org"
+      title=""><b>Spokane is Reading</b></a>
   <a class="btn btn-default" 
       href="/news/"
       title=""><b>News</b></a>
