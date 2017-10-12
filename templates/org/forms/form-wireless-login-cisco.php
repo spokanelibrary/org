@@ -75,7 +75,7 @@ $mobile = is_mobile($_SERVER['HTTP_USER_AGENT']);
 $branch = ( isset($params['branch']) ) ? $params['branch'] : 'spl';
 
 $username = ( false == $mobile ) ? $branch : $branch.'_'.'mobile';  
-$guestname = ( false == $mobile ) ? "guest" : "guest".'_'.'mobile';  
+$guestname = ( false == $mobile ) ? "guest" : "guestspl".'_'.'mobile';  //new prefixes will be added for new zones like city/muni
 
 //trace($username);
 
