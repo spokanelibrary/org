@@ -75,6 +75,7 @@ $mobile = is_mobile($_SERVER['HTTP_USER_AGENT']);
 $branch = ( isset($params['branch']) ) ? $params['branch'] : 'spl';
 
 $username = ( false == $mobile ) ? $branch : $branch.'_'.'mobile';  
+$guestname = ( false == $mobile ) ? "guest" : "guest".'_'.'mobile';  
 
 //trace($username);
 
@@ -151,7 +152,7 @@ $().ready(loadAction);
         ?>
     >
         
-        <input type="hidden" name="username" value="guest" />
+        <input type="hidden" name="username" value="<?php echo $guestname ?>" />
         <input type="hidden" name="password" value="guest" />
         <p>
             <button type="button" class="btn btn-block btn-lg btn-success" onclick=submitAction();>
