@@ -1,6 +1,6 @@
 
 <p>
-	<a href="http://www.ed2go.com/l-splbt_main/"><img class="alignright" src="/assets/img/logos/galecourses.png"></a>
+	<a href="https://www.spokanelibrary.org/gale"><img class="alignright" src="/assets/img/logos/galecourses.png"></a>
 </p>
 <p>
 	Highly interactive courses taught entirely online by college instructors and experts in the field, ensuring a high-quality, high-impact educational experience.
@@ -12,7 +12,7 @@
 
 <p>
 	<a class="btn btn-block btn-info" 
-			href="http://www.ed2go.com/l-splbt_main/">Access <b>Gale Courses</b> &rarr;</a>
+			href="https://www.spokanelibrary.org/gale">Access <b>Gale Courses</b> &rarr;</a>
 </p>
 <h5 class="text-center text-info">
 	<i class="glyphicon glyphicon-info-sign"></i>
