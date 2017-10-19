@@ -2,15 +2,15 @@
 var config = { 
       api: {// endpoint: 'http://api.spokanelibrary.org/v2/'
             //,novelistApi: 'http://novselect.ebscohost.com/Data/ContentByQuery'
-            oclc: 'http://api.spokanelibrary.org/oclc/'
-          , isbn: 'http://api.spokanelibrary.org/isbn/'
-          , novelist: 'http://novselect.ebscohost.com/Data/ContentByQuery' 
+            oclc: 'https://api.spokanelibrary.org/oclc/'
+          , isbn: 'https://api.spokanelibrary.org/isbn/'
+          , novelist: 'https://novselect.ebscohost.com/Data/ContentByQuery' 
           //, syndetics: 'http://beta.spokanelibrary.org/checkin/api/syndetics.php'
-          , syndetics: 'http://api.spokanelibrary.org/v2/syndetics/lookup'
-          , overdrive: 'http://api.spokanelibrary.org/v2/overdrive/lookup'
-          , msit: 'http://api.spokanelibrary.org/v2/microsoft/it-academy'
-          , signup: 'http://api.spokanelibrary.org/v2/barcode'
-          , v2: 'http://api.spokanelibrary.org/v2'
+          , syndetics: 'https://api.spokanelibrary.org/v2/syndetics/lookup'
+          , overdrive: 'https://api.spokanelibrary.org/v2/overdrive/lookup'
+          , msit: 'https://api.spokanelibrary.org/v2/microsoft/it-academy'
+          , signup: 'https://api.spokanelibrary.org/v2/barcode'
+          , v2: 'https://api.spokanelibrary.org/v2'
            }
     , path: {
               absolute: {} // ToDo: this should go
