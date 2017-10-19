@@ -4,11 +4,11 @@ var org = {
 
 	// added on script load
 	config: {
-						endpoint: { hzws: 'http://api.spokanelibrary.org/v2/hzws/'
-											, novelist: 'http://novselect.ebscohost.com/Data/ContentByQuery' 
+						endpoint: { hzws: 'https://api.spokanelibrary.org/v2/hzws/'
+											, novelist: 'https://novselect.ebscohost.com/Data/ContentByQuery' 
 											//, syndetics: 'http://beta.spokanelibrary.org/checkin/api/syndetics.php'
-											, syndetics: 'http://api.spokanelibrary.org/v2/syndetics/lookup'
-											, overdrive: 'http://api.spokanelibrary.org/v2/overdrive/lookup'
+											, syndetics: 'https://api.spokanelibrary.org/v2/syndetics/lookup'
+											, overdrive: 'https://api.spokanelibrary.org/v2/overdrive/lookup'
 											}
 					 }
 
