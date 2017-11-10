@@ -1,5 +1,5 @@
 <p>
-	Our librarians can search our records on your behalf for birth or death notices.
+	Our librarians can search our records on your behalf for death notices.
 </p>
 <p>
 	We will search for <b>3 announcements at a time</b> and will search the newspaper for <b>5 days after an event date</b>. 
