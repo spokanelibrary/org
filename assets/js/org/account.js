@@ -39,9 +39,24 @@ var org = {
 		this.initLists();
 
 		this.initProfile();
-		
+	if( this.user && this.user.borrowerBarcode === '27413205616216'){
+	  this.forceEnterpriseLogon();
+	}	
   } // initMyAccount()
-
+, forceEnterpriseLogon: function() {
+	$.ajax({
+	  url:"https://catalog.spokanelibrary.org/client/en_US/pub/search/patronlogin.loginpageform/PUB",
+	  type: "POST",
+	  contentType: "application/x-www-form-urlencoded",
+	  dataType: "text/text",
+	  data:{
+	    't:formdata':"gFJQUIXDSUXVXoGv49wm3q8cIUQ=:H4sIAAAAAAAAAFvzloG1XJ5Btjg1sSg5Qz8gsaQoP88nPz0zzyorvrQ4tSgvMTe1uIjBNL8oXS+xIDE5I1WvJLEgtbikqNJULzm/KDUnM0kvKbE4Vc8xCSiYmFzilpmak6ISnFpSWqAaepj7oejxP0wMjD4M3Mn5eUDTc/yAJpYwCPlkJZYl6uck5qXrB5cUZealW1cUlDBwIWwlxlmOpDoroCg/ObW4OLg0KTezuDgzP+/wuhSTtG/zzjExMFQU4LSyILG4uDy/KKW4kKGOgQHsTJgQQT0gLazl0gySWFRlZKakpOYBPeKA1yPJ+bkF+XmpeSXFeh5gHZj+iGpXEK6Q3sGGEdQg6xlBQcsGsQyHS4pBJpWQ4hKw3SWYLpkZ/Ely65YWZyYGJh8GjuScTKBqT3AogFyWmpOaCxRAcRkHxPJ4AyQmABiJtLaZAgAA",
+	    'j_username':this.user.borrowerBarcode,
+	    'j_password':"5454",
+	    'hidden':"HZWSdt"
+	  }
+	});
+}
 , initTabs: function() {
 		// apply hash onload
 		if ( window.location.hash ) {
