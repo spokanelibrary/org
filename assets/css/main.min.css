@@ -4235,12 +4235,14 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-tabs.nav-justified>li {
-    float: none
+    float: none;
+    display: block !important;
 }
 
 .nav-tabs.nav-justified>li>a {
     text-align: center;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    display: block !important;
 }
 
 .nav-tabs.nav-justified>.dropdown .dropdown-menu {
@@ -4250,7 +4252,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .nav-tabs.nav-justified>li {
-        display: table-cell;
+        /*display: table-cell;*/
         width: 1%
     }
     .nav-tabs.nav-justified>li>a {
@@ -4814,8 +4816,8 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-inverse {
-    background-color: #005587;
-    border-color: #003554
+    background-color: #7DB652;
+    border-color: #7DB652
 }
 
 .navbar-inverse .navbar-brand {
@@ -4839,14 +4841,14 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
     color: #fff;
-    background-color: #0065a1
+    background-color: #009C4D
 }
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
     color: #ccc;
-    background-color: #005587
+    background-color: #009C4D
 }
 
 .navbar-inverse .navbar-nav>.disabled>a,
@@ -5950,16 +5952,16 @@ a.list-group-item-danger.active:focus {
 
 .panel-primary>.panel-heading {
     color: #fff;
-    background-color: #005587;
-    border-color: #005587
+    background-color: #004186;
+    border-color: #004186
 }
 
 .panel-primary>.panel-heading+.panel-collapse .panel-body {
-    border-top-color: #005587
+    border-top-color: #004186
 }
 
 .panel-primary>.panel-footer+.panel-collapse .panel-body {
-    border-bottom-color: #005587
+    border-bottom-color: #004186
 }
 
 .panel-success {
@@ -7844,7 +7846,7 @@ ul.dynatable-pagination li a {
 
 @media (min-width:992px) {
     .spl-ribbon {
-        border-top: 4px solid #003554
+        border-top: 4px solid #7DB652
     }
     .spl-ribbon .navbar-nav {
         display: inline-block;
@@ -7892,6 +7894,7 @@ ul.dynatable-pagination li a {
 
 .navbar-masthead {
     background-color: #fff;
+    background-image: none;
     border-bottom: 1px solid #d5d5d5;
     margin-bottom: 0
 }
@@ -9495,8 +9498,8 @@ fieldset[disabled] .btn-alt.active {
 
 .navbar-common {
     background-color: #fff;
-    border-color: #005587;
-    border-bottom: 1px solid #005587;
+    border-color: #6396CF;
+    border-bottom: 1px solid #6396CF;
     margin: 0;
     padding: 0
 }
@@ -9509,7 +9512,7 @@ fieldset[disabled] .btn-alt.active {
 }
 
 .navbar-common .navbar-brand {
-    color: #005587
+    color: #6396CF
 }
 
 .navbar-common .navbar-brand:hover,
@@ -9550,8 +9553,8 @@ fieldset[disabled] .btn-alt.active {
     text-align: center;
     border-radius: 0;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
-    border-left: 1px solid rgba(0, 85, 135, 0.75);
-    color: #005587
+    border-left: 1px solid rgba(99, 150, 207, 0.90);
+    color: #6396CF
 }
 
 @media (max-width:768px) {
@@ -9563,13 +9566,13 @@ fieldset[disabled] .btn-alt.active {
 .navbar-common .nav-justified>li>a:hover,
 .navbar-common .nav-justified>li>a:focus {
     color: #fff;
-    background-color: #005587
+    background-color: #6396CF
 }
 
 .navbar-common .nav-justified>.active>a,
 .navbar-common .nav-justified>.active>a:hover,
 .navbar-common .nav-justified>.active>a:focus {
-    color: #005587;
+    color: #6396CF;
     background-color: #fff
 }
 
@@ -9620,4 +9623,7 @@ fieldset[disabled] .btn-alt.active {
 figure.alignnone {
     margin-left: 0;
     margin-right: 0
+}
+[v-cloak] {
+  display: none;
 }
