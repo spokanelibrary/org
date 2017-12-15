@@ -8688,13 +8688,13 @@ a .chof-red:hover .chof-text-mask {
         background-position: 120px 105px
     }
     .spl-hero-calendar .panel-body .carousel {
-        height: 226px
+        /*height: 226px*/
     }
 }
 
 @media (min-width:992px) {
     .spl-hero-calendar .panel-body .carousel {
-        height: 218px
+        height: 377px
     }
 }
 

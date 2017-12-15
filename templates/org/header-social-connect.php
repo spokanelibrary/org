@@ -1,5 +1,5 @@
 <div class="btn-group btn-group-sm" role="group" aria-label="Social Library Links">
-<?php if ( !in_array($_SERVER['REMOTE_ADDR'],array('10.14.27.13','10.14.22.162','10.14.22.163')) ):?>"
+<?php if ( !in_array($_SERVER['REMOTE_ADDR'],array('10.14.27.13','10.14.22.162','10.14.22.163')) ):?>
   <a class="btn btn-default"
       href="https://facebook.com/spokanelibrary" 
       title=""><img style="width:16px;" class="" src="/assets/img/icons/32px/facebook.png"></a>
