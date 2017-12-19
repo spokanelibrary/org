@@ -29,9 +29,7 @@ Template Name: Home Page
       </div>
     </div>
 <?php endif; ?>
-<?php if ($_SERVER['REMOTE_ADDR'] == '10.14.36.106' || $_SERVER['REMOTE_ADDR'] == '10.14.50.215'):; ?>
 
-<?php endif;?>
     <div class="row">
 
    <!--    <div class="col-sm-4 visible-sm visible-xs">
@@ -52,22 +50,26 @@ Template Name: Home Page
 
       <div class="clearfix visible-sm"></div>
 
-      <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-9">
+      <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-9 spl-hero-calendar">
         
-        <div class="panel spl-hero-panel spl-hero-calendar">
           <h4 class="text-center hero-heading" style="">
             <i class="glyphicon glyphicon-calendar"></i> 
-            Coming Up
+            Upcoming Events
           </h4>
-          <div class="panel-body" style="padding-bottom:0;">
-            <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded]'); ?>
+<script type='text/javascript' src='//www.trumba.com/scripts/spuds.js?ver=4.7.8'></script>
+<script type="text/javascript">
+$Trumba.addSpud({
+webName: "spls-calendar",
+spudType : "upcoming" ,
+teaserBase : "https://www.spokanelibrary.org/calendar/" 
+});
+</script>
+     <!--        <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded]'); ?>
             <div class="calendar-promo">
               <h5 class="text-center">
                 <a href="/calendar/">Full Calendar <span class="text-muted">&rarr;</span></a>
               </h5>      
-            </div>
-          </div>
-        </div>
+            </div> -->
 
       </div>
 
@@ -81,14 +83,14 @@ Template Name: Home Page
 
     </div><!-- /.row -->
 
+    <div class="row">
+      <div class="col-sm-10">
+        <h4>SUGGESTIONS</h4>
+        <p><a href="/new">Browse New Arrivals</a>, the <a href="/browse/star/">Star Collection</a>, <a href="/request">request something we don’t have</a>, or <a href="/suggested-reading/">sign-up for suggestions</a></p>
+      </div>
+    </div>
 
     <div class="panel spl-hero-panel spl-hero-browse">
-      <!--
-      <h4>
-        <i class="glyphicon glyphicon-star"></i>
-        Read. Learn. Discover.
-      </h4>
-      -->
       <div class="browse-promo text-center">
           <a class="hidden-xs" href="/browse/">Browse&nbsp;popular&nbsp;titles&nbsp;<small>&rarr;</small></a>
           <a class="" href="/new/">Browse&nbsp;new&nbsp;materials&nbsp;<small>&rarr;</small></a>
@@ -100,6 +102,54 @@ Template Name: Home Page
       </div>
     </div>
 
+<div class="row">
+  <div class="col-sm-12">
+    <h4>DIGITAL LIBRARY</h4>
+    <div class="row">
+      
+
+  <div class="col-sm-2 spl-digital-library">
+    <h5>eBooks</h5>
+    <ul>
+      <li><a href="https://spokanelibrary.overdrive.com">Overdrive</a></li>
+      <li><a href="https://www.spokanelibrary.org/apps/#libby">Libby (app)</a></li>
+      <li><a href="http://www.tumblebooklibrary.com/autologin.aspx?userid=NIjvaAHfTSkSZvMJikB5Fg%3d%3d">TumbleBooks</a></li>
+      <li><a href="http://hoopladigital.com/">hoopla</a></li>
+    </ul>
+  </div>
+  <div class="col-sm-2 spl-digital-library">
+    <h5>Audiobooks</h5>
+    <ul>
+      <li><a href="https://www.rbdigital.com/spokanelibrarywa/service/magazines/landing/">RBDigital</a></li>
+      <li><a href="http://hoopladigital.com/">hoopla</a></li>
+    </ul>
+  </div>
+  <div class="col-sm-2 spl-digital-library">
+    <h5>Music</h5>
+    <ul>
+      <li><a href="http://spokanepl.freegalmusic.com/">Freegal</a></li>
+      <li><a href="http://hoopladigital.com/">hoopla</a></li>
+    </ul>
+  </div>
+  <div class="col-sm-2 spl-digital-library">
+    <h5>Magazines</h5>
+    <ul>
+      <li><a href="https://www.rbdigital.com/spokanelibrarywa/service/magazines/landing/">RBDigital</a></li>
+    </ul>
+  </div>
+  <div class="col-sm-2 spl-digital-library">
+    <h5>Movies &amp; TV</h5>
+    <ul>
+      <li><a href="http://hoopladigital.com/">hoopla</a></li>
+    </ul>
+  </div>
+
+
+    </div>
+  </div>
+</div>
   </div><!-- /.col -->
 </div><!-- /.row -->
-
+<?php if ($_SERVER['REMOTE_ADDR'] == '10.14.36.106' || $_SERVER['REMOTE_ADDR'] == '10.14.50.215'):; ?>
+<?php else:; ?>
+<?php endif;?>

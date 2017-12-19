@@ -1,7 +1,11 @@
 <div id="spl-more" style="/*background:rgb(100,150,75);*/">
 
+
+<footer style="background-color: #BDA0C8; padding: 7px; padding-left: 100px;"><h4> <a href="/subscribe" style="color:white;">Subscribe to Library Newsletters</h4></a></footer>
+
+
   <!-- <a name="spl-more">&nbsp;</a> -->
-  <div style="padding-top: 20px; margin-bottom: 20px; background-color: rgb(100,150,75); background-image: url(/assets/img/png/bg-book-cart.jpg); background-repeat: no-repeat; background-position: center;">
+  <div style="padding-top:20px; margin-bottom: 20px; background-color: rgb(125,182,82);" >
   <footer class="content-info container" role="contentinfo">
     <!--<hr>-->
     <?php

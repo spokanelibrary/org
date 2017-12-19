@@ -2491,7 +2491,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
     background-color: #005587;
-    border-color: #00456e
+    border-color: #00456e;
 }
 
 .btn-primary .badge {
@@ -2501,8 +2501,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-success {
     color: #fff;
-    background-color: #64964b;
-    border-color: #598542
+    background-color: #6396CF;
+    border-color: #004186;
 }
 
 .btn-success:hover,
@@ -2511,8 +2511,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
     color: #fff;
-    background-color: #527b3d;
-    border-color: #3d5c2e
+    background-color: #004186;
+    border-color: #6396CF;
 }
 
 .btn-success:active,
@@ -8609,13 +8609,16 @@ a .chof-red:hover .chof-text-mask {
 
 .spl-hero-calendar {
     padding-bottom: 5px;
-    background: #005587;
-    border-color: #003b5e;
+    background: none;
+    border-color: none;
     color: #555
 }
 
 .spl-hero-calendar .hero-heading {
-    background: #00629b
+	border-top: 6px solid #7DB652;
+    background: none;
+    color: #7DB652;
+    font-size: 13pt;
 }
 
 .spl-hero-calendar .calendar-promo {
@@ -8683,18 +8686,18 @@ a .chof-red:hover .chof-text-mask {
 }
 
 @media (min-width:768px) {
-    .spl-hero-calendar .panel-body {
+    /*.spl-hero-calendar .panel-body {
         background-image: url('/assets/img/spl-touch-bg.png');
         background-position: 120px 105px
-    }
+    }*/
     .spl-hero-calendar .panel-body .carousel {
         /*height: 226px*/
     }
 }
 
 @media (min-width:992px) {
-    .spl-hero-calendar .panel-body .carousel {
-        height: 377px
+    .spl-hero-calendar .panel-body {
+        height: 477px
     }
 }
 
@@ -9626,4 +9629,22 @@ figure.alignnone {
 }
 [v-cloak] {
   display: none;
+}
+
+div.spl-digital-library {
+	background-color: #F0F0F0;
+	margin: 15px;
+	height: 160px;
+}
+div.spl-digital-library h5 {
+	color: #7DB652;
+	text-align: center;
+}
+div.spl-digital-library h5 {
+	color: #7DB652;
+}
+div.spl-digital-library ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
 }
