@@ -97,13 +97,13 @@
 <div id="fb-root"></div>
 <script type="text/javascript">
   // remove login info from visible url via redirect
-  // loginInfoCheck = /\/account?.+spl-login/ 
-  // if (loginInfoCheck) {
-  //   console.log('moving')
-  //   window.location = '/account'
-  // }
-  // else {
-  //   console.log('no moving')
-  // }
+  loginInfoCheck = /\/account?.+spl-login/ 
+  if (window.location.match(loginInfoCheck)) {
+    console.log('moving')
+    //window.location = '/account'
+  }
+  else {
+    console.log('no moving')
+  }
 
 </script>
