@@ -99,7 +99,11 @@
   // remove login info from visible url via redirect
   loginInfoCheck = /\/account?.+spl-login/ 
   if (loginInfoCheck) {
+    console.log('moving')
     window.location = '/account'
+  }
+  else {
+    console.log('no moving')
   }
 
 </script>
