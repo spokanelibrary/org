@@ -66,6 +66,7 @@ function spl_get_home_url() {
                 ?>
                 <?php if ( isset($_SESSION['spl']['user']) ) {
                   echo '<li class="menu-logout"><a href="./?logout" style="background:#fff;"><i class="glyphicon glyphicon-log-out text-danger"></i> <span class="hidden-xs hidden-md text-danger">Logout</span></a></li>';
+		  echo '<input type="hidden" id="enterprise4" value="'.$_SESSION['spl']['auth']['pin'].'">';
                 }
                 ?>
                 </ul>
