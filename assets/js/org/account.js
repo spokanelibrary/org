@@ -42,6 +42,8 @@ var org = {
 	if( this.user){
 	  this.forceEnterpriseLogon();
 	}	
+
+		this.initPINReveal();
   } // initMyAccount()
 , forceEnterpriseLogon: function() {
 console.log("try GOGO logon");
@@ -59,6 +61,18 @@ console.log("try GOGO logon");
 	    'j_password':$('#enterprise4').val(),
 	    'hidden':"HZWSdt"
 	  }
+	});
+}
+, initPINReveal: function() {
+	$('#pin_reveal').hover(function(event){
+		$('#pin_structions').hide();
+		$('#pin_view').removeClass('hidden');
+		$('#pin_view small').text($('#enterprise4').val()),
+		$('#pin_view').show();
+	},function(event){
+		$('#pin_structions').show();
+		$('#pin_view').addClass('hidden');
+		$('#pin_view small').text('0000');
 	});
 }
 , initTabs: function() {
