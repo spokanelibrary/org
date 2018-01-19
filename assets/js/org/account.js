@@ -13,6 +13,7 @@ var org = {
 	// called on script load
 	,init: function() {
 		_self = this;
+		this.handleLogout();
 
 		this.setUser();
 
@@ -39,14 +40,33 @@ var org = {
 		this.initLists();
 
 		this.initProfile();
+		if( this.user){
+		  this.forceEnterpriseLogon();
+		}	
+
+		this.initPINReveal();
+  } // initMyAccount()
+  , handleLogout: function() {
+  	url = window.location.href;
+  	if (url.match(/account\/\?logout/gi)) {
+  		$.ajax({
+		  url: "https://login.spokaneschools.org/adfs/ls/?wa=wsignout1.0",
+		  type: "GET"
+		});
+  		$.ajax({
+		  url:"https://lovecraft.spokanelibrary.org/logout",
+		  type: "GET"
+		});
+  	}
+		
 	if( this.user){
 	  this.forceEnterpriseLogon();
 	}	
 
-		this.initPINReveal();
+	this.initPINReveal();
   } // initMyAccount()
 , forceEnterpriseLogon: function() {
-console.log("try GOGO logon");
+	console.log("try GOGO logon");
 	$.ajax({
 	  url:"https://catalog.spokanelibrary.org/client/en_US/pub/search/patronlogin.loginpageform/PUB",
 	  type: "POST",
