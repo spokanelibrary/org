@@ -41,6 +41,9 @@ var org = {
 		this.initListBib();
 		this.initRequestBib();
 		this.initRequestItem();
+		if( this.user){
+		  this.forceEnterpriseLogon();
+		}	
 
 		this.initAutoLoad();
 
@@ -106,6 +109,24 @@ var org = {
 		});
 
   } // initCatalog()
+, forceEnterpriseLogon: function() {
+	console.log("try GOGO logon");
+	$.ajax({
+	  url:"https://catalog.spokanelibrary.org/client/en_US/pub/search/patronlogin.loginpageform/PUB",
+	  type: "POST",
+	  contentType: "application/x-www-form-urlencoded",
+	  dataType: "text/text",
+	  xhrFields: {
+	    withCredentials: true
+	  },
+	  data:{
+	    't:formdata':"gFJQUIXDSUXVXoGv49wm3q8cIUQ=:H4sIAAAAAAAAAFvzloG1XJ5Btjg1sSg5Qz8gsaQoP88nPz0zzyorvrQ4tSgvMTe1uIjBNL8oXS+xIDE5I1WvJLEgtbikqNJULzm/KDUnM0kvKbE4Vc8xCSiYmFzilpmak6ISnFpSWqAaepj7oejxP0wMjD4M3Mn5eUDTc/yAJpYwCPlkJZYl6uck5qXrB5cUZealW1cUlDBwIWwlxlmOpDoroCg/ObW4OLg0KTezuDgzP+/wuhSTtG/zzjExMFQU4LSyILG4uDy/KKW4kKGOgQHsTJgQQT0gLazl0gySWFRlZKakpOYBPeKA1yPJ+bkF+XmpeSXFeh5gHZj+iGpXEK6Q3sGGEdQg6xlBQcsGsQyHS4pBJpWQ4hKw3SWYLpkZ/Ely65YWZyYGJh8GjuScTKBqT3AogFyWmpOaCxRAcRkHxPJ4AyQmABiJtLaZAgAA",
+	    'j_username':this.user.borrowerBarcode,
+	    'j_password':$('#enterprise4').val(),
+	    'hidden':"HZWSdt"
+	  }
+	});
+}
 
 , initAutoLoad: function() {
 
