@@ -11,7 +11,7 @@
 	<p>
 	<?php _e('If you have questions or believe you are seeing this page in error, <a href="/contact/">please contact us</a>.', 'roots'); ?>
 	</p>
-  <?php //_e('Sorry, but the page you were trying to view does not exist.', 'roots'); ?>
+  <?php //_e('Sorry, but the page you were trying to view doesn’t exist.', 'roots'); ?>
 </div>
 <!--
 <p><?php _e('It looks like this was the result of either:', 'roots'); ?></p>
