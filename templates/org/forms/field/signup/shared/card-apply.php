@@ -55,6 +55,9 @@
           I understand and agree that I am responsible for all additional collection fees.
           Any court action will be in Spokane County.
           </li>
+          <li>
+          <b>WAIVER OF LIABILITY:</b>  In consideration for being permitted to borrow Library of Things items, the borrower voluntarily assumes all risks of bodily injury or property damage associated with participation and agrees that the Spokane Public Library is not responsible for any injury, loss or damage that may occur from the use of a Library of Things item.  The borrower agrees to defend, indemnify and hold harmless the Library from and against all loss, damages or expense sustained as a result of borrowing the item.
+          </li>
         </ul>
       </div>
       <div class="modal-footer">
