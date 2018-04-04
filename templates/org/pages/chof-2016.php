@@ -49,7 +49,7 @@
 							<option value="all">All categories</option>
 							<optgroup label="Special Awards">
 								<option value="his">Historic Inductees</option>
-								<option value="cia">Citizen Impact Award</option>
+								<option value="cia">Community Impact Award</option>
 							</optgroup>
 							<optgroup label="Achievement Awards">
 								<option value="aal">Arts &amp; Letters</option>
