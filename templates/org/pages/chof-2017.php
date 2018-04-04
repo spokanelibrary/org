@@ -49,7 +49,7 @@
 							<option value="all">All categories</option>
 							<optgroup label="Special Awards">
 								<option value="his">Historic Inductees</option>
-								<option value="cia">Citizen Impact Award</option>
+								<option value="cia">Community Impact Award</option>
 							</optgroup>
 							<optgroup label="Achievement Awards">
 								<option value="aal">Arts &amp; Letters</option>
@@ -1401,7 +1401,7 @@
         
         <div class="panel-body">  
   	    	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      	  <h3 class="normal chof-text-yellow">Citizen Impact Award <small>2016</small></h3>
+      	  <h3 class="normal chof-text-yellow">Community Impact Award <small>2016</small></h3>
       	  <div class="row">
   	      	<div class="col-sm-4 col-md-4">
   			      <img class="img-responsive" src="/assets/img/promos/chof/Elson_Floyd-lg.jpg">
