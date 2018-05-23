@@ -59,7 +59,7 @@
 				    	 Thoughtful Entertainment. 
 				  	</p>
 				  	<p>
-							Access to over 30,000 films thanks to the support of the Friends of the Library. Films can be streamed from any computer, television, mobile device or platform by downloading the Kanopy apps.
+							Access to over 30,000 films thanks to the support of the Friends of the Library. Films can be streamed from any computer, television, mobile device or platform.
  						</p>
  						<div class="btn-group btn-group-justified">
  							<a class="btn btn-primary" href="/kanopy/">Learn more &rarr;</a>
