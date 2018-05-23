@@ -1,16 +1,18 @@
 
+
 <div class="media">
-  <a class="pull-left" href="/streaming/">
+  <a class="pull-left" href="/kanopy/">
     <span class="media-object">
-      <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/hoopla.png">
+      <img alt="" class="img-rounded" style="width: 40px; height: 40px;" src="/assets/img/icons/apps/kanopy.png">
     </span>
   </a>
   <div class="media-body">
     <h5 class="media-heading">
-      <a href="/streaming/"><em>Hoopla:</em> Movies &amp; more</a>
+      <a href="/kanopy/"><em>Kanopy:</em> Streaming Films</a>
     </h5>
   </div>
 </div><!-- /.media -->
+
 
 <div class="media">
   <a class="pull-left" href="/ebooks/">
@@ -24,6 +26,7 @@
     </h5>
   </div>
 </div><!-- /.media -->
+
 
 <div class="media">
   <a class="pull-left" href="/emusic/">
