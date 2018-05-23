@@ -41,6 +41,46 @@
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<i class="glyphicon glyphicon-cloud-download"></i> 
+					Streaming Films
+				</h4>
+			</div><!-- /.panel-heading -->
+			<div class="panel-body">
+				<div class="media">
+				  <a class="pull-left" href="/kanopy/">
+				  	<span class="media-object">
+				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/kanopy.png">
+				  	</span>
+					</a>
+				  <div class="media-body">
+				    <h4 class="media-heading">
+				    	<a href="https://spokanelibrary.kanopy.com/"><em>Kanopy:</em> Streaming Films</a>
+				    </h4>
+				    <p>
+				    	 Thoughtful Entertainment. 
+				  	</p>
+				  	<p>
+							Access to over 30,000 films through the streaming service Kanopy thanks to the support of the Friends of the Library. 
+ 						</p>
+ 						<div class="btn-group btn-group-justified">
+ 							<a class="btn btn-primary" href="/streaming/">Learn more &rarr;</a>
+ 							<a class="btn btn-success" href="/apps/#hoopla">Get the app &rarr;</a> 
+ 						</div>
+				  </div>
+				</div><!-- /.media -->
+			</div><!-- /.panel-body -->
+		</div><!-- /.panel -->
+	</div><!-- /.col -->
+
+
+
+
+<div class="row">
+	
+	<div class="col-md-6">
+		<div class="panel panel-primary" style="border-width-left:5px;">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<i class="glyphicon glyphicon-cloud-download"></i> 
 					Streaming Media
 				</h4>
 			</div><!-- /.panel-heading -->
