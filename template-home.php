@@ -100,6 +100,14 @@ teaserBase : "https://www.spokanelibrary.org/calendar/"
         
         <?php echo do_shortcode('[spl_widget home-page carousel pause control browse-group]'); ?>
       </div>
+
+<?php if ($_SERVER['REMOTE_ADDR'] == '10.14.36.106' || $_SERVER['REMOTE_ADDR'] == '10.14.50.215'):; ?>
+      <div class="panel-body" style="/*padding-left: 40px; padding-right: 40px;*/">
+        
+        <?php echo do_shortcode('[spl_widget home-page carousel pause control browse]'); ?>
+      </div>
+<?php else:; ?>
+<?php endif;?>
     </div>
 
 <div class="row">
@@ -141,6 +149,7 @@ teaserBase : "https://www.spokanelibrary.org/calendar/"
     <h5>Movies &amp; TV</h5>
     <ul>
       <li><a href="http://hoopladigital.com/">hoopla</a></li>
+      <li><a href="https://spokanelibrary.kanopy.com/">Kanopy</a></li>
     </ul>
   </div>
 
