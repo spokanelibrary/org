@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php echo do_shortcode('[spl_widget my-account session]'); ?><!DOCTYPE html>
 <!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7 no-js" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 7]> <html class="lt-ie9 lt-ie8 no-js" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 8]> <html class="lt-ie9 no-js" <?php language_attributes(); ?>> <![endif]-->
@@ -11,7 +11,6 @@
   <title><?php wp_title('|', true, 'right'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <?php echo do_shortcode('[spl_widget my-account session]'); ?>
   
 
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
