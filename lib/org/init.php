@@ -603,17 +603,17 @@ function spl_menupage($params) {
     global $post;  
     
     $orderby = 'menu_order'; //title
-    if ( $params['orderby'] ) {
+    if ( is_array($params) && $params['orderby'] ) {
       $orderby = $params['orderby'];
     }
 
     $sort = 'ASC';
-    if ( $params['sort'] ) {
+    if ( is_array($params) && $params['sort'] ) {
       $sort = $params['sort'];
     }
 
     $id = $post->ID;
-    if ( $params['page'] ) {
+    if ( is_array($params) && $params['page'] ) {
       //$parent = new WP_query(array('pagename'=>$params['page']));
       $parent = get_page_by_path($params['page']);
       //print_r($parent);
