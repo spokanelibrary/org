@@ -662,7 +662,7 @@ function spl_menupage($params) {
               <a href="#'.$post->post_name.'">'.get_the_title().' <small class="text-muted">&rarr;</small></a>
             </li>'.PHP_EOL;
 
-            if ( in_array('nochrome', $params) ) {
+            if ( $is_array($params) && in_array('nochrome', $params) ) {
               $page .= '
               <p id="'.$post->post_name.'">&nbsp;</p>
               <h4 class="">'.get_the_title().'</h4>
@@ -691,9 +691,9 @@ function spl_menupage($params) {
         </div>
         </ul>'.PHP_EOL; 
 
-        if ( in_array('nomenu', $params) ) {
+        if ( $is_array($params) && in_array('nomenu', $params) ) {
           $output = $page; 
-        } elseif ( in_array('menuonly', $params) ) {
+        } elseif ( $is_array($params) && in_array('menuonly', $params) ) {
           $output = $menu; 
         } else {
           $output = $menu.$page; 
