@@ -170,7 +170,13 @@ var ORG = {
   // All pages
 , common: {
     init: function() {
-      MBP.hideUrlBarOnLoad();
+      try {
+
+        MBP.hideUrlBarOnLoad();
+      }
+      catch (e) {
+
+      }
 
       //config.path.absolute = 'http://'+location.hostname;
       config.path.absolute = '//'+location.hostname;
