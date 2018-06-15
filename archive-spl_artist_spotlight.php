@@ -89,7 +89,97 @@ if (strtotime($date_end)) {
 </div>
 <br/>
 <h2>Past Exhibits</h2>
+
 <div class="container">
+  <div class="col col-md-3 col-sm-4 col-xs-6">
+    <h4>May 2018</h4>
+    <ul class="list-unstyled">
+      <li><a href="/artist/vicki-west/">Vicki West</a></li>
+      <li><a href="/artist/olivia-inaba-waterman">Olivia Inaba Waterman</a></li>
+      <li><a href="/artist/jane-beaven/">Jane Beaven</a></li>
+    </ul>
+  </div>
+  <div class="col col-md-3 col-sm-4 col-xs-6">
+    <h4>April 2018</h4>
+    <ul class="list-unstyled">
+      <li><a href="/artist/donald-sewell/">Donald Sewell</a></li>
+      <li><a href="/artist/sheila-johnston">Sheila Johnston</a></li>
+      <li><a href="/artist/karen-kemp">Karen Kemp</a></li>
+      <li><a href="/artist/emily-flynn/">Emily Flynn</a></li>
+    </ul>
+  </div>
+  <div class="col col-md-3 col-sm-4 col-xs-6">
+    <h4>March 2018</h4>
+    <ul class="list-unstyled">
+      <li><a href="/artist/alicia-lauth /">Alicia Lauth</a></li>
+      <li><a href="/artist/christie-pierce">Christie Pierce</a></li>
+      <li><a href="/artist/john-bettinger">John Bettinger</a></li>
+      <li><a href="/artist/lr-montgomery/">LR Montgomery</a></li>
+    </ul>
+  </div>
+  <div class="col col-md-3 col-sm-4 col-xs-6">
+    <h4>February 2018</h4>
+    <ul class="list-unstyled">
+      <li><a href="/artist/amber-hoit/">Amber Hoit</a></li>
+      <li><a href="/artist/asia-porter">Asia Porter</a></li>
+      <li><a href="/artist/Jason-corcoran">Jason Corcoran</a></li>
+      <li><a href="/artist/robert-lloyd">Robert Lloyd</a></li>
+      <li><a href="/artist/tracy-poindexter-canton">Tracy Poindexter Canton</a></li>
+      <li><a href="/artist/may-kytonen/">May Kytonen</a></li>
+    </ul>
+  </div>
+  <div class="col col-md-3 col-sm-4 col-xs-6">
+    <h4>January 2018</h4>
+    <ul class="list-unstyled">
+      <li><a href="/artist/amia/">Amia</a></li>
+      <li><a href="/artist/candy-huddleston">Candy Huddleston</a></li>
+      <li><a href="/artist/jason-corcoran">Jason Corcoran</a></li>
+      <li><a href="/artist/larry-bergman">Larry Bergman</a></li>
+      <li><a href="/artist/lincoln-wallbank/">Lincoln Wallbank</a></li>
+      <li><a href="/artist/living-with-conviction/">Living with Conviction</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="col col-md-3 col-sm-4 col-xs-6">
+    <h4>December 2017</h4>
+    <ul class="list-unstyled">
+      <li><a href="/artist/donald-sewell/">Donald Sewell</a></li>
+      <li><a href="/artist/loralee-silverthorne/">Loralee Silverthorne</a></li>
+    </ul>
+  </div>
+  <div class="col col-md-3 col-sm-4 col-xs-6">
+    <h4>November 2017</h4>
+    <ul class="list-unstyled">
+      <li><a href="/artist/charles-gurche/">Charles Gurche</a></li>
+      <li><a href="/artist/jeff-ferguson">Jeff Ferguson</a></li>
+      <li><a href="/artist/stefanie-marchand-reuben">Stefanie Marchand Reuben</a></li>
+      <li><a href="/artist/robert-charloe/">Robert Charloe/</a></li>
+    </ul>
+  </div>
+  <div class="col col-md-3 col-sm-4 col-xs-6">
+    <h4>October 2017</h4>
+    <ul class="list-unstyled">
+      <li><a href="/artist/carol-schmauder/">Carol Schmauder</a></li>
+      <li><a href="/artist/bensons-mobley-and-rossi">Bensons, Mobley, and Rossi</a></li>
+      <li><a href="/artist/christie-pierce">Christie Pierce</a></li>
+      <li><a href="/artist/andrea-van-voorhis">Andrea Van Voorhis</a></li>
+      <!-- <li><a href="/artist/miriam-wilde">Miriam Wilde</a></li> -->
+      <!-- <li><a href="/artist/nancy-huck/">Nancy Huck</a></li> -->
+    </ul>
+  </div>
+  <div class="col col-md-3 col-sm-4 col-xs-6">
+    <h4>September 2017</h4>
+    <ul class="list-unstyled">
+      <li><a href="/artist/ellen-blaschke/">Ellen Blaschke</a></li>
+      <li><a href="/artist/nancy-huck">Nancy Huck</a></li>
+      <li><a href="/artist/fred-hoefler">Fred Hoefler</a></li>
+      <li><a href="/artist/carol-schmauder">Carol Schmauder</a></li>
+      <li><a href="/artist/tannea-zollinger/">Tannea Zollinger</a></li>
+    </ul>
+  </div>
   <div class="col col-md-3 col-sm-4 col-xs-6">
     <h4>August 2017</h4>
     <ul class="list-unstyled">
