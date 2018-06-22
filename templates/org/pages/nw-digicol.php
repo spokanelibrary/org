@@ -140,7 +140,7 @@ function spl_get_digicol($shuffle=false, $columns=4) {
 										,'label' => 'Spokane Bridges'
 										);
 	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/22'
-										,'img' => 'spl-parks'
+										,'img' => 'spl-parks.jpg'
 										,'label' => 'Spokane Parks'
 										);
 	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/23'
