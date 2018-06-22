@@ -25,135 +25,137 @@ function spl_get_digicol($shuffle=false, $columns=4) {
 										,'label' => ''
 										);
 	*/
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll20'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/4'
 										,'img' => 'spl-expo-74.jpg'
 										,'label' => 'Expo \'74'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll23'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/2'
 										,'img' => 'spl-capp-album.jpg'
 										,'label' => 'Capp Photo Album'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll21'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/7'
 										,'img' => 'spl-nw-indians.jpg'
 										,'label' => 'Northwest Indians'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll22'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/6'
 										,'img' => 'spl-nw-indian-portraits.jpg'
 										,'label' => 'Northwest Indian Portraits'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll19'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/19'
 										,'img' => 'spl-nw-transportation.jpg'
 										,'label' => 'Northwest Transportation'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll18'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/1'
 										,'img' => 'spl-inland-art.jpg'
 										,'label' => 'Art work of the Inland Empire'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll17'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/17'
 										,'img' => 'spl-spokane-valley.jpg'
 										,'label' => 'Spokane Valley'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll16'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/9'
 										,'img' => 'spl-portraits.jpg'
 										,'label' => 'Portraits'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll15'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/20'
 										,'img' => 'spl-outdoor-recreation.jpg'
 										,'label' => 'Outdoor Recreation'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll14'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/5'
 										,'img' => 'spl-nw-missions.jpg'
 										,'label' => 'Northwest Missions'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll13'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/21'
 										,'img' => 'spl-spokane-library.jpg'
 										,'label' => 'Spokane Public Library'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll12'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/11'
 										,'img' => 'spl-spokane-buildings.jpg'
 										,'label' => 'Spokane Buildings'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll10'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/27'
 										,'img' => 'spl-nw-dams.jpg'
 										,'label' => 'Northwest Dams'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll11'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/30'
 										,'img' => 'spl-kettle-falls.jpg'
 										,'label' => 'Kettle Falls, Washington'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll8'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/8'
 										,'img' => 'spl-indian-congress.jpg'
 										,'label' => 'Indian Congress, Spokane'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll7'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/28'
 										,'img' => 'spl-grand-coulee.jpg'
 										,'label' => 'Grand Coulee Dam Images'
 										);
+	/*
 	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll6'
 										,'img' => 'spl-documents.jpg'
 										,'label' => 'Documents of Northwest History'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll5'
+	*/
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/12'
 										,'img' => 'spl-schools.jpg'
 										,'label' => 'Spokane County Schools'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll1'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/18'
 										,'img' => 'spl-nw-agriculture.jpg'
 										,'label' => 'Northwest Agriculture'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll4'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/10'
 										,'img' => 'spl-scenic-northwest.jpg'
 										,'label' => 'Scenic Northwest'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll3'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/29'
 										,'img' => 'spl-idahotowns.jpg'
 										,'label' => 'Idaho Towns'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p16351coll2'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/3'
 										,'img' => 'spl-ephemera.jpg'
 										,'label' => 'Northwest Ephemera'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll10'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/31'
 										,'img' => 'spl-miners.jpg'
 										,'label' => 'Miners &amp; Mining'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll9'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/32'
 										,'img' => 'spl-nwrails.jpg'
 										,'label' => 'Northwest Rails'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll7'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/26'
 										,'img' => 'spl-watown.jpg'
 										,'label' => 'Washington Towns'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll8'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/14'
 										,'img' => 'spl-industry.jpg'
 										,'label' => 'Spokane Industry'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223qs'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/16'
 										,'img' => 'spl-streets.jpg'
 										,'label' => 'Spokane Streets'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll4'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/24'
 										,'img' => 'spl-bridges.jpg'
 										,'label' => 'Spokane Bridges'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll6'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/22'
 										,'img' => 'spl-parks'
 										,'label' => 'Spokane Parks'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll5'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/23'
 										,'img' => 'spl-homes.jpg'
 										,'label' => 'Spokane Homes'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll3'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/25'
 										,'img' => 'spl-views.jpg'
 										,'label' => 'Spokane Views'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll2'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/15'
 										,'img' => 'spl-rivers.jpg'
 										,'label' => 'Spokane River'
 										);
-	$digicol[] = array('url' => 'http://cdm15223.contentdm.oclc.org/cdm/landingpage/collection/p15223coll1'
+	$digicol[] = array('url' => 'https://lange.spokanelibrary.org/collections/show/13'
 										,'img' => 'spl-fire.jpg'
 										,'label' => 'Spokane Fire (1889)'
 										);
