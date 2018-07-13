@@ -14,9 +14,6 @@
       href="http://spokaneisreading.org"
       title=""><b>Spokane Is Reading</b></a>
   <a class="btn btn-default" 
-      href="/news/"
-      title=""><b>News</b></a>
-  <a class="btn btn-default" 
       href="/signup/"
       title=""><b>Get a Library Card</b></a>
   <a class="btn btn-default" 
