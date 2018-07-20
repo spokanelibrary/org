@@ -10,7 +10,7 @@
       <b>Please note:</b>
       This is <em>not</em> a meeting confirmation. 
       Appointments are subject to staff availability.
-      A librarian will contact you to confirmation your appointment.
+      A librarian will contact you to confirm your appointment.
     </div>
 
     <dl class="dl-horizontal">
