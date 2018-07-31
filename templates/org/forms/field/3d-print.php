@@ -62,8 +62,8 @@
                   <option value="Blue-Fluorescence">Blue, Fluorescence</option>
                   <option value="Blue-Opaque">Blue, Opaque</option>
                   <option value="Brown-Dark">Brown, Dark</option>
-                  <option value="Glow-Dark">Glow in the Dark</option>
-                  <option value="Glow-Green">Glow in the Green</option>
+                 <!--  <option value="Glow-Dark">Glow in the Dark</option> -->
+                  <!-- <option value="Glow-Green">Glow in the Green</option> -->
                   <option value="Green">Green</option>
                   <option value="Green-Grass">Green, Grass</option>
                   <option value="Grey">Grey</option>
@@ -71,7 +71,7 @@
                   <option value="Purple-Dark">Purple, Dark</option>
                   <option value="Purple-Solid">Purple, Solid</option>
                   <option value="Red">Red</option>
-                  <option value="Red-Translucent">Red, Translucent</option>
+                  <!-- <option value="Red-Translucent">Red, Translucent</option> -->
                   <option value="Violet">Violet</option>
                 </select>
               </div>
