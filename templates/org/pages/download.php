@@ -90,7 +90,7 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="http://www.hoopladigital.com/home"><em>Hoopla:</em> Streaming media</a>
+				    	<a href="http://www.hoopladigital.com/"><em>Hoopla:</em> Streaming media</a>
 				    </h4>
 				    <p>
 				    	 is the library’s streaming media service. 
