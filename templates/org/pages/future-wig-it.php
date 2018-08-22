@@ -10,7 +10,7 @@
 			Indian Trail is the newest branch in the system and in good condition, but we will still remodel and add more meeting rooms and group study areas.
 		</p>
 		<p>
-			<a class="" href="http://future.spokanelibrary.org">Learn more at future.spokanelibrary.org</a>.
+			<a class="" href="http://future.spokanelibrary.org?utm_medium=spl_landing&utm_campaign=wig_future&utm_content=it">Learn more at future.spokanelibrary.org</a>.
 		</p>
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->

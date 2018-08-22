@@ -56,6 +56,27 @@ Template Name: Intranet Home Page
       <div class="panel-heading">
         <h4>
         <i class="glyphicon glyphicon-list"></i>
+        WIG</h4>
+      </div><!-- /.panel-heading -->
+      <div class="panel-body">
+          <ul class="list-unstyled">
+          <?php 
+          wp_nav_menu( 
+          array(
+            'menu' => 'wig'
+          , 'container' => false
+          , 'items_wrap' => '%3$s'
+          )); 
+          ?>
+          </ul>            
+      </div><!-- /.panel-body -->
+    </div><!-- /.panel -->
+
+  <div class="col-sm-6 col-md-3 col-md-push-9 col-lg-3 col-lg-push-9">
+    <div class="panel spl-hero-intranet spl-hero-brand-blue-b hidden-xs">
+      <div class="panel-heading">
+        <h4>
+        <i class="glyphicon glyphicon-list"></i>
         Help Desk</h4>
       </div><!-- /.panel-heading -->
       <div class="panel-body">

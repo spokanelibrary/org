@@ -10,7 +10,7 @@
 			Shadle Library serves all of north Spokane, as one of the city’s larger libraries, but is too small for the 100,000 residents that use it. There is an opportunity to expand Shadle to 30,000 SF at its current location to provide community demanded next-generation library services and spaces.
 		</p>
 		<p>
-			<a class="" href="http://future.spokanelibrary.org">Learn more at future.spokanelibrary.org</a>.
+			<a class="" href="http://future.spokanelibrary.org?utm_medium=spl_landing&utm_campaign=wig_future&utm_content=sh">Learn more at future.spokanelibrary.org</a>.
 		</p>
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->

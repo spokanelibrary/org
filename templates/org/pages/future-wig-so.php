@@ -10,7 +10,7 @@
 			The South Hill Library will not move to Thornton Murphy park and instead will be remodeled at its current location.
 		</p>
 		<p>
-			<a class="" href="http://future.spokanelibrary.org">Learn more at future.spokanelibrary.org</a>.
+			<a class="" href="http://future.spokanelibrary.org?utm_medium=spl_landing&utm_campaign=wig_future&utm_content=so">Learn more at future.spokanelibrary.org</a>.
 		</p>
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->

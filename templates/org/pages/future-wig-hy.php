@@ -10,7 +10,7 @@
 			Hillyard Library, one of Spokane’s small neighborhood branches, may either undergo a makeover in its current footprint or leverage an opportunity to collaborate with Spokane Public Schools in the form of an expanded, co-located public/ school library across the street at Shaw Middle School.
 		</p>
 		<p>
-			<a class="" href="http://future.spokanelibrary.org">Learn more at future.spokanelibrary.org</a>.
+			<a class="" href="http://future.spokanelibrary.org?utm_medium=spl_landing&utm_campaign=wig_future&utm_content=hy">Learn more at future.spokanelibrary.org</a>.
 		</p>
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->

@@ -10,7 +10,7 @@
 			The Downtown library could undergo a substantial remodel to recapture much of the first floor for public space. The first floor is currently primarily staff space.
 		</p>
 		<p>
-			<a class="" href="http://future.spokanelibrary.org">Learn more at future.spokanelibrary.org</a>.
+			<a class="" href="http://future.spokanelibrary.org?utm_medium=spl_landing&utm_campaign=wig_future&utm_content=dt">Learn more at future.spokanelibrary.org</a>.
 		</p>
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
