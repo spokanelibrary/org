@@ -1,55 +1,23 @@
 
 <div class="panel panel-primary">
-	<div class="panel-heading">
-		<h3 class="panel-title">
-			Hillyard Options
-		</h3>
-	</div><!-- /.panel-heading -->
 	<div class="panel-body">
+		<h3>
+			Imagine the Library of the Future
+		</h3>
+		<!-- <div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/_DYTucYNlpg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div> -->
 		<p>
-			Hillyard Library, one of Spokane’s small neighborhood branches, may either undergo a makeover in its current footprint or leverage an opportunity to collaborate with Spokane Public Schools in the form of an expanded, co-located public/ school library across the street at Shaw Middle School.
+		On November 6, 2018, voters will be asked to approve or
+		reject a $77 million bond to fund the construction of 3
+		new libraries and the renovation of 4 existing libraries.
 		</p>
 		<p>
-			<a class="" href="http://future.spokanelibrary.org?utm_medium=spl_landing&utm_campaign=wig_future&utm_content=hy">Learn more at future.spokanelibrary.org</a>.
+			<a class="" href="http://future.spokanelibrary.org?utm_medium=spl_landing&utm_campaign=wig_future&utm_content=hy">Learn more about what this means for Hillyard at future.spokanelibrary.org</a>.
 		</p>
-	</div><!-- /.panel-body -->
-</div><!-- /.panel -->
-
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h3 class="panel-title">
-			Shaw Middle School - Partnering with Spokane Public Schools
-		</h3>
-	</div><!-- /.panel-heading -->
-	<div class="panel-body">
 		<p>
-			One opportunity is to build a new library across the street at a new Shaw Middle School, in partnership with Spokane Public Schools. The design for a potential Shaw location is still pending, but community outreach found strong support for this idea.
-		</p>		
-	</div><!-- /.panel-body -->
-</div><!-- /.panel -->
-
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h3 class="panel-title">
-			Hillyard Remodel
-		</h3>
-	</div><!-- /.panel-heading -->
-	<div class="panel-body">
-		<p>
-			We will reorganize the current floorplan and create an enlarged program room that opens out to the library to create overflow or swing spaces during periods of heavy use. We could create an outdoor patio on the SW side of the building, expanding library space during good weather.
+			<img class="img-responsive" src="http://future.spokanelibrary.org/img/projects/Hillyard.jpg">
 		</p>
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
 
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h3 class="panel-title">
-			Improve Children's Discovery
-		</h3>
-	</div><!-- /.panel-heading -->
-	<div class="panel-body">
-		<p>
-			We will improve the children’s discovery section at the South Hill library. New children’s areas are the #1 citywide priority, according to community input.
-		</p>
-	</div><!-- /.panel-body -->
-</div><!-- /.panel -->
