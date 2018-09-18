@@ -125,6 +125,55 @@ $().ready(loadAction);
 	<h1>Welcome to the library <small>we're glad you're here</small></h1>
 </div>
 
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <small class="glyphicon glyphicon-exclamation-sign"></small>
+        Imagine the Future of the Library
+    </div><!-- /.panel-heading -->
+    <div class="panel-body">
+    <p>On November 6, voters will be asked to approve or reject a $77 million bond to fund the construction of 3 new libraries and the renovation of 4 existing libraries. If passed, Downtown and Shadle would get substantial remodels, Indian Trail and South Hill would get makeovers, and we’d build new libraries at Liberty Park, Libby Center and Hillyard. The plans also include the addition of new 24x7 Library kiosks in new neighborhoods.
+    </p>
+     <!--    <form 
+        method="post" 
+        class=""
+        id="spl-wireless" 
+        <?php
+        // if ( is_array($params) ) {
+        // echo 'data-spl="true" ';
+        // echo 'data-ua="'.$params['ua'].'" ';
+        // echo 'data-sip="'.$params['sip'].'" ';
+        // echo 'data-mac="'.$params['mac'].'" ';
+        // echo 'data-uip="'.$params['uip'].'" ';
+        // echo 'data-url="'.$params['url'].'" ';
+        // echo 'data-loc="'.$params['loc'].'" ';
+        // echo 'data-ssid="'.$params['ssid'].'" ';
+        // echo 'data-stamp="'.$params['stamp'].'" ';
+        // echo 'data-branch="'.$params['branch'].'" ';
+        // }
+        ?>
+    >
+        
+        <input type="hidden" name="username" value="<?php echo $guestname ?>" />
+        <input type="hidden" name="password" value="guest" />
+        <p>
+            <button type="button" class="btn btn-block btn-lg btn-success" onclick=submitAction();>
+            <small class="glyphicon glyphicon-ok"></small>
+            I agree. Proceed &rarr;
+            </button>
+        </p>
+        <p>
+        All Library customers are expected to access the Internet in compliance with the <a href="/policies/inet/">Internet Use Policy</a> and <a href="/uploads/rules_of_conduct.pdf">Rules of Conduct</a>, and within the boundaries of the law.
+        Viewing or downloading illegal or copyright-protected materials, obscenity, child pornography, or materials harmful to minors is prohibited.
+        <em>Please be considerate of other Library patrons.</em>
+        </p>
+        <INPUT type=hidden maxLength=15 size=16 value=0 name=buttonClicked>
+        <INPUT type=hidden maxLength=255 size=255 name=redirect_url> 
+
+    </form> -->
+
+    </div><!-- /.panel-body -->
+</div><!-- /.panel -->
+
 <div class="panel panel-warning">
 	<div class="panel-heading">
 		<small class="glyphicon glyphicon-exclamation-sign"></small>
