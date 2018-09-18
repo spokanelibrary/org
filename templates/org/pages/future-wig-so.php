@@ -16,7 +16,8 @@
 			<a class="" href="http://future.spokanelibrary.org?utm_medium=spl_landing&utm_campaign=wig_future&utm_content=so">Learn more about what this means for South Hill at future.spokanelibrary.org</a>.
 		</p>
 		<p>
-			<img class="img-responsive" src="http://future.spokanelibrary.org/img/projects/SouthHill.jpg">
+			<a class="" href="http://future.spokanelibrary.org?utm_medium=spl_landing&utm_campaign=wig_future&utm_content=so">
+			<img class="img-responsive" src="http://future.spokanelibrary.org/img/projects/SouthHill.jpg"></a>
 		</p>
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->

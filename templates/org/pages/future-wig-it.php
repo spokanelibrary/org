@@ -16,7 +16,8 @@
 			<a class="" href="http://future.spokanelibrary.org?utm_medium=spl_landing&utm_campaign=wig_future&utm_content=it">Learn more about what this means for Indian Trail at future.spokanelibrary.org</a>.
 		</p>
 		<p>
-			<img class="img-responsive" src="http://future.spokanelibrary.org/img/projects/IndianTrail.jpg">
+			<a class="" href="http://future.spokanelibrary.org?utm_medium=spl_landing&utm_campaign=wig_future&utm_content=it">
+			<img class="img-responsive" src="http://future.spokanelibrary.org/img/projects/IndianTrail.jpg"></a>
 		</p>
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
