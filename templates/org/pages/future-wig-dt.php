@@ -6,6 +6,7 @@
 		</h3>
 	</div><!-- /.panel-heading -->
 	<div class="panel-body">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/_DYTucYNlpg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		<p>
 			The Downtown library could undergo a substantial remodel to recapture much of the first floor for public space. The first floor is currently primarily staff space.
 		</p>
