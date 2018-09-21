@@ -40,7 +40,7 @@
 	<div class="panel-body">
 
 		<p>
-			All library locations offer computers with Microsoft Office 2013 word processing, spreadsheet, and presentation software.
+			All library locations offer computers with Microsoft Office 2016 word processing, spreadsheet, and presentation software.
 		</p>
 		
 	</div><!-- /.panel-body -->
@@ -71,22 +71,3 @@
 	</div>
 </div><!-- /.panel -->
 
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h3 class="panel-title">
-			WorkSource Spokane Connection
-		</h3>
-	</div><!-- /.panel-heading -->
-	<div class="panel-body">
-
-		<p>
-			The <a href="/worksource/">WorkSource Spokane Connection</a> site, located in the Downtown Library, offers personalized job searching assistance and computer access.
-		</p>
-
-	</div><!-- /.panel-body -->
-	<div class="panel-footer">
-		<small>
-			<b>These computers do not have a time limit</b> and are available on a first-come, first-served basis.
-		</small>
-	</div>
-</div><!-- /.panel -->
