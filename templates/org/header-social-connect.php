@@ -10,9 +10,9 @@
       href="https://instagram.com/spokanepubliclibrary" 
       title=""><img style="width:16px;" class="" src="/assets/img/icons/32px/instagram.png"></a>
 <?php endif; ?>
-  <a class="btn btn-default" 
+  <!-- <a class="btn btn-default" 
       href="http://spokaneisreading.org"
-      title=""><b>Spokane Is Reading</b></a>
+      title=""><b>Spokane Is Reading</b></a> -->
   <a class="btn btn-default" 
       href="/signup/"
       title=""><b>Get a Library Card</b></a>
