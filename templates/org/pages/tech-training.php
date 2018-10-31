@@ -1,6 +1,6 @@
 <hr>
 
-<div class="row">
+<div class="row"><!-- 
 	<div class="col-md-6">
 		<p class="center-block">
 			<a href="/it-academy/"><img style="margin-top:10px; margin-bottom:10px;" src="/assets/img/logos/imagineacademy.png"></a>
@@ -12,6 +12,19 @@
 		<p>
 			<a class="btn btn-block btn-warning" 
 					href="/it-academy/">More about <b>Microsoft Imagine Academy</b> &rarr;</a>
+		</p>
+	</div><!-- /.col -->
+	<div class="col-md-6">
+		<p>
+			<a href="/lynda"><img src="/assets/img/db/lynda.png"></a>
+		</p>
+		<h5>lynda.com</h5>
+		<p>
+			On-demand technology, creative, and business training taught by industry experts.
+		</p>
+		<p>
+			<a class="btn btn-block btn-inverse" 
+					href="/lynda">More about <b>lynda.com</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
 	<div class="col-md-6">
@@ -43,22 +56,6 @@
 					href="/pronunciator/">More about <b>Pronunciator</b> &rarr;</a>
 		</p>
 	</div><!-- /.col -->
-	<div class="col-md-6">
-		<p>
-			<a href="/lynda"><img src="/assets/img/db/lynda.png"></a>
-		</p>
-		<h5>lynda.com</h5>
-		<p>
-			On-demand technology, creative, and business training taught by industry experts.
-		</p>
-		<p>
-			<a class="btn btn-block btn-inverse" 
-					href="/lynda">More about <b>lynda.com</b> &rarr;</a>
-		</p>
-	</div><!-- /.col -->
-</div><!-- /.row -->
-<hr>
-<div class="row">
 	<div class="col-md-6">
 		<p>
 			<a href="/learningexpress/"><img src="/assets/img/db/LearningExpressLibrary.gif"></a>
