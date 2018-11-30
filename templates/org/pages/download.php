@@ -2,22 +2,14 @@
 <div class="row">
 	<div class="col-md-8">
 		<p>
-			We are working hard to offer the widest range of digital content available. 
-			Our capabilities continue to change and expand. 
-			Don't forget to check back often. 
-		</p>
-		<p>
 			Downloads are provided by third-party vendors.
-			In most cases you will need to create an account, and you may need to download software to access these materials. 
+			In most cases you will need to create an account, and you may need to download software to access these materials.
 		</p>
 		<p>
-			Feel free to <a href="/ask/">contact us</a> with questions. 
-			We’ll do our best to help.
+			You can also visit our <a href="/digital/">Digital Branch</a> for online research and educational tools.
 		</p>
 		<p>
-			<b>
-				You can also visit our <a href="/digital/">Digital Branch</a> for online research and educational tools.
-			</b>
+			Online research, educational tools, and digital downloads are not included with free reciprocal cards. If you have questions about what type of card you have, please <a href="/connect">contact us</a>.
 		</p>
 	</div><!-- /.col -->
 	<div class="col-md-4">

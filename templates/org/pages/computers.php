@@ -31,6 +31,29 @@
 	</div><!-- /.panel-body -->
 </div><!-- /.panel -->
 
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title">
+			Creation Stations
+		</h3>
+	</div><!-- /.panel-heading -->
+	<div class="panel-body">
+		
+	<p>Mac Creation Stations are available at each Spokane Public Library branch. A library card or guest pass is required to access them, and they provide access to a wide range of creative software including: </p>
+	<ul>
+		<li>Adobe Creative Suite CS5 Includes PhotoShop, Illustrator, and more </li>
+		<li>Apple Creative Software Includes iMovie, iMovie Theater, iTunes, and XCode (App Developer) </li>
+		<li>MS Office Suite Includes Word, PowerPoint, Excel, and Visual Studio</li>
+		<li>Audacity (Audio Editor)</li>
+		<li>Google Earth Pro </li>
+		<li>Android Studio (App Development Toolkit) </li>
+		<li>3D Design Software Includes Ultimaker Cura, LibreCAD, and Sketchup 2017 </li>
+		<li>Screen Capture and Recording Includes Snagit, Grab, Camtasia 2, and Photo Booth</li>
+	</ul>
+	</div><!-- /.panel-body -->
+</div><!-- /.panel -->
+
 <div class="panel panel-primary">
 	<div class="panel-heading">
 		<h3 class="panel-title">
