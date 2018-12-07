@@ -87,7 +87,7 @@
 		    <h4 class="media-heading">
 		    	<a href="/connected-learning/">Connected Learning: technology  <span class="hidden-xs">training &amp; workshops</span></a>
 		    </h4>
-	    	Courses and training using services sucha as <a href="/lynda/">Lynda</a> or <a href="/gale-courses/">Gale</a>.
+	    	Courses and training using services such as <a href="/lynda/">Lynda</a> or <a href="/gale-courses/">Gale</a>.
 	    	<a href="/subscriptions/#cr">
 	    	<a href="/connected-learning/"><b>More</b> &rarr;</a>
 		  </div>
