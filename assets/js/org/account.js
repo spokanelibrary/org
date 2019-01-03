@@ -45,6 +45,7 @@ var org = {
 		}	
 
 		this.initPINReveal();
+		this.initMyLibraryPopups();
   } // initMyAccount()
   , handleLogout: function() {
   	url = window.location.href;
@@ -511,17 +512,18 @@ var org = {
 		// it turns out hzws has no methods for updating email 
 		// will need addres ord? or maybe just select on old address?
 		var $form = $('#spl-form-profile-email');
-		var $email = $('#spl-field-profile-email');
 		var $submit = $('#spl-submit-profile-email');
 
 		$form.validate();
 		
 		$form.on('submit', function(e) {
+			e.preventDefault();
+			var $email = $('#spl-field-profile-email').val();
 			if ( $form.valid() ) {
 				if ( 'ajax' == $(this).data('process') ) {
-					e.preventDefault();			
-					
-					/*
+					_self.changeEmail($email);
+					/*  'j_username':this.user.borrowerBarcode,
+	    'j_password':$('#enterprise4').val(),
 					console.log( _self.user.borrower );
 					console.log( _self.user.sessionToken );
 					console.log( $email.val() );
@@ -533,7 +535,75 @@ var org = {
 			}
 		});
 
+		var $formp = $('#spl-form-profile-email-popup');
+		if ($formp) {
+			var $submit = $('#spl-submit-profile-email-popup');
+
+			$formp.validate();
+			
+			$formp.on('submit', function(e) {
+				e.preventDefault();
+				var $email = $('#spl-field-profile-email-popup').val();
+				if ( $formp.valid() ) {
+					if ( 'ajax' == $(this).data('process') ) {
+						_self.changeEmail($email);
+						$('#spl-field-profile-email').val($email);
+						/*  'j_username':this.user.borrowerBarcode,
+		    'j_password':$('#enterprise4').val(),
+						console.log( _self.user.borrower );
+						console.log( _self.user.sessionToken );
+						console.log( $email.val() );
+						*/
+						//$submit.button('loading');
+						
+						//_self.changePIN( $pin.val(), $old.val() );
+					}
+				}
+			});
+		}
 	} // initProfileEmail()
+, initMyLibraryPopups: function() {
+	_self = this;
+	$('.myLibraryPopup').each(function(elementIndex, element){
+		//$popup_id = $(element).attr("id").substring(6);
+		forms = $(element).find('form')
+		console.log("pop forms");
+		console.log(forms);
+		//forms.each(function(i, form){
+			//console.log(form);
+			//$form.validate();
+			forms.on('submit', function(e) {
+				// Clear message queue
+				  popup_id = $(this).closest('.myLibraryPopup').attr("id").substring(6);
+				  $.ajax({
+				    url: 'https://carson.spokanelibrary.org/customer/'+_self.user.borrowerBarcode+'/mylibrary/promo/'+popup_id
+				    , method: 'DELETE'
+					, type: "DELETE"
+					, dataType: "json"
+					, contentType: "application/x-www-form-urlencoded"
+				    , jsonp: false
+				  })
+				  .done(function(obj) {  
+						console.log(obj);
+						
+				  })
+				  .fail(function(jqXHR, textStatus) {
+				  	console.log("ouch " + textStatus);
+				  	console.log(jqXHR);
+
+				  })
+				  .always(function() {
+				  });
+
+				// Dimiss popup
+				$(this).parentsUntil('.myLibraryPopup').remove();
+				// if last popup, remove decoration
+				
+			});
+		//});
+
+	});
+}
 
 , initProfilePin: function() {
 		// note: we will need a new session token here? (loginUserResetMyPin)
@@ -595,6 +665,45 @@ var org = {
 	  });
 		
 
+	}
+
+, changeEmail: function(email) {
+
+		var $form = $('#spl-form-profile-email');
+		var $submit = $('#spl-submit-profile-email');
+
+		$submit.button('loading'); 
+	  $.ajax({
+	    url: 'https://lovecraft.spokanelibrary.org/barcode/'+this.user.borrowerBarcode+'/email'
+	    , method: 'POST'
+		,  type: "POST"
+		, dataType: "json"
+		,  contentType: "application/x-www-form-urlencoded"
+	    , jsonp: false
+    	, data: {
+    		email: email
+    		, pin : $('#enterprise4').val()
+    	}
+	  })
+	  .done(function(obj) {  
+	  	// pass results through
+			//$hidden.val(JSON.stringify(obj));
+			console.log(obj);
+			
+			// if ( true == obj ) {
+			// 	$form.data('process', 'http').submit();
+	  //	} else {
+	  		$submit.button('reset');
+				//console.log(obj);
+			//}
+	  })
+	  .fail(function(jqXHR, textStatus) {
+	  	console.log("ouch " + textStatus);
+	  	console.log(jqXHR);
+
+	  })
+	  .always(function() {
+	  });
 	}
 
 , toggleCheckboxGroup: function(all, item, scope) {
