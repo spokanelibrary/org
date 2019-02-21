@@ -1,7 +1,7 @@
 <div class="form-group">
   <label for="spl-form-email" class="col-sm-3 control-label">My email address</label>
   <div class="col-sm-3">
-    <input type="text" class="form-control" id="spl-form-email" name="spl-form[signup][email]" value="" placeholder="">
+    <input type="text" class="form-control" id="spl-form-email" name="spl-form[signup][email]" required value="" placeholder="">
   </div>
     <label for="spl-form-phone" class="col-sm-3 control-label">My phone number</label>
   <div class="col-sm-3">

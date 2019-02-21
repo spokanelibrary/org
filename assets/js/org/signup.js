@@ -51,6 +51,19 @@ var org = {
       _self.normalizeAddress('address');
     });
 
+    $('body').on('blur', '#spl-form-email', function(e) {
+      _self.checkNoticeType();
+
+    });$('body').on('blur', '#spl-form-phone', function(e) {
+      _self.checkNoticeType();
+    });
+   $('body').on('blur', '#spl-form-notice-email', function(e) {
+      _self.checkNoticeType();
+
+    });$('body').on('blur', '#spl-form-notice-phone', function(e) {
+      _self.checkNoticeType();
+    });
+
     $('body').on('blur', '.spl-signup-address-alt', function(e) {
       _self.normalizeAddress('alt');
     });    
@@ -95,6 +108,19 @@ var org = {
         break;
     }
 
+  }
+
+, checkNoticeType: function() {
+    console.log("try1");
+    if ($('#spl-form-notice-email').is(':checked')) {
+      $('#spl-form-email').prop('required',true);
+      $('#spl-form-phone').removeProp('required');
+    }
+
+    if ($('#spl-form-notice-phone').is(':checked')) {
+      $('#spl-form-email').removeProp('required');
+      $('#spl-form-phone').prop('required',true);
+    }
   }
 
 , checkAddressLocale: function() {
