@@ -40,16 +40,18 @@
         <div class="panel panel-default">
           <div class="panel-heading panel-transparent">
             <h4>
-              <i class="glyphicon glyphicon-barcode text-muted"></i> 
+              <i class="glyphicon glyphicon-heart text-muted"></i> 
               <a class="" 
-                href="/card/" 
-                title="">My library card</a>
+                href="/customer-stories/" 
+                title="">We're looking for your stories</a>
               <span class="text-muted">&rarr;</span>
             </h4>
           </div><!-- /.panel-heading -->
           <div class="panel-body">            
             <p>
-              Learn about library cards or <a href="/renew">renew</a> your existing card.
+              How has the Spokane Public Library <a class="" 
+                href="/customer-stories/" 
+                title="">impacted you?</a>
             </p>
           </div><!-- /.panel-body -->
         </div><!-- /.panel -->
