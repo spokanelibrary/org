@@ -45,9 +45,9 @@
             </div>
             
             <div class="form-group">
-              <label for="spl-form-name" class="col-sm-4 control-label">Contact Information</label>
+              <label for="spl-form-name" class="col-sm-4 control-label">Contact Information<br/>(Optional)</label>
               <div class="col-sm-8">
-                <textarea rows="6" class="form-control required" id="spl-form-name" name="spl-form[name]"></textarea>
+                <textarea rows="6" class="form-control" id="spl-form-name" name="spl-form[name]"></textarea>
               </div>
             </div>
             
