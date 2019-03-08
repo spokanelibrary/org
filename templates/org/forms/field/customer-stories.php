@@ -21,7 +21,7 @@
           
           <?php include 'common/crass-response.php'; ?>
       
-          <input type="hidden" id="spl-form-id" name="spl-form[id]" value="contact" />
+          <input type="hidden" id="spl-form-id" name="spl-form[id]" value="customer-story" />
           
           <input type="hidden" 
                 id="spl-form-ip" 
