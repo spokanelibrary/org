@@ -129,12 +129,7 @@ Template Name: Intranet Home Page
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
 
-  
-
-  </div>
-
-  <div class="hidden-xs col-sm-6 col-md-3 col-md-pull-3 col-lg-3 col-lg-pull-3">
-    
+      
     <div class="panel spl-hero-intranet spl-hero-brand-blue-e">
       <div class="panel-heading">
         <h4>
@@ -176,6 +171,11 @@ Template Name: Intranet Home Page
         </div> 
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
+
+  </div>
+
+  <div class="hidden-xs col-sm-6 col-md-3 col-md-pull-3 col-lg-3 col-lg-pull-3">
+
 
   </div>
   
