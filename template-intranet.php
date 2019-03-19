@@ -129,76 +129,9 @@ Template Name: Intranet Home Page
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
 
-    <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
-      <div class="panel-heading">
-        <h4>
-        <i class="glyphicon glyphicon-cog"></i>
-        Meeting Minutes</h4>
-      </div><!-- /.panel-heading -->
-      <div class="panel-body" style="word-wrap:break-word !important;">
-        <a class="btn btn-inverse btn-block" 
-          href="http://files.spokanelibrary.org/Meeting-Minutes/">
-          Browse Meeting Minutes &rarr;</a>
-          <hr>
-
-        <?php echo do_shortcode('[spl_widget category-posts slug=meeting-minutes count=2 format=excerpt size=sm]'); ?>
-      </div><!-- /.panel-body -->
-      <div class="panel-footer text-right">
-        <a class="" href="/news/meeting-minutes/"><b>More</b> Meeting Minutes</a>&nbsp;<small class="text-muted">&rarr;</small> 
-      </div><!-- /.panel-footer -->
-    </div><!-- /.panel -->
+  
 
 
-    <div class="panel spl-hero-intranet spl-hero-brand-blue-f">
-      <div class="panel-heading">
-        <h4>
-        <i class="glyphicon glyphicon-usd"></i>
-        Grant Opportunities</h4>
-      </div><!-- /.panel-heading -->
-      <div class="panel-body" style="word-wrap:break-word !important;">
-        <div class="alert alert-info">
-          <p>
-          All grants must be submitted through the SPL procedure. 
-          Documents and instructions on the procedure can be found on the shared drive under <a rel="external" href="http://files.spokanelibrary.org/Grants/">Grants</a>.
-          </p>
-        </div>
-        <?php echo do_shortcode('[spl_widget category-posts slug=grants count=2 format=excerpt size=sm]'); ?>
-      </div><!-- /.panel-body -->
-      <div class="panel-footer text-right">
-        <a class="" href="/news/grants/"><b>More</b> Grant Opportunities</a>&nbsp;<small class="text-muted">&rarr;</small> 
-      </div><!-- /.panel-footer -->
-    </div><!-- /.panel -->
-    
-    <!--
-    <div class="panel spl-hero-intranet spl-hero-brand-gray-a">
-      <div class="panel-heading">
-        <h4>
-        <i class="glyphicon glyphicon-cog"></i>
-        Tech Bulletins</h4>
-      </div>
-      <div class="panel-body">
-        <?php //echo do_shortcode('[spl_widget category-posts slug=tech count=3 format=excerpt size=sm]'); ?>
-      </div>
-      <div class="panel-footer text-right">
-        <a class="" href="/news/tech/"><b>More</b> Tech Bulletins</a>&nbsp;<small class="text-muted">&rarr;</small> 
-      </div>
-    </div>
-    -->
-
-    <div class="panel spl-hero-intranet spl-hero-brand-purple-a">
-      <div class="panel-heading">
-        <h4>
-        <i class="glyphicon glyphicon-edit"></i>
-        Customer Service <span class="hidden-md">Tips</span></h4>
-      </div><!-- /.panel-heading -->
-      <div class="panel-body" style="word-wrap:break-word !important;">
-        <?php echo do_shortcode('[spl_widget category-posts slug=cs count=2 format=excerpt size=sm]'); ?>
-      </div><!-- /.panel-body -->
-      <div class="panel-footer text-right">
-        <a class="" href="/news/cs/"><b>More</b> <span class="hidden-md">Customer Service</span> Tips</a>&nbsp;<small class="text-muted">&rarr;</small> 
-      </div><!-- /.panel-footer -->
-    </div><!-- /.panel -->
-  </div>
 
   <div class="hidden-xs col-sm-6 col-md-3 col-md-pull-3 col-lg-3 col-lg-pull-3">
     
@@ -241,29 +174,6 @@ Template Name: Intranet Home Page
               title=""><img class="" src="/assets/img/icons/32px/twitter.png"></a>
           </div>
         </div> 
-      </div><!-- /.panel-footer -->
-    </div><!-- /.panel -->
-
-
-    <div class="panel spl-hero-intranet spl-hero-brand-green-a">
-      <div class="panel-heading">
-        <h4>
-        <i class="glyphicon glyphicon-calendar"></i>
-        SPL Today</h4>
-      </div><!-- /.panel-heading -->
-      <div class="panel-body">            
-        <script src="https://www.trumba.com/scripts/spuds.js"></script>
-        <script type="text/javascript">
-        $Trumba.addSpud({
-          webName: "spls-calendar",
-          spudType : "upcoming",
-          teaserBase : "http://www.spokanelibrary.org/calendar/",
-          url: { }
-        });
-        </script>
-      </div><!-- /.panel-body -->
-      <div class="panel-footer text-right">
-        <a class="" href="http://www.spokanelibrary.org/calendar"><b>Our</b> Calendar</a>&nbsp;<small class="text-muted">&rarr;</small> 
       </div><!-- /.panel-footer -->
     </div><!-- /.panel -->
 
