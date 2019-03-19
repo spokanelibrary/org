@@ -131,7 +131,7 @@ Template Name: Intranet Home Page
 
   
 
-
+  </div>
 
   <div class="hidden-xs col-sm-6 col-md-3 col-md-pull-3 col-lg-3 col-lg-pull-3">
     
