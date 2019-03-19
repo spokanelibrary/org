@@ -174,12 +174,12 @@ Template Name: Intranet Home Page
 
   </div>
 
-  <div class="hidden-xs col-sm-6 col-md-3 col-md-pull-3 col-lg-3 col-lg-pull-3">
+<!--   <div class="hidden-xs col-sm-6 col-md-3 col-md-pull-3 col-lg-3 col-lg-pull-3">
 
 
-  </div>
+  </div> -->
   
-  <div class="col-sm-12 col-md-6 col-md-pull-3 col-lg-6 col-lg-pull-3">
+  <div class="col-sm-12 col-md-9 col-md-pull-3 col-lg-9 col-lg-pull-3">
     <div class="panel spl-hero-intranet spl-hero-brand-blue-h">
       <div class="panel-heading">
         <h4>

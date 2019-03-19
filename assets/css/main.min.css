@@ -8789,9 +8789,8 @@ a .chof-red:hover .chof-text-mask {
     color: #fff;
     padding-top: 0px;
     padding-bottom: 20px;
-    background-image: url('/assets/img/png/spl-tile-banner.png');
+    background-image: url('/assets/img/png/spl-swatch-banner.png');
     background-position: bottom left;
-    background-repeat: repeat-x
 }
 
 .spl-hero-intranet .panel-body {
