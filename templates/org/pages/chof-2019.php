@@ -81,7 +81,7 @@
 						<select class="form-control chof-control" id="chof-control-year">
 							<option value="all">All Years</option>
 							<optgroup>
-								<option value="2019">2018</option>
+								<option value="2019">2019</option>
 								<option value="2018">2018</option>
 								<option value="2017">2017</option>
 								<option value="2016">2016</option>
