@@ -19,6 +19,14 @@
           </label>
         </p>
       </div>
+      <div class="checkbox">
+        <p>
+          <label>
+            <input type="checkbox" style="transform:scale(1.5, 1.5);" id="spl-signup-lot" name="spl-form[signup][lot]" value="agree">
+            <b class="text-success">I agree to these Library of Things <i>Waiver of Liability</b></i>.
+          </label>
+        </p>
+      </div>
     </div>
   </div>
   <div class="col-sm-6 col-sm-offset-3">
