@@ -45,8 +45,8 @@
 <div class="row">
 	<div class="col-md-7 col-lg-8">
 	    <h2>Newsletters</h2>
-		<ul id="archive-list">
-	<div><h5>06/10/2019</h5>
+	    
+<h5>06/10/2019</h5>
 <p class="edit_me"><a href="http://eepurl.com/grK6m1" title="News from the Library: Win a Kobo Clara eReader!" target="_blank">News from the Library: Win a Kobo Clara eReader!</a></p>
 
 <h5>05/02/2019</h5>
@@ -105,8 +105,7 @@
 
 <h5>07/05/2018</h5>
 <p class="edit_me"><a href="http://eepurl.com/dzzOLP" title="News from the Library: Watch the Latest Episode of Lilac City Live featuring Mayor Condor...err, Condon" target="_blank">News from the Library: Watch the Latest Episode of Lilac City Live featuring Mayor Condor...err, Condon</a></p>
-</div>
-</ul>
+
 		<h2>Press releases</h2>
 		<?php echo do_shortcode('[spl_widget list-files prefix="" icon="file"]'); ?>
 	</div><!-- /.col -->
