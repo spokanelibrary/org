@@ -14,7 +14,7 @@
       href="http://spokaneisreading.org"
       title=""><b>Spokane Is Reading</b></a> -->
   <a class="btn btn-default" 
-      href="/summer/"
+      href="http://spl.northwestreads.org"
       title=""><b class="">Summer Reading</b></a>
   <a class="btn btn-default" 
       href="/signup/"
