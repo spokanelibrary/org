@@ -17,7 +17,7 @@
       href="http://spl.northwestreads.org"
       title=""><b class="">Summer Reading</b></a> -->
   <a class="btn btn-default" 
-      href="http://future.spokanelibrary.org
+      href="http://future.spokanelibrary.org"
       title=""><b class="">Bond &amp; Construction</b></a>
   <a class="btn btn-default" 
       href="/signup/"
