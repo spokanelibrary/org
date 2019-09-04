@@ -8,9 +8,10 @@
         <option value="it">Indian Trail</option>
         <option value="sh">Shadle</option>
         <option value="so">South Hill</option>
+        <option value="wc">West Central 24/7 Kiosk</option>
         <option value="ou">Outreach</option>
-        <option value="mail">
-          Please mail it to me ($2.00 charge)</option>
+        <!-- <option value="mail">
+          Please mail it to me ($2.00 charge)</option> -->
         <option value="none">
           No thanks (do not place a hold)</option>
       </select>
