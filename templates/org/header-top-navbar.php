@@ -17,21 +17,21 @@ function spl_get_home_url() {
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=289675684463099";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));*/</script>  
+}(document, 'script', 'facebook-jssdk'));*/</script>
 
 <header class="navbar-common navbar-fixed-top visible-xs visible-sm hidden-print">
   <!--<div class="container">-->
   <ul class="nav nav-justified">
-  <?php 
-  wp_nav_menu( 
+  <?php
+  wp_nav_menu(
   array(
     'menu' => 'Common Navigation'
   , 'container' => false
   , 'items_wrap' => '%3$s'
-  )); 
+  ));
   ?>
   <?php if ( isset($_SESSION['spl']['user']) ) {
-    echo '<li class="menu-logout"><a href="./?logout" style="background:#fff;"><i class="glyphicon glyphicon-log-out text-danger"></i> <span class="hidden-xs hidden-md text-danger">Logout</span></a></li>';
+    echo '<li class="menu-logout"><a href="https://lovecraft.spokanelibrary.org/logout" style="background:#fff;"><i class="glyphicon glyphicon-log-out text-danger"></i> <span class="hidden-xs hidden-md text-danger">Logout</span></a></li>';
   }
   ?>
   </ul>
@@ -56,16 +56,16 @@ function spl_get_home_url() {
               <header id="spl-navbar-common" class="navbar-common navbar-static-top" style="border-left:1px solid rgb(0,85,135); border-right:1px solid rgb(0,85,135);">
                 <!--<div class="container">-->
                 <ul class="nav nav-justified">
-                <?php 
-                wp_nav_menu( 
+                <?php
+                wp_nav_menu(
                 array(
                   'menu' => 'Common Navigation'
                 , 'container' => false
                 , 'items_wrap' => '%3$s'
-                )); 
+                ));
                 ?>
                 <?php if ( isset($_SESSION['spl']['user']) ) {
-                  echo '<li class="menu-logout"><a href="./?logout" style="background:#fff;"><i class="glyphicon glyphicon-log-out text-danger"></i> <span class="hidden-xs hidden-md text-danger">Logout</span></a></li>';
+                  echo '<li class="menu-logout"><a href="https://lovecraft.spokanelibrary.org/logout" style="background:#fff;"><i class="glyphicon glyphicon-log-out text-danger"></i> <span class="hidden-xs hidden-md text-danger">Logout</span></a></li>';
 		  echo '<input type="hidden" id="enterprise4" value="'.$_SESSION['spl']['auth']['pin'].'">';
                 }
                 ?>
@@ -93,7 +93,7 @@ function spl_get_home_url() {
               <div id="spl-account-profile"></div>
             </div><!-- /.col -->
           </div><!-- /.row -->
-      
+
       </div><!-- /.col -->
     </div><!-- /.row -->
   </div><!-- /.container -->
@@ -106,14 +106,14 @@ function spl_get_home_url() {
         <strong class="text-muted">{{user.firstName}}</strong>
         <a href="/account/"><small><strong>My Account</strong></small></a>
         <span class="text-muted">&nbsp;&nbsp;</span>
-        
+
         <span class="">
           <i class="glyphicon glyphicon-log-out text-danger"></i>
-          <a href="./?logout" class="text-danger"><small><strong>Logout</strong></small></a>
+          <a href="https://lovecraft.spokanelibrary.org/logout" class="text-danger"><small><strong>Logout</strong></small></a>
         </span>
-      <!--  
+      <!--
         <br>
-    
+
       {{#if user.holdRequests}}
         {{#if user.holdRequests.ready}}
         <a href="/account#holds" class="btn btn-sm btn-default">
@@ -126,7 +126,7 @@ function spl_get_home_url() {
       {{#if user.itemsOut}}
         {{#if user.itemsOut.overdue}}
         <a href="/account#cko" class="btn btn-sm btn-default">
-          Overdue 
+          Overdue
           <small class="badge">{{user.itemsOut.overdue}}</small>
         </a>
         {{/if}}
@@ -169,14 +169,14 @@ function spl_get_home_url() {
   </div>
 </header><!-- /.navbar -->
 
-<?php 
+<?php
 if ( 'learn.spokanelibrary.org' != $_SERVER['SERVER_NAME'] && 'staff.spokanelibrary.org' != $_SERVER['SERVER_NAME'] ) {
   switch ($post->post_name) {
     case 'search':
     case 'account':
       break;
     default:
-      include('header-search.php'); 
+      include('header-search.php');
       break;
   }
 }
