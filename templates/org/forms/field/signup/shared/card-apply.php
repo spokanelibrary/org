@@ -53,10 +53,10 @@
             I accept responsibility for all material charged on this card and agree to pay any fines, costs, or fees, including attorney fees, assessed by Spokane Public Library or its collection agency for overdue, lost, or damaged materials.
           </li>
           <li>
-            I understand that I am responsibile for all use of my account, with or without my consent.
+            I understand that I am responsible for all use of my account, with or without my consent.
           </li>
           <li>
-          I understand that failure to follow library rules may result in suspension of my library priveleges and/or referral to a collection agency.
+          I understand that failure to follow library rules may result in suspension of my library privileges and/or referral to a collection agency.
           Spokane Public Library refers delinquent accounts to a commercial collection agency.
           </li>
           <li>
