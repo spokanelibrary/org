@@ -154,11 +154,14 @@ var org = {
 	  .done(function(obj) {  
 	  	// pass results through
 			$hidden.val(JSON.stringify(obj));
+			console.log(JSON.stringify(obj));
 			$form.data('process', 'http').submit();
 	  })
-	  .fail(function() {
+	  .fail(function(e) {
+	  	console.log(e)
 	  })
-	  .always(function() {
+	  .always(function(e) {
+	  	console.log(e)
 	  });
 
 	} // ckoRenew()
@@ -378,7 +381,7 @@ var org = {
 		var $rename = $('#spl-field-list-rename-'+list);
 		
 		var data = { params: {sessionToken: this.user.sessionToken
-	    									,	titleKeys: titlekeys
+	    									, titleKeys: titlekeys
 	    									, listKey: list
 	    									}
 	    					}

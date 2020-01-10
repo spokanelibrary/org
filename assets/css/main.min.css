@@ -8791,6 +8791,8 @@ a .chof-red:hover .chof-text-mask {
     padding-bottom: 20px;
     background-image: url('/assets/img/png/spl-swatch-banner.png');
     background-position: bottom left;
+    background-size: 100% 35%;
+    background-repeat: no-repeat;
 }
 
 .spl-hero-intranet .panel-body {
