@@ -8,10 +8,12 @@ Open hours, directions, contact information, upcoming events, and other details 
 </blockquote>
 
 <div class="btn-group">
+	<a class="btn btn-primary" href="/sta-plaza/">STA Plaza <em>Opening March 2020</em></a>
 	<a class="btn btn-primary" href="/downtown/">Downtown</a>
 	<a class="btn btn-primary" href="/east-side/">East Side</a>
 	<a class="btn btn-primary" href="/hillyard/">Hillyard</a>
 	<a class="btn btn-primary" href="/indian-trail/">Indian Trail</a>
-	<a class="btn btn-primary" href="/shadle/">Shadle</a>
+	<a class="btn btn-primary" href="/to-be-continued-at-the-northtown-mall/">Northtown Mall</a>
+	<!-- <a class="btn btn-primary" href="/shadle/">Shadle</a> -->
 	<a class="btn btn-primary" href="/south-hill/">South Hill</a>
 </div>

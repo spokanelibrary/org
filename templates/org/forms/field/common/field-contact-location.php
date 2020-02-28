@@ -2,11 +2,13 @@
   <label for="spl-form-pickup" class="col-sm-12">Where should we hold this item?</label>
   <div class="col-sm-12">
     <select class="form-control" id="spl-form-pickup" name="spl-form[pickup]">
-        <option value="dt" selected="">Downtown</option>
+        <option value="pl" selected="">STA Plaza</option>
+        <!-- <option value="dt" selected="">Downtown</option> -->
         <option value="es">East Side</option>
         <option value="hy">Hillyard</option>
         <option value="it">Indian Trail</option>
-        <option value="sh">Shadle</option>
+        <option value="nt">Northtown Mall</option>
+        <!-- <option value="sh">Shadle</option> -->
         <option value="so">South Hill</option>
         <option value="wc">West Central 24/7 Kiosk</option>
         <option value="ou">Outreach</option>
