@@ -44,7 +44,7 @@
   <div class="col-md-8">
 
     <blockquote>
-      <h4>This is a temporary card. It expires in 30 days. This number allows you to place holds on items using this temporary number. To check items out, you will need a permanent card. Your library card will allow you to borrow materials, access website services, and use the internet computers.</h4>
+      <h4>This is a temporary card. It expires in 90 days. This number allows you to place holds on items using this temporary number. To check items out, you will need a permanent card. Your library card will allow you to borrow materials, access website services, and use the internet computers.</h4>
       <p>
         Please visit the circulation desk at any <a href="/branches/">library branch</a> to verify your identity and get a permanent card.
       </p>
