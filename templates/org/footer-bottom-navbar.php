@@ -133,6 +133,9 @@
           <li>
             <a href="/news/"><small><i class="text-muted glyphicon glyphicon-bullhorn"></i> Press & Media</small></a>
           </li>
+          <li>
+            <a href="/public-notices/"><small><i class="text-muted glyphicon glyphicon-bell"></i> Public Notices</small></a>
+          </li>
         </ul>
       </div><!-- /.panel-footer -->
 
@@ -141,5 +144,5 @@
     <h6 class="text-center uppercase" style="color:#fff;">
         This library is a congressionally designated depository for U.S. Government documents.
         <br class="visible-xs visible-sm">
-        <a rel="external" style="border-color:#fff;" class="btn btn-sm btn-success" href="http://www.gpo.gov/libraries/ "><b>Learn More &rarr;</b></a> 
+        <a rel="external" style="border-color:#fff;" class="btn btn-sm btn-success" href="http://www.gpo.gov/libraries/ "><b>Learn More &rarr;</b></a>
     </h6>
