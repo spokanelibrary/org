@@ -10,8 +10,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title><?php wp_title('|', true, 'right'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="p:domain_verify" content="89f89f732a303f778b6f68ff58ab5d03"/>
 
-  
+
 
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -34,7 +35,7 @@
   <?php wp_head(); ?>
 
 	<link href='//fonts.googleapis.com/css?family=Adamina' rel='stylesheet' type='text/css'>
-	
+
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url(get_feed_link()); ?>">
 
  	<?php if ( isset($_REQUEST['kiosk']) ) : ?>
