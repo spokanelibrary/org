@@ -70,8 +70,8 @@ teaserBase : "https://www.spokanelibrary.org/calendar/"
                 <a href="/calendar/">Full Calendar <span class="text-muted">&rarr;</span></a>
               </h5>
             </div> -->
-        <img src="img/promos/MeetingRoom.png" class="img-responsive"alt="Book a meeting room">
-        <img src="img/promos/Calendar.png" class="img-responsive" alt="Upcoming events and programs">
+        <img src="/assets/img/promos/MeetingRoom.png" class="img-responsive"alt="Book a meeting room">
+        <img src="/assets/img/promos/Calendar.png" class="img-responsive" alt="Upcoming events and programs">
       </div>
 
       <div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3">
