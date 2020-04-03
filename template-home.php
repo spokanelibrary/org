@@ -9,15 +9,15 @@ Template Name: Home Page
 
   <div class="col-lg-10 col-lg-offset-1">
 
-    <?php 
+    <?php
     // conditionally display page content
     $spl_home = $post->post_content;
     $spl_home = trim($spl_home);
     if ( !empty($spl_home) ): ;
     ?>
     <div class="panel spl-hero-panel spl-hero-news">
-      <?php 
-      if ( $post->post_excerpt): ; 
+      <?php
+      if ( $post->post_excerpt): ;
       ?>
       <h4 class="text-center hero-heading">
         <i class="glyphicon glyphicon-bullhorn"></i>
@@ -34,7 +34,7 @@ Template Name: Home Page
 
    <!--    <div class="col-sm-4 visible-sm visible-xs">
         <div class="panel spl-hero-open">
-          <a class="spl-hero-link" href="/open/">  
+          <a class="spl-hero-link" href="/open/">
             <h4 class="text-center hero-heading">
               <i class="glyphicon glyphicon-time"></i>
               Open Hours
@@ -51,9 +51,9 @@ Template Name: Home Page
       <div class="clearfix visible-sm"></div>
 
       <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-9 spl-hero-calendar">
-        
-          <h4 class="text-center hero-heading" style="">
-            <i class="glyphicon glyphicon-calendar"></i> 
+
+          <!--<h4 class="text-center hero-heading" style="">
+            <i class="glyphicon glyphicon-calendar"></i>
             Upcoming Events
           </h4>
 <script type='text/javascript' src='//www.trumba.com/scripts/spuds.js?ver=4.7.8'></script>
@@ -61,16 +61,17 @@ Template Name: Home Page
 $Trumba.addSpud({
 webName: "spls-calendar",
 spudType : "upcoming" ,
-teaserBase : "https://www.spokanelibrary.org/calendar/" 
+teaserBase : "https://www.spokanelibrary.org/calendar/"
 });
-</script>
+</script>-->
      <!--        <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded]'); ?>
             <div class="calendar-promo">
               <h5 class="text-center">
                 <a href="/calendar/">Full Calendar <span class="text-muted">&rarr;</span></a>
-              </h5>      
+              </h5>
             </div> -->
-
+        <img src="img/promos/MeetingRoom.png" class="img-responsive"alt="Book a meeting room">
+        <img src="img/promos/Calendar.png" class="img-responsive" alt="Upcoming events and programs">
       </div>
 
       <div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3">
@@ -78,7 +79,7 @@ teaserBase : "https://www.spokanelibrary.org/calendar/"
         <div class="panel spl-hero-panel spl-hero-muted">
           <?php echo do_shortcode('[spl_carousel_photo auto random slug=carousel]'); ?>
         </div>
-        
+
       </div><!-- /.col -->
 
     </div><!-- /.row -->
@@ -97,14 +98,14 @@ teaserBase : "https://www.spokanelibrary.org/calendar/"
           <a class="hidden-xs" href="/request/">Request&nbsp;something&nbsp;we&nbsp;don't&nbsp;have&nbsp;<small>&rarr;</small></a>
         </div>
       <div class="panel-body" style="/*padding-left: 40px; padding-right: 40px;*/">
-        
+
         <?php echo do_shortcode('[spl_widget home-page carousel pause control browse-group]'); ?>
       </div>
 
-<?php if ($_SERVER['REMOTE_ADDR'] == '10.14.36.106' || $_SERVER['REMOTE_ADDR'] == '10.14.50.215'):; ?>
+<?php if ($_SERVER['REMOTE_ADDR'] == '10.14.36.124' || $_SERVER['REMOTE_ADDR'] == '10.14.50.170'):; ?>
       <div class="panel-body" style="/*padding-left: 40px; padding-right: 40px;*/">
-        
-        <?php echo do_shortcode('[spl_widget home-page carousel pause control browse]'); ?>
+
+        <?php echo do_shortcode('[spl_widget home-page carousel pause control browse-list star]'); ?>
       </div>
 <?php else:; ?>
 <?php endif;?>
@@ -114,7 +115,7 @@ teaserBase : "https://www.spokanelibrary.org/calendar/"
   <div class="col-sm-12">
     <h4>DIGITAL LIBRARY</h4>
     <div class="row">
-      
+
 
   <div class="col-sm-2 spl-digital-library">
     <h5>eBooks</h5>
