@@ -7,25 +7,24 @@
   </div><!-- /.panel-heading -->
 
   <div class="panel-body">
-    <p id="bookmyne">&nbsp;</p>
+    <p id="splapp">&nbsp;</p>
     <div class="media">
     	<span class="media-object pull-left">
     		<img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/bookmyne.jpg">
     	</span>
       <div class="media-body">
         <h4 class="media-heading">
-        	<em>BookMyne:</em> Mobile catalog
+        	<em>Spokane Library App</em>
         </h4>
         <p>
           <b>Search the library catalog, place holds, and manage your account.</b>
         </p>
         <p>
-          <span class="label label-success">Update</span>
-          BookMyne has been completely rewritten for Android &ndash; and now works! 
+          <span class="label label-success">New!</span>
         </p>
         <p>
-          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/bookmyne/id350625461">iOS &rarr;</a>
-          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=sirsidynix.bookmyne">Android &rarr;</a>
+          <a rel="external" class="btn btn-info" href="https://apps.apple.com/us/app/spokane-library/id1511798596">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=co.communico.spokanelibrary">Android &rarr;</a>
         </p>
       </div>
     </div><!-- /.media -->
@@ -62,7 +61,7 @@
         </h4>
         <p>
           Borrow eBooks to read on your computer, smart phone, tablet, or dedicated eBook reader.
-          When possible, we attempt to provide titles in PDF or ePUB as well as AZW (Kindle) formats. 
+          When possible, we attempt to provide titles in PDF or ePUB as well as AZW (Kindle) formats.
           <a href="/ebooks/">More about eBooks at the library &rarr;</a>
         </p>
         <p>
@@ -71,15 +70,15 @@
         </p>
 
         <a rel="external" href="https://www.windowsphone.com/en-us/store/app/overdrive-media-console/637433e5-1392-e011-9210-002264c2fb72">Windows Phone</a>
-        | 
+        |
         <a rel="external" href="https://www.amazon.com/OverDrive-Media-Console-Library-Audiobooks/dp/B00850NK6I/">Kindle</a>
-        | 
+        |
         <a rel="external" href="https://www.barnesandnoble.com/w/overdrive-overdrive-inc/1120365790?ean=2940043354334&isbn=2940043354334">Nook</a>
-        | 
+        |
         <a rel="external" href="http://app.overdrive.com/downloads/ODMediaConsoleSetup.dmg">Mac <small class="text-muted">(.dmg)</small></a>
-        | 
+        |
         <a rel="external" href="http://app.overdrive.com/downloads/ODMediaConsoleSetup.msi">Windows <small class="text-muted">(.msi)</small></a>
-        | 
+        |
         <a rel="external" href="http://apps.microsoft.com/windows/en-US/app/overdrive-media-console/0c1b24d6-bf93-44da-90fb-601c6a99e379">Windows 8</a>
 
       </div>
@@ -104,11 +103,11 @@
           <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?hl=en&id=com.amazon.kindle">Android &rarr;</a>
         </p>
         <a rel="external" href="https://www.windowsphone.com/en-us/store/app/amazon-kindle/48195fb4-ee0e-e011-9264-00237de2db9e">Windows Phone</a>
-        | 
+        |
         <a rel="external" href="https://itunes.apple.com/us/app/kindle/id405399194">Mac <small class="text-muted">(app store)</small></a>
         |
         <a rel="external" href="http://www.amazon.com/gp/kindle/pc/download">Windows <small class="text-muted">(.msi)</small></a>
-        | 
+        |
         <a rel="external" href="http://apps.microsoft.com/windows/en-us/app/kindle/1d7e4396-0143-4aed-8892-84eb75e799f3">Windows 8</a>
       </div>
     </div><!-- /.media -->
@@ -145,7 +144,7 @@
         </h4>
         <p>
           Download 5 free songs every week – yours to keep!
-          With over 7 million tracks from 23,000 record labels spanning more than 100 genres of music, we think everyone can find a reason (or 5) to like this service. 
+          With over 7 million tracks from 23,000 record labels spanning more than 100 genres of music, we think everyone can find a reason (or 5) to like this service.
           <a href="/emusic/">More about eMusic at the library &rarr;</a>
         </p>
         <p>
@@ -153,7 +152,7 @@
           <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.libraryideas.freegalmusic">Android &rarr;</a>
         </p>
         <a rel="external" href="http://slideme.org/application/freegal-music/">Kindle Fire <span class="text-muted">(via slideme.org)</span></a>
-        
+
 
       </div>
     </div><!-- /.media -->
@@ -169,8 +168,8 @@
         </h4>
         <p>
         <!-- https://rbdigital.com/ -->
-          Download audio books and magazines directly to your computer, phone, or portable music player. 
-          Listen at home or on the go. 
+          Download audio books and magazines directly to your computer, phone, or portable music player.
+          Listen at home or on the go.
           <a href="/eaudio/">More about eAudio at the library &rarr;</a><br/>
           <a href="/emagazines/">More about eMagazines at the library &rarr;</a>
         </p>
@@ -179,11 +178,11 @@
           <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.ocd&hl=en">Android &rarr;</a>
         </p>
         <a rel="external" href="http://spokanewa.oneclickdigital.com/DesktopAppInstaller/oneclickdigitalmedia/OneClickdigital%20Media%20Manager%20Installer.exe">Windows Desktop</a>
-        | 
+        |
         <a rel="external" href="https://itunes.apple.com/us/app/oneclickdigital-media-manager/id491365225?ls=1&mt=12">Mac Desktop</a>
-        | 
+        |
         <a rel="external" href="http://www.amazon.com/Recorded-Books-OneClickdigital/dp/B009GLFOL4/">Kindle Fire</a>
-        <!-- | 
+        <!-- |
         <a rel="external" href="http://www.barnesandnoble.com/w/oneclickdigital-recorded-books/1115073231?ean=2940147119860">Nook</a> -->
       </div>
     </div> <!-- /.media -->
@@ -198,8 +197,8 @@
           <em>OneClick:</em> Audio Books
         </h4>
         <p>
-          Download audio books directly to your computer or portable music player. 
-          Listen at home or on the go. 
+          Download audio books directly to your computer or portable music player.
+          Listen at home or on the go.
           <a href="/eaudio/">More about eAudio at the library &rarr;</a>
         </p>
         <p>
@@ -207,11 +206,11 @@
           <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.ocd&hl=en">Android &rarr;</a>
         </p>
         <a rel="external" href="http://spokanewa.oneclickdigital.com/DesktopAppInstaller/oneclickdigitalmedia/OneClickdigital%20Media%20Manager%20Installer.exe">Windows Desktop</a>
-        | 
+        |
         <a rel="external" href="https://itunes.apple.com/us/app/oneclickdigital-media-manager/id491365225?ls=1&mt=12">Mac Desktop</a>
-        | 
+        |
         <a rel="external" href="http://www.amazon.com/Recorded-Books-OneClickdigital/dp/B009GLFOL4/">Kindle Fire</a>
-        | 
+        |
         <a rel="external" href="http://www.barnesandnoble.com/w/oneclickdigital-recorded-books/1115073231?ean=2940147119860">Nook</a>
       </div>
     </div> --><!-- /.media -->
@@ -226,8 +225,8 @@
           <em>Zinio:</em> Magazines
         </h4>
         <p>
-          Zinio online magazine service lets you download some of the most popular current magazines to your computer or mobile device. 
-          There are no limits or expiration dates for checked out magazines. 
+          Zinio online magazine service lets you download some of the most popular current magazines to your computer or mobile device.
+          There are no limits or expiration dates for checked out magazines.
           <a href="/emagazines/">More about eMagazines at the library &rarr;</a>
         </p>
         <p>
@@ -294,7 +293,7 @@
         <a rel="external" href="http://appworld.blackberry.com/webstore/content/36248891/?lang=en&countrycode=CA">Blackberry</a>
         |
         <a rel="external" href="http://www.printeron.com/apps/mobile-printing-apps/kindle-printing-app.html">Kindle</a>
-        | 
+        |
         <a rel="external" href="http://www.barnesandnoble.com/w/printeron-printeron-inc/1117005187?ean=2940147151310">Nook</a>
       </div>
     </div><!-- /.media -->
