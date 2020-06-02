@@ -50,6 +50,46 @@
       </div>
     </div><!-- /.media -->
 
+   <p id="kanopy">&nbsp;</p>
+    <div class="media">
+      <span class="media-object pull-left">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/kanopy.png">
+      </span>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <em>Kanopy:</em> Streaming movies &amp; more
+        </h4>
+        <p>
+			Description here.
+        </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="https://apps.apple.com/us/app/kanopy/id1205614510">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.kanopy&amp;hl=en">Android &rarr;</a>
+        </p>
+      </div>
+    </div><!-- /.media -->
+
+  <div class="panel-body">
+    <p id="hoopla">&nbsp;</p>
+    <div class="media">
+      <span class="media-object pull-left">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/hoopla.png">
+      </span>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <em>Hoopla:</em> Streaming movies &amp; more
+        </h4>
+        <p>
+          <b>is the library’s streaming media service, featuring movies, ebooks, comics, audiobooks, and music.</b>
+        </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/hoopla-digital/id580643740">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.hoopladigital.android ">Android &rarr;</a>
+        </p>
+        <a rel="external" href="http://www.amazon.com/Hoopla-Digital/dp/B00JMRGQHI">Kindle</a>
+      </div>
+    </div><!-- /.media -->
+
     <p id="kindle">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
