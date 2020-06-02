@@ -29,61 +29,6 @@
       </div>
     </div><!-- /.media -->
 
-    <div class="panel-body">
-    <p id="hoopla">&nbsp;</p>
-    <div class="media">
-      <span class="media-object pull-left">
-        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/hoopla.png">
-      </span>
-      <div class="media-body">
-        <h4 class="media-heading">
-          <em>Hoopla:</em> Streaming movies &amp; more
-        </h4>
-        <p>
-          <b>is the library’s streaming media service, featuring movies, ebooks, comics, audiobooks, and music.</b>
-        </p>
-        <p>
-          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/hoopla-digital/id580643740">iOS &rarr;</a>
-          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.hoopladigital.android ">Android &rarr;</a>
-        </p>
-        <a rel="external" href="http://www.amazon.com/Hoopla-Digital/dp/B00JMRGQHI">Kindle</a>
-      </div>
-    </div><!-- /.media -->
-
-    <p id="overdrive">&nbsp;</p>
-    <div class="media">
-      <span class="media-object pull-left">
-        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/overdrive.png">
-      </span>
-      <div class="media-body">
-        <h4 class="media-heading">
-          <em>OverDrive:</em> eBooks
-        </h4>
-        <p>
-          Borrow eBooks to read on your computer, smart phone, tablet, or dedicated eBook reader.
-          When possible, we attempt to provide titles in PDF or ePUB as well as AZW (Kindle) formats.
-          <a href="/ebooks/">More about eBooks at the library &rarr;</a>
-        </p>
-        <p>
-          <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/overdrive-media-console/id366869252">iOS &rarr;</a>
-          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.overdrive.mobile.android.mediaconsole">Android &rarr;</a>
-        </p>
-
-        <a rel="external" href="https://www.windowsphone.com/en-us/store/app/overdrive-media-console/637433e5-1392-e011-9210-002264c2fb72">Windows Phone</a>
-        |
-        <a rel="external" href="https://www.amazon.com/OverDrive-Media-Console-Library-Audiobooks/dp/B00850NK6I/">Kindle</a>
-        |
-        <a rel="external" href="https://www.barnesandnoble.com/w/overdrive-overdrive-inc/1120365790?ean=2940043354334&isbn=2940043354334">Nook</a>
-        |
-        <a rel="external" href="http://app.overdrive.com/downloads/ODMediaConsoleSetup.dmg">Mac <small class="text-muted">(.dmg)</small></a>
-        |
-        <a rel="external" href="http://app.overdrive.com/downloads/ODMediaConsoleSetup.msi">Windows <small class="text-muted">(.msi)</small></a>
-        |
-        <a rel="external" href="http://apps.microsoft.com/windows/en-US/app/overdrive-media-console/0c1b24d6-bf93-44da-90fb-601c6a99e379">Windows 8</a>
-
-      </div>
-    </div><!-- /.media -->
-
     <p id="kindle">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
