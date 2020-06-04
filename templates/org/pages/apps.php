@@ -60,7 +60,7 @@
           <em>Kanopy:</em> Streaming movies &amp; more
         </h4>
         <p>
-			Description here.
+			Kanopy is an on-demand streaming video platform that offers films and documentaries.
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://apps.apple.com/us/app/kanopy/id1205614510">iOS &rarr;</a>
@@ -287,6 +287,3 @@
 
   </div><!-- /.panel-body -->
 </div><!-- /.panel -->
-
-
-
