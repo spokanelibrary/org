@@ -50,28 +50,10 @@ Template Name: Home Page
 
       <div class="clearfix visible-sm"></div>
 
-      <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-9 spl-hero-calendar">
-
-          <!--<h4 class="text-center hero-heading" style="">
-            <i class="glyphicon glyphicon-calendar"></i>
-            Upcoming Events
-          </h4>
-<script type='text/javascript' src='//www.trumba.com/scripts/spuds.js?ver=4.7.8'></script>
-<script type="text/javascript">
-$Trumba.addSpud({
-webName: "spls-calendar",
-spudType : "upcoming" ,
-teaserBase : "https://www.spokanelibrary.org/calendar/"
-});
-</script>-->
-     <!--        <?php echo do_shortcode('[spl_widget home-page carousel pause control calendar embedded]'); ?>
-            <div class="calendar-promo">
-              <h5 class="text-center">
-                <a href="/calendar/">Full Calendar <span class="text-muted">&rarr;</span></a>
-              </h5>
-            </div> -->
-        <a href="http://bookings.spokanelibrary.org/reserve"><img src="/assets/img/promos/MeetingRoom.png" class="img-responsive"alt="Book a meeting room"></a>
-        <a href="https://www.spokanelibrary.org/calendar/"><img src="/assets/img/promos/Calendar.png" class="img-responsive" alt="Upcoming events and programs"></a>
+      <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-9 hidden-xs spl-hero-calendar">
+        <a href="http://bookings.spokanelibrary.org/reserve"><img src="/assets/img/promos/MeetingRoomButton2.png" class="img-responsive"alt="Book a meeting room"></a>
+        <a href="https://www.spokanelibrary.org/calendar/"><img src="/assets/img/promos/CalendarButton2.png" class="img-responsive" alt="Upcoming events and programs"></a>
+        <a href="https://www.spokanelibrary.org/calendar/"><img src="/assets/img/promos/CurbsideButton.png" class="img-responsive" alt="Schedule curbside pickup"></a>
       </div>
 
       <div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3">
