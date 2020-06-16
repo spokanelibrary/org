@@ -53,7 +53,7 @@ Template Name: Home Page
       <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-9 hidden-xs spl-hero-calendar">
         <a href="http://bookings.spokanelibrary.org/reserve"><img src="/assets/img/promos/MeetingRoomButton2.png" class="img-responsive"alt="Book a meeting room"></a>
         <a href="https://www.spokanelibrary.org/calendar/"><img src="/assets/img/promos/CalendarButton2.png" class="img-responsive" alt="Upcoming events and programs"></a>
-        <a href="https://www.spokanelibrary.org/calendar/"><img src="/assets/img/promos/CurbsideButton.png" class="img-responsive" alt="Schedule curbside pickup"></a>
+        <a href="https://www.spokanelibrary.org/curbside/"><img src="/assets/img/promos/CurbsideButton.png" class="img-responsive" alt="Schedule curbside pickup"></a>
       </div>
 
       <div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3">
