@@ -7,7 +7,7 @@
     How do I schedule a curbside pickup?
     </h4>
     <p>
-    Request materials using our online catalog. When notified that your items are ready, schedule a curbside pickup appointment. Read our Curbside Pickup FAQ here.
+    Request materials using our </a href="https://www.spokanelibrary.org/catalog">online catalog</a>. When notified that your items are ready, schedule a <a href="https://spokanelibrary.libnet.info/v/assets/55">curbside pickup</a> appointment. Read our <a href="https://www.spokanelibrary.org/wordpress/wp-content/uploads/FAQ_Curbside-Pickup-_Public-Version.pdf">Curbside Pickup FAQ here</a>.
     </p>
     <h4>
     Why are materials still showing as checked out on my account? I returned them several days ago.
