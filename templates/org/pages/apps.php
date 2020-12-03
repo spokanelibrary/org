@@ -121,13 +121,12 @@
       </span>
       <div class="media-body">
         <h4 class="media-heading">
-          <em>RB Digital:</em> Audio Books and Magazines
+          <em>RB Digital:</em> Magazines
         </h4>
         <p>
         <!-- https://rbdigital.com/ -->
-          Download audio books and magazines directly to your computer, phone, or portable music player.
-          Listen at home or on the go.
-          <a href="/eaudio/">More about eAudio at the library &rarr;</a><br/>
+          Download magazines directly to your computer, phone, or tablet.
+          Read at home or on the go.
           <a href="/emagazines/">More about eMagazines at the library &rarr;</a>
         </p>
         <p>
