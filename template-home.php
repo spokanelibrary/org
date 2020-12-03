@@ -113,7 +113,8 @@ Template Name: Home Page
   <div class="col-sm-2 spl-digital-library">
     <h5>Audiobooks</h5>
     <ul>
-      <li><a href="https://www.rbdigital.com/spokanelibrarywa/service/magazines/landing/">RBDigital</a></li>
+      <li><a href="https://spokanelibrary.overdrive.com">Overdrive</a></li>
+	  <li><a href="https://www.spokanelibrary.org/apps/#libby">Libby (app)</a></li>
       <li><a href="http://hoopladigital.com/">hoopla</a></li>
     </ul>
   </div>
