@@ -170,6 +170,41 @@
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
 
+    <div class="col-md-6">
+		<div class="panel panel-primary" style="border-width-left:5px;">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<i class="glyphicon glyphicon-book"></i> 
+					eBooks
+				</h4>
+			</div><!-- /.panel-heading -->
+			<div class="panel-body">
+				<div class="media">
+				  <a class="pull-left" href="/tumblebook/">
+				  	<span class="media-object">
+				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/tumblebook.png">
+				  	</span>
+					</a>
+				  <div class="media-body">
+				    <h4 class="media-heading">
+				    	<a href="http://www.tumblebooklibrary.com/autologin.aspx?userid=NIjvaAHfTSkSZvMJikB5Fg%3d%3d"><em>Tumblebook:</em> Streaming Children's Books</a>
+				    </h4>
+				    <p>
+				    	Stream animated, talking children's books from any internet enabled device. 
+				  	</p>
+				  	<p>
+							Tumblebook library includes children's fiction, non-fiction, foreign language titles and much more. 
+ 						</p>
+ 						<div class="btn-group btn-group-justified">
+ 							<a class="btn btn-primary" href="/tumblebook/">Learn more &rarr;</a>
+ 							<a class="btn btn-success" href="/tumblebook">No app required &rarr;</a> 
+ 						</div>
+				  </div>
+				</div><!-- /.media -->
+			</div><!-- /.panel-body -->
+		</div><!-- /.panel -->
+	</div><!-- /.col -->	
+
 	<div class="clearfix"></div>
 
 	<div class="col-md-6">
@@ -207,42 +242,6 @@
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
 	
-    
-    
-    	<div class="col-md-6">
-		<div class="panel panel-primary" style="border-width-left:5px;">
-			<div class="panel-heading">
-				<h4 class="panel-title">
-					<i class="glyphicon glyphicon-book"></i> 
-					eBooks
-				</h4>
-			</div><!-- /.panel-heading -->
-			<div class="panel-body">
-				<div class="media">
-				  <a class="pull-left" href="/tumblebook/">
-				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/tumblebook.png">
-				  	</span>
-					</a>
-				  <div class="media-body">
-				    <h4 class="media-heading">
-				    	<a href="http://www.tumblebooklibrary.com/autologin.aspx?userid=NIjvaAHfTSkSZvMJikB5Fg%3d%3d"><em>Tumblebook:</em> Streaming Children's Books</a>
-				    </h4>
-				    <p>
-				    	Stream animated, talking children's books from any internet enabled device. 
-				  	</p>
-				  	<p>
-							Tumblebook library includes children's fiction, non-fiction, foreign language titles and much more. 
- 						</p>
- 						<div class="btn-group btn-group-justified">
- 							<a class="btn btn-primary" href="/tumblebook/">Learn more &rarr;</a>
- 							<a class="btn btn-success" href="/tumblebook">No app required &rarr;</a> 
- 						</div>
-				  </div>
-				</div><!-- /.media -->
-			</div><!-- /.panel-body -->
-		</div><!-- /.panel -->
-	</div><!-- /.col -->	
 <div class="clearfix"></div>
     
     
