@@ -36,11 +36,12 @@
       </span>
       <div class="media-body">
         <h4 class="media-heading">
-          <em>Libby:</em> eBooks
+          <em>Libby:</em> eBooks and Audiobooks
         </h4>
         <p>
-          Get Libby, a fresh and easy way to borrow and read OverDrive ebooks.
+          Get Libby, a fresh and easy way to borrow eBooks and audiobooks.
           <a href="/ebooks/">More about eBooks at the library &rarr;</a>
+		  <a href="/eaudio/">More about eAudio at the library &rarr;</a><br/>
         </p>
         <p>
           <a rel="external" class="btn btn-info" href="https://itunes.apple.com/us/app/libby-by-overdrive-labs/id1076402606?mt=8&utm_medium=lightning_banner&utm_source=lightning&utm_campaign=libby">iOS &rarr;</a>
@@ -125,8 +126,7 @@
         </h4>
         <p>
         <!-- https://rbdigital.com/ -->
-          Download magazines directly to your computer, phone, or tablet.
-          Read at home or on the go.
+          Read magazines on your computer or device.
           <a href="/emagazines/">More about eMagazines at the library &rarr;</a>
         </p>
         <p>
