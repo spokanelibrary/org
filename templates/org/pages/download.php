@@ -105,33 +105,30 @@
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<i class="glyphicon glyphicon-cloud-download"></i> 
-					eBooks
+					eBooks and Audiobooks
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
-				  <a class="pull-left" href="/ebooks/">
+				  <a class="pull-left" href="https://meet.libbyapp.com/">
 				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/overdrive.png">
+				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/libby.png">
 				  	</span>
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="https://spokanelibrary.overdrive.com"><em>OverDrive:</em> eBook Downloads</a>
+				    	<a href="https://meet.libbyapp.com/"><em>OverDrive/Libby:</em> eBook and Audiobook Downloads</a>
 				    </h4>
 				    <p>
-				    	We have several options for books you can read on your computer, smart phone, tablet, or dedicated eBook reader. 
+				    	Read ebooks or listen to audiobooks on your computer or device.
 				  	</p>
-				  	<p>
-							eBook formats vary by publisher. 
-							When possible, we attempt to provide titles in PDF or ePUB as well as AZW (Kindle) formats. 
- 						</p>
+					
  						<div class="btn-group btn-group-justified">
- 							<a class="btn btn-primary" href="/ebooks/">Learn more &rarr;</a>
- 							<a class="btn btn-success" href="/apps/#overdrive">Get the app &rarr;</a> 
+ 							<a class="btn btn-primary" href="https://meet.libbyapp.com/">Learn more &rarr;</a>
+ 							<a class="btn btn-success" href="/apps#libby">Get the app &rarr;</a> 
  						</div>
 				  </div>
-				</div><!-- /.media -->
+				</div><!--	/.media -->
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
@@ -169,65 +166,6 @@
  						</div>
 				  </div>
 				</div><!-- /.media -->
-			</div><!-- /.panel-body -->
-		</div><!-- /.panel -->
-	</div><!-- /.col -->
-
-
-	<div class="col-md-6">
-		<div class="panel panel-primary" style="border-width-left:5px;">
-			<div class="panel-heading">
-				<h4 class="panel-title">
-					<i class="glyphicon glyphicon-cloud-download"></i> 
-					Audiobooks
-				</h4>
-			</div><!-- /.panel-heading -->
-			<div class="panel-body">
-				<div class="media">
-				  <a class="pull-left" href="https://meet.libbyapp.com/">
-				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/libby.png">
-				  	</span>
-					</a>
-				  <div class="media-body">
-				    <h4 class="media-heading">
-				    	<a href="https://meet.libbyapp.com/"><em>Libby:</em> Audiobook Downloads</a>
-				    </h4>
-				    <p>
-				    	Get Libby, a fresh and easy way to borrow and listen to audiobooks.
-				  	</p>
-					<p>
-						These recordings are a great alternative to books on CD and are compatible with iPods, smartphones, and tablets.
- 					</p>
-					
- 						<div class="btn-group btn-group-justified">
- 							<a class="btn btn-primary" href="https://meet.libbyapp.com/">Learn more &rarr;</a>
- 							<a class="btn btn-success" href="/apps#libby">Get the app &rarr;</a> 
- 						</div>
-				  </div>
-				</div><!--	/.media -->
-				<!--<div class="media">
-				  <a class="pull-left" href="/eaudio/">
-				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/rbdigital.png">
-				  	</span>
-					</a>
-				  <div class="media-body">
-				    <h4 class="media-heading">
-				    	<a href="https://spokanewa.oneclickdigital.com"><em>RBDigital:</em> Audiobook Downloads</a>
-				    </h4>
-				    <p>
-				    	Download audiobooks directly to your computer, mobile device, or iPod. 
-				  	</p>
-				  	<p>
-							These recordings are a great alternative to books on CD and are compatible with iPods, smartphones, and tablets.
- 						</p>
- 						<div class="btn-group btn-group-justified">
- 							<a class="btn btn-primary" href="/eaudio/">Learn more &rarr;</a>
- 							<a class="btn btn-success" href="/apps/#oneclick">Get the app &rarr;</a> 
- 						</div>
-				  </div>
-				</div>--> <!-- /.media -->
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
