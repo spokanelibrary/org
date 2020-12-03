@@ -304,40 +304,8 @@
 				</div><!-- /.media -->
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
-	</div><!-- /.col -->
-    
-    	<div class="col-md-6">
-		<div class="panel panel-primary" style="border-width-left:5px;">
-			<div class="panel-heading">
-				<h4 class="panel-title">
-					<i class="glyphicon glyphicon-book"></i> 
-					eBooks
-				</h4>
-			</div><!-- /.panel-heading -->
-			<div class="panel-body">
-				<div class="media">
-				  <a class="pull-left" href="https://meet.libbyapp.com/">
-				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/libby.png">
-				  	</span>
-					</a>
-				  <div class="media-body">
-				    <h4 class="media-heading">
-				    	<a href="https://meet.libbyapp.com/"><em>Libby:</em> eBook Downloads</a>
-				    </h4>
-				    <p>
-				    	Get Libby, a fresh and easy way to borrow and read OverDrive ebooks 
-				  	</p>
- 						<div class="btn-group btn-group-justified">
- 							<a class="btn btn-primary" href="https://meet.libbyapp.com/">Learn more &rarr;</a>
- 							<a class="btn btn-success" href="/apps#libby">Get the app &rarr;</a> 
- 						</div>
-				  </div>
-				</div><!-- /.media -->
-			</div><!-- /.panel-body -->
-		</div><!-- /.panel -->
-	</div><!-- /.col -->
-    <div class="clearfix"></div>
+	</div><!-- /.col -->	
+<div class="clearfix"></div>
     
     
     
