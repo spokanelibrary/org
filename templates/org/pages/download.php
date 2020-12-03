@@ -184,6 +184,29 @@
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
 				<div class="media">
+				  <a class="pull-left" href="https://meet.libbyapp.com/">
+				  	<span class="media-object">
+				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/libby.png">
+				  	</span>
+					</a>
+				  <div class="media-body">
+				    <h4 class="media-heading">
+				    	<a href="https://meet.libbyapp.com/"><em>Libby:</em> Audiobook Downloads</a>
+				    </h4>
+				    <p>
+				    	Get Libby, a fresh and easy way to borrow and listen to audiobooks.
+				  	</p>
+					<p>
+						These recordings are a great alternative to books on CD and are compatible with iPods, smartphones, and tablets.
+ 					</p>
+					
+ 						<div class="btn-group btn-group-justified">
+ 							<a class="btn btn-primary" href="https://meet.libbyapp.com/">Learn more &rarr;</a>
+ 							<a class="btn btn-success" href="/apps#libby">Get the app &rarr;</a> 
+ 						</div>
+				  </div>
+				</div><!--	/.media -->
+				<!--<div class="media">
 				  <a class="pull-left" href="/eaudio/">
 				  	<span class="media-object">
 				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/rbdigital.png">
@@ -204,7 +227,7 @@
  							<a class="btn btn-success" href="/apps/#oneclick">Get the app &rarr;</a> 
  						</div>
 				  </div>
-				</div><!-- /.media -->
+				</div>--> <!-- /.media -->
 			</div><!-- /.panel-body -->
 		</div><!-- /.panel -->
 	</div><!-- /.col -->
