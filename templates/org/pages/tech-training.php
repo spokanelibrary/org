@@ -29,15 +29,11 @@
 	</div><!-- /.col -->
 	<div class="col-md-6">
 		<p>
-			<a href="/gale-courses/"><img src="/assets/img/logos/galecourses.png"></a>
+			<a href="https://link.gale.com/apps/UDEMY?u=splbt_main"><img src="/assets/img/logos/udemy-web.png"></a>
 		</p>
-		<h5>Gale Courses</h5>
+		<h5>Gale Presents: Udemy</h5>
 		<p>
-			Highly interactive courses taught entirely online by college instructors and experts in the field, ensuring a high-quality, high-impact educational experience.
-		</p>
-		<p>
-			<a class="btn btn-block btn-info" 
-					href="/gale-courses/">More about <b>Gale Courses</b> &rarr;</a>
+			Learn and improve skills across business, tech, design, and more. Includes 6,000+ on-demand video courses in multiple languages.
 		</p>
 	</div><!-- /.col -->
 </div><!-- /.row -->
