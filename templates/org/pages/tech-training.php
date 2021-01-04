@@ -35,6 +35,10 @@
 		<p>
 			Learn and improve skills across business, tech, design, and more. Includes 6,000+ on-demand video courses in multiple languages.
 		</p>
+		<p>
+			<a class="btn btn-block btn-info" 
+					href="https://link.gale.com/apps/UDEMY?u=splbt_main">Click here to go to<b>Gale Presents: Udemy</b> &rarr;</a>
+		</p>
 	</div><!-- /.col -->
 </div><!-- /.row -->
 <hr>
