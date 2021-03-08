@@ -105,7 +105,7 @@
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<i class="glyphicon glyphicon-cloud-download"></i> 
-					eBooks and Audiobooks
+					eBooks, Magazines, and Audiobooks
 				</h4>
 			</div><!-- /.panel-heading -->
 			<div class="panel-body">
@@ -117,7 +117,7 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="https://meet.libbyapp.com/"><em>OverDrive/Libby:</em> eBook and Audiobook Downloads</a>
+				    	<a href="https://meet.libbyapp.com/"><em>OverDrive/Libby:</em> eBook, Magazine, and Audiobook Downloads</a>
 				    </h4>
 				    <p>
 				    	Read ebooks or listen to audiobooks on your computer or device.
@@ -207,42 +207,6 @@
 
 	<div class="clearfix"></div>
 
-	<div class="col-md-6">
-		<div class="panel panel-primary" style="border-width-left:5px;">
-			<div class="panel-heading">
-				<h4 class="panel-title">
-					<i class="glyphicon glyphicon-cloud-download"></i> 
-					Magazines
-				</h4>
-			</div><!-- /.panel-heading -->
-			<div class="panel-body">
-				<div class="media">
-				  <a class="pull-left" href="/emagazines/">
-				  	<span class="media-object">
-				  		<img alt="" class="img-rounded" style="width: 60px; height: 60px;" src="/assets/img/icons/apps/rbdigital.png">
-				  	</span>
-					</a>
-				  <div class="media-body">
-				    <h4 class="media-heading">
-				    	<a href="https://www.rbdigital.com/spokanelibrarywa/service/zinio/landing/"><em>RBDigital:</em> Magazine Downloads</a>
-				    </h4>
-				    <p>
-				    	Download current magazines from the Library's digital collection using your desktop or mobile device. 
-				  	</p>
-				  	<p>
-							There are no limits or expiration dates. Apps are available for most platforms. 
- 						</p>
- 						<div class="btn-group btn-group-justified">
- 							<a class="btn btn-primary" href="/emagazines/">Learn more &rarr;</a>
- 							<a class="btn btn-success" href="/apps/#rbdigital">Get the app &rarr;</a> 
- 						</div>
-				  </div>
-				</div><!-- /.media -->
-			</div><!-- /.panel-body -->
-		</div><!-- /.panel -->
-	</div><!-- /.col -->
-	
-<div class="clearfix"></div>
     
     
     
