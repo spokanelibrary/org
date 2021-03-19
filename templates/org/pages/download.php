@@ -117,14 +117,14 @@
 					</a>
 				  <div class="media-body">
 				    <h4 class="media-heading">
-				    	<a href="https://meet.libbyapp.com/"><em>OverDrive/Libby:</em> eBook, Magazine, and Audiobook Downloads</a>
+				    	<a href="https://spokanelibrary.overdrive.com/"><em>OverDrive/Libby:</em> eBook, Magazine, and Audiobook Downloads</a>
 				    </h4>
 				    <p>
 				    	Read ebooks or listen to audiobooks on your computer or device.
 				  	</p>
 					
  						<div class="btn-group btn-group-justified">
- 							<a class="btn btn-primary" href="https://meet.libbyapp.com/">Learn more &rarr;</a>
+ 							<a class="btn btn-primary" href="https://spokanelibrary.overdrive.com/">Learn more &rarr;</a>
  							<a class="btn btn-success" href="/apps#libby">Get the app &rarr;</a> 
  						</div>
 				  </div>
