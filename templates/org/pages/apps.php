@@ -115,6 +115,26 @@
       </div>
     </div><!-- /.media -->
 
+<!-- Gale Presents: Udemy -->
+<p id="oneclick">&nbsp;</p>
+ <div class="media">
+      <span class="media-object pull-left">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/udemy-icon.png">
+      </span>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <em>Gale Presents:</em> Udemy
+        </h4>
+        <p>
+          Learn and improve skills across business, tech, design, and more. Includes 6,000+ on-demand video courses in multiple languages. Read these instructions on how to access Gale presents: Udemy after downloading the app.
+        </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="https://apps.apple.com/us/app/udemy-for-business/id954570581">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.udemy.android.ufb&amp;hl=en_US&amp;gl=US">Android &rarr;</a>
+        </p>
+      </div>
+    </div> <!-- /.media -->
+
         <p id="oneclick">&nbsp;</p>
     <div class="media">
       <span class="media-object pull-left">
