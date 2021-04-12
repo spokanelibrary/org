@@ -76,7 +76,7 @@
                 <a href="/wifi/">Free WiFi</a>
               </li>
               <li>
-                <a href="/computers/">Reserve a Computer</a>
+                <a href="https://epay.spokanelibrary.org/scripts/pcres/reserve.pl">Reserve a Computer</a>
               </li>
               <li>
                 <a href="/printing/">Print / Fax / Scan</a>
