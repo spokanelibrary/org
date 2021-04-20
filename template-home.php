@@ -128,7 +128,8 @@ Template Name: Home Page
   <div class="col-sm-2 spl-digital-library">
     <h5>Magazines</h5>
     <ul>
-      <li><a href="https://spokanelibrary.overdrive.com/library/magazines">Libby/Overdrive</a></li>
+      <li><a href="https://spokanelibrary.overdrive.com/library/magazines">Overdrive</a></li>
+	  <li><a href="https://www.spokanelibrary.org/apps/#libby">Libby (app)</a></li>	 
     </ul>
   </div>
   <div class="col-sm-2 spl-digital-library">
