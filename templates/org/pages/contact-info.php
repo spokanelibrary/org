@@ -1,7 +1,7 @@
-<div class="panel panel-primary">
+<!-- <div class="panel panel-primary">
   <div class="panel-heading">
     <h4>FAQ</h4>
-  </div><!-- /.panel-heading -->
+  </div>--><!-- /.panel-heading --><!--
   <div class="panel-body">
     <h4>
     How do I schedule a curbside pickup?
@@ -21,8 +21,8 @@
     <p>
     Libraries are listed in Phase 3 of Washington State&quot;s reopening plans. The date for reopening has not been determined.
     </p>
-  </div><!-- /.panel-body -->
-</div><!-- /.panel -->
+  </div>--><!-- /.panel-body --><!--
+</div>--><!-- /.panel -->
 
   <div class="panel panel-primary">
   <div class="panel-heading">
