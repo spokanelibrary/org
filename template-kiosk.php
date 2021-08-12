@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Kiosk Mode
+Template Name: Kiosk Mode 
 */
 ?>
 
