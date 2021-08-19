@@ -302,6 +302,25 @@
       </div>
     </div><!-- /.media -->
 
+	<p id="smartalec">&nbsp;</p>
+    <div class="media">
+      <span class="media-object pull-left">
+        <img class="img-rounded img-responsive" style="width:57px; height:57px;" src="/assets/img/icons/apps/smartalec.png">
+      </span>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <em>SmartAlec</em> Print from your mobile device at all library locations
+        </h4>
+        <p>
+           Print from your phone or tablet to any SmartAlec-enabled printer regardless of network or location.
+        </p>
+        <p>
+          <a rel="external" class="btn btn-info" href="https://apps.apple.com/us/app/smart-alec-your-library/id895438141">iOS &rarr;</a>
+          <a rel="external" class="btn btn-success" href="https://play.google.com/store/apps/details?id=comprise.online.smartalec">Android &rarr;</a>
+        </p>
+      </div>
+    </div><!-- /.media -->
+
     <p id="">&nbsp;</p>
 
   </div><!-- /.panel-body -->
